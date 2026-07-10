@@ -1,5 +1,5 @@
 {
-  "checksum": "ccd53fe20ee87e747047e91577da1d2c",
+  "checksum": "499a396f68dbdd0d50556218ff49216c",
   "room": {
     "id": 2428,
     "title": [
@@ -19,10 +19,14 @@
     "climate": "cold, dry",
     "terrain": "hard, flat",
     "wayto": {
+      "285": "/rooms/2428/wayto/stringproc-285.rb",
+      "1448": "/rooms/2428/wayto/stringproc-1448.rb",
       "2427": "north",
       "21689": "go hall"
     },
     "timeto": {
+      "285": "/rooms/2428/timeto/stringproc-285.rb",
+      "1448": "/rooms/2428/timeto/stringproc-1448.rb",
       "2427": 0.2,
       "21689": 0.2
     },

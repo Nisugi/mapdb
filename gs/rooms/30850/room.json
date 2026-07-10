@@ -1,5 +1,5 @@
 {
-  "checksum": "d564a33e2e4ae2fb23dd735501b08e21",
+  "checksum": "d6e0def9aba2b66ab20336a2fabdc1d1",
   "room": {
     "id": 30850,
     "title": [
@@ -17,21 +17,23 @@
     "terrain": "riparian",
     "wayto": {
       "30845": "north",
-      "30851": "/rooms/30850/wayto/stringproc-30851.rb"
+      "30851": "/rooms/30850/wayto/stringproc-30851.rb",
+      "33709": "/rooms/30850/wayto/stringproc-33709.rb"
     },
     "timeto": {
       "30845": 0.2,
-      "30851": 10
+      "30851": 10,
+      "33709": "/rooms/30850/timeto/stringproc-33709.rb"
     },
     "tags": [
       "atoll barrier",
-      "yabathilium fruit",
-      "strand of seaweed",
-      "murdroot",
-      "wavepetal blossom",
-      "meta:forage-sensed",
       "blackened moss",
-      "meta:forage-sensed:day:2026-01"
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-01",
+      "murdroot",
+      "strand of seaweed",
+      "wavepetal blossom",
+      "yabathilium fruit"
     ],
     "uid": [
       7138115
