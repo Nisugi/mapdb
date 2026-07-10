@@ -46,6 +46,7 @@ jobs:
     outputs:
       proc_changes: ${{ steps.normalize.outputs.proc_changes }}
       effective: ${{ steps.normalize.outputs.effective }}
+      stale: ${{ steps.stale.outputs.stale }}
     steps:
       - name: Checkout PR head (data only - never executed)
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
@@ -84,6 +85,53 @@ jobs:
             echo "$CHANGED_FILES" | tr ' ' '\n'
           else
             echo "No room files changed"
+          fi
+
+      - name: Stale-baseline check
+        id: stale
+        if: steps.changed-files.outputs.count > 0
+        env:
+          # Attacker-controlled on pull_request_target - must come in via env,
+          # never interpolated into the script.
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          # Submissions are whole-room replacements serialized from the
+          # submitter's installed release. If a submitted room changed on
+          # main AFTER that baseline (a concurrent edit by someone else),
+          # merging as-is would silently revert the newer edit. Releases
+          # correspond to git tags, so this is a per-room blob comparison:
+          # room at the baseline tag vs room on main today.
+          git fetch origin --tags --quiet || true
+
+          BASELINE=$(printf '%s' "$PR_BODY" | grep -oE 'baseline v[0-9]+\.[0-9]+\.[0-9]+' | head -1 | sed 's/baseline //')
+          if [ -z "$BASELINE" ]; then
+            echo "No baseline version in the PR body - concurrent-edit safety cannot be verified."
+            echo "stale=unknown" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          if ! git rev-parse -q --verify "refs/tags/$BASELINE" >/dev/null; then
+            echo "Baseline tag $BASELINE not found in this repo."
+            echo "stale=unknown" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          echo "baseline=$BASELINE" >> $GITHUB_OUTPUT
+
+          : > stale-rooms.txt
+          for f in ${{ steps.changed-files.outputs.files }}; do
+            AT_TAG=$(git rev-parse -q --verify "$BASELINE:$f" 2>/dev/null || echo missing)
+            AT_MAIN=$(git rev-parse -q --verify "origin/main:$f" 2>/dev/null || echo missing)
+            if [ "$AT_TAG" != "$AT_MAIN" ]; then
+              echo "$f" >> stale-rooms.txt
+            fi
+          done
+
+          if [ -s stale-rooms.txt ]; then
+            echo "stale=true" >> $GITHUB_OUTPUT
+            echo "Rooms changed on main since baseline $BASELINE:"
+            cat stale-rooms.txt
+          else
+            echo "stale=false" >> $GITHUB_OUTPUT
+            echo "All submitted rooms are unchanged on main since baseline $BASELINE."
           fi
 
       - name: Normalize changed room files
@@ -154,17 +202,20 @@ jobs:
             } >> proc-report.md
           done
 
-      - name: Label StringProc changes
-        if: steps.normalize.outputs.proc_changes == 'true'
+      - name: Label StringProc / stale-baseline changes
+        if: steps.normalize.outputs.proc_changes == 'true' || steps.stale.outputs.stale == 'true'
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
         with:
           script: |
+            const labels = [];
+            if ('${{ steps.normalize.outputs.proc_changes }}' === 'true') labels.push('stringprocs');
+            if ('${{ steps.stale.outputs.stale }}' === 'true') labels.push('stale-baseline');
             await github.rest.issues.addLabels({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              labels: ['stringprocs']
-            }).catch(e => core.warning(`could not add label: ${e.message}`));
+              labels
+            }).catch(e => core.warning(`could not add labels: ${e.message}`));
 
       - name: Comment normalize results
         if: always() && steps.changed-files.outputs.count > 0
@@ -199,6 +250,17 @@ jobs:
               } else {
                 comment += 'Data-only change: no StringProc code is affected.\n\n';
               }
+              if ('${{ steps.stale.outputs.stale }}' === 'true') {
+                comment += '### ⚠️ Stale baseline - possible concurrent-edit revert\n\n';
+                comment += 'These rooms changed on `main` **after** this submission\'s baseline (`${{ steps.stale.outputs.baseline }}`). Because submissions replace the whole room file, merging as-is would revert those newer edits. A maintainer must reconcile before merge:\n\n';
+                try {
+                  const rooms = fs.readFileSync('stale-rooms.txt', 'utf8').trim().split('\n');
+                  rooms.forEach(r => { comment += `- \`${r}\`\n`; });
+                } catch (e) { core.warning(`no stale-rooms.txt: ${e.message}`); }
+                comment += '\n';
+              } else if ('${{ steps.stale.outputs.stale }}' === 'unknown') {
+                comment += '_Note: no baseline version could be determined for this PR, so concurrent-edit safety was not verified (auto-merge disabled)._\n\n';
+              }
             } else {
               comment += '❌ Submission failed to normalize - see the workflow log for the specific errors (invalid room data, dangling StringProc references, or path/id mismatches).\n\n';
             }
@@ -218,7 +280,7 @@ jobs:
   # with required status checks for --auto to be meaningful.
   auto-merge:
     needs: normalize-check
-    if: needs.normalize-check.outputs.proc_changes == 'false' && needs.normalize-check.outputs.effective == 'true' && vars.ENABLE_DATA_AUTO_MERGE == 'true'
+    if: needs.normalize-check.outputs.proc_changes == 'false' && needs.normalize-check.outputs.effective == 'true' && needs.normalize-check.outputs.stale == 'false' && vars.ENABLE_DATA_AUTO_MERGE == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: write
