@@ -1,4 +1,5 @@
 {
+  "checksum": "d437b381940d41fffd32edee2a0284b3",
   "room": {
     "id": 33709,
     "title": [
@@ -13,13 +14,13 @@
     "location": "Kraken's Fall",
     "wayto": {
       "29231": "out",
-      "30850": ";e Teleport.teleport(4)",
+      "30850": "/rooms/33709/wayto/stringproc-30850.rb",
       "33710": "go #-503729",
       "34090": "go wooden door"
     },
     "timeto": {
       "29231": 0.2,
-      "30850": ";e Teleport.timeto(from: 33709, to: 30850)",
+      "30850": "/rooms/33709/timeto/stringproc-30850.rb",
       "33710": 0.2,
       "34090": 0.2
     },
