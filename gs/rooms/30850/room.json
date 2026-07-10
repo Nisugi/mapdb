@@ -1,5 +1,4 @@
 {
-  "checksum": "d564a33e2e4ae2fb23dd735501b08e21",
   "room": {
     "id": 30850,
     "title": [
@@ -17,31 +16,33 @@
     "terrain": "riparian",
     "wayto": {
       "30845": "north",
-      "30851": "/rooms/30850/wayto/stringproc-30851.rb"
+      "30851": ";e Cartographer.evaluate_script('wayto/room-30850-to-30851.rb')",
+      "33709": ";e Teleport.teleport(5)"
     },
     "timeto": {
       "30845": 0.2,
-      "30851": 10
+      "30851": 10,
+      "33709": ";e Teleport.timeto(from: 30850, to: 33709)"
     },
-    "tags": [
-      "atoll barrier",
-      "yabathilium fruit",
-      "strand of seaweed",
-      "murdroot",
-      "wavepetal blossom",
-      "meta:forage-sensed",
-      "blackened moss",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      7138115
-    ],
     "image": "kf-atoll-1652294074.jpg",
     "image_coords": [
       287,
       160,
       318,
       189
+    ],
+    "tags": [
+      "atoll barrier",
+      "blackened moss",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-01",
+      "murdroot",
+      "strand of seaweed",
+      "wavepetal blossom",
+      "yabathilium fruit"
+    ],
+    "uid": [
+      7138115
     ]
   }
 }
