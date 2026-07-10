@@ -29,10 +29,12 @@ on:
       - reopened
 
 env:
-  # Source of the cartographer CLI. Replace with `bunx @elanthia/cartographer`
-  # once a release containing the `normalize` task is published to npm.
-  CARTOGRAPHER_REPO: Nisugi/cartographer
-  CARTOGRAPHER_REF: feat/normalize-task
+  # Source of the cartographer CLI (must contain the `normalize` task).
+  # Defaults to upstream; forks can point elsewhere via repository variables
+  # for rehearsal. Can move to `bunx @elanthia/cartographer` once a release
+  # containing the normalize task is published to npm.
+  CARTOGRAPHER_REPO: ${{ vars.CARTOGRAPHER_REPO || 'elanthia-online/cartographer' }}
+  CARTOGRAPHER_REF: ${{ vars.CARTOGRAPHER_REF || 'main' }}
 
 permissions:
   contents: read
@@ -43,6 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       proc_changes: ${{ steps.normalize.outputs.proc_changes }}
+      effective: ${{ steps.normalize.outputs.effective }}
     steps:
       - name: Checkout PR head (data only - never executed)
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
@@ -91,6 +94,19 @@ jobs:
 
           # Record what the post-merge canonicalization will change.
           git add -A gs
+
+          # Re-submission detection: clients diff against their installed
+          # RELEASE, so edits that already merged (but are not yet in a
+          # release) keep being re-submitted. After canonicalization, such a
+          # submission is byte-identical to main - flag it instead of
+          # churning the history with net-zero merge + normalize commits.
+          if git diff --quiet origin/main -- gs; then
+            echo "effective=false" >> $GITHUB_OUTPUT
+            echo "After canonicalization this submission is identical to main - nothing new to merge."
+          else
+            echo "effective=true" >> $GITHUB_OUTPUT
+          fi
+
           if git diff --cached --quiet; then
             echo "Submission is already canonical."
             echo "proc_changes=false" >> $GITHUB_OUTPUT
@@ -158,7 +174,9 @@ jobs:
             const fs = require('fs');
             let comment = '## Submission Normalize Check\n\n';
 
-            if ('${{ steps.normalize.outcome }}' === 'success') {
+            if ('${{ steps.normalize.outcome }}' === 'success' && '${{ steps.normalize.outputs.effective }}' === 'false') {
+              comment += 'ℹ️ **Nothing new to merge.** After canonicalization this submission is identical to what main already contains - these changes were merged previously. This usually means the submitting client\'s map baseline (its installed release) predates the earlier merge; the diff will clear up when the next mapdb release ships. This PR can be closed.\n\n';
+            } else if ('${{ steps.normalize.outcome }}' === 'success') {
               comment += '✅ Submission normalizes cleanly.\n\n';
               try {
                 const preview = fs.readFileSync('normalize-preview.txt', 'utf8');
@@ -200,7 +218,7 @@ jobs:
   # with required status checks for --auto to be meaningful.
   auto-merge:
     needs: normalize-check
-    if: needs.normalize-check.outputs.proc_changes == 'false' && vars.ENABLE_DATA_AUTO_MERGE == 'true'
+    if: needs.normalize-check.outputs.proc_changes == 'false' && needs.normalize-check.outputs.effective == 'true' && vars.ENABLE_DATA_AUTO_MERGE == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: write

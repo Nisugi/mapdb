@@ -17,10 +17,12 @@ on:
       - 'gs/rooms/**/room.json'
 
 env:
-  # Source of the cartographer CLI. Replace with `bunx @elanthia/cartographer`
-  # once a release containing the `normalize` task is published to npm.
-  CARTOGRAPHER_REPO: Nisugi/cartographer
-  CARTOGRAPHER_REF: feat/normalize-task
+  # Source of the cartographer CLI (must contain the `normalize` task).
+  # Defaults to upstream; forks can point elsewhere via repository variables
+  # for rehearsal. Can move to `bunx @elanthia/cartographer` once a release
+  # containing the normalize task is published to npm.
+  CARTOGRAPHER_REPO: ${{ vars.CARTOGRAPHER_REPO || 'elanthia-online/cartographer' }}
+  CARTOGRAPHER_REF: ${{ vars.CARTOGRAPHER_REF || 'main' }}
 
 permissions:
   contents: write
