@@ -1,5 +1,4 @@
 {
-  "checksum": "9375297d6e638f0c405b25cc2871d739",
   "room": {
     "id": 285,
     "title": [
@@ -21,8 +20,8 @@
       "284": "south",
       "295": "west",
       "399": "go bank",
-      "1448": "/rooms/285/wayto/stringproc-1448.rb",
-      "2428": "/rooms/285/wayto/stringproc-2428.rb"
+      "1448": ";e Teleport.teleport(1)",
+      "2428": ";e Teleport.teleport(3)"
     },
     "timeto": {
       "227": 0.2,
@@ -30,9 +29,16 @@
       "284": 0.2,
       "295": 0.2,
       "399": 0.2,
-      "1448": "/rooms/285/timeto/stringproc-1448.rb",
-      "2428": "/rooms/285/timeto/stringproc-2428.rb"
+      "1448": ";e Teleport.timeto(from: 285, to: 1448)",
+      "2428": ";e Teleport.timeto(from: 285, to: 2428)"
     },
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      197,
+      613,
+      233,
+      650
+    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -87,13 +93,6 @@
     ],
     "uid": [
       7045
-    ],
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      197,
-      613,
-      233,
-      650
     ]
   }
 }
