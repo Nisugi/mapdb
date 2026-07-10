@@ -1,0 +1,171 @@
+name: Submission Normalize
+
+# Checks that submitted room files normalize cleanly into the git-canonical
+# form. In-game submissions (`;cartographer --submit`) arrive raw: {room}
+# with StringProcs inline as ";e" strings and no checksum. This workflow
+# runs the cartographer `normalize` task over the changed files and fails
+# the PR when a submission is malformed (invalid room schema, dangling
+# userland StringProc references, path/id mismatches).
+#
+# The canonical rewrite itself is NOT pushed to the PR branch - fork
+# branches cannot be pushed to with the default token - it lands on main
+# after merge via normalize-main.yml. This check guarantees that rewrite
+# will succeed, and reports whether the submission introduces StringProc
+# changes (which deserve human review; see .github/CODEOWNERS).
+#
+# SECURITY: this runs on pull_request_target with a write-capable token.
+# The PR head checkout is treated strictly as DATA - nothing from it is
+# executed. The cartographer CLI comes from the separate pinned checkout.
+
+on:
+  pull_request_target:
+    branches:
+      - main
+    paths:
+      - 'gs/rooms/**/room.json'
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+env:
+  # Source of the cartographer CLI. Replace with `bunx @elanthia/cartographer`
+  # once a release containing the `normalize` task is published to npm.
+  CARTOGRAPHER_REPO: Nisugi/cartographer
+  CARTOGRAPHER_REF: feat/normalize-task
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  normalize-check:
+    runs-on: ubuntu-latest
+    outputs:
+      proc_changes: ${{ steps.normalize.outputs.proc_changes }}
+    steps:
+      - name: Checkout PR head (data only - never executed)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+
+      - name: Checkout cartographer CLI (trusted)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: ${{ env.CARTOGRAPHER_REPO }}
+          ref: ${{ env.CARTOGRAPHER_REF }}
+          path: .cartographer
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@3d267786b128fe76c2f16a390aa2448b815359f3 # v2.1.2
+        with:
+          bun-version: latest
+
+      - name: Install cartographer dependencies
+        working-directory: .cartographer
+        run: bun install --frozen-lockfile
+
+      - name: Install standardrb (StringProc formatter)
+        run: gem install standard --no-document || echo "standardrb unavailable - formatting will be applied post-merge"
+
+      - name: Get changed room files
+        id: changed-files
+        run: |
+          CHANGED_FILES=$(git diff --name-only --diff-filter=AM origin/main...HEAD | grep 'gs/rooms/.*/room.json' | tr '\n' ' ' || true)
+          echo "files=$CHANGED_FILES" >> $GITHUB_OUTPUT
+          echo "count=$(echo $CHANGED_FILES | wc -w)" >> $GITHUB_OUTPUT
+
+          if [ -n "$CHANGED_FILES" ]; then
+            echo "Changed room files:"
+            echo "$CHANGED_FILES" | tr ' ' '\n'
+          else
+            echo "No room files changed"
+          fi
+
+      - name: Normalize changed room files
+        id: normalize
+        if: steps.changed-files.outputs.count > 0
+        run: |
+          bun .cartographer/src/cartographer.ts normalize -i ./gs ${{ steps.changed-files.outputs.files }}
+
+          # Record what the post-merge canonicalization will change.
+          git add -A gs
+          if git diff --cached --quiet; then
+            echo "Submission is already canonical."
+            echo "proc_changes=false" >> $GITHUB_OUTPUT
+          else
+            git diff --cached --stat > normalize-preview.txt
+            echo "Post-merge canonicalization preview:"
+            cat normalize-preview.txt
+            if git diff --cached --name-only | grep -q '\.rb$'; then
+              echo "proc_changes=true" >> $GITHUB_OUTPUT
+            else
+              echo "proc_changes=false" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Label StringProc changes
+        if: steps.normalize.outputs.proc_changes == 'true'
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
+        with:
+          script: |
+            await github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['stringprocs']
+            }).catch(e => core.warning(`could not add label: ${e.message}`));
+
+      - name: Comment normalize results
+        if: always() && steps.changed-files.outputs.count > 0
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
+        with:
+          script: |
+            const fs = require('fs');
+            let comment = '## Submission Normalize Check\n\n';
+
+            if ('${{ steps.normalize.outcome }}' === 'success') {
+              comment += '✅ Submission normalizes cleanly.\n\n';
+              try {
+                const preview = fs.readFileSync('normalize-preview.txt', 'utf8');
+                comment += 'Post-merge canonicalization will apply:\n\n```\n' + preview + '```\n\n';
+              } catch (e) {
+                comment += 'Files are already in canonical form - no post-merge rewrite needed.\n\n';
+              }
+              if ('${{ steps.normalize.outputs.proc_changes }}' === 'true') {
+                comment += '⚠️ **This submission changes StringProc code** - it requires review by a StringProc maintainer before merge.\n\n';
+              } else {
+                comment += 'Data-only change: no StringProc code is affected.\n\n';
+              }
+            } else {
+              comment += '❌ Submission failed to normalize - see the workflow log for the specific errors (invalid room data, dangling StringProc references, or path/id mismatches).\n\n';
+            }
+
+            comment += '---\n*Normalize check performed by [@elanthia/cartographer](https://github.com/elanthia-online/cartographer)*';
+
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
+
+  # Optional: auto-merge for data-only submissions once all checks pass.
+  # Opt-in via the ENABLE_DATA_AUTO_MERGE repository variable so maintainers
+  # control the policy without editing this file. Requires branch protection
+  # with required status checks for --auto to be meaningful.
+  auto-merge:
+    needs: normalize-check
+    if: needs.normalize-check.outputs.proc_changes == 'false' && vars.ENABLE_DATA_AUTO_MERGE == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Enable auto-merge for data-only submission
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge --auto --squash "${{ github.event.pull_request.html_url }}" \
+            || echo "auto-merge unavailable (branch protection with required checks not configured)"

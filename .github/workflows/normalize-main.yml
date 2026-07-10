@@ -1,0 +1,88 @@
+name: Normalize Main
+
+# Canonicalizes room files after merges. Raw submissions (from
+# `;cartographer --submit`) land on main as merged - workflows cannot push
+# rewrites to fork PR branches - so this pass converts them to the
+# git-canonical {checksum, room} form: StringProcs externalized into their
+# .rb files (formatted with standardrb) and checksums computed.
+#
+# Loop-safe by idempotency: the normalize commit re-triggers this workflow,
+# which then finds every file already canonical and commits nothing.
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'gs/rooms/**/room.json'
+
+env:
+  # Source of the cartographer CLI. Replace with `bunx @elanthia/cartographer`
+  # once a release containing the `normalize` task is published to npm.
+  CARTOGRAPHER_REPO: Nisugi/cartographer
+  CARTOGRAPHER_REF: feat/normalize-task
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0
+
+      - name: Checkout cartographer CLI
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: ${{ env.CARTOGRAPHER_REPO }}
+          ref: ${{ env.CARTOGRAPHER_REF }}
+          path: .cartographer
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@3d267786b128fe76c2f16a390aa2448b815359f3 # v2.1.2
+        with:
+          bun-version: latest
+
+      - name: Install cartographer dependencies
+        working-directory: .cartographer
+        run: bun install --frozen-lockfile
+
+      - name: Install standardrb (StringProc formatter)
+        run: gem install standard --no-document || echo "standardrb unavailable - procs will be written unformatted"
+
+      - name: Get room files changed by this push
+        id: changed
+        run: |
+          if [ "${{ github.event.before }}" = "0000000000000000000000000000000000000000" ]; then
+            # Branch creation event - nothing sensible to diff against.
+            CHANGED_FILES=""
+          else
+            CHANGED_FILES=$(git diff --name-only --diff-filter=AM ${{ github.event.before }} ${{ github.event.after }} | grep 'gs/rooms/.*/room.json' | tr '\n' ' ' || true)
+          fi
+          echo "files=$CHANGED_FILES" >> $GITHUB_OUTPUT
+          echo "count=$(echo $CHANGED_FILES | wc -w)" >> $GITHUB_OUTPUT
+
+          if [ -n "$CHANGED_FILES" ]; then
+            echo "Room files changed by this push:"
+            echo "$CHANGED_FILES" | tr ' ' '\n'
+          fi
+
+      - name: Normalize changed room files
+        if: steps.changed.outputs.count > 0
+        run: bun .cartographer/src/cartographer.ts normalize -i ./gs ${{ steps.changed.outputs.files }}
+
+      - name: Commit canonical form
+        if: steps.changed.outputs.count > 0
+        run: |
+          git add -A gs
+          if git diff --cached --quiet; then
+            echo "All files already canonical - nothing to commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "chore: normalize submitted room files to canonical form"
+            git push
+          fi

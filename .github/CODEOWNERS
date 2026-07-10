@@ -1,0 +1,10 @@
+# StringProc files are executable Ruby that runs inside every player's Lich
+# session - changes to them require review by the StringProc maintainer team.
+# Enforcement needs branch protection on main with "Require review from Code
+# Owners" enabled.
+#
+# Note: in-game submissions carry NEW procs inline inside room.json (they are
+# externalized to .rb files post-merge), so this rule alone does not gate
+# them - the Submission Normalize workflow labels such PRs `stringprocs` and
+# they are excluded from data-only auto-merge.
+gs/**/*.rb @elanthia-online/stringproc-reviewers
