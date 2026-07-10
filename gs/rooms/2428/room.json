@@ -1,5 +1,4 @@
 {
-  "checksum": "ccd53fe20ee87e747047e91577da1d2c",
   "room": {
     "id": 2428,
     "title": [
@@ -19,13 +18,24 @@
     "climate": "cold, dry",
     "terrain": "hard, flat",
     "wayto": {
+      "285": ";e Teleport.teleport(2)",
+      "1448": ";e Teleport.teleport(1)",
       "2427": "north",
       "21689": "go hall"
     },
     "timeto": {
+      "285": ";e Teleport.timeto(from: 2428, to: 285)",
+      "1448": ";e Teleport.timeto(from: 2428, to: 1448)",
       "2427": 0.2,
       "21689": 0.2
     },
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      759,
+      875,
+      795,
+      911
+    ],
     "tags": [
       "calmintha flower",
       "meta:forage-sensed",
@@ -33,13 +43,6 @@
     ],
     "uid": [
       4042307
-    ],
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      759,
-      875,
-      795,
-      911
     ]
   }
 }
