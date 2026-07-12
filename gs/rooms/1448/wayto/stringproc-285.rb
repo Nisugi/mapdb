@@ -1,1 +1,0 @@
-Teleport.teleport(2)

@@ -1,5 +1,5 @@
 {
-  "checksum": "3ca2751efd6fe7d6821fb11252fdc243",
+  "checksum": "0c3853aeadeec02baa4600ba2eb8fb1b",
   "room": {
     "id": 1448,
     "title": [
@@ -15,13 +15,11 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "285": "/rooms/1448/wayto/stringproc-285.rb",
       "1436": "north",
       "1437": "west",
       "1438": "southwest",
       "1449": "east",
       "1453": "south",
-      "2428": "/rooms/1448/wayto/stringproc-2428.rb",
       "3668": "/rooms/1448/wayto/stringproc-3668.rb",
       "5719": "go front door",
       "26905": "/rooms/1448/wayto/stringproc-26905.rb",
@@ -29,13 +27,11 @@
       "31558": "/rooms/1448/wayto/stringproc-31558.rb"
     },
     "timeto": {
-      "285": "/rooms/1448/timeto/stringproc-285.rb",
       "1436": 0.2,
       "1437": 0.2,
       "1438": 0.2,
       "1449": 0.2,
       "1453": 0.2,
-      "2428": "/rooms/1448/timeto/stringproc-2428.rb",
       "3668": "/rooms/1448/timeto/stringproc-3668.rb",
       "5719": 0.2,
       "26905": 2400,
@@ -43,11 +39,11 @@
       "31558": "/rooms/1448/timeto/stringproc-31558.rb"
     },
     "tags": [
+      "urchin-access",
       "meta:forage-sensed",
-      "meta:fwi:teleport",
       "meta:teleport",
       "no forageables",
-      "urchin-access"
+      "meta:fwi:teleport"
     ],
     "uid": [
       4209023
