@@ -1,5 +1,4 @@
 {
-  "checksum": "4da83c1c7529821177776da17af62110",
   "room": {
     "id": 1012,
     "title": [
@@ -14,31 +13,31 @@
     "location": "Zul Logoth",
     "wayto": {
       "1011": "east",
-      "1013": "/rooms/1012/wayto/stringproc-1013.rb",
-      "30712": "/rooms/1012/wayto/stringproc-30712.rb"
+      "1013": ";e fput \"buy ticket\"\nwaitfor \"You hastily exit the cart\"",
+      "30712": ";e true"
     },
     "timeto": {
       "1011": 0.2,
-      "1013": 180,
-      "30712": "/rooms/1012/timeto/stringproc-30712.rb"
+      "1013": 180.0,
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "silver-cost:1013:1000",
-      "no forageables",
-      "meta:forage-sensed",
-      "urchin guide westcart",
-      "urchin-access",
-      "westcart"
-    ],
-    "uid": [
-      13010301
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       272,
       580,
       292,
       600
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables",
+      "silver-cost:1013:1000",
+      "urchin guide westcart",
+      "urchin-access",
+      "westcart"
+    ],
+    "uid": [
+      13010301
     ]
   }
 }

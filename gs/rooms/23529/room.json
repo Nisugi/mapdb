@@ -1,5 +1,4 @@
 {
-  "checksum": "7414f79c6d9c2b6a5c6bb2e8c3ef378d",
   "room": {
     "id": 23529,
     "title": [
@@ -19,11 +18,12 @@
       "11013": 0.2
     },
     "tags": [
+      "no forageables",
       "ranger shack"
     ],
+    "check_location": true,
     "uid": [
       142005
-    ],
-    "check_location": true
+    ]
   }
 }

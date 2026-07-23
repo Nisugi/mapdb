@@ -1,5 +1,4 @@
 {
-  "checksum": "8c776a76f4533aa416fff9568198499b",
   "room": {
     "id": 11612,
     "title": [
@@ -18,48 +17,48 @@
       "11611": "southwest",
       "11613": "southeast",
       "11617": "east",
-      "11630": "/rooms/11612/wayto/stringproc-11630.rb",
-      "16122": "/rooms/11612/wayto/stringproc-16122.rb",
-      "22218": "/rooms/11612/wayto/stringproc-22218.rb"
+      "11630": ";e fput 'search';move 'go trail';move 'northeast';move 'northeast';move 'southeast';move 'northeast'",
+      "16122": ";e fput 'search'; move 'go trail'",
+      "22218": ";e fput 'search';move 'go trail';move 'northeast';move 'northeast';move 'southeast';move 'northwest'"
     },
     "timeto": {
       "11611": 0.2,
       "11613": 0.2,
       "11617": 0.2,
-      "11630": 1,
+      "11630": 1.0,
       "16122": 0.4,
-      "22218": 1
+      "22218": 1.0
     },
-    "tags": [
-      "blue trafel mushroom",
-      "withered black mushroom",
-      "wild gooseberry",
-      "stalk of cattail",
-      "small wild rose",
-      "soft white mushroom",
-      "aloeas stem",
-      "white hook mushroom",
-      "mistweed",
-      "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "talneo root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "wingstem root",
-      "broken twig",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      5003002
-    ],
     "image": "rr-maelstrom-1619824696.png",
     "image_coords": [
       536,
       627,
       546,
       637
+    ],
+    "tags": [
+      "aloeas stem",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "broken twig",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "mistweed",
+      "murdroot",
+      "soft mushroom",
+      "stalk of cattail",
+      "sunburst blossom",
+      "talneo root",
+      "wavepetal blossom",
+      "white hook mushroom",
+      "wild gooseberry",
+      "wild rose",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      5003002
     ]
   }
 }

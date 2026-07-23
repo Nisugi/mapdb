@@ -1,5 +1,4 @@
 {
-  "checksum": "e463c3b140968cfcad1293a5a83dc6b0",
   "room": {
     "id": 28704,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "Kharam-Dzu",
     "wayto": {
-      "1902": "/rooms/28704/wayto/stringproc-1902.rb"
+      "1902": ";e fput 'unlock ironwood door'; fput 'open ironwood door'; move 'go ironwood door'"
     },
     "timeto": {
       "1902": 0.2

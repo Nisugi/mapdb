@@ -1,5 +1,4 @@
 {
-  "checksum": "0f68da0c94f7b08b688080040b4fd979",
   "room": {
     "id": 3230,
     "title": [
@@ -25,18 +24,20 @@
       "3231": 0.2,
       "23715": 0.2
     },
-    "tags": [
-      "calmintha flower"
-    ],
-    "uid": [
-      4042102
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       227,
       787,
       263,
       823
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      4042102
     ]
   }
 }

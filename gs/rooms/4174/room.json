@@ -1,5 +1,4 @@
 {
-  "checksum": "674f5f0e99eb80f545e1346c39ec9b71",
   "room": {
     "id": 4174,
     "title": [
@@ -15,33 +14,33 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "4175": "/rooms/4174/wayto/stringproc-4175.rb",
+      "4175": ";e fput \"search\"\nmove \"go stair\"",
       "16805": "southwest"
     },
     "timeto": {
       "4175": 0.2,
       "16805": 0.2
     },
-    "tags": [
-      "wolifrew lichen",
-      "withered black mushroom",
-      "cave moss",
-      "murdroot",
-      "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2024-01",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      2138122
-    ],
     "image": "wl-graveyard-1264234799.png",
     "image_coords": [
       701,
       866,
       711,
       876
+    ],
+    "tags": [
+      "cave moss",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-01",
+      "murdroot",
+      "wingstem root",
+      "withered mushroom",
+      "wolifrew lichen"
+    ],
+    "uid": [
+      2138122
     ]
   }
 }

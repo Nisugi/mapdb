@@ -1,5 +1,4 @@
 {
-  "checksum": "f105d2d91d96766e6eccb33935c62658",
   "room": {
     "id": 17518,
     "title": [
@@ -17,60 +16,60 @@
     "wayto": {
       "3665": "go gates",
       "17577": "south",
-      "23661": "/rooms/17518/wayto/stringproc-23661.rb"
+      "23661": ";e fput 'go path'"
     },
     "timeto": {
       "3665": 0.2,
       "17577": 0.2,
-      "23661": 1
+      "23661": 1.0
     },
-    "tags": [
-      "acantha leaf",
-      "luckbloom blossom",
-      "murdroot",
-      "wavepetal blossom",
-      "twisted twig",
-      "slender twig",
-      "ebony twig",
-      "talneo root",
-      "brostheras grass",
-      "bur-clover root",
-      "red cherries",
-      "small lime",
-      "yellow lemon",
-      "small coconut",
-      "raw almonds",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "meta:forage-sensed",
-      "yellow papaya",
-      "orange-yellow starfruit",
-      "red-green mango",
-      "purple passion fruit",
-      "red lychee",
-      "green guava",
-      "ghost pepper",
-      "hot pepper",
-      "small green quenepas",
-      "vibrant green plantain",
-      "bright yellow plantain",
-      "cone-shaped pineapple",
-      "meta:forage-sensed:day:2024-05"
-    ],
-    "uid": [
-      3210101
-    ],
     "image": "ifw-isle_of_four_winds-1310232949.png",
     "image_coords": [
       2771,
       2302,
       2811,
       2339
+    ],
+    "tags": [
+      "acantha leaf",
+      "black peppercorn",
+      "bright yellow plantain",
+      "brostheras grass",
+      "bur-clover root",
+      "cardamom",
+      "cone-shaped pineapple",
+      "cumin seeds",
+      "ebony twig",
+      "ghost pepper",
+      "green guava",
+      "hot pepper",
+      "luckbloom blossom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
+      "murdroot",
+      "nutmeg",
+      "orange-yellow starfruit",
+      "pink peppercorn",
+      "purple passion fruit",
+      "raw almonds",
+      "red cherries",
+      "red lychee",
+      "red-green mango",
+      "slender twig",
+      "small coconut",
+      "small green quenepas",
+      "small lime",
+      "star anise",
+      "talneo root",
+      "twisted twig",
+      "vanilla bean",
+      "vibrant green plantain",
+      "wavepetal blossom",
+      "yellow lemon",
+      "yellow papaya"
+    ],
+    "uid": [
+      3210101
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "0c1c91f51b3d2acad023771f25cd09d8",
   "room": {
     "id": 13429,
     "title": [
@@ -16,14 +15,14 @@
     "climate": "temperate",
     "terrain": "",
     "wayto": {
-      "13404": "/rooms/13429/wayto/stringproc-13404.rb"
+      "13404": ";e while Room.current.id == 13429; fput 'row south'; waitrt?; end"
     },
     "timeto": {
-      "13404": 10
+      "13404": 10.0
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       13111051

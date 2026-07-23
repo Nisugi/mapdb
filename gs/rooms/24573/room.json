@@ -1,5 +1,4 @@
 {
-  "checksum": "f565f619e767c8117caedab48d2a4de0",
   "room": {
     "id": 24573,
     "title": [
@@ -13,25 +12,25 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "7487": "/rooms/24573/wayto/stringproc-7487.rb",
-      "24574": "/rooms/24573/wayto/stringproc-24574.rb"
+      "7487": ";e waitrt?; 8.times { if standing?; break; else; fput 'stand'; sleep 0.2; waitrt?; end }; move 'down'; sleep 0.2; waitrt?; 8.times { if standing?; break; else; fput 'stand'; sleep 0.2; waitrt?; end }; waitrt?",
+      "24574": ";e waitrt?; 8.times { if standing?; break; else; fput 'stand'; sleep 0.2; waitrt?; end }; move 'up'; sleep 0.2; waitrt?; 8.times { if standing?; break; else; fput 'stand'; sleep 0.2; waitrt?; end }; waitrt?"
     },
     "timeto": {
-      "7487": "/rooms/24573/timeto/stringproc-7487.rb",
-      "24574": "/rooms/24573/timeto/stringproc-24574.rb"
+      "7487": ";e if Spell['Haste'].active?; (15 * [((80 - ([Spells.majorelemental,Stats.level].min/5) - (Skills.elair/5)) / 100.0), 0.4].max).floor + 0.2; else; 15.2; end",
+      "24574": ";e if Spell['Haste'].active?; (15 * [((80 - ([Spells.majorelemental,Stats.level].min/5) - (Skills.elair/5)) / 100.0), 0.4].max).floor + 0.2; else; 15.2; end"
     },
-    "tags": [
-      "set desc on; peer down =~ /^Huge steps .* The floor of the cavern is far below, and anyone who fell over the unprotected edge of the stairway would surely die in the fall./"
-    ],
-    "uid": [
-      94031
-    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       1001,
       623,
       1012,
       634
+    ],
+    "tags": [
+      "set desc on; peer down =~ /^Huge steps .* The floor of the cavern is far below, and anyone who fell over the unprotected edge of the stairway would surely die in the fall./"
+    ],
+    "uid": [
+      94031
     ]
   }
 }

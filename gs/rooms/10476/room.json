@@ -1,5 +1,4 @@
 {
-  "checksum": "5bac5a0c7f3723b484f877b412b1b389",
   "room": {
     "id": 10476,
     "title": [
@@ -14,37 +13,38 @@
     "location": "the catacombs",
     "wayto": {
       "5922": "out",
-      "23601": "/rooms/10476/wayto/stringproc-23601.rb"
+      "23601": ";e fput 'touch pointed stone'; fput 'push pointed stone'; fput 'push small stone'; fput 'push round stone'; fput 'push long stone'; fput 'push thick stone'; fput 'push flat stone'; fput 'stand'"
     },
     "timeto": {
       "5922": 0.2,
       "23601": 0.2
     },
-    "tags": [
-      "ayana'al lichen",
-      "blue trafel mushroom",
-      "soft white mushroom",
-      "withered black mushroom",
-      "black hook mushroom",
-      "white hook mushroom",
-      "ayana'al leaf",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01",
-      "meta:nomagic"
-    ],
-    "uid": [
-      14009015
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       346,
       958,
       353,
       968
+    ],
+    "tags": [
+      "ayana'al leaf",
+      "black mushroom",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-01",
+      "meta:nomagic",
+      "murdroot",
+      "red mushroom",
+      "soft mushroom",
+      "white hook mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      14009015
     ]
   }
 }

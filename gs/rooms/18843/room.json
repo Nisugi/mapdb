@@ -1,5 +1,4 @@
 {
-  "checksum": "a0752e742ad6a00d90b0ce35c0eb1e24",
   "room": {
     "id": 18843,
     "title": [
@@ -9,10 +8,10 @@
       "Obvious paths: north, southeast, southwest, west, northwest, down"
     ],
     "wayto": {
-      "18823": "/rooms/18843/wayto/stringproc-18823.rb",
-      "18842": "/rooms/18843/wayto/stringproc-18842.rb",
-      "25616": "/rooms/18843/wayto/stringproc-25616.rb",
-      "25617": "/rooms/18843/wayto/stringproc-25617.rb"
+      "18823": ";e while Room.current.id == 18843;fput 'row southeast';waitrt?;end",
+      "18842": ";e while Room.current.id == 18843; fput 'row northwest'; waitrt?; end",
+      "25616": ";e while Room.current.id == 18843;fput 'row southwest';waitrt?;end",
+      "25617": ";e while Room.current.id == 18843;fput 'row west';waitrt?;end"
     },
     "timeto": {
       "18823": 0.2,

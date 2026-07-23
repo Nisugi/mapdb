@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36643,
+    "title": [
+      "[Brayern Isle, Beach]"
+    ],
+    "description": [
+      "A small path lined with lanterns runs along the area where the beach turns inland.  The shoreline is filled with ebon-hued volcanic rocks worn down by the island's waves over the years.  The sound of these rolling waves is offset by periodic trills of life throughout the adjacent jungle and distant voices from the nearby docks.  The way into the jungle leads up, cut out of the thick vegetation along a series of gentle, sloping switchbacks."
+    ],
+    "paths": [
+      "Obvious paths: east, up"
+    ],
+    "location": "Brayern Isle",
+    "wayto": {
+      "36640": "east",
+      "36651": "up"
+    },
+    "timeto": {
+      "36640": 0.2,
+      "36651": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      808,
+      1397,
+      829,
+      1415
+    ],
+    "uid": [
+      8400211
+    ]
+  }
+}

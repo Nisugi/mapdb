@@ -1,5 +1,4 @@
 {
-  "checksum": "80aa9654a5f24350836ef4d8fc6c0537",
   "room": {
     "id": 2374,
     "title": [
@@ -22,7 +21,8 @@
       "15855": "go obsidian shop",
       "15856": "go stucco shop",
       "19463": "go simple shop",
-      "30359": "go stucco salon"
+      "30359": "go stucco salon",
+      "36710": "go stucco stall"
     },
     "timeto": {
       "2373": 0.2,
@@ -32,17 +32,23 @@
       "15855": 0.2,
       "15856": 0.2,
       "19463": 0.2,
-      "30359": 0.2
+      "30359": 0.2,
+      "36710": 0.2
     },
-    "uid": [
-      735001
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       164,
       253,
       184,
       273
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      735001
     ]
   }
 }

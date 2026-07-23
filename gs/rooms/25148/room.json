@@ -1,5 +1,4 @@
 {
-  "checksum": "38004910e368782ddcc06cfa619a7824",
   "room": {
     "id": 25148,
     "title": [
@@ -15,31 +14,31 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "221": "/rooms/25148/wayto/stringproc-221.rb",
-      "3904": "/rooms/25148/wayto/stringproc-3904.rb",
+      "221": ";e res = choice = nil;res = dothistimeout \"inquire\", 5, /(\\d)\\) Wehnimer's Landing/;if res =~ /(\\d)\\) Wehnimer's Landing/;choice = $1;end;dothistimeout \"order #{choice}\", 5, /The cost has already been covered/;put \"order confirm\";wait_until { XMLData.room_title =~ /Caravan, Wagon/ };sleep 1;wait_until{ XMLData.room_title !~ /Caravan, Wagon/ };if GameObj.npcs.any? { |npc| npc.name =~ /thief|rogue|bandit|mugger|outlaw|highwayman|marauder|brigand|thug|robber/ };3.times do;_respond \"BANDITS!!! BANDITS!!! BANDITS!!!\";end;exit;end;$go2_restart=true",
+      "3904": ";e res = choice = nil;res = dothistimeout \"inquire\", 5, /(\\d)\\) Vornavis/;if res =~ /(\\d)\\) Vornavis/;choice = $1;end;dothistimeout \"order #{choice}\", 5, /The cost has already been covered/;put \"order confirm\";wait_until { XMLData.room_title =~ /Caravan, Wagon/ };sleep 1;wait_until{ XMLData.room_title !~ /Caravan, Wagon/ };if GameObj.npcs.any? { |npc| npc.name =~ /thief|rogue|bandit|mugger|outlaw|highwayman|marauder|brigand|thug|robber/ };3.times do;_respond \"<pushBold/>BANDITS!!! BANDITS!!! BANDITS!!!<popBold/>\";end;exit;end;$go2_restart=true",
       "25145": "go arch"
     },
     "timeto": {
-      "221": "/rooms/25148/timeto/stringproc-221.rb",
-      "3904": "/rooms/25148/timeto/stringproc-3904.rb",
+      "221": ";e UserVars.mapdb_car_from_sos ? 120 : nil",
+      "3904": ";e UserVars.mapdb_car_from_sos ? 120 : nil",
       "25145": 0.2
     },
-    "tags": [
-      "some bur-clover root",
-      "caravan",
-      "bur-clover root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      4216902
-    ],
     "image": "SanctumMap-Eiadh-1643825243.png",
     "image_coords": [
       457,
       767,
       481,
       791
+    ],
+    "tags": [
+      "bur-clover root",
+      "caravan",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "some bur-clover root"
+    ],
+    "uid": [
+      4216902
     ]
   }
 }

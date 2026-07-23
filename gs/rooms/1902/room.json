@@ -1,5 +1,4 @@
 {
-  "checksum": "6cacb358c0fae6df602fb8840c6d4760",
   "room": {
     "id": 1902,
     "title": [
@@ -15,29 +14,30 @@
     "wayto": {
       "1901": "go arch",
       "1903": "southwest",
-      "28704": "/rooms/1902/wayto/stringproc-28704.rb"
+      "28704": ";e fput 'unlock ironwood door'; fput 'open ironwood door'; move 'go ironwood door'"
     },
     "timeto": {
       "1901": 0.2,
       "1903": 0.2,
       "28704": 0.2
     },
-    "tags": [
-      "meta:mapname:Neighborhoods of Teras Isle and River's Rest",
-      "meta:mapcategory:Teras Isle",
-      "meta:mapcategory:River's Rest",
-      "meta:mapcategory:Neighborhoods",
-      "meta:mapcategory:Premium"
-    ],
-    "uid": [
-      703151
-    ],
     "image": "ti-rr-homes-1264234799.png",
     "image_coords": [
       514,
       459,
       534,
       479
+    ],
+    "tags": [
+      "meta:mapcategory:Neighborhoods",
+      "meta:mapcategory:Premium",
+      "meta:mapcategory:River's Rest",
+      "meta:mapcategory:Teras Isle",
+      "meta:mapname:Neighborhoods of Teras Isle and River's Rest",
+      "no forageables"
+    ],
+    "uid": [
+      703151
     ]
   }
 }

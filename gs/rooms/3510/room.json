@@ -1,5 +1,4 @@
 {
-  "checksum": "14a8945de74e4437a149744816fe3bff",
   "room": {
     "id": 3510,
     "title": [
@@ -20,32 +19,32 @@
       "3509": "west",
       "3511": "east",
       "10759": "go path",
-      "30713": "/rooms/3510/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3509": 0.2,
       "3511": 0.2,
       "10759": 0.2,
-      "30713": "/rooms/3510/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "empathguild",
-      "urchin guide empathguild",
-      "urchin-access",
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01",
-      "empath guild"
-    ],
-    "uid": [
-      14100072
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       550,
       780,
       582,
       815
+    ],
+    "tags": [
+      "empath guild",
+      "empathguild",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "no forageables",
+      "urchin guide empathguild",
+      "urchin-access"
+    ],
+    "uid": [
+      14100072
     ]
   }
 }

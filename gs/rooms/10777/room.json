@@ -1,5 +1,4 @@
 {
-  "checksum": "534d5b387b20af2348dcb13d42efe5f4",
   "room": {
     "id": 10777,
     "title": [
@@ -20,28 +19,29 @@
     "timeto": {
       "10776": 0.2
     },
-    "tags": [
-      "withered black mushroom",
-      "cave moss",
-      "pepperthorn root",
-      "murdroot",
-      "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "bur-clover root",
-      "meta:forage-sensed:day:2023-11",
-      "birch bark",
-      "meta:forage-sensed:night:2025-08"
-    ],
-    "uid": [
-      13028062
-    ],
     "image": "en-gyldemar-1264234799.png",
     "image_coords": [
       37,
       450,
       47,
       460
+    ],
+    "tags": [
+      "birch bark",
+      "bur-clover root",
+      "cave moss",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2025-08",
+      "murdroot",
+      "pepperthorn root",
+      "wild rice",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      13028062
     ]
   }
 }

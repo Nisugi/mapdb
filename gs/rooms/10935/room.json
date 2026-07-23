@@ -1,5 +1,4 @@
 {
-  "checksum": "d442d1c6d0bfc477379042c8cfe975ce",
   "room": {
     "id": 10935,
     "title": [
@@ -15,20 +14,20 @@
     "wayto": {
       "10846": "out",
       "10936": "east",
-      "30711": "/rooms/10935/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "10846": 0.2,
       "10936": 0.2,
-      "30711": "/rooms/10935/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "gemshop",
-      "urchin-access",
-      "urchin guide gemshop",
-      "agave heart",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "no forageables",
+      "urchin guide gemshop",
+      "urchin-access"
     ],
     "uid": [
       2101902

@@ -1,5 +1,4 @@
 {
-  "checksum": "3d0adae7aa1ecb31c2e0ad686102a953",
   "room": {
     "id": 15985,
     "title": [
@@ -22,31 +21,33 @@
       "15984": 0.2,
       "15986": 0.2
     },
-    "tags": [
-      "wintergreen leaf",
-      "bright red teaberry",
-      "wild strawberry",
-      "blueberries",
-      "stalk of chicory",
-      "wild gooseberry",
-      "fiddlehead fern",
-      "broken twig",
-      "sprig of larkspur",
-      "small wild rose",
-      "wild chokecherry",
-      "ironfern root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      700407
-    ],
     "image": "wl-homes-2-1264234799.png",
     "image_coords": [
       190,
       289,
       208,
       307
+    ],
+    "tags": [
+      "blueberries",
+      "bright red teaberry",
+      "broken twig",
+      "fiddlehead fern",
+      "ironfern root",
+      "leafy arugula",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "sprig of larkspur",
+      "stalk of chicory",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild rose",
+      "wild strawberry",
+      "wintergreen leaf"
+    ],
+    "uid": [
+      700407
     ]
   }
 }

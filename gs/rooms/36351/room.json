@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36351,
+    "title": [
+      "[Moat, Underwater]"
+    ],
+    "description": [
+      "Your eyes strain to find any light in the murky black water, but there is none.  The cold and pressure indicate that you are deep below the water's surface."
+    ],
+    "paths": [
+      "Obvious paths: up"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36350": "swim up",
+      "36352": ";e waitfor 'and pull you down even further into the murk'"
+    },
+    "timeto": {
+      "36350": 0.2,
+      "36352": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      800,
+      600,
+      840,
+      640
+    ],
+    "uid": [
+      55018
+    ]
+  }
+}

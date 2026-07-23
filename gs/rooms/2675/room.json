@@ -1,5 +1,4 @@
 {
-  "checksum": "f1e49d92b843197d6bd5f51510ee42ed",
   "room": {
     "id": 2675,
     "title": [
@@ -15,26 +14,26 @@
     "wayto": {
       "2674": "northeast",
       "2676": "northwest",
-      "2677": "/rooms/2675/wayto/stringproc-2677.rb"
+      "2677": ";e if checkleft and checkright; empty_hands; need_fill_hands = true; else; need_fill_hands = false; end; result = dothistimeout 'pull ring', 8, /^A deep grinding sound echoes through the sepulchral halls of the shrine.  Slowly, the stone door begins to rise, drawing upwards into the top of its frame.  Inch by inch it crawls, steadily ascending to reveal light beyond.  Within a short time, it has withdrawn completely, leaving an open doorway that beckons you outside\\.|^Gathering your strength, you give the brass ring a mighty tug, but it will not budge an inch\\.|^Gathering your strength, you give the brass ring a mighty tug\\.  Creaking, it gives a little, and you manage to pull it downward some before fatigue forces you to stop\\./ until result =~ /^A deep grinding sound echoes through the sepulchral halls of the shrine.  Slowly, the stone door begins to rise, drawing upwards into the top of its frame.  Inch by inch it crawls, steadily ascending to reveal light beyond.  Within a short time, it has withdrawn completely, leaving an open doorway that beckons you outside\\.|^Gathering your strength, you give the brass ring a mighty tug, but it will not budge an inch\\./; waitrt?; fill_hands if need_fill_hands; move 'go door'"
     },
     "timeto": {
       "2674": 0.2,
       "2676": 0.2,
       "2677": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4562001
-    ],
     "image": "imt-pinefar-1264234799.png",
     "image_coords": [
       363,
       728,
       373,
       738
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables"
+    ],
+    "uid": [
+      4562001
     ]
   }
 }

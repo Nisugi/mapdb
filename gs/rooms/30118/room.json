@@ -1,5 +1,4 @@
 {
-  "checksum": "27ff269fee2ea2b52f9ef8e259c8cc5f",
   "room": {
     "id": 30118,
     "title": [
@@ -17,17 +16,17 @@
     "terrain": "none",
     "wayto": {
       "30117": "west",
-      "30711": "/rooms/30118/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "30117": 0.2,
-      "30711": "/rooms/30118/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "mail",
+      "no forageables",
       "postoffice",
-      "urchin-access",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       2101033

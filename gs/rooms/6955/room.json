@@ -1,5 +1,4 @@
 {
-  "checksum": "a7b4431ebe6b21cec87df06bd4b057bc",
   "room": {
     "id": 6955,
     "title": [
@@ -16,54 +15,55 @@
     "terrain": "deciduous",
     "wayto": {
       "6954": "north",
-      "6985": "/rooms/6955/wayto/stringproc-6985.rb",
+      "6985": ";e script = Script.self\nhand = sword = sword_container = nil;\nclose_containers = [];\nfind_all_containers_var = nil;\nfind_all_containers = proc {\n\tif find_all_containers_var.nil?\n\t\trestore_want_downstream = script.want_downstream\n\t\trestore_want_downstream_xml = script.want_downstream_xml\n\t\tscript.want_downstream = false\n\t\tscript.want_downstream_xml = true\n\t\tclear\n\t\tput 'inventory containers'\n\t\ttimeout = Time.now + 10\n\t\tcontainer_ids = []\n\t\twhile (Time.now < timeout and line = get)\n\t\t\tif (line =~ /^You are wearing/)\n\t\t\t\tcontainer_ids = line.scan(/<a exist=\"([^\"]+)\"/).flatten\n\t\t\t\tbreak\n\t\t\tend\n\t\tend\n\t\tscript.want_downstream = restore_want_downstream\n\t\tscript.want_downstream_xml = restore_want_downstream_xml\n\t\tclear\n\t\tfind_all_containers_var = container_ids.collect { |id| GameObj[id] }\n\tend\n\tfind_all_containers_var\n}\nds_to_bag = proc { |item_id, container_id|\n\trestore_want_downstream = script.want_downstream\n\trestore_want_downstream_xml = script.want_downstream_xml\n\tscript.want_downstream = false\n\tscript.want_downstream_xml = true\n\tresult = dothistimeout \"_drag ##{item_id} ##{container_id}\", 3, /<(?:right|left)>Empty<|^You can't .+ It's closed!|I could not find what you were referring to|Your .*? won't fit in/\n\tscript.want_downstream = restore_want_downstream\n\tscript.want_downstream_xml = restore_want_downstream_xml\n\tresult\n}\nds_to_hand = proc { |item_id,hand|\n\tif hand.nil?;\n\t\thand = 'left' if GameObj.left_hand.id.nil?;\n\t\thand = 'right' if GameObj.right_hand.id.nil?;\n\tend\n\trestore_want_downstream = script.want_downstream\n\trestore_want_downstream_xml = script.want_downstream_xml\n\tscript.want_downstream = false\n\tscript.want_downstream_xml = true\n\tresult = dothistimeout \"_drag ##{item_id} #{hand}\", 3, /<(?:right|left) exist=\"#{item_id}\"/\n\tscript.want_downstream = restore_want_downstream\n\tscript.want_downstream_xml = restore_want_downstream_xml\n\tresult\n}\n\nstow_sword = proc {\n\tif sword.nil?\n\t\tif (GameObj.right_hand.noun == 'sword')\n\t\t\tsword = GameObj.right_hand\n\t\telsif (GameObj.left_hand.noun == 'sword')\n\t\t\tsword = GameObj.left_hand\n\t\tend\n\tend\n\tif sword\n\t\tif sword_container\n\t\t\tds_to_bag.call(sword.id, sword_container.id)\n\t\telse\n  \t\tds_to_bag.call(sword.id, XMLData.stow_container_id)\n\t\t\tif (GameObj.right_hand.id == sword.id or GameObj.left_hand.id == sword.id)\n\t\t\t\tfor container in find_all_containers.call\n\t\t\t\t\tnext if (container.noun == 'locket')\n\t\t\t\t\tds_to_bag.call(sword.id, container.id)\n\t\t\t\t\tbreak unless (GameObj.right_hand.id == sword.id or GameObj.left_hand.id == sword.id)\n\t\t\t\tend\n\t\t\tend\n\t\tend\n\tend\n}\nempty_hands\nGameObj.containers.each{|k,v| if sword = v.find {|i| i.name == 'short sword'};sword_container = GameObj[k];break;end};\nif sword.nil?\n\tfor container in find_all_containers.call\n\t\tif container.contents.nil?\n\t\t\tresult = dothistimeout \"open ##{container.id}\", 3, /^You open|^That is already open|^There doesn't seem to be any way to do that|^What were you referring to|^I could not find what you were referring to/\n\t\t\tif (container.contents.nil? and result =~ /^That is already open/)\n\t\t\t\tdothistimeout \"look in ##{container.id}\", 3, /^In the|^There is nothing|^That is closed|^What were you referring to|^I could not find what you were referring to/\n\t\t\telsif result =~ /^You open/\n\t\t\t\tclose_containers.push(container)\n\t\t\tend\n\t\tend\n\t\tif (sword = container.contents.find { |obj| obj.name == 'short sword' })\n\t\t\tsword_container = container\n\t\t\tbreak\n\t\tend\n\tend\nend\nif sword\n\tds_to_hand.call(sword.id, 'right')\nelse\n\tif $go2_get_silvers\n\t\tthis_room = Room.current\n\t\tif (Script.running.find_all { |s| s.name == 'go2' }.length > 1)\n\t\t\techo 'Too many instances of go2 running. Killing other instances.'\n\t\t\tfor s in Script.running\n\t\t\t\ts.kill if s.name == 'go2' and s != Script.self\n\t\t\tend\n\t\t\texit\n\t\tend\n\t\tforce_start_script 'go2', [ 'bank', '--disable-confirm' ]\n\t\twait_while { Script.running.find_all { |s| s.name == 'go2' }.length > 1 }\n\t\tfput 'unhide' if hidden? or invisible?\n\t\tfput 'withdraw 200'\n\t\tforce_start_script 'go2', [ 'weaponshop', '--disable-confirm' ]\n\t\twait_while { Script.running.find_all { |s| s.name == 'go2' }.length > 1 }\n\t\tfput 'unhide' if hidden? or invisible?\n\t\tfput 'order 3'\n\t\tfput 'buy'\n\t\tforce_start_script 'go2', [ 'bank', '--disable-confirm' ]\n\t\twait_while { Script.running.find_all { |s| s.name == 'go2' }.length > 1 }\n\t\tfput 'unhide' if hidden? or invisible?\n\t\tfput 'deposit all'\n\t\tforce_start_script 'go2', [ this_room.id.to_s ]\n\t\twait_while { Script.running.find_all { |s| s.name == 'go2' }.length > 1 }\n\telse\n\t\techo 'You have no short sword! Use\t ;go2 getsilvers=on\t if you want this script to buy one for you.'\n\t\tclose_containers.each { |c| fput \"close ##{c.id}\" }\n\t\tfill_hands\n\t\texit\n\tend\nend\nif (resolve = Spell[9704] and resolve.known? and resolve.affordable? and !resolve.active?)\n\tresolve.cast\nend\nkilled_disarm = Script.kill('disarmed')\nbefore_dying { Script.start('disarm') if killed_disarm }\nrecovering_item = false\nloop do\n\tmove 'go pool'\n\tfput 'swim down'\n\tfput 'kneel'\n\tsleep 0.5\n\tunless recovering_item\n\t\tline = dothistimeout 'pry gap', 3, /you are spit out|tumbles out of your hand|good enough leverage/\n\t\tif line =~ /tumbles out of your hand/\n\t\t\trecovering_item = true\n\t\t\tsword = nil\n\t\tend\n\t\twaitrt?\n\t\tbreak if Room.current.id != 22229\n\tend\n\tif recovering_item\n\t\tline = dothistimeout 'recover item', 3, /nothing recoverable|and recover it/\n\t\trecovering_item = false if line =~ /and recover it/\n\t\twaitrt?\n\tend\n\tfput 'swim up'\n\tfput 'go shore'\nend\nfput 'stand' until standing?\nwaitrt?\nstow_sword.call\nclose_containers.each { |c| fput \"close ##{c.id}\" }\nfill_hands\nScript.start('disarm') if killed_disarm\nundo_before_dying\n$go2_restart = true;\n",
       "22229": "go pool"
     },
     "timeto": {
       "6954": 0.2,
-      "6985": "/rooms/6955/timeto/stringproc-6985.rb",
-      "22229": "/rooms/6955/timeto/stringproc-22229.rb"
+      "6985": ";e XMLData.level > 19 ? 33.2 : nil ",
+      "22229": ";e XMLData.level > 19 ? 0.2 : nil "
     },
-    "tags": [
-      "wild pink geranium",
-      "stalk of bluebells",
-      "tkaro root",
-      "bright red cranberry",
-      "bright red teaberry",
-      "sassafras leaf",
-      "white hook mushroom",
-      "sweetfern stalk",
-      "acantha leaf",
-      "wolifrew lichen",
-      "ephlox moss",
-      "sticks",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "wintergreen leaf",
-      "broken twig",
-      "tree bark",
-      "willow twig",
-      "yew twig",
-      "oak twig",
-      "luckbloom blossom",
-      "twisted twig",
-      "slender twig",
-      "bolmara lichen",
-      "brostheras grass",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      43062
-    ],
     "image": "wl-darkstone-1717380773.png",
     "image_coords": [
       158,
       206,
       168,
       216
+    ],
+    "tags": [
+      "acantha leaf",
+      "angelica root",
+      "bolmara lichen",
+      "bright red cranberry",
+      "bright red teaberry",
+      "broken twig",
+      "brostheras grass",
+      "ephlox moss",
+      "luckbloom blossom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-01",
+      "oak twig",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "slender twig",
+      "stalk of bluebells",
+      "sticks",
+      "sweetfern stalk",
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "white hook mushroom",
+      "wild beechnut",
+      "wild pink geranium",
+      "willow twig",
+      "wintergreen leaf",
+      "wolifrew lichen",
+      "yew twig"
+    ],
+    "uid": [
+      43062
     ]
   }
 }

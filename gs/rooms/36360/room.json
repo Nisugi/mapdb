@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36360,
+    "title": [
+      "[Keep, Entry Hall]"
+    ],
+    "description": [
+      "The grand, sweeping lines of the structure that were a main feature of the exterior of Black Swan Keep continue on inside the structure.  The dark, carved walls meet to form an asymmetrical dome far above your head, where bats and pigeons have made their homes over the decades of disuse.  Large ebony doors stand at one end of the hall, and a narrow arch spans between two spindly columns that are partially hidden within the shadows."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36359": "go door",
+      "36361": "go arch"
+    },
+    "timeto": {
+      "36359": 0.2,
+      "36361": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1080,
+      800,
+      1120,
+      840
+    ],
+    "uid": [
+      55030
+    ]
+  }
+}

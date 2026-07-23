@@ -1,5 +1,4 @@
 {
-  "checksum": "06fae0680f22fed5850d6ff729ab0b80",
   "room": {
     "id": 16119,
     "title": [
@@ -23,21 +22,22 @@
       "16120": 0.2,
       "16219": 0.2
     },
-    "tags": [
-      "agave heart",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01",
-      "meta:nomagic"
-    ],
-    "uid": [
-      5007004
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       1598,
       706,
       1621,
       728
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-01",
+      "meta:nomagic",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      5007004
     ]
   }
 }

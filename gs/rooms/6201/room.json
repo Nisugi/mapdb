@@ -1,5 +1,4 @@
 {
-  "checksum": "0c0b05d6f2283e3841edc6b66dca859d",
   "room": {
     "id": 6201,
     "title": [
@@ -18,36 +17,37 @@
     "location": "The Hidden Plateau",
     "wayto": {
       "6200": "southeast",
-      "6202": "/rooms/6201/wayto/stringproc-6202.rb"
+      "6202": ";e move (XMLData.room_exits - [ 'southeast' ]).first"
     },
     "timeto": {
       "6200": 0.2,
       "6202": 0.2
     },
-    "tags": [
-      "withered black mushroom",
-      "black hook mushroom",
-      "some cave moss",
-      "soft white mushroom",
-      "white hook mushroom",
-      "blue trafel mushroom",
-      "cave moss",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "wingstem root",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      2167070
-    ],
     "image": "wl-wehntoph-1310775397.png",
     "image_coords": [
       843,
       302,
       877,
       336
+    ],
+    "tags": [
+      "black mushroom",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "cave moss",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-09",
+      "murdroot",
+      "red mushroom",
+      "soft mushroom",
+      "white hook mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      2167070
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "b87a8681035c244ce594952498c08f5f",
   "room": {
     "id": 10990,
     "title": [
@@ -15,18 +14,18 @@
     "wayto": {
       "10858": "out",
       "16221": "go curtain",
-      "30711": "/rooms/10990/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "10858": 0.2,
       "16221": 0.2,
-      "30711": "/rooms/10990/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "fletcher",
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
+      "no forageables",
       "urchin guide fletcher",
       "urchin-access"
     ],

@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36674,
+    "title": [
+      "[Nyessem, Ring Loop]"
+    ],
+    "description": [
+      "The light emitted by the white stone walls is more muted in this section of tunnel.  Off to one side, a two-sided stone altar is flanked by dozens of candles.  Throughout the room, many pillows have been placed for guests to take their ease in reverence.  Across from the altar sit twin stone obelisks, one white and one ebon.  Both are carved inward with relief sculpture, the first obelisk of Lady Maivaldius and the other obelisk of Nyessemian figures.  Before them sits a small metal sign."
+    ],
+    "paths": [
+      "Obvious exits: north, south"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36673": "north",
+      "36675": "south"
+    },
+    "timeto": {
+      "36673": 0.2,
+      "36675": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      684,
+      556,
+      699,
+      573
+    ],
+    "uid": [
+      8400009
+    ]
+  }
+}

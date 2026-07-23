@@ -1,5 +1,4 @@
 {
-  "checksum": "dfa72a67127d7e773fcbca1fd30dc03c",
   "room": {
     "id": 16901,
     "title": [
@@ -19,19 +18,19 @@
       "16902": "go curtain",
       "16903": "go mithril door",
       "16904": "go iron-framed door",
-      "30712": "/rooms/16901/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "16843": 0.2,
       "16902": 0.2,
       "16903": 0.2,
       "16904": 0.2,
-      "30712": "/rooms/16901/timeto/stringproc-30712.rb"
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "urchin-access",
+      "no forageables",
       "urchin guide weddinghall",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       13014056

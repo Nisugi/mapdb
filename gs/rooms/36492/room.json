@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36492,
+    "title": [
+      "[Claws and Effect, Shadow Side]"
+    ],
+    "description": [
+      "Wares crowd every surface of the pavilion's back wall, filling ironwood tables, copper-bound pale oak trunks, and woven yucca frond baskets in equal measure.  Pendant lanterns range along the northern edge while hammered copper braziers stand lofted on iron brackets along the eastern, their combined glow and warmth creating a blend of color and light that settles across the forest green rugs laid thickly across the ground."
+    ],
+    "paths": [
+      "Obvious exits: north, northeast"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "36490": "north",
+      "36491": "northeast"
+    },
+    "timeto": {
+      "36490": 0.2,
+      "36491": 0.2
+    },
+    "uid": [
+      8209239
+    ]
+  }
+}

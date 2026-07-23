@@ -1,5 +1,4 @@
 {
-  "checksum": "e59e73aec1ca504d8536a3a9322993db",
   "room": {
     "id": 1195,
     "title": [
@@ -18,7 +17,7 @@
       "1259": "west",
       "8670": "go doorway",
       "8671": "south",
-      "30708": "/rooms/1195/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "227": 0.2,
@@ -26,21 +25,22 @@
       "1259": 0.2,
       "8670": 0.2,
       "8671": 0.2,
-      "30708": "/rooms/1195/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access",
-      "urchin guide thrak"
-    ],
-    "uid": [
-      1016
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       208,
       365,
       218,
       375
+    ],
+    "tags": [
+      "no forageables",
+      "urchin guide thrak",
+      "urchin-access"
+    ],
+    "uid": [
+      1016
     ]
   }
 }

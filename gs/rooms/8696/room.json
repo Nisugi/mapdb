@@ -1,5 +1,4 @@
 {
-  "checksum": "0983319fda48b010b9ed78cd7367374f",
   "room": {
     "id": 8696,
     "title": [
@@ -19,49 +18,49 @@
     "terrain": "cultivated",
     "wayto": {
       "2369": "out",
-      "13532": "/rooms/8696/wayto/stringproc-13532.rb"
+      "13532": ";e $SILVERWOOD_TOWN=:imt;move 'go door'"
     },
     "timeto": {
       "2369": 0.2,
       "13532": 0.2
     },
-    "tags": [
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "soft white mushroom",
-      "withered black mushroom",
-      "white hook mushroom",
-      "blue trafel mushroom",
-      "ice tulip",
-      "moonflower",
-      "snow pansy",
-      "winter rose",
-      "bright red cranberry",
-      "frostflower",
-      "blue whortleberry",
-      "arctic brambles",
-      "witchwood twig",
-      "yew twig",
-      "luckbloom blossom",
-      "wavepetal blossom",
-      "mentors",
-      "silverwood",
-      "sunburst blossom",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      4384002
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       494,
       698,
       530,
       734
+    ],
+    "tags": [
+      "angelica root",
+      "arctic brambles",
+      "blue trafel mushroom",
+      "blue whortleberry",
+      "bright red cranberry",
+      "coldleaf tobacco",
+      "frostflower",
+      "ice tulip",
+      "luckbloom blossom",
+      "mentors",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "moonflower",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "silverwood",
+      "snow pansy",
+      "soft mushroom",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wavepetal blossom",
+      "white hook mushroom",
+      "winter rose",
+      "withered mushroom",
+      "yew twig"
+    ],
+    "uid": [
+      4384002
     ]
   }
 }

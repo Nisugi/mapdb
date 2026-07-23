@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36695,
+    "title": [
+      "[Nyessem, Maivaldius Museum]"
+    ],
+    "description": [
+      "The room is so dark that the walls to either side are hard to make out.  At the room's far end, a gem and stone relief of an elegant woman rises, lit by a pale gold spotlight in the ceiling.  The most prominent feature of this relief is the rune-etched diamond set in the subject's forehead.  Some wide stone benches are set in the middle of the room, with a large metal sign and some lanterns adjacent."
+    ],
+    "paths": [
+      "Obvious exits: north"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36694": "north"
+    },
+    "timeto": {
+      "36694": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      1063,
+      768,
+      1081,
+      783
+    ],
+    "uid": [
+      8400051
+    ]
+  }
+}

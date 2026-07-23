@@ -1,5 +1,4 @@
 {
-  "checksum": "f896bfab02f8a2c7602497c9e48acc34",
   "room": {
     "id": 7905,
     "title": [
@@ -14,26 +13,26 @@
     "location": "Glatoph",
     "wayto": {
       "4124": "southwest",
-      "8141": "/rooms/7905/wayto/stringproc-8141.rb"
+      "8141": ";e fput 'crawl crack'\nwaitrt?\nfput 'stand' unless standing?"
     },
     "timeto": {
       "4124": 0.2,
-      "8141": 3
+      "8141": 3.0
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      35013
-    ],
     "image": "wl-danjirland-1264234799.png",
     "image_coords": [
       132,
       357,
       142,
       367
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "no forageables"
+    ],
+    "uid": [
+      35013
     ]
   }
 }

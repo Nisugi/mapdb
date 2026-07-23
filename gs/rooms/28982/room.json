@@ -1,5 +1,4 @@
 {
-  "checksum": "4e227215c0941abdeda88fc6bb6492fa",
   "room": {
     "id": 28982,
     "title": [
@@ -16,17 +15,17 @@
       "28981": "northeast",
       "28983": "southwest",
       "28989": "go door",
-      "30716": "/rooms/28982/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28981": 0.2,
       "28983": 0.2,
       "28989": 0.2,
-      "30716": "/rooms/28982/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "urchin-access",
-      "meta:premium"
+      "meta:premium",
+      "urchin-access"
     ],
     "uid": [
       7118508

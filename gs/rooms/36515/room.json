@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36515,
+    "title": [
+      "[The Webs We Weave, Alcove]"
+    ],
+    "description": [
+      "Oversized leather-woven webs are suspended at various lengths along the wood-paneled ceiling, the latticed lengths decorated by gauze ribbons dyed in rich jewel tones.  Arranged in each corner are grass-framed clusters of glass flowers, the colorful blossoms each set within a stone-crafted circle formed of loosely stacked pebbles."
+    ],
+    "paths": [
+      "Obvious exits: south"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "36514": "south"
+    },
+    "timeto": {
+      "36514": 0.2
+    },
+    "uid": [
+      8209609
+    ]
+  }
+}

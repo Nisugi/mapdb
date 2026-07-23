@@ -1,0 +1,30 @@
+{
+  "room": {
+    "id": 36611,
+    "title": [
+      "[Skyship, Research]"
+    ],
+    "description": [
+      "The room is divided into two separated parts.  One side is a broad, metal passage, wide and unadorned, a through-way in the section.  The other is inaccessible, hidden away behind a series of dyed blue-black panes fitted between thick metal bars that run the length of the area, floor-to-ceiling.  These panes are opaque and narrow, with room enough for only a single figure to stand at one to attempt to peer through its impossibly cloudy glaes."
+    ],
+    "paths": [
+      "Obvious exits: north, east, west"
+    ],
+    "location": false,
+    "wayto": {
+      "36607": "go crack",
+      "36612": "east",
+      "36614": "north",
+      "36628": "west"
+    },
+    "timeto": {
+      "36607": 0.2,
+      "36612": 0.2,
+      "36614": 0.2,
+      "36628": 0.2
+    },
+    "uid": [
+      12102053
+    ]
+  }
+}

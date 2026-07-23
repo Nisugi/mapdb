@@ -1,5 +1,4 @@
 {
-  "checksum": "f27214e3ef69d3f3b6173e6a4f8f6d5c",
   "room": {
     "id": 23551,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "23548": "/rooms/23551/wayto/stringproc-23548.rb",
+      "23548": ";e move 'go door'; $go2_restart = true",
       "23552": "go stair",
       "23553": "go arch"
     },
@@ -22,15 +21,18 @@
       "23552": 0.2,
       "23553": 0.2
     },
-    "uid": [
-      54302
-    ],
     "image": "wl-beacon_hall.png",
     "image_coords": [
       77,
       171,
       117,
       212
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      54302
     ]
   }
 }

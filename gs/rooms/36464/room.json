@@ -1,0 +1,37 @@
+{
+  "room": {
+    "id": 36464,
+    "title": [
+      "[Black Swan Castle, Moat]"
+    ],
+    "description": [
+      "Water laps up and through a small grate in the stone wall here which appears to be a remnant of the castle's primitive sanitation system.  While you can grasp the metal bars, they do not seem to yield to force."
+    ],
+    "paths": [
+      "Obvious paths: south, west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36348": "go grate",
+      "36451": "swim shore",
+      "36463": "swim west",
+      "36465": "swim south"
+    },
+    "timeto": {
+      "36348": 0.2,
+      "36451": 0.2,
+      "36463": 0.2,
+      "36465": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      760,
+      120,
+      800,
+      160
+    ],
+    "uid": [
+      55023
+    ]
+  }
+}

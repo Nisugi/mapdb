@@ -1,0 +1,41 @@
+{
+  "room": {
+    "id": 36696,
+    "title": [
+      "[Nyessem, Orb Distribution]"
+    ],
+    "description": [
+      "The walls here glow with a palpable pearlescence, more so than any of the other rooms through a glittering gem-studded arch out.  A stone path speckled with multihued gemstones runs the length of the room, perpendicular to the arch.  Along this path are six enormous white stone figures, all meticulously carved with painstaking attention to their varying humanoid forms.  A prominent metal plaque is attached to the wall on the room's far side."
+    ],
+    "paths": [
+      "Obvious exits: north, northeast, east, southeast, southwest, west, northwest"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36670": "go arch",
+      "36697": "east",
+      "36698": "west",
+      "36699": "northeast",
+      "36700": "northwest",
+      "36701": "north"
+    },
+    "timeto": {
+      "36670": 0.2,
+      "36697": 0.2,
+      "36698": 0.2,
+      "36699": 0.2,
+      "36700": 0.2,
+      "36701": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      849,
+      344,
+      869,
+      365
+    ],
+    "uid": [
+      8400100
+    ]
+  }
+}

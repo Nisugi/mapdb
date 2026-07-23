@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36386,
+    "title": [
+      "[Black Swan Castle, Ramparts]"
+    ],
+    "description": [
+      "The ramparts here are not in such an advanced state of disrepair behind the lookout tower.  The dark granite is mostly unmarred on both the inner and outer walls.  This area seems to have been spared from the full force of enemy attacks."
+    ],
+    "paths": [
+      "Obvious paths: north"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36374": "go tower",
+      "36387": "north",
+      "36460": "jump"
+    },
+    "timeto": {
+      "36374": 0.2,
+      "36387": 0.2,
+      "36460": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      200,
+      560,
+      240,
+      600
+    ],
+    "uid": [
+      55059
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36552,
+    "title": [
+      "[Skyship, The Cages]"
+    ],
+    "description": [
+      "Metal cages hang suspended from the ceiling along the bulkheads of the room.  The metal used to forge these cages appears uneven and rough, with visible, sharp protrusions densely placed across their interiors. Some of these cages are empty, but others contain remains in various states of decay.  Symbols are faintly scratched into the metal bulkheads alongside these cages, but most have faded beyond recognition."
+    ],
+    "paths": [
+      "Obvious exits: north, south"
+    ],
+    "location": false,
+    "wayto": {
+      "36547": "south",
+      "36553": "north"
+    },
+    "timeto": {
+      "36547": 0.2,
+      "36553": 0.2
+    },
+    "uid": [
+      12102016
+    ]
+  }
+}

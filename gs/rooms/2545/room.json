@@ -1,5 +1,4 @@
 {
-  "checksum": "03f7ea805ba3686e1b3b447144dd0438",
   "room": {
     "id": 2545,
     "title": [
@@ -14,26 +13,26 @@
     ],
     "location": "the Icemule Trail",
     "wayto": {
-      "2544": "/rooms/2545/wayto/stringproc-2544.rb",
-      "2546": "/rooms/2545/wayto/stringproc-2546.rb"
+      "2544": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'north'",
+      "2546": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'southwest'"
     },
     "timeto": {
       "2544": 0.2,
       "2546": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4044013
-    ],
     "image": "imt-trail-1264234799.png",
     "image_coords": [
       782,
       679,
       792,
       689
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables"
+    ],
+    "uid": [
+      4044013
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "51e152bf333388f7b8051d175f3422d1",
   "room": {
     "id": 28971,
     "title": [
@@ -14,17 +13,18 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28958": "go door",
-      "30716": "/rooms/28971/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28958": 0.2,
-      "30716": "/rooms/28971/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "debt",
-      "urchin-access",
+      "debts",
+      "no forageables",
       "urchin guide debts",
-      "debts"
+      "urchin-access"
     ],
     "uid": [
       7121011

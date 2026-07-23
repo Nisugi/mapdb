@@ -1,5 +1,4 @@
 {
-  "checksum": "42d2084bdefdbfa0b6871478848fcb6c",
   "room": {
     "id": 24532,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "snowy, arctic",
     "terrain": "barren scrub",
     "wayto": {
-      "24519": "/rooms/24532/wayto/stringproc-24519.rb",
+      "24519": ";e empty_hands\nmove 'climb hillside'\nwaitrt?\nfill_hands",
       "24542": "north",
       "24543": "northeast"
     },
@@ -24,30 +23,30 @@
       "24542": 0.2,
       "24543": 0.2
     },
-    "tags": [
-      "snow lily",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "arctic moss",
-      "broken twig",
-      "rockberry",
-      "crowberry",
-      "lingonberry",
-      "ironfern root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "wingstem root",
-      "meta:forage-sensed:day:2025-03"
-    ],
-    "uid": [
-      4124050
-    ],
     "image": "imt-bramble_patch-1307499864.png",
     "image_coords": [
       300,
       257,
       313,
       270
+    ],
+    "tags": [
+      "arctic moss",
+      "bright red teaberry",
+      "broken twig",
+      "crowberry",
+      "ironfern root",
+      "lingonberry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2025-03",
+      "rockberry",
+      "snow lily",
+      "sunburst blossom",
+      "wingstem root",
+      "wintergreen leaf"
+    ],
+    "uid": [
+      4124050
     ]
   }
 }

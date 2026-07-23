@@ -1,0 +1,36 @@
+{
+  "room": {
+    "id": 36665,
+    "title": [
+      "[Nyessem, Ring Loop]"
+    ],
+    "description": [
+      "This path is difficult to make out, as a sculpture garden of lush Nyessemian trees dominates the area.  The trees in this garden come together to form a tree-shaped stone fountain, with water pouring forth from individual stone faces carved on each tree.  This water collects in a wide stone pool beneath the installation, which glows with such luminescence that its depth cannot be casually determined.  On the room's other side, a perpendicular and narrow slope leads up."
+    ],
+    "paths": [
+      "Obvious exits: north, southwest"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36664": "southwest",
+      "36666": "north"
+    },
+    "timeto": {
+      "36664": 0.2,
+      "36666": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      1021,
+      599,
+      1037,
+      613
+    ],
+    "tags": [
+      "menagerie madness"
+    ],
+    "uid": [
+      8400018
+    ]
+  }
+}

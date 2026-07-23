@@ -1,5 +1,4 @@
 {
-  "checksum": "53d154df0e123f71aef5bb52aae6d941",
   "room": {
     "id": 15928,
     "title": [
@@ -24,22 +23,24 @@
       "15919": 0.2,
       "23255": 0.2
     },
-    "tags": [
-      "some bolmara lichen",
-      "white hook mushroom",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4045133
-    ],
     "image": "imt-underground-1264234799.png",
     "image_coords": [
       1003,
       215,
       1012,
       224
+    ],
+    "tags": [
+      "bolmara lichen",
+      "glassfern frond",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "white hook mushroom",
+      "wingstem root"
+    ],
+    "uid": [
+      4045133
     ]
   }
 }

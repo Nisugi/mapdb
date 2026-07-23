@@ -1,5 +1,4 @@
 {
-  "checksum": "c3c1598b19f72b70317a86595ceee015",
   "room": {
     "id": 13169,
     "title": [
@@ -15,27 +14,28 @@
     "wayto": {
       "1276": "north",
       "10837": "go passageway",
-      "30714": "/rooms/13169/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "1276": 0.2,
       "10837": 0.2,
-      "30714": "/rooms/13169/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "chronomage",
-      "urchin-access",
-      "urchin guide chronomages"
-    ],
-    "uid": [
-      13112406
-    ],
     "image": "en-ta_illistim-new.jpg",
     "image_coords": [
       1495,
       855,
       1518,
       876
+    ],
+    "tags": [
+      "chronomage",
+      "no forageables",
+      "urchin guide chronomages",
+      "urchin-access"
+    ],
+    "uid": [
+      13112406
     ]
   }
 }

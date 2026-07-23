@@ -1,5 +1,4 @@
 {
-  "checksum": "451741b33d4d24977fecc6198ff76d71",
   "room": {
     "id": 20749,
     "title": [
@@ -19,14 +18,15 @@
       "2491": 0.2
     },
     "tags": [
-      "ranger shack",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-09",
-      "meta:nomagic"
+      "meta:nomagic",
+      "no forageables",
+      "ranger shack"
     ],
+    "check_location": true,
     "uid": [
       142003
-    ],
-    "check_location": true
+    ]
   }
 }

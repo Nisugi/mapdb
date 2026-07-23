@@ -1,5 +1,4 @@
 {
-  "checksum": "b1e0be239a847674488fee44e0da4797",
   "room": {
     "id": 20770,
     "title": [
@@ -15,28 +14,28 @@
     "wayto": {
       "20767": "go steps",
       "20771": "go archway",
-      "30711": "/rooms/20770/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "20767": 0.2,
       "20771": 0.2,
-      "30711": "/rooms/20770/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "premium supernode",
-      "supernode",
-      "urchin-access",
-      "meta:premium"
-    ],
-    "uid": [
-      4002305
-    ],
     "image": "premium_halls-1489980086.png",
     "image_coords": [
       3968,
       853,
       4091,
       905
+    ],
+    "tags": [
+      "meta:premium",
+      "premium supernode",
+      "supernode",
+      "urchin-access"
+    ],
+    "uid": [
+      4002305
     ]
   }
 }

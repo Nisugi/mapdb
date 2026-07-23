@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36680,
+    "title": [
+      "[Nyessem, Promenade]"
+    ],
+    "description": [
+      "The walkway narrows here, set between a white stone wall lined with marble sculptures of Nyessemian women and one carved with arch-shaped hollows.  Velvet-threaded curtains are cinched above the hollows, over a pale violet stone arch.  At one end of the walkway is a narrow slope alongside a polished white stone fireplace.  The other end leads back to the promenade's main square.  Above, a pale blue mist mimicking a cloudy sky flows like milky water."
+    ],
+    "paths": [
+      "Obvious exits: east"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36675": "go slope",
+      "36678": "east",
+      "36683": "go stone arch"
+    },
+    "timeto": {
+      "36675": 0.2,
+      "36678": 0.2,
+      "36683": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      811,
+      599,
+      826,
+      613
+    ],
+    "uid": [
+      8400031
+    ]
+  }
+}

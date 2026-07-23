@@ -1,5 +1,4 @@
 {
-  "checksum": "aa29a5ea0ce35a700001ecc5f01987e2",
   "room": {
     "id": 4172,
     "title": [
@@ -15,9 +14,9 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "4171": "/rooms/4172/wayto/stringproc-4171.rb",
-      "4173": "/rooms/4172/wayto/stringproc-4173.rb",
-      "4174": "/rooms/4172/wayto/stringproc-4174.rb",
+      "4171": ";e unless checkloot.include?('door'); move 'south'; fput 'search'; move 'go stair'; move 'southwest'; move 'southwest'; move 'southeast'; move 'go crack'; move 'north'; end; move 'go door'",
+      "4173": ";e unless checkloot.include?('door'); move 'south'; fput 'search'; move 'go stair'; move 'southwest'; move 'southwest'; move 'southeast'; move 'go crack'; move 'north'; end; move 'south'",
+      "4174": ";e move 'south' while checkpaths.include?('s')",
       "16806": "north"
     },
     "timeto": {
@@ -26,26 +25,26 @@
       "4174": 0.6,
       "16806": 0.2
     },
-    "tags": [
-      "wolifrew lichen",
-      "withered black mushroom",
-      "cave moss",
-      "murdroot",
-      "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2024-01",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      2138116
-    ],
     "image": "wl-graveyard-1264234799.png",
     "image_coords": [
       767,
       835,
       777,
       845
+    ],
+    "tags": [
+      "cave moss",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-01",
+      "murdroot",
+      "wingstem root",
+      "withered mushroom",
+      "wolifrew lichen"
+    ],
+    "uid": [
+      2138116
     ]
   }
 }

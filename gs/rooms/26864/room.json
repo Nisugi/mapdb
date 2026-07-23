@@ -1,5 +1,4 @@
 {
-  "checksum": "da2cd961569b6ce3d0f91a18effe5a2f",
   "room": {
     "id": 26864,
     "title": [
@@ -22,7 +21,8 @@
       "26866": "go wood-planked wagon",
       "26871": "north",
       "35197": "go thatch shop",
-      "35198": "go massive sphere"
+      "35198": "go massive sphere",
+      "36335": "go stone building"
     },
     "timeto": {
       "26837": 0.2,
@@ -31,20 +31,21 @@
       "26866": 0.2,
       "26871": 0.2,
       "35197": 0.2,
-      "35198": 0.2
+      "35198": 0.2,
+      "36335": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214520
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       572,
       621,
       600,
       651
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      8214520
     ]
   }
 }

@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36544,
+    "title": [
+      "[The Best Defence]"
+    ],
+    "description": [
+      "Polished oak walls rise from a polished oak floor.  Just above a worn rug hangs a tattered merchant permit, and a vaulted ceiling completes the picture.  A glass-covered box case and a wide knotted oak counter stand side by side in the middle of the room."
+    ],
+    "paths": [
+      "Obvious exits: east, west, out"
+    ],
+    "location": "Wehnimer's Landing",
+    "wayto": {
+      "375": "out"
+    },
+    "timeto": {
+      "375": 0.2
+    },
+    "uid": [
+      631073
+    ]
+  }
+}

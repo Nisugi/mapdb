@@ -1,5 +1,4 @@
 {
-  "checksum": "42f0ee1ac7cb498ee135048e80738f4f",
   "room": {
     "id": 11557,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "11556": "/rooms/11557/wayto/stringproc-11556.rb",
+      "11556": ";e empty_hands; move 'climb mainmast'; fill_hands",
       "11558": "go hatchway",
       "11591": "east"
     },
@@ -24,19 +23,19 @@
       "11558": 0.2,
       "11591": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      420501
-    ],
     "image": "rr-maelstrom-1619824696.png",
     "image_coords": [
       131,
       932,
       141,
       942
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables"
+    ],
+    "uid": [
+      420501
     ]
   }
 }

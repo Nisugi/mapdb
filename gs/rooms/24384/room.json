@@ -1,5 +1,4 @@
 {
-  "checksum": "39986cfbef217ae7b4ec91b12070f4fb",
   "room": {
     "id": 24384,
     "title": [
@@ -16,31 +15,31 @@
     "terrain": "hard, flat",
     "wayto": {
       "24382": "down",
-      "24404": "/rooms/24384/wayto/stringproc-24404.rb"
+      "24404": ";e fput 'search'; move 'go branch'"
     },
     "timeto": {
       "24382": 0.2,
       "24404": 0.2
     },
-    "tags": [
-      "node",
-      "meta:mapname:Elven Nations - Ta'Illistim Ranger Guild",
-      "meta:mapshortname:Ranger Guild (Ta'Illistim)",
-      "meta:mapcategory:Elven Nations",
-      "meta:mapcategory:Guilds",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      275019
-    ],
     "image": "en-ta_illistim-rangerguild-v2.png",
     "image_coords": [
       111,
       241,
       131,
       259
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-11",
+      "meta:mapcategory:Elven Nations",
+      "meta:mapcategory:Guilds",
+      "meta:mapname:Elven Nations - Ta'Illistim Ranger Guild",
+      "meta:mapshortname:Ranger Guild (Ta'Illistim)",
+      "no forageables",
+      "node"
+    ],
+    "uid": [
+      275019
     ]
   }
 }

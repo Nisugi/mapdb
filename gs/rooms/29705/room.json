@@ -1,5 +1,4 @@
 {
-  "checksum": "9898d2c93bcd0cae223dc93970282c5c",
   "room": {
     "id": 29705,
     "title": [
@@ -16,25 +15,29 @@
       "29695": "go narrow track",
       "29701": "southwest",
       "29718": "go brown tent",
-      "29719": "go corral",
-      "29721": "northeast"
+      "29719": "go oak corral",
+      "29721": "northeast",
+      "33531": "go red wagon",
+      "36514": "go naiquard pavilion"
     },
     "timeto": {
       "29695": 0.2,
       "29701": 0.2,
       "29718": 0.2,
       "29719": 0.2,
-      "29721": 0.2
+      "29721": 0.2,
+      "33531": 0.2,
+      "36514": 0.2
     },
+    "image": "fest-RW2026.png",
+    "image_coords": [
+      1527,
+      503,
+      1552,
+      525
+    ],
     "uid": [
       8208749
-    ],
-    "image": "fest-RW2023-1687094965.png",
-    "image_coords": [
-      1070,
-      534,
-      1099,
-      565
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "ebae8b08a4c858464d03f965de1f8fbe",
   "room": {
     "id": 27981,
     "title": [
@@ -21,7 +20,8 @@
       "27985": "northeast",
       "28747": "go glossy tent",
       "29640": "go umber pavilion",
-      "33494": "southeast"
+      "33494": "southeast",
+      "36507": "go clapboard-sided workshop"
     },
     "timeto": {
       "27980": 0.2,
@@ -29,17 +29,18 @@
       "27985": 0.2,
       "28747": 0.2,
       "29640": 0.2,
-      "33494": 0.2
+      "33494": 0.2,
+      "36507": 0.2
     },
+    "image": "fest-RW2026.png",
+    "image_coords": [
+      778,
+      557,
+      801,
+      576
+    ],
     "uid": [
       8208702
-    ],
-    "image": "fest-RW2023-1687094965.png",
-    "image_coords": [
-      262,
-      594,
-      292,
-      623
     ]
   }
 }

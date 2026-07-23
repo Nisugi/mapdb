@@ -1,5 +1,4 @@
 {
-  "checksum": "13eece8e8991e8c085f684d4366a46cf",
   "room": {
     "id": 2473,
     "title": [
@@ -22,24 +21,25 @@
       "2459": 0.2,
       "2474": 0.2
     },
-    "tags": [
-      "calmintha flower",
-      "meta:mapname:Neighborhoods of Icemule Trace and Pinefar",
-      "meta:mapcategory:Icemule Trace",
-      "meta:mapcategory:Neighborhoods",
-      "meta:mapcategory:Premium",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      704201
-    ],
     "image": "imt-homes-1264234799.png",
     "image_coords": [
       605,
       767,
       625,
       787
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "meta:mapcategory:Icemule Trace",
+      "meta:mapcategory:Neighborhoods",
+      "meta:mapcategory:Premium",
+      "meta:mapname:Neighborhoods of Icemule Trace and Pinefar",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      704201
     ]
   }
 }

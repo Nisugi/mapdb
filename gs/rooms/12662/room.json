@@ -1,5 +1,4 @@
 {
-  "checksum": "68da6aeefc30386ba3f1ebe0c9e3736d",
   "room": {
     "id": 12662,
     "title": [
@@ -17,44 +16,44 @@
     "terrain": "sandy",
     "wayto": {
       "2071": "go incline",
-      "12677": "/rooms/12662/wayto/stringproc-12677.rb",
-      "20786": "/rooms/12662/wayto/stringproc-20786.rb"
+      "12677": ";e empty_hand if [ 12662, 20786 ].include?(Room.current.id); swim_dir = { 20786 => 'down', 12662 => 'whirlpool', 12987 => 'south', 12663 => 'south', 12988 => 'southeast', 12664 => 'south', 12726 => 'east', 12665 => 'south', 12666 => 'south', 12667 => 'south', 12989 => 'southeast', 12991 => 'southwest', 12668 => 'northeast', 12727 => 'west', 12990 => 'east', 12669 => 'southeast', 12670 => 'north', 12728 => 'south', 12671 => 'southeast', 12672 => 'west', 12673 => 'fissure', 12674 => 'steps', 12675 => 'northeast', 12729 => 'southeast', 12676 => 'up' }; while Room.current.id != 12677; if swim_dir[Room.current.id]; put \"swim #{swim_dir[Room.current.id]}\"; else; echo \"Oh crap.. I'm lost..\"; put \"swim #{checkpaths[rand(checkpaths.length)]}\"; end; sleep 1; waitrt?; end; fill_hand",
+      "20786": ";e empty_hand if [ 12662, 12677 ].include?(Room.current.id); swim_dir = { 12677 => 'down', 12662 => 'whirlpool', 12987 => 'south', 12663 => 'south', 12988 => 'southeast', 12664 => 'south', 12726 => 'east', 12665 => 'south', 12666 => 'south', 12667 => 'south', 12989 => 'southeast', 12991 => 'southwest', 12668 => 'northeast', 12727 => 'west', 12990 => 'east', 12669 => 'southeast', 12670 => 'north', 12728 => 'south', 12671 => 'southeast', 12672 => 'west', 12673 => 'fissure', 12674 => 'steps', 12675 => 'northwest', 12729 => 'up', 12676 => 'southwest' }; while Room.current.id != 20786; if swim_dir[Room.current.id]; put \"swim #{swim_dir[Room.current.id]}\"; else; echo \"Oh crap.. I'm lost..\"; put \"swim #{checkpaths[rand(checkpaths.length)]}\"; end; sleep 1; waitrt?; end; fill_hand"
     },
     "timeto": {
       "2071": 0.2,
-      "12677": 45,
-      "20786": 45
+      "12677": 45.0,
+      "20786": 45.0
     },
-    "tags": [
-      "yabathilium fruit",
-      "meta:mapname:Teras Isle - Nelemar",
-      "meta:mapshortname:Nelemar",
-      "meta:mapcategory:Teras Isle",
-      "acantha leaf",
-      "murdroot",
-      "wingstem root",
-      "bur-clover root",
-      "cinnamon bark",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-11",
-      "meta:forage-sensed:night:2026-01"
-    ],
-    "uid": [
-      3031001
-    ],
     "image": "ti-nelemar-1262373036.png",
     "image_coords": [
       1173,
       768,
       1191,
       786
+    ],
+    "tags": [
+      "acantha leaf",
+      "black peppercorn",
+      "bur-clover root",
+      "cardamom",
+      "cinnamon bark",
+      "cumin seeds",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-11",
+      "meta:forage-sensed:night:2026-01",
+      "meta:mapcategory:Teras Isle",
+      "meta:mapname:Teras Isle - Nelemar",
+      "meta:mapshortname:Nelemar",
+      "murdroot",
+      "nutmeg",
+      "pink peppercorn",
+      "star anise",
+      "vanilla bean",
+      "wingstem root",
+      "yabathilium fruit"
+    ],
+    "uid": [
+      3031001
     ]
   }
 }

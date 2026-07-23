@@ -1,5 +1,4 @@
 {
-  "checksum": "23cfc9c13931655c2a349f725d5f3077",
   "room": {
     "id": 1954,
     "title": [
@@ -18,18 +17,19 @@
     "timeto": {
       "1953": 0.2
     },
-    "tags": [
-      "forge"
-    ],
-    "uid": [
-      4909003
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       1267,
       78,
       1297,
       108
+    ],
+    "tags": [
+      "forge",
+      "no forageables"
+    ],
+    "uid": [
+      4909003
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "be6cae4db0b040e1a0f72f5ee5ff4bc2",
   "room": {
     "id": 10938,
     "title": [
@@ -14,28 +13,28 @@
     "location": "the town of River's Rest",
     "wayto": {
       "10937": "east",
-      "30711": "/rooms/10938/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "10937": 0.2,
-      "30711": "/rooms/10938/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access",
-      "urchin guide armor",
-      "armor",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      2101908
-    ],
     "image_coords": [
       693,
       669,
       719,
       695
+    ],
+    "tags": [
+      "armor",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "no forageables",
+      "urchin guide armor",
+      "urchin-access"
+    ],
+    "uid": [
+      2101908
     ]
   }
 }

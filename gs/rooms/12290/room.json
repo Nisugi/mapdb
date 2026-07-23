@@ -1,5 +1,4 @@
 {
-  "checksum": "200fec305ced88af11b3c9020b50bde1",
   "room": {
     "id": 12290,
     "title": [
@@ -15,22 +14,22 @@
     "location": "the Isle of Four Winds",
     "wayto": {
       "3666": "out",
-      "30718": "/rooms/12290/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "3666": 0.2,
-      "30718": "/rooms/12290/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "advguard",
-      "urchin-access",
-      "urchin guide debts",
-      "urchin guide guard",
       "debts",
       "guard",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-10"
+      "meta:forage-sensed:day:2022-10",
+      "no forageables",
+      "urchin guide debts",
+      "urchin guide guard",
+      "urchin-access"
     ],
     "uid": [
       3201056

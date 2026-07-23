@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36699,
+    "title": [
+      "[Nyessem, Primal Empowerment]"
+    ],
+    "description": [
+      "The walls glow with a palpable pearlescence.  A stone path speckled with multihued gemstones meanders to the center of the room, surrounding a flame-veined carnelian pedestal and a rune-carved snowflake obsidian plinth.  Between the pedestal and the plinth, a squat marble pillar topped by a gem-inlaid silver orb is erected."
+    ],
+    "paths": [
+      "Obvious exits: southwest"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36696": "southwest"
+    },
+    "timeto": {
+      "36696": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      936,
+      261,
+      956,
+      278
+    ],
+    "uid": [
+      8400105
+    ]
+  }
+}

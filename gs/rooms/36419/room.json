@@ -1,0 +1,37 @@
+{
+  "room": {
+    "id": 36419,
+    "title": [
+      "[Dungeon, Corridor]"
+    ],
+    "description": [
+      "This bit of corridor is an intersection leading off in several different directions.  They look practically identical to one another and there are no markings in this area to let you know which section you may already have traveled through.  A single misstep and it could be quite easy to get lost."
+    ],
+    "paths": [
+      "Obvious exits: north, south, west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36418": "west",
+      "36420": "north",
+      "36422": "south",
+      "36440": ";e if !GameObj.loot.any?{|i| i.name =~ /opening/};move('west');move('north');fput 'pull statue';fput 'turn statue';move('south');move('east');end;sleep 0.2 until GameObj.loot.any?{|i| i.name =~ /opening/};move('go opening')"
+    },
+    "timeto": {
+      "36418": 0.2,
+      "36420": 0.2,
+      "36422": 0.2,
+      "36440": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1880,
+      680,
+      1920,
+      720
+    ],
+    "uid": [
+      58030
+    ]
+  }
+}

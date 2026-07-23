@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36416,
+    "title": [
+      "[Dungeon, Short Corridor]"
+    ],
+    "description": [
+      "The corridor is short, divided neatly down the middle by a gaping pit.  It is impossible to see just how deep it is, but it is only about six feet wide, which is a conceivably easy jump for just about anyone.  A wide iron door has been set into the wall well away from the pit, presumably to prevent the unwary from stumbling down into its depths.  There is a strange green portal on the wall opposite the door."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36395": "go portal",
+      "36412": ";e move 'jump pit'; wait_while{checkstunned}"
+    },
+    "timeto": {
+      "36395": 0.2,
+      "36412": 20.0
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1720,
+      520,
+      1760,
+      560
+    ],
+    "uid": [
+      58027
+    ]
+  }
+}

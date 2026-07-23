@@ -1,5 +1,4 @@
 {
-  "checksum": "782fcc34f87e3cb07b141ff6946af04e",
   "room": {
     "id": 3260,
     "title": [
@@ -15,66 +14,58 @@
     "climate": "cold, damp",
     "terrain": "plain dirt",
     "wayto": {
-      "3250": "/rooms/3260/wayto/stringproc-3250.rb",
-      "3253": "/rooms/3260/wayto/stringproc-3253.rb",
-      "3259": "/rooms/3260/wayto/stringproc-3259.rb",
-      "3261": "/rooms/3260/wayto/stringproc-3261.rb"
+      "3250": ";e empty_hands\nmove 'climb south wall'\nwaitrt?\nfill_hands",
+      "3253": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'east'",
+      "3259": ";e empty_hands\nmove 'climb north wall'\nwaitrt?\nfill_hands",
+      "3261": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'west'"
     },
     "timeto": {
       "3250": 0.2,
-      "3253": 4,
+      "3253": 4.0,
       "3259": 0.2,
-      "3261": 4
+      "3261": 4.0
     },
-    "tags": [
-      "some wolifrew lichen",
-      "some acantha leaf",
-      "some aloeas stem",
-      "stalk of chicory",
-      "small wild rose",
-      "cuctucae berry",
-      "orange rowanberry",
-      "blue whortleberry",
-      "buckthorn berry",
-      "bright red cranberry",
-      "wild chokecherry",
-      "some arctic brambles",
-      "some wingstem root",
-      "some valerian root",
-      "withered black mushroom",
-      "sassafras leaf",
-      "some tundra grass",
-      "some angelica root",
-      "calmintha flower",
-      "sweetfern stalk",
-      "handful of bearberries",
-      "some pennyroyal stem",
-      "winter rose",
-      "frostflower",
-      "acantha leaf",
-      "wolifrew lichen",
-      "aloeas stem",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "bearberries",
-      "tundra grass",
-      "arctic brambles",
-      "murdroot",
-      "ironfern root",
-      "meta:forage-sensed",
-      "wingstem root",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      7502014
-    ],
     "image": "imt-east_west_north_gates-1668398077.png",
     "image_coords": [
       122,
       352,
       132,
       362
+    ],
+    "tags": [
+      "acantha leaf",
+      "aloeas stem",
+      "angelica root",
+      "arctic brambles",
+      "bearberries",
+      "blue whortleberry",
+      "bright red cranberry",
+      "buckthorn berry",
+      "calamintha flower",
+      "cuctucae berry",
+      "frostflower",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-09",
+      "murdroot",
+      "orange rowanberry",
+      "pennyroyal stem",
+      "pine twig",
+      "sassafras leaf",
+      "stalk of chicory",
+      "sweetfern stalk",
+      "tundra grass",
+      "valerian root",
+      "wild chokecherry",
+      "wild rose",
+      "wingstem root",
+      "winter rose",
+      "withered mushroom",
+      "wolifrew lichen"
+    ],
+    "uid": [
+      7502014
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "ac5758db3c80bfb2ecae23f70291b2bf",
   "room": {
     "id": 13403,
     "title": [
@@ -20,18 +19,19 @@
       "13402": 0.2,
       "13404": 0.2
     },
-    "tags": [
-      "fishing shop"
-    ],
-    "uid": [
-      13119006
-    ],
     "image": "en-ta_illistim-new.jpg",
     "image_coords": [
       212,
       32,
       228,
       49
+    ],
+    "tags": [
+      "fishing shop",
+      "no forageables"
+    ],
+    "uid": [
+      13119006
     ]
   }
 }

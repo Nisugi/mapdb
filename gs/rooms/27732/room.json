@@ -1,5 +1,4 @@
 {
-  "checksum": "1fe3eca288643bb205df54c967c05daf",
   "room": {
     "id": 27732,
     "title": [
@@ -13,22 +12,27 @@
     ],
     "location": "Icemule Trace",
     "wayto": {
-      "27731": "/rooms/27732/wayto/stringproc-27731.rb",
-      "27733": "/rooms/27732/wayto/stringproc-27733.rb"
+      "27731": ";e fput 'pull rope'; move 'go down'",
+      "27733": ";e fput 'push rope'; move 'climb rope'"
     },
     "timeto": {
       "27731": 10.2,
       "27733": 5.2
     },
-    "uid": [
-      4050121
-    ],
     "image": "imt-Town_Walls_Map-1707071672.png",
     "image_coords": [
       218,
       460,
       249,
       491
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      4050121
     ]
   }
 }

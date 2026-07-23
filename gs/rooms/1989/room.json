@@ -1,5 +1,4 @@
 {
-  "checksum": "3ef0bb01007dc48902692f9205b2169a",
   "room": {
     "id": 1989,
     "title": [
@@ -17,31 +16,31 @@
     "wayto": {
       "1859": "south",
       "19005": "go gate",
-      "30715": "/rooms/1989/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1859": 0.2,
-      "19005": "/rooms/1989/timeto/stringproc-19005.rb",
-      "30715": "/rooms/1989/timeto/stringproc-30715.rb"
+      "19005": ";e Stats.prof == 'Sorcerer' ? 0.2 : nil",
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "sorcererguild",
-      "sorcerer guild",
-      "urchin-access",
-      "urchin guide sorcererguild",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      662001
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       116,
       126,
       152,
       162
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "no forageables",
+      "sorcerer guild",
+      "sorcererguild",
+      "urchin guide sorcererguild",
+      "urchin-access"
+    ],
+    "uid": [
+      662001
     ]
   }
 }

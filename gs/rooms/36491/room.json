@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36491,
+    "title": [
+      "[Claws and Effect, East]"
+    ],
+    "description": [
+      "Canvas in russet and beige stretches overhead, enclosing this portion of the pavilion in muted warmth.  Copper-bound pale oak trunks and woven yucca frond baskets fill much of the space, the latter opened wide to display their contents.  Smaller braziers of hammered copper are lofted on iron brackets, their elevated flames casting a diffuse and even glow down across the thick rugs underfoot while also keeping the alpine chill well at bay."
+    ],
+    "paths": [
+      "Obvious exits: southwest, west"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "36490": "west",
+      "36492": "southwest"
+    },
+    "timeto": {
+      "36490": 0.2,
+      "36492": 0.2
+    },
+    "uid": [
+      8209238
+    ]
+  }
+}

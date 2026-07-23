@@ -1,5 +1,4 @@
 {
-  "checksum": "b6a7161b92e775872e38da3b09f4f10b",
   "room": {
     "id": 6643,
     "title": [
@@ -13,25 +12,25 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "6642": "/rooms/6643/wayto/stringproc-6642.rb",
-      "6645": "/rooms/6643/wayto/stringproc-6645.rb"
+      "6642": ";e move 'south'; move 'east' if checkpaths.include?('e')",
+      "6645": ";e move 'south'; move 'west' unless checkpaths.include?('e')"
     },
     "timeto": {
       "6642": 0.4,
       "6645": 0.4
     },
-    "tags": [
-      "no-auto-map"
-    ],
-    "uid": [
-      487056
-    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       196,
       1126,
       203,
       1137
+    ],
+    "tags": [
+      "no-auto-map"
+    ],
+    "uid": [
+      487056
     ]
   }
 }

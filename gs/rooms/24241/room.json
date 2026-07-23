@@ -1,5 +1,4 @@
 {
-  "checksum": "5daae831e3a42df4846ce8bb841c5a04",
   "room": {
     "id": 24241,
     "title": [
@@ -13,13 +12,13 @@
     ],
     "location": "the Feywrot Mire",
     "wayto": {
-      "313": "/rooms/24241/wayto/stringproc-313.rb",
-      "20233": "/rooms/24241/wayto/stringproc-20233.rb",
+      "313": ";e (fput 'stand' until standing?;fput 'climb root') until Room.current.id != 24241;wait_until{Room.current.id == 313}",
+      "20233": ";e fput \"climb root\" until Room.current.id != 24241",
       "24240": "go stone arch",
       "24798": "go arch"
     },
     "timeto": {
-      "313": 2,
+      "313": 2.0,
       "20233": 0.2,
       "24240": 0.2,
       "24798": 0.2

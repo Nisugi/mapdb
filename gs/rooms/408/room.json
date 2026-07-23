@@ -1,5 +1,4 @@
 {
-  "checksum": "6f662abbe374bbc90cb63450e8ec51bc",
   "room": {
     "id": 408,
     "title": [
@@ -16,24 +15,24 @@
       "322": "out",
       "409": "go oak door",
       "8867": "go antique cabinet",
-      "30708": "/rooms/408/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "322": 0.2,
       "409": 0.2,
       "8867": 0.2,
-      "30708": "/rooms/408/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "pawnshop",
-      "meta:trashcan:slatted wooden case",
-      "trash",
-      "urchin-access",
-      "urchin guide pawn",
-      "pawn",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
+      "meta:forage-sensed:day:2022-11",
+      "meta:trashcan:slatted wooden case",
+      "no forageables",
+      "pawn",
+      "pawnshop",
+      "trash",
+      "urchin guide pawn",
+      "urchin-access"
     ],
     "uid": [
       5163

@@ -1,5 +1,4 @@
 {
-  "checksum": "ddcb6a42865bf94141f6a6da7c82fee9",
   "room": {
     "id": 2536,
     "title": [
@@ -15,36 +14,36 @@
     "climate": "snowy, arctic",
     "terrain": "riparian",
     "wayto": {
-      "2535": "/rooms/2536/wayto/stringproc-2535.rb",
-      "2537": "/rooms/2536/wayto/stringproc-2537.rb"
+      "2535": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'east'",
+      "2537": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'west'"
     },
     "timeto": {
       "2535": 0.2,
       "2537": 0.2
     },
-    "tags": [
-      "wavepetal blossom",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "arctic moss",
-      "frostweed",
-      "murdroot",
-      "ironfern root",
-      "talneo root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "thorny wintersbite",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      4044101
-    ],
     "image": "imt-trail-1264234799.png",
     "image_coords": [
       836,
       554,
       846,
       564
+    ],
+    "tags": [
+      "arctic moss",
+      "bright red teaberry",
+      "frostweed",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "sunburst blossom",
+      "talneo root",
+      "thorny wintersbite",
+      "wavepetal blossom",
+      "wintergreen leaf"
+    ],
+    "uid": [
+      4044101
     ]
   }
 }

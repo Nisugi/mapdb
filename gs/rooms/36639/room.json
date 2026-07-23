@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36639,
+    "title": [
+      "[Brayern Isle, Docks]"
+    ],
+    "description": [
+      "The docks here are still under construction, with visible gaps between planks and ropes that block a plunge into bright blue waters.  Crates are placed in orderly piles along the way in various stages of unpacking.  The sky and horizon are obscured, both caught in the electric blue haze of the distant mana storm.  Longboats are tied against the pilings that support the docks, both hewn from the same blue-green wood."
+    ],
+    "paths": [
+      "Obvious paths: west"
+    ],
+    "location": "Brayern Isle",
+    "wayto": {
+      "36638": "west"
+    },
+    "timeto": {
+      "36638": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      895,
+      1483,
+      912,
+      1500
+    ],
+    "uid": [
+      8400202
+    ]
+  }
+}

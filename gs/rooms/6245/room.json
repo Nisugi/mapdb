@@ -1,5 +1,4 @@
 {
-  "checksum": "1a76f86ae2ca58feb07c12deb5448dcb",
   "room": {
     "id": 6245,
     "title": [
@@ -17,7 +16,7 @@
     "wayto": {
       "6240": "go stair",
       "6246": "southeast",
-      "6364": "/rooms/6245/wayto/stringproc-6364.rb",
+      "6364": ";e move 'go door'",
       "12976": "northeast"
     },
     "timeto": {
@@ -26,31 +25,31 @@
       "6364": 0.2,
       "12976": 0.2
     },
-    "tags": [
-      "black hook mushroom",
-      "withered black mushroom",
-      "soft white mushroom",
-      "white hook mushroom",
-      "blue trafel mushroom",
-      "cave moss",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "red trafel mushroom",
-      "wingstem root",
-      "meta:forage-sensed:day:2022-09",
-      "meta:forage-sensed:night:2025-06"
-    ],
-    "uid": [
-      2167102
-    ],
     "image": "wl-wehntoph-1310775397.png",
     "image_coords": [
       1160,
       493,
       1178,
       511
+    ],
+    "tags": [
+      "black mushroom",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "cave moss",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2025-06",
+      "murdroot",
+      "red mushroom",
+      "soft mushroom",
+      "white hook mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      2167102
     ]
   }
 }

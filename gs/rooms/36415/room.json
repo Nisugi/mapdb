@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36415,
+    "title": [
+      "[Dungeon, Landing]"
+    ],
+    "description": [
+      "This room is fairly large.  The wide base of a tall spiral staircase takes up a fair portion of it, looking grand and massive.  The grey stone walls are slick with cool moisture and you can hear the faint dripping sounds of water all around you."
+    ],
+    "paths": [
+      "Obvious exits: south"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36372": "go stair",
+      "36395": "south"
+    },
+    "timeto": {
+      "36372": 0.2,
+      "36395": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1560,
+      280,
+      1600,
+      320
+    ],
+    "uid": [
+      58026
+    ]
+  }
+}

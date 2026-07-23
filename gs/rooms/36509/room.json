@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36509,
+    "title": [
+      "[Insurmountable]"
+    ],
+    "description": [
+      "Providing shade from the sun, a bright red awning stretches wide across the short wall where the wagon opens into the grounds.  Opposite the entry, a small window looks out over the rider's seat, its worn wooden frame allowing air to pass freely through the space.  Along the length of the wagon, several wall-mounted racks and floor-to-ceiling shelves line both walls, neatly holding two distinct styles of saddles, their leathers ranging from pale, sun-bleached tones to darker, oil-rich finishes."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "29701": "out"
+    },
+    "timeto": {
+      "29701": 0.2
+    },
+    "uid": [
+      8209505
+    ]
+  }
+}

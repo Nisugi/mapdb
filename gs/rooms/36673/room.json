@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36673,
+    "title": [
+      "[Nyessem, Room of Observation]"
+    ],
+    "description": [
+      "A circular platform rises out of the room's center, under a pale golden spotlight.  Placed on this platform is a wooden viewing glass etched with silvery runes.  A wood and stone sign covered in metal letters is set next to the glass, so it cannot be missed by those approaching.  Opposite the platform, the tunnel splits, with a perpendicular and narrow ascent sloping up."
+    ],
+    "paths": [
+      "Obvious exits: northeast, south"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36672": "northeast",
+      "36674": "south",
+      "36687": "go ascent"
+    },
+    "timeto": {
+      "36672": 0.2,
+      "36674": 0.2,
+      "36687": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      683,
+      515,
+      700,
+      531
+    ],
+    "uid": [
+      8400010
+    ]
+  }
+}

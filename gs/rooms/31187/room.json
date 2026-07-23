@@ -1,5 +1,4 @@
 {
-  "checksum": "c69a0b03ae1c2d2482ad9e6dad673f74",
   "room": {
     "id": 31187,
     "title": [
@@ -17,26 +16,26 @@
     "wayto": {
       "31186": "northwest",
       "31188": "south",
-      "31191": "go ivory pavilion",
       "31192": "go canvas tent",
-      "33526": "go oak booth"
+      "33526": "go oak booth",
+      "36500": "go mahogany pavilion"
     },
     "timeto": {
       "31186": 0.2,
       "31188": 0.2,
-      "31191": 0.2,
       "31192": 0.2,
-      "33526": 0.2
+      "33526": 0.2,
+      "36500": 0.2
     },
+    "image": "fest-RW2026.png",
+    "image_coords": [
+      1367,
+      663,
+      1388,
+      684
+    ],
     "uid": [
       8208759
-    ],
-    "image": "fest-RW2023-1687094965.png",
-    "image_coords": [
-      895,
-      709,
-      925,
-      739
     ]
   }
 }

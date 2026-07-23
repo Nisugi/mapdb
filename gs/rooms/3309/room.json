@@ -1,5 +1,4 @@
 {
-  "checksum": "3431e1c1201db2554eb8d099f853b5ee",
   "room": {
     "id": 3309,
     "title": [
@@ -20,19 +19,20 @@
       "3308": 0.2,
       "15794": 0.2
     },
-    "tags": [
-      "meta:mapname:Icewall Penitentiary",
-      "meta:mapcategory:Icemule Trace"
-    ],
-    "uid": [
-      4048001
-    ],
     "image": "imt-Penitentiary_Map-51200829.png",
     "image_coords": [
       456,
       272,
       499,
       315
+    ],
+    "tags": [
+      "meta:mapcategory:Icemule Trace",
+      "meta:mapname:Icewall Penitentiary",
+      "no forageables"
+    ],
+    "uid": [
+      4048001
     ]
   }
 }

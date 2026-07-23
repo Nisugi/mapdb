@@ -1,5 +1,4 @@
 {
-  "checksum": "b992ed2e8c203ea32c2f179cc173d71e",
   "room": {
     "id": 2376,
     "title": [
@@ -32,15 +31,20 @@
       "27857": 0.2,
       "27859": 0.2
     },
-    "uid": [
-      735035
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       49,
       405,
       69,
       425
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      735035
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "922803b6a7800ef705c08cafd21c23be",
   "room": {
     "id": 30288,
     "title": [
@@ -16,18 +15,18 @@
     "terrain": "none",
     "wayto": {
       "16905": "go faux-wood door",
-      "30712": "/rooms/30288/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "16905": 0.2,
-      "30712": "/rooms/30288/timeto/stringproc-30712.rb"
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "mail",
+      "no forageables",
       "postoffice",
-      "urchin-access",
       "urchin guide postoffice",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       13014058

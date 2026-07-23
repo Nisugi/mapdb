@@ -1,5 +1,4 @@
 {
-  "checksum": "a07386a1bb5745c31afe91810598356d",
   "room": {
     "id": 3668,
     "title": [
@@ -20,40 +19,40 @@
       "3649": "west",
       "3657": "south",
       "3669": "east",
-      "30718": "/rooms/3668/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "3637": 0.8,
       "3649": 0.8,
       "3657": 0.8,
       "3669": 0.8,
-      "30718": "/rooms/3668/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "node",
-      "town",
-      "supernode",
-      "meta:mapname:Isle of the Four Winds - Mist Harbor",
-      "meta:mapshortname:Mist Harbor",
-      "meta:mapcategory:Isle of the Four Winds",
-      "meta:mapcategory:Towns",
-      "meta:mapcategory:Premium",
-      "urchin-access",
-      "urchin guide commons",
-      "commons",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-10"
-    ],
-    "uid": [
-      3201029
-    ],
     "image": "ifw-isle_of_four_winds-1310232949.png",
     "image_coords": [
       2750,
       1301,
       2830,
       1382
+    ],
+    "tags": [
+      "commons",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-10",
+      "meta:mapcategory:Isle of the Four Winds",
+      "meta:mapcategory:Premium",
+      "meta:mapcategory:Towns",
+      "meta:mapname:Isle of the Four Winds - Mist Harbor",
+      "meta:mapshortname:Mist Harbor",
+      "no forageables",
+      "node",
+      "supernode",
+      "town",
+      "urchin guide commons",
+      "urchin-access"
+    ],
+    "uid": [
+      3201029
     ]
   }
 }

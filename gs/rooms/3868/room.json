@@ -1,5 +1,4 @@
 {
-  "checksum": "c6883c23c91c48c9b1753260e38f16ba",
   "room": {
     "id": 3868,
     "title": [
@@ -18,47 +17,47 @@
     "wayto": {
       "3655": "go arch",
       "3869": "north",
-      "30718": "/rooms/3868/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "3655": 0.2,
       "3869": 0.2,
-      "30718": "/rooms/3868/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "murdroot",
-      "urchin-access",
-      "acantha leaf",
-      "blackened moss",
-      "pepperthorn root",
-      "ironfern root",
-      "wingstem root",
-      "bur-clover root",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "sweet potato",
-      "agave heart",
-      "green guava",
-      "curly garlic scapes",
-      "ghost pepper",
-      "hot pepper",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2024-05"
-    ],
-    "uid": [
-      739401
-    ],
     "image": "ifw-isle_of_four_winds-1310232949.png",
     "image_coords": [
       3342,
       1794,
       3355,
       1803
+    ],
+    "tags": [
+      "acantha leaf",
+      "agave heart",
+      "black peppercorn",
+      "blackened moss",
+      "bur-clover root",
+      "cardamom",
+      "cumin seeds",
+      "curly garlic scapes",
+      "ghost pepper",
+      "green guava",
+      "hot pepper",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
+      "murdroot",
+      "nutmeg",
+      "pepperthorn root",
+      "pink peppercorn",
+      "star anise",
+      "sweet potato",
+      "urchin-access",
+      "vanilla bean",
+      "wingstem root"
+    ],
+    "uid": [
+      739401
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "1cfec9b3ac7a937594b753f75f09337a",
   "room": {
     "id": 2389,
     "title": [
@@ -15,27 +14,28 @@
     "wayto": {
       "2387": "out",
       "3424": "go staircase",
-      "30709": "/rooms/2389/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "2387": 0.2,
       "3424": 0.2,
-      "30709": "/rooms/2389/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access",
-      "urchin guide nightowl",
-      "nightowl"
-    ],
-    "uid": [
-      4043214
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       139,
       877,
       175,
       913
+    ],
+    "tags": [
+      "nightowl",
+      "no forageables",
+      "urchin guide nightowl",
+      "urchin-access"
+    ],
+    "uid": [
+      4043214
     ]
   }
 }

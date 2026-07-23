@@ -1,5 +1,4 @@
 {
-  "checksum": "123f1f812a69549d149d0f37af7602f5",
   "room": {
     "id": 19282,
     "title": [
@@ -16,19 +15,19 @@
     "terrain": "none",
     "wayto": {
       "611": "go door",
-      "30714": "/rooms/19282/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "611": 0.2,
-      "30714": "/rooms/19282/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "herbalist2",
-      "urchin-access",
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-11",
-      "urchin guide tinctures"
+      "no forageables",
+      "urchin guide tinctures",
+      "urchin-access"
     ],
     "uid": [
       13204008

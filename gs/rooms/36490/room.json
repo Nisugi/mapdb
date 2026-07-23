@@ -1,0 +1,28 @@
+{
+  "room": {
+    "id": 36490,
+    "title": [
+      "[Claws and Effect, Entry]"
+    ],
+    "description": [
+      "Russet and beige canvas billows gently overhead, the thick material sheltering the space from the bite of alpine air.  Ironwood tables line either side of the entry, their surfaces covered with bright blue cloths that showcase the offered wares, while copper-bound pale oak trunks stand open near a central post.  Pendant lanterns dangle from the support beams, casting pools of painted light across the thick rugs scattered underfoot.  Several braziers glow warmly throughout, warding off the mountain chill."
+    ],
+    "paths": [
+      "Obvious exits: east, south, out"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "29697": "out",
+      "36491": "east",
+      "36492": "south"
+    },
+    "timeto": {
+      "29697": 0.2,
+      "36491": 0.2,
+      "36492": 0.2
+    },
+    "uid": [
+      8209237
+    ]
+  }
+}

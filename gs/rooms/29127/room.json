@@ -1,5 +1,4 @@
 {
-  "checksum": "bfad434f002dbafaf6a18c66a954f352",
   "room": {
     "id": 29127,
     "title": [
@@ -14,17 +13,18 @@
     "location": "Kraken's Fall",
     "wayto": {
       "29009": "go archway",
-      "30716": "/rooms/29127/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "29009": 0.2,
-      "30716": "/rooms/29127/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "jail",
-      "urchin-access",
+      "justice",
+      "no forageables",
       "urchin guide justice",
-      "justice"
+      "urchin-access"
     ],
     "uid": [
       7118403

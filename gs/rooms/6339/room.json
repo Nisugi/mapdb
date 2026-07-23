@@ -1,5 +1,4 @@
 {
-  "checksum": "0a95577661e5a5dfc5749e9c29600385",
   "room": {
     "id": 6339,
     "title": [
@@ -19,18 +18,21 @@
     "timeto": {
       "6337": 0.2
     },
-    "tags": [
-      "wizard alchemy workshop"
-    ],
-    "uid": [
-      681136
-    ],
     "image": "wl-wizard_guild.jpg",
     "image_coords": [
       224,
       12,
       264,
       49
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells",
+      "wizard alchemy workshop"
+    ],
+    "uid": [
+      681136
     ]
   }
 }

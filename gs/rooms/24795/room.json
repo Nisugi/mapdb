@@ -1,9 +1,8 @@
 {
-  "checksum": "10080c84ab579b657ad56e30767131bb",
   "room": {
     "id": 24795,
     "title": [
-      "[Orenda's Outfitting]"
+      "[House of Thorns, Atelier]"
     ],
     "description": [
       "The polished surface of an ivory and rose quartz floor softly reflects the figure of a vaalin-traced ivory maiden statue, a central focal point to a long silver and glass semicircular display near the back of the room.  Lining wainscoted blush-painted walls is a series of full body dress mannequins set in poses that mimic those in an elaborate woven silk tapestry.  The sky motif in a dark walnut box beam ceiling lends a feeling of openness to the room."
@@ -14,13 +13,13 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "368": "out",
-      "24947": "east",
-      "24948": "north"
+      "24948": "north",
+      "36339": "east"
     },
     "timeto": {
       "368": 0.2,
-      "24947": 0.2,
-      "24948": 0.2
+      "24948": 0.2,
+      "36339": 0.2
     },
     "tags": [
       "meta:playershop"

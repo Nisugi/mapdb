@@ -1,5 +1,4 @@
 {
-  "checksum": "ee7cb72f0651a7352901ad9bdd77dd63",
   "room": {
     "id": 23389,
     "title": [
@@ -22,27 +21,28 @@
       "23388": 0.2,
       "23390": 0.2
     },
-    "tags": [
-      "sticks",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "broken twig",
-      "snowberries",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-02"
-    ],
-    "uid": [
-      13018035
-    ],
     "image": "en-zul_logoth_liaerion-1703216519.png",
     "image_coords": [
       220,
       100,
       229,
       110
+    ],
+    "tags": [
+      "angelica root",
+      "broken twig",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "snowberries",
+      "sticks",
+      "sweetfern stalk",
+      "valerian root"
+    ],
+    "uid": [
+      13018035
     ]
   }
 }

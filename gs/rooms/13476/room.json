@@ -1,5 +1,4 @@
 {
-  "checksum": "406130536eafd277f6aaebc34ca760ee",
   "room": {
     "id": 13476,
     "title": [
@@ -24,22 +23,23 @@
       "14351": 0.2,
       "14352": 0.2
     },
-    "tags": [
-      "meta:mapname:Solhaven Dyer's Tent",
-      "meta:mapshortname:Dyer's Tent",
-      "meta:mapcategory:Vornavis",
-      "meta:mapcategory:Dyer's Tents:Solhaven",
-      "dyers"
-    ],
-    "uid": [
-      34201
-    ],
     "image": "vo-dyers_tent-1512161334.png",
     "image_coords": [
       1370,
       791,
       1512,
       859
+    ],
+    "tags": [
+      "dyers",
+      "meta:mapcategory:Dyer's Tents:Solhaven",
+      "meta:mapcategory:Vornavis",
+      "meta:mapname:Solhaven Dyer's Tent",
+      "meta:mapshortname:Dyer's Tent",
+      "no forageables"
+    ],
+    "uid": [
+      34201
     ]
   }
 }

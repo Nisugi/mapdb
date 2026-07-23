@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36487,
+    "title": [
+      "[Bowl Me Over, Backroom]"
+    ],
+    "description": [
+      "Rope-hung canvases are spaced between the oiled wooden shelves affixed to the periphery of the shop, the colorful artwork depicting various cuisines labeled in ornate calligraphy.  Neat stacks of colorful recipe cards lay across an elongated maedatha-draped counter, the parchment arranged between wide vases filled with cutlery and dried flora."
+    ],
+    "paths": [
+      "Obvious exits: south"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "36486": "south"
+    },
+    "timeto": {
+      "36486": 0.2
+    },
+    "uid": [
+      8209606
+    ]
+  }
+}

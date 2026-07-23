@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36397,
+    "title": [
+      "[Sea of Sacrifice, Shore]"
+    ],
+    "description": [
+      "In contrast to the smooth stone of the dungeon, the walls of this large cavern are natural limestone.  A large underground lake stretches out before you, bright turquoise and crystal clear in the shallows and intensifying to a deep, dark blue as the lake retreats into the shadows beyond your view.  The pointed stalactites above are reflected in the water's surface like a perfect mirror, giving no evidence of its depth.  The southern wall is punctuated by a freshly excavated hole and an old rust-stained sign."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36396": "go hole"
+    },
+    "timeto": {
+      "36396": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1640,
+      600,
+      1680,
+      640
+    ],
+    "uid": [
+      58003
+    ]
+  }
+}

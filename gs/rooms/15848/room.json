@@ -1,20 +1,18 @@
 {
-  "checksum": "3795f629a401cd236c3713c90ba22949",
   "room": {
     "id": 15848,
     "title": [
-      "[Niadja's Outfitting]",
-      "[Niadja's Magic Shoppe]"
+      "[Lymseia's Outfitting]"
     ],
     "description": [
-      "A painted silk wall panel hangs on one of the smooth white plaster walls, and an oak-framed ceiling rises overhead.  A thin gold-edge black runner sits in one corner of a polished oak floor.  There is a set of carved felwood shelves on one side of the shop and a gold-leafed mistwood cabinet on the other."
+      "A fused sun and moon wall-hanging hangs on one of the refined oak-paneled walls, and a dark and light oak ceiling rises overhead.  An elegantly dressed maiden statue sits in one corner of a varnished dark oak floor.  There is a long brass clothing rack on one side of the shop and a Vornavian silk-lined display case on the other."
     ],
     "paths": [
-      "Obvious exits: northeast"
+      "Obvious exits: west"
     ],
-    "location": "Icemule Trace",
+    "location": "Solhaven",
     "wayto": {
-      "15836": "northeast"
+      "15836": "west"
     },
     "timeto": {
       "15836": 0.2

@@ -1,5 +1,4 @@
 {
-  "checksum": "0ea140b691ec149258c78a29ff4542d9",
   "room": {
     "id": 6903,
     "title": [
@@ -26,33 +25,33 @@
       "6905": 0.2,
       "6906": 0.2
     },
-    "tags": [
-      "withered black mushroom",
-      "cave moss",
-      "pepperthorn root",
-      "murdroot",
-      "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "wraith",
-      "bur-clover root",
-      "round grumbleberry",
-      "meta:forage-sensed:day:2024-01",
-      "birch bark",
-      "ghost pepper",
-      "hot pepper",
-      "off-white parsnip",
-      "meta:forage-sensed:night:2025-03"
-    ],
-    "uid": [
-      37037
-    ],
     "image": "wl-gates-1264234799.png",
     "image_coords": [
       1129,
       1409,
       1139,
       1419
+    ],
+    "tags": [
+      "birch bark",
+      "bur-clover root",
+      "cave moss",
+      "ghost pepper",
+      "hot pepper",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2025-03",
+      "murdroot",
+      "off-white parsnip",
+      "pepperthorn root",
+      "round grumbleberry",
+      "wingstem root",
+      "withered mushroom",
+      "wraith"
+    ],
+    "uid": [
+      37037
     ]
   }
 }

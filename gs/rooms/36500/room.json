@@ -1,0 +1,32 @@
+{
+  "room": {
+    "id": 36500,
+    "title": [
+      "[Fryc and Shives Laboratories]"
+    ],
+    "description": [
+      "An iron-framed dome of stained green and blue glass casts dancing beams of light across the clay-tiled floor of the vestibule, illuminating the gilded aragless set into each tile.  Wood-crafted clocks dominate the planked walls, the available space between the duo of mahogany doors covered in brass-pinned sheets of parchment scrawled in dark ink.  A gear-fused, mixed-metal automaton stands at the center of the room, the mechanical device covered in a coating of thin oil and grease."
+    ],
+    "paths": [
+      "Obvious exits: northeast, northwest, out"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "31187": "out",
+      "36501": "northeast",
+      "36503": "northwest",
+      "36505": "go black door",
+      "36506": "go dark door"
+    },
+    "timeto": {
+      "31187": 0.2,
+      "36501": 0.2,
+      "36503": 0.2,
+      "36505": 0.2,
+      "36506": 0.2
+    },
+    "uid": [
+      8209451
+    ]
+  }
+}

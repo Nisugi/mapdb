@@ -1,5 +1,4 @@
 {
-  "checksum": "38d237120e63237e46a2a194d97ae8ff",
   "room": {
     "id": 6304,
     "title": [
@@ -15,27 +14,27 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "6303": "/rooms/6304/wayto/stringproc-6303.rb",
+      "6303": ";e move 'climb roots'",
       "6305": "northwest"
     },
     "timeto": {
       "6303": 0.2,
       "6305": 0.2
     },
-    "tags": [
-      "murdroot",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      372030
-    ],
     "image": "wl-gates-1264234799.png",
     "image_coords": [
       145,
       137,
       155,
       147
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot"
+    ],
+    "uid": [
+      372030
     ]
   }
 }

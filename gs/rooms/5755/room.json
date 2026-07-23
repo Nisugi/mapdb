@@ -1,5 +1,4 @@
 {
-  "checksum": "504fa0b3818df6416303a48a0deec619",
   "room": {
     "id": 5755,
     "title": [
@@ -24,30 +23,39 @@
       "5756": 0.2,
       "5765": 0.2
     },
-    "tags": [
-      "withered black mushroom",
-      "black hook mushroom",
-      "soft white mushroom",
-      "white hook mushroom",
-      "blue trafel mushroom",
-      "red trafel mushroom",
-      "glowing toadstool",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "wingstem root",
-      "meta:forage-sensed:day:2023-02"
-    ],
-    "uid": [
-      13008004
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       277,
       97,
       287,
       107
+    ],
+    "tags": [
+      "black mushroom",
+      "blue trafel mushroom",
+      "blueglow mushroom",
+      "bolmara lichen",
+      "ebon nightspark mushroom",
+      "fizzlefire mushroom",
+      "gilded mushroom",
+      "glowing toadstool",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-03",
+      "mountainglow mushroom",
+      "murdroot",
+      "red mushroom",
+      "silversaph mushroom",
+      "soft mushroom",
+      "Stormpeak mushroom",
+      "Titan Crown mushroom",
+      "white hook mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      13008004
     ]
   }
 }

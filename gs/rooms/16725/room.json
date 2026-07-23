@@ -1,5 +1,4 @@
 {
-  "checksum": "ae10c125c9a45d007e80ed836c03fceb",
   "room": {
     "id": 16725,
     "title": [
@@ -15,60 +14,63 @@
     "climate": "temperate",
     "terrain": "mountainous",
     "wayto": {
-      "16724": "/rooms/16725/wayto/stringproc-16724.rb",
-      "16726": "/rooms/16725/wayto/stringproc-16726.rb"
+      "16724": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'climb large rope'; waitrt?",
+      "16726": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'jump floor'; waitrt?"
     },
     "timeto": {
-      "16724": 10,
-      "16726": 3
+      "16724": 10.0,
+      "16726": 3.0
     },
-    "tags": [
-      "meta:forage-sensed",
-      "angelica root",
-      "stalk of bluebells",
-      "wild pink geranium",
-      "sprig of larkspur",
-      "yellow primrose",
-      "wild sage",
-      "golden aster",
-      "sprig of columbine",
-      "small dandelion",
-      "crimson dragonstalk",
-      "mountain dryad",
-      "stalk of monkeyflower",
-      "sprig of holly",
-      "sprig of ivy",
-      "small apple",
-      "juicy plum",
-      "pepperthorn root",
-      "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "deep purple shockroot",
-      "rhubarb",
-      "stalk of celery",
-      "leek",
-      "shallot",
-      "hop flowers",
-      "agave heart",
-      "dwarf billberry",
-      "thin hemp",
-      "viburnum twig",
-      "red thanot berry",
-      "thanot thorn",
-      "birch bark",
-      "violet shining rose",
-      "meta:forage-sensed:night:2024-05"
-    ],
-    "uid": [
-      17005013
-    ],
     "image": "en-aradhul-road-1308194332.png",
     "image_coords": [
       329,
       658,
       356,
       681
+    ],
+    "tags": [
+      "agave heart",
+      "angelica root",
+      "birch bark",
+      "bolmara lichen",
+      "crimson dragonstalk",
+      "deep purple shockroot",
+      "dwarf bilberry",
+      "dwarf billberry",
+      "golden aster",
+      "hop flowers",
+      "ironfern root",
+      "juicy plum",
+      "leek",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "mountain dryad",
+      "pepperthorn root",
+      "red thanot berry",
+      "rhubarb",
+      "shallot",
+      "small apple",
+      "small dandelion",
+      "sprig of columbine",
+      "sprig of holly",
+      "sprig of ivy",
+      "sprig of larkspur",
+      "stalk of bluebells",
+      "stalk of celery",
+      "stalk of monkeyflower",
+      "sunburst blossom",
+      "thanot thorn",
+      "thin hemp",
+      "viburnum twig",
+      "violet shining rose",
+      "wild pink geranium",
+      "wild sage",
+      "wingstem root",
+      "yellow primrose"
+    ],
+    "uid": [
+      17005013
     ]
   }
 }

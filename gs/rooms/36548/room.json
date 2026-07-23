@@ -1,0 +1,28 @@
+{
+  "room": {
+    "id": 36548,
+    "title": [
+      "[Skyship, Triage]"
+    ],
+    "description": [
+      "A bare, pale ash grey stone floor is lined with rectangular leather sheets that appear to be covering large, humanoid bodies.  A series of paths is open in the rows between the bodies, allowing for access to every corner of the area.  Each of the sheets is dyed jet black, with the color concealing any imperfections or discolorations in the leather.  A large wooden panel attached to one of the bulkheads overlooking the scene is streaked with hundreds upon hundreds of thin crimson tally marks."
+    ],
+    "paths": [
+      "Obvious exits: southwest, northwest"
+    ],
+    "location": false,
+    "wayto": {
+      "36547": "northwest",
+      "36549": "southwest",
+      "36555": "go lift"
+    },
+    "timeto": {
+      "36547": 0.2,
+      "36549": 0.2,
+      "36555": 0.2
+    },
+    "uid": [
+      12102014
+    ]
+  }
+}

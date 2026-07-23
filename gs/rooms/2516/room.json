@@ -1,5 +1,4 @@
 {
-  "checksum": "4c517abaf330352be27b79268d0d5ad0",
   "room": {
     "id": 2516,
     "title": [
@@ -15,44 +14,44 @@
     "climate": "glacial",
     "terrain": "hilly",
     "wayto": {
-      "2515": "/rooms/2516/wayto/stringproc-2515.rb",
-      "2517": "/rooms/2516/wayto/stringproc-2517.rb"
+      "2515": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'north'",
+      "2517": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'south'"
     },
     "timeto": {
       "2515": 0.2,
       "2517": 0.2
     },
-    "tags": [
-      "frostflower",
-      "calamintha blossom",
-      "red winterberry",
-      "winter rose",
-      "small loganberry",
-      "sticks",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "arctic moss",
-      "snowberries",
-      "pale thornberry",
-      "ironfern root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "silver iceblossom",
-      "iseya lichen",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      4044200
-    ],
     "image": "imt-trail-1264234799.png",
     "image_coords": [
       1152,
       469,
       1162,
       479
+    ],
+    "tags": [
+      "angelica root",
+      "arctic moss",
+      "calamintha blossom",
+      "frostflower",
+      "ironfern root",
+      "iseya lichen",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "pale thornberry",
+      "pennyroyal stem",
+      "red winterberry",
+      "sassafras leaf",
+      "silver iceblossom",
+      "small loganberry",
+      "snowberries",
+      "sticks",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "winter rose"
+    ],
+    "uid": [
+      4044200
     ]
   }
 }

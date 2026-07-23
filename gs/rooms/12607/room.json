@@ -1,5 +1,4 @@
 {
-  "checksum": "996a61b6e37f0dcf70b52a3edd4a5cb3",
   "room": {
     "id": 12607,
     "title": [
@@ -13,25 +12,25 @@
     ],
     "location": "the Dark Palisade",
     "wayto": {
-      "12608": "/rooms/12607/wayto/stringproc-12608.rb"
+      "12608": ";e 10.times { if celerity = Spell[506] and celerity.known? and celerity.affordable? and not celerity.active?; celerity.cast; end; dothistimeout 'search', 3, /^You (?:carefully )?search|^You don't find anything|^You find nothing else/; waitrt?; r = dothistimeout 'get root', 3, /^I could not find|^You reach out|^Get what?/; break if r =~ /^You reach out/ }; empty_hands; move 'climb face'; waitrt?; fill_hands"
     },
     "timeto": {
       "12608": 3.4
     },
-    "tags": [
-      "pepperthorn root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-11"
-    ],
-    "uid": [
-      3041005
-    ],
     "image": "ti-wilds-1643860469.png",
     "image_coords": [
       774,
       649,
       784,
       659
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-11",
+      "pepperthorn root"
+    ],
+    "uid": [
+      3041005
     ]
   }
 }

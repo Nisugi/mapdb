@@ -1,5 +1,4 @@
 {
-  "checksum": "51f5e740824250b061d9342494023ab2",
   "room": {
     "id": 4024,
     "title": [
@@ -16,20 +15,20 @@
     "terrain": "none",
     "wayto": {
       "612": "out",
-      "30714": "/rooms/4024/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "612": 0.2,
-      "30714": "/rooms/4024/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "locksmith",
-      "urchin-access",
-      "urchin guide locksmith",
-      "no forageables",
+      "locksmith shop",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-11",
-      "locksmith shop"
+      "no forageables",
+      "urchin guide locksmith",
+      "urchin-access"
     ],
     "uid": [
       13104500

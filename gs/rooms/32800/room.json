@@ -1,5 +1,4 @@
 {
-  "checksum": "e4d6a3df234dfc91f31474a28756d3c0",
   "room": {
     "id": 32800,
     "title": [
@@ -18,16 +17,16 @@
       "32801": "east"
     },
     "timeto": {
-      "18011": 240,
+      "18011": 240.0,
       "32799": 0.2,
       "32801": 0.2
     },
     "tags": [
-      "publiclockers",
-      "agave heart",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2023-01",
-      "public locker"
+      "no forageables",
+      "public locker",
+      "publiclockers"
     ],
     "uid": [
       5001005

@@ -1,5 +1,4 @@
 {
-  "checksum": "0b7451a4c4ff5351a6eddd52872482c3",
   "room": {
     "id": 395,
     "title": [
@@ -29,19 +28,21 @@
       "7973": 0.2,
       "7976": 0.2
     },
-    "tags": [
-      "meta:teleport:fwi",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      2024
-    ],
     "image": "wl-moot_hall-1486755929.png",
     "image_coords": [
       421,
       495,
       561,
       555
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:teleport:fwi",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      2024
     ]
   }
 }

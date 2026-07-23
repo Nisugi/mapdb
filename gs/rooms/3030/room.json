@@ -1,5 +1,4 @@
 {
-  "checksum": "bc524541640d9314b7c25ac713fa7f7e",
   "room": {
     "id": 3030,
     "title": [
@@ -17,55 +16,55 @@
     "wayto": {
       "3007": "up",
       "3031": "down",
-      "16034": "/rooms/3030/wayto/stringproc-16034.rb"
+      "16034": ";e move 'go door'; fput 'close door'"
     },
     "timeto": {
       "3007": 0.2,
       "3031": 0.2,
-      "16034": "/rooms/3030/timeto/stringproc-16034.rb"
+      "16034": ";e UserVars.mapdb_annoy_ylandra == 'yes' ? 0.2 : nil"
     },
-    "tags": [
-      "sweetfern stalk",
-      "sassafras leaf",
-      "marallis berry",
-      "some wingstem root",
-      "some tundra grass",
-      "cuctucae berry",
-      "orange rowanberry",
-      "calamintha blossom",
-      "rockberry",
-      "some valerian root",
-      "some pennyroyal stem",
-      "winter rose",
-      "buckthorn berry",
-      "red winterberry",
-      "small loganberry",
-      "some angelica root",
-      "stalk of bluebells",
-      "some bolmara lichen",
-      "pale thornberry",
-      "sprig of larkspur",
-      "lingonberry",
-      "silverback orc",
-      "snowberries",
-      "crowberry",
-      "ironfern root",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "tundra grass",
-      "bolmara lichen",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4129002
-    ],
     "image": "imt-east_west_north_gates-1668398077.png",
     "image_coords": [
       272,
       953,
       282,
       963
+    ],
+    "tags": [
+      "angelica root",
+      "bolmara lichen",
+      "buckthorn berry",
+      "calamintha blossom",
+      "crowberry",
+      "cuctucae berry",
+      "ironfern root",
+      "lingonberry",
+      "marallis berry",
+      "meta:forage-sensed",
+      "orange rowanberry",
+      "pale thornberry",
+      "pennyroyal stem",
+      "red winterberry",
+      "rockberry",
+      "sassafras leaf",
+      "silverback orc",
+      "small loganberry",
+      "snowberries",
+      "some angelica root",
+      "some bolmara lichen",
+      "some pennyroyal stem",
+      "some tundra grass",
+      "some valerian root",
+      "some wingstem root",
+      "sprig of larkspur",
+      "stalk of bluebells",
+      "sweetfern stalk",
+      "tundra grass",
+      "valerian root",
+      "winter rose"
+    ],
+    "uid": [
+      4129002
     ]
   }
 }

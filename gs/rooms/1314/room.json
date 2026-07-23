@@ -1,5 +1,4 @@
 {
-  "checksum": "bc8e7ac17c79eea8d451bd31208e36b0",
   "room": {
     "id": 1314,
     "title": [
@@ -20,35 +19,38 @@
       "13980": "go grasses"
     },
     "timeto": {
-      "1313": 15,
+      "1313": 15.0,
       "1315": 0.2,
       "13980": 0.2
     },
-    "tags": [
-      "white hook mushroom",
-      "bright red cranberry",
-      "wintergreen leaf",
-      "acantha leaf",
-      "ephlox moss",
-      "bright red teaberry",
-      "stalk of bluebells",
-      "ironfern root",
-      "talneo root",
-      "sunburst blossom",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-02",
-      "golden flax fronds",
-      "meta:forage-sensed:night:2024-11"
-    ],
-    "uid": [
-      2131014
-    ],
     "image": "vo-trail-1264234799.png",
     "image_coords": [
       416,
       530,
       426,
       540
+    ],
+    "tags": [
+      "acantha leaf",
+      "bright red cranberry",
+      "bright red teaberry",
+      "ephlox moss",
+      "golden flax fronds",
+      "handful of currants",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-11",
+      "stalk of bluebells",
+      "stalk of cattail",
+      "sunburst blossom",
+      "talneo root",
+      "white hook mushroom",
+      "wintergreen leaf",
+      "yellowed salt reedgrass"
+    ],
+    "uid": [
+      2131014
     ]
   }
 }

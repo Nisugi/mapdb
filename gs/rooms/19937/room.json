@@ -1,5 +1,4 @@
 {
-  "checksum": "b47ed3bff91ebabecdcb020393d97cb7",
   "room": {
     "id": 19937,
     "title": [
@@ -14,12 +13,15 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "19928": "go archway",
-      "20641": "/rooms/19937/wayto/stringproc-20641.rb"
+      "20641": ";e multifput 'search', 'go trapdoor'"
     },
     "timeto": {
       "19928": 0.2,
       "20641": 0.2
     },
+    "tags": [
+      "no forageables"
+    ],
     "uid": [
       336402
     ]

@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36596,
+    "title": [
+      "[Skyship, The Rows]"
+    ],
+    "description": [
+      "The entire stone floor of the area is rutted with wide, dirt-packed grooves.  The surface of the dirt in these grooves is further streaked with white paint that has been thickly brushed as varying runic symbols.  Suspended above these grooved rows are black ropes that hang unevenly from metal hooks in the ceiling.  On one side of the area, a metal etching of gigas soldiers is prominently affixed to a black stone slab attached to one of the metal bulkheads."
+    ],
+    "paths": [
+      "Obvious exits: east, west"
+    ],
+    "location": false,
+    "wayto": {
+      "36597": "west",
+      "36602": "east"
+    },
+    "timeto": {
+      "36597": 0.2,
+      "36602": 0.2
+    },
+    "uid": [
+      12102026
+    ]
+  }
+}

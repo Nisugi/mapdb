@@ -1,5 +1,4 @@
 {
-  "checksum": "8262048ef9e110ffd197c8cb2d365e07",
   "room": {
     "id": 19614,
     "title": [
@@ -16,7 +15,7 @@
       "8889": "go gangplank",
       "19618": "go door",
       "19621": "northwest",
-      "19637": "/rooms/19614/wayto/stringproc-19637.rb"
+      "19637": ";e fput 'search'; move 'go trapdoor'"
     },
     "timeto": {
       "8889": 0.2,
@@ -24,16 +23,16 @@
       "19621": 0.2,
       "19637": 0.4
     },
-    "tags": [
-      "meta:mapname:fest-albatross",
-      "meta:mapcategory:Events and Festivals"
-    ],
     "image": "fest-albatross-1310186668.png",
     "image_coords": [
       232,
       546,
       266,
       580
+    ],
+    "tags": [
+      "meta:mapcategory:Events and Festivals",
+      "meta:mapname:fest-albatross"
     ]
   }
 }

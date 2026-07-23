@@ -1,5 +1,4 @@
 {
-  "checksum": "11ccfa38db7d1c4d178a2759d4337f22",
   "room": {
     "id": 33277,
     "title": [
@@ -23,8 +22,15 @@
     "timeto": {
       "33276": 0.2,
       "33278": 0.2,
-      "34440": "/rooms/33277/timeto/stringproc-34440.rb"
+      "34440": ";e (UserVars.Oleander_House.to_s != 'true' ? nil : 0.2)"
     },
+    "image": "vo-solhaven-1675635404.png",
+    "image_coords": [
+      1662,
+      1081,
+      1683,
+      1102
+    ],
     "tags": [
       "meta:citizenship:Solhaven",
       "meta:forage-sensed",
@@ -33,13 +39,6 @@
     ],
     "uid": [
       4201102
-    ],
-    "image": "vo-solhaven-1675635404.png",
-    "image_coords": [
-      1662,
-      1081,
-      1683,
-      1102
     ]
   }
 }

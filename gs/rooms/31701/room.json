@@ -1,5 +1,4 @@
 {
-  "checksum": "42b1823713dd611fafc158dd10864258",
   "room": {
     "id": 31701,
     "title": [
@@ -16,26 +15,26 @@
     "terrain": "riparian",
     "wayto": {
       "31700": "go bank",
-      "32078": "/rooms/31701/wayto/stringproc-32078.rb"
+      "32078": ";e dothistimeout 'push southwest',5,/you push|you can't push/i;waitrt?"
     },
     "timeto": {
       "31700": 0.2,
       "32078": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-10"
-    ],
-    "uid": [
-      8083384
-    ],
     "image": "fest-naidem-part2-1730328833.png",
     "image_coords": [
       982,
       375,
       1005,
       394
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-10",
+      "no forageables"
+    ],
+    "uid": [
+      8083384
     ]
   }
 }

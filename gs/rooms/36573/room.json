@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36573,
+    "title": [
+      "[Skyship, The Cells]"
+    ],
+    "description": [
+      "A blue metal door opens on a tall corpse pile stacked in the room's center.  Built from the remains of varying races, with giantkin, humans, and elves all visible, the pile also contains various animal parts, including pieces of fur and bones.  The area around the pile is marked by a deep crimson discoloration from where blood has seeped into the stone floor."
+    ],
+    "paths": [
+      "Obvious exits: north"
+    ],
+    "location": false,
+    "wayto": {
+      "36572": "north",
+      "36630": "go lift"
+    },
+    "timeto": {
+      "36572": 0.2,
+      "36630": 0.2
+    },
+    "uid": [
+      12102043
+    ]
+  }
+}

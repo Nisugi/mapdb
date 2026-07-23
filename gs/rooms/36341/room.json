@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36341,
+    "title": [
+      "[Ilixil's Emporium, Back Room]"
+    ],
+    "description": [
+      "Set back from the light of the road outside, the windowless space toward the back of the emporium has many empty cages, from which emanate keening songs in an alien chorus.  The low light is just enough to illuminate the edges of a gold-trimmed ebony chest at the center of the room, its broad frame flanked by two skulls atop poles."
+    ],
+    "paths": [
+      "Obvious exits: southwest"
+    ],
+    "location": "Bloodriven Village",
+    "wayto": {
+      "36340": "southwest"
+    },
+    "timeto": {
+      "36340": 0.2
+    },
+    "uid": [
+      8212922
+    ]
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "checksum": "ac8ce9351e060928943b66517cd400cc",
   "room": {
     "id": 11010,
     "title": [
@@ -18,7 +17,7 @@
     "terrain": "hard, flat",
     "wayto": {
       "11009": "out",
-      "16182": "/rooms/11010/wayto/stringproc-16182.rb",
+      "16182": ";e move 'go wooden door'",
       "22221": "go gazebo"
     },
     "timeto": {
@@ -26,22 +25,22 @@
       "16182": 0.2,
       "22221": 0.2
     },
-    "tags": [
-      "meta:mapname:River's Rest - Beacon Hall Archive",
-      "meta:mapshortname:Beacon Hall Archive",
-      "meta:mapcategory:River's Rest",
-      "meta:mapcategory:CHE",
-      "no forageables"
-    ],
-    "uid": [
-      216003
-    ],
     "image": "rr-beacon_hall-1405076623.png",
     "image_coords": [
       507,
       769,
       556,
       814
+    ],
+    "tags": [
+      "meta:mapcategory:CHE",
+      "meta:mapcategory:River's Rest",
+      "meta:mapname:River's Rest - Beacon Hall Archive",
+      "meta:mapshortname:Beacon Hall Archive",
+      "no forageables"
+    ],
+    "uid": [
+      216003
     ]
   }
 }

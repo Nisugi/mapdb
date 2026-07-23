@@ -1,5 +1,4 @@
 {
-  "checksum": "ed8864ba65debdf54839d871cd692ce2",
   "room": {
     "id": 8537,
     "title": [
@@ -15,58 +14,58 @@
     "climate": "temperate",
     "terrain": "muddy wetlands",
     "wayto": {
-      "8536": "/rooms/8537/wayto/stringproc-8536.rb",
-      "8538": "/rooms/8537/wayto/stringproc-8538.rb"
+      "8536": ";e move 'east'; waitrt?",
+      "8538": ";e move 'northwest'; waitrt?"
     },
     "timeto": {
-      "8536": 5,
-      "8538": 5
+      "8536": 5.0,
+      "8538": 5.0
     },
-    "tags": [
-      "water chestnut",
-      "stalk of cattail",
-      "flathead mushroom",
-      "blue trafel mushroom",
-      "withered black mushroom",
-      "small wild rose",
-      "sunburst blossom",
-      "wavepetal blossom",
-      "calamia fruit",
-      "haphip root",
-      "trollfear mushroom",
-      "soft white mushroom",
-      "daggerstalk mushroom",
-      "genkew mushroom",
-      "wild gooseberry",
-      "kylan berry",
-      "blue whortleberry",
-      "pepperthorn root",
-      "murdroot",
-      "bolmara lichen",
-      "talneo root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "bur-clover root",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "meta:forage-sensed:night:2023-02",
-      "broken twig",
-      "meta:forage-sensed:day:2025-05"
-    ],
-    "uid": [
-      16008
-    ],
     "image": "wl-trollfang-1264234799.png",
     "image_coords": [
       900,
       652,
       910,
       662
+    ],
+    "tags": [
+      "black peppercorn",
+      "blue trafel mushroom",
+      "blue whortleberry",
+      "bolmara lichen",
+      "broken twig",
+      "bur-clover root",
+      "calamia fruit",
+      "cardamom",
+      "cumin seeds",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "haphip root",
+      "kylan berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "murdroot",
+      "nutmeg",
+      "pepperthorn root",
+      "pink peppercorn",
+      "soft mushroom",
+      "stalk of cattail",
+      "star anise",
+      "sunburst blossom",
+      "talneo root",
+      "trollfear mushroom",
+      "vanilla bean",
+      "water chestnut",
+      "wavepetal blossom",
+      "wild gooseberry",
+      "wild rose",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      16008
     ]
   }
 }

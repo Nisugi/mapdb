@@ -1,5 +1,4 @@
 {
-  "checksum": "eceaa298d4f5e7a80fa473103985637c",
   "room": {
     "id": 29578,
     "title": [
@@ -16,27 +15,27 @@
     "terrain": "none",
     "wayto": {
       "11024": "out",
-      "30711": "/rooms/29578/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "11024": 0.2,
-      "30711": "/rooms/29578/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access",
-      "urchin guide stable",
-      "stable",
-      "no forageables"
-    ],
-    "uid": [
-      12004001
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       2454,
       1495,
       2476,
       1517
+    ],
+    "tags": [
+      "no forageables",
+      "stable",
+      "urchin guide stable",
+      "urchin-access"
+    ],
+    "uid": [
+      12004001
     ]
   }
 }

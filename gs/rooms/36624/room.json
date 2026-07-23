@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36624,
+    "title": [
+      "[Maory's General Store]"
+    ],
+    "description": [
+      "Enclosed by plain wooden walls, the shop features a worn rug in the center of its wooden floor.  A tattered merchant permit hangs under the wooden ceiling.  Right near the front is a plain wooden table and a simple wooden shelf."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "Icemule Trace",
+    "wayto": {
+      "2314": "out"
+    },
+    "timeto": {
+      "2314": 0.2
+    },
+    "uid": [
+      635033
+    ]
+  }
+}

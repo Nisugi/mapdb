@@ -1,5 +1,4 @@
 {
-  "checksum": "5d6e1235066c135d1f98203a2fcbdf10",
   "room": {
     "id": 9516,
     "title": [
@@ -26,23 +25,24 @@
       "9523": 0.2,
       "9524": 0.2
     },
-    "tags": [
-      "withered black mushroom",
-      "soft white mushroom",
-      "blue trafel mushroom",
-      "meta:forage-sensed",
-      "pepperthorn root",
-      "meta:forage-sensed:day:2023-02"
-    ],
-    "uid": [
-      13011003
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       792,
       936,
       802,
       946
+    ],
+    "tags": [
+      "blue trafel mushroom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-03",
+      "pepperthorn root",
+      "soft mushroom",
+      "withered mushroom"
+    ],
+    "uid": [
+      13011003
     ]
   }
 }

@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36485,
+    "title": [
+      "[Better in the Saddle]"
+    ],
+    "description": [
+      "Brass-forged hooks and log-hewn racks frame the periphery of the expansive shop, the saddles showcased beside oversized toys depicting various mounts caught in fanciful poses.  Crossed wooden lances are affixed above the evenly spaced displays and counters, the roof above suspending brightly colored banners crafted from embroidered wool and silken fringe."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "29701": "out"
+    },
+    "timeto": {
+      "29701": 0.2
+    },
+    "uid": [
+      8209541
+    ]
+  }
+}

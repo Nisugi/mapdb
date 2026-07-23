@@ -1,5 +1,4 @@
 {
-  "checksum": "0c5333df0f913bf905ccd062952e20dc",
   "room": {
     "id": 13275,
     "title": [
@@ -22,15 +21,18 @@
       "13276": 0.2,
       "33167": 0.2
     },
-    "uid": [
-      13112004
-    ],
     "image": "en-ta_illistim_buildings.png",
     "image_coords": [
       689,
       473,
       745,
       529
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      13112004
     ]
   }
 }

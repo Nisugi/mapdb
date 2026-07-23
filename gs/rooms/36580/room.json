@@ -1,0 +1,28 @@
+{
+  "room": {
+    "id": 36580,
+    "title": [
+      "[Skyship, Cages]"
+    ],
+    "description": [
+      "The air in the room is pungent and metallic, nearly overwhelming to the senses as the scent of rot mingles with blood.  Indistinct skeletal remains, both animal and humanoid, are loosely stacked in piles that have been dragged to one side, as is evidenced by the crimson trails streaking across the floor alongside them.  Rotting meat is strewn about the remains and is further stuck to the floor across the area."
+    ],
+    "paths": [
+      "Obvious exits: east, south"
+    ],
+    "location": false,
+    "wayto": {
+      "36579": "east",
+      "36581": "south",
+      "36583": "go lift"
+    },
+    "timeto": {
+      "36579": 0.2,
+      "36581": 0.2,
+      "36583": 0.2
+    },
+    "uid": [
+      12102083
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36702,
+    "title": [
+      "[Nyessem, Dark Cave]"
+    ],
+    "description": [
+      "A handful of flickering torches casts dim light across the area, barely revealing the details of the curved stone walls.  Water trickles through lichen-covered cracks and ridges, pooling into shallow puddles on the uneven floor.  In the center of the cave stands a saltglass-lined driftwood display case, its surface glistening in the heavy, humid air."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36683": "go opening"
+    },
+    "timeto": {
+      "36683": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      514,
+      808,
+      532,
+      826
+    ],
+    "uid": [
+      8400506
+    ]
+  }
+}

@@ -1,19 +1,18 @@
 {
-  "checksum": "9d8d22fb3bc4e48ef8f713bd3b961814",
   "room": {
     "id": 15849,
     "title": [
-      "[Niadja's Outfitting]"
+      "[Lymseia's General Store]"
     ],
     "description": [
-      "A peacock feather fan hangs on one of the smooth white plaster walls, and an oak-framed ceiling rises overhead.  A bathing maiden statue sits in one corner of a golden blonde oak floor.  There is a long brass clothing rack on one side of the shop and a Vornavian silk-lined display case on the other."
+      "A curl-edged vellum wall map hangs on one of the refined oak-paneled walls, and a dark and light oak ceiling rises overhead.  A thin gold-edge black runner sits in one corner of a varnished dark oak floor.  There is some hammered copper display hooks on one side of the shop and a set of carved felwood shelves on the other."
     ],
     "paths": [
-      "Obvious exits: west"
+      "Obvious exits: south"
     ],
-    "location": "Icemule Trace",
+    "location": "Solhaven",
     "wayto": {
-      "15836": "west"
+      "15836": "south"
     },
     "timeto": {
       "15836": 0.2

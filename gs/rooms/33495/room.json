@@ -1,5 +1,4 @@
 {
-  "checksum": "31db368fb2b7df14786ceb67670eee00",
   "room": {
     "id": 33495,
     "title": [
@@ -15,26 +14,26 @@
     "wayto": {
       "33494": "northwest",
       "33496": "southeast",
-      "33531": "go red wagon",
       "33533": "go inytela pavilion",
-      "33535": "go ribbon-laced gates"
+      "33535": "go ribbon-laced gates",
+      "36480": "go ribbon-canopied wagon"
     },
     "timeto": {
       "33494": 0.2,
       "33496": 0.2,
-      "33531": 0.2,
       "33533": 0.2,
-      "33535": 0.2
+      "33535": 0.2,
+      "36480": 0.2
     },
+    "image": "fest-RW2026.png",
+    "image_coords": [
+      886,
+      663,
+      909,
+      685
+    ],
     "uid": [
       8208762
-    ],
-    "image": "fest-RW2023-1687094965.png",
-    "image_coords": [
-      378,
-      709,
-      407,
-      739
     ]
   }
 }

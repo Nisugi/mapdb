@@ -1,5 +1,4 @@
 {
-  "checksum": "95b4a698c8828bc5772681650c6cc2a3",
   "room": {
     "id": 13183,
     "title": [
@@ -13,26 +12,26 @@
     ],
     "location": "the dark woods",
     "wayto": {
-      "9884": "/rooms/13183/wayto/stringproc-9884.rb",
-      "9885": "/rooms/13183/wayto/stringproc-9885.rb",
-      "9886": "/rooms/13183/wayto/stringproc-9886.rb",
-      "9887": "/rooms/13183/wayto/stringproc-9887.rb",
-      "9888": "/rooms/13183/wayto/stringproc-9888.rb",
-      "9889": "/rooms/13183/wayto/stringproc-9889.rb",
-      "16956": "/rooms/13183/wayto/stringproc-16956.rb",
-      "16957": "/rooms/13183/wayto/stringproc-16957.rb",
-      "18803": "/rooms/13183/wayto/stringproc-18803.rb"
+      "9884": ";e 50.times { move 'go forest'; break if Room.current.id == 9884 }",
+      "9885": ";e 50.times { move 'go forest'; break if Room.current.id == 9885 }",
+      "9886": ";e 50.times { move 'go forest'; break if Room.current.id == 9886 }",
+      "9887": ";e 50.times { move 'go forest'; break if Room.current.id == 9887 }",
+      "9888": ";e 50.times { move 'go forest'; break if Room.current.id == 9888 }",
+      "9889": ";e 50.times { move 'go forest'; break if Room.current.id == 9889 }",
+      "16956": ";e 50.times { move 'go forest'; break if Room.current.id == 16956 }",
+      "16957": ";e 50.times { move 'go forest'; break if Room.current.id == 16957 }",
+      "18803": ";e 50.times { move 'go forest'; break if Room.current.id == 18803 }"
     },
     "timeto": {
-      "9884": 15,
-      "9885": 15,
-      "9886": 15,
-      "9887": 15,
-      "9888": 15,
-      "9889": 15,
-      "16956": 15,
-      "16957": 15,
-      "18803": 15
+      "9884": 15.0,
+      "9885": 15.0,
+      "9886": 15.0,
+      "9887": 15.0,
+      "9888": 15.0,
+      "9889": 15.0,
+      "16956": 15.0,
+      "16957": 15.0,
+      "18803": 15.0
     },
     "tags": [
       "no-auto-map"

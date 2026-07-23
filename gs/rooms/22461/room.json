@@ -1,5 +1,4 @@
 {
-  "checksum": "a5e83038d943d8398316a7a2dd9cbbfc",
   "room": {
     "id": 22461,
     "title": [
@@ -16,58 +15,62 @@
     "terrain": "grassland",
     "wayto": {
       "4639": "out",
-      "30717": "/rooms/22461/wayto/stringproc-30717.rb",
+      "30717": ";e true",
       "33261": "go maple stable"
     },
     "timeto": {
       "4639": 0.2,
-      "30717": "/rooms/22461/timeto/stringproc-30717.rb",
+      "30717": ";e Map[7].timeto['30714'].call;",
       "33261": 0.2
     },
-    "tags": [
-      "urchin-access",
-      "urchin guide stable",
-      "stable",
-      "acantha leaf",
-      "wolifrew lichen",
-      "cuctucae berry",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "soft white mushroom",
-      "withered black mushroom",
-      "blue trafel mushroom",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "wild strawberry",
-      "stalk of chicory",
-      "sprig of larkspur",
-      "small wild rose",
-      "wild chokecherry",
-      "bright red cranberry",
-      "golden aster",
-      "luckbloom blossom",
-      "murdroot",
-      "wavepetal blossom",
-      "ironfern root",
-      "sunburst blossom",
-      "brostheras grass",
-      "meta:forage-sensed",
-      "rainbow chard",
-      "dwarf billberry",
-      "meta:forage-sensed:day:2023-11"
-    ],
-    "uid": [
-      12010001
-    ],
     "image": "en-cysaegir-1679641246.png",
     "image_coords": [
       25,
       377,
       49,
       401
+    ],
+    "tags": [
+      "acantha leaf",
+      "angelica root",
+      "blue trafel mushroom",
+      "bright red cranberry",
+      "bright red teaberry",
+      "brostheras grass",
+      "cuctucae berry",
+      "dwarf bilberry",
+      "dwarf billberry",
+      "golden aster",
+      "golden flax fronds",
+      "ironfern root",
+      "luckbloom blossom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "pennyroyal stem",
+      "pink baldhip rose",
+      "rainbow chard",
+      "sassafras leaf",
+      "soft mushroom",
+      "sprig of larkspur",
+      "stable",
+      "stalk of chicory",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "urchin guide stable",
+      "urchin-access",
+      "valerian root",
+      "violet shining rose",
+      "wavepetal blossom",
+      "wild chokecherry",
+      "wild rose",
+      "wild strawberry",
+      "wintergreen leaf",
+      "withered mushroom",
+      "wolifrew lichen"
+    ],
+    "uid": [
+      12010001
     ]
   }
 }

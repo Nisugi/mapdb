@@ -1,5 +1,4 @@
 {
-  "checksum": "2416c3d1b0c9e4eec0f0422c4554a2f8",
   "room": {
     "id": 392,
     "title": [
@@ -20,21 +19,22 @@
     "timeto": {
       "391": 0.2,
       "393": 0.2,
-      "3855": 240
+      "3855": 240.0
     },
-    "tags": [
-      "publiclockers",
-      "public locker"
-    ],
-    "uid": [
-      54056
-    ],
     "image": "wl-moot_hall-1486755929.png",
     "image_coords": [
       1355,
       1200,
       1497,
       1264
+    ],
+    "tags": [
+      "no forageables",
+      "public locker",
+      "publiclockers"
+    ],
+    "uid": [
+      54056
     ]
   }
 }

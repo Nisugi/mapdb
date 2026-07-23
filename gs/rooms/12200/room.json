@@ -1,5 +1,4 @@
 {
-  "checksum": "5107317fa174459dfa6cb0617c1b4bc9",
   "room": {
     "id": 12200,
     "title": [
@@ -14,9 +13,9 @@
     ],
     "location": "the Rift",
     "wayto": {
-      "2635": "/rooms/12200/wayto/stringproc-2635.rb",
-      "12089": "/rooms/12200/wayto/stringproc-12089.rb",
-      "12152": "/rooms/12200/wayto/stringproc-12152.rb",
+      "2635": ";e start_room = [ 12093, 12174, 12175, 12176, 12177, 12178, 12179, 12180, 12181, 12182, 12183, 12184, 12185, 12186, 12187, 12188, 20882, 20881, 20880, 12189, 12190, 12191, 12192, 12193, 12194, 12195, 12196, 12197, 12198, 12199, 12200, 12201, 20879, 12202, 12203, 12204, 12205, 12212, 12213, 12214, 20878, 20877, 12216, 20876, 12094, 12218, 12091, 12092, 12221, 12222, 12223, 12224, 12225, 12226, 12227 ]; dirs = [ 'east', 'east', 'east', 'east', 'east', 'east', 'east', 'southeast', 'south', 'south', 'south', 'south', 'south', 'southwest', 'west', 'west', 'west', 'west', 'west', 'west', 'west', 'northwest', 'northwest', 'north', 'north', 'north', 'northeast', 'east', 'east', 'east', 'east', 'east', 'east', 'southeast', 'southeast', 'south', 'south', 'south', 'southwest', 'west', 'west', 'west', 'west', 'west', 'west', 'northwest', 'north', 'north', 'northeast', 'northeast', 'east', 'east', 'southeast', 'southeast', 'northwest', 'northwest', 'west', 'west', 'southwest', 'southwest', 'south', 'south', 'south', 'southeast', 'east', 'east', 'east', 'east', 'east', 'northeast', 'north', 'north', 'north', 'northwest', 'northwest', 'west', 'west', 'west', 'west', 'west', 'west', 'southwest', 'south', 'south', 'south', 'south', 'southeast', 'east', 'east', 'east', 'east', 'east', 'east', 'east', 'northeast', 'north', 'north', 'north', 'north', 'north', 'northwest', 'west', 'west', 'west', 'west', 'west', 'west', 'west' ]; if index = start_room.index(Room.current.id); until checkloot.include?('door') or checkloot.include?('mirror'); move dirs[index]; index += 1; index = 0 if index >= dirs.length; end; if checkloot.include?('door'); move 'go door'; elsif checkloot.include?('mirror'); move 'go mirror'; end; else; echo 'error: mini-script expected a different room'; end; $go2_restart = true",
+      "12089": ";e start_room = [ 12093, 12174, 12175, 12176, 12177, 12178, 12179, 12180, 12181, 12182, 12183, 12184, 12185, 12186, 12187, 12188, 20882, 20881, 20880, 12189, 12190, 12191, 12192, 12193, 12194, 12195, 12196, 12197, 12198, 12199, 12200, 12201, 20879, 12202, 12203, 12204, 12205, 12212, 12213, 12214, 20878, 20877, 12216, 20876, 12094, 12218, 12091, 12092, 12221, 12222, 12223, 12224, 12225, 12226, 12227 ]; dirs = [ 'east', 'east', 'east', 'east', 'east', 'east', 'east', 'southeast', 'south', 'south', 'south', 'south', 'south', 'southwest', 'west', 'west', 'west', 'west', 'west', 'west', 'west', 'northwest', 'northwest', 'north', 'north', 'north', 'northeast', 'east', 'east', 'east', 'east', 'east', 'east', 'southeast', 'southeast', 'south', 'south', 'south', 'southwest', 'west', 'west', 'west', 'west', 'west', 'west', 'northwest', 'north', 'north', 'northeast', 'northeast', 'east', 'east', 'southeast', 'southeast', 'northwest', 'northwest', 'west', 'west', 'southwest', 'southwest', 'south', 'south', 'south', 'southeast', 'east', 'east', 'east', 'east', 'east', 'northeast', 'north', 'north', 'north', 'northwest', 'northwest', 'west', 'west', 'west', 'west', 'west', 'west', 'southwest', 'south', 'south', 'south', 'south', 'southeast', 'east', 'east', 'east', 'east', 'east', 'east', 'east', 'northeast', 'north', 'north', 'north', 'north', 'north', 'northwest', 'west', 'west', 'west', 'west', 'west', 'west', 'west' ]; if index = start_room.index(Room.current.id); until checkloot.include?('staircase'); move dirs[index]; index += 1; index = 0 if index >= dirs.length; end; move 'climb staircase'; waitrt?; fput 'stand'; else; echo 'error: mini-script expected a different room'; end; $go2_restart = true",
+      "12152": ";e start_room = [ 12093, 12174, 12175, 12176, 12177, 12178, 12179, 12180, 12181, 12182, 12183, 12184, 12185, 12186, 12187, 12188, 20882, 20881, 20880, 12189, 12190, 12191, 12192, 12193, 12194, 12195, 12196, 12197, 12198, 12199, 12200, 12201, 20879, 12202, 12203, 12204, 12205, 12212, 12213, 12214, 20878, 20877, 12216, 20876, 12094, 12218, 12091, 12092, 12221, 12222, 12223, 12224, 12225, 12226, 12227 ]; dirs = [ 'east', 'east', 'east', 'east', 'east', 'east', 'east', 'southeast', 'south', 'south', 'south', 'south', 'south', 'southwest', 'west', 'west', 'west', 'west', 'west', 'west', 'west', 'northwest', 'northwest', 'north', 'north', 'north', 'northeast', 'east', 'east', 'east', 'east', 'east', 'east', 'southeast', 'southeast', 'south', 'south', 'south', 'southwest', 'west', 'west', 'west', 'west', 'west', 'west', 'northwest', 'north', 'north', 'northeast', 'northeast', 'east', 'east', 'southeast', 'southeast', 'northwest', 'northwest', 'west', 'west', 'southwest', 'southwest', 'south', 'south', 'south', 'southeast', 'east', 'east', 'east', 'east', 'east', 'northeast', 'north', 'north', 'north', 'northwest', 'northwest', 'west', 'west', 'west', 'west', 'west', 'west', 'southwest', 'south', 'south', 'south', 'south', 'southeast', 'east', 'east', 'east', 'east', 'east', 'east', 'east', 'northeast', 'north', 'north', 'north', 'north', 'north', 'northwest', 'west', 'west', 'west', 'west', 'west', 'west', 'west' ]; if index = start_room.index(Room.current.id); until checkloot.include?('thread'); move dirs[index]; index += 1; index = 0 if index >= dirs.length; end; move 'climb thread'; waitrt?; fput 'stand'; else; echo 'error: mini-script expected a different room'; end; $go2_restart = true",
       "12199": "west",
       "12201": "east"
     },
@@ -27,24 +26,24 @@
       "12199": 0.2,
       "12201": 0.2
     },
-    "tags": [
-      "twisted black mawflower",
-      "withered deathblossom",
-      "mass of congealed slime",
-      "slime-covered grave blossom",
-      "discolored fleshbinder bud",
-      "rotting bile green fleshbulb",
-      "oozing fleshsore bulb"
-    ],
-    "uid": [
-      4568031
-    ],
     "image": "imt-rift-1554575848.png",
     "image_coords": [
       187,
       1032,
       195,
       1040
+    ],
+    "tags": [
+      "discolored fleshbinder bud",
+      "mass of congealed slime",
+      "oozing fleshsore bulb",
+      "rotting bile green fleshbulb",
+      "slime-covered grave blossom",
+      "twisted black mawflower",
+      "withered deathblossom"
+    ],
+    "uid": [
+      4568031
     ]
   }
 }

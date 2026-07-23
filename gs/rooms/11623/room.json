@@ -1,5 +1,4 @@
 {
-  "checksum": "6a75a4118c00052dfa4805621db54a87",
   "room": {
     "id": 11623,
     "title": [
@@ -19,9 +18,9 @@
       "11622": "west",
       "11624": "northeast",
       "11629": "southwest",
-      "11653": "/rooms/11623/wayto/stringproc-11653.rb",
-      "16124": "/rooms/11623/wayto/stringproc-16124.rb",
-      "22219": "/rooms/11623/wayto/stringproc-22219.rb"
+      "11653": ";e fput 'search';move 'go trail';move 'southeast';move 'southeast'",
+      "16124": ";e fput 'search'; move 'go trail'",
+      "22219": ";e fput 'search';move 'go trail';move 'southeast';move 'northwest';move 'southeast'"
     },
     "timeto": {
       "11622": 0.2,
@@ -31,36 +30,36 @@
       "16124": 0.4,
       "22219": 0.8
     },
-    "tags": [
-      "withered black mushroom",
-      "aloeas stem",
-      "soft white mushroom",
-      "white hook mushroom",
-      "blue trafel mushroom",
-      "wild gooseberry",
-      "stalk of cattail",
-      "small wild rose",
-      "mistweed",
-      "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "talneo root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "wingstem root",
-      "broken twig",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      5003009
-    ],
     "image": "rr-maelstrom-1619824696.png",
     "image_coords": [
       851,
       613,
       861,
       623
+    ],
+    "tags": [
+      "aloeas stem",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "broken twig",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "mistweed",
+      "murdroot",
+      "soft mushroom",
+      "stalk of cattail",
+      "sunburst blossom",
+      "talneo root",
+      "wavepetal blossom",
+      "white hook mushroom",
+      "wild gooseberry",
+      "wild rose",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      5003009
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "2795078f4655d2ec8c7c3a1e4358b68f",
   "room": {
     "id": 2658,
     "title": [
@@ -13,30 +12,30 @@
     ],
     "location": "Koar's Shrine",
     "wayto": {
-      "2647": "/rooms/2658/wayto/stringproc-2647.rb",
-      "2659": "/rooms/2658/wayto/stringproc-2659.rb",
-      "2660": "/rooms/2658/wayto/stringproc-2660.rb",
-      "2661": "/rooms/2658/wayto/stringproc-2661.rb"
+      "2647": ";e clear\nput 'look'\nloop {\nline = get\nif line =~ /a flight of (ascending|descending) steps (curving along|leading straight through) the (northern|eastern|southern|western) wall, a flight of (ascending|descending) steps (curving along|leading straight through) the (northern|eastern|southern|western) wall, a flight of (ascending|descending) steps (curving along|leading straight through) the (northern|eastern|southern|western) wall and a flight of (ascending|descending) steps (curving along|leading straight through) the (northern|eastern|southern|western) wall\\./\nif $3 == 'northern'\nmove 'climb steps'\nelsif $6 == 'northern'\nmove 'climb second steps'\nelsif $9 == 'northern'\nmove 'climb third steps'\nelsif $12 == 'northern'\nmove 'climb fourth steps'\nelse\necho \"error: unique_map_movements can't find the right steps\"\nexit\nend\nbreak\nend\n}",
+      "2659": ";e clear\nput 'look'\nloop {\nline = get\nif line =~ /a flight of (ascending|descending) steps (curving along|leading straight through) the (northern|eastern|southern|western) wall, a flight of (ascending|descending) steps (curving along|leading straight through) the (northern|eastern|southern|western) wall, a flight of (ascending|descending) steps (curving along|leading straight through) the (northern|eastern|southern|western) wall and a flight of (ascending|descending) steps (curving along|leading straight through) the (northern|eastern|southern|western) wall\\./\nif $3 == 'eastern'\nmove 'climb steps'\nelsif $6 == 'eastern'\nmove 'climb second steps'\nelsif $9 == 'eastern'\nmove 'climb third steps'\nelsif $12 == 'eastern'\nmove 'climb fourth steps'\nelse\necho \"error: unique_map_movements can't find the right steps\"\nexit\nend\nbreak\nend\n}",
+      "2660": ";e clear\nput 'look'\nloop {\nline = get\nif line =~ /a flight of (ascending|descending) steps (curving along|leading straight through) the (northern|eastern|southern|western) wall, a flight of (ascending|descending) steps (curving along|leading straight through) the (northern|eastern|southern|western) wall, a flight of (ascending|descending) steps (curving along|leading straight through) the (northern|eastern|southern|western) wall and a flight of (ascending|descending) steps (curving along|leading straight through) the (northern|eastern|southern|western) wall\\./\nif $3 == 'southern'\nmove 'climb steps'\nelsif $6 == 'southern'\nmove 'climb second steps'\nelsif $9 == 'southern'\nmove 'climb third steps'\nelsif $12 == 'southern'\nmove 'climb fourth steps'\nelse\necho \"error: unique_map_movements can't find the right steps\"\nexit\nend\nbreak\nend\n}",
+      "2661": ";e clear\nput 'look'\nloop {\nline = get\nif line =~ /a flight of (ascending|descending) steps (curving along|leading straight through) the (northern|eastern|southern|western) wall, a flight of (ascending|descending) steps (curving along|leading straight through) the (northern|eastern|southern|western) wall, a flight of (ascending|descending) steps (curving along|leading straight through) the (northern|eastern|southern|western) wall and a flight of (ascending|descending) steps (curving along|leading straight through) the (northern|eastern|southern|western) wall\\./\nif $3 == 'western'\nmove 'climb steps'\nelsif $6 == 'western'\nmove 'climb second steps'\nelsif $9 == 'western'\nmove 'climb third steps'\nelsif $12 == 'western'\nmove 'climb fourth steps'\nelse\necho \"error: unique_map_movements.txt can't find the right steps\"\nexit\nend\nbreak\nend\n}"
     },
     "timeto": {
-      "2647": 1,
-      "2659": 1,
-      "2660": 1,
-      "2661": 1
+      "2647": 1.0,
+      "2659": 1.0,
+      "2660": 1.0,
+      "2661": 1.0
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4562019
-    ],
     "image": "imt-pinefar-1264234799.png",
     "image_coords": [
       363,
       433,
       373,
       443
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables"
+    ],
+    "uid": [
+      4562019
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "e14d45faef166fb1f77ad178b713c8eb",
   "room": {
     "id": 2831,
     "title": [
@@ -17,52 +16,52 @@
     "terrain": "mountainous",
     "wayto": {
       "2830": "down",
-      "2832": "/rooms/2831/wayto/stringproc-2832.rb"
+      "2832": ";e move 'climb incline'; fill_hands"
     },
     "timeto": {
       "2830": 0.2,
       "2832": 0.6
     },
-    "tags": [
-      "lingonberry",
-      "handful of snowberries",
-      "golden aster",
-      "sprig of edelweiss",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "edelweiss",
-      "iceblossoms",
-      "snow lily",
-      "winter rose",
-      "arctic moss",
-      "tundra grass",
-      "calamintha blossom",
-      "snowberries",
-      "pale thornberry",
-      "red winterberry",
-      "small loganberry",
-      "rockberry",
-      "crowberry",
-      "orange rowanberry",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "wingstem root",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      4563007
-    ],
     "image": "imt-pinefar-1264234799.png",
     "image_coords": [
       564,
       1308,
       576,
       1320
+    ],
+    "tags": [
+      "angelica root",
+      "arctic moss",
+      "bolmara lichen",
+      "calamintha blossom",
+      "crowberry",
+      "edelweiss",
+      "golden aster",
+      "handful of snowberries",
+      "iceblossoms",
+      "ironfern root",
+      "lingonberry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "orange rowanberry",
+      "pale thornberry",
+      "pennyroyal stem",
+      "red winterberry",
+      "rockberry",
+      "sassafras leaf",
+      "small loganberry",
+      "snow lily",
+      "snowberries",
+      "sprig of edelweiss",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "tundra grass",
+      "valerian root",
+      "wingstem root",
+      "winter rose"
+    ],
+    "uid": [
+      4563007
     ]
   }
 }

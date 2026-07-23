@@ -1,5 +1,4 @@
 {
-  "checksum": "f23e8f2ae0512d60ff770776227cc735",
   "room": {
     "id": 7273,
     "title": [
@@ -22,27 +21,27 @@
       "7200": 0.2,
       "7274": 0.2
     },
-    "tags": [
-      "sticks",
-      "wild gooseberry",
-      "broken twig",
-      "blue whortleberry",
-      "yew twig",
-      "murdroot",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2024-01",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      2156001
-    ],
     "image": "wl-graveyard-1264234799.png",
     "image_coords": [
       212,
       329,
       222,
       339
+    ],
+    "tags": [
+      "blue whortleberry",
+      "bolmara lichen",
+      "broken twig",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-01",
+      "murdroot",
+      "sticks",
+      "wild gooseberry",
+      "yew twig"
+    ],
+    "uid": [
+      2156001
     ]
   }
 }

@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36439,
+    "title": [
+      "[Dungeon, Machine Chamber]"
+    ],
+    "description": [
+      "Some sort of large contraption predominates this room.  Endless gears, levers, and switches make up the confusing device and it looks incredibly solid and heavy.  With no easy to discern the true purpose of the massive machine, its gargantuan bulk fills the room with an odd sort of menace."
+    ],
+    "paths": [
+      "Obvious exits: north"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36438": "north"
+    },
+    "timeto": {
+      "36438": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      2240,
+      280,
+      2280,
+      320
+    ],
+    "uid": [
+      58050
+    ]
+  }
+}

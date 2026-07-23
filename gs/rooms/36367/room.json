@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36367,
+    "title": [
+      "[Keep, Warded Passage]"
+    ],
+    "description": [
+      "The dead carcasses of various types of vermin litter the floor here.  Rats, mice, bats, and fat spiders lie scattered everywhere, some looking freshly slaughtered.  The passageway seems as if it was once heavily guarded, betrayed by discarded weapons and armor propped against the walls or cluttering the floor."
+    ],
+    "paths": [
+      "Obvious exits: southwest, west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36366": "west",
+      "36368": "southwest"
+    },
+    "timeto": {
+      "36366": 0.2,
+      "36368": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1240,
+      200,
+      1280,
+      240
+    ],
+    "uid": [
+      55038
+    ]
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "checksum": "724e2a5ae0ba052be12175e53fc8a3a8",
   "room": {
     "id": 402,
     "title": [
@@ -15,29 +14,30 @@
     "wayto": {
       "276": "out",
       "403": "go door",
-      "30708": "/rooms/402/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "276": 0.2,
       "403": 0.2,
-      "30708": "/rooms/402/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "weaponshop",
-      "meta:noteleport:fwi",
-      "urchin-access",
-      "urchin guide weapons",
-      "weapons"
-    ],
-    "uid": [
-      2008
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       360,
       353,
       390,
       383
+    ],
+    "tags": [
+      "meta:noteleport:fwi",
+      "no forageables",
+      "urchin guide weapons",
+      "urchin-access",
+      "weapons",
+      "weaponshop"
+    ],
+    "uid": [
+      2008
     ]
   }
 }

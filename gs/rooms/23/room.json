@@ -1,5 +1,4 @@
 {
-  "checksum": "8b0f682033de591a8bea2ea64e6a3ffc",
   "room": {
     "id": 23,
     "title": [
@@ -21,32 +20,32 @@
       "22": "north",
       "24": "southeast",
       "27795": "go hall",
-      "30714": "/rooms/23/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "22": 0.2,
       "24": 0.2,
-      "27795": "/rooms/23/timeto/stringproc-27795.rb",
-      "30714": "/rooms/23/timeto/stringproc-30714.rb"
+      "27795": ";e ((!defined?(Stats.prof) or Stats.prof == 'Bard') ? 0.2 : nil);",
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "bardguild",
-      "urchin guide bardguild",
-      "urchin-access",
-      "bard guild",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      13100047
-    ],
     "image": "en-ta_illistim-new.jpg",
     "image_coords": [
       947,
       723,
       969,
       746
+    ],
+    "tags": [
+      "bard guild",
+      "bardguild",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-11",
+      "no forageables",
+      "urchin guide bardguild",
+      "urchin-access"
+    ],
+    "uid": [
+      13100047
     ]
   }
 }

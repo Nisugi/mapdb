@@ -1,5 +1,4 @@
 {
-  "checksum": "a6af5341e169400cbf7467304cf16e7d",
   "room": {
     "id": 627,
     "title": [
@@ -15,36 +14,36 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "628": "/rooms/627/wayto/stringproc-628.rb",
+      "628": ";e fput 'kneel'; move 'go burrow'; fput 'stand'",
       "11906": "up"
     },
     "timeto": {
       "628": 0.4,
       "11906": 0.2
     },
-    "tags": [
-      "meta:mapname:Elven Nations - Old Ta'Faendryl",
-      "meta:mapshortname:Old Ta'Faendryl",
-      "meta:mapcategory:Elven Nations",
-      "cave moss",
-      "pepperthorn root",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-11",
-      "meta:forage-sensed:day:2024-05"
-    ],
-    "uid": [
-      17002236
-    ],
     "image": "en-old_ta_faendryl-1716923763.png",
     "image_coords": [
       1295,
       604,
       1303,
       612
+    ],
+    "tags": [
+      "bolmara lichen",
+      "cave moss",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
+      "meta:forage-sensed:night:2023-11",
+      "meta:mapcategory:Elven Nations",
+      "meta:mapname:Elven Nations - Old Ta'Faendryl",
+      "meta:mapshortname:Old Ta'Faendryl",
+      "murdroot",
+      "pepperthorn root",
+      "wingstem root"
+    ],
+    "uid": [
+      17002236
     ]
   }
 }

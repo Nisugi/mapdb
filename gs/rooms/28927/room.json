@@ -1,5 +1,4 @@
 {
-  "checksum": "2649ff5ede95461927a38d6657cc3d2e",
   "room": {
     "id": 28927,
     "title": [
@@ -14,18 +13,19 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28925": "south",
-      "30716": "/rooms/28927/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28925": 0.2,
-      "30716": "/rooms/28927/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "advguild",
-      "taskmaster",
       "bounty",
-      "urchin-access",
-      "urchin guide bounty"
+      "no forageables",
+      "taskmaster",
+      "urchin guide bounty",
+      "urchin-access"
     ],
     "uid": [
       7118462

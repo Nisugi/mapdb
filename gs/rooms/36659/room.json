@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36659,
+    "title": [
+      "[Brayern Island, Portal Dais]"
+    ],
+    "description": [
+      "A tall white stone portal lined with jeweled runes dominates the dais, casting ripples of wavering silver and gold light across the way forward.  The portal's illuminating energies sharply contrast the muted greens and blues of both the jungle and the mana storm above.  A multitude of gemstones line the arch from the ground to its apex, which is set with a large rune-etched diamond that gently pulsates.  Alongside the arch, a large sign is placed."
+    ],
+    "paths": [
+      "Obvious exits: south"
+    ],
+    "location": "Brayern Isle",
+    "wayto": {
+      "36658": "south",
+      "36660": "go portal"
+    },
+    "timeto": {
+      "36658": 0.2,
+      "36660": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      851,
+      894,
+      868,
+      908
+    ],
+    "uid": [
+      8400256
+    ]
+  }
+}

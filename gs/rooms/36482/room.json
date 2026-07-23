@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36482,
+    "title": [
+      "[Artistic Expressions]"
+    ],
+    "description": [
+      "Iron-framed panes of stained glass illuminate the mirror-tiled display surrounded by wired sculptures covered in sheets of blank canvas set upon a pedestal of jade-veined marble.  Kaleidoscopic ribbons of silk drape in a loose lattice across the curved roof of the wagon, the lengths suspending blown glass droplets filled with vibrantly colored paint.  Affixed across the mural-painted back wall are a series of paint-covered buckets and pails, the sticks nestled in beds of tumbled marbles."
+    ],
+    "paths": [
+      "Obvious exits: north, out"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "33494": "out",
+      "36483": "north"
+    },
+    "timeto": {
+      "33494": 0.2,
+      "36483": 0.2
+    },
+    "uid": [
+      8209437
+    ]
+  }
+}

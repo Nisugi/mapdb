@@ -1,5 +1,4 @@
 {
-  "checksum": "ea58a158ae4ef14c61e10f3095d4e526",
   "room": {
     "id": 16784,
     "title": [
@@ -15,26 +14,26 @@
     "wayto": {
       "16782": "southwest",
       "16783": "northwest",
-      "16785": "/rooms/16784/wayto/stringproc-16785.rb"
+      "16785": ";e fput 'touch hand'; move 'go portal'"
     },
     "timeto": {
       "16782": 0.2,
       "16783": 0.2,
       "16785": 0.4
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      13300043
-    ],
     "image": "en-skull-1264234799.png",
     "image_coords": [
       824,
       573,
       834,
       583
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables"
+    ],
+    "uid": [
+      13300043
     ]
   }
 }

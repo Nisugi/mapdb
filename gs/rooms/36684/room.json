@@ -1,0 +1,36 @@
+{
+  "room": {
+    "id": 36684,
+    "title": [
+      "[Nyessem, Indigo Pools]"
+    ],
+    "description": [
+      "A heavy mist hangs in the air like a gathering storm, impeding visibility in this deep and humid cavern.  Disturbed by a multitude of sea life below its surface, a large pool ripples constantly, thin indigo-hued tendrils darting to and fro across its glassy top.  A makeshift pier, crafted from moss-covered planks, juts out from the grotto's rocky edge and provides a perfect fishing perch."
+    ],
+    "paths": [
+      "Obvious exits: north, northeast, south",
+      "Obvious exits: north, northeast"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36683": "northeast",
+      "36685": "north",
+      "36705": "south"
+    },
+    "timeto": {
+      "36683": 0.2,
+      "36685": 0.2,
+      "36705": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      600,
+      851,
+      616,
+      865
+    ],
+    "uid": [
+      8400504
+    ]
+  }
+}

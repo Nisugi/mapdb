@@ -1,5 +1,4 @@
 {
-  "checksum": "da3821ddd0fba34658ba2a8bbc927286",
   "room": {
     "id": 17059,
     "title": [
@@ -20,15 +19,25 @@
       "17052": 0.2,
       "17060": 0.2
     },
-    "uid": [
-      683010
-    ],
     "image": "rr-wizard_guild.png",
     "image_coords": [
       156,
       154,
       218,
       215
+    ],
+    "tags": [
+      "cone-shaped pineapple",
+      "ghost pepper",
+      "horseradish root",
+      "hot pepper",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "pepperthorn root"
+    ],
+    "uid": [
+      683010
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "0bb8bcf813d142342ef97fd908d7eb84",
   "room": {
     "id": 24147,
     "title": [
@@ -15,7 +14,7 @@
     "wayto": {
       "24146": "north",
       "24148": "jump",
-      "24168": "/rooms/24147/wayto/stringproc-24168.rb"
+      "24168": ";e fput \"get rope\";move \"push rope\""
     },
     "timeto": {
       "24146": 0.2,

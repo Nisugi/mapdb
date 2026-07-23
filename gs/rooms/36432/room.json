@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36432,
+    "title": [
+      "[Dungeon]"
+    ],
+    "description": [
+      "This dim dungeon corridor curves gently from south to west.  The bare stone walls are cold to the touch and slick with a layer of moist condensation.  Thin rivulets of water creep down the face of the walls, dripping slowly to pool on the floor and leave filmy puddles.  Occasionally, a small black beetle scurries across the grey rock floor and slips into a crack in the wall, disturbed by your presence."
+    ],
+    "paths": [
+      "Obvious exits: south, west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36424": "south",
+      "36433": "west"
+    },
+    "timeto": {
+      "36424": 0.2,
+      "36433": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1880,
+      280,
+      1920,
+      320
+    ],
+    "uid": [
+      58043
+    ]
+  }
+}

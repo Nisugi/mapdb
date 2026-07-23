@@ -1,5 +1,4 @@
 {
-  "checksum": "ea970caba267f68a8f689518c0c1445f",
   "room": {
     "id": 11620,
     "title": [
@@ -18,9 +17,9 @@
       "11619": "southwest",
       "11621": "east",
       "11625": "south",
-      "11653": "/rooms/11620/wayto/stringproc-11653.rb",
-      "16124": "/rooms/11620/wayto/stringproc-16124.rb",
-      "22219": "/rooms/11620/wayto/stringproc-22219.rb"
+      "11653": ";e fput 'search';move 'go trail';move 'northeast';move 'southeast';move 'northeast';move 'northeast';move 'northeast'",
+      "16124": ";e fput 'search'; move 'go trail'",
+      "22219": ";e fput 'search';move 'go trail';move 'northeast';move 'southeast';move 'northeast';move 'northeast';move 'southwest'"
     },
     "timeto": {
       "11619": 0.2,
@@ -30,36 +29,36 @@
       "16124": 0.4,
       "22219": 1.2
     },
-    "tags": [
-      "aloeas stem",
-      "soft white mushroom",
-      "withered black mushroom",
-      "white hook mushroom",
-      "blue trafel mushroom",
-      "wild gooseberry",
-      "stalk of cattail",
-      "small wild rose",
-      "mistweed",
-      "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "talneo root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "wingstem root",
-      "broken twig",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      5003006
-    ],
     "image": "rr-maelstrom-1619824696.png",
     "image_coords": [
       689,
       613,
       699,
       623
+    ],
+    "tags": [
+      "aloeas stem",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "broken twig",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "mistweed",
+      "murdroot",
+      "soft mushroom",
+      "stalk of cattail",
+      "sunburst blossom",
+      "talneo root",
+      "wavepetal blossom",
+      "white hook mushroom",
+      "wild gooseberry",
+      "wild rose",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      5003006
     ]
   }
 }

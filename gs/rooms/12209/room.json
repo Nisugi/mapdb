@@ -1,5 +1,4 @@
 {
-  "checksum": "635eeab1c2293396c0306a2909203602",
   "room": {
     "id": 12209,
     "title": [
@@ -16,7 +15,7 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "2579": "/rooms/12209/wayto/stringproc-2579.rb",
+      "2579": ";e start_room = [ 12162, 12207, 12170, 12209, 12215, 12210, 12159, 12165, 12206, 12173, 12208, nil, 12160, 12211 ]; dirs = [ 'northwest', 'north', 'northeast', 'northwest', 'northeast', 'northwest', 'northeast', 'north', 'northwest', 'west', 'east', 'northeast', 'northwest', 'northeast' ]; if index = start_room.index(Room.current.id); until checkloot.include?('thread'); move dirs[index]; index += 1; index = 0 if index >= dirs.length; end; move 'climb thread'; waitrt?; fput 'stand'; else; echo 'error: mini-script expected a different room'; end; $go2_restart = true",
       "12170": "southwest",
       "12208": "northeast",
       "12215": "northwest"
@@ -27,24 +26,24 @@
       "12208": 0.2,
       "12215": 0.2
     },
-    "tags": [
-      "mass of congealed slime",
-      "rotting bile green fleshbulb",
-      "twisted black mawflower",
-      "oozing fleshsore bulb",
-      "slime-covered grave blossom",
-      "congealed slime",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4570010
-    ],
     "image": "imt-rift-1554575848.png",
     "image_coords": [
       856,
       1108,
       866,
       1118
+    ],
+    "tags": [
+      "congealed slime",
+      "mass of congealed slime",
+      "meta:forage-sensed",
+      "oozing fleshsore bulb",
+      "rotting bile green fleshbulb",
+      "slime-covered grave blossom",
+      "twisted black mawflower"
+    ],
+    "uid": [
+      4570010
     ]
   }
 }

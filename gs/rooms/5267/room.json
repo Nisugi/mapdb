@@ -1,5 +1,4 @@
 {
-  "checksum": "9108e0a8e82711c20442b33220217818",
   "room": {
     "id": 5267,
     "title": [
@@ -15,60 +14,64 @@
     "climate": "humid",
     "terrain": "coniferous forest",
     "wayto": {
-      "5266": "/rooms/5267/wayto/stringproc-5266.rb",
+      "5266": ";e empty_hands; move 'climb rockslide'; waitrt?; fill_hands",
       "5268": "north"
     },
     "timeto": {
       "5266": 0.2,
       "5268": 0.2
     },
-    "tags": [
-      "genkew mushroom",
-      "soft white mushroom",
-      "fiddlehead fern",
-      "striped heart mushroom",
-      "pine cone",
-      "acantha leaf",
-      "woth flower",
-      "calamia fruit",
-      "haphip root",
-      "pothinir grass",
-      "sticks",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "red vornalite mushroom",
-      "blue trafel mushroom",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "wild gooseberry",
-      "handful of pinenuts",
-      "broken twig",
-      "pine needles",
-      "stalk of bluebells",
-      "wild chokecherry",
-      "tree bark",
-      "yew twig",
-      "twisted twig",
-      "slender twig",
-      "ebony twig",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "trollfear mushroom",
-      "brostheras grass",
-      "blackberries",
-      "cinnamon bark",
-      "meta:forage-sensed:day:2023-02"
-    ],
-    "uid": [
-      4214301
-    ],
     "image": "vo-foggy_valley-1264234799.png",
     "image_coords": [
       678,
       554,
       688,
       564
+    ],
+    "tags": [
+      "acantha leaf",
+      "blackberries",
+      "blood orange",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "bright red teaberry",
+      "broken twig",
+      "brostheras grass",
+      "calamia fruit",
+      "cinnamon bark",
+      "coffee cherries",
+      "daggerstalk mushroom",
+      "ebony twig",
+      "fiddlehead fern",
+      "flathead mushroom",
+      "genkew mushroom",
+      "grapefruit",
+      "handful of pinenuts",
+      "haphip root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "pine cone",
+      "pine needles",
+      "pothinir grass",
+      "red vornalite mushroom",
+      "round yuzu",
+      "slender twig",
+      "soft mushroom",
+      "stalk of bluebells",
+      "sticks",
+      "striped heart mushroom",
+      "tree bark",
+      "trollfear mushroom",
+      "twisted twig",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wintergreen leaf",
+      "withered mushroom",
+      "woth flower",
+      "yew twig"
+    ],
+    "uid": [
+      4214301
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "d738cd426c6f3a4309bed01a074ea9f6",
   "room": {
     "id": 19544,
     "title": [
@@ -16,34 +15,34 @@
     "climate": "cold, dry",
     "terrain": "barren scrub",
     "wayto": {
-      "1084": "/rooms/19544/wayto/stringproc-1084.rb",
-      "19546": "/rooms/19544/wayto/stringproc-19546.rb"
+      "1084": ";e move 'northeast'; move 'east'; move 'southeast'",
+      "19546": ";e move 'northeast'; move 'east'; move 'southwest'"
     },
     "timeto": {
       "1084": 0.6,
       "19546": 0.6
     },
-    "tags": [
-      "no-auto-map",
-      "cothinar flower",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "stalk of chicory",
-      "broken twig",
-      "sprig of larkspur",
-      "ironfern root",
-      "sunburst blossom",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      13001083
-    ],
     "image": "en-trail-1264234799.png",
     "image_coords": [
       1333,
       910,
       1342,
       918
+    ],
+    "tags": [
+      "bright red teaberry",
+      "broken twig",
+      "cothinar flower",
+      "ironfern root",
+      "meta:forage-sensed",
+      "no-auto-map",
+      "sprig of larkspur",
+      "stalk of chicory",
+      "sunburst blossom",
+      "wintergreen leaf"
+    ],
+    "uid": [
+      13001083
     ]
   }
 }

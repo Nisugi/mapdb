@@ -1,5 +1,4 @@
 {
-  "checksum": "7b7bc9fa3913c41e460cf9a77fc30113",
   "room": {
     "id": 18841,
     "title": [
@@ -16,40 +15,42 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "18823": "/rooms/18841/wayto/stringproc-18823.rb",
-      "18842": "/rooms/18841/wayto/stringproc-18842.rb",
-      "25616": "/rooms/18841/wayto/stringproc-25616.rb",
-      "25617": "/rooms/18841/wayto/stringproc-25617.rb",
+      "18823": ";e if checksitting;while Room.current.id == 18841;fput('row southeast');waitrt?;end;else;move('swim southeast');end;",
+      "18842": ";e if checksitting;while Room.current.id == 18841;fput('row northwest');waitrt?;end;else;move('swim northwest');end;",
+      "25616": ";e if checksitting;while Room.current.id == 18841;fput('row southwest');waitrt?;end;else;move('swim southwest');end;",
+      "25617": ";e if checksitting;while Room.current.id == 18841;fput('row west');waitrt?;end;else;move('swim west');end;",
       "30508": "swim down"
     },
     "timeto": {
-      "18823": "/rooms/18841/timeto/stringproc-18823.rb",
-      "18842": "/rooms/18841/timeto/stringproc-18842.rb",
-      "25616": "/rooms/18841/timeto/stringproc-25616.rb",
-      "25617": "/rooms/18841/timeto/stringproc-25617.rb",
-      "30508": "/rooms/18841/timeto/stringproc-30508.rb"
+      "18823": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
+      "18842": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
+      "25616": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
+      "25617": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
+      "30508": ";e checksitting && Room.current.climate == 'freshwater' ? nil : 0.2"
     },
-    "tags": [
-      "aloeas stem",
-      "wild gooseberry",
-      "water chestnut",
-      "stalk of cattail",
-      "wood violet",
-      "murdroot",
-      "wavepetal blossom",
-      "orchil lichen",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2024-05"
-    ],
-    "uid": [
-      14117015
-    ],
     "image": "en-ravelin.png",
     "image_coords": [
       1204,
       771,
       1222,
       789
+    ],
+    "tags": [
+      "aloeas stem",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "murdroot",
+      "orchil lichen",
+      "stalk of cattail",
+      "sunburst blossom",
+      "water chestnut",
+      "wavepetal blossom",
+      "wild gooseberry",
+      "wood violet"
+    ],
+    "uid": [
+      14117015
     ]
   }
 }

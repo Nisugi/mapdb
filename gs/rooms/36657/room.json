@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36657,
+    "title": [
+      "[Brayern Island, Fort Brayern]"
+    ],
+    "description": [
+      "A wooden half-wall occupies the area's middle, connected to both several woven hammocks and the taller fortress wall.  Several lanterns line small shelves on the half-wall alongside these hammocks.  Supply crates visibly containing food and sundries fill much of the rest of the area.  Leather tarps suspended above keep out harsh weather but are also cut with rectangular patches that, when pulled back, offer a wide view of the sky and its perpetual mana storm."
+    ],
+    "paths": [
+      "Obvious exits: southeast, south"
+    ],
+    "location": "Brayern Isle",
+    "wayto": {
+      "36653": "southeast",
+      "36656": "south"
+    },
+    "timeto": {
+      "36653": 0.2,
+      "36656": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      809,
+      1019,
+      825,
+      1036
+    ],
+    "uid": [
+      8400253
+    ]
+  }
+}

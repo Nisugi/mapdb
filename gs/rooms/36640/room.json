@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36640,
+    "title": [
+      "[Brayern Isle, Beach]"
+    ],
+    "description": [
+      "The island rises above you.  Against the electric blue haze of the mana storm is a mountainous spire lined with palms and thick vegetation.  The shoreline is a mix of ebon-hued volcanic stones and displaced boulders that have slid down the mountain over the years.  Off of the bridge to the docks is a prominent stone statue with an accompanying wood and stone sign.  Twin lantern-lined paths lead down the beach in either direction."
+    ],
+    "paths": [
+      "Obvious paths: east, west"
+    ],
+    "location": "Brayern Isle",
+    "wayto": {
+      "36638": "go bridge",
+      "36641": "east",
+      "36643": "west"
+    },
+    "timeto": {
+      "36638": 0.2,
+      "36641": 0.2,
+      "36643": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      850,
+      1397,
+      870,
+      1413
+    ],
+    "uid": [
+      8400210
+    ]
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "checksum": "ab833b8dfb2d0bf230038d4ab393cdc4",
   "room": {
     "id": 33898,
     "title": [
@@ -14,16 +13,16 @@
     "location": "Ta'Nalfein",
     "wayto": {
       "33887": "out",
-      "34423": "/rooms/33898/wayto/stringproc-34423.rb"
+      "34423": ";e true"
     },
     "timeto": {
       "33887": 0.2,
-      "34423": "/rooms/33898/timeto/stringproc-34423.rb"
+      "34423": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "cobbling",
-      "urchin-access",
-      "urchin guide cobbling"
+      "urchin guide cobbling",
+      "urchin-access"
     ],
     "uid": [
       14150211

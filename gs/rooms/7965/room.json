@@ -1,5 +1,4 @@
 {
-  "checksum": "202aee4d74e208a819feeed757d97ec9",
   "room": {
     "id": 7965,
     "title": [
@@ -15,57 +14,57 @@
     "climate": "moist",
     "terrain": "grassland",
     "wayto": {
-      "7964": "/rooms/7965/wayto/stringproc-7964.rb"
+      "7964": ";e waitrt?; fput 'search'; move 'go fissure'"
     },
     "timeto": {
       "7964": 0.4
     },
-    "tags": [
-      "acantha leaf",
-      "soft white mushroom",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "genkew mushroom",
-      "blue trafel mushroom",
-      "wild chokecherry",
-      "bright red cranberry",
-      "motherwort",
-      "wild orchid",
-      "murkweed",
-      "luckbloom blossom",
-      "murdroot",
-      "wavepetal blossom",
-      "sunburst blossom",
-      "meta:forage-sensed",
-      "trollfear mushroom",
-      "nightbloom blossom",
-      "brostheras grass",
-      "dill",
-      "tobacco leaves",
-      "sugar cane",
-      "red onion",
-      "sweet onion",
-      "purple-tipped artichoke",
-      "rainbow chard",
-      "meta:forage-sensed:night:2023-02",
-      "small watermelon",
-      "cherry peppers",
-      "fresh catnip",
-      "peppermint leaves",
-      "sun-wilted tea leaves",
-      "round yuzu",
-      "meta:forage-sensed:day:2025-05"
-    ],
-    "uid": [
-      16050
-    ],
     "image": "wl-trollfang-1264234799.png",
     "image_coords": [
       545,
       506,
       555,
       516
+    ],
+    "tags": [
+      "acantha leaf",
+      "blue trafel mushroom",
+      "bright red cranberry",
+      "brostheras grass",
+      "cherry peppers",
+      "daggerstalk mushroom",
+      "dill",
+      "flathead mushroom",
+      "fresh catnip",
+      "genkew mushroom",
+      "luckbloom blossom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "motherwort",
+      "murdroot",
+      "murkweed",
+      "nightbloom blossom",
+      "peppermint leaves",
+      "purple-tipped artichoke",
+      "rainbow chard",
+      "red onion",
+      "round yuzu",
+      "small watermelon",
+      "soft mushroom",
+      "sugar cane",
+      "sun-wilted tea leaves",
+      "sunburst blossom",
+      "sweet onion",
+      "tobacco leaves",
+      "trollfear mushroom",
+      "wavepetal blossom",
+      "wild chokecherry",
+      "wild orchid",
+      "withered mushroom"
+    ],
+    "uid": [
+      16050
     ]
   }
 }

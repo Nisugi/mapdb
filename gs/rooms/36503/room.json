@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36503,
+    "title": [
+      "[Eight-Legged Innovators, Common]"
+    ],
+    "description": [
+      "Motes of multicolored light hang suspended before several rune-carved mahogany platforms, casting colorful shadows across the mechanical mounts perched on the elevated stands.  Graduated glass flasks and bottles line the iron-forged racks on the surrounding walls, the surrounding slate tiles covered in calligraphic strokes of chalk outlining varying instructions.  A short wooden ladder stands in the corner of the room, the trio of rungs decorated in glistening webs."
+    ],
+    "paths": [
+      "Obvious exits: southeast, northwest"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "36500": "southeast",
+      "36504": "northwest"
+    },
+    "timeto": {
+      "36500": 0.2,
+      "36504": 0.2
+    },
+    "uid": [
+      8209454
+    ]
+  }
+}

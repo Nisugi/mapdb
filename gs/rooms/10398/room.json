@@ -1,5 +1,4 @@
 {
-  "checksum": "5b4ba7d019ac4ee5031bd65ca5161968",
   "room": {
     "id": 10398,
     "title": [
@@ -18,32 +17,36 @@
       "10399": "east",
       "10400": "southwest",
       "10418": "south",
-      "30713": "/rooms/10398/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3514": 0.2,
       "10399": 0.2,
       "10400": 0.2,
       "10418": 0.2,
-      "30713": "/rooms/10398/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "meta:mapname:Elven Nations - Ta'Vaalor - Dancing Dahcre",
-      "meta:mapshortname:Ta'Vaalor - Dancing Dahcre (Annex)",
-      "meta:mapcategory:Elven Nations",
-      "meta:mapcategory:CHE",
-      "urchin-access",
-      "urchin guide dancingdahcre"
-    ],
-    "uid": [
-      14109001
-    ],
     "image": "en-ta_vaalor-dancing_dahcre-1488763271.png",
     "image_coords": [
       874,
       85,
       1015,
       144
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:mapcategory:CHE",
+      "meta:mapcategory:Elven Nations",
+      "meta:mapname:Elven Nations - Ta'Vaalor - Dancing Dahcre",
+      "meta:mapshortname:Ta'Vaalor - Dancing Dahcre (Annex)",
+      "stalk of bluebells",
+      "urchin guide dancingdahcre",
+      "urchin-access",
+      "wild sage"
+    ],
+    "uid": [
+      14109001
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "c01122778289c36284ef79e037228884",
   "room": {
     "id": 14060,
     "title": [
@@ -14,12 +13,15 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "13766": "east",
-      "20430": "/rooms/14060/wayto/stringproc-20430.rb"
+      "20430": ";e \n\tfput \"open door\"\n\twhile line = get\n\t\tif line =~ /That is already open\\./\n\t\t\tbreak\n\t\telsif line =~ /There doesn't seem to be any way to do that\\./\n\t\t\tif GameObj.right_hand.type == \"gem\"\n\t\t\t\tfput \"put ##{GameObj.right_hand.id} in vaalorn door\"\n\t\t\t\tbreak\n\t\t\telse\n\t\t\t\techo \"In order to get past this door you must sacrifice a gem.\\n Place a cheap gem in your right hand and unpause the script (;unpause) to continue.\"\n\t\t\t\tpause_script\n\t\t\t\twait_until{GameObj.right_hand.name !~ /Empty/}\n\t\t\t\tfput \"put ##{GameObj.right_hand.id} in vaalorn door\"\n\t\t\t\tbreak\n\t\t\tend\n\t\tend\n\tend\n\tfput \"go door\"\n"
     },
     "timeto": {
       "13766": 0.2,
-      "20430": 300
+      "20430": 300.0
     },
+    "tags": [
+      "no forageables"
+    ],
     "uid": [
       14110102
     ]

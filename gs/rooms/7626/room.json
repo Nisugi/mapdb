@@ -1,5 +1,4 @@
 {
-  "checksum": "0da3423c417d88d8e5a71a159acdb0ae",
   "room": {
     "id": 7626,
     "title": [
@@ -17,30 +16,30 @@
     "wayto": {
       "7625": "east",
       "7627": "west",
-      "30581": "/rooms/7626/wayto/stringproc-30581.rb"
+      "30581": ";e multifput 'lie','search magnificent sandcastle','push magnificent sandcastle'"
     },
     "timeto": {
       "7625": 0.2,
       "7627": 0.2,
       "30581": 0.2
     },
-    "tags": [
-      "yabathilium fruit",
-      "strand of seaweed",
-      "murdroot",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      85008
-    ],
     "image": "wl-coastal_cliffs-1264234799.png",
     "image_coords": [
       88,
       529,
       98,
       539
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "murdroot",
+      "strand of seaweed",
+      "yabathilium fruit"
+    ],
+    "uid": [
+      85008
     ]
   }
 }

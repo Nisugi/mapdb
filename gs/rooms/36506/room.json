@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36506,
+    "title": [
+      "[Office of Engineers]"
+    ],
+    "description": [
+      "Elongated sheets of parchment unfurl across the wood-planked walls of the office, the charcoal-sketched surfaces connected by thread-strung pins wrought into brass-winged beetles.  The tall mahogany bookshelves are overstuffed in a variety of leather-bound tomes and folios marked with strips of copper wire and scraps of velvet.  A rectangular glass lantern sits partially buried upon the well-oiled walnut table, wedged between the stacks of finely inked vellum and tool-filled rolls of brushed suede."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "36500": "out"
+    },
+    "timeto": {
+      "36500": 0.2
+    },
+    "uid": [
+      8209452
+    ]
+  }
+}

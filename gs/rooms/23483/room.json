@@ -1,5 +1,4 @@
 {
-  "checksum": "e3c14bdc011ae4828282188c9138eb47",
   "room": {
     "id": 23483,
     "title": [
@@ -16,7 +15,7 @@
     "terrain": "none",
     "wayto": {
       "250": "go docks",
-      "23490": "/rooms/23483/wayto/stringproc-23490.rb"
+      "23490": ";e if Spell[112].active?; move 'north';else; move 'swim north';end"
     },
     "timeto": {
       "250": 0.2,
@@ -25,8 +24,8 @@
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
-      "no forageables",
-      "meta:forage-sensed:night:2022-11"
+      "meta:forage-sensed:night:2022-11",
+      "no forageables"
     ],
     "uid": [
       336801

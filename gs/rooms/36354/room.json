@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36354,
+    "title": [
+      "[Black Swan Castle, Courtyard]"
+    ],
+    "description": [
+      "A large, dirty heap of straw is piled against the southeast stone walls here.  Although the straw looks positively ancient, you notice fresh depressions in it, and some shallow, narrow depressions in the moist earth around the pile.  The gate in the southern wall is blocked by a raised drawbridge."
+    ],
+    "paths": [
+      "Obvious paths: north, west, northwest"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36355": "west",
+      "36375": "northwest",
+      "36376": "north"
+    },
+    "timeto": {
+      "36355": 0.2,
+      "36375": 0.2,
+      "36376": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      520,
+      520,
+      560,
+      560
+    ],
+    "uid": [
+      55024
+    ]
+  }
+}

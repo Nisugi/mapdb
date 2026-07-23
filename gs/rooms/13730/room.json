@@ -1,5 +1,4 @@
 {
-  "checksum": "e8398837d7e998ece37a09de415b1a70",
   "room": {
     "id": 13730,
     "title": [
@@ -19,18 +18,22 @@
     "timeto": {
       "13728": 0.2
     },
-    "tags": [
-      "meta:nomagic"
-    ],
-    "uid": [
-      287105
-    ],
     "image": "en-vaalor-bard-guild.png",
     "image_coords": [
       190,
       198,
       209,
       218
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:nomagic",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      287105
     ]
   }
 }

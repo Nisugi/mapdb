@@ -1,5 +1,4 @@
 {
-  "checksum": "ab333e06154cfdfe09bcae423cff3470",
   "room": {
     "id": 16349,
     "title": [
@@ -15,20 +14,20 @@
     "wayto": {
       "12302": "out",
       "16350": "go arch",
-      "30718": "/rooms/16349/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "12302": 0.2,
       "16350": 0.2,
-      "30718": "/rooms/16349/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "herbalist",
-      "urchin-access",
-      "urchin guide herbalist",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-10"
+      "meta:forage-sensed:day:2022-10",
+      "no forageables",
+      "urchin guide herbalist",
+      "urchin-access"
     ],
     "uid": [
       3201901

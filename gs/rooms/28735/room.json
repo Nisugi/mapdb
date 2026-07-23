@@ -1,5 +1,4 @@
 {
-  "checksum": "09c27c2aa9502b751a229148f88d9318",
   "room": {
     "id": 28735,
     "title": [
@@ -22,35 +21,41 @@
       "3053": 0.2,
       "28736": 0.2
     },
-    "tags": [
-      "beaconhall",
-      "meta:mapname:Icemule Trace - Beacon Hall Annex",
-      "meta:mapshortname:Beacon Hall IMT Annex",
-      "meta:mapcategory:Icemule Trace",
-      "meta:mapcategory:CHE",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "ice tulip",
-      "winter rose",
-      "frostflower",
-      "wavepetal blossom",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09",
-      "sunburst blossom",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      4050324
-    ],
     "image": "imt-beacon_hall.png",
     "image_coords": [
       218,
       264,
       251,
       300
+    ],
+    "tags": [
+      "angelica root",
+      "beaconhall",
+      "blue snow rose",
+      "frostflower",
+      "ice tulip",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-09",
+      "meta:mapcategory:CHE",
+      "meta:mapcategory:Icemule Trace",
+      "meta:mapname:Icemule Trace - Beacon Hall Annex",
+      "meta:mapshortname:Beacon Hall IMT Annex",
+      "pennyroyal stem",
+      "resting poppy",
+      "sassafras leaf",
+      "silver iceblossom",
+      "snowy arctic rose",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wavepetal blossom",
+      "white arctic rose",
+      "white crallisberry",
+      "winter rose"
+    ],
+    "uid": [
+      4050324
     ]
   }
 }

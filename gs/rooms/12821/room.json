@@ -1,5 +1,4 @@
 {
-  "checksum": "0db92df71fc9e5640db999d880072d76",
   "room": {
     "id": 12821,
     "title": [
@@ -16,19 +15,19 @@
     "terrain": "none",
     "wayto": {
       "12819": "go door",
-      "30710": "/rooms/12821/wayto/stringproc-30710.rb"
+      "30710": ";e true"
     },
     "timeto": {
       "12819": 0.2,
-      "30710": "/rooms/12821/timeto/stringproc-30710.rb"
+      "30710": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "debt",
-      "urchin-access",
-      "urchin guide debts",
       "debts",
       "meta:forage-sensed",
-      "no forageables"
+      "no forageables",
+      "urchin guide debts",
+      "urchin-access"
     ],
     "uid": [
       4740122

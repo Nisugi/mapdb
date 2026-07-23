@@ -1,5 +1,4 @@
 {
-  "checksum": "e177d17cabbc17ab5def63941c023a67",
   "room": {
     "id": 2896,
     "title": [
@@ -15,53 +14,58 @@
     "climate": "snowy, arctic",
     "terrain": "mountainous",
     "wayto": {
-      "2895": "/rooms/2896/wayto/stringproc-2895.rb",
-      "2897": "/rooms/2896/wayto/stringproc-2897.rb"
+      "2895": ";e \n\t\tresolve=Spell['Sigil of Resolve']\n\t\thaste=Spell['Haste']\n\t\tif UserVars.mapdb_ice_mode == 'wait' || Skills.survival < 50 || XMLData.encumbrance_value >= 50\n\t\t\techo 'trying not to slip...'; sleep 6\n\t\telsif resolve.known? && resolve.affordable? && !resolve.active?\n\t\t\tresolve.cast\n\t\tend\n\t\tresult = fput 'up'\n\t\tif result =~ /^Rushing heedlessly/\n\t\t\thaste.cast if haste.known? && haste.affordable? && !haste.active?\n\t\t\tfput 'stand'\n\t\t\t$go2_restart = true\n\t\tend\n\t",
+      "2897": ";e \n\t\tresolve=Spell['Sigil of Resolve']\n\t\thaste=Spell['Haste']\n\t\tif UserVars.mapdb_ice_mode == 'wait' || Skills.survival < 50 || XMLData.encumbrance_value >= 50\n\t\t\techo 'trying not to slip...'; sleep 6\n\t\telsif resolve.known? && resolve.affordable? && !resolve.active?\n\t\t\tresolve.cast\n\t\tend\n\t\tresult = fput 'southwest'\n\t\tif result =~ /^Rushing heedlessly/\n\t\t\thaste.cast if haste.known? && haste.affordable? && !haste.active?\n\t\t\tfput 'stand'\n\t\t\t$go2_restart = true\n\t\tend\n\t"
     },
     "timeto": {
-      "2895": 7,
+      "2895": 7.0,
       "2897": 0.2
     },
-    "tags": [
-      "pale thornberry",
-      "some tundra grass",
-      "small loganberry",
-      "some valerian root",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "edelweiss",
-      "iceblossoms",
-      "snow lily",
-      "winter rose",
-      "arctic moss",
-      "tundra grass",
-      "golden aster",
-      "calamintha blossom",
-      "snowberries",
-      "red winterberry",
-      "rockberry",
-      "crowberry",
-      "lingonberry",
-      "orange rowanberry",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "wingstem root",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      4560034
-    ],
     "image": "imt-east_west_north_gates-1668398077.png",
     "image_coords": [
       1105,
       288,
       1115,
       298
+    ],
+    "tags": [
+      "angelica root",
+      "arctic moss",
+      "bolmara lichen",
+      "calamintha blossom",
+      "crowberry",
+      "dwarf bilberry",
+      "edelweiss",
+      "giant's lace",
+      "glassfern frond",
+      "golden aster",
+      "green glacierberry",
+      "iceblossoms",
+      "ironfern root",
+      "lingonberry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "orange rowanberry",
+      "pale thornberry",
+      "pennyroyal stem",
+      "red winterberry",
+      "resting poppy",
+      "rockberry",
+      "sassafras leaf",
+      "silver iceblossom",
+      "small loganberry",
+      "snow lily",
+      "snowberries",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "tundra grass",
+      "valerian root",
+      "wingstem root",
+      "winter rose",
+      "wintercrisp apple"
+    ],
+    "uid": [
+      4560034
     ]
   }
 }

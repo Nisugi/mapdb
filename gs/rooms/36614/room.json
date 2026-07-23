@@ -1,0 +1,30 @@
+{
+  "room": {
+    "id": 36614,
+    "title": [
+      "[Skyship, Research]"
+    ],
+    "description": [
+      "Numerous tall glaes cylinders dot the area, towering over the dim, narrow passageways between them like a dense grove.  These cylinders are dyed an opaque, chalky white and each is underlit at its base by a series of orbs emitting an ethereal blue glow.  While it is difficult to precisely determine the contents at a casual glance, each cylinder appears to be completely filled with a cloudy liquid containing the silhouette of a humanoid figure."
+    ],
+    "paths": [
+      "Obvious exits: north, east, south, west"
+    ],
+    "location": false,
+    "wayto": {
+      "36611": "south",
+      "36613": "east",
+      "36615": "west",
+      "36616": "north"
+    },
+    "timeto": {
+      "36611": 0.2,
+      "36613": 0.2,
+      "36615": 0.2,
+      "36616": 0.2
+    },
+    "uid": [
+      12102054
+    ]
+  }
+}

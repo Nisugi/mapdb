@@ -1,5 +1,4 @@
 {
-  "checksum": "0ddadfb8bf946fb40b962352bb4cd2fe",
   "room": {
     "id": 11667,
     "title": [
@@ -13,15 +12,15 @@
     ],
     "location": "the Miasmal Forest",
     "wayto": {
-      "11675": "/rooms/11667/wayto/stringproc-11675.rb"
+      "11675": ";e move 'out'; if checkpaths.include?('ne'); move 'northeast'; move 'east'; end"
     },
     "timeto": {
       "11675": 0.6
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "meta:forage-sensed:day:2022-09",
+      "no forageables"
     ],
     "uid": [
       5004053

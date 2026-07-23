@@ -1,5 +1,4 @@
 {
-  "checksum": "16b40986962315942ccd4baed27d4838",
   "room": {
     "id": 17061,
     "title": [
@@ -20,15 +19,18 @@
       "17057": 0.2,
       "19879": 0.2
     },
-    "uid": [
-      683159
-    ],
     "image": "rr-wizard_guild.png",
     "image_coords": [
       402,
       157,
       463,
       213
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      683159
     ]
   }
 }

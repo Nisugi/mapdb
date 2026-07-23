@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36476,
+    "title": [
+      "[Kraken's Fall, Way of the Wise]"
+    ],
+    "description": [
+      "The way narrows through a gem-set golden arch.  Bright golden banners are draped from the walls and overhang the path, each embroidered with a detailed pattern of scrollwork.  Wall sconces holding silver candles are interspersed alongside these banners and light the way.  The floor has been assembled from a series of faded cloudy gemstones, each faintly etched with scrollwork.  Some wide stone benches are arranged before a golden velvet curtain leading inside."
+    ],
+    "paths": [
+      "Obvious paths: none"
+    ],
+    "location": "Kraken's Fall",
+    "wayto": {
+      "28915": "go golden arch",
+      "36477": "go velvet curtain"
+    },
+    "timeto": {
+      "28915": 0.2,
+      "36477": 0.2
+    },
+    "tags": [
+      "bright pink protea",
+      "lumnis donate",
+      "lumnisdonate",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      7118770
+    ]
+  }
+}

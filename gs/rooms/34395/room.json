@@ -1,5 +1,4 @@
 {
-  "checksum": "74846af26f04ef8f16e5a06449379196",
   "room": {
     "id": 34395,
     "title": [
@@ -20,15 +19,20 @@
       "34394": 0.2,
       "34396": 0.2
     },
-    "uid": [
-      18019006
-    ],
     "image": "imt-mho-icicle.png",
     "image_coords": [
       994,
       72,
       1196,
       263
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "pepperthorn root"
+    ],
+    "uid": [
+      18019006
     ]
   }
 }

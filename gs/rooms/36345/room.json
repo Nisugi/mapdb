@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36345,
+    "title": [
+      "[Meadow, Tower's View]"
+    ],
+    "description": [
+      "The mounds thin out here and the land is flat, choked with thick undergrowth.  Beneath your feet you feel large stones and debris, including arrowheads, spear tips, and shards of rusted metal.  Farther north, is another slight slope, which drops off abruptly.  From the center of the depression, rising like some phoenix not yet restored to youth, is the keep of Black Swan Castle."
+    ],
+    "paths": [
+      "Obvious paths: east, southwest"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36344": "southwest",
+      "36346": "east"
+    },
+    "timeto": {
+      "36344": 0.2,
+      "36346": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      280,
+      1000,
+      320,
+      1040
+    ],
+    "uid": [
+      55004
+    ]
+  }
+}

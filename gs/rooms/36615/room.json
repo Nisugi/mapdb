@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36615,
+    "title": [
+      "[Skyship, Research]"
+    ],
+    "description": [
+      "Pure white metal tables line the area's bulkheads around an open center.  Each table exhibits extensive, dark discoloration of varying red-black hues.  Clusters of small lanterns dangle from hooks in the ceiling, lowered so they hang just above each table to illuminate whatever work is conducted on them.  Visible grated sluices are placed evenly across the floor, marked with the same discoloration as found on the room's tables."
+    ],
+    "paths": [
+      "Obvious exits: east, south"
+    ],
+    "location": false,
+    "wayto": {
+      "36614": "east",
+      "36628": "south"
+    },
+    "timeto": {
+      "36614": 0.2,
+      "36628": 0.2
+    },
+    "uid": [
+      12102052
+    ]
+  }
+}

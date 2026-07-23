@@ -1,5 +1,4 @@
 {
-  "checksum": "2762124c31d44a65791043ffb334b11b",
   "room": {
     "id": 30816,
     "title": [
@@ -23,27 +22,27 @@
       "30815": 0.2,
       "30818": 0.2
     },
-    "tags": [
-      "meta:mapname:Kraken's Fall - Atoll",
-      "meta:mapshortname:Atoll",
-      "meta:mapcategory:Kraken's Fall",
-      "yabathilium fruit",
-      "strand of seaweed",
-      "murdroot",
-      "wavepetal blossom",
-      "meta:forage-sensed",
-      "blackened moss",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      7138001
-    ],
     "image": "kf-atoll-1652294074.jpg",
     "image_coords": [
       290,
       729,
       320,
       758
+    ],
+    "tags": [
+      "blackened moss",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:mapcategory:Kraken's Fall",
+      "meta:mapname:Kraken's Fall - Atoll",
+      "meta:mapshortname:Atoll",
+      "murdroot",
+      "strand of seaweed",
+      "wavepetal blossom",
+      "yabathilium fruit"
+    ],
+    "uid": [
+      7138001
     ]
   }
 }

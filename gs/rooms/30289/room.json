@@ -1,5 +1,4 @@
 {
-  "checksum": "12a34a5ee9ce510258a9c766d9620e79",
   "room": {
     "id": 30289,
     "title": [
@@ -14,18 +13,18 @@
     "location": "Cysaegir",
     "wayto": {
       "17132": "go ebonwood door",
-      "30717": "/rooms/30289/wayto/stringproc-30717.rb"
+      "30717": ";e true"
     },
     "timeto": {
       "17132": 0.2,
-      "30717": "/rooms/30289/timeto/stringproc-30717.rb"
+      "30717": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "mail",
+      "no forageables",
       "postoffice",
       "urchin guide postoffice",
-      "urchin-access",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       14053006

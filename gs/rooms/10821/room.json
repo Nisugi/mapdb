@@ -1,5 +1,4 @@
 {
-  "checksum": "aed82289d1415042f8716b73e7bd9df1",
   "room": {
     "id": 10821,
     "title": [
@@ -15,26 +14,26 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "10815": "/rooms/10821/wayto/stringproc-10815.rb",
-      "10817": "/rooms/10821/wayto/stringproc-10817.rb"
+      "10815": ";e loop { fput 'swim'; sleep 1; waitrt?; break if (checkpaths('west') || checkpaths('east')); }; fill_hands",
+      "10817": ";e loop { fput 'swim'; sleep 1; waitrt?; break if (checkpaths('west') || checkpaths('east')); }; fill_hands"
     },
     "timeto": {
-      "10815": 5,
-      "10817": 5
+      "10815": 5.0,
+      "10817": 5.0
     },
-    "tags": [
-      "no forageables",
-      "meta:nomagic"
-    ],
-    "uid": [
-      13032042
-    ],
     "image": "en-gyldemar-1264234799.png",
     "image_coords": [
       782,
       660,
       790,
       668
+    ],
+    "tags": [
+      "meta:nomagic",
+      "no forageables"
+    ],
+    "uid": [
+      13032042
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "c4f4c8d66f8ca6baa0fceacdb65459cb",
   "room": {
     "id": 23606,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "the catacombs",
     "wayto": {
-      "5924": "/rooms/23606/wayto/stringproc-5924.rb"
+      "5924": ";e fput 'search'; fput 'go crevice'"
     },
     "timeto": {
       "5924": 0.2
@@ -22,9 +21,9 @@
       "meta:society:Council of Light",
       "no forageables"
     ],
+    "check_location": true,
     "uid": [
       14009041
-    ],
-    "check_location": true
+    ]
   }
 }

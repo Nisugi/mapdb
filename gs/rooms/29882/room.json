@@ -1,5 +1,4 @@
 {
-  "checksum": "1797799a86573580a764af09649c7494",
   "room": {
     "id": 29882,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "snowy, arctic",
     "terrain": "coniferous",
     "wayto": {
-      "29878": "/rooms/29882/wayto/stringproc-29878.rb",
+      "29878": ";e fput 'search';waitrt?;move 'go path'",
       "29883": "southeast",
       "29884": "east"
     },
@@ -24,52 +23,52 @@
       "29883": 0.2,
       "29884": 0.2
     },
-    "tags": [
-      "tkaro root",
-      "sticks",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "red lichen",
-      "gok nut",
-      "manroot stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "wyrmwood bark",
-      "daggit root",
-      "black acorn",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "handful of pinenuts",
-      "broken twig",
-      "pine cone",
-      "pine needles",
-      "frostweed",
-      "red winterberry",
-      "tree bark",
-      "frostflower",
-      "rockberry",
-      "crowberry",
-      "lingonberry",
-      "orange rowanberry",
-      "ironfern root",
-      "twisted twig",
-      "slender twig",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01",
-      "feverfew stalk",
-      "meta:forage-sensed:day:2025-03"
-    ],
-    "uid": [
-      7503102
-    ],
     "image": "imt-Hinterwilds-1651886165.jpg",
     "image_coords": [
       681,
       1107,
       696,
       1121
+    ],
+    "tags": [
+      "angelica root",
+      "black acorn",
+      "bolmara lichen",
+      "bright red teaberry",
+      "broken twig",
+      "crowberry",
+      "daggit root",
+      "feverfew stalk",
+      "frostflower",
+      "frostweed",
+      "gok nut",
+      "handful of pinenuts",
+      "ironfern root",
+      "lingonberry",
+      "manroot stalk",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-01",
+      "orange rowanberry",
+      "pennyroyal stem",
+      "pine cone",
+      "pine needles",
+      "red lichen",
+      "red winterberry",
+      "rockberry",
+      "sassafras leaf",
+      "slender twig",
+      "sticks",
+      "sweetfern stalk",
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "wintergreen leaf",
+      "wyrmwood bark"
+    ],
+    "uid": [
+      7503102
     ]
   }
 }

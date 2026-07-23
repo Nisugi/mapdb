@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36508,
+    "title": [
+      "[Honeyed Gears, Backroom]"
+    ],
+    "description": [
+      "Cool lamplight casts gentle shadows across polished floors and pristine surfaces.  Shelves, each flawlessly aligned, display labeled containers and gear-lined cases.  Near the far wall, a smooth walnut writing desk gleams beneath perfectly stacked folios, its drawers closed flush.  The faint scent of ginger and old ink lingers like a quiet promise of precision."
+    ],
+    "paths": [
+      "Obvious exits: northwest"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "36507": "northwest"
+    },
+    "timeto": {
+      "36507": 0.2
+    },
+    "uid": [
+      8209476
+    ]
+  }
+}

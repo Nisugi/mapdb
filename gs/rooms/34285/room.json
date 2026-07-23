@@ -1,5 +1,4 @@
 {
-  "checksum": "e1679b5f1b318cdbd1ed98db8c253660",
   "room": {
     "id": 34285,
     "title": [
@@ -22,30 +21,32 @@
       "34284": 0.2,
       "34294": 0.2
     },
-    "tags": [
-      "aloeas stem",
-      "wild gooseberry",
-      "broken twig",
-      "stalk of cattail",
-      "alpine violet",
-      "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "wingstem root",
-      "bur-clover root",
-      "orchil lichen",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2024-05"
-    ],
-    "uid": [
-      13150007
-    ],
     "image": "en-zul_logoth-storm_peaks-1703220375.png",
     "image_coords": [
       280,
       673,
       300,
       693
+    ],
+    "tags": [
+      "aloeas stem",
+      "alpine violet",
+      "bolmara lichen",
+      "broken twig",
+      "bur-clover root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "murdroot",
+      "orchil lichen",
+      "stalk of cattail",
+      "sunburst blossom",
+      "wavepetal blossom",
+      "wild gooseberry",
+      "wingstem root"
+    ],
+    "uid": [
+      13150007
     ]
   }
 }

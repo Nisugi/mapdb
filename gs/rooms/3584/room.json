@@ -1,5 +1,4 @@
 {
-  "checksum": "feef5986c2a56d8d4511d4d3f67999b0",
   "room": {
     "id": 3584,
     "title": [
@@ -15,27 +14,27 @@
     "wayto": {
       "3583": "west",
       "3585": "north",
-      "3924": "/rooms/3584/wayto/stringproc-3924.rb"
+      "3924": ";e unless (move 'go door'); echo 'Waiting for the door to open... '; waitfor 'You hear a soft click from the door and it suddenly flies open.'; move 'go door'; end"
     },
     "timeto": {
       "3583": 0.2,
       "3585": 0.2,
       "3924": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      4292023
-    ],
     "image": "wl-stronghold-1264234799.png",
     "image_coords": [
       561,
       436,
       571,
       446
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "no forageables"
+    ],
+    "uid": [
+      4292023
     ]
   }
 }

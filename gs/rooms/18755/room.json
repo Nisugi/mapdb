@@ -1,5 +1,4 @@
 {
-  "checksum": "fa81520fdb7c9f81d4663fb955e5ad40",
   "room": {
     "id": 18755,
     "title": [
@@ -15,27 +14,27 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "16723": "/rooms/18755/wayto/stringproc-16723.rb",
-      "16733": "/rooms/18755/wayto/stringproc-16733.rb"
+      "16723": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'jump north side'; waitrt?",
+      "16733": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'jump south side'; waitrt?"
     },
     "timeto": {
       "16723": 10,
       "16733": 10
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      17005010
-    ],
     "image": "en-aradhul-road-1308194332.png",
     "image_coords": [
       379,
       558,
       400,
       576
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-09",
+      "no forageables"
+    ],
+    "uid": [
+      17005010
     ]
   }
 }

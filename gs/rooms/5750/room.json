@@ -1,5 +1,4 @@
 {
-  "checksum": "f3ea123e03402a0b189848bade649f5f",
   "room": {
     "id": 5750,
     "title": [
@@ -19,44 +18,44 @@
       "5751": "northwest",
       "9406": "east",
       "19788": "go archway",
-      "30712": "/rooms/5750/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "5749": 0.2,
       "5751": 0.2,
       "9406": 0.2,
-      "19788": "/rooms/5750/timeto/stringproc-19788.rb",
-      "30712": "/rooms/5750/timeto/stringproc-30712.rb"
+      "19788": ";e ((!defined?(Stats.prof) or Stats.prof == 'Cleric') ? 0.2 : nil);",
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "clericguild",
-      "pepperthorn root",
-      "flathead mushroom",
-      "soft white mushroom",
-      "ironfern root",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "genkew mushroom",
-      "blue trafel mushroom",
-      "murdroot",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "urchin guide clericguild",
-      "urchin-access",
-      "cleric guild",
-      "wingstem root",
-      "meta:forage-sensed:day:2023-02",
-      "meta:forage-sensed:night:2023-02"
-    ],
-    "uid": [
-      13006011
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       450,
       446,
       470,
       466
+    ],
+    "tags": [
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "cleric guild",
+      "clericguild",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-02",
+      "meta:forage-sensed:night:2026-03",
+      "murdroot",
+      "pepperthorn root",
+      "soft mushroom",
+      "urchin guide clericguild",
+      "urchin-access",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      13006011
     ]
   }
 }

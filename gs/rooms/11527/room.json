@@ -1,5 +1,4 @@
 {
-  "checksum": "1af126fdde1ec44749c57e381f85f79a",
   "room": {
     "id": 11527,
     "title": [
@@ -22,22 +21,22 @@
       "11526": 0.2,
       "11528": 0.2
     },
-    "tags": [
-      "murdroot",
-      "meta:forage-sensed",
-      "bolmara lichen",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      305003
-    ],
     "image": "rr-maelstrom-1619824696.png",
     "image_coords": [
       927,
       1062,
       937,
       1072
+    ],
+    "tags": [
+      "bolmara lichen",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "murdroot"
+    ],
+    "uid": [
+      305003
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "bd72be18916b9260be9d43dd072db04e",
   "room": {
     "id": 28968,
     "title": [
@@ -14,16 +13,17 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28964": "go door",
-      "30716": "/rooms/28968/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28964": 0.2,
-      "30716": "/rooms/28968/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "collectibles",
-      "urchin-access",
-      "urchin guide collectibles"
+      "no forageables",
+      "urchin guide collectibles",
+      "urchin-access"
     ],
     "uid": [
       7121019

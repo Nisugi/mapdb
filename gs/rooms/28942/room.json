@@ -1,5 +1,4 @@
 {
-  "checksum": "659c071ecbd20a7d3c69df2715cbd43c",
   "room": {
     "id": 28942,
     "title": [
@@ -14,16 +13,17 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28895": "out",
-      "30716": "/rooms/28942/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28895": 0.2,
-      "30716": "/rooms/28942/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "furrier",
-      "urchin-access",
-      "urchin guide furrier"
+      "no forageables",
+      "urchin guide furrier",
+      "urchin-access"
     ],
     "uid": [
       7118430

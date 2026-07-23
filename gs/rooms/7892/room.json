@@ -1,5 +1,4 @@
 {
-  "checksum": "a2f7f0cb25f34ab790e2760cb9b62c79",
   "room": {
     "id": 7892,
     "title": [
@@ -16,52 +15,53 @@
     "terrain": "deciduous forest",
     "wayto": {
       "7891": "northwest",
-      "24675": "/rooms/7892/wayto/stringproc-24675.rb"
+      "24675": ";e UserVars.mapdb_redforest_location = 'WL';result = nil;until result =~ /Obvious paths: northeast, southeast/;fput \"stand\" until standing?;result = dothistimeout \"go fog\", 5, /You attempt to navigate your way through the fog, but get turned around and come right back out where you started!|Obvious paths: northeast, southeast/;if result =~ /You attempt to navigate your way through the fog, but get turned around and come right back out where you started!/;sleep 0.5;waitrt?;end;end"
     },
     "timeto": {
       "7891": 0.2,
       "24675": 0.2
     },
-    "tags": [
-      "wild pink geranium",
-      "white hook mushroom",
-      "stalk of bluebells",
-      "bright red teaberry",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "bright red cranberry",
-      "wintergreen leaf",
-      "tkaro root",
-      "acantha leaf",
-      "wolifrew lichen",
-      "ephlox moss",
-      "sticks",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "broken twig",
-      "tree bark",
-      "willow twig",
-      "yew twig",
-      "oak twig",
-      "luckbloom blossom",
-      "twisted twig",
-      "slender twig",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "brostheras grass",
-      "meta:forage-sensed:night:2023-02",
-      "meta:forage-sensed:day:2025-05"
-    ],
-    "uid": [
-      2123010
-    ],
     "image": "wl-danjirland-1264234799.png",
     "image_coords": [
       1083,
       1032,
       1093,
       1042
+    ],
+    "tags": [
+      "acantha leaf",
+      "angelica root",
+      "bolmara lichen",
+      "bright red cranberry",
+      "bright red teaberry",
+      "broken twig",
+      "brostheras grass",
+      "ephlox moss",
+      "luckbloom blossom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "oak twig",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "slender twig",
+      "stalk of bluebells",
+      "sticks",
+      "sweetfern stalk",
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "white hook mushroom",
+      "wild beechnut",
+      "wild pink geranium",
+      "willow twig",
+      "wintergreen leaf",
+      "wolifrew lichen",
+      "yew twig"
+    ],
+    "uid": [
+      2123010
     ]
   }
 }

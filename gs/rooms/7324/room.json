@@ -1,5 +1,4 @@
 {
-  "checksum": "a076c863ed68a1a9befddae1657e487a",
   "room": {
     "id": 7324,
     "title": [
@@ -15,44 +14,44 @@
     "climate": "cold, damp",
     "terrain": "barren scrub",
     "wayto": {
-      "4541": "/rooms/7324/wayto/stringproc-4541.rb",
+      "4541": ";e group_members = nil; clear.reverse.each { |line| if line =~ /^Obvious (paths|exits)/; break; elsif line =~ /^([A-Za-z ,]+) followed\\.$/; group_members = $1.split(/, | and /); group_members.delete_if { |m| m =~ /^[Yy]our / }; group_members = nil if group_members.empty?; break; end }; fput 'yell jaron galarn'; sleep 1; result = nil; success = /Feeling around in the darkness, you stumble upon a low opening in the wall near the ground./; failures = /As you blindly search the area, you find something rooted to the ground|You feel around in the darkness as best you can, but find nothing./; matches = /Feeling around in the darkness, you stumble upon a low opening in the wall near the ground.|As you blindly search the area, you find something rooted to the ground|You feel around in the darkness as best you can, but find nothing./; until result =~ success; fput \"stand\" until standing?; result = dothistimeout \"search\", 5, matches; waitrt?; end; until checkpaths(\"south\"); fput 'go opening'; sleep 0.2; end; fput 'stand' until standing?; if (group_members.to_a.length > 0); echo 'Waiting for your group... To ditch them, ;send go'; wait_until { (group_members.to_a - GameObj.pcs.to_a.delete_if { |pc| not pc.status.nil? }.collect { |pc| pc.name }).empty? or clear.find { |line| line == 'go' } }; end",
       "7322": "southeast",
       "7323": "northeast"
     },
     "timeto": {
-      "4541": 15,
+      "4541": 15.0,
       "7322": 0.2,
       "7323": 0.2
     },
-    "tags": [
-      "bright red teaberry",
-      "blue whortleberry",
-      "sprig of larkspur",
-      "wild strawberry",
-      "cothinar flower",
-      "wintergreen leaf",
-      "blueberries",
-      "stalk of chicory",
-      "broken twig",
-      "small wild rose",
-      "sprig of wild lilac",
-      "wild chokecherry",
-      "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "meta:forage-sensed:night:2024-01",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      2150007
-    ],
     "image": "wl-graveyard-1264234799.png",
     "image_coords": [
       922,
       334,
       932,
       344
+    ],
+    "tags": [
+      "blue whortleberry",
+      "blueberries",
+      "bright red teaberry",
+      "broken twig",
+      "cothinar flower",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-01",
+      "sprig of larkspur",
+      "sprig of wild lilac",
+      "stalk of chicory",
+      "sunburst blossom",
+      "wild chokecherry",
+      "wild rose",
+      "wild strawberry",
+      "wingstem root",
+      "wintergreen leaf"
+    ],
+    "uid": [
+      2150007
     ]
   }
 }

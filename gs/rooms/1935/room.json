@@ -1,5 +1,4 @@
 {
-  "checksum": "dff0eb5cb932c81135870791924b59bd",
   "room": {
     "id": 1935,
     "title": [
@@ -24,18 +23,19 @@
       "33022": 0.2,
       "36144": 0.2
     },
-    "tags": [
-      "houselockers"
-    ],
-    "uid": [
-      3003030
-    ],
     "image": "ti-adventurers_rest-1486448911.png",
     "image_coords": [
       502,
       668,
       648,
       735
+    ],
+    "tags": [
+      "houselockers",
+      "no forageables"
+    ],
+    "uid": [
+      3003030
     ]
   }
 }

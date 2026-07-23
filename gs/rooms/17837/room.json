@@ -1,5 +1,4 @@
 {
-  "checksum": "b47390a3e6cdc2887c4a639cf417fe9f",
   "room": {
     "id": 17837,
     "title": [
@@ -14,25 +13,25 @@
     "location": "Ta'Illistim",
     "wayto": {
       "13350": "out",
-      "17838": "/rooms/17837/wayto/stringproc-17838.rb"
+      "17838": ";e Map[12421].wayto['14089'].call; # rogue guild proc"
     },
     "timeto": {
       "13350": 0.2,
-      "17838": "/rooms/17837/timeto/stringproc-17838.rb"
+      "17838": ";e if Stats.prof == 'Rogue'; 1.6; else; nil; end"
     },
-    "tags": [
-      "rogue guild",
-      "rogueguild"
-    ],
-    "uid": [
-      266005
-    ],
     "image": "en-Illistim_rogue_guild-1267238976.jpg",
     "image_coords": [
       453,
       382,
       492,
       420
+    ],
+    "tags": [
+      "rogue guild",
+      "rogueguild"
+    ],
+    "uid": [
+      266005
     ]
   }
 }

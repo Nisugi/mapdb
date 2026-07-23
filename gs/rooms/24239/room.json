@@ -1,5 +1,4 @@
 {
-  "checksum": "1f221fbf00c24a93eaa3f213528d763f",
   "room": {
     "id": 24239,
     "title": [
@@ -15,7 +14,7 @@
     "wayto": {
       "24236": "jump",
       "24238": "go rockslide",
-      "24240": "/rooms/24239/wayto/stringproc-24240.rb"
+      "24240": ";e echo \"Waiting for current to carry you to the new room...\";line = get until line =~ /sturdy ladder/"
     },
     "timeto": {
       "24236": 0.2,

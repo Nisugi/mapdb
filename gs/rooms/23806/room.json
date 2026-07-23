@@ -1,5 +1,4 @@
 {
-  "checksum": "5e04220a4440c6a0c2da03686ecc9afe",
   "room": {
     "id": 23806,
     "title": [
@@ -14,20 +13,20 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "286": "go out",
-      "30708": "/rooms/23806/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "286": 0.2,
-      "30708": "/rooms/23806/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "collectibles",
-      "meta:teleport:fwi",
-      "urchin-access",
-      "urchin guide collectibles",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
+      "meta:forage-sensed:day:2022-11",
+      "meta:teleport:fwi",
+      "no forageables",
+      "urchin guide collectibles",
+      "urchin-access"
     ],
     "uid": [
       5300

@@ -1,5 +1,4 @@
 {
-  "checksum": "8c262b88caf06cca9d939aff21c4933f",
   "room": {
     "id": 1889,
     "title": [
@@ -14,17 +13,18 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "1888": "west",
-      "30715": "/rooms/1889/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1888": 0.2,
-      "30715": "/rooms/1889/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "weaponshop",
-      "urchin-access",
+      "no forageables",
       "urchin guide weapons",
-      "weapons"
+      "urchin-access",
+      "weapons",
+      "weaponshop"
     ],
     "uid": [
       3003098

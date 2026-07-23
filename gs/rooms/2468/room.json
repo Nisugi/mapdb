@@ -1,5 +1,4 @@
 {
-  "checksum": "c28ac920b08f28e12942b560da79b63e",
   "room": {
     "id": 2468,
     "title": [
@@ -18,29 +17,29 @@
     "terrain": "hard, flat",
     "wayto": {
       "2467": "west",
-      "30709": "/rooms/2468/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "2467": 0.2,
-      "30709": "/rooms/2468/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "node",
-      "calmintha flower",
-      "supernode",
-      "urchin-access",
-      "meta:sign of darkness",
-      "meta:society:Council of Light"
-    ],
-    "uid": [
-      4042325
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       1026,
       1231,
       1062,
       1267
+    ],
+    "tags": [
+      "calmintha flower",
+      "meta:sign of darkness",
+      "meta:society:Council of Light",
+      "node",
+      "supernode",
+      "urchin-access"
+    ],
+    "uid": [
+      4042325
     ]
   }
 }

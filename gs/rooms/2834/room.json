@@ -1,5 +1,4 @@
 {
-  "checksum": "b5780d2c60bbf70d52a1b85bf25fd371",
   "room": {
     "id": 2834,
     "title": [
@@ -16,53 +15,53 @@
     "terrain": "mountainous",
     "wayto": {
       "2826": "east",
-      "2835": "/rooms/2834/wayto/stringproc-2835.rb"
+      "2835": ";e fput 'search'\nmove 'go snowy path'"
     },
     "timeto": {
       "2826": 0.2,
       "2835": 0.2
     },
-    "tags": [
-      "sprig of edelweiss",
-      "red winterberry",
-      "small loganberry",
-      "some angelica root",
-      "some pennyroyal stem",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "edelweiss",
-      "iceblossoms",
-      "snow lily",
-      "winter rose",
-      "arctic moss",
-      "tundra grass",
-      "golden aster",
-      "calamintha blossom",
-      "snowberries",
-      "pale thornberry",
-      "rockberry",
-      "crowberry",
-      "lingonberry",
-      "orange rowanberry",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "wingstem root",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      4563011
-    ],
     "image": "imt-pinefar-1264234799.png",
     "image_coords": [
       456,
       1384,
       468,
       1396
+    ],
+    "tags": [
+      "angelica root",
+      "arctic moss",
+      "bolmara lichen",
+      "calamintha blossom",
+      "crowberry",
+      "edelweiss",
+      "golden aster",
+      "iceblossoms",
+      "ironfern root",
+      "lingonberry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "orange rowanberry",
+      "pale thornberry",
+      "pennyroyal stem",
+      "red winterberry",
+      "rockberry",
+      "sassafras leaf",
+      "small loganberry",
+      "snow lily",
+      "snowberries",
+      "some angelica root",
+      "some pennyroyal stem",
+      "sprig of edelweiss",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "tundra grass",
+      "valerian root",
+      "wingstem root",
+      "winter rose"
+    ],
+    "uid": [
+      4563011
     ]
   }
 }

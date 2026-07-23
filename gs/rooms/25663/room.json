@@ -1,5 +1,4 @@
 {
-  "checksum": "226301a02efa98677462d8af7bb5e95a",
   "room": {
     "id": 25663,
     "title": [
@@ -14,9 +13,9 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "25657": "out",
-      "25664": "/rooms/25663/wayto/stringproc-25664.rb",
-      "25665": "/rooms/25663/wayto/stringproc-25665.rb",
-      "25666": "/rooms/25663/wayto/stringproc-25666.rb"
+      "25664": ";e table = \"oval\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "25665": ";e table = \"carved\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "25666": ";e table = \"drum-shaped\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"
     },
     "timeto": {
       "25657": 0.2,

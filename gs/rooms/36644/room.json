@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36644,
+    "title": [
+      "[Brayern Isle, Jungle Path]"
+    ],
+    "description": [
+      "Running alongside the volcanic mountain is a dense, canopy-covered path.  The adjacent vines and plants periodically tremble with creatures passing through but otherwise unseen, and the nearby warbling of birds and scrambling of small animals is ever-present.  Thick vines reach down from above and encroach from the sides, as if they were trying to grab at passersby.  The trail slopes at a severe angle; the path north leads up the mountain and the way south heads back toward the beach."
+    ],
+    "paths": [
+      "Obvious paths: north, south"
+    ],
+    "location": "Brayern Isle",
+    "wayto": {
+      "36642": "south",
+      "36645": "north"
+    },
+    "timeto": {
+      "36642": 0.2,
+      "36645": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      937,
+      1270,
+      955,
+      1289
+    ],
+    "uid": [
+      8400218
+    ]
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "checksum": "dfd3f61806eade8bc38b7df670656450",
   "room": {
     "id": 10379,
     "title": [
@@ -18,18 +17,19 @@
     "wayto": {
       "3522": "out",
       "10380": "east",
-      "30713": "/rooms/10379/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3522": 0.2,
       "10380": 0.2,
-      "30713": "/rooms/10379/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "no forageables",
+      "pawn",
       "pawnshop",
       "urchin guide pawn",
-      "urchin-access",
-      "pawn"
+      "urchin-access"
     ],
     "uid": [
       14103175

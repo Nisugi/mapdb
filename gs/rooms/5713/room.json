@@ -1,5 +1,4 @@
 {
-  "checksum": "ae1b1dd5c52054fc68ff8710c4711e2e",
   "room": {
     "id": 5713,
     "title": [
@@ -20,7 +19,7 @@
       "5715": "southwest",
       "5716": "go arch",
       "13243": "climb staircase",
-      "30710": "/rooms/5713/wayto/stringproc-30710.rb"
+      "30710": ";e true"
     },
     "timeto": {
       "1455": 0.2,
@@ -28,14 +27,14 @@
       "5715": 0.2,
       "5716": 0.2,
       "13243": 0.2,
-      "30710": "/rooms/5713/timeto/stringproc-30710.rb"
+      "30710": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "urchin-access",
-      "urchin guide inn",
       "inn",
       "meta:forage-sensed",
-      "no forageables"
+      "no forageables",
+      "urchin guide inn",
+      "urchin-access"
     ],
     "uid": [
       4740019

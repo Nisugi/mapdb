@@ -1,5 +1,4 @@
 {
-  "checksum": "42c1276e1b4df7a6d6d5b21ac0eecc12",
   "room": {
     "id": 9561,
     "title": [
@@ -24,19 +23,24 @@
       "16920": 0.2,
       "16922": 0.2
     },
-    "tags": [
-      "wizard alchemy administrator",
-      "wizard guild administrator"
-    ],
-    "uid": [
-      688012
-    ],
     "image": "en-zul-wizard_guild-1648064027.png",
     "image_coords": [
       153,
       533,
       214,
       593
+    ],
+    "tags": [
+      "daggerstalk mushroom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "pepperthorn root",
+      "trafel mushroom",
+      "wizard alchemy administrator",
+      "wizard guild administrator"
+    ],
+    "uid": [
+      688012
     ]
   }
 }

@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36566,
+    "title": [
+      "[Skyship, Core]"
+    ],
+    "description": [
+      "The path widens and rises slightly as the floor transitions from a solid metal walkway to a firm grating.  Below, broad clockwerke machines vibrate, whirr, and emit constant streams of smoke and steam.  Above, metal pipes run the length of the ceiling in all directions, attached via a series of bright, greasy metal chains."
+    ],
+    "paths": [
+      "Obvious exits: north, southeast"
+    ],
+    "location": false,
+    "wayto": {
+      "36565": "southeast",
+      "36567": "north"
+    },
+    "timeto": {
+      "36565": 0.2,
+      "36567": 0.2
+    },
+    "uid": [
+      12102113
+    ]
+  }
+}
