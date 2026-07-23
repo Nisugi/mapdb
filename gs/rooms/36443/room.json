@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36443,
+    "title": [
+      "[Dungeon, Chamber]"
+    ],
+    "description": [
+      "This small chamber is cool and damp.  There are no furnishings in sight and there is barely any light to see by.  The gossamer drape of a neglected spiderweb hangs down from an unlit torch on the wall, thick and heavy with old dust and grime."
+    ],
+    "paths": [
+      "Obvious exits: north"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36442": "north"
+    },
+    "timeto": {
+      "36442": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      2160,
+      760,
+      2200,
+      800
+    ],
+    "uid": [
+      58055
+    ]
+  }
+}

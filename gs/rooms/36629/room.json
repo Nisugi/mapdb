@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36629,
+    "title": [
+      "[Arctius' General Store]"
+    ],
+    "description": [
+      "Refurbished driftwood walls rise from a varnished dark oak floor.  Just above a miniature Solhaven Bay model hangs a curl-edged vellum wall map, and a domed white stucco ceiling completes the picture.  A Vornavian silk-covered table stands in the middle of the room."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "Solhaven",
+    "wayto": {
+      "9012": "out"
+    },
+    "timeto": {
+      "9012": 0.2
+    },
+    "uid": [
+      636001
+    ]
+  }
+}

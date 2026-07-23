@@ -1,5 +1,4 @@
 {
-  "checksum": "4bec3d3b953bc28b8edac5104967b242",
   "room": {
     "id": 5922,
     "title": [
@@ -16,36 +15,37 @@
     "wayto": {
       "5921": "south",
       "5923": "north",
-      "10476": "/rooms/5922/wayto/stringproc-10476.rb"
+      "10476": ";e move 'go niche';while Room.current.id == 5922;line = get?;if line.nil?;sleep 0.2;elsif line == 'Your eyes have recovered from the poor light within the niche.';move 'go niche';break;end;end;"
     },
     "timeto": {
       "5921": 0.2,
       "5923": 0.2,
       "10476": 0.2
     },
-    "tags": [
-      "some bolmara lichen",
-      "blue trafel mushroom",
-      "ironfern root",
-      "white hook mushroom",
-      "soft white mushroom",
-      "withered black mushroom",
-      "black hook mushroom",
-      "murdroot",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      14009014
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       261,
       960,
       269,
       969
+    ],
+    "tags": [
+      "black mushroom",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-01",
+      "murdroot",
+      "red mushroom",
+      "soft mushroom",
+      "white hook mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      14009014
     ]
   }
 }

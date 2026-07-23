@@ -1,5 +1,4 @@
 {
-  "checksum": "80b7680bf46e46e66749d532845a8920",
   "room": {
     "id": 26923,
     "title": [
@@ -24,22 +23,20 @@
       "33155": 0.2,
       "36006": 0.2
     },
-    "tags": [
-      "peer door =~ /White Haven|Helden Hall/",
-      "golden hook mushroom",
-      "broken twig",
-      "wild chokecherry",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      7121206
-    ],
     "image": "kf-inking_den-1615857364.png",
     "image_coords": [
       715,
       317,
       743,
       342
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables",
+      "peer door =~ /White Haven|Helden Hall/"
+    ],
+    "uid": [
+      7121206
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "226ad4ea8ec4d756db44390270bfce8d",
   "room": {
     "id": 26090,
     "title": [
@@ -16,24 +15,24 @@
     "terrain": "none",
     "wayto": {
       "9438": "go jagged crack",
-      "26089": "/rooms/26090/wayto/stringproc-26089.rb"
+      "26089": ";e move 'climb upward stairs'; waitrt?"
     },
     "timeto": {
       "9438": 0.2,
-      "26089": 24
+      "26089": 24.0
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      679001
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       1064,
       457,
       1082,
       475
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      679001
     ]
   }
 }

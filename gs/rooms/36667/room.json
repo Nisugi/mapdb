@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36667,
+    "title": [
+      "[Nyessem, Room of Observation]"
+    ],
+    "description": [
+      "A circular platform rises out of the room's center, under a silvery blue spotlight.  Placed on this platform is a metal viewing glass glowing with a pearlescent light.  A wood and stone sign covered in metal letters is set next to the glass, so it cannot be missed by those approaching.  Opposite the platform, a perpendicular and narrow ascent slopes up."
+    ],
+    "paths": [
+      "Obvious exits: south, northwest"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36666": "south",
+      "36668": "northwest",
+      "36689": "go ascent"
+    },
+    "timeto": {
+      "36666": 0.2,
+      "36668": 0.2,
+      "36689": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      1020,
+      514,
+      1038,
+      530
+    ],
+    "uid": [
+      8400016
+    ]
+  }
+}

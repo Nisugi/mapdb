@@ -1,5 +1,4 @@
 {
-  "checksum": "f96bc7e3e7a6896723b886b6f6b266b6",
   "room": {
     "id": 6997,
     "title": [
@@ -16,35 +15,37 @@
     "climate": "cold, dry",
     "terrain": "rough",
     "wayto": {
-      "6998": "/rooms/6997/wayto/stringproc-6998.rb",
+      "6998": ";e bridgedown = false; until bridgedown; if ['Halfling','Dwarf','Burghal Gnome','Forest Gnome'].include?(Stats.race); fput 'jump'; else; fput 'pull rope'; end; bridgedown = matchtimeout(0.25, /give it a good yank!|since it is underneath|what were you referring to?|that was fun./i); unless standing?; fput 'stand'; waitrt?; end; waitrt?; end; move 'go drawbridge'; $go2_restart = true if Room.current.id != 6998",
       "34516": "southeast"
     },
     "timeto": {
       "6998": 5.2,
       "34516": 0.2
     },
-    "tags": [
-      "stalk of chicory",
-      "heath aster",
-      "sprig of larkspur",
-      "bright red teaberry",
-      "wintergreen leaf",
-      "broken twig",
-      "moonlight cactus-bloom",
-      "ironfern root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      45103
-    ],
     "image": "wl-darkstone-1717380773.png",
     "image_coords": [
       160,
       225,
       169,
       233
+    ],
+    "tags": [
+      "bright red teaberry",
+      "broken twig",
+      "handful of currants",
+      "heath aster",
+      "ironfern root",
+      "juniper berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-01",
+      "moonlight cactus-bloom",
+      "sprig of larkspur",
+      "stalk of chicory",
+      "wintergreen leaf"
+    ],
+    "uid": [
+      45103
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "8401ab161344216b340c09d1054777c3",
   "room": {
     "id": 28799,
     "title": [
@@ -18,15 +17,20 @@
     "timeto": {
       "28798": 0.2
     },
-    "uid": [
-      3213030
-    ],
     "image": "imt-Vardar_Hollow_Map-51200827a.png",
     "image_coords": [
       1199,
       332,
       1264,
       401
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      3213030
     ]
   }
 }

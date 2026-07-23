@@ -1,5 +1,4 @@
 {
-  "checksum": "bdcfa8b32542c6b7b2de158ad5a834b2",
   "room": {
     "id": 27849,
     "title": [
@@ -18,18 +17,19 @@
     "timeto": {
       "27847": 0.2
     },
-    "tags": [
-      "meta:nomagic"
-    ],
-    "uid": [
-      18060003
-    ],
     "image": "wl-sphere_and_scythe-1554245616.png",
     "image_coords": [
       158,
       215,
       295,
       283
+    ],
+    "tags": [
+      "meta:nomagic",
+      "no forageables"
+    ],
+    "uid": [
+      18060003
     ]
   }
 }

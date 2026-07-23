@@ -1,5 +1,4 @@
 {
-  "checksum": "bcc09e84a30d8f6295dfdd9cc43442bd",
   "room": {
     "id": 23197,
     "title": [
@@ -25,16 +24,16 @@
       "36137": 0.2
     },
     "tags": [
-      "agave heart",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      5001053
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
     ],
     "unique_loot": [
       "ivory silk curtain",
       "black curtain with the sigil of Arcane Masters"
+    ],
+    "uid": [
+      5001053
     ]
   }
 }

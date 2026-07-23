@@ -1,5 +1,4 @@
 {
-  "checksum": "f7c1fdab635ee6d9dc5b12a563557d0c",
   "room": {
     "id": 12382,
     "title": [
@@ -17,26 +16,26 @@
     "terrain": "hard, flat",
     "wayto": {
       "1988": "go path",
-      "12383": "/rooms/12382/wayto/stringproc-12383.rb"
+      "12383": ";e empty_hands; move 'climb rope'; fill_hands"
     },
     "timeto": {
       "1988": 0.2,
       "12383": 0.6
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      3008010
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       203,
       180,
       239,
       216
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "no forageables"
+    ],
+    "uid": [
+      3008010
     ]
   }
 }

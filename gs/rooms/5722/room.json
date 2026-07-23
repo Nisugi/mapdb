@@ -1,5 +1,4 @@
 {
-  "checksum": "f41f894a6f67ecd32464c5c455c00412",
   "room": {
     "id": 5722,
     "title": [
@@ -17,29 +16,29 @@
     "wayto": {
       "1446": "out",
       "5723": "go door",
-      "30710": "/rooms/5722/wayto/stringproc-30710.rb"
+      "30710": ";e true"
     },
     "timeto": {
       "1446": 0.2,
       "5723": 0.2,
-      "30710": "/rooms/5722/timeto/stringproc-30710.rb"
+      "30710": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "herbalist",
-      "urchin-access",
-      "urchin guide herbalist",
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      4740011
-    ],
     "image": "vo-solhaven-1675635404.png",
     "image_coords": [
       1207,
       468,
       1207,
       470
+    ],
+    "tags": [
+      "herbalist",
+      "meta:forage-sensed",
+      "no forageables",
+      "urchin guide herbalist",
+      "urchin-access"
+    ],
+    "uid": [
+      4740011
     ]
   }
 }

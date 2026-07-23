@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36383,
+    "title": [
+      "[Black Swan Castle, Ramparts]"
+    ],
+    "description": [
+      "You stand along the top of the wall here, treading very tentatively since this spot, directly over the drawbridge and portcullis, seems to have incurred the most damage from without.  The remaining path is only a single paving stone wide in spots, and feels likely to give way under the slightest strain.  Through gaps in the wood and stones, you can see the moat swirling beneath."
+    ],
+    "paths": [
+      "Obvious paths: east, west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36382": "east",
+      "36384": "west"
+    },
+    "timeto": {
+      "36382": 0.2,
+      "36384": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      440,
+      680,
+      480,
+      720
+    ],
+    "uid": [
+      55056
+    ]
+  }
+}

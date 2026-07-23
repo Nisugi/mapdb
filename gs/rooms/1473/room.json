@@ -1,5 +1,4 @@
 {
-  "checksum": "dc7ec454f8988aa7b7841456483a094b",
   "room": {
     "id": 1473,
     "title": [
@@ -21,7 +20,7 @@
       "1475": "south",
       "1476": "west",
       "13054": "go shop",
-      "30710": "/rooms/1473/wayto/stringproc-30710.rb"
+      "30710": ";e true"
     },
     "timeto": {
       "1438": 0.2,
@@ -30,22 +29,22 @@
       "1475": 0.2,
       "1476": 0.2,
       "13054": 0.2,
-      "30710": "/rooms/1473/timeto/stringproc-30710.rb"
+      "30710": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access",
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      4209038
-    ],
     "image": "vo-solhaven-1675635404.png",
     "image_coords": [
       880,
       639,
       904,
       663
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables",
+      "urchin-access"
+    ],
+    "uid": [
+      4209038
     ]
   }
 }

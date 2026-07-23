@@ -1,5 +1,4 @@
 {
-  "checksum": "d61de650f249bc4f8f27c6f34c821a3a",
   "room": {
     "id": 4687,
     "title": [
@@ -18,7 +17,7 @@
       "4689": "south",
       "4690": "southwest",
       "4691": "climb stairway",
-      "30717": "/rooms/4687/wayto/stringproc-30717.rb"
+      "30717": ";e true"
     },
     "timeto": {
       "4639": 0.2,
@@ -26,24 +25,24 @@
       "4689": 0.2,
       "4690": 0.2,
       "4691": 0.2,
-      "30717": "/rooms/4687/timeto/stringproc-30717.rb"
+      "30717": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "urchin-access",
-      "urchin guide inn",
-      "inn"
-    ],
-    "uid": [
-      14051028
-    ],
     "image": "en-cysaegir-1679641246.png",
     "image_coords": [
       85,
       305,
       108,
       328
+    ],
+    "tags": [
+      "inn",
+      "meta:forage-sensed",
+      "no forageables",
+      "urchin guide inn",
+      "urchin-access"
+    ],
+    "uid": [
+      14051028
     ]
   }
 }

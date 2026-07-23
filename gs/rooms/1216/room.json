@@ -1,5 +1,4 @@
 {
-  "checksum": "7dd4bf7089fe797a7a71e84e2f9b5b12",
   "room": {
     "id": 1216,
     "title": [
@@ -16,54 +15,55 @@
     "terrain": "deciduous forest",
     "wayto": {
       "1215": "northwest",
-      "1217": "/rooms/1216/wayto/stringproc-1217.rb",
+      "1217": ";e 10.times { result = dothistimeout 'search', 5, /don't find anything|discover a small footpath|Round ?time/; waitrt?; break if result =~ /discover a small footpath/ }; move 'go footpath'",
       "7890": "east"
     },
     "timeto": {
       "1215": 0.2,
-      "1217": 20,
+      "1217": 20.0,
       "7890": 0.2
     },
-    "tags": [
-      "wild pink geranium",
-      "acantha leaf",
-      "wolifrew lichen",
-      "ephlox moss",
-      "tkaro root",
-      "sticks",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "white hook mushroom",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "broken twig",
-      "stalk of bluebells",
-      "bright red cranberry",
-      "tree bark",
-      "willow twig",
-      "yew twig",
-      "oak twig",
-      "luckbloom blossom",
-      "twisted twig",
-      "slender twig",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "brostheras grass",
-      "meta:forage-sensed:night:2023-02",
-      "meta:forage-sensed:day:2025-05"
-    ],
-    "uid": [
-      2123007
-    ],
     "image": "wl-danjirland-1264234799.png",
     "image_coords": [
       999,
       980,
       1009,
       990
+    ],
+    "tags": [
+      "acantha leaf",
+      "angelica root",
+      "bolmara lichen",
+      "bright red cranberry",
+      "bright red teaberry",
+      "broken twig",
+      "brostheras grass",
+      "ephlox moss",
+      "luckbloom blossom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "oak twig",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "slender twig",
+      "stalk of bluebells",
+      "sticks",
+      "sweetfern stalk",
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "white hook mushroom",
+      "wild beechnut",
+      "wild pink geranium",
+      "willow twig",
+      "wintergreen leaf",
+      "wolifrew lichen",
+      "yew twig"
+    ],
+    "uid": [
+      2123007
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "8da2b4da733ae8a4e890b39c39ad6822",
   "room": {
     "id": 8671,
     "title": [
@@ -15,28 +14,29 @@
     "wayto": {
       "1195": "north",
       "8672": "go stairs",
-      "30708": "/rooms/8671/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "1195": 0.2,
       "8672": 0.2,
-      "30708": "/rooms/8671/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "node",
-      "inn",
-      "urchin-access",
-      "urchin guide inn"
-    ],
-    "uid": [
-      1019
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       201,
       354,
       231,
       384
+    ],
+    "tags": [
+      "inn",
+      "no forageables",
+      "node",
+      "urchin guide inn",
+      "urchin-access"
+    ],
+    "uid": [
+      1019
     ]
   }
 }

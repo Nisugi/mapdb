@@ -1,0 +1,46 @@
+{
+  "room": {
+    "id": 36456,
+    "title": [
+      "[Field, Exterior]"
+    ],
+    "description": [
+      "Wiry shrubs and skinny reeds grow along a narrow, swift spring to the west.  A deep crevice to the south and west appears to be its source, and makes further travel in those directions impossible.  From this angle, you can see the round tower above the stone walls of the fortress, scarred and pitted from relentless assaults, and the rusted, half-lowered drawbridge, open as if frozen in one last cry of agony from the throat of the dying Black Swan."
+    ],
+    "paths": [
+      "Obvious paths: north, east"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36454": "east",
+      "36455": "north",
+      "36460": "go moat"
+    },
+    "timeto": {
+      "36454": 0.2,
+      "36455": 0.2,
+      "36460": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      40,
+      840,
+      80,
+      880
+    ],
+    "tags": [
+      "fennel bulb",
+      "golden buttercup",
+      "handful of raspberries",
+      "small flower",
+      "small violet",
+      "some monkey grass",
+      "some sovyn clove",
+      "spearmint leaf",
+      "sprig of lavender",
+      "wild carrot",
+      "wild pansy blossom",
+      "wild strawberry"
+    ]
+  }
+}

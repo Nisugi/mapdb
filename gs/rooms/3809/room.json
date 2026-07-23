@@ -1,5 +1,4 @@
 {
-  "checksum": "11ce439c44c9c3364d757704b1bab8cf",
   "room": {
     "id": 3809,
     "title": [
@@ -17,22 +16,22 @@
       "8858": "north",
       "8859": "west",
       "8861": "go entrance",
-      "30708": "/rooms/3809/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "271": 0.2,
       "8858": 0.2,
       "8859": 0.2,
       "8861": 0.2,
-      "30708": "/rooms/3809/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "advguard2",
-      "urchin-access",
-      "urchin guide helgas",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
+      "meta:forage-sensed:day:2022-11",
+      "no forageables",
+      "urchin guide helgas",
+      "urchin-access"
     ],
     "uid": [
       4101

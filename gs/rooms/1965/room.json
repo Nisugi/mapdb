@@ -1,5 +1,4 @@
 {
-  "checksum": "52fe5335b972292b3d502aae3baa55a8",
   "room": {
     "id": 1965,
     "title": [
@@ -18,31 +17,31 @@
     "wayto": {
       "1964": "northeast",
       "1966": "go booth",
-      "2260": "/rooms/1965/wayto/stringproc-2260.rb",
-      "30715": "/rooms/1965/wayto/stringproc-30715.rb"
+      "2260": ";e unless move 'go departing ferryboat'; echo 'Waiting for ferryboat...'; waitfor 'Some dockworkers prepare a ferryboat for departure into the mine.'; move 'go departing ferryboat'; end",
+      "30715": ";e true"
     },
     "timeto": {
       "1964": 0.2,
       "1966": 0.2,
-      "2260": 90,
-      "30715": "/rooms/1965/timeto/stringproc-30715.rb"
+      "2260": 40.0,
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access",
-      "urchin guide ferry",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      3001006
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       857,
       1045,
       893,
       1081
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "no forageables",
+      "urchin guide ferry",
+      "urchin-access"
+    ],
+    "uid": [
+      3001006
     ]
   }
 }

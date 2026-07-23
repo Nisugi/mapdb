@@ -1,5 +1,4 @@
 {
-  "checksum": "f022bacf1ffb1c5e9983996d6af38b3c",
   "room": {
     "id": 22004,
     "title": [
@@ -17,24 +16,24 @@
       "18189": "north"
     },
     "timeto": {
-      "3685": "/rooms/22004/timeto/stringproc-3685.rb",
+      "3685": ";e Society.rank == 26 ? 0.2 : nil",
       "18189": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "meta:society:Order of Voln"
-    ],
-    "uid": [
-      312026
-    ],
     "image": "society-voln-1686351593.png",
     "image_coords": [
       304,
       409,
       317,
       421
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-11",
+      "meta:society:Order of Voln",
+      "no forageables"
+    ],
+    "uid": [
+      312026
     ]
   }
 }

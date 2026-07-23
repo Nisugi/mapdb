@@ -1,5 +1,4 @@
 {
-  "checksum": "1311ba91f0c50d280d4bb97e1d74a006",
   "room": {
     "id": 23554,
     "title": [
@@ -13,21 +12,26 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "23553": "/rooms/23554/wayto/stringproc-23553.rb"
+      "23553": ";e room = Room.current.id;fput 'go opening'; if ( room == Room.current.id ); fput 'close locker';move 'go opening'; end"
     },
     "timeto": {
       "23553": 0.2
     },
-    "tags": [
-      "bhalocker",
-      "meta:locker"
-    ],
     "image": "wl-beacon_hall.png",
     "image_coords": [
       273,
       74,
       313,
       112
+    ],
+    "tags": [
+      "bhalocker",
+      "meta:che:Beacon Hall Archive",
+      "meta:che:beacon_hall:locker",
+      "meta:locker"
+    ],
+    "uid": [
+      54305
     ]
   }
 }

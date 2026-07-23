@@ -1,5 +1,4 @@
 {
-  "checksum": "3ae71f45411d14568e0a1d9566c5e50d",
   "room": {
     "id": 17665,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "11433": "/rooms/17665/wayto/stringproc-11433.rb"
+      "11433": ";e wait_while{Map.current.id == 17665};$go2_restart=true;"
     },
     "timeto": {
       "11433": 30

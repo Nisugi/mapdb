@@ -1,5 +1,4 @@
 {
-  "checksum": "fe1b242919d55daa2907c56eefe81667",
   "room": {
     "id": 2795,
     "title": [
@@ -15,62 +14,62 @@
     "climate": "snowy, arctic",
     "terrain": "mountainous",
     "wayto": {
-      "2768": "/rooms/2795/wayto/stringproc-2768.rb",
+      "2768": ";e move 'climb rocks'",
       "2807": "west"
     },
     "timeto": {
       "2768": 0.2,
       "2807": 0.2
     },
-    "tags": [
-      "calamintha blossom",
-      "sprig of edelweiss",
-      "some angelica root",
-      "some pennyroyal stem",
-      "handful of snowberries",
-      "winter rose",
-      "some tundra grass",
-      "orange rowanberry",
-      "some valerian root",
-      "small loganberry",
-      "soft orange iceblossom",
-      "fiery red iceblossom",
-      "soft yellow iceblossom",
-      "pink iceblossom",
-      "ice blue iceblossom",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "edelweiss",
-      "iceblossoms",
-      "snow lily",
-      "arctic moss",
-      "tundra grass",
-      "golden aster",
-      "snowberries",
-      "pale thornberry",
-      "red winterberry",
-      "rockberry",
-      "crowberry",
-      "lingonberry",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "wingstem root",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      4563034
-    ],
     "image": "imt-pinefar-1264234799.png",
     "image_coords": [
       490,
       1084,
       500,
       1094
+    ],
+    "tags": [
+      "angelica root",
+      "arctic moss",
+      "bolmara lichen",
+      "calamintha blossom",
+      "crowberry",
+      "edelweiss",
+      "fiery red iceblossom",
+      "golden aster",
+      "handful of snowberries",
+      "ice blue iceblossom",
+      "iceblossoms",
+      "ironfern root",
+      "lingonberry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "orange rowanberry",
+      "pale thornberry",
+      "pennyroyal stem",
+      "pink iceblossom",
+      "red winterberry",
+      "rockberry",
+      "sassafras leaf",
+      "small loganberry",
+      "snow lily",
+      "snowberries",
+      "soft orange iceblossom",
+      "soft yellow iceblossom",
+      "some angelica root",
+      "some pennyroyal stem",
+      "some tundra grass",
+      "some valerian root",
+      "sprig of edelweiss",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "tundra grass",
+      "valerian root",
+      "wingstem root",
+      "winter rose"
+    ],
+    "uid": [
+      4563034
     ]
   }
 }

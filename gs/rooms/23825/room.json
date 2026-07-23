@@ -1,5 +1,4 @@
 {
-  "checksum": "df494f22183ee86e9dd706c286cca107",
   "room": {
     "id": 23825,
     "title": [
@@ -14,27 +13,27 @@
     "location": "Cysaegir",
     "wayto": {
       "4644": "go out",
-      "30717": "/rooms/23825/wayto/stringproc-30717.rb"
+      "30717": ";e true"
     },
     "timeto": {
       "4644": 0.2,
-      "30717": "/rooms/23825/timeto/stringproc-30717.rb"
+      "30717": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "collectibles",
-      "urchin-access",
-      "urchin guide collectibles",
-      "no forageables"
-    ],
-    "uid": [
-      14051070
-    ],
     "image": "en-cysaegir-1679641246.png",
     "image_coords": [
       469,
       281,
       494,
       304
+    ],
+    "tags": [
+      "collectibles",
+      "no forageables",
+      "urchin guide collectibles",
+      "urchin-access"
+    ],
+    "uid": [
+      14051070
     ]
   }
 }

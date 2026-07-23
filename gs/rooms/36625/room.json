@@ -1,0 +1,28 @@
+{
+  "room": {
+    "id": 36625,
+    "title": [
+      "[Medulis's Magic Shoppe]"
+    ],
+    "description": [
+      "A pair of wooden snowshoes hangs on one of the pale oak walls, and an oak beam ceiling rises overhead.  A polar bear rug sits in one corner of a varnished oak floor.  There is some hammered copper display hooks on one side of the shop and a vine-carved mahogany table on the other."
+    ],
+    "paths": [
+      "Obvious exits: north, east, out"
+    ],
+    "location": "Icemule Trace",
+    "wayto": {
+      "2314": "out",
+      "36626": "north",
+      "36627": "east"
+    },
+    "timeto": {
+      "2314": 0.2,
+      "36626": 0.2,
+      "36627": 0.2
+    },
+    "uid": [
+      636209
+    ]
+  }
+}

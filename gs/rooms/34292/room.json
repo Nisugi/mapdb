@@ -1,5 +1,4 @@
 {
-  "checksum": "0d16fab31f87fa550225dcdfc0a8c509",
   "room": {
     "id": 34292,
     "title": [
@@ -17,55 +16,57 @@
     "wayto": {
       "34291": "down",
       "34293": "climb ledge",
-      "34313": "/rooms/34292/wayto/stringproc-34313.rb"
+      "34313": ";e fput 'search'; waitrt?; move 'go gap'"
     },
     "timeto": {
       "34291": 0.2,
       "34293": 0.2,
       "34313": 3.2
     },
-    "tags": [
-      "acantha leaf",
-      "woth flower",
-      "calamia fruit",
-      "haphip root",
-      "sticks",
-      "trollear mushroom",
-      "soft white mushroom",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "genkew mushroom",
-      "blue trafel mushroom",
-      "broken twig",
-      "stalk of bluebells",
-      "wild chokecherry",
-      "bright red cranberry",
-      "alpine violet",
-      "tree bark",
-      "willow twig",
-      "yew twig",
-      "luckbloom blossom",
-      "murdroot",
-      "nightbloom blossom",
-      "twisted twig",
-      "slender twig",
-      "bolmara lichen",
-      "brostheras grass",
-      "cabbage rose",
-      "virescent rose",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2024-05"
-    ],
-    "uid": [
-      13150204
-    ],
     "image": "en-zul_logoth-storm_peaks-1703220375.png",
     "image_coords": [
       434,
       60,
       451,
       76
+    ],
+    "tags": [
+      "acantha leaf",
+      "alpine violet",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "bright red cranberry",
+      "broken twig",
+      "brostheras grass",
+      "cabbage rose",
+      "calamia fruit",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "haphip root",
+      "luckbloom blossom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "murdroot",
+      "nightbloom blossom",
+      "slender twig",
+      "soft mushroom",
+      "stalk of bluebells",
+      "sticks",
+      "striped heart mushroom",
+      "tree bark",
+      "trollear mushroom",
+      "twisted twig",
+      "virescent rose",
+      "wild chokecherry",
+      "willow twig",
+      "withered mushroom",
+      "woth flower",
+      "yew twig"
+    ],
+    "uid": [
+      13150204
     ]
   }
 }

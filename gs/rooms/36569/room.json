@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36569,
+    "title": [
+      "[Skyship, The Cells]"
+    ],
+    "description": [
+      "A thin pool of fetid water fills a small recession that runs the edges of the room, fed by a series of leather tubes attached to bladders that hang from the ceiling.  Humanoid skeletal remains lay face-down alongside the pool, while further remains have been pushed into the room's center.  Flies swirl about these remains, which have long succumbed to dark blue-green rot and give off a vile, rank odor that fills the area.  A series of void black banners painted with silver-white runes hang on the bulkhead"
+    ],
+    "paths": [
+      "Obvious exits: northeast, south"
+    ],
+    "location": false,
+    "wayto": {
+      "36570": "northeast",
+      "36574": "south"
+    },
+    "timeto": {
+      "36570": 0.2,
+      "36574": 0.2
+    },
+    "uid": [
+      12102044
+    ]
+  }
+}

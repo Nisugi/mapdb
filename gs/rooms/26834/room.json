@@ -1,5 +1,4 @@
 {
-  "checksum": "566d12735fd377ab4b5186da1270f829",
   "room": {
     "id": 26834,
     "title": [
@@ -11,26 +10,28 @@
     "paths": [
       "Obvious exits: north, west"
     ],
-    "location": "Journey's End, inside the elven city of Ta'Illistim",
+    "location": "Solhaven",
     "wayto": {
       "25985": "go beechwood door",
       "25991": "north",
-      "26833": "west"
+      "26833": "west",
+      "36470": "go staircase"
     },
     "timeto": {
       "25985": 0.2,
       "25991": 0.2,
-      "26833": 0.2
+      "26833": 0.2,
+      "36470": 0.2
     },
+    "image": "Journeys_End.jpg",
+    "image_coords": [
+      395,
+      389,
+      606,
+      541
+    ],
     "tags": [
       "private property"
-    ],
-    "image": "JourneysEnd.jpg",
-    "image_coords": [
-      342,
-      597,
-      463,
-      654
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "b0a6aa7d5abaed370bb0d26115ca7295",
   "room": {
     "id": 18178,
     "title": [
@@ -16,28 +15,31 @@
     "terrain": "mountainous",
     "wayto": {
       "18177": "east",
-      "18179": "/rooms/18178/wayto/stringproc-18179.rb"
+      "18179": ";e refill_hands = false;\ndone = false;\nstairs_look = dothistimeout \"look staircase\",3,/you could easily scramble up them to the ledge above.|It really doesn't make much sense./\nif stairs_look =~ /you could easily scramble up them to the ledge above/\n  done = true;\nend;\nrunes = {\"O\"=>\"R\", \"R\"=>\"S\", \"Z\"=>\"Z\", \"S\"=>\"O\", \"E\"=>\"E\"};\nresult = stairs = under = rune = nil;\nlook = true;\nrefill_hands = false;\nwhile done == false;\n  (refill_hands = true;empty_hands;) if GameObj.right_hand.id and GameObj.left_hand.id;\n  if look == true;\n    result = dothistimeout \"look runes\", 3, /There are five protrusions with rune markings. .*? Four of the runes are lined up in a row, labeled: R, S, Z and O, in dwarven.  The last one, labeled (\\w), is directly under the (\\w) rune./;\n    if result =~ /There are five protrusions with rune markings. .*? Four of the runes are lined up in a row, labeled: R, S, Z and O, in dwarven.  The last one, labeled (\\w), is directly under the (\\w) rune./;\n      rune = $1;\n      under = $2;\n      look = false;\n    else;\n      under = \"e\";\n    end;\n  end;\n  result = dothistimeout \"press #{runes[\"#{under}\"]} rune\", 5, /You touch the \\w rune.  With a loud grinding sound, .*?.  (.*?)  Curiously the (\\w) rune seems to have shifted position.  It is now lined up under the (\\w) rune.|.*?Nothing happens||You touch the E rune.  With a loud grinding sound, the entire staircase lowers into the ledge./;\n  if result =~ /You touch the \\w rune.  With a loud grinding sound, .*?.  (.*?)  Curiously the (\\w) rune seems to have shifted position.  It is now lined up under the (\\w) rune./;\n    stairs = $1;\n    rune = $2;\n    under = $3;\n  elsif result =~ /.*?Nothing happens/;\n    under = \"E\";\n    look = false;\n  elsif result =~ /You touch the E rune./;\n    look = true;\n  end;\n  done = true if stairs =~ /complete staircase/;\n  if under.nil? and done == false;\n    echo \"something went wrong working with the runes.  Pausing go2.\";\n    pause_script;\n  end;\nend;\nfill_hands if refill_hands;\nmove(\"go staircase\");\n"
     },
     "timeto": {
       "18177": 0.2,
-      "18179": 11
+      "18179": 11.0
     },
     "tags": [
-      "marallis berry",
-      "cuctucae berry",
-      "sassafras leaf",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "stalk of bluebells",
-      "wild pink geranium",
-      "sprig of larkspur",
+      "bolmara lichen",
+      "cuctucae berry",
+      "dwarf bilberry",
       "golden aster",
       "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed"
+      "marallis berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sprig of larkspur",
+      "stalk of bluebells",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wild pink geranium",
+      "wingstem root"
     ],
     "uid": [
       52010

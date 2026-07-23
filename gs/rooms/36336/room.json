@@ -1,0 +1,28 @@
+{
+  "room": {
+    "id": 36336,
+    "title": [
+      "[Sales From The Crypt]"
+    ],
+    "description": [
+      "Beneath a vaulted ceiling, a tattered merchant permit hangs on one of the polished oak walls.  A gold-leafed mistwood cabinet sits in one corner while a worn rug rests on the oak floor."
+    ],
+    "paths": [
+      "Obvious exits: east, west, out"
+    ],
+    "location": "Wehnimer's Landing",
+    "wayto": {
+      "368": "out",
+      "36337": "west",
+      "36338": "east"
+    },
+    "timeto": {
+      "368": 0.2,
+      "36337": 0.2,
+      "36338": 0.2
+    },
+    "uid": [
+      639361
+    ]
+  }
+}

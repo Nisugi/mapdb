@@ -1,5 +1,4 @@
 {
-  "checksum": "d6611a9065a9bef11e87e923415720ff",
   "room": {
     "id": 1840,
     "title": [
@@ -20,31 +19,31 @@
       "1843": "southwest",
       "1845": "south",
       "20775": "go path",
-      "30715": "/rooms/1840/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1839": 0.2,
       "1841": 0.2,
       "1843": 0.2,
       "1845": 0.2,
-      "20775": "/rooms/1840/timeto/stringproc-20775.rb",
-      "30715": "/rooms/1840/timeto/stringproc-30715.rb"
+      "20775": ";e UserVars.mapdb_premium.nil? ? 10 : 0.2;",
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      3001004
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       768,
       657,
       804,
       693
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "no forageables",
+      "urchin-access"
+    ],
+    "uid": [
+      3001004
     ]
   }
 }

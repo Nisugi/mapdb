@@ -1,5 +1,4 @@
 {
-  "checksum": "dfc09920bf3836a702b96633d9e8bac9",
   "room": {
     "id": 10887,
     "title": [
@@ -17,36 +16,36 @@
       "10888": "go door",
       "10895": "west",
       "10896": "north",
-      "30711": "/rooms/10887/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "10841": 0.2,
       "10888": 0.2,
       "10895": 0.2,
       "10896": 0.2,
-      "30711": "/rooms/10887/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "jail",
-      "urchin-access",
-      "urchin guide justice",
-      "justice",
-      "rogue guild hardlock",
-      "rogue guild hardlock:hatchway",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09",
-      "meta:nomagic"
-    ],
-    "uid": [
-      2101300
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       1299,
       927,
       1322,
       949
+    ],
+    "tags": [
+      "jail",
+      "justice",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:nomagic",
+      "no forageables",
+      "rogue guild hardlock",
+      "rogue guild hardlock:hatchway",
+      "urchin guide justice",
+      "urchin-access"
+    ],
+    "uid": [
+      2101300
     ]
   }
 }

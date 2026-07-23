@@ -1,5 +1,4 @@
 {
-  "checksum": "2cf504062f55f40baff17d8f7d5b9d5e",
   "room": {
     "id": 4647,
     "title": [
@@ -16,30 +15,30 @@
       "4645": "north",
       "4648": "east",
       "4649": "south",
-      "30717": "/rooms/4647/wayto/stringproc-30717.rb"
+      "30717": ";e true"
     },
     "timeto": {
       "4645": 0.2,
       "4648": 0.2,
       "4649": 0.2,
-      "30717": "/rooms/4647/timeto/stringproc-30717.rb"
+      "30717": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "herbalist",
-      "no forageables",
-      "meta:forage-sensed",
-      "urchin-access",
-      "urchin guide herbalist"
-    ],
-    "uid": [
-      14051034
-    ],
     "image": "en-cysaegir-1679641246.png",
     "image_coords": [
       469,
       425,
       494,
       448
+    ],
+    "tags": [
+      "herbalist",
+      "meta:forage-sensed",
+      "no forageables",
+      "urchin guide herbalist",
+      "urchin-access"
+    ],
+    "uid": [
+      14051034
     ]
   }
 }

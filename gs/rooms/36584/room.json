@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36584,
+    "title": [
+      "[Skyship, The Corridor]"
+    ],
+    "description": [
+      "The corridor widens, and a thick smoke rises from a pit in the area's center created by a shattering of the glaesine viewing cavity that made up part of the walkway.  Debris smolders in the hole: embers alight charred books and smoking husks disfigured beyond recognition.  Jagged glaesine shards are sprinkled everywhere, evidencing the violent strength necessary to breach the walkway.  The path remains wide enough around the gap, however, to pass."
+    ],
+    "paths": [
+      "Obvious exits: east, west"
+    ],
+    "location": false,
+    "wayto": {
+      "36583": "east",
+      "36585": "west"
+    },
+    "timeto": {
+      "36583": 0.2,
+      "36585": 0.2
+    },
+    "uid": [
+      12102136
+    ]
+  }
+}

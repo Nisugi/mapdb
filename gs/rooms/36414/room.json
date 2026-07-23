@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36414,
+    "title": [
+      "[Dungeon, Mugwump Lair]"
+    ],
+    "description": [
+      "The air here is thick with rot and decay and there is some kind of slick, disgusting substance coating the walls that smells absolutely foul.  A bed of sharp twigs and scratchy straw carpets the floor here and feels suspiciously itchy.  A small opening leads back out."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36399": "go opening"
+    },
+    "timeto": {
+      "36399": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1440,
+      640,
+      1480,
+      680
+    ],
+    "uid": [
+      58025
+    ]
+  }
+}

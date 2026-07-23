@@ -1,5 +1,4 @@
 {
-  "checksum": "912aa34879be51b098028041060c4b46",
   "room": {
     "id": 24519,
     "title": [
@@ -18,40 +17,40 @@
     "wayto": {
       "3111": "go patch",
       "24520": "northwest",
-      "24532": "/rooms/24519/wayto/stringproc-24532.rb"
+      "24532": ";e empty_hands\nmove 'climb hillside'\nwaitrt?\nfill_hands"
     },
     "timeto": {
       "3111": 0.2,
       "24520": 0.2,
       "24532": 0.2
     },
-    "tags": [
-      "meta:mapname:Icemule Trace - Bramble Patch",
-      "meta:mapshortname:Bramble Patch",
-      "meta:mapcategory:Icemule Trace",
-      "snow lily",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "arctic moss",
-      "broken twig",
-      "rockberry",
-      "crowberry",
-      "lingonberry",
-      "ironfern root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "wingstem root",
-      "meta:forage-sensed:day:2025-03"
-    ],
-    "uid": [
-      4124037
-    ],
     "image": "imt-bramble_patch-1307499864.png",
     "image_coords": [
       201,
       291,
       213,
       303
+    ],
+    "tags": [
+      "arctic moss",
+      "bright red teaberry",
+      "broken twig",
+      "crowberry",
+      "ironfern root",
+      "lingonberry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2025-03",
+      "meta:mapcategory:Icemule Trace",
+      "meta:mapname:Icemule Trace - Bramble Patch",
+      "meta:mapshortname:Bramble Patch",
+      "rockberry",
+      "snow lily",
+      "sunburst blossom",
+      "wingstem root",
+      "wintergreen leaf"
+    ],
+    "uid": [
+      4124037
     ]
   }
 }

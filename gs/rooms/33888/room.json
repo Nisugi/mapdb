@@ -1,5 +1,4 @@
 {
-  "checksum": "596ee47fd81b37029cfe357fe5c5a984",
   "room": {
     "id": 33888,
     "title": [
@@ -15,17 +14,17 @@
     "location": "Ta'Nalfein",
     "wayto": {
       "33879": "out",
-      "34423": "/rooms/33888/wayto/stringproc-34423.rb"
+      "34423": ";e true"
     },
     "timeto": {
       "33879": 0.2,
-      "34423": "/rooms/33888/timeto/stringproc-34423.rb"
+      "34423": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "mail",
       "postoffice",
-      "urchin-access",
-      "urchin guide postoffice"
+      "urchin guide postoffice",
+      "urchin-access"
     ],
     "uid": [
       14150201

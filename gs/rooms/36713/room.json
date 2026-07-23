@@ -1,0 +1,28 @@
+{
+  "room": {
+    "id": 36713,
+    "title": [
+      "[Zrenigotham House, Orchard]"
+    ],
+    "description": [
+      "Nestled in a quiet meadow under a silver-lit sky, the orchard rests in moonlight, rows of tall trees casting soft shadows, their ripe fruit glowing faintly in the cool night air.  A nearby garden whispers with life, its blooms muted but vivid in the pale glow.  The pond shimmers, still and inviting beneath the stars.  In a moon-dappled clearing, perfect for quiet reflection, a sprawling stone manor rises in the distance - still, timeless, and bathed in ethereal light.  An arched modwir gate provides access to the wilds beyond"
+    ],
+    "paths": [
+      "Obvious paths: none"
+    ],
+    "location": "Zrenigotham House, inside the frontier town of Wehnimer's Landing",
+    "wayto": {
+      "3758": "go gate",
+      "36714": "go doors",
+      "36716": "go shoreline"
+    },
+    "timeto": {
+      "3758": 0.2,
+      "36714": 0.2,
+      "36716": 0.2
+    },
+    "uid": [
+      2003101
+    ]
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "checksum": "2d88b852994ef31f326a633173672940",
   "room": {
     "id": 7154,
     "title": [
@@ -15,26 +14,26 @@
     "climate": "cold, dry",
     "terrain": "hard, flat",
     "wayto": {
-      "7036": "/rooms/7154/wayto/stringproc-7036.rb"
+      "7036": ";e unless move 'go door'; fput 'kneel'; fput 'touch jackal'; waitfor 'the black mein door has opened'; fput 'stand'; move 'go door'; end"
     },
     "timeto": {
-      "7036": 20
+      "7036": 20.0
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      45135
-    ],
     "image": "wl-darkstone-1717380773.png",
     "image_coords": [
       528,
       454,
       540,
       466
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
+    ],
+    "uid": [
+      45135
     ]
   }
 }

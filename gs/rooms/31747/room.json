@@ -1,5 +1,4 @@
 {
-  "checksum": "2cc467cb9e974dd8b8a7a9608ee7cd93",
   "room": {
     "id": 31747,
     "title": [
@@ -15,26 +14,26 @@
     "wayto": {
       "31570": "go archway",
       "31750": "northeast",
-      "32113": "/rooms/31747/wayto/stringproc-32113.rb",
-      "32129": "/rooms/31747/wayto/stringproc-32129.rb",
-      "32130": "/rooms/31747/wayto/stringproc-32130.rb",
-      "32131": "/rooms/31747/wayto/stringproc-32131.rb",
-      "32132": "/rooms/31747/wayto/stringproc-32132.rb",
-      "32133": "/rooms/31747/wayto/stringproc-32133.rb",
-      "32134": "/rooms/31747/wayto/stringproc-32134.rb",
-      "32135": "/rooms/31747/wayto/stringproc-32135.rb",
-      "32136": "/rooms/31747/wayto/stringproc-32136.rb",
-      "32137": "/rooms/31747/wayto/stringproc-32137.rb",
-      "32138": "/rooms/31747/wayto/stringproc-32138.rb",
-      "32139": "/rooms/31747/wayto/stringproc-32139.rb",
-      "32140": "/rooms/31747/wayto/stringproc-32140.rb",
-      "32141": "/rooms/31747/wayto/stringproc-32141.rb",
-      "32142": "/rooms/31747/wayto/stringproc-32142.rb",
-      "32143": "/rooms/31747/wayto/stringproc-32143.rb",
-      "32144": "/rooms/31747/wayto/stringproc-32144.rb",
-      "32145": "/rooms/31747/wayto/stringproc-32145.rb",
-      "32146": "/rooms/31747/wayto/stringproc-32146.rb",
-      "32147": "/rooms/31747/wayto/stringproc-32147.rb"
+      "32113": ";e table = \"Whiskey\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32129": ";e table = \"Bourbon\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32130": ";e table = \"Gin\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32131": ";e table = \"Cognac\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32132": ";e table = \"Rum\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32133": ";e table = \"Brandy\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32134": ";e table = \"Champagne\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32135": ";e table = \"Merlot\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32136": ";e table = \"Ale\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32137": ";e table = \"Absinthe\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32138": ";e table = \"Scotch\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32139": ";e table = \"Stout\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32140": ";e table = \"Mead\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32141": ";e table = \"Cider\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32142": ";e table = \"Cocktail\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32143": ";e table = \"Wine\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32144": ";e table = \"Lager\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32145": ";e table = \"Vodka\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32146": ";e table = \"Beer\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "32147": ";e table = \"Porter\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"
     },
     "timeto": {
       "31570": 0.2,
@@ -61,9 +60,9 @@
       "32147": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-10",
+      "no forageables",
       "table",
       "tables",
       "tables1"

@@ -1,5 +1,4 @@
 {
-  "checksum": "efe0ff4f9f84e9b8100bb88955d8bd91",
   "room": {
     "id": 2406,
     "title": [
@@ -15,32 +14,32 @@
     "wayto": {
       "2403": "out",
       "2405": "east",
-      "30709": "/rooms/2406/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "2403": 0.2,
       "2405": 0.2,
-      "30709": "/rooms/2406/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "npchealer",
-      "urchin-access",
-      "urchin guide healer",
-      "mirtag",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09",
-      "healer"
-    ],
-    "uid": [
-      4043601
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       227,
       966,
       263,
       1002
+    ],
+    "tags": [
+      "healer",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-09",
+      "mirtag",
+      "no forageables",
+      "npchealer",
+      "urchin guide healer",
+      "urchin-access"
+    ],
+    "uid": [
+      4043601
     ]
   }
 }

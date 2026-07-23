@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36388,
+    "title": [
+      "[Black Swan Castle, Ramparts]"
+    ],
+    "description": [
+      "Some vines have struggled their way up the ramparts here.  Their strong roots and tendrils have weakened the stone, and as you proceed, you dislodge small flakes that tumble into the moat below.  The front of the Black Swan Keep is clearly visible from here, its eerie upward sweep momentarily distracting you from your careful footing."
+    ],
+    "paths": [
+      "Obvious paths: north, south"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36387": "south",
+      "36389": "north",
+      "36462": "jump"
+    },
+    "timeto": {
+      "36387": 0.2,
+      "36389": 0.2,
+      "36462": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      200,
+      320,
+      240,
+      360
+    ],
+    "uid": [
+      55061
+    ]
+  }
+}

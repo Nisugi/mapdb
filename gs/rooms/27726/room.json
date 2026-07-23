@@ -1,5 +1,4 @@
 {
-  "checksum": "88c85b0adf07123168353a07e0a3a7ed",
   "room": {
     "id": 27726,
     "title": [
@@ -25,19 +24,20 @@
       "27725": 0.2,
       "27727": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      4050014
-    ],
     "image": "imt-Town_Walls_Map-1707071672.png",
     "image_coords": [
       774,
       575,
       802,
       602
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-09",
+      "no forageables"
+    ],
+    "uid": [
+      4050014
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "4cc4f7c897c782052e7cc5b569733e0a",
   "room": {
     "id": 34340,
     "title": [
@@ -22,21 +21,23 @@
       "34339": 0.2,
       "34343": 0.2
     },
-    "tags": [
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2024-05"
-    ],
-    "uid": [
-      13150404
-    ],
     "image": "en-zul_logoth-storm_peaks-1703220375.png",
     "image_coords": [
       1044,
       611,
       1063,
       631
+    ],
+    "tags": [
+      "bolmara lichen",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "sunburst blossom",
+      "wingstem root"
+    ],
+    "uid": [
+      13150404
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "874be89606316f6269f92a8b6f1bf183",
   "room": {
     "id": 32373,
     "title": [
@@ -22,23 +21,23 @@
       "32322": 0.2,
       "32405": 0.2
     },
-    "tags": [
-      "meta:mapcategory:Icemule Trace",
-      "meta:mapshortname:Moonsedge",
-      "meta:mapname:Icemule Trace - Moonsedge",
-      "meta:forage-sensed",
-      "stalk of bluebells",
-      "meta:forage-sensed:day:2025-11"
-    ],
-    "uid": [
-      4577004
-    ],
-    "image": "moonsedge.png",
+    "image": "imt-Moonsedge-1770317665.png",
     "image_coords": [
       378,
       102,
       401,
       122
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2025-11",
+      "meta:mapcategory:Icemule Trace",
+      "meta:mapname:Icemule Trace - Moonsedge",
+      "meta:mapshortname:Moonsedge",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      4577004
     ]
   }
 }

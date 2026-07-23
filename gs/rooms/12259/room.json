@@ -1,5 +1,4 @@
 {
-  "checksum": "3db638cd9a34dcda24a9a693015dd6f0",
   "room": {
     "id": 12259,
     "title": [
@@ -15,41 +14,41 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "11906": "/rooms/12259/wayto/stringproc-11906.rb"
+      "11906": ";e move 'crawl opening'; fput 'stand'; waitrt?"
     },
     "timeto": {
       "11906": 0.4
     },
     "tags": [
       "acantha leaf",
-      "torban leaf",
-      "calamia fruit",
-      "haphip root",
-      "basal moss",
-      "tkaro root",
-      "sticks",
       "angelica root",
-      "wild chokecherry",
-      "lady slipper blossom",
-      "wild orchid",
-      "wood violet",
-      "sprig of mistletoe",
-      "tree bark",
       "ayana leaf",
+      "basal moss",
       "bloodwood twig",
-      "yew twig",
-      "oak twig",
-      "luckbloom blossom",
-      "murdroot",
-      "nightbloom blossom",
-      "twisted twig",
-      "slender twig",
-      "ebony twig",
       "bolmara lichen",
       "brostheras grass",
+      "calamia fruit",
+      "ebony twig",
+      "haphip root",
+      "lady slipper blossom",
+      "luckbloom blossom",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
       "meta:forage-sensed:night:2023-11",
-      "meta:forage-sensed:day:2024-05"
+      "murdroot",
+      "nightbloom blossom",
+      "oak twig",
+      "slender twig",
+      "sprig of mistletoe",
+      "sticks",
+      "tkaro root",
+      "torban leaf",
+      "tree bark",
+      "twisted twig",
+      "wild chokecherry",
+      "wild orchid",
+      "wood violet",
+      "yew twig"
     ],
     "uid": [
       17002250

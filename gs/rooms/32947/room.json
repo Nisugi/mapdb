@@ -1,5 +1,4 @@
 {
-  "checksum": "84b8cad02f6cc5200a4cb50c75ce6ace",
   "room": {
     "id": 32947,
     "title": [
@@ -16,19 +15,19 @@
     "terrain": "none",
     "wayto": {
       "32899": "out",
-      "34400": "/rooms/32947/wayto/stringproc-34400.rb"
+      "34400": ";e true"
     },
     "timeto": {
       "32899": 0.2,
-      "34400": "/rooms/32947/timeto/stringproc-34400.rb"
+      "34400": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "dock handler",
       "handler",
       "meta:forage-sensed",
       "no forageables",
-      "urchin-access",
-      "urchin guide osatask"
+      "urchin guide osatask",
+      "urchin-access"
     ],
     "uid": [
       7140501

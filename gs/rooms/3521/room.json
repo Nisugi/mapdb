@@ -1,5 +1,4 @@
 {
-  "checksum": "fc32ddf863674eb3dd1f8c927ca9bcc1",
   "room": {
     "id": 3521,
     "title": [
@@ -20,37 +19,37 @@
     "wayto": {
       "3519": "west",
       "3522": "east",
-      "3668": "/rooms/3521/wayto/stringproc-3668.rb",
+      "3668": ";e Map[7].wayto['3668'].call;",
       "17215": "go entrance",
-      "30713": "/rooms/3521/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3519": 0.6,
       "3522": 0.2,
-      "3668": "/rooms/3521/timeto/stringproc-3668.rb",
-      "17215": "/rooms/3521/timeto/stringproc-17215.rb",
-      "30713": "/rooms/3521/timeto/stringproc-30713.rb"
+      "3668": ";e Map[7].timeto['3668'].call;",
+      "17215": ";e Stats.prof == 'Warrior' ? 0.2 : nil",
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "warriorguild",
-      "urchin guide warriorguild",
-      "urchin-access",
-      "warrior guild",
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:teleport",
-      "meta:forage-sensed:night:2023-01",
-      "meta:fwi:teleport"
-    ],
-    "uid": [
-      14100043
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       1001,
       854,
       1037,
       890
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "meta:fwi:teleport",
+      "meta:teleport",
+      "no forageables",
+      "urchin guide warriorguild",
+      "urchin-access",
+      "warrior guild",
+      "warriorguild"
+    ],
+    "uid": [
+      14100043
     ]
   }
 }

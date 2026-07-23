@@ -1,5 +1,4 @@
 {
-  "checksum": "22806fb6f6d99162eaf2cc91f5aa897a",
   "room": {
     "id": 1885,
     "title": [
@@ -15,20 +14,21 @@
     "wayto": {
       "1884": "go archway",
       "12983": "go door",
-      "30715": "/rooms/1885/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1884": 0.2,
       "12983": 0.2,
-      "30715": "/rooms/1885/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "pawnshop",
       "meta:trashcan:slightly charred wooden barrel",
+      "no forageables",
+      "pawn",
+      "pawnshop",
       "trash",
       "urchin guide pawn",
-      "urchin-access",
-      "pawn"
+      "urchin-access"
     ],
     "uid": [
       3003021

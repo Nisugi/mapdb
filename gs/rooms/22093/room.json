@@ -1,5 +1,4 @@
 {
-  "checksum": "04afdac7ccbe67d2f2b022faf1f8b7a3",
   "room": {
     "id": 22093,
     "title": [
@@ -13,8 +12,8 @@
     ],
     "location": "Icemule Trace",
     "wayto": {
-      "22094": "/rooms/22093/wayto/stringproc-22094.rb",
-      "22095": "/rooms/22093/wayto/stringproc-22095.rb",
+      "22094": ";e table = \"carved\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "22095": ";e table = \"dark\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
       "22096": "out"
     },
     "timeto": {

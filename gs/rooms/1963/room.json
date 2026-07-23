@@ -1,5 +1,4 @@
 {
-  "checksum": "def6c0304099d8dff53d04b4c3790af9",
   "room": {
     "id": 1963,
     "title": [
@@ -21,7 +20,7 @@
       "1967": "south",
       "1973": "go alleyway",
       "12387": "go path",
-      "30715": "/rooms/1963/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1962": 0.2,
@@ -29,23 +28,23 @@
       "1967": 0.2,
       "1973": 0.2,
       "12387": 0.2,
-      "30715": "/rooms/1963/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      3001008
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       1038,
       960,
       1068,
       990
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "no forageables",
+      "urchin-access"
+    ],
+    "uid": [
+      3001008
     ]
   }
 }

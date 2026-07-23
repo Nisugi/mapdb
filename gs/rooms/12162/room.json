@@ -1,5 +1,4 @@
 {
-  "checksum": "1072628c0abdd5408dbd71e03cc0bb3c",
   "room": {
     "id": 12162,
     "title": [
@@ -16,7 +15,7 @@
     "climate": "cold, dry",
     "terrain": "hard, flat",
     "wayto": {
-      "2579": "/rooms/12162/wayto/stringproc-2579.rb",
+      "2579": ";e start_room = [ 12162, 12207, 12170, 12209, 12215, 12210, 12159, 12165, 12206, 12173, 12208, nil, 12160, 12211 ]; dirs = [ 'northwest', 'north', 'northeast', 'northwest', 'northeast', 'northwest', 'northeast', 'north', 'northwest', 'west', 'east', 'northeast', 'northwest', 'northeast' ]; if index = start_room.index(Room.current.id); until checkloot.include?('thread'); move dirs[index]; index += 1; index = 0 if index >= dirs.length; end; move 'climb thread'; waitrt?; fput 'stand'; else; echo 'error: mini-script expected a different room'; end; $go2_restart = true",
       "12207": "northwest",
       "12210": "east",
       "12211": "southwest"
@@ -27,28 +26,28 @@
       "12210": 0.2,
       "12211": 0.2
     },
-    "tags": [
-      "withered deathblossom",
-      "mass of congealed slime",
-      "discolored fleshbinder bud",
-      "rotting bile green fleshbulb",
-      "oozing fleshsore bulb",
-      "fleshsore bulb",
-      "fleshbinder bud",
-      "grave blossom",
-      "black mawflower",
-      "green fleshbulb",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4570004
-    ],
     "image": "imt-rift-1554575848.png",
     "image_coords": [
       887,
       1248,
       897,
       1258
+    ],
+    "tags": [
+      "black mawflower",
+      "discolored fleshbinder bud",
+      "fleshbinder bud",
+      "fleshsore bulb",
+      "grave blossom",
+      "green fleshbulb",
+      "mass of congealed slime",
+      "meta:forage-sensed",
+      "oozing fleshsore bulb",
+      "rotting bile green fleshbulb",
+      "withered deathblossom"
+    ],
+    "uid": [
+      4570004
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "e6b49f55c70ce75ff10af9d300f4b984",
   "room": {
     "id": 17680,
     "title": [
@@ -14,27 +13,27 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "10888": "/rooms/17680/wayto/stringproc-10888.rb",
-      "17679": "/rooms/17680/wayto/stringproc-17679.rb"
+      "10888": ";e fput 'stand' unless standing?; move 'out'",
+      "17679": ";e move 'crawl opening'; fput 'stand' unless standing?; waitrt?"
     },
     "timeto": {
       "10888": 0.2,
-      "17679": 1
+      "17679": 1.0
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:nomagic"
-    ],
-    "uid": [
-      5007207
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       433,
       1234,
       472,
       1272
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:nomagic",
+      "no forageables"
+    ],
+    "uid": [
+      5007207
     ]
   }
 }

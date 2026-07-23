@@ -1,5 +1,4 @@
 {
-  "checksum": "c51a3d95dcb86fe5681630fda0341453",
   "room": {
     "id": 7917,
     "title": [
@@ -21,22 +20,22 @@
     },
     "timeto": {
       "6116": 0.2,
-      "7918": "/rooms/7917/timeto/stringproc-7918.rb"
+      "7918": ";e ((defined?(Skills.climbing) and Skills.climbing > 99) ? 0.2 : nil)"
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "restricted:7918:skill:climbing:100"
-    ],
-    "uid": [
-      484013
-    ],
     "image": "wl-gates-1264234799.png",
     "image_coords": [
       207,
       1358,
       217,
       1368
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables",
+      "restricted:7918:skill:climbing:100"
+    ],
+    "uid": [
+      484013
     ]
   }
 }

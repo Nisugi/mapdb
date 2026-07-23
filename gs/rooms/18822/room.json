@@ -1,5 +1,4 @@
 {
-  "checksum": "4594253afeaac17855cd850746356086",
   "room": {
     "id": 18822,
     "title": [
@@ -16,35 +15,35 @@
     "terrain": "riparian",
     "wayto": {
       "18821": "southwest",
-      "18823": "/rooms/18822/wayto/stringproc-18823.rb"
+      "18823": ";e empty_hand;fput('go river');move('go river')"
     },
     "timeto": {
       "18821": 0.2,
       "18823": 0.2
     },
-    "tags": [
-      "wood violet",
-      "water chestnut",
-      "stalk of cattail",
-      "aloeas stem",
-      "wild gooseberry",
-      "murdroot",
-      "wavepetal blossom",
-      "sunburst blossom",
-      "orchil lichen",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2024-05",
-      "meta:forage-sensed:day:2025-07"
-    ],
-    "uid": [
-      14202001
-    ],
     "image": "en-ravelin.png",
     "image_coords": [
       1239,
       286,
       1267,
       311
+    ],
+    "tags": [
+      "aloeas stem",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "murdroot",
+      "orchil lichen",
+      "stalk of cattail",
+      "sunburst blossom",
+      "water chestnut",
+      "wavepetal blossom",
+      "wild gooseberry",
+      "wood violet"
+    ],
+    "uid": [
+      14202001
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "c944929967f1dec29e9081fee09441c6",
   "room": {
     "id": 10333,
     "title": [
@@ -18,18 +17,21 @@
     "timeto": {
       "10331": 0.2
     },
-    "tags": [
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      14103503
-    ],
     "image": "adventurers_guild-1485358936.png",
     "image_coords": [
       924,
       2321,
       992,
       2388
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      14103503
     ]
   }
 }

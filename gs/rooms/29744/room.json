@@ -1,5 +1,4 @@
 {
-  "checksum": "8c35ab26527b886b4d92b8224007135b",
   "room": {
     "id": 29744,
     "title": [
@@ -24,19 +23,20 @@
       "33172": 0.2,
       "35209": 0.2
     },
-    "tags": [
-      "peer door =~ /Rising Phoenix|Argent Aspis/",
-      "houselockers"
-    ],
-    "uid": [
-      7121201
-    ],
     "image": "kf-inking_den-1615857364.png",
     "image_coords": [
       433,
       551,
       460,
       574
+    ],
+    "tags": [
+      "houselockers",
+      "no forageables",
+      "peer door =~ /Rising Phoenix|Argent Aspis/"
+    ],
+    "uid": [
+      7121201
     ]
   }
 }

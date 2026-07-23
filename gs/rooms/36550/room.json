@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36550,
+    "title": [
+      "[Skyship, The Sands]"
+    ],
+    "description": [
+      "Lines of black wooden benches flank long, horizontal strips of packed sand across a stone floor.  Colored a bright vermillion and sectioned off with bright white paint, the sand is also splotched with darker flecks of long-dried crimson that similarly dot the adjacent benches.  Above, a series of lanterns are placed in suspended cages, casting the area in a perpetual, ethereal glow."
+    ],
+    "paths": [
+      "Obvious exits: north, south"
+    ],
+    "location": false,
+    "wayto": {
+      "36549": "north",
+      "36551": "south"
+    },
+    "timeto": {
+      "36549": 0.2,
+      "36551": 0.2
+    },
+    "uid": [
+      12102012
+    ]
+  }
+}

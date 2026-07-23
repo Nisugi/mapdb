@@ -1,5 +1,4 @@
 {
-  "checksum": "32c8527054cceb44dcf3727ac829fdca",
   "room": {
     "id": 17425,
     "title": [
@@ -15,7 +14,7 @@
     "wayto": {
       "1536": "out",
       "17426": "up",
-      "23281": "/rooms/17425/wayto/stringproc-23281.rb"
+      "23281": ";e move('go doorframe');UserVars.mapdb_talondown_origin = 17425;"
     },
     "timeto": {
       "1536": 0.2,
@@ -24,8 +23,8 @@
     },
     "tags": [
       "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:day:2022-11"
+      "meta:forage-sensed:day:2022-11",
+      "no forageables"
     ],
     "uid": [
       4749821

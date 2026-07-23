@@ -1,5 +1,4 @@
 {
-  "checksum": "26cacfd121b880d3e6acd4b0b3ff7031",
   "room": {
     "id": 10020,
     "title": [
@@ -22,27 +21,27 @@
       "10010": 0.2,
       "10019": 0.2
     },
-    "tags": [
-      "wintergreen leaf",
-      "bright red teaberry",
-      "broken twig",
-      "ironfern root",
-      "sunburst blossom",
-      "meta:forage-sensed",
-      "wingstem root",
-      "meta:forage-sensed:night:2022-11",
-      "blaestonberries",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      13036210
-    ],
     "image": "en-sylvarraend-1264234799.png",
     "image_coords": [
       1323,
       462,
       1331,
       470
+    ],
+    "tags": [
+      "blaestonberries",
+      "bright red teaberry",
+      "broken twig",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "sunburst blossom",
+      "wingstem root",
+      "wintergreen leaf"
+    ],
+    "uid": [
+      13036210
     ]
   }
 }

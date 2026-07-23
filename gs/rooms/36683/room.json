@@ -1,0 +1,42 @@
+{
+  "room": {
+    "id": 36683,
+    "title": [
+      "[Nyessem, Indigo Pools]"
+    ],
+    "description": [
+      "Softly glowing light issues from a pool in the center of the cavern, its indigo illumination warring for dominance over that of the shadows cast by stalactites anchored in the ceiling.  Crystalline structures formed of salt deposits line the porous walls of volcanic rock, their surfaces remaining slick from the constant draining of water from above.  A warped wooden bench rests at the front of a short wooden dock with its back to the steep incline that disappears into a pale violet stone arch."
+    ],
+    "paths": [
+      "Obvious exits: southwest, west, northwest"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36680": "go stone arch",
+      "36684": "southwest",
+      "36685": "west",
+      "36686": "northwest",
+      "36702": "go opening"
+    },
+    "timeto": {
+      "36680": 0.2,
+      "36684": 0.2,
+      "36685": 0.2,
+      "36686": 0.2,
+      "36702": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      641,
+      811,
+      659,
+      825
+    ],
+    "tags": [
+      "mana trawl"
+    ],
+    "uid": [
+      8400501
+    ]
+  }
+}

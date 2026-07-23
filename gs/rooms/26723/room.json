@@ -1,5 +1,4 @@
 {
-  "checksum": "1773e28172ce1257c685ffab40ed3a52",
   "room": {
     "id": 26723,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "Solhaven",
     "wayto": {
-      "14119": "/rooms/26723/wayto/stringproc-14119.rb"
+      "14119": ";e room = Room.current.id;fput 'go opening'; if ( room == Room.current.id ); fput 'close locker';move 'go opening'; end; $go2_restart = true"
     },
     "timeto": {
       "14119": 22.2

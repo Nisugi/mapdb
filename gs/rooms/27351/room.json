@@ -1,5 +1,4 @@
 {
-  "checksum": "5679f723ea87ec1ef0754eaee9d87a7b",
   "room": {
     "id": 27351,
     "title": [
@@ -14,16 +13,17 @@
     "location": "Icemule Trace",
     "wayto": {
       "2471": "go out",
-      "30709": "/rooms/27351/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "2471": 0.2,
-      "30709": "/rooms/27351/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "collectibles",
-      "urchin-access",
-      "urchin guide collectibles"
+      "no forageables",
+      "urchin guide collectibles",
+      "urchin-access"
     ],
     "uid": [
       4043410

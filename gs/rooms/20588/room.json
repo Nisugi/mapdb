@@ -1,5 +1,4 @@
 {
-  "checksum": "763ed26e73102c6698a3b92cb04f93bb",
   "room": {
     "id": 20588,
     "title": [
@@ -15,7 +14,7 @@
     "wayto": {
       "283": "out",
       "20589": "north",
-      "20590": "/rooms/20588/wayto/stringproc-20590.rb",
+      "20590": ";e multifput 'search', 'go trapdoor'",
       "30360": "south"
     },
     "timeto": {
@@ -25,10 +24,10 @@
       "30360": 0.2
     },
     "tags": [
-      "meta:teleport:fwi",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
+      "meta:forage-sensed:night:2022-11",
+      "meta:teleport:fwi",
+      "no forageables"
     ],
     "uid": [
       3014

@@ -1,5 +1,4 @@
 {
-  "checksum": "31dd3917962aef05202354cdc28d754d",
   "room": {
     "id": 19359,
     "title": [
@@ -20,31 +19,31 @@
       "19360": "go villa",
       "19361": "southeast",
       "27618": "go double door",
-      "30718": "/rooms/19359/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "19356": 0.2,
       "19360": 0.2,
       "19361": 0.2,
-      "27618": "/rooms/19359/timeto/stringproc-27618.rb",
-      "30718": "/rooms/19359/timeto/stringproc-30718.rb"
+      "27618": ";e ((!defined?(Stats.prof) or Stats.prof == 'Wizard') ? 0.2 : nil);",
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access",
-      "wizardguild",
-      "wizard guild",
-      "urchin guide wizardguild",
-      "no forageables"
-    ],
-    "uid": [
-      3223007
-    ],
     "image": "ifw-isle_of_four_winds-1310232949.png",
     "image_coords": [
       3616,
       1607,
       3643,
       1630
+    ],
+    "tags": [
+      "no forageables",
+      "urchin guide wizardguild",
+      "urchin-access",
+      "wizard guild",
+      "wizardguild"
+    ],
+    "uid": [
+      3223007
     ]
   }
 }

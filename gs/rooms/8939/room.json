@@ -1,5 +1,4 @@
 {
-  "checksum": "9c7940a2363629442bd243c7020f8a2e",
   "room": {
     "id": 8939,
     "title": [
@@ -22,15 +21,18 @@
       "8938": 0.2,
       "15907": 0.2
     },
-    "uid": [
-      680056
-    ],
     "image": "imt-wizard_guild.png",
     "image_coords": [
       106,
       320,
       158,
       368
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      680056
     ]
   }
 }

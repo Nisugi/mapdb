@@ -1,5 +1,4 @@
 {
-  "checksum": "5075164a8860541c839634372d035883",
   "room": {
     "id": 16365,
     "title": [
@@ -14,16 +13,16 @@
     "location": "Mist Harbor",
     "wayto": {
       "12300": "out",
-      "30718": "/rooms/16365/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "12300": 0.2,
-      "30718": "/rooms/16365/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "fletcher",
-      "urchin-access",
-      "urchin guide fletcher"
+      "urchin guide fletcher",
+      "urchin-access"
     ],
     "uid": [
       3209310

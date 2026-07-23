@@ -1,5 +1,4 @@
 {
-  "checksum": "ea1ab852d44ddcc387386d5780544e6f",
   "room": {
     "id": 9427,
     "title": [
@@ -24,30 +23,31 @@
       "9428": 0.2,
       "16883": 0.2
     },
-    "tags": [
-      "pepperthorn root",
-      "genkew mushroom",
-      "soft white mushroom",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "blue trafel mushroom",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "wingstem root",
-      "meta:forage-sensed:night:2023-02"
-    ],
-    "uid": [
-      736005
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       938,
       403,
       958,
       423
+    ],
+    "tags": [
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "murdroot",
+      "pepperthorn root",
+      "soft mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      736005
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "e521f65d5505ae9ccdb451963459008f",
   "room": {
     "id": 18700,
     "title": [
@@ -14,7 +13,7 @@
     "location": "somewhere on the Great Western Sea",
     "wayto": {
       "18249": "east",
-      "18250": "/rooms/18700/wayto/stringproc-18250.rb",
+      "18250": ";e if !GameObj.loot.find{|o| o.name =~ /ruined cell door/}.nil?;\n  move ('go door');\nelsif GameObj.right_hand.id.nil?;\n  echo 'You need a weapon to BATTER the DOOR';\nelse\n  echo 'BATTERing the DOOR with a valid weapon (even if not a warrior) until it is destroyed and becomes a ruined cell door';\n  batter_result = nil;\n  until batter_result =~ /ineffective|destroyed/;\n    batter_result = dothistimeout 'batter door', 3, /You bash at the|The cell door has already been destroyed.|Your .*? is ineffective against the door|going to do much good/;\n    break if batter_result =~ /ineffective/;\n  end;\n  move ('go door') if batter_result =~ /destroyed/;\n  echo '  You need a different weapon to BATTER the DOOR' if batter_result =~ /ineffective|going to do much good/;\nend;\n",
       "18706": "north",
       "24853": "northeast"
     },
@@ -24,15 +23,15 @@
       "18706": 0.2,
       "24853": 0.2
     },
-    "uid": [
-      4031027
-    ],
     "image": "quest-troubled_waters.png",
     "image_coords": [
       585,
       447,
       603,
       464
+    ],
+    "uid": [
+      4031027
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "97d469b3d4eed614eaa3056869e184dc",
   "room": {
     "id": 18870,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "8623": "/rooms/18870/wayto/stringproc-8623.rb",
+      "8623": ";e fput 'search'; move 'go ladder'",
       "18861": "up",
       "18871": "go polished door",
       "18872": "go cherrywood door",
@@ -32,18 +31,18 @@
       "24575": 0.2,
       "33226": 0.2
     },
-    "tags": [
-      "meta:che:Twilight Hall"
-    ],
-    "uid": [
-      108410
-    ],
     "image": "wl-twilight_hall.jpg",
     "image_coords": [
       992,
       441,
       1077,
       498
+    ],
+    "tags": [
+      "meta:che:Twilight Hall"
+    ],
+    "uid": [
+      108410
     ]
   }
 }

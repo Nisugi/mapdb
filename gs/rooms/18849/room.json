@@ -1,5 +1,4 @@
 {
-  "checksum": "654220df0894b009714b4f4f5520c9c3",
   "room": {
     "id": 18849,
     "title": [
@@ -16,11 +15,11 @@
     "wayto": {
       "18848": "go coraesine door",
       "18859": "down",
-      "18882": "/rooms/18849/wayto/stringproc-18882.rb",
-      "18884": "/rooms/18849/wayto/stringproc-18884.rb",
-      "18885": "/rooms/18849/wayto/stringproc-18885.rb",
-      "18886": "/rooms/18849/wayto/stringproc-18886.rb",
-      "18887": "/rooms/18849/wayto/stringproc-18887.rb"
+      "18882": ";e table = \"half moon\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "18884": ";e table = \"golden star\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "18885": ";e table = \"ronan\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "18886": ";e table = \"black sword\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "18887": ";e table = \"sheru\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"
     },
     "timeto": {
       "18848": 0.2,
@@ -31,18 +30,18 @@
       "18886": 0.2,
       "18887": 0.2
     },
-    "tags": [
-      "meta:che:Twilight Hall"
-    ],
-    "uid": [
-      108200
-    ],
     "image": "wl-twilight_hall.jpg",
     "image_coords": [
       589,
       145,
       676,
       202
+    ],
+    "tags": [
+      "meta:che:Twilight Hall"
+    ],
+    "uid": [
+      108200
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "44888791afae071269870c78f95561e5",
   "room": {
     "id": 9683,
     "title": [
@@ -14,17 +13,17 @@
     "location": "Cysaegir",
     "wayto": {
       "4670": "west",
-      "30717": "/rooms/9683/wayto/stringproc-30717.rb"
+      "30717": ";e true"
     },
     "timeto": {
       "4670": 0.2,
-      "30717": "/rooms/9683/timeto/stringproc-30717.rb"
+      "30717": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "urchin-access",
-      "urchin guide debts",
       "debts",
-      "no forageables"
+      "no forageables",
+      "urchin guide debts",
+      "urchin-access"
     ],
     "uid": [
       14053005

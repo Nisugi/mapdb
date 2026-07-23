@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36334,
+    "title": [
+      "[Grinding Gears, Interior Clock]"
+    ],
+    "description": [
+      "Walls of old, dilapidated planks of sun-bleached wood are held haphazardly together by crooked nails and strands of copper wire.  A persistent ticking echoes throughout the space, as overhead a chaotic assortment of gears, cogs, and springs appear to support a large brass pendulum that sways slowly, in perfect rhythm.  Spanning the back wall is a lacquered countertop covered in a cluttered pile of odd instruments, bottles, and wares around a glass display case."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "Bloodriven Village",
+    "wayto": {
+      "26888": "out"
+    },
+    "timeto": {
+      "26888": 0.2
+    },
+    "uid": [
+      8212516
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36564,
+    "title": [
+      "[Skyship, Core]"
+    ],
+    "description": [
+      "Intense heat radiates from the machinery lining the area's bulkheads, causing the air to ripple and waver.  A pale blue smoke filters through gaps in the floor, originating from the massive gear-lined devices that are visible in cavernous space beneath the walkway.  A wide and flat brazier hangs above the walkway via a series of chains, the fire within it casting a spiderweb of soft orange light across the metal ceiling."
+    ],
+    "paths": [
+      "Obvious exits: northeast, south"
+    ],
+    "location": false,
+    "wayto": {
+      "36563": "south",
+      "36565": "northeast"
+    },
+    "timeto": {
+      "36563": 0.2,
+      "36565": 0.2
+    },
+    "uid": [
+      12102115
+    ]
+  }
+}

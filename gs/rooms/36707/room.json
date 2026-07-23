@@ -1,0 +1,32 @@
+{
+  "room": {
+    "id": 36707,
+    "title": [
+      "[You Went to Jaired]"
+    ],
+    "description": [
+      "Enclosed by brilliant cut-glass walls, the shop features a braided seagrass rug in the center of its seagrass floor.  A silken sea-themed tapestry hangs under the skylight-set ceiling.  Right near the front is a long mistwood counter and a variegated copper jewelry tree."
+    ],
+    "paths": [
+      "Obvious exits: south, west, out"
+    ],
+    "location": "Mist Harbor",
+    "wayto": {
+      "12267": "out",
+      "36708": "west",
+      "36709": "south"
+    },
+    "timeto": {
+      "12267": 0.2,
+      "36708": 0.2,
+      "36709": 0.2
+    },
+    "tags": [
+      "Jaired",
+      "Jaired's"
+    ],
+    "uid": [
+      631369
+    ]
+  }
+}

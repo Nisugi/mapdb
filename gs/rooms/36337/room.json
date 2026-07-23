@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36337,
+    "title": [
+      "[Starsworn's Weaponry]"
+    ],
+    "description": [
+      "Enclosed by plain wooden walls, the shop features a worn rug in the center of its wooden floor.  A tattered merchant permit hangs under the wooden ceiling.  Right near the front is a gold-leafed mistwood cabinet and a gold-leafed mistwood cabinet."
+    ],
+    "paths": [
+      "Obvious exits: east"
+    ],
+    "location": "Wehnimer's Landing",
+    "wayto": {
+      "36336": "east"
+    },
+    "timeto": {
+      "36336": 0.2
+    },
+    "uid": [
+      639362
+    ]
+  }
+}

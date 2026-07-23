@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36413,
+    "title": [
+      "[Dungeon, Pit Bottom]"
+    ],
+    "description": [
+      "This small chamber has been crudely dug from the surrounding rock.  There are old, broken fingernails and light scratches in the stone around one section of the wall."
+    ],
+    "paths": [
+      "Obvious exits: north"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36412": "north",
+      "36422": ";e fput 'search';sleep 0.5;waitrt?; fput 'open grate'; move 'go grate'"
+    },
+    "timeto": {
+      "36412": 0.2,
+      "36422": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1720,
+      760,
+      1760,
+      800
+    ],
+    "uid": [
+      58024
+    ]
+  }
+}

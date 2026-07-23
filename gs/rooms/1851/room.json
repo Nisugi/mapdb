@@ -1,5 +1,4 @@
 {
-  "checksum": "fdc4413c55261f40da8bd86e906eb19d",
   "room": {
     "id": 1851,
     "title": [
@@ -14,18 +13,19 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "1850": "out",
-      "30715": "/rooms/1851/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1850": 0.2,
-      "30715": "/rooms/1851/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "npchealer",
       "herbalist",
-      "urchin-access",
+      "no forageables",
+      "npchealer",
       "urchin guide healer",
-      "urchin guide herbalist"
+      "urchin guide herbalist",
+      "urchin-access"
     ],
     "uid": [
       3003056

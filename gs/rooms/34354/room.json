@@ -1,5 +1,4 @@
 {
-  "checksum": "235025d32247912d0fccd3bd1bdc739d",
   "room": {
     "id": 34354,
     "title": [
@@ -15,37 +14,37 @@
     "climate": "freshwater",
     "terrain": "mountainous",
     "wayto": {
-      "34353": "/rooms/34354/wayto/stringproc-34353.rb",
-      "34355": "/rooms/34354/wayto/stringproc-34355.rb",
-      "34356": "/rooms/34354/wayto/stringproc-34356.rb",
-      "34357": "/rooms/34354/wayto/stringproc-34357.rb",
-      "34358": "/rooms/34354/wayto/stringproc-34358.rb",
-      "34359": "/rooms/34354/wayto/stringproc-34359.rb",
-      "34360": "/rooms/34354/wayto/stringproc-34360.rb",
-      "34361": "/rooms/34354/wayto/stringproc-34361.rb"
+      "34353": ";e move 'go ring'; $go2_restart=true",
+      "34355": ";e move 'go ring'; $go2_restart=true",
+      "34356": ";e move 'go ring'; $go2_restart=true",
+      "34357": ";e move 'go ring'; $go2_restart=true",
+      "34358": ";e move 'go ring'; $go2_restart=true",
+      "34359": ";e move 'go ring'; $go2_restart=true",
+      "34360": ";e move 'go ring'; $go2_restart=true",
+      "34361": ";e move 'go ring'; $go2_restart=true"
     },
     "timeto": {
-      "34353": 1,
-      "34355": 1,
-      "34356": 1,
-      "34357": 1,
-      "34358": 1,
-      "34359": 1,
-      "34360": 1,
-      "34361": 1
+      "34353": 1.0,
+      "34355": 1.0,
+      "34356": 1.0,
+      "34357": 1.0,
+      "34358": 1.0,
+      "34359": 1.0,
+      "34360": 1.0,
+      "34361": 1.0
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      13150420
-    ],
     "image": "en-zul_logoth-storm_peaks-1703220375.png",
     "image_coords": [
       1095,
       461,
       1114,
       479
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      13150420
     ]
   }
 }

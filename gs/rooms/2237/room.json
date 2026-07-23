@@ -1,5 +1,4 @@
 {
-  "checksum": "ca41a408695007d0e9a314e3fc8b36b6",
   "room": {
     "id": 2237,
     "title": [
@@ -13,27 +12,32 @@
     ],
     "location": "the Eye of V'Tull",
     "wayto": {
-      "2236": "/rooms/2237/wayto/stringproc-2236.rb",
+      "2236": ";e empty_hands\nmove 'climb boulders'\nfill_hands",
       "2238": "northeast"
     },
     "timeto": {
       "2236": 0.2,
       "2238": 0.2
     },
-    "tags": [
-      "pepperthorn root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-11"
-    ],
-    "uid": [
-      3051007
-    ],
     "image": "ti-vtull-1663120653.png",
     "image_coords": [
       37,
       814,
       47,
       824
+    ],
+    "tags": [
+      "crimson-flecked rose",
+      "ember orange rose",
+      "ghost pepper",
+      "horseradish root",
+      "hot pepper",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "pepperthorn root"
+    ],
+    "uid": [
+      3051007
     ]
   }
 }

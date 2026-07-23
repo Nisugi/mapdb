@@ -1,5 +1,4 @@
 {
-  "checksum": "16c787250b0d1c85b7c2fd17b94863d2",
   "room": {
     "id": 16127,
     "title": [
@@ -13,21 +12,28 @@
     ],
     "location": "the Miasmal Forest",
     "wayto": {
-      "11620": "/rooms/16127/wayto/stringproc-11620.rb",
-      "11623": "/rooms/16127/wayto/stringproc-11623.rb",
-      "11653": "/rooms/16127/wayto/stringproc-11653.rb",
-      "22219": "/rooms/16127/wayto/stringproc-22219.rb"
+      "11620": ";e while checkpaths == ['ne', 'se', 'sw', 'nw']; move ['northwest','southwest'][rand(2)]; end; move 'west' while checkpaths.include?('w')",
+      "11623": ";e while checkpaths == ['ne', 'se', 'sw', 'nw']; move ['northwest','southwest'][rand(2)]; end; move 'east' while checkpaths.include?('e')",
+      "11653": ";e while checkpaths == ['ne', 'se', 'sw', 'nw']; move ['northeast','southeast'][rand(2)]; end;",
+      "22219": ";e while checkpaths == ['ne', 'se', 'sw', 'nw']; move ['northeast','southeast'][rand(2)]; end;"
     },
     "timeto": {
-      "11620": 10,
-      "11623": 10,
-      "11653": 10,
-      "22219": 10
+      "11620": 10.0,
+      "11623": 10.0,
+      "11653": 10.0,
+      "22219": 10.0
     },
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      739,
+      516,
+      748,
+      523
+    ],
     "tags": [
-      "no-auto-map",
+      "meta:map:multi-uid",
       "meta:maze",
-      "meta:map:multi-uid"
+      "no-auto-map"
     ],
     "uid": [
       5004001,
@@ -38,13 +44,6 @@
       5004006,
       5004007,
       5004008
-    ],
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      739,
-      516,
-      748,
-      523
     ]
   }
 }

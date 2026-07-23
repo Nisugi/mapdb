@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36425,
+    "title": [
+      "[Dungeon, X Room]"
+    ],
+    "description": [
+      "This cylindrical room is predominantly occupied by a large stone column directly in the center.  Upon the column is carved a large 'X', while off to the side, attached firmly to the rounded wall, is some sort of plaque."
+    ],
+    "paths": [
+      "Obvious exits: west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36424": "west",
+      "36427": "touch x on plaque\ngo panel"
+    },
+    "timeto": {
+      "36424": 0.2,
+      "36427": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1960,
+      360,
+      2000,
+      400
+    ],
+    "uid": [
+      58036
+    ]
+  }
+}

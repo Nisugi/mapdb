@@ -1,19 +1,18 @@
 {
-  "checksum": "8b9bc11798a695677a051e592e755e85",
   "room": {
     "id": 31249,
     "title": [
-      "[Tysong's General Store]"
+      "[Thresk's Outfitting]"
     ],
     "description": [
-      "Beneath a knotted oak ceiling, a painted silk wall panel hangs on one of the gold-veined marble walls.  A floral-etched ceramic case sits in one corner while a tropical floral arrangement rests on the patterned floor."
+      "Enclosed by gold-veined marble walls, the shop features a worn rug in the center of its wooden floor.  A tattered merchant permit hangs under the wooden ceiling.  Right near the front is a plain wooden table and a plain wooden table."
     ],
     "paths": [
-      "Obvious exits: east"
+      "Obvious exits: south"
     ],
     "location": "Mist Harbor",
     "wayto": {
-      "31247": "east"
+      "31247": "south"
     },
     "timeto": {
       "31247": 0.2

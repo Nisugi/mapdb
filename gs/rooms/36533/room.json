@@ -1,0 +1,32 @@
+{
+  "room": {
+    "id": 36533,
+    "title": [
+      "[Spire, Fourth Floor Landing]"
+    ],
+    "description": [
+      "Set upon a wide landing, a small study has been arranged, its stone kept clean and free of dust, lending the space a quiet sense of care.  Slender arrow-slit windows fitted with panes of sky blue and silver glass filter soft, shifting light across a delicate writing desk and wooden stool.  Fine nicks still mark the frame of the door that stands opposite, though their edges have been smoothed with age and use.  Nearby, a spiraling stone staircase winds both up and down, vanishing into shadow below even as it rises toward the next level."
+    ],
+    "paths": [
+      "Obvious exits: down"
+    ],
+    "location": "Summit Academy",
+    "wayto": {
+      "36531": "down",
+      "36534": "go door",
+      "36535": "go staircase"
+    },
+    "timeto": {
+      "36531": 0.2,
+      "36534": 0.2,
+      "36535": 0.2
+    },
+    "tags": [
+      "diriko",
+      "sylinar"
+    ],
+    "uid": [
+      8211005
+    ]
+  }
+}

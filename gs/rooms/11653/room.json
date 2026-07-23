@@ -1,5 +1,4 @@
 {
-  "checksum": "4097a273c13659a1ebd524ba5d14a81b",
   "room": {
     "id": 11653,
     "title": [
@@ -15,11 +14,11 @@
     "climate": "moist",
     "terrain": "muddy wetlands",
     "wayto": {
-      "11620": "/rooms/11653/wayto/stringproc-11620.rb",
-      "11622": "/rooms/11653/wayto/stringproc-11622.rb",
+      "11620": ";e if ((bounty? =~ /^You have made contact with the child/)||(Society.task =~ /You have been tasked to find and rescue an official who was captured/)); mynpc = GameObj.npcs.find { |npc| npc.noun =~ /child|official/ }; else;  mynpc = nil; end;  50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'southeast'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'northwest'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'southeast'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'southwest'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc;",
+      "11622": ";e move 'southeast';move 'southwest';move 'northeast';move 'southwest'",
       "11661": "north",
       "16124": "southwest",
-      "22219": "/rooms/11653/wayto/stringproc-22219.rb"
+      "22219": ";e move 'southwest';move 'southeast'"
     },
     "timeto": {
       "11620": 0.8,
@@ -28,52 +27,6 @@
       "16124": 0.2,
       "22219": 0.4
     },
-    "tags": [
-      "peer north =~ /^Obvious paths: northeast, south, northwest/",
-      "calamia fruit",
-      "aloeas stem",
-      "soft white mushroom",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "genkew mushroom",
-      "blue trafel mushroom",
-      "water chestnut",
-      "stalk of cattail",
-      "spider lily",
-      "alligator lily",
-      "kylan berry",
-      "yellow heliconia",
-      "orange heliconia",
-      "pink heliconia",
-      "red heliconia",
-      "purple passionflower",
-      "pink passionflower",
-      "red passionflower",
-      "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "talneo root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "bur-clover root",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "sunburst blossom",
-      "trollear mushroom",
-      "broken twig",
-      "meta:forage-sensed:night:2026-01",
-      "golden hook mushroom",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      5004017
-    ],
     "image": "rr-maelstrom-1619824696.png",
     "image_coords": [
       801,
@@ -81,6 +34,53 @@
       812,
       457
     ],
-    "check_location": false
+    "tags": [
+      "alligator lily",
+      "aloeas stem",
+      "black peppercorn",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "broken twig",
+      "bur-clover root",
+      "calamia fruit",
+      "cardamom",
+      "cumin seeds",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "golden mushroom",
+      "kylan berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "murdroot",
+      "nutmeg",
+      "orange heliconia",
+      "peer north =~ /^Obvious paths: northeast, south, northwest/",
+      "pink heliconia",
+      "pink passionflower",
+      "pink peppercorn",
+      "purple passionflower",
+      "red heliconia",
+      "red passionflower",
+      "soft mushroom",
+      "spider lily",
+      "stalk of cattail",
+      "star anise",
+      "sunburst blossom",
+      "talneo root",
+      "trollear mushroom",
+      "vanilla bean",
+      "water chestnut",
+      "wavepetal blossom",
+      "wild rice",
+      "wingstem root",
+      "withered mushroom",
+      "yellow heliconia"
+    ],
+    "check_location": false,
+    "uid": [
+      5004017
+    ]
   }
 }

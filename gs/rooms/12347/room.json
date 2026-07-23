@@ -1,5 +1,4 @@
 {
-  "checksum": "5d98809db4f3c71ec599bbfd4a9b2bc5",
   "room": {
     "id": 12347,
     "title": [
@@ -14,27 +13,28 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "10313": "go archway",
-      "30713": "/rooms/12347/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "10313": 0.2,
-      "30713": "/rooms/12347/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "debt",
-      "urchin-access",
-      "urchin guide debts",
-      "debts"
-    ],
-    "uid": [
-      14104002
-    ],
     "image": "en-ta_vaalor-wyverns_keep-1488759285.png",
     "image_coords": [
       309,
       606,
       452,
       668
+    ],
+    "tags": [
+      "debt",
+      "debts",
+      "no forageables",
+      "urchin guide debts",
+      "urchin-access"
+    ],
+    "uid": [
+      14104002
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "2b5910e8862f4864ecbb88e7d4dc7939",
   "room": {
     "id": 34345,
     "title": [
@@ -17,25 +16,25 @@
     "wayto": {
       "34344": "southwest",
       "34346": "northeast",
-      "34353": "/rooms/34345/wayto/stringproc-34353.rb"
+      "34353": ";e empty_hands; move 'swim lake'; fill_hands"
     },
     "timeto": {
       "34344": 0.2,
       "34346": 0.2,
       "34353": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      13150407
-    ],
     "image": "en-zul_logoth-storm_peaks-1703220375.png",
     "image_coords": [
       994,
       361,
       1013,
       380
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      13150407
     ]
   }
 }

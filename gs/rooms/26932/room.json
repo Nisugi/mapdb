@@ -1,5 +1,4 @@
 {
-  "checksum": "5bee5897b54881898d32f06fd162d620",
   "room": {
     "id": 26932,
     "title": [
@@ -20,15 +19,22 @@
     "timeto": {
       "26930": 0.2
     },
-    "uid": [
-      18064010
-    ],
     "image": "imt-fenogslodge.png",
     "image_coords": [
       557,
       62,
       672,
       146
+    ],
+    "tags": [
+      "broken twig",
+      "golden mushroom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "wild chokecherry"
+    ],
+    "uid": [
+      18064010
     ]
   }
 }

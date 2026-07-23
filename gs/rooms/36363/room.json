@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36363,
+    "title": [
+      "[Keep, Guardpost]"
+    ],
+    "description": [
+      "A raised stone platform against one wall of the corridor holds a broken desk and a few rotting chairs.  Assorted rusting spears have been propped up in the corner, and sawhorses, chains, and iron levers anchored to the floor indicate that this was some kind of work area or guard post.  A long, deep groove bisects the ceiling above."
+    ],
+    "paths": [
+      "Obvious exits: north, southwest"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36362": "southwest",
+      "36364": "north"
+    },
+    "timeto": {
+      "36362": 0.2,
+      "36364": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1160,
+      520,
+      1200,
+      560
+    ],
+    "uid": [
+      55034
+    ]
+  }
+}

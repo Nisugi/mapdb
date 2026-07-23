@@ -1,5 +1,4 @@
 {
-  "checksum": "cf2ac3c3b538bd137601b60ffa17df90",
   "room": {
     "id": 7603,
     "title": [
@@ -24,23 +23,23 @@
       "7604": 0.2,
       "7605": 0.2
     },
-    "tags": [
-      "yabathilium fruit",
-      "strand of seaweed",
-      "murdroot",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      84101
-    ],
     "image": "wl-coastal_cliffs-1264234799.png",
     "image_coords": [
       520,
       529,
       530,
       539
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "murdroot",
+      "strand of seaweed",
+      "yabathilium fruit"
+    ],
+    "uid": [
+      84101
     ]
   }
 }

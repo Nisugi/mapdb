@@ -1,5 +1,4 @@
 {
-  "checksum": "ec692031d9a5d981aa671368d0db90ef",
   "room": {
     "id": 1512,
     "title": [
@@ -17,25 +16,25 @@
     "terrain": "hard, flat",
     "wayto": {
       "1511": "south",
-      "28598": "/rooms/1512/wayto/stringproc-28598.rb"
+      "28598": ";e fput 'search'; move 'go wall'"
     },
     "timeto": {
       "1511": 0.2,
       "28598": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      4902006
-    ],
     "image": "vo-solhaven-1675635404.png",
     "image_coords": [
       1185,
       954,
       1209,
       978
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables"
+    ],
+    "uid": [
+      4902006
     ]
   }
 }

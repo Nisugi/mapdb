@@ -1,5 +1,4 @@
 {
-  "checksum": "7108e2b3b2883e14921fb6026a5b9ae4",
   "room": {
     "id": 19967,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "14650": "/rooms/19967/wayto/stringproc-14650.rb",
+      "14650": ";e fput \"search\";fput \"climb stone stairs\"",
       "19951": "go oak door",
       "19968": "go modwir door"
     },
@@ -22,21 +21,21 @@
       "19951": 0.2,
       "19968": 0.2
     },
-    "tags": [
-      "meta:teleport:fwi",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      28102
-    ],
     "image": "wl-museum-1487435869.png",
     "image_coords": [
       977,
       441,
       1117,
       503
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:teleport:fwi",
+      "no forageables"
+    ],
+    "uid": [
+      28102
     ]
   }
 }

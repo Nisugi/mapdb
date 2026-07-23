@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36579,
+    "title": [
+      "[Skyship, Cages]"
+    ],
+    "description": [
+      "Four pools sit on either side of the room and are fed by giant metal pipes suspended from the ceiling.  These pipes appear long dry, and the fetid, brown-black water in the pools is commingled with muck, debris, and the remains of both animals and humanoid figures.  A wide path splits these pools in a cross and runs the length of the area."
+    ],
+    "paths": [
+      "Obvious exits: south, west"
+    ],
+    "location": false,
+    "wayto": {
+      "36578": "south",
+      "36580": "west"
+    },
+    "timeto": {
+      "36578": 0.2,
+      "36580": 0.2
+    },
+    "uid": [
+      12102084
+    ]
+  }
+}

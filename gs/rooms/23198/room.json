@@ -1,5 +1,4 @@
 {
-  "checksum": "d885c16ab392154c5aa4be5eda3a6427",
   "room": {
     "id": 23198,
     "title": [
@@ -25,15 +24,15 @@
       "32987": 0.2
     },
     "tags": [
-      "agave heart",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      5001054
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
     ],
     "unique_loot": [
       "deep blue curtain with the sigil of Twilight Hall"
+    ],
+    "uid": [
+      5001054
     ]
   }
 }

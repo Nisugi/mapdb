@@ -1,5 +1,4 @@
 {
-  "checksum": "f11266fe7c9d66df0db593f2c551813e",
   "room": {
     "id": 31060,
     "title": [
@@ -14,19 +13,19 @@
     "location": "the Hinterwilds",
     "wayto": {
       "29871": "out",
-      "34399": "/rooms/31060/wayto/stringproc-34399.rb"
+      "34399": ";e true"
     },
     "timeto": {
       "29871": 0.2,
-      "34399": "/rooms/31060/timeto/stringproc-34399.rb"
+      "34399": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "furrier",
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2023-01",
-      "urchin-access",
-      "urchin guide furrier"
+      "no forageables",
+      "urchin guide furrier",
+      "urchin-access"
     ],
     "uid": [
       7503258

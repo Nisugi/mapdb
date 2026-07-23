@@ -1,5 +1,4 @@
 {
-  "checksum": "d1c4e25422efbc3a5b370dc97cf68b9e",
   "room": {
     "id": 1955,
     "title": [
@@ -19,8 +18,8 @@
       "1956": "west",
       "1958": "go headquarters",
       "12511": "go building",
-      "23281": "/rooms/1955/wayto/stringproc-23281.rb",
-      "30715": "/rooms/1955/wayto/stringproc-30715.rb"
+      "23281": ";e move('go doorframe');UserVars.mapdb_talondown_origin = 1955;",
+      "30715": ";e true"
     },
     "timeto": {
       "1951": 0.2,
@@ -28,23 +27,23 @@
       "1958": 0.2,
       "12511": 0.2,
       "23281": 0.4,
-      "30715": "/rooms/1955/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      3001043
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       1163,
       254,
       1193,
       284
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "no forageables",
+      "urchin-access"
+    ],
+    "uid": [
+      3001043
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "85fc4af0be584f0b449d7e4633f28dd5",
   "room": {
     "id": 7170,
     "title": [
@@ -22,39 +21,39 @@
       "7169": 0.2,
       "7171": 0.2
     },
-    "tags": [
-      "withered black mushroom",
-      "stalk of chicory",
-      "cuctucae berry",
-      "blue whortleberry",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "bright red cranberry",
-      "small wild rose",
-      "wild chokecherry",
-      "acantha leaf",
-      "wolifrew lichen",
-      "aloeas stem",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "murdroot",
-      "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "skeleton",
-      "meta:forage-sensed:night:2024-01",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      18008
-    ],
     "image": "wl-graveyard-1264234799.png",
     "image_coords": [
       214,
       785,
       224,
       795
+    ],
+    "tags": [
+      "acantha leaf",
+      "aloeas stem",
+      "angelica root",
+      "blue whortleberry",
+      "bright red cranberry",
+      "cuctucae berry",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-01",
+      "murdroot",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "skeleton",
+      "stalk of chicory",
+      "sweetfern stalk",
+      "valerian root",
+      "wild chokecherry",
+      "wild rose",
+      "wingstem root",
+      "withered mushroom",
+      "wolifrew lichen"
+    ],
+    "uid": [
+      18008
     ]
   }
 }

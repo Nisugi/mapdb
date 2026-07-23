@@ -1,5 +1,4 @@
 {
-  "checksum": "a8e5694c50a29b35acccb86923d09e2a",
   "room": {
     "id": 9472,
     "title": [
@@ -17,31 +16,31 @@
       "9410": "out",
       "9473": "go arch",
       "29682": "go alcove",
-      "30712": "/rooms/9472/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "9410": 0.2,
       "9473": 0.2,
       "29682": 0.2,
-      "30712": "/rooms/9472/timeto/stringproc-30712.rb"
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "bank",
-      "no forageables",
-      "meta:forage-sensed",
-      "urchin-access",
-      "urchin guide bank",
-      "meta:nomagic"
-    ],
-    "uid": [
-      13010001
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       677,
       451,
       713,
       487
+    ],
+    "tags": [
+      "bank",
+      "meta:forage-sensed",
+      "meta:nomagic",
+      "no forageables",
+      "urchin guide bank",
+      "urchin-access"
+    ],
+    "uid": [
+      13010001
     ]
   }
 }

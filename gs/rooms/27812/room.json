@@ -1,5 +1,4 @@
 {
-  "checksum": "17d5586a363c6853e7aa4a05221f4dce",
   "room": {
     "id": 27812,
     "title": [
@@ -17,9 +16,12 @@
       "27815": "go door"
     },
     "timeto": {
-      "25676": "/rooms/27812/timeto/stringproc-25676.rb",
+      "25676": ";e (!defined?(Stats.prof) or Stats.prof == 'Bard') ? 0.2 : nil",
       "27815": 0.2
     },
+    "tags": [
+      "no forageables"
+    ],
     "uid": [
       284029
     ]

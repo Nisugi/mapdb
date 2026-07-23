@@ -1,5 +1,4 @@
 {
-  "checksum": "da2a14c8871a19d90b74dea684751bba",
   "room": {
     "id": 5907,
     "title": [
@@ -15,28 +14,28 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "3516": "/rooms/5907/wayto/stringproc-3516.rb",
+      "3516": ";e fput 'unhide' if invisible?;move('go gate')",
       "5948": "southwest"
     },
     "timeto": {
       "3516": 0.2,
       "5948": 0.2
     },
-    "tags": [
-      "advguard",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      14100052
-    ],
     "image": "en-victory-1264234799.png",
     "image_coords": [
       1126,
       370,
       1136,
       380
+    ],
+    "tags": [
+      "advguard",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-09",
+      "no forageables"
+    ],
+    "uid": [
+      14100052
     ]
   }
 }

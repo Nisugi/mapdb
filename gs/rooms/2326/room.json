@@ -1,5 +1,4 @@
 {
-  "checksum": "d617eecbdb0bf39ed2bd39a143bde421",
   "room": {
     "id": 2326,
     "title": [
@@ -19,36 +18,36 @@
       "2319": "go gate",
       "2327": "southeast",
       "18650": "go tower",
-      "30709": "/rooms/2326/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "2319": 0.2,
       "2327": 0.2,
-      "18650": "/rooms/2326/timeto/stringproc-18650.rb",
-      "30709": "/rooms/2326/timeto/stringproc-30709.rb"
+      "18650": ";e ((!defined?(Stats.prof) or Stats.prof == 'Cleric') ? 0.2 : nil);",
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "clericguild",
-      "meta:mapname:Icemule Trace - Cleric Guild",
-      "meta:mapshortname:Cleric Guild (Icemule)",
-      "meta:mapcategory:Icemule Trace",
-      "meta:mapcategory:Guilds",
-      "urchin guide clericguild",
-      "urchin-access",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01",
-      "cleric guild"
-    ],
-    "uid": [
-      670011
-    ],
     "image": "imt-cleric_guild-1275420218.png",
     "image_coords": [
       452,
       383,
       498,
       429
+    ],
+    "tags": [
+      "cleric guild",
+      "clericguild",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Icemule Trace",
+      "meta:mapname:Icemule Trace - Cleric Guild",
+      "meta:mapshortname:Cleric Guild (Icemule)",
+      "no forageables",
+      "urchin guide clericguild",
+      "urchin-access"
+    ],
+    "uid": [
+      670011
     ]
   }
 }

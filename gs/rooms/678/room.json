@@ -1,5 +1,4 @@
 {
-  "checksum": "7f872cfc6e76787690964eb34f594069",
   "room": {
     "id": 678,
     "title": [
@@ -19,29 +18,29 @@
     "wayto": {
       "677": "southeast",
       "679": "southwest",
-      "30714": "/rooms/678/wayto/stringproc-30714.rb",
+      "30714": ";e true",
       "32674": "go pine shop"
     },
     "timeto": {
       "677": 0.2,
       "679": 0.2,
-      "30714": "/rooms/678/timeto/stringproc-30714.rb",
+      "30714": ";e Map[7].timeto['30714'].call;",
       "32674": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "urchin-access"
-    ],
-    "uid": [
-      13050006
-    ],
     "image": "en-sylvarraend-1264234799.png",
     "image_coords": [
       384,
       727,
       420,
       763
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables",
+      "urchin-access"
+    ],
+    "uid": [
+      13050006
     ]
   }
 }

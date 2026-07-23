@@ -1,5 +1,4 @@
 {
-  "checksum": "77b43c1b2f0ebb253f6b7d31e12cbe7b",
   "room": {
     "id": 13537,
     "title": [
@@ -18,15 +17,18 @@
     "timeto": {
       "10761": 0.2
     },
-    "uid": [
-      287101
-    ],
     "image": "en-vaalor-bard-guild.png",
     "image_coords": [
       111,
       360,
       127,
       378
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      287101
     ]
   }
 }

@@ -1,8 +1,8 @@
 {
-  "checksum": "215736c8304157b258402975c9da740d",
   "room": {
     "id": 31182,
     "title": [
+      "[Rumor Woods, Caravan Trail]",
       "[Caravan Trail]"
     ],
     "description": [
@@ -16,23 +16,29 @@
       "31181": "south",
       "31183": "northeast",
       "31201": "go verdigris tent",
-      "31202": "go linen tent"
+      "31202": "go linen tent",
+      "36484": "go sky tent",
+      "36495": "go driftwood shack",
+      "36524": "go brown awning"
     },
     "timeto": {
       "31181": 0.2,
       "31183": 0.2,
       "31201": 0.2,
-      "31202": 0.2
+      "31202": 0.2,
+      "36484": 0.2,
+      "36495": 0.2,
+      "36524": 0.2
     },
+    "image": "fest-RW2026.png",
+    "image_coords": [
+      1313,
+      342,
+      1336,
+      362
+    ],
     "uid": [
       8208754
-    ],
-    "image": "fest-RW2023-1687094965.png",
-    "image_coords": [
-      837,
-      362,
-      867,
-      392
     ]
   }
 }

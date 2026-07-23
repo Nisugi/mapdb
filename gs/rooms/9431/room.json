@@ -1,5 +1,4 @@
 {
-  "checksum": "c365e7d8c0b3639313a8590e903979b4",
   "room": {
     "id": 9431,
     "title": [
@@ -18,21 +17,34 @@
     "timeto": {
       "9555": 0.2
     },
-    "tags": [
-      "meta:mapname:Zul Logoth - Wizard Guild",
-      "meta:mapshortname:Wizard Guild (Zul Logoth)",
-      "meta:mapcategory:Zul Logoth",
-      "meta:mapcategory:Guilds"
-    ],
-    "uid": [
-      688004
-    ],
     "image": "en-zul-wizard_guild-1648064027.png",
     "image_coords": [
       280,
       26,
       342,
       86
+    ],
+    "tags": [
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Zul Logoth",
+      "meta:mapname:Zul Logoth - Wizard Guild",
+      "meta:mapshortname:Wizard Guild (Zul Logoth)",
+      "murdroot",
+      "pepperthorn root",
+      "soft mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      688004
     ]
   }
 }

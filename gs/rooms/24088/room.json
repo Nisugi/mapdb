@@ -1,5 +1,4 @@
 {
-  "checksum": "517ca623314f8025dd3218afb732d8a4",
   "room": {
     "id": 24088,
     "title": [
@@ -15,7 +14,7 @@
     "wayto": {
       "24089": "southeast",
       "24091": "southwest",
-      "24092": "/rooms/24088/wayto/stringproc-24092.rb"
+      "24092": ";e fput \"get my egg-eater\";fput \"put egg-eater in stone door\";move \"go stone door\""
     },
     "timeto": {
       "24089": 0.2,

@@ -1,5 +1,4 @@
 {
-  "checksum": "14d61310b6a58d83f08e93350a8fe0bb",
   "room": {
     "id": 15626,
     "title": [
@@ -20,8 +19,14 @@
     },
     "timeto": {
       "13137": 0.2,
-      "33715": "/rooms/15626/timeto/stringproc-33715.rb"
+      "33715": ";e (UserVars.Elaienaran_Haven.to_s != 'true' ? nil : 0.2)"
     },
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells",
+      "wild sage"
+    ],
     "uid": [
       13051015
     ]

@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36486,
+    "title": [
+      "[Bowl Me Over]"
+    ],
+    "description": [
+      "The walnut-paneled walls of the wool-curtained shop are decorated in framed parchment recipe cards, the black-inked calligraphy flanked by herb-carved racks painted in shades of green and sepia.  Fragrant spice-filled jars are interspersed across the oiled wooden counters, each parchment-labeled container displayed on one of the stacks of leathery cook books."
+    ],
+    "paths": [
+      "Obvious exits: north, out"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "34479": "out",
+      "36487": "north"
+    },
+    "timeto": {
+      "34479": 0.2,
+      "36487": 0.2
+    },
+    "uid": [
+      8209605
+    ]
+  }
+}

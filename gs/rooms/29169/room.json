@@ -1,5 +1,4 @@
 {
-  "checksum": "f372fc931be67d5c07a088c02cc26695",
   "room": {
     "id": 29169,
     "title": [
@@ -15,36 +14,36 @@
     "climate": "arid",
     "terrain": "mountainous",
     "wayto": {
-      "29168": "/rooms/29169/wayto/stringproc-29168.rb",
+      "29168": ";e cur_stance = XMLData.stance_text;empty_hands;fput('stance offensive') if cur_stance != 'offensive';move('climb basalt');fill_hands;fput('stance ' + cur_stance) if cur_stance != 'offensive';$go2_restart = true",
       "29170": "go crater rim"
     },
     "timeto": {
       "29168": 0.2,
       "29170": 0.2
     },
-    "tags": [
-      "yellow primrose",
-      "stalk of drakefern",
-      "pepperthorn root",
-      "meta:forage-sensed",
-      "white cotton boll",
-      "spring onion",
-      "mate leaves",
-      "butterfly pea flower",
-      "sprig of rooibos",
-      "lemon balm",
-      "lemon verbena",
-      "meta:forage-sensed:day:2025-07"
-    ],
-    "uid": [
-      3023106
-    ],
     "image": "ti-feyrie-1599500894.png",
     "image_coords": [
       377,
       378,
       402,
       402
+    ],
+    "tags": [
+      "butterfly pea flower",
+      "lemon balm",
+      "lemon verbena",
+      "mate leaves",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "pepperthorn root",
+      "sprig of rooibos",
+      "spring onion",
+      "stalk of drakefern",
+      "white cotton boll",
+      "yellow primrose"
+    ],
+    "uid": [
+      3023106
     ]
   }
 }

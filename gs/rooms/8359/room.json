@@ -1,5 +1,4 @@
 {
-  "checksum": "11d9182e0e8db59cf1ae16c750d6bed5",
   "room": {
     "id": 8359,
     "title": [
@@ -14,25 +13,25 @@
     "location": "the Spider Temple",
     "wayto": {
       "8354": "go door",
-      "25497": "/rooms/8359/wayto/stringproc-25497.rb"
+      "25497": ";e begin; fput 'search'; search_result = waitfor 'don\\'t find anything', 'the opening of an escape tunnel', 'nothing other than the tunnel', 'Roundtime:'; waitrt?; end until search_result =~ /tunnel/; move 'go tunnel'"
     },
     "timeto": {
       "8354": 0.2,
-      "25497": 4
+      "25497": 4.0
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      13025
-    ],
     "image": "wl-spider_temple-1264234799.png",
     "image_coords": [
       498,
       644,
       508,
       654
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables"
+    ],
+    "uid": [
+      13025
     ]
   }
 }

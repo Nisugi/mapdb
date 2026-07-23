@@ -1,5 +1,4 @@
 {
-  "checksum": "c2f682e78bd8a2b2fbb675de1d85e1b8",
   "room": {
     "id": 3807,
     "title": [
@@ -16,40 +15,40 @@
       "223": "out",
       "6932": "go wooden steps",
       "23335": "go wooden trapdoor",
-      "30708": "/rooms/3807/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "223": 0.2,
       "6932": 0.2,
       "23335": 0.3,
-      "30708": "/rooms/3807/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "node",
-      "supernode",
-      "meta:teleport:fwi",
-      "locksmith pool",
-      "meta:boxpool:table:sturdy wooden table",
-      "meta:boxpool:npc:scruffy human worker",
-      "meta:trashcan:large wastebasket",
-      "urchin-access",
-      "urchin guide locksmithpool",
-      "urchin guide easttower",
-      "locksmithpool",
-      "easttower",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      3040
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       317,
       84,
       353,
       120
+    ],
+    "tags": [
+      "easttower",
+      "locksmith pool",
+      "locksmithpool",
+      "meta:boxpool:npc:scruffy human worker",
+      "meta:boxpool:table:sturdy wooden table",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:teleport:fwi",
+      "meta:trashcan:large wastebasket",
+      "no forageables",
+      "node",
+      "supernode",
+      "urchin guide easttower",
+      "urchin guide locksmithpool",
+      "urchin-access"
+    ],
+    "uid": [
+      3040
     ]
   }
 }

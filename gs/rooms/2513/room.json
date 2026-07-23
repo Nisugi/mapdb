@@ -1,5 +1,4 @@
 {
-  "checksum": "36a0f540deb955329c195b6d53bc2952",
   "room": {
     "id": 2513,
     "title": [
@@ -15,31 +14,31 @@
     "climate": "glacial",
     "terrain": "barren scrub",
     "wayto": {
-      "2512": "/rooms/2513/wayto/stringproc-2512.rb",
-      "2514": "/rooms/2513/wayto/stringproc-2514.rb"
+      "2512": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'northwest'",
+      "2514": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'south'"
     },
     "timeto": {
       "2512": 0.2,
       "2514": 0.2
     },
-    "tags": [
-      "snow pansy",
-      "arctic moss",
-      "broken twig",
-      "ironfern root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      4044203
-    ],
     "image": "imt-trail-1264234799.png",
     "image_coords": [
       1170,
       415,
       1180,
       425
+    ],
+    "tags": [
+      "arctic moss",
+      "broken twig",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "snow pansy",
+      "sunburst blossom"
+    ],
+    "uid": [
+      4044203
     ]
   }
 }

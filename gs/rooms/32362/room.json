@@ -1,5 +1,4 @@
 {
-  "checksum": "78ff4ed503fee667b90fca49fad9a159",
   "room": {
     "id": 32362,
     "title": [
@@ -13,25 +12,27 @@
     ],
     "location": "the Crawling Shore",
     "wayto": {
-      "32334": "go trapdoor"
+      "32334": "go trapdoor",
+      "32363": "lean stone"
     },
     "timeto": {
-      "32334": 0.2
+      "32334": 0.2,
+      "32363": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      4576060
-    ],
     "image": "imt-Road_to_Moonsedge-1668377644.png",
     "image_coords": [
       689,
       1198,
       739,
       1223
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "no forageables"
+    ],
+    "uid": [
+      4576060
     ]
   }
 }

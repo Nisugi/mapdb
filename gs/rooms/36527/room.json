@@ -1,0 +1,28 @@
+{
+  "room": {
+    "id": 36527,
+    "title": [
+      "[Sylinar's Spire, Great Hall]"
+    ],
+    "description": [
+      "Beyond the threshold, the tower opens into a circular chamber of cold stone.  A spiraling stone staircase of the same ancient building blocks as the walls winds upward from the center, coiling patient and deliberate toward the floors above.  An iron railing traces the circumference, and behind it the curved walls rise in bookshelves, broken only by an open stone-ringed archway.  Iron candelabras ring the stairs, their candles casting a low amber light that deepens the shadows rather than drives them out."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "Summit Academy",
+    "wayto": {
+      "25902": "out",
+      "36528": "go archway",
+      "36529": "go staircase"
+    },
+    "timeto": {
+      "25902": 0.2,
+      "36528": 0.2,
+      "36529": 0.2
+    },
+    "uid": [
+      8211002
+    ]
+  }
+}

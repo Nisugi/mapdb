@@ -1,5 +1,4 @@
 {
-  "checksum": "68cbd48dc4b66b77504fb3bbd9241c74",
   "room": {
     "id": 6,
     "title": [
@@ -22,20 +21,21 @@
       "5": 0.2,
       "7": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      13107001
-    ],
     "image": "en-ta_illistim_buildings.png",
     "image_coords": [
       1271,
       2345,
       1330,
       2403
+    ],
+    "tags": [
+      "inn",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-11",
+      "no forageables"
+    ],
+    "uid": [
+      13107001
     ]
   }
 }

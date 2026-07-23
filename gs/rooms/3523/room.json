@@ -1,5 +1,4 @@
 {
-  "checksum": "49253132ca8a757fbdd0ca2fd9b23b74",
   "room": {
     "id": 3523,
     "title": [
@@ -22,34 +21,34 @@
       "3522": "west",
       "3524": "north",
       "5906": "go gate",
-      "25626": "/rooms/3523/wayto/stringproc-25626.rb",
-      "30713": "/rooms/3523/wayto/stringproc-30713.rb"
+      "25626": ";e fput 'search';move 'go trapdoor'",
+      "30713": ";e true"
     },
     "timeto": {
       "3522": 0.2,
       "3524": 0.2,
       "5906": 0.2,
       "25626": 0.2,
-      "30713": "/rooms/3523/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "trash",
-      "urchin guide annattogate",
-      "urchin-access",
-      "annattogate",
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      14100038
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       1147,
       853,
       1184,
       885
+    ],
+    "tags": [
+      "annattogate",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "no forageables",
+      "trash",
+      "urchin guide annattogate",
+      "urchin-access"
+    ],
+    "uid": [
+      14100038
     ]
   }
 }

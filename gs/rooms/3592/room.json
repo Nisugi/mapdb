@@ -1,5 +1,4 @@
 {
-  "checksum": "f786d2002b03add04a492936e67aaf19",
   "room": {
     "id": 3592,
     "title": [
@@ -13,27 +12,27 @@
     ],
     "location": "Stone Valley",
     "wayto": {
-      "3590": "/rooms/3592/wayto/stringproc-3590.rb",
+      "3590": ";e unless (move 'go door'); echo 'Waiting for the door to open... '; waitfor 'You hear a soft click from the door and it suddenly flies open.'; move 'go door'; end",
       "3593": "east"
     },
     "timeto": {
       "3590": 0.2,
       "3593": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      4292012
-    ],
     "image": "wl-stronghold-1264234799.png",
     "image_coords": [
       544,
       577,
       554,
       587
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "no forageables"
+    ],
+    "uid": [
+      4292012
     ]
   }
 }

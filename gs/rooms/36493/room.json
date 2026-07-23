@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36493,
+    "title": [
+      "[Creative Couture]"
+    ],
+    "description": [
+      "Ivy garlands are intertwined with strands of paper-cut flora and lengths of jewel-crafted insects, the decorative chains radiating outwards from a perforated starburst chandelier illuminating the room.  A grouping of wire-framed mannequins are framed by a duo of bronze-riveted containers, their leather surfaces branded in a variety of stylized fauna.  The subtle scent of bourbon and pink lavender permeates the shop, the tendrils of smoke traversing from a crescentic censer nestled in the far corner."
+    ],
+    "paths": [
+      "Obvious exits: north, out"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "31188": "out",
+      "36494": "north"
+    },
+    "timeto": {
+      "31188": 0.2,
+      "36494": 0.2
+    },
+    "uid": [
+      8209435
+    ]
+  }
+}

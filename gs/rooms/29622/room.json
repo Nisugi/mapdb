@@ -1,5 +1,4 @@
 {
-  "checksum": "a74d42487ea1532e2cf45997a6ef4eaa",
   "room": {
     "id": 29622,
     "title": [
@@ -17,27 +16,27 @@
     "wayto": {
       "28913": "go carriage path",
       "29623": "go massive doors",
-      "30716": "/rooms/29622/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28913": 0.2,
       "29623": 0.2,
-      "30716": "/rooms/29622/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access",
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      18050001
-    ],
     "image": "mho-hand_of_the_arkati-1652309586.png",
     "image_coords": [
       371,
       502,
       452,
       578
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables",
+      "urchin-access"
+    ],
+    "uid": [
+      18050001
     ]
   }
 }

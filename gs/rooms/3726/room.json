@@ -1,5 +1,4 @@
 {
-  "checksum": "4e709365677d4c3cbbeb6ec0085973cb",
   "room": {
     "id": 3726,
     "title": [
@@ -22,23 +21,24 @@
     },
     "timeto": {
       "2359": 0.2,
-      "15703": 3,
-      "27747": 3
+      "15703": 3.0,
+      "27747": 3.0
     },
-    "tags": [
-      "meta:mapname:Icemule Trace - Town Walls",
-      "meta:mapcategory:Icemule Trace",
-      "meta:mapshortname:Town Walls"
-    ],
-    "uid": [
-      4050005
-    ],
     "image": "imt-Town_Walls_Map-1707071672.png",
     "image_coords": [
       467,
       212,
       493,
       241
+    ],
+    "tags": [
+      "meta:mapcategory:Icemule Trace",
+      "meta:mapname:Icemule Trace - Town Walls",
+      "meta:mapshortname:Town Walls",
+      "no forageables"
+    ],
+    "uid": [
+      4050005
     ]
   }
 }

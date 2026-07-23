@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36622,
+    "title": [
+      "[Dirvy's Magic Shoppe]"
+    ],
+    "description": [
+      "Gold-veined marble walls rise from a gold-speckled marble floor.  Just above an iron candelabra hangs a ruby-eyed grinning skull, and a low skylight-set ceiling completes the picture.  A low wrought iron table and a gold-leafed mistwood cabinet stand side by side in the middle of the room."
+    ],
+    "paths": [
+      "Obvious exits: east, out"
+    ],
+    "location": "Icemule Trace",
+    "wayto": {
+      "36621": "east"
+    },
+    "timeto": {
+      "36621": 0.2
+    },
+    "uid": [
+      637115
+    ]
+  }
+}

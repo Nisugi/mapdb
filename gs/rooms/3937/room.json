@@ -1,5 +1,4 @@
 {
-  "checksum": "5da6262de73972f411b2d7a9cc653c21",
   "room": {
     "id": 3937,
     "title": [
@@ -36,30 +35,30 @@
       "32765": 0.2,
       "32769": 0.2
     },
-    "tags": [
-      "black hook mushroom",
-      "soft white mushroom",
-      "red trafel mushroom",
-      "blue trafel mushroom",
-      "withered black mushroom",
-      "white hook mushroom",
-      "cave moss",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "wingstem root",
-      "meta:forage-sensed:day:2023-02"
-    ],
-    "uid": [
-      2133001
-    ],
     "image": "wl-catacombs-1264234799.png",
     "image_coords": [
       580,
       485,
       600,
       505
+    ],
+    "tags": [
+      "black mushroom",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "cave moss",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "red mushroom",
+      "soft mushroom",
+      "white hook mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      2133001
     ]
   }
 }

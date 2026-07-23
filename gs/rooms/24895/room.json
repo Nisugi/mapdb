@@ -1,5 +1,4 @@
 {
-  "checksum": "5e6236b195ba7e39b5eb8b38b1bbf151",
   "room": {
     "id": 24895,
     "title": [
@@ -13,26 +12,26 @@
     ],
     "location": "the Settlement of Reim",
     "wayto": {
-      "24876": "/rooms/24895/wayto/stringproc-24876.rb",
+      "24876": ";e fput 'go vortex';fput 'go vortex';$go2_restart=true",
       "24888": "go mist"
     },
     "timeto": {
       "24876": 0.2,
       "24888": 0.2
     },
-    "tags": [
-      "vortex",
-      "exit"
-    ],
-    "uid": [
-      -7105024
-    ],
     "image": "imt-Reim-1260914759.png",
     "image_coords": [
       604,
       968,
       618,
       981
+    ],
+    "tags": [
+      "exit",
+      "vortex"
+    ],
+    "uid": [
+      -7105024
     ]
   }
 }

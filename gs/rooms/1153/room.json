@@ -1,5 +1,4 @@
 {
-  "checksum": "7014513a375d65cfd09d8fcb683a3301",
   "room": {
     "id": 1153,
     "title": [
@@ -16,56 +15,56 @@
     "climate": "temperate",
     "terrain": "muddy wetlands",
     "wayto": {
-      "1152": "/rooms/1153/wayto/stringproc-1152.rb",
-      "1154": "/rooms/1153/wayto/stringproc-1154.rb"
+      "1152": ";e move 'northeast'",
+      "1154": ";e move 'south'"
     },
     "timeto": {
       "1152": 0.2,
       "1154": 0.2
     },
-    "tags": [
-      "stalk of cattail",
-      "calamia fruit",
-      "haphip root",
-      "soft white mushroom",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "genkew mushroom",
-      "blue trafel mushroom",
-      "wild gooseberry",
-      "water chestnut",
-      "small wild rose",
-      "kylan berry",
-      "blue whortleberry",
-      "pepperthorn root",
-      "murdroot",
-      "wavepetal blossom",
-      "sunburst blossom",
-      "bolmara lichen",
-      "talneo root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "trollfear mushroom",
-      "bur-clover root",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "meta:forage-sensed:night:2023-02"
-    ],
-    "uid": [
-      13000039
-    ],
     "image": "en-trail-1264234799.png",
     "image_coords": [
       656,
       321,
       666,
       331
+    ],
+    "tags": [
+      "black peppercorn",
+      "blue trafel mushroom",
+      "blue whortleberry",
+      "bolmara lichen",
+      "bur-clover root",
+      "calamia fruit",
+      "cardamom",
+      "cumin seeds",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "haphip root",
+      "kylan berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-02",
+      "murdroot",
+      "nutmeg",
+      "pepperthorn root",
+      "pink peppercorn",
+      "small wild rose",
+      "soft white mushroom",
+      "stalk of cattail",
+      "star anise",
+      "sunburst blossom",
+      "talneo root",
+      "trollfear mushroom",
+      "vanilla bean",
+      "water chestnut",
+      "wavepetal blossom",
+      "wild gooseberry",
+      "wingstem root",
+      "withered black mushroom"
+    ],
+    "uid": [
+      13000039
     ]
   }
 }

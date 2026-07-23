@@ -1,5 +1,4 @@
 {
-  "checksum": "f0cdbfdb7aed7a538c701be5760998e0",
   "room": {
     "id": 34509,
     "title": [
@@ -15,38 +14,38 @@
     "climate": "arid",
     "terrain": "rough",
     "wayto": {
-      "7927": "/rooms/34509/wayto/stringproc-7927.rb",
+      "7927": ";e bleak_rooms = [474204, 474205, 474206, 474207, 474208, 474209, 474210, 474211, 474212, 474213, 474214, 474215, 474216, 474218, 474219, 474220, 474221, 474222, 474224, 474225, 474226, 474227, 474228, 474229, 474200, 474201, 474202, 474203]\n;bleak_rooms.map! { |r| Room[\"u#{r}\"].id }\n;bleak_rooms.each { |r|\n;  options = {'force': true}\n;  Script.run('go2', \"#{r}\", options) unless Room.current.id == r\n;  if GameObj.loot.any? { |o| o.name == 'rippling ethereal green portal' }\n;    break\n;  end\n;}\n;move(\"go ethereal portal\")\n;$go2_restart = true",
       "34508": "west",
       "34510": "north"
     },
     "timeto": {
-      "7927": 1,
+      "7927": 1.0,
       "34508": 0.2,
       "34510": 0.2
     },
-    "tags": [
-      "stalk of chicory",
-      "broken twig",
-      "heath aster",
-      "yellow primrose",
-      "small wild rose",
-      "cactus flower",
-      "pepperthorn root",
-      "banana leaf",
-      "ghost pepper",
-      "hot pepper",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      474204
-    ],
     "image": "wl-darkstone-1717380773.png",
     "image_coords": [
       185,
       424,
       196,
       435
+    ],
+    "tags": [
+      "banana leaf",
+      "broken twig",
+      "cactus flower",
+      "ghost pepper",
+      "heath aster",
+      "hot pepper",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2025-02",
+      "pepperthorn root",
+      "small wild rose",
+      "stalk of chicory",
+      "yellow primrose"
+    ],
+    "uid": [
+      474204
     ]
   }
 }

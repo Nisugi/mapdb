@@ -1,5 +1,4 @@
 {
-  "checksum": "988b0b97513e471d36a3d7586b4a1ec1",
   "room": {
     "id": 18148,
     "title": [
@@ -16,29 +15,29 @@
     "terrain": "none",
     "wayto": {
       "18142": "out",
-      "30714": "/rooms/18148/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "18142": 0.2,
-      "30714": "/rooms/18148/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access",
-      "urchin guide debts",
-      "debts",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      13102004
-    ],
     "image": "en-ta_illistim-new.jpg",
     "image_coords": [
       543,
       925,
       566,
       947
+    ],
+    "tags": [
+      "debts",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-11",
+      "no forageables",
+      "urchin guide debts",
+      "urchin-access"
+    ],
+    "uid": [
+      13102004
     ]
   }
 }

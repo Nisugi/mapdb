@@ -1,5 +1,4 @@
 {
-  "checksum": "4b2fe4c32e45f6e20acd558e965d267f",
   "room": {
     "id": 34479,
     "title": [
@@ -15,12 +14,14 @@
     "wayto": {
       "34478": "north",
       "34480": "south",
-      "34484": "go golden door"
+      "34484": "go golden door",
+      "36486": "go walnut door"
     },
     "timeto": {
       "34478": 0.2,
       "34480": 0.2,
-      "34484": 0.2
+      "34484": 0.2,
+      "36486": 0.2
     },
     "uid": [
       8211354

@@ -1,5 +1,4 @@
 {
-  "checksum": "cbd59aba5afd8932b3174d5bd2a1d30a",
   "room": {
     "id": 5446,
     "title": [
@@ -34,53 +33,20 @@
       "5453": 0.2,
       "5455": 0.2
     },
-    "tags": [
-      "pepperthorn root",
-      "small flower",
-      "small wild rose",
-      "acantha leaf",
-      "calamia fruit",
-      "sovyn clove",
-      "small rose",
-      "small daisy",
-      "angelica root",
-      "withered black mushroom",
-      "stalk of chicory",
-      "sprig of alyssum",
-      "heath aster",
-      "stalk of goldenrod",
-      "yellow primrose",
-      "wild chokecherry",
-      "motherwort",
-      "white baneberry",
-      "murdroot",
-      "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "bur-clover root",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "dark blue honeyberries",
-      "plump black mulberries",
-      "sweet potato",
-      "agave heart",
-      "brown-skinned kiwi",
-      "meta:forage-sensed:day:2023-02"
-    ],
-    "uid": [
-      2130107
-    ],
     "image": "vo-caravansary-1264234799.png",
     "image_coords": [
       1253,
       621,
       1263,
       631
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables",
+      "sovyn clove"
+    ],
+    "uid": [
+      2130107
     ]
   }
 }

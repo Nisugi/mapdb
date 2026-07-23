@@ -1,5 +1,4 @@
 {
-  "checksum": "3a321dd23156a650f18d50d7e79ca206",
   "room": {
     "id": 638,
     "title": [
@@ -20,31 +19,31 @@
       "208": "east",
       "637": "southwest",
       "639": "go building",
-      "30714": "/rooms/638/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "208": 0.2,
       "637": 0.2,
       "639": 0.2,
-      "30714": "/rooms/638/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "node",
-      "supernode",
-      "urchin-access",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      13101025
-    ],
     "image": "en-ta_illistim-new.jpg",
     "image_coords": [
       350,
       404,
       372,
       426
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-11",
+      "no forageables",
+      "node",
+      "supernode",
+      "urchin-access"
+    ],
+    "uid": [
+      13101025
     ]
   }
 }

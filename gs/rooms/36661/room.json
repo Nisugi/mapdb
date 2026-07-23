@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36661,
+    "title": [
+      "[Nyessem, Portal Checkpoint]"
+    ],
+    "description": [
+      "Violet-hued banners line one wall, over an arrangement of plush violet and silver-hued pillows arrayed for comfort.  Across the entire opposite wall, a cascading white stone fountain carved into the wall displays dozens of water-filled tiers pouring down to a polished gem-inlaid basin.  Next to a tall sapphire-lined tunnel, a stout stone kiosk set with a wide sign has been built as a checkpoint.  Above both, a bright violet cloth pennant stitched with onyx threads is prominently displayed."
+    ],
+    "paths": [
+      "Obvious exits: south"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36660": "south",
+      "36662": "go tunnel"
+    },
+    "timeto": {
+      "36660": 0.2,
+      "36662": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      851,
+      766,
+      868,
+      784
+    ],
+    "uid": [
+      8400002
+    ]
+  }
+}

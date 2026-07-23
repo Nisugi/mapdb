@@ -1,5 +1,4 @@
 {
-  "checksum": "4b1fafe85ba5e99126644bb37b065d29",
   "room": {
     "id": 23144,
     "title": [
@@ -13,16 +12,16 @@
     ],
     "location": "Mist Harbor",
     "wayto": {
-      "23138": "/rooms/23144/wayto/stringproc-23138.rb"
+      "23138": ";e room = Room.current.id;fput 'go curtain'; if ( room == Room.current.id ); fput 'close locker';move 'go curtain'; end"
     },
     "timeto": {
       "23138": 0.2
     },
     "tags": [
-      "peer curtain =~ /^\\[Paupers, Annex Lobby\\]$/",
-      "pauperslocker",
+      "meta:che:paupers:locker",
       "meta:locker",
-      "meta:che:paupers:locker"
+      "pauperslocker",
+      "peer curtain =~ /^\\[Paupers, Annex Lobby\\]$/"
     ],
     "uid": [
       3215143

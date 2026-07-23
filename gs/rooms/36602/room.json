@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36602,
+    "title": [
+      "[Skyship, The Fire]"
+    ],
+    "description": [
+      "The unlit remains of an enormous ruined bonfire, a mix of burned logs, ash, and stone, dominate the room's middle and are placed on a slightly raised dirt mound sectioned from the rest of the room by white stone boulders the size of a large giantkin's head.  Around the mound, thin white lines painted on the rough-hewn stone floor give an indication of where groups assemble.  Above, the ship ceiling is painted with a constellation of ashen white stars."
+    ],
+    "paths": [
+      "Obvious exits: west"
+    ],
+    "location": false,
+    "wayto": {
+      "36596": "west"
+    },
+    "timeto": {
+      "36596": 0.2
+    },
+    "uid": [
+      12102027
+    ]
+  }
+}

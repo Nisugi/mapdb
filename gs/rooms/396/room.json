@@ -1,5 +1,4 @@
 {
-  "checksum": "2a26fb62839cde4dca490a122053aaff",
   "room": {
     "id": 396,
     "title": [
@@ -25,18 +24,19 @@
       "7977": 0.2,
       "7978": 0.2
     },
-    "tags": [
-      "meta:teleport:fwi"
-    ],
-    "uid": [
-      2060
-    ],
     "image": "wl-moot_hall-1486755929.png",
     "image_coords": [
       592,
       494,
       733,
       555
+    ],
+    "tags": [
+      "meta:teleport:fwi",
+      "no forageables"
+    ],
+    "uid": [
+      2060
     ]
   }
 }

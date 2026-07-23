@@ -1,5 +1,4 @@
 {
-  "checksum": "66343ba4d00aed7648a7e27a3624311f",
   "room": {
     "id": 31558,
     "title": [
@@ -23,19 +22,19 @@
       "31811": "go double doors"
     },
     "timeto": {
-      "7": "/rooms/31558/timeto/stringproc-7.rb",
-      "284": "/rooms/31558/timeto/stringproc-284.rb",
-      "1448": "/rooms/31558/timeto/stringproc-1448.rb",
-      "1944": "/rooms/31558/timeto/stringproc-1944.rb",
-      "2426": "/rooms/31558/timeto/stringproc-2426.rb",
-      "3521": "/rooms/31558/timeto/stringproc-3521.rb",
-      "3669": "/rooms/31558/timeto/stringproc-3669.rb",
-      "3727": "/rooms/31558/timeto/stringproc-3727.rb",
-      "4651": "/rooms/31558/timeto/stringproc-4651.rb",
-      "9410": "/rooms/31558/timeto/stringproc-9410.rb",
-      "9652": "/rooms/31558/timeto/stringproc-9652.rb",
-      "10862": "/rooms/31558/timeto/stringproc-10862.rb",
-      "28908": "/rooms/31558/timeto/stringproc-28908.rb",
+      "7": ";e (!UserVars.mapdb_ebon_gate_origin.nil? and UserVars.mapdb_ebon_gate_origin == 7) ? 2400.0 : nil;",
+      "284": ";e (!UserVars.mapdb_ebon_gate_origin.nil? and UserVars.mapdb_ebon_gate_origin == 284) ? 2400.0 : nil;",
+      "1448": ";e (!UserVars.mapdb_ebon_gate_origin.nil? and UserVars.mapdb_ebon_gate_origin == 1448) ? 2400.0 : nil;",
+      "1944": ";e (!UserVars.mapdb_ebon_gate_origin.nil? and UserVars.mapdb_ebon_gate_origin == 1944) ? 2400.0 : nil;",
+      "2426": ";e (!UserVars.mapdb_ebon_gate_origin.nil? and UserVars.mapdb_ebon_gate_origin == 2426) ? 2400.0 : nil;",
+      "3521": ";e (!UserVars.mapdb_ebon_gate_origin.nil? and UserVars.mapdb_ebon_gate_origin == 3521) ? 2400.0 : nil;",
+      "3669": ";e (!UserVars.mapdb_ebon_gate_origin.nil? and UserVars.mapdb_ebon_gate_origin == 3669) ? 2400.0 : nil;",
+      "3727": ";e (!UserVars.mapdb_ebon_gate_origin.nil? and UserVars.mapdb_ebon_gate_origin == 3727) ? 2400.0 : nil;",
+      "4651": ";e (!UserVars.mapdb_ebon_gate_origin.nil? and UserVars.mapdb_ebon_gate_origin == 4651) ? 2400.0 : nil;",
+      "9410": ";e (!UserVars.mapdb_ebon_gate_origin.nil? and UserVars.mapdb_ebon_gate_origin == 9410) ? 2400.0 : nil;",
+      "9652": ";e (!UserVars.mapdb_ebon_gate_origin.nil? and UserVars.mapdb_ebon_gate_origin == 9652) ? 2400.0 : nil;",
+      "10862": ";e (!UserVars.mapdb_ebon_gate_origin.nil? and UserVars.mapdb_ebon_gate_origin == 10862) ? 2400.0 : nil;",
+      "28908": ";e (!UserVars.mapdb_ebon_gate_origin.nil? and UserVars.mapdb_ebon_gate_origin == 28908) ? 2400.0 : nil;",
       "31559": 0.2,
       "31560": 0.2,
       "31561": 0.2,
@@ -43,10 +42,17 @@
       "31569": 0.2,
       "31811": 0.2
     },
+    "image": "fest-naidem-part1-1696171838.png",
+    "image_coords": [
+      543,
+      254,
+      565,
+      275
+    ],
     "tags": [
+      "exit",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-10",
-      "exit",
       "meta:mapcategory:Events and Festivals",
       "meta:mapname:Ebon Gate - Naidem 2022 - Part 1",
       "meta:mapshortname:Ebon Gate - Naidem 2022 - Part 1",
@@ -55,13 +61,6 @@
     ],
     "uid": [
       8083001
-    ],
-    "image": "fest-naidem-part1-1696171838.png",
-    "image_coords": [
-      543,
-      254,
-      565,
-      275
     ]
   }
 }

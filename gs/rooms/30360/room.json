@@ -1,5 +1,4 @@
 {
-  "checksum": "515e9958343cda51ddb8f3d25ac44635",
   "room": {
     "id": 30360,
     "title": [
@@ -14,20 +13,20 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "20588": "north",
-      "30708": "/rooms/30360/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "20588": 0.2,
-      "30708": "/rooms/30360/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "postoffice",
       "mail",
-      "urchin-access",
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-11",
-      "urchin guide postoffice"
+      "no forageables",
+      "postoffice",
+      "urchin guide postoffice",
+      "urchin-access"
     ],
     "uid": [
       3015

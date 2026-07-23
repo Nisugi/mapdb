@@ -1,5 +1,4 @@
 {
-  "checksum": "bca2967ff704e604b54c9262f4c1b705",
   "room": {
     "id": 18180,
     "title": [
@@ -16,16 +15,18 @@
     "terrain": "mountainous",
     "wayto": {
       "18179": "east",
-      "18181": "/rooms/18180/wayto/stringproc-18181.rb"
+      "18181": ";e sleep(0.2);\nrefill_hands=false;(refill_hands = true;empty_hands;) if GameObj.right_hand.id or GameObj.left_hand.id;\nif !GameObj.loot.find{|o| o.name=='wooden cab'};\n  dothistimeout \"close dam\",3,/You push hard on the wooden dam slat and it slides closed.|It is already closed./;\n  _respond \"#{monsterbold_start}Waiting for 'riding on the trellis'.  This may take around four and a half minutes.#{monsterbold_end}  #{Time.now}\";\n  waitfor \"riding on the trellis, crawls down the side of the mountain and comes to a clunky stop\";\nend;\nfput \"open dam\";\nsleep(0.5);\nwaitrt?;\nfill_hands if refill_hands;\nmove('go cab');\n"
     },
     "timeto": {
       "18179": 0.2,
-      "18181": 240
+      "18181": 240.0
     },
     "tags": [
       "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "sunburst blossom",
+      "wingstem root"
     ],
     "uid": [
       52012

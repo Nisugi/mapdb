@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36538,
+    "title": [
+      "[The Vengeful Siren, Docking]"
+    ],
+    "description": [
+      "The glaesineth-enclosed deck has a small door leading out and a brass-edged koa gangplank climbing up to a second-story door.  Small openings at the top of each wall let in the sea air, and their transparent nature allows an unfettered view of the dunes and ocean.  An anchor-topped coil of hempen rope sits neatly in one corner, the anchor polished to a high sheen.  Painted onto the artfully sea-weathered wood of the wall is \"Welcome to the Vengeful Siren!\" with a brass ship's bell hanging next to it."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "Mist Harbor",
+    "wayto": {
+      "35776": "go small door",
+      "36539": "go koa gangplank"
+    },
+    "timeto": {
+      "35776": 0.2,
+      "36539": 0.2
+    },
+    "uid": [
+      2004501
+    ]
+  }
+}

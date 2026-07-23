@@ -1,5 +1,4 @@
 {
-  "checksum": "6a3f6c93712fdb4050a150fec2190065",
   "room": {
     "id": 1979,
     "title": [
@@ -17,15 +16,16 @@
       "1978": "out",
       "1980": "east",
       "1982": "south",
-      "30715": "/rooms/1979/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1978": 0.2,
       "1980": 0.2,
       "1982": 0.2,
-      "30715": "/rooms/1979/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "no forageables",
       "urchin guide temple",
       "urchin-access"
     ],

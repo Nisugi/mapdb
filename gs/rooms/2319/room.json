@@ -1,5 +1,4 @@
 {
-  "checksum": "670a3ab68d40c45a511a82fb35dd637e",
   "room": {
     "id": 2319,
     "title": [
@@ -29,20 +28,19 @@
       "2326": 0.2,
       "2328": 0.2
     },
-    "tags": [
-      "calmintha flower",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      4042014
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       1026,
       519,
       1062,
       555
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables"
+    ],
+    "uid": [
+      4042014
     ]
   }
 }

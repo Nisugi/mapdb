@@ -1,5 +1,4 @@
 {
-  "checksum": "ba6ba6629c07363880c7954ea6abb370",
   "room": {
     "id": 3264,
     "title": [
@@ -15,43 +14,40 @@
     "climate": "glacial",
     "terrain": "plain dirt",
     "wayto": {
-      "3239": "/rooms/3264/wayto/stringproc-3239.rb",
+      "3239": ";e r = dothistimeout 'open rolaren gate', 10, /^You open|^That is already open|^It appears to be locked/; if r =~ /^You open|^That is already open/; move 'go rolaren gate'; elsif r =~ /^It appears to be locked/; spell = Spell['sigil of resolve']; bonus = spell.known? ? Society.rank/2 : 0; if ((1-(XMLData.encumbrance_value/100.0)) * Skills.to_bonus(Skills.climbing)) >= 50; if spell.known? && !spell.active? && !Spell['POPed muscles'].active?; echo 'Waiting for stamina do sigil of rsolve...' unless stamina(spell.stamina_cost); wait_until{stamina(spell.stamina_cost)}; spell.cast; end; move 'climb rolaren gate'; elsif Spell[704].known?; unless Spell[704].affordable?; echo 'waiting for mana...'; wait_until { Spell[704].affordable? }; end; Spell[704].cast('rolaren gate'); elsif (num = [ 407, 1207 ].find { |n| Spell[n].known? }); 1.times { unless Spell[num].affordable?; echo 'waiting for mana...'; wait_until { Spell[num].affordable? }; end; r = Spell[num].cast('rolaren gate', /^The gate vibrates slightly but nothing else happens|^A translucent force slams into the gate, but it remains unaffected/); redo if r =~ /^\\[Spell Hindrance|^The gate vibrates slightly but nothing else happens|^A translucent force slams into the gate, but it remains unaffected/ }; move 'go rolaren gate'; else; echo \"error: You can't get through the gate because you can't cast 704, 407, or 1207 and you suck at climbing and/or are too encumbered.\"; sleep 2; exit; end; else; $go2_restart = true; end",
       "3265": "east",
       "3274": "go open",
       "3280": "climb stair"
     },
     "timeto": {
-      "3239": 1,
+      "3239": 1.0,
       "3265": 0.2,
       "3274": 0.2,
       "3280": 0.2
     },
-    "tags": [
-      "winter rose",
-      "sassafras leaf",
-      "some arctic moss",
-      "some angelica root",
-      "frostflower",
-      "sweetfern stalk",
-      "some valerian root",
-      "some pennyroyal stem",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "arctic moss",
-      "meta:forage-sensed",
-      "ironfern root",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      4127005
-    ],
     "image": "imt-east_west_north_gates-1668398077.png",
     "image_coords": [
       316,
       410,
       326,
       420
+    ],
+    "tags": [
+      "angelica root",
+      "arctic moss",
+      "frostflower",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-09",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sweetfern stalk",
+      "valerian root",
+      "winter rose"
+    ],
+    "uid": [
+      4127005
     ]
   }
 }

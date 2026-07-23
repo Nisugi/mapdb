@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36636,
+    "title": [
+      "[Skyship, Exterior]"
+    ],
+    "description": [
+      "The path rises slightly toward a flat, square-shaped platform encased by a glaesine dome fused to the ship.  The pervasive shriek of wind along the ship's exterior is lessened in the area.  On the platform's far side, a metal viewing glass marked with chalked-on white runes points through a hole in the dome toward the distant, inky horizon, its base fused to twin metal poles extending from the deck."
+    ],
+    "paths": [
+      "Obvious paths: south"
+    ],
+    "location": false,
+    "wayto": {
+      "36554": "go lift",
+      "36635": "south"
+    },
+    "timeto": {
+      "36554": 0.2,
+      "36635": 0.2
+    },
+    "uid": [
+      12102097
+    ]
+  }
+}

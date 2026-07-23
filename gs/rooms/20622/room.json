@@ -1,5 +1,4 @@
 {
-  "checksum": "2c7dbf9b9a0f2904cf2004a1ef078b1f",
   "room": {
     "id": 20622,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "8860": "/rooms/20622/wayto/stringproc-8860.rb",
+      "8860": ";e multifput 'search', 'go concealed ladder'",
       "20621": "southwest",
       "20623": "south"
     },
@@ -24,31 +23,31 @@
       "20621": 0.2,
       "20623": 0.2
     },
-    "tags": [
-      "soft white mushroom",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "genkew mushroom",
-      "blue trafel mushroom",
-      "cave moss",
-      "pepperthorn root",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      336714
-    ],
     "image": "wl-burrow_way-1616121316.png",
     "image_coords": [
       963,
       5,
       1000,
       41
+    ],
+    "tags": [
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "cave moss",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "pepperthorn root",
+      "soft mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      336714
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "7805fa534c806574413acc69f83c09b7",
   "room": {
     "id": 3576,
     "title": [
@@ -22,28 +21,6 @@
       "3574": 0.2,
       "3577": 0.2
     },
-    "tags": [
-      "cuctucae berry",
-      "stalk of bluebells",
-      "marallis berry",
-      "wild pink geranium",
-      "sassafras leaf",
-      "sprig of larkspur",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "wingstem root",
-      "meta:forage-sensed:night:2025-01",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      4291027
-    ],
     "image": "wl-stronghold-1264234799.png",
     "image_coords": [
       378,
@@ -51,6 +28,28 @@
       388,
       897
     ],
-    "check_location": false
+    "tags": [
+      "angelica root",
+      "bolmara lichen",
+      "cuctucae berry",
+      "ironfern root",
+      "marallis berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2025-01",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sprig of larkspur",
+      "stalk of bluebells",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wild pink geranium",
+      "wingstem root"
+    ],
+    "check_location": false,
+    "uid": [
+      4291027
+    ]
   }
 }

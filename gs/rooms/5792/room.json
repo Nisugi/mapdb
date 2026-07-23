@@ -1,5 +1,4 @@
 {
-  "checksum": "46788b4a0a729c23f8a731cae0a3bf4b",
   "room": {
     "id": 5792,
     "title": [
@@ -22,24 +21,25 @@
       "5791": 0.2,
       "5793": 0.2
     },
-    "tags": [
-      "withered black mushroom",
-      "pothinir grass",
-      "murdroot",
-      "wingstem root",
-      "meta:forage-sensed",
-      "bur-clover root",
-      "meta:forage-sensed:day:2023-02"
-    ],
-    "uid": [
-      13009031
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       268,
       785,
       278,
       795
+    ],
+    "tags": [
+      "bur-clover root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "pothinir grass",
+      "round grumbleberry",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      13009031
     ]
   }
 }

@@ -1,11 +1,11 @@
 {
-  "checksum": "3bf3281d548d322189ab6cebcee6e44c",
   "room": {
     "id": 4636,
     "title": [
       "[Glimae'den Wildwood, Trail]"
     ],
     "description": [
+      "A soothing, babbling rush signals that a waterfall is close by, yet the thick foliage and plentiful trunks of the forest don't afford much of a view beyond the immediate trail and several steps off in any direction.  The incline ascends steeply to the northwest, yet appears to be leveling off towards the southwest.  Standing out like a giant amongst the labyrinth of trees, a sequoia looms to the east.  Nestled up against the colossal timber is a riverstone cottage accompanied by a cobbled pathway.",
       "A soothing, babbling rush signals that a waterfall is close by, yet the thick foliage and plentiful trunks of the forest don't afford much of a view beyond the immediate trail and several steps off in any direction.  The incline ascends steeply to the northwest, yet appears to be leveling off towards the southwest."
     ],
     "paths": [
@@ -16,62 +16,68 @@
     "terrain": "coniferous forest",
     "wayto": {
       "4635": "northwest",
-      "4637": "southwest"
+      "4637": "southwest",
+      "36471": "go red door"
     },
     "timeto": {
       "4635": 0.2,
-      "4637": 0.2
+      "4637": 0.2,
+      "36471": 0.2
     },
-    "tags": [
-      "acantha leaf",
-      "wolifrew lichen",
-      "ephlox moss",
-      "tkaro root",
-      "sticks",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "soft white mushroom",
-      "withered black mushroom",
-      "white hook mushroom",
-      "blue trafel mushroom",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "wild gooseberry",
-      "fiddlehead fern",
-      "handful of pinenuts",
-      "broken twig",
-      "pine cone",
-      "pine needles",
-      "stalk of bluebells",
-      "wild pink geranium",
-      "wild chokecherry",
-      "bright red cranberry",
-      "cluster of butterflyweed",
-      "tree bark",
-      "blue whortleberry",
-      "yew twig",
-      "ironfern root",
-      "twisted twig",
-      "slender twig",
-      "bolmara lichen",
-      "brostheras grass",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "meta:forage-sensed:night:2022-11",
-      "meta:forage-sensed:day:2023-11"
-    ],
-    "uid": [
-      14050043
-    ],
     "image": "en-cysaegir-1679641246.png",
     "image_coords": [
       193,
       280,
       218,
       304
+    ],
+    "tags": [
+      "acantha leaf",
+      "angelica root",
+      "blue trafel mushroom",
+      "blue whortleberry",
+      "bolmara lichen",
+      "bright red cranberry",
+      "bright red teaberry",
+      "broken twig",
+      "brostheras grass",
+      "cluster of butterflyweed",
+      "ephlox moss",
+      "fiddlehead fern",
+      "golden flax fronds",
+      "handful of pinenuts",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "pennyroyal stem",
+      "pine cone",
+      "pine needles",
+      "pink baldhip rose",
+      "sassafras leaf",
+      "slender twig",
+      "soft mushroom",
+      "stalk of bluebells",
+      "sticks",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "thanot thorn",
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "violet shining rose",
+      "white hook mushroom",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild pink geranium",
+      "wintergreen leaf",
+      "withered mushroom",
+      "wolifrew lichen",
+      "yew twig"
+    ],
+    "uid": [
+      14050043
     ]
   }
 }

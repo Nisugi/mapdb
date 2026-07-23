@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36586,
+    "title": [
+      "[Skyship, The Corridor]"
+    ],
+    "description": [
+      "The floor is a single piece of translucent glaes runs the corridor's length, topping a hollowed cavity.  Desiccated, naked bodies of varying races line this recess.  Bright gemstones glowing in a rainbow of hues are inset into the forehead of each preserved figure.  The entire scene is illuminated by sconces mounted throughout the area that cast a dim, flickering light."
+    ],
+    "paths": [
+      "Obvious exits: southeast, northwest"
+    ],
+    "location": false,
+    "wayto": {
+      "36583": "northwest",
+      "36587": "southeast"
+    },
+    "timeto": {
+      "36583": 0.2,
+      "36587": 0.2
+    },
+    "uid": [
+      12102134
+    ]
+  }
+}

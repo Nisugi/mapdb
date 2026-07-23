@@ -1,5 +1,4 @@
 {
-  "checksum": "cd40f73f4ecfd9b359c9c27e419c8b3f",
   "room": {
     "id": 33227,
     "title": [
@@ -22,24 +21,24 @@
       "3437": 0.2,
       "33228": 0.2
     },
-    "tags": [
-      "meta:mapname:Icemule Trace - Stout Street Armory",
-      "meta:mapcategory:Icemule Trace",
-      "meta:mapshortname:Stout Street Armory",
-      "meta:mapcategory:Towns",
-      "calmintha flower",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      4043081
-    ],
     "image": "imt-StoutStreetArmory-1674167988.png",
     "image_coords": [
       246,
       101,
       309,
       163
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:mapcategory:Icemule Trace",
+      "meta:mapcategory:Towns",
+      "meta:mapname:Icemule Trace - Stout Street Armory",
+      "meta:mapshortname:Stout Street Armory",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      4043081
     ]
   }
 }

@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36576,
+    "title": [
+      "[Skyship, Cages]"
+    ],
+    "description": [
+      "Three grated metal sluices run the length of the room, each displaying evidence of catching debris that has sloughed into them, including dried blood, gore, and stuck remains.  Though thin, the drains let material pass through but also allow individuals to walk atop them.  Drag lines of blood and matted fur cover the room, all leading toward the runnels."
+    ],
+    "paths": [
+      "Obvious exits: east"
+    ],
+    "location": false,
+    "wayto": {
+      "36573": "go lift",
+      "36577": "east"
+    },
+    "timeto": {
+      "36573": 0.2,
+      "36577": 0.2
+    },
+    "uid": [
+      12102087
+    ]
+  }
+}

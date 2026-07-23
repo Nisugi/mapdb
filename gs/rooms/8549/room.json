@@ -1,5 +1,4 @@
 {
-  "checksum": "591c634ce960554352d327f69a70c257",
   "room": {
     "id": 8549,
     "title": [
@@ -16,34 +15,36 @@
     "terrain": "rough",
     "wayto": {
       "8546": "northwest",
-      "8550": "/rooms/8549/wayto/stringproc-8550.rb"
+      "8550": ";e move 'climb rubble'"
     },
     "timeto": {
       "8546": 0.2,
       "8550": 5.2
     },
-    "tags": [
-      "heath aster",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "stalk of chicory",
-      "broken twig",
-      "moonlight cactus-bloom",
-      "sprig of larkspur",
-      "ironfern root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-02",
-      "meta:forage-sensed:night:2024-11"
-    ],
-    "uid": [
-      10101
-    ],
     "image": "wl-trollfang-1264234799.png",
     "image_coords": [
       1235,
       705,
       1245,
       715
+    ],
+    "tags": [
+      "bright red teaberry",
+      "broken twig",
+      "handful of currants",
+      "heath aster",
+      "ironfern root",
+      "juniper berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-11",
+      "moonlight cactus-bloom",
+      "sprig of larkspur",
+      "stalk of chicory",
+      "wintergreen leaf"
+    ],
+    "uid": [
+      10101
     ]
   }
 }

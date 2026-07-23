@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36599,
+    "title": [
+      "[Skyship, Holding]"
+    ],
+    "description": [
+      "The area's floor is divided into two sections, one of hard-packed dirt and the other of a thick, puce-hued fabric that appears like a grass-styled carpet.  The dirt section is flat, marked by extensive evidence of footfalls across it and edged by a large, foul-smelling trough that runs the length of the bulkheads.  The carpeted section is similarly bare, except for sections big enough for several individuals to lay side-by-side that have been demarcated by white lines painted onto the fabric."
+    ],
+    "paths": [
+      "Obvious exits: northeast, west"
+    ],
+    "location": false,
+    "wayto": {
+      "36598": "northeast",
+      "36600": "west"
+    },
+    "timeto": {
+      "36598": 0.2,
+      "36600": 0.2
+    },
+    "uid": [
+      12102023
+    ]
+  }
+}

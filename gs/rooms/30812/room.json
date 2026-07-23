@@ -1,5 +1,4 @@
 {
-  "checksum": "00474e51ddbe1015f657215b5907522f",
   "room": {
     "id": 30812,
     "title": [
@@ -15,21 +14,14 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "30813": "/rooms/30812/wayto/stringproc-30813.rb"
+      "30813": ";e wait_until{Map.current.id != 30812}"
     },
     "timeto": {
       "30813": 3
     },
     "tags": [
-      "aloeas stem",
-      "wild gooseberry",
-      "strand of seaweed",
-      "stalk of cattail",
-      "alpine violet",
-      "murdroot",
-      "wavepetal blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-11",
+      "meta:forage-sensed:day:2026-03",
       "meta:nomagic"
     ],
     "uid": [

@@ -1,5 +1,4 @@
 {
-  "checksum": "89d9a29c431e15fdf095e75e0abcd385",
   "room": {
     "id": 29865,
     "title": [
@@ -13,19 +12,19 @@
     ],
     "location": "the Hinterwilds",
     "wayto": {
-      "2487": "/rooms/29865/wayto/stringproc-2487.rb",
+      "2487": ";e multifput 'inquire','order 1','order confirm';waitfor 'The wagon comes to a halt','The wagon draws to an abrupt halt','the caravan comes to a stop';UserVars.mapdb_hinterwilds_location = nil;",
       "29860": "out",
-      "31069": "/rooms/29865/wayto/stringproc-31069.rb"
+      "31069": ";e multifput 'inquire','order 2','order confirm';waitfor 'The wagon comes to a halt','The wagon draws to an abrupt halt','the caravan comes to a stop';UserVars.mapdb_hinterwilds_location = nil;"
     },
     "timeto": {
-      "2487": "/rooms/29865/timeto/stringproc-2487.rb",
+      "2487": ";e UserVars.mapdb_hinterwilds_location == 'IM' and Map.current.location.to_s =~ /the Hinterwilds/ ? 240 : nil;",
       "29860": 0.2,
-      "31069": "/rooms/29865/timeto/stringproc-31069.rb"
+      "31069": ";e UserVars.mapdb_hinterwilds_location == 'EN' and Map.current.location.to_s =~ /the Hinterwilds/ ? 240 : nil;"
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2023-01",
+      "no forageables",
       "silver-cost:2487:3000",
       "silver-cost:31069:3000"
     ],

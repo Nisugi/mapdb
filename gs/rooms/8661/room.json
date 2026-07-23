@@ -1,5 +1,4 @@
 {
-  "checksum": "2c9daeb23a9258a44a182b0dffa31c18",
   "room": {
     "id": 8661,
     "title": [
@@ -18,19 +17,22 @@
       "299": "go gate",
       "8662": "go entrance",
       "25659": "go door",
-      "30708": "/rooms/8661/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "299": 0.2,
       "8662": 0.2,
       "25659": 0.2,
-      "30708": "/rooms/8661/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "bard guild",
       "bardguild",
-      "urchin-access",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells",
       "urchin guide bardguild",
-      "bard guild"
+      "urchin-access"
     ],
     "uid": [
       281075

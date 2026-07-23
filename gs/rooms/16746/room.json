@@ -1,5 +1,4 @@
 {
-  "checksum": "4dc614162973838ac45f82fdf6708084",
   "room": {
     "id": 16746,
     "title": [
@@ -15,51 +14,58 @@
     "climate": "temperate",
     "terrain": "mountainous",
     "wayto": {
-      "16745": "/rooms/16746/wayto/stringproc-16745.rb",
+      "16745": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'jump rock'; waitrt?",
       "16747": "southwest"
     },
     "timeto": {
-      "16745": null,
+      "16745": 15,
       "16747": 0.2
     },
-    "tags": [
-      "juicy plum",
-      "angelica root",
-      "stalk of bluebells",
-      "wild pink geranium",
-      "sprig of larkspur",
-      "yellow primrose",
-      "wild sage",
-      "sprig of columbine",
-      "crimson dragonstalk",
-      "mountain dryad",
-      "stalk of monkeyflower",
-      "sprig of holly",
-      "sprig of ivy",
-      "small apple",
-      "pepperthorn root",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "wingstem root",
-      "leek",
-      "shallot",
-      "hop flowers",
-      "agave heart",
-      "viburnum twig",
-      "red thanot berry",
-      "thanot thorn",
-      "meta:forage-sensed:night:2024-05"
-    ],
-    "uid": [
-      17005026
-    ],
     "image": "en-aradhul-road-1308194332.png",
     "image_coords": [
       703,
       759,
       726,
       777
+    ],
+    "tags": [
+      "agave heart",
+      "angelica root",
+      "bolmara lichen",
+      "cherry peppers",
+      "crimson dragonstalk",
+      "fresh catnip",
+      "hop flowers",
+      "ironfern root",
+      "juicy plum",
+      "leek",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "mountain dryad",
+      "peppermint leaves",
+      "pepperthorn root",
+      "red thanot berry",
+      "shallot",
+      "small apple",
+      "small watermelon",
+      "sprig of columbine",
+      "sprig of holly",
+      "sprig of ivy",
+      "sprig of larkspur",
+      "spring onion",
+      "stalk of bluebells",
+      "stalk of monkeyflower",
+      "sunburst blossom",
+      "thanot thorn",
+      "viburnum twig",
+      "wild pink geranium",
+      "wild sage",
+      "wingstem root",
+      "yellow primrose"
+    ],
+    "uid": [
+      17005026
     ]
   }
 }

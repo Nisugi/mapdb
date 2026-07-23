@@ -1,5 +1,4 @@
 {
-  "checksum": "3ba647e01cf9660d0ea05a332bbd95c4",
   "room": {
     "id": 2883,
     "title": [
@@ -13,30 +12,30 @@
     ],
     "location": "the Sleeping Lady Mountains",
     "wayto": {
-      "2881": "/rooms/2883/wayto/stringproc-2881.rb",
-      "2884": "/rooms/2883/wayto/stringproc-2884.rb"
+      "2881": ";e \n\t\tresolve=Spell['Sigil of Resolve']\n\t\thaste=Spell['Haste']\n\t\tif UserVars.mapdb_ice_mode == 'wait' || Skills.survival < 50 || XMLData.encumbrance_value >= 50\n\t\t\techo 'trying not to slip...'; sleep 6\n\t\telsif resolve.known? && resolve.affordable? && !resolve.active?\n\t\t\tresolve.cast\n\t\tend\n\t\tresult = fput 'down'\n\t\tif result =~ /^Rushing heedlessly/\n\t\t\thaste.cast if haste.known? && haste.affordable? && !haste.active?\n\t\t\tfput 'stand'\n\t\t\t$go2_restart = true\n\t\tend\n\t",
+      "2884": ";e \n\t\tresolve=Spell['Sigil of Resolve']\n\t\thaste=Spell['Haste']\n\t\tif UserVars.mapdb_ice_mode == 'wait' || Skills.survival < 50 || XMLData.encumbrance_value >= 50\n\t\t\techo 'trying not to slip...'; sleep 6\n\t\telsif resolve.known? && resolve.affordable? && !resolve.active?\n\t\t\tresolve.cast\n\t\tend\n\t\tresult = fput 'climb outcropping'\n\t\tif result =~ /^Rushing heedlessly/\n\t\t\thaste.cast if haste.known? && haste.affordable? && !haste.active?\n\t\t\tfput 'stand'\n\t\t\t$go2_restart = true\n\t\tend\n\t"
     },
     "timeto": {
-      "2881": 7,
+      "2881": 7.0,
       "2884": 0.2
     },
-    "tags": [
-      "some wingstem root",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "wingstem root",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      4560047
-    ],
     "image": "imt-east_west_north_gates-1668398077.png",
     "image_coords": [
       1321,
       229,
       1331,
       239
+    ],
+    "tags": [
+      "bolmara lichen",
+      "glassfern frond",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "wingstem root"
+    ],
+    "uid": [
+      4560047
     ]
   }
 }

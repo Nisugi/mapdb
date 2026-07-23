@@ -1,5 +1,4 @@
 {
-  "checksum": "4742167cbc4cea4e6c82b2b055696123",
   "room": {
     "id": 1957,
     "title": [
@@ -18,32 +17,32 @@
     "wayto": {
       "1956": "south",
       "1991": "go gate",
-      "30715": "/rooms/1957/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1956": 0.2,
       "1991": 0.2,
-      "30715": "/rooms/1957/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "advguard",
-      "urchin-access",
-      "urchin guide guard",
-      "urchin guide gate",
-      "guard",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      3001046
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       1033,
       162,
       1069,
       198
+    ],
+    "tags": [
+      "advguard",
+      "guard",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "no forageables",
+      "urchin guide gate",
+      "urchin guide guard",
+      "urchin-access"
+    ],
+    "uid": [
+      3001046
     ]
   }
 }

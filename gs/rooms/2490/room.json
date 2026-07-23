@@ -1,5 +1,4 @@
 {
-  "checksum": "65a1fd74f8f97cf3e4f8b4b6c5e5ba5d",
   "room": {
     "id": 2490,
     "title": [
@@ -26,21 +25,21 @@
       "2489": 0.2,
       "2491": 0.2,
       "3218": 0.2,
-      "20748": "/rooms/2490/timeto/stringproc-20748.rb"
+      "20748": ";e UserVars.mapdb_premium.nil? ? 10 : 0.2;"
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4128004
-    ],
     "image": "imt-south_gate-1647231707.png",
     "image_coords": [
       344,
       574,
       354,
       584
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables"
+    ],
+    "uid": [
+      4128004
     ]
   }
 }

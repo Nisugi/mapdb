@@ -1,5 +1,4 @@
 {
-  "checksum": "0c3853aeadeec02baa4600ba2eb8fb1b",
   "room": {
     "id": 1448,
     "title": [
@@ -20,11 +19,11 @@
       "1438": "southwest",
       "1449": "east",
       "1453": "south",
-      "3668": "/rooms/1448/wayto/stringproc-3668.rb",
+      "3668": ";e Map[7].wayto['3668'].call;",
       "5719": "go front door",
-      "26905": "/rooms/1448/wayto/stringproc-26905.rb",
-      "30710": "/rooms/1448/wayto/stringproc-30710.rb",
-      "31558": "/rooms/1448/wayto/stringproc-31558.rb"
+      "26905": ";e 2.times{fput \"event transport duskruin\"};UserVars.mapdb_duskruin_origin = 1448;",
+      "30710": ";e true",
+      "31558": ";e 2.times{fput \"event transport ebon gate\"};UserVars.mapdb_ebon_gate_origin = 1448;"
     },
     "timeto": {
       "1436": 0.2,
@@ -32,28 +31,28 @@
       "1438": 0.2,
       "1449": 0.2,
       "1453": 0.2,
-      "3668": "/rooms/1448/timeto/stringproc-3668.rb",
+      "3668": ";e Map[7].timeto['3668'].call;",
       "5719": 0.2,
       "26905": 2400,
-      "30710": "/rooms/1448/timeto/stringproc-30710.rb",
-      "31558": "/rooms/1448/timeto/stringproc-31558.rb"
+      "30710": ";e Map[7].timeto['30714'].call;",
+      "31558": ";e Time.now.month == 10 ? 2400 : nil"
     },
-    "tags": [
-      "urchin-access",
-      "meta:forage-sensed",
-      "meta:teleport",
-      "no forageables",
-      "meta:fwi:teleport"
-    ],
-    "uid": [
-      4209023
-    ],
     "image": "vo-solhaven-1675635404.png",
     "image_coords": [
       1002,
       513,
       1026,
       537
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:fwi:teleport",
+      "meta:teleport",
+      "no forageables",
+      "urchin-access"
+    ],
+    "uid": [
+      4209023
     ]
   }
 }

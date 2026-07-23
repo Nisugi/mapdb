@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36633,
+    "title": [
+      "[Skyship, Exterior]"
+    ],
+    "description": [
+      "Large gaps in the half-wall that lines the metal path alongside the ship and divides the external walkway from a dark free-fall have been loosely covered by sections of thick rope netting.  These nets appear loose in spots, flapping vigorously in the chill winds that whip across the ship's exterior.  A series of tattered flags drape from the iron beams overhanging the walkway, their bright colors a contrast to the metallic exterior and the dark night sky."
+    ],
+    "paths": [
+      "Obvious paths: northeast, southeast"
+    ],
+    "location": false,
+    "wayto": {
+      "36632": "northeast",
+      "36634": "southeast"
+    },
+    "timeto": {
+      "36632": 0.2,
+      "36634": 0.2
+    },
+    "uid": [
+      12102092
+    ]
+  }
+}

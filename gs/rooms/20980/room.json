@@ -1,5 +1,4 @@
 {
-  "checksum": "cb8c3a3b01552aabc4a228158203bd05",
   "room": {
     "id": 20980,
     "title": [
@@ -16,31 +15,31 @@
     "terrain": "riparian",
     "wayto": {
       "20967": "go bank",
-      "21068": "/rooms/20980/wayto/stringproc-21068.rb",
-      "21069": "/rooms/20980/wayto/stringproc-21069.rb"
+      "21068": ";e pause 0.2; waitrt?; fput 'push nw'",
+      "21069": ";e pause 0.2; waitrt?; fput 'push s'"
     },
     "timeto": {
       "20967": 0.2,
-      "21068": 2,
-      "21069": 2
+      "21068": 2.0,
+      "21069": 2.0
     },
-    "tags": [
-      "stalk of cattail",
-      "murdroot",
-      "meta:forage-sensed",
-      "wavepetal blossom",
-      "sunburst blossom",
-      "meta:forage-sensed:day:2024-05"
-    ],
-    "uid": [
-      3217007
-    ],
     "image": "ifw-wilds-1368242816.png",
     "image_coords": [
       1580,
       1920,
       1599,
       1939
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
+      "murdroot",
+      "stalk of cattail",
+      "sunburst blossom",
+      "wavepetal blossom"
+    ],
+    "uid": [
+      3217007
     ]
   }
 }

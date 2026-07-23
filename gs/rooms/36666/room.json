@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36666,
+    "title": [
+      "[Nyessem, Ring Loop]"
+    ],
+    "description": [
+      "The tunnel dims, as the light emitted by the white stone walls has been muted in this section.  Off to one side, a three-sided stone altar is flanked by dozens of candles.  Throughout the room, many pillows have been placed for guests to take ease in their reverence.  Across from the altar sit three stone obelisks, one white, one ebon, and one grey.  Before them sits a small metal sign."
+    ],
+    "paths": [
+      "Obvious exits: north, south"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36665": "south",
+      "36667": "north"
+    },
+    "timeto": {
+      "36665": 0.2,
+      "36667": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      1022,
+      557,
+      1037,
+      573
+    ],
+    "uid": [
+      8400017
+    ]
+  }
+}

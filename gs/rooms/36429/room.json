@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36429,
+    "title": [
+      "[Dungeon, Shaft Room]"
+    ],
+    "description": [
+      "This small chamber is occupied primarily by a large shaft in the center with handles in four directions.  There is no indication here what it might be used for, but it seems to be in good repair.  A shallow groove on the floor offers a circular pathway around the shaft, presumably to be used by those who would be doing the turning of the device."
+    ],
+    "paths": [
+      "Obvious exits: north"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36428": "north"
+    },
+    "timeto": {
+      "36428": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      2120,
+      520,
+      2160,
+      560
+    ],
+    "uid": [
+      58040
+    ]
+  }
+}

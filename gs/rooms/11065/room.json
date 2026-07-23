@@ -1,5 +1,4 @@
 {
-  "checksum": "3cc3c1e82ea9ad68c7b47af097dbda28",
   "room": {
     "id": 11065,
     "title": [
@@ -22,26 +21,27 @@
       "11064": 0.2,
       "11066": 0.2
     },
-    "tags": [
-      "withered black mushroom",
-      "cave moss",
-      "murdroot",
-      "wingstem root",
-      "bur-clover root",
-      "meta:forage-sensed",
-      "golden flax fronds",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      2103021
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       3958,
       687,
       3994,
       726
+    ],
+    "tags": [
+      "bur-clover root",
+      "cave moss",
+      "golden flax fronds",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "murdroot",
+      "wild rice",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      2103021
     ]
   }
 }

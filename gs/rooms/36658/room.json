@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36658,
+    "title": [
+      "[Brayern Island, Portal Dais]"
+    ],
+    "description": [
+      "Scratches mar the ground, evidence of objects being dragged along toward the stone stairs and down into the fortress.  The jungle cliffs outside the fortress are visible over the blue-green wooden walls, with twining vines plunging down sheer rock faces and out of sight.  To the north, a tall white stone arch containing opaque, wavering energies stands out against the mana storm's electric blue highlights.  Ahead of it, a checkpoint wooden kiosk with a wide sign attached to its front stands in the way."
+    ],
+    "paths": [
+      "Obvious exits: north"
+    ],
+    "location": "Brayern Isle",
+    "wayto": {
+      "36653": "go stair",
+      "36659": "north"
+    },
+    "timeto": {
+      "36653": 0.2,
+      "36659": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      851,
+      936,
+      869,
+      952
+    ],
+    "uid": [
+      8400255
+    ]
+  }
+}

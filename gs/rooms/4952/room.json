@@ -1,5 +1,4 @@
 {
-  "checksum": "e662d1cf1142394e090997dfd278b9ea",
   "room": {
     "id": 4952,
     "title": [
@@ -23,57 +22,57 @@
     "timeto": {
       "4950": 0.2,
       "4953": 0.2,
-      "36165": "/rooms/4952/timeto/stringproc-36165.rb"
+      "36165": ";e (Script.running?('bigshot') || Script.running?('wander'))? nil : 0.2"
     },
-    "tags": [
-      "angelica root",
-      "stalk of bluebells",
-      "wild pink geranium",
-      "sprig of larkspur",
-      "yellow primrose",
-      "wild sage",
-      "golden aster",
-      "sprig of columbine",
-      "small dandelion",
-      "crimson dragonstalk",
-      "mountain dryad",
-      "stalk of monkeyflower",
-      "sprig of holly",
-      "sprig of ivy",
-      "small apple",
-      "juicy plum",
-      "pepperthorn root",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "wingstem root",
-      "deep purple shockroot",
-      "rhubarb",
-      "stalk of celery",
-      "leek",
-      "shallot",
-      "hop flowers",
-      "agave heart",
-      "dwarf billberry",
-      "thin hemp",
-      "viburnum twig",
-      "private property",
-      "dwarf bilberry",
-      "red thanot berry",
-      "thanot thorn",
-      "birch bark",
-      "meta:forage-sensed:day:2025-12"
-    ],
-    "uid": [
-      13025006
-    ],
     "image": "en-sapphire-1658723758.png",
     "image_coords": [
       1365,
       708,
       1375,
       718
+    ],
+    "tags": [
+      "agave heart",
+      "angelica root",
+      "birch bark",
+      "bolmara lichen",
+      "crimson dragonstalk",
+      "deep purple shockroot",
+      "dwarf bilberry",
+      "dwarf billberry",
+      "golden aster",
+      "hop flowers",
+      "ironfern root",
+      "juicy plum",
+      "leek",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2025-12",
+      "mountain dryad",
+      "pepperthorn root",
+      "private property",
+      "red thanot berry",
+      "rhubarb",
+      "shallot",
+      "small apple",
+      "small dandelion",
+      "sprig of columbine",
+      "sprig of holly",
+      "sprig of ivy",
+      "sprig of larkspur",
+      "stalk of bluebells",
+      "stalk of celery",
+      "stalk of monkeyflower",
+      "sunburst blossom",
+      "thanot thorn",
+      "thin hemp",
+      "viburnum twig",
+      "wild pink geranium",
+      "wild sage",
+      "wingstem root",
+      "yellow primrose"
+    ],
+    "uid": [
+      13025006
     ]
   }
 }

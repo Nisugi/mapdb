@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36382,
+    "title": [
+      "[Black Swan Castle, Ramparts]"
+    ],
+    "description": [
+      "The currents in the moat rush swiftly beneath the drawbridge to the west below.  Gazing over the other side of the wall, you see uneven patches of grass and dirt in the courtyard.  A large quantity of dirty straw is heaped at the base of the interior wall."
+    ],
+    "paths": [
+      "Obvious paths: east, west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36381": "east",
+      "36383": "west"
+    },
+    "timeto": {
+      "36381": 0.2,
+      "36383": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      560,
+      680,
+      600,
+      720
+    ],
+    "uid": [
+      55055
+    ]
+  }
+}

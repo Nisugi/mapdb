@@ -1,5 +1,4 @@
 {
-  "checksum": "a2b741751eaac8e8c80a0d9b1507ef51",
   "room": {
     "id": 8942,
     "title": [
@@ -20,19 +19,20 @@
       "8936": 0.2,
       "8943": 0.2
     },
-    "tags": [
-      "wizard alchemy shop",
-      "Icemule wizard alchemy shop"
-    ],
-    "uid": [
-      680063
-    ],
     "image": "imt-wizard_guild.png",
     "image_coords": [
       422,
       318,
       471,
       365
+    ],
+    "tags": [
+      "Icemule wizard alchemy shop",
+      "no forageables",
+      "wizard alchemy shop"
+    ],
+    "uid": [
+      680063
     ]
   }
 }

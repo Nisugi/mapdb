@@ -1,5 +1,4 @@
 {
-  "checksum": "b4c2ad29ea3780106c2127a24a779ce8",
   "room": {
     "id": 26089,
     "title": [
@@ -15,13 +14,13 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "26088": "/rooms/26089/wayto/stringproc-26088.rb",
-      "26090": "/rooms/26089/wayto/stringproc-26090.rb",
+      "26088": ";e move 'climb upward stairs'; waitrt?",
+      "26090": ";e move 'climb downward stairs'; waitrt?",
       "30658": "go fracture"
     },
     "timeto": {
-      "26088": 24,
-      "26090": 12,
+      "26088": 24.0,
+      "26090": 12.0,
       "30658": 0.2
     },
     "tags": [

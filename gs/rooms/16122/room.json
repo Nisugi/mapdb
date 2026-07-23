@@ -1,5 +1,4 @@
 {
-  "checksum": "1f8a294a1ef894a0b63c6cfe6037befb",
   "room": {
     "id": 16122,
     "title": [
@@ -16,39 +15,46 @@
     "climate": "cold, damp",
     "terrain": "muddy wetlands",
     "wayto": {
-      "11612": "/rooms/16122/wayto/stringproc-11612.rb",
-      "11618": "/rooms/16122/wayto/stringproc-11618.rb",
-      "11630": "/rooms/16122/wayto/stringproc-11630.rb",
-      "22218": "/rooms/16122/wayto/stringproc-22218.rb"
+      "11612": ";e move ['northwest','southwest'][rand(2)] while checkpaths == [ 'ne', 'se', 'sw', 'nw' ]; move 'northwest' if checkpaths.include?('nw'); move 'west' if checkpaths.include?('w')",
+      "11618": ";e move ['northwest','southwest'][rand(2)] while checkpaths == [ 'ne', 'se', 'sw', 'nw' ]; move 'east' if checkpaths.include?('e'); move 'southeast' if checkpaths.include?('se')",
+      "11630": ";e move ['northeast','southeast'][rand(2)] while checkpaths == [ 'ne', 'se', 'sw', 'nw' ]",
+      "22218": ";e move ['northeast','southeast'][rand(2)] while checkpaths == [ 'ne', 'se', 'sw', 'nw' ]"
     },
     "timeto": {
-      "11612": 10,
-      "11618": 10,
-      "11630": 10,
-      "22218": 10
+      "11612": 10.0,
+      "11618": 10.0,
+      "11630": 10.0,
+      "22218": 10.0
     },
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      527,
+      537,
+      537,
+      547
+    ],
     "tags": [
       "aloeas stem",
-      "soft white mushroom",
-      "withered black mushroom",
-      "white hook mushroom",
       "blue trafel mushroom",
-      "wild gooseberry",
-      "stalk of cattail",
-      "small wild rose",
+      "bolmara lichen",
+      "broken twig",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "meta:map:multi-uid",
+      "meta:maze",
       "mistweed",
       "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "talneo root",
-      "meta:forage-sensed",
+      "soft mushroom",
+      "stalk of cattail",
       "sunburst blossom",
+      "talneo root",
+      "wavepetal blossom",
+      "white hook mushroom",
+      "wild gooseberry",
+      "wild rose",
       "wingstem root",
-      "meta:maze",
-      "meta:map:multi-uid",
-      "broken twig",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
+      "withered mushroom"
     ],
     "uid": [
       5003021,
@@ -63,13 +69,6 @@
       5003036,
       5003037,
       5003038
-    ],
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      527,
-      537,
-      537,
-      547
     ]
   }
 }

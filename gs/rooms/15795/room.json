@@ -1,5 +1,4 @@
 {
-  "checksum": "19c11f857eab0835810e6f2865e4b6e3",
   "room": {
     "id": 15795,
     "title": [
@@ -20,15 +19,18 @@
       "15794": 0.2,
       "15796": 0.2
     },
-    "uid": [
-      4048004
-    ],
     "image": "imt-Penitentiary_Map-51200829.png",
     "image_coords": [
       359,
       176,
       407,
       222
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      4048004
     ]
   }
 }

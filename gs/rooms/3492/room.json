@@ -1,5 +1,4 @@
 {
-  "checksum": "bfda74fb47e69b12672ba124f2e56f69",
   "room": {
     "id": 3492,
     "title": [
@@ -21,27 +20,27 @@
     "wayto": {
       "3489": "east",
       "3493": "west",
-      "10329": "/rooms/3492/wayto/stringproc-10329.rb"
+      "10329": ";e if $platinum; move 'go furrier'; else; move 'go warehouse'; end"
     },
     "timeto": {
       "3489": 0.2,
       "3493": 0.2,
       "10329": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      14100008
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       1000,
       253,
       1037,
       289
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
+    ],
+    "uid": [
+      14100008
     ]
   }
 }

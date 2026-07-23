@@ -1,5 +1,4 @@
 {
-  "checksum": "e10d6ff951761dbdc328f083a8c8da87",
   "room": {
     "id": 17069,
     "title": [
@@ -18,19 +17,20 @@
     "timeto": {
       "17063": 0.2
     },
-    "tags": [
-      "River's Rest wizard alchemy shop",
-      "wizard alchemy shop"
-    ],
-    "uid": [
-      683158
-    ],
     "image": "rr-wizard_guild.png",
     "image_coords": [
       779,
       36,
       831,
       91
+    ],
+    "tags": [
+      "no forageables",
+      "River's Rest wizard alchemy shop",
+      "wizard alchemy shop"
+    ],
+    "uid": [
+      683158
     ]
   }
 }

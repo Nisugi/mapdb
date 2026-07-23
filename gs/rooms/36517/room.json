@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36517,
+    "title": [
+      "[Ursine Emporium, Entry]"
+    ],
+    "description": [
+      "Lamplight casts a soft glow across the interior of the sprawling tent, where violet canvas panels meet niveous ones in sweeping drapes overhead.  Pale rugs in varied textures are scattered across the packed earth, muffling footsteps.  Along the walls, carved wooden racks and padded stands display an array of gear sized for bears, including harnesses, layered fabrics, polished fittings, and ornate tack, each arranged with care beneath the gentle shimmer of hanging lanterns."
+    ],
+    "paths": [
+      "Obvious exits: west, out"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "31186": "out",
+      "36518": "west"
+    },
+    "timeto": {
+      "31186": 0.2,
+      "36518": 0.2
+    },
+    "uid": [
+      8209478
+    ]
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "checksum": "34e5db26d420e7ec16d852af3cb0cbfd",
   "room": {
     "id": 14070,
     "title": [
@@ -16,26 +15,26 @@
     "terrain": "none",
     "wayto": {
       "14069": "out",
-      "15991": "/rooms/14070/wayto/stringproc-15991.rb"
+      "15991": ";e fput 'search'; move 'go passage'"
     },
     "timeto": {
       "14069": 0.2,
       "15991": 0.4
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      4750040
-    ],
     "image": "vo-trail-1264234799.png",
     "image_coords": [
       585,
       225,
       595,
       235
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "no forageables"
+    ],
+    "uid": [
+      4750040
     ]
   }
 }

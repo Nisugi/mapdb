@@ -1,0 +1,28 @@
+{
+  "room": {
+    "id": 36591,
+    "title": [
+      "[Kighte's General Store]"
+    ],
+    "description": [
+      "The broad sweep of the wooden floor is interrupted by a worn rug.  Halfway to the wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  A plain wooden table and a plain wooden table are pushed close together in the back of the shop."
+    ],
+    "paths": [
+      "Obvious exits: north, east, out"
+    ],
+    "location": "Wehnimer's Landing",
+    "wayto": {
+      "356": "out",
+      "36592": "north",
+      "36593": "east"
+    },
+    "timeto": {
+      "356": 0.2,
+      "36592": 0.2,
+      "36593": 0.2
+    },
+    "uid": [
+      634225
+    ]
+  }
+}

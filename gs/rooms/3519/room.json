@@ -1,5 +1,4 @@
 {
-  "checksum": "a52fbc9d6ffc0b75c71f7e5e59c9489c",
   "room": {
     "id": 3519,
     "title": [
@@ -21,39 +20,39 @@
       "3520": "north",
       "3521": "east",
       "3542": "south",
-      "30713": "/rooms/3519/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3518": 0.2,
       "3520": 0.2,
       "3521": 0.2,
       "3542": 0.2,
-      "30713": "/rooms/3519/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "node",
-      "town",
-      "supernode",
-      "meta:mapname:Elven Nations - Ta'Vaalor",
-      "meta:mapshortname:Ta'Vaalor",
-      "meta:mapcategory:Elven Nations",
-      "meta:mapcategory:Towns",
-      "urchin guide kingscourt",
-      "urchin-access",
-      "kingscourt",
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      14100047
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       924,
       851,
       962,
       888
+    ],
+    "tags": [
+      "kingscourt",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "meta:mapcategory:Elven Nations",
+      "meta:mapcategory:Towns",
+      "meta:mapname:Elven Nations - Ta'Vaalor",
+      "meta:mapshortname:Ta'Vaalor",
+      "no forageables",
+      "node",
+      "supernode",
+      "town",
+      "urchin guide kingscourt",
+      "urchin-access"
+    ],
+    "uid": [
+      14100047
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "6c9a2c1c93ef633bb7c18d303f9102c2",
   "room": {
     "id": 3649,
     "title": [
@@ -19,30 +18,30 @@
     "wayto": {
       "3648": "west",
       "3668": "east",
-      "30718": "/rooms/3649/wayto/stringproc-30718.rb",
+      "30718": ";e true",
       "33751": "go peak-roofed shop"
     },
     "timeto": {
       "3648": 0.2,
       "3668": 0.8,
-      "30718": "/rooms/3649/timeto/stringproc-30718.rb",
+      "30718": ";e Map[7].timeto['30714'].call;",
       "33751": 0.2
     },
-    "tags": [
-      "urchin-access",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-10"
-    ],
-    "uid": [
-      3201028
-    ],
     "image": "ifw-isle_of_four_winds-1310232949.png",
     "image_coords": [
       2634,
       1328,
       2666,
       1351
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-10",
+      "no forageables",
+      "urchin-access"
+    ],
+    "uid": [
+      3201028
     ]
   }
 }

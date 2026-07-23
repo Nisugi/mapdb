@@ -1,5 +1,4 @@
 {
-  "checksum": "898f2132f04ac6c02b176d47942f7e80",
   "room": {
     "id": 8551,
     "title": [
@@ -16,27 +15,27 @@
     "terrain": "rough",
     "wayto": {
       "8550": "north",
-      "8552": "/rooms/8551/wayto/stringproc-8552.rb"
+      "8552": ";e move 'climb rubble'"
     },
     "timeto": {
       "8550": 0.2,
       "8552": 5.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      10103
-    ],
     "image": "wl-trollfang-1264234799.png",
     "image_coords": [
       1266,
       647,
       1276,
       657
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
+    ],
+    "uid": [
+      10103
     ]
   }
 }

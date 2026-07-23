@@ -1,5 +1,4 @@
 {
-  "checksum": "77bcfaae42e1913c4b679ff522aed320",
   "room": {
     "id": 3538,
     "title": [
@@ -20,30 +19,30 @@
     "wayto": {
       "3537": "south",
       "3539": "north",
-      "20702": "/rooms/3538/wayto/stringproc-20702.rb",
-      "30713": "/rooms/3538/wayto/stringproc-30713.rb"
+      "20702": ";e move 'go gate'",
+      "30713": ";e true"
     },
     "timeto": {
       "3537": 0.2,
       "3539": 0.2,
-      "20702": "/rooms/3538/timeto/stringproc-20702.rb",
-      "30713": "/rooms/3538/timeto/stringproc-30713.rb"
+      "20702": ";e UserVars.mapdb_premium.nil? ? 10 : 0.2;",
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access",
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      14100027
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       1372,
       705,
       1409,
       740
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "no forageables",
+      "urchin-access"
+    ],
+    "uid": [
+      14100027
     ]
   }
 }

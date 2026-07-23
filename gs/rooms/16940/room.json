@@ -1,5 +1,4 @@
 {
-  "checksum": "ff2d2ebed78d22595f0506437e13f965",
   "room": {
     "id": 16940,
     "title": [
@@ -18,19 +17,20 @@
     "timeto": {
       "16939": 0.2
     },
-    "tags": [
-      "wizard alchemy shop",
-      "Ta'Illistim wizard alchemy shop"
-    ],
-    "uid": [
-      685207
-    ],
     "image": "en-ta_illistim-Wizard_Guild-1264234799.gif",
     "image_coords": [
       44,
       111,
       96,
       163
+    ],
+    "tags": [
+      "no forageables",
+      "Ta'Illistim wizard alchemy shop",
+      "wizard alchemy shop"
+    ],
+    "uid": [
+      685207
     ]
   }
 }

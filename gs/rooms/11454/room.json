@@ -1,5 +1,4 @@
 {
-  "checksum": "b97b448c2554a7219a2068458bc7ba2f",
   "room": {
     "id": 11454,
     "title": [
@@ -15,38 +14,38 @@
     "climate": "saltwater",
     "terrain": "",
     "wayto": {
-      "11440": "/rooms/11454/wayto/stringproc-11440.rb",
-      "11441": "/rooms/11454/wayto/stringproc-11441.rb",
-      "11451": "/rooms/11454/wayto/stringproc-11451.rb",
-      "11452": "/rooms/11454/wayto/stringproc-11452.rb",
-      "11453": "/rooms/11454/wayto/stringproc-11453.rb",
-      "11455": "/rooms/11454/wayto/stringproc-11455.rb",
-      "11472": "/rooms/11454/wayto/stringproc-11472.rb",
-      "16041": "/rooms/11454/wayto/stringproc-16041.rb"
+      "11440": ";e if checkspell(112) then move 'west' else move 'swim west' end; waitrt?",
+      "11441": ";e if checkspell(112) then move 'northwest' else move 'swim northwest' end; waitrt?",
+      "11451": ";e if checkspell(112) then move 'southeast' else move 'swim southeast' end; waitrt?",
+      "11452": ";e if checkspell(112) then move 'east' else move 'swim east' end; waitrt?",
+      "11453": ";e if checkspell(112) then move 'north' else move 'swim north' end; waitrt?",
+      "11455": ";e if checkspell(112) then move 'south' else move 'swim south' end; waitrt?",
+      "11472": ";e move 'swim down'; waitrt?",
+      "16041": ";e if checkspell(112) then move 'southwest' else move 'swim southwest' end; waitrt?"
     },
     "timeto": {
-      "11440": 2,
-      "11441": 2,
-      "11451": 2,
-      "11452": 2,
-      "11453": 2,
-      "11455": 2,
-      "11472": 3,
-      "16041": 2
+      "11440": 2.0,
+      "11441": 2.0,
+      "11451": 2.0,
+      "11452": 2.0,
+      "11453": 2.0,
+      "11455": 2.0,
+      "11472": 3.0,
+      "16041": 2.0
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      304027
-    ],
     "image": "rr-maelstrom-1619824696.png",
     "image_coords": [
       702,
       1206,
       712,
       1216
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables"
+    ],
+    "uid": [
+      304027
     ]
   }
 }

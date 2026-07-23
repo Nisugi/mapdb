@@ -1,5 +1,4 @@
 {
-  "checksum": "a7443b705ff61e50e4f6f8d4e50b28ac",
   "room": {
     "id": 10993,
     "title": [
@@ -18,18 +17,19 @@
     "timeto": {
       "10991": 0.2
     },
-    "tags": [
-      "treasuremaster"
-    ],
-    "uid": [
-      15003003
-    ],
     "image": "adventurers_guild-1485358936.png",
     "image_coords": [
       295,
       1711,
       361,
       1777
+    ],
+    "tags": [
+      "no forageables",
+      "treasuremaster"
+    ],
+    "uid": [
+      15003003
     ]
   }
 }

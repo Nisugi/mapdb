@@ -1,5 +1,4 @@
 {
-  "checksum": "12924869becaf35c37b01d46f5ceb698",
   "room": {
     "id": 4033,
     "title": [
@@ -16,40 +15,40 @@
     "terrain": "none",
     "wayto": {
       "745": "north",
-      "1830": "/rooms/4033/wayto/stringproc-1830.rb",
+      "1830": ";e $mapdb_seeking_destination = 1830;Map[3600].wayto['3600'].call;",
       "4034": "east",
       "4038": "go doors",
-      "9823": "/rooms/4033/wayto/stringproc-9823.rb",
-      "10010": "/rooms/4033/wayto/stringproc-10010.rb"
+      "9823": ";e $mapdb_seeking_destination = 9823;Map[3600].wayto['3600'].call;",
+      "10010": ";e $mapdb_seeking_destination = 10010;Map[3600].wayto['3600'].call;"
     },
     "timeto": {
       "745": 0.2,
-      "1830": "/rooms/4033/timeto/stringproc-1830.rb",
+      "1830": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 2.8; else; nil; end",
       "4034": 0.2,
       "4038": 0.2,
-      "9823": "/rooms/4033/timeto/stringproc-9823.rb",
-      "10010": "/rooms/4033/timeto/stringproc-10010.rb"
+      "9823": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 2.8; else; nil; end",
+      "10010": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 2.8; else; nil; end"
     },
-    "tags": [
-      "node",
-      "voln",
-      "meta:mapname:Elven Nations - Ta'Illistim Buildings",
-      "meta:mapshortname:Ta'Illistim Buildings",
-      "meta:mapcategory:Elven Nations",
-      "meta:seeking",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      13109002
-    ],
     "image": "en-ta_illistim_buildings.png",
     "image_coords": [
       368,
       2138,
       503,
       2191
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-11",
+      "meta:mapcategory:Elven Nations",
+      "meta:mapname:Elven Nations - Ta'Illistim Buildings",
+      "meta:mapshortname:Ta'Illistim Buildings",
+      "meta:seeking",
+      "no forageables",
+      "node",
+      "voln"
+    ],
+    "uid": [
+      13109002
     ]
   }
 }

@@ -1,0 +1,34 @@
+{
+  "room": {
+    "id": 36637,
+    "title": [
+      "[Brayern Isle, Docks]"
+    ],
+    "description": [
+      "The blue-green docks extend over the bright blue water, which is clear enough to see down to the volcanic rocks below.  Beneath the docks, thick circular pilings drive down into bright blue waters that gently lap against an ebon, volcanic stone-laden shore.  Longboats are tied against these pilings, hewn from the same wood as the docks.  Above, the sky and horizon are obscured, both caught in the electric blue haze of the distant mana storm."
+    ],
+    "paths": [
+      "Obvious paths: east"
+    ],
+    "location": "Brayern Isle",
+    "wayto": {
+      "36638": "east"
+    },
+    "timeto": {
+      "36638": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      809,
+      1480,
+      828,
+      1500
+    ],
+    "tags": [
+      "exit"
+    ],
+    "uid": [
+      8400201
+    ]
+  }
+}

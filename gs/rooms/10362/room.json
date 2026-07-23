@@ -1,5 +1,4 @@
 {
-  "checksum": "a938af2c6e2572c57361ccf85d7b70aa",
   "room": {
     "id": 10362,
     "title": [
@@ -15,18 +14,19 @@
     "wayto": {
       "3533": "out",
       "10363": "south",
-      "30713": "/rooms/10362/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3533": 0.2,
       "10363": 0.2,
-      "30713": "/rooms/10362/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "fletcher",
-      "urchin-access",
+      "meta:nomagic",
+      "no forageables",
       "urchin guide fletcher",
-      "meta:nomagic"
+      "urchin-access"
     ],
     "uid": [
       14112001

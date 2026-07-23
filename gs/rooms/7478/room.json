@@ -1,5 +1,4 @@
 {
-  "checksum": "8f7dc5fff271ea8c7b6a91c9333e87d4",
   "room": {
     "id": 7478,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "7477": "/rooms/7478/wayto/stringproc-7477.rb",
+      "7477": ";e if celerity = Spell[506] and celerity.known? and celerity.affordable? and not celerity.active?; celerity.cast; end; fput 'search'; waitrt?; move 'go crack'; waitrt?",
       "7479": "east",
       "7480": "northeast"
     },
@@ -22,34 +21,34 @@
       "7479": 0.2,
       "7480": 0.2
     },
-    "tags": [
-      "some cave moss",
-      "blue mold",
-      "red mold",
-      "green mold",
-      "pink mold",
-      "luminescent green fungus",
-      "purple mold",
-      "yellow mold",
-      "white mold",
-      "large black toadstool",
-      "some blackened moss",
-      "bone mushroom",
-      "sponge mushroom",
-      "some glowing green lichen",
-      "myklian",
-      "red myklian",
-      "purple myklian"
-    ],
-    "uid": [
-      94020
-    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       974,
       826,
       984,
       836
+    ],
+    "tags": [
+      "blue mold",
+      "bone mushroom",
+      "green mold",
+      "large black toadstool",
+      "luminescent green fungus",
+      "myklian",
+      "pink mold",
+      "purple mold",
+      "purple myklian",
+      "red mold",
+      "red myklian",
+      "some blackened moss",
+      "some cave moss",
+      "some glowing green lichen",
+      "sponge mushroom",
+      "white mold",
+      "yellow mold"
+    ],
+    "uid": [
+      94020
     ]
   }
 }

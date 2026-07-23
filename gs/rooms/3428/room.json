@@ -1,5 +1,4 @@
 {
-  "checksum": "183ff8a2398b75333c36c51e49a13380",
   "room": {
     "id": 3428,
     "title": [
@@ -14,26 +13,27 @@
     "location": "Icemule Trace",
     "wayto": {
       "3426": "west",
-      "30709": "/rooms/3428/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "3426": 0.2,
-      "30709": "/rooms/3428/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "node",
-      "supernode",
-      "urchin-access"
-    ],
-    "uid": [
-      4043222
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       407,
       875,
       443,
       911
+    ],
+    "tags": [
+      "no forageables",
+      "node",
+      "supernode",
+      "urchin-access"
+    ],
+    "uid": [
+      4043222
     ]
   }
 }

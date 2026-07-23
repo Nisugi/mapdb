@@ -1,5 +1,4 @@
 {
-  "checksum": "55de35b2a5d53312569e23a4f680edaf",
   "room": {
     "id": 4655,
     "title": [
@@ -16,29 +15,29 @@
     "wayto": {
       "4653": "go walkway",
       "4702": "up",
-      "30717": "/rooms/4655/wayto/stringproc-30717.rb"
+      "30717": ";e true"
     },
     "timeto": {
       "4653": 0.2,
       "4702": 0.2,
-      "30717": "/rooms/4655/timeto/stringproc-30717.rb"
+      "30717": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "gemshop",
-      "no forageables",
-      "meta:forage-sensed",
-      "urchin-access",
-      "urchin guide gemshop"
-    ],
-    "uid": [
-      14051003
-    ],
     "image": "en-cysaegir-1679641246.png",
     "image_coords": [
       469,
       725,
       494,
       749
+    ],
+    "tags": [
+      "gemshop",
+      "meta:forage-sensed",
+      "no forageables",
+      "urchin guide gemshop",
+      "urchin-access"
+    ],
+    "uid": [
+      14051003
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "968b3c0bf71bdee237eb4d1d367f66ae",
   "room": {
     "id": 12543,
     "title": [
@@ -18,35 +17,35 @@
       "12388": "out",
       "12544": "east",
       "20025": "go temple",
-      "30715": "/rooms/12543/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "12388": 0.2,
       "12544": 0.2,
-      "20025": "/rooms/12543/timeto/stringproc-20025.rb",
-      "30715": "/rooms/12543/timeto/stringproc-30715.rb"
+      "20025": ";e ((!defined?(Stats.prof) or Stats.prof == 'Cleric') ? 0.2 : nil);",
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "clericguild",
-      "meta:mapname:Teras Isle - Cleric Guild",
-      "meta:mapshortname:Cleric Guild (Teras)",
-      "meta:mapcategory:Teras Isle",
-      "meta:mapcategory:Guilds",
-      "urchin guide clericguild",
-      "urchin-access",
-      "meta:forage-sensed",
-      "cleric guild",
-      "no forageables"
-    ],
-    "uid": [
-      672016
-    ],
     "image": "ti-Cleric_Guild-1267238976.jpg",
     "image_coords": [
       422,
       464,
       454,
       498
+    ],
+    "tags": [
+      "cleric guild",
+      "clericguild",
+      "meta:forage-sensed",
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Teras Isle",
+      "meta:mapname:Teras Isle - Cleric Guild",
+      "meta:mapshortname:Cleric Guild (Teras)",
+      "no forageables",
+      "urchin guide clericguild",
+      "urchin-access"
+    ],
+    "uid": [
+      672016
     ]
   }
 }

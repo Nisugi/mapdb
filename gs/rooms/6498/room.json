@@ -1,5 +1,4 @@
 {
-  "checksum": "9cca037cbaee8aedf66694b23b2e3754",
   "room": {
     "id": 6498,
     "title": [
@@ -15,17 +14,17 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "6495": "/rooms/6498/wayto/stringproc-6495.rb",
-      "6496": "/rooms/6498/wayto/stringproc-6496.rb"
+      "6495": ";e move 'out'; move 'south' unless checkpaths.include?('n')",
+      "6496": ";e move 'out'; move 'north' if checkpaths.include?('n')"
     },
     "timeto": {
       "6495": 0.2,
       "6496": 0.2
     },
     "tags": [
-      "spectral monk",
       "monastic lich",
-      "no forageables"
+      "no forageables",
+      "spectral monk"
     ],
     "uid": [
       95169

@@ -1,5 +1,4 @@
 {
-  "checksum": "5e773145d506dd5875401cd81582fb56",
   "room": {
     "id": 11480,
     "title": [
@@ -22,23 +21,23 @@
       "11444": 0.2,
       "11481": 0.2
     },
-    "tags": [
-      "yabathilium fruit",
-      "strand of seaweed",
-      "meta:forage-sensed",
-      "murdroot",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      304030
-    ],
     "image": "rr-maelstrom-1619824696.png",
     "image_coords": [
       567,
       1206,
       577,
       1216
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "murdroot",
+      "strand of seaweed",
+      "yabathilium fruit"
+    ],
+    "uid": [
+      304030
     ]
   }
 }

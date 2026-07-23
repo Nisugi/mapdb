@@ -1,5 +1,4 @@
 {
-  "checksum": "f9a4e073286b9ec2c453ff6a4f25f9f4",
   "room": {
     "id": 28940,
     "title": [
@@ -15,20 +14,21 @@
     "wayto": {
       "28883": "out",
       "28941": "go opening",
-      "30716": "/rooms/28940/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28883": 0.2,
       "28941": 0.2,
-      "30716": "/rooms/28940/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "meta:trashcan:copper-bound rough oak barrel",
+      "no forageables",
+      "pawn",
       "pawnshop",
       "trash",
-      "meta:trashcan:copper-bound rough oak barrel",
       "urchin guide pawn",
-      "urchin-access",
-      "pawn"
+      "urchin-access"
     ],
     "uid": [
       7118398

@@ -1,5 +1,4 @@
 {
-  "checksum": "b8b16c2670ee2cef91a00a42c5552894",
   "room": {
     "id": 3818,
     "title": [
@@ -22,35 +21,35 @@
       "22230": 0.2,
       "22231": 0.2
     },
-    "tags": [
-      "withered black mushroom",
-      "black hook mushroom",
-      "nightmare steed",
-      "map:samepath:west,southeast,southwest",
-      "map:samepath:east,south,north",
-      "red trafel mushroom",
-      "soft white mushroom",
-      "blue trafel mushroom",
-      "cave moss",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "Sheruvian harbringer",
-      "white hook mushroom",
-      "meta:forage-sensed:night:2023-01",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      388019
-    ],
     "image": "wl-darkstone-1717380773.png",
     "image_coords": [
       675,
       1330,
       687,
       1342
+    ],
+    "tags": [
+      "black mushroom",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "cave moss",
+      "ironfern root",
+      "map:samepath:east,south,north",
+      "map:samepath:west,southeast,southwest",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-01",
+      "murdroot",
+      "nightmare steed",
+      "red mushroom",
+      "Sheruvian harbringer",
+      "soft mushroom",
+      "white hook mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      388019
     ]
   }
 }

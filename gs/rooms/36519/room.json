@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36519,
+    "title": [
+      "[Ursine Paddock, Entry]"
+    ],
+    "description": [
+      "Rough-hewn fencing of arctic pine surrounds a wide, trampled yard speckled with tufts of shedding fur.  Sunlight filters through drifting clouds, glinting against claw-scored wood and frozen earth.  Bears of various sizes shift between idle pacing and resting near shallow feeding troughs.  Carved totems are featured in each corner of the paddock, their worn surfaces etched with iconography unique to their post."
+    ],
+    "paths": [
+      "Obvious paths: east, out"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "31184": "out",
+      "36520": "east"
+    },
+    "timeto": {
+      "31184": 0.2,
+      "36520": 0.2
+    },
+    "uid": [
+      8209491
+    ]
+  }
+}

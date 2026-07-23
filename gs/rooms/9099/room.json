@@ -1,5 +1,4 @@
 {
-  "checksum": "481bbdd689bb43f8c302f9acfb9e9844",
   "room": {
     "id": 9099,
     "title": [
@@ -20,18 +19,20 @@
       "9098": 0.2,
       "9100": 0.2
     },
-    "tags": [
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4045208
-    ],
     "image": "imt-underground-1264234799.png",
     "image_coords": [
       202,
       466,
       212,
       476
+    ],
+    "tags": [
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03"
+    ],
+    "uid": [
+      4045208
     ]
   }
 }

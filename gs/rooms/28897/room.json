@@ -1,5 +1,4 @@
 {
-  "checksum": "8100d8d4f4d0c309cf24e2799c30c107",
   "room": {
     "id": 28897,
     "title": [
@@ -20,7 +19,7 @@
       "28900": "east",
       "29007": "go shop",
       "29032": "go catwalk",
-      "30716": "/rooms/28897/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28896": 0.2,
@@ -28,25 +27,25 @@
       "28900": 0.2,
       "29007": 0.2,
       "29032": 0.2,
-      "30716": "/rooms/28897/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "handler",
-      "urchin guide catwalk",
-      "urchin-access",
-      "dock handler",
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      7118238
-    ],
     "image": "kf-krakens_fall-1648278406.png",
     "image_coords": [
       405,
       505,
       419,
       518
+    ],
+    "tags": [
+      "dock handler",
+      "handler",
+      "meta:forage-sensed",
+      "no forageables",
+      "urchin guide catwalk",
+      "urchin-access"
+    ],
+    "uid": [
+      7118238
     ]
   }
 }

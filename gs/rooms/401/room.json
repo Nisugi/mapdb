@@ -1,5 +1,4 @@
 {
-  "checksum": "18db8a016c7c7093955047d83b38365b",
   "room": {
     "id": 401,
     "title": [
@@ -15,28 +14,29 @@
     "wayto": {
       "289": "out",
       "23831": "go sturdy ladder",
-      "30708": "/rooms/401/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "289": 0.2,
       "23831": 0.2,
-      "30708": "/rooms/401/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "armorshop",
-      "urchin-access",
-      "urchin guide armor",
-      "armor"
-    ],
-    "uid": [
-      2050
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       122,
       879,
       152,
       909
+    ],
+    "tags": [
+      "armor",
+      "armorshop",
+      "no forageables",
+      "urchin guide armor",
+      "urchin-access"
+    ],
+    "uid": [
+      2050
     ]
   }
 }

@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36681,
+    "title": [
+      "[Nyessem, Testing Module Exit]"
+    ],
+    "description": [
+      "Twin cascading stone fountains run the room's length, simulating gentle waterfalls along two sides of this area.  Soft, silver and violet-threaded cushions are spread across the floor between these fountains, piled into a variety of improvised arrangements.  In the room's center is a marble table set with refreshments.  Suspended prominently over a broad topaz-studded tunnel is a wood and stone sign."
+    ],
+    "paths": [
+      "Obvious exits: south"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36676": "go tunnel",
+      "36682": "go south"
+    },
+    "timeto": {
+      "36676": 0.2,
+      "36682": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      599,
+      641,
+      616,
+      655
+    ],
+    "uid": [
+      8400080
+    ]
+  }
+}

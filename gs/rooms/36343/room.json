@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36343,
+    "title": [
+      "[Meadow, Ruins]"
+    ],
+    "description": [
+      "Wandering aimlessly through the pleasant meadow, you notice a few ruined markers, milestones, and a number of weed-covered mounds just to the north.  A dark, thin vertical shape and a squarer black one cleave the sky farther north.  Receding into the distance are low mountains in the northeast."
+    ],
+    "paths": [
+      "Obvious paths: north, west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36342": "west",
+      "36344": "north"
+    },
+    "timeto": {
+      "36342": 0.2,
+      "36344": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      200,
+      1160,
+      240,
+      1200
+    ],
+    "uid": [
+      55002
+    ]
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "checksum": "70af5ef8638dc50f013cd1a16f525b89",
   "room": {
     "id": 11036,
     "title": [
@@ -20,33 +19,33 @@
       "11035": 0.2,
       "11037": 0.2
     },
-    "tags": [
-      "soft white mushroom",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "genkew mushroom",
-      "blue trafel mushroom",
-      "ironfern root",
-      "slender twig",
-      "bolmara lichen",
-      "brostheras grass",
-      "meta:forage-sensed",
-      "meta:nomagic",
-      "viburnum twig",
-      "birch bark",
-      "tanik twig",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      5000101
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       2810,
       1465,
       2831,
       1486
+    ],
+    "tags": [
+      "birch bark",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "brostheras grass",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:nomagic",
+      "slender twig",
+      "soft mushroom",
+      "tanik twig",
+      "viburnum twig",
+      "withered mushroom"
+    ],
+    "uid": [
+      5000101
     ]
   }
 }

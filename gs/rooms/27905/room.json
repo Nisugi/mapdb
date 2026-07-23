@@ -1,5 +1,4 @@
 {
-  "checksum": "40dc3c983ecad850d6ca9f2084fd2781",
   "room": {
     "id": 27905,
     "title": [
@@ -13,15 +12,15 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "27904": "/rooms/27905/wayto/stringproc-27904.rb"
+      "27904": ";e room = Room.current.id;fput 'go curtain'; if ( room == Room.current.id ); fput 'close locker';move 'go curtain'; end"
     },
     "timeto": {
       "27904": 0.2
     },
     "tags": [
-      "sglocker",
+      "meta:che:silvergate_inn:locker",
       "meta:locker",
-      "meta:che:silvergate_inn:locker"
+      "sglocker"
     ],
     "uid": [
       5001255
