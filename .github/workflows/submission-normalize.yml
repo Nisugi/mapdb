@@ -171,8 +171,15 @@ jobs:
             echo "Submission is already canonical."
           else
             git diff --cached --stat > normalize-preview.txt
-            echo "Post-merge canonicalization preview:"
-            cat normalize-preview.txt
+            # Bounded preview only: streaming a full-map diffstat (12k+
+            # lines) into the runner's non-blocking log pipe fails with
+            # EAGAIN - cat exits 1 and sinks the step.
+            TOTAL=$(wc -l < normalize-preview.txt)
+            echo "Post-merge canonicalization preview ($(tail -1 normalize-preview.txt | sed 's/^ *//')):"
+            head -40 normalize-preview.txt
+            if [ "$TOTAL" -gt 40 ]; then
+              echo "  ...and $((TOTAL - 40)) more lines (full preview in normalize-preview.txt)"
+            fi
           fi
 
       - name: Detect StringProc changes
@@ -280,7 +287,14 @@ jobs:
             } else if (normalizeOk) {
               comment += '✅ Submission normalizes cleanly.\n\n';
               try {
-                const preview = fs.readFileSync('normalize-preview.txt', 'utf8');
+                let preview = fs.readFileSync('normalize-preview.txt', 'utf8');
+                // A full-map submission's diffstat is ~550KB; GitHub caps
+                // comments at 65536 chars. Keep the head plus the summary line.
+                const PLIMIT = 15000;
+                if (preview.length > PLIMIT) {
+                  const summary = preview.trimEnd().split('\n').pop();
+                  preview = preview.slice(0, PLIMIT) + '\n…preview truncated…\n' + summary + '\n';
+                }
                 comment += 'Post-merge canonicalization will apply:\n\n```\n' + preview + '```\n\n';
               } catch (e) {
                 if (${{ steps.changed-files.outputs.count || 0 }} > 0) {
