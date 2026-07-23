@@ -1,5 +1,4 @@
 {
-  "checksum": "fd0335ea7d36920cf3c110878206310e",
   "room": {
     "id": 29697,
     "title": [
@@ -17,24 +16,28 @@
       "29695": "go dirt track",
       "29698": "go pentagonal structure",
       "29706": "northeast",
-      "33574": "go ruby marquee"
+      "33574": "go ruby marquee",
+      "36490": "go russet pavilion",
+      "36510": "go black tent"
     },
     "timeto": {
       "29671": 0.2,
       "29695": 0.2,
       "29698": 0.2,
       "29706": 0.2,
-      "33574": 0.2
+      "33574": 0.2,
+      "36490": 0.2,
+      "36510": 0.2
     },
+    "image": "fest-RW2026.png",
+    "image_coords": [
+      1419,
+      396,
+      1443,
+      421
+    ],
     "uid": [
       8208745
-    ],
-    "image": "fest-RW2023-1687094965.png",
-    "image_coords": [
-      955,
-      421,
-      983,
-      450
     ]
   }
 }

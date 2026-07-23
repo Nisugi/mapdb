@@ -1,5 +1,4 @@
 {
-  "checksum": "1f3e1ae7ec81ce9264a670086116f704",
   "room": {
     "id": 10781,
     "title": [
@@ -16,36 +15,38 @@
     "terrain": "rough",
     "wayto": {
       "4715": "south",
-      "18150": "/rooms/10781/wayto/stringproc-18150.rb"
+      "18150": ";e result = dothistimeout 'look deep pillar', 5, /dark cloud|dark eye|hazy black|slate grey|blood-drop|dark cloud|radiating circle|consist of/;if result =~ /dark eye/;\tloop{;\t\twait_until{(XMLData.mana > (17 * 3))};\t\tresult = cast(717, 'deep pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};elsif result =~ /hazy black/;\tloop{;\t\twait_until{(XMLData.mana > (4 * 3))};\t\tresult = cast(704, 'deep pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};elsif result =~ /slate grey/;\tloop{;\t\twait_until{(XMLData.mana > (5 * 3))};\t\tresult = cast(705, 'deep pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};elsif result =~ /blood-drop/;\tloop{;\t\twait_until{(XMLData.mana > (1 * 3))};\t\tresult = cast(701, 'deep pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak\t\tend;\t};elsif result =~ /radiating circle/;\tloop{;\t\twait_until{(XMLData.mana > (2 * 3))};\t\tresult = cast(702, 'deep pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};elsif result =~ /dark cloud/;\tloop{;\t\twait_until{(XMLData.mana > (3 * 3))};\t\tresult = cast(703, 'deep pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};end;result = dothistimeout 'look black pillar', 5, /dark cloud|dark eye|hazy black|slate grey|blood-drop|dark cloud|radiating circle|consist of/;if result =~ /dark eye/;\tloop{;\t\twait_until{(XMLData.mana > (17 * 3))};\t\tresult = cast(717, 'black pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};elsif result =~ /hazy black/;\tloop{;\t\twait_until{(XMLData.mana > (4 * 3))};\t\tresult = cast(704, 'black pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};elsif result =~ /slate grey/;\tloop{;\t\twait_until{(XMLData.mana > (5 * 3))};\t\tresult = cast(705, 'black pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};elsif result =~ /blood-drop/;\tloop{;\t\twait_until{(XMLData.mana > (1 * 3))};\t\tresult = cast(701, 'black pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};elsif result =~ /radiating circle/;\tloop{;\t\twait_until{(XMLData.mana > (2 * 3))};\t\tresult = cast(702, 'black pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};elsif result =~ /dark cloud/;\tloop{;\t\twait_until{(XMLData.mana > (3 * 3))};\t\tresult = cast(703, 'black pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};end;result = dothistimeout 'look dark pillar', 5, /dark cloud|dark eye|hazy black|slate grey|blood-drop|dark cloud|radiating circle|consist of/;if result =~ /dark eye/;\tloop{;\t\twait_until{(XMLData.mana > (17 * 3))};\t\tresult = cast(717, 'dark pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};elsif result =~ /hazy black/;\tloop{;\t\twait_until{(XMLData.mana > (4 * 3))};\t\tresult = cast(704, 'dark pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};elsif result =~ /slate grey/;\tloop{;\t\twait_until{(XMLData.mana > (5 * 3))};\t\tresult = cast(705, 'dark pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};elsif result =~ /blood-drop/;\tloop{;\t\twait_until{(XMLData.mana > (1 * 3))};\t\tresult = cast(701, 'dark pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};elsif result =~ /radiating circle/;\tloop{;\t\twait_until{(XMLData.mana > (2 * 3))};\t\tresult = cast(702, 'dark pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};elsif result =~ /dark cloud/;\tloop{;\t\twait_until{(XMLData.mana > (3 * 3))};\t\tresult = cast(703, 'dark pillar');\t\tif result =~ /Cast Roundtime/;\t\t\tbreak;\t\tend;\t};end"
     },
     "timeto": {
       "4715": 0.2,
-      "18150": "/rooms/10781/timeto/stringproc-18150.rb"
+      "18150": ";e Stats.prof == 'Sorcerer' ? 10.0 : nil"
     },
-    "tags": [
-      "sorcererguild",
-      "sorcerer guild",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "stalk of chicory",
-      "broken twig",
-      "heath aster",
-      "moonlight cactus-bloom",
-      "sprig of larkspur",
-      "ironfern root",
-      "meta:forage-sensed",
-      "sky-blue delphira",
-      "meta:forage-sensed:day:2023-05"
-    ],
-    "uid": [
-      666001
-    ],
     "image": "en-gyldemar-1264234799.png",
     "image_coords": [
       225,
       869,
       235,
       879
+    ],
+    "tags": [
+      "bright red teaberry",
+      "broken twig",
+      "handful of currants",
+      "heath aster",
+      "ironfern root",
+      "juniper berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "moonlight cactus-bloom",
+      "sky-blue delphira",
+      "sorcerer guild",
+      "sorcererguild",
+      "sprig of larkspur",
+      "stalk of chicory",
+      "wintergreen leaf"
+    ],
+    "uid": [
+      666001
     ]
   }
 }

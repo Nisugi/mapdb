@@ -1,5 +1,4 @@
 {
-  "checksum": "e4cf6c8c843ec46f1d282aa34fe14562",
   "room": {
     "id": 11123,
     "title": [
@@ -25,41 +24,42 @@
       "11124": 0.2,
       "11134": 0.2
     },
-    "tags": [
-      "acantha leaf",
-      "calamia fruit",
-      "aloeas stem",
-      "withered black mushroom",
-      "wild chokecherry",
-      "bright red cranberry",
-      "motherwort",
-      "murkweed",
-      "cave moss",
-      "murdroot",
-      "wingstem root",
-      "bur-clover root",
-      "cinnamon bark",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "meta:forage-sensed",
-      "golden flax fronds",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      2103023
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       3324,
       613,
       3362,
       649
+    ],
+    "tags": [
+      "acantha leaf",
+      "aloeas stem",
+      "black peppercorn",
+      "bright red cranberry",
+      "bur-clover root",
+      "calamia fruit",
+      "cardamom",
+      "cave moss",
+      "cinnamon bark",
+      "cumin seeds",
+      "golden flax fronds",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "motherwort",
+      "murdroot",
+      "murkweed",
+      "nutmeg",
+      "pink peppercorn",
+      "star anise",
+      "vanilla bean",
+      "wild chokecherry",
+      "wild rice",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      2103023
     ]
   }
 }

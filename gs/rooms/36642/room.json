@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36642,
+    "title": [
+      "[Brayern Isle, Jungle Path]"
+    ],
+    "description": [
+      "The path here is a series of switchbacks, a mix of stone-lined trails and brief, rope-lined bridges to cross small gaps.  Lanterns line the way.  Thick vines reach down from above and encroach the path from the sides.  This vegetation shivers periodically, betraying hints of life.  The thrum of water moving against rock is more muted here than down by the beach, but still loud."
+    ],
+    "paths": [
+      "Obvious paths: north, down"
+    ],
+    "location": "Brayern Isle",
+    "wayto": {
+      "36641": "down",
+      "36644": "north"
+    },
+    "timeto": {
+      "36641": 0.2,
+      "36644": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      936,
+      1313,
+      956,
+      1330
+    ],
+    "uid": [
+      8400219
+    ]
+  }
+}

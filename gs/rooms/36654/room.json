@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36654,
+    "title": [
+      "[Brayern Isle, Fort Brayern]"
+    ],
+    "description": [
+      "The centerpiece of this corner of the fortress is a white stone fountain, filled by a series of sloping tubes that run along the blue-green wooden walls.  Around the fountain and across the area are several piles of plush pillows, offering copious seating for guests.  Multiple marble sculptures line the walls, each carved with meticulous detail."
+    ],
+    "paths": [
+      "Obvious exits: north, west"
+    ],
+    "location": "Brayern Isle",
+    "wayto": {
+      "36653": "west",
+      "36655": "north"
+    },
+    "timeto": {
+      "36653": 0.2,
+      "36655": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      894,
+      1060,
+      912,
+      1077
+    ],
+    "uid": [
+      8400252
+    ]
+  }
+}

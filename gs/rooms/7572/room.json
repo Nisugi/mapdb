@@ -1,5 +1,4 @@
 {
-  "checksum": "fb98bf4709b753bf78939ca202f0468d",
   "room": {
     "id": 7572,
     "title": [
@@ -22,24 +21,24 @@
       "7571": 0.2,
       "7573": 0.2
     },
-    "tags": [
-      "withered black mushroom",
-      "cave moss",
-      "murdroot",
-      "wingstem root",
-      "meta:forage-sensed",
-      "bur-clover root",
-      "meta:forage-sensed:day:2023-02"
-    ],
-    "uid": [
-      47006
-    ],
     "image": "wl-catacombs-1264234799.png",
     "image_coords": [
       118,
       1289,
       128,
       1299
+    ],
+    "tags": [
+      "bur-clover root",
+      "cave moss",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      47006
     ]
   }
 }

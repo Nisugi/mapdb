@@ -1,5 +1,4 @@
 {
-  "checksum": "8ac747439dab81961e44995608a297fc",
   "room": {
     "id": 1978,
     "title": [
@@ -18,29 +17,29 @@
     "wayto": {
       "1962": "west",
       "1979": "go marble gate",
-      "30715": "/rooms/1978/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1962": 0.2,
       "1979": 0.2,
-      "30715": "/rooms/1978/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin guide weddinghall",
-      "urchin-access",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      3001011
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       1122,
       875,
       1152,
       905
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "no forageables",
+      "urchin guide weddinghall",
+      "urchin-access"
+    ],
+    "uid": [
+      3001011
     ]
   }
 }

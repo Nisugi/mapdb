@@ -1,5 +1,4 @@
 {
-  "checksum": "82326aea051dd6a7a9c0d7ce13e88db0",
   "room": {
     "id": 28990,
     "title": [
@@ -14,18 +13,18 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28981": "go doors",
-      "30716": "/rooms/28990/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28981": 0.2,
-      "30716": "/rooms/28990/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "meta:premium",
+      "no forageables",
       "premium supernode",
       "supernode",
-      "urchin-access",
-      "meta:premium",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       7118515

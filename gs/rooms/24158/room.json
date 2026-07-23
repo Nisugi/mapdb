@@ -1,5 +1,4 @@
 {
-  "checksum": "851e2e04ea93332f823da51123f3e201",
   "room": {
     "id": 24158,
     "title": [
@@ -13,8 +12,8 @@
     ],
     "location": "the Feywrot Mire",
     "wayto": {
-      "24152": "/rooms/24158/wayto/stringproc-24152.rb",
-      "24159": "/rooms/24158/wayto/stringproc-24159.rb"
+      "24152": ";e x=XMLData.room_count;fput \"s\" until XMLData.room_count > x",
+      "24159": ";e x=XMLData.room_count+2;fput \"n\" until XMLData.room_count == x"
     },
     "timeto": {
       "24152": 0.2,

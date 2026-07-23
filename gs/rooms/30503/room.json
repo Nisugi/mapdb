@@ -1,5 +1,4 @@
 {
-  "checksum": "59be2ec4add2ade9f182cf71b017a092",
   "room": {
     "id": 30503,
     "title": [
@@ -22,27 +21,29 @@
       "30501": 0.2,
       "30502": 0.2
     },
-    "tags": [
-      "aloeas stem",
-      "wild gooseberry",
-      "water chestnut",
-      "stalk of cattail",
-      "wood violet",
-      "murdroot",
-      "wavepetal blossom",
-      "orchil lichen",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2024-05"
-    ],
-    "uid": [
-      14117004
-    ],
     "image": "en-ravelin.png",
     "image_coords": [
       1162,
       571,
       1182,
       589
+    ],
+    "tags": [
+      "aloeas stem",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "murdroot",
+      "orchil lichen",
+      "stalk of cattail",
+      "sunburst blossom",
+      "water chestnut",
+      "wavepetal blossom",
+      "wild gooseberry",
+      "wood violet"
+    ],
+    "uid": [
+      14117004
     ]
   }
 }

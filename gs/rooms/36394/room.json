@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36394,
+    "title": [
+      "[In the Catapult]"
+    ],
+    "description": [
+      "You are curled up into the half-circle of the cup of the catapult.  You can survey the surrounding turf nicely from here.  You also see the tip of the rope."
+    ],
+    "paths": [
+      "Obvious paths: out"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36458": "out"
+    },
+    "timeto": {
+      "36458": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1000,
+      280,
+      1040,
+      320
+    ],
+    "uid": [
+      55500
+    ]
+  }
+}

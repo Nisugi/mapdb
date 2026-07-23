@@ -1,5 +1,4 @@
 {
-  "checksum": "3a20424704f00f3709f30cd2efa6b13c",
   "room": {
     "id": 5205,
     "title": [
@@ -20,26 +19,27 @@
     },
     "timeto": {
       "5126": 0.2,
-      "24431": "/rooms/5205/timeto/stringproc-24431.rb"
+      "24431": ";e (Script.running?('bigshot') || Script.running?('wander'))? nil : 0.2"
     },
-    "tags": [
-      "yabathilium fruit",
-      "strand of seaweed",
-      "BRS",
-      "murdroot",
-      "meta:forage-sensed",
-      "wavepetal blossom",
-      "meta:forage-sensed:day:2023-02"
-    ],
-    "uid": [
-      4202321
-    ],
     "image": "vo-foggy_valley-1264234799.png",
     "image_coords": [
       150,
       502,
       160,
       512
+    ],
+    "tags": [
+      "BRS",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "strand of seaweed",
+      "wavepetal blossom",
+      "yabathilium fruit",
+      "yellowed salt reedgrass"
+    ],
+    "uid": [
+      4202321
     ]
   }
 }

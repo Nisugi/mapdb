@@ -1,5 +1,4 @@
 {
-  "checksum": "64eec83c6c507be7abaaf3065c5302f2",
   "room": {
     "id": 6481,
     "title": [
@@ -16,7 +15,7 @@
       "6480": "north",
       "6482": "east",
       "6483": "northeast",
-      "6484": "/rooms/6481/wayto/stringproc-6484.rb"
+      "6484": ";e empty_hands; while Room.current == Room[6481]; put 'swim opening'; sleep 1; waitrt?; end; fill_hands"
     },
     "timeto": {
       "6480": 0.2,
@@ -24,20 +23,20 @@
       "6483": 0.2,
       "6484": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      92105
-    ],
     "image": "wl-lysierian-1264234799.png",
     "image_coords": [
       640,
       1005,
       650,
       1015
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "no forageables"
+    ],
+    "uid": [
+      92105
     ]
   }
 }

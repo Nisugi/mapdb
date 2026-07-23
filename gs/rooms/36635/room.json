@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36635,
+    "title": [
+      "[Skyship, Exterior]"
+    ],
+    "description": [
+      "A collapsed and ruined metal tunnel occupies much of the ship's bulkhead along this portion of dark exterior walkway.  Formerly an entrance portal back inside, the tunnel is inaccessible, its exterior faded and dull, the runic symbols upon its exterior wiped into a silver-white blur of chalk.  A makeshift barricade of bloodspattered crates and loose metal surrounds the tunnel in a semicircle, as if those who assembled it hurriedly hoped to stop something from passing through."
+    ],
+    "paths": [
+      "Obvious paths: north, southwest"
+    ],
+    "location": false,
+    "wayto": {
+      "36630": "southwest",
+      "36636": "north"
+    },
+    "timeto": {
+      "36630": 0.2,
+      "36636": 0.2
+    },
+    "uid": [
+      12102096
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "room": {
+    "id": 36451,
+    "title": [
+      "[Field, Exterior]"
+    ],
+    "description": [
+      "All along the fetid moat, the upsweeping form of the keep is oppressive, its shadow from the southwest giving no shade or comfort.  The hideous carvings and eaves that mark the upper floors of the Black Swan are evident above the outer walls.  Gargoyles, scaly things, unnamed fell beasts, all squatting atop tiled, upturned roofs at weird angles.",
+      "There is no respite from the heat to be had here in the shade of the massive keep.  The building blocks any hint of a breeze, making the air almost unbearably stagnant and warm.  Clouds of gnats rise from the fetid moat, viciously attacking any living thing nearby in a frenzy of voracious hunger."
+    ],
+    "paths": [
+      "Obvious paths: south, west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36450": "west",
+      "36452": "south",
+      "36464": "go moat"
+    },
+    "timeto": {
+      "36450": 0.2,
+      "36452": 0.2,
+      "36464": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      840,
+      40,
+      880,
+      80
+    ],
+    "tags": [
+      "sprig of lavender"
+    ],
+    "uid": [
+      59038
+    ]
+  }
+}

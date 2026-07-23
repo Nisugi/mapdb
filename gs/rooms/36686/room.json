@@ -1,0 +1,36 @@
+{
+  "room": {
+    "id": 36686,
+    "title": [
+      "[Nyessem, Indigo Pools]"
+    ],
+    "description": [
+      "Warm heat emanates from the southwestern wall, causing the area to fill with a faint, clinging fog as the cold of the nearby pool clashes with the tepid air.  Hanging like pendulums, stalactites laced with mica reflect the light of nearby torches and illuminate the ceiling like a thousand, tiny shining stars.  A warped wooden bench rocks slightly on the uneven ground."
+    ],
+    "paths": [
+      "Obvious exits: north, southeast, south",
+      "Obvious exits: southeast, south"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36683": "southeast",
+      "36685": "south",
+      "36703": "north"
+    },
+    "timeto": {
+      "36683": 0.2,
+      "36685": 0.2,
+      "36703": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      599,
+      767,
+      617,
+      783
+    ],
+    "uid": [
+      8400502
+    ]
+  }
+}

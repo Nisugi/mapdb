@@ -1,5 +1,4 @@
 {
-  "checksum": "3e8f0ae4b1bc20505866832abd2df26e",
   "room": {
     "id": 18102,
     "title": [
@@ -18,18 +17,19 @@
     "timeto": {
       "18079": 0.2
     },
-    "tags": [
-      "wizard alchemy workshop"
-    ],
-    "uid": [
-      682024
-    ],
     "image": "ti-wizard_guild.png",
     "image_coords": [
       400,
       134,
       466,
       199
+    ],
+    "tags": [
+      "no forageables",
+      "wizard alchemy workshop"
+    ],
+    "uid": [
+      682024
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "28c0b96f594105a1ea7180080b13b8d1",
   "room": {
     "id": 32363,
     "title": [
@@ -13,9 +12,11 @@
     ],
     "location": "the Crawling Shore",
     "wayto": {
+      "32362": "push stone",
       "32364": "northwest"
     },
     "timeto": {
+      "32362": 0.2,
       "32364": 0.2
     },
     "uid": [

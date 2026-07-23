@@ -1,5 +1,4 @@
 {
-  "checksum": "50094ea98a5920bbcb77e37bc324cb3a",
   "room": {
     "id": 16175,
     "title": [
@@ -20,22 +19,23 @@
       "16128": 0.2,
       "16176": 0.2
     },
-    "tags": [
-      "meta:mapname:River's Rest - Dyer's Tent",
-      "meta:mapshortname:Dyer's Tent",
-      "meta:mapcategory:River's Rest",
-      "meta:mapcategory:Dyer's Tents:River's Rest",
-      "dyers"
-    ],
-    "uid": [
-      34226
-    ],
     "image": "rr-dyers_tent-1512165849.png",
     "image_coords": [
       1335,
       662,
       1477,
       735
+    ],
+    "tags": [
+      "dyers",
+      "meta:mapcategory:Dyer's Tents:River's Rest",
+      "meta:mapcategory:River's Rest",
+      "meta:mapname:River's Rest - Dyer's Tent",
+      "meta:mapshortname:Dyer's Tent",
+      "no forageables"
+    ],
+    "uid": [
+      34226
     ]
   }
 }

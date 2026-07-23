@@ -1,5 +1,4 @@
 {
-  "checksum": "39363675649e255ae82cbdd9a46b924a",
   "room": {
     "id": 3483,
     "title": [
@@ -20,33 +19,33 @@
       "3496": "south",
       "3727": "go gate",
       "25590": "go ladder",
-      "30713": "/rooms/3483/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3484": 0.2,
       "3496": 0.2,
       "3727": 0.2,
       "25590": 0.2,
-      "30713": "/rooms/3483/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "advpickup",
-      "urchin guide amaranthgate",
-      "urchin-access",
-      "amaranthgate",
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      14100004
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       699,
       255,
       736,
       288
+    ],
+    "tags": [
+      "advpickup",
+      "amaranthgate",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "no forageables",
+      "urchin guide amaranthgate",
+      "urchin-access"
+    ],
+    "uid": [
+      14100004
     ]
   }
 }

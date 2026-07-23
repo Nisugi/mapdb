@@ -1,5 +1,4 @@
 {
-  "checksum": "cad5c6cb3baf6bae5cdd56872a8f8ffd",
   "room": {
     "id": 23205,
     "title": [
@@ -25,15 +24,15 @@
       "32974": 0.2
     },
     "tags": [
-      "agave heart",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      5001056
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
     ],
     "unique_loot": [
       "bronze curtain with the sigil of Helden Hall"
+    ],
+    "uid": [
+      5001056
     ]
   }
 }

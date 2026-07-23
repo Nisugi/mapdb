@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36400,
+    "title": [
+      "[Dungeon, Corridor]"
+    ],
+    "description": [
+      "You are at the south end of a long, dark corridor.  The passage turns west here."
+    ],
+    "paths": [
+      "Obvious exits: north, west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36399": "north",
+      "36404": "west"
+    },
+    "timeto": {
+      "36399": 0.2,
+      "36404": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1560,
+      760,
+      1600,
+      800
+    ],
+    "uid": [
+      58006
+    ]
+  }
+}

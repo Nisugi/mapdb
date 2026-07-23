@@ -1,0 +1,28 @@
+{
+  "room": {
+    "id": 36457,
+    "title": [
+      "[Treetop]"
+    ],
+    "description": [
+      "You are securely perched on a fork between the trunk and a stout branch of the modwir.  The foliage is thick enough to obscure your view of the countryside."
+    ],
+    "paths": [
+      "Obvious paths: down"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36449": "down"
+    },
+    "timeto": {
+      "36449": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      100,
+      660,
+      140,
+      700
+    ]
+  }
+}

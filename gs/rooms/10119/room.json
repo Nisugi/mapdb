@@ -1,5 +1,4 @@
 {
-  "checksum": "55e336856206ffae9c499961b637fe63",
   "room": {
     "id": 10119,
     "title": [
@@ -16,27 +15,27 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "10117": "/rooms/10119/wayto/stringproc-10117.rb",
+      "10117": ";e move 'go gangplank'\nif Room.current.id == 10119\necho 'Waiting for ferry... '\nwaitfor 'An elven crewmember scrambles back onto the boat and lowers the gangplank.'\nmove 'go gangplank'\nend\nwaitfor 'An elven crewmember scrambles back onto the boat and lowers the gangplank.'\nmove 'out'",
       "10120": "south"
     },
     "timeto": {
-      "10117": 300,
+      "10117": 300.0,
       "10120": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      14001002
-    ],
     "image": "en-fearling-1632908688.png",
     "image_coords": [
       666,
       237,
       676,
       247
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-09",
+      "no forageables"
+    ],
+    "uid": [
+      14001002
     ]
   }
 }

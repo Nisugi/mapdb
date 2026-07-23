@@ -1,5 +1,4 @@
 {
-  "checksum": "1cbee40376e55df076269970c7e6bd08",
   "room": {
     "id": 10130,
     "title": [
@@ -17,36 +16,37 @@
     "wayto": {
       "10128": "northwest",
       "10131": "west",
-      "10133": "/rooms/10130/wayto/stringproc-10133.rb"
+      "10133": ";e move 'go mud'; waitrt?"
     },
     "timeto": {
       "10128": 0.2,
       "10131": 0.2,
-      "10133": 5
+      "10133": 5.0
     },
-    "tags": [
-      "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "saltmeadow cordgrass",
-      "blades of cordgrass",
-      "blue-green marshgrass",
-      "feathery mannagrass",
-      "yellowed salt reedgrass",
-      "meta:forage-sensed:day:2023-11",
-      "broken twig",
-      "meta:forage-sensed:night:2024-05"
-    ],
-    "uid": [
-      13038005
-    ],
     "image": "en-fearling-1632908688.png",
     "image_coords": [
       1113,
       231,
       1123,
       241
+    ],
+    "tags": [
+      "blades of cordgrass",
+      "blue-green marshgrass",
+      "bolmara lichen",
+      "broken twig",
+      "feathery mannagrass",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "murdroot",
+      "orange heliconia",
+      "saltmeadow cordgrass",
+      "wavepetal blossom",
+      "yellowed salt reedgrass"
+    ],
+    "uid": [
+      13038005
     ]
   }
 }

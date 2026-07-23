@@ -1,5 +1,4 @@
 {
-  "checksum": "9e3eeae4bc1cdf753d2254f0ae49b587",
   "room": {
     "id": 1024,
     "title": [
@@ -16,39 +15,39 @@
     "terrain": "mountainous",
     "wayto": {
       "1023": "southeast",
-      "1025": "/rooms/1024/wayto/stringproc-1025.rb"
+      "1025": ";e move 'climb ledge'"
     },
     "timeto": {
       "1023": 0.2,
       "1025": 0.2
     },
-    "tags": [
-      "marallis berry",
-      "cuctucae berry",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "stalk of bluebells",
-      "wild pink geranium",
-      "sprig of larkspur",
-      "ironfern root",
-      "sunburst blossom",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "wingstem root",
-      "meta:forage-sensed:night:2023-02"
-    ],
-    "uid": [
-      13002008
-    ],
     "image": "en-trail-1264234799.png",
     "image_coords": [
       1294,
       322,
       1304,
       332
+    ],
+    "tags": [
+      "angelica root",
+      "bolmara lichen",
+      "cuctucae berry",
+      "ironfern root",
+      "marallis berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-02",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sprig of larkspur",
+      "stalk of bluebells",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wild pink geranium",
+      "wingstem root"
+    ],
+    "uid": [
+      13002008
     ]
   }
 }

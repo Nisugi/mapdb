@@ -1,5 +1,4 @@
 {
-  "checksum": "14599c7f6cbc37b039386838a6b97901",
   "room": {
     "id": 15571,
     "title": [
@@ -18,7 +17,7 @@
       "16963": "west",
       "16965": "east",
       "16968": "south",
-      "17721": "/rooms/15571/wayto/stringproc-17721.rb"
+      "17721": ";e \nelements = {\n\t'air' => {\t'grey orb' => 505,\n\t\t\t'blue orb' => 914,\n\t\t\t'white orb' => 912 },\n\t'fire' => {\t'blue flame' => 908,\n\t\t\t'scarlet flame' => 519,\n\t\t\t'white flame' => 906 },\n\t'earth' => {\t'blue crystal' => 520,\n\t\t\t'black crystal' => 510,\n\t\t\t'violet crystal' => 909 }\n}\n\ndirection = {\n\t'air' => 'north',\n\t'fire' => 'west',\n\t'earth' => 'south'\n}\n\nresult = nil\n['air','fire','earth'].each { |element|\n\ttruth_table = elements[element].values.find_all { |spellnum| Spell[spellnum].known? }\n\tif truth_table.size == 3\n\t\tresult = element\n\t\tbreak\n\tend\n}\n\nif result.nil?\n\techo 'You do not know enough spells to get into the workshop.'\n\texit\nend\n\n2.times{ move direction[result] }\nelements[result].each{ |pillar, spellnum|\n\tif !Spell[spellnum].affordable?\n\t\techo 'Waiting for mana'\n\t\twait_until{ Spell[spellnum].affordable? }\n\tend\n\tSpell[spellnum].cast(pillar)\n}\n"
     },
     "timeto": {
       "15569": 0.2,
@@ -28,15 +27,18 @@
       "16968": 0.2,
       "17721": 10.4
     },
-    "uid": [
-      685008
-    ],
     "image": "en-ta_illistim-Wizard_Guild-1264234799.gif",
     "image_coords": [
       457,
       186,
       509,
       238
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      685008
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "68b8e832b5882844d091ac012d3d07f6",
   "room": {
     "id": 27449,
     "title": [
@@ -22,24 +21,26 @@
       "27448": 0.2,
       "27460": 0.2
     },
-    "tags": [
-      "yabathilium fruit",
-      "strand of seaweed",
-      "murdroot",
-      "wavepetal blossom",
-      "pearly green vine",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      700305
-    ],
     "image": "wl-homes-2-1264234799.png",
     "image_coords": [
       521,
       697,
       540,
       715
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "murdroot",
+      "pearly green vine",
+      "sprig of jasmine",
+      "strand of seaweed",
+      "wavepetal blossom",
+      "yabathilium fruit"
+    ],
+    "uid": [
+      700305
     ]
   }
 }

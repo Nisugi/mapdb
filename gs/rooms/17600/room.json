@@ -1,5 +1,4 @@
 {
-  "checksum": "ed3a67b552495f6e62768e4360ece22e",
   "room": {
     "id": 17600,
     "title": [
@@ -13,19 +12,19 @@
     ],
     "location": "the Western Harbor",
     "wayto": {
-      "13663": "/rooms/17600/wayto/stringproc-13663.rb",
-      "13664": "/rooms/17600/wayto/stringproc-13664.rb",
-      "15154": "/rooms/17600/wayto/stringproc-15154.rb",
-      "15527": "/rooms/17600/wayto/stringproc-15527.rb",
+      "13663": ";e table = \"Nautilus\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "13664": ";e table = \"Leaping Dolphin\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "15154": ";e table = \"Giant Sea Turtle\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "15527": ";e table = \"Seaside\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
       "16061": "out",
-      "16698": "/rooms/17600/wayto/stringproc-16698.rb",
-      "17346": "/rooms/17600/wayto/stringproc-17346.rb",
-      "17386": "/rooms/17600/wayto/stringproc-17386.rb",
-      "17408": "/rooms/17600/wayto/stringproc-17408.rb",
-      "17413": "/rooms/17600/wayto/stringproc-17413.rb",
+      "16698": ";e table = \"Sunken Shipwreck\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "17346": ";e table = \"Dozing Seahorse\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "17386": ";e table = \"Tidepool\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "17408": ";e table = \"Odd-shaped Driftwood\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "17413": ";e table = \"Braided Seaweed Rope\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
       "17601": "climb staircase",
-      "17888": "/rooms/17600/wayto/stringproc-17888.rb",
-      "18684": "/rooms/17600/wayto/stringproc-18684.rb"
+      "17888": ";e table = \"Decrepit Captain's\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "18684": ";e table = \"Broken Ship's Door\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"
     },
     "timeto": {
       "13663": 0.2,

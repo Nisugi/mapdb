@@ -1,5 +1,4 @@
 {
-  "checksum": "1e31ab399d74f5c5dee6f862523ee2ef",
   "room": {
     "id": 31526,
     "title": [
@@ -14,7 +13,7 @@
     "location": "Cormorant's Roost, inside the pirate paradise of Kraken's Fall",
     "wayto": {
       "31525": "out",
-      "31527": "/rooms/31526/wayto/stringproc-31527.rb"
+      "31527": ";e fput \"search\"\nmove \"go curtain-covered passageway\""
     },
     "timeto": {
       "31525": 0.2,

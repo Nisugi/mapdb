@@ -1,5 +1,4 @@
 {
-  "checksum": "e6e85df7eb043f56299ef10c499cc501",
   "room": {
     "id": 10137,
     "title": [
@@ -22,29 +21,30 @@
       "10136": 0.2,
       "10155": 0.2
     },
-    "tags": [
-      "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "saltmeadow cordgrass",
-      "blades of cordgrass",
-      "blue-green marshgrass",
-      "feathery mannagrass",
-      "yellowed salt reedgrass",
-      "meta:forage-sensed:day:2023-11",
-      "broken twig",
-      "meta:forage-sensed:night:2024-05"
-    ],
-    "uid": [
-      13038011
-    ],
     "image": "en-fearling-1632908688.png",
     "image_coords": [
       1257,
       350,
       1267,
       360
+    ],
+    "tags": [
+      "blades of cordgrass",
+      "blue-green marshgrass",
+      "bolmara lichen",
+      "broken twig",
+      "feathery mannagrass",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "murdroot",
+      "orange heliconia",
+      "saltmeadow cordgrass",
+      "wavepetal blossom",
+      "yellowed salt reedgrass"
+    ],
+    "uid": [
+      13038011
     ]
   }
 }

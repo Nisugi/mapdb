@@ -1,5 +1,4 @@
 {
-  "checksum": "d4ddd5c3ccc2185619c48f0ee28350ae",
   "room": {
     "id": 9005,
     "title": [
@@ -19,18 +18,19 @@
     "timeto": {
       "9004": 0.2
     },
-    "tags": [
-      "meta:nomagic"
-    ],
-    "uid": [
-      4043275
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       405,
       874,
       441,
       910
+    ],
+    "tags": [
+      "meta:nomagic",
+      "no forageables"
+    ],
+    "uid": [
+      4043275
     ]
   }
 }

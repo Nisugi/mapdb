@@ -1,5 +1,4 @@
 {
-  "checksum": "54bd30a62cc9a7ae6e7fa4b23dcb0516",
   "room": {
     "id": 24964,
     "title": [
@@ -13,22 +12,22 @@
     ],
     "location": "the Settlement of Reim",
     "wayto": {
-      "24965": "west",
+      "24936": "west",
       "24971": "east"
     },
     "timeto": {
-      "24965": 0.2,
+      "24936": 0.2,
       "24971": 0.2
     },
-    "uid": [
-      -7105014
-    ],
     "image": "imt-Reim-1260914759.png",
     "image_coords": [
       769,
       836,
       782,
       849
+    ],
+    "uid": [
+      -7105014
     ]
   }
 }

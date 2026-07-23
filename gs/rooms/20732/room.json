@@ -1,5 +1,4 @@
 {
-  "checksum": "5543920ac6d00298f53b71e4040d2a79",
   "room": {
     "id": 20732,
     "title": [
@@ -16,28 +15,28 @@
     "climate": "saltwater",
     "terrain": "riparian",
     "wayto": {
-      "20731": "/rooms/20732/wayto/stringproc-20731.rb"
+      "20731": ";e move 'go beach'"
     },
     "timeto": {
       "20731": 0.2
     },
-    "tags": [
-      "meta:premium",
-      "yabathilium fruit",
-      "strand of seaweed",
-      "murdroot",
-      "wavepetal blossom",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4002514
-    ],
     "image": "premium_halls-1489980086.png",
     "image_coords": [
       2038,
       1467,
       2161,
       1518
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:premium",
+      "murdroot",
+      "strand of seaweed",
+      "wavepetal blossom",
+      "yabathilium fruit"
+    ],
+    "uid": [
+      4002514
     ]
   }
 }

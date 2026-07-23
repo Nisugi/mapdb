@@ -1,5 +1,4 @@
 {
-  "checksum": "52bafd3bbc12a7069d91ad7a2d8cc1bb",
   "room": {
     "id": 403,
     "title": [
@@ -20,18 +19,19 @@
       "402": 0.2,
       "404": 0.2
     },
-    "tags": [
-      "meta:nomagic"
-    ],
-    "uid": [
-      2009
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       356,
       350,
       392,
       386
+    ],
+    "tags": [
+      "meta:nomagic",
+      "no forageables"
+    ],
+    "uid": [
+      2009
     ]
   }
 }

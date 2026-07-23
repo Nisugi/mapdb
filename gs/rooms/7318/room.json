@@ -1,5 +1,4 @@
 {
-  "checksum": "c6ac7d49d2f27e9beececef658e19513",
   "room": {
     "id": 7318,
     "title": [
@@ -16,28 +15,28 @@
     "terrain": "none",
     "wayto": {
       "7317": "down",
-      "7319": "/rooms/7318/wayto/stringproc-7319.rb"
+      "7319": ";e group_members = nil; clear.reverse.each { |line| if line =~ /^Obvious (paths|exits)/; break; elsif line =~ /^([A-Za-z ,]+) followed\\.$/; group_members = $1.split(/, | and /); group_members.delete_if { |m| m =~ /^[Yy]our / }; group_members = nil if group_members.empty?; break; end }; empty_hands; move 'climb opening'; waitrt?; fill_hands; if (group_members.to_a.length > 0); echo 'Waiting for your group... To ditch them, ;send go'; while (line = get) and (group_members.length > 0); if line =~ /(#{group_members.join('|')}) just arrived/; put 'hold ' + $1.to_s; elsif line =~ /^(You reach out and hold )?([A-z][a-z]+)('s hand| joins your group)\\.$/; group_members.delete $2; elsif line == 'go'; break; end; end; end"
     },
     "timeto": {
       "7317": 0.2,
-      "7319": 1
+      "7319": 1.0
     },
-    "tags": [
-      "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2024-01",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      2150001
-    ],
     "image": "wl-graveyard-1264234799.png",
     "image_coords": [
       1087,
       333,
       1097,
       343
+    ],
+    "tags": [
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-01",
+      "wingstem root"
+    ],
+    "uid": [
+      2150001
     ]
   }
 }

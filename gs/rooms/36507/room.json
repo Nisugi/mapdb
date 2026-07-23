@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36507,
+    "title": [
+      "[Honeyed Gears, Entry]"
+    ],
+    "description": [
+      "Steam coils lazily from unseen vents as bursts of metallic clinks and candy-sweet fizzles echo through the cluttered space.  Diagrams flap along the walls, barely holding fast under tacks bent from overuse.  A disorganized pile of metallic cylinders dominates the corner, surrounded by half-finished contraptions and sugar-encrusted tools strewn across every surface."
+    ],
+    "paths": [
+      "Obvious exits: southeast, out"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "27981": "out",
+      "36508": "southeast"
+    },
+    "timeto": {
+      "27981": 0.2,
+      "36508": 0.2
+    },
+    "uid": [
+      8209475
+    ]
+  }
+}

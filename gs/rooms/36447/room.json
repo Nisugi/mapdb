@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36447,
+    "title": [
+      "[Dungeon, Warrior Statue]"
+    ],
+    "description": [
+      "This massive, echoing chamber is made of softly hued yellow stone, a contrast to the sickly hue of the slowly rotating green tunnel to the south, the only obvious exit.  The area is well lit by burning torches resting at regular intervals against the walls, which cast shifting shadows against a large stonework warrior statue that stands occupying the entire forty-foot high northern wall."
+    ],
+    "paths": [
+      "Obvious exits: south"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36446": "south"
+    },
+    "timeto": {
+      "36446": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      2240,
+      440,
+      2280,
+      480
+    ],
+    "uid": [
+      58059
+    ]
+  }
+}

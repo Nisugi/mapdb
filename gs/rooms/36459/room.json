@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36459,
+    "title": [
+      "[Black Swan Castle, Moat]"
+    ],
+    "description": [
+      "You are in a slipstream carrying you just beneath the shadow of the half-lowered, decayed drawbridge.  The bleak, sinister currents are particularly powerful at this, the deepest point in the moat."
+    ],
+    "paths": [
+      "Obvious paths: east, west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36349": "swim east",
+      "36454": "swim shore",
+      "36460": "swim west"
+    },
+    "timeto": {
+      "36349": 0.2,
+      "36454": 0.2,
+      "36460": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      440,
+      760,
+      480,
+      800
+    ],
+    "uid": [
+      55016
+    ]
+  }
+}

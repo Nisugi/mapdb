@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36355,
+    "title": [
+      "[Black Swan Castle, Courtyard]"
+    ],
+    "description": [
+      "The portcullis is rusted shut, and through its barred windows you can see the now-useless drawbridge, halted in mid-course upon chains long welded solid by corrosion.  The edges of the planks comprising the portcullis and the drawbridge are charred and rot has set in.  An old watchtower stands off in a corner to the west.  At the far end of the open courtyard rises the keep, the stone pediment above the ebony doors beckoning like a mawing beak of some black bird."
+    ],
+    "paths": [
+      "Obvious paths: north, east, west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36354": "east",
+      "36356": "west",
+      "36375": "north"
+    },
+    "timeto": {
+      "36354": 0.2,
+      "36356": 0.2,
+      "36375": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      440,
+      520,
+      480,
+      560
+    ],
+    "uid": [
+      55025
+    ]
+  }
+}

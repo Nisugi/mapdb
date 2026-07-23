@@ -1,5 +1,4 @@
 {
-  "checksum": "5283c6237e5cf199971132b5dbbbb7bd",
   "room": {
     "id": 10317,
     "title": [
@@ -29,18 +28,21 @@
       "10321": 0.2,
       "26044": 0.2
     },
-    "tags": [
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      14104003
-    ],
     "image": "en-ta_vaalor-wyverns_keep-1488759285.png",
     "image_coords": [
       835,
       374,
       977,
       435
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      14104003
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "48ec7f3a1393b70d286baaf2d7947a73",
   "room": {
     "id": 19966,
     "title": [
@@ -15,28 +14,28 @@
     "wayto": {
       "19951": "go onyx arch",
       "19968": "go ebonwood arch",
-      "20060": "/rooms/19966/wayto/stringproc-20060.rb"
+      "20060": ";e fput \"search\";fput \"climb stone stairs\""
     },
     "timeto": {
       "19951": 0.2,
       "19968": 0.2,
       "20060": 0.2
     },
-    "tags": [
-      "meta:teleport:fwi",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      28143
-    ],
     "image": "wl-museum-1487435869.png",
     "image_coords": [
       1537,
       440,
       1680,
       501
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:teleport:fwi",
+      "no forageables"
+    ],
+    "uid": [
+      28143
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "c375d58bcc5a0af4c2fe6034cc2026c8",
   "room": {
     "id": 9116,
     "title": [
@@ -22,20 +21,21 @@
       "9117": 0.2,
       "9118": 0.2
     },
-    "tags": [
-      "some orchil lichen",
-      "murdroot",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4045229
-    ],
     "image": "imt-underground-1264234799.png",
     "image_coords": [
       171,
       752,
       181,
       762
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "orchil lichen"
+    ],
+    "uid": [
+      4045229
     ]
   }
 }

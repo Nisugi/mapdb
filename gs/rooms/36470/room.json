@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36470,
+    "title": [
+      "[Journey's End, Lounge]"
+    ],
+    "description": [
+      "This expansive lounge feels vast, furnished with deep leather couches paired with mahogany side tables.  Tall curtained windows along the northern wall soften any light that spills in.  A long driftwood bar spans the space in front of the windows.  The eastern wall is claimed by a massive stone fireplace crowned by a thick mantle, while on the opposite wall a dark mahogany double door opens into an adjoining bedchamber.  Polished hardwood floors complement raised-panel wainscoting covering the walls."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "Solhaven",
+    "wayto": {
+      "26834": "go staircase",
+      "36469": "go double door"
+    },
+    "timeto": {
+      "26834": 0.2,
+      "36469": 0.2
+    },
+    "image": "Journeys_End.jpg",
+    "image_coords": [
+      961,
+      230,
+      1312,
+      448
+    ],
+    "uid": [
+      4547208
+    ]
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "checksum": "ad7699c01dc8dfca34803961c1a7fa17",
   "room": {
     "id": 20755,
     "title": [
@@ -14,26 +13,26 @@
     "location": "Icemule Trace",
     "wayto": {
       "20753": "out",
-      "23428": "/rooms/20755/wayto/stringproc-23428.rb",
-      "25187": "/rooms/20755/wayto/stringproc-25187.rb"
+      "23428": ";e move 'go east'",
+      "25187": ";e move 'go north'"
     },
     "timeto": {
       "20753": 0.2,
       "23428": 0.2,
       "25187": 0.2
     },
-    "tags": [
-      "meta:premium"
-    ],
-    "uid": [
-      4002014
-    ],
     "image": "premium_halls-1489980086.png",
     "image_coords": [
       1132,
       1835,
       1259,
       1889
+    ],
+    "tags": [
+      "meta:premium"
+    ],
+    "uid": [
+      4002014
     ]
   }
 }

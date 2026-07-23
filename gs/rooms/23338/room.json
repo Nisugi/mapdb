@@ -1,5 +1,4 @@
 {
-  "checksum": "674cac9e82cdd6f5078da1e2d4253cc1",
   "room": {
     "id": 23338,
     "title": [
@@ -15,49 +14,51 @@
     "climate": "snowy, arctic",
     "terrain": "coniferous",
     "wayto": {
-      "23339": "/rooms/23338/wayto/stringproc-23339.rb",
+      "23339": ";e \nstatus_tags\nput \"get my heavy key\"\nwhile line = get\n\tif line =~ /^You remove .+heavy iron key<\\/a> from in your <a exist=\"(.+)\"/\n\t\tcontainer = $1\n\t\tbreak\n\telsif line =~ /^Get what\\?$/\n\t\tcontainer = nil\n\t\tbreak\n\tend\nend\nstatus_tags\nif container\n\tfput \"unlock spiked gate with my heavy key\"\n\tfput \"put my heavy key in ##{container}\"\n\tmove \"go spiked gate\"\nelse\n\techo \"** You do not have the key! **\"\n\techo \"You will have to do the puzzle on the table!\"\n\texit\nend\n",
       "23385": "out"
     },
     "timeto": {
       "23339": 0.2,
       "23385": 0.2
     },
-    "tags": [
-      "tkaro root",
-      "sticks",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "handful of pinenuts",
-      "broken twig",
-      "pine cone",
-      "pine needles",
-      "cluster of butterflyweed",
-      "snowberries",
-      "tree bark",
-      "rockberry",
-      "crowberry",
-      "ironfern root",
-      "twisted twig",
-      "slender twig",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "wintercrisp apple",
-      "meta:forage-sensed:night:2023-02"
-    ],
-    "uid": [
-      13018040
-    ],
     "image": "en-zul_logoth_liaerion-1703216519.png",
     "image_coords": [
       310,
       10,
       320,
       20
+    ],
+    "tags": [
+      "angelica root",
+      "bolmara lichen",
+      "bright red teaberry",
+      "broken twig",
+      "cluster of butterflyweed",
+      "crowberry",
+      "handful of pinenuts",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "pennyroyal stem",
+      "pine cone",
+      "pine needles",
+      "rockberry",
+      "sassafras leaf",
+      "slender twig",
+      "snowberries",
+      "sticks",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "wintercrisp apple",
+      "wintergreen leaf"
+    ],
+    "uid": [
+      13018040
     ]
   }
 }

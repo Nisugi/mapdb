@@ -1,5 +1,4 @@
 {
-  "checksum": "ed732b7481538f9410a10ac9e47ad509",
   "room": {
     "id": 30287,
     "title": [
@@ -14,17 +13,18 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "30286": "go broad archway",
-      "30713": "/rooms/30287/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "30286": 0.2,
-      "30713": "/rooms/30287/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "mail",
+      "no forageables",
       "postoffice",
-      "urchin-access",
-      "urchin guide postoffice"
+      "urchin guide postoffice",
+      "urchin-access"
     ],
     "uid": [
       14118002

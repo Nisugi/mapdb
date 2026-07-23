@@ -1,5 +1,4 @@
 {
-  "checksum": "34b30e7e25938936a64eca0ac4494911",
   "room": {
     "id": 17656,
     "title": [
@@ -20,30 +19,32 @@
       "17655": 0.2,
       "17657": 0.2
     },
-    "tags": [
-      "withered black mushroom",
-      "genkew mushroom",
-      "black hook mushroom",
-      "soft white mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "blue trafel mushroom",
-      "cave moss",
-      "murdroot",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "wingstem root",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      5009003
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       520,
       531,
       558,
       569
+    ],
+    "tags": [
+      "black mushroom",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "cave moss",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-01",
+      "murdroot",
+      "red mushroom",
+      "soft mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      5009003
     ]
   }
 }

@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36697,
+    "title": [
+      "[Nyessem, Orb Distribution East]"
+    ],
+    "description": [
+      "Glittering lines of gemstones run the length of the room where the walls connect to the ceiling.  Hidden light sources behind the gems cast a rainbow of thin light beams across the floor, meeting at a pedestal in the room's center.  On this pedestal are twin stone obelisks, illuminated by a bright spotlight from above."
+    ],
+    "paths": [
+      "Obvious exits: west"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36696": "west"
+    },
+    "timeto": {
+      "36696": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      936,
+      346,
+      954,
+      362
+    ],
+    "uid": [
+      8400102
+    ]
+  }
+}

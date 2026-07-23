@@ -1,5 +1,4 @@
 {
-  "checksum": "21ac84b341564e5bfd5993be6ee6b634",
   "room": {
     "id": 10313,
     "title": [
@@ -18,33 +17,36 @@
       "10314": "north",
       "10317": "east",
       "12347": "go archway",
-      "30713": "/rooms/10313/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3487": 0.2,
       "10314": 0.2,
       "10317": 0.2,
       "12347": 0.2,
-      "30713": "/rooms/10313/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "meta:mapname:Elven Nations - Ta'Vaalor - Wyvern Keep",
-      "meta:mapshortname:Ta'Vaalor - Wyvern Keep",
-      "meta:mapcategory:Elven Nations",
-      "urchin guide townhall",
-      "urchin-access",
-      "townhall",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      14104001
-    ],
     "image": "en-ta_vaalor-wyverns_keep-1488759285.png",
     "image_coords": [
       308,
       373,
       448,
       433
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:mapcategory:Elven Nations",
+      "meta:mapname:Elven Nations - Ta'Vaalor - Wyvern Keep",
+      "meta:mapshortname:Ta'Vaalor - Wyvern Keep",
+      "stalk of bluebells",
+      "townhall",
+      "urchin guide townhall",
+      "urchin-access",
+      "wild sage"
+    ],
+    "uid": [
+      14104001
     ]
   }
 }

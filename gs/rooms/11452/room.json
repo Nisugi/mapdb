@@ -1,5 +1,4 @@
 {
-  "checksum": "9c2ee76d42ef93121cc718d68b206805",
   "room": {
     "id": 11452,
     "title": [
@@ -16,32 +15,32 @@
     "climate": "saltwater",
     "terrain": "",
     "wayto": {
-      "11451": "/rooms/11452/wayto/stringproc-11451.rb",
-      "11453": "/rooms/11452/wayto/stringproc-11453.rb",
-      "11454": "/rooms/11452/wayto/stringproc-11454.rb",
-      "11455": "/rooms/11452/wayto/stringproc-11455.rb",
-      "11469": "/rooms/11452/wayto/stringproc-11469.rb"
+      "11451": ";e if checkspell(112) then move 'south' else move 'swim south' end; waitrt?",
+      "11453": ";e if checkspell(112) then move 'northwest' else move 'swim northwest' end; waitrt?",
+      "11454": ";e if checkspell(112) then move 'west' else move 'swim west' end; waitrt?",
+      "11455": ";e if checkspell(112) then move 'southwest' else move 'swim southwest' end; waitrt?",
+      "11469": ";e move 'swim down'; waitrt?"
     },
     "timeto": {
-      "11451": 2,
-      "11453": 2,
-      "11454": 2,
-      "11455": 2,
-      "11469": 3
+      "11451": 2.0,
+      "11453": 2.0,
+      "11454": 2.0,
+      "11455": 2.0,
+      "11469": 3.0
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      304026
-    ],
     "image": "rr-maelstrom-1619824696.png",
     "image_coords": [
       729,
       1206,
       739,
       1216
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables"
+    ],
+    "uid": [
+      304026
     ]
   }
 }

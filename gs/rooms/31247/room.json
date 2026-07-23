@@ -1,24 +1,23 @@
 {
-  "checksum": "da6cb3f1f4b89a98b7f87d8e58a8b466",
   "room": {
     "id": 31247,
     "title": [
-      "[Tysong's General Store]"
+      "[Thresk's Outfitting]"
     ],
     "description": [
-      "Blue-speckled sea glass walls rise from an intricate patterned floor.  Just above an intricate sea creatures display hangs a Four Winds Isle map, and a knotted oak ceiling completes the picture.  A wide knotted oak counter stands in the middle of the room."
+      "Blue-speckled sea glass walls rise from an unfinished wooden floor.  Just above a worn rug hangs a tattered merchant permit, and an uneven wooden ceiling completes the picture.  A plain wooden table and a plain wooden table stand side by side in the middle of the room."
     ],
     "paths": [
-      "Obvious exits: east, west, out"
+      "Obvious exits: north, east, out"
     ],
     "location": "Mist Harbor",
     "wayto": {
-      "12272": "out",
+      "3442": "out",
       "31248": "east",
-      "31249": "west"
+      "31249": "north"
     },
     "timeto": {
-      "12272": 0.2,
+      "3442": 0.2,
       "31248": 0.2,
       "31249": 0.2
     },

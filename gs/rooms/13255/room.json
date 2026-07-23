@@ -1,5 +1,4 @@
 {
-  "checksum": "2486b481f89565ba6028c592207400c2",
   "room": {
     "id": 13255,
     "title": [
@@ -19,7 +18,7 @@
       "13259": "go door",
       "13271": "northwest",
       "13275": "northeast",
-      "30714": "/rooms/13255/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "193": 0.2,
@@ -28,25 +27,26 @@
       "13259": 0.2,
       "13271": 0.2,
       "13275": 0.2,
-      "30714": "/rooms/13255/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin guide inn",
-      "urchin-access",
-      "urchin guide losthome",
-      "inn",
-      "losthome",
-      "houselockers"
-    ],
-    "uid": [
-      13112001
-    ],
     "image": "en-ta_illistim_buildings.png",
     "image_coords": [
       588,
       576,
       644,
       632
+    ],
+    "tags": [
+      "houselockers",
+      "inn",
+      "losthome",
+      "no forageables",
+      "urchin guide inn",
+      "urchin guide losthome",
+      "urchin-access"
+    ],
+    "uid": [
+      13112001
     ]
   }
 }

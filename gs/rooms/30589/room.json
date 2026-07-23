@@ -1,5 +1,4 @@
 {
-  "checksum": "6a7598509583a00711a28e43d4d42d8c",
   "room": {
     "id": 30589,
     "title": [
@@ -16,19 +15,19 @@
     "terrain": "hard, flat",
     "wayto": {
       "12393": "out",
-      "30715": "/rooms/30589/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "12393": 0.2,
-      "30715": "/rooms/30589/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "urchin-access",
-      "urchin guide stable",
-      "stable",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
+      "meta:forage-sensed:day:2023-01",
+      "no forageables",
+      "stable",
+      "urchin guide stable",
+      "urchin-access"
     ],
     "uid": [
       12002001

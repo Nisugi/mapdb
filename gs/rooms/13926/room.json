@@ -1,5 +1,4 @@
 {
-  "checksum": "ff6c783f2fcf53b1bd3474a12cee84a5",
   "room": {
     "id": 13926,
     "title": [
@@ -19,10 +18,10 @@
       "13925": "out",
       "13927": "go archway",
       "13963": "north",
-      "23977": "/rooms/13926/wayto/stringproc-23977.rb",
-      "23981": "/rooms/13926/wayto/stringproc-23981.rb",
-      "23983": "/rooms/13926/wayto/stringproc-23983.rb",
-      "23985": "/rooms/13926/wayto/stringproc-23985.rb"
+      "23977": ";e table = \"king\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "23981": ";e table = \"queen\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "23983": ";e table = \"knight\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "23985": ";e table = \"jester\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"
     },
     "timeto": {
       "13925": 0.2,
@@ -34,10 +33,10 @@
       "23985": 0.2
     },
     "tags": [
-      "table",
       "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-11",
       "no forageables",
-      "meta:forage-sensed:night:2022-11"
+      "table"
     ],
     "uid": [
       14201100

@@ -1,5 +1,4 @@
 {
-  "checksum": "313eb18e63aedbfec434e9b74a830e8a",
   "room": {
     "id": 1042,
     "title": [
@@ -15,57 +14,57 @@
     "climate": "cold, damp",
     "terrain": "grassland",
     "wayto": {
-      "1041": "/rooms/1042/wayto/stringproc-1041.rb",
+      "1041": ";e move 'climb boulder'\nfput 'look trail'\ndir = matchfindword \"You peer into the mist and see that the trail heads off to the ?\"\nmove 'down'\nsleep 5 if running?('agoto')\nmove dir",
       "1043": "west",
       "1265": "climb boulder"
     },
     "timeto": {
-      "1041": 3,
+      "1041": 3.0,
       "1043": 0.2,
       "1265": 0.2
     },
-    "tags": [
-      "fairy primrose",
-      "acantha leaf",
-      "wolifrew lichen",
-      "cuctucae berry",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "soft white mushroom",
-      "withered black mushroom",
-      "blue trafel mushroom",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "wild strawberry",
-      "stalk of chicory",
-      "sprig of larkspur",
-      "small wild rose",
-      "wild chokecherry",
-      "bright red cranberry",
-      "golden aster",
-      "luckbloom blossom",
-      "murdroot",
-      "wavepetal blossom",
-      "ironfern root",
-      "sunburst blossom",
-      "meta:forage-sensed",
-      "white hook mushroom",
-      "brostheras grass",
-      "rainbow chard",
-      "meta:forage-sensed:night:2023-02"
-    ],
-    "uid": [
-      13001070
-    ],
     "image": "en-trail-1264234799.png",
     "image_coords": [
       1172,
       477,
       1182,
       487
+    ],
+    "tags": [
+      "acantha leaf",
+      "angelica root",
+      "blue trafel mushroom",
+      "bright red cranberry",
+      "bright red teaberry",
+      "brostheras grass",
+      "cuctucae berry",
+      "fairy primrose",
+      "golden aster",
+      "ironfern root",
+      "luckbloom blossom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-02",
+      "murdroot",
+      "pennyroyal stem",
+      "rainbow chard",
+      "sassafras leaf",
+      "small wild rose",
+      "soft white mushroom",
+      "sprig of larkspur",
+      "stalk of chicory",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wavepetal blossom",
+      "white hook mushroom",
+      "wild chokecherry",
+      "wild strawberry",
+      "wintergreen leaf",
+      "withered black mushroom",
+      "wolifrew lichen"
+    ],
+    "uid": [
+      13001070
     ]
   }
 }

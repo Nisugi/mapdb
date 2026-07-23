@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36362,
+    "title": [
+      "[Keep, Corridor]"
+    ],
+    "description": [
+      "This corridor is unremarkable and mostly featureless, save for the airshafts above and the debris on the floor.  Through the dust and muck covering the granite, you notice that the cracks between the paving stones seem wider along this section, and you feel as though the floor gives slightly beneath you with each step.  Each footfall elicits a low, creaking groan."
+    ],
+    "paths": [
+      "Obvious exits: northeast, south"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36361": "south",
+      "36363": "northeast"
+    },
+    "timeto": {
+      "36361": 0.2,
+      "36363": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1080,
+      600,
+      1120,
+      640
+    ],
+    "uid": [
+      55032
+    ]
+  }
+}

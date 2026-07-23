@@ -1,5 +1,4 @@
 {
-  "checksum": "999b59d8e878330f21887f412f50c3bd",
   "room": {
     "id": 9150,
     "title": [
@@ -22,22 +21,21 @@
       "9151": 0.2,
       "9162": 0.2
     },
-    "tags": [
-      "some bur-clover root",
-      "murdroot",
-      "meta:forage-sensed",
-      "bur-clover root",
-      "meta:forage-sensed:day:2022-10"
-    ],
-    "uid": [
-      7530026
-    ],
     "image": "imt-underground-1264234799.png",
     "image_coords": [
       358,
       884,
       368,
       894
+    ],
+    "tags": [
+      "bur-clover root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot"
+    ],
+    "uid": [
+      7530026
     ]
   }
 }

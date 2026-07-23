@@ -1,0 +1,37 @@
+{
+  "room": {
+    "id": 36442,
+    "title": [
+      "[Dungeon, Chamber]"
+    ],
+    "description": [
+      "It is not very well lit here, and it smells absolutely terrible.  Tiny piles of dried rodent droppings liberally litter the filthy floor and the thick coating of dust shows the passage of hundreds of little feet.  You can hear high-pitched squeaks and squeals and can almost sense the motion of many small bodies in the darkness."
+    ],
+    "paths": [
+      "Obvious exits: east, west",
+      "Obvious exits: east, south",
+      "Obvious exits: east, south, west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36441": "west",
+      "36443": "south",
+      "36444": "east"
+    },
+    "timeto": {
+      "36441": 0.2,
+      "36443": 0.2,
+      "36444": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      2160,
+      680,
+      2200,
+      720
+    ],
+    "uid": [
+      58054
+    ]
+  }
+}

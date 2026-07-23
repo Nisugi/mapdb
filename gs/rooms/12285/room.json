@@ -1,5 +1,4 @@
 {
-  "checksum": "dd4e6e6e4f8409dca682cebabde694fb",
   "room": {
     "id": 12285,
     "title": [
@@ -16,20 +15,20 @@
     "wayto": {
       "3654": "out",
       "12286": "go doorway",
-      "30718": "/rooms/12285/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "3654": 0.2,
       "12286": 0.2,
-      "30718": "/rooms/12285/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "furrier",
-      "urchin-access",
-      "urchin guide furrier",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-10"
+      "meta:forage-sensed:day:2022-10",
+      "no forageables",
+      "urchin guide furrier",
+      "urchin-access"
     ],
     "uid": [
       3201908

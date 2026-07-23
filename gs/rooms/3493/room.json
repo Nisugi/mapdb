@@ -1,5 +1,4 @@
 {
-  "checksum": "de1612c39fae0e4e72ae71cafd70f29f",
   "room": {
     "id": 3493,
     "title": [
@@ -20,32 +19,32 @@
       "3492": "east",
       "3494": "west",
       "3495": "south",
-      "30713": "/rooms/3493/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3486": 0.2,
       "3492": 0.2,
       "3494": 0.2,
       "3495": 0.2,
-      "30713": "/rooms/3493/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "node",
-      "supernode",
-      "urchin-access",
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      14100007
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       925,
       255,
       961,
       290
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "no forageables",
+      "node",
+      "supernode",
+      "urchin-access"
+    ],
+    "uid": [
+      14100007
     ]
   }
 }

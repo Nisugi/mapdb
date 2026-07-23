@@ -1,5 +1,4 @@
 {
-  "checksum": "258bb3f236c2b0122ee69467824984bb",
   "room": {
     "id": 6141,
     "title": [
@@ -17,44 +16,44 @@
     "wayto": {
       "6140": "east",
       "6145": "northeast",
-      "6152": "/rooms/6141/wayto/stringproc-6152.rb"
+      "6152": ";e empty_hands; move 'climb landslide'; waitrt?; fill_hands"
     },
     "timeto": {
       "6140": 0.2,
       "6145": 0.2,
       "6152": 0.2
     },
-    "tags": [
-      "golden aster",
-      "wild pink geranium",
-      "cuctucae berry",
-      "sweetfern stalk",
-      "marallis berry",
-      "sprig of larkspur",
-      "sassafras leaf",
-      "stalk of bluebells",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "dwarf billberry",
-      "meta:forage-sensed:day:2025-05",
-      "dwarf bilberry",
-      "meta:forage-sensed:night:2025-06"
-    ],
-    "uid": [
-      495102
-    ],
     "image": "wl-wehntoph-1310775397.png",
     "image_coords": [
       627,
       893,
       661,
       927
+    ],
+    "tags": [
+      "angelica root",
+      "bolmara lichen",
+      "cuctucae berry",
+      "dwarf bilberry",
+      "dwarf billberry",
+      "golden aster",
+      "ironfern root",
+      "marallis berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2025-05",
+      "meta:forage-sensed:night:2025-06",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sprig of larkspur",
+      "stalk of bluebells",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wild pink geranium",
+      "wingstem root"
+    ],
+    "uid": [
+      495102
     ]
   }
 }

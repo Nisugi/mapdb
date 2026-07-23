@@ -1,5 +1,4 @@
 {
-  "checksum": "a0a5924d39169061403028e7a08866d7",
   "room": {
     "id": 988,
     "title": [
@@ -16,34 +15,34 @@
     "terrain": "mountainous",
     "wayto": {
       "987": "northeast",
-      "989": "/rooms/988/wayto/stringproc-989.rb"
+      "989": ";e empty_hands; move 'climb mountainside'; waitrt?"
     },
     "timeto": {
       "987": 0.2,
-      "989": 10
+      "989": 10.0
     },
-    "tags": [
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "sprig of holly",
-      "ironfern root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "deep purple shockroot",
-      "meta:forage-sensed:day:2023-11"
-    ],
-    "uid": [
-      13003016
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       1050,
       947,
       1060,
       957
+    ],
+    "tags": [
+      "angelica root",
+      "deep purple shockroot",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-11",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sprig of holly",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root"
+    ],
+    "uid": [
+      13003016
     ]
   }
 }

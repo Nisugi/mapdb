@@ -1,5 +1,4 @@
 {
-  "checksum": "ed42b87821b443d1e56d66e91863a739",
   "room": {
     "id": 18827,
     "title": [
@@ -25,31 +24,33 @@
       "18828": 0.2,
       "18829": 0.2
     },
-    "tags": [
-      "golden hook mushroom",
-      "stalk of chicory",
-      "wild gooseberry",
-      "fiddlehead fern",
-      "broken twig",
-      "yellow primrose",
-      "small wild rose",
-      "cactus flower",
-      "wild chokecherry",
-      "white passionflower",
-      "yellow passionflower",
-      "blue passionflower",
-      "pepperthorn root",
-      "meta:forage-sensed:???:2025-07"
-    ],
-    "uid": [
-      14202008
-    ],
     "image": "en-ravelin.png",
     "image_coords": [
       1081,
       447,
       1105,
       473
+    ],
+    "tags": [
+      "blue passionflower",
+      "broken twig",
+      "cactus flower",
+      "fiddlehead fern",
+      "golden mushroom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:???:2025-07",
+      "meta:forage-sensed:day:2026-03",
+      "pepperthorn root",
+      "stalk of chicory",
+      "white passionflower",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild rose",
+      "yellow passionflower",
+      "yellow primrose"
+    ],
+    "uid": [
+      14202008
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "7c3f6a59929dc106695154328643ded3",
   "room": {
     "id": 23255,
     "title": [
@@ -26,22 +25,25 @@
       "15928": 0.2,
       "15929": 0.2
     },
-    "tags": [
-      "peer northeast =~ /^Obvious exits: north, east, southwest, west, up$/",
-      "white hook mushroom",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4045137
-    ],
     "image": "imt-underground-1264234799.png",
     "image_coords": [
       1057,
       161,
       1065,
       170
+    ],
+    "tags": [
+      "bolmara lichen",
+      "glassfern frond",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "peer northeast =~ /^Obvious exits: north, east, southwest, west, up$/",
+      "white hook mushroom",
+      "wingstem root"
+    ],
+    "uid": [
+      4045137
     ]
   }
 }

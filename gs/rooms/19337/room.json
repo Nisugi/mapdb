@@ -1,5 +1,4 @@
 {
-  "checksum": "6e00ca8c82ebc9f99895cce0d727d0c9",
   "room": {
     "id": 19337,
     "title": [
@@ -13,31 +12,31 @@
     ],
     "location": "Mist Harbor",
     "wayto": {
-      "21127": "/rooms/19337/wayto/stringproc-21127.rb",
+      "21127": ";e Map[12421].wayto['14089'].call; # rogue guild proc",
       "21140": "out"
     },
     "timeto": {
-      "21127": "/rooms/19337/timeto/stringproc-21127.rb",
+      "21127": ";e if Stats.prof == 'Rogue'; 1.6; else; nil; end",
       "21140": 0.2
     },
-    "tags": [
-      "rogue guild",
-      "meta:mapname:Isle of the Four Winds - Rogue Guild",
-      "meta:mapshortname:Rogue Guild (FWI)",
-      "meta:mapcategory:Isle of the Four Winds",
-      "meta:mapcategory:Guilds",
-      "meta:mapcategory:Premium",
-      "rogueguild"
-    ],
-    "uid": [
-      265303
-    ],
     "image": "ifw-rogue_guild.png",
     "image_coords": [
       801,
       340,
       816,
       353
+    ],
+    "tags": [
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Isle of the Four Winds",
+      "meta:mapcategory:Premium",
+      "meta:mapname:Isle of the Four Winds - Rogue Guild",
+      "meta:mapshortname:Rogue Guild (FWI)",
+      "rogue guild",
+      "rogueguild"
+    ],
+    "uid": [
+      265303
     ]
   }
 }

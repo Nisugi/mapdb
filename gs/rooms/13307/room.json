@@ -1,5 +1,4 @@
 {
-  "checksum": "68fb1b87adab630dccc7672835757e8c",
   "room": {
     "id": 13307,
     "title": [
@@ -18,32 +17,32 @@
       "690": "go bridge",
       "17094": "go guild",
       "18696": "go path",
-      "30714": "/rooms/13307/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "690": 0.2,
-      "17094": "/rooms/13307/timeto/stringproc-17094.rb",
+      "17094": ";e Stats.prof == 'Warrior' ? 0.2 : nil",
       "18696": 0.2,
-      "30714": "/rooms/13307/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "warriorguild",
-      "urchin-access",
-      "urchin guide warriorguild",
-      "warrior guild",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      256001
-    ],
     "image": "en-ta_illistim-new.jpg",
     "image_coords": [
       577,
       250,
       599,
       273
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-11",
+      "no forageables",
+      "urchin guide warriorguild",
+      "urchin-access",
+      "warrior guild",
+      "warriorguild"
+    ],
+    "uid": [
+      256001
     ]
   }
 }

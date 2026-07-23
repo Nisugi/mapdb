@@ -1,5 +1,4 @@
 {
-  "checksum": "eae20e90afb7c734e61d64e5e7289c88",
   "room": {
     "id": 2386,
     "title": [
@@ -22,7 +21,7 @@
       "3230": "east",
       "27730": "go north tower",
       "27737": "go south tower",
-      "30709": "/rooms/2386/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "2380": 0.2,
@@ -31,25 +30,26 @@
       "3230": 0.2,
       "27730": 0.2,
       "27737": 0.2,
-      "30709": "/rooms/2386/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "calmintha flower",
-      "urchin guide westgate",
-      "urchin-access",
-      "westgate",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      4042101
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       138,
       786,
       174,
       822
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-09",
+      "stalk of bluebells",
+      "urchin guide westgate",
+      "urchin-access",
+      "westgate"
+    ],
+    "uid": [
+      4042101
     ]
   }
 }

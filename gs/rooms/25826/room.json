@@ -1,5 +1,4 @@
 {
-  "checksum": "f64b131c62592eb9da6604a31e5eaa00",
   "room": {
     "id": 25826,
     "title": [
@@ -17,7 +16,7 @@
     "wayto": {
       "25825": "south",
       "25827": "southeast",
-      "33232": "/rooms/25826/wayto/stringproc-33232.rb"
+      "33232": ";e fput 'search';move('go hole');"
     },
     "timeto": {
       "25825": 0.2,
@@ -26,17 +25,17 @@
     },
     "tags": [
       "acantha leaf",
-      "stalk of cattail",
-      "murdroot",
-      "wavepetal blossom",
-      "talneo root",
-      "meta:forage-sensed",
-      "cassava root",
-      "small green quenepas",
-      "vibrant green plantain",
       "bright yellow plantain",
+      "cassava root",
       "cone-shaped pineapple",
-      "meta:forage-sensed:day:2024-05"
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
+      "murdroot",
+      "small green quenepas",
+      "stalk of cattail",
+      "talneo root",
+      "vibrant green plantain",
+      "wavepetal blossom"
     ],
     "uid": [
       3223904

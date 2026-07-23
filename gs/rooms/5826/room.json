@@ -1,5 +1,4 @@
 {
-  "checksum": "613ae3135a8a2c465c152f385f8d2a9a",
   "room": {
     "id": 5826,
     "title": [
@@ -15,18 +14,18 @@
     "wayto": {
       "3485": "out",
       "5825": "go doors",
-      "30713": "/rooms/5826/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3485": 0.2,
       "5825": 0.2,
-      "30713": "/rooms/5826/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "inn",
-      "urchin-access",
+      "no forageables",
       "urchin guide inn",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       14101002

@@ -1,5 +1,4 @@
 {
-  "checksum": "47217b3f611b196a5b3a70c0fdee0c68",
   "room": {
     "id": 24876,
     "title": [
@@ -15,36 +14,36 @@
     "wayto": {
       "24842": "go camp",
       "24875": "out",
-      "24883": "/rooms/24876/wayto/stringproc-24883.rb"
+      "24883": ";e move \"climb chains\""
     },
     "timeto": {
       "24842": 0.2,
       "24875": 0.2,
-      "24883": 2
+      "24883": 2.0
     },
-    "tags": [
-      "reim",
-      "red trafel mushroom",
-      "soft white mushroom",
-      "withered black mushroom",
-      "black hook mushroom",
-      "blue trafel mushroom",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-10"
-    ],
-    "uid": [
-      7530037
-    ],
     "image": "imt-Reim-1260914759.png",
     "image_coords": [
       736,
       968,
       749,
       981
+    ],
+    "tags": [
+      "black mushroom",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "red mushroom",
+      "reim",
+      "soft mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      7530037
     ]
   }
 }

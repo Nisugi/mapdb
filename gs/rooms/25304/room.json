@@ -1,5 +1,4 @@
 {
-  "checksum": "b803e7663662770a4bfad16ffd179da9",
   "room": {
     "id": 25304,
     "title": [
@@ -14,17 +13,17 @@
     "location": "Mist Harbor",
     "wayto": {
       "3638": "out",
-      "30718": "/rooms/25304/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "3638": 0.2,
-      "30718": "/rooms/25304/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "armor",
       "armorshop",
-      "urchin-access",
       "urchin guide armor",
-      "armor"
+      "urchin-access"
     ],
     "uid": [
       3209308

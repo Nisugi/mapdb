@@ -1,5 +1,4 @@
 {
-  "checksum": "5e2fef05ed986c94d76215a37e08cd1d",
   "room": {
     "id": 26910,
     "title": [
@@ -15,26 +14,26 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "26909": "go hole",
-      "26911": "/rooms/26910/wayto/stringproc-26911.rb",
+      "26911": ";e fput 'search'; move 'go stairwell'",
       "26912": "east"
     },
     "timeto": {
       "26909": 0.2,
-      "26911": 3,
+      "26911": 3.0,
       "26912": 0.2
     },
-    "tags": [
-      "meta:mho:The Black Hand Trading Co."
-    ],
-    "uid": [
-      18018005
-    ],
     "image": "wl-black_hand-1527320047.png",
     "image_coords": [
       432,
       732,
       586,
       862
+    ],
+    "tags": [
+      "meta:mho:The Black Hand Trading Co."
+    ],
+    "uid": [
+      18018005
     ]
   }
 }

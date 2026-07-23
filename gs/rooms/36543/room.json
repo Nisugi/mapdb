@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36543,
+    "title": [
+      "[Sarowyn's Outfitting]"
+    ],
+    "description": [
+      "The broad sweep of the wooden floor is interrupted by a worn rug.  Halfway to the wooden ceiling, a tattered merchant permit hangs on one of the polished oak walls.  A narrow glass-topped table and a simple wooden shelf are pushed close together in the back of the shop."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "Wehnimer's Landing",
+    "wayto": {
+      "375": "out"
+    },
+    "timeto": {
+      "375": 0.2
+    },
+    "uid": [
+      633201
+    ]
+  }
+}

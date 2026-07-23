@@ -1,5 +1,4 @@
 {
-  "checksum": "fe1da77af0496c6682572dda00e8fc00",
   "room": {
     "id": 11846,
     "title": [
@@ -18,40 +17,42 @@
     "wayto": {
       "11844": "east",
       "11845": "southeast",
-      "11849": "south"
+      "11849": "south",
+      "11850": "go steps"
     },
     "timeto": {
       "11844": 0.2,
       "11845": 0.2,
-      "11849": 0.2
+      "11849": 0.2,
+      "11850": 0.2
     },
-    "tags": [
-      "small rose",
-      "acantha leaf",
-      "calamia fruit",
-      "sovyn clove",
-      "small flower",
-      "small daisy",
-      "angelica root",
-      "wild chokecherry",
-      "pepperthorn root",
-      "murdroot",
-      "ironfern root",
-      "wingstem root",
-      "bur-clover root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-11",
-      "meta:forage-sensed:day:2024-05"
-    ],
-    "uid": [
-      17004024
-    ],
     "image": "en-old_ta_faendryl-1716923763.png",
     "image_coords": [
       673,
       660,
       683,
       670
+    ],
+    "tags": [
+      "acantha leaf",
+      "angelica root",
+      "bur-clover root",
+      "calamia fruit",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
+      "meta:forage-sensed:night:2023-11",
+      "murdroot",
+      "pepperthorn root",
+      "small daisy",
+      "small flower",
+      "small rose",
+      "sovyn clove",
+      "wild chokecherry",
+      "wingstem root"
+    ],
+    "uid": [
+      17004024
     ]
   }
 }

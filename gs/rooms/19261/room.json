@@ -1,5 +1,4 @@
 {
-  "checksum": "0d925dbd8eb93355938c814b4a228cd9",
   "room": {
     "id": 19261,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "7489": "/rooms/19261/wayto/stringproc-7489.rb",
+      "7489": ";e fput 'touch large statue';fput 'say dyar trog'",
       "19262": "northwest",
       "19267": "northeast"
     },
@@ -22,18 +21,18 @@
       "19262": 0.2,
       "19267": 0.2
     },
-    "tags": [
-      "lesser vruul"
-    ],
-    "uid": [
-      94038
-    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       1000,
       276,
       1010,
       286
+    ],
+    "tags": [
+      "lesser vruul"
+    ],
+    "uid": [
+      94038
     ]
   }
 }

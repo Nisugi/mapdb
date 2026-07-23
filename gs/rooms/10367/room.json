@@ -1,5 +1,4 @@
 {
-  "checksum": "c07901d086a953c50771fa74db049224",
   "room": {
     "id": 10367,
     "title": [
@@ -14,18 +13,19 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "3526": "out",
-      "30713": "/rooms/10367/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3526": 0.2,
-      "30713": "/rooms/10367/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "weaponshop",
-      "urchin-access",
+      "no forageables",
       "urchin guide weapons",
+      "urchin-access",
+      "warrior guild sheet metal",
       "weapons",
-      "warrior guild sheet metal"
+      "weaponshop"
     ],
     "uid": [
       14103025

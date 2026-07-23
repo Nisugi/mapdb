@@ -1,5 +1,4 @@
 {
-  "checksum": "1d773dfdcbafb682444f9a2a7320aaa2",
   "room": {
     "id": 13547,
     "title": [
@@ -24,22 +23,23 @@
       "13707": 0.2,
       "13708": 0.2
     },
-    "tags": [
-      "meta:mapname:Elven Nations - Ta'Vaalor - Dyer's Tent",
-      "meta:mapshortname:Ta'Vaalor - Dyer's Tent",
-      "meta:mapcategory:Elven Nations",
-      "meta:mapcategory:Dyer's Tents:Ta'Vaalor",
-      "dyers"
-    ],
-    "uid": [
-      34152
-    ],
     "image": "en-ta_vaalor-dyers_tent-1512162732.png",
     "image_coords": [
       1455,
       1079,
       1598,
       1158
+    ],
+    "tags": [
+      "dyers",
+      "meta:mapcategory:Dyer's Tents:Ta'Vaalor",
+      "meta:mapcategory:Elven Nations",
+      "meta:mapname:Elven Nations - Ta'Vaalor - Dyer's Tent",
+      "meta:mapshortname:Ta'Vaalor - Dyer's Tent",
+      "no forageables"
+    ],
+    "uid": [
+      34152
     ]
   }
 }

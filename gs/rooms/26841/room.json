@@ -1,5 +1,4 @@
 {
-  "checksum": "7b5016964f994a5c4a33ff69f1226332",
   "room": {
     "id": 26841,
     "title": [
@@ -16,21 +15,21 @@
       "26840": "out",
       "26842": "go doors",
       "26843": "go staircase",
-      "33578": "/rooms/26841/wayto/stringproc-33578.rb"
+      "33578": ";e true"
     },
     "timeto": {
       "26840": 0.2,
       "26842": 0.2,
       "26843": 0.2,
-      "33578": "/rooms/26841/timeto/stringproc-33578.rb"
+      "33578": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "supernode",
-      "node"
+      "node",
+      "supernode"
     ],
+    "check_location": false,
     "uid": [
       8214601
-    ],
-    "check_location": false
+    ]
   }
 }

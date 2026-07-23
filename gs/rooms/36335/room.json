@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36335,
+    "title": [
+      "[Pinions and Pulse]"
+    ],
+    "description": [
+      "This stone walled chamber is illuminated by a steady lattice of suspended lights that reveal a series of glass display cases arranged with deliberate symmetry.  Inside each case rests a wing-shaped pin, some emitting a pale glow while others pulse with darker energy.  Subtle motes of light and shadow drift within the cases, occasionally brushing against the glass.  Fine runic etchings are carved into the floor and walls, suggesting controlled containment rather than decoration."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "Bloodriven Village",
+    "wayto": {
+      "26864": "out"
+    },
+    "timeto": {
+      "26864": 0.2
+    },
+    "uid": [
+      8212677
+    ]
+  }
+}

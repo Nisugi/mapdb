@@ -1,5 +1,4 @@
 {
-  "checksum": "bed095ad8a8b45134751a81e7431a00c",
   "room": {
     "id": 17587,
     "title": [
@@ -20,30 +19,30 @@
       "17583": "southeast",
       "17588": "northwest",
       "17602": "northeast",
-      "30718": "/rooms/17587/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "16061": 0.2,
       "17583": 0.2,
       "17588": 0.2,
       "17602": 0.2,
-      "30718": "/rooms/17587/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "supernode",
-      "node",
-      "urchin-access",
-      "no forageables"
-    ],
-    "uid": [
-      3216007
-    ],
     "image": "ifw-isle_of_four_winds-1310232949.png",
     "image_coords": [
       1511,
       1180,
       1550,
       1220
+    ],
+    "tags": [
+      "no forageables",
+      "node",
+      "supernode",
+      "urchin-access"
+    ],
+    "uid": [
+      3216007
     ]
   }
 }

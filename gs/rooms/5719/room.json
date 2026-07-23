@@ -1,5 +1,4 @@
 {
-  "checksum": "23c9e78b1cb5ca63cf86c0b0f7bde85c",
   "room": {
     "id": 5719,
     "title": [
@@ -18,30 +17,30 @@
       "1448": "out",
       "5720": "east",
       "5721": "climb stairway",
-      "30710": "/rooms/5719/wayto/stringproc-30710.rb"
+      "30710": ";e true"
     },
     "timeto": {
       "1448": 0.2,
       "5720": 0.2,
       "5721": 0.2,
-      "30710": "/rooms/5719/timeto/stringproc-30710.rb"
+      "30710": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "gemshop",
-      "urchin guide gemshop",
-      "urchin-access",
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      4740035
-    ],
     "image": "vo-solhaven-1675635404.png",
     "image_coords": [
       1024,
       535,
       1024,
       535
+    ],
+    "tags": [
+      "gemshop",
+      "meta:forage-sensed",
+      "no forageables",
+      "urchin guide gemshop",
+      "urchin-access"
+    ],
+    "uid": [
+      4740035
     ]
   }
 }

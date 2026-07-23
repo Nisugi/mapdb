@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36357,
+    "title": [
+      "[Black Swan Castle, Courtyard]"
+    ],
+    "description": [
+      "From this angle, the haze surrounding the keep to the northeast seems to take on the ever-cycling hues of the rainbow.  No longer merely a black, lifeless interloper against the sky, the stronghold now seems to pulsate with secret malevolent life.  Although no wind can penetrate the surrounding walls, a low, constant rustling sound can be perceived, like the beating of giant wings."
+    ],
+    "paths": [
+      "Obvious paths: north, east, south"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36356": "south",
+      "36375": "east",
+      "36377": "north"
+    },
+    "timeto": {
+      "36356": 0.2,
+      "36375": 0.2,
+      "36377": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      360,
+      440,
+      400,
+      480
+    ],
+    "uid": [
+      55027
+    ]
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "checksum": "8a8343762b1b90dac3f6cb19e1e1d7df",
   "room": {
     "id": 28813,
     "title": [
@@ -26,7 +25,7 @@
       "28899": "southeast",
       "28907": "east",
       "28908": "northeast",
-      "30716": "/rooms/28813/wayto/stringproc-30716.rb",
+      "30716": ";e true",
       "31525": "go driftwood store"
     },
     "timeto": {
@@ -38,30 +37,30 @@
       "28899": 10,
       "28907": 10,
       "28908": 10,
-      "30716": "/rooms/28813/timeto/stringproc-30716.rb",
+      "30716": ";e Map[7].timeto['30714'].call;",
       "31525": 0.2
     },
-    "tags": [
-      "town",
-      "meta:mapname:Kraken's Fall",
-      "meta:mapcategory:Kraken's Fall",
-      "meta:mapcategory:Towns",
-      "supernode",
-      "node",
-      "urchin-access",
-      "urchin guide market",
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      7118221
-    ],
     "image": "kf-krakens_fall-1648278406.png",
     "image_coords": [
       406,
       373,
       419,
       388
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:mapcategory:Kraken's Fall",
+      "meta:mapcategory:Towns",
+      "meta:mapname:Kraken's Fall",
+      "no forageables",
+      "node",
+      "supernode",
+      "town",
+      "urchin guide market",
+      "urchin-access"
+    ],
+    "uid": [
+      7118221
     ]
   }
 }

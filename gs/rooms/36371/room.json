@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36371,
+    "title": [
+      "[Keep, Sleeping Quarters]"
+    ],
+    "description": [
+      "The stone here has been limed and whitewashed, though it is now dingy with age and soot.  Piles of white bedclothes, stained with blood and black smudges, are strewn about.  There is no sign of any furnishing, save for a large stained glass-fronted wardrobe still standing against the far wall.  A narrow staircase leads down."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36370": "go staircase",
+      "36372": "go passage"
+    },
+    "timeto": {
+      "36370": 0.2,
+      "36372": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1400,
+      120,
+      1440,
+      160
+    ],
+    "uid": [
+      55043
+    ]
+  }
+}

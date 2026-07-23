@@ -1,5 +1,4 @@
 {
-  "checksum": "88b1a051d8ef6a792f10de3fa3a7a676",
   "room": {
     "id": 12537,
     "title": [
@@ -17,37 +16,37 @@
     "terrain": "hard, flat",
     "wayto": {
       "1942": "go doors",
-      "30715": "/rooms/12537/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1942": 0.2,
-      "30715": "/rooms/12537/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "node",
-      "supernode",
-      "meta:mapname:Teras Isle - Adventurer's Rest",
-      "meta:mapshortname:Adventurer's Rest",
-      "meta:mapcategory:Teras Isle",
-      "locksmith pool",
-      "meta:boxpool:npc:disheveled dwarven attendant",
-      "meta:boxpool:table:thick mistwood workbench",
-      "urchin-access",
-      "urchin guide locksmithpool",
-      "locksmithpool",
-      "meta:trashcan:ivy-covered iron barrel",
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      3003041
-    ],
     "image": "ti-adventurers_rest-1486448911.png",
     "image_coords": [
       5,
       841,
       152,
       906
+    ],
+    "tags": [
+      "locksmith pool",
+      "locksmithpool",
+      "meta:boxpool:npc:disheveled dwarven attendant",
+      "meta:boxpool:table:thick mistwood workbench",
+      "meta:forage-sensed",
+      "meta:mapcategory:Teras Isle",
+      "meta:mapname:Teras Isle - Adventurer's Rest",
+      "meta:mapshortname:Adventurer's Rest",
+      "meta:trashcan:ivy-covered iron barrel",
+      "no forageables",
+      "node",
+      "supernode",
+      "urchin guide locksmithpool",
+      "urchin-access"
+    ],
+    "uid": [
+      3003041
     ]
   }
 }

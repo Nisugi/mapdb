@@ -1,5 +1,4 @@
 {
-  "checksum": "ce56928d887e0042b8e0301f646be43b",
   "room": {
     "id": 11162,
     "title": [
@@ -24,40 +23,41 @@
       "11163": 0.2,
       "11201": 0.2
     },
-    "tags": [
-      "bright red cranberry",
-      "murdroot",
-      "withered black mushroom",
-      "wild chokecherry",
-      "acantha leaf",
-      "calamia fruit",
-      "aloeas stem",
-      "motherwort",
-      "murkweed",
-      "wingstem root",
-      "meta:forage-sensed",
-      "bur-clover root",
-      "cinnamon bark",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "golden flax fronds",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      2102025
-    ],
     "image": "rr-citadel-1717856937.png",
     "image_coords": [
       940,
       606,
       950,
       616
+    ],
+    "tags": [
+      "acantha leaf",
+      "aloeas stem",
+      "black peppercorn",
+      "bright red cranberry",
+      "bur-clover root",
+      "calamia fruit",
+      "cardamom",
+      "cinnamon bark",
+      "cumin seeds",
+      "golden flax fronds",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "motherwort",
+      "murdroot",
+      "murkweed",
+      "nutmeg",
+      "pink peppercorn",
+      "star anise",
+      "vanilla bean",
+      "wild chokecherry",
+      "wild rice",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      2102025
     ]
   }
 }

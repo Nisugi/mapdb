@@ -1,5 +1,4 @@
 {
-  "checksum": "dfa0f8df5efaa6243d4ef896777fce7c",
   "room": {
     "id": 1986,
     "title": [
@@ -18,31 +17,31 @@
     "wayto": {
       "1985": "south",
       "17253": "go doors",
-      "30715": "/rooms/1986/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1985": 0.2,
-      "17253": "/rooms/1986/timeto/stringproc-17253.rb",
-      "30715": "/rooms/1986/timeto/stringproc-30715.rb"
+      "17253": ";e Stats.prof == 'Warrior' ? 0.2 : nil",
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "warriorguild",
-      "urchin-access",
-      "urchin guide warriorguild",
-      "warrior guild",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      252001
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       468,
       39,
       504,
       75
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "no forageables",
+      "urchin guide warriorguild",
+      "urchin-access",
+      "warrior guild",
+      "warriorguild"
+    ],
+    "uid": [
+      252001
     ]
   }
 }

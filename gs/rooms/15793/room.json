@@ -1,5 +1,4 @@
 {
-  "checksum": "8ed20d58d04135586f97fd2e81ec3856",
   "room": {
     "id": 15793,
     "title": [
@@ -21,17 +20,20 @@
     },
     "timeto": {
       "15703": 0.2,
-      "27745": 3
+      "27745": 3.0
     },
-    "uid": [
-      4050007
-    ],
     "image": "imt-Town_Walls_Map-1707071672.png",
     "image_coords": [
       578,
       210,
       610,
       242
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      4050007
     ]
   }
 }

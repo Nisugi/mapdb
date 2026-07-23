@@ -1,0 +1,37 @@
+{
+  "room": {
+    "id": 36678,
+    "title": [
+      "[Nyessem, Promenade]"
+    ],
+    "description": [
+      "Built above the Ring Loop and accessed via the stairs from below, this walking path is similarly wide but twice as tall, formed from the same pearlescent white stone walls found throughout Nyessem.  Instead of a ceiling, a pale blue mist hovers in the air, mimicking a clouded sky.  Next to the stairs is a stone cart with refreshments and a small sign.  Pillows are intermittently spaced for taking one's ease."
+    ],
+    "paths": [
+      "Obvious exits: north, east, west"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36662": "go stairs",
+      "36679": "east",
+      "36680": "west",
+      "36688": "north"
+    },
+    "timeto": {
+      "36662": 0.2,
+      "36679": 0.2,
+      "36680": 0.2,
+      "36688": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      851,
+      600,
+      867,
+      614
+    ],
+    "uid": [
+      8400030
+    ]
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "checksum": "9c7466b1d2028ec31bd787f09e0dbbb4",
   "room": {
     "id": 23830,
     "title": [
@@ -15,11 +14,11 @@
     ],
     "location": "the Abbey",
     "wayto": {
-      "221": "/rooms/23830/wayto/stringproc-221.rb",
-      "2773": "/rooms/23830/wayto/stringproc-2773.rb",
+      "221": ";e multifput 'inquire','order 1','order confirm';waitfor 'The wagon comes to a halt','The wagon draws to an abrupt halt','the caravan comes to a stop';",
+      "2773": ";e multifput 'inquire','order 2','order confirm';waitfor 'The wagon comes to a halt','The wagon draws to an abrupt halt','the caravan comes to a stop';",
       "2942": "south",
       "2943": "north",
-      "29860": "/rooms/23830/wayto/stringproc-29860.rb"
+      "29860": ";e UserVars.mapdb_hinterwilds_location = 'IM';multifput 'inquire','order 3','order confirm';waitfor 'The wagon comes to a halt','The wagon draws to an abrupt halt','the caravan comes to a stop';"
     },
     "timeto": {
       "221": 3600,
@@ -28,26 +27,26 @@
       "2943": 0.2,
       "29860": 3600
     },
-    "tags": [
-      "nedum vereri",
-      "dark shambler",
-      "arctic puma",
-      "calmintha flower",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-10",
-      "silver-cost:29860:3000",
-      "silver-cost:221:3000",
-      "silver-cost:2773:3000"
-    ],
-    "uid": [
-      4132017
-    ],
     "image": "imt-Abbey_Map-1652211219.png",
     "image_coords": [
       379,
       963,
       433,
       1016
+    ],
+    "tags": [
+      "arctic puma",
+      "dark shambler",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "nedum vereri",
+      "silver-cost:221:3000",
+      "silver-cost:2773:3000",
+      "silver-cost:29860:3000",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      4132017
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "4de8b3ee38746a84812a2776d26c3650",
   "room": {
     "id": 167,
     "title": [
@@ -24,22 +23,22 @@
     "timeto": {
       "166": 0.2,
       "168": 0.2,
-      "36170": "/rooms/167/timeto/stringproc-36170.rb"
+      "36170": ";e (Script.running?('bigshot') || Script.running?('wander'))? nil : 0.2"
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      13100100
-    ],
     "image": "en-ta_illistim-new.jpg",
     "image_coords": [
       373,
       784,
       396,
       804
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-11",
+      "no forageables"
+    ],
+    "uid": [
+      13100100
     ]
   }
 }

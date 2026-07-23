@@ -1,5 +1,4 @@
 {
-  "checksum": "94351fc93ae58f512982da3b8320e5a9",
   "room": {
     "id": 7610,
     "title": [
@@ -22,22 +21,23 @@
       "7608": 0.2,
       "7611": 0.2
     },
-    "tags": [
-      "strand of seaweed",
-      "broken twig",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      84151
-    ],
     "image": "wl-coastal_cliffs-1264234799.png",
     "image_coords": [
       440,
       556,
       450,
       566
+    ],
+    "tags": [
+      "broken twig",
+      "coastal sword sedge",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "strand of seaweed"
+    ],
+    "uid": [
+      84151
     ]
   }
 }

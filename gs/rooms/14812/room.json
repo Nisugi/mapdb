@@ -1,5 +1,4 @@
 {
-  "checksum": "dc75395a6c8ccd8352c3689b757d9391",
   "room": {
     "id": 14812,
     "title": [
@@ -16,22 +15,22 @@
     "terrain": "hard, flat",
     "wayto": {
       "12386": "go steps",
-      "30715": "/rooms/14812/wayto/stringproc-30715.rb",
+      "30715": ";e true",
       "30901": "go door"
     },
     "timeto": {
       "12386": 0.2,
-      "30715": "/rooms/14812/timeto/stringproc-30715.rb",
+      "30715": ";e Map[7].timeto['30714'].call;",
       "30901": 0.2
     },
     "tags": [
-      "bardguild",
-      "urchin-access",
-      "urchin guide bardguild",
       "bard guild",
-      "no forageables",
+      "bardguild",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
+      "meta:forage-sensed:day:2023-01",
+      "no forageables",
+      "urchin guide bardguild",
+      "urchin-access"
     ],
     "uid": [
       282204

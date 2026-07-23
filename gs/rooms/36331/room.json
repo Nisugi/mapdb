@@ -1,5 +1,4 @@
 {
-  "checksum": "7bad8fd5981a0ccb1a4ad01aa1a7efe5",
   "room": {
     "id": 36331,
     "title": [
@@ -18,15 +17,20 @@
     "timeto": {
       "36328": 0.2
     },
-    "uid": [
-      777331
-    ],
     "image": "albatross-1342665555.png",
     "image_coords": [
       421,
       372,
       440,
       391
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      777331
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "ffb1314e6768e1366b888ba1be8ad182",
   "room": {
     "id": 17130,
     "title": [
@@ -18,30 +17,30 @@
     "wayto": {
       "4650": "down",
       "17155": "up",
-      "30717": "/rooms/17130/wayto/stringproc-30717.rb"
+      "30717": ";e true"
     },
     "timeto": {
       "4650": 0.2,
       "17155": 0.2,
-      "30717": "/rooms/17130/timeto/stringproc-30717.rb"
+      "30717": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "chronomage",
-      "urchin-access",
-      "urchin guide chronomages",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      14051038
-    ],
     "image": "en-cysaegir-1679641246.png",
     "image_coords": [
       457,
       809,
       482,
       833
+    ],
+    "tags": [
+      "chronomage",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "no forageables",
+      "urchin guide chronomages",
+      "urchin-access"
+    ],
+    "uid": [
+      14051038
     ]
   }
 }

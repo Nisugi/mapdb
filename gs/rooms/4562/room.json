@@ -1,5 +1,4 @@
 {
-  "checksum": "fd6ac325f529d77fc497d82873723e25",
   "room": {
     "id": 4562,
     "title": [
@@ -15,8 +14,8 @@
     "climate": "glacial",
     "terrain": "mountainous",
     "wayto": {
-      "4561": "/rooms/4562/wayto/stringproc-4561.rb",
-      "4563": "/rooms/4562/wayto/stringproc-4563.rb",
+      "4561": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'up'",
+      "4563": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'climb rope'",
       "4564": "northwest"
     },
     "timeto": {
@@ -24,29 +23,29 @@
       "4563": 4.2,
       "4564": 0.2
     },
-    "tags": [
-      "sweetfern stalk",
-      "sassafras leaf",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "sprig of holly",
-      "ironfern root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "deep purple shockroot",
-      "meta:forage-sensed:day:2023-11",
-      "meta:forage-sensed:night:2024-05"
-    ],
-    "uid": [
-      13302140
-    ],
     "image": "en-skull-1264234799.png",
     "image_coords": [
       662,
       275,
       672,
       285
+    ],
+    "tags": [
+      "angelica root",
+      "deep purple shockroot",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-11",
+      "meta:forage-sensed:night:2024-05",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sprig of holly",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root"
+    ],
+    "uid": [
+      13302140
     ]
   }
 }

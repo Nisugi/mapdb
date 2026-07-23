@@ -1,5 +1,4 @@
 {
-  "checksum": "e7fdec5cea322f62a8c9cffcd9cc1c12",
   "room": {
     "id": 7151,
     "title": [
@@ -15,31 +14,31 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "23708": "/rooms/7151/wayto/stringproc-23708.rb"
+      "23708": ";e move 'north';$go2_restart=true"
     },
     "timeto": {
       "23708": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01",
-      "meta:maze",
-      "meta:map:multi-uid"
-    ],
-    "uid": [
-      41005,
-      41010,
-      41015,
-      41018
-    ],
     "image": "wl-darkstone-1717380773.png",
     "image_coords": [
       872,
       581,
       882,
       591
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2023-01",
+      "meta:map:multi-uid",
+      "meta:maze",
+      "no forageables"
+    ],
+    "uid": [
+      41005,
+      41010,
+      41015,
+      41018
     ]
   }
 }

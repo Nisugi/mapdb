@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36553,
+    "title": [
+      "[Skyship, Muster]"
+    ],
+    "description": [
+      "A broad ruined tunnel opens across the room's eastern edge.  Before the debris-cluttered opening, a straight, bright vermillion line has been drawn.  On the tunnel's side of the line, the floor is made from a highly polished, immaculate white stone.  On the opposite side, a dirt and sand mix is uneven, hard-packed in places and disturbed by footfalls in others.  These sands are further marred with broad and dark crimson splotches."
+    ],
+    "paths": [
+      "Obvious exits: south"
+    ],
+    "location": false,
+    "wayto": {
+      "36552": "south"
+    },
+    "timeto": {
+      "36552": 0.2
+    },
+    "uid": [
+      12102017
+    ]
+  }
+}

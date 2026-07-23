@@ -1,5 +1,4 @@
 {
-  "checksum": "db7f465b94c12be6717d7cb37359f8ac",
   "room": {
     "id": 1073,
     "title": [
@@ -15,28 +14,28 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "1072": "/rooms/1073/wayto/stringproc-1072.rb",
-      "1074": "/rooms/1073/wayto/stringproc-1074.rb"
+      "1072": ";e move 'climb down'\nwaitrt?",
+      "1074": ";e move 'climb up'\nwaitrt?\nfill_hands\nif $group_members\nclear\necho \"Waiting for your group... To ditch them, ;send go \"\nbegin\nline = get\nif line =~ /^(You reach out and hold )?([A-z][a-z]+)('s hand| joins your group)\\.$/\n$group_members.delete $2\nelsif line == 'go'\nbreak\nend\nend while $group_members.length > 0\nend"
     },
     "timeto": {
-      "1072": 15,
-      "1074": 15
+      "1072": 15.0,
+      "1074": 15.0
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01",
-      "meta:nomagic"
-    ],
-    "uid": [
-      13001039
-    ],
     "image": "en-trail-1264234799.png",
     "image_coords": [
       1245,
       739,
       1255,
       749
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "meta:nomagic",
+      "no forageables"
+    ],
+    "uid": [
+      13001039
     ]
   }
 }

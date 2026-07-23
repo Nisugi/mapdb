@@ -1,5 +1,4 @@
 {
-  "checksum": "ab330c3ef45c785db5ff739a61bb4075",
   "room": {
     "id": 21773,
     "title": [
@@ -16,24 +15,24 @@
     "terrain": "none",
     "wayto": {
       "21772": "go archway",
-      "21781": "/rooms/21773/wayto/stringproc-21781.rb"
+      "21781": ";e fput 'go east'"
     },
     "timeto": {
       "21772": 0.2,
       "21781": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      103510
-    ],
     "image": "wl-house_phoenix-1485115199.png",
     "image_coords": [
       1253,
       1670,
       1370,
       1748
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      103510
     ]
   }
 }

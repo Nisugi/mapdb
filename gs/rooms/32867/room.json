@@ -1,5 +1,4 @@
 {
-  "checksum": "9f275dcd15e8547dca6224f21a8d207c",
   "room": {
     "id": 32867,
     "title": [
@@ -14,16 +13,17 @@
     "location": "Icemule Trace",
     "wayto": {
       "2451": "out",
-      "30709": "/rooms/32867/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "2451": 0.2,
-      "30709": "/rooms/32867/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "grocer",
-      "urchin-access",
-      "urchin guide grocer"
+      "no forageables",
+      "urchin guide grocer",
+      "urchin-access"
     ],
     "uid": [
       4049201

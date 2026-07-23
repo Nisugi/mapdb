@@ -1,5 +1,4 @@
 {
-  "checksum": "94ca09758edcce717e501f5e74534294",
   "room": {
     "id": 3408,
     "title": [
@@ -14,16 +13,16 @@
     "location": "Icemule Trace",
     "wayto": {
       "2419": "climb staircase",
-      "3610": "/rooms/3408/wayto/stringproc-3610.rb",
-      "3611": "/rooms/3408/wayto/stringproc-3611.rb",
-      "3626": "/rooms/3408/wayto/stringproc-3626.rb",
-      "3829": "/rooms/3408/wayto/stringproc-3829.rb",
-      "3851": "/rooms/3408/wayto/stringproc-3851.rb",
-      "17083": "/rooms/3408/wayto/stringproc-17083.rb",
-      "17084": "/rooms/3408/wayto/stringproc-17084.rb",
-      "17085": "/rooms/3408/wayto/stringproc-17085.rb",
-      "17086": "/rooms/3408/wayto/stringproc-17086.rb",
-      "17087": "/rooms/3408/wayto/stringproc-17087.rb"
+      "3610": ";e table = \"Flying Tart\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "3611": ";e table = \"Frosted Tart\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "3626": ";e table = \"Crumbly Tart\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "3829": ";e table = \"Burnt Tart\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "3851": ";e table = \"Half-Eaten Tart\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "17083": ";e table = \"Crispy Tart\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "17084": ";e table = \"Frozen Tart\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "17085": ";e table = \"Mushy Tart\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "17086": ";e table = \"Glazed Tart\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "17087": ";e table = \"Blueberry Tart\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"
     },
     "timeto": {
       "2419": 0.2,
@@ -38,18 +37,19 @@
       "17086": 0.2,
       "17087": 0.2
     },
-    "tags": [
-      "table"
-    ],
-    "uid": [
-      4043306
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       672,
       1230,
       708,
       1266
+    ],
+    "tags": [
+      "no forageables",
+      "table"
+    ],
+    "uid": [
+      4043306
     ]
   }
 }

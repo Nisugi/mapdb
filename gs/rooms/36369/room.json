@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36369,
+    "title": [
+      "[Keep, Study]"
+    ],
+    "description": [
+      "Exposed rafters stretch out overhead, the dark wood complementing the deep indigo leather walls painted from floor to ceiling with scores of magnificent peacocks in bold strokes of iridescent blue and gilt.  Piles of worm-eaten manuscripts and books are heaped on the floor, and broken bookshelves litter the room.  A clear path runs through the rubble from a frayed velvet curtain on one wall to a barricaded door directly opposite."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36368": "go curtain",
+      "36370": "go door"
+    },
+    "timeto": {
+      "36368": 0.2,
+      "36370": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1280,
+      280,
+      1320,
+      320
+    ],
+    "uid": [
+      55040
+    ]
+  }
+}

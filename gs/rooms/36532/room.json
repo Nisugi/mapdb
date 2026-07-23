@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36532,
+    "title": [
+      "[Sylinar's Spire, Bed Chamber]"
+    ],
+    "description": [
+      "Broad windows set deep within pale stone are flanked by sturdy shutters and framed in heavy, dark velvet drapes that fall in straight, weighty lines.  Near the far wall, a low hearth rests within a carved limestone surround, ready to lend warmth when lit to the otherwise austere space.  A dark four-poster bed of dark wood rests beneath a woven throw in muted earth tones, while a small cedar chest of sticks and saddle stand sit nearby.  Opposite, a zydris-framed painting captures a powerful horse in motion, its form rendered with precision."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "Summit Academy",
+    "wayto": {
+      "36531": "go door"
+    },
+    "timeto": {
+      "36531": 0.2
+    },
+    "uid": [
+      8211202
+    ]
+  }
+}

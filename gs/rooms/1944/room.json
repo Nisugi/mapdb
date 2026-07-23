@@ -1,5 +1,4 @@
 {
-  "checksum": "4200615f3c5fbfcb80d89cb7896309a0",
   "room": {
     "id": 1944,
     "title": [
@@ -18,36 +17,36 @@
       "1932": "south",
       "1943": "west",
       "1945": "east",
-      "3668": "/rooms/1944/wayto/stringproc-3668.rb",
+      "3668": ";e Map[7].wayto['3668'].call;",
       "12395": "north",
-      "26905": "/rooms/1944/wayto/stringproc-26905.rb",
-      "31558": "/rooms/1944/wayto/stringproc-31558.rb"
+      "26905": ";e 2.times{fput \"event transport duskruin\"};UserVars.mapdb_duskruin_origin = 1944;",
+      "31558": ";e 2.times{fput \"event transport ebon gate\"};UserVars.mapdb_ebon_gate_origin = 1944;"
     },
     "timeto": {
       "1932": 0.2,
       "1943": 0.2,
       "1945": 0.2,
-      "3668": "/rooms/1944/timeto/stringproc-3668.rb",
+      "3668": ";e Map[7].timeto['3668'].call;",
       "12395": 0.2,
       "26905": 2400,
-      "31558": "/rooms/1944/timeto/stringproc-31558.rb"
+      "31558": ";e Time.now.month == 10 ? 2400 : nil"
     },
-    "tags": [
-      "meta:teleport",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01",
-      "meta:fwi:teleport"
-    ],
-    "uid": [
-      3001031
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       1038,
       435,
       1064,
       461
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "meta:fwi:teleport",
+      "meta:teleport",
+      "no forageables"
+    ],
+    "uid": [
+      3001031
     ]
   }
 }

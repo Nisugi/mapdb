@@ -1,5 +1,4 @@
 {
-  "checksum": "9772e5131c5056572a9b93d8e0ceec08",
   "room": {
     "id": 29877,
     "title": [
@@ -16,25 +15,25 @@
     "wayto": {
       "29869": "out",
       "29881": "east",
-      "34399": "/rooms/29877/wayto/stringproc-34399.rb",
+      "34399": ";e true",
       "35783": "go ironwood door"
     },
     "timeto": {
       "29869": 0.2,
       "29881": 0.2,
-      "34399": "/rooms/29877/timeto/stringproc-34399.rb",
+      "34399": ";e Map[7].timeto['30714'].call;",
       "35783": 0.2
     },
     "tags": [
-      "guard",
       "advguard",
-      "no forageables",
+      "artificer",
+      "guard",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2023-01",
-      "urchin-access",
-      "urchin guide guard",
+      "no forageables",
       "tavern",
-      "artificer"
+      "urchin guide guard",
+      "urchin-access"
     ],
     "uid": [
       7503251

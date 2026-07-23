@@ -1,5 +1,4 @@
 {
-  "checksum": "e96dc7497f3a14cecb8ac21325601b74",
   "room": {
     "id": 390,
     "title": [
@@ -20,23 +19,24 @@
     },
     "timeto": {
       "389": 0.2,
-      "3855": 240,
+      "3855": 240.0,
       "32754": 0.2
     },
-    "tags": [
-      "meta:teleport:fwi",
-      "publiclockers",
-      "public locker"
-    ],
-    "uid": [
-      54003
-    ],
     "image": "wl-moot_hall-1486755929.png",
     "image_coords": [
       1191,
       1120,
       1333,
       1180
+    ],
+    "tags": [
+      "meta:teleport:fwi",
+      "no forageables",
+      "public locker",
+      "publiclockers"
+    ],
+    "uid": [
+      54003
     ]
   }
 }

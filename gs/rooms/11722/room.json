@@ -1,5 +1,4 @@
 {
-  "checksum": "deb5a706dffe75f86ae35bf9fb3a3da5",
   "room": {
     "id": 11722,
     "title": [
@@ -16,26 +15,26 @@
     "wayto": {
       "11721": "out",
       "16179": "go window",
-      "17692": "/rooms/11722/wayto/stringproc-17692.rb"
+      "17692": ";e fput 'turn candelabra'; fput 'pull black book';move 'go door'"
     },
     "timeto": {
       "11721": 0.2,
       "16179": 0.2,
       "17692": 0.5
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      376059
-    ],
     "image": "rr-marsh_keep-1266356986.png",
     "image_coords": [
       867,
       811,
       877,
       821
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables"
+    ],
+    "uid": [
+      376059
     ]
   }
 }

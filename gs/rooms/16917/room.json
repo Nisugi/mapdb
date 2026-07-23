@@ -1,5 +1,4 @@
 {
-  "checksum": "64375d18e2481d95d0e797c0fdf52fe4",
   "room": {
     "id": 16917,
     "title": [
@@ -17,31 +16,32 @@
     "wayto": {
       "9430": "west",
       "20646": "go doors",
-      "30712": "/rooms/16917/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "9430": 0.2,
-      "20646": "/rooms/16917/timeto/stringproc-20646.rb",
-      "30712": "/rooms/16917/timeto/stringproc-30712.rb"
+      "20646": ";e ((!defined?(Stats.prof) or Stats.prof == 'Warrior') ? 0.2 : nil);",
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "warriorguild",
-      "urchin-access",
-      "urchin guide warriorguild",
-      "warrior guild",
-      "soft white mushroom",
-      "withered black mushroom",
+      "blue trafel mushroom",
+      "bolmara lichen",
       "daggerstalk mushroom",
       "flathead mushroom",
       "genkew mushroom",
-      "blue trafel mushroom",
-      "pepperthorn root",
-      "murdroot",
       "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-02"
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "murdroot",
+      "pepperthorn root",
+      "soft mushroom",
+      "urchin guide warriorguild",
+      "urchin-access",
+      "warrior guild",
+      "warriorguild",
+      "wingstem root",
+      "withered mushroom"
     ],
     "uid": [
       258001

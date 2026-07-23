@@ -1,5 +1,4 @@
 {
-  "checksum": "478885e348874a172d17190d4f4d0b99",
   "room": {
     "id": 29548,
     "title": [
@@ -20,21 +19,22 @@
     "timeto": {
       "29534": 0.2,
       "29550": 0.2,
-      "30756": 240
+      "30756": 240.0
     },
-    "tags": [
-      "publiclockers",
-      "public locker"
-    ],
-    "uid": [
-      4043037
-    ],
     "image": "imt-Clovertooth_Hall-1615305972.png",
     "image_coords": [
       1350,
       1562,
       1440,
       1654
+    ],
+    "tags": [
+      "no forageables",
+      "public locker",
+      "publiclockers"
+    ],
+    "uid": [
+      4043037
     ]
   }
 }

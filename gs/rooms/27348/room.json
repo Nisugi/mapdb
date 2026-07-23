@@ -1,5 +1,4 @@
 {
-  "checksum": "f761f4734b328bf5381a0d54a93c0e09",
   "room": {
     "id": 27348,
     "title": [
@@ -16,17 +15,17 @@
     "terrain": "none",
     "wayto": {
       "10842": "go out",
-      "30711": "/rooms/27348/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "10842": 0.2,
-      "30711": "/rooms/27348/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "collectibles",
-      "urchin-access",
+      "no forageables",
       "urchin guide collectibles",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       2101940

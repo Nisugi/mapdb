@@ -1,5 +1,4 @@
 {
-  "checksum": "5bf5429024d87125d599e676050176bb",
   "room": {
     "id": 9505,
     "title": [
@@ -15,29 +14,29 @@
     "wayto": {
       "9416": "out",
       "9506": "go arch",
-      "30712": "/rooms/9505/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "9416": 0.2,
       "9506": 0.2,
-      "30712": "/rooms/9505/timeto/stringproc-30712.rb"
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "herbalist",
-      "no forageables",
-      "meta:forage-sensed",
-      "urchin-access",
-      "urchin guide herbalist"
-    ],
-    "uid": [
-      13010004
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       557,
       751,
       593,
       787
+    ],
+    "tags": [
+      "herbalist",
+      "meta:forage-sensed",
+      "no forageables",
+      "urchin guide herbalist",
+      "urchin-access"
+    ],
+    "uid": [
+      13010004
     ]
   }
 }

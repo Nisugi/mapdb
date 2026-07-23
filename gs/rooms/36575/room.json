@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36575,
+    "title": [
+      "[Skyship, Prison Entry]"
+    ],
+    "description": [
+      "The room is spare and built from a rough, unpolished metal floor, bulkheads, and ceiling.  Across one bulkhead, a slab of dark stone covered with runic symbols is fixed with ropes.  Two metal doors are built into the other two bulkheads, to either side of both the tunnel and slab, one red and one blue.  In the room's center, an opaque glaes orb hangs from the ceiling and casts the scene in a pale, ethereal blue light."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": false,
+    "wayto": {
+      "36574": "go door"
+    },
+    "timeto": {
+      "36574": 0.2
+    },
+    "uid": [
+      12102041
+    ]
+  }
+}

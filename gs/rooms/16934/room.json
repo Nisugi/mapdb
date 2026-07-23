@@ -1,5 +1,4 @@
 {
-  "checksum": "0b9307916406eefaf3667cbe6b08c93a",
   "room": {
     "id": 16934,
     "title": [
@@ -26,15 +25,21 @@
       "16959": 0.2,
       "16960": 0.2
     },
-    "uid": [
-      685034
-    ],
     "image": "en-ta_illistim-Wizard_Guild-1264234799.gif",
     "image_coords": [
       118,
       335,
       150,
       359
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      685034
     ]
   }
 }

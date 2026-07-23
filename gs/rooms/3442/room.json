@@ -1,5 +1,4 @@
 {
-  "checksum": "728cc73e9d4473014d22b3f8d9ac460a",
   "room": {
     "id": 3442,
     "title": [
@@ -18,28 +17,31 @@
     "wayto": {
       "3441": "east",
       "3443": "west",
-      "15628": "go warehouse",
-      "15631": "go building",
-      "16008": "go emporium",
-      "17659": "go simple shop"
+      "31247": "go simple shop",
+      "36617": "go stucco building",
+      "36618": "go plaster market"
     },
     "timeto": {
       "3441": 0.2,
       "3443": 0.2,
-      "15628": 0.2,
-      "15631": 0.2,
-      "16008": 0.2,
-      "17659": 0.2
+      "31247": 0.2,
+      "36617": 0.2,
+      "36618": 0.2
     },
-    "uid": [
-      735026
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       174,
       1399,
       192,
       1417
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      735026
     ]
   }
 }

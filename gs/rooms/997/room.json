@@ -1,5 +1,4 @@
 {
-  "checksum": "d48fd405bbb9641598353dfec200f918",
   "room": {
     "id": 997,
     "title": [
@@ -20,7 +19,7 @@
       "998": "southwest",
       "9432": "southeast",
       "9550": "go building",
-      "30712": "/rooms/997/wayto/stringproc-30712.rb",
+      "30712": ";e true",
       "30890": "go edifice"
     },
     "timeto": {
@@ -28,38 +27,38 @@
       "998": 0.2,
       "9432": 0.2,
       "9550": 0.2,
-      "30712": "/rooms/997/timeto/stringproc-30712.rb",
-      "30890": "/rooms/997/timeto/stringproc-30890.rb"
+      "30712": ";e Map[7].timeto['30714'].call;",
+      "30890": ";e ((!defined?(Stats.prof) or Stats.prof == 'Bard') ? 0.2 : nil);"
     },
-    "tags": [
-      "bardguild",
-      "pepperthorn root",
-      "soft white mushroom",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "genkew mushroom",
-      "blue trafel mushroom",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "urchin guide bardguild",
-      "urchin-access",
-      "bard guild",
-      "wingstem root",
-      "meta:forage-sensed:day:2023-02",
-      "meta:forage-sensed:night:2023-02"
-    ],
-    "uid": [
-      13006037
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       1062,
       626,
       1082,
       646
+    ],
+    "tags": [
+      "bard guild",
+      "bardguild",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-02",
+      "meta:forage-sensed:night:2026-03",
+      "murdroot",
+      "pepperthorn root",
+      "soft mushroom",
+      "urchin guide bardguild",
+      "urchin-access",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      13006037
     ]
   }
 }

@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36709,
+    "title": [
+      "[Jaired: The Galleria]"
+    ],
+    "description": [
+      "A painted silk wall panel hangs on one of the blue-speckled sea glass walls, and an etched seaglass ceiling rises overhead.  A tropical floral arrangement sits in one corner of an intricate patterned floor.  There is a wide knotted oak counter on one side of the shop and some carved haon pegs on the other."
+    ],
+    "paths": [
+      "Obvious exits: north"
+    ],
+    "location": "Mist Harbor",
+    "wayto": {
+      "36707": "north"
+    },
+    "timeto": {
+      "36707": 0.2
+    },
+    "uid": [
+      631370
+    ]
+  }
+}

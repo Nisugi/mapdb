@@ -1,5 +1,4 @@
 {
-  "checksum": "aa8abca97e083ec4a614957a3920984f",
   "room": {
     "id": 15701,
     "title": [
@@ -20,20 +19,21 @@
       "8919": 0.2,
       "8927": 0.2
     },
-    "tags": [
-      "wizard guild shop",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      680019
-    ],
     "image": "imt-wizard_guild.png",
     "image_coords": [
       421,
       802,
       472,
       847
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-09",
+      "no forageables",
+      "wizard guild shop"
+    ],
+    "uid": [
+      680019
     ]
   }
 }

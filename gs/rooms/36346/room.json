@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36346,
+    "title": [
+      "[Meadow, Scorched Ground]"
+    ],
+    "description": [
+      "The ground here is scorched, and not even weeds have sprung up.  The nascent slope of the bank encircling the moat here is also barren, as though an unnatural blight had been visited upon it."
+    ],
+    "paths": [
+      "Obvious paths: northeast, west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36345": "west",
+      "36347": "northeast"
+    },
+    "timeto": {
+      "36345": 0.2,
+      "36347": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      360,
+      1000,
+      400,
+      1040
+    ],
+    "uid": [
+      55005
+    ]
+  }
+}

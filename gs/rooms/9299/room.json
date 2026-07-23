@@ -1,5 +1,4 @@
 {
-  "checksum": "383571e624e57ca0de7ba3b6055c8dd1",
   "room": {
     "id": 9299,
     "title": [
@@ -15,26 +14,26 @@
     "climate": "hot, damp",
     "terrain": "deciduous",
     "wayto": {
-      "3831": "/rooms/9299/wayto/stringproc-3831.rb"
+      "3831": ";e fput 'search'\nmove 'go fissure'"
     },
     "timeto": {
       "3831": 0.2
     },
-    "tags": [
-      "yellow primrose",
-      "some calamia fruit",
-      "some pothinir grass",
-      "meta:trap"
-    ],
-    "uid": [
-      4291009
-    ],
     "image": "wl-stronghold-1264234799.png",
     "image_coords": [
       252,
       690,
       264,
       702
+    ],
+    "tags": [
+      "meta:trap",
+      "some calamia fruit",
+      "some pothinir grass",
+      "yellow primrose"
+    ],
+    "uid": [
+      4291009
     ]
   }
 }

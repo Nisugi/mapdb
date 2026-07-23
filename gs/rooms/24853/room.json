@@ -1,5 +1,4 @@
 {
-  "checksum": "1167ef36595994d66a839a983863f37a",
   "room": {
     "id": 24853,
     "title": [
@@ -15,7 +14,7 @@
     "wayto": {
       "18249": "south",
       "18700": "southwest",
-      "18703": "/rooms/24853/wayto/stringproc-18703.rb",
+      "18703": ";e Map[18700].wayto['18250'].call;",
       "18706": "west",
       "18707": "northwest",
       "18708": "north"
@@ -28,15 +27,15 @@
       "18707": 0.2,
       "18708": 0.2
     },
-    "uid": [
-      4031029
-    ],
     "image": "quest-troubled_waters.png",
     "image_coords": [
       632,
       401,
       649,
       420
+    ],
+    "uid": [
+      4031029
     ]
   }
 }

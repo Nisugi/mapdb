@@ -1,5 +1,4 @@
 {
-  "checksum": "4a16dd3174e9c196f65fa91af93c5df0",
   "room": {
     "id": 3870,
     "title": [
@@ -19,6 +18,7 @@
     "wayto": {
       "3869": "east",
       "12266": "west",
+      "15180": "go lean-to",
       "16482": "go sandstone cottage",
       "16483": "go wooden hut",
       "25313": "go glass-front shop",
@@ -27,35 +27,36 @@
     "timeto": {
       "3869": 0.2,
       "12266": 0.2,
+      "15180": 0.2,
       "16482": 0.2,
       "16483": 0.2,
       "25313": 0.2,
       "25317": 0.2
     },
-    "tags": [
-      "murdroot",
-      "acantha leaf",
-      "wingstem root",
-      "bur-clover root",
-      "small coconut",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      739417
-    ],
     "image": "ifw-isle_of_four_winds-1310232949.png",
     "image_coords": [
       3293,
       1745,
       3306,
       1755
+    ],
+    "tags": [
+      "acantha leaf",
+      "black peppercorn",
+      "bur-clover root",
+      "cardamom",
+      "cumin seeds",
+      "meta:forage-sensed",
+      "murdroot",
+      "nutmeg",
+      "pink peppercorn",
+      "small coconut",
+      "star anise",
+      "vanilla bean",
+      "wingstem root"
+    ],
+    "uid": [
+      739417
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "7361efe731f298447cba2cecc4975537",
   "room": {
     "id": 11756,
     "title": [
@@ -15,43 +14,43 @@
     "climate": "humid",
     "terrain": "hard, flat",
     "wayto": {
-      "250": "/rooms/11756/wayto/stringproc-250.rb",
-      "1870": "/rooms/11756/wayto/stringproc-1870.rb",
+      "250": ";e multifput 'ask portmaster about travel 1','ask portmaster about travel 1';waitfor 'A crew member escorts you off the ship.'",
+      "1870": ";e multifput 'ask portmaster about travel 4','ask portmaster about travel 4';waitfor 'A crew member escorts you off the ship.'",
       "5734": "north",
-      "10838": "/rooms/11756/wayto/stringproc-10838.rb",
-      "29033": "/rooms/11756/wayto/stringproc-29033.rb",
-      "30710": "/rooms/11756/wayto/stringproc-30710.rb",
-      "31493": "/rooms/11756/wayto/stringproc-31493.rb",
-      "32372": "/rooms/11756/wayto/stringproc-32372.rb",
-      "32928": "/rooms/11756/wayto/stringproc-32928.rb",
-      "35254": "/rooms/11756/wayto/stringproc-35254.rb"
+      "10838": ";e multifput 'ask portmaster about travel 3','ask portmaster about travel 3';waitfor 'A crew member escorts you off the ship.'",
+      "29033": ";e multifput 'ask portmaster about travel 5','ask portmaster about travel 5';waitfor 'A crew member escorts you off the ship.'",
+      "30710": ";e true",
+      "31493": ";e multifput 'ask portmaster about travel 6','ask portmaster about travel 6';waitfor 'A crew member escorts you off the ship.'",
+      "32372": ";e multifput 'ask portmaster about travel 7','ask portmaster about travel 7';waitfor 'A crew member escorts you off the ship.'",
+      "32928": ";e multifput 'ask portmaster about travel 8','ask portmaster about travel 8';waitfor 'A crew member escorts you off the ship.'",
+      "35254": ";e multifput 'ask portmaster about travel 11','ask portmaster about travel 11';waitfor 'A crew member escorts you off the ship.'"
     },
     "timeto": {
-      "250": "/rooms/11756/timeto/stringproc-250.rb",
-      "1870": "/rooms/11756/timeto/stringproc-1870.rb",
+      "250": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
+      "1870": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
       "5734": 0.2,
-      "10838": "/rooms/11756/timeto/stringproc-10838.rb",
-      "29033": "/rooms/11756/timeto/stringproc-29033.rb",
-      "30710": "/rooms/11756/timeto/stringproc-30710.rb",
-      "31493": "/rooms/11756/timeto/stringproc-31493.rb",
-      "32372": "/rooms/11756/timeto/stringproc-32372.rb",
-      "32928": "/rooms/11756/timeto/stringproc-32928.rb",
-      "35254": "/rooms/11756/timeto/stringproc-35254.rb"
+      "10838": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
+      "29033": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
+      "30710": ";e Map[7].timeto['30714'].call;",
+      "31493": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
+      "32372": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
+      "32928": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
+      "35254": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil"
     },
     "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "no forageables",
       "portmaster",
       "silver-cost:10838:25000",
       "silver-cost:1870:25000",
+      "silver-cost:250:12500",
       "silver-cost:29033:25000",
       "silver-cost:31493:35000",
-      "urchin-access",
-      "urchin guide docks",
-      "silver-cost:250:12500",
       "silver-cost:32372:25000",
       "silver-cost:32928:25000",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01",
-      "no forageables"
+      "urchin guide docks",
+      "urchin-access"
     ],
     "uid": [
       4744014

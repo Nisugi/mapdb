@@ -1,5 +1,4 @@
 {
-  "checksum": "6840136a834b01faafabdaf81bf16cba",
   "room": {
     "id": 26733,
     "title": [
@@ -14,7 +13,7 @@
     "location": "Caligos Isle",
     "wayto": {
       "26527": "out",
-      "26743": "/rooms/26733/wayto/stringproc-26743.rb"
+      "26743": ";e fput 'search'; move 'go trapdoor'"
     },
     "timeto": {
       "26527": 0.2,

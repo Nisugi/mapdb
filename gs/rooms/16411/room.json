@@ -1,5 +1,4 @@
 {
-  "checksum": "cdd48d2e24546389377a6eefdf668573",
   "room": {
     "id": 16411,
     "title": [
@@ -16,28 +15,28 @@
       "12316": "west",
       "12320": "climb stairs",
       "16420": "north",
-      "30718": "/rooms/16411/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "12316": 0.2,
       "12320": 0.2,
       "16420": 0.2,
-      "30718": "/rooms/16411/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access",
-      "urchin guide inn",
-      "inn"
-    ],
-    "uid": [
-      3209318
-    ],
     "image": "ifw-isle_of_four_winds-1310232949.png",
     "image_coords": [
       1400,
       2400,
       1421,
       2421
+    ],
+    "tags": [
+      "inn",
+      "urchin guide inn",
+      "urchin-access"
+    ],
+    "uid": [
+      3209318
     ]
   }
 }

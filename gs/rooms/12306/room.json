@@ -1,5 +1,4 @@
 {
-  "checksum": "2b716b16b1958c8a15021fe01ac44c23",
   "room": {
     "id": 12306,
     "title": [
@@ -16,21 +15,21 @@
     "wayto": {
       "3673": "go glass-centered door",
       "16352": "go rosewood arch",
-      "30718": "/rooms/12306/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "3673": 0.2,
       "16352": 0.2,
-      "30718": "/rooms/12306/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-10",
+      "no forageables",
+      "pawn",
       "pawnshop",
       "urchin guide pawn",
-      "urchin-access",
-      "pawn",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-10"
+      "urchin-access"
     ],
     "uid": [
       3201287

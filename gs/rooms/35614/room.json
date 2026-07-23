@@ -1,5 +1,4 @@
 {
-  "checksum": "6cbd61def93e077d5ab7b1c10f3e62d0",
   "room": {
     "id": 35614,
     "title": [
@@ -16,7 +15,7 @@
       "35613": "go hatch",
       "35615": "southeast",
       "35618": "northwest",
-      "35727": "/rooms/35614/wayto/stringproc-35727.rb"
+      "35727": ";e fput 'search'; waitrt?; fput 'go gash'"
     },
     "timeto": {
       "35613": 0.2,
@@ -24,6 +23,13 @@
       "35618": 0.2,
       "35727": 0.2
     },
+    "image": "Sailors_Grief.jpg",
+    "image_coords": [
+      1640,
+      2440,
+      1720,
+      2520
+    ],
     "tags": [
       "dusky pink sea thrift",
       "meta:forage-sensed",
@@ -32,13 +38,6 @@
     ],
     "uid": [
       7150507
-    ],
-    "image": "Sailors_Grief.jpg",
-    "image_coords": [
-      1640,
-      2440,
-      1720,
-      2520
     ]
   }
 }

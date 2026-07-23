@@ -1,5 +1,4 @@
 {
-  "checksum": "5ca71b488f71427f9358e07d64727a82",
   "room": {
     "id": 32885,
     "title": [
@@ -15,45 +14,45 @@
     "climate": "arid, temperate",
     "terrain": "sandy",
     "wayto": {
-      "3668": "/rooms/32885/wayto/stringproc-3668.rb",
+      "3668": ";e Map[7].wayto['3668'].call;",
       "32877": "northwest",
       "32884": "southwest",
       "32889": "southeast",
       "32940": "go shop"
     },
     "timeto": {
-      "3668": "/rooms/32885/timeto/stringproc-3668.rb",
+      "3668": ";e Map[7].timeto['3668'].call;",
       "32877": 0.2,
       "32884": 0.2,
       "32889": 0.2,
       "32940": 0.2
     },
-    "tags": [
-      "fountain grass",
-      "pink muhly grass",
-      "date palm fronds",
-      "ocotillo stick",
-      "russet gaura",
-      "rust orange gaura",
-      "coppery red gaura",
-      "yellow and red lantana",
-      "pink and blue lantana",
-      "green and red lantana",
-      "blue and white lantana",
-      "creeping fig vine",
-      "meta:forage-sensed",
-      "meta:fwi:teleport",
-      "meta:forage-sensed:day:2023-09"
-    ],
-    "uid": [
-      7140012
-    ],
     "image": "osa-briskers_cove-1693936381.png",
     "image_coords": [
       507,
       232,
       521,
       245
+    ],
+    "tags": [
+      "blue and white lantana",
+      "coppery red gaura",
+      "creeping fig vine",
+      "date palm fronds",
+      "fountain grass",
+      "green and red lantana",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-09",
+      "meta:fwi:teleport",
+      "ocotillo stick",
+      "pink and blue lantana",
+      "pink muhly grass",
+      "russet gaura",
+      "rust orange gaura",
+      "yellow and red lantana"
+    ],
+    "uid": [
+      7140012
     ]
   }
 }

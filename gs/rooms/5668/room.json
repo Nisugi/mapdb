@@ -1,5 +1,4 @@
 {
-  "checksum": "d14d10b08e73936faca8b9437a85d55f",
   "room": {
     "id": 5668,
     "title": [
@@ -22,25 +21,28 @@
       "5666": 0.2,
       "5669": 0.2
     },
-    "tags": [
-      "withered black mushroom",
-      "pepperthorn root",
-      "murdroot",
-      "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "bur-clover root",
-      "meta:forage-sensed:day:2023-02"
-    ],
-    "uid": [
-      4006030
-    ],
     "image": "vo-foggy_valley-1264234799.png",
     "image_coords": [
       577,
       581,
       587,
       591
+    ],
+    "tags": [
+      "birch bark",
+      "bur-clover root",
+      "ghost pepper",
+      "hot pepper",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "pepperthorn root",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      4006030
     ]
   }
 }

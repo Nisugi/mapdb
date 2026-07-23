@@ -1,5 +1,4 @@
 {
-  "checksum": "5200f2cf1b09aa591be47f1b9e85c6c1",
   "room": {
     "id": 20734,
     "title": [
@@ -17,31 +16,31 @@
       "20735": "go hallway",
       "20739": "go staircase",
       "20743": "go doorway",
-      "30708": "/rooms/20734/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "20733": 0.2,
       "20735": 0.2,
       "20739": 0.2,
       "20743": 0.2,
-      "30708": "/rooms/20734/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "premium teleportation jewelry",
-      "premium supernode",
-      "supernode",
-      "urchin-access",
-      "meta:premium"
-    ],
-    "uid": [
-      4002113
-    ],
     "image": "premium_halls-1489980086.png",
     "image_coords": [
       1692,
       986,
       1817,
       1039
+    ],
+    "tags": [
+      "meta:premium",
+      "premium supernode",
+      "premium teleportation jewelry",
+      "supernode",
+      "urchin-access"
+    ],
+    "uid": [
+      4002113
     ]
   }
 }

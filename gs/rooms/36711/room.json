@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36711,
+    "title": [
+      "[Ayaa's General Store]"
+    ],
+    "description": [
+      "The broad sweep of the wooden floor is interrupted by a worn rug.  Halfway to the wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  A plain wooden table and a plain wooden table are pushed close together in the back of the shop."
+    ],
+    "paths": [
+      "Obvious exits: west"
+    ],
+    "location": "Icemule Trace",
+    "wayto": {
+      "36710": "west"
+    },
+    "timeto": {
+      "36710": 0.2
+    },
+    "uid": [
+      635066
+    ]
+  }
+}

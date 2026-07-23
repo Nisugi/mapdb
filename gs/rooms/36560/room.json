@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36560,
+    "title": [
+      "[Skyship, Living Corridor]"
+    ],
+    "description": [
+      "Storage trunks are packed tightly together in long rows that run the length of the area's metal bulkheads and a lingering, stale smell hangs in the air.  Some of these containers are shut, but others are busted open at their hinges.  Varied clothing and nondescript debris are scattered across the floor, where they appear to have been stepped on and pushed to the room's edges by those passing through."
+    ],
+    "paths": [
+      "Obvious exits: north, south"
+    ],
+    "location": false,
+    "wayto": {
+      "36559": "south",
+      "36561": "north"
+    },
+    "timeto": {
+      "36559": 0.2,
+      "36561": 0.2
+    },
+    "uid": [
+      12102076
+    ]
+  }
+}

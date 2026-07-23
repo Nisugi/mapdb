@@ -1,26 +1,27 @@
 {
-  "checksum": "10948a4617ae39b7a8c9eeeecfaeb005",
   "room": {
     "id": 15180,
     "title": [
-      "[Cryheart's Weaponry]"
+      "[Lamamelodia's Outfitting]"
     ],
     "description": [
-      "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  A gilded maple cabinet and a plain wooden table sit in opposite corners while a worn rug rests on an unfinished wooden floor."
+      "A tattered pirate flag hangs on one of the whitewashed pine walls, and a billowing silk ceiling rises overhead.  A worn rug sits in one corner of a scattered sand floor.  There is an oversized sea chest on one side of the shop and a simple wooden shelf on the other."
     ],
     "paths": [
-      "Obvious exits: northeast, southeast, out"
+      "Obvious exits: north, east, out"
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "351": "out",
-      "15243": "southeast",
-      "15244": "northeast"
+      "3870": "out",
+      "15243": "north",
+      "15244": "northeast",
+      "36590": "east"
     },
     "timeto": {
-      "351": 0.2,
+      "3870": 0.2,
       "15243": 0.2,
-      "15244": 0.2
+      "15244": 0.2,
+      "36590": 0.2
     },
     "tags": [
       "meta:playershop"

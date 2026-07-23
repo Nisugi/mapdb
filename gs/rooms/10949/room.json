@@ -1,5 +1,4 @@
 {
-  "checksum": "e3dddf8ba8028897e7492a58b5588331",
   "room": {
     "id": 10949,
     "title": [
@@ -15,23 +14,23 @@
     "wayto": {
       "10851": "out",
       "10950": "north",
-      "30711": "/rooms/10949/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "10851": 0.2,
       "10950": 0.2,
-      "30711": "/rooms/10949/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "pawnshop",
-      "meta:trashcan:oaken barrel",
-      "urchin guide pawn",
-      "urchin-access",
-      "pawn",
-      "trash",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "meta:forage-sensed:day:2022-09",
+      "meta:trashcan:oaken barrel",
+      "no forageables",
+      "pawn",
+      "pawnshop",
+      "trash",
+      "urchin guide pawn",
+      "urchin-access"
     ],
     "uid": [
       2101905

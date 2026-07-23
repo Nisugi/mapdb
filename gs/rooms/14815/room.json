@@ -1,5 +1,4 @@
 {
-  "checksum": "f044b1e31c362633e495a68679888316",
   "room": {
     "id": 14815,
     "title": [
@@ -20,22 +19,23 @@
       "1872": 0.2,
       "14816": 0.2
     },
-    "tags": [
-      "meta:mapname:Teras Isle - Dyer's Tent",
-      "meta:mapshortname:Dyer's Tent",
-      "meta:mapcategory:Teras Isle",
-      "meta:mapcategory:Dyer's Tents:Teras Isle",
-      "dyers"
-    ],
-    "uid": [
-      34326
-    ],
     "image": "ti-dyers_tent-1512163219.png",
     "image_coords": [
       1309,
       544,
       1452,
       618
+    ],
+    "tags": [
+      "dyers",
+      "meta:mapcategory:Dyer's Tents:Teras Isle",
+      "meta:mapcategory:Teras Isle",
+      "meta:mapname:Teras Isle - Dyer's Tent",
+      "meta:mapshortname:Dyer's Tent",
+      "no forageables"
+    ],
+    "uid": [
+      34326
     ]
   }
 }

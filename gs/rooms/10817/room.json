@@ -1,5 +1,4 @@
 {
-  "checksum": "7d3406fe8a30a8dc38b8bd4609572776",
   "room": {
     "id": 10817,
     "title": [
@@ -16,54 +15,56 @@
     "terrain": "muddy wetlands",
     "wayto": {
       "10818": "east",
-      "10821": "/rooms/10817/wayto/stringproc-10821.rb"
+      "10821": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; empty_hands; move 'go water'; waitrt?"
     },
     "timeto": {
       "10818": 0.2,
       "10821": 0.2
     },
-    "tags": [
-      "daggerstalk mushroom",
-      "calamia fruit",
-      "haphip root",
-      "soft white mushroom",
-      "withered black mushroom",
-      "flathead mushroom",
-      "genkew mushroom",
-      "blue trafel mushroom",
-      "wild gooseberry",
-      "stalk of cattail",
-      "small wild rose",
-      "lady slipper blossom",
-      "blue whortleberry",
-      "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "talneo root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "bur-clover root",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "meta:forage-sensed:day:2023-11",
-      "trollear mushroom",
-      "broken twig",
-      "meta:forage-sensed:night:2024-05"
-    ],
-    "uid": [
-      13032043
-    ],
     "image": "en-gyldemar-1264234799.png",
     "image_coords": [
       861,
       658,
       871,
       668
+    ],
+    "tags": [
+      "black peppercorn",
+      "blue trafel mushroom",
+      "blue whortleberry",
+      "bolmara lichen",
+      "broken twig",
+      "bur-clover root",
+      "calamia fruit",
+      "cardamom",
+      "cumin seeds",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "golden mushroom",
+      "haphip root",
+      "lady slipper blossom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "murdroot",
+      "nutmeg",
+      "pink peppercorn",
+      "soft mushroom",
+      "stalk of cattail",
+      "star anise",
+      "talneo root",
+      "trollear mushroom",
+      "vanilla bean",
+      "wavepetal blossom",
+      "wild gooseberry",
+      "wild rice",
+      "wild rose",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      13032043
     ]
   }
 }

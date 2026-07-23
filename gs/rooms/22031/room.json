@@ -1,5 +1,4 @@
 {
-  "checksum": "db88daa561d6b4f0a22c2636e95991f6",
   "room": {
     "id": 22031,
     "title": [
@@ -13,20 +12,20 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "14674": "/rooms/22031/wayto/stringproc-14674.rb"
+      "14674": ";e multifput 'unlatch red door', 'open red door', 'go red door'"
     },
     "timeto": {
       "14674": 3.2
     },
-    "uid": [
-      109101
-    ],
     "image": "wl-silvergate_inn-1487242763.png",
     "image_coords": [
       766,
       8,
       820,
       62
+    ],
+    "uid": [
+      109101
     ]
   }
 }

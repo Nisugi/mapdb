@@ -1,5 +1,4 @@
 {
-  "checksum": "06280b6b8680349136eb3344bd208bee",
   "room": {
     "id": 11289,
     "title": [
@@ -16,12 +15,19 @@
     "terrain": "hard, flat",
     "wayto": {
       "11288": "out",
-      "11290": "/rooms/11289/wayto/stringproc-11290.rb"
+      "11290": ";e fput 'search'\nmove 'go trapdoor'"
     },
     "timeto": {
       "11288": 0.2,
       "11290": 0.2
     },
+    "image": "rr-citadel-1717856937.png",
+    "image_coords": [
+      489,
+      761,
+      499,
+      771
+    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -29,13 +35,6 @@
     ],
     "uid": [
       377080
-    ],
-    "image": "rr-citadel-1717856937.png",
-    "image_coords": [
-      489,
-      761,
-      499,
-      771
     ]
   }
 }

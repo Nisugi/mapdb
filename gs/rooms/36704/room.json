@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36704,
+    "title": [
+      "[Nyessem, Crystalline Cavern]"
+    ],
+    "description": [
+      "The way dead-ends in a bulbous cavern lined with cloudy, off-white crystalline formations that jut from the water-slick walls.  At the area's center, its surface covered by a thin grey fog, sits a pool of uncertain depth.  On one end of the room, a series of metal braziers lining the wall cast their amber light across the area, causing the crystalline formations above them to glitter.  A warped wooden bench sits at the pool's edge."
+    ],
+    "paths": [
+      "Obvious exits: south"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36703": "south"
+    },
+    "timeto": {
+      "36703": 0.2
+    },
+    "uid": [
+      8400508
+    ]
+  }
+}

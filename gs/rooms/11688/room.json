@@ -1,5 +1,4 @@
 {
-  "checksum": "628afeb468a5bcf95ac3290f863948cb",
   "room": {
     "id": 11688,
     "title": [
@@ -15,39 +14,39 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "11687": "/rooms/11688/wayto/stringproc-11687.rb",
+      "11687": ";e if checkspell(112); move 'south'; else; empty_hands; move 'swim south'; fill_hands; end; waitrt?",
       "11689": "go bank"
     },
     "timeto": {
       "11687": 0.2,
       "11689": 0.2
     },
-    "tags": [
-      "blue water lily",
-      "aloeas stem",
-      "wild gooseberry",
-      "water chestnut",
-      "stalk of cattail",
-      "white water lily",
-      "yellow water lily",
-      "pink water lily",
-      "murdroot",
-      "meta:forage-sensed",
-      "strand of seaweed",
-      "wavepetal blossom",
-      "sunburst blossom",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      376012
-    ],
     "image": "rr-marsh_keep-1266356986.png",
     "image_coords": [
       278,
       967,
       288,
       977
+    ],
+    "tags": [
+      "aloeas stem",
+      "blue water lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "murdroot",
+      "pink water lily",
+      "stalk of cattail",
+      "strand of seaweed",
+      "sunburst blossom",
+      "water chestnut",
+      "wavepetal blossom",
+      "white water lily",
+      "wild gooseberry",
+      "yellow water lily"
+    ],
+    "uid": [
+      376012
     ]
   }
 }

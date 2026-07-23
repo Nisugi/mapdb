@@ -1,5 +1,4 @@
 {
-  "checksum": "7453c62cbae2a2f7ab23ce493636442f",
   "room": {
     "id": 10133,
     "title": [
@@ -15,38 +14,39 @@
     "climate": "saltwater",
     "terrain": "muddy wetlands",
     "wayto": {
-      "10130": "/rooms/10133/wayto/stringproc-10130.rb",
+      "10130": ";e move 'go mud'; waitrt?",
       "10134": "east",
       "10135": "southwest"
     },
     "timeto": {
-      "10130": 5,
+      "10130": 5.0,
       "10134": 0.2,
       "10135": 0.2
     },
-    "tags": [
-      "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "saltmeadow cordgrass",
-      "blades of cordgrass",
-      "blue-green marshgrass",
-      "feathery mannagrass",
-      "yellowed salt reedgrass",
-      "meta:forage-sensed:day:2023-11",
-      "broken twig",
-      "meta:forage-sensed:night:2024-05"
-    ],
-    "uid": [
-      13038006
-    ],
     "image": "en-fearling-1632908688.png",
     "image_coords": [
       1161,
       229,
       1171,
       239
+    ],
+    "tags": [
+      "blades of cordgrass",
+      "blue-green marshgrass",
+      "bolmara lichen",
+      "broken twig",
+      "feathery mannagrass",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "murdroot",
+      "orange heliconia",
+      "saltmeadow cordgrass",
+      "wavepetal blossom",
+      "yellowed salt reedgrass"
+    ],
+    "uid": [
+      13038006
     ]
   }
 }

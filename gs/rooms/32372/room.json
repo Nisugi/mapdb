@@ -1,5 +1,4 @@
 {
-  "checksum": "cbc3adb5fb0a9b3853785e5dbe15d320",
   "room": {
     "id": 32372,
     "title": [
@@ -15,47 +14,47 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "250": "/rooms/32372/wayto/stringproc-250.rb",
-      "1870": "/rooms/32372/wayto/stringproc-1870.rb",
-      "10838": "/rooms/32372/wayto/stringproc-10838.rb",
-      "11756": "/rooms/32372/wayto/stringproc-11756.rb",
-      "29033": "/rooms/32372/wayto/stringproc-29033.rb",
-      "31493": "/rooms/32372/wayto/stringproc-31493.rb",
+      "250": ";e multifput 'ask portmaster about travel 1','ask portmaster about travel 1';waitfor 'A crew member escorts you off the ship.'",
+      "1870": ";e multifput 'ask portmaster about travel 4','ask portmaster about travel 4';waitfor 'A crew member escorts you off the ship.'",
+      "10838": ";e multifput 'ask portmaster about travel 3','ask portmaster about travel 3';waitfor 'A crew member escorts you off the ship.'",
+      "11756": ";e multifput 'ask portmaster about travel 2','ask portmaster about travel 2';waitfor 'A crew member escorts you off the ship.'",
+      "29033": ";e multifput 'ask portmaster about travel 5','ask portmaster about travel 5';waitfor 'A crew member escorts you off the ship.'",
+      "31493": ";e multifput 'ask portmaster about travel 6','ask portmaster about travel 6';waitfor 'A crew member escorts you off the ship.'",
       "32371": "south",
-      "32928": "/rooms/32372/wayto/stringproc-32928.rb",
-      "35254": "/rooms/32372/wayto/stringproc-35254.rb"
+      "32928": ";e multifput 'ask portmaster about travel 8','ask portmaster about travel 8';waitfor 'A crew member escorts you off the ship.'",
+      "35254": ";e multifput 'ask portmaster about travel 11','ask portmaster about travel 11';waitfor 'A crew member escorts you off the ship.'"
     },
     "timeto": {
-      "250": "/rooms/32372/timeto/stringproc-250.rb",
-      "1870": "/rooms/32372/timeto/stringproc-1870.rb",
-      "10838": "/rooms/32372/timeto/stringproc-10838.rb",
-      "11756": "/rooms/32372/timeto/stringproc-11756.rb",
-      "29033": "/rooms/32372/timeto/stringproc-29033.rb",
-      "31493": "/rooms/32372/timeto/stringproc-31493.rb",
+      "250": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
+      "1870": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
+      "10838": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
+      "11756": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
+      "29033": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
+      "31493": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
       "32371": 0.2,
-      "32928": "/rooms/32372/timeto/stringproc-32928.rb",
-      "35254": "/rooms/32372/timeto/stringproc-35254.rb"
+      "32928": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
+      "35254": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil"
     },
-    "tags": [
-      "portmaster",
-      "silver-cost:250:10000",
-      "silver-cost:11756:12500",
-      "silver-cost:10838:25000",
-      "silver-cost:1870:25000",
-      "silver-cost:29033:25000",
-      "silver-cost:31493:35000",
-      "silver-cost:32928:25000",
-      "no forageables"
-    ],
-    "uid": [
-      7133026
-    ],
     "image": "imt-Road_to_Moonsedge-1668377644.png",
     "image_coords": [
       1272,
       167,
       1316,
       213
+    ],
+    "tags": [
+      "no forageables",
+      "portmaster",
+      "silver-cost:10838:25000",
+      "silver-cost:11756:12500",
+      "silver-cost:1870:25000",
+      "silver-cost:250:10000",
+      "silver-cost:29033:25000",
+      "silver-cost:31493:35000",
+      "silver-cost:32928:25000"
+    ],
+    "uid": [
+      7133026
     ]
   }
 }

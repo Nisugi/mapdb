@@ -1,5 +1,4 @@
 {
-  "checksum": "b8abf45ba0406186f5206d9eabc73b2c",
   "room": {
     "id": 20057,
     "title": [
@@ -14,17 +13,17 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "20056": "go archway",
-      "20638": "/rooms/20057/wayto/stringproc-20638.rb"
+      "20638": ";e fput 'search'; move 'go crack'"
     },
     "timeto": {
       "20056": 0.2,
       "20638": 0.4
     },
     "tags": [
-      "meta:teleport:fwi",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
+      "meta:forage-sensed:day:2022-11",
+      "meta:teleport:fwi",
+      "no forageables"
     ],
     "uid": [
       28152

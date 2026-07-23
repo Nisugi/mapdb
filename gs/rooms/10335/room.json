@@ -1,5 +1,4 @@
 {
-  "checksum": "bd0f9df056cf1366782f1b088e53a456",
   "room": {
     "id": 10335,
     "title": [
@@ -18,20 +17,21 @@
     "timeto": {
       "10334": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09",
-      "treasuremaster"
-    ],
-    "uid": [
-      14103504
-    ],
     "image": "adventurers_guild-1485358936.png",
     "image_coords": [
       1059,
       2588,
       1126,
       2653
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-09",
+      "no forageables",
+      "treasuremaster"
+    ],
+    "uid": [
+      14103504
     ]
   }
 }

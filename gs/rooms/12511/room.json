@@ -1,5 +1,4 @@
 {
-  "checksum": "40a3262125afd37eda13db7929b93b53",
   "room": {
     "id": 12511,
     "title": [
@@ -16,30 +15,30 @@
       "1955": "out",
       "12512": "west",
       "12513": "east",
-      "30715": "/rooms/12511/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1955": 0.2,
       "12512": 0.2,
       "12513": 0.2,
-      "30715": "/rooms/12511/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "advguild",
-      "urchin guide bounty",
-      "urchin-access",
-      "bounty",
-      "meta:nomagic"
-    ],
-    "uid": [
-      15001001
-    ],
     "image": "adventurers_guild-1485358936.png",
     "image_coords": [
       1598,
       1912,
       1667,
       1977
+    ],
+    "tags": [
+      "advguild",
+      "bounty",
+      "meta:nomagic",
+      "urchin guide bounty",
+      "urchin-access"
+    ],
+    "uid": [
+      15001001
     ]
   }
 }

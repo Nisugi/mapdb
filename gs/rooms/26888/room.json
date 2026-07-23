@@ -1,5 +1,4 @@
 {
-  "checksum": "65e31f2b093b74d945ca73a02e283877",
   "room": {
     "id": 26888,
     "title": [
@@ -20,7 +19,9 @@
       "26889": "go shed",
       "26893": "west",
       "26894": "southeast",
-      "29834": "go abandoned building"
+      "29834": "go abandoned building",
+      "36333": "go myrtlewood wagon",
+      "36334": "go gear-covered storefront"
     },
     "timeto": {
       "23754": 0.2,
@@ -28,20 +29,22 @@
       "26889": 0.2,
       "26893": 0.2,
       "26894": 0.2,
-      "29834": 0.2
+      "29834": 0.2,
+      "36333": 0.2,
+      "36334": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214512
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       1292,
       912,
       1323,
       942
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      8214512
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "96ba58ec21478fd701d2b70a1d871ced",
   "room": {
     "id": 13065,
     "title": [
@@ -16,54 +15,54 @@
     "terrain": "hilly",
     "wayto": {
       "13064": "down",
-      "13066": "/rooms/13065/wayto/stringproc-13066.rb"
+      "13066": ";e fput 'search'\nmove 'go cleft'"
     },
     "timeto": {
       "13064": 0.2,
       "13066": 0.2
     },
-    "tags": [
-      "marallis berry",
-      "yew twig",
-      "willow twig",
-      "twisted twig",
-      "slender twig",
-      "tkaro root",
-      "cuctucae berry",
-      "sticks",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "soft white mushroom",
-      "withered black mushroom",
-      "white hook mushroom",
-      "blue trafel mushroom",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "stalk of chicory",
-      "stalk of bluebells",
-      "wild pink geranium",
-      "sprig of larkspur",
-      "sprig of wild lilac",
-      "golden aster",
-      "tree bark",
-      "oak twig",
-      "luckbloom blossom",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      560002
-    ],
     "image": "wl-gates-1264234799.png",
     "image_coords": [
       400,
       366,
       410,
       376
+    ],
+    "tags": [
+      "angelica root",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "bright red teaberry",
+      "cuctucae berry",
+      "golden aster",
+      "ironfern root",
+      "luckbloom blossom",
+      "marallis berry",
+      "meta:forage-sensed",
+      "oak twig",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "slender twig",
+      "soft white mushroom",
+      "sprig of larkspur",
+      "sprig of wild lilac",
+      "stalk of bluebells",
+      "stalk of chicory",
+      "sticks",
+      "sweetfern stalk",
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "white hook mushroom",
+      "wild pink geranium",
+      "willow twig",
+      "wintergreen leaf",
+      "withered black mushroom",
+      "yew twig"
+    ],
+    "uid": [
+      560002
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "ac4550729010dc83bdfff4d512fa8970",
   "room": {
     "id": 30116,
     "title": [
@@ -14,11 +13,11 @@
     "location": "Mist Harbor",
     "wayto": {
       "19585": "out",
-      "30718": "/rooms/30116/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "19585": 0.2,
-      "30718": "/rooms/30116/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "mail",

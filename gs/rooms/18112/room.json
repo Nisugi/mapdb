@@ -1,5 +1,4 @@
 {
-  "checksum": "b84050bd49d32552f15e1da158704e11",
   "room": {
     "id": 18112,
     "title": [
@@ -17,7 +16,7 @@
       "18113": "go arch",
       "18114": "west",
       "18119": "east",
-      "18926": "/rooms/18112/wayto/stringproc-18926.rb"
+      "18926": ";e loop { wait_until { Spell[704].affordable? }; result = cast(704, 'insignia'); break unless result =~ /Spell Hindrance/ } "
     },
     "timeto": {
       "18111": 0.2,
@@ -26,19 +25,19 @@
       "18119": 0.2,
       "18926": 0.2
     },
-    "tags": [
-      "sorcerer alchemy administrator",
-      "sorcerer guild administrator"
-    ],
-    "uid": [
-      661003
-    ],
     "image": "wl-sorcerer_guild-1405076623.png",
     "image_coords": [
       484,
       620,
       522,
       658
+    ],
+    "tags": [
+      "sorcerer alchemy administrator",
+      "sorcerer guild administrator"
+    ],
+    "uid": [
+      661003
     ]
   }
 }

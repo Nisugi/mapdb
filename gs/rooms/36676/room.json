@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36676,
+    "title": [
+      "[Nyessem, Ring Loop]"
+    ],
+    "description": [
+      "The tunnel widens here, providing ample space for several rows of people to walk alongside each other.  Luminescent crystal formations overhead, paired with the natural glow of the area's white stone walls, light the way.  To one side, a rough charcoal portrait of Lady Maivaldius with twin orbs dominates the wall.  Across the way is a broad topaz-studded tunnel."
+    ],
+    "paths": [
+      "Obvious exits: southeast, northwest"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36675": "northwest",
+      "36677": "southeast",
+      "36681": "go tunnel"
+    },
+    "timeto": {
+      "36675": 0.2,
+      "36677": 0.2,
+      "36681": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      726,
+      640,
+      742,
+      657
+    ],
+    "uid": [
+      8400007
+    ]
+  }
+}

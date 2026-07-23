@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36377,
+    "title": [
+      "[Black Swan Castle, Courtyard]"
+    ],
+    "description": [
+      "Moss and black powdery lichen coat the stone wall in this northwest corner of the courtyard.  The keep of Black Swan Castle rises above you to the east, nesting upon a base of black granite and marble, with weeds growing around the foundation.  This part of the wall is also covered in vegetation, with vines working their way up, as if seeking sunlight and freedom."
+    ],
+    "paths": [
+      "Obvious paths: east, southeast, south"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36357": "south",
+      "36359": "east",
+      "36375": "southeast"
+    },
+    "timeto": {
+      "36357": 0.2,
+      "36359": 0.2,
+      "36375": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      360,
+      360,
+      400,
+      400
+    ],
+    "uid": [
+      55050
+    ]
+  }
+}

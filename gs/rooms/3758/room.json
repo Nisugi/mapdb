@@ -1,5 +1,4 @@
 {
-  "checksum": "748634329c9624f517d5eed6628ec7e1",
   "room": {
     "id": 3758,
     "title": [
@@ -20,39 +19,39 @@
       "3759": "west",
       "7928": "southeast",
       "14969": "go trail",
-      "24644": "go gate"
+      "36713": "go gate"
     },
     "timeto": {
       "3757": 0.2,
       "3759": 0.2,
       "7928": 0.2,
       "14969": 0.2,
-      "24644": 0.2
+      "36713": 0.2
     },
-    "tags": [
-      "stalk of cattail",
-      "yellow water lily",
-      "white water lily",
-      "blue water lily",
-      "water chestnut",
-      "sunburst blossom",
-      "wild gooseberry",
-      "wavepetal blossom",
-      "aloeas stem",
-      "murdroot",
-      "meta:forage-sensed",
-      "strand of seaweed",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      2148001
-    ],
     "image": "wl-gates-1264234799.png",
     "image_coords": [
       949,
       197,
       965,
       213
+    ],
+    "tags": [
+      "aloeas stem",
+      "blue water lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "stalk of cattail",
+      "strand of seaweed",
+      "sunburst blossom",
+      "water chestnut",
+      "wavepetal blossom",
+      "white water lily",
+      "wild gooseberry",
+      "yellow water lily"
+    ],
+    "uid": [
+      2148001
     ]
   }
 }

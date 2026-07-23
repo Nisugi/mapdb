@@ -1,5 +1,4 @@
 {
-  "checksum": "5eef01a3eb6685da28ced1634cc4389e",
   "room": {
     "id": 19951,
     "title": [
@@ -22,21 +21,23 @@
       "19966": 0.2,
       "19967": 0.2
     },
-    "tags": [
-      "meta:teleport:fwi",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      28141
-    ],
     "image": "wl-museum-1487435869.png",
     "image_coords": [
       1257,
       627,
       1400,
       688
+    ],
+    "tags": [
+      "lumnis donate",
+      "lumnisdonate",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:teleport:fwi",
+      "no forageables"
+    ],
+    "uid": [
+      28141
     ]
   }
 }

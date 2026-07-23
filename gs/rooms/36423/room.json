@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36423,
+    "title": [
+      "[Dungeon, Guardian Room]"
+    ],
+    "description": [
+      "An elaborate montage of gold leaf and richly colored paints adorn the heights of the highly vaulted ceiling.  There is a glittering golden archway recessed into the west wall and an open portal leading through to the east.  The most impressive features of this chamber, however, are the two monolithic golden statues of heavily armored warriors on either side of the eastern portal."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36395": "go gold arch",
+      "36424": "go portal"
+    },
+    "timeto": {
+      "36395": 0.2,
+      "36424": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1720,
+      360,
+      1760,
+      400
+    ],
+    "uid": [
+      58034
+    ]
+  }
+}

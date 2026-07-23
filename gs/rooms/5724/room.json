@@ -1,5 +1,4 @@
 {
-  "checksum": "6e483bb800134ca19157cad637a12179",
   "room": {
     "id": 5724,
     "title": [
@@ -17,19 +16,19 @@
     "wayto": {
       "5044": "out",
       "5725": "north",
-      "30710": "/rooms/5724/wayto/stringproc-30710.rb"
+      "30710": ";e true"
     },
     "timeto": {
       "5044": 0.2,
       "5725": 0.2,
-      "30710": "/rooms/5724/timeto/stringproc-30710.rb"
+      "30710": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "locksmith",
-      "urchin-access",
-      "urchin guide locksmith",
+      "meta:trashcan:iron-bound driftwood wastebarrel",
       "no forageables",
-      "meta:trashcan:iron-bound driftwood wastebarrel"
+      "urchin guide locksmith",
+      "urchin-access"
     ],
     "uid": [
       4740307,

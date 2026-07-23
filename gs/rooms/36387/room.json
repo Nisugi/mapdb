@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36387,
+    "title": [
+      "[Black Swan Castle, Ramparts]"
+    ],
+    "description": [
+      "A green patch of grass in the middle of the courtyard looks incongruous in the midst of all the disarray and decay.  Tiny white flowers nestled in the grass can just barely be made out dotting the ground below, brightening up the area even further.  A breeze stirs the air for just a moment, bringing a bit of welcome, cool air."
+    ],
+    "paths": [
+      "Obvious paths: north, south"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36386": "south",
+      "36388": "north",
+      "36461": "jump"
+    },
+    "timeto": {
+      "36386": 0.2,
+      "36388": 0.2,
+      "36461": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      200,
+      440,
+      240,
+      480
+    ],
+    "uid": [
+      55060
+    ]
+  }
+}

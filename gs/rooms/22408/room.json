@@ -1,5 +1,4 @@
 {
-  "checksum": "f6ac8c42d91e3bc920eecdfbf38ab5c1",
   "room": {
     "id": 22408,
     "title": [
@@ -13,16 +12,22 @@
     ],
     "location": "Mist Harbor",
     "wayto": {
-      "22407": "/rooms/22408/wayto/stringproc-22407.rb"
+      "22407": ";e room = Room.current.id;fput 'go curtain'; if ( room == Room.current.id ); fput 'close locker';move 'go curtain'; end"
     },
     "timeto": {
       "22407": 0.2
     },
     "tags": [
-      "peer curtain =~ /^\\[Annex, Beacon Hall Lobby\\]$/",
       "bhalocker",
+      "locker:beaconhall",
+      "meta:che:Beacon Hall Archive",
+      "meta:che:beacon_hall:locker",
       "meta:locker",
-      "locker:beaconhall"
+      "meta:locker",
+      "peer curtain =~ /^\\[Annex, Beacon Hall Lobby\\]$/"
+    ],
+    "uid": [
+      3215132
     ]
   }
 }

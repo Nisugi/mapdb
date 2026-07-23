@@ -1,5 +1,4 @@
 {
-  "checksum": "57bdd35fa9f031e14db3bb30ed808ad2",
   "room": {
     "id": 28124,
     "title": [
@@ -13,24 +12,24 @@
     ],
     "location": false,
     "wayto": {
-      "28122": "/rooms/28124/wayto/stringproc-28122.rb",
+      "28122": ";e move('go cave'); fput 'stand'",
       "28136": "east",
       "28138": "southwest"
     },
     "timeto": {
-      "28122": 1,
+      "28122": 1.0,
       "28136": 0.2,
       "28138": 0.2
     },
-    "uid": [
-      8208625
-    ],
     "image": "fest-foxhunt-1654928999.jpg",
     "image_coords": [
       247,
       582,
       273,
       609
+    ],
+    "uid": [
+      8208625
     ]
   }
 }

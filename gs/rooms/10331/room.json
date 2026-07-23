@@ -1,5 +1,4 @@
 {
-  "checksum": "0ba063a0a536cd9f73a97e189f41b20a",
   "room": {
     "id": 10331,
     "title": [
@@ -24,19 +23,20 @@
       "10333": 0.2,
       "10334": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      14103500
-    ],
     "image": "adventurers_guild-1485358936.png",
     "image_coords": [
       924,
       2453,
       992,
       2521
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-09",
+      "no forageables"
+    ],
+    "uid": [
+      14103500
     ]
   }
 }

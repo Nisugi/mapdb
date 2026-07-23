@@ -1,5 +1,4 @@
 {
-  "checksum": "add99c0a6dd5e157624e3fe37764fff7",
   "room": {
     "id": 12773,
     "title": [
@@ -18,33 +17,33 @@
       "12772": "northeast"
     },
     "timeto": {
-      "2207": 2,
+      "2207": 2.0,
       "12771": 0.2,
       "12772": 0.2
     },
-    "tags": [
-      "withered black mushroom",
-      "flathead mushroom",
-      "soft white mushroom",
-      "blue trafel mushroom",
-      "black trafel mushroom",
-      "daggerstalk mushroom",
-      "pepperthorn root",
-      "cave moss",
-      "murdroot",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-11"
-    ],
-    "uid": [
-      3061008
-    ],
     "image": "ti-vtull-1663120653.png",
     "image_coords": [
       688,
       735,
       696,
       743
+    ],
+    "tags": [
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "cave moss",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "pepperthorn root",
+      "soft mushroom",
+      "trafel mushroom",
+      "withered mushroom"
+    ],
+    "uid": [
+      3061008
     ]
   }
 }

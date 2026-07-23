@@ -1,5 +1,4 @@
 {
-  "checksum": "b6a8b26d1c6394014a7ebebf290b53c8",
   "room": {
     "id": 8388,
     "title": [
@@ -22,28 +21,26 @@
       "8384": 0.2,
       "8386": 0.2
     },
-    "tags": [
-      "some cave moss",
-      "withered black mushroom",
-      "some wingstem root",
-      "some wolifrew lichen",
-      "wolifrew lichen",
-      "cave moss",
-      "murdroot",
-      "ironfern root",
-      "meta:forage-sensed",
-      "wingstem root",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      4293010
-    ],
     "image": "wl-stronghold-1264234799.png",
     "image_coords": [
       1183,
       440,
       1193,
       450
+    ],
+    "tags": [
+      "cave moss",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "murdroot",
+      "wingstem root",
+      "withered mushroom",
+      "wolifrew lichen"
+    ],
+    "uid": [
+      4293010
     ]
   }
 }

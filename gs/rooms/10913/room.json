@@ -1,5 +1,4 @@
 {
-  "checksum": "d8507c53f4e573f36ac292f3326abc7d",
   "room": {
     "id": 10913,
     "title": [
@@ -18,19 +17,19 @@
     "timeto": {
       "10912": 0.2
     },
-    "tags": [
-      "agave heart",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      2300027
-    ],
     "image_coords": [
       761,
       671,
       787,
       697
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
+    ],
+    "uid": [
+      2300027
     ]
   }
 }

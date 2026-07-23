@@ -1,5 +1,4 @@
 {
-  "checksum": "18aab617e25ba7de8f01d017256cd987",
   "room": {
     "id": 4683,
     "title": [
@@ -15,30 +14,30 @@
     "wayto": {
       "4682": "out",
       "17162": "go archway",
-      "30717": "/rooms/4683/wayto/stringproc-30717.rb"
+      "30717": ";e true"
     },
     "timeto": {
       "4682": 0.2,
       "17162": 0.2,
-      "30717": "/rooms/4683/timeto/stringproc-30717.rb"
+      "30717": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "pawnshop",
-      "no forageables",
-      "meta:forage-sensed",
-      "urchin-access",
-      "urchin guide pawn",
-      "pawn"
-    ],
-    "uid": [
-      14051005
-    ],
     "image": "en-cysaegir-1679641246.png",
     "image_coords": [
       361,
       821,
       386,
       845
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables",
+      "pawn",
+      "pawnshop",
+      "urchin guide pawn",
+      "urchin-access"
+    ],
+    "uid": [
+      14051005
     ]
   }
 }

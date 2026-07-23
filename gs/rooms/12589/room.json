@@ -1,5 +1,4 @@
 {
-  "checksum": "4ae33c24b78fce3240b5dee7fd48de45",
   "room": {
     "id": 12589,
     "title": [
@@ -18,48 +17,48 @@
       "12588": "west",
       "12590": "north",
       "12591": "south",
-      "12593": "/rooms/12589/wayto/stringproc-12593.rb"
+      "12593": ";e fput 'jump'\nwaitfor 'You feel the presence of cold hard stone underneath you.'\nsleep 0.1\nfput 'stand' unless standing?\nmove 'west' until Room.current.id == 12593"
     },
     "timeto": {
       "12588": 0.2,
       "12590": 0.2,
       "12591": 0.2,
-      "12593": 20
+      "12593": 20.0
     },
-    "tags": [
-      "wild chokecherry",
-      "white clover blossom",
-      "red clover blossom",
-      "stalk of chicory",
-      "yellow passionflower",
-      "wintergreen leaf",
-      "wild gooseberry",
-      "stalk of goldenrod",
-      "pink clover blossom",
-      "white passionflower",
-      "fiddlehead fern",
-      "bright red teaberry",
-      "blue passionflower",
-      "yellow clover blossom",
-      "sprig of larkspur",
-      "handful of currants",
-      "purple clover blossom",
-      "golden hook mushroom",
-      "broken twig",
-      "small wild rose",
-      "motherwort",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-11"
-    ],
-    "uid": [
-      3040002
-    ],
     "image": "ti-wilds-1643860469.png",
     "image_coords": [
       777,
       377,
       787,
       387
+    ],
+    "tags": [
+      "blue passionflower",
+      "bright red teaberry",
+      "broken twig",
+      "fiddlehead fern",
+      "golden hook mushroom",
+      "handful of currants",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-11",
+      "motherwort",
+      "pink clover blossom",
+      "purple clover blossom",
+      "red clover blossom",
+      "small wild rose",
+      "sprig of larkspur",
+      "stalk of chicory",
+      "stalk of goldenrod",
+      "white clover blossom",
+      "white passionflower",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wintergreen leaf",
+      "yellow clover blossom",
+      "yellow passionflower"
+    ],
+    "uid": [
+      3040002
     ]
   }
 }

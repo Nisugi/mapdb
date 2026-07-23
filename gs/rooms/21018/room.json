@@ -1,5 +1,4 @@
 {
-  "checksum": "7de155a998164a404aee0cb95b13b743",
   "room": {
     "id": 21018,
     "title": [
@@ -15,38 +14,38 @@
     "climate": "humid",
     "terrain": "riparian",
     "wayto": {
-      "21001": "/rooms/21018/wayto/stringproc-21001.rb",
-      "21017": "/rooms/21018/wayto/stringproc-21017.rb",
-      "21062": "/rooms/21018/wayto/stringproc-21062.rb"
+      "21001": ";e pause 0.2; waitrt?; fput 'push ne'",
+      "21017": ";e pause 0.2; waitrt?; fput 'go tree'",
+      "21062": ";e pause 0.2; waitrt?; fput 'push w'"
     },
     "timeto": {
-      "21001": 2,
+      "21001": 2.0,
       "21017": 0.2,
-      "21062": 2
+      "21062": 2.0
     },
-    "tags": [
-      "acantha leaf",
-      "stalk of cattail",
-      "murdroot",
-      "wavepetal blossom",
-      "meta:forage-sensed",
-      "talneo root",
-      "cassava root",
-      "small green quenepas",
-      "vibrant green plantain",
-      "bright yellow plantain",
-      "cone-shaped pineapple",
-      "meta:forage-sensed:day:2024-05"
-    ],
-    "uid": [
-      3210603
-    ],
     "image": "ifw-wilds-1368242816.png",
     "image_coords": [
       920,
       1381,
       939,
       1400
+    ],
+    "tags": [
+      "acantha leaf",
+      "bright yellow plantain",
+      "cassava root",
+      "cone-shaped pineapple",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
+      "murdroot",
+      "small green quenepas",
+      "stalk of cattail",
+      "talneo root",
+      "vibrant green plantain",
+      "wavepetal blossom"
+    ],
+    "uid": [
+      3210603
     ]
   }
 }

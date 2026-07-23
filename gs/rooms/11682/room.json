@@ -1,5 +1,4 @@
 {
-  "checksum": "a727b6dec94fe3173199c287c39dd3f2",
   "room": {
     "id": 11682,
     "title": [
@@ -16,63 +15,64 @@
     "terrain": "muddy wetlands",
     "wayto": {
       "11681": "southeast",
-      "11683": "/rooms/11682/wayto/stringproc-11683.rb"
+      "11683": ";e fput 'search'\nmove 'go path'"
     },
     "timeto": {
       "11681": 0.2,
       "11683": 0.2
     },
-    "tags": [
-      "yellow heliconia",
-      "red passionflower",
-      "pink passionflower",
-      "purple passionflower",
-      "pink heliconia",
-      "withered black mushroom",
-      "red heliconia",
-      "calamia fruit",
-      "aloeas stem",
-      "soft white mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "genkew mushroom",
-      "blue trafel mushroom",
-      "water chestnut",
-      "stalk of cattail",
-      "spider lily",
-      "alligator lily",
-      "kylan berry",
-      "orange heliconia",
-      "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "talneo root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "bur-clover root",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "trollear mushroom",
-      "broken twig",
-      "meta:forage-sensed:night:2026-01",
-      "golden hook mushroom",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      376005
-    ],
     "image": "rr-marsh_keep-1266356986.png",
     "image_coords": [
       97,
       1161,
       107,
       1171
+    ],
+    "tags": [
+      "alligator lily",
+      "aloeas stem",
+      "black peppercorn",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "broken twig",
+      "bur-clover root",
+      "calamia fruit",
+      "cardamom",
+      "cumin seeds",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "golden mushroom",
+      "kylan berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "murdroot",
+      "nutmeg",
+      "orange heliconia",
+      "pink heliconia",
+      "pink passionflower",
+      "pink peppercorn",
+      "purple passionflower",
+      "red heliconia",
+      "red passionflower",
+      "soft mushroom",
+      "spider lily",
+      "stalk of cattail",
+      "star anise",
+      "sunburst blossom",
+      "talneo root",
+      "trollear mushroom",
+      "vanilla bean",
+      "water chestnut",
+      "wavepetal blossom",
+      "wild rice",
+      "wingstem root",
+      "withered mushroom",
+      "yellow heliconia"
+    ],
+    "uid": [
+      376005
     ]
   }
 }

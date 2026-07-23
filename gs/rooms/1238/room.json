@@ -1,5 +1,4 @@
 {
-  "checksum": "de5892d8d9a2433aa28bbfe57a6e64b3",
   "room": {
     "id": 1238,
     "title": [
@@ -16,43 +15,44 @@
     "climate": "freshwater",
     "terrain": "muddy wetlands",
     "wayto": {
-      "1237": "/rooms/1238/wayto/stringproc-1237.rb",
-      "1239": "/rooms/1238/wayto/stringproc-1239.rb"
+      "1237": ";e move 'south'; waitrt?",
+      "1239": ";e move 'northeast'; waitrt?"
     },
     "timeto": {
-      "1237": 5,
-      "1239": 5
+      "1237": 5.0,
+      "1239": 5.0
     },
-    "tags": [
-      "water chestnut",
-      "aloeas stem",
-      "wild gooseberry",
-      "stalk of cattail",
-      "reeds",
-      "white water lily",
-      "yellow water lily",
-      "blue water lily",
-      "blue whortleberry",
-      "murdroot",
-      "wavepetal blossom",
-      "sunburst blossom",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "strand of seaweed",
-      "bur-clover root",
-      "meta:forage-sensed:night:2023-02",
-      "meta:forage-sensed:day:2023-02"
-    ],
-    "uid": [
-      2190031
-    ],
     "image": "en-trail-1264234799.png",
     "image_coords": [
       170,
       615,
       180,
       625
+    ],
+    "tags": [
+      "aloeas stem",
+      "blue water lily",
+      "blue whortleberry",
+      "bolmara lichen",
+      "broken twig",
+      "bur-clover root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "murdroot",
+      "reeds",
+      "stalk of cattail",
+      "strand of seaweed",
+      "sunburst blossom",
+      "water chestnut",
+      "wavepetal blossom",
+      "white water lily",
+      "wild gooseberry",
+      "wingstem root",
+      "yellow water lily"
+    ],
+    "uid": [
+      2190031
     ]
   }
 }

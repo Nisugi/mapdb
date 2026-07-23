@@ -1,5 +1,4 @@
 {
-  "checksum": "aa0a3c0cfe9e839fb057cec67335f4c9",
   "room": {
     "id": 9480,
     "title": [
@@ -14,29 +13,29 @@
     "location": "Zul Logoth",
     "wayto": {
       "9414": "go door",
-      "30712": "/rooms/9480/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "9414": 0.2,
-      "30712": "/rooms/9480/timeto/stringproc-30712.rb"
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "weaponshop",
-      "no forageables",
-      "meta:forage-sensed",
-      "urchin-access",
-      "urchin guide weapons",
-      "weapons"
-    ],
-    "uid": [
-      13010019
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       765,
       478,
       775,
       488
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables",
+      "urchin guide weapons",
+      "urchin-access",
+      "weapons",
+      "weaponshop"
+    ],
+    "uid": [
+      13010019
     ]
   }
 }

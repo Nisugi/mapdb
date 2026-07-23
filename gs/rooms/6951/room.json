@@ -1,5 +1,4 @@
 {
-  "checksum": "29fc70b1644a6517dad5c27e50c3710b",
   "room": {
     "id": 6951,
     "title": [
@@ -15,29 +14,29 @@
     "wayto": {
       "265": "south",
       "13914": "go portcullis",
-      "30708": "/rooms/6951/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "265": 0.2,
-      "13914": "/rooms/6951/timeto/stringproc-13914.rb",
-      "30708": "/rooms/6951/timeto/stringproc-30708.rb"
+      "13914": ";e Stats.prof == 'Warrior' ? 0.2 : nil",
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "warriorguild",
-      "meta:noteleport:fwi",
-      "urchin-access",
-      "urchin guide warriorguild",
-      "warrior guild"
-    ],
-    "uid": [
-      251001
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       658,
       78,
       694,
       114
+    ],
+    "tags": [
+      "meta:noteleport:fwi",
+      "urchin guide warriorguild",
+      "urchin-access",
+      "warrior guild",
+      "warriorguild"
+    ],
+    "uid": [
+      251001
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "b09dd8b2c5d029cc4c90fae93d30635f",
   "room": {
     "id": 8429,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "3839": "/rooms/8429/wayto/stringproc-3839.rb",
+      "3839": ";e empty_hands\nmove 'swim stream'\nwaitrt?\nfill_hands",
       "8419": "east",
       "8420": "go bridge",
       "8421": "north",
@@ -30,29 +29,26 @@
       "8423": 0.2,
       "8424": 0.2
     },
-    "tags": [
-      "some wingstem root",
-      "some wolifrew lichen",
-      "withered black mushroom",
-      "some cave moss",
-      "wolifrew lichen",
-      "cave moss",
-      "murdroot",
-      "ironfern root",
-      "meta:forage-sensed",
-      "wingstem root",
-      "meta:forage-sensed:day:2022-09",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      4293042
-    ],
     "image": "wl-stronghold-1264234799.png",
     "image_coords": [
       1222,
       700,
       1232,
       710
+    ],
+    "tags": [
+      "cave moss",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "murdroot",
+      "wingstem root",
+      "withered mushroom",
+      "wolifrew lichen"
+    ],
+    "uid": [
+      4293042
     ]
   }
 }

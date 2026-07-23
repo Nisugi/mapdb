@@ -1,5 +1,4 @@
 {
-  "checksum": "cb3cec111cdb44cd6faa473d1d9e76ab",
   "room": {
     "id": 24433,
     "title": [
@@ -20,29 +19,35 @@
       "24434": "west",
       "24439": "north",
       "24440": "east",
-      "30709": "/rooms/24433/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "24430": 0.2,
       "24434": 0.2,
       "24439": 0.2,
       "24440": 0.2,
-      "30709": "/rooms/24433/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "node",
-      "supernode",
-      "urchin-access"
-    ],
-    "uid": [
-      4042257
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       189,
       360,
       204,
       375
+    ],
+    "tags": [
+      "bolmara lichen",
+      "glassfern frond",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "node",
+      "supernode",
+      "urchin-access",
+      "wingstem root"
+    ],
+    "uid": [
+      4042257
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "6db581b6220db350d13c49838384c0eb",
   "room": {
     "id": 16922,
     "title": [
@@ -22,19 +21,24 @@
       "16920": 0.2,
       "30546": 0.2
     },
-    "tags": [
-      "wizard alchemy masters",
-      "wizard guild masters"
-    ],
-    "uid": [
-      688013
-    ],
     "image": "en-zul-wizard_guild-1648064027.png",
     "image_coords": [
       28,
       660,
       87,
       717
+    ],
+    "tags": [
+      "daggerstalk mushroom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "pepperthorn root",
+      "trafel mushroom",
+      "wizard alchemy masters",
+      "wizard guild masters"
+    ],
+    "uid": [
+      688013
     ]
   }
 }

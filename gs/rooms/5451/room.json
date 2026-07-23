@@ -1,5 +1,4 @@
 {
-  "checksum": "1e3b9f1fd8b7a201fd48580da1c132d1",
   "room": {
     "id": 5451,
     "title": [
@@ -32,54 +31,19 @@
       "5458": 0.2,
       "5459": 0.2
     },
-    "tags": [
-      "pepperthorn root",
-      "acantha leaf",
-      "calamia fruit",
-      "soft white mushroom",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "genkew mushroom",
-      "blue trafel mushroom",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "blueberries",
-      "handful of currants",
-      "wild gooseberry",
-      "fiddlehead fern",
-      "water chestnut",
-      "wild grapes",
-      "stalk of cattail",
-      "stalk of bluebells",
-      "red clover blossom",
-      "pink clover blossom",
-      "white clover blossom",
-      "purple clover blossom",
-      "yellow clover blossom",
-      "stalk of goldenrod",
-      "small wild rose",
-      "sprig of wild lilac",
-      "Imaera's Lace",
-      "wild chokecherry",
-      "kylan berry",
-      "murdroot",
-      "wavepetal blossom",
-      "ironfern root",
-      "sunburst blossom",
-      "meta:forage-sensed",
-      "talneo root",
-      "meta:forage-sensed:day:2023-02"
-    ],
-    "uid": [
-      2130113
-    ],
     "image": "vo-caravansary-1264234799.png",
     "image_coords": [
       1306,
       647,
       1316,
       657
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables"
+    ],
+    "uid": [
+      2130113
     ]
   }
 }

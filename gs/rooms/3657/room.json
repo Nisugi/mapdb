@@ -1,5 +1,4 @@
 {
-  "checksum": "87080499bc5a2f3c0b13b9f005f0ea0f",
   "room": {
     "id": 3657,
     "title": [
@@ -21,7 +20,7 @@
       "3668": "north",
       "12281": "go shop",
       "26981": "go wagon",
-      "30718": "/rooms/3657/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "3651": 0.2,
@@ -30,24 +29,24 @@
       "3668": 0.8,
       "12281": 0.2,
       "26981": 0.2,
-      "30718": "/rooms/3657/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "meta:trashcan:old barrel",
-      "urchin-access",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-10"
-    ],
-    "uid": [
-      3201024
-    ],
     "image": "ifw-isle_of_four_winds-1310232949.png",
     "image_coords": [
       2770,
       1460,
       2810,
       1500
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-10",
+      "meta:trashcan:old barrel",
+      "no forageables",
+      "urchin-access"
+    ],
+    "uid": [
+      3201024
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "80d95811c677f97ddcadb05c05641f8d",
   "room": {
     "id": 11148,
     "title": [
@@ -20,31 +19,32 @@
     "timeto": {
       "11146": 0.2
     },
-    "tags": [
-      "withered black mushroom",
-      "cave moss",
-      "pepperthorn root",
-      "murdroot",
-      "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "bur-clover root",
-      "curly garlic scapes",
-      "birch bark",
-      "ghost pepper",
-      "hot pepper",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      2103006
-    ],
     "image": "rr-citadel-1717856937.png",
     "image_coords": [
       1170,
       524,
       1180,
       534
+    ],
+    "tags": [
+      "birch bark",
+      "bur-clover root",
+      "cave moss",
+      "curly garlic scapes",
+      "ghost pepper",
+      "hot pepper",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "murdroot",
+      "pepperthorn root",
+      "wild rice",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      2103006
     ]
   }
 }

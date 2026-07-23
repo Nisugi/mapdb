@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36577,
+    "title": [
+      "[Skyship, Cages]"
+    ],
+    "description": [
+      "The area's center is filled with unopened cages made from thick metal bars with thin gaps between them to allow air to pass through.  Inside of these cages are numerous indistinct skeletal remains that commingle across the floors alongside rotting globs of flesh.  The remainder of the room is spare and open, with only traces of blood lining the main routes between ways in and out."
+    ],
+    "paths": [
+      "Obvious exits: north, west"
+    ],
+    "location": false,
+    "wayto": {
+      "36576": "west",
+      "36578": "north"
+    },
+    "timeto": {
+      "36576": 0.2,
+      "36578": 0.2
+    },
+    "uid": [
+      12102086
+    ]
+  }
+}

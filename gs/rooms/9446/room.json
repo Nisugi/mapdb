@@ -1,5 +1,4 @@
 {
-  "checksum": "fb52a13ae3eef556cd3e19e5208707ab",
   "room": {
     "id": 9446,
     "title": [
@@ -22,25 +21,26 @@
       "9404": 0.2,
       "9447": 0.2
     },
-    "tags": [
-      "ayana'al leaf",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "white hook mushroom",
-      "wingstem root",
-      "meta:forage-sensed:night:2023-02",
-      "meta:nomagic"
-    ],
-    "uid": [
-      13013001
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       316,
       691,
       336,
       711
+    ],
+    "tags": [
+      "ayana'al leaf",
+      "bolmara lichen",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "meta:nomagic",
+      "white hook mushroom",
+      "wingstem root"
+    ],
+    "uid": [
+      13013001
     ]
   }
 }

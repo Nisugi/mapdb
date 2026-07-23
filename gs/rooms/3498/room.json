@@ -1,5 +1,4 @@
 {
-  "checksum": "a38ead25300a17f6ccc5af2c3200d592",
   "room": {
     "id": 3498,
     "title": [
@@ -23,33 +22,33 @@
       "3500": "west",
       "3501": "south",
       "10424": "go tavern",
-      "26016": "/rooms/3498/wayto/stringproc-26016.rb",
-      "30713": "/rooms/3498/wayto/stringproc-30713.rb"
+      "26016": ";e fput 'search'; move 'go opening'",
+      "30713": ";e true"
     },
     "timeto": {
       "3497": 0.2,
       "3500": 0.2,
       "3501": 0.2,
       "10424": 0.2,
-      "26016": 5,
-      "30713": "/rooms/3498/timeto/stringproc-30713.rb"
+      "26016": 5.0,
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin guide helgreths",
-      "urchin-access",
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      14100061
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       625,
       404,
       661,
       437
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "no forageables",
+      "urchin guide helgreths",
+      "urchin-access"
+    ],
+    "uid": [
+      14100061
     ]
   }
 }

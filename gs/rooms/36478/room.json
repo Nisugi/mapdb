@@ -1,0 +1,27 @@
+{
+  "room": {
+    "id": 36478,
+    "title": [
+      "[Nucky's Outfitting]"
+    ],
+    "description": [
+      "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  A narrow glass-topped table sits in one corner while a worn rug rests on an unfinished wooden floor."
+    ],
+    "paths": [
+      "Obvious exits: east, west"
+    ],
+    "location": "Icemule Trace",
+    "wayto": {
+      "21232": "east"
+    },
+    "timeto": {
+      "21232": 0.2
+    },
+    "tags": [
+      "meta:playershop"
+    ],
+    "uid": [
+      639386
+    ]
+  }
+}

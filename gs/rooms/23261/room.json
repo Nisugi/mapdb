@@ -1,5 +1,4 @@
 {
-  "checksum": "a1f02cb5064caa6345934ab0f4e85d51",
   "room": {
     "id": 23261,
     "title": [
@@ -15,13 +14,13 @@
     "climate": "hot, damp",
     "terrain": "barren scrub",
     "wayto": {
-      "7451": "/rooms/23261/wayto/stringproc-7451.rb",
-      "7452": "/rooms/23261/wayto/stringproc-7452.rb",
-      "7454": "/rooms/23261/wayto/stringproc-7454.rb",
-      "23260": "/rooms/23261/wayto/stringproc-23260.rb",
-      "23262": "/rooms/23261/wayto/stringproc-23262.rb",
-      "23263": "/rooms/23261/wayto/stringproc-23263.rb",
-      "23264": "/rooms/23261/wayto/stringproc-23264.rb"
+      "7451": ";e move 'southwest'; waitrt?",
+      "7452": ";e move 'west'; waitrt?",
+      "7454": ";e move 'south'; waitrt?",
+      "23260": ";e move 'east'; waitrt?",
+      "23262": ";e move 'northeast'; waitrt?",
+      "23263": ";e move 'northwest'; waitrt?",
+      "23264": ";e move 'north'; waitrt?"
     },
     "timeto": {
       "7451": 3.2,
@@ -32,24 +31,24 @@
       "23263": 3.2,
       "23264": 3.2
     },
-    "tags": [
-      "peer southwest =~ /^Obvious paths: north, northeast, east, northwest$/",
-      "hooded figure",
-      "giant fog beetle",
-      "blackened moss",
-      "black toadstool",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      306035
-    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       676,
       951,
       687,
       961
+    ],
+    "tags": [
+      "black toadstool",
+      "blackened moss",
+      "giant fog beetle",
+      "hooded figure",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "peer southwest =~ /^Obvious paths: north, northeast, east, northwest$/"
+    ],
+    "uid": [
+      306035
     ]
   }
 }

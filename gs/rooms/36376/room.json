@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36376,
+    "title": [
+      "[Black Swan Castle, Courtyard]"
+    ],
+    "description": [
+      "Sparse grass interrupts the mostly barren area just before the stone wall.  A few ruts and holes in the ground hold rainwater, forming puddles that reflect the black forms of the tower to the southwest and the keep to the northwest."
+    ],
+    "paths": [
+      "Obvious paths: north, south, west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36354": "south",
+      "36358": "north",
+      "36375": "west"
+    },
+    "timeto": {
+      "36354": 0.2,
+      "36358": 0.2,
+      "36375": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      520,
+      440,
+      560,
+      480
+    ],
+    "uid": [
+      55049
+    ]
+  }
+}

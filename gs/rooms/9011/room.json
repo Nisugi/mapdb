@@ -1,5 +1,4 @@
 {
-  "checksum": "b13885157feddb3a78ce52d05b575ba1",
   "room": {
     "id": 9011,
     "title": [
@@ -20,7 +19,7 @@
       "13593": "go riverstone shop",
       "13598": "go gallery",
       "17106": "go storefront",
-      "27971": "go sandstone cottage"
+      "27971": "go grey gallery"
     },
     "timeto": {
       "9010": 0.2,
@@ -31,15 +30,20 @@
       "17106": 0.2,
       "27971": 0.2
     },
-    "uid": [
-      733004
-    ],
     "image": "vo-solhaven-1675635404.png",
     "image_coords": [
       1530,
       509,
       1542,
       521
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      733004
     ]
   }
 }

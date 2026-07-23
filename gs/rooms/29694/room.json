@@ -1,11 +1,11 @@
 {
-  "checksum": "393704639220df7ca24fc75cf2941d66",
   "room": {
     "id": 29694,
     "title": [
       "[Cysaelotar, Nodding Heads]"
     ],
     "description": [
+      "Slender pathways are barely visible beneath the blanket of alpine blossoms that nod their heads lazily in the sunlight.  Indiscriminately brushing against its neighbors, relatively short evergreen candytufts pay court to purple cowbells to one side and pale primula on the other.  Conversely, stubby yellow helmet flowers cling to the edges of a winding track that meanders up the incline of a nearby mound, while blue-eyed grass and white mountain phlox dominate the eastern landscape alongside lichen-covered stones.",
       "Slender pathways are barely visible beneath the blanket of alpine blossoms that nod their heads lazily in the sunlight.  Indiscriminately brushing against its neighbors, relatively short evergreen candytufts pay court to purple cowbells to one side and pale primula on the other.  Conversely, stubby yellow helmet flowers cling to the edges of a winding track that meanders up the incline of a nearby mound, while blue-eyed grass and white mountain phlox dominate the eastern landscape alongside lichen-covered stones",
       "Slender pathways are barely visible beneath the blanket of alpine blossoms that nod their heads lazily in the starlight.  Indiscriminately brushing against its neighbors, relatively short evergreen candytufts pay court to purple cowbells to one side and pale primula on the other.  Conversely, stubby yellow helmet flowers cling to the edges of a winding track that meanders up the incline of a nearby mound, while blue-eyed grass and mountain phlox dominates the eastern landscape alongside lichen-covered stones."
     ],
@@ -18,24 +18,32 @@
       "29695": "go winding track",
       "29699": "go argent pavilion",
       "29700": "go grey tent",
-      "29701": "southeast"
+      "29701": "southeast",
+      "31191": "go ivory pavilion",
+      "36498": "go haon stall",
+      "36513": "go blue tent",
+      "36516": "go grey shop"
     },
     "timeto": {
       "29671": 0.2,
       "29695": 0.2,
       "29699": 0.2,
       "29700": 0.2,
-      "29701": 0.2
+      "29701": 0.2,
+      "31191": 0.2,
+      "36498": 0.2,
+      "36513": 0.2,
+      "36516": 0.2
     },
+    "image": "fest-RW2026.png",
+    "image_coords": [
+      1420,
+      501,
+      1442,
+      525
+    ],
     "uid": [
       8208751
-    ],
-    "image": "fest-RW2023-1687094965.png",
-    "image_coords": [
-      954,
-      536,
-      983,
-      564
     ]
   }
 }

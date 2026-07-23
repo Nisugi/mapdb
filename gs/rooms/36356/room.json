@@ -1,0 +1,37 @@
+{
+  "room": {
+    "id": 36356,
+    "title": [
+      "[Black Swan Castle, Courtyard]"
+    ],
+    "description": [
+      "Permanent gloom seems to hang in this corner of the courtyard.  The shadows of the broken and violated battlements of the fortress wall merge with those of the dark, stone tower.  Scrapes, grooves, and deep striations on the surface of the stones speak of determined enemies without clamoring to reach great treasures within."
+    ],
+    "paths": [
+      "Obvious paths: north, northeast, east"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36355": "east",
+      "36357": "north",
+      "36373": "go tower",
+      "36375": "northeast"
+    },
+    "timeto": {
+      "36355": 0.2,
+      "36357": 0.2,
+      "36373": 0.2,
+      "36375": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      360,
+      520,
+      400,
+      560
+    ],
+    "uid": [
+      55026
+    ]
+  }
+}

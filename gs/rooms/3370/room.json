@@ -1,5 +1,4 @@
 {
-  "checksum": "0786d537aafe6b036256a7eb99635739",
   "room": {
     "id": 3370,
     "title": [
@@ -15,30 +14,30 @@
     "wayto": {
       "2426": "out",
       "3371": "go booth",
-      "30709": "/rooms/3370/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "2426": 0.2,
       "3371": 0.2,
-      "30709": "/rooms/3370/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "bank",
-      "urchin-access",
-      "urchin guide bank",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      4043301
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       671,
       787,
       707,
       823
+    ],
+    "tags": [
+      "bank",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-09",
+      "no forageables",
+      "urchin guide bank",
+      "urchin-access"
+    ],
+    "uid": [
+      4043301
     ]
   }
 }
