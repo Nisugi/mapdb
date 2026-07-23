@@ -1,5 +1,4 @@
 {
-  "checksum": "dd3e0dff95e2e1589ceb3798697dc3ff",
   "room": {
     "id": 5825,
     "title": [
@@ -15,15 +14,15 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "5824": "/rooms/5825/wayto/stringproc-5824.rb",
+      "5824": ";e table = \"Black Marble\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
       "5826": "go doors",
-      "6106": "/rooms/5825/wayto/stringproc-6106.rb",
+      "6106": ";e table = \"White Marble\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
       "10303": "northeast",
       "10305": "southeast",
-      "24051": "/rooms/5825/wayto/stringproc-24051.rb",
-      "28266": "/rooms/5825/wayto/stringproc-28266.rb",
-      "28267": "/rooms/5825/wayto/stringproc-28267.rb",
-      "28268": "/rooms/5825/wayto/stringproc-28268.rb"
+      "24051": ";e table = \"Golden Marble\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "28266": ";e table = \"Green Marble\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "28267": ";e table = \"Blue Marble\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "28268": ";e table = \"Red Marble\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"
     },
     "timeto": {
       "5824": 0.2,
@@ -37,8 +36,8 @@
       "28268": 0.2
     },
     "tags": [
-      "table",
-      "no forageables"
+      "no forageables",
+      "table"
     ],
     "uid": [
       14101004

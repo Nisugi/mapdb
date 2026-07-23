@@ -1,5 +1,4 @@
 {
-  "checksum": "c8c069c7b61b1cae67013c7fcc9f4604",
   "room": {
     "id": 7046,
     "title": [
@@ -15,12 +14,12 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "3705": "/rooms/7046/wayto/stringproc-3705.rb",
+      "3705": ";e loop { fput 'search'; fput 'turn bent spike'; sleep 0.2; break unless checkpaths == [ 'out' ] }; wait_while { standing? }; fput 'stand'; if Room.current == Room[7144]; move 'go door'; move 'go hole'; move 'go crack'; end; if Room.current == Room[7083]; move 'go space'; move 'east'; end; if Room.current == Room[7084]; move 'east'; move 'east'; move 'south'; move 'south'; move 'east'; move 'east'; end; if Room.current == Room[7099]; move 'south'; move 'west'; end; if Room.current == Room[7091]; move 'go door'; move 'go shaft'; move 'south'; move 'south'; end; if Room.current == Room[7047]; move 'southwest'; move 'southeast'; move 'southeast'; move 'northeast'; move 'northeast'; move 'climb rubble'; move 'go opening'; move 'north'; move 'out'; move 'south'; move 'south'; move 'south'; move 'east'; move 'north'; move 'north'; move 'north'; end",
       "7045": "out",
-      "7047": "/rooms/7046/wayto/stringproc-7047.rb",
-      "7083": "/rooms/7046/wayto/stringproc-7083.rb",
-      "7099": "/rooms/7046/wayto/stringproc-7099.rb",
-      "7144": "/rooms/7046/wayto/stringproc-7144.rb"
+      "7047": ";e loop { fput 'search'; fput 'turn bent spike'; sleep 0.2; break unless checkpaths == [ 'out' ] }; wait_while { standing? }; fput 'stand'; if Room.current == Room[7144]; move 'go door'; move 'go hole'; move 'go crack'; end; if Room.current == Room[7083]; move 'go space'; move 'east'; end; if Room.current == Room[7084]; move 'east'; move 'east'; move 'south'; move 'south'; move 'east'; move 'east'; end; if Room.current == Room[7099]; move 'south'; move 'west'; end; if Room.current == Room[7091]; move 'go door'; move 'go shaft'; move 'south'; move 'south'; end; if Room.current == Room[3705]; move 'south'; move 'south'; move 'west'; move 'north'; move 'north'; move 'north'; move 'go door'; move 'go tunnel'; move 'down'; move 'southwest'; move 'southwest'; move 'northwest'; move 'northwest'; move 'northeast'; end",
+      "7083": ";e loop { fput 'search'; fput 'turn bent spike'; sleep 0.2; break unless checkpaths == [ 'out' ] }; wait_while { standing? }; fput 'stand'; if Room.current == Room[7047]; move 'southwest'; move 'southeast'; move 'southeast'; move 'northeast'; move 'northeast'; move 'climb rubble'; move 'go opening'; move 'out'; end; if Room.current == Room[3705]; move 'south'; move 'south'; move 'west'; move 'north'; move 'north'; move 'north'; end; if Room.current == Room[3687]; move 'north'; move 'northwest'; move 'south'; move 'south'; move 'south'; move 'climb ladder'; move 'go door'; move 'north'; move 'north'; move 'north'; move 'go space'; end; if Room.current == Room[7144]; move 'go door'; move 'go hole'; move 'go crack'; move 'west'; move 'go space'; end; if Room.current == Room[7099]; move 'north'; move 'west'; move 'west'; move 'west'; move 'west'; move 'west'; move 'go space'; end",
+      "7099": ";e loop { fput 'search'; fput 'turn bent spike'; sleep 0.2; break unless checkpaths == [ 'out' ] }; wait_while { standing? }; fput 'stand'; if Room.current == Room[7047]; move 'southwest'; move 'southeast'; move 'southeast'; move 'northeast'; move 'northeast'; move 'climb rubble'; move 'go opening'; move 'out'; end; if Room.current == Room[3705]; move 'south'; move 'south'; move 'west'; move 'north'; move 'north'; move 'north'; end; if Room.current == Room[3687]; move 'north'; move 'northwest'; move 'south'; move 'south'; move 'south'; move 'climb ladder'; move 'go door'; move 'north'; move 'north'; move 'north'; move 'east'; end; if Room.current == Room[7144]; move 'go door'; move 'go hole'; move 'go crack'; end; if Room.current == Room[7083]; move 'go space'; move 'east'; end; if Room.current == Room[7084]; move 'east'; move 'east'; move 'east'; move 'east'; move 'south'; end",
+      "7144": ";e loop { fput 'search'; fput 'turn bent spike'; sleep 0.2; break unless checkpaths == [ 'out' ] }; wait_while { standing? }; fput 'stand'; if Room.current == Room[7047]; move 'southwest'; move 'southeast'; move 'southeast'; move 'northeast'; move 'northeast'; move 'climb rubble'; move 'go opening'; move 'out'; end; if Room.current == Room[3705]; move 'south'; move 'south'; move 'west'; move 'north'; move 'north'; move 'north'; end; if Room.current == Room[3687]; move 'north'; move 'northwest'; move 'south'; move 'south'; move 'south'; move 'climb ladder'; move 'go door'; move 'north'; move 'north'; move 'north'; end; if Room.current == Room[7099]; move 'north'; move 'west'; move 'west'; move 'west'; move 'west'; move 'west'; move 'go space'; end; if Room.current == Room[7083]; move 'go space'; move 'go trapdoor'; move 'go door'; move 'east'; move 'east'; move 'go door'; move 'go crack'; move 'south'; move 'west'; end"
     },
     "timeto": {
       "3705": 0.2,
@@ -30,21 +29,21 @@
       "7099": 0.2,
       "7144": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      45132
-    ],
     "image": "wl-darkstone-1717380773.png",
     "image_coords": [
       583,
       675,
       593,
       685
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
+    ],
+    "uid": [
+      45132
     ]
   }
 }

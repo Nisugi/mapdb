@@ -1,5 +1,4 @@
 {
-  "checksum": "59dfbbd6deacb139f155c25ee957d487",
   "room": {
     "id": 3453,
     "title": [
@@ -14,30 +13,30 @@
     "location": "Icemule Trace",
     "wayto": {
       "2392": "out",
-      "30709": "/rooms/3453/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "2392": 0.2,
-      "30709": "/rooms/3453/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "weaponshop",
-      "urchin-access",
-      "urchin guide weapons",
-      "weapons",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      4043850
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       139,
       1143,
       175,
       1179
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-09",
+      "no forageables",
+      "urchin guide weapons",
+      "urchin-access",
+      "weapons",
+      "weaponshop"
+    ],
+    "uid": [
+      4043850
     ]
   }
 }

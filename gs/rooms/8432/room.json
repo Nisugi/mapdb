@@ -1,5 +1,4 @@
 {
-  "checksum": "6f34ec1c4d3a1a4ced9627d9ae40fe06",
   "room": {
     "id": 8432,
     "title": [
@@ -15,62 +14,62 @@
     "climate": "temperate",
     "terrain": "mountainous",
     "wayto": {
-      "7160": "/rooms/8432/wayto/stringproc-7160.rb",
+      "7160": ";e move 'go tree'; waitrt?",
       "8433": "south"
     },
     "timeto": {
-      "7160": 10,
+      "7160": 10.0,
       "8433": 0.2
     },
-    "tags": [
-      "forest troll",
-      "golden aster",
-      "sprig of larkspur",
-      "angelica root",
-      "stalk of bluebells",
-      "wild pink geranium",
-      "yellow primrose",
-      "sprig of holly",
-      "sprig of ivy",
-      "small apple",
-      "pepperthorn root",
-      "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "alder bark",
-      "deep purple shockroot",
-      "sunburst blossom",
-      "rhubarb",
-      "stalk of celery",
-      "leek",
-      "shallot",
-      "hop flowers",
-      "agave heart",
-      "meta:forage-sensed:night:2023-02",
-      "dwarf billberry",
-      "round grumbleberry",
-      "birch bark",
-      "small watermelon",
-      "cherry peppers",
-      "fresh catnip",
-      "peppermint leaves",
-      "sprig of rooibos",
-      "sun-wilted tea leaves",
-      "lemon balm",
-      "lemon verbena",
-      "dwarf bilberry",
-      "meta:forage-sensed:day:2025-05"
-    ],
-    "uid": [
-      16003
-    ],
     "image": "wl-trollfang-1264234799.png",
     "image_coords": [
       713,
       544,
       723,
       554
+    ],
+    "tags": [
+      "agave heart",
+      "alder bark",
+      "angelica root",
+      "birch bark",
+      "bolmara lichen",
+      "cherry peppers",
+      "deep purple shockroot",
+      "dwarf bilberry",
+      "dwarf billberry",
+      "forest troll",
+      "fresh catnip",
+      "golden aster",
+      "hop flowers",
+      "ironfern root",
+      "leek",
+      "lemon balm",
+      "lemon verbena",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "peppermint leaves",
+      "pepperthorn root",
+      "rhubarb",
+      "round grumbleberry",
+      "shallot",
+      "small apple",
+      "small watermelon",
+      "sprig of holly",
+      "sprig of ivy",
+      "sprig of larkspur",
+      "sprig of rooibos",
+      "stalk of bluebells",
+      "stalk of celery",
+      "sun-wilted tea leaves",
+      "sunburst blossom",
+      "wild pink geranium",
+      "wingstem root",
+      "yellow primrose"
+    ],
+    "uid": [
+      16003
     ]
   }
 }

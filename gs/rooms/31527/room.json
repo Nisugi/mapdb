@@ -1,5 +1,4 @@
 {
-  "checksum": "f3d0802d7dad74c120fd93459bfb0ad3",
   "room": {
     "id": 31527,
     "title": [
@@ -15,7 +14,7 @@
     "wayto": {
       "31526": "down",
       "31528": "west",
-      "31529": "/rooms/31527/wayto/stringproc-31529.rb",
+      "31529": ";e fput \"search\"\nwaitrt?\nfput \"search\"\nwaitrt?\nfput \"search\"\nmove \"go torch-lit passageway\"",
       "31530": "go wood staircase"
     },
     "timeto": {

@@ -1,5 +1,4 @@
 {
-  "checksum": "c253d59bffd90ba45c311263a29d739b",
   "room": {
     "id": 18100,
     "title": [
@@ -20,18 +19,19 @@
       "18079": 0.2,
       "18107": 0.2
     },
-    "tags": [
-      "wizard alchemy cleaning supplies"
-    ],
-    "uid": [
-      682027
-    ],
     "image": "ti-wizard_guild.png",
     "image_coords": [
       668,
       268,
       732,
       331
+    ],
+    "tags": [
+      "no forageables",
+      "wizard alchemy cleaning supplies"
+    ],
+    "uid": [
+      682027
     ]
   }
 }

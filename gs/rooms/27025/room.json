@@ -1,5 +1,4 @@
 {
-  "checksum": "43b630f1b5b4f013008521ad52566629",
   "room": {
     "id": 27025,
     "title": [
@@ -13,8 +12,8 @@
     ],
     "location": "Ta'Vaalor",
     "wayto": {
-      "27024": "/rooms/27025/wayto/stringproc-27024.rb",
-      "27026": "/rooms/27025/wayto/stringproc-27026.rb"
+      "27024": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'south'",
+      "27026": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'north'"
     },
     "timeto": {
       "27024": 0.2,

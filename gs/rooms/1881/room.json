@@ -1,5 +1,4 @@
 {
-  "checksum": "360d960358150313816f9e2d33ac48b1",
   "room": {
     "id": 1881,
     "title": [
@@ -15,18 +14,19 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "1880": "out",
-      "30715": "/rooms/1881/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1880": 0.2,
-      "30715": "/rooms/1881/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "locksmith",
+      "locksmith shop",
       "meta:trashcan:dusty wooden crate",
-      "urchin-access",
+      "no forageables",
       "urchin guide locksmith",
-      "locksmith shop"
+      "urchin-access"
     ],
     "uid": [
       3003066

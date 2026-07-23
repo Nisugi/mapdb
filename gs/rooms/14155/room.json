@@ -1,5 +1,4 @@
 {
-  "checksum": "2143e62ff4f89b8ef74a514a3ea19d9a",
   "room": {
     "id": 14155,
     "title": [
@@ -15,26 +14,26 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "5313": "/rooms/14155/wayto/stringproc-5313.rb",
-      "5403": "/rooms/14155/wayto/stringproc-5403.rb",
-      "9033": "/rooms/14155/wayto/stringproc-9033.rb",
-      "9347": "/rooms/14155/wayto/stringproc-9347.rb",
+      "5313": ";e $mapdb_seeking_destination = 5313;Map[3600].wayto['3600'].call;",
+      "5403": ";e $mapdb_seeking_destination = 5403;Map[3600].wayto['3600'].call;",
+      "9033": ";e $mapdb_seeking_destination = 9033;Map[3600].wayto['3600'].call;",
+      "9347": ";e $mapdb_seeking_destination = 9347;Map[3600].wayto['3600'].call;",
       "13196": "climb stairwell",
-      "14072": "/rooms/14155/wayto/stringproc-14072.rb"
+      "14072": ";e $mapdb_seeking_destination = 14072;Map[3600].wayto['3600'].call;"
     },
     "timeto": {
-      "5313": "/rooms/14155/timeto/stringproc-5313.rb",
-      "5403": "/rooms/14155/timeto/stringproc-5403.rb",
-      "9033": "/rooms/14155/timeto/stringproc-9033.rb",
-      "9347": "/rooms/14155/timeto/stringproc-9347.rb",
+      "5313": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 3.2; else; nil; end",
+      "5403": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 3.2; else; nil; end",
+      "9033": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 3.2; else; nil; end",
+      "9347": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 3.2; else; nil; end",
       "13196": 0.2,
-      "14072": "/rooms/14155/timeto/stringproc-14072.rb"
+      "14072": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 3.2; else; nil; end"
     },
     "tags": [
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
       "meta:seeking",
-      "no forageables",
-      "meta:forage-sensed:day:2022-11"
+      "no forageables"
     ],
     "uid": [
       4749706

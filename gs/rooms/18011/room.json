@@ -1,5 +1,4 @@
 {
-  "checksum": "3b1561f6e6bdcee7dacdea109623de75",
   "room": {
     "id": 18011,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "10953": "/rooms/18011/wayto/stringproc-10953.rb"
+      "10953": ";e room = Room.current.id;fput 'go opening'; if ( room == Room.current.id ); fput 'close locker';move 'go opening'; end"
     },
     "timeto": {
       "10953": 22.2

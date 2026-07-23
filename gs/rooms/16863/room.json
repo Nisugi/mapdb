@@ -1,5 +1,4 @@
 {
-  "checksum": "de0a63330ec78f95a3a86156a1206614",
   "room": {
     "id": 16863,
     "title": [
@@ -18,19 +17,19 @@
       "16850": "south",
       "16864": "east",
       "16865": "north",
-      "30712": "/rooms/16863/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "16850": 0.2,
       "16864": 0.2,
       "16865": 0.2,
-      "30712": "/rooms/16863/timeto/stringproc-30712.rb"
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "cobbling",
+      "no forageables",
       "urchin guide cobbling",
-      "urchin-access",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       4056004

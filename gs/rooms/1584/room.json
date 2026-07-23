@@ -1,5 +1,4 @@
 {
-  "checksum": "7deb364232b570a11f97aed60ec25790",
   "room": {
     "id": 1584,
     "title": [
@@ -22,20 +21,21 @@
       "5412": 0.2,
       "30737": 0.2
     },
-    "tags": [
-      "meta:mapname:Vornavis - Solhaven Lockers",
-      "meta:mapshortname:Solhaven Lockers",
-      "meta:mapcategory:Vornavis"
-    ],
-    "uid": [
-      4219350
-    ],
     "image": "vo-warehouse_lockers-1485119080.png",
     "image_coords": [
       714,
       995,
       818,
       1048
+    ],
+    "tags": [
+      "meta:mapcategory:Vornavis",
+      "meta:mapname:Vornavis - Solhaven Lockers",
+      "meta:mapshortname:Solhaven Lockers",
+      "no forageables"
+    ],
+    "uid": [
+      4219350
     ]
   }
 }

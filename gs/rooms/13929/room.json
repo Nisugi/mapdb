@@ -1,5 +1,4 @@
 {
-  "checksum": "c9fd4fcd7ca8415e349481ef59815059",
   "room": {
     "id": 13929,
     "title": [
@@ -29,34 +28,35 @@
       "13942": 0.2,
       "32787": 0.2
     },
-    "tags": [
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "soft white mushroom",
-      "withered black mushroom",
-      "blue trafel mushroom",
-      "bright red cranberry",
-      "yew twig",
-      "luckbloom blossom",
-      "wavepetal blossom",
-      "sunburst blossom",
-      "white hook mushroom",
-      "meta:forage-sensed",
-      "rainbow chard",
-      "meta:forage-sensed:night:2024-05"
-    ],
-    "uid": [
-      14200011
-    ],
     "image": "en-ravelin.png",
     "image_coords": [
       278,
       638,
       329,
       687
+    ],
+    "tags": [
+      "angelica root",
+      "blue trafel mushroom",
+      "bright red cranberry",
+      "luckbloom blossom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "pennyroyal stem",
+      "rainbow chard",
+      "sassafras leaf",
+      "soft mushroom",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wavepetal blossom",
+      "white hook mushroom",
+      "withered mushroom",
+      "yew twig"
+    ],
+    "uid": [
+      14200011
     ]
   }
 }

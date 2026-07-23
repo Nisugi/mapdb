@@ -1,5 +1,4 @@
 {
-  "checksum": "3cd6cf6300b06d3f9f9ebb1559f58b95",
   "room": {
     "id": 17493,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "Highman Games near Icemule Trace",
     "wayto": {
-      "3235": "/rooms/17493/wayto/stringproc-3235.rb",
+      "3235": ";e move 'go arches'; wait_until { checkpaths.include?('e') }",
       "17454": "northeast",
       "17494": "go arches",
       "17499": "south"
@@ -24,20 +23,20 @@
       "17494": 0.2,
       "17499": 0.2
     },
-    "tags": [
-      "closed",
-      "meta:fest:highman",
-      "exit"
-    ],
-    "uid": [
-      7800031
-    ],
     "image": "fest-highman_games-1265497377.png",
     "image_coords": [
       132,
       238,
       180,
       286
+    ],
+    "tags": [
+      "closed",
+      "exit",
+      "meta:fest:highman"
+    ],
+    "uid": [
+      7800031
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "cf1cee33ddb1e5b650bb2ac2b694a91b",
   "room": {
     "id": 10074,
     "title": [
@@ -14,14 +13,15 @@
     "location": "Ta'Illistim",
     "wayto": {
       "10073": "out",
-      "30714": "/rooms/10074/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "10073": 0.2,
-      "30714": "/rooms/10074/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "fletcher",
+      "no forageables",
       "urchin guide fletcher",
       "urchin-access"
     ],

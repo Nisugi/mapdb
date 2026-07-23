@@ -1,5 +1,4 @@
 {
-  "checksum": "8e158a961e0194a000f99b5d9b88f9aa",
   "room": {
     "id": 6206,
     "title": [
@@ -15,14 +14,14 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "6202": "/rooms/6206/wayto/stringproc-6202.rb",
-      "6203": "/rooms/6206/wayto/stringproc-6203.rb",
-      "6204": "/rooms/6206/wayto/stringproc-6204.rb",
-      "6205": "/rooms/6206/wayto/stringproc-6205.rb",
-      "6207": "/rooms/6206/wayto/stringproc-6207.rb",
-      "6208": "/rooms/6206/wayto/stringproc-6208.rb",
-      "6209": "/rooms/6206/wayto/stringproc-6209.rb",
-      "6210": "/rooms/6206/wayto/stringproc-6210.rb"
+      "6202": ";e target_room_id = 6202; maze_rooms = [6210, 6208, 6203, 6205, 6204, 6207, 6206, 6209, 6202]; $minotaur_maze_dirs ||= Hash.new; loop { if (bounty? =~ /^You have made contact with the child/); child = GameObj.npcs.find { |npc| npc.noun == 'child' }; else; child = nil; end; start_room = Room.current; $minotaur_maze_dirs[start_room.id] ||= Hash.new; dir = $minotaur_maze_dirs[start_room.id].keys.find { |d| $minotaur_maze_dirs[start_room.id][d] == target_room_id } || XMLData.room_exits.find { |d| $minotaur_maze_dirs[start_room.id][d].nil? } || $minotaur_maze_dirs[start_room.id].keys.find { |d| $minotaur_maze_dirs[$minotaur_maze_dirs[start_room.id][d]].values.include?(target_room_id) } || XMLData.room_exits[rand(XMLData.room_exits.length)]; move dir.dup; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; end_room = Room.current; $minotaur_maze_dirs[start_room.id][dir] = end_room.id; if end_room.id == target_room_id; break; elsif not maze_rooms.include?(end_room.id); dir = end_room.wayto[start_room.id.to_s]; if dir.class == Proc; dir.call; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; elsif dir.class == String; move dir.dup; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; end; end }",
+      "6203": ";e target_room_id = 6203; maze_rooms = [6210, 6208, 6203, 6205, 6204, 6207, 6206, 6209, 6202]; $minotaur_maze_dirs ||= Hash.new; loop { if (bounty? =~ /^You have made contact with the child/); child = GameObj.npcs.find { |npc| npc.noun == 'child' }; else; child = nil; end; start_room = Room.current; $minotaur_maze_dirs[start_room.id] ||= Hash.new; dir = $minotaur_maze_dirs[start_room.id].keys.find { |d| $minotaur_maze_dirs[start_room.id][d] == target_room_id } || XMLData.room_exits.find { |d| $minotaur_maze_dirs[start_room.id][d].nil? } || $minotaur_maze_dirs[start_room.id].keys.find { |d| $minotaur_maze_dirs[$minotaur_maze_dirs[start_room.id][d]].values.include?(target_room_id) } || XMLData.room_exits[rand(XMLData.room_exits.length)]; move dir.dup; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; end_room = Room.current; $minotaur_maze_dirs[start_room.id][dir] = end_room.id; if end_room.id == target_room_id; break; elsif not maze_rooms.include?(end_room.id); dir = end_room.wayto[start_room.id.to_s]; if dir.class == Proc; dir.call; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; elsif dir.class == String; move dir.dup; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; end; end }",
+      "6204": ";e target_room_id = 6204; maze_rooms = [6210, 6208, 6203, 6205, 6204, 6207, 6206, 6209, 6202]; $minotaur_maze_dirs ||= Hash.new; loop { if (bounty? =~ /^You have made contact with the child/); child = GameObj.npcs.find { |npc| npc.noun == 'child' }; else; child = nil; end; start_room = Room.current; $minotaur_maze_dirs[start_room.id] ||= Hash.new; dir = $minotaur_maze_dirs[start_room.id].keys.find { |d| $minotaur_maze_dirs[start_room.id][d] == target_room_id } || XMLData.room_exits.find { |d| $minotaur_maze_dirs[start_room.id][d].nil? } || $minotaur_maze_dirs[start_room.id].keys.find { |d| $minotaur_maze_dirs[$minotaur_maze_dirs[start_room.id][d]].values.include?(target_room_id) } || XMLData.room_exits[rand(XMLData.room_exits.length)]; move dir.dup; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; end_room = Room.current; $minotaur_maze_dirs[start_room.id][dir] = end_room.id; if end_room.id == target_room_id; break; elsif not maze_rooms.include?(end_room.id); dir = end_room.wayto[start_room.id.to_s]; if dir.class == Proc; dir.call; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; elsif dir.class == String; move dir.dup; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; end; end }",
+      "6205": ";e target_room_id = 6205; maze_rooms = [6210, 6208, 6203, 6205, 6204, 6207, 6206, 6209, 6202]; $minotaur_maze_dirs ||= Hash.new; loop { if (bounty? =~ /^You have made contact with the child/); child = GameObj.npcs.find { |npc| npc.noun == 'child' }; else; child = nil; end; start_room = Room.current; $minotaur_maze_dirs[start_room.id] ||= Hash.new; dir = $minotaur_maze_dirs[start_room.id].keys.find { |d| $minotaur_maze_dirs[start_room.id][d] == target_room_id } || XMLData.room_exits.find { |d| $minotaur_maze_dirs[start_room.id][d].nil? } || $minotaur_maze_dirs[start_room.id].keys.find { |d| $minotaur_maze_dirs[$minotaur_maze_dirs[start_room.id][d]].values.include?(target_room_id) } || XMLData.room_exits[rand(XMLData.room_exits.length)]; move dir.dup; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; end_room = Room.current; $minotaur_maze_dirs[start_room.id][dir] = end_room.id; if end_room.id == target_room_id; break; elsif not maze_rooms.include?(end_room.id); dir = end_room.wayto[start_room.id.to_s]; if dir.class == Proc; dir.call; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; elsif dir.class == String; move dir.dup; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; end; end }",
+      "6207": ";e target_room_id = 6207; maze_rooms = [6210, 6208, 6203, 6205, 6204, 6207, 6206, 6209, 6202]; $minotaur_maze_dirs ||= Hash.new; loop { if (bounty? =~ /^You have made contact with the child/); child = GameObj.npcs.find { |npc| npc.noun == 'child' }; else; child = nil; end; start_room = Room.current; $minotaur_maze_dirs[start_room.id] ||= Hash.new; dir = $minotaur_maze_dirs[start_room.id].keys.find { |d| $minotaur_maze_dirs[start_room.id][d] == target_room_id } || XMLData.room_exits.find { |d| $minotaur_maze_dirs[start_room.id][d].nil? } || $minotaur_maze_dirs[start_room.id].keys.find { |d| $minotaur_maze_dirs[$minotaur_maze_dirs[start_room.id][d]].values.include?(target_room_id) } || XMLData.room_exits[rand(XMLData.room_exits.length)]; move dir.dup; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; end_room = Room.current; $minotaur_maze_dirs[start_room.id][dir] = end_room.id; if end_room.id == target_room_id; break; elsif not maze_rooms.include?(end_room.id); dir = end_room.wayto[start_room.id.to_s]; if dir.class == Proc; dir.call; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; elsif dir.class == String; move dir.dup; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; end; end }",
+      "6208": ";e target_room_id = 6208; maze_rooms = [6210, 6208, 6203, 6205, 6204, 6207, 6206, 6209, 6202]; $minotaur_maze_dirs ||= Hash.new; loop { if (bounty? =~ /^You have made contact with the child/); child = GameObj.npcs.find { |npc| npc.noun == 'child' }; else; child = nil; end; start_room = Room.current; $minotaur_maze_dirs[start_room.id] ||= Hash.new; dir = $minotaur_maze_dirs[start_room.id].keys.find { |d| $minotaur_maze_dirs[start_room.id][d] == target_room_id } || XMLData.room_exits.find { |d| $minotaur_maze_dirs[start_room.id][d].nil? } || $minotaur_maze_dirs[start_room.id].keys.find { |d| $minotaur_maze_dirs[$minotaur_maze_dirs[start_room.id][d]].values.include?(target_room_id) } || XMLData.room_exits[rand(XMLData.room_exits.length)]; move dir.dup; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; end_room = Room.current; $minotaur_maze_dirs[start_room.id][dir] = end_room.id; if end_room.id == target_room_id; break; elsif not maze_rooms.include?(end_room.id); dir = end_room.wayto[start_room.id.to_s]; if dir.class == Proc; dir.call; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; elsif dir.class == String; move dir.dup; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; end; end }",
+      "6209": ";e target_room_id = 6209; maze_rooms = [6210, 6208, 6203, 6205, 6204, 6207, 6206, 6209, 6202]; $minotaur_maze_dirs ||= Hash.new; loop { if (bounty? =~ /^You have made contact with the child/); child = GameObj.npcs.find { |npc| npc.noun == 'child' }; else; child = nil; end; start_room = Room.current; $minotaur_maze_dirs[start_room.id] ||= Hash.new; dir = $minotaur_maze_dirs[start_room.id].keys.find { |d| $minotaur_maze_dirs[start_room.id][d] == target_room_id } || XMLData.room_exits.find { |d| $minotaur_maze_dirs[start_room.id][d].nil? } || $minotaur_maze_dirs[start_room.id].keys.find { |d| $minotaur_maze_dirs[$minotaur_maze_dirs[start_room.id][d]].values.include?(target_room_id) } || XMLData.room_exits[rand(XMLData.room_exits.length)]; move dir.dup; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; end_room = Room.current; $minotaur_maze_dirs[start_room.id][dir] = end_room.id; if end_room.id == target_room_id; break; elsif not maze_rooms.include?(end_room.id); dir = end_room.wayto[start_room.id.to_s]; if dir.class == Proc; dir.call; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; elsif dir.class == String; move dir.dup; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; end; end }",
+      "6210": ";e target_room_id = 6210; maze_rooms = [6210, 6208, 6203, 6205, 6204, 6207, 6206, 6209, 6202]; $minotaur_maze_dirs ||= Hash.new; loop { if (bounty? =~ /^You have made contact with the child/); child = GameObj.npcs.find { |npc| npc.noun == 'child' }; else; child = nil; end; start_room = Room.current; $minotaur_maze_dirs[start_room.id] ||= Hash.new; dir = $minotaur_maze_dirs[start_room.id].keys.find { |d| $minotaur_maze_dirs[start_room.id][d] == target_room_id } || XMLData.room_exits.find { |d| $minotaur_maze_dirs[start_room.id][d].nil? } || $minotaur_maze_dirs[start_room.id].keys.find { |d| $minotaur_maze_dirs[$minotaur_maze_dirs[start_room.id][d]].values.include?(target_room_id) } || XMLData.room_exits[rand(XMLData.room_exits.length)]; move dir.dup; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; end_room = Room.current; $minotaur_maze_dirs[start_room.id][dir] = end_room.id; if end_room.id == target_room_id; break; elsif not maze_rooms.include?(end_room.id); dir = end_room.wayto[start_room.id.to_s]; if dir.class == Proc; dir.call; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; elsif dir.class == String; move dir.dup; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; end; end }"
     },
     "timeto": {
       "6202": 0.5,
@@ -34,29 +33,31 @@
       "6209": 0.5,
       "6210": 0.5
     },
-    "tags": [
-      "withered black mushroom",
-      "black hook mushroom",
-      "soft white mushroom",
-      "white hook mushroom",
-      "blue trafel mushroom",
-      "cave moss",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "wingstem root",
-      "meta:forage-sensed:night:2025-06"
-    ],
-    "uid": [
-      2167073
-    ],
     "image": "wl-wehntoph-1310775397.png",
     "image_coords": [
       678,
       219,
       696,
       237
+    ],
+    "tags": [
+      "black mushroom",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "cave moss",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2025-06",
+      "murdroot",
+      "red mushroom",
+      "soft mushroom",
+      "white hook mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      2167073
     ]
   }
 }

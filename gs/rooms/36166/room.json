@@ -1,5 +1,4 @@
 {
-  "checksum": "05b39c03ea71cb633c0d94de4bb152aa",
   "room": {
     "id": 36166,
     "title": [
@@ -16,18 +15,18 @@
     "terrain": "none",
     "wayto": {
       "36165": "go doorway",
-      "36167": "/rooms/36166/wayto/stringproc-36167.rb"
+      "36167": ";e multifput('sit chair', 'pull splinter'); waitrt?; fput('stand'); waitrt?"
     },
     "timeto": {
       "36165": 0.2,
       "36167": 0.2
     },
     "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2025-12",
       "private property",
       "stalk of bluebells",
-      "wild sage",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2025-12"
+      "wild sage"
     ],
     "uid": [
       2009502

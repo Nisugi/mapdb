@@ -1,5 +1,4 @@
 {
-  "checksum": "385240bd5c82273d2f346370a4ffdd7d",
   "room": {
     "id": 7645,
     "title": [
@@ -20,40 +19,40 @@
     },
     "timeto": {
       "7627": 0.2,
-      "18111": "/rooms/7645/timeto/stringproc-18111.rb"
+      "18111": ";e Stats.prof == 'Sorcerer' ? 0.2 : nil"
     },
-    "tags": [
-      "sorcererguild",
-      "sorcerer guild",
-      "yellow primrose",
-      "acantha leaf",
-      "cactacae spine",
-      "angelica root",
-      "tiger lily",
-      "murdroot",
-      "wingstem root",
-      "bur-clover root",
-      "banana leaf",
-      "meta:forage-sensed",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "meta:forage-sensed:night:2022-11",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      661001
-    ],
     "image": "wl-coastal_cliffs-1264234799.png",
     "image_coords": [
       61,
       583,
       71,
       593
+    ],
+    "tags": [
+      "acantha leaf",
+      "angelica root",
+      "banana leaf",
+      "black peppercorn",
+      "bur-clover root",
+      "cactacae spine",
+      "cardamom",
+      "cumin seeds",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "murdroot",
+      "nutmeg",
+      "pink peppercorn",
+      "sorcerer guild",
+      "sorcererguild",
+      "star anise",
+      "tiger lily",
+      "vanilla bean",
+      "wingstem root",
+      "yellow primrose"
+    ],
+    "uid": [
+      661001
     ]
   }
 }

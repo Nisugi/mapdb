@@ -1,5 +1,4 @@
 {
-  "checksum": "275f3d900923e7c5a11164ec57a95ab4",
   "room": {
     "id": 12420,
     "title": [
@@ -22,21 +21,22 @@
       "12421": 0.2,
       "14814": 0.2
     },
-    "tags": [
-      "meta:mapname:Teras Isle - Rogue Guild",
-      "meta:mapshortname:Rogue Guild (Teras)",
-      "meta:mapcategory:Teras Isle",
-      "meta:mapcategory:Guilds"
-    ],
-    "uid": [
-      3003067
-    ],
     "image": "ti-rogue_guild-1486041266.png",
     "image_coords": [
       139,
       736,
       258,
       817
+    ],
+    "tags": [
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Teras Isle",
+      "meta:mapname:Teras Isle - Rogue Guild",
+      "meta:mapshortname:Rogue Guild (Teras)",
+      "no forageables"
+    ],
+    "uid": [
+      3003067
     ]
   }
 }

@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36364,
+    "title": [
+      "[Keep, Corridor]"
+    ],
+    "description": [
+      "The walls of the corridor curve sharply here, making it almost impossible to see what is around the corner.  Strange squealing sounds echo through the corridor, but turn out only to be a group of rats viciously fighting over some scrap of something foul that could be considered food.  Their little bodies swarm around back and forth, locked in combat, ignoring you completely."
+    ],
+    "paths": [
+      "Obvious exits: south, northwest"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36363": "south",
+      "36365": "northwest"
+    },
+    "timeto": {
+      "36363": 0.2,
+      "36365": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1160,
+      440,
+      1200,
+      480
+    ],
+    "uid": [
+      55035
+    ]
+  }
+}

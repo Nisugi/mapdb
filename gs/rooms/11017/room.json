@@ -1,5 +1,4 @@
 {
-  "checksum": "8477ec9e5d210de1cfd6c7c3158e3b4e",
   "room": {
     "id": 11017,
     "title": [
@@ -16,28 +15,28 @@
     "wayto": {
       "11016": "west",
       "17348": "go gate",
-      "30711": "/rooms/11017/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "11016": 0.2,
-      "17348": "/rooms/11017/timeto/stringproc-17348.rb",
-      "30711": "/rooms/11017/timeto/stringproc-30711.rb"
+      "17348": ";e ((!defined?(Stats.prof) or Stats.prof == 'Warrior') ? 0.2 : nil);",
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "warriorguild",
-      "urchin-access",
-      "urchin guide warriorguild",
-      "warrior guild"
-    ],
-    "uid": [
-      253001
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       2398,
       1865,
       2420,
       1887
+    ],
+    "tags": [
+      "urchin guide warriorguild",
+      "urchin-access",
+      "warrior guild",
+      "warriorguild"
+    ],
+    "uid": [
+      253001
     ]
   }
 }

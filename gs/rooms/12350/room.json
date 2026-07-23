@@ -1,5 +1,4 @@
 {
-  "checksum": "86094c1a62ae77a3068956c3a58f2022",
   "room": {
     "id": 12350,
     "title": [
@@ -14,17 +13,18 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "3516": "out",
-      "30713": "/rooms/12350/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3516": 0.2,
-      "30713": "/rooms/12350/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "armor",
       "armorshop",
-      "urchin-access",
+      "no forageables",
       "urchin guide armor",
-      "armor"
+      "urchin-access"
     ],
     "uid": [
       14103001

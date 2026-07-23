@@ -1,5 +1,4 @@
 {
-  "checksum": "c7c2e2c6674e1db87a86ea390a535207",
   "room": {
     "id": 11034,
     "title": [
@@ -18,33 +17,33 @@
       "11033": "down",
       "11035": "go crevice",
       "23960": "go stairs",
-      "30711": "/rooms/11034/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "11033": 0.2,
       "11035": 0.2,
       "23960": 0.2,
-      "30711": "/rooms/11034/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "sunburst blossom",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "urchin-access",
-      "urchin guide weddinghall",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      2104023
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       2713,
       1416,
       2737,
       1437
+    ],
+    "tags": [
+      "bolmara lichen",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "sunburst blossom",
+      "urchin guide weddinghall",
+      "urchin-access",
+      "wingstem root"
+    ],
+    "uid": [
+      2104023
     ]
   }
 }

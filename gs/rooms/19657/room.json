@@ -1,5 +1,4 @@
 {
-  "checksum": "bc08d8b2a620bc0d3d469b107d612a77",
   "room": {
     "id": 19657,
     "title": [
@@ -14,28 +13,28 @@
     "location": "the foothills of Zeltoph",
     "wayto": {
       "19656": "southeast",
-      "20012": "/rooms/19657/wayto/stringproc-20012.rb"
+      "20012": ";e fput 'open door';while line = get;if ['You open the nearly invisible stone door.', 'That is already open.'].include?(line);fput 'go door';break;elsif line == 'It appears to be locked.';empty_hands;fput 'get lockpick';fput 'pick door';fput 'stow lockpick';fill_hands;fput 'open door';fput 'go door';break;end;end"
     },
     "timeto": {
       "19656": 0.2,
       "20012": 15000
     },
-    "tags": [
-      "lockpick:door:-125",
-      "ironfern root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09",
-      "meta:trap"
-    ],
-    "uid": [
-      11217
-    ],
     "image": "wl-cavernhold-1295073688.png",
     "image_coords": [
       1109,
       1200,
       1120,
       1210
+    ],
+    "tags": [
+      "ironfern root",
+      "lockpick:door:-125",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:trap"
+    ],
+    "uid": [
+      11217
     ]
   }
 }

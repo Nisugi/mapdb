@@ -1,5 +1,4 @@
 {
-  "checksum": "649c6b9c0a649095b97e5292632db029",
   "room": {
     "id": 19585,
     "title": [
@@ -19,29 +18,29 @@
       "3638": "west",
       "3641": "east",
       "30116": "go coral-tiled office",
-      "30718": "/rooms/19585/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "3638": 0.2,
       "3641": 0.2,
       "30116": 0.2,
-      "30718": "/rooms/19585/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-10"
-    ],
-    "uid": [
-      3201040
-    ],
     "image": "ifw-isle_of_four_winds-1310232949.png",
     "image_coords": [
       2910,
       1040,
       2951,
       1081
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-10",
+      "no forageables",
+      "urchin-access"
+    ],
+    "uid": [
+      3201040
     ]
   }
 }

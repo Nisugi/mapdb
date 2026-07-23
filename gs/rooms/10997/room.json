@@ -1,5 +1,4 @@
 {
-  "checksum": "7aff3d05c46835704fa7b94c8431d863",
   "room": {
     "id": 10997,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "10870": "/rooms/10997/wayto/stringproc-10870.rb",
+      "10870": ";e move 'go doorway'",
       "10998": "north",
       "10999": "east",
       "11000": "south",
@@ -28,18 +27,18 @@
       "11000": 0.2,
       "11001": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:nomagic"
-    ],
-    "uid": [
-      2101706
-    ],
     "image_coords": [
       605,
       500,
       631,
       526
+    ],
+    "tags": [
+      "meta:nomagic",
+      "no forageables"
+    ],
+    "uid": [
+      2101706
     ]
   }
 }

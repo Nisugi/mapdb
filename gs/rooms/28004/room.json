@@ -1,5 +1,4 @@
 {
-  "checksum": "398a183379aea03a43f09c92cd5b6b91",
   "room": {
     "id": 28004,
     "title": [
@@ -15,11 +14,11 @@
     "wayto": {
       "28003": "west",
       "28005": "out",
-      "33506": "/rooms/28004/wayto/stringproc-33506.rb",
-      "33507": "/rooms/28004/wayto/stringproc-33507.rb",
-      "33508": "/rooms/28004/wayto/stringproc-33508.rb",
-      "33509": "/rooms/28004/wayto/stringproc-33509.rb",
-      "33510": "/rooms/28004/wayto/stringproc-33510.rb"
+      "33506": ";e table = \"Plum Tree\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "33507": ";e table = \"Cocobolo\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "33508": ";e table = \"Summit\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "33509": ";e table = \"Wolf\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "33510": ";e table = \"Rolton\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"
     },
     "timeto": {
       "28003": 0.2,
@@ -31,12 +30,12 @@
       "33510": 0.2
     },
     "tags": [
-      "table",
-      "locus",
-      "traveler",
       "loci",
+      "locus",
+      "node",
+      "table",
       "tables",
-      "node"
+      "traveler"
     ],
     "uid": [
       8208812

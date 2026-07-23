@@ -1,5 +1,4 @@
 {
-  "checksum": "c99e4ce123de5eefe515f281ff9d2696",
   "room": {
     "id": 1932,
     "title": [
@@ -19,38 +18,38 @@
       "1931": "east",
       "1933": "west",
       "1944": "north",
-      "30715": "/rooms/1932/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
-      "1898": 3,
-      "1931": 3,
-      "1933": 3,
-      "1944": 3,
-      "30715": "/rooms/1932/timeto/stringproc-30715.rb"
+      "1898": 3.0,
+      "1931": 3.0,
+      "1933": 3.0,
+      "1944": 3.0,
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "node",
-      "town",
-      "supernode",
-      "meta:mapname:Teras Isle - Kharam-Dzu",
-      "meta:mapshortname:Kharam-Dzu",
-      "meta:mapcategory:Teras Isle",
-      "meta:mapcategory:Towns",
-      "urchin-access",
-      "urchin guide statue",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      3001025
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       1036,
       518,
       1066,
       548
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "meta:mapcategory:Teras Isle",
+      "meta:mapcategory:Towns",
+      "meta:mapname:Teras Isle - Kharam-Dzu",
+      "meta:mapshortname:Kharam-Dzu",
+      "no forageables",
+      "node",
+      "supernode",
+      "town",
+      "urchin guide statue",
+      "urchin-access"
+    ],
+    "uid": [
+      3001025
     ]
   }
 }

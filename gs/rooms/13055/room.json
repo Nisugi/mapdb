@@ -1,5 +1,4 @@
 {
-  "checksum": "67ffc2540f465751b09305bf8c91a634",
   "room": {
     "id": 13055,
     "title": [
@@ -15,39 +14,41 @@
     "wayto": {
       "2385": "north",
       "13056": "south",
-      "30709": "/rooms/13055/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "2385": 0.2,
       "13056": 0.2,
-      "30709": "/rooms/13055/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "consignment",
-      "soft white mushroom",
-      "withered black mushroom",
-      "black hook mushroom",
-      "white hook mushroom",
-      "blue trafel mushroom",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "urchin-access",
-      "urchin guide alchemy",
-      "alchemy",
-      "wingstem root",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      160012
-    ],
     "image": "imt-underground-1264234799.png",
     "image_coords": [
       1292,
       170,
       1302,
       180
+    ],
+    "tags": [
+      "alchemy",
+      "black mushroom",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "consignment",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-09",
+      "murdroot",
+      "red mushroom",
+      "soft mushroom",
+      "urchin guide alchemy",
+      "urchin-access",
+      "white hook mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      160012
     ]
   }
 }

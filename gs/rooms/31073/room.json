@@ -1,5 +1,4 @@
 {
-  "checksum": "363499829fb801b11b786eadaafc2b11",
   "room": {
     "id": 31073,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "29860": "/rooms/31073/wayto/stringproc-29860.rb",
+      "29860": ";e UserVars.mapdb_hinterwilds_location = 'EN';multifput 'inquire','order 1','order confirm';waitfor 'With a groan and a creak, the caravan comes to a stop.'",
       "31071": "out",
       "31074": "east"
     },
@@ -25,9 +24,9 @@
       "31074": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-11",
+      "no forageables",
       "silver-cost:29860:3000"
     ],
     "uid": [

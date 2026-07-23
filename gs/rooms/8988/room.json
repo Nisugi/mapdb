@@ -1,5 +1,4 @@
 {
-  "checksum": "30b3956461d411a1ab008a2a7919b786",
   "room": {
     "id": 8988,
     "title": [
@@ -24,20 +23,21 @@
       "8989": 0.2,
       "8995": 0.2
     },
-    "tags": [
-      "calmintha flower",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      705116
-    ],
     "image": "imt-homes-1264234799.png",
     "image_coords": [
       614,
       459,
       634,
       479
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      705116
     ]
   }
 }

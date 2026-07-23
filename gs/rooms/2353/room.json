@@ -1,5 +1,4 @@
 {
-  "checksum": "525c017a3805792ad2fffd34317793bb",
   "room": {
     "id": 2353,
     "title": [
@@ -20,19 +19,20 @@
       "2352": 0.2,
       "2354": 0.2
     },
-    "tags": [
-      "v'tull",
-      "amasalen"
-    ],
-    "uid": [
-      4047016
-    ],
     "image": "imt-temple-1512640476.png",
     "image_coords": [
       1100,
       1241,
       1262,
       1412
+    ],
+    "tags": [
+      "amasalen",
+      "no forageables",
+      "v'tull"
+    ],
+    "uid": [
+      4047016
     ]
   }
 }

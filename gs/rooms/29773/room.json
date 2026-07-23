@@ -1,5 +1,4 @@
 {
-  "checksum": "abae1990cffc72c82565e3b7cc4cbb62",
   "room": {
     "id": 29773,
     "title": [
@@ -22,21 +21,22 @@
       "29774": 0.2,
       "29776": 0.2
     },
-    "tags": [
-      "meta:mapname:Kraken's Fall - Wizard Guild",
-      "meta:mapshortname:Wizard Guild (KF)",
-      "meta:mapcategory:Kraken's Fall",
-      "meta:mapcategory:Guilds"
-    ],
-    "uid": [
-      689001
-    ],
     "image": "kf-wizardguild.png",
     "image_coords": [
       323,
       343,
       342,
       364
+    ],
+    "tags": [
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Kraken's Fall",
+      "meta:mapname:Kraken's Fall - Wizard Guild",
+      "meta:mapshortname:Wizard Guild (KF)",
+      "no forageables"
+    ],
+    "uid": [
+      689001
     ]
   }
 }

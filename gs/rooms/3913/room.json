@@ -1,5 +1,4 @@
 {
-  "checksum": "23433383795675a90b90d5b496f027ba",
   "room": {
     "id": 3913,
     "title": [
@@ -16,7 +15,7 @@
     "terrain": "none",
     "wayto": {
       "3912": "north",
-      "3914": "/rooms/3913/wayto/stringproc-3914.rb",
+      "3914": ";e fput 'search'\nmove 'go crevice'",
       "3915": "northwest",
       "3916": "west"
     },
@@ -26,6 +25,13 @@
       "3915": 0.2,
       "3916": 0.2
     },
+    "image": "wl-stronghold-1264234799.png",
+    "image_coords": [
+      747,
+      568,
+      757,
+      578
+    ],
     "tags": [
       "ironfern root",
       "meta:forage-sensed",
@@ -33,13 +39,6 @@
     ],
     "uid": [
       4292060
-    ],
-    "image": "wl-stronghold-1264234799.png",
-    "image_coords": [
-      747,
-      568,
-      757,
-      578
     ]
   }
 }

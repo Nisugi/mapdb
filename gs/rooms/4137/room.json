@@ -1,5 +1,4 @@
 {
-  "checksum": "1a92c0d0b4dbafb8757e142d8ca54abb",
   "room": {
     "id": 4137,
     "title": [
@@ -15,65 +14,66 @@
     "climate": "cold, damp",
     "terrain": "deciduous forest",
     "wayto": {
-      "4136": "/rooms/4137/wayto/stringproc-4136.rb",
-      "4138": "/rooms/4137/wayto/stringproc-4138.rb"
+      "4136": ";e loop { move 'south'; break if Room.current.id != 4137; move 'southwest'; break if Room.current.id != 4137; }",
+      "4138": ";e loop { move 'north'; break if Room.current.id != 4137; move 'northeast'; break if Room.current.id != 4137; }"
     },
     "timeto": {
-      "4136": 1,
-      "4138": 1
+      "4136": 1.0,
+      "4138": 1.0
     },
-    "tags": [
-      "tkaro root",
-      "bright red teaberry",
-      "stalk of bluebells",
-      "bright red cranberry",
-      "withered black mushroom",
-      "wild chokecherry",
-      "small wild rose",
-      "acantha leaf",
-      "wolifrew lichen",
-      "ephlox moss",
-      "sticks",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "soft white mushroom",
-      "white hook mushroom",
-      "blue trafel mushroom",
-      "wintergreen leaf",
-      "blueberries",
-      "wild gooseberry",
-      "fiddlehead fern",
-      "broken twig",
-      "wild pink geranium",
-      "sprig of wild lilac",
-      "tree bark",
-      "blue whortleberry",
-      "willow twig",
-      "yew twig",
-      "oak twig",
-      "luckbloom blossom",
-      "murdroot",
-      "twisted twig",
-      "slender twig",
-      "bolmara lichen",
-      "brostheras grass",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "dwarf billberry",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      9056
-    ],
     "image": "wl-graveyard-1264234799.png",
     "image_coords": [
       350,
       1076,
       360,
       1086
+    ],
+    "tags": [
+      "acantha leaf",
+      "angelica root",
+      "blue trafel mushroom",
+      "blue whortleberry",
+      "blueberries",
+      "bolmara lichen",
+      "bright red cranberry",
+      "bright red teaberry",
+      "broken twig",
+      "brostheras grass",
+      "dwarf bilberry",
+      "dwarf billberry",
+      "ephlox moss",
+      "fiddlehead fern",
+      "luckbloom blossom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "murdroot",
+      "oak twig",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "slender twig",
+      "soft mushroom",
+      "sprig of wild lilac",
+      "stalk of bluebells",
+      "sticks",
+      "sweetfern stalk",
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "white hook mushroom",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild pink geranium",
+      "wild rose",
+      "willow twig",
+      "wintergreen leaf",
+      "withered mushroom",
+      "wolifrew lichen",
+      "yew twig"
+    ],
+    "uid": [
+      9056
     ]
   }
 }

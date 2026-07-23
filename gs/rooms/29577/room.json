@@ -1,5 +1,4 @@
 {
-  "checksum": "1d61875b33386cd9b2eac808dae665a9",
   "room": {
     "id": 29577,
     "title": [
@@ -21,24 +20,24 @@
     "timeto": {
       "10838": 0.2
     },
-    "tags": [
-      "yabathilium fruit",
-      "strand of seaweed",
-      "murdroot",
-      "wavepetal blossom",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      2101058
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       2125,
       1241,
       2163,
       1279
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "murdroot",
+      "strand of seaweed",
+      "wavepetal blossom",
+      "yabathilium fruit"
+    ],
+    "uid": [
+      2101058
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "d0f5af28abf1bf7700adac2240871799",
   "room": {
     "id": 21688,
     "title": [
@@ -22,7 +21,7 @@
       "28230": "east"
     },
     "timeto": {
-      "279": 0.2,
+      "279": 10.0,
       "281": 0.2,
       "28225": 0.2,
       "28227": 0.2,
@@ -30,9 +29,9 @@
     },
     "tags": [
       "meta:forage-sensed",
-      "no forageables",
       "meta:forage-sensed:day:2022-09",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
     ],
     "uid": [
       336211

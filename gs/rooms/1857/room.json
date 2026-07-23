@@ -1,5 +1,4 @@
 {
-  "checksum": "7584c94c228c92b25c418411bdabeb07",
   "room": {
     "id": 1857,
     "title": [
@@ -28,20 +27,22 @@
       "1984": 0.2,
       "1990": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      3002008
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       381,
       219,
       417,
       255
+    ],
+    "tags": [
+      "lumnis donate",
+      "lumnisdonate",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "no forageables"
+    ],
+    "uid": [
+      3002008
     ]
   }
 }

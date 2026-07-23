@@ -1,5 +1,4 @@
 {
-  "checksum": "78253054674975056d596103d53ec843",
   "room": {
     "id": 2261,
     "title": [
@@ -13,27 +12,27 @@
     ],
     "location": "the Abandoned Mine",
     "wayto": {
-      "2260": "/rooms/2261/wayto/stringproc-2260.rb",
-      "2262": "/rooms/2261/wayto/stringproc-2262.rb"
+      "2260": ";e unless move 'go ferryboat'; echo 'Waiting for ferryboat...'; waitfor 'The squat ferryboat arrives at the dock with a hollow thunk.'; move 'go ferryboat'; end",
+      "2262": ";e move 'go gate'"
     },
     "timeto": {
-      "2260": 90,
+      "2260": 40.0,
       "2262": 0.2
     },
-    "tags": [
-      "ayana leaf",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-11"
-    ],
-    "uid": [
-      3005001
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       587,
       895,
       597,
       905
+    ],
+    "tags": [
+      "ayana leaf",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03"
+    ],
+    "uid": [
+      3005001
     ]
   }
 }

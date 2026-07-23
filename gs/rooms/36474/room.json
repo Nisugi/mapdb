@@ -1,0 +1,27 @@
+{
+  "room": {
+    "id": 36474,
+    "title": [
+      "[Lirafyr Cottage, Bedchamber]"
+    ],
+    "description": [
+      "The twisting staircase comes to a rest at a platform surrounded by waist-high railing, its posts resembling scaled wings of dragonflies.  Large circular windows encased within the timbered walls of this abode are placed at the north and south, offering views of the surrounding landscape down below.  Situated amongst this floating terrace is a flyrsilk-draped four-poster bed with a red oak armoire standing nearby and a suede divan resting against the southernmost window."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "Cysaegir",
+    "wayto": {
+      "36472": "go twisting staircase"
+    },
+    "timeto": {
+      "36472": 0.2
+    },
+    "tags": [
+      "private property"
+    ],
+    "uid": [
+      730104
+    ]
+  }
+}

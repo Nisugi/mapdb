@@ -1,5 +1,4 @@
 {
-  "checksum": "91ab8c3e50b9e67a7b996afb838cecd6",
   "room": {
     "id": 17133,
     "title": [
@@ -13,10 +12,12 @@
     ],
     "location": "Cysaegir",
     "wayto": {
-      "4670": "out"
+      "4670": "out",
+      "36479": "go blue door"
     },
     "timeto": {
-      "4670": 0.2
+      "4670": 0.2,
+      "36479": 0.2
     },
     "tags": [
       "no forageables"

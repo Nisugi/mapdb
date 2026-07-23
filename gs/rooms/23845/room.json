@@ -1,5 +1,4 @@
 {
-  "checksum": "8c2b386328e49a8d6cc111c09e419c32",
   "room": {
     "id": 23845,
     "title": [
@@ -15,11 +14,11 @@
     "location": "Mist Harbor",
     "wayto": {
       "23844": "go curtain",
-      "23926": "/rooms/23845/wayto/stringproc-23926.rb"
+      "23926": ";e if celerity = Spell[506] and celerity.known? and celerity.affordable? and not celerity.active?; celerity.cast; end; fput 'search'; waitrt?; fput 'go wooden trapdoor'"
     },
     "timeto": {
       "23844": 0.2,
-      "23926": 3
+      "23926": 3.0
     }
   }
 }

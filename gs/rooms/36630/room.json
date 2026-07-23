@@ -1,0 +1,28 @@
+{
+  "room": {
+    "id": 36630,
+    "title": [
+      "[Skyship, Exterior]"
+    ],
+    "description": [
+      "The path is wide, forged from dark metals fused together.  Faded flags draped along the skyship's exterior billow and catch the wind.  The path below hums with a steady vibration that emanates from somewhere within the ship.  Steam shoots from periodic gaps in the hull, ejecting out as thin, ethereal wisps of vapor that are quickly dispersed into the dark."
+    ],
+    "paths": [
+      "Obvious paths: northeast, southwest"
+    ],
+    "location": false,
+    "wayto": {
+      "36573": "go lift",
+      "36631": "southwest",
+      "36635": "northeast"
+    },
+    "timeto": {
+      "36573": 0.2,
+      "36631": 0.2,
+      "36635": 0.2
+    },
+    "uid": [
+      12102095
+    ]
+  }
+}

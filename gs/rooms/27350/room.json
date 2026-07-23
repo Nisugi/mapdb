@@ -1,5 +1,4 @@
 {
-  "checksum": "510a2e7ed2fe97e36ef95308193abbf4",
   "room": {
     "id": 27350,
     "title": [
@@ -14,16 +13,17 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "12394": "go out",
-      "30715": "/rooms/27350/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "12394": 0.2,
-      "30715": "/rooms/27350/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "collectibles",
-      "urchin-access",
-      "urchin guide collectibles"
+      "no forageables",
+      "urchin guide collectibles",
+      "urchin-access"
     ],
     "uid": [
       3003175

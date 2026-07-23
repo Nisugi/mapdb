@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36378,
+    "title": [
+      "[Black Swan Castle, Shed]"
+    ],
+    "description": [
+      "The shed is old and dilapidated.  Dozens of spears aged well past the point of usefulness lean up against a dented and rusted metal cabinet.  Corroded metal spheres and round boulders used for catapult ammunition have been stacked neatly in place, but are covered in a heavy layer of dust and have obviously been neglected for a long time."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36358": "out"
+    },
+    "timeto": {
+      "36358": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      600,
+      360,
+      640,
+      400
+    ],
+    "uid": [
+      55051
+    ]
+  }
+}

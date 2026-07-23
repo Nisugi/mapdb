@@ -1,5 +1,4 @@
 {
-  "checksum": "8042ae9e51c34c349e5c4f1e81a9b85c",
   "room": {
     "id": 9652,
     "title": [
@@ -14,28 +13,28 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "3619": "north",
-      "26905": "/rooms/9652/wayto/stringproc-26905.rb",
-      "31558": "/rooms/9652/wayto/stringproc-31558.rb"
+      "26905": ";e 2.times{fput \"event transport duskruin\"};UserVars.mapdb_duskruin_origin = 9652;",
+      "31558": ";e 2.times{fput \"event transport ebon gate\"};UserVars.mapdb_ebon_gate_origin = 9652;"
     },
     "timeto": {
       "3619": 0.2,
       "26905": 2400,
-      "31558": "/rooms/9652/timeto/stringproc-31558.rb"
+      "31558": ";e Time.now.month == 10 ? 2400 : nil"
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:teleport"
-    ],
-    "uid": [
-      3007
-    ],
     "image": "wl-gates-1264234799.png",
     "image_coords": [
       658,
       251,
       668,
       261
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:teleport",
+      "no forageables"
+    ],
+    "uid": [
+      3007
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "dbb8b0a881872328a69592570b53c8fc",
   "room": {
     "id": 25902,
     "title": [
@@ -14,25 +13,27 @@
     "location": "Summit Academy",
     "wayto": {
       "25903": "go path",
-      "28088": "north"
+      "28088": "north",
+      "36527": "go tower"
     },
     "timeto": {
       "25903": 0.2,
-      "28088": 0.2
+      "28088": 0.2,
+      "36527": 0.2
     },
+    "image": "fest-RW2026.png",
+    "image_coords": [
+      296,
+      659,
+      322,
+      685
+    ],
     "tags": [
       "exit"
     ],
+    "check_location": false,
     "uid": [
       8211001
-    ],
-    "image": "fest-RW2023-1687094965.png",
-    "image_coords": [
-      146,
-      768,
-      175,
-      797
-    ],
-    "check_location": false
+    ]
   }
 }

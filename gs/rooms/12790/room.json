@@ -1,5 +1,4 @@
 {
-  "checksum": "34cf8ef36ef231b94f80f8869383b41d",
   "room": {
     "id": 12790,
     "title": [
@@ -15,28 +14,28 @@
     "wayto": {
       "12789": "out",
       "12791": "climb stairway",
-      "30715": "/rooms/12790/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "12789": 0.2,
       "12791": 0.2,
-      "30715": "/rooms/12790/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "chronomage",
-      "urchin-access",
-      "urchin guide chronomages",
-      "no forageables"
-    ],
-    "uid": [
-      3012002
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       289,
       1101,
       325,
       1137
+    ],
+    "tags": [
+      "chronomage",
+      "no forageables",
+      "urchin guide chronomages",
+      "urchin-access"
+    ],
+    "uid": [
+      3012002
     ]
   }
 }

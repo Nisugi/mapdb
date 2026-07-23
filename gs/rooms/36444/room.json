@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36444,
+    "title": [
+      "[Dungeon, Green Tunnel]"
+    ],
+    "description": [
+      "The walls are thickly coated in some disgustingly smelly substance that glows a strangely luminescent green.  The entire tunnel here is slowly, but perceptibly rotating clockwise, spinning just enough so that one has to slowly step to the side every once in a while in order to properly stand upright.  Barely loud enough to be heard, you can perceive the sound of rock sliding smoothly against rock."
+    ],
+    "paths": [
+      "Obvious exits: north, west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36442": "west",
+      "36445": "north"
+    },
+    "timeto": {
+      "36442": 0.2,
+      "36445": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      2240,
+      680,
+      2280,
+      720
+    ],
+    "uid": [
+      58056
+    ]
+  }
+}

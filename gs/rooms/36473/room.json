@@ -1,0 +1,29 @@
+{
+  "room": {
+    "id": 36473,
+    "title": [
+      "[Lirafyr Cottage, Breakfast Nook]"
+    ],
+    "description": [
+      "Double raised paneling lines the walls of this small room with hand-carvings along the upper trim line, the pattern cascading downwards to eventually fade about mid-way down.  Encroaching the majority of the southern wall is a large bay window, while pressed up against it is a square dinette table with some matching chairs.  Stark in contrast to the otherwise dark wood-paneled room is a pale green door to the east, while a small crystal bar sits in the northeast corner."
+    ],
+    "paths": [
+      "Obvious exits: north"
+    ],
+    "location": "Cysaegir",
+    "wayto": {
+      "36471": "north",
+      "36475": "go green door"
+    },
+    "timeto": {
+      "36471": 0.2,
+      "36475": 0.2
+    },
+    "tags": [
+      "private property"
+    ],
+    "uid": [
+      730102
+    ]
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "checksum": "1c1055421d9156cce6544e718ae5ab85",
   "room": {
     "id": 30733,
     "title": [
@@ -19,22 +18,23 @@
     },
     "timeto": {
       "5412": 0.2,
-      "26723": 240,
+      "26723": 240.0,
       "30732": 0.2
     },
-    "tags": [
-      "publiclockers",
-      "public locker"
-    ],
-    "uid": [
-      4219338
-    ],
     "image": "vo-warehouse_lockers-1485119080.png",
     "image_coords": [
       584,
       1083,
       686,
       1134
+    ],
+    "tags": [
+      "no forageables",
+      "public locker",
+      "publiclockers"
+    ],
+    "uid": [
+      4219338
     ]
   }
 }

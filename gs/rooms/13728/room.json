@@ -1,5 +1,4 @@
 {
-  "checksum": "eadbe508d4748b83680da956ba030258",
   "room": {
     "id": 13728,
     "title": [
@@ -20,19 +19,22 @@
     },
     "timeto": {
       "10761": 0.2,
-      "13729": "/rooms/13728/timeto/stringproc-13729.rb",
+      "13729": ";e ((!defined?(Stats.gender) or Stats.gender == 'Male') ? 0.2 : nil);",
       "13730": 0.2,
-      "33307": "/rooms/13728/timeto/stringproc-33307.rb"
+      "33307": ";e ((!defined?(Stats.gender) or Stats.gender == 'Female') ? 0.2 : nil);"
     },
-    "uid": [
-      287104
-    ],
     "image": "en-vaalor-bard-guild.png",
     "image_coords": [
       189,
       278,
       207,
       299
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      287104
     ]
   }
 }

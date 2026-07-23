@@ -1,5 +1,4 @@
 {
-  "checksum": "ad06f71edbf67fa147d5b7b6b9b32e62",
   "room": {
     "id": 30590,
     "title": [
@@ -15,18 +14,18 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "6021": "out",
-      "30713": "/rooms/30590/wayto/stringproc-30713.rb",
+      "30713": ";e true",
       "32367": "go baker's door"
     },
     "timeto": {
       "6021": 0.2,
-      "30713": "/rooms/30590/timeto/stringproc-30713.rb",
+      "30713": ";e Map[7].timeto['30714'].call;",
       "32367": 0.2
     },
     "tags": [
+      "stable",
       "urchin guide stable",
-      "urchin-access",
-      "stable"
+      "urchin-access"
     ],
     "uid": [
       12009001

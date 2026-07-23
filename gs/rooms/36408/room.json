@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36408,
+    "title": [
+      "[Dungeon, Grand Staff Room]"
+    ],
+    "description": [
+      "You are in a large, square room constructed of a cold, grey stone.  The ceiling is remarkably low, and the walls appear coated with some sort of slick substance that glistens in the light.  You also see a stone pedestal in the center of the room with an elaborately crafted staff seemingly jammed upright between the pedestal and the low stone ceiling."
+    ],
+    "paths": [
+      "Obvious exits: south"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36407": "south"
+    },
+    "timeto": {
+      "36407": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1360,
+      600,
+      1400,
+      640
+    ],
+    "uid": [
+      58014
+    ]
+  }
+}

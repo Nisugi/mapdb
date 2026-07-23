@@ -1,5 +1,4 @@
 {
-  "checksum": "f58d93ea19cbcd6faa8d876b4d616e8a",
   "room": {
     "id": 30581,
     "title": [
@@ -14,18 +13,18 @@
     "location": "the Graveyard",
     "wayto": {
       "7626": "crawl out",
-      "30582": "/rooms/30581/wayto/stringproc-30582.rb"
+      "30582": ";e fput 'lie' until checkprone; result = dothistimeout 'search',3, /staircase/ until result;waitrt?;fput 'stand' until standing?;waitrt?;fput 'go staircase'"
     },
     "timeto": {
       "7626": 0.2,
-      "30582": 12
+      "30582": 12.0
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-11",
       "meta:map:ignore-blanks",
-      "meta:nomagic"
+      "meta:nomagic",
+      "no forageables"
     ],
     "uid": [
       312200

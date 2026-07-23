@@ -1,5 +1,4 @@
 {
-  "checksum": "2f2ac5946d3d3b07be1b187af1ffc2c3",
   "room": {
     "id": 14808,
     "title": [
@@ -14,14 +13,15 @@
     "location": "Kharam-Dzu",
     "wayto": {
       "14807": "go curtain",
-      "30715": "/rooms/14808/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "14807": 0.2,
-      "30715": "/rooms/14808/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "cobbling",
+      "no forageables",
       "urchin guide cobbling",
       "urchin-access"
     ],

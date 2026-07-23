@@ -1,5 +1,4 @@
 {
-  "checksum": "acbb292064ccea9719a2b05e53068d0d",
   "room": {
     "id": 26906,
     "title": [
@@ -11,23 +10,23 @@
     "paths": [
       "Obvious paths: none"
     ],
-    "location": "Journey's End, inside the elven city of Ta'Illistim",
+    "location": "Solhaven",
     "wayto": {
       "25996": "go ladder"
     },
     "timeto": {
       "25996": 0.2
     },
-    "tags": [
-      "willow",
-      "private property"
-    ],
-    "image": "JourneysEnd.jpg",
+    "image": "Journeys_End.jpg",
     "image_coords": [
-      341,
-      244,
-      462,
-      306
+      562,
+      70,
+      584,
+      119
+    ],
+    "tags": [
+      "private property",
+      "willow"
     ]
   }
 }

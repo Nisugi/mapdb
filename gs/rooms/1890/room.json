@@ -1,5 +1,4 @@
 {
-  "checksum": "84ffc761e31ba143aa95d2013748af7b",
   "room": {
     "id": 1890,
     "title": [
@@ -15,17 +14,18 @@
     "wayto": {
       "1884": "out",
       "1891": "east",
-      "30715": "/rooms/1890/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1884": 0.2,
       "1891": 0.2,
-      "30715": "/rooms/1890/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "gemshop",
-      "urchin-access",
-      "urchin guide gemshop"
+      "no forageables",
+      "urchin guide gemshop",
+      "urchin-access"
     ],
     "uid": [
       3003096

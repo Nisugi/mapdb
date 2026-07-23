@@ -1,5 +1,4 @@
 {
-  "checksum": "805628b2dac8dafab57dc8c28aceff9c",
   "room": {
     "id": 13259,
     "title": [
@@ -19,18 +18,19 @@
     "timeto": {
       "13255": 0.2
     },
-    "tags": [
-      "house clerk"
-    ],
-    "uid": [
-      13112014
-    ],
     "image": "en-ta_illistim_buildings.png",
     "image_coords": [
       386,
       577,
       439,
       627
+    ],
+    "tags": [
+      "house clerk",
+      "no forageables"
+    ],
+    "uid": [
+      13112014
     ]
   }
 }

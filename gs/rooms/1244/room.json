@@ -1,5 +1,4 @@
 {
-  "checksum": "bcdc36458232805b3195daa33c658bb8",
   "room": {
     "id": 1244,
     "title": [
@@ -18,19 +17,20 @@
     "timeto": {
       "233": 0.2
     },
-    "tags": [
-      "clericshop",
-      "meta:teleport:fwi"
-    ],
-    "uid": [
-      2038
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       511,
       882,
       541,
       912
+    ],
+    "tags": [
+      "clericshop",
+      "meta:teleport:fwi",
+      "no forageables"
+    ],
+    "uid": [
+      2038
     ]
   }
 }

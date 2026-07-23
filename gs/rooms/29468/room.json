@@ -1,5 +1,4 @@
 {
-  "checksum": "49658ee9b24f17e2132073febedbe189",
   "room": {
     "id": 29468,
     "title": [
@@ -16,27 +15,28 @@
       "28964": "east",
       "28969": "go red door",
       "29469": "west",
-      "30716": "/rooms/29468/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28964": 0.2,
       "28969": 0.2,
       "29469": 0.2,
-      "30716": "/rooms/29468/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access",
-      "urchin guide weddinghall"
-    ],
-    "uid": [
-      7121006
-    ],
     "image": "kf-inking_den-1615857364.png",
     "image_coords": [
       208,
       598,
       236,
       622
+    ],
+    "tags": [
+      "no forageables",
+      "urchin guide weddinghall",
+      "urchin-access"
+    ],
+    "uid": [
+      7121006
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "23dd08a467aa631bc2d79aba8d47e8d7",
   "room": {
     "id": 14663,
     "title": [
@@ -18,19 +17,19 @@
       "9406": "go door",
       "13961": "climb stair",
       "16727": "east",
-      "30712": "/rooms/14663/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "9406": 0.2,
       "13961": 0.2,
       "16727": 0.2,
-      "30712": "/rooms/14663/timeto/stringproc-30712.rb"
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "urchin-access",
-      "urchin guide temple",
+      "meta:nomagic",
       "no forageables",
-      "meta:nomagic"
+      "urchin guide temple",
+      "urchin-access"
     ],
     "uid": [
       13010030

@@ -1,5 +1,4 @@
 {
-  "checksum": "1bdbae21775a4ce7323e96006933ab6f",
   "room": {
     "id": 5612,
     "title": [
@@ -14,20 +13,20 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "4610": "go doorway",
-      "30708": "/rooms/5612/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "4610": 0.2,
-      "30708": "/rooms/5612/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "locksmith",
-      "urchin-access",
-      "urchin guide locksmith",
-      "no forageables",
+      "locksmith shop",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-11",
-      "locksmith shop"
+      "no forageables",
+      "urchin guide locksmith",
+      "urchin-access"
     ],
     "uid": [
       3024

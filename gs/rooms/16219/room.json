@@ -1,5 +1,4 @@
 {
-  "checksum": "579f7a338599df773c23af9e1078ca8b",
   "room": {
     "id": 16219,
     "title": [
@@ -18,21 +17,21 @@
     "timeto": {
       "16119": 0.2
     },
-    "tags": [
-      "agave heart",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01",
-      "meta:nomagic"
-    ],
-    "uid": [
-      5007006
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       1598,
       657,
       1620,
       679
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "meta:nomagic",
+      "no forageables"
+    ],
+    "uid": [
+      5007006
     ]
   }
 }

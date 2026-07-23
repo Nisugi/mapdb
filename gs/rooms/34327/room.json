@@ -1,5 +1,4 @@
 {
-  "checksum": "fddb90e38b4e984c9c687f2dc6d907c1",
   "room": {
     "id": 34327,
     "title": [
@@ -22,23 +21,25 @@
       "34326": 0.2,
       "34328": 0.2
     },
-    "tags": [
-      "broken twig",
-      "wild chokecherry",
-      "cabbage rose",
-      "virescent rose",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2024-05"
-    ],
-    "uid": [
-      13150309
-    ],
     "image": "en-zul_logoth-storm_peaks-1703220375.png",
     "image_coords": [
       1450,
       261,
       1467,
       278
+    ],
+    "tags": [
+      "broken twig",
+      "cabbage rose",
+      "golden mushroom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "virescent rose",
+      "wild chokecherry"
+    ],
+    "uid": [
+      13150309
     ]
   }
 }

@@ -1,0 +1,30 @@
+{
+  "room": {
+    "id": 36607,
+    "title": [
+      "[Skyship, Refuse]"
+    ],
+    "description": [
+      "A thin layer of an inky black liquid covers the floor of a wide, flat room.  Bits of garbage, skeletal remains, other debris of varying size extend out of this liquid across the area.  The metal bulkheads are slick with moisture and stuck with loose organic material.  A wide series of votives attached to the ceiling cast a dim, flickering light.  The room is otherwise spare, excepting a single red metal button upon the ceiling, adjacent to the votives, and a jagged crack in the bulkhead."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": false,
+    "wayto": {
+      "36611": "go crack"
+    },
+    "timeto": {
+      "36611": 0.2
+    },
+    "tags": [
+      "Node",
+      "node",
+      "Sanctuary",
+      "sanctuary"
+    ],
+    "uid": [
+      12102162
+    ]
+  }
+}

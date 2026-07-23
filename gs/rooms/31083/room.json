@@ -1,5 +1,4 @@
 {
-  "checksum": "2d22add17a0b5343849edacebbe6f098",
   "room": {
     "id": 31083,
     "title": [
@@ -14,28 +13,28 @@
     "location": "the Hinterwilds",
     "wayto": {
       "29869": "go greying doors",
-      "34399": "/rooms/31083/wayto/stringproc-34399.rb"
+      "34399": ";e true"
     },
     "timeto": {
       "29869": 0.2,
-      "34399": "/rooms/31083/timeto/stringproc-34399.rb"
+      "34399": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "cave moss",
+      "ironfern root",
       "locksmith pool",
       "locksmithpool",
-      "meta:boxpool:table:slanted pinewood table",
       "meta:boxpool:npc:grimy halfling scoundrel",
-      "meta:trashcan:ramshackle wicker wastebin",
-      "wolifrew lichen",
-      "withered black mushroom",
-      "cave moss",
-      "murdroot",
-      "ironfern root",
-      "wingstem root",
-      "urchin-access",
-      "urchin guide locksmithpool",
+      "meta:boxpool:table:slanted pinewood table",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2025-03"
+      "meta:forage-sensed:day:2026-03",
+      "meta:trashcan:ramshackle wicker wastebin",
+      "murdroot",
+      "urchin guide locksmithpool",
+      "urchin-access",
+      "wingstem root",
+      "withered mushroom",
+      "wolifrew lichen"
     ],
     "uid": [
       7503261

@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36471,
+    "title": [
+      "[Lirafyr Cottage, Kitchenette]"
+    ],
+    "description": [
+      "Paneled, dark-stained walls enclose this small kitchen; countertops line the eastern wall along with a rhimar-lined box, cooking stove, and sink.  Matching counters make up an island in the center of the room with a silver trashbin resting against it, and a small brass chandelier hangs overhead surrounded by pots and pans.  Through a double-arch to the south is a little breakfast nook with a bay window, while a matching archway to the north leads into a library carved out of the base of the sequoia tree."
+    ],
+    "paths": [
+      "Obvious exits: north, south"
+    ],
+    "location": "Cysaegir",
+    "wayto": {
+      "4636": "go red door",
+      "36472": "north",
+      "36473": "south"
+    },
+    "timeto": {
+      "4636": 0.2,
+      "36472": 0.2,
+      "36473": 0.2
+    },
+    "tags": [
+      "private property"
+    ],
+    "uid": [
+      730101
+    ]
+  }
+}

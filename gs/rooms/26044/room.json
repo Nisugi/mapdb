@@ -1,5 +1,4 @@
 {
-  "checksum": "8fc7c2267a44f22249553fc07a7553ba",
   "room": {
     "id": 26044,
     "title": [
@@ -18,20 +17,21 @@
     "timeto": {
       "10317": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09",
-      "house clerk"
-    ],
-    "uid": [
-      14104110
-    ],
     "image": "en-ta_vaalor-wyverns_keep-1488759285.png",
     "image_coords": [
       1091,
       185,
       1230,
       245
+    ],
+    "tags": [
+      "house clerk",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-09",
+      "no forageables"
+    ],
+    "uid": [
+      14104110
     ]
   }
 }

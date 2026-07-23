@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36628,
+    "title": [
+      "[Skyship, Research Entry]"
+    ],
+    "description": [
+      "The room is largely unadorned, spare, and open, consisting of painted pure white metal bulkheads with a matching floor and ceiling.  A stone relief mounted to the bulkhead on the area's far side and is the sole distinguishing decoration.  The floor's pale, sterile grey coloration is notably marred by numerous metallic crimson stains, drag marks leading in every possible direction."
+    ],
+    "paths": [
+      "Obvious exits: north, east"
+    ],
+    "location": false,
+    "wayto": {
+      "36611": "east",
+      "36615": "north"
+    },
+    "timeto": {
+      "36611": 0.2,
+      "36615": 0.2
+    },
+    "uid": [
+      12102051
+    ]
+  }
+}

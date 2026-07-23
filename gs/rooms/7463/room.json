@@ -1,5 +1,4 @@
 {
-  "checksum": "2afddd312315784cfe40ca36660942fb",
   "room": {
     "id": 7463,
     "title": [
@@ -13,29 +12,29 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "7462": "/rooms/7463/wayto/stringproc-7462.rb",
-      "7464": "/rooms/7463/wayto/stringproc-7464.rb"
+      "7462": ";e fput 'kneel' unless kneeling? or (Stats.race =~ /Dwarf|Halfling|Gnome/); move 'northeast'",
+      "7464": ";e fput 'kneel' unless kneeling? or (Stats.race =~ /Dwarf|Halfling|Gnome/); move 'southwest'"
     },
     "timeto": {
       "7462": 0.2,
       "7464": 0.2
     },
-    "tags": [
-      "some cave moss",
-      "sponge mushroom",
-      "some blackened moss",
-      "some glowing green lichen",
-      "magru"
-    ],
-    "uid": [
-      94006
-    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       834,
       907,
       844,
       917
+    ],
+    "tags": [
+      "magru",
+      "some blackened moss",
+      "some cave moss",
+      "some glowing green lichen",
+      "sponge mushroom"
+    ],
+    "uid": [
+      94006
     ]
   }
 }

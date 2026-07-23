@@ -1,0 +1,37 @@
+{
+  "room": {
+    "id": 36396,
+    "title": [
+      "[Dungeon, Corridor]"
+    ],
+    "description": [
+      "In stark contrast to the gleaming silver silver archway, this corridor has been made of large, heavy dark stone.  The sturdiness of the walls, however, has not prevented someone or something from burrowing a large hole right into one wall.  Bits of limestone rubble and other debris lie scattered around as testament to this endeavor, creating a bit of a walking hazard.  An elaborate fresco has been painted on the opposite wall, drawing the eye to its bold colors and demented imagery."
+    ],
+    "paths": [
+      "Obvious exits: south"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36395": "go silver arch",
+      "36397": "go hole",
+      "36398": "south",
+      "36401": ";e fput 'search'; sleep 0.5;waitrt?; move('go mouth')"
+    },
+    "timeto": {
+      "36395": 0.2,
+      "36397": 0.2,
+      "36398": 0.2,
+      "36401": 3.0
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1560,
+      520,
+      1600,
+      560
+    ],
+    "uid": [
+      58002
+    ]
+  }
+}

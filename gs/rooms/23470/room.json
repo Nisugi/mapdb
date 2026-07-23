@@ -1,5 +1,4 @@
 {
-  "checksum": "92477434260b0381c1ba9b9fc255b234",
   "room": {
     "id": 23470,
     "title": [
@@ -14,7 +13,7 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "23469": "crawl passage",
-      "23471": "/rooms/23470/wayto/stringproc-23471.rb"
+      "23471": ";e fput \"search\";fput \"stand\";move \"go hidden door\""
     },
     "timeto": {
       "23469": 0.2,

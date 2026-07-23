@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36530,
+    "title": [
+      "[Sylinar's Spire, Laboratory]"
+    ],
+    "description": [
+      "Cool air spills through shuttered windows set deep into the stone, their panels drawn wide to reveal the frost-bound landscape of Summit Academy.  Long worktables crowd the space, cluttered with glass alembics, stained vials, and scorched instruments marked by years of trial.  At one end, a low hearth, when lit, aids in pushing back the deep chill of the air that seeps through the open windows.  Covering the stone floor, a worn rug lies mottled with old burns and faint chemical stains."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "Summit Academy",
+    "wayto": {
+      "36529": "go door"
+    },
+    "timeto": {
+      "36529": 0.2
+    },
+    "uid": [
+      8211201
+    ]
+  }
+}

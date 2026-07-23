@@ -1,5 +1,4 @@
 {
-  "checksum": "2f6e2fb834749f692daa2562ec3414f2",
   "room": {
     "id": 28935,
     "title": [
@@ -16,18 +15,19 @@
     "wayto": {
       "28908": "out",
       "28936": "east",
-      "30716": "/rooms/28935/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28908": 0.2,
       "28936": 0.2,
-      "30716": "/rooms/28935/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "urchin guide locksmith",
-      "urchin-access",
       "locksmith",
-      "locksmith shop"
+      "locksmith shop",
+      "no forageables",
+      "urchin guide locksmith",
+      "urchin-access"
     ],
     "uid": [
       7118381

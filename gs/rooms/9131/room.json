@@ -1,5 +1,4 @@
 {
-  "checksum": "924bcbaf5a57030137695c7784c31dc3",
   "room": {
     "id": 9131,
     "title": [
@@ -22,19 +21,20 @@
       "9132": 0.2,
       "9135": 0.2
     },
-    "tags": [
-      "some wingstem root",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4045238
-    ],
     "image": "imt-underground-1264234799.png",
     "image_coords": [
       109,
       913,
       119,
       923
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "wingstem root"
+    ],
+    "uid": [
+      4045238
     ]
   }
 }

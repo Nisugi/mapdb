@@ -1,26 +1,23 @@
 {
-  "checksum": "953aacb29bf127970f747c620a67f0e6",
   "room": {
     "id": 15836,
     "title": [
-      "[Niadja's Magic Shoppe]",
-      "[Niadja's Outfitting]"
+      "[Lymseia's Weaponry]"
     ],
     "description": [
-      "A tropical bloom wreath hangs on one of the dark oak walls, and an oak-framed ceiling rises overhead.  A well-pruned lemon tree sits in one corner of a russet oak floor.  There is a vine-carved mahogany table on one side of the shop and a floral-etched ceramic case on the other.",
-      "A russet oak-framed portrait hangs on one of the dark oak walls, and an oak-framed ceiling rises overhead.  A well-pruned lemon tree sits in one corner of a russet oak floor.  There is a vine-carved mahogany table on one side of the shop and a floral-etched ceramic case on the other."
+      "Refined oak-paneled walls rise from a varnished dark oak floor.  Just above a woven Vornavian silk rug hangs a multihued Vornavian silk tapestry, and a dark and light oak ceiling completes the picture.  A Vornavian silk-covered table and an elegant silver jewelry rack stand side by side in the middle of the room."
     ],
     "paths": [
-      "Obvious exits: east, southwest, out"
+      "Obvious exits: north, east, out"
     ],
-    "location": "Icemule Trace",
+    "location": "Solhaven",
     "wayto": {
-      "2377": "out",
-      "15848": "southwest",
-      "15849": "east"
+      "9021": "out",
+      "15848": "east",
+      "15849": "north"
     },
     "timeto": {
-      "2377": 0.2,
+      "9021": 0.2,
       "15848": 0.2,
       "15849": 0.2
     },

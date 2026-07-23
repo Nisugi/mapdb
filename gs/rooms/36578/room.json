@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36578,
+    "title": [
+      "[Skyship, Cages]"
+    ],
+    "description": [
+      "The area is sparse except for collections of debris that includes torn, bloodstained clothing, stripped skeletal remains, fur, and unidentifiable organic matter.  These collections are piled as small nests, pushed together, flattened, and discrete.  The lanterns that hang overhead and provide lighting for the area have been largely torn down, casting shadows across the room."
+    ],
+    "paths": [
+      "Obvious exits: north, south"
+    ],
+    "location": false,
+    "wayto": {
+      "36577": "south",
+      "36579": "north"
+    },
+    "timeto": {
+      "36577": 0.2,
+      "36579": 0.2
+    },
+    "uid": [
+      12102085
+    ]
+  }
+}

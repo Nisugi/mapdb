@@ -1,5 +1,4 @@
 {
-  "checksum": "b141a841664f96ab0034efcc5cacc3cd",
   "room": {
     "id": 29778,
     "title": [
@@ -24,20 +23,21 @@
       "29781": 0.2,
       "30612": 0.2
     },
-    "tags": [
-      "wizard alchemy masters",
-      "wizard guild masters",
-      "wizard alchemy training cauldron"
-    ],
-    "uid": [
-      689013
-    ],
     "image": "kf-wizardguild.png",
     "image_coords": [
       163,
       404,
       182,
       423
+    ],
+    "tags": [
+      "no forageables",
+      "wizard alchemy masters",
+      "wizard alchemy training cauldron",
+      "wizard guild masters"
+    ],
+    "uid": [
+      689013
     ]
   }
 }

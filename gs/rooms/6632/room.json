@@ -1,5 +1,4 @@
 {
-  "checksum": "39a283e16716817c149a15340d685c40",
   "room": {
     "id": 6632,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "6631": "/rooms/6632/wayto/stringproc-6631.rb",
+      "6631": ";e if celerity = Spell[506] and celerity.known? and celerity.affordable? and not celerity.active?; celerity.cast; end; until dothistimeout('search', 3, /anything of interest|concealed door/) =~ /concealed door/ do end; move 'go door'",
       "6633": "west",
       "6635": "southwest"
     },
@@ -22,15 +21,15 @@
       "6633": 0.2,
       "6635": 0.2
     },
-    "uid": [
-      487012
-    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       304,
       1073,
       314,
       1083
+    ],
+    "uid": [
+      487012
     ]
   }
 }

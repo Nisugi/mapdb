@@ -1,5 +1,4 @@
 {
-  "checksum": "d13c9a3907c2fa45c58e5afe18d7caba",
   "room": {
     "id": 902,
     "title": [
@@ -15,32 +14,32 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "901": "/rooms/902/wayto/stringproc-901.rb",
+      "901": ";e move 'go crevasse'; waitrt?",
       "903": "southwest"
     },
     "timeto": {
-      "901": 3,
+      "901": 3.0,
       "903": 0.2
     },
-    "tags": [
-      "white hook mushroom",
-      "cave moss",
-      "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "meta:forage-sensed:day:2023-11"
-    ],
-    "uid": [
-      13015071
-    ],
     "image": "en-whistlers_pass-1639036092.png",
     "image_coords": [
       438,
       218,
       448,
       228
+    ],
+    "tags": [
+      "bolmara lichen",
+      "cave moss",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "white hook mushroom",
+      "wingstem root"
+    ],
+    "uid": [
+      13015071
     ]
   }
 }

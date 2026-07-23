@@ -1,5 +1,4 @@
 {
-  "checksum": "6ed4de1b0b2d343299d216f19adcfa26",
   "room": {
     "id": 16404,
     "title": [
@@ -14,16 +13,16 @@
     "location": "Mist Harbor",
     "wayto": {
       "16403": "go door",
-      "30718": "/rooms/16404/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "16403": 0.2,
-      "30718": "/rooms/16404/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "urchin-access",
+      "lighthouse",
       "urchin guide lighthouse",
-      "lighthouse"
+      "urchin-access"
     ],
     "uid": [
       3204011

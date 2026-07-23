@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36685,
+    "title": [
+      "[Nyessem, Fire-lit Caverns]"
+    ],
+    "description": [
+      "Recessed into the porous walls, a small fire cheerily parts the gloom of the cavern and sends its grey smoke up through a chimney fashioned of cracked stalagmites.  Smooth stones, some large enough to sit upon, dot the area, while fish bones gleam bright white in the dark.  A large rhimar-lined chest stands ready to use by local \"fishermen.\""
+    ],
+    "paths": [
+      "Obvious exits: north, east, south"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36683": "east",
+      "36684": "south",
+      "36686": "north"
+    },
+    "timeto": {
+      "36683": 0.2,
+      "36684": 0.2,
+      "36686": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      599,
+      810,
+      617,
+      823
+    ],
+    "uid": [
+      8400503
+    ]
+  }
+}

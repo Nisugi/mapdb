@@ -1,5 +1,4 @@
 {
-  "checksum": "028601f8b0848d11f926c9331a7a035d",
   "room": {
     "id": 25971,
     "title": [
@@ -13,29 +12,29 @@
     ],
     "location": "the town of Wehnimer's Landing",
     "wayto": {
-      "25861": "/rooms/25971/wayto/stringproc-25861.rb",
-      "25972": "/rooms/25971/wayto/stringproc-25972.rb",
-      "25973": "/rooms/25971/wayto/stringproc-25973.rb"
+      "25861": ";e move 'go passage'",
+      "25972": ";e move 'go door'",
+      "25973": ";e move 'go southwest'"
     },
     "timeto": {
       "25861": 0.2,
       "25972": 0.2,
       "25973": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      336014
-    ],
     "image": "wl-stone_baths-1487292814.png",
     "image_coords": [
       208,
       1197,
       352,
       1255
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "no forageables"
+    ],
+    "uid": [
+      336014
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "0504fb1f885e44eadf162f476defb880",
   "room": {
     "id": 1961,
     "title": [
@@ -14,12 +13,15 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "1958": "up",
-      "23927": "/rooms/1961/wayto/stringproc-23927.rb"
+      "23927": ";e fput 'pull bin'; fput 'open trapdoor'; move 'go trapdoor'"
     },
     "timeto": {
       "1958": 0.2,
       "23927": 0.6
     },
+    "tags": [
+      "no forageables"
+    ],
     "uid": [
       3003053
     ]

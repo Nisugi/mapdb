@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36374,
+    "title": [
+      "[Black Swan Castle, Tower]"
+    ],
+    "description": [
+      "This is the lookout floor of the tower.  A spiral black marble stair winds its way down in the center, while a granite platform carved into the walls allows access to the north and east doors, and the south and west windows, for watches and emergencies."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36373": "go stair",
+      "36384": "go east door",
+      "36386": "go north door"
+    },
+    "timeto": {
+      "36373": 0.2,
+      "36384": 0.2,
+      "36386": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      200,
+      680,
+      240,
+      720
+    ],
+    "uid": [
+      55046
+    ]
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "checksum": "a0895ef473ffcb8b04363aef4856327b",
   "room": {
     "id": 1074,
     "title": [
@@ -16,36 +15,36 @@
     "climate": "cold, dry",
     "terrain": "barren scrub",
     "wayto": {
-      "1073": "/rooms/1074/wayto/stringproc-1073.rb",
+      "1073": ";e $group_members = nil;clear.reverse.each { |line|;  if line =~ /^Obvious (paths|exits)/;    break;  elsif line =~ /^([A-Za-z ,]+) followed\\.$/;    $group_members = $1.split(/, | and /);    $group_members.delete_if { |m| m =~ /^[Yy]our / };    $group_members = nil if $group_members.empty?;    break;  end;};empty_hands;move 'climb ladder';waitrt?",
       "1075": "southeast"
     },
     "timeto": {
-      "1073": 30,
+      "1073": 30.0,
       "1075": 0.2
     },
-    "tags": [
-      "sunburst blossom",
-      "meta:forage-sensed",
-      "cothinar flower",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "stalk of chicory",
-      "broken twig",
-      "moonlight cactus-bloom",
-      "sprig of larkspur",
-      "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed:night:2023-02"
-    ],
-    "uid": [
-      13001038
-    ],
     "image": "en-trail-1264234799.png",
     "image_coords": [
       1247,
       720,
       1257,
       730
+    ],
+    "tags": [
+      "bright red teaberry",
+      "broken twig",
+      "cothinar flower",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-02",
+      "moonlight cactus-bloom",
+      "sprig of larkspur",
+      "stalk of chicory",
+      "sunburst blossom",
+      "wingstem root",
+      "wintergreen leaf"
+    ],
+    "uid": [
+      13001038
     ]
   }
 }

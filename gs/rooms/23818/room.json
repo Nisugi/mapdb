@@ -1,5 +1,4 @@
 {
-  "checksum": "afa11227a48291bcac9b6cd815c4b02c",
   "room": {
     "id": 23818,
     "title": [
@@ -14,16 +13,17 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "3503": "go out",
-      "30713": "/rooms/23818/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3503": 0.2,
-      "30713": "/rooms/23818/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "collectibles",
-      "urchin-access",
-      "urchin guide collectibles"
+      "no forageables",
+      "urchin guide collectibles",
+      "urchin-access"
     ],
     "uid": [
       14103475

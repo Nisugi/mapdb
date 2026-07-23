@@ -1,5 +1,4 @@
 {
-  "checksum": "b411a0ac984fc33566921709728ff110",
   "room": {
     "id": 29208,
     "title": [
@@ -20,30 +19,33 @@
       "29207": 0.2,
       "29209": 0.2
     },
-    "tags": [
-      "soft white mushroom",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "black hook mushroom",
-      "flathead mushroom",
-      "blue trafel mushroom",
-      "blackened moss",
-      "green lichen",
-      "cave moss",
-      "sponge mushroom",
-      "murdroot",
-      "bolmara lichen",
-      "wingstem root"
-    ],
-    "uid": [
-      7127020
-    ],
     "image": "kf-krakens_fall-1648278406.png",
     "image_coords": [
       794,
       581,
       804,
       589
+    ],
+    "tags": [
+      "black mushroom",
+      "blackened moss",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "cave moss",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "glowing green lichen",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "red mushroom",
+      "soft mushroom",
+      "sponge mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      7127020
     ]
   }
 }

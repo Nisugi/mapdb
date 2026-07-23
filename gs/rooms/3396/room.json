@@ -1,5 +1,4 @@
 {
-  "checksum": "b6dd2384223df3cd032a7b1c203a4122",
   "room": {
     "id": 3396,
     "title": [
@@ -24,18 +23,19 @@
       "30607": 0.2,
       "33180": 0.2
     },
-    "tags": [
-      "peer door =~ /Silvergate Inn|Twilight Hall/"
-    ],
-    "uid": [
-      7121204
-    ],
     "image": "kf-inking_den-1615857364.png",
     "image_coords": [
       603,
       408,
       632,
       438
+    ],
+    "tags": [
+      "no forageables",
+      "peer door =~ /Silvergate Inn|Twilight Hall/"
+    ],
+    "uid": [
+      7121204
     ]
   }
 }

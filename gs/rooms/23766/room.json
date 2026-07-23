@@ -1,5 +1,4 @@
 {
-  "checksum": "5a86003eb8f199ac6655da8e17f71a6a",
   "room": {
     "id": 23766,
     "title": [
@@ -15,22 +14,27 @@
     "wayto": {
       "23767": "north",
       "26885": "go iron portcullis",
-      "33578": "/rooms/23766/wayto/stringproc-33578.rb"
+      "33578": ";e true"
     },
     "timeto": {
       "23767": 0.2,
       "26885": 0.2,
-      "33578": "/rooms/23766/timeto/stringproc-33578.rb"
+      "33578": ";e Map[7].timeto['30714'].call;"
     },
-    "uid": [
-      8213001
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       1425,
       793,
       1443,
       810
+    ],
+    "tags": [
+      "eboard",
+      "endlesswall",
+      "endwall"
+    ],
+    "uid": [
+      8213001
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "d0f1d045b19f88e084af1df4ee01f87e",
   "room": {
     "id": 3265,
     "title": [
@@ -24,32 +23,29 @@
       "3266": 0.2,
       "3271": 0.2
     },
-    "tags": [
-      "sassafras leaf",
-      "some arctic moss",
-      "winter rose",
-      "sweetfern stalk",
-      "some angelica root",
-      "frostflower",
-      "some valerian root",
-      "some pennyroyal stem",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "arctic moss",
-      "meta:forage-sensed",
-      "ironfern root",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      4127006
-    ],
     "image": "imt-east_west_north_gates-1668398077.png",
     "image_coords": [
       342,
       410,
       352,
       420
+    ],
+    "tags": [
+      "angelica root",
+      "arctic moss",
+      "frostflower",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-09",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sweetfern stalk",
+      "valerian root",
+      "winter rose"
+    ],
+    "uid": [
+      4127006
     ]
   }
 }

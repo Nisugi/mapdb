@@ -1,5 +1,4 @@
 {
-  "checksum": "c9ab983e7260f060761e59e1dad147a3",
   "room": {
     "id": 32572,
     "title": [
@@ -15,17 +14,17 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "32570": "/rooms/32572/wayto/stringproc-32570.rb",
-      "32573": "/rooms/32572/wayto/stringproc-32573.rb"
+      "32570": ";e if Spell[112].active?; move 'west';else; move 'swim west';end",
+      "32573": ";e if Spell[112].active?; move 'east';else; move 'swim east';end"
     },
     "timeto": {
       "32570": 3.2,
       "32573": 3.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
+      "meta:forage-sensed:day:2023-01",
+      "no forageables"
     ],
     "uid": [
       336811

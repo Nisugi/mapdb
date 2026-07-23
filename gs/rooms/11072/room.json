@@ -1,5 +1,4 @@
 {
-  "checksum": "26b7da108960a2a9025e19ea8da2db61",
   "room": {
     "id": 11072,
     "title": [
@@ -20,22 +19,22 @@
       "11071": 0.2,
       "11073": 0.2
     },
-    "tags": [
-      "murdroot",
-      "wingstem root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      26106
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       4367,
       1013,
       4389,
       1034
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "murdroot",
+      "wingstem root"
+    ],
+    "uid": [
+      26106
     ]
   }
 }

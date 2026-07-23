@@ -1,5 +1,4 @@
 {
-  "checksum": "ba051163f46cb185fdc3d8031f2e053c",
   "room": {
     "id": 29556,
     "title": [
@@ -14,18 +13,23 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28924": "out",
-      "30716": "/rooms/29556/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28924": 0.2,
-      "30716": "/rooms/29556/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "bright pink protea",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "mho hall",
       "mho hall board",
-      "urchin-access",
+      "stalk of bluebells",
+      "townhall",
       "urchin guide townhall",
-      "townhall"
+      "urchin-access",
+      "wild sage"
     ],
     "uid": [
       850001

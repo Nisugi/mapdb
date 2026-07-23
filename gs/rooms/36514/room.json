@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36514,
+    "title": [
+      "[The Webs We Weave]"
+    ],
+    "description": [
+      "Verdant suede-leafed foliage decorates the honeycomb-cut bronze cabinets angled in various corners of the shop, the wall-high partitions interconnected by a series of nakheva-woven webs.  A rectangular table of desert ironwood graces the far wall, its fine-grained surface lined with clusters of jewel-crafted bouquets arranged in riverglass vases."
+    ],
+    "paths": [
+      "Obvious exits: north, out"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "29705": "out",
+      "36515": "north"
+    },
+    "timeto": {
+      "29705": 0.2,
+      "36515": 0.2
+    },
+    "uid": [
+      8209608
+    ]
+  }
+}

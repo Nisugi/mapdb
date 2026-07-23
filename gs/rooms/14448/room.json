@@ -1,5 +1,4 @@
 {
-  "checksum": "b2d249aa2e7e0d20c02f4230db224993",
   "room": {
     "id": 14448,
     "title": [
@@ -22,7 +21,7 @@
       "14647": "go green arch",
       "19947": "go gold arch",
       "19950": "go staircase",
-      "20054": "/rooms/14448/wayto/stringproc-20054.rb"
+      "20054": ";e fput \"search\";fput \"climb steps\""
     },
     "timeto": {
       "235": 0.2,
@@ -32,24 +31,24 @@
       "19950": 0.2,
       "20054": 0.2
     },
-    "tags": [
-      "meta:mapname:Wehnimer's Landing - Museum",
-      "meta:mapshortname:Museum",
-      "meta:mapcategory:Wehnimer's Landing",
-      "meta:teleport:fwi",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      28101
-    ],
     "image": "wl-museum-1487435869.png",
     "image_coords": [
       898,
       1494,
       1040,
       1556
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:mapcategory:Wehnimer's Landing",
+      "meta:mapname:Wehnimer's Landing - Museum",
+      "meta:mapshortname:Museum",
+      "meta:teleport:fwi",
+      "no forageables"
+    ],
+    "uid": [
+      28101
     ]
   }
 }

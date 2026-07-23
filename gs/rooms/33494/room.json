@@ -1,5 +1,4 @@
 {
-  "checksum": "db848aafdb6b9136c44852ba8e9cbeb0",
   "room": {
     "id": 33494,
     "title": [
@@ -16,23 +15,27 @@
       "27981": "northwest",
       "28024": "go ebony tent",
       "33495": "southeast",
-      "33540": "go dingy tent"
+      "33540": "go dingy tent",
+      "36482": "go patchwork wagon",
+      "36488": "go linen-canopied wagon"
     },
     "timeto": {
       "27981": 0.2,
       "28024": 0.2,
       "33495": 0.2,
-      "33540": 0.2
+      "33540": 0.2,
+      "36482": 0.2,
+      "36488": 0.2
     },
+    "image": "fest-RW2026.png",
+    "image_coords": [
+      833,
+      610,
+      855,
+      631
+    ],
     "uid": [
       8208761
-    ],
-    "image": "fest-RW2023-1687094965.png",
-    "image_coords": [
-      319,
-      651,
-      349,
-      681
     ]
   }
 }

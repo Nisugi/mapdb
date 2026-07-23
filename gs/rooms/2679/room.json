@@ -1,5 +1,4 @@
 {
-  "checksum": "3b08ae8185592f973c67862f3bbd6a2f",
   "room": {
     "id": 2679,
     "title": [
@@ -15,41 +14,41 @@
     "climate": "glacial",
     "terrain": "mountainous",
     "wayto": {
-      "2678": "/rooms/2679/wayto/stringproc-2678.rb",
+      "2678": ";e 8.times { if celerity = Spell[506] and celerity.known? and celerity.affordable? and not celerity.active?; celerity.cast; end; dothistimeout 'search', 3, /You make a careful search of the area and discover a narrow icy ledge!|You don't find anything of interest here./; break if move 'go ledge' }",
       "2680": "northeast"
     },
     "timeto": {
       "2678": 0.4,
       "2680": 0.2
     },
-    "tags": [
-      "sassafras leaf",
-      "sweetfern stalk",
-      "red lichen",
-      "feverfern stalk",
-      "gok nut",
-      "manroot stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "wyrmwood bark",
-      "daggit root",
-      "arctic moss",
-      "red winterberry",
-      "meta:forage-sensed",
-      "ironfern root",
-      "sunburst blossom",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      4561129
-    ],
     "image": "imt-pinefar-1264234799.png",
     "image_coords": [
       831,
       501,
       841,
       511
+    ],
+    "tags": [
+      "angelica root",
+      "arctic moss",
+      "daggit root",
+      "feverfern stalk",
+      "gok nut",
+      "ironfern root",
+      "manroot stalk",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "pennyroyal stem",
+      "red lichen",
+      "red winterberry",
+      "sassafras leaf",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wyrmwood bark"
+    ],
+    "uid": [
+      4561129
     ]
   }
 }

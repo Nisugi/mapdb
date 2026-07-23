@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36410,
+    "title": [
+      "[Dungeon, Chamber]"
+    ],
+    "description": [
+      "The faint sound of rushing water rises from the sturdy iron grate set into the center of the floor.  The room is flanked on the north and south by two identical trapezoid-shaped doors."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36409": "go south door",
+      "36411": "go north door"
+    },
+    "timeto": {
+      "36409": 0.2,
+      "36411": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1240,
+      560,
+      1280,
+      600
+    ],
+    "uid": [
+      58017
+    ]
+  }
+}

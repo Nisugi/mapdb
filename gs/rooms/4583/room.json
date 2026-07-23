@@ -1,5 +1,4 @@
 {
-  "checksum": "f6373afa5fe3dcb815803175f683b40e",
   "room": {
     "id": 4583,
     "title": [
@@ -14,14 +13,15 @@
     "location": "Solhaven",
     "wayto": {
       "1500": "climb wall",
-      "4584": "/rooms/4583/wayto/stringproc-4584.rb"
+      "4584": ";e fput 'push gargoyl'; fput 'push letter i'; fput 'push letter w'; fput 'push letter n'; fput 'push letter b'; fput 'push letter t'; fput 'push letter c'; move 'go door'"
     },
     "timeto": {
       "1500": 0.2,
       "4584": 1.6
     },
     "tags": [
-      "meta:nomagic"
+      "meta:nomagic",
+      "no forageables"
     ],
     "uid": [
       4220010

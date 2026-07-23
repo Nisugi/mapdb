@@ -1,5 +1,4 @@
 {
-  "checksum": "a7598ba50dadd0288f7ab1d3d4b491c5",
   "room": {
     "id": 3652,
     "title": [
@@ -21,20 +20,20 @@
       "12291": "go doors",
       "16303": "east",
       "17514": "north",
-      "30718": "/rooms/3652/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "3651": 0.2,
       "12291": 0.2,
       "16303": 0.2,
       "17514": 0.2,
-      "30718": "/rooms/3652/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "urchin-access",
-      "urchin guide townhall",
+      "meta:nomagic",
       "townhall",
-      "meta:nomagic"
+      "urchin guide townhall",
+      "urchin-access"
     ],
     "uid": [
       3204012

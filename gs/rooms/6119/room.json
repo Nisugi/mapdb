@@ -1,5 +1,4 @@
 {
-  "checksum": "0a9b223b27327afd1831319efe331eca",
   "room": {
     "id": 6119,
     "title": [
@@ -16,46 +15,46 @@
     "terrain": "mountainous",
     "wayto": {
       "6110": "climb wall",
-      "6120": "/rooms/6119/wayto/stringproc-6120.rb"
+      "6120": ";e move 'jump chasm'; waitrt?"
     },
     "timeto": {
       "6110": 0.2,
       "6120": 0.2
     },
-    "tags": [
-      "stalk of bluebells",
-      "cuctucae berry",
-      "wild pink geranium",
-      "golden aster",
-      "marallis berry",
-      "sassafras leaf",
-      "sprig of larkspur",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:mapname:Wehnimer's Landing - Wehntoph",
-      "meta:mapshortname:Wehntoph",
-      "meta:mapcategory:Wehnimer's Landing",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "dwarf billberry",
-      "meta:forage-sensed:day:2025-05",
-      "dwarf bilberry",
-      "meta:forage-sensed:night:2025-06"
-    ],
-    "uid": [
-      495001
-    ],
     "image": "wl-wehntoph-1310775397.png",
     "image_coords": [
       1577,
       26,
       1613,
       62
+    ],
+    "tags": [
+      "angelica root",
+      "bolmara lichen",
+      "cuctucae berry",
+      "dwarf bilberry",
+      "dwarf billberry",
+      "golden aster",
+      "ironfern root",
+      "marallis berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2025-05",
+      "meta:forage-sensed:night:2025-06",
+      "meta:mapcategory:Wehnimer's Landing",
+      "meta:mapname:Wehnimer's Landing - Wehntoph",
+      "meta:mapshortname:Wehntoph",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sprig of larkspur",
+      "stalk of bluebells",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wild pink geranium",
+      "wingstem root"
+    ],
+    "uid": [
+      495001
     ]
   }
 }

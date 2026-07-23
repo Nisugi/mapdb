@@ -1,5 +1,4 @@
 {
-  "checksum": "0b83a9f4f5ac6e282efc14af5ec3f3bb",
   "room": {
     "id": 10915,
     "title": [
@@ -16,35 +15,35 @@
     "wayto": {
       "10911": "out",
       "18895": "east",
-      "30711": "/rooms/10915/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "10911": 0.2,
       "18895": 0.2,
-      "30711": "/rooms/10915/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "advguard",
-      "urchin-access",
-      "urchin guide debts",
-      "urchin guide guard",
-      "urchin guide purser",
-      "debts",
-      "guard",
-      "purser",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09",
-      "meta:nomagic"
-    ],
-    "uid": [
-      2101906
-    ],
     "image_coords": [
       761,
       674,
       787,
       700
+    ],
+    "tags": [
+      "advguard",
+      "debts",
+      "guard",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:nomagic",
+      "no forageables",
+      "purser",
+      "urchin guide debts",
+      "urchin guide guard",
+      "urchin guide purser",
+      "urchin-access"
+    ],
+    "uid": [
+      2101906
     ]
   }
 }

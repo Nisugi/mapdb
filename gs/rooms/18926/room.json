@@ -1,5 +1,4 @@
 {
-  "checksum": "57a94476d862e981c7a5e58c50751f6b",
   "room": {
     "id": 18926,
     "title": [
@@ -13,23 +12,23 @@
     ],
     "location": "the Coastal Cliffs",
     "wayto": {
-      "18112": "/rooms/18926/wayto/stringproc-18112.rb"
+      "18112": ";e loop { wait_until { Spell[704].affordable? }; result = cast(704, 'banner'); break unless result =~ /Spell Hindrance/ } "
     },
     "timeto": {
       "18112": 0.2
     },
-    "tags": [
-      "sorcerer guild shop"
-    ],
-    "uid": [
-      661014
-    ],
     "image": "wl-sorcerer_guild-1405076623.png",
     "image_coords": [
       343,
       759,
       384,
       799
+    ],
+    "tags": [
+      "sorcerer guild shop"
+    ],
+    "uid": [
+      661014
     ]
   }
 }

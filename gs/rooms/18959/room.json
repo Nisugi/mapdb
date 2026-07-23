@@ -1,5 +1,4 @@
 {
-  "checksum": "7124f17ca9366c659877e640bd1883c6",
   "room": {
     "id": 18959,
     "title": [
@@ -15,22 +14,22 @@
     "wayto": {
       "18957": "climb east staircase",
       "18960": "climb west staircase",
-      "18976": "/rooms/18959/wayto/stringproc-18976.rb"
+      "18976": ";e loop { wait_until { Spell[704].affordable? }; result = cast(704, 'banner'); break unless result =~ /Spell Hindrance/ } "
     },
     "timeto": {
       "18957": 0.2,
       "18960": 0.2,
       "18976": 0.2
     },
-    "uid": [
-      660004
-    ],
     "image": "imt-sorcerer_guild-1405076623.png",
     "image_coords": [
       642,
       605,
       680,
       642
+    ],
+    "uid": [
+      660004
     ]
   }
 }

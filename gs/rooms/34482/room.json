@@ -1,5 +1,4 @@
 {
-  "checksum": "1591676ccc302b0390a85f27b66cac3f",
   "room": {
     "id": 34482,
     "title": [
@@ -15,12 +14,14 @@
     "wayto": {
       "34481": "south",
       "34483": "north",
-      "34486": "go sandalwood door"
+      "34486": "go sandalwood door",
+      "36511": "go stained door"
     },
     "timeto": {
       "34481": 0.2,
       "34483": 0.2,
-      "34486": 0.2
+      "34486": 0.2,
+      "36511": 0.2
     },
     "uid": [
       8211353

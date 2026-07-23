@@ -1,5 +1,4 @@
 {
-  "checksum": "bcbb4aee253308886b4ce999f8482dbe",
   "room": {
     "id": 18249,
     "title": [
@@ -13,10 +12,10 @@
     ],
     "location": "somewhere on the Great Western Sea",
     "wayto": {
-      "18262": "/rooms/18249/wayto/stringproc-18262.rb",
+      "18262": ";e Map[18700].wayto['18250'].call;",
       "18700": "west",
       "24853": "north",
-      "25463": "/rooms/18249/wayto/stringproc-25463.rb"
+      "25463": ";e fput \"say lalk gno'ap renqua to!'\";move ('go arch');"
     },
     "timeto": {
       "18262": 0.2,
@@ -24,6 +23,13 @@
       "24853": 0.2,
       "25463": 0.2
     },
+    "image": "quest-troubled_waters.png",
+    "image_coords": [
+      628,
+      445,
+      651,
+      465
+    ],
     "tags": [
       "meta:mapcategory:Quests",
       "meta:mapname:Quests - Troubled Waters",
@@ -31,13 +37,6 @@
     ],
     "uid": [
       4031030
-    ],
-    "image": "quest-troubled_waters.png",
-    "image_coords": [
-      628,
-      445,
-      651,
-      465
     ]
   }
 }

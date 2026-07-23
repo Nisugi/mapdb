@@ -1,5 +1,4 @@
 {
-  "checksum": "967e5f6f23c0e72ff0a28ece89a7bab7",
   "room": {
     "id": 7978,
     "title": [
@@ -19,19 +18,20 @@
     "timeto": {
       "396": 0.2
     },
-    "tags": [
-      "meta:teleport:fwi",
-      "house clerk"
-    ],
-    "uid": [
-      2058
-    ],
     "image": "wl-moot_hall-1486755929.png",
     "image_coords": [
       592,
       320,
       733,
       380
+    ],
+    "tags": [
+      "house clerk",
+      "meta:teleport:fwi",
+      "no forageables"
+    ],
+    "uid": [
+      2058
     ]
   }
 }

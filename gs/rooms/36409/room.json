@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36409,
+    "title": [
+      "[Dungeon, Chamber]"
+    ],
+    "description": [
+      "The air in this chamber is cool and damp.  In the center of the floor is a sturdy iron grate.  Nothing but darkness can be seen through the slightly rusted bars, but far away, you can hear the sound of rushing water.  Little else is remarkable about the room save for two identical trapezoid-shaped, east and north doors."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36407": "go east door",
+      "36410": "go north door"
+    },
+    "timeto": {
+      "36407": 0.2,
+      "36410": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1240,
+      680,
+      1280,
+      720
+    ],
+    "uid": [
+      58016
+    ]
+  }
+}

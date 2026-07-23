@@ -1,5 +1,4 @@
 {
-  "checksum": "41be1f7733c59c65c0089a87459bdaa4",
   "room": {
     "id": 20847,
     "title": [
@@ -20,15 +19,19 @@
       "20845": 0.2,
       "20848": 0.2
     },
-    "uid": [
-      214007
-    ],
     "image": "wo-obsidian-tower-1626034546.png",
     "image_coords": [
       618,
       967,
       675,
       1022
+    ],
+    "tags": [
+      "meta:che:obsidian_tower:entrance_annex",
+      "meta:che:obsidian_tower:entrance_che"
+    ],
+    "uid": [
+      214007
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "7b8ba6bcf4ccacac5d1e4945f6268381",
   "room": {
     "id": 6355,
     "title": [
@@ -22,15 +21,20 @@
       "6332": 0.2,
       "6356": 0.2
     },
-    "uid": [
-      681024
-    ],
     "image": "wl-wizard_guild.jpg",
     "image_coords": [
       109,
       614,
       161,
       664
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      681024
     ]
   }
 }

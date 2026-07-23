@@ -1,5 +1,4 @@
 {
-  "checksum": "730d2aab90b014b14dd77d6799aabcad",
   "room": {
     "id": 29749,
     "title": [
@@ -20,21 +19,22 @@
     "timeto": {
       "29748": 0.2,
       "29750": 0.2,
-      "32756": 240
+      "32756": 240.0
     },
-    "tags": [
-      "publiclockers",
-      "public locker"
-    ],
-    "uid": [
-      7121104
-    ],
     "image": "kf-inking_den-1615857364.png",
     "image_coords": [
       151,
       413,
       181,
       437
+    ],
+    "tags": [
+      "no forageables",
+      "public locker",
+      "publiclockers"
+    ],
+    "uid": [
+      7121104
     ]
   }
 }

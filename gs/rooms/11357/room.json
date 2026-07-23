@@ -1,5 +1,4 @@
 {
-  "checksum": "22dd160b03c5e8c5110c77f09feacfd9",
   "room": {
     "id": 11357,
     "title": [
@@ -15,46 +14,46 @@
     "climate": "arid",
     "terrain": "rough",
     "wayto": {
-      "11355": "/rooms/11357/wayto/stringproc-11355.rb",
-      "11358": "/rooms/11357/wayto/stringproc-11358.rb"
+      "11355": ";e save_stance = XMLData.stance_text;fput 'stance offensive' if save_stance != 'offensive';move('climb wall');fput \"stance #{save_stance}\" if save_stance != XMLData.stance_text;;$go2_restart = true;",
+      "11358": ";e while XMLData.room_title == '[Ravine Bottom]'; fput 'search'; move 'climb footholds'; waitrt?; end; fill_hands"
     },
     "timeto": {
       "11355": 0.2,
-      "11358": 3
+      "11358": 3.0
     },
-    "tags": [
-      "yellow primrose",
-      "broken twig",
-      "cactus flower",
-      "stalk of chicory",
-      "white poppy",
-      "moonlight cactus-bloom",
-      "pink poppy",
-      "heath aster",
-      "purple poppy",
-      "blue poppy",
-      "red poppy",
-      "yellow poppy",
-      "golden poppy",
-      "small wild rose",
-      "meta:forage-sensed",
-      "pepperthorn root",
-      "banana leaf",
-      "horseradish root",
-      "ghost pepper",
-      "hot pepper",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      377017
-    ],
     "image": "rr-citadel-1717856937.png",
     "image_coords": [
       236,
       1338,
       248,
       1350
+    ],
+    "tags": [
+      "banana leaf",
+      "blue poppy",
+      "broken twig",
+      "cactus flower",
+      "ghost pepper",
+      "golden poppy",
+      "heath aster",
+      "horseradish root",
+      "hot pepper",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "moonlight cactus-bloom",
+      "pepperthorn root",
+      "pink poppy",
+      "purple poppy",
+      "red poppy",
+      "stalk of chicory",
+      "white poppy",
+      "wild rose",
+      "yellow poppy",
+      "yellow primrose"
+    ],
+    "uid": [
+      377017
     ]
   }
 }

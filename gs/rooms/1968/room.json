@@ -1,5 +1,4 @@
 {
-  "checksum": "006bc79f7ff45a1454b435f5c37fec79",
   "room": {
     "id": 1968,
     "title": [
@@ -24,21 +23,22 @@
       "1971": 0.2,
       "18073": 0.2
     },
-    "tags": [
-      "meta:mapname:Teras Isle - Wizard Guild",
-      "meta:mapshortname:Wizard Guild (KD)",
-      "meta:mapcategory:Teras Isle",
-      "meta:mapcategory:Guilds"
-    ],
-    "uid": [
-      682002
-    ],
     "image": "ti-wizard_guild.png",
     "image_coords": [
       533,
       533,
       599,
       597
+    ],
+    "tags": [
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Teras Isle",
+      "meta:mapname:Teras Isle - Wizard Guild",
+      "meta:mapshortname:Wizard Guild (KD)",
+      "no forageables"
+    ],
+    "uid": [
+      682002
     ]
   }
 }

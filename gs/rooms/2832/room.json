@@ -1,5 +1,4 @@
 {
-  "checksum": "14df3f28487d842c3a71842335cd335e",
   "room": {
     "id": 2832,
     "title": [
@@ -15,51 +14,51 @@
     "climate": "snowy, arctic",
     "terrain": "mountainous",
     "wayto": {
-      "2830": "/rooms/2832/wayto/stringproc-2830.rb",
+      "2830": ";e empty_hands; move 'climb slope'; fill_hands",
       "2833": "go entrance"
     },
     "timeto": {
-      "2830": 1,
+      "2830": 1.0,
       "2833": 0.2
     },
-    "tags": [
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "edelweiss",
-      "iceblossoms",
-      "snow lily",
-      "winter rose",
-      "arctic moss",
-      "tundra grass",
-      "golden aster",
-      "calamintha blossom",
-      "snowberries",
-      "pale thornberry",
-      "red winterberry",
-      "small loganberry",
-      "rockberry",
-      "crowberry",
-      "lingonberry",
-      "orange rowanberry",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "wingstem root",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      4563008
-    ],
     "image": "imt-pinefar-1264234799.png",
     "image_coords": [
       563,
       1232,
       575,
       1244
+    ],
+    "tags": [
+      "angelica root",
+      "arctic moss",
+      "bolmara lichen",
+      "calamintha blossom",
+      "crowberry",
+      "edelweiss",
+      "golden aster",
+      "iceblossoms",
+      "ironfern root",
+      "lingonberry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "orange rowanberry",
+      "pale thornberry",
+      "pennyroyal stem",
+      "red winterberry",
+      "rockberry",
+      "sassafras leaf",
+      "small loganberry",
+      "snow lily",
+      "snowberries",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "tundra grass",
+      "valerian root",
+      "wingstem root",
+      "winter rose"
+    ],
+    "uid": [
+      4563008
     ]
   }
 }

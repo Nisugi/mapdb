@@ -1,5 +1,4 @@
 {
-  "checksum": "8fb33a8703e765b3c5aaa56cce5caa35",
   "room": {
     "id": 6268,
     "title": [
@@ -16,40 +15,42 @@
     "terrain": "rough",
     "wayto": {
       "6265": "east",
-      "6269": "southwest"
+      "6269": "southwest",
+      "36594": "go hut"
     },
     "timeto": {
       "6265": 0.2,
-      "6269": 0.2
+      "6269": 0.2,
+      "36594": 0.2
     },
-    "tags": [
-      "wintergreen leaf",
-      "wild strawberry",
-      "bright red teaberry",
-      "blueberries",
-      "stalk of chicory",
-      "wild gooseberry",
-      "fiddlehead fern",
-      "broken twig",
-      "sprig of larkspur",
-      "small wild rose",
-      "wild chokecherry",
-      "ironfern root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "leafy arugula",
-      "kobold",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      373007
-    ],
     "image": "wl-gates-1264234799.png",
     "image_coords": [
       175,
       400,
       185,
       410
+    ],
+    "tags": [
+      "blueberries",
+      "bright red teaberry",
+      "broken twig",
+      "fiddlehead fern",
+      "ironfern root",
+      "kobold",
+      "leafy arugula",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "sprig of larkspur",
+      "stalk of chicory",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild rose",
+      "wild strawberry",
+      "wintergreen leaf"
+    ],
+    "uid": [
+      373007
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "33f083d63f3bbac156d5244d0c040e29",
   "room": {
     "id": 23780,
     "title": [
@@ -16,28 +15,28 @@
     "wayto": {
       "23779": "south",
       "26387": "down",
-      "33578": "/rooms/23780/wayto/stringproc-33578.rb"
+      "33578": ";e true"
     },
     "timeto": {
       "23779": 0.2,
       "26387": 0.2,
-      "33578": "/rooms/23780/timeto/stringproc-33578.rb"
+      "33578": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "node",
-      "arena",
-      "meta:mapcategory:Events and Festivals",
-      "meta:mapname:Duskruin"
-    ],
-    "uid": [
-      8213015
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       1423,
       258,
       1444,
       277
+    ],
+    "tags": [
+      "arena",
+      "meta:mapcategory:Events and Festivals",
+      "meta:mapname:Duskruin",
+      "node"
+    ],
+    "uid": [
+      8213015
     ]
   }
 }

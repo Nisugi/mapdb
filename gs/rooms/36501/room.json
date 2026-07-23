@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36501,
+    "title": [
+      "[Chitinous Creations, Common]"
+    ],
+    "description": [
+      "Thick iron-linked chains suspend a myriad of glass lanterns above the room, highlighting the oiled mahogany platforms staggered against the parchment-covered walls.  Tall multi-drawer chests frame each mechanical mount, the slightly ajar containers filled with wrenches, pliers, and other polished instruments alongside copper flasks filled with oil.  Sets of ring-bound instructions hang from a clockwork-framed corkboard, the various booklets written in a variety of languages."
+    ],
+    "paths": [
+      "Obvious exits: northeast, southwest"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "36500": "southwest",
+      "36502": "northeast"
+    },
+    "timeto": {
+      "36500": 0.2,
+      "36502": 0.2
+    },
+    "uid": [
+      8209457
+    ]
+  }
+}

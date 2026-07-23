@@ -1,5 +1,4 @@
 {
-  "checksum": "fca4796c5b95c835e818fd37683e736d",
   "room": {
     "id": 9503,
     "title": [
@@ -14,30 +13,30 @@
     "location": "Zul Logoth",
     "wayto": {
       "9415": "out",
-      "30712": "/rooms/9503/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "9415": 0.2,
-      "30712": "/rooms/9503/timeto/stringproc-30712.rb"
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "jail",
-      "no forageables",
-      "meta:forage-sensed",
-      "urchin-access",
-      "urchin guide justice",
-      "justice",
-      "meta:nomagic"
-    ],
-    "uid": [
-      13010020
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       659,
       719,
       669,
       729
+    ],
+    "tags": [
+      "jail",
+      "justice",
+      "meta:forage-sensed",
+      "meta:nomagic",
+      "no forageables",
+      "urchin guide justice",
+      "urchin-access"
+    ],
+    "uid": [
+      13010020
     ]
   }
 }

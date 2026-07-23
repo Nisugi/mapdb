@@ -1,5 +1,4 @@
 {
-  "checksum": "289295dd0b1ea1dc1a870dd802ddca37",
   "room": {
     "id": 13163,
     "title": [
@@ -30,15 +29,22 @@
       "16927": 0.2,
       "16928": 0.2
     },
-    "uid": [
-      688015
-    ],
     "image": "en-zul-wizard_guild-1648064027.png",
     "image_coords": [
       279,
       787,
       342,
       846
+    ],
+    "tags": [
+      "daggerstalk mushroom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "pepperthorn root",
+      "trafel mushroom"
+    ],
+    "uid": [
+      688015
     ]
   }
 }

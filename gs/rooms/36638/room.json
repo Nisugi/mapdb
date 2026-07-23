@@ -1,0 +1,35 @@
+{
+  "room": {
+    "id": 36638,
+    "title": [
+      "[Brayern Isle, Docks]"
+    ],
+    "description": [
+      "The sky and horizon are obscured, both caught in the electric blue haze of the distant mana storm.  The docks here are new, built from polished blue-green wood and still bearing partially unpacked crates from construction.  Beneath, thick circular pilings drive down into bright blue waters that gently lap against an ebon, volcanic stone-laden shore.  Longboats are tied against these pilings, hewn from the same blue-green wood as the docks.  A long bridge over the water leads ashore."
+    ],
+    "paths": [
+      "Obvious paths: east, west"
+    ],
+    "location": "Brayern Isle",
+    "wayto": {
+      "36637": "west",
+      "36639": "east",
+      "36640": "go bridge"
+    },
+    "timeto": {
+      "36637": 0.2,
+      "36639": 0.2,
+      "36640": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      851,
+      1481,
+      869,
+      1498
+    ],
+    "uid": [
+      8400200
+    ]
+  }
+}

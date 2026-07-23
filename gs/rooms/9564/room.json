@@ -1,5 +1,4 @@
 {
-  "checksum": "44c663e0abe282b09d2e456d65d57dd9",
   "room": {
     "id": 9564,
     "title": [
@@ -17,41 +16,42 @@
     "wayto": {
       "9563": "east",
       "9565": "west",
-      "30712": "/rooms/9564/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "9563": 0.2,
       "9565": 0.2,
-      "30712": "/rooms/9564/timeto/stringproc-30712.rb"
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "consignment",
-      "soft white mushroom",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "genkew mushroom",
-      "blue trafel mushroom",
-      "pepperthorn root",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "urchin-access",
-      "urchin guide alchemy",
-      "alchemy",
-      "wingstem root",
-      "meta:forage-sensed:night:2023-02"
-    ],
-    "uid": [
-      160022
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       1118,
       605,
       1144,
       631
+    ],
+    "tags": [
+      "alchemy",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "consignment",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "murdroot",
+      "pepperthorn root",
+      "soft mushroom",
+      "urchin guide alchemy",
+      "urchin-access",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      160022
     ]
   }
 }

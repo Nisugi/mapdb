@@ -1,5 +1,4 @@
 {
-  "checksum": "ae586df16f336cc3517188e4d916d440",
   "room": {
     "id": 4688,
     "title": [
@@ -15,13 +14,13 @@
     "location": "Cysaegir",
     "wayto": {
       "4687": "northwest",
-      "26096": "/rooms/4688/wayto/stringproc-26096.rb",
-      "26097": "/rooms/4688/wayto/stringproc-26097.rb",
-      "26105": "/rooms/4688/wayto/stringproc-26105.rb",
-      "26106": "/rooms/4688/wayto/stringproc-26106.rb",
-      "26107": "/rooms/4688/wayto/stringproc-26107.rb",
+      "26096": ";e table = \"gold wing\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "26097": ";e table = \"silver wing\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "26105": ";e table = \"chartreuse wing\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "26106": ";e table = \"sienna wing\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "26107": ";e table = \"teal wing\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
       "29540": "go mahogany bar",
-      "30717": "/rooms/4688/wayto/stringproc-30717.rb"
+      "30717": ";e true"
     },
     "timeto": {
       "4687": 0.2,
@@ -31,15 +30,15 @@
       "26106": 0.2,
       "26107": 0.2,
       "29540": 0.2,
-      "30717": "/rooms/4688/timeto/stringproc-30717.rb"
+      "30717": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "table",
-      "no forageables",
       "meta:forage-sensed",
-      "urchin-access",
+      "no forageables",
+      "table",
+      "tables",
       "urchin guide tables",
-      "tables"
+      "urchin-access"
     ],
     "uid": [
       14051018

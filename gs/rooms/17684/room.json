@@ -1,5 +1,4 @@
 {
-  "checksum": "283bdeb7576a190baa212f6453449361",
   "room": {
     "id": 17684,
     "title": [
@@ -14,25 +13,25 @@
     "location": "the town of River's Rest",
     "wayto": {
       "10951": "go door",
-      "17682": "/rooms/17684/wayto/stringproc-17682.rb"
+      "17682": ";e fput 'search'; waitrt?; fput 'search'; move 'go trapdoor'"
     },
     "timeto": {
-      "10951": 5,
+      "10951": 5.0,
       "17682": 3.4
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      2101952
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       954,
       1005,
       992,
       1042
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables"
+    ],
+    "uid": [
+      2101952
     ]
   }
 }

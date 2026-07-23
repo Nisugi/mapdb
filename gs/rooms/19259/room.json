@@ -1,5 +1,4 @@
 {
-  "checksum": "402ba63b565a648f7d1ce50dd45c7976",
   "room": {
     "id": 19259,
     "title": [
@@ -13,22 +12,22 @@
     ],
     "location": "Icemule Trace",
     "wayto": {
-      "19258": "/rooms/19259/wayto/stringproc-19258.rb",
+      "19258": ";e fput 'pull small lever'",
       "19260": "go curtain"
     },
     "timeto": {
       "19258": 0.2,
       "19260": 0.2
     },
-    "tags": [
-      "rewritten"
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       494,
       1054,
       526,
       1090
+    ],
+    "tags": [
+      "rewritten"
     ]
   }
 }

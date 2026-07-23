@@ -1,5 +1,4 @@
 {
-  "checksum": "a6037956d4896dfa7dd37452d484111a",
   "room": {
     "id": 16167,
     "title": [
@@ -14,14 +13,17 @@
     "location": "River's Rest",
     "wayto": {
       "16144": "east",
-      "30711": "/rooms/16167/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "16144": 0.2,
-      "30711": "/rooms/16167/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "cobbling",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells",
       "urchin guide cobbling",
       "urchin-access"
     ],

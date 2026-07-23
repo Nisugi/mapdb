@@ -1,5 +1,4 @@
 {
-  "checksum": "9d80aef5efd9753fb1cf6606162112f5",
   "room": {
     "id": 9056,
     "title": [
@@ -16,36 +15,36 @@
     "wayto": {
       "1459": "go steps",
       "17001": "go portcullis",
-      "30710": "/rooms/9056/wayto/stringproc-30710.rb"
+      "30710": ";e true"
     },
     "timeto": {
       "1459": 0.2,
-      "17001": "/rooms/9056/timeto/stringproc-17001.rb",
-      "30710": "/rooms/9056/timeto/stringproc-30710.rb"
+      "17001": ";e ((!defined?(Stats.prof) or Stats.prof == 'Warrior') ? 0.2 : nil);",
+      "30710": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "meta:mapname:Warrior Guilds",
-      "meta:mapcategory:Guilds",
-      "meta:mapcategory:Elven Nations",
-      "meta:mapcategory:Icemule Trace",
-      "meta:mapcategory:Vornavis",
-      "meta:mapcategory:Wehnimer's Landing",
-      "meta:mapcategory:River's Rest",
-      "meta:mapcategory:Teras Isle",
-      "urchin-access",
-      "urchin guide warriorguild",
-      "warriorguild",
-      "warrior guild"
-    ],
-    "uid": [
-      254001
-    ],
     "image": "warrior_guilds-1268684755.png",
     "image_coords": [
       1047,
       349,
       1067,
       370
+    ],
+    "tags": [
+      "meta:mapcategory:Elven Nations",
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Icemule Trace",
+      "meta:mapcategory:River's Rest",
+      "meta:mapcategory:Teras Isle",
+      "meta:mapcategory:Vornavis",
+      "meta:mapcategory:Wehnimer's Landing",
+      "meta:mapname:Warrior Guilds",
+      "urchin guide warriorguild",
+      "urchin-access",
+      "warrior guild",
+      "warriorguild"
+    ],
+    "uid": [
+      254001
     ]
   }
 }

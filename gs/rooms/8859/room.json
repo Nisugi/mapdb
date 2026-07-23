@@ -1,5 +1,4 @@
 {
-  "checksum": "4f3eb20e1f5c9b55ce6970e493944e2f",
   "room": {
     "id": 8859,
     "title": [
@@ -14,19 +13,19 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "3809": "east",
-      "30708": "/rooms/8859/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "3809": 0.2,
-      "30708": "/rooms/8859/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "no forageables",
       "node",
       "supernode",
-      "urchin-access",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
+      "urchin-access"
     ],
     "uid": [
       4102

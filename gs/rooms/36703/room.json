@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36703,
+    "title": [
+      "[Nyessem, Watery Expanse]"
+    ],
+    "description": [
+      "A murky expanse of water, an endless pool, stretches an untold distance into a cavern of uncertain size.  A thin, off-grey fog hovers just over the pool, shrouding its surface.  Wide metal braziers hang from the cavern's ceiling, lighting the expanse in a faint amber glow.  At the water's edge, a long and warped wooden bench offers a place for repose."
+    ],
+    "paths": [
+      "Obvious exits: north, south"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36686": "south",
+      "36704": "north"
+    },
+    "timeto": {
+      "36686": 0.2,
+      "36704": 0.2
+    },
+    "uid": [
+      8400507
+    ]
+  }
+}

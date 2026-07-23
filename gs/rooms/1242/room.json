@@ -1,5 +1,4 @@
 {
-  "checksum": "c6b6222227c98927e140a574b9aabed5",
   "room": {
     "id": 1242,
     "title": [
@@ -17,62 +16,64 @@
     "terrain": "riparian",
     "wayto": {
       "1193": "east",
-      "1241": "/rooms/1242/wayto/stringproc-1241.rb"
+      "1241": ";e begin; fput 'search'; search_result = waitfor \"discover a\", \"don't find anything\", \"Roundtime\", \"Round time\"; waitrt?; end until search_result =~ /discover a/; move 'go path'"
     },
     "timeto": {
       "1193": 0.2,
-      "1241": 10
+      "1241": 10.0
     },
-    "tags": [
-      "white clover blossom",
-      "yellow clover blossom",
-      "handful of currants",
-      "pink clover blossom",
-      "kylan berry",
-      "red clover blossom",
-      "purple clover blossom",
-      "stalk of cattail",
-      "sprig of wild lilac",
-      "acantha leaf",
-      "calamia fruit",
-      "soft white mushroom",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "genkew mushroom",
-      "blue trafel mushroom",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "blueberries",
-      "wild gooseberry",
-      "fiddlehead fern",
-      "water chestnut",
-      "wild grapes",
-      "stalk of bluebells",
-      "stalk of goldenrod",
-      "small wild rose",
-      "Imaera's Lace",
-      "wild chokecherry",
-      "pepperthorn root",
-      "murdroot",
-      "wavepetal blossom",
-      "ironfern root",
-      "sunburst blossom",
-      "meta:forage-sensed",
-      "talneo root",
-      "banana leaf",
-      "meta:forage-sensed:night:2023-02",
-      "meta:forage-sensed:day:2023-02"
-    ],
-    "uid": [
-      2190035
-    ],
     "image": "en-trail-1264234799.png",
     "image_coords": [
       171,
       546,
       181,
       556
+    ],
+    "tags": [
+      "acantha leaf",
+      "banana leaf",
+      "blue trafel mushroom",
+      "blueberries",
+      "bright red teaberry",
+      "calamia fruit",
+      "daggerstalk mushroom",
+      "fiddlehead fern",
+      "flathead mushroom",
+      "genkew mushroom",
+      "handful of currants",
+      "Imaera's Lace",
+      "ironfern root",
+      "kylan berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "murdroot",
+      "pepperthorn root",
+      "pink clover blossom",
+      "purple clover blossom",
+      "red clover blossom",
+      "round yuzu",
+      "soft mushroom",
+      "sprig of jasmine",
+      "sprig of wild lilac",
+      "stalk of bluebells",
+      "stalk of cattail",
+      "stalk of goldenrod",
+      "sunburst blossom",
+      "talneo root",
+      "water chestnut",
+      "wavepetal blossom",
+      "white clover blossom",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild grapes",
+      "wild rose",
+      "wintergreen leaf",
+      "withered mushroom",
+      "yellow clover blossom"
+    ],
+    "uid": [
+      2190035
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "e5ee51668bea1a65773628538898a28a",
   "room": {
     "id": 3369,
     "title": [
@@ -20,32 +19,36 @@
     },
     "timeto": {
       "3365": 0.2,
-      "3561": "/rooms/3369/timeto/stringproc-3561.rb"
+      "3561": ";e Society.status == \"Order of Voln\" ? 0.2 : nil"
     },
-    "tags": [
-      "ice tulip",
-      "moonflower",
-      "sweetfern stalk",
-      "sassafras leaf",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "snow pansy",
-      "winter rose",
-      "frostflower",
-      "sunburst blossom",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      4043801
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       759,
       610,
       795,
       646
+    ],
+    "tags": [
+      "angelica root",
+      "blue snow rose",
+      "frostflower",
+      "ice tulip",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "moonflower",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "silver iceblossom",
+      "snow pansy",
+      "snowy arctic rose",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "white arctic rose",
+      "winter rose"
+    ],
+    "uid": [
+      4043801
     ]
   }
 }

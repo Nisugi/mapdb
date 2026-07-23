@@ -1,5 +1,4 @@
 {
-  "checksum": "050def9dfc6cc035826726ac7e7fdc33",
   "room": {
     "id": 8916,
     "title": [
@@ -15,27 +14,28 @@
     "wayto": {
       "3350": "out",
       "15619": "go corridor",
-      "30709": "/rooms/8916/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "3350": 0.2,
-      "15619": 5,
-      "30709": "/rooms/8916/timeto/stringproc-30709.rb"
+      "15619": 5.0,
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "chronomage",
-      "urchin-access",
-      "urchin guide chronomages"
-    ],
-    "uid": [
-      112036
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       137,
       520,
       173,
       556
+    ],
+    "tags": [
+      "chronomage",
+      "no forageables",
+      "urchin guide chronomages",
+      "urchin-access"
+    ],
+    "uid": [
+      112036
     ]
   }
 }

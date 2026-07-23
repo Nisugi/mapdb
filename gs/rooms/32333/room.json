@@ -1,5 +1,4 @@
 {
-  "checksum": "636f120fe922e20b2463c9830df1c7fb",
   "room": {
     "id": 32333,
     "title": [
@@ -22,20 +21,21 @@
       "32332": 0.2,
       "32335": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      4576056
-    ],
     "image": "imt-Road_to_Moonsedge-1668377644.png",
     "image_coords": [
       766,
       1055,
       808,
       1098
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-11",
+      "no forageables",
+      "node"
+    ],
+    "uid": [
+      4576056
     ]
   }
 }

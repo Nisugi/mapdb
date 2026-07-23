@@ -1,5 +1,4 @@
 {
-  "checksum": "a52e334949331ec05dc7741199fbe43a",
   "room": {
     "id": 3362,
     "title": [
@@ -18,36 +17,36 @@
     "wayto": {
       "2306": "go street",
       "19417": "go door",
-      "30709": "/rooms/3362/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "2306": 0.2,
-      "19417": "/rooms/3362/timeto/stringproc-19417.rb",
-      "30709": "/rooms/3362/timeto/stringproc-30709.rb"
+      "19417": ";e ((!defined?(Stats.prof) or Stats.prof == 'Empath') ? 0.2 : nil);",
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "empathguild",
-      "Icemule empath guild entrance",
-      "meta:mapname:Icemule Trace - Empath Guild",
-      "meta:mapshortname:Empath Guild (Icemule)",
-      "meta:mapcategory:Icemule Trace",
-      "meta:mapcategory:Guilds",
-      "urchin-access",
-      "urchin guide empathguild",
-      "calmintha flower",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01",
-      "empath guild"
-    ],
-    "uid": [
-      650001
-    ],
     "image": "imt-empath_guild-1307499864.png",
     "image_coords": [
       126,
       425,
       172,
       468
+    ],
+    "tags": [
+      "empath guild",
+      "empathguild",
+      "Icemule empath guild entrance",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Icemule Trace",
+      "meta:mapname:Icemule Trace - Empath Guild",
+      "meta:mapshortname:Empath Guild (Icemule)",
+      "stalk of bluebells",
+      "urchin guide empathguild",
+      "urchin-access"
+    ],
+    "uid": [
+      650001
     ]
   }
 }

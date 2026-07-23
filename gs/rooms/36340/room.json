@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36340,
+    "title": [
+      "[Ilixil's Emporium, Front Room]"
+    ],
+    "description": [
+      "Tiny cobalt blue cages line the walls of the anteroom, their translucent glaes bars aglow with pale violet light.  Diamond orbs hang from the ceiling on thin silvery chains.  Prismatic refractions from where light touches them cut through the lingering shadows of the chamber to reveal a circular dome overhead.  Underfoot, a faded grey and blue carpet softens the basalt tiles of the floor, running up to the foot of a gilt-trimmed ebony cabinet."
+    ],
+    "paths": [
+      "Obvious exits: northeast, out"
+    ],
+    "location": "Bloodriven Village",
+    "wayto": {
+      "28326": "out",
+      "36341": "northeast"
+    },
+    "timeto": {
+      "28326": 0.2,
+      "36341": 0.2
+    },
+    "uid": [
+      8212921
+    ]
+  }
+}

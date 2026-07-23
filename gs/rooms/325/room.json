@@ -1,5 +1,4 @@
 {
-  "checksum": "99a98f52f29c7c4284505ef1a5ad1bf8",
   "room": {
     "id": 325,
     "title": [
@@ -15,20 +14,20 @@
     "wayto": {
       "321": "out",
       "8866": "go barkcloth curtain",
-      "30708": "/rooms/325/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "321": 0.2,
       "8866": 0.2,
-      "30708": "/rooms/325/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "herbalist",
-      "urchin-access",
-      "urchin guide herbalist",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
+      "meta:forage-sensed:day:2022-11",
+      "no forageables",
+      "urchin guide herbalist",
+      "urchin-access"
     ],
     "uid": [
       1028

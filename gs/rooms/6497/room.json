@@ -1,5 +1,4 @@
 {
-  "checksum": "1a3b320bd8c600adcfcf0adfe8e78d70",
   "room": {
     "id": 6497,
     "title": [
@@ -16,26 +15,26 @@
     "terrain": "none",
     "wayto": {
       "6493": "east",
-      "6499": "/rooms/6497/wayto/stringproc-6499.rb"
+      "6499": ";e fput 'turn brazier'; move 'go door'"
     },
     "timeto": {
       "6493": 0.2,
       "6499": 0.2
     },
-    "tags": [
-      "spectral monk",
-      "monastic lich",
-      "no forageables"
-    ],
-    "uid": [
-      95163
-    ],
     "image": "wl-lysierian-1264234799.png",
     "image_coords": [
       202,
       979,
       212,
       989
+    ],
+    "tags": [
+      "monastic lich",
+      "no forageables",
+      "spectral monk"
+    ],
+    "uid": [
+      95163
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "60fe8cd23a9766d3e920acfec997d367",
   "room": {
     "id": 17984,
     "title": [
@@ -14,29 +13,30 @@
     "location": "River's Rest",
     "wayto": {
       "17983": "go bags",
-      "17985": "/rooms/17984/wayto/stringproc-17985.rb"
+      "17985": ";e Map[12421].wayto['14089'].call; # rogue guild proc"
     },
     "timeto": {
       "17983": 0.2,
-      "17985": "/rooms/17984/timeto/stringproc-17985.rb"
+      "17985": ";e if Stats.prof == 'Rogue'; 1.6; else; nil; end"
     },
-    "tags": [
-      "meta:mapname:River's Rest - Rogue Guild",
-      "meta:mapshortname:Rogue Guild (River's Rest)",
-      "meta:mapcategory:River's Rest",
-      "meta:mapcategory:Guilds",
-      "rogue guild",
-      "rogueguild"
-    ],
-    "uid": [
-      263001
-    ],
     "image": "rr-rogue_guild-1305438533.png",
     "image_coords": [
       424,
       47,
       451,
       71
+    ],
+    "tags": [
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:River's Rest",
+      "meta:mapname:River's Rest - Rogue Guild",
+      "meta:mapshortname:Rogue Guild (River's Rest)",
+      "no forageables",
+      "rogue guild",
+      "rogueguild"
+    ],
+    "uid": [
+      263001
     ]
   }
 }

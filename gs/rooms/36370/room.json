@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36370,
+    "title": [
+      "[Keep, Dressing Room]"
+    ],
+    "description": [
+      "A stone basin rests in the middle of a long, low stone table, beset by a silver pitcher and a rectangular silver tray filled with assorted hairpins.  Torn carpets, now stiff and wiry with mildew, in hues of yellow made darker by time and wear, cover the floor.   A narrow staircase leads up."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36369": "go door",
+      "36371": "go staircase"
+    },
+    "timeto": {
+      "36369": 0.2,
+      "36371": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1400,
+      280,
+      1440,
+      320
+    ],
+    "uid": [
+      55041
+    ]
+  }
+}

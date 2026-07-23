@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36448,
+    "title": [
+      "[Cavern, Ledge]"
+    ],
+    "description": [
+      "You are precariously perched upon a ledge, the chance encounter of which has saved you from a drop to certain death in the chasm below.  Moving along its length, you realize you could probably make your way back up to the western ledge of the cavern above you."
+    ],
+    "paths": [
+      "Obvious exits: up"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36434": "up"
+    },
+    "timeto": {
+      "36434": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      2000,
+      80,
+      2040,
+      120
+    ],
+    "uid": [
+      58060
+    ]
+  }
+}

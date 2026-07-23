@@ -1,5 +1,4 @@
 {
-  "checksum": "68beee5575d028e350bed12e3b6dbc71",
   "room": {
     "id": 3753,
     "title": [
@@ -18,7 +17,7 @@
       "3731": "down",
       "3752": "north",
       "3754": "southwest",
-      "3838": "/rooms/3753/wayto/stringproc-3838.rb"
+      "3838": ";e group_members = nil; clear.reverse.each { |line| if line =~ /^Obvious (paths|exits)/; break; elsif line =~ /^([A-Za-z ,]+) followed\\.$/; group_members = $1.split(/, | and /); group_members.delete_if { |m| m =~ /^[Yy]our / }; group_members = nil if group_members.empty?; break; end }; move 'climb ledge'; if group_members; echo \"Waiting for your group... \"; begin; if get =~ /^(You reach out and hold )?([A-z][a-z]+)('s hand| joins your group)\\.$/; group_members.delete $2; end; end while group_members.length > 0; end; waitrt?"
     },
     "timeto": {
       "3731": 0.2,
@@ -26,34 +25,34 @@
       "3754": 0.2,
       "3838": 0.2
     },
-    "tags": [
-      "wild pink geranium",
-      "sassafras leaf",
-      "cuctucae berry",
-      "marallis berry",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "stalk of bluebells",
-      "sprig of larkspur",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "wingstem root",
-      "meta:forage-sensed:night:2025-01",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      4291040
-    ],
     "image": "wl-stronghold-1264234799.png",
     "image_coords": [
       545,
       973,
       555,
       983
+    ],
+    "tags": [
+      "angelica root",
+      "bolmara lichen",
+      "cuctucae berry",
+      "ironfern root",
+      "marallis berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2025-01",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sprig of larkspur",
+      "stalk of bluebells",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wild pink geranium",
+      "wingstem root"
+    ],
+    "uid": [
+      4291040
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "64cdb1733c0627d062db672947f6c26b",
   "room": {
     "id": 16730,
     "title": [
@@ -15,62 +14,66 @@
     "climate": "temperate",
     "terrain": "riparian",
     "wayto": {
-      "16729": "/rooms/16730/wayto/stringproc-16729.rb",
-      "16731": "/rooms/16730/wayto/stringproc-16731.rb"
+      "16729": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'swim river'; waitrt?",
+      "16731": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'climb ledge'; waitrt?"
     },
     "timeto": {
-      "16729": 10,
-      "16731": 5
+      "16729": 10.0,
+      "16731": 5.0
     },
-    "tags": [
-      "acantha leaf",
-      "calamia fruit",
-      "soft white mushroom",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "genkew mushroom",
-      "blue trafel mushroom",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "blueberries",
-      "handful of currants",
-      "wild gooseberry",
-      "fiddlehead fern",
-      "water chestnut",
-      "wild grapes",
-      "stalk of cattail",
-      "stalk of bluebells",
-      "red clover blossom",
-      "pink clover blossom",
-      "white clover blossom",
-      "purple clover blossom",
-      "yellow clover blossom",
-      "stalk of goldenrod",
-      "small wild rose",
-      "sprig of wild lilac",
-      "Imaera's Lace",
-      "wild chokecherry",
-      "wood violet",
-      "mistweed",
-      "pepperthorn root",
-      "murdroot",
-      "wavepetal blossom",
-      "ironfern root",
-      "meta:forage-sensed",
-      "talneo root",
-      "vert globe artichoke",
-      "meta:forage-sensed:night:2024-05"
-    ],
-    "uid": [
-      17005009
-    ],
     "image": "en-aradhul-road-1308194332.png",
     "image_coords": [
       427,
       708,
       451,
       730
+    ],
+    "tags": [
+      "acantha leaf",
+      "blue trafel mushroom",
+      "blueberries",
+      "bright red teaberry",
+      "calamia fruit",
+      "daggerstalk mushroom",
+      "fiddlehead fern",
+      "flathead mushroom",
+      "genkew mushroom",
+      "handful of currants",
+      "Imaera's Lace",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "mistweed",
+      "murdroot",
+      "pepperthorn root",
+      "pink clover blossom",
+      "purple clover blossom",
+      "red clover blossom",
+      "soft mushroom",
+      "sprig of jasmine",
+      "sprig of wild lilac",
+      "stalk of bluebells",
+      "stalk of cattail",
+      "stalk of goldenrod",
+      "sunburst blossom",
+      "talneo root",
+      "vert globe artichoke",
+      "water chestnut",
+      "wavepetal blossom",
+      "white clover blossom",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild grapes",
+      "wild rose",
+      "wintergreen leaf",
+      "withered mushroom",
+      "wood violet",
+      "yellow clover blossom",
+      "yellowed salt reedgrass"
+    ],
+    "uid": [
+      17005009
     ]
   }
 }

@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36691,
+    "title": [
+      "[Nyessem, Baths]"
+    ],
+    "description": [
+      "Thick steam and the smell of scented oils are both pervasive here.  Across most of the room, an oval-shaped pool lined with multihued gemstones is filled with cool, clear water that shimmers with an ethereal quality and is fed by a small stone fountain.  Hung against the far wall, a row of linen hammocks offers a place for repose.  Similarly, an ornate cane-backed settee is available in a far corner, next to some stone benches and a large bronze brazier emitting wisps of steam."
+    ],
+    "paths": [
+      "Obvious exits: east"
+    ],
+    "location": "Nyessem",
+    "wayto": {
+      "36690": "east"
+    },
+    "timeto": {
+      "36690": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      600,
+      388,
+      616,
+      405
+    ],
+    "uid": [
+      8400071
+    ]
+  }
+}

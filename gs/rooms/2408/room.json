@@ -1,5 +1,4 @@
 {
-  "checksum": "7737b0818d738b4da121a3077c89b046",
   "room": {
     "id": 2408,
     "title": [
@@ -21,7 +20,7 @@
       "3429": "south",
       "3461": "go gap",
       "22105": "go door",
-      "30709": "/rooms/2408/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "2302": 0.2,
@@ -29,26 +28,27 @@
       "3429": 0.2,
       "3461": 0.2,
       "22105": 0.2,
-      "30709": "/rooms/2408/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "calmintha flower",
-      "urchin guide bardguild",
-      "urchin-access",
-      "bardguild",
-      "bard guild",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      4042212
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       494,
       874,
       530,
       910
+    ],
+    "tags": [
+      "bard guild",
+      "bardguild",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "stalk of bluebells",
+      "urchin guide bardguild",
+      "urchin-access"
+    ],
+    "uid": [
+      4042212
     ]
   }
 }

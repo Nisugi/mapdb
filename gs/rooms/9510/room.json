@@ -1,5 +1,4 @@
 {
-  "checksum": "2085f83f8949f954070c6f4a2536e193",
   "room": {
     "id": 9510,
     "title": [
@@ -18,43 +17,43 @@
       "9509": "north",
       "9511": "southeast",
       "18997": "go gate",
-      "30712": "/rooms/9510/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "9509": 0.2,
       "9511": 0.2,
-      "18997": "/rooms/9510/timeto/stringproc-18997.rb",
-      "30712": "/rooms/9510/timeto/stringproc-30712.rb"
+      "18997": ";e Stats.prof == 'Sorcerer' ? 0.2 : nil",
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "sorcerer guild",
-      "soft white mushroom",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "genkew mushroom",
-      "blue trafel mushroom",
-      "pepperthorn root",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "sorcererguild",
-      "urchin guide sorcererguild",
-      "urchin-access",
-      "wingstem root",
-      "meta:forage-sensed:day:2023-02",
-      "meta:forage-sensed:night:2023-02"
-    ],
-    "uid": [
-      13006047
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       659,
       936,
       669,
       946
+    ],
+    "tags": [
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-02",
+      "meta:forage-sensed:night:2026-03",
+      "murdroot",
+      "pepperthorn root",
+      "soft mushroom",
+      "sorcerer guild",
+      "sorcererguild",
+      "urchin guide sorcererguild",
+      "urchin-access",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      13006047
     ]
   }
 }

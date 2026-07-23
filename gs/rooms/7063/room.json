@@ -1,5 +1,4 @@
 {
-  "checksum": "802c56fccd1a493dba08431b6ec1e5b5",
   "room": {
     "id": 7063,
     "title": [
@@ -24,27 +23,27 @@
       "7064": 0.2,
       "7070": 0.2
     },
-    "tags": [
-      "withered black mushroom",
-      "roa'ter",
-      "wolifrew lichen",
-      "cave moss",
-      "murdroot",
-      "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      42500
-    ],
     "image": "wl-darkstone-1717380773.png",
     "image_coords": [
       242,
       926,
       252,
       936
+    ],
+    "tags": [
+      "cave moss",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-01",
+      "murdroot",
+      "roa'ter",
+      "wingstem root",
+      "withered mushroom",
+      "wolifrew lichen"
+    ],
+    "uid": [
+      42500
     ]
   }
 }

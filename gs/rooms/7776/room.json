@@ -1,5 +1,4 @@
 {
-  "checksum": "af47353808dd788a7a33c8c61b92403e",
   "room": {
     "id": 7776,
     "title": [
@@ -16,25 +15,25 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "7759": "/rooms/7776/wayto/stringproc-7759.rb"
+      "7759": ";e empty_hands; move 'climb ladder'; fill_hands"
     },
     "timeto": {
       "7759": 0.6
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      17029
-    ],
     "image": "wl-danjirland-1264234799.png",
     "image_coords": [
       240,
       1168,
       250,
       1178
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "no forageables"
+    ],
+    "uid": [
+      17029
     ]
   }
 }

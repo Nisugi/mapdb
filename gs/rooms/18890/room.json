@@ -1,5 +1,4 @@
 {
-  "checksum": "021565390ef99fc0fde549bccaa9651c",
   "room": {
     "id": 18890,
     "title": [
@@ -9,7 +8,7 @@
       "Obvious exits: none"
     ],
     "wayto": {
-      "4573": "/rooms/18890/wayto/stringproc-4573.rb"
+      "4573": ";e fput 'push door'; move 'go door'"
     },
     "timeto": {
       "4573": 0.4

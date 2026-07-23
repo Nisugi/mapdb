@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36422,
+    "title": [
+      "[Dungeon, Corridor]"
+    ],
+    "description": [
+      "The stone walls are streaked from years of seasonal water damage trickling through black dust.  It appears to be a complete dead end here, the wall at the end of the corridor ending abruptly in a blank stone face with a metal grate built into its base."
+    ],
+    "paths": [
+      "Obvious exits: north"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36419": "north"
+    },
+    "timeto": {
+      "36419": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1880,
+      760,
+      1920,
+      800
+    ],
+    "uid": [
+      58033
+    ]
+  }
+}

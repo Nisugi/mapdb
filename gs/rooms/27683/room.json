@@ -1,5 +1,4 @@
 {
-  "checksum": "917c23b416f119c6c03fb8964d225724",
   "room": {
     "id": 27683,
     "title": [
@@ -24,18 +23,19 @@
       "29717": 0.2,
       "33197": 0.2
     },
-    "tags": [
-      "peer door =~ /Beacon Hall|Obsidian Tower/"
-    ],
-    "uid": [
-      7121207
-    ],
     "image": "kf-inking_den-1615857364.png",
     "image_coords": [
       771,
       271,
       800,
       296
+    ],
+    "tags": [
+      "no forageables",
+      "peer door =~ /Beacon Hall|Obsidian Tower/"
+    ],
+    "uid": [
+      7121207
     ]
   }
 }

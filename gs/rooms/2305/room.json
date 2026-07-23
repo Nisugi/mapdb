@@ -1,5 +1,4 @@
 {
-  "checksum": "f117f3c61cf8c2654f126ab6a6651e7f",
   "room": {
     "id": 2305,
     "title": [
@@ -20,30 +19,30 @@
       "2304": "northwest",
       "2306": "east",
       "2321": "north",
-      "30709": "/rooms/2305/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "2304": 0.2,
       "2306": 0.2,
       "2321": 0.2,
-      "30709": "/rooms/2305/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "calmintha flower",
-      "urchin guide weddinghall",
-      "urchin-access",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      4042003
-    ],
     "image": "imt-icemule-1474811966.png",
     "image_coords": [
       848,
       699,
       884,
       735
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells",
+      "urchin guide weddinghall",
+      "urchin-access"
+    ],
+    "uid": [
+      4042003
     ]
   }
 }

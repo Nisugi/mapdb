@@ -1,5 +1,4 @@
 {
-  "checksum": "c2b5509ac762cb17e243704bbba8b898",
   "room": {
     "id": 6335,
     "title": [
@@ -19,19 +18,22 @@
     "timeto": {
       "6334": 0.2
     },
-    "tags": [
-      "wizard alchemy guildmaster",
-      "wizard guild guildmaster"
-    ],
-    "uid": [
-      681030
-    ],
     "image": "wl-wizard_guild.jpg",
     "image_coords": [
       624,
       718,
       674,
       766
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells",
+      "wizard alchemy guildmaster",
+      "wizard guild guildmaster"
+    ],
+    "uid": [
+      681030
     ]
   }
 }

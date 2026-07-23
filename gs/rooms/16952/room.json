@@ -1,5 +1,4 @@
 {
-  "checksum": "1628cee0ed02e3be4544f8a78bfec6b9",
   "room": {
     "id": 16952,
     "title": [
@@ -24,19 +23,23 @@
       "16953": 0.2,
       "16955": 0.2
     },
-    "tags": [
-      "wizard alchemy administrator",
-      "wizard guild administrator"
-    ],
-    "uid": [
-      685030
-    ],
     "image": "en-ta_illistim-Wizard_Guild-1264234799.gif",
     "image_coords": [
       66,
       379,
       92,
       405
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells",
+      "wild sage",
+      "wizard alchemy administrator",
+      "wizard guild administrator"
+    ],
+    "uid": [
+      685030
     ]
   }
 }

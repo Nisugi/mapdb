@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36520,
+    "title": [
+      "[Central Paddock, Uncommon]"
+    ],
+    "description": [
+      "Flattened earth forms a wide circular clearing at the paddock's center, its surface stamped with broad pawprints and drag marks from heavy bodies.  A ring of upright logs surrounds a low platform of stone and pine, its surface stained from years of use.  Empty harness frames and iron stirrups hang from pegs embedded in the platform's edges, swaying gently in the wind."
+    ],
+    "paths": [
+      "Obvious paths: west"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "36519": "west"
+    },
+    "timeto": {
+      "36519": 0.2
+    },
+    "uid": [
+      8209492
+    ]
+  }
+}

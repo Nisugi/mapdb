@@ -1,5 +1,4 @@
 {
-  "checksum": "160e780667742cff8c1dfc58ee195997",
   "room": {
     "id": 10991,
     "title": [
@@ -26,15 +25,18 @@
       "10994": 0.2,
       "16023": 0.2
     },
-    "uid": [
-      15003002
-    ],
     "image": "adventurers_guild-1485358936.png",
     "image_coords": [
       295,
       1577,
       362,
       1644
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      15003002
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "d1f2aae5cfaed2fe904090243acafd1b",
   "room": {
     "id": 7448,
     "title": [
@@ -15,13 +14,13 @@
     "climate": "hot, damp",
     "terrain": "barren scrub",
     "wayto": {
-      "7445": "/rooms/7448/wayto/stringproc-7445.rb",
-      "7453": "/rooms/7448/wayto/stringproc-7453.rb",
-      "7456": "/rooms/7448/wayto/stringproc-7456.rb",
-      "7457": "/rooms/7448/wayto/stringproc-7457.rb",
-      "17327": "/rooms/7448/wayto/stringproc-17327.rb",
-      "23266": "/rooms/7448/wayto/stringproc-23266.rb",
-      "23267": "/rooms/7448/wayto/stringproc-23267.rb"
+      "7445": ";e move 'north'; waitrt?",
+      "7453": ";e move 'south'; waitrt?",
+      "7456": ";e move 'east'; waitrt?",
+      "7457": ";e move 'southeast'; waitrt?",
+      "17327": ";e move 'northwest'; waitrt?",
+      "23266": ";e move 'west'; waitrt?",
+      "23267": ";e move 'southwest'; waitrt?"
     },
     "timeto": {
       "7445": 3.2,
@@ -32,25 +31,25 @@
       "23266": 3.2,
       "23267": 3.2
     },
-    "tags": [
-      "hooded figure",
-      "giant fog beetle",
-      "some blackened moss",
-      "large black toadstool",
-      "blackened moss",
-      "black toadstool",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      306044
-    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       731,
       870,
       741,
       880
+    ],
+    "tags": [
+      "black toadstool",
+      "blackened moss",
+      "giant fog beetle",
+      "hooded figure",
+      "large black toadstool",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "some blackened moss"
+    ],
+    "uid": [
+      306044
     ]
   }
 }

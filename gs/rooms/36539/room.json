@@ -1,0 +1,30 @@
+{
+  "room": {
+    "id": 36539,
+    "title": [
+      "[The Vengeful Siren, Main Cabin]"
+    ],
+    "description": [
+      "Several small bull's-eye windows set at regular intervals line the outer walls, each outlined in gleaming brass.  The area resembles a ship's cabin, complete with an aperture leading to the west, and a silver and brass hatch with a discreet teak ladder in the ceiling.  Centered over a rattan couch is a narra-framed oil painting, and a sextant hangs next to a highly figured koa door.  Intricate marquetry in koa, teak, mahogany, and narra depicts a giant kraken in the middle of the floor."
+    ],
+    "paths": [
+      "Obvious exits: east"
+    ],
+    "location": "Mist Harbor",
+    "wayto": {
+      "36538": "go figured door",
+      "36540": "go aperture",
+      "36541": "go east",
+      "36542": "go hatch"
+    },
+    "timeto": {
+      "36538": 0.2,
+      "36540": 0.2,
+      "36541": 0.2,
+      "36542": 0.2
+    },
+    "uid": [
+      2004502
+    ]
+  }
+}

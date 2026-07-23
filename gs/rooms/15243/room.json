@@ -1,20 +1,18 @@
 {
-  "checksum": "0486201ac2b2ff9eb90f267cfd78cd7f",
   "room": {
     "id": 15243,
     "title": [
-      "[Cryheart's Weaponry]",
-      "[Cryheart's General Store]"
+      "[Lamamelodia's General Store]"
     ],
     "description": [
-      "Beneath an uneven wooden ceiling, an ancient battered tower shield hangs on one of the plain wooden walls.  A gold-leafed mistwood cabinet and a iron-bound ebonwood chest sit in opposite corners while a hanging suit of full plate armor rests on an unfinished wooden floor."
+      "A tattered merchant permit hangs on one of the plain wooden walls, and an uneven wooden ceiling rises overhead.  A worn rug sits in one corner of an unfinished wooden floor.  There is a plain wooden table on one side of the shop and a simple wooden shelf on the other."
     ],
     "paths": [
-      "Obvious exits: northwest"
+      "Obvious exits: south"
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "15180": "northwest"
+      "15180": "south"
     },
     "timeto": {
       "15180": 0.2

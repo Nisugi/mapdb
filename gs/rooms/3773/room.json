@@ -1,5 +1,4 @@
 {
-  "checksum": "5676e26423ed42bd34249af407babb20",
   "room": {
     "id": 3773,
     "title": [
@@ -26,32 +25,32 @@
       "3775": 0.2,
       "3776": 0.2
     },
-    "tags": [
-      "bright red teaberry",
-      "stalk of chicory",
-      "sprig of larkspur",
-      "wintergreen leaf",
-      "wild strawberry",
-      "blueberries",
-      "wild gooseberry",
-      "fiddlehead fern",
-      "broken twig",
-      "small wild rose",
-      "wild chokecherry",
-      "meta:forage-sensed",
-      "ironfern root",
-      "leafy arugula",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      8005
-    ],
     "image": "wl-gates-1264234799.png",
     "image_coords": [
       91,
       955,
       101,
       965
+    ],
+    "tags": [
+      "blueberries",
+      "bright red teaberry",
+      "broken twig",
+      "fiddlehead fern",
+      "ironfern root",
+      "leafy arugula",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "sprig of larkspur",
+      "stalk of chicory",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild rose",
+      "wild strawberry",
+      "wintergreen leaf"
+    ],
+    "uid": [
+      8005
     ]
   }
 }

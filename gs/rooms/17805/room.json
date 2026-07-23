@@ -1,5 +1,4 @@
 {
-  "checksum": "94a3d4ddfdadb84709c1b2487a702c39",
   "room": {
     "id": 17805,
     "title": [
@@ -15,27 +14,27 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "3509": "out",
-      "18348": "/rooms/17805/wayto/stringproc-18348.rb"
+      "18348": ";e fput 'look tool'; sleep 0.5; fput 'pull hoe'; waitrt?; fput 'pull rake'; waitrt?; fput 'pull shovel'; waitrt?; move 'go panel'"
     },
     "timeto": {
       "3509": 0.2,
       "18348": 9.2
     },
-    "tags": [
-      "meta:mapshortname:Rogue Guild (Ta'Vaalor)",
-      "meta:mapcategory:Elven Nations",
-      "meta:mapcategory:Guilds",
-      "meta:mapname:Elven Nations - Ta'Vaalor - Rogue Guild"
-    ],
-    "uid": [
-      267100
-    ],
     "image": "en-vaalor-rogue-guild.png",
     "image_coords": [
       805,
       1156,
       845,
       1197
+    ],
+    "tags": [
+      "meta:mapcategory:Elven Nations",
+      "meta:mapcategory:Guilds",
+      "meta:mapname:Elven Nations - Ta'Vaalor - Rogue Guild",
+      "meta:mapshortname:Rogue Guild (Ta'Vaalor)"
+    ],
+    "uid": [
+      267100
     ]
   }
 }

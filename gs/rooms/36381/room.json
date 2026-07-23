@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36381,
+    "title": [
+      "[Black Swan Castle, Ramparts]"
+    ],
+    "description": [
+      "This lookout faces southeast, providing a view of the flatlands to the south and the uplands to the east.  The avian black shape of the keep looms overhead, and a tower rises like an ebony-shafted spear above the walls of the fortress.  On the ground just outside of the wall, a catapult stands watch, broken and useless."
+    ],
+    "paths": [
+      "Obvious paths: north, west"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36380": "north",
+      "36382": "west"
+    },
+    "timeto": {
+      "36380": 0.2,
+      "36382": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      680,
+      680,
+      720,
+      720
+    ],
+    "uid": [
+      55054
+    ]
+  }
+}

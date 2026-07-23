@@ -1,5 +1,4 @@
 {
-  "checksum": "058f5fb5a5dd58c30860274ea8fc4460",
   "room": {
     "id": 23404,
     "title": [
@@ -15,25 +14,13 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "23403": "/rooms/23404/wayto/stringproc-23403.rb",
-      "23405": "/rooms/23404/wayto/stringproc-23405.rb"
+      "23403": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'north'",
+      "23405": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'south'"
     },
     "timeto": {
       "23403": 0.2,
       "23405": 0.2
     },
-    "tags": [
-      "white hook mushroom",
-      "glowing toadstool",
-      "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-02"
-    ],
-    "uid": [
-      13018020
-    ],
     "image": "en-zul_logoth_liaerion-1703216519.png",
     "image_coords": [
       190,
@@ -41,6 +28,19 @@
       199,
       560
     ],
-    "check_location": true
+    "tags": [
+      "bolmara lichen",
+      "glowing toadstool",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "white hook mushroom",
+      "wingstem root"
+    ],
+    "check_location": true,
+    "uid": [
+      13018020
+    ]
   }
 }

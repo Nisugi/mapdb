@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36398,
+    "title": [
+      "[Dungeon, Corridor]"
+    ],
+    "description": [
+      "The corridor is a complete mess.  Mounds of dirt and debris lie scattered everywhere and rocks lie haphazardly in hazardous heaps. One of the many supporting columns lining the corridor has fallen and leans diagonally across it at a very precarious angle.  Some of the others have been shaken and do not appear to be very straight, but seem to be secure enough in their positions for the time being."
+    ],
+    "paths": [
+      "Obvious exits: north, south"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36396": "north",
+      "36399": "south"
+    },
+    "timeto": {
+      "36396": 0.2,
+      "36399": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1560,
+      600,
+      1600,
+      640
+    ],
+    "uid": [
+      58004
+    ]
+  }
+}

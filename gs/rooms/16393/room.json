@@ -1,5 +1,4 @@
 {
-  "checksum": "d0c526f032ceb5e36e57f5c5e82ec3a0",
   "room": {
     "id": 16393,
     "title": [
@@ -14,29 +13,29 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "8820": "out",
-      "16394": "/rooms/16393/wayto/stringproc-16394.rb"
+      "16394": ";e Map[12421].wayto['14089'].call; # rogue guild proc"
     },
     "timeto": {
       "8820": 0.2,
-      "16394": "/rooms/16393/timeto/stringproc-16394.rb"
+      "16394": ";e if Stats.prof == 'Rogue'; 1.6; else; nil; end"
     },
-    "tags": [
-      "meta:mapname:Wehnimer's Landing - Rogue Guild",
-      "meta:mapshortname:Rogue Guild (Wehnimer's)",
-      "meta:mapcategory:Wehnimer's Landing",
-      "meta:mapcategory:Guilds",
-      "rogue guild",
-      "rogueguild"
-    ],
-    "uid": [
-      261001
-    ],
     "image": "wl-rogue_guild-1267242645.png",
     "image_coords": [
       460,
       527,
       488,
       555
+    ],
+    "tags": [
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Wehnimer's Landing",
+      "meta:mapname:Wehnimer's Landing - Rogue Guild",
+      "meta:mapshortname:Rogue Guild (Wehnimer's)",
+      "rogue guild",
+      "rogueguild"
+    ],
+    "uid": [
+      261001
     ]
   }
 }

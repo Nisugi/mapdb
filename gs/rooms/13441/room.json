@@ -1,5 +1,4 @@
 {
-  "checksum": "6febc5f5c9e6e9f8aa395864c219bb6d",
   "room": {
     "id": 13441,
     "title": [
@@ -20,30 +19,30 @@
     "timeto": {
       "13440": 0.2
     },
-    "tags": [
-      "soft white mushroom",
-      "withered black mushroom",
-      "white hook mushroom",
-      "blue trafel mushroom",
-      "ayana'al leaf",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "meta:forage-sensed:day:2023-05",
-      "meta:nomagic"
-    ],
-    "uid": [
-      13113005
-    ],
     "image": "en-ta_illistim-new.jpg",
     "image_coords": [
       111,
       1044,
       133,
       1066
+    ],
+    "tags": [
+      "ayana'al leaf",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "meta:nomagic",
+      "murdroot",
+      "soft mushroom",
+      "white hook mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      13113005
     ]
   }
 }

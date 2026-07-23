@@ -1,5 +1,4 @@
 {
-  "checksum": "2c7b8a88a20d3c53e4bda1526dcd9b8c",
   "room": {
     "id": 29552,
     "title": [
@@ -24,18 +23,19 @@
       "33132": 0.2,
       "33215": 0.2
     },
-    "tags": [
-      "peer door =~ /Willow Hall|Rone Academy/"
-    ],
-    "uid": [
-      7121208
-    ],
     "image": "kf-inking_den-1615857364.png",
     "image_coords": [
       824,
       224,
       856,
       249
+    ],
+    "tags": [
+      "no forageables",
+      "peer door =~ /Willow Hall|Rone Academy/"
+    ],
+    "uid": [
+      7121208
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "ec5e9c941aef66d35c8b5294f04af0e1",
   "room": {
     "id": 1874,
     "title": [
@@ -21,7 +20,7 @@
       "1877": "northeast",
       "12397": "go gate",
       "12413": "go tavern",
-      "30715": "/rooms/1874/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1873": 0.2,
@@ -29,25 +28,25 @@
       "1877": 0.2,
       "12397": 0.2,
       "12413": 0.2,
-      "30715": "/rooms/1874/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin guide poorquarter",
-      "urchin-access",
-      "poorquarter",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      3002026
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       115,
       923,
       151,
       959
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "no forageables",
+      "poorquarter",
+      "urchin guide poorquarter",
+      "urchin-access"
+    ],
+    "uid": [
+      3002026
     ]
   }
 }

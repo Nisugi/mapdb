@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36581,
+    "title": [
+      "[Skyship, Cages]"
+    ],
+    "description": [
+      "Blood of varying types collects on nearly every surface of the room, from the floors to the bare metal bulkheads.  Fresh blood pools around half-eaten humanoid corpses that, save for their general shape, are difficult to identify.  Dried crimson stains widely coat the floor and are dotted by footprints, both animal and humanoid, having traveled through it both deeper into the cages and back toward the exit."
+    ],
+    "paths": [
+      "Obvious exits: north, west"
+    ],
+    "location": false,
+    "wayto": {
+      "36580": "north",
+      "36582": "west"
+    },
+    "timeto": {
+      "36580": 0.2,
+      "36582": 0.2
+    },
+    "uid": [
+      12102082
+    ]
+  }
+}

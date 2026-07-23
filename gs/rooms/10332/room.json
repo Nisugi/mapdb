@@ -1,5 +1,4 @@
 {
-  "checksum": "b43e7b7f8bf8ebc777a9181ef1109ac3",
   "room": {
     "id": 10332,
     "title": [
@@ -15,29 +14,30 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "10331": "west",
-      "30713": "/rooms/10332/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "10331": 0.2,
-      "30713": "/rooms/10332/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "advguild",
-      "urchin-access",
-      "urchin guide bounty",
-      "bounty",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      14103502
-    ],
     "image": "adventurers_guild-1485358936.png",
     "image_coords": [
       1058,
       2455,
       1126,
       2521
+    ],
+    "tags": [
+      "advguild",
+      "bounty",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-09",
+      "no forageables",
+      "urchin guide bounty",
+      "urchin-access"
+    ],
+    "uid": [
+      14103502
     ]
   }
 }

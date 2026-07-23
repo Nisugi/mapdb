@@ -1,5 +1,4 @@
 {
-  "checksum": "770d61bf39e52a6ed1930baa2ab33a97",
   "room": {
     "id": 3509,
     "title": [
@@ -18,27 +17,27 @@
     "wayto": {
       "3507": "north",
       "3510": "east",
-      "17805": "/rooms/3509/wayto/stringproc-17805.rb"
+      "17805": ";e status_tags; get_result = dothis 'get my lockpick', /You remove|detach .*?<a exist=\"(?:[0-9]+)\".*?from.*?<a exist=\"(?:[0-9]+)\"/; status_tags; lockpick, container = /You remove|detach .*?<a exist=\"([0-9]+)\".*?from.*?<a exist=\"([0-9]+)\"/.match(get_result).captures[0..1]; fput 'pick shed'; fput \"_drag ##{lockpick} ##{container}\"; fput 'open shed'; move 'go shed'"
     },
     "timeto": {
       "3507": 0.2,
       "3510": 0.2,
-      "17805": "/rooms/3509/timeto/stringproc-17805.rb"
+      "17805": ";e Stats.prof == 'Rogue' ? 2.0 : nil"
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      14100071
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       478,
       784,
       509,
       812
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
+    ],
+    "uid": [
+      14100071
     ]
   }
 }

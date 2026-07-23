@@ -1,5 +1,4 @@
 {
-  "checksum": "68d8bb105005ebc341184c4a41200780",
   "room": {
     "id": 16550,
     "title": [
@@ -15,7 +14,7 @@
     ],
     "location": "Mist Harbor",
     "wayto": {
-      "12269": "/rooms/16550/wayto/stringproc-12269.rb",
+      "12269": ";e move 'out'; $go2_restart = true",
       "16608": "east",
       "16609": "north"
     },
@@ -25,8 +24,8 @@
       "16609": 0.2
     },
     "tags": [
-      "no-auto-map",
-      "meta:playershop"
+      "meta:playershop",
+      "no-auto-map"
     ]
   }
 }

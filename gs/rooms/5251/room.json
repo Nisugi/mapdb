@@ -1,5 +1,4 @@
 {
-  "checksum": "7e409f17673ed90d59d262a61b113cae",
   "room": {
     "id": 5251,
     "title": [
@@ -16,7 +15,7 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "5250": "/rooms/5251/wayto/stringproc-5250.rb",
+      "5250": ";e move 'climb hole'; waitrt?",
       "5653": "northwest",
       "5655": "northeast"
     },
@@ -25,25 +24,28 @@
       "5653": 0.2,
       "5655": 0.2
     },
-    "tags": [
-      "withered black mushroom",
-      "pepperthorn root",
-      "murdroot",
-      "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "bur-clover root",
-      "meta:forage-sensed:day:2023-02"
-    ],
-    "uid": [
-      4006007
-    ],
     "image": "vo-foggy_valley-1264234799.png",
     "image_coords": [
       682,
       793,
       692,
       803
+    ],
+    "tags": [
+      "birch bark",
+      "bur-clover root",
+      "ghost pepper",
+      "hot pepper",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "pepperthorn root",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      4006007
     ]
   }
 }

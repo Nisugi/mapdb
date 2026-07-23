@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36368,
+    "title": [
+      "[Keep, Dining Hall]"
+    ],
+    "description": [
+      "A thick veneer of red lacquer covers the walls, carved in deep intaglio.  Burnished tableaux of blazing red phoenixes and haughty fighting bantams accented with cinnabar and carnelian inlay are etched into the surfaces, sectioned off by a series of ceiling-to-floor columns.  A long cedar table, beset by banks of chairs, runs down the center of the hall.  You also see a leaning cracked marble column and a frayed velvet curtain."
+    ],
+    "paths": [
+      "Obvious exits: northeast"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36367": "northeast",
+      "36369": "go curtain"
+    },
+    "timeto": {
+      "36367": 0.2,
+      "36369": 0.2
+    },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      1160,
+      280,
+      1200,
+      320
+    ],
+    "uid": [
+      55039
+    ]
+  }
+}

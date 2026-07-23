@@ -1,5 +1,4 @@
 {
-  "checksum": "e25230e60b931f6bfd1b06a334bd7633",
   "room": {
     "id": 16188,
     "title": [
@@ -15,29 +14,29 @@
     "wayto": {
       "16184": "southeast",
       "16190": "northeast",
-      "22224": "/rooms/16188/wayto/stringproc-22224.rb"
+      "22224": ";e fput 'search';move 'go trapdoor'"
     },
     "timeto": {
       "16184": 0.2,
       "16190": 0.2,
       "22224": 0.3
     },
-    "tags": [
-      "meta:che:Beacon Hall Archive",
-      "fire lily",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2026-01",
-      "no forageables"
-    ],
-    "uid": [
-      216020
-    ],
     "image": "rr-beacon_hall-1405076623.png",
     "image_coords": [
       908,
       465,
       954,
       510
+    ],
+    "tags": [
+      "fire lily",
+      "meta:che:Beacon Hall Archive",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-01",
+      "no forageables"
+    ],
+    "uid": [
+      216020
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "a250b9a5b932b284fa1e39cb88470442",
   "room": {
     "id": 20323,
     "title": [
@@ -15,7 +14,7 @@
     "wayto": {
       "20322": "east",
       "20324": "northwest",
-      "21601": "/rooms/20323/wayto/stringproc-21601.rb",
+      "21601": ";e fput 'go wagon'",
       "24321": "go wooden wagon"
     },
     "timeto": {

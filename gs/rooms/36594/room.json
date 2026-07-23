@@ -1,0 +1,27 @@
+{
+  "room": {
+    "id": 36594,
+    "title": [
+      "[Kobold Village, Shaman's Hut]"
+    ],
+    "description": [
+      "A half-collapsed tent of stitched hides leans against a crooked totem pole carved with too many eyes.  The air reeks of sage, cheap incense, and something unmistakably like burnt hair.  Shelves sag beneath jars of teeth, dried roots, and a cracked crystal orb that emits a low hum.  Atop a cluttered table rests a variety of carved bones, clumps of wax, and a crystallized sea blue eyeball."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "Wehnimer's Landing",
+    "wayto": {
+      "6268": "out"
+    },
+    "timeto": {
+      "6268": 0.2
+    },
+    "tags": [
+      "kobold shaman"
+    ],
+    "uid": [
+      171801
+    ]
+  }
+}

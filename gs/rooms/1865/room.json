@@ -1,5 +1,4 @@
 {
-  "checksum": "09a5220a6c62d57d63d5e8e5fd4a30e5",
   "room": {
     "id": 1865,
     "title": [
@@ -19,31 +18,31 @@
       "1848": "north",
       "1866": "west",
       "1878": "south",
-      "30715": "/rooms/1865/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1848": 0.2,
       "1866": 0.2,
       "1878": 0.2,
-      "30715": "/rooms/1865/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "grocer",
-      "urchin-access",
-      "urchin guide grocer",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      3002021
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       378,
       745,
       414,
       781
+    ],
+    "tags": [
+      "grocer",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "no forageables",
+      "urchin guide grocer",
+      "urchin-access"
+    ],
+    "uid": [
+      3002021
     ]
   }
 }

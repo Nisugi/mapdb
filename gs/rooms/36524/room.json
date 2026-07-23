@@ -1,0 +1,28 @@
+{
+  "room": {
+    "id": 36524,
+    "title": [
+      "[Sunscar Sanctum, Apex Awning]"
+    ],
+    "description": [
+      "Tall drakar pillars rise in a loose ring, supporting a sandy brown awning that traps an uncomfortably dry warmth beneath it.  Heat from large braziers flanking the paddock entries scorches the ground to brittle shades of yellow and brown, where grass gives way to dry, patchy earth.  Beyond the awning's edge, late snow clings to the meadow, while east and west, enormous scorpions roam within paddocks."
+    ],
+    "paths": [
+      "Obvious exits: east, west, out"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "31182": "out",
+      "36525": "west",
+      "36526": "east"
+    },
+    "timeto": {
+      "31182": 0.2,
+      "36525": 0.2,
+      "36526": 0.2
+    },
+    "uid": [
+      8209495
+    ]
+  }
+}

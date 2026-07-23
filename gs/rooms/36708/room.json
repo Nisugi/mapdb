@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36708,
+    "title": [
+      "[It Can Only Be Jaired]"
+    ],
+    "description": [
+      "Beneath a glass-tiled vaulted ceiling, a faded treasure map hangs on one of the brilliant cut-glass walls.  A torn sailcloth hammock and an oversized sea chest sit in opposite corners while a stuffed octopus rests on a swirled sea glass floor."
+    ],
+    "paths": [
+      "Obvious exits: east"
+    ],
+    "location": "Mist Harbor",
+    "wayto": {
+      "36707": "east"
+    },
+    "timeto": {
+      "36707": 0.2
+    },
+    "uid": [
+      631371
+    ]
+  }
+}

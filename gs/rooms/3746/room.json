@@ -1,5 +1,4 @@
 {
-  "checksum": "2a4268b70bbe7218e0d53c7117709f6f",
   "room": {
     "id": 3746,
     "title": [
@@ -14,18 +13,19 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "10382": "go steps",
-      "30713": "/rooms/3746/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "10382": 0.2,
-      "30713": "/rooms/3746/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "jail",
-      "urchin guide justice",
-      "urchin-access",
       "justice",
-      "meta:nomagic"
+      "meta:nomagic",
+      "no forageables",
+      "urchin guide justice",
+      "urchin-access"
     ],
     "uid": [
       14108002

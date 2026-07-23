@@ -1,5 +1,4 @@
 {
-  "checksum": "7971f94dd6df32218cd164530da00fff",
   "room": {
     "id": 3091,
     "title": [
@@ -19,45 +18,45 @@
       "3092": "go doorway",
       "3100": "southeast",
       "3104": "go barn",
-      "31352": "/rooms/3091/wayto/stringproc-31352.rb"
+      "31352": ";e if GameObj.inv.find {|obj| obj.noun == \"key\"};fput \"go snow cabin\";else;empty_hand;multifput \"get my key from my #{UserVars.key_sack}\",\"go snow cabin\",\"put my key in my #{UserVars.key_sack}\";fill_hand;end"
     },
     "timeto": {
       "3070": 0.2,
       "3092": 0.2,
       "3100": 0.2,
       "3104": 0.2,
-      "31352": "/rooms/3091/timeto/stringproc-31352.rb"
+      "31352": ";e UserVars.sunset_cabin.nil? ? nil : 0.2;"
     },
-    "tags": [
-      "wavepetal blossom",
-      "moonflower",
-      "ice tulip",
-      "winter rose",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "frostflower",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "snowy arctic rose",
-      "snow rose",
-      "white arctic rose",
-      "white crallisberry",
-      "silver iceblossom",
-      "resting poppy",
-      "meta:forage-sensed:day:2025-03"
-    ],
-    "uid": [
-      4124014
-    ],
     "image": "imt-south_gate-1647231707.png",
     "image_coords": [
       673,
       673,
       683,
       683
+    ],
+    "tags": [
+      "angelica root",
+      "frostflower",
+      "ice tulip",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2025-03",
+      "moonflower",
+      "pennyroyal stem",
+      "resting poppy",
+      "sassafras leaf",
+      "silver iceblossom",
+      "snow rose",
+      "snowy arctic rose",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wavepetal blossom",
+      "white arctic rose",
+      "white crallisberry",
+      "winter rose"
+    ],
+    "uid": [
+      4124014
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "f59e5f5ab98bfa078bb2b9d339d01698",
   "room": {
     "id": 29048,
     "title": [
@@ -16,39 +15,39 @@
     "climate": "arid",
     "terrain": "mountainous",
     "wayto": {
-      "12580": "/rooms/29048/wayto/stringproc-12580.rb",
+      "12580": ";e cur_stance = XMLData.stance_text;empty_hands;fput('stance offensive') if cur_stance != 'offensive';move('climb rockslide');fill_hands;fput('stance ' + cur_stance) if cur_stance != 'offensive';$go2_restart = true",
       "29165": "north"
     },
     "timeto": {
       "12580": 0.2,
       "29165": 0.2
     },
-    "tags": [
-      "meta:mapshortname:F'Eyrie",
-      "meta:mapname:Teras Isle - F'Eyrie",
-      "meta:mapcategory:Teras Isle",
-      "yellow primrose",
-      "stalk of drakefern",
-      "pepperthorn root",
-      "meta:forage-sensed",
-      "white cotton boll",
-      "spring onion",
-      "mate leaves",
-      "butterfly pea flower",
-      "sprig of rooibos",
-      "lemon balm",
-      "lemon verbena",
-      "meta:forage-sensed:day:2025-07"
-    ],
-    "uid": [
-      3023101
-    ],
     "image": "ti-feyrie-1599500894.png",
     "image_coords": [
       102,
       431,
       125,
       456
+    ],
+    "tags": [
+      "butterfly pea flower",
+      "lemon balm",
+      "lemon verbena",
+      "mate leaves",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:mapcategory:Teras Isle",
+      "meta:mapname:Teras Isle - F'Eyrie",
+      "meta:mapshortname:F'Eyrie",
+      "pepperthorn root",
+      "sprig of rooibos",
+      "spring onion",
+      "stalk of drakefern",
+      "white cotton boll",
+      "yellow primrose"
+    ],
+    "uid": [
+      3023101
     ]
   }
 }

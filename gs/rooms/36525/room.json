@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36525,
+    "title": [
+      "[Sunscar Sanctom, Common Paddock]"
+    ],
+    "description": [
+      "Blackened iron fencing encloses the broad paddock, its bars set deep into the ground and rising in stark lines around the open space.  Great braziers stand at each corner, their steady flames casting waves of heat across the enclosure.  Within, the ground lies dry and trampled, the last traces of grass worn to brittle patches as the enormous scorpions roam freely beneath the open sky."
+    ],
+    "paths": [
+      "Obvious paths: east"
+    ],
+    "location": "Rumor Woods",
+    "wayto": {
+      "36524": "east"
+    },
+    "timeto": {
+      "36524": 0.2
+    },
+    "uid": [
+      8209496
+    ]
+  }
+}

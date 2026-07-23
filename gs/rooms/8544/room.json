@@ -1,5 +1,4 @@
 {
-  "checksum": "ce8d19339f7fb6bbce14d8515fbf8ae0",
   "room": {
     "id": 8544,
     "title": [
@@ -18,7 +17,7 @@
       "8541": "northwest",
       "8543": "north",
       "8545": "west",
-      "8546": "/rooms/8544/wayto/stringproc-8546.rb"
+      "8546": ";e while checkpaths.include?('nw'); fput 'search'; sleep 1; waitrt?; move 'go crevice'; end"
     },
     "timeto": {
       "8541": 0.2,
@@ -26,30 +25,31 @@
       "8545": 0.2,
       "8546": 3.2
     },
-    "tags": [
-      "sprig of larkspur",
-      "moonlight cactus-bloom",
-      "stalk of chicory",
-      "cothinar flower",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "broken twig",
-      "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "meta:forage-sensed:day:2023-02",
-      "meta:forage-sensed:night:2024-11"
-    ],
-    "uid": [
-      10006
-    ],
     "image": "wl-trollfang-1264234799.png",
     "image_coords": [
       1140,
       678,
       1150,
       688
+    ],
+    "tags": [
+      "bright red teaberry",
+      "broken twig",
+      "cothinar flower",
+      "handful of currants",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-11",
+      "moonlight cactus-bloom",
+      "sprig of larkspur",
+      "stalk of chicory",
+      "sunburst blossom",
+      "wingstem root",
+      "wintergreen leaf"
+    ],
+    "uid": [
+      10006
     ]
   }
 }

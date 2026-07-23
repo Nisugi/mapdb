@@ -1,5 +1,4 @@
 {
-  "checksum": "1778cb0aa5cd6b848540eec97070d8e6",
   "room": {
     "id": 18087,
     "title": [
@@ -18,19 +17,20 @@
     "timeto": {
       "18073": 0.2
     },
-    "tags": [
-      "wizard alchemy guildmaster",
-      "wizard guild guildmaster"
-    ],
-    "uid": [
-      682012
-    ],
     "image": "ti-wizard_guild.png",
     "image_coords": [
       800,
       399,
       867,
       466
+    ],
+    "tags": [
+      "no forageables",
+      "wizard alchemy guildmaster",
+      "wizard guild guildmaster"
+    ],
+    "uid": [
+      682012
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "28a97e5cc23d0a88571100f29b6e124f",
   "room": {
     "id": 2438,
     "title": [
@@ -16,31 +15,31 @@
     "terrain": "none",
     "wayto": {
       "29531": "go door",
-      "30709": "/rooms/2438/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "29531": 0.2,
-      "30709": "/rooms/2438/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "debt",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "urchin guide debts",
-      "urchin-access",
-      "debts",
-      "meta:nomagic"
-    ],
-    "uid": [
-      4043042
-    ],
     "image": "imt-Clovertooth_Hall-1615305972.png",
     "image_coords": [
       392,
       1180,
       484,
       1272
+    ],
+    "tags": [
+      "debt",
+      "debts",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-11",
+      "meta:nomagic",
+      "no forageables",
+      "urchin guide debts",
+      "urchin-access"
+    ],
+    "uid": [
+      4043042
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "589404ef36944fd639b07a1d753862eb",
   "room": {
     "id": 14352,
     "title": [
@@ -21,18 +20,21 @@
       "13476": 0.2,
       "14369": 0.2
     },
-    "tags": [
-      "node"
-    ],
-    "uid": [
-      34203
-    ],
     "image": "vo-dyers_tent-1512161334.png",
     "image_coords": [
       1171,
       792,
       1315,
       859
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "node",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      34203
     ]
   }
 }

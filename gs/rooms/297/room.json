@@ -1,5 +1,4 @@
 {
-  "checksum": "1dc12f8fb5c53757279927501d0ba131",
   "room": {
     "id": 297,
     "title": [
@@ -17,29 +16,29 @@
     "wayto": {
       "288": "north",
       "296": "south",
-      "22349": "/rooms/297/wayto/stringproc-22349.rb"
+      "22349": ";e multifput 'search', 'go alleyway'"
     },
     "timeto": {
       "288": 0.2,
       "296": 0.2,
       "22349": 0.2
     },
-    "tags": [
-      "meta:teleport:fwi",
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:day:2022-09",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      7356
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       197,
       992,
       234,
       1028
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2023-01",
+      "meta:teleport:fwi",
+      "no forageables"
+    ],
+    "uid": [
+      7356
     ]
   }
 }

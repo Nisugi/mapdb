@@ -1,5 +1,4 @@
 {
-  "checksum": "7ef9c6884bd92f56578cbdfb05302746",
   "room": {
     "id": 11485,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "temperate",
     "terrain": "barren scrub",
     "wayto": {
-      "11442": "/rooms/11485/wayto/stringproc-11442.rb",
+      "11442": ";e empty_hands\nmove 'climb pathway'",
       "11486": "northeast",
       "11487": "northwest"
     },
@@ -24,55 +23,55 @@
       "11486": 0.2,
       "11487": 0.2
     },
-    "tags": [
-      "stalk of goldenrod",
-      "bright red teaberry",
-      "wild chokecherry",
-      "pink clover blossom",
-      "sprig of larkspur",
-      "golden buttercup",
-      "stalk of chicory",
-      "purple clover blossom",
-      "sagebrush root",
-      "wild strawberry",
-      "white clover blossom",
-      "yellow primrose",
-      "sprig of wild lilac",
-      "yellow clover blossom",
-      "cactacae spine",
-      "wintergreen leaf",
-      "blueberries",
-      "handful of currants",
-      "elderberries",
-      "wild grapes",
-      "broken twig",
-      "sprig of alyssum",
-      "red clover blossom",
-      "small wild rose",
-      "Imaera's Lace",
-      "branch of acacia",
-      "murkweed",
-      "mistweed",
-      "fire lily",
-      "pepperthorn root",
-      "ironfern root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "wingstem root",
-      "ghost pepper",
-      "hot pepper",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
-    ],
-    "uid": [
-      305055
-    ],
     "image": "rr-maelstrom-1619824696.png",
     "image_coords": [
       675,
       1058,
       685,
       1068
+    ],
+    "tags": [
+      "blueberries",
+      "branch of acacia",
+      "bright red teaberry",
+      "broken twig",
+      "cactacae spine",
+      "elderberries",
+      "fire lily",
+      "ghost pepper",
+      "golden buttercup",
+      "handful of currants",
+      "hot pepper",
+      "Imaera's Lace",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "mistweed",
+      "murkweed",
+      "pepperthorn root",
+      "pink clover blossom",
+      "purple clover blossom",
+      "red clover blossom",
+      "sagebrush root",
+      "sprig of alyssum",
+      "sprig of larkspur",
+      "sprig of wild lilac",
+      "stalk of chicory",
+      "stalk of goldenrod",
+      "sunburst blossom",
+      "white clover blossom",
+      "wild chokecherry",
+      "wild grapes",
+      "wild rose",
+      "wild strawberry",
+      "wingstem root",
+      "wintergreen leaf",
+      "yellow clover blossom",
+      "yellow primrose"
+    ],
+    "uid": [
+      305055
     ]
   }
 }

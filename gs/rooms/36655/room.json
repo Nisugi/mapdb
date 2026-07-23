@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36655,
+    "title": [
+      "[Brayern Isle, Fort Brayern]"
+    ],
+    "description": [
+      "Shelf after shelf line the walls in this spare portion of the fortress.  Armaments of all shapes and sizes line these shelves, as do miscellaneous building and masonry supplies.  Alongside them, wood and metal crates are piled precariously high.  A series of gem-studded stone lanterns attached to the fortifications completes the area."
+    ],
+    "paths": [
+      "Obvious exits: south, southwest"
+    ],
+    "location": "Brayern Isle",
+    "wayto": {
+      "36653": "southwest",
+      "36654": "south"
+    },
+    "timeto": {
+      "36653": 0.2,
+      "36654": 0.2
+    },
+    "image": "Nyessem.png",
+    "image_coords": [
+      895,
+      1020,
+      912,
+      1033
+    ],
+    "uid": [
+      8400254
+    ]
+  }
+}

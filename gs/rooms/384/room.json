@@ -1,5 +1,4 @@
 {
-  "checksum": "81f5e4ea869bdbf102d715f2d14fa98a",
   "room": {
     "id": 384,
     "title": [
@@ -14,16 +13,16 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "383": "northwest",
-      "23976": "/rooms/384/wayto/stringproc-23976.rb"
+      "23976": ";e multifput 'search', 'go trapdoor'"
     },
     "timeto": {
       "383": 0.2,
       "23976": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
+      "meta:forage-sensed:day:2022-11",
+      "no forageables"
     ],
     "uid": [
       5023

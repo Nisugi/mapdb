@@ -1,5 +1,4 @@
 {
-  "checksum": "a8f04d178f87d8d83e5374d169c5456a",
   "room": {
     "id": 2908,
     "title": [
@@ -16,7 +15,7 @@
     "terrain": "deciduous forest",
     "wayto": {
       "2902": "west",
-      "2909": "/rooms/2908/wayto/stringproc-2909.rb",
+      "2909": ";e move 'east'",
       "2918": "up"
     },
     "timeto": {
@@ -24,45 +23,49 @@
       "2909": 0.2,
       "2918": 0.2
     },
-    "tags": [
-      "bright red teaberry",
-      "small loganberry",
-      "some tree bark",
-      "snow lily",
-      "wintergreen leaf",
-      "tkaro root",
-      "some bolmara lichen",
-      "some angelica root",
-      "pale thornberry",
-      "slender twig",
-      "broken twig",
-      "sticks",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "iceblossoms",
-      "winter rose",
-      "frostweed",
-      "snowberries",
-      "red winterberry",
-      "tree bark",
-      "murdroot",
-      "twisted twig",
-      "meta:forage-sensed",
-      "bolmara lichen",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      4560022
-    ],
     "image": "imt-east_west_north_gates-1668398077.png",
     "image_coords": [
       1105,
       394,
       1115,
       404
+    ],
+    "tags": [
+      "angelica root",
+      "bolmara lichen",
+      "bright red teaberry",
+      "broken twig",
+      "dwarf bilberry",
+      "frostweed",
+      "iceblossoms",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "pale thornberry",
+      "pennyroyal stem",
+      "pine twig",
+      "red winterberry",
+      "resting poppy",
+      "sassafras leaf",
+      "silver iceblossom",
+      "slender twig",
+      "small loganberry",
+      "snow lily",
+      "snowberries",
+      "sticks",
+      "sweetfern stalk",
+      "thorny wintersbite",
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "white crallisberry",
+      "winter rose",
+      "wintercrisp apple",
+      "wintergreen leaf"
+    ],
+    "uid": [
+      4560022
     ]
   }
 }

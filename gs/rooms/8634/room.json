@@ -1,5 +1,4 @@
 {
-  "checksum": "fd9990aab527fa6062baaf50c0a4fee8",
   "room": {
     "id": 8634,
     "title": [
@@ -15,20 +14,20 @@
     "wayto": {
       "8633": "up",
       "8635": "north",
-      "30708": "/rooms/8634/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "8633": 0.2,
-      "8635": 5,
-      "30708": "/rooms/8634/timeto/stringproc-30708.rb"
+      "8635": 5.0,
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "chronomage",
-      "urchin-access",
-      "urchin guide chronomages",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
+      "meta:forage-sensed:night:2022-11",
+      "no forageables",
+      "urchin guide chronomages",
+      "urchin-access"
     ],
     "uid": [
       112013

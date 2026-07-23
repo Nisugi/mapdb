@@ -1,5 +1,4 @@
 {
-  "checksum": "c8dbddd232767c44e6d6769fc4553759",
   "room": {
     "id": 12308,
     "title": [
@@ -19,7 +18,7 @@
       "12307": "east",
       "12339": "north",
       "12340": "west",
-      "16153": "/rooms/12308/wayto/stringproc-16153.rb"
+      "16153": ";e fput 'go hut'"
     },
     "timeto": {
       "12307": 0.2,
@@ -27,44 +26,44 @@
       "12340": 0.2,
       "16153": 3.2
     },
-    "tags": [
-      "pepperthorn root",
-      "luckbloom blossom",
-      "acantha leaf",
-      "rose-marrow root",
-      "murdroot",
-      "wavepetal blossom",
-      "ironfern root",
-      "sunburst blossom",
-      "brostheras grass",
-      "dill",
-      "tobacco leaves",
-      "zucchini",
-      "fresh broccoli",
-      "yellow squash",
-      "purple cabbage",
-      "green cabbage",
-      "garlic",
-      "fresh lemongrass",
-      "stalk of celery",
-      "meta:forage-sensed",
-      "sweet potato",
-      "red onion",
-      "sweet onion",
-      "curly garlic scapes",
-      "ghost pepper",
-      "hot pepper",
-      "meta:forage-sensed:day:2024-05"
-    ],
-    "uid": [
-      711002
-    ],
     "image": "ifw-isle_of_four_winds-1310232949.png",
     "image_coords": [
       3303,
       633,
       3316,
       645
+    ],
+    "tags": [
+      "acantha leaf",
+      "brostheras grass",
+      "curly garlic scapes",
+      "dill",
+      "fresh broccoli",
+      "fresh lemongrass",
+      "garlic",
+      "ghost pepper",
+      "green cabbage",
+      "hot pepper",
+      "ironfern root",
+      "luckbloom blossom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
+      "murdroot",
+      "pepperthorn root",
+      "purple cabbage",
+      "red onion",
+      "rose-marrow root",
+      "stalk of celery",
+      "sunburst blossom",
+      "sweet onion",
+      "sweet potato",
+      "tobacco leaves",
+      "wavepetal blossom",
+      "yellow squash",
+      "zucchini"
+    ],
+    "uid": [
+      711002
     ]
   }
 }

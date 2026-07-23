@@ -1,5 +1,4 @@
 {
-  "checksum": "2877861fa572c67c1db1822d268475da",
   "room": {
     "id": 6326,
     "title": [
@@ -23,38 +22,39 @@
       "450": 0.2,
       "6327": 0.2
     },
-    "tags": [
-      "cuctucae berry",
-      "marallis berry",
-      "wild pink geranium",
-      "sprig of larkspur",
-      "sweetfern stalk",
-      "meta:mapname:Wehnimer's Landing - Wizard Guild",
-      "meta:mapshortname:Wizard Guild (Wehnimer's)",
-      "meta:mapcategory:Wehnimer's Landing",
-      "meta:mapcategory:Guilds",
-      "sassafras leaf",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "stalk of bluebells",
-      "golden aster",
-      "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "meta:forage-sensed:day:2023-02"
-    ],
-    "uid": [
-      52022
-    ],
     "image": "wl-wizard_guild.jpg",
     "image_coords": [
       711,
       651,
       721,
       661
+    ],
+    "tags": [
+      "angelica root",
+      "bolmara lichen",
+      "cuctucae berry",
+      "dwarf bilberry",
+      "golden aster",
+      "ironfern root",
+      "marallis berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Wehnimer's Landing",
+      "meta:mapname:Wehnimer's Landing - Wizard Guild",
+      "meta:mapshortname:Wizard Guild (Wehnimer's)",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sprig of larkspur",
+      "stalk of bluebells",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wild pink geranium",
+      "wingstem root"
+    ],
+    "uid": [
+      52022
     ]
   }
 }

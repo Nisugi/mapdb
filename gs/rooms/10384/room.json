@@ -1,5 +1,4 @@
 {
-  "checksum": "6638729dab4f5a78a7244f2e5c493326",
   "room": {
     "id": 10384,
     "title": [
@@ -16,18 +15,18 @@
       "3517": "out",
       "10385": "north",
       "13312": "go stairway",
-      "30713": "/rooms/10384/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3517": 0.2,
       "10385": 0.2,
       "13312": 0.2,
-      "30713": "/rooms/10384/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "urchin-access",
+      "malwith",
       "urchin guide malwith",
-      "malwith"
+      "urchin-access"
     ],
     "uid": [
       14102001

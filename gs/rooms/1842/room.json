@@ -1,5 +1,4 @@
 {
-  "checksum": "18c1d0b21c69b2aa0f6e688fa84f8383",
   "room": {
     "id": 1842,
     "title": [
@@ -15,19 +14,20 @@
     "wayto": {
       "1841": "out",
       "12504": "east",
-      "30715": "/rooms/1842/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1841": 0.2,
       "12504": 0.2,
-      "30715": "/rooms/1842/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "goldenhelm",
       "inn",
-      "urchin-access",
-      "urchin guide inn",
+      "no forageables",
       "urchin guide goldenhelm",
-      "goldenhelm"
+      "urchin guide inn",
+      "urchin-access"
     ],
     "uid": [
       3003006

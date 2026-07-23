@@ -1,5 +1,4 @@
 {
-  "checksum": "6132b4976551ee6ae867a89063fee224",
   "room": {
     "id": 33918,
     "title": [
@@ -20,30 +19,31 @@
       "33917": 0.2,
       "33919": 0.2
     },
-    "tags": [
-      "soft white mushroom",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "genkew mushroom",
-      "blue trafel mushroom",
-      "pepperthorn root",
-      "murdroot",
-      "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-09"
-    ],
-    "uid": [
-      13010223
-    ],
     "image": "en-onyx-tunnel-1696878156.png",
     "image_coords": [
       440,
       207,
       469,
       236
+    ],
+    "tags": [
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-09",
+      "murdroot",
+      "pepperthorn root",
+      "soft mushroom",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      13010223
     ]
   }
 }

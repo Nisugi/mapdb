@@ -1,5 +1,4 @@
 {
-  "checksum": "cc72900f15bce88779115c9591e5976a",
   "room": {
     "id": 1856,
     "title": [
@@ -14,14 +13,15 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "1855": "out",
-      "30715": "/rooms/1856/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1855": 0.2,
-      "30715": "/rooms/1856/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "fletcher",
+      "no forageables",
       "urchin guide fletcher",
       "urchin-access"
     ],

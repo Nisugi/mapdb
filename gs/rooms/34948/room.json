@@ -1,5 +1,4 @@
 {
-  "checksum": "7ab8f901b760268466bfd39566aeb5a2",
   "room": {
     "id": 34948,
     "title": [
@@ -13,17 +12,18 @@
     ],
     "location": "Kraken's Fall",
     "wayto": {
-      "30716": "/rooms/34948/wayto/stringproc-30716.rb",
+      "30716": ";e true",
       "34947": "out"
     },
     "timeto": {
-      "30716": "/rooms/34948/timeto/stringproc-30716.rb",
+      "30716": ";e Map[7].timeto['30714'].call;",
       "34947": 0.2
     },
     "tags": [
+      "no forageables",
       "npccleric",
-      "urchin-access",
-      "urchin guide temple"
+      "urchin guide temple",
+      "urchin-access"
     ],
     "uid": [
       7118392

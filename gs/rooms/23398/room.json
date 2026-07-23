@@ -1,5 +1,4 @@
 {
-  "checksum": "6526bf56d71a01b1535989e4c899fcdd",
   "room": {
     "id": 23398,
     "title": [
@@ -22,25 +21,26 @@
       "23397": 0.2,
       "23399": 0.2
     },
-    "tags": [
-      "peer down =~ /Obvious exits: down/",
-      "white hook mushroom",
-      "glowing toadstool",
-      "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-02"
-    ],
-    "uid": [
-      13018026
-    ],
     "image": "en-zul_logoth_liaerion-1703216519.png",
     "image_coords": [
       189,
       370,
       201,
       380
+    ],
+    "tags": [
+      "bolmara lichen",
+      "glowing toadstool",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "peer down =~ /Obvious exits: down/",
+      "white hook mushroom",
+      "wingstem root"
+    ],
+    "uid": [
+      13018026
     ]
   }
 }

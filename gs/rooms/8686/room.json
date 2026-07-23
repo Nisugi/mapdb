@@ -1,5 +1,4 @@
 {
-  "checksum": "5afc65cfce1daf7baa8027ce3c094738",
   "room": {
     "id": 8686,
     "title": [
@@ -15,32 +14,33 @@
     "wayto": {
       "232": "out",
       "7517": "climb ladder",
-      "30708": "/rooms/8686/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "232": 0.2,
       "7517": 0.2,
-      "30708": "/rooms/8686/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "jail",
-      "meta:noteleport:fwi",
-      "urchin-access",
-      "urchin guide justice",
-      "justice",
-      "rogue guild hardlock",
-      "rogue guild hardlock:door",
-      "meta:nomagic"
-    ],
-    "uid": [
-      2600
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       509,
       735,
       545,
       771
+    ],
+    "tags": [
+      "jail",
+      "justice",
+      "meta:nomagic",
+      "meta:noteleport:fwi",
+      "no forageables",
+      "rogue guild hardlock",
+      "rogue guild hardlock:door",
+      "urchin guide justice",
+      "urchin-access"
+    ],
+    "uid": [
+      2600
     ]
   }
 }

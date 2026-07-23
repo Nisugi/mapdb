@@ -1,5 +1,4 @@
 {
-  "checksum": "fa3480c51cfd951870df69cb1b1e1d60",
   "room": {
     "id": 9012,
     "title": [
@@ -23,7 +22,8 @@
       "21224": "go granite emporium",
       "27963": "go grey salon",
       "27964": "go marble post",
-      "27970": "go brickworked shop"
+      "27970": "go brickworked shop",
+      "36629": "go quoins-faced store"
     },
     "timeto": {
       "9011": 0.2,
@@ -35,17 +35,23 @@
       "21224": 0.2,
       "27963": 0.2,
       "27964": 0.2,
-      "27970": 0.2
+      "27970": 0.2,
+      "36629": 0.2
     },
-    "uid": [
-      733005
-    ],
     "image": "vo-solhaven-1675635404.png",
     "image_coords": [
       1531,
       488,
       1543,
       500
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      733005
     ]
   }
 }
