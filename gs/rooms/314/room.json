@@ -1,4 +1,5 @@
 {
+  "checksum": "c2290ba94e75abfe7999856e074b0a9c",
   "room": {
     "id": 314,
     "title": [
@@ -22,15 +23,8 @@
     "timeto": {
       "312": 0.2,
       "315": 0.2,
-      "3890": ";e if (UserVars.mapdb_prestidigitorium == true) or (UserVars.mapdb_prestidigitorium == 'yes'); 0.2; else; nil; end"
+      "3890": "/rooms/314/timeto/stringproc-3890.rb"
     },
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      1199,
-      1054,
-      1234,
-      1087
-    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -82,6 +76,13 @@
     ],
     "uid": [
       7019
+    ],
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      1199,
+      1054,
+      1234,
+      1087
     ]
   }
 }

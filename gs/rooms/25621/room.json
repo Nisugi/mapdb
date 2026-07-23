@@ -1,4 +1,5 @@
 {
+  "checksum": "e853bb3a066e7618e61c8d7a06fdf66e",
   "room": {
     "id": 25621,
     "title": [
@@ -14,26 +15,19 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "13966": ";e if checksitting;while Room.current.id == 25621;fput('row southeast');waitrt?;end;else;move('swim southeast');end;",
-      "25620": ";e if checksitting;while Room.current.id == 25621;fput('row east');waitrt?;end;else;move('swim east');end;",
-      "25622": ";e if checksitting;while Room.current.id == 25621;fput('row north');waitrt?;end;else;move('swim north');end;",
-      "25623": ";e if checksitting;while Room.current.id == 25621;fput('row northwest');waitrt?;end;else;move('swim northwest');end;",
+      "13966": "/rooms/25621/wayto/stringproc-13966.rb",
+      "25620": "/rooms/25621/wayto/stringproc-25620.rb",
+      "25622": "/rooms/25621/wayto/stringproc-25622.rb",
+      "25623": "/rooms/25621/wayto/stringproc-25623.rb",
       "30505": "swim down"
     },
     "timeto": {
-      "13966": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "25620": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "25622": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "25623": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "30505": ";e checksitting && Room.current.climate == 'freshwater' ? nil : 0.2"
+      "13966": "/rooms/25621/timeto/stringproc-13966.rb",
+      "25620": "/rooms/25621/timeto/stringproc-25620.rb",
+      "25622": "/rooms/25621/timeto/stringproc-25622.rb",
+      "25623": "/rooms/25621/timeto/stringproc-25623.rb",
+      "30505": "/rooms/25621/timeto/stringproc-30505.rb"
     },
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1083,
-      651,
-      1103,
-      669
-    ],
     "tags": [
       "aloeas stem",
       "meta:forage-sensed",
@@ -50,6 +44,13 @@
     ],
     "uid": [
       14117007
+    ],
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1083,
+      651,
+      1103,
+      669
     ]
   }
 }

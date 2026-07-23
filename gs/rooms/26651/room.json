@@ -1,4 +1,5 @@
 {
+  "checksum": "fe0cb6f7d8f7c4dfbc38e1346b4c5203",
   "room": {
     "id": 26651,
     "title": [
@@ -15,7 +16,7 @@
     "wayto": {
       "26652": "swim northwest",
       "26654": "swim west",
-      "26673": ";e move 'swim down'; $go2_restart=true"
+      "26673": "/rooms/26651/wayto/stringproc-26673.rb"
     },
     "timeto": {
       "26652": 0.2,

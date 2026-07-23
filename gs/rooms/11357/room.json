@@ -1,4 +1,5 @@
 {
+  "checksum": "6613e8e1b998e530c79e68425a9b3f19",
   "room": {
     "id": 11357,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "arid",
     "terrain": "rough",
     "wayto": {
-      "11355": ";e save_stance = XMLData.stance_text;fput 'stance offensive' if save_stance != 'offensive';move('climb wall');fput \"stance #{save_stance}\" if save_stance != XMLData.stance_text;;$go2_restart = true;",
-      "11358": ";e while XMLData.room_title == '[Ravine Bottom]'; fput 'search'; move 'climb footholds'; waitrt?; end; fill_hands"
+      "11355": "/rooms/11357/wayto/stringproc-11355.rb",
+      "11358": "/rooms/11357/wayto/stringproc-11358.rb"
     },
     "timeto": {
       "11355": 0.2,
-      "11358": 3.0
+      "11358": 3
     },
-    "image": "rr-citadel-1717856937.png",
-    "image_coords": [
-      236,
-      1338,
-      248,
-      1350
-    ],
     "tags": [
       "banana leaf",
       "blue poppy",
@@ -54,6 +48,13 @@
     ],
     "uid": [
       377017
+    ],
+    "image": "rr-citadel-1717856937.png",
+    "image_coords": [
+      236,
+      1338,
+      248,
+      1350
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "ad6b240dac60648e900547033eb9244a",
   "room": {
     "id": 6998,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "cold, dry",
     "terrain": "plain dirt",
     "wayto": {
-      "6997": ";e loop { result = dothistimeout 'push lever', 3, /Ok, you push a heavy steel lever protruding from a slit in one wall.  Now what?|Summoning all your strength, you manage to push a heavy steel lever protruding from a slit in one wall forward just enough to lower a wooden drawbridge.|You try to push the heavy steel lever, but it won't budge!/; break if result =~ /Ok, you push a heavy steel lever protruding from a slit in one wall.  Now what?|Summoning all your strength, you manage to push a heavy steel lever protruding from a slit in one wall forward just enough to lower a wooden drawbridge./ }; waitrt?; move 'go drawbridge'",
-      "6999": ";e loop { result = dothistimeout 'pull lever', 3, /Ok, you pull a heavy steel lever protruding from a slit in one wall.  Now what|Summoning all your strength, you manage to pull a heavy steel lever protruding from a slit in one wall back just enough to raise a wooden drawbridge|You try to pull the heavy steel lever, but it won't budge!/; waitrt?; break if result =~ /Ok, you pull a heavy steel lever protruding from a slit in one wall.  Now what?|Summoning all your strength, you manage to pull a heavy steel lever protruding from a slit in one wall back just enough to raise a wooden drawbridge/ }; move 'go white portcullis'"
+      "6997": "/rooms/6998/wayto/stringproc-6997.rb",
+      "6999": "/rooms/6998/wayto/stringproc-6999.rb"
     },
     "timeto": {
       "6997": 0.2,
       "6999": 0.2
     },
-    "image": "wl-darkstone-1717380773.png",
-    "image_coords": [
-      320,
-      429,
-      330,
-      439
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -50,6 +44,13 @@
     ],
     "uid": [
       45104
+    ],
+    "image": "wl-darkstone-1717380773.png",
+    "image_coords": [
+      320,
+      429,
+      330,
+      439
     ]
   }
 }

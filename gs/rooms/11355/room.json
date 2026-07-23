@@ -1,4 +1,5 @@
 {
+  "checksum": "892b17be78095053aa73f0248016edfa",
   "room": {
     "id": 11355,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "hard, flat",
     "wayto": {
       "11354": "west",
-      "11357": ";e empty_hands\nold_stance = XMLData.stance_text\nfput 'stance offensive' unless old_stance == 'offensive'\nuntil !checkpaths\nfput 'stand' unless standing?\nfput 'climb ledge'\nsleep 0.1\nwaitrt?\nend\nfput 'stance ' + old_stance unless old_stance == 'offensive'"
+      "11357": "/rooms/11355/wayto/stringproc-11357.rb"
     },
     "timeto": {
       "11354": 0.2,
-      "11357": 10.0
+      "11357": 10
     },
-    "image": "rr-citadel-1717856937.png",
-    "image_coords": [
-      177,
-      1401,
-      187,
-      1411
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       377001
+    ],
+    "image": "rr-citadel-1717856937.png",
+    "image_coords": [
+      177,
+      1401,
+      187,
+      1411
     ]
   }
 }

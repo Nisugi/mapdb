@@ -1,4 +1,5 @@
 {
+  "checksum": "0a45a216b65f691bb52d6b7f27d95e44",
   "room": {
     "id": 7542,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "the catacombs",
     "wayto": {
-      "404": ";e multifput 'pull huge broadsword', 'go depression'",
+      "404": "/rooms/7542/wayto/stringproc-404.rb",
       "7540": "pull cresset"
     },
     "timeto": {
       "404": 0.4,
       "7540": 0.2
     },
-    "image": "wl-catacombs-1264234799.png",
-    "image_coords": [
-      421,
-      1208,
-      431,
-      1218
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -34,6 +28,13 @@
     ],
     "uid": [
       46027
+    ],
+    "image": "wl-catacombs-1264234799.png",
+    "image_coords": [
+      421,
+      1208,
+      431,
+      1218
     ]
   }
 }

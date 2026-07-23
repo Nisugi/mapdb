@@ -1,4 +1,5 @@
 {
+  "checksum": "20bfa760f83428ac28a5195a0c6b740a",
   "room": {
     "id": 11,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "none",
     "wayto": {
       "9": "out",
-      "30714": ";e true"
+      "30714": "/rooms/11/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "9": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/11/timeto/stringproc-30714.rb"
     },
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      576,
-      404,
-      598,
-      426
-    ],
     "tags": [
       "bank",
       "meta:forage-sensed",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       13103004
+    ],
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      576,
+      404,
+      598,
+      426
     ]
   }
 }

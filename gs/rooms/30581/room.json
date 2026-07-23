@@ -1,4 +1,5 @@
 {
+  "checksum": "9ce20fffa16e1e088017624cc7fc8fe2",
   "room": {
     "id": 30581,
     "title": [
@@ -13,11 +14,11 @@
     "location": "the Graveyard",
     "wayto": {
       "7626": "crawl out",
-      "30582": ";e fput 'lie' until checkprone; result = dothistimeout 'search',3, /staircase/ until result;waitrt?;fput 'stand' until standing?;waitrt?;fput 'go staircase'"
+      "30582": "/rooms/30581/wayto/stringproc-30582.rb"
     },
     "timeto": {
       "7626": 0.2,
-      "30582": 12.0
+      "30582": 12
     },
     "tags": [
       "meta:forage-sensed",

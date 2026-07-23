@@ -1,4 +1,5 @@
 {
+  "checksum": "aa8c2f05e023c1d4cdd5d2e835ec8e8a",
   "room": {
     "id": 1216,
     "title": [
@@ -15,21 +16,14 @@
     "terrain": "deciduous forest",
     "wayto": {
       "1215": "northwest",
-      "1217": ";e 10.times { result = dothistimeout 'search', 5, /don't find anything|discover a small footpath|Round ?time/; waitrt?; break if result =~ /discover a small footpath/ }; move 'go footpath'",
+      "1217": "/rooms/1216/wayto/stringproc-1217.rb",
       "7890": "east"
     },
     "timeto": {
       "1215": 0.2,
-      "1217": 20.0,
+      "1217": 20,
       "7890": 0.2
     },
-    "image": "wl-danjirland-1264234799.png",
-    "image_coords": [
-      999,
-      980,
-      1009,
-      990
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -64,6 +58,13 @@
     ],
     "uid": [
       2123007
+    ],
+    "image": "wl-danjirland-1264234799.png",
+    "image_coords": [
+      999,
+      980,
+      1009,
+      990
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "f477c8b4044cbd64917d0ca404bb657e",
   "room": {
     "id": 11693,
     "title": [
@@ -14,22 +15,15 @@
     "climate": "moist",
     "terrain": "muddy wetlands",
     "wayto": {
-      "11692": ";e move 'west'",
-      "11694": ";e move 'northeast'",
-      "11696": ";e move 'southeast'"
+      "11692": "/rooms/11693/wayto/stringproc-11692.rb",
+      "11694": "/rooms/11693/wayto/stringproc-11694.rb",
+      "11696": "/rooms/11693/wayto/stringproc-11696.rb"
     },
     "timeto": {
-      "11692": 3.0,
-      "11694": 3.0,
-      "11696": 3.0
+      "11692": 3,
+      "11694": 3,
+      "11696": 3
     },
-    "image": "rr-marsh_keep-1266356986.png",
-    "image_coords": [
-      566,
-      1234,
-      576,
-      1244
-    ],
     "tags": [
       "alligator lily",
       "aloeas stem",
@@ -75,6 +69,13 @@
     ],
     "uid": [
       376016
+    ],
+    "image": "rr-marsh_keep-1266356986.png",
+    "image_coords": [
+      566,
+      1234,
+      576,
+      1244
     ]
   }
 }

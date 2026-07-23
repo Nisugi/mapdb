@@ -1,4 +1,5 @@
 {
+  "checksum": "1a1e539b6d21441247f77bfdecbcf06c",
   "room": {
     "id": 2466,
     "title": [
@@ -13,19 +14,12 @@
     "location": "Icemule Trace",
     "wayto": {
       "2465": "out",
-      "30709": ";e true"
+      "30709": "/rooms/2466/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "2465": 0.2,
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "30709": "/rooms/2466/timeto/stringproc-30709.rb"
     },
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      849,
-      1142,
-      885,
-      1178
-    ],
     "tags": [
       "furrier",
       "no forageables",
@@ -34,6 +28,13 @@
     ],
     "uid": [
       4043312
+    ],
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      849,
+      1142,
+      885,
+      1178
     ]
   }
 }

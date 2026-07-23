@@ -1,4 +1,5 @@
 {
+  "checksum": "f9b06cf5186a9a1206e54e53b0a26e3f",
   "room": {
     "id": 7700,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "the Coastal Cliffs",
     "wayto": {
-      "7684": ";e fput 'pull chain'\nmove 'go chute'",
+      "7684": "/rooms/7700/wayto/stringproc-7684.rb",
       "7701": "north"
     },
     "timeto": {
       "7684": 0.2,
       "7701": 0.2
     },
-    "image": "wl-coastal_cliffs-1264234799.png",
-    "image_coords": [
-      375,
-      1083,
-      385,
-      1093
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -33,6 +27,13 @@
     ],
     "uid": [
       68030
+    ],
+    "image": "wl-coastal_cliffs-1264234799.png",
+    "image_coords": [
+      375,
+      1083,
+      385,
+      1093
     ]
   }
 }

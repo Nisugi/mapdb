@@ -1,4 +1,5 @@
 {
+  "checksum": "5230a8db93fe2ed0acb13268208badcb",
   "room": {
     "id": 3495,
     "title": [
@@ -17,21 +18,14 @@
     "terrain": "cultivated",
     "wayto": {
       "3493": "north",
-      "18041": ";e fput 'speak'; language = /You are currently speaking (.*?)\\./.match(get).captures.first until language;; fput('speak wizard') unless language == 'Guildspeak'; fput('unhide') if hidden? or invisible?; move 'say ::door wizard'; fput('speak ' + language.to_s) unless language == 'Guildspeak'",
-      "30713": ";e true"
+      "18041": "/rooms/3495/wayto/stringproc-18041.rb",
+      "30713": "/rooms/3495/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "3493": 0.2,
-      "18041": ";e ((!defined?(Stats.prof) or Stats.prof == 'Wizard') ? 0.2 : nil);",
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "18041": "/rooms/3495/timeto/stringproc-18041.rb",
+      "30713": "/rooms/3495/timeto/stringproc-30713.rb"
     },
-    "image": "en-tavaalor-1565907614.png",
-    "image_coords": [
-      926,
-      330,
-      958,
-      364
-    ],
     "tags": [
       "advguard",
       "angelica root",
@@ -178,6 +172,13 @@
     ],
     "uid": [
       14100082
+    ],
+    "image": "en-tavaalor-1565907614.png",
+    "image_coords": [
+      926,
+      330,
+      958,
+      364
     ]
   }
 }

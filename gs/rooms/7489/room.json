@@ -1,4 +1,5 @@
 {
+  "checksum": "ab52f8b40047f06f3d84b1514fb504bb",
   "room": {
     "id": 7489,
     "title": [
@@ -13,21 +14,21 @@
     "location": "the Broken Lands",
     "wayto": {
       "7488": "south",
-      "19261": ";e fput 'touch huge relief';fput 'say lo thal ta shin'"
+      "19261": "/rooms/7489/wayto/stringproc-19261.rb"
     },
     "timeto": {
       "7488": 0.2,
       "19261": 0.2
     },
+    "uid": [
+      94037
+    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       1000,
       425,
       1010,
       435
-    ],
-    "uid": [
-      94037
     ]
   }
 }

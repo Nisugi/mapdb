@@ -1,4 +1,5 @@
 {
+  "checksum": "87a9bb11bdbd59070927a194d663af0b",
   "room": {
     "id": 25602,
     "title": [
@@ -12,8 +13,8 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "25603": ";e table = \"carved\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "25604": ";e table = \"dark\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "25603": "/rooms/25602/wayto/stringproc-25603.rb",
+      "25604": "/rooms/25602/wayto/stringproc-25604.rb",
       "25605": "out"
     },
     "timeto": {

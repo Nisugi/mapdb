@@ -1,4 +1,5 @@
 {
+  "checksum": "55fbfcd82806c2b731f564e9136e1446",
   "room": {
     "id": 23146,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": false,
     "wayto": {
-      "20348": ";e move 'crawl crevice';fput 'stand' until standing?",
+      "20348": "/rooms/23146/wayto/stringproc-20348.rb",
       "23147": "east"
     },
     "timeto": {

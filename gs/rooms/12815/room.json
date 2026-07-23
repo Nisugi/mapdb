@@ -1,4 +1,5 @@
 {
+  "checksum": "d954f3d3967b7b234742ef37e08b19e6",
   "room": {
     "id": 12815,
     "title": [
@@ -18,14 +19,14 @@
       "12816": "north",
       "12817": "south",
       "13239": "climb stairway",
-      "30710": ";e true"
+      "30710": "/rooms/12815/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "1460": 0.2,
       "12816": 0.2,
       "12817": 0.2,
       "13239": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/12815/timeto/stringproc-30710.rb"
     },
     "tags": [
       "no forageables",

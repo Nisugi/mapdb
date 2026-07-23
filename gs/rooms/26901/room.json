@@ -1,4 +1,5 @@
 {
+  "checksum": "8a0a39c3c8dc4abf1498860f1802cbd8",
   "room": {
     "id": 26901,
     "title": [
@@ -13,23 +14,16 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "26890": "out",
-      "26908": ";e fput 'search'; move 'go door'",
+      "26908": "/rooms/26901/wayto/stringproc-26908.rb",
       "26909": "go steps",
       "26913": "go arch"
     },
     "timeto": {
       "26890": 0.2,
-      "26908": 3.0,
+      "26908": 3,
       "26909": 0.2,
       "26913": 0.2
     },
-    "image": "wl-black_hand-1527320047.png",
-    "image_coords": [
-      697,
-      350,
-      850,
-      480
-    ],
     "tags": [
       "meta:mapcategory:MHO",
       "meta:mapcategory:Wehnimer's Landing",
@@ -39,6 +33,13 @@
     ],
     "uid": [
       18018002
+    ],
+    "image": "wl-black_hand-1527320047.png",
+    "image_coords": [
+      697,
+      350,
+      850,
+      480
     ]
   }
 }

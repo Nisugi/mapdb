@@ -1,4 +1,5 @@
 {
+  "checksum": "1af9c45fc43dccd3a850ff5fbd759365",
   "room": {
     "id": 30591,
     "title": [
@@ -16,12 +17,12 @@
     "wayto": {
       "3195": "out",
       "30592": "go barn",
-      "30709": ";e true"
+      "30709": "/rooms/30591/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "3195": 0.2,
       "30592": 0.2,
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "30709": "/rooms/30591/timeto/stringproc-30709.rb"
     },
     "tags": [
       "angelica root",

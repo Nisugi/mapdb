@@ -1,4 +1,5 @@
 {
+  "checksum": "e6234af9a306fe0ebfeab30a3c216416",
   "room": {
     "id": 14627,
     "title": [
@@ -14,12 +15,12 @@
     "wayto": {
       "223": "go grate under ashes",
       "3619": "go steep stair",
-      "30708": ";e true"
+      "30708": "/rooms/14627/wayto/stringproc-30708.rb"
     },
     "timeto": {
-      "223": 15.0,
+      "223": 15,
       "3619": 0.2,
-      "30708": ";e Map[7].timeto['30714'].call;"
+      "30708": "/rooms/14627/timeto/stringproc-30708.rb"
     },
     "tags": [
       "no forageables",

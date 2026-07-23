@@ -1,4 +1,5 @@
 {
+  "checksum": "b0e6a497c89e3d033b452cc0f20a179b",
   "room": {
     "id": 26918,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "15951": ";e room = Room.current.id;fput 'go opening'; if ( room == Room.current.id ); fput 'close locker';move 'go opening'; end"
+      "15951": "/rooms/26918/wayto/stringproc-15951.rb"
     },
     "timeto": {
       "15951": 0.2
@@ -23,9 +24,9 @@
       "meta:locker",
       "peer opening =~ /^Obvious exits: north, east, south$/"
     ],
-    "check_location": true,
     "uid": [
       104406
-    ]
+    ],
+    "check_location": true
   }
 }

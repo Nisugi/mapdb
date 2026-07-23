@@ -1,4 +1,5 @@
 {
+  "checksum": "f42c0aa821776acb0705e2a68a701cc9",
   "room": {
     "id": 22218,
     "title": [
@@ -14,28 +15,21 @@
     "climate": "cold, damp",
     "terrain": "muddy wetlands",
     "wayto": {
-      "11612": ";e if ((bounty? =~ /^You have made contact with the child/)||(Society.task =~ /You have been tasked to find and rescue an official who was captured/)); mynpc = GameObj.npcs.find { |npc| npc.noun =~ /child|official/ }; else;  mynpc = nil; end;  50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'southwest'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'southeast'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'northwest'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'southwest'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'northwest'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc;",
-      "11617": ";e if ((bounty? =~ /^You have made contact with the child/)||(Society.task =~ /You have been tasked to find and rescue an official who was captured/)); mynpc = GameObj.npcs.find { |npc| npc.noun =~ /child|official/ }; else;  mynpc = nil; end;  50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'southeast'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'southeast'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'southwest'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'northwest'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'northwest'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc;",
-      "11618": ";e if ((bounty? =~ /^You have made contact with the child/)||(Society.task =~ /You have been tasked to find and rescue an official who was captured/)); mynpc = GameObj.npcs.find { |npc| npc.noun =~ /child|official/ }; else;  mynpc = nil; end;  50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'southwest'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'northwest'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'southeast'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'southwest'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc;",
-      "11630": ";e move 'southeast';move 'northeast'",
+      "11612": "/rooms/22218/wayto/stringproc-11612.rb",
+      "11617": "/rooms/22218/wayto/stringproc-11617.rb",
+      "11618": "/rooms/22218/wayto/stringproc-11618.rb",
+      "11630": "/rooms/22218/wayto/stringproc-11630.rb",
       "11633": "north",
       "16122": "southwest"
     },
     "timeto": {
-      "11612": 1.0,
-      "11617": 1.0,
+      "11612": 1,
+      "11617": 1,
       "11618": 0.8,
       "11630": 0.4,
       "11633": 0.2,
       "16122": 0.2
     },
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      528,
-      472,
-      537,
-      479
-    ],
     "tags": [
       "aloeas stem",
       "blue trafel mushroom",
@@ -59,6 +53,13 @@
     ],
     "uid": [
       5003039
+    ],
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      528,
+      472,
+      537,
+      479
     ]
   }
 }

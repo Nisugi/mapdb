@@ -1,4 +1,5 @@
 {
+  "checksum": "6eb882a74bf35a59062a3627ec321494",
   "room": {
     "id": 3519,
     "title": [
@@ -20,22 +21,15 @@
       "3520": "north",
       "3521": "east",
       "3542": "south",
-      "30713": ";e true"
+      "30713": "/rooms/3519/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "3518": 0.2,
       "3520": 0.2,
       "3521": 0.2,
       "3542": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/3519/timeto/stringproc-30713.rb"
     },
-    "image": "en-tavaalor-1565907614.png",
-    "image_coords": [
-      924,
-      851,
-      962,
-      888
-    ],
     "tags": [
       "kingscourt",
       "meta:forage-sensed",
@@ -53,6 +47,13 @@
     ],
     "uid": [
       14100047
+    ],
+    "image": "en-tavaalor-1565907614.png",
+    "image_coords": [
+      924,
+      851,
+      962,
+      888
     ]
   }
 }

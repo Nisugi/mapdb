@@ -1,4 +1,5 @@
 {
+  "checksum": "8d1093d2080a46f572e6021924d1607c",
   "room": {
     "id": 4683,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "4682": "out",
       "17162": "go archway",
-      "30717": ";e true"
+      "30717": "/rooms/4683/wayto/stringproc-30717.rb"
     },
     "timeto": {
       "4682": 0.2,
       "17162": 0.2,
-      "30717": ";e Map[7].timeto['30714'].call;"
+      "30717": "/rooms/4683/timeto/stringproc-30717.rb"
     },
-    "image": "en-cysaegir-1679641246.png",
-    "image_coords": [
-      361,
-      821,
-      386,
-      845
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       14051005
+    ],
+    "image": "en-cysaegir-1679641246.png",
+    "image_coords": [
+      361,
+      821,
+      386,
+      845
     ]
   }
 }

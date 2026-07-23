@@ -1,4 +1,5 @@
 {
+  "checksum": "2a4671a7da1f53b45de63a57fecfa30b",
   "room": {
     "id": 32947,
     "title": [
@@ -15,11 +16,11 @@
     "terrain": "none",
     "wayto": {
       "32899": "out",
-      "34400": ";e true"
+      "34400": "/rooms/32947/wayto/stringproc-34400.rb"
     },
     "timeto": {
       "32899": 0.2,
-      "34400": ";e Map[7].timeto['30714'].call;"
+      "34400": "/rooms/32947/timeto/stringproc-34400.rb"
     },
     "tags": [
       "dock handler",

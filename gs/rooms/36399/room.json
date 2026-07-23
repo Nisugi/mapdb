@@ -1,4 +1,5 @@
 {
+  "checksum": "f27a5408b435ecc05a616ad72285c048",
   "room": {
     "id": 36399,
     "title": [
@@ -14,22 +15,22 @@
     "wayto": {
       "36398": "north",
       "36400": "south",
-      "36414": ";e 5.times{fput 'dig opening'};move 'go opening'"
+      "36414": "/rooms/36399/wayto/stringproc-36414.rb"
     },
     "timeto": {
       "36398": 0.2,
       "36400": 0.2,
       "36414": 0.2
     },
+    "uid": [
+      58005
+    ],
     "image": "quest-black_swan_castle.png",
     "image_coords": [
       1560,
       680,
       1600,
       720
-    ],
-    "uid": [
-      58005
     ]
   }
 }

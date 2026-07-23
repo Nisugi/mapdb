@@ -1,4 +1,5 @@
 {
+  "checksum": "626595d8aab0af022972a46f2aadb309",
   "room": {
     "id": 4091,
     "title": [
@@ -21,13 +22,6 @@
       "4090": 0.2,
       "4092": 0.2
     },
-    "image": "wl-homes-1-1264234799.png",
-    "image_coords": [
-      946,
-      1190,
-      964,
-      1208
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -41,6 +35,13 @@
     ],
     "uid": [
       700057
+    ],
+    "image": "wl-homes-1-1264234799.png",
+    "image_coords": [
+      946,
+      1190,
+      964,
+      1208
     ]
   }
 }

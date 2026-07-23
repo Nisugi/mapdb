@@ -1,4 +1,5 @@
 {
+  "checksum": "e12aad628503941e2b9bb3b01992d644",
   "room": {
     "id": 18894,
     "title": [
@@ -12,13 +13,19 @@
     ],
     "location": "the Coastal Cliffs",
     "wayto": {
-      "18117": ";e fput \"go wall\";fput \"go ship\"",
+      "18117": "/rooms/18894/wayto/stringproc-18117.rb",
       "18118": "go wall"
     },
     "timeto": {
       "18117": 0.3,
       "18118": 0.2
     },
+    "tags": [
+      "summoning chamber"
+    ],
+    "uid": [
+      661012
+    ],
     "image": "wl-sorcerer_guild-1405076623.png",
     "image_coords": [
       64,
@@ -26,12 +33,6 @@
       103,
       518
     ],
-    "tags": [
-      "summoning chamber"
-    ],
-    "check_location": false,
-    "uid": [
-      661012
-    ]
+    "check_location": false
   }
 }

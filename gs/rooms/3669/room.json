@@ -1,4 +1,5 @@
 {
+  "checksum": "a106dc88db6f06d17ee22d88cb7ea45f",
   "room": {
     "id": 3669,
     "title": [
@@ -16,56 +17,49 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "7": ";e Map[7].wayto['3668'].call;",
-      "284": ";e Map[7].wayto['3668'].call;",
-      "1448": ";e Map[7].wayto['3668'].call;",
-      "1944": ";e Map[7].wayto['3668'].call;",
-      "2426": ";e Map[7].wayto['3668'].call;",
-      "3521": ";e Map[7].wayto['3668'].call;",
+      "7": "/rooms/3669/wayto/stringproc-7.rb",
+      "284": "/rooms/3669/wayto/stringproc-284.rb",
+      "1448": "/rooms/3669/wayto/stringproc-1448.rb",
+      "1944": "/rooms/3669/wayto/stringproc-1944.rb",
+      "2426": "/rooms/3669/wayto/stringproc-2426.rb",
+      "3521": "/rooms/3669/wayto/stringproc-3521.rb",
       "3668": "west",
       "3670": "go bank",
       "3673": "east",
-      "4651": ";e Map[7].wayto['3668'].call;",
-      "9410": ";e Map[7].wayto['3668'].call;",
-      "10862": ";e Map[7].wayto['3668'].call;",
-      "26905": ";e 2.times{fput \"event transport duskruin\"};UserVars.mapdb_duskruin_origin = 3669;",
-      "28908": ";e Map[7].wayto['3668'].call;",
-      "29869": ";e Map[7].wayto['3668'].call;",
-      "30718": ";e true",
-      "31558": ";e 2.times{fput \"event transport ebon gate\"};UserVars.mapdb_ebon_gate_origin = 3669;",
-      "32885": ";e Map[7].wayto['3668'].call;",
-      "33863": ";e Map[7].wayto['3668'].call;",
-      "35593": ";e Map[7].wayto['3668'].call"
+      "4651": "/rooms/3669/wayto/stringproc-4651.rb",
+      "9410": "/rooms/3669/wayto/stringproc-9410.rb",
+      "10862": "/rooms/3669/wayto/stringproc-10862.rb",
+      "26905": "/rooms/3669/wayto/stringproc-26905.rb",
+      "28908": "/rooms/3669/wayto/stringproc-28908.rb",
+      "29869": "/rooms/3669/wayto/stringproc-29869.rb",
+      "30718": "/rooms/3669/wayto/stringproc-30718.rb",
+      "31558": "/rooms/3669/wayto/stringproc-31558.rb",
+      "32885": "/rooms/3669/wayto/stringproc-32885.rb",
+      "33863": "/rooms/3669/wayto/stringproc-33863.rb",
+      "35593": "/rooms/3669/wayto/stringproc-35593.rb"
     },
     "timeto": {
-      "7": ";e (UserVars.mapdb_fwi_return_room == 7 ? 15.0 : nil);",
-      "284": ";e (UserVars.mapdb_fwi_return_room == 284 ? 15.0 : nil);",
-      "1448": ";e (UserVars.mapdb_fwi_return_room == 1448 ? 15.0 : nil);",
-      "1944": ";e (UserVars.mapdb_fwi_return_room == 1944 ? 15.0 : nil);",
-      "2426": ";e (UserVars.mapdb_fwi_return_room == 2426 ? 15.0 : nil);",
-      "3521": ";e (UserVars.mapdb_fwi_return_room == 3521 ? 15.0 : nil);",
+      "7": "/rooms/3669/timeto/stringproc-7.rb",
+      "284": "/rooms/3669/timeto/stringproc-284.rb",
+      "1448": "/rooms/3669/timeto/stringproc-1448.rb",
+      "1944": "/rooms/3669/timeto/stringproc-1944.rb",
+      "2426": "/rooms/3669/timeto/stringproc-2426.rb",
+      "3521": "/rooms/3669/timeto/stringproc-3521.rb",
       "3668": 0.8,
       "3670": 0.2,
       "3673": 0.2,
-      "4651": ";e (UserVars.mapdb_fwi_return_room == 4651 ? 15.0 : nil);",
-      "9410": ";e (UserVars.mapdb_fwi_return_room == 9410 ? 15.0 : nil);",
-      "10862": ";e (UserVars.mapdb_fwi_return_room == 10862 ? 15.0 : nil);",
+      "4651": "/rooms/3669/timeto/stringproc-4651.rb",
+      "9410": "/rooms/3669/timeto/stringproc-9410.rb",
+      "10862": "/rooms/3669/timeto/stringproc-10862.rb",
       "26905": 2400,
-      "28908": ";e (UserVars.mapdb_fwi_return_room == 28908 ? 15.0 : nil);",
-      "29869": ";e (UserVars.mapdb_fwi_return_room == 29869 ? 15.0 : nil);",
-      "30718": ";e Map[7].timeto['30714'].call;",
-      "31558": ";e Time.now.month == 10 ? 2400 : nil",
-      "32885": ";e (UserVars.mapdb_fwi_return_room == 32885 ? 15.0 : nil);",
-      "33863": ";e (UserVars.mapdb_fwi_return_room == 33863 ? 15.0 : nil);",
-      "35593": ";e (UserVars.mapdb_fwi_return_room == 35593 ? 15.0 : nil);"
+      "28908": "/rooms/3669/timeto/stringproc-28908.rb",
+      "29869": "/rooms/3669/timeto/stringproc-29869.rb",
+      "30718": "/rooms/3669/timeto/stringproc-30718.rb",
+      "31558": "/rooms/3669/timeto/stringproc-31558.rb",
+      "32885": "/rooms/3669/timeto/stringproc-32885.rb",
+      "33863": "/rooms/3669/timeto/stringproc-33863.rb",
+      "35593": "/rooms/3669/timeto/stringproc-35593.rb"
     },
-    "image": "ifw-isle_of_four_winds-1310232949.png",
-    "image_coords": [
-      2910,
-      1320,
-      2951,
-      1361
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-10",
@@ -75,6 +69,13 @@
     ],
     "uid": [
       3201030
+    ],
+    "image": "ifw-isle_of_four_winds-1310232949.png",
+    "image_coords": [
+      2910,
+      1320,
+      2951,
+      1361
     ]
   }
 }

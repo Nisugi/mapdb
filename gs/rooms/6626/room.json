@@ -1,4 +1,5 @@
 {
+  "checksum": "460f94474b49751e551986bedaa3b3b5",
   "room": {
     "id": 6626,
     "title": [
@@ -15,7 +16,7 @@
       "6622": "north",
       "6627": "west",
       "6628": "east",
-      "7436": ";e unless checkloot.include? 'stairs'\nfput 'push medium moon'\nfput 'pull relief'\nfput 'push letter u'\nfput 'push letter t'\nfput 'push letter h'\nfput 'push letter e'\nfput 'push letter x'\nfput 'pull globe'\nend\nmove 'go stair'"
+      "7436": "/rooms/6626/wayto/stringproc-7436.rb"
     },
     "timeto": {
       "6622": 0.2,
@@ -23,15 +24,15 @@
       "6628": 0.2,
       "7436": 0.2
     },
+    "uid": [
+      487005
+    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       501,
       843,
       511,
       853
-    ],
-    "uid": [
-      487005
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "4ce5547f5826df0758a6c8cd5c9e3243",
   "room": {
     "id": 25194,
     "title": [
@@ -14,11 +15,11 @@
     "wayto": {
       "25192": "west",
       "25196": "northwest",
-      "25197": ";e table = \"backsword\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "25198": ";e table = \"crowbill\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "25199": ";e table = \"jeddart-axe\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "25200": ";e table = \"claidhmore\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "25201": ";e table = \"fist-scythe\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"
+      "25197": "/rooms/25194/wayto/stringproc-25197.rb",
+      "25198": "/rooms/25194/wayto/stringproc-25198.rb",
+      "25199": "/rooms/25194/wayto/stringproc-25199.rb",
+      "25200": "/rooms/25194/wayto/stringproc-25200.rb",
+      "25201": "/rooms/25194/wayto/stringproc-25201.rb"
     },
     "timeto": {
       "25192": 0.2,

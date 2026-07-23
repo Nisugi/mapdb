@@ -1,4 +1,5 @@
 {
+  "checksum": "e407dd94b90c5fad5e99016799035899",
   "room": {
     "id": 24238,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "the Feywrot Mire",
     "wayto": {
-      "21557": ";e fput \"get pile\";fput \"push raft\";fput \"go raft\";echo \"Waiting possibly up to 5 minutes or more for the geyser to shoot...\";line = get until Room.current.id != 24238",
+      "21557": "/rooms/24238/wayto/stringproc-21557.rb",
       "24239": "go gaping hole"
     },
     "timeto": {

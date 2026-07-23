@@ -1,4 +1,5 @@
 {
+  "checksum": "45bd32e84e4852e7c9ec1399610d5ccb",
   "room": {
     "id": 14812,
     "title": [
@@ -15,12 +16,12 @@
     "terrain": "hard, flat",
     "wayto": {
       "12386": "go steps",
-      "30715": ";e true",
+      "30715": "/rooms/14812/wayto/stringproc-30715.rb",
       "30901": "go door"
     },
     "timeto": {
       "12386": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;",
+      "30715": "/rooms/14812/timeto/stringproc-30715.rb",
       "30901": 0.2
     },
     "tags": [

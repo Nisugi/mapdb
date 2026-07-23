@@ -1,4 +1,5 @@
 {
+  "checksum": "82ab939389dbc3dc163423f769f16b1e",
   "room": {
     "id": 4154,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "4153": "south",
       "4159": "west",
-      "4168": ";e fput 'turn torch' unless checkloot.include?('stairway'); move 'go stairway'"
+      "4168": "/rooms/4154/wayto/stringproc-4168.rb"
     },
     "timeto": {
       "4153": 0.2,
       "4159": 0.2,
       "4168": 0.4
     },
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      940,
-      733,
-      950,
-      743
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       2138018
+    ],
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      940,
+      733,
+      950,
+      743
     ]
   }
 }

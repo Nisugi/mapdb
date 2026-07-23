@@ -1,4 +1,5 @@
 {
+  "checksum": "b64e80ae0d095ab7124f22fd5b7c9200",
   "room": {
     "id": 1025,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "cold, dry",
     "terrain": "mountainous",
     "wayto": {
-      "1024": ";e move 'climb cliff'",
+      "1024": "/rooms/1025/wayto/stringproc-1024.rb",
       "1026": "southeast"
     },
     "timeto": {
       "1024": 0.2,
       "1026": 0.2
     },
-    "image": "en-trail-1264234799.png",
-    "image_coords": [
-      1294,
-      338,
-      1304,
-      348
-    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -48,6 +42,13 @@
     ],
     "uid": [
       13002007
+    ],
+    "image": "en-trail-1264234799.png",
+    "image_coords": [
+      1294,
+      338,
+      1304,
+      348
     ]
   }
 }

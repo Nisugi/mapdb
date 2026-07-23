@@ -1,4 +1,5 @@
 {
+  "checksum": "05ff1987da748ae910e531fad00747d9",
   "room": {
     "id": 33888,
     "title": [
@@ -14,11 +15,11 @@
     "location": "Ta'Nalfein",
     "wayto": {
       "33879": "out",
-      "34423": ";e true"
+      "34423": "/rooms/33888/wayto/stringproc-34423.rb"
     },
     "timeto": {
       "33879": 0.2,
-      "34423": ";e Map[7].timeto['30714'].call;"
+      "34423": "/rooms/33888/timeto/stringproc-34423.rb"
     },
     "tags": [
       "mail",

@@ -1,4 +1,5 @@
 {
+  "checksum": "0a8dd435ccaa1b3ed369baa2b7d9148a",
   "room": {
     "id": 339,
     "title": [
@@ -20,7 +21,7 @@
       "15021": "go boutique",
       "15022": "go bejewelled citadel",
       "15024": "go wooden treehouse",
-      "24768": ";e query = \"ivy-covered grey stone building with a sturdy cross-gabled roof\";shop = GameObj.loot.find { |i| i.name.eql?(query) };shop or fail \"could not locate: #{query}\";fput \"go ##{shop.id}\"",
+      "24768": "/rooms/339/wayto/stringproc-24768.rb",
       "33475": "go rustic store",
       "33478": "go red-brick building"
     },
@@ -35,13 +36,6 @@
       "33475": 0.2,
       "33478": 0.2
     },
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      1344,
-      144,
-      1350,
-      152
-    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -93,6 +87,13 @@
     ],
     "uid": [
       731011
+    ],
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      1344,
+      144,
+      1350,
+      152
     ]
   }
 }

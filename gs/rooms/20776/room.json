@@ -1,4 +1,5 @@
 {
+  "checksum": "f602f87049a76307d273bce79a43136f",
   "room": {
     "id": 20776,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "20775": "southeast",
       "20777": "go door",
-      "30715": ";e true"
+      "30715": "/rooms/20776/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "20775": 0.2,
       "20777": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "30715": "/rooms/20776/timeto/stringproc-30715.rb"
     },
-    "image": "ti-teras-1264234799.png",
-    "image_coords": [
-      627,
-      516,
-      664,
-      551
-    ],
     "tags": [
       "meta:premium",
       "no forageables",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       4002202
+    ],
+    "image": "ti-teras-1264234799.png",
+    "image_coords": [
+      627,
+      516,
+      664,
+      551
     ]
   }
 }

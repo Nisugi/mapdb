@@ -1,4 +1,5 @@
 {
+  "checksum": "98f501f40f1f2536b91d51cbf1e51dd0",
   "room": {
     "id": 2636,
     "title": [
@@ -12,11 +13,11 @@
     ],
     "location": "Koar's Shrine",
     "wayto": {
-      "2579": ";e fput 'go sphere'\nloop do\n  result = dothistimeout('north', 2, /You are surrounded by an ethereal fog.|You feel every shred of yourself torn to tiny pieces and reformed...|You can do nothing... you can feel nothing... you are nothing.../)\n  break if result =~ /You feel every shred of yourself torn to tiny pieces and reformed...|You can do nothing... you can feel nothing... you are nothing.../\n  break unless XMLData.room_description.empty?\nend\nsleep(1) while XMLData.room_description.empty?\nfput 'stand' unless standing? \n",
+      "2579": "/rooms/2636/wayto/stringproc-2579.rb",
       "2635": "north",
-      "12093": ";e fput 'go sphere'\nloop do\n  result = dothistimeout('east', 2, /You are surrounded by an ethereal fog.|You feel every shred of yourself torn to tiny pieces and reformed...|You can do nothing... you can feel nothing... you are nothing.../)\n  break if result =~ /You feel every shred of yourself torn to tiny pieces and reformed...|You can do nothing... you can feel nothing... you are nothing.../\n  break unless XMLData.room_description.empty?\nend\nsleep(1) while XMLData.room_description.empty?\nfput 'stand' unless standing? \n",
+      "12093": "/rooms/2636/wayto/stringproc-12093.rb",
       "12099": "go sphere",
-      "12118": ";e fput 'go sphere'\nloop do\n  result = dothistimeout('west', 2, /You are surrounded by an ethereal fog.|You feel every shred of yourself torn to tiny pieces and reformed...|You can do nothing... you can feel nothing... you are nothing.../)\n  break if result =~ /You feel every shred of yourself torn to tiny pieces and reformed...|You can do nothing... you can feel nothing... you are nothing.../\n  break unless XMLData.room_description.empty?\nend\nsleep(1) while XMLData.room_description.empty?\nfput 'stand' unless standing? \n"
+      "12118": "/rooms/2636/wayto/stringproc-12118.rb"
     },
     "timeto": {
       "2579": 30,
@@ -25,13 +26,6 @@
       "12099": 120,
       "12118": 30
     },
-    "image": "imt-pinefar-1264234799.png",
-    "image_coords": [
-      139,
-      173,
-      149,
-      183
-    ],
     "tags": [
       "bur-clover root",
       "meta:forage-sensed",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       4562036
+    ],
+    "image": "imt-pinefar-1264234799.png",
+    "image_coords": [
+      139,
+      173,
+      149,
+      183
     ]
   }
 }

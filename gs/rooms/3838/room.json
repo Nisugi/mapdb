@@ -1,4 +1,5 @@
 {
+  "checksum": "5c0c50eb5428e64a20fe2ac26542ec66",
   "room": {
     "id": 3838,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "cold, dry",
     "terrain": "mountainous",
     "wayto": {
-      "3753": ";e group_members = nil; clear.reverse.each { |line| if line =~ /^Obvious (paths|exits)/; break; elsif line =~ /^([A-Za-z ,]+) followed\\.$/; group_members = $1.split(/, | and /); group_members.delete_if { |m| m =~ /^[Yy]our / }; group_members = nil if group_members.empty?; break; end }; move 'climb ledge'; if group_members; echo \"Waiting for your group... \"; begin; if get =~ /^(You reach out and hold )?([A-z][a-z]+)('s hand| joins your group)\\.$/; group_members.delete $2; end; end while group_members.length > 0; end; waitrt?",
+      "3753": "/rooms/3838/wayto/stringproc-3753.rb",
       "3839": "go spring"
     },
     "timeto": {
       "3753": 0.2,
       "3839": 0.2
     },
-    "image": "wl-stronghold-1264234799.png",
-    "image_coords": [
-      456,
-      973,
-      466,
-      983
-    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -49,6 +43,13 @@
     ],
     "uid": [
       4291051
+    ],
+    "image": "wl-stronghold-1264234799.png",
+    "image_coords": [
+      456,
+      973,
+      466,
+      983
     ]
   }
 }

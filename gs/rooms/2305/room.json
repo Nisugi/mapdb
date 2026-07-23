@@ -1,4 +1,5 @@
 {
+  "checksum": "bd8b2d0ec507e244568637abc9204f24",
   "room": {
     "id": 2305,
     "title": [
@@ -19,21 +20,14 @@
       "2304": "northwest",
       "2306": "east",
       "2321": "north",
-      "30709": ";e true"
+      "30709": "/rooms/2305/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "2304": 0.2,
       "2306": 0.2,
       "2321": 0.2,
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "30709": "/rooms/2305/timeto/stringproc-30709.rb"
     },
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      848,
-      699,
-      884,
-      735
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -43,6 +37,13 @@
     ],
     "uid": [
       4042003
+    ],
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      848,
+      699,
+      884,
+      735
     ]
   }
 }

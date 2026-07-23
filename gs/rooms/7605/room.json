@@ -1,4 +1,5 @@
 {
+  "checksum": "00ec12d3608c021bc69892752cdea6f7",
   "room": {
     "id": 7605,
     "title": [
@@ -22,13 +23,6 @@
       "7603": 0.2,
       "7606": 0.2
     },
-    "image": "wl-coastal_cliffs-1264234799.png",
-    "image_coords": [
-      493,
-      528,
-      501,
-      536
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -39,6 +33,13 @@
     ],
     "uid": [
       84102
+    ],
+    "image": "wl-coastal_cliffs-1264234799.png",
+    "image_coords": [
+      493,
+      528,
+      501,
+      536
     ]
   }
 }

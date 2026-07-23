@@ -1,4 +1,5 @@
 {
+  "checksum": "24764d8cf7dd518ddee3eff150a06f46",
   "room": {
     "id": 14448,
     "title": [
@@ -21,7 +22,7 @@
       "14647": "go green arch",
       "19947": "go gold arch",
       "19950": "go staircase",
-      "20054": ";e fput \"search\";fput \"climb steps\""
+      "20054": "/rooms/14448/wayto/stringproc-20054.rb"
     },
     "timeto": {
       "235": 0.2,
@@ -31,13 +32,6 @@
       "19950": 0.2,
       "20054": 0.2
     },
-    "image": "wl-museum-1487435869.png",
-    "image_coords": [
-      898,
-      1494,
-      1040,
-      1556
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-11",
@@ -49,6 +43,13 @@
     ],
     "uid": [
       28101
+    ],
+    "image": "wl-museum-1487435869.png",
+    "image_coords": [
+      898,
+      1494,
+      1040,
+      1556
     ]
   }
 }

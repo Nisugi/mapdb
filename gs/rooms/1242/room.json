@@ -1,4 +1,5 @@
 {
+  "checksum": "9d4dc4cfd07aeabac65d4c017617f3da",
   "room": {
     "id": 1242,
     "title": [
@@ -16,19 +17,12 @@
     "terrain": "riparian",
     "wayto": {
       "1193": "east",
-      "1241": ";e begin; fput 'search'; search_result = waitfor \"discover a\", \"don't find anything\", \"Roundtime\", \"Round time\"; waitrt?; end until search_result =~ /discover a/; move 'go path'"
+      "1241": "/rooms/1242/wayto/stringproc-1241.rb"
     },
     "timeto": {
       "1193": 0.2,
-      "1241": 10.0
+      "1241": 10
     },
-    "image": "en-trail-1264234799.png",
-    "image_coords": [
-      171,
-      546,
-      181,
-      556
-    ],
     "tags": [
       "acantha leaf",
       "banana leaf",
@@ -74,6 +68,13 @@
     ],
     "uid": [
       2190035
+    ],
+    "image": "en-trail-1264234799.png",
+    "image_coords": [
+      171,
+      546,
+      181,
+      556
     ]
   }
 }

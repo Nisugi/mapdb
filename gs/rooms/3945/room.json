@@ -1,4 +1,5 @@
 {
+  "checksum": "9427bda86cca62dfa504ed6dea98a6e6",
   "room": {
     "id": 3945,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "the catacombs",
     "wayto": {
-      "24818": ";e multifput 'jump', 'jump'",
+      "24818": "/rooms/3945/wayto/stringproc-24818.rb",
       "32764": "southeast"
     },
     "timeto": {
       "24818": 0.2,
       "32764": 0.2
     },
-    "image": "wl-catacombs-1264234799.png",
-    "image_coords": [
-      343,
-      249,
-      354,
-      259
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -33,6 +27,13 @@
     ],
     "uid": [
       2136208
+    ],
+    "image": "wl-catacombs-1264234799.png",
+    "image_coords": [
+      343,
+      249,
+      354,
+      259
     ]
   }
 }

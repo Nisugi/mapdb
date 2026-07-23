@@ -1,4 +1,5 @@
 {
+  "checksum": "96df7721e7679ace00d78df3686285fe",
   "room": {
     "id": 8695,
     "title": [
@@ -16,19 +17,12 @@
     "terrain": "cultivated",
     "wayto": {
       "235": "out",
-      "13532": ";e $SILVERWOOD_TOWN=:wl;move 'go door'"
+      "13532": "/rooms/8695/wayto/stringproc-13532.rb"
     },
     "timeto": {
       "235": 0.2,
       "13532": 0.2
     },
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      659,
-      876,
-      695,
-      914
-    ],
     "tags": [
       "angelica root",
       "aubergine hellebore",
@@ -168,6 +162,13 @@
     ],
     "uid": [
       4384001
+    ],
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      659,
+      876,
+      695,
+      914
     ]
   }
 }

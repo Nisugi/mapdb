@@ -1,4 +1,5 @@
 {
+  "checksum": "1ad873f39788b5fde44dd15c694d7b26",
   "room": {
     "id": 9033,
     "title": [
@@ -15,20 +16,13 @@
     "climate": "temperate",
     "terrain": "deciduous forest",
     "wayto": {
-      "5063": ";e empty_hands; move 'climb footpath'; fill_hands",
+      "5063": "/rooms/9033/wayto/stringproc-5063.rb",
       "9034": "north"
     },
     "timeto": {
       "5063": 0.2,
       "9034": 0.2
     },
-    "image": "vo-caravansary-1264234799.png",
-    "image_coords": [
-      613,
-      245,
-      623,
-      255
-    ],
     "tags": [
       "acantha leaf",
       "alder bark",
@@ -134,6 +128,13 @@
     ],
     "uid": [
       4212201
+    ],
+    "image": "vo-caravansary-1264234799.png",
+    "image_coords": [
+      613,
+      245,
+      623,
+      255
     ]
   }
 }

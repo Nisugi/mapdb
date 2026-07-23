@@ -1,4 +1,5 @@
 {
+  "checksum": "ae07d06a25407bb39757523ea4a94d78",
   "room": {
     "id": 3260,
     "title": [
@@ -14,24 +15,17 @@
     "climate": "cold, damp",
     "terrain": "plain dirt",
     "wayto": {
-      "3250": ";e empty_hands\nmove 'climb south wall'\nwaitrt?\nfill_hands",
-      "3253": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'east'",
-      "3259": ";e empty_hands\nmove 'climb north wall'\nwaitrt?\nfill_hands",
-      "3261": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'west'"
+      "3250": "/rooms/3260/wayto/stringproc-3250.rb",
+      "3253": "/rooms/3260/wayto/stringproc-3253.rb",
+      "3259": "/rooms/3260/wayto/stringproc-3259.rb",
+      "3261": "/rooms/3260/wayto/stringproc-3261.rb"
     },
     "timeto": {
       "3250": 0.2,
-      "3253": 4.0,
+      "3253": 4,
       "3259": 0.2,
-      "3261": 4.0
+      "3261": 4
     },
-    "image": "imt-east_west_north_gates-1668398077.png",
-    "image_coords": [
-      122,
-      352,
-      132,
-      362
-    ],
     "tags": [
       "acantha leaf",
       "aloeas stem",
@@ -66,6 +60,13 @@
     ],
     "uid": [
       7502014
+    ],
+    "image": "imt-east_west_north_gates-1668398077.png",
+    "image_coords": [
+      122,
+      352,
+      132,
+      362
     ]
   }
 }

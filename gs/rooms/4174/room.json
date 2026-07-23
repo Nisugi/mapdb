@@ -1,4 +1,5 @@
 {
+  "checksum": "dcd0b9dfe1a8bc31df8a4303f06b4adf",
   "room": {
     "id": 4174,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "4175": ";e fput \"search\"\nmove \"go stair\"",
+      "4175": "/rooms/4174/wayto/stringproc-4175.rb",
       "16805": "southwest"
     },
     "timeto": {
       "4175": 0.2,
       "16805": 0.2
     },
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      701,
-      866,
-      711,
-      876
-    ],
     "tags": [
       "cave moss",
       "ironfern root",
@@ -41,6 +35,13 @@
     ],
     "uid": [
       2138122
+    ],
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      701,
+      866,
+      711,
+      876
     ]
   }
 }

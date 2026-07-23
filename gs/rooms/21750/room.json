@@ -1,4 +1,5 @@
 {
+  "checksum": "540fda5c4a6fd34fe953b333a649f93a",
   "room": {
     "id": 21750,
     "title": [
@@ -17,7 +18,7 @@
       "21752": "go painted door",
       "21753": "go gold door",
       "21754": "go red door",
-      "21764": ";e fput 'go north'"
+      "21764": "/rooms/21750/wayto/stringproc-21764.rb"
     },
     "timeto": {
       "21749": 0.2,
@@ -27,18 +28,18 @@
       "21754": 0.2,
       "21764": 0.2
     },
+    "tags": [
+      "meta:che:House of the Rising Phoenix"
+    ],
+    "uid": [
+      103100
+    ],
     "image": "wl-house_phoenix-1485115199.png",
     "image_coords": [
       1676,
       862,
       1795,
       939
-    ],
-    "tags": [
-      "meta:che:House of the Rising Phoenix"
-    ],
-    "uid": [
-      103100
     ]
   }
 }

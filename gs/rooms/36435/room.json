@@ -1,4 +1,5 @@
 {
+  "checksum": "5cbfd673715d57af4237ddeb6f662bde",
   "room": {
     "id": 36435,
     "title": [
@@ -12,22 +13,22 @@
     ],
     "location": "the Upper Trollfang",
     "wayto": {
-      "36434": ";e waitfor 'You swing near the western ledge'\nmove 'jump ledge'",
-      "36436": ";e waitfor 'You swing near the disk to the east', 'The disk to the east swings near'\nmove 'jump east disk'"
+      "36434": "/rooms/36435/wayto/stringproc-36434.rb",
+      "36436": "/rooms/36435/wayto/stringproc-36436.rb"
     },
     "timeto": {
       "36434": 0.2,
       "36436": 0.2
     },
+    "uid": [
+      58046
+    ],
     "image": "quest-black_swan_castle.png",
     "image_coords": [
       1880,
       200,
       1920,
       240
-    ],
-    "uid": [
-      58046
     ]
   }
 }

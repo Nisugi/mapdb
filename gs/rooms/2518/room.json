@@ -1,4 +1,5 @@
 {
+  "checksum": "aaf0a1de7a3105e95d34ae715e2b9795",
   "room": {
     "id": 2518,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "snowy, arctic",
     "terrain": "mountainous",
     "wayto": {
-      "2517": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'northeast'",
-      "2519": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'west'"
+      "2517": "/rooms/2518/wayto/stringproc-2517.rb",
+      "2519": "/rooms/2518/wayto/stringproc-2519.rb"
     },
     "timeto": {
       "2517": 0.2,
       "2519": 0.2
     },
-    "image": "imt-trail-1264234799.png",
-    "image_coords": [
-      1135,
-      502,
-      1145,
-      512
-    ],
     "tags": [
       "angelica root",
       "arctic moss",
@@ -67,6 +61,13 @@
     ],
     "uid": [
       4044119
+    ],
+    "image": "imt-trail-1264234799.png",
+    "image_coords": [
+      1135,
+      502,
+      1145,
+      512
     ]
   }
 }

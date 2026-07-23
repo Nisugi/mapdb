@@ -1,4 +1,5 @@
 {
+  "checksum": "8c39e005a4d514c04ecf94a4aeafa29b",
   "room": {
     "id": 5832,
     "title": [
@@ -16,26 +17,26 @@
     "wayto": {
       "5831": "southwest",
       "5833": "northeast",
-      "25637": ";e fput 'search';waitrt?;move 'go footpath'"
+      "25637": "/rooms/5832/wayto/stringproc-25637.rb"
     },
     "timeto": {
       "5831": 0.2,
       "5833": 0.2,
       "25637": 6.2
     },
-    "image": "en-cemetery-1617615116.png",
-    "image_coords": [
-      446,
-      941,
-      459,
-      951
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables"
     ],
     "uid": [
       14003003
+    ],
+    "image": "en-cemetery-1617615116.png",
+    "image_coords": [
+      446,
+      941,
+      459,
+      951
     ]
   }
 }

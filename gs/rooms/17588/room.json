@@ -1,4 +1,5 @@
 {
+  "checksum": "48d403c463b726605f2d4d1925186d67",
   "room": {
     "id": 17588,
     "title": [
@@ -22,7 +23,7 @@
       "18252": "go bright store",
       "18258": "go brown-shingled store",
       "18259": "go yellow-roofed store",
-      "30718": ";e true"
+      "30718": "/rooms/17588/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "17587": 0.2,
@@ -32,21 +33,21 @@
       "18252": 0.2,
       "18258": 0.2,
       "18259": 0.2,
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "30718": "/rooms/17588/timeto/stringproc-30718.rb"
     },
-    "image": "ifw-isle_of_four_winds-1310232949.png",
-    "image_coords": [
-      1234,
-      906,
-      1264,
-      933
-    ],
     "tags": [
       "no forageables",
       "urchin-access"
     ],
     "uid": [
       3216008
+    ],
+    "image": "ifw-isle_of_four_winds-1310232949.png",
+    "image_coords": [
+      1234,
+      906,
+      1264,
+      933
     ]
   }
 }

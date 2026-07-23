@@ -1,4 +1,5 @@
 {
+  "checksum": "cff493113628492f2a6f2696cba2863f",
   "room": {
     "id": 9465,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "9463": ";e fput 'open trapdoor'\nmove 'go trapdoor'",
+      "9463": "/rooms/9465/wayto/stringproc-9463.rb",
       "9466": "down"
     },
     "timeto": {
       "9463": 0.2,
       "9466": 0.2
     },
-    "image": "en-zul_logoth-1639816187.png",
-    "image_coords": [
-      357,
-      355,
-      367,
-      365
-    ],
     "tags": [
       "black mushroom",
       "blue trafel mushroom",
@@ -54,6 +48,13 @@
     ],
     "uid": [
       13008034
+    ],
+    "image": "en-zul_logoth-1639816187.png",
+    "image_coords": [
+      357,
+      355,
+      367,
+      365
     ]
   }
 }

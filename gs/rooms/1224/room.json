@@ -1,4 +1,5 @@
 {
+  "checksum": "a353efd3693cdbe7e9462ca999a1edf0",
   "room": {
     "id": 1224,
     "title": [
@@ -15,20 +16,13 @@
     "climate": "hot, damp",
     "terrain": "deciduous forest",
     "wayto": {
-      "1223": ";e Spell[9704].cast if Spell[9704].known? and !Spell[9704].active? and Spell[9704].affordable?; empty_hands; fput 'stance offensive' if Skills.climbing < 20; move 'climb boulder'; waitrt?; fput 'stance defensive'; fill_hands",
+      "1223": "/rooms/1224/wayto/stringproc-1223.rb",
       "1225": "northwest"
     },
     "timeto": {
-      "1223": 10.0,
+      "1223": 10,
       "1225": 0.2
     },
-    "image": "en-trail-1264234799.png",
-    "image_coords": [
-      102,
-      859,
-      112,
-      869
-    ],
     "tags": [
       "acantha leaf",
       "blackberries",
@@ -81,6 +75,13 @@
     ],
     "uid": [
       2190006
+    ],
+    "image": "en-trail-1264234799.png",
+    "image_coords": [
+      102,
+      859,
+      112,
+      869
     ]
   }
 }

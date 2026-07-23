@@ -1,4 +1,5 @@
 {
+  "checksum": "fe882ff48dc4d318ea52666e328075d8",
   "room": {
     "id": 13845,
     "title": [
@@ -17,13 +18,6 @@
     "timeto": {
       "1243": 0.2
     },
-    "image": "wl-moot_hall-1486755929.png",
-    "image_coords": [
-      158,
-      848,
-      298,
-      906
-    ],
     "tags": [
       "meta:nomagic",
       "meta:teleport:fwi",
@@ -31,6 +25,13 @@
     ],
     "uid": [
       2501
+    ],
+    "image": "wl-moot_hall-1486755929.png",
+    "image_coords": [
+      158,
+      848,
+      298,
+      906
     ]
   }
 }

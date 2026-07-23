@@ -1,4 +1,5 @@
 {
+  "checksum": "84e34c5c40c26e244a2814b3560cbfc6",
   "room": {
     "id": 2526,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "snowy, arctic",
     "terrain": "rough",
     "wayto": {
-      "2525": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'east'",
-      "2527": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'west'"
+      "2525": "/rooms/2526/wayto/stringproc-2525.rb",
+      "2527": "/rooms/2526/wayto/stringproc-2527.rb"
     },
     "timeto": {
       "2525": 0.2,
       "2527": 0.2
     },
-    "image": "imt-trail-1264234799.png",
-    "image_coords": [
-      1012,
-      554,
-      1022,
-      564
-    ],
     "tags": [
       "arctic moss",
       "bright red teaberry",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       4044111
+    ],
+    "image": "imt-trail-1264234799.png",
+    "image_coords": [
+      1012,
+      554,
+      1022,
+      564
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "e903e73975919694d3c71b24e901b1b3",
   "room": {
     "id": 16863,
     "title": [
@@ -17,13 +18,13 @@
       "16850": "south",
       "16864": "east",
       "16865": "north",
-      "30712": ";e true"
+      "30712": "/rooms/16863/wayto/stringproc-30712.rb"
     },
     "timeto": {
       "16850": 0.2,
       "16864": 0.2,
       "16865": 0.2,
-      "30712": ";e Map[7].timeto['30714'].call;"
+      "30712": "/rooms/16863/timeto/stringproc-30712.rb"
     },
     "tags": [
       "cobbling",

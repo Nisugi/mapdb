@@ -1,0 +1,1 @@
+fput 'search';sleep 0.5;waitrt?; fput 'open grate'; move 'go grate'

@@ -1,4 +1,5 @@
 {
+  "checksum": "db5083a7535468c3fc58bf896e3d51fe",
   "room": {
     "id": 16188,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "16184": "southeast",
       "16190": "northeast",
-      "22224": ";e fput 'search';move 'go trapdoor'"
+      "22224": "/rooms/16188/wayto/stringproc-22224.rb"
     },
     "timeto": {
       "16184": 0.2,
       "16190": 0.2,
       "22224": 0.3
     },
-    "image": "rr-beacon_hall-1405076623.png",
-    "image_coords": [
-      908,
-      465,
-      954,
-      510
-    ],
     "tags": [
       "fire lily",
       "meta:che:Beacon Hall Archive",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       216020
+    ],
+    "image": "rr-beacon_hall-1405076623.png",
+    "image_coords": [
+      908,
+      465,
+      954,
+      510
     ]
   }
 }

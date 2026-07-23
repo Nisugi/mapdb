@@ -1,4 +1,5 @@
 {
+  "checksum": "d950b153251610b6dc7046770409dcd3",
   "room": {
     "id": 1881,
     "title": [
@@ -14,11 +15,11 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "1880": "out",
-      "30715": ";e true"
+      "30715": "/rooms/1881/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "1880": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "30715": "/rooms/1881/timeto/stringproc-30715.rb"
     },
     "tags": [
       "locksmith",

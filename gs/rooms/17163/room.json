@@ -1,4 +1,5 @@
 {
+  "checksum": "624bfcfb84e6545d5b90945149088fe8",
   "room": {
     "id": 17163,
     "title": [
@@ -14,12 +15,12 @@
     "wayto": {
       "4681": "south",
       "17164": "north",
-      "30717": ";e true"
+      "30717": "/rooms/17163/wayto/stringproc-30717.rb"
     },
     "timeto": {
       "4681": 0.2,
       "17164": 0.2,
-      "30717": ";e Map[7].timeto['30714'].call;"
+      "30717": "/rooms/17163/timeto/stringproc-30717.rb"
     },
     "tags": [
       "alchemy",

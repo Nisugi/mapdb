@@ -1,4 +1,5 @@
 {
+  "checksum": "f84f9d0e7d654001be67874395f1b4d2",
   "room": {
     "id": 16122,
     "title": [
@@ -15,24 +16,17 @@
     "climate": "cold, damp",
     "terrain": "muddy wetlands",
     "wayto": {
-      "11612": ";e move ['northwest','southwest'][rand(2)] while checkpaths == [ 'ne', 'se', 'sw', 'nw' ]; move 'northwest' if checkpaths.include?('nw'); move 'west' if checkpaths.include?('w')",
-      "11618": ";e move ['northwest','southwest'][rand(2)] while checkpaths == [ 'ne', 'se', 'sw', 'nw' ]; move 'east' if checkpaths.include?('e'); move 'southeast' if checkpaths.include?('se')",
-      "11630": ";e move ['northeast','southeast'][rand(2)] while checkpaths == [ 'ne', 'se', 'sw', 'nw' ]",
-      "22218": ";e move ['northeast','southeast'][rand(2)] while checkpaths == [ 'ne', 'se', 'sw', 'nw' ]"
+      "11612": "/rooms/16122/wayto/stringproc-11612.rb",
+      "11618": "/rooms/16122/wayto/stringproc-11618.rb",
+      "11630": "/rooms/16122/wayto/stringproc-11630.rb",
+      "22218": "/rooms/16122/wayto/stringproc-22218.rb"
     },
     "timeto": {
-      "11612": 10.0,
-      "11618": 10.0,
-      "11630": 10.0,
-      "22218": 10.0
+      "11612": 10,
+      "11618": 10,
+      "11630": 10,
+      "22218": 10
     },
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      527,
-      537,
-      537,
-      547
-    ],
     "tags": [
       "aloeas stem",
       "blue trafel mushroom",
@@ -69,6 +63,13 @@
       5003036,
       5003037,
       5003038
+    ],
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      527,
+      537,
+      537,
+      547
     ]
   }
 }

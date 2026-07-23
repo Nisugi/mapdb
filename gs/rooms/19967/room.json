@@ -1,4 +1,5 @@
 {
+  "checksum": "1293bcc66aa9f2b13971f203e3f1f73f",
   "room": {
     "id": 19967,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "14650": ";e fput \"search\";fput \"climb stone stairs\"",
+      "14650": "/rooms/19967/wayto/stringproc-14650.rb",
       "19951": "go oak door",
       "19968": "go modwir door"
     },
@@ -21,13 +22,6 @@
       "19951": 0.2,
       "19968": 0.2
     },
-    "image": "wl-museum-1487435869.png",
-    "image_coords": [
-      977,
-      441,
-      1117,
-      503
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-11",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       28102
+    ],
+    "image": "wl-museum-1487435869.png",
+    "image_coords": [
+      977,
+      441,
+      1117,
+      503
     ]
   }
 }

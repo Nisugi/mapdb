@@ -1,4 +1,5 @@
 {
+  "checksum": "85d9393440f06c49cf3ef372d0b53219",
   "room": {
     "id": 3428,
     "title": [
@@ -13,19 +14,12 @@
     "location": "Icemule Trace",
     "wayto": {
       "3426": "west",
-      "30709": ";e true"
+      "30709": "/rooms/3428/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "3426": 0.2,
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "30709": "/rooms/3428/timeto/stringproc-30709.rb"
     },
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      407,
-      875,
-      443,
-      911
-    ],
     "tags": [
       "no forageables",
       "node",
@@ -34,6 +28,13 @@
     ],
     "uid": [
       4043222
+    ],
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      407,
+      875,
+      443,
+      911
     ]
   }
 }

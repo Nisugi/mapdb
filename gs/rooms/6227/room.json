@@ -1,4 +1,5 @@
 {
+  "checksum": "2ee06d5555ab705be0ea3c2d7ce36e9b",
   "room": {
     "id": 6227,
     "title": [
@@ -16,19 +17,12 @@
     "terrain": "none",
     "wayto": {
       "6226": "east",
-      "6228": ";e move 'climb path'"
+      "6228": "/rooms/6227/wayto/stringproc-6228.rb"
     },
     "timeto": {
       "6226": 0.2,
       "6228": 0.2
     },
-    "image": "wl-wehntoph-1310775397.png",
-    "image_coords": [
-      843,
-      226,
-      879,
-      262
-    ],
     "tags": [
       "black mushroom",
       "blue trafel mushroom",
@@ -47,6 +41,13 @@
     ],
     "uid": [
       2167109
+    ],
+    "image": "wl-wehntoph-1310775397.png",
+    "image_coords": [
+      843,
+      226,
+      879,
+      262
     ]
   }
 }

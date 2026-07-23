@@ -1,4 +1,5 @@
 {
+  "checksum": "f67f3f3c2df3deb2254cc21ec9db665f",
   "room": {
     "id": 33898,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Ta'Nalfein",
     "wayto": {
       "33887": "out",
-      "34423": ";e true"
+      "34423": "/rooms/33898/wayto/stringproc-34423.rb"
     },
     "timeto": {
       "33887": 0.2,
-      "34423": ";e Map[7].timeto['30714'].call;"
+      "34423": "/rooms/33898/timeto/stringproc-34423.rb"
     },
     "tags": [
       "cobbling",

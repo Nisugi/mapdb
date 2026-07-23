@@ -1,4 +1,5 @@
 {
+  "checksum": "7b712f36c3e10f1771280bc17cdce57a",
   "room": {
     "id": 30291,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28898": "out",
-      "30716": ";e true"
+      "30716": "/rooms/30291/wayto/stringproc-30716.rb"
     },
     "timeto": {
       "28898": 0.2,
-      "30716": ";e Map[7].timeto['30714'].call;"
+      "30716": "/rooms/30291/timeto/stringproc-30716.rb"
     },
     "tags": [
       "mail",

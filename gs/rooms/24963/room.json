@@ -1,4 +1,5 @@
 {
+  "checksum": "3ca74b9ec1f6dfcde0c419c8bc553aee",
   "room": {
     "id": 24963,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "the catacombs",
     "wayto": {
-      "7602": ";e fput 'swim downstream' until Room.current.id == 7602"
+      "7602": "/rooms/24963/wayto/stringproc-7602.rb"
     },
     "timeto": {
       "7602": 60

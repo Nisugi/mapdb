@@ -1,0 +1,1 @@
+move 'jump pit'; wait_while{checkstunned}

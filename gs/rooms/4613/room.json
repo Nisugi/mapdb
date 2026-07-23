@@ -1,4 +1,5 @@
 {
+  "checksum": "9e329631884913337fc3e15925cecf41",
   "room": {
     "id": 4613,
     "title": [
@@ -16,25 +17,25 @@
     "terrain": "hard, flat",
     "wayto": {
       "684": "south",
-      "4632": ";e fput 'search'\nmove 'go path'"
+      "4632": "/rooms/4613/wayto/stringproc-4632.rb"
     },
     "timeto": {
       "684": 0.2,
       "4632": 0.2
     },
-    "image": "en-sylvarraend-1264234799.png",
-    "image_coords": [
-      385,
-      939,
-      421,
-      975
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables"
     ],
     "uid": [
       13050015
+    ],
+    "image": "en-sylvarraend-1264234799.png",
+    "image_coords": [
+      385,
+      939,
+      421,
+      975
     ]
   }
 }

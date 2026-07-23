@@ -1,4 +1,5 @@
 {
+  "checksum": "43e8b549669733b04ce0f79dd14597f5",
   "room": {
     "id": 3451,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "none",
     "wayto": {
       "2394": "out",
-      "30709": ";e true"
+      "30709": "/rooms/3451/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "2394": 0.2,
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "30709": "/rooms/3451/timeto/stringproc-30709.rb"
     },
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      226,
-      1233,
-      262,
-      1269
-    ],
     "tags": [
       "fletcher",
       "meta:forage-sensed",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       4043865
+    ],
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      226,
+      1233,
+      262,
+      1269
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "60d01b2c08165394fe437fe4b436185d",
   "room": {
     "id": 10375,
     "title": [
@@ -16,19 +17,12 @@
     "terrain": "cultivated",
     "wayto": {
       "10374": "north",
-      "30713": ";e true"
+      "30713": "/rooms/10375/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "10374": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/10375/timeto/stringproc-30713.rb"
     },
-    "image": "en-tavaalor-1565907614.png",
-    "image_coords": [
-      1448,
-      703,
-      1484,
-      738
-    ],
     "tags": [
       "angelica root",
       "ayana leaf",
@@ -171,6 +165,13 @@
     ],
     "uid": [
       14100076
+    ],
+    "image": "en-tavaalor-1565907614.png",
+    "image_coords": [
+      1448,
+      703,
+      1484,
+      738
     ]
   }
 }

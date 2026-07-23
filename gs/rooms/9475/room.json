@@ -1,4 +1,5 @@
 {
+  "checksum": "5f39dccb6e08cf4aa504fe4f7af290a0",
   "room": {
     "id": 9475,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "9412": "out",
       "9476": "go doorway",
-      "30712": ";e true"
+      "30712": "/rooms/9475/wayto/stringproc-30712.rb"
     },
     "timeto": {
       "9412": 0.2,
       "9476": 0.2,
-      "30712": ";e Map[7].timeto['30714'].call;"
+      "30712": "/rooms/9475/timeto/stringproc-30712.rb"
     },
-    "image": "en-zul_logoth-1639816187.png",
-    "image_coords": [
-      606,
-      585,
-      616,
-      595
-    ],
     "tags": [
       "gemshop",
       "meta:forage-sensed",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       13010003
+    ],
+    "image": "en-zul_logoth-1639816187.png",
+    "image_coords": [
+      606,
+      585,
+      616,
+      595
     ]
   }
 }

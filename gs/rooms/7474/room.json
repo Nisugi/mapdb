@@ -1,4 +1,5 @@
 {
+  "checksum": "3ca685d933b61fe54935811db1ba76c9",
   "room": {
     "id": 7474,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "7471": ";e fput 'kneel' unless kneeling? or (Stats.race =~ /Dwarf|Halfling|Gnome/); move 'south'",
-      "7475": ";e fput 'kneel' unless kneeling? or (Stats.race =~ /Dwarf|Halfling|Gnome/); move 'northwest'"
+      "7471": "/rooms/7474/wayto/stringproc-7471.rb",
+      "7475": "/rooms/7474/wayto/stringproc-7475.rb"
     },
     "timeto": {
       "7471": 0.2,
       "7475": 0.2
     },
-    "image": "wl-broken-1264234799.png",
-    "image_coords": [
-      916,
-      934,
-      926,
-      944
-    ],
     "tags": [
       "bone mushroom",
       "magru",
@@ -34,6 +28,13 @@
     ],
     "uid": [
       94016
+    ],
+    "image": "wl-broken-1264234799.png",
+    "image_coords": [
+      916,
+      934,
+      926,
+      944
     ]
   }
 }

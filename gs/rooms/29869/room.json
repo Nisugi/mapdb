@@ -1,4 +1,5 @@
 {
+  "checksum": "a32cb77b67c86e44adcd0d5e828005c6",
   "room": {
     "id": 29869,
     "title": [
@@ -14,18 +15,18 @@
     "climate": "snowy, arctic",
     "terrain": "plain dirt",
     "wayto": {
-      "3668": ";e Map[7].wayto['3668'].call;",
+      "3668": "/rooms/29869/wayto/stringproc-3668.rb",
       "29867": "west",
       "29868": "southeast",
       "29870": "north",
       "29871": "northwest",
       "29872": "northeast",
       "29877": "go tavern",
-      "31083": ";e fput 'search';move 'go greying doors'",
+      "31083": "/rooms/29869/wayto/stringproc-31083.rb",
       "35783": "go stone path"
     },
     "timeto": {
-      "3668": ";e Map[7].timeto['3668'].call;",
+      "3668": "/rooms/29869/timeto/stringproc-3668.rb",
       "29867": 0.2,
       "29868": 0.2,
       "29870": 0.2,
@@ -35,13 +36,6 @@
       "31083": 0.2,
       "35783": 0.2
     },
-    "image": "imt-Hinterwilds-1651886165.jpg",
-    "image_coords": [
-      502,
-      1065,
-      517,
-      1081
-    ],
     "tags": [
       "angelica root",
       "arctic moss",
@@ -69,6 +63,13 @@
     ],
     "uid": [
       7503202
+    ],
+    "image": "imt-Hinterwilds-1651886165.jpg",
+    "image_coords": [
+      502,
+      1065,
+      517,
+      1081
     ]
   }
 }

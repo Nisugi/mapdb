@@ -1,4 +1,5 @@
 {
+  "checksum": "ce71982ff32fde73ec6e4842b7a9594f",
   "room": {
     "id": 13362,
     "title": [
@@ -18,20 +19,13 @@
     "wayto": {
       "13360": "southwest",
       "13361": "southeast",
-      "30714": ";e true"
+      "30714": "/rooms/13362/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "13360": 0.2,
       "13361": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/13362/timeto/stringproc-30714.rb"
     },
-    "image": "en-ta_illistim_buildings.png",
-    "image_coords": [
-      1721,
-      1800,
-      1765,
-      1841
-    ],
     "tags": [
       "angelica root",
       "ayana leaf",
@@ -173,6 +167,13 @@
     ],
     "uid": [
       13107303
+    ],
+    "image": "en-ta_illistim_buildings.png",
+    "image_coords": [
+      1721,
+      1800,
+      1765,
+      1841
     ]
   }
 }

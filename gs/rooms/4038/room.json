@@ -1,4 +1,5 @@
 {
+  "checksum": "fddef1d0f82e57c99b278ef5f3a16f6a",
   "room": {
     "id": 4038,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "163": "out",
       "4033": "go hall",
-      "30714": ";e true"
+      "30714": "/rooms/4038/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "163": 0.2,
       "4033": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/4038/timeto/stringproc-30714.rb"
     },
-    "image": "en-ta_illistim_buildings.png",
-    "image_coords": [
-      365,
-      2339,
-      503,
-      2392
-    ],
     "tags": [
       "angelica root",
       "black peppercorn",
@@ -169,6 +163,13 @@
     ],
     "uid": [
       13109001
+    ],
+    "image": "en-ta_illistim_buildings.png",
+    "image_coords": [
+      365,
+      2339,
+      503,
+      2392
     ]
   }
 }

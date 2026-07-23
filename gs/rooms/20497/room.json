@@ -1,4 +1,5 @@
 {
+  "checksum": "49ae4c72d90412ee2b5482e67febbb28",
   "room": {
     "id": 20497,
     "title": [
@@ -12,12 +13,12 @@
     ],
     "location": "the Pinefar Trading Post",
     "wayto": {
-      "20496": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; if waterwalking = Spell[112] and waterwalking.known? and waterwalking.affordable? and not waterwalking.active?; waterwalking.cast; end; fput (Spell[112].active? ? 'go southwest' : 'swim southwest')",
-      "20498": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; if waterwalking = Spell[112] and waterwalking.known? and waterwalking.affordable? and not waterwalking.active?; waterwalking.cast; end; fput (Spell[112].active? ? 'go north' : 'swim north')"
+      "20496": "/rooms/20497/wayto/stringproc-20496.rb",
+      "20498": "/rooms/20497/wayto/stringproc-20498.rb"
     },
     "timeto": {
-      "20496": 2.0,
-      "20498": 2.0
+      "20496": 2,
+      "20498": 2
     }
   }
 }

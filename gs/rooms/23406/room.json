@@ -1,4 +1,5 @@
 {
+  "checksum": "6a6e21acffa95c13cb92d378594f2097",
   "room": {
     "id": 23406,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "23405": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'northeast'",
-      "23407": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'southwest'"
+      "23405": "/rooms/23406/wayto/stringproc-23405.rb",
+      "23407": "/rooms/23406/wayto/stringproc-23407.rb"
     },
     "timeto": {
       "23405": 0.2,
       "23407": 0.2
     },
-    "image": "en-zul_logoth_liaerion-1703216519.png",
-    "image_coords": [
-      160,
-      610,
-      171,
-      620
-    ],
     "tags": [
       "bolmara lichen",
       "glowing toadstool",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       13018018
+    ],
+    "image": "en-zul_logoth_liaerion-1703216519.png",
+    "image_coords": [
+      160,
+      610,
+      171,
+      620
     ]
   }
 }

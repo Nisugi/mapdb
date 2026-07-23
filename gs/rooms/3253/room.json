@@ -1,4 +1,5 @@
 {
+  "checksum": "3252cb57720751ae9897736da664a7c7",
   "room": {
     "id": 3253,
     "title": [
@@ -14,22 +15,15 @@
     "climate": "cold, damp",
     "terrain": "plain dirt",
     "wayto": {
-      "3251": ";e empty_hands\nmove 'climb south wall'\nwaitrt?\nfill_hands",
-      "3254": ";e empty_hands\nmove 'climb north wall'\nwaitrt?\nfill_hands",
-      "3260": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'west'"
+      "3251": "/rooms/3253/wayto/stringproc-3251.rb",
+      "3254": "/rooms/3253/wayto/stringproc-3254.rb",
+      "3260": "/rooms/3253/wayto/stringproc-3260.rb"
     },
     "timeto": {
       "3251": 0.2,
       "3254": 0.2,
-      "3260": 4.0
+      "3260": 4
     },
-    "image": "imt-east_west_north_gates-1668398077.png",
-    "image_coords": [
-      150,
-      352,
-      160,
-      362
-    ],
     "tags": [
       "acantha leaf",
       "aloeas stem",
@@ -64,6 +58,13 @@
     ],
     "uid": [
       7502015
+    ],
+    "image": "imt-east_west_north_gates-1668398077.png",
+    "image_coords": [
+      150,
+      352,
+      160,
+      362
     ]
   }
 }

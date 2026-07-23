@@ -1,4 +1,5 @@
 {
+  "checksum": "df098f4179e629bd1580bade4bbbe3fd",
   "room": {
     "id": 2237,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "the Eye of V'Tull",
     "wayto": {
-      "2236": ";e empty_hands\nmove 'climb boulders'\nfill_hands",
+      "2236": "/rooms/2237/wayto/stringproc-2236.rb",
       "2238": "northeast"
     },
     "timeto": {
       "2236": 0.2,
       "2238": 0.2
     },
-    "image": "ti-vtull-1663120653.png",
-    "image_coords": [
-      37,
-      814,
-      47,
-      824
-    ],
     "tags": [
       "crimson-flecked rose",
       "ember orange rose",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       3051007
+    ],
+    "image": "ti-vtull-1663120653.png",
+    "image_coords": [
+      37,
+      814,
+      47,
+      824
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "3da1c71a435e76e14d0884b498ba74de",
   "room": {
     "id": 4651,
     "title": [
@@ -16,32 +17,25 @@
     "climate": "temperate",
     "terrain": "hilly",
     "wayto": {
-      "3668": ";e Map[7].wayto['3668'].call;",
+      "3668": "/rooms/4651/wayto/stringproc-3668.rb",
       "4650": "west",
       "4653": "northwest",
       "4672": "go trail",
       "9686": "southeast",
-      "26905": ";e 2.times{fput \"event transport duskruin\"};UserVars.mapdb_duskruin_origin = 4651;",
+      "26905": "/rooms/4651/wayto/stringproc-26905.rb",
       "27860": "go staircase",
-      "31558": ";e 2.times{fput \"event transport ebon gate\"};UserVars.mapdb_ebon_gate_origin = 4651;"
+      "31558": "/rooms/4651/wayto/stringproc-31558.rb"
     },
     "timeto": {
-      "3668": ";e Map[7].timeto['3668'].call;",
+      "3668": "/rooms/4651/timeto/stringproc-3668.rb",
       "4650": 0.2,
       "4653": 0.2,
       "4672": 0.2,
       "9686": 0.2,
       "26905": 2400,
       "27860": 0.2,
-      "31558": ";e Time.now.month == 10 ? 2400 : nil"
+      "31558": "/rooms/4651/timeto/stringproc-31558.rb"
     },
-    "image": "en-cysaegir-1679641246.png",
-    "image_coords": [
-      614,
-      749,
-      638,
-      772
-    ],
     "tags": [
       "ambrominas leaf",
       "angelica root",
@@ -127,6 +121,13 @@
     ],
     "uid": [
       14050006
+    ],
+    "image": "en-cysaegir-1679641246.png",
+    "image_coords": [
+      614,
+      749,
+      638,
+      772
     ]
   }
 }

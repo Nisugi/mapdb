@@ -1,4 +1,5 @@
 {
+  "checksum": "7a529fb1c302499b81c2f47850ddf862",
   "room": {
     "id": 24842,
     "title": [
@@ -15,7 +16,7 @@
     "climate": "snowy, arctic",
     "terrain": "hard, flat",
     "wayto": {
-      "24876": ";e fput 'go path';fput 'go path';$go2_restart = true",
+      "24876": "/rooms/24842/wayto/stringproc-24876.rb",
       "25173": "go structure",
       "25262": "south",
       "26223": "north"
@@ -26,13 +27,6 @@
       "25262": 0.2,
       "26223": 0.2
     },
-    "image": "imt-reim-town_and_fortress-1676820399.png",
-    "image_coords": [
-      1553,
-      255,
-      1588,
-      288
-    ],
     "tags": [
       "meta:mapcategory:Quests",
       "meta:mapname:Quests - Reim Fortress and Base Camp",
@@ -41,6 +35,13 @@
     ],
     "uid": [
       7106001
+    ],
+    "image": "imt-reim-town_and_fortress-1676820399.png",
+    "image_coords": [
+      1553,
+      255,
+      1588,
+      288
     ]
   }
 }

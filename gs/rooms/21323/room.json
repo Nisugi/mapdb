@@ -1,4 +1,5 @@
 {
+  "checksum": "1273cd0c471545affd6d618fd9c6e928",
   "room": {
     "id": 21323,
     "title": [
@@ -13,24 +14,24 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "21321": "out",
-      "25687": ";e fput 'lean wall';fput 'knock wall';fput 'knock wall';fput 'knock wall'"
+      "25687": "/rooms/21323/wayto/stringproc-25687.rb"
     },
     "timeto": {
       "21321": 0.2,
       "25687": 0.8
     },
+    "tags": [
+      "meta:che:House Brigatta"
+    ],
+    "uid": [
+      107308
+    ],
     "image": "wl-Brigatta-1646274146.png",
     "image_coords": [
       11,
       176,
       83,
       278
-    ],
-    "tags": [
-      "meta:che:House Brigatta"
-    ],
-    "uid": [
-      107308
     ]
   }
 }

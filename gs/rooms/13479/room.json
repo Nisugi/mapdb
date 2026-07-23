@@ -1,4 +1,5 @@
 {
+  "checksum": "b02b4aeec707ae453a3d9184e8c0e0c1",
   "room": {
     "id": 13479,
     "title": [
@@ -14,12 +15,12 @@
     "wayto": {
       "1520": "out",
       "30647": "go gate",
-      "30710": ";e true"
+      "30710": "/rooms/13479/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "1520": 0.2,
       "30647": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/13479/timeto/stringproc-30710.rb"
     },
     "tags": [
       "mho hall",

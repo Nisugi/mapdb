@@ -1,4 +1,5 @@
 {
+  "checksum": "389d197a7f8163fb140c9bc537a7ff3c",
   "room": {
     "id": 20702,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "temperate",
     "terrain": "cultivated",
     "wayto": {
-      "3538": ";e move 'go gate'",
+      "3538": "/rooms/20702/wayto/stringproc-3538.rb",
       "20706": "go villa"
     },
     "timeto": {
       "3538": 0.2,
       "20706": 0.2
     },
-    "image": "premium_halls-1489980086.png",
-    "image_coords": [
-      641,
-      1183,
-      764,
-      1236
-    ],
     "tags": [
       "angelica root",
       "bay leaf",
@@ -139,6 +133,13 @@
     ],
     "uid": [
       4002601
+    ],
+    "image": "premium_halls-1489980086.png",
+    "image_coords": [
+      641,
+      1183,
+      764,
+      1236
     ]
   }
 }

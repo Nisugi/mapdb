@@ -1,4 +1,5 @@
 {
+  "checksum": "98996ac85e8912e480c1008b4cf400ae",
   "room": {
     "id": 31428,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "Shivergale, outside the glacier-locked town of Icemule Trace",
     "wayto": {
-      "31427": ";e if GameObj.inv.find {|obj| obj.noun =~ /^key(?:ring)?$/};fput \"go pine door\";else;empty_hand;multifput \"get my key from my #{UserVars.key_sack}\",\"go pine door\",\"put my key in my #{UserVars.key_sack}\";fill_hand;end",
+      "31427": "/rooms/31428/wayto/stringproc-31427.rb",
       "31429": "north"
     },
     "timeto": {

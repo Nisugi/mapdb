@@ -1,4 +1,5 @@
 {
+  "checksum": "1b837601dda00452e0d96585e33111d1",
   "room": {
     "id": 3660,
     "title": [
@@ -18,7 +19,7 @@
       "3658": "west",
       "3661": "south",
       "3673": "north",
-      "23281": ";e move('go stone doorframe');UserVars.mapdb_talondown_origin = 3660;"
+      "23281": "/rooms/3660/wayto/stringproc-23281.rb"
     },
     "timeto": {
       "3658": 0.2,
@@ -26,13 +27,6 @@
       "3673": 0.2,
       "23281": 0.4
     },
-    "image": "ifw-isle_of_four_winds-1310232949.png",
-    "image_coords": [
-      3049,
-      1459,
-      3090,
-      1500
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-10",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       3201026
+    ],
+    "image": "ifw-isle_of_four_winds-1310232949.png",
+    "image_coords": [
+      3049,
+      1459,
+      3090,
+      1500
     ]
   }
 }

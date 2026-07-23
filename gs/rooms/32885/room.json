@@ -1,4 +1,5 @@
 {
+  "checksum": "c9ebe306a7198101eace3e935ef63232",
   "room": {
     "id": 32885,
     "title": [
@@ -14,26 +15,19 @@
     "climate": "arid, temperate",
     "terrain": "sandy",
     "wayto": {
-      "3668": ";e Map[7].wayto['3668'].call;",
+      "3668": "/rooms/32885/wayto/stringproc-3668.rb",
       "32877": "northwest",
       "32884": "southwest",
       "32889": "southeast",
       "32940": "go shop"
     },
     "timeto": {
-      "3668": ";e Map[7].timeto['3668'].call;",
+      "3668": "/rooms/32885/timeto/stringproc-3668.rb",
       "32877": 0.2,
       "32884": 0.2,
       "32889": 0.2,
       "32940": 0.2
     },
-    "image": "osa-briskers_cove-1693936381.png",
-    "image_coords": [
-      507,
-      232,
-      521,
-      245
-    ],
     "tags": [
       "blue and white lantana",
       "coppery red gaura",
@@ -53,6 +47,13 @@
     ],
     "uid": [
       7140012
+    ],
+    "image": "osa-briskers_cove-1693936381.png",
+    "image_coords": [
+      507,
+      232,
+      521,
+      245
     ]
   }
 }

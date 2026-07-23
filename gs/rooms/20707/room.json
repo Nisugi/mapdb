@@ -1,4 +1,5 @@
 {
+  "checksum": "928ae1a591ecf12e036e5d12b2472ee6",
   "room": {
     "id": 20707,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "18720": "go door",
       "20703": "south",
-      "30714": ";e true"
+      "30714": "/rooms/20707/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "18720": 0.2,
       "20703": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/20707/timeto/stringproc-30714.rb"
     },
-    "image": "premium_halls-1489980086.png",
-    "image_coords": [
-      2832,
-      1445,
-      2967,
-      1503
-    ],
     "tags": [
       "meta:mapcategory:Elven Nations",
       "meta:mapcategory:Icemule Trace",
@@ -47,6 +41,13 @@
     ],
     "uid": [
       4002710
+    ],
+    "image": "premium_halls-1489980086.png",
+    "image_coords": [
+      2832,
+      1445,
+      2967,
+      1503
     ]
   }
 }

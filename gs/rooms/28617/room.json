@@ -1,4 +1,5 @@
 {
+  "checksum": "ac02b5fe88b0b7b621ae6259a04e1ae9",
   "room": {
     "id": 28617,
     "title": [
@@ -16,12 +17,12 @@
     "wayto": {
       "19594": "out",
       "28618": "go barn",
-      "30718": ";e true"
+      "30718": "/rooms/28617/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "19594": 0.2,
       "28618": 0.2,
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "30718": "/rooms/28617/timeto/stringproc-30718.rb"
     },
     "tags": [
       "bay leaf",

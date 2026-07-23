@@ -1,4 +1,5 @@
 {
+  "checksum": "44548976cca0a4b8456da6287b5dd5a3",
   "room": {
     "id": 4670,
     "title": [
@@ -17,7 +18,7 @@
       "9683": "east",
       "17132": "climb stairway",
       "17133": "go door",
-      "30717": ";e true"
+      "30717": "/rooms/4670/wayto/stringproc-30717.rb"
     },
     "timeto": {
       "4643": 0.2,
@@ -25,15 +26,8 @@
       "9683": 0.2,
       "17132": 0.2,
       "17133": 0.2,
-      "30717": ";e Map[7].timeto['30714'].call;"
+      "30717": "/rooms/4670/timeto/stringproc-30717.rb"
     },
-    "image": "en-cysaegir-1679641246.png",
-    "image_coords": [
-      493,
-      545,
-      518,
-      568
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables",
@@ -43,6 +37,13 @@
     ],
     "uid": [
       14053001
+    ],
+    "image": "en-cysaegir-1679641246.png",
+    "image_coords": [
+      493,
+      545,
+      518,
+      568
     ]
   }
 }

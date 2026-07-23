@@ -1,4 +1,5 @@
 {
+  "checksum": "66a719c247451252d71b8fa14eb1962f",
   "room": {
     "id": 3475,
     "title": [
@@ -14,10 +15,10 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "3474": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'north'",
-      "3476": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'west'",
+      "3474": "/rooms/3475/wayto/stringproc-3474.rb",
+      "3476": "/rooms/3475/wayto/stringproc-3476.rb",
       "3479": "go gap",
-      "3480": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'east'"
+      "3480": "/rooms/3475/wayto/stringproc-3480.rb"
     },
     "timeto": {
       "3474": 0.2,
@@ -25,13 +26,6 @@
       "3479": 0.2,
       "3480": 0.2
     },
-    "image": "imt-trail-1264234799.png",
-    "image_coords": [
-      871,
-      687,
-      881,
-      697
-    ],
     "tags": [
       "arctic moss",
       "ironfern root",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       4044134
+    ],
+    "image": "imt-trail-1264234799.png",
+    "image_coords": [
+      871,
+      687,
+      881,
+      697
     ]
   }
 }

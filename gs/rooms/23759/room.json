@@ -1,4 +1,5 @@
 {
+  "checksum": "d25f4b244ef257e68a287f12e2706557",
   "room": {
     "id": 23759,
     "title": [
@@ -13,25 +14,25 @@
     "location": "Bloodriven Village",
     "wayto": {
       "26851": "go ladder",
-      "33578": ";e true"
+      "33578": "/rooms/23759/wayto/stringproc-33578.rb"
     },
     "timeto": {
       "26851": 0.2,
-      "33578": ";e Map[7].timeto['30714'].call;"
+      "33578": "/rooms/23759/timeto/stringproc-33578.rb"
     },
-    "image": "fest-duskruin-1660957206.png",
-    "image_coords": [
-      957,
-      916,
-      977,
-      936
-    ],
     "tags": [
       "dr sewer",
       "sewer"
     ],
     "uid": [
       8214001
+    ],
+    "image": "fest-duskruin-1660957206.png",
+    "image_coords": [
+      957,
+      916,
+      977,
+      936
     ]
   }
 }

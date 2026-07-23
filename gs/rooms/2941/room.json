@@ -1,4 +1,5 @@
 {
+  "checksum": "5e7785735c2553f139ce6c0f319e8508",
   "room": {
     "id": 2941,
     "title": [
@@ -22,13 +23,6 @@
       "2940": 0.2,
       "2942": 0.2
     },
-    "image": "imt-Abbey_Map-1652211219.png",
-    "image_coords": [
-      604,
-      852,
-      658,
-      901
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       4132015
+    ],
+    "image": "imt-Abbey_Map-1652211219.png",
+    "image_coords": [
+      604,
+      852,
+      658,
+      901
     ]
   }
 }

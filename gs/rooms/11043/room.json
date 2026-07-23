@@ -1,4 +1,5 @@
 {
+  "checksum": "beaa62847fef84e12ce933e9d3484b26",
   "room": {
     "id": 11043,
     "title": [
@@ -15,27 +16,20 @@
     "terrain": "coniferous forest",
     "wayto": {
       "11042": "west",
-      "11166": ";e $mapdb_seeking_destination = 11166;Map[3600].wayto['3600'].call;",
-      "11374": ";e $mapdb_seeking_destination = 11374;Map[3600].wayto['3600'].call;",
-      "11669": ";e $mapdb_seeking_destination = 11669;Map[3600].wayto['3600'].call;",
-      "11711": ";e $mapdb_seeking_destination = 11711;Map[3600].wayto['3600'].call;",
+      "11166": "/rooms/11043/wayto/stringproc-11166.rb",
+      "11374": "/rooms/11043/wayto/stringproc-11374.rb",
+      "11669": "/rooms/11043/wayto/stringproc-11669.rb",
+      "11711": "/rooms/11043/wayto/stringproc-11711.rb",
       "18378": "go pathway"
     },
     "timeto": {
       "11042": 0.2,
-      "11166": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 2.8; else; nil; end",
-      "11374": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 5.1; else; nil; end",
-      "11669": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 2.8; else; nil; end",
-      "11711": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 2.8; else; nil; end",
+      "11166": "/rooms/11043/timeto/stringproc-11166.rb",
+      "11374": "/rooms/11043/timeto/stringproc-11374.rb",
+      "11669": "/rooms/11043/timeto/stringproc-11669.rb",
+      "11711": "/rooms/11043/timeto/stringproc-11711.rb",
       "18378": 0.2
     },
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      3140,
-      1461,
-      3162,
-      1482
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -90,6 +84,13 @@
     ],
     "uid": [
       5000108
+    ],
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      3140,
+      1461,
+      3162,
+      1482
     ]
   }
 }

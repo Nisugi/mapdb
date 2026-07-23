@@ -1,4 +1,5 @@
 {
+  "checksum": "2d28ad5e360639b41d06fba57e3966a8",
   "room": {
     "id": 10130,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "10128": "northwest",
       "10131": "west",
-      "10133": ";e move 'go mud'; waitrt?"
+      "10133": "/rooms/10130/wayto/stringproc-10133.rb"
     },
     "timeto": {
       "10128": 0.2,
       "10131": 0.2,
-      "10133": 5.0
+      "10133": 5
     },
-    "image": "en-fearling-1632908688.png",
-    "image_coords": [
-      1113,
-      231,
-      1123,
-      241
-    ],
     "tags": [
       "blades of cordgrass",
       "blue-green marshgrass",
@@ -47,6 +41,13 @@
     ],
     "uid": [
       13038005
+    ],
+    "image": "en-fearling-1632908688.png",
+    "image_coords": [
+      1113,
+      231,
+      1123,
+      241
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "84aea75514d3101101742ebb60c3d6d9",
   "room": {
     "id": 29130,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28909": "out",
-      "30716": ";e true"
+      "30716": "/rooms/29130/wayto/stringproc-30716.rb"
     },
     "timeto": {
       "28909": 0.2,
-      "30716": ";e Map[7].timeto['30714'].call;"
+      "30716": "/rooms/29130/timeto/stringproc-30716.rb"
     },
     "tags": [
       "fletcher",

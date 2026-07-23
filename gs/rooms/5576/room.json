@@ -1,4 +1,5 @@
 {
+  "checksum": "f8268913730550ec8ecaff8ddd21bc08",
   "room": {
     "id": 5576,
     "title": [
@@ -15,21 +16,14 @@
     "terrain": "plain dirt",
     "wayto": {
       "4617": "north",
-      "30710": ";e true",
+      "30710": "/rooms/5576/wayto/stringproc-30710.rb",
       "33305": "go copper gates"
     },
     "timeto": {
       "4617": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;",
-      "33305": ";e ((Char.citizenship == \"Solhaven\" or !UserVars.mapdb_allow_vornavis.nil?) ? 10.0 : nil);"
+      "30710": "/rooms/5576/timeto/stringproc-30710.rb",
+      "33305": "/rooms/5576/timeto/stringproc-33305.rb"
     },
-    "image": "vo-caravansary-1264234799.png",
-    "image_coords": [
-      1121,
-      973,
-      1131,
-      983
-    ],
     "tags": [
       "acantha leaf",
       "advguard",
@@ -79,6 +73,13 @@
     ],
     "uid": [
       2130208
+    ],
+    "image": "vo-caravansary-1264234799.png",
+    "image_coords": [
+      1121,
+      973,
+      1131,
+      983
     ]
   }
 }

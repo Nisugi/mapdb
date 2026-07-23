@@ -1,4 +1,5 @@
 {
+  "checksum": "84e6a53f3b756d8a2702e26d74a43f14",
   "room": {
     "id": 2647,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "Koar's Shrine",
     "wayto": {
-      "2646": ";e move 'go pool'",
+      "2646": "/rooms/2647/wayto/stringproc-2646.rb",
       "2648": "up",
       "2658": "climb steps"
     },
@@ -21,19 +22,19 @@
       "2648": 0.2,
       "2658": 0.2
     },
-    "image": "imt-pinefar-1264234799.png",
-    "image_coords": [
-      363,
-      357,
-      371,
-      365
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables"
     ],
     "uid": [
       4562020
+    ],
+    "image": "imt-pinefar-1264234799.png",
+    "image_coords": [
+      363,
+      357,
+      371,
+      365
     ]
   }
 }

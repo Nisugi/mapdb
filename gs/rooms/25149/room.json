@@ -1,4 +1,5 @@
 {
+  "checksum": "b1dda5077eb0679bdee1765da0e73632",
   "room": {
     "id": 25149,
     "title": [
@@ -15,11 +16,11 @@
     "climate": "cold, dry",
     "terrain": "sandy",
     "wayto": {
-      "25145": ";e id=Room.current.id;move \"east\" until Room.current.id != id;$go2_restart=true",
-      "25150": ";e id=Room.current.id;move \"north\" until Room.current.id != id;$go2_restart=true",
-      "25219": ";e id=Room.current.id;move \"south\" until Room.current.id != id;$go2_restart=true",
-      "25224": ";e id=Room.current.id;move \"north\" until Room.current.id != id;$go2_restart=true",
-      "25227": ";e id=Room.current.id;move \"west\" until Room.current.id != id;$go2_restart=true"
+      "25145": "/rooms/25149/wayto/stringproc-25145.rb",
+      "25150": "/rooms/25149/wayto/stringproc-25150.rb",
+      "25219": "/rooms/25149/wayto/stringproc-25219.rb",
+      "25224": "/rooms/25149/wayto/stringproc-25224.rb",
+      "25227": "/rooms/25149/wayto/stringproc-25227.rb"
     },
     "timeto": {
       "25145": 10,
@@ -28,13 +29,6 @@
       "25224": 10,
       "25227": 10
     },
-    "image": "SanctumMap-Eiadh-1643825243.png",
-    "image_coords": [
-      361,
-      839,
-      385,
-      864
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -70,6 +64,13 @@
       -4216141,
       4216141,
       4216148
+    ],
+    "image": "SanctumMap-Eiadh-1643825243.png",
+    "image_coords": [
+      361,
+      839,
+      385,
+      864
     ]
   }
 }

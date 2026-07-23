@@ -1,4 +1,5 @@
 {
+  "checksum": "ca9bf4beed5a68f5494851fa07a4ff2d",
   "room": {
     "id": 10476,
     "title": [
@@ -13,19 +14,12 @@
     "location": "the catacombs",
     "wayto": {
       "5922": "out",
-      "23601": ";e fput 'touch pointed stone'; fput 'push pointed stone'; fput 'push small stone'; fput 'push round stone'; fput 'push long stone'; fput 'push thick stone'; fput 'push flat stone'; fput 'stand'"
+      "23601": "/rooms/10476/wayto/stringproc-23601.rb"
     },
     "timeto": {
       "5922": 0.2,
       "23601": 0.2
     },
-    "image": "en-tavaalor-1565907614.png",
-    "image_coords": [
-      346,
-      958,
-      353,
-      968
-    ],
     "tags": [
       "ayana'al leaf",
       "black mushroom",
@@ -45,6 +39,13 @@
     ],
     "uid": [
       14009015
+    ],
+    "image": "en-tavaalor-1565907614.png",
+    "image_coords": [
+      346,
+      958,
+      353,
+      968
     ]
   }
 }

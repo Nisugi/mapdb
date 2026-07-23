@@ -1,4 +1,5 @@
 {
+  "checksum": "283a8738bff60661f259aa41c15a0bfd",
   "room": {
     "id": 13169,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "1276": "north",
       "10837": "go passageway",
-      "30714": ";e true"
+      "30714": "/rooms/13169/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "1276": 0.2,
       "10837": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/13169/timeto/stringproc-30714.rb"
     },
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      1495,
-      855,
-      1518,
-      876
-    ],
     "tags": [
       "chronomage",
       "no forageables",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       13112406
+    ],
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      1495,
+      855,
+      1518,
+      876
     ]
   }
 }

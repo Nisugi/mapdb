@@ -1,4 +1,5 @@
 {
+  "checksum": "f8149a0fc82453400693db20edaf8512",
   "room": {
     "id": 1870,
     "title": [
@@ -15,40 +16,33 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "250": ";e multifput 'ask portmaster about travel 1','ask portmaster about travel 1';waitfor 'A crew member escorts you off the ship.'",
+      "250": "/rooms/1870/wayto/stringproc-250.rb",
       "1869": "north",
       "1871": "go office",
-      "10838": ";e multifput 'ask portmaster about travel 3','ask portmaster about travel 3';waitfor 'A crew member escorts you off the ship.'",
-      "11756": ";e multifput 'ask portmaster about travel 2','ask portmaster about travel 2';waitfor 'A crew member escorts you off the ship.'",
+      "10838": "/rooms/1870/wayto/stringproc-10838.rb",
+      "11756": "/rooms/1870/wayto/stringproc-11756.rb",
       "12377": "south",
-      "29033": ";e multifput 'ask portmaster about travel 5','ask portmaster about travel 5';waitfor 'A crew member escorts you off the ship.'",
+      "29033": "/rooms/1870/wayto/stringproc-29033.rb",
       "30238": "go ramp",
-      "30715": ";e true",
-      "31493": ";e multifput 'ask portmaster about travel 6','ask portmaster about travel 6';waitfor 'A crew member escorts you off the ship.'",
-      "32372": ";e multifput 'ask portmaster about travel 7','ask portmaster about travel 7';waitfor 'A crew member escorts you off the ship.'",
-      "32928": ";e multifput 'ask portmaster about travel 8','ask portmaster about travel 8';waitfor 'A crew member escorts you off the ship.'"
+      "30715": "/rooms/1870/wayto/stringproc-30715.rb",
+      "31493": "/rooms/1870/wayto/stringproc-31493.rb",
+      "32372": "/rooms/1870/wayto/stringproc-32372.rb",
+      "32928": "/rooms/1870/wayto/stringproc-32928.rb"
     },
     "timeto": {
-      "250": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
+      "250": "/rooms/1870/timeto/stringproc-250.rb",
       "1869": 0.2,
       "1871": 0.2,
-      "10838": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
-      "11756": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
+      "10838": "/rooms/1870/timeto/stringproc-10838.rb",
+      "11756": "/rooms/1870/timeto/stringproc-11756.rb",
       "12377": 0.2,
-      "29033": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
+      "29033": "/rooms/1870/timeto/stringproc-29033.rb",
       "30238": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;",
-      "31493": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
-      "32372": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
-      "32928": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil"
+      "30715": "/rooms/1870/timeto/stringproc-30715.rb",
+      "31493": "/rooms/1870/timeto/stringproc-31493.rb",
+      "32372": "/rooms/1870/timeto/stringproc-32372.rb",
+      "32928": "/rooms/1870/timeto/stringproc-32928.rb"
     },
-    "image": "ti-teras-1264234799.png",
-    "image_coords": [
-      289,
-      1101,
-      325,
-      1137
-    ],
     "tags": [
       "alchemy sea water",
       "meta:forage-sensed",
@@ -68,6 +62,13 @@
     ],
     "uid": [
       3002033
+    ],
+    "image": "ti-teras-1264234799.png",
+    "image_coords": [
+      289,
+      1101,
+      325,
+      1137
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "5a815eccd5a93081cdd7056d082fd6f5",
   "room": {
     "id": 9888,
     "title": [
@@ -17,27 +18,20 @@
       "9887": "southeast",
       "9889": "southwest",
       "9890": "go grove",
-      "13183": ";e 50.times { move 'go forest'; break if Room.current.id == 13183 }",
-      "16956": ";e 50.times { move 'go forest'; break if Room.current.id == 16956 }",
-      "16957": ";e 50.times { move 'go forest'; break if Room.current.id == 16957 }",
-      "18803": ";e 50.times { move 'go forest'; break if Room.current.id == 18803 }"
+      "13183": "/rooms/9888/wayto/stringproc-13183.rb",
+      "16956": "/rooms/9888/wayto/stringproc-16956.rb",
+      "16957": "/rooms/9888/wayto/stringproc-16957.rb",
+      "18803": "/rooms/9888/wayto/stringproc-18803.rb"
     },
     "timeto": {
       "9887": 0.2,
       "9889": 0.2,
       "9890": 0.2,
-      "13183": 15.0,
-      "16956": 15.0,
-      "16957": 15.0,
-      "18803": 15.0
+      "13183": 15,
+      "16956": 15,
+      "16957": 15,
+      "18803": 15
     },
-    "image": "en-sapphire-1658723758.png",
-    "image_coords": [
-      1047,
-      165,
-      1057,
-      175
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -106,6 +100,13 @@
     ],
     "uid": [
       219005
+    ],
+    "image": "en-sapphire-1658723758.png",
+    "image_coords": [
+      1047,
+      165,
+      1057,
+      175
     ]
   }
 }

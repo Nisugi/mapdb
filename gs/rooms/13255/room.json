@@ -1,4 +1,5 @@
 {
+  "checksum": "bf6a3d1a224bdd09948126d10bd8fddf",
   "room": {
     "id": 13255,
     "title": [
@@ -18,7 +19,7 @@
       "13259": "go door",
       "13271": "northwest",
       "13275": "northeast",
-      "30714": ";e true"
+      "30714": "/rooms/13255/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "193": 0.2,
@@ -27,15 +28,8 @@
       "13259": 0.2,
       "13271": 0.2,
       "13275": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/13255/timeto/stringproc-30714.rb"
     },
-    "image": "en-ta_illistim_buildings.png",
-    "image_coords": [
-      588,
-      576,
-      644,
-      632
-    ],
     "tags": [
       "houselockers",
       "inn",
@@ -47,6 +41,13 @@
     ],
     "uid": [
       13112001
+    ],
+    "image": "en-ta_illistim_buildings.png",
+    "image_coords": [
+      588,
+      576,
+      644,
+      632
     ]
   }
 }

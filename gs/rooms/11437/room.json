@@ -1,4 +1,5 @@
 {
+  "checksum": "84563a210071c4ce02411a4820cb308a",
   "room": {
     "id": 11437,
     "title": [
@@ -14,30 +15,30 @@
     "climate": "saltwater",
     "terrain": "",
     "wayto": {
-      "11436": ";e if checkspell(112) then move 'southeast' else move 'swim southeast' end; waitrt?",
-      "11438": ";e if checkspell(112) then move 'northwest' else move 'swim northwest' end; waitrt?",
-      "11448": ";e if checkspell(112) then move 'west' else move 'swim west' end; waitrt?",
-      "11449": ";e if checkspell(112) then move 'south' else move 'swim south' end; waitrt?"
+      "11436": "/rooms/11437/wayto/stringproc-11436.rb",
+      "11438": "/rooms/11437/wayto/stringproc-11438.rb",
+      "11448": "/rooms/11437/wayto/stringproc-11448.rb",
+      "11449": "/rooms/11437/wayto/stringproc-11449.rb"
     },
     "timeto": {
-      "11436": 2.0,
-      "11438": 2.0,
-      "11448": 2.0,
-      "11449": 2.0
+      "11436": 2,
+      "11438": 2,
+      "11448": 2,
+      "11449": 2
     },
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      756,
-      1314,
-      766,
-      1324
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables"
     ],
     "uid": [
       304014
+    ],
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      756,
+      1314,
+      766,
+      1324
     ]
   }
 }

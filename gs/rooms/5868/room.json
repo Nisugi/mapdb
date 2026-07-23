@@ -1,4 +1,5 @@
 {
+  "checksum": "f08c33684bafb7f6c4e4388fa28841f5",
   "room": {
     "id": 5868,
     "title": [
@@ -14,24 +15,17 @@
     "climate": "temperate",
     "terrain": "cultivated",
     "wayto": {
-      "5867": ";e move 'south' until Room.current.id == 5867",
-      "5869": ";e move 'north'; unless Room.current.id == 5869 then move 'south'; move 'south'; move 'south'; end",
-      "5892": ";e move 'north' until Room.current.id == 5892",
-      "5893": ";e move 'south'; unless Room.current.id == 5893 then move 'north'; move 'north'; move 'north'; end"
+      "5867": "/rooms/5868/wayto/stringproc-5867.rb",
+      "5869": "/rooms/5868/wayto/stringproc-5869.rb",
+      "5892": "/rooms/5868/wayto/stringproc-5892.rb",
+      "5893": "/rooms/5868/wayto/stringproc-5893.rb"
     },
     "timeto": {
-      "5867": 1.0,
+      "5867": 1,
       "5869": 0.8,
-      "5892": 1.0,
+      "5892": 1,
       "5893": 0.8
     },
-    "image": "en-cemetery-1617615116.png",
-    "image_coords": [
-      477,
-      757,
-      489,
-      767
-    ],
     "tags": [
       "angelica root",
       "bay leaf",
@@ -170,12 +164,19 @@
       "yew twig",
       "zucchini"
     ],
+    "uid": [
+      14008035
+    ],
+    "image": "en-cemetery-1617615116.png",
+    "image_coords": [
+      477,
+      757,
+      489,
+      767
+    ],
     "check_location": false,
     "unique_loot": [
       "large grave marker"
-    ],
-    "uid": [
-      14008035
     ]
   }
 }

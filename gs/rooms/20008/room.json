@@ -1,4 +1,5 @@
 {
+  "checksum": "77ef62072bb7eff0e056cf66edc8c31a",
   "room": {
     "id": 20008,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "20007": "north",
       "20009": "southeast",
-      "20011": ";e empty_hand;fput 'turn lock';fill_hand;fput 'open door';fput 'go door';echo '** WARNING: The door closes behind you!  Get out soon before it locks! **'"
+      "20011": "/rooms/20008/wayto/stringproc-20011.rb"
     },
     "timeto": {
       "20007": 0.2,
       "20009": 0.2,
       "20011": 0.2
     },
-    "image": "wl-cavernhold-1295073688.png",
-    "image_coords": [
-      1044,
-      1038,
-      1054,
-      1049
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       11201
+    ],
+    "image": "wl-cavernhold-1295073688.png",
+    "image_coords": [
+      1044,
+      1038,
+      1054,
+      1049
     ]
   }
 }

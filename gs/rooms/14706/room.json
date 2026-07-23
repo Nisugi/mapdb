@@ -1,4 +1,5 @@
 {
+  "checksum": "c689174ce1a2c0fe5a5574bcc565a997",
   "room": {
     "id": 14706,
     "title": [
@@ -24,10 +25,10 @@
     "climate": "hot, damp",
     "terrain": "tropical",
     "wayto": {
-      "12568": ";e move 'south' until Room.current.id == 12568"
+      "12568": "/rooms/14706/wayto/stringproc-12568.rb"
     },
     "timeto": {
-      "12568": 3.0
+      "12568": 3
     },
     "tags": [
       "acantha leaf",

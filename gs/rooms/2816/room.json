@@ -1,4 +1,5 @@
 {
+  "checksum": "6354a0c674c2920b378afc934f305fc0",
   "room": {
     "id": 2816,
     "title": [
@@ -14,7 +15,7 @@
     "climate": "snowy, arctic",
     "terrain": "coniferous forest",
     "wayto": {
-      "2815": ";e fput 'search'\nmove 'go trail'",
+      "2815": "/rooms/2816/wayto/stringproc-2815.rb",
       "2817": "down",
       "2821": "northeast"
     },
@@ -23,13 +24,6 @@
       "2817": 0.2,
       "2821": 0.2
     },
-    "image": "imt-pinefar-1264234799.png",
-    "image_coords": [
-      431,
-      1282,
-      441,
-      1292
-    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -73,6 +67,13 @@
     ],
     "uid": [
       4563019
+    ],
+    "image": "imt-pinefar-1264234799.png",
+    "image_coords": [
+      431,
+      1282,
+      441,
+      1292
     ]
   }
 }

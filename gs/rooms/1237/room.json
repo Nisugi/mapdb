@@ -1,4 +1,5 @@
 {
+  "checksum": "8ebb5bbbd6582c966233d11bccf138cb",
   "room": {
     "id": 1237,
     "title": [
@@ -15,20 +16,13 @@
     "climate": "freshwater",
     "terrain": "muddy wetlands",
     "wayto": {
-      "1236": ";e move 'southwest'; waitrt?",
-      "1238": ";e move 'north'; waitrt?"
+      "1236": "/rooms/1237/wayto/stringproc-1236.rb",
+      "1238": "/rooms/1237/wayto/stringproc-1238.rb"
     },
     "timeto": {
-      "1236": 5.0,
-      "1238": 5.0
+      "1236": 5,
+      "1238": 5
     },
-    "image": "en-trail-1264234799.png",
-    "image_coords": [
-      174,
-      634,
-      184,
-      644
-    ],
     "tags": [
       "aloeas stem",
       "blue water lily",
@@ -53,6 +47,13 @@
     ],
     "uid": [
       2190030
+    ],
+    "image": "en-trail-1264234799.png",
+    "image_coords": [
+      174,
+      634,
+      184,
+      644
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "83e6efa6d5fc5000636d99d415b55ee7",
   "room": {
     "id": 27812,
     "title": [
@@ -16,7 +17,7 @@
       "27815": "go door"
     },
     "timeto": {
-      "25676": ";e (!defined?(Stats.prof) or Stats.prof == 'Bard') ? 0.2 : nil",
+      "25676": "/rooms/27812/timeto/stringproc-25676.rb",
       "27815": 0.2
     },
     "tags": [

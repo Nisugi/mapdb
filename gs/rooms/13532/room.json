@@ -1,4 +1,5 @@
 {
+  "checksum": "959a392c702f134f4193c1e2a6b73940",
   "room": {
     "id": 13532,
     "title": [
@@ -12,22 +13,22 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "8695": ";e move 'go door';$go2_restart=true;$SILVERWOOD_TOWN=nil",
-      "8696": ";e move 'go door';$go2_restart=true;$SILVERWOOD_TOWN=nil",
+      "8695": "/rooms/13532/wayto/stringproc-8695.rb",
+      "8696": "/rooms/13532/wayto/stringproc-8696.rb",
       "13533": "climb staircase",
       "14002": "west",
       "14005": "east",
-      "14659": ";e move 'go door';$go2_restart=true;$SILVERWOOD_TOWN=nil",
-      "32873": ";e move 'go door';$go2_restart=true;$SILVERWOOD_TOWN=nil"
+      "14659": "/rooms/13532/wayto/stringproc-14659.rb",
+      "32873": "/rooms/13532/wayto/stringproc-32873.rb"
     },
     "timeto": {
-      "8695": ";e $SILVERWOOD_TOWN == :wl ? 0.2 : nil",
-      "8696": ";e $SILVERWOOD_TOWN == :imt ? 0.2 : nil",
+      "8695": "/rooms/13532/timeto/stringproc-8695.rb",
+      "8696": "/rooms/13532/timeto/stringproc-8696.rb",
       "13533": 0.2,
       "14002": 0.2,
       "14005": 0.2,
-      "14659": ";e $SILVERWOOD_TOWN == :va ? 0.2 : nil",
-      "32873": ";e $SILVERWOOD_TOWN == :zul ? 0.2 : nil"
+      "14659": "/rooms/13532/timeto/stringproc-14659.rb",
+      "32873": "/rooms/13532/timeto/stringproc-32873.rb"
     },
     "tags": [
       "meta:mentor",

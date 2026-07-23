@@ -1,4 +1,5 @@
 {
+  "checksum": "2257c011cfa80d99e69de322cc567e53",
   "room": {
     "id": 16723,
     "title": [
@@ -14,22 +15,15 @@
     "climate": "temperate",
     "terrain": "mountainous",
     "wayto": {
-      "16722": ";e move 'northwest'",
-      "16724": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'climb thick rope'; waitrt?",
-      "18755": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'jump bridge'; waitrt?"
+      "16722": "/rooms/16723/wayto/stringproc-16722.rb",
+      "16724": "/rooms/16723/wayto/stringproc-16724.rb",
+      "18755": "/rooms/16723/wayto/stringproc-18755.rb"
     },
     "timeto": {
       "16722": 0.2,
-      "16724": 5.0,
+      "16724": 5,
       "18755": 10
     },
-    "image": "en-aradhul-road-1308194332.png",
-    "image_coords": [
-      329,
-      559,
-      348,
-      576
-    ],
     "tags": [
       "agave heart",
       "angelica root",
@@ -73,6 +67,13 @@
     ],
     "uid": [
       17005015
+    ],
+    "image": "en-aradhul-road-1308194332.png",
+    "image_coords": [
+      329,
+      559,
+      348,
+      576
     ]
   }
 }

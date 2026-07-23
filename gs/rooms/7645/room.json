@@ -1,4 +1,5 @@
 {
+  "checksum": "2884f67db767395435e5f2eab183959c",
   "room": {
     "id": 7645,
     "title": [
@@ -19,15 +20,8 @@
     },
     "timeto": {
       "7627": 0.2,
-      "18111": ";e Stats.prof == 'Sorcerer' ? 0.2 : nil"
+      "18111": "/rooms/7645/timeto/stringproc-18111.rb"
     },
-    "image": "wl-coastal_cliffs-1264234799.png",
-    "image_coords": [
-      61,
-      583,
-      71,
-      593
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -53,6 +47,13 @@
     ],
     "uid": [
       661001
+    ],
+    "image": "wl-coastal_cliffs-1264234799.png",
+    "image_coords": [
+      61,
+      583,
+      71,
+      593
     ]
   }
 }

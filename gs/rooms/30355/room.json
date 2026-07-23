@@ -1,4 +1,5 @@
 {
+  "checksum": "fa09eedfe079cba232abb7f16fb5dea7",
   "room": {
     "id": 30355,
     "title": [
@@ -14,26 +15,26 @@
     "wayto": {
       "23789": "northeast",
       "23792": "northwest",
-      "33578": ";e true"
+      "33578": "/rooms/30355/wayto/stringproc-33578.rb"
     },
     "timeto": {
       "23789": 0.2,
       "23792": 0.2,
-      "33578": ";e Map[7].timeto['30714'].call;"
+      "33578": "/rooms/30355/timeto/stringproc-33578.rb"
     },
-    "image": "fest-duskruin-1660957206.png",
-    "image_coords": [
-      1429,
-      32,
-      1450,
-      49
-    ],
     "tags": [
       "cheap seats",
       "cheapseats"
     ],
     "uid": [
       8213213
+    ],
+    "image": "fest-duskruin-1660957206.png",
+    "image_coords": [
+      1429,
+      32,
+      1450,
+      49
     ]
   }
 }

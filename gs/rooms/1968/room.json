@@ -1,4 +1,5 @@
 {
+  "checksum": "e30d2fd995d5b165fdf209cca2e442e9",
   "room": {
     "id": 1968,
     "title": [
@@ -23,13 +24,6 @@
       "1971": 0.2,
       "18073": 0.2
     },
-    "image": "ti-wizard_guild.png",
-    "image_coords": [
-      533,
-      533,
-      599,
-      597
-    ],
     "tags": [
       "meta:mapcategory:Guilds",
       "meta:mapcategory:Teras Isle",
@@ -39,6 +33,13 @@
     ],
     "uid": [
       682002
+    ],
+    "image": "ti-wizard_guild.png",
+    "image_coords": [
+      533,
+      533,
+      599,
+      597
     ]
   }
 }

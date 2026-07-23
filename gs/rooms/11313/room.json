@@ -1,4 +1,5 @@
 {
+  "checksum": "2d905cf560d9bac4a17744eb909f6c59",
   "room": {
     "id": 11313,
     "title": [
@@ -16,19 +17,12 @@
     "terrain": "cultivated",
     "wayto": {
       "11300": "go crack",
-      "11314": ";e empty_hands\nmove 'climb wall'\nfill_hands"
+      "11314": "/rooms/11313/wayto/stringproc-11314.rb"
     },
     "timeto": {
       "11300": 0.2,
       "11314": 0.2
     },
-    "image": "rr-citadel-1717856937.png",
-    "image_coords": [
-      883,
-      811,
-      893,
-      821
-    ],
     "tags": [
       "bright orange",
       "curly garlic scapes",
@@ -52,6 +46,13 @@
     ],
     "uid": [
       377118
+    ],
+    "image": "rr-citadel-1717856937.png",
+    "image_coords": [
+      883,
+      811,
+      893,
+      821
     ]
   }
 }

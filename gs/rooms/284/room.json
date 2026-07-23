@@ -1,4 +1,5 @@
 {
+  "checksum": "f8ff57599a84973a00079fdd80d569b9",
   "room": {
     "id": 284,
     "title": [
@@ -19,31 +20,24 @@
       "285": "north",
       "288": "south",
       "289": "west",
-      "3668": ";e Map[7].wayto['3668'].call;",
+      "3668": "/rooms/284/wayto/stringproc-3668.rb",
       "7983": "go cobblestone walkway",
       "8632": "go wood-sided shop",
-      "26905": ";e 2.times{fput \"event transport duskruin\"};UserVars.mapdb_duskruin_origin = 284;",
-      "31558": ";e 2.times{fput \"event transport ebon gate\"};UserVars.mapdb_ebon_gate_origin = 284;"
+      "26905": "/rooms/284/wayto/stringproc-26905.rb",
+      "31558": "/rooms/284/wayto/stringproc-31558.rb"
     },
     "timeto": {
-      "228": 1.0,
+      "228": 1,
       "282": 0.2,
       "285": 0.2,
       "288": 0.2,
       "289": 0.2,
-      "3668": ";e Map[7].timeto['3668'].call;",
+      "3668": "/rooms/284/timeto/stringproc-3668.rb",
       "7983": 0.2,
       "8632": 0.2,
       "26905": 2400,
-      "31558": ";e Time.now.month == 10 ? 2400 : nil"
+      "31558": "/rooms/284/timeto/stringproc-31558.rb"
     },
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      198,
-      877,
-      234,
-      913
-    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -98,6 +92,13 @@
     ],
     "uid": [
       7046
+    ],
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      198,
+      877,
+      234,
+      913
     ]
   }
 }

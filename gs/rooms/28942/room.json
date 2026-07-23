@@ -1,4 +1,5 @@
 {
+  "checksum": "2ca0730426bd2a19ac22155fc148e1ce",
   "room": {
     "id": 28942,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28895": "out",
-      "30716": ";e true"
+      "30716": "/rooms/28942/wayto/stringproc-30716.rb"
     },
     "timeto": {
       "28895": 0.2,
-      "30716": ";e Map[7].timeto['30714'].call;"
+      "30716": "/rooms/28942/timeto/stringproc-30716.rb"
     },
     "tags": [
       "furrier",

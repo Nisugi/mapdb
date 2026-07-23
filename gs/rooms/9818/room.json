@@ -1,4 +1,5 @@
 {
+  "checksum": "bebf498768a3cfa85f9325c8cb3f6141",
   "room": {
     "id": 9818,
     "title": [
@@ -12,28 +13,28 @@
     ],
     "location": "the Maaghara Tower",
     "wayto": {
-      "9734": ";e next_exit = { 9823 => [ 'southeast', 'southwest', 'southwest', 'east', 'southwest', 'southeast', 'south' ], 9818 => [ 'east', 'southwest', 'west', 'west', 'northeast', 'northeast', 'northwest' ], 9808 => [ 'east', 'east', 'east', 'northeast', 'west' ], 9788 => [ 'southwest', 'southeast', 'southwest' ], 9784 => [ 'southeast', 'south', 'northeast', 'north', 'west', 'west', 'west' ] }; loop { if move 'go root'; sleep(0.5) until XMLData.room_title == '[Maaghara Tower, Refuse Heap]'; fput 'stand' unless standing?; waitrt?; break; else; if dir_list = next_exit[Room.current.id]; dir_list.each { |dir| move dir }; else; echo 'error: out of cheese'; break; end; end }",
+      "9734": "/rooms/9818/wayto/stringproc-9734.rb",
       "9817": "west",
       "9819": "east"
     },
     "timeto": {
-      "9734": 100.0,
+      "9734": 100,
       "9817": 0.2,
       "9819": 0.2
     },
-    "image": "en-tower-1264234799.png",
-    "image_coords": [
-      1175,
-      493,
-      1185,
-      503
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables"
     ],
     "uid": [
       13022015
+    ],
+    "image": "en-tower-1264234799.png",
+    "image_coords": [
+      1175,
+      493,
+      1185,
+      503
     ]
   }
 }

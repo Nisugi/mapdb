@@ -1,4 +1,5 @@
 {
+  "checksum": "3bb851d095dfa2f40e4380e8ba6af596",
   "room": {
     "id": 17941,
     "title": [
@@ -13,25 +14,25 @@
     "location": "Solhaven",
     "wayto": {
       "17940": "go curtain",
-      "19213": ";e fput 'search'; move 'climb stair'"
+      "19213": "/rooms/17941/wayto/stringproc-19213.rb"
     },
     "timeto": {
       "17940": 0.2,
       "19213": 0.4
     },
-    "image": "vo-rogue_guild-1305438533.png",
-    "image_coords": [
-      304,
-      425,
-      333,
-      449
-    ],
     "tags": [
       "rogue guild cleaning supplies",
       "rogue guild tools"
     ],
     "uid": [
       264040
+    ],
+    "image": "vo-rogue_guild-1305438533.png",
+    "image_coords": [
+      304,
+      425,
+      333,
+      449
     ]
   }
 }

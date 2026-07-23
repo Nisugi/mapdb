@@ -1,4 +1,5 @@
 {
+  "checksum": "bda4cfbbdf1b35434062634714d1a3af",
   "room": {
     "id": 3369,
     "title": [
@@ -19,15 +20,8 @@
     },
     "timeto": {
       "3365": 0.2,
-      "3561": ";e Society.status == \"Order of Voln\" ? 0.2 : nil"
+      "3561": "/rooms/3369/timeto/stringproc-3561.rb"
     },
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      759,
-      610,
-      795,
-      646
-    ],
     "tags": [
       "angelica root",
       "blue snow rose",
@@ -49,6 +43,13 @@
     ],
     "uid": [
       4043801
+    ],
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      759,
+      610,
+      795,
+      646
     ]
   }
 }

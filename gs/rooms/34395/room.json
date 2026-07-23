@@ -1,4 +1,5 @@
 {
+  "checksum": "723f66c5bb877636161e2e99bd2bb97e",
   "room": {
     "id": 34395,
     "title": [
@@ -19,13 +20,6 @@
       "34394": 0.2,
       "34396": 0.2
     },
-    "image": "imt-mho-icicle.png",
-    "image_coords": [
-      994,
-      72,
-      1196,
-      263
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -33,6 +27,13 @@
     ],
     "uid": [
       18019006
+    ],
+    "image": "imt-mho-icicle.png",
+    "image_coords": [
+      994,
+      72,
+      1196,
+      263
     ]
   }
 }

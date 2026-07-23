@@ -1,4 +1,5 @@
 {
+  "checksum": "0e8797ce2570adb983b075eeb99627ef",
   "room": {
     "id": 27704,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "Icemule Trace",
     "wayto": {
-      "27703": ";e fput 'pull rope'; move 'go down'",
-      "27705": ";e fput 'push rope'; move 'climb rope'"
+      "27703": "/rooms/27704/wayto/stringproc-27703.rb",
+      "27705": "/rooms/27704/wayto/stringproc-27705.rb"
     },
     "timeto": {
       "27703": 10.2,
       "27705": 5.2
     },
-    "image": "imt-Town_Walls_Map-1707071672.png",
-    "image_coords": [
-      522,
-      766,
-      557,
-      796
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -33,6 +27,13 @@
     ],
     "uid": [
       4050108
+    ],
+    "image": "imt-Town_Walls_Map-1707071672.png",
+    "image_coords": [
+      522,
+      766,
+      557,
+      796
     ]
   }
 }

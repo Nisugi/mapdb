@@ -1,4 +1,5 @@
 {
+  "checksum": "6952ca43276402ac410e9f9fa92f6ade",
   "room": {
     "id": 10397,
     "title": [
@@ -15,11 +16,11 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "10396": "out",
-      "30713": ";e true"
+      "30713": "/rooms/10397/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "10396": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/10397/timeto/stringproc-30713.rb"
     },
     "tags": [
       "meta:forage-sensed",

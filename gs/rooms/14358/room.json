@@ -1,4 +1,5 @@
 {
+  "checksum": "d138deb66911f2fb59c71155bc0a8709",
   "room": {
     "id": 14358,
     "title": [
@@ -15,13 +16,13 @@
       "14357": "out",
       "14359": "go arch",
       "14360": "north",
-      "30710": ";e true"
+      "30710": "/rooms/14358/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "14357": 0.2,
-      "14359": 5.0,
+      "14359": 5,
       "14360": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/14358/timeto/stringproc-30710.rb"
     },
     "tags": [
       "chronomage",

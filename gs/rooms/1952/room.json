@@ -1,4 +1,5 @@
 {
+  "checksum": "bc9dea8e758cf9c3b620bf896db8b0a1",
   "room": {
     "id": 1952,
     "title": [
@@ -14,12 +15,12 @@
     "wayto": {
       "1951": "go archway",
       "30667": "go stairway",
-      "30715": ";e true"
+      "30715": "/rooms/1952/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "1951": 0.2,
       "30667": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "30715": "/rooms/1952/timeto/stringproc-30715.rb"
     },
     "tags": [
       "mho hall",

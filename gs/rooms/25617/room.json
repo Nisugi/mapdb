@@ -1,4 +1,5 @@
 {
+  "checksum": "1a32b403a04542202a8a09df1216fc3b",
   "room": {
     "id": 25617,
     "title": [
@@ -14,28 +15,21 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "18841": ";e if checksitting;while Room.current.id == 25617;fput('row east');waitrt?;end;else;move('swim east');end;",
-      "18842": ";e if checksitting;while Room.current.id == 25617;fput('row north');waitrt?;end;else;move('swim north');end;",
-      "25616": ";e if checksitting;while Room.current.id == 25617;fput('row south');waitrt?;end;else;move('swim south');end;",
-      "25618": ";e if checksitting;while Room.current.id == 25617;fput('row northeast');waitrt?;end;else;move('swim northeast');end;",
-      "25638": ";e if checksitting;while Room.current.id == 25617;fput('row northwest');waitrt?;end;else;move('swim northwest');end;",
+      "18841": "/rooms/25617/wayto/stringproc-18841.rb",
+      "18842": "/rooms/25617/wayto/stringproc-18842.rb",
+      "25616": "/rooms/25617/wayto/stringproc-25616.rb",
+      "25618": "/rooms/25617/wayto/stringproc-25618.rb",
+      "25638": "/rooms/25617/wayto/stringproc-25638.rb",
       "30508": "swim down"
     },
     "timeto": {
-      "18841": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "18842": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "25616": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "25618": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "25638": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "30508": ";e checksitting && Room.current.climate == 'freshwater' ? nil : 0.2"
+      "18841": "/rooms/25617/timeto/stringproc-18841.rb",
+      "18842": "/rooms/25617/timeto/stringproc-18842.rb",
+      "25616": "/rooms/25617/timeto/stringproc-25616.rb",
+      "25618": "/rooms/25617/timeto/stringproc-25618.rb",
+      "25638": "/rooms/25617/timeto/stringproc-25638.rb",
+      "30508": "/rooms/25617/timeto/stringproc-30508.rb"
     },
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1164,
-      772,
-      1182,
-      790
-    ],
     "tags": [
       "aloeas stem",
       "meta:forage-sensed",
@@ -52,6 +46,13 @@
     ],
     "uid": [
       14117014
+    ],
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1164,
+      772,
+      1182,
+      790
     ]
   }
 }

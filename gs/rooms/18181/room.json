@@ -1,4 +1,5 @@
 {
+  "checksum": "2d7cb6464f64d6eb6282c9cf263c5f94",
   "room": {
     "id": 18181,
     "title": [
@@ -15,11 +16,11 @@
     "terrain": "none",
     "wayto": {
       "18180": "out",
-      "18182": ";e \n  sleep(0.2);\n  _respond \"#{monsterbold_start}Waiting for 'ledge comes into view'.  This may take around four minutes.#{monsterbold_end}  #{Time.now}\";\n  waitfor \"ledge comes into view and the cab grinds to a clunky halt\";\n  move(\"out\");\n"
+      "18182": "/rooms/18181/wayto/stringproc-18182.rb"
     },
     "timeto": {
       "18180": 0.2,
-      "18182": 240.0
+      "18182": 240
     },
     "tags": [
       "no forageables"

@@ -1,4 +1,5 @@
 {
+  "checksum": "d032e4eb8156176b6d62a698c748a810",
   "room": {
     "id": 19943,
     "title": [
@@ -15,20 +16,13 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "8683": ";e multifput 'search', 'go long rope'",
+      "8683": "/rooms/19943/wayto/stringproc-8683.rb",
       "19938": "go hatch"
     },
     "timeto": {
       "8683": 10,
       "19938": 0.2
     },
-    "image": "wl-stone_baths-1487292814.png",
-    "image_coords": [
-      273,
-      653,
-      414,
-      714
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       336027
+    ],
+    "image": "wl-stone_baths-1487292814.png",
+    "image_coords": [
+      273,
+      653,
+      414,
+      714
     ]
   }
 }

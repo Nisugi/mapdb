@@ -1,4 +1,5 @@
 {
+  "checksum": "51fe561e93e18efc9db6e70cf685b782",
   "room": {
     "id": 19032,
     "title": [
@@ -14,25 +15,25 @@
     ],
     "location": "Ta'Vaalor",
     "wayto": {
-      "18744": ";e loop { wait_until { Spell[704].affordable? }; result = cast(704, 'rock'); break unless result =~ /Spell Hindrance/ } ",
+      "18744": "/rooms/19032/wayto/stringproc-18744.rb",
       "19031": "go mist"
     },
     "timeto": {
       "18744": 5.5,
       "19031": 0.2
     },
+    "tags": [
+      "sorcerer guild workshop"
+    ],
+    "uid": [
+      667008
+    ],
     "image": "en-ta_vaalor-sorcerer_guild-1405076623.png",
     "image_coords": [
       907,
       608,
       943,
       645
-    ],
-    "tags": [
-      "sorcerer guild workshop"
-    ],
-    "uid": [
-      667008
     ]
   }
 }

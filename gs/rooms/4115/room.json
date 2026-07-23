@@ -1,4 +1,5 @@
 {
+  "checksum": "b57f4096d0998687615dc801a0f89ef8",
   "room": {
     "id": 4115,
     "title": [
@@ -18,16 +19,9 @@
       "4116": "northeast"
     },
     "timeto": {
-      "4114": 5.0,
+      "4114": 5,
       "4116": 0.2
     },
-    "image": "wl-danjirland-1264234799.png",
-    "image_coords": [
-      350,
-      951,
-      360,
-      961
-    ],
     "tags": [
       "banana leaf",
       "blueberries",
@@ -74,6 +68,13 @@
     ],
     "uid": [
       14006
+    ],
+    "image": "wl-danjirland-1264234799.png",
+    "image_coords": [
+      350,
+      951,
+      360,
+      961
     ]
   }
 }

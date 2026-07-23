@@ -1,4 +1,5 @@
 {
+  "checksum": "f5242f737cc70044373dd60fb400ee76",
   "room": {
     "id": 30590,
     "title": [
@@ -14,12 +15,12 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "6021": "out",
-      "30713": ";e true",
+      "30713": "/rooms/30590/wayto/stringproc-30713.rb",
       "32367": "go baker's door"
     },
     "timeto": {
       "6021": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;",
+      "30713": "/rooms/30590/timeto/stringproc-30713.rb",
       "32367": 0.2
     },
     "tags": [

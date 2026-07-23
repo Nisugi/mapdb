@@ -1,4 +1,5 @@
 {
+  "checksum": "7738ace8adad7112e6834e730f2714d9",
   "room": {
     "id": 9117,
     "title": [
@@ -21,13 +22,6 @@
       "9116": 0.2,
       "9120": 0.2
     },
-    "image": "imt-underground-1264234799.png",
-    "image_coords": [
-      169,
-      727,
-      179,
-      737
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       4045224
+    ],
+    "image": "imt-underground-1264234799.png",
+    "image_coords": [
+      169,
+      727,
+      179,
+      737
     ]
   }
 }

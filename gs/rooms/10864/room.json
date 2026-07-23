@@ -1,4 +1,5 @@
 {
+  "checksum": "0115c942a18c58a7b1588248a5994de2",
   "room": {
     "id": 10864,
     "title": [
@@ -17,20 +18,13 @@
     "wayto": {
       "10863": "south",
       "17723": "go gate",
-      "30711": ";e true"
+      "30711": "/rooms/10864/wayto/stringproc-30711.rb"
     },
     "timeto": {
       "10863": 0.2,
-      "17723": ";e ((!defined?(Stats.prof) or Stats.prof == 'Empath') ? 0.2 : nil);",
-      "30711": ";e Map[7].timeto['30714'].call;"
+      "17723": "/rooms/10864/timeto/stringproc-17723.rb",
+      "30711": "/rooms/10864/timeto/stringproc-30711.rb"
     },
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      2289,
-      708,
-      2326,
-      745
-    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -142,6 +136,13 @@
     ],
     "uid": [
       653001
+    ],
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      2289,
+      708,
+      2326,
+      745
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "d4cc049b5168da5a9ec4f4d120cf3814",
   "room": {
     "id": 5710,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "1461": "out",
       "13242": "go booth",
-      "30710": ";e true"
+      "30710": "/rooms/5710/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "1461": 0.2,
       "13242": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/5710/timeto/stringproc-30710.rb"
     },
-    "image": "vo-solhaven-1675635404.png",
-    "image_coords": [
-      1083,
-      660,
-      1085,
-      660
-    ],
     "tags": [
       "bank",
       "meta:forage-sensed",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       4740018
+    ],
+    "image": "vo-solhaven-1675635404.png",
+    "image_coords": [
+      1083,
+      660,
+      1085,
+      660
     ]
   }
 }

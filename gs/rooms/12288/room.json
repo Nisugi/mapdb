@@ -1,4 +1,5 @@
 {
+  "checksum": "d9974cd9ed7745164f2be81d71a3b373",
   "room": {
     "id": 12288,
     "title": [
@@ -16,13 +17,13 @@
       "3663": "out",
       "12289": "north",
       "16328": "go curtain",
-      "30718": ";e true"
+      "30718": "/rooms/12288/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "3663": 0.2,
       "12289": 0.2,
       "16328": 0.2,
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "30718": "/rooms/12288/timeto/stringproc-30718.rb"
     },
     "tags": [
       "healer",

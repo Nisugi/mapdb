@@ -1,4 +1,5 @@
 {
+  "checksum": "52d6dd019a9eb44d837c64724eee8ea2",
   "room": {
     "id": 7664,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "7659": "northeast",
       "7665": "west",
-      "7669": ";e 3.times do;  waitrt?;  fput 'stand' unless standing?;  waitrt?;  climb_result = dothistimeout \"climb stone\", 3, /^(?:You start to climb the column of stone, but it proves so slippery that you slide back down and end up on the ground in a heap\\.|You dance lightly up the column of stone and into the area beyond\\.)$/;  break if climb_result =~ /^You dance/;end"
+      "7669": "/rooms/7664/wayto/stringproc-7669.rb"
     },
     "timeto": {
       "7659": 0.2,
       "7665": 0.2,
       "7669": 0.2
     },
-    "image": "wl-coastal_cliffs-1264234799.png",
-    "image_coords": [
-      857,
-      412,
-      867,
-      422
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       84406
+    ],
+    "image": "wl-coastal_cliffs-1264234799.png",
+    "image_coords": [
+      857,
+      412,
+      867,
+      422
     ]
   }
 }

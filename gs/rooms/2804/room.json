@@ -1,4 +1,5 @@
 {
+  "checksum": "828bc953b615eeb877f0a32666303943",
   "room": {
     "id": 2804,
     "title": [
@@ -14,30 +15,23 @@
     "climate": "cold, damp",
     "terrain": "cultivated",
     "wayto": {
-      "2635": ";e $mapdb_seeking_destination = 2635;Map[3600].wayto['3600'].call;",
+      "2635": "/rooms/2804/wayto/stringproc-2635.rb",
       "2803": "northwest",
       "2805": "northeast",
-      "2808": ";e $mapdb_seeking_destination = 2808;Map[3600].wayto['3600'].call;",
-      "2972": ";e $mapdb_seeking_destination = 2972;Map[3600].wayto['3600'].call;",
-      "3140": ";e $mapdb_seeking_destination = 3140;Map[3600].wayto['3600'].call;",
+      "2808": "/rooms/2804/wayto/stringproc-2808.rb",
+      "2972": "/rooms/2804/wayto/stringproc-2972.rb",
+      "3140": "/rooms/2804/wayto/stringproc-3140.rb",
       "23145": "go spring"
     },
     "timeto": {
-      "2635": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 3.0; else; nil; end",
+      "2635": "/rooms/2804/timeto/stringproc-2635.rb",
       "2803": 0.2,
       "2805": 0.2,
-      "2808": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 3.0; else; nil; end",
-      "2972": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 3.0; else; nil; end",
-      "3140": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 3.0; else; nil; end",
+      "2808": "/rooms/2804/timeto/stringproc-2808.rb",
+      "2972": "/rooms/2804/timeto/stringproc-2972.rb",
+      "3140": "/rooms/2804/timeto/stringproc-3140.rb",
       "23145": 0.2
     },
-    "image": "imt-pinefar-1264234799.png",
-    "image_coords": [
-      155,
-      1006,
-      165,
-      1016
-    ],
     "tags": [
       "angelica root",
       "arctic brambles",
@@ -72,6 +66,13 @@
     ],
     "uid": [
       10000110
+    ],
+    "image": "imt-pinefar-1264234799.png",
+    "image_coords": [
+      155,
+      1006,
+      165,
+      1016
     ]
   }
 }

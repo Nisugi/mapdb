@@ -1,4 +1,5 @@
 {
+  "checksum": "1513e95f18e55e0da08f86a72257f30a",
   "room": {
     "id": 9162,
     "title": [
@@ -19,13 +20,6 @@
       "9150": 0.2,
       "9161": 0.2
     },
-    "image": "imt-underground-1264234799.png",
-    "image_coords": [
-      316,
-      842,
-      326,
-      852
-    ],
     "tags": [
       "bur-clover root",
       "meta:forage-sensed",
@@ -34,6 +28,13 @@
     ],
     "uid": [
       7530020
+    ],
+    "image": "imt-underground-1264234799.png",
+    "image_coords": [
+      316,
+      842,
+      326,
+      852
     ]
   }
 }

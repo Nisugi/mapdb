@@ -1,4 +1,5 @@
 {
+  "checksum": "172f7bc7815783f21f9914aa24427802",
   "room": {
     "id": 12347,
     "title": [
@@ -13,19 +14,12 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "10313": "go archway",
-      "30713": ";e true"
+      "30713": "/rooms/12347/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "10313": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/12347/timeto/stringproc-30713.rb"
     },
-    "image": "en-ta_vaalor-wyverns_keep-1488759285.png",
-    "image_coords": [
-      309,
-      606,
-      452,
-      668
-    ],
     "tags": [
       "debt",
       "debts",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       14104002
+    ],
+    "image": "en-ta_vaalor-wyverns_keep-1488759285.png",
+    "image_coords": [
+      309,
+      606,
+      452,
+      668
     ]
   }
 }

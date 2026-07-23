@@ -1,4 +1,5 @@
 {
+  "checksum": "aa9287373c63ed083a57d036e37b191e",
   "room": {
     "id": 26453,
     "title": [
@@ -13,7 +14,7 @@
     "location": "Caligos Isle",
     "wayto": {
       "26450": "north",
-      "26454": ";e move 'go tunnel'; $go2_restart=true",
+      "26454": "/rooms/26453/wayto/stringproc-26454.rb",
       "26477": "south",
       "29338": "go ebon wagon"
     },

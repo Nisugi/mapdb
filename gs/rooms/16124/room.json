@@ -1,4 +1,5 @@
 {
+  "checksum": "f087f6385c43de9f2656ff9d60a76c72",
   "room": {
     "id": 16124,
     "title": [
@@ -14,24 +15,17 @@
     "climate": "moist",
     "terrain": "muddy wetlands",
     "wayto": {
-      "11620": ";e while checkpaths == ['ne', 'se', 'sw', 'nw']; move ['northwest','southwest'][rand(2)]; end; move 'west' while checkpaths.include?('w')",
-      "11623": ";e while checkpaths == ['ne', 'se', 'sw', 'nw']; move ['northwest','southwest'][rand(2)]; end; move 'east' while checkpaths.include?('e')",
-      "11653": ";e while checkpaths == ['ne', 'se', 'sw', 'nw']; move ['northeast','southeast'][rand(2)]; end;",
-      "22219": ";e while checkpaths == ['ne', 'se', 'sw', 'nw']; move ['northeast','southeast'][rand(2)]; end;"
+      "11620": "/rooms/16124/wayto/stringproc-11620.rb",
+      "11623": "/rooms/16124/wayto/stringproc-11623.rb",
+      "11653": "/rooms/16124/wayto/stringproc-11653.rb",
+      "22219": "/rooms/16124/wayto/stringproc-22219.rb"
     },
     "timeto": {
-      "11620": 10.0,
-      "11623": 10.0,
-      "11653": 10.0,
-      "22219": 10.0
+      "11620": 10,
+      "11623": 10,
+      "11653": 10,
+      "22219": 10
     },
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      738,
-      515,
-      748,
-      525
-    ],
     "tags": [
       "alligator lily",
       "aloeas stem",
@@ -82,6 +76,13 @@
       5004013,
       5004014,
       5004015
+    ],
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      738,
+      515,
+      748,
+      525
     ]
   }
 }

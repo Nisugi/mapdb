@@ -1,4 +1,5 @@
 {
+  "checksum": "d08c412df86eb702c8bd1c85b083bcfd",
   "room": {
     "id": 30850,
     "title": [
@@ -16,19 +17,12 @@
     "terrain": "riparian",
     "wayto": {
       "30845": "north",
-      "30851": ";e color_moves = {'blue' => 'n,sw,sw', 'black' => 'n,sw,sw,sw,s,se', 'red' => 'n,se,se', 'yellow' => 'n,se,se,se,s,sw'};GameObj.room_desc.find { |o| o.name =~ /(blue|black|yellow|red) barrier/ };color = $1;move_order = color_moves[color].split(',');move_order.each { |w| move(w) };move('go grotto');fput 'touch crystal';move('out');move_order.reverse.each { |w| move(reverse_direction(w)) };move('go barrier')"
+      "30851": "/rooms/30850/wayto/stringproc-30851.rb"
     },
     "timeto": {
       "30845": 0.2,
       "30851": 10
     },
-    "image": "kf-atoll-1652294074.jpg",
-    "image_coords": [
-      287,
-      160,
-      318,
-      189
-    ],
     "tags": [
       "atoll barrier",
       "blackened moss",
@@ -41,6 +35,13 @@
     ],
     "uid": [
       7138115
+    ],
+    "image": "kf-atoll-1652294074.jpg",
+    "image_coords": [
+      287,
+      160,
+      318,
+      189
     ]
   }
 }

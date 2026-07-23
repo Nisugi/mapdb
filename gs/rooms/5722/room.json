@@ -1,4 +1,5 @@
 {
+  "checksum": "e4fbefb52362566f8dfbe81045ea62ab",
   "room": {
     "id": 5722,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "1446": "out",
       "5723": "go door",
-      "30710": ";e true"
+      "30710": "/rooms/5722/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "1446": 0.2,
       "5723": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/5722/timeto/stringproc-30710.rb"
     },
-    "image": "vo-solhaven-1675635404.png",
-    "image_coords": [
-      1207,
-      468,
-      1207,
-      470
-    ],
     "tags": [
       "herbalist",
       "meta:forage-sensed",
@@ -39,6 +33,13 @@
     ],
     "uid": [
       4740011
+    ],
+    "image": "vo-solhaven-1675635404.png",
+    "image_coords": [
+      1207,
+      468,
+      1207,
+      470
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "bae248f4471e021d8ccbbc16a13c2fc3",
   "room": {
     "id": 28968,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28964": "go door",
-      "30716": ";e true"
+      "30716": "/rooms/28968/wayto/stringproc-30716.rb"
     },
     "timeto": {
       "28964": 0.2,
-      "30716": ";e Map[7].timeto['30714'].call;"
+      "30716": "/rooms/28968/timeto/stringproc-30716.rb"
     },
     "tags": [
       "collectibles",

@@ -1,4 +1,5 @@
 {
+  "checksum": "f505a29996e4ca9d5647c8d1469a3c47",
   "room": {
     "id": 9299,
     "title": [
@@ -14,18 +15,11 @@
     "climate": "hot, damp",
     "terrain": "deciduous",
     "wayto": {
-      "3831": ";e fput 'search'\nmove 'go fissure'"
+      "3831": "/rooms/9299/wayto/stringproc-3831.rb"
     },
     "timeto": {
       "3831": 0.2
     },
-    "image": "wl-stronghold-1264234799.png",
-    "image_coords": [
-      252,
-      690,
-      264,
-      702
-    ],
     "tags": [
       "meta:trap",
       "some calamia fruit",
@@ -34,6 +28,13 @@
     ],
     "uid": [
       4291009
+    ],
+    "image": "wl-stronghold-1264234799.png",
+    "image_coords": [
+      252,
+      690,
+      264,
+      702
     ]
   }
 }

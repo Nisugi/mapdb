@@ -1,4 +1,5 @@
 {
+  "checksum": "5a9fae4af161b5296acc79d0f45023a2",
   "room": {
     "id": 21957,
     "title": [
@@ -13,7 +14,7 @@
     "location": "Talador",
     "wayto": {
       "21956": "down",
-      "21958": ";e fput 'get rope';fput 'push rope'"
+      "21958": "/rooms/21957/wayto/stringproc-21958.rb"
     },
     "timeto": {
       "21956": 0.2,

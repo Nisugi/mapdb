@@ -1,4 +1,5 @@
 {
+  "checksum": "d7a5bee5d7932fd1e321363c10fc1d3f",
   "room": {
     "id": 29931,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "29930": "northeast",
       "29932": "northwest",
-      "30085": ";e fput 'search';move('go shrouded path')"
+      "30085": "/rooms/29931/wayto/stringproc-30085.rb"
     },
     "timeto": {
       "29930": 0.2,
       "29932": 0.2,
       "30085": 0.2
     },
-    "image": "imt-Hinterwilds-1651886165.jpg",
-    "image_coords": [
-      741,
-      921,
-      755,
-      935
-    ],
     "tags": [
       "angelica root",
       "black acorn",
@@ -69,6 +63,13 @@
     ],
     "uid": [
       7503133
+    ],
+    "image": "imt-Hinterwilds-1651886165.jpg",
+    "image_coords": [
+      741,
+      921,
+      755,
+      935
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "96bd892fb6b499e71769a93c008dcd46",
   "room": {
     "id": 26045,
     "title": [
@@ -12,23 +13,23 @@
     ],
     "location": "Ta'Vaalor",
     "wayto": {
-      "10418": ";e move 'go north'"
+      "10418": "/rooms/26045/wayto/stringproc-10418.rb"
     },
     "timeto": {
       "10418": 0.2
     },
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      14109023
+    ],
     "image": "en-ta_vaalor-dancing_dahcre-1488763271.png",
     "image_coords": [
       874,
       329,
       1016,
       390
-    ],
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      14109023
     ]
   }
 }

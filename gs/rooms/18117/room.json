@@ -1,4 +1,5 @@
 {
+  "checksum": "1330e3a7ed52100d7c6f427ccac4765a",
   "room": {
     "id": 18117,
     "title": [
@@ -14,25 +15,25 @@
     "wayto": {
       "18114": "climb ramp",
       "18118": "go overhang",
-      "18894": ";e fput \"go overhang\";fput \"go door\""
+      "18894": "/rooms/18117/wayto/stringproc-18894.rb"
     },
     "timeto": {
       "18114": 0.2,
       "18118": 0.2,
       "18894": 0.3
     },
+    "tags": [
+      "meta:prof:sorcerer"
+    ],
+    "uid": [
+      661010
+    ],
     "image": "wl-sorcerer_guild-1405076623.png",
     "image_coords": [
       202,
       619,
       243,
       658
-    ],
-    "tags": [
-      "meta:prof:sorcerer"
-    ],
-    "uid": [
-      661010
     ]
   }
 }

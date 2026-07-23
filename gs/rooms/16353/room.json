@@ -1,4 +1,5 @@
 {
+  "checksum": "1271e57c1334a8a54438bcba22f08898",
   "room": {
     "id": 16353,
     "title": [
@@ -13,21 +14,21 @@
     "location": "Warcamp",
     "wayto": {
       "16357": "south",
-      "16714": ";e fput 'open hut'; waitrt?; move 'go hut';"
+      "16714": "/rooms/16353/wayto/stringproc-16714.rb"
     },
     "timeto": {
       "16357": 0.2,
       "16714": 0.2
     },
+    "uid": [
+      -570015
+    ],
     "image": "warcamp-1263540726.png",
     "image_coords": [
       228,
       5,
       264,
       41
-    ],
-    "uid": [
-      -570015
     ]
   }
 }

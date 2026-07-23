@@ -1,4 +1,5 @@
 {
+  "checksum": "30f79b5e15060cc41c4cf1106d832c4b",
   "room": {
     "id": 6630,
     "title": [
@@ -13,21 +14,21 @@
     "location": "the Broken Lands",
     "wayto": {
       "6629": "go curtain",
-      "6631": ";e if celerity = Spell[506] and celerity.known? and celerity.affordable? and not celerity.active?; celerity.cast; end; until dothistimeout('search', 3, /anything of interest|rough hole/) =~ /rough hole/ do end; move 'go hole'"
+      "6631": "/rooms/6630/wayto/stringproc-6631.rb"
     },
     "timeto": {
       "6629": 0.2,
       "6631": 0.2
     },
+    "uid": [
+      487010
+    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       367,
       997,
       377,
       1007
-    ],
-    "uid": [
-      487010
     ]
   }
 }

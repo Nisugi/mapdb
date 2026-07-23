@@ -1,4 +1,5 @@
 {
+  "checksum": "22a19e2aeca6cecb9713ceb6dafdf3a8",
   "room": {
     "id": 6228,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "cold, damp",
     "terrain": "subterranean",
     "wayto": {
-      "6227": ";e move 'climb path'",
+      "6227": "/rooms/6228/wayto/stringproc-6227.rb",
       "9651": "climb trail"
     },
     "timeto": {
       "6227": 0.2,
       "9651": 0.2
     },
-    "image": "wl-wehntoph-1310775397.png",
-    "image_coords": [
-      843,
-      126,
-      877,
-      160
-    ],
     "tags": [
       "blue trafel mushroom",
       "bolmara lichen",
@@ -43,6 +37,13 @@
     ],
     "uid": [
       2167110
+    ],
+    "image": "wl-wehntoph-1310775397.png",
+    "image_coords": [
+      843,
+      126,
+      877,
+      160
     ]
   }
 }

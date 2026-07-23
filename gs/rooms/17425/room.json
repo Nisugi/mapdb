@@ -1,4 +1,5 @@
 {
+  "checksum": "0d6abc37ed6410a174203fd0d29f6b5d",
   "room": {
     "id": 17425,
     "title": [
@@ -14,7 +15,7 @@
     "wayto": {
       "1536": "out",
       "17426": "up",
-      "23281": ";e move('go doorframe');UserVars.mapdb_talondown_origin = 17425;"
+      "23281": "/rooms/17425/wayto/stringproc-23281.rb"
     },
     "timeto": {
       "1536": 0.2,

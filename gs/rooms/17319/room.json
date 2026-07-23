@@ -1,4 +1,5 @@
 {
+  "checksum": "b2ad04e7aef80d4dc2878845b3ffce6e",
   "room": {
     "id": 17319,
     "title": [
@@ -14,14 +15,14 @@
     "climate": "hot, damp",
     "terrain": "barren scrub",
     "wayto": {
-      "7439": ";e move 'west'; waitrt?",
-      "7447": ";e move 'southwest'; waitrt?",
-      "7450": ";e move 'east'; waitrt?",
-      "23258": ";e move 'northwest'; waitrt?",
-      "23259": ";e move 'north'; waitrt?",
-      "23263": ";e move 'south'; waitrt?",
-      "23264": ";e move 'southeast'; waitrt?",
-      "23265": ";e move 'northeast'; waitrt?"
+      "7439": "/rooms/17319/wayto/stringproc-7439.rb",
+      "7447": "/rooms/17319/wayto/stringproc-7447.rb",
+      "7450": "/rooms/17319/wayto/stringproc-7450.rb",
+      "23258": "/rooms/17319/wayto/stringproc-23258.rb",
+      "23259": "/rooms/17319/wayto/stringproc-23259.rb",
+      "23263": "/rooms/17319/wayto/stringproc-23263.rb",
+      "23264": "/rooms/17319/wayto/stringproc-23264.rb",
+      "23265": "/rooms/17319/wayto/stringproc-23265.rb"
     },
     "timeto": {
       "7439": 3.2,
@@ -33,13 +34,6 @@
       "23264": 3.2,
       "23265": 3.2
     },
-    "image": "wl-broken-1264234799.png",
-    "image_coords": [
-      649,
-      896,
-      660,
-      907
-    ],
     "tags": [
       "black toadstool",
       "blackened moss",
@@ -53,6 +47,13 @@
     ],
     "uid": [
       306026
+    ],
+    "image": "wl-broken-1264234799.png",
+    "image_coords": [
+      649,
+      896,
+      660,
+      907
     ]
   }
 }

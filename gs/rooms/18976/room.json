@@ -1,4 +1,5 @@
 {
+  "checksum": "2fe5767cf60e4971d7f8f71240a9c1ef",
   "room": {
     "id": 18976,
     "title": [
@@ -12,11 +13,17 @@
     ],
     "location": "the town of Icemule Trace",
     "wayto": {
-      "18959": ";e loop { wait_until { Spell[704].affordable? }; result = cast(704, 'paneling'); break unless result =~ /Spell Hindrance/ } "
+      "18959": "/rooms/18976/wayto/stringproc-18959.rb"
     },
     "timeto": {
       "18959": 0.2
     },
+    "tags": [
+      "sorcerer guild shop"
+    ],
+    "uid": [
+      660014
+    ],
     "image": "imt-sorcerer_guild-1405076623.png",
     "image_coords": [
       641,
@@ -24,12 +31,6 @@
       681,
       782
     ],
-    "tags": [
-      "sorcerer guild shop"
-    ],
-    "check_location": false,
-    "uid": [
-      660014
-    ]
+    "check_location": false
   }
 }

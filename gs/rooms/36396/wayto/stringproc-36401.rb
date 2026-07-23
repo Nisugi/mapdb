@@ -1,0 +1,1 @@
+fput 'search'; sleep 0.5;waitrt?; move('go mouth')

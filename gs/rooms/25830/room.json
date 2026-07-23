@@ -1,4 +1,5 @@
 {
+  "checksum": "af3e705bb8e5cbc617fa4e620cf01ac7",
   "room": {
     "id": 25830,
     "title": [
@@ -14,25 +15,25 @@
     "climate": "saltwater",
     "terrain": "hard, flat",
     "wayto": {
-      "25829": ";e direction=\"northeast\";start=Room.current.id; dothistimeout \"pedal #{direction}\", 2, /pedal/ while Room.current.id == start",
-      "25831": ";e direction=\"northwest\";start=Room.current.id; dothistimeout \"pedal #{direction}\", 2, /pedal/ while Room.current.id == start"
+      "25829": "/rooms/25830/wayto/stringproc-25829.rb",
+      "25831": "/rooms/25830/wayto/stringproc-25831.rb"
     },
     "timeto": {
-      "25829": 6.0,
-      "25831": 6.0
+      "25829": 6,
+      "25831": 6
     },
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      3223848
+    ],
     "image": "ifw-eastern_waterway-1489553700.png",
     "image_coords": [
       881,
       1519,
       901,
       1538
-    ],
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      3223848
     ]
   }
 }

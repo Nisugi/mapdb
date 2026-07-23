@@ -1,4 +1,5 @@
 {
+  "checksum": "2be34c75843ee670454a5b7ff0c28d7c",
   "room": {
     "id": 3746,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "10382": "go steps",
-      "30713": ";e true"
+      "30713": "/rooms/3746/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "10382": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/3746/timeto/stringproc-30713.rb"
     },
     "tags": [
       "jail",

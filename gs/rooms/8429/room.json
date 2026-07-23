@@ -1,4 +1,5 @@
 {
+  "checksum": "61a5adede2345f2c08e0a651413f483a",
   "room": {
     "id": 8429,
     "title": [
@@ -14,7 +15,7 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "3839": ";e empty_hands\nmove 'swim stream'\nwaitrt?\nfill_hands",
+      "3839": "/rooms/8429/wayto/stringproc-3839.rb",
       "8419": "east",
       "8420": "go bridge",
       "8421": "north",
@@ -29,13 +30,6 @@
       "8423": 0.2,
       "8424": 0.2
     },
-    "image": "wl-stronghold-1264234799.png",
-    "image_coords": [
-      1222,
-      700,
-      1232,
-      710
-    ],
     "tags": [
       "cave moss",
       "ironfern root",
@@ -49,6 +43,13 @@
     ],
     "uid": [
       4293042
+    ],
+    "image": "wl-stronghold-1264234799.png",
+    "image_coords": [
+      1222,
+      700,
+      1232,
+      710
     ]
   }
 }

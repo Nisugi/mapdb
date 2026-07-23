@@ -1,4 +1,5 @@
 {
+  "checksum": "a2109a7dc993c2878a3993371cfc0777",
   "room": {
     "id": 12537,
     "title": [
@@ -16,19 +17,12 @@
     "terrain": "hard, flat",
     "wayto": {
       "1942": "go doors",
-      "30715": ";e true"
+      "30715": "/rooms/12537/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "1942": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "30715": "/rooms/12537/timeto/stringproc-30715.rb"
     },
-    "image": "ti-adventurers_rest-1486448911.png",
-    "image_coords": [
-      5,
-      841,
-      152,
-      906
-    ],
     "tags": [
       "locksmith pool",
       "locksmithpool",
@@ -47,6 +41,13 @@
     ],
     "uid": [
       3003041
+    ],
+    "image": "ti-adventurers_rest-1486448911.png",
+    "image_coords": [
+      5,
+      841,
+      152,
+      906
     ]
   }
 }

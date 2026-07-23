@@ -1,4 +1,5 @@
 {
+  "checksum": "6362b7a4a9cb34a8ad37e5e7a3fcbaca",
   "room": {
     "id": 18187,
     "title": [
@@ -14,7 +15,7 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "451": ";e ;\nstart_time = Time.now.to_i;\nfput 'lay';\n_respond \"#{monsterbold_start}Waiting for 'one on the left and one on the right'.#{monsterbold_end}\";\nwaitfor \"one on the left and one on the right\";\nfput \"lean left\";\n_respond \"#{monsterbold_start}Waiting for 'branches off to the left just ahead'.#{monsterbold_end}\";\nwaitfor \"branches off to the left just ahead\";\nfput \"lean left\";\n_respond \"#{monsterbold_start}Waiting for 'Another tunnel branches off to the left just ahead'.#{monsterbold_end}\";\nwaitfor \"Another tunnel branches off to the left just ahead\";\n_respond \"#{monsterbold_start}Waiting for 'Suddenly the tunnel turns into a nearly vertical drop'.#{monsterbold_end}\";\nwaitfor \"Suddenly the tunnel turns into a nearly vertical drop\";\nfput \"lean left\";\n_respond \"#{monsterbold_start}Waiting to exit the tunnels.#{monsterbold_end}\";\nwaitfor \"Obvious paths: southwest\";\n_respond \"#{monsterbold_start}water tunnel time: #{Time.now.to_i - start_time} seconds.#{monsterbold_end}\";\nfill_hands;\n"
+      "451": "/rooms/18187/wayto/stringproc-451.rb"
     },
     "timeto": {
       "451": 0.4

@@ -1,4 +1,5 @@
 {
+  "checksum": "8fc7bbfb018d2dc87573bd03759708d8",
   "room": {
     "id": 11556,
     "title": [
@@ -16,19 +17,12 @@
     "terrain": "riparian",
     "wayto": {
       "11555": "east",
-      "11557": ";e empty_hands\nmove 'climb mast'\nfill_hands"
+      "11557": "/rooms/11556/wayto/stringproc-11557.rb"
     },
     "timeto": {
       "11555": 0.2,
       "11557": 0.6
     },
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      131,
-      829,
-      141,
-      839
-    ],
     "tags": [
       "acantha leaf",
       "banana leaf",
@@ -83,6 +77,13 @@
     ],
     "uid": [
       420001
+    ],
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      131,
+      829,
+      141,
+      839
     ]
   }
 }

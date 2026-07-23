@@ -1,4 +1,5 @@
 {
+  "checksum": "4a3a90a39cbbf11f35286b4aa9c6d9fc",
   "room": {
     "id": 33863,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "Ta'Nalfein",
     "wayto": {
-      "3668": ";e Map[7].wayto['3668'].call;",
+      "3668": "/rooms/33863/wayto/stringproc-3668.rb",
       "33856": "south",
       "33857": "southeast",
       "33862": "west",
@@ -20,20 +21,13 @@
       "33879": "northwest"
     },
     "timeto": {
-      "3668": ";e Map[7].timeto['3668'].call;",
+      "3668": "/rooms/33863/timeto/stringproc-3668.rb",
       "33856": 0.2,
       "33857": 0.2,
       "33862": 0.2,
       "33864": 0.2,
       "33879": 0.2
     },
-    "image": "en-nalfein-1695787165.png",
-    "image_coords": [
-      428,
-      430,
-      456,
-      458
-    ],
     "tags": [
       "acistira stem",
       "blackish green twisted-fan",
@@ -48,6 +42,13 @@
     ],
     "uid": [
       14150102
+    ],
+    "image": "en-nalfein-1695787165.png",
+    "image_coords": [
+      428,
+      430,
+      456,
+      458
     ]
   }
 }

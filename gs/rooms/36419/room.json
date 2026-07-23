@@ -1,4 +1,5 @@
 {
+  "checksum": "ea3c114d07fc8ca131344f7d9396bbbb",
   "room": {
     "id": 36419,
     "title": [
@@ -15,7 +16,7 @@
       "36418": "west",
       "36420": "north",
       "36422": "south",
-      "36440": ";e if !GameObj.loot.any?{|i| i.name =~ /opening/};move('west');move('north');fput 'pull statue';fput 'turn statue';move('south');move('east');end;sleep 0.2 until GameObj.loot.any?{|i| i.name =~ /opening/};move('go opening')"
+      "36440": "/rooms/36419/wayto/stringproc-36440.rb"
     },
     "timeto": {
       "36418": 0.2,
@@ -23,15 +24,15 @@
       "36422": 0.2,
       "36440": 0.2
     },
+    "uid": [
+      58030
+    ],
     "image": "quest-black_swan_castle.png",
     "image_coords": [
       1880,
       680,
       1920,
       720
-    ],
-    "uid": [
-      58030
     ]
   }
 }

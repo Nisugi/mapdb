@@ -1,4 +1,5 @@
 {
+  "checksum": "00ec532806f3ab8ed774f6ef8aed0b77",
   "room": {
     "id": 3672,
     "title": [
@@ -15,12 +16,12 @@
     "wayto": {
       "3670": "go arch",
       "3850": "east",
-      "30718": ";e true"
+      "30718": "/rooms/3672/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "3670": 0.2,
       "3850": 0.2,
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "30718": "/rooms/3672/timeto/stringproc-30718.rb"
     },
     "tags": [
       "bank",

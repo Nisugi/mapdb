@@ -1,0 +1,1 @@
+if !GameObj.loot.any?{|i| i.name =~ /opening/};move('west');move('north');fput 'pull statue';fput 'turn statue';move('south');move('east');end;sleep 0.2 until GameObj.loot.any?{|i| i.name =~ /opening/};move('go opening')

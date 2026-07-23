@@ -1,4 +1,5 @@
 {
+  "checksum": "ef45f1557cf77669aedcf2d5229d6438",
   "room": {
     "id": 31966,
     "title": [
@@ -13,7 +14,7 @@
     "location": "Evermore Hollow",
     "wayto": {
       "31712": "out",
-      "31967": ";e fput 'search';waitrt?;move('go steps')"
+      "31967": "/rooms/31966/wayto/stringproc-31967.rb"
     },
     "timeto": {
       "31712": 0.2,

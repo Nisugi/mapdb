@@ -1,4 +1,5 @@
 {
+  "checksum": "74d51b31a5d23058292872f1aebc1c54",
   "room": {
     "id": 10125,
     "title": [
@@ -16,27 +17,20 @@
     "terrain": "cultivated",
     "wayto": {
       "10124": "south",
-      "10578": ";e $mapdb_seeking_destination = 10578;Map[3600].wayto['3600'].call;",
-      "10748": ";e $mapdb_seeking_destination = 10748;Map[3600].wayto['3600'].call;",
+      "10578": "/rooms/10125/wayto/stringproc-10578.rb",
+      "10748": "/rooms/10125/wayto/stringproc-10748.rb",
       "13979": "go stream",
       "21535": "go bridge",
-      "24715": ";e $mapdb_seeking_destination = 24715;Map[3600].wayto['3600'].call;"
+      "24715": "/rooms/10125/wayto/stringproc-24715.rb"
     },
     "timeto": {
       "10124": 0.2,
-      "10578": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 2.8; else; nil; end",
-      "10748": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 2.8; else; nil; end",
+      "10578": "/rooms/10125/timeto/stringproc-10578.rb",
+      "10748": "/rooms/10125/timeto/stringproc-10748.rb",
       "13979": 0.2,
       "21535": 0.2,
-      "24715": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 2.8; else; nil; end"
+      "24715": "/rooms/10125/timeto/stringproc-24715.rb"
     },
-    "image": "en-fearling-1632908688.png",
-    "image_coords": [
-      720,
-      233,
-      730,
-      243
-    ],
     "tags": [
       "angelica root",
       "ayana leaf",
@@ -183,6 +177,13 @@
     ],
     "uid": [
       14116002
+    ],
+    "image": "en-fearling-1632908688.png",
+    "image_coords": [
+      720,
+      233,
+      730,
+      243
     ]
   }
 }

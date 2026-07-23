@@ -1,4 +1,5 @@
 {
+  "checksum": "db2b61f1702023427a9e22dd71cad77e",
   "room": {
     "id": 3998,
     "title": [
@@ -14,22 +15,15 @@
     "climate": "glacial",
     "terrain": "mountainous",
     "wayto": {
-      "3997": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'down'",
+      "3997": "/rooms/3998/wayto/stringproc-3997.rb",
       "3999": "go fissure",
-      "4000": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'up'"
+      "4000": "/rooms/3998/wayto/stringproc-4000.rb"
     },
     "timeto": {
       "3997": 4.2,
       "3999": 0.2,
       "4000": 4.2
     },
-    "image": "en-skull-1264234799.png",
-    "image_coords": [
-      825,
-      169,
-      835,
-      179
-    ],
     "tags": [
       "angelica root",
       "deep purple shockroot",
@@ -46,6 +40,13 @@
     ],
     "uid": [
       13302116
+    ],
+    "image": "en-skull-1264234799.png",
+    "image_coords": [
+      825,
+      169,
+      835,
+      179
     ]
   }
 }

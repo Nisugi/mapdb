@@ -1,4 +1,5 @@
 {
+  "checksum": "dd6a59fca71630e5ffcad58703557304",
   "room": {
     "id": 7703,
     "title": [
@@ -13,19 +14,12 @@
     "location": "the Coastal Cliffs",
     "wayto": {
       "7702": "west",
-      "7704": ";e fput 'search'\nmove 'go tunnel'"
+      "7704": "/rooms/7703/wayto/stringproc-7704.rb"
     },
     "timeto": {
       "7702": 0.2,
       "7704": 0.2
     },
-    "image": "wl-coastal_cliffs-1264234799.png",
-    "image_coords": [
-      430,
-      1057,
-      440,
-      1067
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -33,6 +27,13 @@
     ],
     "uid": [
       68033
+    ],
+    "image": "wl-coastal_cliffs-1264234799.png",
+    "image_coords": [
+      430,
+      1057,
+      440,
+      1067
     ]
   }
 }

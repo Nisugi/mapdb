@@ -1,0 +1,1 @@
+3.times{fput 'knock door'};fput 'go door'

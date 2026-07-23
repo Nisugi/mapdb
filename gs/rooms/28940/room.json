@@ -1,4 +1,5 @@
 {
+  "checksum": "bf4839a4b83b53a354d7c2f324a6a952",
   "room": {
     "id": 28940,
     "title": [
@@ -14,12 +15,12 @@
     "wayto": {
       "28883": "out",
       "28941": "go opening",
-      "30716": ";e true"
+      "30716": "/rooms/28940/wayto/stringproc-30716.rb"
     },
     "timeto": {
       "28883": 0.2,
       "28941": 0.2,
-      "30716": ";e Map[7].timeto['30714'].call;"
+      "30716": "/rooms/28940/timeto/stringproc-30716.rb"
     },
     "tags": [
       "meta:trashcan:copper-bound rough oak barrel",

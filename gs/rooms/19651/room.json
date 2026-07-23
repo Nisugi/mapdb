@@ -1,4 +1,5 @@
 {
+  "checksum": "8bb1bd1397b55e25a361e862412d617e",
   "room": {
     "id": 19651,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "the foothills of Zeltoph",
     "wayto": {
-      "8574": ";e fput 'open door'; move 'go door'",
+      "8574": "/rooms/19651/wayto/stringproc-8574.rb",
       "19649": "north"
     },
     "timeto": {
       "8574": 0.4,
       "19649": 0.2
     },
-    "image": "wl-cavernhold-1295073688.png",
-    "image_coords": [
-      579,
-      1191,
-      581,
-      1196
-    ],
     "tags": [
       "cave moss",
       "ironfern root",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       10008
+    ],
+    "image": "wl-cavernhold-1295073688.png",
+    "image_coords": [
+      579,
+      1191,
+      581,
+      1196
     ]
   }
 }

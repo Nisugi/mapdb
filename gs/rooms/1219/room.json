@@ -1,4 +1,5 @@
 {
+  "checksum": "6fd5c8996190d9a0038c180cf9ea65f1",
   "room": {
     "id": 1219,
     "title": [
@@ -16,19 +17,12 @@
     "terrain": "grassland",
     "wayto": {
       "1218": "southwest",
-      "1220": ";e begin; fput 'search'; search_result = waitfor \"don't find anything\", \"discover a northwest path\", \"Roundtime\", \"Round time\"; waitrt?; end until search_result =~ /discover a northwest path/; move 'go path'"
+      "1220": "/rooms/1219/wayto/stringproc-1220.rb"
     },
     "timeto": {
       "1218": 0.2,
       "1220": 0.2
     },
-    "image": "en-trail-1264234799.png",
-    "image_coords": [
-      188,
-      894,
-      198,
-      904
-    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -144,6 +138,13 @@
     ],
     "uid": [
       2190001
+    ],
+    "image": "en-trail-1264234799.png",
+    "image_coords": [
+      188,
+      894,
+      198,
+      904
     ]
   }
 }

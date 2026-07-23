@@ -1,4 +1,5 @@
 {
+  "checksum": "2e8ff9d11b4d080152a8d374252a2464",
   "room": {
     "id": 6284,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "temperate",
     "terrain": "plain dirt",
     "wayto": {
-      "6267": ";e move 'climb rim'",
-      "6285": ";e move 'climb rope'"
+      "6267": "/rooms/6284/wayto/stringproc-6267.rb",
+      "6285": "/rooms/6284/wayto/stringproc-6285.rb"
     },
     "timeto": {
       "6267": 0.2,
       "6285": 0.2
     },
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      230,
-      288,
-      240,
-      298
-    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -79,6 +73,13 @@
     ],
     "uid": [
       372002
+    ],
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      230,
+      288,
+      240,
+      298
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "8d0790d5267e4e72650cfd4b4264cff4",
   "room": {
     "id": 31915,
     "title": [
@@ -13,13 +14,13 @@
     "location": "Evermore Hollow",
     "wayto": {
       "31914": "go steps",
-      "32083": ";e fput 'search';waitrt?;move ('go black arch')",
+      "32083": "/rooms/31915/wayto/stringproc-32083.rb",
       "32086": "north",
       "32087": "south"
     },
     "timeto": {
       "31914": 0.2,
-      "32083": 5.0,
+      "32083": 5,
       "32086": 0.2,
       "32087": 0.2
     },

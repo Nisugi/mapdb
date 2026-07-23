@@ -1,4 +1,5 @@
 {
+  "checksum": "58bd281520e2e942bc8a385c73be503a",
   "room": {
     "id": 24268,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "24267": ";e move 'go door'"
+      "24267": "/rooms/24268/wayto/stringproc-24267.rb"
     },
     "timeto": {
       "24267": 0.2

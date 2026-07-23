@@ -1,4 +1,5 @@
 {
+  "checksum": "95a4321ac873fe7f2b457f5177c71a72",
   "room": {
     "id": 1961,
     "title": [
@@ -13,7 +14,7 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "1958": "up",
-      "23927": ";e fput 'pull bin'; fput 'open trapdoor'; move 'go trapdoor'"
+      "23927": "/rooms/1961/wayto/stringproc-23927.rb"
     },
     "timeto": {
       "1958": 0.2,

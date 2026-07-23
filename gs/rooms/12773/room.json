@@ -1,4 +1,5 @@
 {
+  "checksum": "32f258206bb35db333283bf1e358e766",
   "room": {
     "id": 12773,
     "title": [
@@ -17,17 +18,10 @@
       "12772": "northeast"
     },
     "timeto": {
-      "2207": 2.0,
+      "2207": 2,
       "12771": 0.2,
       "12772": 0.2
     },
-    "image": "ti-vtull-1663120653.png",
-    "image_coords": [
-      688,
-      735,
-      696,
-      743
-    ],
     "tags": [
       "blue trafel mushroom",
       "bolmara lichen",
@@ -44,6 +38,13 @@
     ],
     "uid": [
       3061008
+    ],
+    "image": "ti-vtull-1663120653.png",
+    "image_coords": [
+      688,
+      735,
+      696,
+      743
     ]
   }
 }

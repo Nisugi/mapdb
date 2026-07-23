@@ -1,4 +1,5 @@
 {
+  "checksum": "f1db3439a308c3f7c5e949eb5ec6dfa0",
   "room": {
     "id": 25616,
     "title": [
@@ -14,24 +15,17 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "18841": ";e if checksitting;while Room.current.id == 25616;fput('row northeast');waitrt?;end;else;move('swim northeast');end;",
-      "25615": ";e if checksitting;while Room.current.id == 25616;fput('row southeast');waitrt?;end;else;move('swim southeast');end;",
-      "25617": ";e if checksitting;while Room.current.id == 25616;fput('row north');waitrt?;end;else;move('swim north');end;",
+      "18841": "/rooms/25616/wayto/stringproc-18841.rb",
+      "25615": "/rooms/25616/wayto/stringproc-25615.rb",
+      "25617": "/rooms/25616/wayto/stringproc-25617.rb",
       "30509": "swim down"
     },
     "timeto": {
-      "18841": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "25615": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "25617": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "30509": ";e checksitting && Room.current.climate == 'freshwater' ? nil : 0.2"
+      "18841": "/rooms/25616/timeto/stringproc-18841.rb",
+      "25615": "/rooms/25616/timeto/stringproc-25615.rb",
+      "25617": "/rooms/25616/timeto/stringproc-25617.rb",
+      "30509": "/rooms/25616/timeto/stringproc-30509.rb"
     },
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1163,
-      812,
-      1181,
-      831
-    ],
     "tags": [
       "aloeas stem",
       "meta:forage-sensed",
@@ -48,6 +42,13 @@
     ],
     "uid": [
       14117016
+    ],
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1163,
+      812,
+      1181,
+      831
     ]
   }
 }

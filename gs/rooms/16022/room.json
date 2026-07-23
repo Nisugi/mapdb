@@ -1,4 +1,5 @@
 {
+  "checksum": "e6b2e8c2de29eede7b172b75934f42a1",
   "room": {
     "id": 16022,
     "title": [
@@ -24,10 +25,10 @@
     "climate": "temperate",
     "terrain": "deciduous forest",
     "wayto": {
-      "11026": ";e move 'west' while checkpaths.include?('w')"
+      "11026": "/rooms/16022/wayto/stringproc-11026.rb"
     },
     "timeto": {
-      "11026": 3.0
+      "11026": 3
     },
     "tags": [
       "acantha leaf",

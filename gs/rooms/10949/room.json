@@ -1,4 +1,5 @@
 {
+  "checksum": "cb2ec68348d1fa6cc2cf79d6324f1af5",
   "room": {
     "id": 10949,
     "title": [
@@ -14,12 +15,12 @@
     "wayto": {
       "10851": "out",
       "10950": "north",
-      "30711": ";e true"
+      "30711": "/rooms/10949/wayto/stringproc-30711.rb"
     },
     "timeto": {
       "10851": 0.2,
       "10950": 0.2,
-      "30711": ";e Map[7].timeto['30714'].call;"
+      "30711": "/rooms/10949/timeto/stringproc-30711.rb"
     },
     "tags": [
       "meta:forage-sensed",

@@ -1,4 +1,5 @@
 {
+  "checksum": "8eb7efce94c4027376ac497bd4b8872f",
   "room": {
     "id": 21062,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "humid",
     "terrain": "riparian",
     "wayto": {
-      "21018": ";e pause 0.2; waitrt?; fput 'push e'",
-      "21063": ";e pause 0.2; waitrt?; fput 'push sw'"
+      "21018": "/rooms/21062/wayto/stringproc-21018.rb",
+      "21063": "/rooms/21062/wayto/stringproc-21063.rb"
     },
     "timeto": {
-      "21018": 2.0,
-      "21063": 2.0
+      "21018": 2,
+      "21063": 2
     },
-    "image": "ifw-wilds-1368242816.png",
-    "image_coords": [
-      780,
-      1379,
-      801,
-      1399
-    ],
     "tags": [
       "acantha leaf",
       "bright yellow plantain",
@@ -44,6 +38,13 @@
     ],
     "uid": [
       3210602
+    ],
+    "image": "ifw-wilds-1368242816.png",
+    "image_coords": [
+      780,
+      1379,
+      801,
+      1399
     ]
   }
 }

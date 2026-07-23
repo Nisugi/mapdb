@@ -1,4 +1,5 @@
 {
+  "checksum": "84faac30fac0908896347b7301b0f882",
   "room": {
     "id": 32612,
     "title": [
@@ -15,7 +16,7 @@
     "terrain": "none",
     "wayto": {
       "32611": "west",
-      "32617": ";e 3.times { fput 'knock ash door' };move 'go ash door'"
+      "32617": "/rooms/32612/wayto/stringproc-32617.rb"
     },
     "timeto": {
       "32611": 0.2,

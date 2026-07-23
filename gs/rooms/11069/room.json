@@ -1,4 +1,5 @@
 {
+  "checksum": "fd99cd6a5b675d1d2d9bbb4e0a33fd53",
   "room": {
     "id": 11069,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "the Sea Caves",
     "wayto": {
-      "11068": ";e loop{fput 'swim tunnel';pause 0.2;if Room.current.id == 11068;break;end}",
+      "11068": "/rooms/11069/wayto/stringproc-11068.rb",
       "11070": "east"
     },
     "timeto": {
       "11068": 0.2,
       "11070": 0.2
     },
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      4130,
-      854,
-      4153,
-      876
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -34,6 +28,13 @@
     ],
     "uid": [
       26103
+    ],
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      4130,
+      854,
+      4153,
+      876
     ]
   }
 }

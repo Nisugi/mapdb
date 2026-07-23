@@ -1,4 +1,5 @@
 {
+  "checksum": "0c421a1b2b647345c4aebce9da7ebbbd",
   "room": {
     "id": 22224,
     "title": [
@@ -12,18 +13,11 @@
     ],
     "location": "Maelstrom Bay",
     "wayto": {
-      "16188": ";e fput 'search';move 'go trapdoor'"
+      "16188": "/rooms/22224/wayto/stringproc-16188.rb"
     },
     "timeto": {
       "16188": 0.3
     },
-    "image": "rr-beacon_hall-1405076623.png",
-    "image_coords": [
-      1007,
-      464,
-      1055,
-      510
-    ],
     "tags": [
       "fire lily",
       "meta:che:Beacon Hall Archive",
@@ -33,6 +27,13 @@
     ],
     "uid": [
       216027
+    ],
+    "image": "rr-beacon_hall-1405076623.png",
+    "image_coords": [
+      1007,
+      464,
+      1055,
+      510
     ]
   }
 }

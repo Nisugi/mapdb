@@ -1,4 +1,5 @@
 {
+  "checksum": "6cf8f903ed9e8044ff6c448d8fe23e7f",
   "room": {
     "id": 3727,
     "title": [
@@ -16,26 +17,19 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "3483": ";e fput 'unhide' if invisible?;move('go gate')",
+      "3483": "/rooms/3727/wayto/stringproc-3483.rb",
       "6104": "northwest",
-      "26905": ";e 2.times{fput \"event transport duskruin\"};UserVars.mapdb_duskruin_origin = Map.current.id;",
-      "30713": ";e true",
-      "31558": ";e 2.times{fput \"event transport ebon gate\"};UserVars.mapdb_ebon_gate_origin = Map.current.id;"
+      "26905": "/rooms/3727/wayto/stringproc-26905.rb",
+      "30713": "/rooms/3727/wayto/stringproc-30713.rb",
+      "31558": "/rooms/3727/wayto/stringproc-31558.rb"
     },
     "timeto": {
       "3483": 0.2,
       "6104": 0.2,
       "26905": 2400,
-      "30713": ";e Map[7].timeto['30714'].call;",
-      "31558": ";e Time.now.month == 10 ? 2400 : nil"
+      "30713": "/rooms/3727/timeto/stringproc-30713.rb",
+      "31558": "/rooms/3727/timeto/stringproc-31558.rb"
     },
-    "image": "en-fearling-1632908688.png",
-    "image_coords": [
-      1002,
-      889,
-      1012,
-      899
-    ],
     "tags": [
       "advguard",
       "guard",
@@ -48,6 +42,13 @@
     ],
     "uid": [
       14100003
+    ],
+    "image": "en-fearling-1632908688.png",
+    "image_coords": [
+      1002,
+      889,
+      1012,
+      899
     ]
   }
 }

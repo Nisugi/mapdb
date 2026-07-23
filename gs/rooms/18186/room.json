@@ -1,4 +1,5 @@
 {
+  "checksum": "cb284d3fcc59c739d32f4be2ea8c8f31",
   "room": {
     "id": 18186,
     "title": [
@@ -14,9 +15,9 @@
     "climate": "hot, damp",
     "terrain": "hard, flat",
     "wayto": {
-      "451": ";e ;\nstart_time = Time.now.to_i;\nrefill_hands=false;(refill_hands = true;empty_hands;) if GameObj.right_hand.id or GameObj.left_hand.id;\nfput 'go opening';\nfput 'lay';\n_respond \"#{monsterbold_start}Waiting for 'one on the left and one on the right'.#{monsterbold_end}\";\nwaitfor \"one on the left and one on the right\";\nfput \"lean left\";\n_respond \"#{monsterbold_start}Waiting for 'branches off to the left just ahead'.#{monsterbold_end}\";\nwaitfor \"branches off to the left just ahead\";\nfput \"lean left\";\n_respond \"#{monsterbold_start}Waiting for 'Another tunnel branches off to the left just ahead'.#{monsterbold_end}\";\nwaitfor \"Another tunnel branches off to the left just ahead\";\n_respond \"#{monsterbold_start}Waiting for 'Suddenly the tunnel turns into a nearly vertical drop'.#{monsterbold_end}\";\nwaitfor \"Suddenly the tunnel turns into a nearly vertical drop\";\nfput \"lean left\";\n_respond \"#{monsterbold_start}Waiting to exit the tunnels.#{monsterbold_end}\";\nwaitfor \"Obvious paths: southwest\";\n_respond \"#{monsterbold_start}water tunnel time: #{Time.now.to_i - start_time} seconds.#{monsterbold_end}\";\nfill_hands if refill_hands;\n",
+      "451": "/rooms/18186/wayto/stringproc-451.rb",
       "18185": "go shaft",
-      "18187": ";e empty_hands if GameObj.right_hand.id or GameObj.left_hand.id;move('go opening')"
+      "18187": "/rooms/18186/wayto/stringproc-18187.rb"
     },
     "timeto": {
       "451": 0.2,

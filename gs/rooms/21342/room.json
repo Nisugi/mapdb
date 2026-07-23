@@ -1,4 +1,5 @@
 {
+  "checksum": "103bc9b5afbe2bb8edae0faa091d0736",
   "room": {
     "id": 21342,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "21341": "go modwir door",
-      "21361": ";e table = \"Pixies\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "21362": ";e table = \"Tree Nymph\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "21363": ";e table = \"Sea Nymph\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "21364": ";e table = \"Moonstone Butterfly\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "21365": ";e table = \"Water Lily\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"
+      "21361": "/rooms/21342/wayto/stringproc-21361.rb",
+      "21362": "/rooms/21342/wayto/stringproc-21362.rb",
+      "21363": "/rooms/21342/wayto/stringproc-21363.rb",
+      "21364": "/rooms/21342/wayto/stringproc-21364.rb",
+      "21365": "/rooms/21342/wayto/stringproc-21365.rb"
     },
     "timeto": {
       "21341": 0.2,
@@ -27,18 +28,18 @@
       "21364": 0.2,
       "21365": 0.2
     },
+    "tags": [
+      "meta:che:House Sylvanfair"
+    ],
+    "uid": [
+      211013
+    ],
     "image": "wl-sylvanfair.jpg",
     "image_coords": [
       811,
       503,
       849,
       541
-    ],
-    "tags": [
-      "meta:che:House Sylvanfair"
-    ],
-    "uid": [
-      211013
     ]
   }
 }

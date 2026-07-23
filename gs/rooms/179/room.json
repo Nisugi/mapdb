@@ -1,4 +1,5 @@
 {
+  "checksum": "481ab623d9b2f8a99c1fc772d65cdfd3",
   "room": {
     "id": 179,
     "title": [
@@ -18,21 +19,14 @@
       "178": "north",
       "180": "east",
       "19507": "go hall",
-      "30714": ";e true"
+      "30714": "/rooms/179/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "178": 0.2,
       "180": 0.2,
-      "19507": ";e Stats.prof == 'Empath' ? 0.2 : nil",
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "19507": "/rooms/179/timeto/stringproc-19507.rb",
+      "30714": "/rooms/179/timeto/stringproc-30714.rb"
     },
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      1066,
-      950,
-      1088,
-      972
-    ],
     "tags": [
       "empath guild",
       "empathguild",
@@ -44,6 +38,13 @@
     ],
     "uid": [
       13100020
+    ],
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      1066,
+      950,
+      1088,
+      972
     ]
   }
 }

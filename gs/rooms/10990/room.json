@@ -1,4 +1,5 @@
 {
+  "checksum": "8b78b2af044c24da66beb50a72937cf5",
   "room": {
     "id": 10990,
     "title": [
@@ -14,12 +15,12 @@
     "wayto": {
       "10858": "out",
       "16221": "go curtain",
-      "30711": ";e true"
+      "30711": "/rooms/10990/wayto/stringproc-30711.rb"
     },
     "timeto": {
       "10858": 0.2,
       "16221": 0.2,
-      "30711": ";e Map[7].timeto['30714'].call;"
+      "30711": "/rooms/10990/timeto/stringproc-30711.rb"
     },
     "tags": [
       "fletcher",

@@ -1,4 +1,5 @@
 {
+  "checksum": "b379ca25bd968187d15de5a11fdd3a0d",
   "room": {
     "id": 1893,
     "title": [
@@ -13,11 +14,11 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "1892": "east",
-      "30715": ";e true"
+      "30715": "/rooms/1893/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "1892": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "30715": "/rooms/1893/timeto/stringproc-30715.rb"
     },
     "tags": [
       "debts",

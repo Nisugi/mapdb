@@ -1,4 +1,5 @@
 {
+  "checksum": "66643d6397521af96305535dfb3ffa0a",
   "room": {
     "id": 6342,
     "title": [
@@ -18,13 +19,6 @@
     "timeto": {
       "6337": 0.2
     },
-    "image": "wl-wizard_guild.jpg",
-    "image_coords": [
-      416,
-      207,
-      469,
-      254
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -33,6 +27,13 @@
     ],
     "uid": [
       681133
+    ],
+    "image": "wl-wizard_guild.jpg",
+    "image_coords": [
+      416,
+      207,
+      469,
+      254
     ]
   }
 }

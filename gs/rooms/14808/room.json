@@ -1,4 +1,5 @@
 {
+  "checksum": "9d613232b68e382c11a9e4cc79cfbc84",
   "room": {
     "id": 14808,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Kharam-Dzu",
     "wayto": {
       "14807": "go curtain",
-      "30715": ";e true"
+      "30715": "/rooms/14808/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "14807": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "30715": "/rooms/14808/timeto/stringproc-30715.rb"
     },
     "tags": [
       "cobbling",

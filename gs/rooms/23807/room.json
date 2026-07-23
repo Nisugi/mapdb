@@ -1,4 +1,5 @@
 {
+  "checksum": "a03e74af7cd080e7d9d3e96422540857",
   "room": {
     "id": 23807,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Mist Harbor",
     "wayto": {
       "3655": "go out",
-      "30718": ";e true"
+      "30718": "/rooms/23807/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "3655": 0.2,
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "30718": "/rooms/23807/timeto/stringproc-30718.rb"
     },
     "tags": [
       "collectibles",

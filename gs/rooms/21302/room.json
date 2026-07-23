@@ -1,4 +1,5 @@
 {
+  "checksum": "f199ef3ee18a98185412e77559012868",
   "room": {
     "id": 21302,
     "title": [
@@ -13,24 +14,24 @@
     "location": "Willow Hall",
     "wayto": {
       "19292": "out",
-      "21303": ";e put 'tap globe'"
+      "21303": "/rooms/21302/wayto/stringproc-21303.rb"
     },
     "timeto": {
       "19292": 0.2,
       "21303": 0.2
     },
+    "tags": [
+      "meta:che:Willow Hall"
+    ],
+    "uid": [
+      218014
+    ],
     "image": "wl-willow_hall-1308424874.png",
     "image_coords": [
       903,
       626,
       950,
       673
-    ],
-    "tags": [
-      "meta:che:Willow Hall"
-    ],
-    "uid": [
-      218014
     ]
   }
 }

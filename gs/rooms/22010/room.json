@@ -1,4 +1,5 @@
 {
+  "checksum": "c1aba29a8133284bfc3ffefe83897e4f",
   "room": {
     "id": 22010,
     "title": [
@@ -12,8 +13,8 @@
     ],
     "location": "Talador",
     "wayto": {
-      "21962": ";e waitrt?; move 'east'",
-      "22009": ";e waitrt?; move 'west'"
+      "21962": "/rooms/22010/wayto/stringproc-21962.rb",
+      "22009": "/rooms/22010/wayto/stringproc-22009.rb"
     },
     "timeto": {
       "21962": 0.2,

@@ -1,4 +1,5 @@
 {
+  "checksum": "af69e168c971bf3233685c9423e0cea1",
   "room": {
     "id": 20762,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "20757": "go archway",
       "20763": "go door",
-      "30709": ";e true"
+      "30709": "/rooms/20762/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "20757": 0.2,
       "20763": 0.2,
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "30709": "/rooms/20762/timeto/stringproc-30709.rb"
     },
-    "image": "premium_halls-1489980086.png",
-    "image_coords": [
-      886,
-      1603,
-      1012,
-      1658
-    ],
     "tags": [
       "meta:premium",
       "meta:trashcan:tart-etched silver bin",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       4002006
+    ],
+    "image": "premium_halls-1489980086.png",
+    "image_coords": [
+      886,
+      1603,
+      1012,
+      1658
     ]
   }
 }

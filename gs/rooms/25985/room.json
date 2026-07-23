@@ -1,4 +1,5 @@
 {
+  "checksum": "99d673a9cd0f1c4e5a183182ea6c4cb7",
   "room": {
     "id": 25985,
     "title": [
@@ -15,20 +16,13 @@
     "terrain": "cultivated",
     "wayto": {
       "1451": "go mistwood gate",
-      "26834": ";e if GameObj.inv.find {|obj| obj.noun == \"key\"};fput \"go beechwood door\";else;empty_hand;multifput \"get my #{UserVars.journeys_end} from my #{UserVars.keysack}\",\"go beechwood door\",\"put my key in my #{UserVars.keysack}\";fill_hand;end"
+      "26834": "/rooms/25985/wayto/stringproc-26834.rb"
     },
     "timeto": {
       "1451": 0.2,
       "25984": 0.2,
       "26834": 0.2
     },
-    "image": "Journeys_End.jpg",
-    "image_coords": [
-      394,
-      555,
-      607,
-      689
-    ],
     "tags": [
       "angelica root",
       "black peppercorn",
@@ -144,6 +138,13 @@
     ],
     "uid": [
       4547201
+    ],
+    "image": "Journeys_End.jpg",
+    "image_coords": [
+      394,
+      555,
+      607,
+      689
     ]
   }
 }

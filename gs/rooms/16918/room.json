@@ -1,4 +1,5 @@
 {
+  "checksum": "e6808954e08492a7dac55c3f6350fb05",
   "room": {
     "id": 16918,
     "title": [
@@ -20,10 +21,10 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "9441": ";e move 'south' while checkpaths.include?('s')"
+      "9441": "/rooms/16918/wayto/stringproc-9441.rb"
     },
     "timeto": {
-      "9441": 3.0
+      "9441": 3
     },
     "tags": [
       "blue trafel mushroom",

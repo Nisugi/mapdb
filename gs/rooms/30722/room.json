@@ -1,4 +1,5 @@
 {
+  "checksum": "32b7707e7d95c1e4aabf385fc1aaae0c",
   "room": {
     "id": 30722,
     "title": [
@@ -17,17 +18,10 @@
       "30723": "north"
     },
     "timeto": {
-      "28255": 240.0,
+      "28255": 240,
       "30721": 0.2,
       "30723": 0.2
     },
-    "image": "en-ta_vaalor-wyverns_keep-1488759285.png",
-    "image_coords": [
-      833,
-      925,
-      978,
-      987
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-09",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       14104010
+    ],
+    "image": "en-ta_vaalor-wyverns_keep-1488759285.png",
+    "image_coords": [
+      833,
+      925,
+      978,
+      987
     ]
   }
 }

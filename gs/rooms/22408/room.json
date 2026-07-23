@@ -1,4 +1,5 @@
 {
+  "checksum": "224e5463914e74aa4c5c31536860c7ca",
   "room": {
     "id": 22408,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "Mist Harbor",
     "wayto": {
-      "22407": ";e room = Room.current.id;fput 'go curtain'; if ( room == Room.current.id ); fput 'close locker';move 'go curtain'; end"
+      "22407": "/rooms/22408/wayto/stringproc-22407.rb"
     },
     "timeto": {
       "22407": 0.2

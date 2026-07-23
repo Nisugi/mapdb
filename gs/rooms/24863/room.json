@@ -1,4 +1,5 @@
 {
+  "checksum": "c41a63df7b438aec7820a5915b0c9598",
   "room": {
     "id": 24863,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "Thurfel's Island",
     "wayto": {
-      "9147": ";e move \"go vortex\"",
+      "9147": "/rooms/24863/wayto/stringproc-9147.rb",
       "24864": "up"
     },
     "timeto": {
-      "9147": 2.0,
+      "9147": 2,
       "24864": 0.2
     },
-    "image": "imt-Reim-1260914759.png",
-    "image_coords": [
-      769,
-      1067,
-      782,
-      1080
-    ],
     "tags": [
       "black mushroom",
       "blue trafel mushroom",
@@ -46,6 +40,13 @@
     ],
     "uid": [
       7530033
+    ],
+    "image": "imt-Reim-1260914759.png",
+    "image_coords": [
+      769,
+      1067,
+      782,
+      1080
     ]
   }
 }

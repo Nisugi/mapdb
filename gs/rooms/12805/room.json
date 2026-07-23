@@ -1,4 +1,5 @@
 {
+  "checksum": "45a0eb9ce3e8713b18350fc82b8d5084",
   "room": {
     "id": 12805,
     "title": [
@@ -13,19 +14,12 @@
     "location": "the Adventurer's Guild",
     "wayto": {
       "12801": "out",
-      "30710": ";e true"
+      "30710": "/rooms/12805/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "12801": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/12805/timeto/stringproc-30710.rb"
     },
-    "image": "adventurers_guild-1485358936.png",
-    "image_coords": [
-      1498,
-      1083,
-      1565,
-      1152
-    ],
     "tags": [
       "advguild",
       "bounty",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       15002006
+    ],
+    "image": "adventurers_guild-1485358936.png",
+    "image_coords": [
+      1498,
+      1083,
+      1565,
+      1152
     ]
   }
 }

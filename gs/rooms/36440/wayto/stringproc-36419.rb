@@ -1,0 +1,1 @@
+if !GameObj.loot.any?{|i| i.name =~ /opening/};fput 'pull lever';sleep 0.2 until GameObj.loot.any?{|i| i.name =~ /opening/};end;move('go opening')

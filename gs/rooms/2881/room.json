@@ -1,4 +1,5 @@
 {
+  "checksum": "9699b8496adcf9306590ff6340c7a2ef",
   "room": {
     "id": 2881,
     "title": [
@@ -14,22 +15,15 @@
     "climate": "snowy, arctic",
     "terrain": "mountainous",
     "wayto": {
-      "2877": ";e \n\t\tresolve=Spell['Sigil of Resolve']\n\t\thaste=Spell['Haste']\n\t\tif UserVars.mapdb_ice_mode == 'wait' || Skills.survival < 50 || XMLData.encumbrance_value >= 50\n\t\t\techo 'trying not to slip...'; sleep 6\n\t\telsif resolve.known? && resolve.affordable? && !resolve.active?\n\t\t\tresolve.cast\n\t\tend\n\t\tresult = fput 'northeast'\n\t\tif result =~ /^Rushing heedlessly/\n\t\t\thaste.cast if haste.known? && haste.affordable? && !haste.active?\n\t\t\tfput 'stand'\n\t\t\t$go2_restart = true\n\t\tend\n\t",
-      "2882": ";e \n\t\tresolve=Spell['Sigil of Resolve']\n\t\thaste=Spell['Haste']\n\t\tif UserVars.mapdb_ice_mode == 'wait' || Skills.survival < 50 || XMLData.encumbrance_value >= 50\n\t\t\techo 'trying not to slip...'; sleep 6\n\t\telsif resolve.known? && resolve.affordable? && !resolve.active?\n\t\t\tresolve.cast\n\t\tend\n\t\tresult = fput 'west'\n\t\tif result =~ /^Rushing heedlessly/\n\t\t\thaste.cast if haste.known? && haste.affordable? && !haste.active?\n\t\t\tfput 'stand'\n\t\t\t$go2_restart = true\n\t\tend\n\t",
-      "2883": ";e \n\t\tresolve=Spell['Sigil of Resolve']\n\t\thaste=Spell['Haste']\n\t\tif UserVars.mapdb_ice_mode == 'wait' || Skills.survival < 50 || XMLData.encumbrance_value >= 50\n\t\t\techo 'trying not to slip...'; sleep 6\n\t\telsif resolve.known? && resolve.affordable? && !resolve.active?\n\t\t\tresolve.cast\n\t\tend\n\t\tresult = fput 'up'\n\t\tif result =~ /^Rushing heedlessly/\n\t\t\thaste.cast if haste.known? && haste.affordable? && !haste.active?\n\t\t\tfput 'stand'\n\t\t\t$go2_restart = true\n\t\tend\n\t"
+      "2877": "/rooms/2881/wayto/stringproc-2877.rb",
+      "2882": "/rooms/2881/wayto/stringproc-2882.rb",
+      "2883": "/rooms/2881/wayto/stringproc-2883.rb"
     },
     "timeto": {
-      "2877": 7.0,
-      "2882": 7.0,
-      "2883": 7.0
+      "2877": 7,
+      "2882": 7,
+      "2883": 7
     },
-    "image": "imt-east_west_north_gates-1668398077.png",
-    "image_coords": [
-      1319,
-      256,
-      1329,
-      266
-    ],
     "tags": [
       "angelica root",
       "arctic moss",
@@ -68,6 +62,13 @@
     ],
     "uid": [
       4560049
+    ],
+    "image": "imt-east_west_north_gates-1668398077.png",
+    "image_coords": [
+      1319,
+      256,
+      1329,
+      266
     ]
   }
 }

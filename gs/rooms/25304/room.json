@@ -1,4 +1,5 @@
 {
+  "checksum": "70fe26d837c2d369ab743cc9b3d438b6",
   "room": {
     "id": 25304,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Mist Harbor",
     "wayto": {
       "3638": "out",
-      "30718": ";e true"
+      "30718": "/rooms/25304/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "3638": 0.2,
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "30718": "/rooms/25304/timeto/stringproc-30718.rb"
     },
     "tags": [
       "armor",

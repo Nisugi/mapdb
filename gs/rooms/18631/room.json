@@ -1,4 +1,5 @@
 {
+  "checksum": "66a454d741ec1f1a390788b7810cf351",
   "room": {
     "id": 18631,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "Solhaven",
     "wayto": {
-      "18625": ";e move 'out'; move 'east'",
+      "18625": "/rooms/18631/wayto/stringproc-18625.rb",
       "18632": "climb staircase",
       "18731": "out",
       "18732": "west"
@@ -23,6 +24,13 @@
       "18731": 0.2,
       "18732": 0.2
     },
+    "tags": [
+      "cleric alchemy administrator",
+      "cleric guild administrator"
+    ],
+    "uid": [
+      674020
+    ],
     "image": "vo-cleric_guild-1275418702.png",
     "image_coords": [
       140,
@@ -30,13 +38,6 @@
       184,
       243
     ],
-    "tags": [
-      "cleric alchemy administrator",
-      "cleric guild administrator"
-    ],
-    "check_location": true,
-    "uid": [
-      674020
-    ]
+    "check_location": true
   }
 }

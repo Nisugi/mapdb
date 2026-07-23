@@ -1,4 +1,5 @@
 {
+  "checksum": "0e6e3e70e22a54a80a1fec087e1966c3",
   "room": {
     "id": 640,
     "title": [
@@ -16,12 +17,12 @@
     "wayto": {
       "166": "out",
       "13241": "go doorway",
-      "30714": ";e true"
+      "30714": "/rooms/640/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "166": 0.2,
       "13241": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/640/timeto/stringproc-30714.rb"
     },
     "tags": [
       "herbalist",

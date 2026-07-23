@@ -1,4 +1,5 @@
 {
+  "checksum": "aefd29b164ea9390b5e9616f831dee8e",
   "room": {
     "id": 2209,
     "title": [
@@ -13,19 +14,12 @@
     "location": "the Eye of V'Tull",
     "wayto": {
       "2208": "climb fissure",
-      "2210": ";e fput 'search'\nmove 'climb crawlway'"
+      "2210": "/rooms/2209/wayto/stringproc-2210.rb"
     },
     "timeto": {
       "2208": 0.2,
       "2210": 0.2
     },
-    "image": "ti-vtull-1663120653.png",
-    "image_coords": [
-      641,
-      773,
-      651,
-      783
-    ],
     "tags": [
       "cave moss",
       "daggerstalk mushroom",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       3061018
+    ],
+    "image": "ti-vtull-1663120653.png",
+    "image_coords": [
+      641,
+      773,
+      651,
+      783
     ]
   }
 }

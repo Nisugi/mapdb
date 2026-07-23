@@ -1,4 +1,5 @@
 {
+  "checksum": "dce8534dbd3707c75e47415787cf7d49",
   "room": {
     "id": 8536,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "moist",
     "terrain": "muddy wetlands",
     "wayto": {
-      "8535": ";e move 'south'; waitrt?",
-      "8537": ";e move 'west'; waitrt?"
+      "8535": "/rooms/8536/wayto/stringproc-8535.rb",
+      "8537": "/rooms/8536/wayto/stringproc-8537.rb"
     },
     "timeto": {
-      "8535": 5.0,
-      "8537": 5.0
+      "8535": 5,
+      "8537": 5
     },
-    "image": "wl-trollfang-1264234799.png",
-    "image_coords": [
-      928,
-      651,
-      938,
-      661
-    ],
     "tags": [
       "aloeas stem",
       "black peppercorn",
@@ -69,6 +63,13 @@
     ],
     "uid": [
       16009
+    ],
+    "image": "wl-trollfang-1264234799.png",
+    "image_coords": [
+      928,
+      651,
+      938,
+      661
     ]
   }
 }

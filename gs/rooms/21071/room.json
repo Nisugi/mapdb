@@ -1,4 +1,5 @@
 {
+  "checksum": "ab7436d007fde842b7fb652e8954ac8c",
   "room": {
     "id": 21071,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "21070": ";e pause 0.2; waitrt?; fput 'push n'",
-      "21072": ";e pause 0.2; waitrt?; fput 'push se'"
+      "21070": "/rooms/21071/wayto/stringproc-21070.rb",
+      "21072": "/rooms/21071/wayto/stringproc-21072.rb"
     },
     "timeto": {
-      "21070": 2.0,
-      "21072": 2.0
+      "21070": 2,
+      "21072": 2
     },
-    "image": "ifw-wilds-1368242816.png",
-    "image_coords": [
-      1499,
-      2162,
-      1518,
-      2181
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2024-05",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       3217010
+    ],
+    "image": "ifw-wilds-1368242816.png",
+    "image_coords": [
+      1499,
+      2162,
+      1518,
+      2181
     ]
   }
 }

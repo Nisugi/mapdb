@@ -1,4 +1,5 @@
 {
+  "checksum": "bcc0e46a5292be48443a152cb58fdb4d",
   "room": {
     "id": 23818,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "3503": "go out",
-      "30713": ";e true"
+      "30713": "/rooms/23818/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "3503": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/23818/timeto/stringproc-30713.rb"
     },
     "tags": [
       "collectibles",

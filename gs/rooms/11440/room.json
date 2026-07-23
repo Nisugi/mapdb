@@ -1,4 +1,5 @@
 {
+  "checksum": "467d1ac62a964a1091bdc653815300c5",
   "room": {
     "id": 11440,
     "title": [
@@ -14,40 +15,40 @@
     "climate": "saltwater",
     "terrain": "",
     "wayto": {
-      "11441": ";e if checkspell(112) then move 'north' else move 'swim north' end; waitrt?",
-      "11443": ";e if checkspell(112) then move 'northwest' else move 'swim northwest' end; waitrt?",
-      "11444": ";e if checkspell(112) then move 'west' else move 'swim west' end; waitrt?",
-      "11445": ";e if checkspell(112) then move 'southwest' else move 'swim southwest' end; waitrt?",
-      "11453": ";e if checkspell(112) then move 'northeast' else move 'swim northeast' end; waitrt?",
-      "11454": ";e if checkspell(112) then move 'east' else move 'swim east' end; waitrt?",
-      "11455": ";e if checkspell(112) then move 'southeast' else move 'swim southeast' end; waitrt?",
-      "16041": ";e if checkspell(112) then move 'south' else move 'swim south' end; waitrt?",
-      "16121": ";e move 'swim down'; waitrt?"
+      "11441": "/rooms/11440/wayto/stringproc-11441.rb",
+      "11443": "/rooms/11440/wayto/stringproc-11443.rb",
+      "11444": "/rooms/11440/wayto/stringproc-11444.rb",
+      "11445": "/rooms/11440/wayto/stringproc-11445.rb",
+      "11453": "/rooms/11440/wayto/stringproc-11453.rb",
+      "11454": "/rooms/11440/wayto/stringproc-11454.rb",
+      "11455": "/rooms/11440/wayto/stringproc-11455.rb",
+      "16041": "/rooms/11440/wayto/stringproc-16041.rb",
+      "16121": "/rooms/11440/wayto/stringproc-16121.rb"
     },
     "timeto": {
-      "11441": 2.0,
-      "11443": 2.0,
-      "11444": 2.0,
-      "11445": 2.0,
-      "11453": 2.0,
-      "11454": 2.0,
-      "11455": 2.0,
-      "16041": 2.0,
-      "16121": 3.0
+      "11441": 2,
+      "11443": 2,
+      "11444": 2,
+      "11445": 2,
+      "11453": 2,
+      "11454": 2,
+      "11455": 2,
+      "16041": 2,
+      "16121": 3
     },
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      675,
-      1207,
-      685,
-      1217
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables"
     ],
     "uid": [
       304028
+    ],
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      675,
+      1207,
+      685,
+      1217
     ]
   }
 }

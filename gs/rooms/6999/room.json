@@ -1,4 +1,5 @@
 {
+  "checksum": "ffe871ce0fc9764a4b85949374682438",
   "room": {
     "id": 6999,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "none",
     "wayto": {
       "6998": "go white portcullis",
-      "7000": ";e fput 'kneel'\nfput 'kiss red portcullis'\nfput 'stand' unless standing?"
+      "7000": "/rooms/6999/wayto/stringproc-7000.rb"
     },
     "timeto": {
       "6998": 0.2,
       "7000": 0.2
     },
-    "image": "wl-darkstone-1717380773.png",
-    "image_coords": [
-      431,
-      428,
-      441,
-      438
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       45105
+    ],
+    "image": "wl-darkstone-1717380773.png",
+    "image_coords": [
+      431,
+      428,
+      441,
+      438
     ]
   }
 }

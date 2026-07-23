@@ -1,4 +1,5 @@
 {
+  "checksum": "482af1fef27edbc069879364a48717ce",
   "room": {
     "id": 3767,
     "title": [
@@ -16,19 +17,12 @@
     "terrain": "mountainous",
     "wayto": {
       "3766": "southeast",
-      "3787": ";e fput 'search'\nmove 'go crevice'"
+      "3787": "/rooms/3767/wayto/stringproc-3787.rb"
     },
     "timeto": {
       "3766": 0.2,
       "3787": 0.2
     },
-    "image": "wl-stronghold-1264234799.png",
-    "image_coords": [
-      707,
-      880,
-      717,
-      890
-    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -50,6 +44,13 @@
     ],
     "uid": [
       4291101
+    ],
+    "image": "wl-stronghold-1264234799.png",
+    "image_coords": [
+      707,
+      880,
+      717,
+      890
     ]
   }
 }

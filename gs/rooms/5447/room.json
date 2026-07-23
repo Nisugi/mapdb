@@ -1,4 +1,5 @@
 {
+  "checksum": "65e50572635ec731b51cade6ea5bdcbe",
   "room": {
     "id": 5447,
     "title": [
@@ -27,13 +28,6 @@
       "5448": 0.2,
       "5449": 0.2
     },
-    "image": "vo-caravansary-1264234799.png",
-    "image_coords": [
-      1280,
-      593,
-      1290,
-      603
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables",
@@ -41,6 +35,13 @@
     ],
     "uid": [
       2130103
+    ],
+    "image": "vo-caravansary-1264234799.png",
+    "image_coords": [
+      1280,
+      593,
+      1290,
+      603
     ]
   }
 }

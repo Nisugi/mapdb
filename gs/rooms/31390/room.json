@@ -1,4 +1,5 @@
 {
+  "checksum": "5325963642ed2152d1b3fb34fadad048",
   "room": {
     "id": 31390,
     "title": [
@@ -13,7 +14,7 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "31389": "northeast",
-      "31391": ";e multifput \"get vine\",\"push vine\"; waitrt?;"
+      "31391": "/rooms/31390/wayto/stringproc-31391.rb"
     },
     "timeto": {
       "31389": 0.2,

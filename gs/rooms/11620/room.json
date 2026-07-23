@@ -1,4 +1,5 @@
 {
+  "checksum": "58bf5ed309042ad805dc8b2ba8abba0c",
   "room": {
     "id": 11620,
     "title": [
@@ -17,9 +18,9 @@
       "11619": "southwest",
       "11621": "east",
       "11625": "south",
-      "11653": ";e fput 'search';move 'go trail';move 'northeast';move 'southeast';move 'northeast';move 'northeast';move 'northeast'",
-      "16124": ";e fput 'search'; move 'go trail'",
-      "22219": ";e fput 'search';move 'go trail';move 'northeast';move 'southeast';move 'northeast';move 'northeast';move 'southwest'"
+      "11653": "/rooms/11620/wayto/stringproc-11653.rb",
+      "16124": "/rooms/11620/wayto/stringproc-16124.rb",
+      "22219": "/rooms/11620/wayto/stringproc-22219.rb"
     },
     "timeto": {
       "11619": 0.2,
@@ -29,13 +30,6 @@
       "16124": 0.4,
       "22219": 1.2
     },
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      689,
-      613,
-      699,
-      623
-    ],
     "tags": [
       "aloeas stem",
       "blue trafel mushroom",
@@ -59,6 +53,13 @@
     ],
     "uid": [
       5003006
+    ],
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      689,
+      613,
+      699,
+      623
     ]
   }
 }

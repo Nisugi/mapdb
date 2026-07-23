@@ -1,4 +1,5 @@
 {
+  "checksum": "61203a9dd230ec07ad29c3ef451cddb8",
   "room": {
     "id": 2997,
     "title": [
@@ -16,19 +17,12 @@
     "terrain": "mountainous",
     "wayto": {
       "2996": "up",
-      "2998": ";e move 'climb landslide'"
+      "2998": "/rooms/2997/wayto/stringproc-2998.rb"
     },
     "timeto": {
       "2996": 0.2,
       "2998": 0.2
     },
-    "image": "imt-east_west_north_gates-1668398077.png",
-    "image_coords": [
-      691,
-      1028,
-      701,
-      1038
-    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -63,6 +57,13 @@
     ],
     "uid": [
       4132001
+    ],
+    "image": "imt-east_west_north_gates-1668398077.png",
+    "image_coords": [
+      691,
+      1028,
+      701,
+      1038
     ]
   }
 }

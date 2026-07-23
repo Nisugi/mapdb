@@ -1,4 +1,5 @@
 {
+  "checksum": "cba398241b55ee0bfaea030e01714009",
   "room": {
     "id": 3339,
     "title": [
@@ -23,13 +24,6 @@
       "3340": 0.2,
       "3346": 0.2
     },
-    "image": "imt-homes-1264234799.png",
-    "image_coords": [
-      127,
-      464,
-      147,
-      484
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       705160
+    ],
+    "image": "imt-homes-1264234799.png",
+    "image_coords": [
+      127,
+      464,
+      147,
+      484
     ]
   }
 }

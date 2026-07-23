@@ -1,4 +1,5 @@
 {
+  "checksum": "ad5d533bc7d97c6c73f68c7997616667",
   "room": {
     "id": 24448,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Icemule Trace",
     "wayto": {
       "24442": "south",
-      "30709": ";e true"
+      "30709": "/rooms/24448/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "24442": 0.2,
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "30709": "/rooms/24448/timeto/stringproc-30709.rb"
     },
     "tags": [
       "cobbling",

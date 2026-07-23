@@ -1,4 +1,5 @@
 {
+  "checksum": "4fd5c130ba1f5e2c8b3ca2d9251d3154",
   "room": {
     "id": 14726,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "451": "go mountain path",
       "14728": "go opening",
-      "18172": ";e \nflip_tags = !Script.current.want_downstream_xml;\nstatus_tags if flip_tags;\ngo_result = dothistimeout 'go bridge',3,/which is presently pulled open|<nav rm/;\nstatus_tags if flip_tags;\nif go_result =~ /which is presently pulled open/;\n  climb_platform = false;\n  refill_hands = false;\n  move('go opening');\n  while climb_platform == false;\n    waitrt?;\n    result = dothistimeout \"climb platform\", 2, /You decide to climb back down|you were able to pull yourself up|I could not find what you were referring to|You figure freeing up both hands might help./;\n    climb_platform = true if result =~ /you were able to pull yourself up|I could not find what you were referring to/;\n    (refill_hands = true;empty_hands) if result =~ /You figure freeing up both hands might help./;\n  end;\n  fill_hands if refill_hands == true;\n  buffed = false;\n  1.times{\n    turn_result = dothistimeout \"turn wheel\",3,/The wheel begins to move|you just don't have enough strength to budge it|already been turned and a locking bar is holding it in place./\n    if turn_result =~ /The wheel begins to move|already been turned and a locking bar is holding it in place./\n      move(\"down\")\n      move(\"out\")\n      move(\"go bridge\")\n    elsif buffed == false\n      buffs = [606,509,9605]\n      buffs.each{|num| Spell[num].cast if Spell[num].known? and Spell[num].affordable?}\n      buffed = true\n      redo\n    else;\n      echo \"You don't have the strength to turn the wheel on your own.  Pausing here until you can get some help!\"\n      echo \"`;u go2` to unpause the script once the wheel has been turned.\"\n      pause_script\n    end\n  }\nend\n"
+      "18172": "/rooms/14726/wayto/stringproc-18172.rb"
     },
     "timeto": {
       "451": 0.1,
       "14728": 0.2,
-      "18172": 11.0
+      "18172": 11
     },
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      730,
-      592,
-      740,
-      601
-    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -52,6 +46,13 @@
     ],
     "uid": [
       52001
+    ],
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      730,
+      592,
+      740,
+      601
     ]
   }
 }

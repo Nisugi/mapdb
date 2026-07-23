@@ -1,4 +1,5 @@
 {
+  "checksum": "c50e40d7080c69b7cb098f967323d096",
   "room": {
     "id": 30583,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": false,
     "wayto": {
-      "30581": ";e fput 'lie' until checkprone; result = dothistimeout 'search',3, /curtain/ until result;waitrt?;fput 'stand' until standing?;waitrt?;fput 'go curtain'"
+      "30581": "/rooms/30583/wayto/stringproc-30581.rb"
     },
     "timeto": {
       "30581": 12

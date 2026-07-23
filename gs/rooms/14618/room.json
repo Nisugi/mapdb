@@ -1,4 +1,5 @@
 {
+  "checksum": "57fbfd91c02dc758eb34f02db0e9e1ca",
   "room": {
     "id": 14618,
     "title": [
@@ -22,18 +23,11 @@
     "climate": "temperate",
     "terrain": "deciduous forest",
     "wayto": {
-      "8431": ";e move checkpaths[rand(checkpaths.length)] until checkpaths.include?('out')"
+      "8431": "/rooms/14618/wayto/stringproc-8431.rb"
     },
     "timeto": {
-      "8431": 1.0
+      "8431": 1
     },
-    "image": "wl-trollfang-1264234799.png",
-    "image_coords": [
-      1319,
-      950,
-      1329,
-      960
-    ],
     "tags": [
       "acantha leaf",
       "alder bark",
@@ -135,6 +129,13 @@
       271907,
       271908,
       271909
+    ],
+    "image": "wl-trollfang-1264234799.png",
+    "image_coords": [
+      1319,
+      950,
+      1329,
+      960
     ]
   }
 }

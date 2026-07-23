@@ -1,4 +1,5 @@
 {
+  "checksum": "4ebc2792c68106dae906054a08062dca",
   "room": {
     "id": 28773,
     "title": [
@@ -17,13 +18,6 @@
     "timeto": {
       "28772": 0.2
     },
-    "image": "imt-Vardar_Hollow_Map-51200827a.png",
-    "image_coords": [
-      333,
-      1340,
-      400,
-      1408
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -31,6 +25,13 @@
     ],
     "uid": [
       3213105
+    ],
+    "image": "imt-Vardar_Hollow_Map-51200827a.png",
+    "image_coords": [
+      333,
+      1340,
+      400,
+      1408
     ]
   }
 }

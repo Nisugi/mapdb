@@ -1,4 +1,5 @@
 {
+  "checksum": "ede50816ad9290a48dfed1c304176812",
   "room": {
     "id": 5825,
     "title": [
@@ -14,15 +15,15 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "5824": ";e table = \"Black Marble\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "5824": "/rooms/5825/wayto/stringproc-5824.rb",
       "5826": "go doors",
-      "6106": ";e table = \"White Marble\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "6106": "/rooms/5825/wayto/stringproc-6106.rb",
       "10303": "northeast",
       "10305": "southeast",
-      "24051": ";e table = \"Golden Marble\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "28266": ";e table = \"Green Marble\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "28267": ";e table = \"Blue Marble\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "28268": ";e table = \"Red Marble\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"
+      "24051": "/rooms/5825/wayto/stringproc-24051.rb",
+      "28266": "/rooms/5825/wayto/stringproc-28266.rb",
+      "28267": "/rooms/5825/wayto/stringproc-28267.rb",
+      "28268": "/rooms/5825/wayto/stringproc-28268.rb"
     },
     "timeto": {
       "5824": 0.2,

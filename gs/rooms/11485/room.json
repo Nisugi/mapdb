@@ -1,4 +1,5 @@
 {
+  "checksum": "8a660528e7c89428401f2a5bc3ee9070",
   "room": {
     "id": 11485,
     "title": [
@@ -14,7 +15,7 @@
     "climate": "temperate",
     "terrain": "barren scrub",
     "wayto": {
-      "11442": ";e empty_hands\nmove 'climb pathway'",
+      "11442": "/rooms/11485/wayto/stringproc-11442.rb",
       "11486": "northeast",
       "11487": "northwest"
     },
@@ -23,13 +24,6 @@
       "11486": 0.2,
       "11487": 0.2
     },
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      675,
-      1058,
-      685,
-      1068
-    ],
     "tags": [
       "blueberries",
       "branch of acacia",
@@ -72,6 +66,13 @@
     ],
     "uid": [
       305055
+    ],
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      675,
+      1058,
+      685,
+      1068
     ]
   }
 }

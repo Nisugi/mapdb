@@ -1,4 +1,5 @@
 {
+  "checksum": "7c68ac5069502ed3353e67e4d98e8194",
   "room": {
     "id": 20713,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "20712": "go doorway",
       "20714": "go arch",
-      "30713": ";e true"
+      "30713": "/rooms/20713/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "20712": 0.2,
       "20714": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/20713/timeto/stringproc-30713.rb"
     },
-    "image": "premium_halls-1489980086.png",
-    "image_coords": [
-      617,
-      889,
-      739,
-      939
-    ],
     "tags": [
       "meta:premium",
       "premium supernode",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       4002604
+    ],
+    "image": "premium_halls-1489980086.png",
+    "image_coords": [
+      617,
+      889,
+      739,
+      939
     ]
   }
 }

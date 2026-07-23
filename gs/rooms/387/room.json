@@ -1,4 +1,5 @@
 {
+  "checksum": "719f04c1811757b3cfeb7e01162f85e1",
   "room": {
     "id": 387,
     "title": [
@@ -23,7 +24,7 @@
       "7972": "go mahogany door",
       "19275": "south",
       "21367": "north",
-      "30708": ";e true"
+      "30708": "/rooms/387/wayto/stringproc-30708.rb"
     },
     "timeto": {
       "229": 0.2,
@@ -34,15 +35,8 @@
       "7972": 0.2,
       "19275": 0.2,
       "21367": 0.2,
-      "30708": ";e Map[7].timeto['30714'].call;"
+      "30708": "/rooms/387/timeto/stringproc-30708.rb"
     },
-    "image": "wl-moot_hall-1486755929.png",
-    "image_coords": [
-      533,
-      1120,
-      674,
-      1179
-    ],
     "tags": [
       "meta:mapcategory:Wehnimer's Landing",
       "meta:mapname:Wehnimer's Landing - Moot Hall",
@@ -53,9 +47,16 @@
       "urchin guide moothall",
       "urchin-access"
     ],
-    "check_location": false,
     "uid": [
       2021
-    ]
+    ],
+    "image": "wl-moot_hall-1486755929.png",
+    "image_coords": [
+      533,
+      1120,
+      674,
+      1179
+    ],
+    "check_location": false
   }
 }

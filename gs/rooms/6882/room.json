@@ -1,4 +1,5 @@
 {
+  "checksum": "b2ed4762fe8bbc336770661fcbe0979e",
   "room": {
     "id": 6882,
     "title": [
@@ -13,18 +14,11 @@
     ],
     "location": "the Abandoned Inn",
     "wayto": {
-      "6880": ";e fput 'open trapdoor'\nmove 'go trapdoor'"
+      "6880": "/rooms/6882/wayto/stringproc-6880.rb"
     },
     "timeto": {
       "6880": 0.2
     },
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      914,
-      1164,
-      924,
-      1174
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables",
@@ -32,6 +26,13 @@
     ],
     "uid": [
       21129
+    ],
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      914,
+      1164,
+      924,
+      1174
     ]
   }
 }

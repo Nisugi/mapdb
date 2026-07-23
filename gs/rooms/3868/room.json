@@ -1,4 +1,5 @@
 {
+  "checksum": "cac7761ecef0cb821c6e6de9a9c87cf1",
   "room": {
     "id": 3868,
     "title": [
@@ -17,20 +18,13 @@
     "wayto": {
       "3655": "go arch",
       "3869": "north",
-      "30718": ";e true"
+      "30718": "/rooms/3868/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "3655": 0.2,
       "3869": 0.2,
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "30718": "/rooms/3868/timeto/stringproc-30718.rb"
     },
-    "image": "ifw-isle_of_four_winds-1310232949.png",
-    "image_coords": [
-      3342,
-      1794,
-      3355,
-      1803
-    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -58,6 +52,13 @@
     ],
     "uid": [
       739401
+    ],
+    "image": "ifw-isle_of_four_winds-1310232949.png",
+    "image_coords": [
+      3342,
+      1794,
+      3355,
+      1803
     ]
   }
 }

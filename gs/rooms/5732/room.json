@@ -1,4 +1,5 @@
 {
+  "checksum": "cdcefc482b2afa685141a068cd3eefa7",
   "room": {
     "id": 5732,
     "title": [
@@ -19,22 +20,15 @@
       "5733": "northwest",
       "5734": "southwest",
       "11799": "go shop",
-      "30710": ";e true"
+      "30710": "/rooms/5732/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "5731": 0.2,
       "5733": 0.2,
       "5734": 0.2,
       "11799": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/5732/timeto/stringproc-30710.rb"
     },
-    "image": "vo-caravansary-1264234799.png",
-    "image_coords": [
-      813,
-      753,
-      823,
-      763
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:mapcategory:Vornavis",
@@ -47,6 +41,13 @@
     ],
     "uid": [
       4744012
+    ],
+    "image": "vo-caravansary-1264234799.png",
+    "image_coords": [
+      813,
+      753,
+      823,
+      763
     ]
   }
 }

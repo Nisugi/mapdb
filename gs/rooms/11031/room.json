@@ -1,4 +1,5 @@
 {
+  "checksum": "6b94f72083a1d7adb45df5184907b868",
   "room": {
     "id": 11031,
     "title": [
@@ -18,21 +19,14 @@
       "11030": "north",
       "16123": "go ivy-covered gates",
       "16166": "go small cottage",
-      "30711": ";e true"
+      "30711": "/rooms/11031/wayto/stringproc-30711.rb"
     },
     "timeto": {
       "11030": 0.2,
-      "16123": ";e ((!defined?(Stats.prof) or Stats.prof == 'Wizard') ? 0.2 : nil);",
+      "16123": "/rooms/11031/timeto/stringproc-16123.rb",
       "16166": 0.2,
-      "30711": ";e Map[7].timeto['30714'].call;"
+      "30711": "/rooms/11031/timeto/stringproc-30711.rb"
     },
-    "image": "rr-wizard_guild.png",
-    "image_coords": [
-      280,
-      523,
-      340,
-      582
-    ],
     "tags": [
       "alligator lily",
       "angelica root",
@@ -157,6 +151,13 @@
     ],
     "uid": [
       683001
+    ],
+    "image": "rr-wizard_guild.png",
+    "image_coords": [
+      280,
+      523,
+      340,
+      582
     ]
   }
 }

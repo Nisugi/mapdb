@@ -1,4 +1,5 @@
 {
+  "checksum": "dc09d6666cbfd1a179eb535837d25a96",
   "room": {
     "id": 7965,
     "title": [
@@ -14,18 +15,11 @@
     "climate": "moist",
     "terrain": "grassland",
     "wayto": {
-      "7964": ";e waitrt?; fput 'search'; move 'go fissure'"
+      "7964": "/rooms/7965/wayto/stringproc-7964.rb"
     },
     "timeto": {
       "7964": 0.4
     },
-    "image": "wl-trollfang-1264234799.png",
-    "image_coords": [
-      545,
-      506,
-      555,
-      516
-    ],
     "tags": [
       "acantha leaf",
       "blue trafel mushroom",
@@ -65,6 +59,13 @@
     ],
     "uid": [
       16050
+    ],
+    "image": "wl-trollfang-1264234799.png",
+    "image_coords": [
+      545,
+      506,
+      555,
+      516
     ]
   }
 }

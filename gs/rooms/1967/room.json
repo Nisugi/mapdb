@@ -1,4 +1,5 @@
 {
+  "checksum": "641b1651857de3844a5134109c741898",
   "room": {
     "id": 1967,
     "title": [
@@ -18,21 +19,14 @@
       "1963": "north",
       "1968": "go massive doors",
       "12545": "go shop",
-      "30715": ";e true"
+      "30715": "/rooms/1967/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "1963": 0.2,
-      "1968": ";e ((!defined?(Stats.prof) or Stats.prof == 'Wizard') ? 0.2 : nil);",
+      "1968": "/rooms/1967/timeto/stringproc-1968.rb",
       "12545": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "30715": "/rooms/1967/timeto/stringproc-30715.rb"
     },
-    "image": "ti-teras-1264234799.png",
-    "image_coords": [
-      1038,
-      1047,
-      1068,
-      1077
-    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -83,6 +77,13 @@
     ],
     "uid": [
       682001
+    ],
+    "image": "ti-teras-1264234799.png",
+    "image_coords": [
+      1038,
+      1047,
+      1068,
+      1077
     ]
   }
 }

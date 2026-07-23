@@ -1,4 +1,5 @@
 {
+  "checksum": "274e5b1ba3007c3ddb3bd66e0657c8f5",
   "room": {
     "id": 19007,
     "title": [
@@ -14,25 +15,25 @@
     "wayto": {
       "19006": "southwest",
       "19008": "climb ramp",
-      "19029": ";e loop { wait_until { Spell[704].affordable? }; result = cast(704, 'oil painting'); break unless result =~ /Spell Hindrance/ } "
+      "19029": "/rooms/19007/wayto/stringproc-19029.rb"
     },
     "timeto": {
       "19006": 0.2,
       "19008": 0.2,
       "19029": 5
     },
+    "tags": [
+      "sorcerer guild node"
+    ],
+    "uid": [
+      662005
+    ],
     "image": "ti-sorcerer_guild-1405076623.png",
     "image_coords": [
       498,
       373,
       533,
       409
-    ],
-    "tags": [
-      "sorcerer guild node"
-    ],
-    "uid": [
-      662005
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "645c347c218248b7bef87f7517e849b8",
   "room": {
     "id": 6303,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "none",
     "wayto": {
       "6302": "northeast",
-      "6304": ";e move 'climb roots'"
+      "6304": "/rooms/6303/wayto/stringproc-6304.rb"
     },
     "timeto": {
       "6302": 0.2,
       "6304": 0.2
     },
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      144,
-      203,
-      154,
-      213
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       372020
+    ],
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      144,
+      203,
+      154,
+      213
     ]
   }
 }

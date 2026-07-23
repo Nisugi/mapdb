@@ -1,4 +1,5 @@
 {
+  "checksum": "9ac667933b6ed4acfb9f6d077eab2d1d",
   "room": {
     "id": 20012,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "the foothills of Zeltoph",
     "wayto": {
-      "19657": ";e fput 'open door';while line = get;if ['You open a large stone door.', 'That is already open.'].include?(line);fput 'go door';break;elsif line == 'It appears to be locked.';empty_hand;fput 'turn lock';fput 'open door';fput 'go door';fill_hand;break;end;end;",
+      "19657": "/rooms/20012/wayto/stringproc-19657.rb",
       "20009": "west"
     },
     "timeto": {
       "19657": 0.2,
       "20009": 0.2
     },
-    "image": "wl-cavernhold-1295073688.png",
-    "image_coords": [
-      1109,
-      1070,
-      1119,
-      1080
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -34,6 +28,13 @@
     ],
     "uid": [
       11216
+    ],
+    "image": "wl-cavernhold-1295073688.png",
+    "image_coords": [
+      1109,
+      1070,
+      1119,
+      1080
     ]
   }
 }

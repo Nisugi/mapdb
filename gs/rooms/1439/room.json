@@ -1,4 +1,5 @@
 {
+  "checksum": "11ba2f5c1424616806897ea774849d3f",
   "room": {
     "id": 1439,
     "title": [
@@ -18,20 +19,13 @@
     "wayto": {
       "26": "out",
       "12978": "south",
-      "30714": ";e true"
+      "30714": "/rooms/1439/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "26": 0.2,
       "12978": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/1439/timeto/stringproc-30714.rb"
     },
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      1150,
-      770,
-      1171,
-      794
-    ],
     "tags": [
       "gemshop",
       "meta:forage-sensed",
@@ -42,6 +36,13 @@
     ],
     "uid": [
       13104175
+    ],
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      1150,
+      770,
+      1171,
+      794
     ]
   }
 }

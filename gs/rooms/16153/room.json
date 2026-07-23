@@ -1,4 +1,5 @@
 {
+  "checksum": "c72380bfb45afb7c78bc2cea093159f5",
   "room": {
     "id": 16153,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "Mist Harbor",
     "wayto": {
-      "12308": ";e fput 'go door'"
+      "12308": "/rooms/16153/wayto/stringproc-12308.rb"
     },
     "timeto": {
       "12308": 3.2

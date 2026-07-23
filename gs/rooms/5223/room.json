@@ -1,4 +1,5 @@
 {
+  "checksum": "3a0299faa4693d897759b26e9a35c517",
   "room": {
     "id": 5223,
     "title": [
@@ -23,13 +24,6 @@
       "5224": 0.2,
       "5225": 0.2
     },
-    "image": "vo-foggy_valley-1264234799.png",
-    "image_coords": [
-      360,
-      845,
-      370,
-      855
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -39,6 +33,13 @@
     ],
     "uid": [
       4202409
+    ],
+    "image": "vo-foggy_valley-1264234799.png",
+    "image_coords": [
+      360,
+      845,
+      370,
+      855
     ]
   }
 }

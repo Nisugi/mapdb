@@ -1,4 +1,5 @@
 {
+  "checksum": "3b09466728fd53c2db98566e3d66d542",
   "room": {
     "id": 2639,
     "title": [
@@ -13,19 +14,12 @@
     "location": "Koar's Shrine",
     "wayto": {
       "2637": "go bank",
-      "2640": ";e move 'swim down'; sleep 1; waitrt?"
+      "2640": "/rooms/2639/wayto/stringproc-2640.rb"
     },
     "timeto": {
       "2637": 0.2,
-      "2640": 5.0
+      "2640": 5
     },
-    "image": "imt-pinefar-1264234799.png",
-    "image_coords": [
-      38,
-      174,
-      46,
-      182
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:nomagic",
@@ -33,6 +27,13 @@
     ],
     "uid": [
       4562038
+    ],
+    "image": "imt-pinefar-1264234799.png",
+    "image_coords": [
+      38,
+      174,
+      46,
+      182
     ]
   }
 }

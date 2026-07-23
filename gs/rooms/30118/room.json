@@ -1,4 +1,5 @@
 {
+  "checksum": "0a4add11ecee42fe97eb9042ea2989d4",
   "room": {
     "id": 30118,
     "title": [
@@ -16,11 +17,11 @@
     "terrain": "none",
     "wayto": {
       "30117": "west",
-      "30711": ";e true"
+      "30711": "/rooms/30118/wayto/stringproc-30711.rb"
     },
     "timeto": {
       "30117": 0.2,
-      "30711": ";e Map[7].timeto['30714'].call;"
+      "30711": "/rooms/30118/timeto/stringproc-30711.rb"
     },
     "tags": [
       "mail",

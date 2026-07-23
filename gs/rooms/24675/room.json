@@ -1,4 +1,5 @@
 {
+  "checksum": "6f9c17f74671024e8f5015189c08fe42",
   "room": {
     "id": 24675,
     "title": [
@@ -14,24 +15,17 @@
     "climate": "cold, damp",
     "terrain": "deciduous forest",
     "wayto": {
-      "7892": ";e result = nil;until result =~ /Obvious paths: northwest/;fput \"stand\" until standing?;result = dothistimeout \"go fog\", 5, /You attempt to navigate your way through the fog, but get turned around and come right back out where you started!|Obvious paths: northwest/;if result =~ /You attempt to navigate your way through the fog, but get turned around and come right back out where you started!/;sleep 0.5;waitrt?;end;end;UserVars.mapdb_redforest_location = nil; $go2_restart=true",
-      "16744": ";e result = nil;until result =~ /Obvious paths: northeast, south/;fput \"stand\" until standing?;result = dothistimeout \"go fog\", 5, /You attempt to navigate your way through the fog, but get turned around and come right back out where you started!|Obvious paths: northeast, south/;if result =~ /You attempt to navigate your way through the fog, but get turned around and come right back out where you started!/;sleep 0.5;waitrt?;end;end;UserVars.mapdb_redforest_location = nil; $go2_restart=true",
+      "7892": "/rooms/24675/wayto/stringproc-7892.rb",
+      "16744": "/rooms/24675/wayto/stringproc-16744.rb",
       "24676": "southeast",
       "24688": "northeast"
     },
     "timeto": {
-      "7892": ";e if (checkroom.to_s =~ /^\\[Red Forest/) and (UserVars.mapdb_redforest_location == 'WL'); 0.2; else; nil; end",
-      "16744": ";e if (checkroom.to_s =~ /^\\[Red Forest/) and (UserVars.mapdb_redforest_location == 'EN'); 0.2; else; nil; end",
+      "7892": "/rooms/24675/timeto/stringproc-7892.rb",
+      "16744": "/rooms/24675/timeto/stringproc-16744.rb",
       "24676": 0.2,
       "24688": 0.2
     },
-    "image": "red_forest-1260914757.png",
-    "image_coords": [
-      104,
-      143,
-      118,
-      156
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -87,6 +81,13 @@
     "uid": [
       480201,
       17006201
+    ],
+    "image": "red_forest-1260914757.png",
+    "image_coords": [
+      104,
+      143,
+      118,
+      156
     ]
   }
 }

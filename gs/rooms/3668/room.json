@@ -1,4 +1,5 @@
 {
+  "checksum": "8b61855da4d009a5c356e502ab6ec3ae",
   "room": {
     "id": 3668,
     "title": [
@@ -19,22 +20,15 @@
       "3649": "west",
       "3657": "south",
       "3669": "east",
-      "30718": ";e true"
+      "30718": "/rooms/3668/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "3637": 0.8,
       "3649": 0.8,
       "3657": 0.8,
       "3669": 0.8,
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "30718": "/rooms/3668/timeto/stringproc-30718.rb"
     },
-    "image": "ifw-isle_of_four_winds-1310232949.png",
-    "image_coords": [
-      2750,
-      1301,
-      2830,
-      1382
-    ],
     "tags": [
       "commons",
       "meta:forage-sensed",
@@ -53,6 +47,13 @@
     ],
     "uid": [
       3201029
+    ],
+    "image": "ifw-isle_of_four_winds-1310232949.png",
+    "image_coords": [
+      2750,
+      1301,
+      2830,
+      1382
     ]
   }
 }

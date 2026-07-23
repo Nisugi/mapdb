@@ -1,4 +1,5 @@
 {
+  "checksum": "ecd656844b45dd84428e9f3f9316ce5a",
   "room": {
     "id": 13515,
     "title": [
@@ -15,11 +16,11 @@
     "terrain": "none",
     "wayto": {
       "1468": "out",
-      "30710": ";e true"
+      "30710": "/rooms/13515/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "1468": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/13515/timeto/stringproc-30710.rb"
     },
     "tags": [
       "jail",

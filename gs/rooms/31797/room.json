@@ -1,4 +1,5 @@
 {
+  "checksum": "b0a47c98d508b267b8427794fbd4a870",
   "room": {
     "id": 31797,
     "title": [
@@ -13,7 +14,7 @@
     "location": "Naidem",
     "wayto": {
       "31748": "south",
-      "32187": ";e fput 'search';waitrt?;move ('go wooden panel')"
+      "32187": "/rooms/31797/wayto/stringproc-32187.rb"
     },
     "timeto": {
       "31748": 0.2,

@@ -1,4 +1,5 @@
 {
+  "checksum": "9ed1e856fa5cd20d11309b568d1e168c",
   "room": {
     "id": 16404,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Mist Harbor",
     "wayto": {
       "16403": "go door",
-      "30718": ";e true"
+      "30718": "/rooms/16404/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "16403": 0.2,
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "30718": "/rooms/16404/timeto/stringproc-30718.rb"
     },
     "tags": [
       "lighthouse",

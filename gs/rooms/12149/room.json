@@ -1,4 +1,5 @@
 {
+  "checksum": "438506b2f138832b4644c9341126dcb8",
   "room": {
     "id": 12149,
     "title": [
@@ -13,26 +14,19 @@
     ],
     "location": "the Rift",
     "wayto": {
-      "2605": ";e start_room = [ 12135, 12118, 12102, 2634, 12134, 12116, 12112, 12089, nil, 12115, 12144, 12111, 12114, 12088, 12109, 12110, 12150, 12149, 12148, 12143, 12147, nil, 12142, 12137, 12136, nil, nil, nil, 12120, 12131, 12132, 12113, 2643, 12155, 12154, nil, 12121, 12129, 12130, 12158, 12105, 12107, 12108, nil, nil, nil, nil, nil, nil, 2619, 12127, 12128, 12166, 12104, 12163, 12164, nil, 12117, nil, 12123, 12124, 12101, nil, 12126, 12167, nil, 12168, 12169, 12100, nil, 12171, 12172 ]; dirs = [ 'northwest', 'east', 'southeast', 'southwest', 'northwest', 'south', 'southeast', 'northwest', 'south', 'south', 'southeast', 'southwest', 'southeast', 'west', 'west', 'west', 'west', 'west', 'northwest', 'northwest', 'southeast', 'northeast', 'northwest', 'northeast', 'northwest', 'northeast', 'northwest', 'east', 'southeast', 'southwest', 'southeast', 'southwest', 'southeast', 'southwest', 'southeast', 'east', 'southeast', 'southwest', 'southeast', 'southwest', 'southeast', 'southwest', 'northeast', 'northwest', 'northeast', 'northwest', 'northeast', 'northwest', 'east', 'southeast', 'southwest', 'southeast', 'southwest', 'southeast', 'southeast', 'northwest', 'southwest', 'southeast', 'east', 'southeast', 'north', 'south', 'southwest', 'east', 'west', 'southeast', 'southwest', 'east', 'west', 'southeast', 'southwest', 'northeast', 'northwest', 'northeast', 'northwest', 'northeast', 'northwest', 'west', 'west', 'west', 'west', 'west', 'southeast' ]; if index = start_room.index(Room.current.id); until checkloot.include?('staircase'); move dirs[index]; index += 1; index = 0 if index >= dirs.length; end; move 'climb staircase'; waitrt?; fput 'stand'; else; echo 'error: mini-script expected a different room'; end; $go2_restart = true",
-      "2635": ";e start_room = [ 12135, 12118, 12102, 2634, 12134, 12116, 12112, 12089, nil, 12115, 12144, 12111, 12114, 12088, 12109, 12110, 12150, 12149, 12148, 12143, 12147, nil, 12142, 12137, 12136, nil, nil, nil, 12120, 12131, 12132, 12113, 2643, 12155, 12154, nil, 12121, 12129, 12130, 12158, 12105, 12107, 12108, nil, nil, nil, nil, nil, nil, 2619, 12127, 12128, 12166, 12104, 12163, 12164, nil, 12117, nil, 12123, 12124, 12101, nil, 12126, 12167, nil, 12168, 12169, 12100, nil, 12171, 12172 ]; dirs = [ 'northwest', 'east', 'southeast', 'southwest', 'northwest', 'south', 'southeast', 'northwest', 'south', 'south', 'southeast', 'southwest', 'southeast', 'west', 'west', 'west', 'west', 'west', 'northwest', 'northwest', 'southeast', 'northeast', 'northwest', 'northeast', 'northwest', 'northeast', 'northwest', 'east', 'southeast', 'southwest', 'southeast', 'southwest', 'southeast', 'southwest', 'southeast', 'east', 'southeast', 'southwest', 'southeast', 'southwest', 'southeast', 'southwest', 'northeast', 'northwest', 'northeast', 'northwest', 'northeast', 'northwest', 'east', 'southeast', 'southwest', 'southeast', 'southwest', 'southeast', 'southeast', 'northwest', 'southwest', 'southeast', 'east', 'southeast', 'north', 'south', 'southwest', 'east', 'west', 'southeast', 'southwest', 'east', 'west', 'southeast', 'southwest', 'northeast', 'northwest', 'northeast', 'northwest', 'northeast', 'northwest', 'west', 'west', 'west', 'west', 'west', 'southeast' ]; if index = start_room.index(Room.current.id); until checkloot.include?('door') or checkloot.include?('mirror'); move dirs[index]; index += 1; index = 0 if index >= dirs.length; end; if checkloot.include?('door'); move 'go door'; elsif checkloot.include?('mirror'); move 'go mirror'; end;; else; echo 'error: mini-script expected a different room'; end; $go2_restart = true",
-      "12093": ";e start_room = [ 12135, 12118, 12102, 2634, 12134, 12116, 12112, 12089, nil, 12115, 12144, 12111, 12114, 12088, 12109, 12110, 12150, 12149, 12148, 12143, 12147, nil, 12142, 12137, 12136, nil, nil, nil, 12120, 12131, 12132, 12113, 2643, 12155, 12154, nil, 12121, 12129, 12130, 12158, 12105, 12107, 12108, nil, nil, nil, nil, nil, nil, 2619, 12127, 12128, 12166, 12104, 12163, 12164, nil, 12117, nil, 12123, 12124, 12101, nil, 12126, 12167, nil, 12168, 12169, 12100, nil, 12171, 12172 ]; dirs = [ 'northwest', 'east', 'southeast', 'southwest', 'northwest', 'south', 'southeast', 'northwest', 'south', 'south', 'southeast', 'southwest', 'southeast', 'west', 'west', 'west', 'west', 'west', 'northwest', 'northwest', 'southeast', 'northeast', 'northwest', 'northeast', 'northwest', 'northeast', 'northwest', 'east', 'southeast', 'southwest', 'southeast', 'southwest', 'southeast', 'southwest', 'southeast', 'east', 'southeast', 'southwest', 'southeast', 'southwest', 'southeast', 'southwest', 'northeast', 'northwest', 'northeast', 'northwest', 'northeast', 'northwest', 'east', 'southeast', 'southwest', 'southeast', 'southwest', 'southeast', 'southeast', 'northwest', 'southwest', 'southeast', 'east', 'southeast', 'north', 'south', 'southwest', 'east', 'west', 'southeast', 'southwest', 'east', 'west', 'southeast', 'southwest', 'northeast', 'northwest', 'northeast', 'northwest', 'northeast', 'northwest', 'west', 'west', 'west', 'west', 'west', 'southeast' ]; if index = start_room.index(Room.current.id); until checkloot.include?('thread'); move dirs[index]; index += 1; index = 0 if index >= dirs.length; end; move 'climb thread'; waitrt?; fput 'stand'; else; echo 'error: mini-script expected a different room'; end; $go2_restart = true",
+      "2605": "/rooms/12149/wayto/stringproc-2605.rb",
+      "2635": "/rooms/12149/wayto/stringproc-2635.rb",
+      "12093": "/rooms/12149/wayto/stringproc-12093.rb",
       "12148": "west",
       "12150": "east"
     },
     "timeto": {
-      "2605": 16.0,
-      "2635": 16.0,
+      "2605": 16,
+      "2635": 16,
       "12093": 21.6,
       "12148": 0.2,
       "12150": 0.2
     },
-    "image": "imt-rift-1554575848.png",
-    "image_coords": [
-      949,
-      779,
-      959,
-      789
-    ],
     "tags": [
       "discolored fleshbinder bud",
       "oozing fleshsore bulb",
@@ -41,6 +35,13 @@
     ],
     "uid": [
       4567053
+    ],
+    "image": "imt-rift-1554575848.png",
+    "image_coords": [
+      949,
+      779,
+      959,
+      789
     ]
   }
 }

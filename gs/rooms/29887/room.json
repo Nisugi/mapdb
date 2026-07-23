@@ -1,4 +1,5 @@
 {
+  "checksum": "e64039e0e2c850b2240c9571047aab0a",
   "room": {
     "id": 29887,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "29886": "northwest",
       "29888": "northeast",
-      "29898": ";e fput 'search';move('go crystalline glade')"
+      "29898": "/rooms/29887/wayto/stringproc-29898.rb"
     },
     "timeto": {
       "29886": 0.2,
       "29888": 0.2,
       "29898": 0.2
     },
-    "image": "imt-Hinterwilds-1651886165.jpg",
-    "image_coords": [
-      842,
-      1187,
-      857,
-      1203
-    ],
     "tags": [
       "angelica root",
       "black acorn",
@@ -69,6 +63,13 @@
     ],
     "uid": [
       7503107
+    ],
+    "image": "imt-Hinterwilds-1651886165.jpg",
+    "image_coords": [
+      842,
+      1187,
+      857,
+      1203
     ]
   }
 }

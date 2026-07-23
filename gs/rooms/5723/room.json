@@ -1,4 +1,5 @@
 {
+  "checksum": "79157c8c3590cba9796f4f9cd0873c76",
   "room": {
     "id": 5723,
     "title": [
@@ -15,11 +16,11 @@
     "terrain": "none",
     "wayto": {
       "5722": "go door",
-      "30710": ";e true"
+      "30710": "/rooms/5723/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "5722": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/5723/timeto/stringproc-30710.rb"
     },
     "tags": [
       "meta:forage-sensed",

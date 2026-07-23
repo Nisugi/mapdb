@@ -1,4 +1,5 @@
 {
+  "checksum": "e575c6a44e01d2eaff5814fd7c443378",
   "room": {
     "id": 34400,
     "title": [
@@ -19,11 +20,11 @@
       "32947": "urchin guide osatask"
     },
     "timeto": {
-      "32928": ";e Map[30714].timeto['7'].call;",
-      "32930": ";e Map[30714].timeto['7'].call;",
-      "32936": ";e Map[30714].timeto['7'].call;",
-      "32941": ";e Map[30714].timeto['7'].call;",
-      "32947": ";e Map[30714].timeto['7'].call;"
+      "32928": "/rooms/34400/timeto/stringproc-32928.rb",
+      "32930": "/rooms/34400/timeto/stringproc-32930.rb",
+      "32936": "/rooms/34400/timeto/stringproc-32936.rb",
+      "32941": "/rooms/34400/timeto/stringproc-32941.rb",
+      "32947": "/rooms/34400/timeto/stringproc-32947.rb"
     },
     "tags": [
       "meta:map:virtual room",

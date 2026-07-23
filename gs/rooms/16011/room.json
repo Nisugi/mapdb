@@ -1,4 +1,5 @@
 {
+  "checksum": "d9fa19a989635a6ac91c2f47c5ea70bb",
   "room": {
     "id": 16011,
     "title": [
@@ -185,14 +186,14 @@
     ],
     "location": "the Karazja Jungle",
     "wayto": {
-      "11022": ";e walk until GameObj.room_desc.find { |obj| obj.noun == 'ferns' }; move 'go ferns'",
-      "16256": ";e walk until checkloot.include?('path'); move 'go path'",
-      "16270": ";e walk until checkloot.include?('trail'); move 'go trail'"
+      "11022": "/rooms/16011/wayto/stringproc-11022.rb",
+      "16256": "/rooms/16011/wayto/stringproc-16256.rb",
+      "16270": "/rooms/16011/wayto/stringproc-16270.rb"
     },
     "timeto": {
-      "11022": 10.0,
-      "16256": 10.0,
-      "16270": 10.0
+      "11022": 10,
+      "16256": 10,
+      "16270": 10
     },
     "tags": [
       "acantha leaf",

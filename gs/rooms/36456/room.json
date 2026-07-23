@@ -1,4 +1,5 @@
 {
+  "checksum": "01e129957588d1eaec759aeda3e8a90a",
   "room": {
     "id": 36456,
     "title": [
@@ -21,13 +22,6 @@
       "36455": 0.2,
       "36460": 0.2
     },
-    "image": "quest-black_swan_castle.png",
-    "image_coords": [
-      40,
-      840,
-      80,
-      880
-    ],
     "tags": [
       "fennel bulb",
       "golden buttercup",
@@ -41,6 +35,13 @@
       "wild carrot",
       "wild pansy blossom",
       "wild strawberry"
+    ],
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      40,
+      840,
+      80,
+      880
     ]
   }
 }

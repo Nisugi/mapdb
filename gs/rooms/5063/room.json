@@ -1,4 +1,5 @@
 {
+  "checksum": "6a37f26655420beaa0566feddbd90876",
   "room": {
     "id": 5063,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "5062": "east",
       "5064": "west",
-      "9033": ";e empty_hands; move 'climb footpath'; fill_hands"
+      "9033": "/rooms/5063/wayto/stringproc-9033.rb"
     },
     "timeto": {
       "5062": 0.2,
       "5064": 0.2,
       "9033": 0.2
     },
-    "image": "vo-caravansary-1264234799.png",
-    "image_coords": [
-      616,
-      334,
-      626,
-      344
-    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -142,6 +136,13 @@
     ],
     "uid": [
       4212109
+    ],
+    "image": "vo-caravansary-1264234799.png",
+    "image_coords": [
+      616,
+      334,
+      626,
+      344
     ]
   }
 }

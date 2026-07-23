@@ -1,4 +1,5 @@
 {
+  "checksum": "9fed768031e40406fe7e1b0594299d89",
   "room": {
     "id": 18656,
     "title": [
@@ -13,7 +14,7 @@
     "location": "Icemule Trace",
     "wayto": {
       "18601": "out",
-      "18650": ";e move 'out'; move 'east'",
+      "18650": "/rooms/18656/wayto/stringproc-18650.rb",
       "18666": "west",
       "18667": "south"
     },
@@ -23,19 +24,19 @@
       "18666": 0.2,
       "18667": 0.2
     },
-    "image": "imt-cleric_guild-1275420218.png",
-    "image_coords": [
-      189,
-      198,
-      235,
-      244
-    ],
     "tags": [
       "cleric alchemy administrator",
       "cleric guild administrator"
     ],
     "uid": [
       670019
+    ],
+    "image": "imt-cleric_guild-1275420218.png",
+    "image_coords": [
+      189,
+      198,
+      235,
+      244
     ]
   }
 }

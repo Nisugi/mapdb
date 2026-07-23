@@ -1,4 +1,5 @@
 {
+  "checksum": "1fd3ffa4a2b00d24fec0e7175eae3daf",
   "room": {
     "id": 4109,
     "title": [
@@ -21,15 +22,8 @@
     "timeto": {
       "4108": 0.2,
       "4110": 0.2,
-      "18694": ";e (Script.running?('bigshot') or Script.running?('wander')) ? nil : 0.2"
+      "18694": "/rooms/4109/timeto/stringproc-18694.rb"
     },
-    "image": "wl-danjirland-1264234799.png",
-    "image_coords": [
-      375,
-      1140,
-      385,
-      1150
-    ],
     "tags": [
       "banana leaf",
       "blueberries",
@@ -76,6 +70,13 @@
     ],
     "uid": [
       14025
+    ],
+    "image": "wl-danjirland-1264234799.png",
+    "image_coords": [
+      375,
+      1140,
+      385,
+      1150
     ]
   }
 }

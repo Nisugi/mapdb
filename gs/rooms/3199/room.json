@@ -1,4 +1,5 @@
 {
+  "checksum": "71e2037cf71b87930cfc3f42dd7f4694",
   "room": {
     "id": 3199,
     "title": [
@@ -18,16 +19,9 @@
       "3200": "southeast"
     },
     "timeto": {
-      "3198": 10.0,
+      "3198": 10,
       "3200": 0.2
     },
-    "image": "imt-south_gate-1647231707.png",
-    "image_coords": [
-      172,
-      1132,
-      182,
-      1142
-    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -75,6 +69,13 @@
     ],
     "uid": [
       4128022
+    ],
+    "image": "imt-south_gate-1647231707.png",
+    "image_coords": [
+      172,
+      1132,
+      182,
+      1142
     ]
   }
 }

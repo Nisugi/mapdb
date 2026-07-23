@@ -1,4 +1,5 @@
 {
+  "checksum": "53cab411752ec785cffca3a765f11362",
   "room": {
     "id": 12813,
     "title": [
@@ -16,12 +17,12 @@
     "wayto": {
       "1453": "out",
       "12814": "climb stairway",
-      "30710": ";e true"
+      "30710": "/rooms/12813/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "1453": 0.2,
       "12814": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/12813/timeto/stringproc-30710.rb"
     },
     "tags": [
       "armor",

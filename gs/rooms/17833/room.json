@@ -1,4 +1,5 @@
 {
+  "checksum": "cdfdeb91b15838360a22db8eb79be47d",
   "room": {
     "id": 17833,
     "title": [
@@ -14,25 +15,25 @@
     "wayto": {
       "17832": "east",
       "17834": "go door",
-      "18347": ";e move 'go panel'"
+      "18347": "/rooms/17833/wayto/stringproc-18347.rb"
     },
     "timeto": {
       "17832": 0.2,
       "17834": 0.2,
       "18347": 0.2
     },
+    "tags": [
+      "rogue guild plant"
+    ],
+    "uid": [
+      267129
+    ],
     "image": "en-vaalor-rogue-guild.png",
     "image_coords": [
       388,
       193,
       427,
       232
-    ],
-    "tags": [
-      "rogue guild plant"
-    ],
-    "uid": [
-      267129
     ]
   }
 }

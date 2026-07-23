@@ -1,4 +1,5 @@
 {
+  "checksum": "b59567bc177cca14724408c9832da3d6",
   "room": {
     "id": 6634,
     "title": [
@@ -12,8 +13,8 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "6633": ";e move 'go door'; if checkpaths.include?('n'); move 'north'; move 'northeast'; move 'west'; end",
-      "6636": ";e move 'go door'; if checkpaths.include?('e'); move 'east'; move 'southeast'; move 'south'; end"
+      "6633": "/rooms/6634/wayto/stringproc-6633.rb",
+      "6636": "/rooms/6634/wayto/stringproc-6636.rb"
     },
     "timeto": {
       "6633": 0.8,

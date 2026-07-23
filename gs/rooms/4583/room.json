@@ -1,4 +1,5 @@
 {
+  "checksum": "7bf5c72e851c8afa67524ea1dff35b3b",
   "room": {
     "id": 4583,
     "title": [
@@ -13,7 +14,7 @@
     "location": "Solhaven",
     "wayto": {
       "1500": "climb wall",
-      "4584": ";e fput 'push gargoyl'; fput 'push letter i'; fput 'push letter w'; fput 'push letter n'; fput 'push letter b'; fput 'push letter t'; fput 'push letter c'; move 'go door'"
+      "4584": "/rooms/4583/wayto/stringproc-4584.rb"
     },
     "timeto": {
       "1500": 0.2,

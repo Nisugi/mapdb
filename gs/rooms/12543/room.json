@@ -1,4 +1,5 @@
 {
+  "checksum": "27b29d330c92d4416448bf09e4052f96",
   "room": {
     "id": 12543,
     "title": [
@@ -17,21 +18,14 @@
       "12388": "out",
       "12544": "east",
       "20025": "go temple",
-      "30715": ";e true"
+      "30715": "/rooms/12543/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "12388": 0.2,
       "12544": 0.2,
-      "20025": ";e ((!defined?(Stats.prof) or Stats.prof == 'Cleric') ? 0.2 : nil);",
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "20025": "/rooms/12543/timeto/stringproc-20025.rb",
+      "30715": "/rooms/12543/timeto/stringproc-30715.rb"
     },
-    "image": "ti-Cleric_Guild-1267238976.jpg",
-    "image_coords": [
-      422,
-      464,
-      454,
-      498
-    ],
     "tags": [
       "cleric guild",
       "clericguild",
@@ -46,6 +40,13 @@
     ],
     "uid": [
       672016
+    ],
+    "image": "ti-Cleric_Guild-1267238976.jpg",
+    "image_coords": [
+      422,
+      464,
+      454,
+      498
     ]
   }
 }

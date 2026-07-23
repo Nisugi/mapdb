@@ -1,4 +1,5 @@
 {
+  "checksum": "3b77a9646b7419535e0733a3078ee90e",
   "room": {
     "id": 32595,
     "title": [
@@ -14,12 +15,12 @@
     "climate": "temperate",
     "terrain": "grassland",
     "wayto": {
-      "30716": ";e true",
+      "30716": "/rooms/32595/wayto/stringproc-30716.rb",
       "30817": "west",
       "32596": "go cobblestone cottage"
     },
     "timeto": {
-      "30716": ";e Map[7].timeto['30714'].call;",
+      "30716": "/rooms/32595/timeto/stringproc-30716.rb",
       "30817": 0.2,
       "32596": 0.2
     },

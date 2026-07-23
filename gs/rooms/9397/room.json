@@ -1,4 +1,5 @@
 {
+  "checksum": "95367e6bda01daed6c06804ed1bd4f45",
   "room": {
     "id": 9397,
     "title": [
@@ -15,11 +16,11 @@
     "terrain": "none",
     "wayto": {
       "9396": "east",
-      "30710": ";e true"
+      "30710": "/rooms/9397/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "9396": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/9397/timeto/stringproc-30710.rb"
     },
     "tags": [
       "alchemy",

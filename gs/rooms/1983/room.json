@@ -1,4 +1,5 @@
 {
+  "checksum": "8162c9cd2885278421b1ea689167190f",
   "room": {
     "id": 1983,
     "title": [
@@ -13,15 +14,15 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "1982": "west",
-      "12603": ";e $mapdb_seeking_destination = 12603;Map[3600].wayto['3600'].call;",
-      "12622": ";e $mapdb_seeking_destination = 12622;Map[3600].wayto['3600'].call;",
-      "12701": ";e $mapdb_seeking_destination = 12701;Map[3600].wayto['3600'].call;"
+      "12603": "/rooms/1983/wayto/stringproc-12603.rb",
+      "12622": "/rooms/1983/wayto/stringproc-12622.rb",
+      "12701": "/rooms/1983/wayto/stringproc-12701.rb"
     },
     "timeto": {
       "1982": 0.2,
-      "12603": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 2.8; else; nil; end",
-      "12622": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 2.8; else; nil; end",
-      "12701": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 2.8; else; nil; end"
+      "12603": "/rooms/1983/timeto/stringproc-12603.rb",
+      "12622": "/rooms/1983/timeto/stringproc-12622.rb",
+      "12701": "/rooms/1983/timeto/stringproc-12701.rb"
     },
     "tags": [
       "meta:seeking",

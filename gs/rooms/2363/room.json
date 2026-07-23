@@ -1,4 +1,5 @@
 {
+  "checksum": "1ae0c8fe6a885687bf890855ba838145",
   "room": {
     "id": 2363,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "2362": "south",
       "18958": "go gate",
-      "30709": ";e true"
+      "30709": "/rooms/2363/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "2362": 0.2,
-      "18958": ";e Stats.prof == 'Sorcerer' ? 0.2 : nil",
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "18958": "/rooms/2363/timeto/stringproc-18958.rb",
+      "30709": "/rooms/2363/timeto/stringproc-30709.rb"
     },
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      316,
-      289,
-      352,
-      325
-    ],
     "tags": [
       "calmintha flower",
       "meta:forage-sensed",
@@ -41,6 +35,13 @@
     ],
     "uid": [
       660001
+    ],
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      316,
+      289,
+      352,
+      325
     ]
   }
 }

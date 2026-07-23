@@ -1,4 +1,5 @@
 {
+  "checksum": "e2e00e56c0fb91a4a7e661bb8a643883",
   "room": {
     "id": 32867,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Icemule Trace",
     "wayto": {
       "2451": "out",
-      "30709": ";e true"
+      "30709": "/rooms/32867/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "2451": 0.2,
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "30709": "/rooms/32867/timeto/stringproc-30709.rb"
     },
     "tags": [
       "grocer",

@@ -1,4 +1,5 @@
 {
+  "checksum": "892c97f5866033b76f4b8bb2f4a41c35",
   "room": {
     "id": 4141,
     "title": [
@@ -14,26 +15,19 @@
     "climate": "cold, damp",
     "terrain": "barren scrub",
     "wayto": {
-      "4140": ";e spell_list = [407, 1604, 304, 1207];until dothistimeout('go gate', 5, /^The bronze gate appears to be closed\\.$|^Obvious (?:paths|exits)\\: none$/) =~ /^Obvious/ ;  if spell_num = spell_list.find { |num| Spell[num].known? };    spell = Spell[spell_num];    loop {;      unless spell.affordable?;        echo 'waiting for mana...';        wait_until { spell.affordable? };      end;      break unless spell.cast('gate') =~ /^\\[Spell Hindrance/;    };  elsif (Stats.prof == 'Warrior') and (Stats.level >= 15);    empty_hands;    fput 'batter gate';    sleep 0.5;    waitrt?;    fill_hands;  else;    empty_hands;    dothistimeout('push bronze gate', 16, /^(?:With a shocking lack of resistance, t|T)he (?:huge )?(?:bronze )?gate .* open|^The ancient hinges of the gate creak loudly as they give way|^Summoning the power .*? gate opens|the gate slowly opens wide enough to allow passage|The bronze gate pops open|^It's opened wide enough to slip through now\\.  That thick chain won't let it open any farther\\.$|just (came|went) through a massive bronze gate\\.$/);    fill_hands;  end;end",
+      "4140": "/rooms/4141/wayto/stringproc-4140.rb",
       "4142": "go crypt",
       "7163": "northeast",
       "7167": "northwest",
       "28746": "up"
     },
     "timeto": {
-      "4140": ";e if [407, 1604, 304, 1207].any? { |num| Spell[num].known? }; 0.6; elsif (Stats.prof == 'Warrior') and (Stats.level >= 15); 5.2; else 30.0; end",
+      "4140": "/rooms/4141/timeto/stringproc-4140.rb",
       "4142": 0.2,
       "7163": 0.2,
       "7167": 0.2,
       "28746": 0.2
     },
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      227,
-      897,
-      237,
-      907
-    ],
     "tags": [
       "blue whortleberry",
       "blueberries",
@@ -57,6 +51,13 @@
     ],
     "uid": [
       18003
+    ],
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      227,
+      897,
+      237,
+      907
     ]
   }
 }

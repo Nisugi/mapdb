@@ -1,4 +1,5 @@
 {
+  "checksum": "effe1e5288db65066833e1b1d67219cc",
   "room": {
     "id": 3370,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "2426": "out",
       "3371": "go booth",
-      "30709": ";e true"
+      "30709": "/rooms/3370/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "2426": 0.2,
       "3371": 0.2,
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "30709": "/rooms/3370/timeto/stringproc-30709.rb"
     },
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      671,
-      787,
-      707,
-      823
-    ],
     "tags": [
       "bank",
       "meta:forage-sensed",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       4043301
+    ],
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      671,
+      787,
+      707,
+      823
     ]
   }
 }

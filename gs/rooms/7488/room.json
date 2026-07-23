@@ -1,4 +1,5 @@
 {
+  "checksum": "6cbd6967dce77d95e7323ca1ebf5f987",
   "room": {
     "id": 7488,
     "title": [
@@ -13,21 +14,21 @@
     "location": "the Broken Lands",
     "wayto": {
       "7489": "go tunnel",
-      "24571": ";e waitrt?; 8.times { if standing?; break; else; fput 'stand'; sleep 0.2; waitrt?; end }; move 'down'; sleep 0.2; waitrt?; 8.times { if standing?; break; else; fput 'stand'; sleep 0.2; waitrt?; end }; waitrt?"
+      "24571": "/rooms/7488/wayto/stringproc-24571.rb"
     },
     "timeto": {
       "7489": 0.2,
-      "24571": ";e if Spell['Haste'].active?; (15 * [((80 - ([Spells.majorelemental,Stats.level].min/5) - (Skills.elair/5)) / 100.0), 0.4].max).floor + 0.2; else; 15.2; end"
+      "24571": "/rooms/7488/timeto/stringproc-24571.rb"
     },
+    "uid": [
+      94036
+    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       1001,
       489,
       1012,
       498
-    ],
-    "uid": [
-      94036
     ]
   }
 }
