@@ -1,5 +1,5 @@
 {
-  "checksum": "edeb5beee787d03aa33b49a68cb6be13",
+  "checksum": "877c15dcc43281450a0261263de7ac5e",
   "room": {
     "id": 27865,
     "title": [
@@ -20,31 +20,31 @@
           "then": [
             {
               "do": "send",
-              "cmd": "remove ##{key.id}"
+              "cmd": "remove {item_id:cord-strung delicate brass key}"
             },
             {
               "do": "send",
-              "cmd": "unlock #{door}"
+              "cmd": "unlock stained door"
             },
             {
               "do": "send",
-              "cmd": "open #{door}"
+              "cmd": "open stained door"
             },
             {
               "do": "send",
-              "cmd": "go #{door}"
+              "cmd": "go stained door"
             },
             {
               "do": "send",
-              "cmd": "close #{door}"
+              "cmd": "close stained door"
             },
             {
               "do": "send",
-              "cmd": "lock #{door}"
+              "cmd": "lock stained door"
             },
             {
               "do": "send",
-              "cmd": "wear ##{key.id}"
+              "cmd": "wear {item_id:cord-strung delicate brass key}"
             }
           ]
         }
@@ -56,31 +56,31 @@
           "then": [
             {
               "do": "send",
-              "cmd": "remove ##{key.id}"
+              "cmd": "remove {item_id:cord-strung delicate brass key}"
             },
             {
               "do": "send",
-              "cmd": "unlock #{door}"
+              "cmd": "unlock sturdy door"
             },
             {
               "do": "send",
-              "cmd": "open #{door}"
+              "cmd": "open sturdy door"
             },
             {
               "do": "send",
-              "cmd": "go #{door}"
+              "cmd": "go sturdy door"
             },
             {
               "do": "send",
-              "cmd": "close #{door}"
+              "cmd": "close sturdy door"
             },
             {
               "do": "send",
-              "cmd": "lock #{door}"
+              "cmd": "lock sturdy door"
             },
             {
               "do": "send",
-              "cmd": "wear ##{key.id}"
+              "cmd": "wear {item_id:cord-strung delicate brass key}"
             }
           ]
         }
@@ -92,31 +92,31 @@
           "then": [
             {
               "do": "send",
-              "cmd": "remove ##{key.id}"
+              "cmd": "remove {item_id:cord-strung delicate brass key}"
             },
             {
               "do": "send",
-              "cmd": "unlock #{door}"
+              "cmd": "unlock heavy door"
             },
             {
               "do": "send",
-              "cmd": "open #{door}"
+              "cmd": "open heavy door"
             },
             {
               "do": "send",
-              "cmd": "go #{door}"
+              "cmd": "go heavy door"
             },
             {
               "do": "send",
-              "cmd": "close #{door}"
+              "cmd": "close heavy door"
             },
             {
               "do": "send",
-              "cmd": "lock #{door}"
+              "cmd": "lock heavy door"
             },
             {
               "do": "send",
-              "cmd": "wear ##{key.id}"
+              "cmd": "wear {item_id:cord-strung delicate brass key}"
             }
           ]
         }

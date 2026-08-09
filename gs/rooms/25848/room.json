@@ -1,5 +1,5 @@
 {
-  "checksum": "a0db3116b949d64b0543061ca59282ac",
+  "checksum": "763703a8ed5b877ff73d355b276c3299",
   "room": {
     "id": 25848,
     "title": [
@@ -22,7 +22,7 @@
           "steps": [
             {
               "do": "await",
-              "cmd": "pedal #{direction}",
+              "cmd": "pedal east",
               "for": "pedal",
               "timeout": 2
             }
@@ -36,7 +36,7 @@
           "steps": [
             {
               "do": "await",
-              "cmd": "pedal #{direction}",
+              "cmd": "pedal northwest",
               "for": "pedal",
               "timeout": 2
             }
@@ -50,7 +50,7 @@
           "steps": [
             {
               "do": "await",
-              "cmd": "pedal #{direction}",
+              "cmd": "pedal southwest",
               "for": "pedal",
               "timeout": 2
             }
@@ -64,7 +64,7 @@
           "steps": [
             {
               "do": "await",
-              "cmd": "pedal #{direction}",
+              "cmd": "pedal south",
               "for": "pedal",
               "timeout": 2
             }

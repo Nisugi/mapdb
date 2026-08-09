@@ -1,5 +1,5 @@
 {
-  "checksum": "f28a7b3dd2ef96c6ba85f690d424b998",
+  "checksum": "48c12d21b84b522c84a7bb4b65e8fee5",
   "room": {
     "id": 27866,
     "title": [
@@ -20,31 +20,31 @@
           "then": [
             {
               "do": "send",
-              "cmd": "remove ##{key.id}"
+              "cmd": "remove {item_id:cord-strung delicate brass key}"
             },
             {
               "do": "send",
-              "cmd": "unlock #{door}"
+              "cmd": "unlock sturdy door"
             },
             {
               "do": "send",
-              "cmd": "open #{door}"
+              "cmd": "open sturdy door"
             },
             {
               "do": "send",
-              "cmd": "go #{door}"
+              "cmd": "go sturdy door"
             },
             {
               "do": "send",
-              "cmd": "close #{door}"
+              "cmd": "close sturdy door"
             },
             {
               "do": "send",
-              "cmd": "lock #{door}"
+              "cmd": "lock sturdy door"
             },
             {
               "do": "send",
-              "cmd": "wear ##{key.id}"
+              "cmd": "wear {item_id:cord-strung delicate brass key}"
             }
           ]
         }

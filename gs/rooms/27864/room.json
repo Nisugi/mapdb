@@ -1,5 +1,5 @@
 {
-  "checksum": "774591e7ee86f975e4cd6245fb340cb1",
+  "checksum": "68f1e3fc52c4efd4e4789b11c51bbe08",
   "room": {
     "id": 27864,
     "title": [
@@ -20,31 +20,31 @@
           "then": [
             {
               "do": "send",
-              "cmd": "remove ##{key.id}"
+              "cmd": "remove {item_id:cord-strung delicate brass key}"
             },
             {
               "do": "send",
-              "cmd": "unlock #{door}"
+              "cmd": "unlock oak door"
             },
             {
               "do": "send",
-              "cmd": "open #{door}"
+              "cmd": "open oak door"
             },
             {
               "do": "send",
-              "cmd": "go #{door}"
+              "cmd": "go oak door"
             },
             {
               "do": "send",
-              "cmd": "close #{door}"
+              "cmd": "close oak door"
             },
             {
               "do": "send",
-              "cmd": "lock #{door}"
+              "cmd": "lock oak door"
             },
             {
               "do": "send",
-              "cmd": "wear ##{key.id}"
+              "cmd": "wear {item_id:cord-strung delicate brass key}"
             }
           ]
         }
@@ -56,31 +56,31 @@
           "then": [
             {
               "do": "send",
-              "cmd": "remove ##{key.id}"
+              "cmd": "remove {item_id:cord-strung delicate brass key}"
             },
             {
               "do": "send",
-              "cmd": "unlock #{door}"
+              "cmd": "unlock stained door"
             },
             {
               "do": "send",
-              "cmd": "open #{door}"
+              "cmd": "open stained door"
             },
             {
               "do": "send",
-              "cmd": "go #{door}"
+              "cmd": "go stained door"
             },
             {
               "do": "send",
-              "cmd": "close #{door}"
+              "cmd": "close stained door"
             },
             {
               "do": "send",
-              "cmd": "lock #{door}"
+              "cmd": "lock stained door"
             },
             {
               "do": "send",
-              "cmd": "wear ##{key.id}"
+              "cmd": "wear {item_id:cord-strung delicate brass key}"
             }
           ]
         }

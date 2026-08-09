@@ -1,5 +1,5 @@
 {
-  "checksum": "4730d8d32b8545a27b2c824d8edb050f",
+  "checksum": "a0aa0eec643cf9f2b0b1941eda442bab",
   "room": {
     "id": 25810,
     "title": [
@@ -22,7 +22,7 @@
           "steps": [
             {
               "do": "await",
-              "cmd": "pedal #{direction}",
+              "cmd": "pedal northeast",
               "for": "pedal",
               "timeout": 2
             }
@@ -36,7 +36,7 @@
           "steps": [
             {
               "do": "await",
-              "cmd": "pedal #{direction}",
+              "cmd": "pedal southwest",
               "for": "pedal",
               "timeout": 2
             }

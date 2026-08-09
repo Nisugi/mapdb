@@ -1,5 +1,5 @@
 {
-  "checksum": "8fda297867029eae4883855f524354a7",
+  "checksum": "c324aad3570c89af56c017c76d4769c8",
   "room": {
     "id": 31493,
     "title": [
@@ -27,7 +27,6 @@
         },
         {
           "do": "await",
-          "cmd": "ask portmaster about travel 1",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
           "timeout": 600,
           "on_timeout": "fail"
@@ -44,7 +43,6 @@
         },
         {
           "do": "await",
-          "cmd": "ask portmaster about travel 4",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
           "timeout": 600,
           "on_timeout": "fail"
@@ -61,7 +59,6 @@
         },
         {
           "do": "await",
-          "cmd": "ask portmaster about travel 3",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
           "timeout": 600,
           "on_timeout": "fail"
@@ -78,7 +75,6 @@
         },
         {
           "do": "await",
-          "cmd": "ask portmaster about travel 2",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
           "timeout": 600,
           "on_timeout": "fail"
@@ -95,7 +91,6 @@
         },
         {
           "do": "await",
-          "cmd": "ask portmaster about travel 5",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
           "timeout": 600,
           "on_timeout": "fail"
@@ -114,7 +109,6 @@
         },
         {
           "do": "await",
-          "cmd": "ask portmaster about travel 7",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
           "timeout": 600,
           "on_timeout": "fail"
@@ -131,7 +125,6 @@
         },
         {
           "do": "await",
-          "cmd": "ask portmaster about travel 8",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
           "timeout": 600,
           "on_timeout": "fail"
