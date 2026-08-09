@@ -1,5 +1,5 @@
 {
-  "checksum": "651b9080c25d4729b86fda5c63d7f77a",
+  "checksum": "fe6976e8a7d86f5597056d927d9996b4",
   "room": {
     "id": 2261,
     "title": [
@@ -26,7 +26,7 @@
             {
               "do": "await",
               "for": "The\\ squat\\ ferryboat\\ arrives\\ at\\ the\\ dock\\ with\\ a\\ hollow\\ thunk\\.",
-              "timeout": 600,
+              "timeout": 1800,
               "on_timeout": "fail"
             },
             {

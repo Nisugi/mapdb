@@ -1,5 +1,5 @@
 {
-  "checksum": "d72a39d49dc5db5accf934d33c930e32",
+  "checksum": "f5730d99fb682c3180de9deb7b3ddd17",
   "room": {
     "id": 32372,
     "title": [
@@ -27,7 +27,7 @@
         {
           "do": "await",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -43,7 +43,7 @@
         {
           "do": "await",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -59,7 +59,7 @@
         {
           "do": "await",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -75,7 +75,7 @@
         {
           "do": "await",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -91,7 +91,7 @@
         {
           "do": "await",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -107,7 +107,7 @@
         {
           "do": "await",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -124,7 +124,7 @@
         {
           "do": "await",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -140,7 +140,7 @@
         {
           "do": "await",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]

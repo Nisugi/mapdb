@@ -1,5 +1,5 @@
 {
-  "checksum": "c324aad3570c89af56c017c76d4769c8",
+  "checksum": "544f44f7b2bb58ac614158e4dcc34e3e",
   "room": {
     "id": 31493,
     "title": [
@@ -28,7 +28,7 @@
         {
           "do": "await",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -44,7 +44,7 @@
         {
           "do": "await",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -60,7 +60,7 @@
         {
           "do": "await",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -76,7 +76,7 @@
         {
           "do": "await",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -92,7 +92,7 @@
         {
           "do": "await",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -110,7 +110,7 @@
         {
           "do": "await",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -126,7 +126,7 @@
         {
           "do": "await",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],

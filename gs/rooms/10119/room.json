@@ -1,5 +1,5 @@
 {
-  "checksum": "2ab2d2bb3dfb296942f1063a8d65c7f9",
+  "checksum": "9c635dcd10c000ddae9744fd10ad1269",
   "room": {
     "id": 10119,
     "title": [
@@ -32,7 +32,7 @@
             {
               "do": "await",
               "for": "An elven crewmember scrambles back onto the boat and lowers the gangplank\\.",
-              "timeout": 600,
+              "timeout": 1800,
               "on_timeout": "fail"
             },
             {
@@ -44,7 +44,7 @@
         {
           "do": "await",
           "for": "An elven crewmember scrambles back onto the boat and lowers the gangplank\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         },
         {

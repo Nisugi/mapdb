@@ -1,5 +1,5 @@
 {
-  "checksum": "998f812e06b0ed36cccea3b134038085",
+  "checksum": "67281702ec2112f530603f311829103c",
   "room": {
     "id": 5922,
     "title": [
@@ -28,7 +28,7 @@
             {
               "do": "await",
               "for": "Your eyes have recovered from the poor light within the niche\\.",
-              "timeout": 30,
+              "timeout": 1800,
               "on_timeout": "fail"
             },
             {

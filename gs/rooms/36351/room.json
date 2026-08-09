@@ -1,5 +1,5 @@
 {
-  "checksum": "c15e0b400d258896ff9fb85220a061e4",
+  "checksum": "4fdc0b8a33019b0062dedd63a2d2367a",
   "room": {
     "id": 36351,
     "title": [
@@ -18,7 +18,7 @@
         {
           "do": "await",
           "for": "and\\ pull\\ you\\ down\\ even\\ further\\ into\\ the\\ murk",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]

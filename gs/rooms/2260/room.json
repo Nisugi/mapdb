@@ -1,5 +1,5 @@
 {
-  "checksum": "6acefdd5ac50c444f12faaa82a82f3e6",
+  "checksum": "68811189040c79c42bca7afe6c69bc55",
   "room": {
     "id": 2260,
     "title": [
@@ -20,7 +20,7 @@
         {
           "do": "await",
           "for": "The\\ boat\\ arrives\\ at\\ the\\ dock\\ with\\ a\\ soft\\ thunk\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         },
         {
@@ -32,7 +32,7 @@
         {
           "do": "await",
           "for": "You\\ arrive\\ at\\ the\\ stone\\ dock\\ with\\ a\\ soft\\ thunk\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         },
         {

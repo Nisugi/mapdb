@@ -1,5 +1,5 @@
 {
-  "checksum": "8b66dd914c255bc67f00d7ef6c38254f",
+  "checksum": "97adad6e759a1b9585dea026713c9f01",
   "room": {
     "id": 17746,
     "title": [
@@ -28,7 +28,7 @@
             {
               "do": "await",
               "for": "You\\ hear\\ a\\ soft\\ click\\ from\\ the\\ door\\ and\\ it\\ suddenly\\ flies\\ open\\.",
-              "timeout": 600,
+              "timeout": 1800,
               "on_timeout": "fail"
             },
             {

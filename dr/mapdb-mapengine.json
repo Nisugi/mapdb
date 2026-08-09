@@ -9904,7 +9904,7 @@
           "do": "await",
           "cmd": "climb step",
           "for": "You\\ reach\\ the\\ end\\ of\\ the",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -9948,7 +9948,7 @@
           "do": "await",
           "cmd": "climb step",
           "for": "You\\ reach\\ the\\ end\\ of\\ the\\ steps\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -9958,7 +9958,7 @@
           "do": "await",
           "cmd": "climb stair",
           "for": "You\\ reach\\ the\\ end\\ of\\ the",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -10034,7 +10034,7 @@
         {
           "do": "await",
           "for": "You\\ reach\\ the\\ end\\ of\\ the\\ steps",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -56907,7 +56907,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -100225,7 +100225,7 @@
           "do": "await",
           "cmd": "recite Neath the depths of darkness I go;To scape the prying eyes of light;Under Dragons Spine I crawl;To crawl out from under the Dragons shadow.",
           "for": "A\\ Mountain\\ Elf\\ ranger\\ steps\\ from\\ behind\\ a\\ tree\\ and\\ beckons\\ for\\ you\\ to\\ follow",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -123795,7 +123795,7 @@
           "do": "await",
           "cmd": "west",
           "for": "Just\\ when\\ it\\ seems\\ you\\ will\\ never\\ reach",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -123838,7 +123838,7 @@
           "do": "await",
           "cmd": "east",
           "for": "Just\\ when\\ it\\ seems\\ you\\ will\\ never\\ reach",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -179517,7 +179517,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -179714,7 +179714,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -180255,7 +180255,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -180401,7 +180401,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -180670,7 +180670,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -180849,7 +180849,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -181304,7 +181304,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -181384,7 +181384,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -181429,7 +181429,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -181983,7 +181983,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -182118,7 +182118,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -182231,7 +182231,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -182799,7 +182799,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -182882,7 +182882,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -182994,7 +182994,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -183073,7 +183073,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -183476,7 +183476,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -183584,7 +183584,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -183630,7 +183630,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -183986,7 +183986,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -184003,7 +184003,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -184264,7 +184264,7 @@
         {
           "do": "await",
           "for": "Obvious\\ paths",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -186493,7 +186493,7 @@
           "do": "await",
           "cmd": "climb stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -186531,7 +186531,7 @@
           "do": "await",
           "cmd": "climb stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -186571,7 +186571,7 @@
           "do": "await",
           "cmd": "climb stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -186609,7 +186609,7 @@
           "do": "await",
           "cmd": "climb stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -186649,7 +186649,7 @@
           "do": "await",
           "cmd": "climb stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -186687,7 +186687,7 @@
           "do": "await",
           "cmd": "climb stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -186727,7 +186727,7 @@
           "do": "await",
           "cmd": "climb stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -186764,7 +186764,7 @@
           "do": "await",
           "cmd": "climb stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -186800,7 +186800,7 @@
           "do": "await",
           "cmd": "climb stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -186835,7 +186835,7 @@
           "do": "await",
           "cmd": "climb stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -186877,7 +186877,7 @@
           "do": "await",
           "cmd": "climb stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -186944,7 +186944,7 @@
           "do": "await",
           "cmd": "climb stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -186985,7 +186985,7 @@
           "do": "await",
           "cmd": "climb stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -187381,7 +187381,7 @@
           "do": "await",
           "cmd": "climb stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -187421,7 +187421,7 @@
           "do": "await",
           "cmd": "climb step",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -187478,7 +187478,7 @@
           "do": "await",
           "cmd": "climb stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -187614,7 +187614,7 @@
           "do": "await",
           "cmd": "climb path",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -187662,7 +187662,7 @@
           "do": "await",
           "cmd": "climb path",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -187733,7 +187733,7 @@
           "do": "await",
           "cmd": "climb trail",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -187771,7 +187771,7 @@
           "do": "await",
           "cmd": "climb trail",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -187811,7 +187811,7 @@
           "do": "await",
           "cmd": "climb trail",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -187849,7 +187849,7 @@
           "do": "await",
           "cmd": "climb trail",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -187926,7 +187926,7 @@
           "do": "await",
           "cmd": "climb road",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -187964,7 +187964,7 @@
           "do": "await",
           "cmd": "climb road",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -188004,7 +188004,7 @@
           "do": "await",
           "cmd": "climb trail",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -188042,7 +188042,7 @@
           "do": "await",
           "cmd": "climb trail",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -188082,7 +188082,7 @@
           "do": "await",
           "cmd": "climb path",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -188120,7 +188120,7 @@
           "do": "await",
           "cmd": "climb path",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -188160,7 +188160,7 @@
           "do": "await",
           "cmd": "climb ramp",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -188198,7 +188198,7 @@
           "do": "await",
           "cmd": "climb ramp",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -188238,7 +188238,7 @@
           "do": "await",
           "cmd": "climb walk",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -188276,7 +188276,7 @@
           "do": "await",
           "cmd": "climb walk",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -192257,7 +192257,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -192266,7 +192266,7 @@
           "do": "await",
           "cmd": "up",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -192304,7 +192304,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -192313,7 +192313,7 @@
           "do": "await",
           "cmd": "up",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -192351,7 +192351,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -192458,7 +192458,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -192531,7 +192531,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -192701,7 +192701,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -192779,7 +192779,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -193170,7 +193170,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -193243,7 +193243,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -193348,7 +193348,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -193357,7 +193357,7 @@
           "do": "await",
           "cmd": "up",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -193395,7 +193395,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -193404,7 +193404,7 @@
           "do": "await",
           "cmd": "up",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -193442,7 +193442,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -193451,7 +193451,7 @@
           "do": "await",
           "cmd": "up",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -193507,7 +193507,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -193865,7 +193865,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -194182,7 +194182,7 @@
           "do": "await",
           "cmd": "up",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -194191,7 +194191,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -194247,7 +194247,7 @@
           "do": "await",
           "cmd": "up",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -194256,7 +194256,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -194294,7 +194294,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -194303,7 +194303,7 @@
           "do": "await",
           "cmd": "up",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -194341,7 +194341,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -194488,7 +194488,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -194661,7 +194661,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -194799,7 +194799,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -195734,7 +195734,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -196199,7 +196199,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -196302,7 +196302,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -196469,7 +196469,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -196568,7 +196568,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -196611,7 +196611,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -196746,7 +196746,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ paths:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -197064,7 +197064,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -197143,7 +197143,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -197184,7 +197184,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -197193,7 +197193,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -197231,7 +197231,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -197240,7 +197240,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -197280,7 +197280,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -197289,7 +197289,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -197481,7 +197481,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -197490,7 +197490,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -197531,7 +197531,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -197540,7 +197540,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -197580,7 +197580,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -197589,7 +197589,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -197627,7 +197627,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -197636,7 +197636,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -197674,7 +197674,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -197715,7 +197715,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -198059,7 +198059,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -198098,7 +198098,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -198107,7 +198107,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -198148,7 +198148,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -198157,7 +198157,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -198195,7 +198195,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -198204,7 +198204,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -198242,7 +198242,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -198251,7 +198251,7 @@
           "do": "await",
           "cmd": "down",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -198289,7 +198289,7 @@
           "do": "await",
           "cmd": "go stair",
           "for": "Obvious\\ exits:",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -264994,7 +264994,7 @@
           "do": "await",
           "cmd": "recite Neath the depths of darkness I go;To scape the prying eyes of light;Under Dragons Spine I crawl;To crawl out from under the Dragons shadow.",
           "for": "A\\ Mountain\\ Elf\\ ranger\\ steps\\ from\\ behind\\ a\\ tree\\ and\\ beckons\\ for\\ you\\ to\\ follow",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -308658,7 +308658,7 @@
           "do": "await",
           "cmd": "go bridge",
           "for": "you\\ step\\ back\\ onto\\ solid\\ ground",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -315749,7 +315749,7 @@
         {
           "do": "await",
           "for": "you\\ surface\\ to\\ see\\.\\.\\.\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -315814,7 +315814,7 @@
         {
           "do": "await",
           "for": "find\\ yourself\\.\\.\\.\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -327448,7 +327448,7 @@
           "do": "await",
           "cmd": "go bridge",
           "for": "you\\ step\\ back\\ onto\\ solid\\ ground",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -386341,7 +386341,7 @@
         {
           "do": "await",
           "for": "After\\ a\\ seemingly\\ interminible\\ length\\ of\\ time,\\ you\\ crawl\\ out\\ of\\ the\\ passage\\ into",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ]
@@ -392937,7 +392937,7 @@
         {
           "do": "await",
           "for": "After\\ a\\ seemingly\\ interminible\\ length\\ of\\ time,\\ you\\ crawl\\ out\\ of\\ the\\ passage\\ into",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -396753,7 +396753,7 @@
         {
           "do": "await",
           "for": "A\\ crack\\ in\\ the\\ wall\\ opens|The\\ section\\ of\\ the\\ wall\\ is\\ now\\ open|The\\ gap\\ in\\ the\\ wall\\ snaps",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         },
         {
@@ -396802,7 +396802,7 @@
         {
           "do": "await",
           "for": "A\\ crack\\ in\\ the\\ wall\\ opens|The\\ section\\ of\\ the\\ wall\\ is\\ now\\ open|The\\ gap\\ in\\ the\\ wall\\ snaps",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         },
         {
@@ -446353,7 +446353,7 @@
         {
           "do": "await",
           "for": "The\\ barge\\ pulls\\ into\\ dock\\ and\\ its\\ crew\\ quickly\\ ties\\ the\\ barge\\ off\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         },
         {
@@ -446383,7 +446383,7 @@
         {
           "do": "await",
           "for": "The\\ barge\\ pulls\\ into\\ dock\\ and\\ its\\ crew\\ quickly\\ ties\\ the\\ barge\\ off\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         },
         {
@@ -446447,7 +446447,7 @@
         {
           "do": "await",
           "for": "The\\ barge\\ pulls\\ into\\ dock\\ and\\ its\\ crew\\ quickly\\ ties\\ the\\ barge\\ off\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         },
         {
@@ -446477,7 +446477,7 @@
         {
           "do": "await",
           "for": "The\\ barge\\ pulls\\ into\\ dock\\ and\\ its\\ crew\\ quickly\\ ties\\ the\\ barge\\ off\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         },
         {
@@ -449320,7 +449320,7 @@
           "do": "await",
           "cmd": "climb ladder",
           "for": "and\\ find\\ yourself\\.\\.\\.\\.",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         }
       ],
@@ -534024,7 +534024,7 @@
         {
           "do": "await",
           "for": "The\\ murky\\ waters\\ end\\ amongst\\ a\\ thick\\ layer\\ of\\ decomposing\\ sludge",
-          "timeout": 600,
+          "timeout": 1800,
           "on_timeout": "fail"
         },
         {
