@@ -1,5 +1,5 @@
 {
-  "checksum": "2a48981903a09b0327b36b1ce3c9db00",
+  "checksum": "32a977252897590a45fc802ba9c80c09",
   "room": {
     "id": 3239,
     "title": [
@@ -17,7 +17,10 @@
     "wayto": {
       "3238": "go trail",
       "3240": "north",
-      "3264": "/rooms/3239/wayto/stringproc-3264.rb"
+      "3264": {
+        "strategy": "unique_crossing",
+        "name": "crossing_3239_3264"
+      }
     },
     "timeto": {
       "3238": 0.2,
@@ -25,21 +28,18 @@
       "3264": 1
     },
     "tags": [
-      "some angelica root",
-      "some valerian root",
+      "angelica root",
+      "arctic moss",
+      "frostflower",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-09",
+      "pennyroyal stem",
       "sassafras leaf",
       "sweetfern stalk",
-      "some pennyroyal stem",
-      "winter rose",
-      "some arctic moss",
-      "frostflower",
-      "angelica root",
       "valerian root",
-      "pennyroyal stem",
-      "arctic moss",
-      "meta:forage-sensed",
-      "ironfern root",
-      "meta:forage-sensed:night:2022-09"
+      "winter rose"
     ],
     "uid": [
       4127001

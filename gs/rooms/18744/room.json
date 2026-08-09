@@ -1,5 +1,5 @@
 {
-  "checksum": "f8d89934e4b4a8aa39a5a311fcedf43b",
+  "checksum": "b19fda1408edb6b656b3768495fe7c0f",
   "room": {
     "id": 18744,
     "title": [
@@ -15,7 +15,13 @@
     "wayto": {
       "18734": "northwest",
       "18745": "go opening",
-      "19032": "/rooms/18744/wayto/stringproc-19032.rb"
+      "19032": [
+        {
+          "do": "cast",
+          "spell": 704,
+          "target": "rock"
+        }
+      ]
     },
     "timeto": {
       "18734": 0.2,

@@ -1,5 +1,5 @@
 {
-  "checksum": "a6979d5722b0c17c4b6c7f4cf4b0993f",
+  "checksum": "ae09caaadd288a4c74550465ee5f5ba5",
   "room": {
     "id": 9687,
     "title": [
@@ -14,18 +14,20 @@
     "location": "Cysaegir",
     "wayto": {
       "9686": "out",
-      "30717": "/rooms/9687/wayto/stringproc-30717.rb"
+      "30717": []
     },
     "timeto": {
       "9686": 0.2,
-      "30717": "/rooms/9687/timeto/stringproc-30717.rb"
+      "30717": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "furrier",
-      "no forageables",
       "meta:forage-sensed",
-      "urchin-access",
-      "urchin guide furrier"
+      "no forageables",
+      "urchin guide furrier",
+      "urchin-access"
     ],
     "uid": [
       14051026

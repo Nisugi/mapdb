@@ -1,5 +1,5 @@
 {
-  "checksum": "32311ca1a4a345567403197180d54b00",
+  "checksum": "e5dc77d5f51eed9ace4aff691f51511f",
   "room": {
     "id": 5732,
     "title": [
@@ -20,23 +20,25 @@
       "5733": "northwest",
       "5734": "southwest",
       "11799": "go shop",
-      "30710": "/rooms/5732/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "5731": 0.2,
       "5733": 0.2,
       "5734": 0.2,
       "11799": 0.2,
-      "30710": "/rooms/5732/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "node",
-      "supernode",
+      "meta:forage-sensed",
+      "meta:mapcategory:Vornavis",
       "meta:mapname:Vornavis - Caravansary",
       "meta:mapshortname:Caravansary",
-      "meta:mapcategory:Vornavis",
       "no forageables",
-      "meta:forage-sensed",
+      "node",
+      "supernode",
       "urchin-access"
     ],
     "uid": [

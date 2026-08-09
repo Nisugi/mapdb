@@ -1,5 +1,5 @@
 {
-  "checksum": "3ba647e01cf9660d0ea05a332bbd95c4",
+  "checksum": "a3faa84f1ccf702a8a1787dca86755c6",
   "room": {
     "id": 2883,
     "title": [
@@ -13,20 +13,26 @@
     ],
     "location": "the Sleeping Lady Mountains",
     "wayto": {
-      "2881": "/rooms/2883/wayto/stringproc-2881.rb",
-      "2884": "/rooms/2883/wayto/stringproc-2884.rb"
+      "2881": {
+        "strategy": "ice_slope",
+        "cmd": "down"
+      },
+      "2884": {
+        "strategy": "ice_slope",
+        "cmd": "climb outcropping"
+      }
     },
     "timeto": {
       "2881": 7,
       "2884": 0.2
     },
     "tags": [
-      "some wingstem root",
-      "ironfern root",
       "bolmara lichen",
+      "glassfern frond",
+      "ironfern root",
       "meta:forage-sensed",
-      "wingstem root",
-      "meta:forage-sensed:day:2022-11"
+      "meta:forage-sensed:day:2026-03",
+      "wingstem root"
     ],
     "uid": [
       4560047

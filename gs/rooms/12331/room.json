@@ -1,5 +1,5 @@
 {
-  "checksum": "7b9b3b4d06ab96e67c4e39a873f07816",
+  "checksum": "57755643396ab8c9eca0c8431cf77ed2",
   "room": {
     "id": 12331,
     "title": [
@@ -18,14 +18,16 @@
       "16338": "go archway",
       "16410": "south",
       "16431": "north",
-      "30718": "/rooms/12331/wayto/stringproc-30718.rb"
+      "30718": []
     },
     "timeto": {
       "12330": 0.2,
       "16338": 0.2,
       "16410": 0.2,
       "16431": 0.2,
-      "30718": "/rooms/12331/timeto/stringproc-30718.rb"
+      "30718": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "urchin-access"

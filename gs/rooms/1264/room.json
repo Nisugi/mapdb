@@ -1,5 +1,5 @@
 {
-  "checksum": "81e79a382577a66508d073363d8331c7",
+  "checksum": "a219e0b14930bf0fd6d3cc3dd51a3bcb",
   "room": {
     "id": 1264,
     "title": [
@@ -18,21 +18,23 @@
       "242": "out",
       "1263": "go doors",
       "8812": "go stairway",
-      "30708": "/rooms/1264/wayto/stringproc-30708.rb"
+      "30708": []
     },
     "timeto": {
       "242": 0.2,
       "1263": 0.2,
       "8812": 0.2,
-      "30708": "/rooms/1264/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "inn",
-      "node",
-      "urchin-access",
-      "urchin guide friths",
       "friths",
-      "no forageables"
+      "inn",
+      "no forageables",
+      "node",
+      "urchin guide friths",
+      "urchin-access"
     ],
     "uid": [
       5050

@@ -1,5 +1,5 @@
 {
-  "checksum": "0e771369b9a01b739cc850f7c849a3a2",
+  "checksum": "b4f7b33866e3788a09def38ef122005a",
   "room": {
     "id": 25183,
     "title": [
@@ -14,11 +14,19 @@
     "location": "the shadow of the Sanctum",
     "wayto": {
       "419": "go flap",
-      "25145": "/rooms/25183/wayto/stringproc-25145.rb"
+      "25145": {
+        "strategy": "unique_crossing",
+        "name": "crossing_25183_25145"
+      }
     },
     "timeto": {
       "419": 0.2,
-      "25145": "/rooms/25183/timeto/stringproc-25145.rb"
+      "25145": {
+        "cost": 120,
+        "requires": [
+          "var:car_to_sos"
+        ]
+      }
     },
     "tags": [
       "caravan",

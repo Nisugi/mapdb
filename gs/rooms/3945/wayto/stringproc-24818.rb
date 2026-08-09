@@ -1,1 +1,0 @@
-multifput 'jump', 'jump'

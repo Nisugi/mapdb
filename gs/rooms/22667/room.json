@@ -1,5 +1,5 @@
 {
-  "checksum": "95792ab705a2d0cf8778c4eec8faa4fe",
+  "checksum": "b342e74d91547f1e7eccba3690596ce1",
   "room": {
     "id": 22667,
     "title": [
@@ -17,7 +17,22 @@
     ],
     "location": false,
     "wayto": {
-      "20347": "/rooms/22667/wayto/stringproc-20347.rb",
+      "20347": [
+        {
+          "do": "repeat",
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "out"
+        }
+      ],
       "22992": "crawl opening"
     },
     "timeto": {

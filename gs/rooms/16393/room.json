@@ -1,5 +1,5 @@
 {
-  "checksum": "d0c526f032ceb5e36e57f5c5e82ec3a0",
+  "checksum": "1b283ca1a569876c2805c1e303d62152",
   "room": {
     "id": 16393,
     "title": [
@@ -14,17 +14,28 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "8820": "out",
-      "16394": "/rooms/16393/wayto/stringproc-16394.rb"
+      "16394": [
+        {
+          "do": "cross",
+          "room": 12421,
+          "dest": "14089"
+        }
+      ]
     },
     "timeto": {
       "8820": 0.2,
-      "16394": "/rooms/16393/timeto/stringproc-16394.rb"
+      "16394": {
+        "cost": 1.6,
+        "requires": [
+          "prof:Rogue"
+        ]
+      }
     },
     "tags": [
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Wehnimer's Landing",
       "meta:mapname:Wehnimer's Landing - Rogue Guild",
       "meta:mapshortname:Rogue Guild (Wehnimer's)",
-      "meta:mapcategory:Wehnimer's Landing",
-      "meta:mapcategory:Guilds",
       "rogue guild",
       "rogueguild"
     ],

@@ -1,5 +1,5 @@
 {
-  "checksum": "7251f1f44be5f31fa181e0a8350161b8",
+  "checksum": "3d514b2cab435a2f62ca12a9562664a2",
   "room": {
     "id": 11483,
     "title": [
@@ -15,14 +15,22 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "11482": "/rooms/11483/wayto/stringproc-11482.rb"
+      "11482": [
+        {
+          "do": "move",
+          "cmd": "swim south"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "11482": 2
     },
     "tags": [
-      "no forageables",
-      "meta:underwater"
+      "meta:underwater",
+      "no forageables"
     ],
     "uid": [
       304250

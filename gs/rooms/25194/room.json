@@ -1,5 +1,5 @@
 {
-  "checksum": "4ce5547f5826df0758a6c8cd5c9e3243",
+  "checksum": "765396e76aeccbf7397e7abf83923996",
   "room": {
     "id": 25194,
     "title": [
@@ -15,11 +15,26 @@
     "wayto": {
       "25192": "west",
       "25196": "northwest",
-      "25197": "/rooms/25194/wayto/stringproc-25197.rb",
-      "25198": "/rooms/25194/wayto/stringproc-25198.rb",
-      "25199": "/rooms/25194/wayto/stringproc-25199.rb",
-      "25200": "/rooms/25194/wayto/stringproc-25200.rb",
-      "25201": "/rooms/25194/wayto/stringproc-25201.rb"
+      "25197": {
+        "strategy": "table_join",
+        "table": "backsword"
+      },
+      "25198": {
+        "strategy": "table_join",
+        "table": "crowbill"
+      },
+      "25199": {
+        "strategy": "table_join",
+        "table": "jeddart-axe"
+      },
+      "25200": {
+        "strategy": "table_join",
+        "table": "claidhmore"
+      },
+      "25201": {
+        "strategy": "table_join",
+        "table": "fist-scythe"
+      }
     },
     "timeto": {
       "25192": 0.2,

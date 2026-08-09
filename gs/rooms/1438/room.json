@@ -1,5 +1,5 @@
 {
-  "checksum": "4bb8e3a8d7a14dc29de94f352e194a5b",
+  "checksum": "e41c8220ad57110eb8655ef026be8661",
   "room": {
     "id": 1438,
     "title": [
@@ -28,7 +28,7 @@
       "3749": "go booth",
       "3782": "go stand",
       "3903": "go stall",
-      "30710": "/rooms/1438/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "1437": 3,
@@ -41,22 +41,24 @@
       "3749": 3,
       "3782": 3,
       "3903": 3,
-      "30710": "/rooms/1438/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "node",
-      "town",
-      "supernode",
+      "meta:forage-sensed",
+      "meta:mapcategory:Towns",
+      "meta:mapcategory:Vornavis",
       "meta:mapname:Vornavis - Solhaven",
       "meta:mapshortname:Solhaven",
-      "meta:mapcategory:Vornavis",
-      "meta:mapcategory:Towns",
       "meta:trashcan:copper-banded green oak barrel",
-      "urchin-access",
-      "urchin guide northmarket",
+      "no forageables",
+      "node",
       "northmarket",
-      "meta:forage-sensed",
-      "no forageables"
+      "supernode",
+      "town",
+      "urchin guide northmarket",
+      "urchin-access"
     ],
     "uid": [
       4209030

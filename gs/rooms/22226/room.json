@@ -1,5 +1,5 @@
 {
-  "checksum": "dcb0aa97eb07a6a9e74f6334548b8ae9",
+  "checksum": "5a26aa57c9feccab7c34bc9ac0657718",
   "room": {
     "id": 22226,
     "title": [
@@ -19,9 +19,9 @@
       "22227": 0.2
     },
     "tags": [
-      "peer curtain =~ /^\\[Annex, Cairnfang Manor Lobby\\]$/",
+      "meta:che:cairnfang_manor:locker",
       "meta:locker",
-      "meta:che:cairnfang_manor:locker"
+      "peer curtain =~ /^\\[Annex, Cairnfang Manor Lobby\\]$/"
     ],
     "uid": [
       3215140

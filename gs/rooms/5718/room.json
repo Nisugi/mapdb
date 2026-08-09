@@ -1,5 +1,5 @@
 {
-  "checksum": "e03baa0fe08716e66a86bba62b6b7ab6",
+  "checksum": "ba9080693892558caa845c66b86b706b",
   "room": {
     "id": 5718,
     "title": [
@@ -13,15 +13,39 @@
     ],
     "location": "the free port of Solhaven",
     "wayto": {
-      "199": "/rooms/5718/wayto/stringproc-199.rb",
+      "199": {
+        "strategy": "table_join",
+        "table": "azure"
+      },
       "5717": "go archway",
-      "13973": "/rooms/5718/wayto/stringproc-13973.rb",
-      "19340": "/rooms/5718/wayto/stringproc-19340.rb",
-      "19341": "/rooms/5718/wayto/stringproc-19341.rb",
-      "19342": "/rooms/5718/wayto/stringproc-19342.rb",
-      "19343": "/rooms/5718/wayto/stringproc-19343.rb",
-      "19344": "/rooms/5718/wayto/stringproc-19344.rb",
-      "19345": "/rooms/5718/wayto/stringproc-19345.rb"
+      "13973": {
+        "strategy": "table_join",
+        "table": "spiny"
+      },
+      "19340": {
+        "strategy": "table_join",
+        "table": "star"
+      },
+      "19341": {
+        "strategy": "table_join",
+        "table": "beaded"
+      },
+      "19342": {
+        "strategy": "table_join",
+        "table": "spotted"
+      },
+      "19343": {
+        "strategy": "table_join",
+        "table": "netted"
+      },
+      "19344": {
+        "strategy": "table_join",
+        "table": "red"
+      },
+      "19345": {
+        "strategy": "table_join",
+        "table": "sea"
+      }
     },
     "timeto": {
       "199": 0.2,
@@ -35,9 +59,9 @@
       "19345": 0.2
     },
     "tags": [
-      "no-auto-map",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "meta:forage-sensed:day:2022-09",
+      "no-auto-map"
     ],
     "uid": [
       4740002

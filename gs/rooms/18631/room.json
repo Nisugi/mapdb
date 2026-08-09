@@ -1,5 +1,5 @@
 {
-  "checksum": "66a454d741ec1f1a390788b7810cf351",
+  "checksum": "814c0434d5bb08b5219b86f0c07e2886",
   "room": {
     "id": 18631,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "Solhaven",
     "wayto": {
-      "18625": "/rooms/18631/wayto/stringproc-18625.rb",
+      "18625": [
+        {
+          "do": "move",
+          "cmd": "out"
+        },
+        {
+          "do": "move",
+          "cmd": "east"
+        }
+      ],
       "18632": "climb staircase",
       "18731": "out",
       "18732": "west"

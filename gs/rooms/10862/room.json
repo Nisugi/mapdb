@@ -1,5 +1,5 @@
 {
-  "checksum": "d38993526565d7de911885b87195df53",
+  "checksum": "06a528e6b530ccbd7879a0483a4700d9",
   "room": {
     "id": 10862,
     "title": [
@@ -15,29 +15,74 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "3668": "/rooms/10862/wayto/stringproc-3668.rb",
+      "3668": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
       "10853": "southwest",
       "10859": "southeast",
       "10861": "go walkway",
       "10863": "go trail",
-      "26905": "/rooms/10862/wayto/stringproc-26905.rb",
-      "31558": "/rooms/10862/wayto/stringproc-31558.rb"
+      "26905": [
+        {
+          "do": "repeat",
+          "times": 2,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "event transport duskruin"
+            }
+          ]
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": 10862
+        }
+      ],
+      "31558": [
+        {
+          "do": "repeat",
+          "times": 2,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "event transport ebon gate"
+            }
+          ]
+        },
+        {
+          "do": "set",
+          "var": "ebon_gate_origin",
+          "value": 10862
+        }
+      ]
     },
     "timeto": {
-      "3668": "/rooms/10862/timeto/stringproc-3668.rb",
+      "3668": {
+        "same_as": "7:3668"
+      },
       "10853": 0.2,
       "10859": 0.2,
       "10861": 0.2,
       "10863": 0.2,
       "26905": 2400,
-      "31558": "/rooms/10862/timeto/stringproc-31558.rb"
+      "31558": {
+        "cost": 2400,
+        "requires": [
+          "month:10"
+        ]
+      }
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
+      "meta:fwi:teleport",
       "meta:teleport",
-      "meta:fwi:teleport"
+      "no forageables"
     ],
     "uid": [
       2101006

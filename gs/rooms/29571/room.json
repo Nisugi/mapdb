@@ -1,5 +1,5 @@
 {
-  "checksum": "354d6d716eeab73144cd813456447142",
+  "checksum": "7f4a6546b91fdc542c0af3e452a0f1de",
   "room": {
     "id": 29571,
     "title": [
@@ -19,9 +19,9 @@
       "24210": 0.2
     },
     "tags": [
-      "peer curtain =~ /^\\[Annex, House Brigatta Lobby\\]$/",
+      "meta:che:brigatta:locker",
       "meta:locker",
-      "meta:che:brigatta:locker"
+      "peer curtain =~ /^\\[Annex, House Brigatta Lobby\\]$/"
     ],
     "uid": [
       3215116

@@ -1,0 +1,27 @@
+{
+  "checksum": "6a84bde9c52ef8f2fe9f6068e746daba",
+  "room": {
+    "id": 36785,
+    "title": [
+      "[The Reel Deal]"
+    ],
+    "description": [
+      "Carved driftwood poles propped up about the small tent support lengths of pale sailcloth.  A dark, threadbare carpet covers a wooden floor made of deck boards.  Hanging from one of the beams, a copper lantern sways back and forth above an iron-banded oak barrel.  Tucked in the back of the space is a polished driftwood table covered with various objects."
+    ],
+    "paths": [
+      "Obvious exits: east, out"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "33086": "out",
+      "36786": "east"
+    },
+    "timeto": {
+      "33086": 0.2,
+      "36786": 0.2
+    },
+    "uid": [
+      7134182
+    ]
+  }
+}

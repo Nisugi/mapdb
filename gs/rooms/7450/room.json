@@ -1,5 +1,5 @@
 {
-  "checksum": "770ecee4e0b955455bba1c146fa93245",
+  "checksum": "c52008ddb0bd3d5bcc3237f0103257a6",
   "room": {
     "id": 7450,
     "title": [
@@ -15,14 +15,78 @@
     "climate": "hot, damp",
     "terrain": "barren scrub",
     "wayto": {
-      "17319": "/rooms/7450/wayto/stringproc-17319.rb",
-      "23259": "/rooms/7450/wayto/stringproc-23259.rb",
-      "23262": "/rooms/7450/wayto/stringproc-23262.rb",
-      "23263": "/rooms/7450/wayto/stringproc-23263.rb",
-      "23264": "/rooms/7450/wayto/stringproc-23264.rb",
-      "23265": "/rooms/7450/wayto/stringproc-23265.rb",
-      "23266": "/rooms/7450/wayto/stringproc-23266.rb",
-      "23267": "/rooms/7450/wayto/stringproc-23267.rb"
+      "17319": [
+        {
+          "do": "move",
+          "cmd": "west"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "23259": [
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "23262": [
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "23263": [
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "23264": [
+        {
+          "do": "move",
+          "cmd": "south"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "23265": [
+        {
+          "do": "move",
+          "cmd": "north"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "23266": [
+        {
+          "do": "move",
+          "cmd": "northeast"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "23267": [
+        {
+          "do": "move",
+          "cmd": "east"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "17319": 3.2,
@@ -35,14 +99,14 @@
       "23267": 3.2
     },
     "tags": [
-      "large black toadstool",
-      "some blackened moss",
-      "hooded figure",
-      "giant fog beetle",
-      "blackened moss",
       "black toadstool",
+      "blackened moss",
+      "giant fog beetle",
+      "hooded figure",
+      "large black toadstool",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "some blackened moss"
     ],
     "uid": [
       306033

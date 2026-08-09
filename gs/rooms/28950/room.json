@@ -1,5 +1,5 @@
 {
-  "checksum": "56e8a6b0d75d463cab46bb6643233f67",
+  "checksum": "63197c7eff380571c1729f884494cb03",
   "room": {
     "id": 28950,
     "title": [
@@ -15,12 +15,27 @@
     "wayto": {
       "28946": "go doors",
       "28951": "go archway",
-      "28952": "/rooms/28950/wayto/stringproc-28952.rb",
-      "28953": "/rooms/28950/wayto/stringproc-28953.rb",
-      "28954": "/rooms/28950/wayto/stringproc-28954.rb",
-      "28955": "/rooms/28950/wayto/stringproc-28955.rb",
-      "28956": "/rooms/28950/wayto/stringproc-28956.rb",
-      "30716": "/rooms/28950/wayto/stringproc-30716.rb"
+      "28952": {
+        "strategy": "table_join",
+        "table": "Dancing Hag"
+      },
+      "28953": {
+        "strategy": "table_join",
+        "table": "Happy Hag"
+      },
+      "28954": {
+        "strategy": "table_join",
+        "table": "Angry Hag"
+      },
+      "28955": {
+        "strategy": "table_join",
+        "table": "Sleeping Hag"
+      },
+      "28956": {
+        "strategy": "table_join",
+        "table": "Kissing Hag"
+      },
+      "30716": []
     },
     "timeto": {
       "28946": 0.2,
@@ -30,18 +45,25 @@
       "28954": 0.2,
       "28955": 0.2,
       "28956": 0.2,
-      "30716": "/rooms/28950/timeto/stringproc-30716.rb"
+      "30716": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "board",
-      "taskboard",
-      "task",
-      "table",
+      "bright pink protea",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "node",
+      "osatask",
+      "stalk of bluebells",
       "supernode",
-      "urchin-access",
+      "table",
+      "task",
+      "taskboard",
       "urchin guide osatask",
-      "osatask"
+      "urchin-access",
+      "wild sage"
     ],
     "uid": [
       7118319

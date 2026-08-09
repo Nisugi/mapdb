@@ -1,5 +1,5 @@
 {
-  "checksum": "83fb81c650b7a387a5dcd58c4cf5552f",
+  "checksum": "2b35658c95c9974c12099fd4af282315",
   "room": {
     "id": 17152,
     "title": [
@@ -14,17 +14,19 @@
     "location": "Cysaegir",
     "wayto": {
       "9688": "out",
-      "30717": "/rooms/17152/wayto/stringproc-30717.rb"
+      "30717": []
     },
     "timeto": {
       "9688": 0.2,
-      "30717": "/rooms/17152/timeto/stringproc-30717.rb"
+      "30717": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "fletcher",
+      "no forageables",
       "urchin guide fletcher",
-      "urchin-access",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       14051041

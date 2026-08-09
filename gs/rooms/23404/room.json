@@ -1,5 +1,5 @@
 {
-  "checksum": "058f5fb5a5dd58c30860274ea8fc4460",
+  "checksum": "4596cc2a93dcc944d93f5691eda8ee9f",
   "room": {
     "id": 23404,
     "title": [
@@ -15,21 +15,68 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "23403": "/rooms/23404/wayto/stringproc-23403.rb",
-      "23405": "/rooms/23404/wayto/stringproc-23405.rb"
+      "23403": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "north"
+        }
+      ],
+      "23405": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "south"
+        }
+      ]
     },
     "timeto": {
       "23403": 0.2,
       "23405": 0.2
     },
     "tags": [
-      "white hook mushroom",
+      "bolmara lichen",
       "glowing toadstool",
       "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-02"
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "white hook mushroom",
+      "wingstem root"
     ],
     "uid": [
       13018020

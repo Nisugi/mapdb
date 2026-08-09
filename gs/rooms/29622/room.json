@@ -1,5 +1,5 @@
 {
-  "checksum": "a74d42487ea1532e2cf45997a6ef4eaa",
+  "checksum": "3830c5a2133246291cd2f7a6d2eda974",
   "room": {
     "id": 29622,
     "title": [
@@ -17,17 +17,19 @@
     "wayto": {
       "28913": "go carriage path",
       "29623": "go massive doors",
-      "30716": "/rooms/29622/wayto/stringproc-30716.rb"
+      "30716": []
     },
     "timeto": {
       "28913": 0.2,
       "29623": 0.2,
-      "30716": "/rooms/29622/timeto/stringproc-30716.rb"
+      "30716": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
       "meta:forage-sensed",
-      "no forageables"
+      "no forageables",
+      "urchin-access"
     ],
     "uid": [
       18050001

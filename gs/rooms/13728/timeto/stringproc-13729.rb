@@ -1,1 +1,0 @@
-((!defined?(Stats.gender) or Stats.gender == 'Male') ? 0.2 : nil);

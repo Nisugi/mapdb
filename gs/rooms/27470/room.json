@@ -1,5 +1,5 @@
 {
-  "checksum": "83a24f42ea6572a8c8bfc0ba615422be",
+  "checksum": "da2f90bc49ad006f0f4f4d9e36c578c1",
   "room": {
     "id": 27470,
     "title": [
@@ -14,12 +14,20 @@
     ],
     "location": "The Harrows, outside the elven city of Ta'Illistim",
     "wayto": {
-      "1834": "/rooms/27470/wayto/stringproc-1834.rb",
+      "1834": {
+        "strategy": "uservar_sends",
+        "var": "Mularos_Lover"
+      },
       "27471": "go doors",
       "27472": "go wicket"
     },
     "timeto": {
-      "1834": "/rooms/27470/timeto/stringproc-1834.rb",
+      "1834": {
+        "cost": 0.2,
+        "requires": [
+          "var_raw:Mularos_Lover"
+        ]
+      },
       "27471": 0.2,
       "27472": 0.2
     },

@@ -1,5 +1,5 @@
 {
-  "checksum": "2fe5767cf60e4971d7f8f71240a9c1ef",
+  "checksum": "30f9836674f8ec248b126d1f8bb61e3f",
   "room": {
     "id": 18976,
     "title": [
@@ -13,7 +13,13 @@
     ],
     "location": "the town of Icemule Trace",
     "wayto": {
-      "18959": "/rooms/18976/wayto/stringproc-18959.rb"
+      "18959": [
+        {
+          "do": "cast",
+          "spell": 704,
+          "target": "paneling"
+        }
+      ]
     },
     "timeto": {
       "18959": 0.2

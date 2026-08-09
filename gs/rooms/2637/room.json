@@ -1,5 +1,5 @@
 {
-  "checksum": "fc4bdcf7599540c846f6120b22849c58",
+  "checksum": "7cb1b9e1b9b845e320214b2f0ae54e76",
   "room": {
     "id": 2637,
     "title": [
@@ -15,7 +15,7 @@
     "wayto": {
       "2635": "northeast",
       "2638": "southeast",
-      "2639": "/rooms/2637/wayto/stringproc-2639.rb"
+      "2639": "go lake"
     },
     "timeto": {
       "2635": 0.2,
@@ -23,10 +23,10 @@
       "2639": 0.2
     },
     "tags": [
-      "node",
-      "murdroot",
       "bur-clover root",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "murdroot",
+      "node"
     ],
     "uid": [
       4562034

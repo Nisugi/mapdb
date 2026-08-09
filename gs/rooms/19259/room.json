@@ -1,5 +1,5 @@
 {
-  "checksum": "402ba63b565a648f7d1ce50dd45c7976",
+  "checksum": "59bc5615b95d5e1ae3e421d268602844",
   "room": {
     "id": 19259,
     "title": [
@@ -13,7 +13,12 @@
     ],
     "location": "Icemule Trace",
     "wayto": {
-      "19258": "/rooms/19259/wayto/stringproc-19258.rb",
+      "19258": [
+        {
+          "do": "send",
+          "cmd": "pull small lever"
+        }
+      ],
       "19260": "go curtain"
     },
     "timeto": {

@@ -1,5 +1,5 @@
 {
-  "checksum": "a5b5d65eab3e5caad168ffc9673d6383",
+  "checksum": "f6ff215072c665cf38b92e3b66e9f587",
   "room": {
     "id": 29572,
     "title": [
@@ -19,9 +19,9 @@
       "25885": 0.2
     },
     "tags": [
-      "peer curtain =~ /^\\[Annex, House Sovyn Lobby\\]$/",
+      "meta:che:sovyn:locker",
       "meta:locker",
-      "meta:che:sovyn:locker"
+      "peer curtain =~ /^\\[Annex, House Sovyn Lobby\\]$/"
     ],
     "uid": [
       3215110

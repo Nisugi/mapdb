@@ -1,5 +1,5 @@
 {
-  "checksum": "ac04fc97004e7284d5720a40a4d816b5",
+  "checksum": "cb76ffec1ae61065c3fb5523708f1bfe",
   "room": {
     "id": 24976,
     "title": [
@@ -14,7 +14,10 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "24975": "east",
-      "24979": "/rooms/24976/wayto/stringproc-24979.rb"
+      "24979": {
+        "strategy": "unique_crossing",
+        "name": "crossing_24976_24979"
+      }
     },
     "timeto": {
       "24975": 0.2,

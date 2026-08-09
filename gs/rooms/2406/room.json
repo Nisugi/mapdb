@@ -1,5 +1,5 @@
 {
-  "checksum": "efe0ff4f9f84e9b8100bb88955d8bd91",
+  "checksum": "b401bef8258726a4b1f4ddbcbe980e55",
   "room": {
     "id": 2406,
     "title": [
@@ -15,22 +15,24 @@
     "wayto": {
       "2403": "out",
       "2405": "east",
-      "30709": "/rooms/2406/wayto/stringproc-30709.rb"
+      "30709": []
     },
     "timeto": {
       "2403": 0.2,
       "2405": 0.2,
-      "30709": "/rooms/2406/timeto/stringproc-30709.rb"
+      "30709": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "npchealer",
-      "urchin-access",
-      "urchin guide healer",
-      "mirtag",
-      "no forageables",
+      "healer",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-09",
-      "healer"
+      "mirtag",
+      "no forageables",
+      "npchealer",
+      "urchin guide healer",
+      "urchin-access"
     ],
     "uid": [
       4043601

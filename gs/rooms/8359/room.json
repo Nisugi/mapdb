@@ -1,5 +1,5 @@
 {
-  "checksum": "11d9182e0e8db59cf1ae16c750d6bed5",
+  "checksum": "0bec6494db75b18589e0d9c4809a94c2",
   "room": {
     "id": 8359,
     "title": [
@@ -14,15 +14,46 @@
     "location": "the Spider Temple",
     "wayto": {
       "8354": "go door",
-      "25497": "/rooms/8359/wayto/stringproc-25497.rb"
+      "25497": [
+        {
+          "do": "repeat",
+          "times": 50,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "search"
+            },
+            {
+              "do": "await",
+              "for": "don\\\\'t\\ find\\ anything|the\\ opening\\ of\\ an\\ escape\\ tunnel|nothing\\ other\\ than\\ the\\ tunnel|Roundtime:",
+              "timeout": 30,
+              "if_match": {
+                "pattern": "tunnel",
+                "steps": [
+                  {
+                    "do": "break"
+                  }
+                ]
+              }
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go tunnel"
+        }
+      ]
     },
     "timeto": {
       "8354": 0.2,
       "25497": 4
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       13025

@@ -1,1 +1,0 @@
-10.times { result = dothistimeout 'search', 5, /don't find anything|discover a rocky trail|Round ?time|...[Ww]ait/; waitrt?; break if result =~ /discover a rocky trail/ };move('go rocky trail')

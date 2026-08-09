@@ -1,5 +1,5 @@
 {
-  "checksum": "cd8380a141735a0d7f67a198b168492b",
+  "checksum": "72f1cb0e7cfe83478d90502f63f1eebc",
   "room": {
     "id": 4579,
     "title": [
@@ -15,26 +15,72 @@
     "climate": "glacial",
     "terrain": "mountainous",
     "wayto": {
-      "4578": "/rooms/4579/wayto/stringproc-4578.rb",
-      "4580": "/rooms/4579/wayto/stringproc-4580.rb"
+      "4578": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "climb crevice"
+        }
+      ],
+      "4580": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "down"
+        }
+      ]
     },
     "timeto": {
       "4578": 4.2,
       "4580": 4.2
     },
     "tags": [
-      "sassafras leaf",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "sprig of holly",
-      "meta:forage-sensed",
-      "ironfern root",
-      "sunburst blossom",
       "deep purple shockroot",
+      "ironfern root",
+      "meta:forage-sensed",
       "meta:forage-sensed:day:2023-11",
-      "meta:forage-sensed:night:2024-05"
+      "meta:forage-sensed:night:2024-05",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sprig of holly",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root"
     ],
     "uid": [
       13302105

@@ -1,5 +1,5 @@
 {
-  "checksum": "a7b4431ebe6b21cec87df06bd4b057bc",
+  "checksum": "73403318716f5e4a391994eec66ae126",
   "room": {
     "id": 6955,
     "title": [
@@ -16,44 +16,58 @@
     "terrain": "deciduous",
     "wayto": {
       "6954": "north",
-      "6985": "/rooms/6955/wayto/stringproc-6985.rb",
+      "6985": {
+        "strategy": "unique_crossing",
+        "name": "crossing_6955_6985"
+      },
       "22229": "go pool"
     },
     "timeto": {
       "6954": 0.2,
-      "6985": "/rooms/6955/timeto/stringproc-6985.rb",
-      "22229": "/rooms/6955/timeto/stringproc-22229.rb"
+      "6985": {
+        "cost": 33.2,
+        "requires": [
+          "level:>19"
+        ]
+      },
+      "22229": {
+        "cost": 0.2,
+        "requires": [
+          "level:>19"
+        ]
+      }
     },
     "tags": [
-      "wild pink geranium",
-      "stalk of bluebells",
-      "tkaro root",
+      "acantha leaf",
+      "angelica root",
+      "bolmara lichen",
       "bright red cranberry",
       "bright red teaberry",
-      "sassafras leaf",
-      "white hook mushroom",
-      "sweetfern stalk",
-      "acantha leaf",
-      "wolifrew lichen",
-      "ephlox moss",
-      "sticks",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "wintergreen leaf",
       "broken twig",
-      "tree bark",
-      "willow twig",
-      "yew twig",
-      "oak twig",
-      "luckbloom blossom",
-      "twisted twig",
-      "slender twig",
-      "bolmara lichen",
       "brostheras grass",
+      "ephlox moss",
+      "luckbloom blossom",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2023-01",
-      "meta:forage-sensed:day:2025-02"
+      "oak twig",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "slender twig",
+      "stalk of bluebells",
+      "sticks",
+      "sweetfern stalk",
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "white hook mushroom",
+      "wild beechnut",
+      "wild pink geranium",
+      "willow twig",
+      "wintergreen leaf",
+      "wolifrew lichen",
+      "yew twig"
     ],
     "uid": [
       43062

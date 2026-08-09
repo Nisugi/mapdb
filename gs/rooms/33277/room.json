@@ -1,5 +1,5 @@
 {
-  "checksum": "11ccfa38db7d1c4d178a2759d4337f22",
+  "checksum": "0c06695eedd2ebb49803241ba55d3894",
   "room": {
     "id": 33277,
     "title": [
@@ -23,7 +23,12 @@
     "timeto": {
       "33276": 0.2,
       "33278": 0.2,
-      "34440": "/rooms/33277/timeto/stringproc-34440.rb"
+      "34440": {
+        "cost": 0.2,
+        "requires": [
+          "var_raw:Oleander_House=true"
+        ]
+      }
     },
     "tags": [
       "meta:citizenship:Solhaven",

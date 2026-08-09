@@ -1,5 +1,5 @@
 {
-  "checksum": "a77505c8b62f1f18f42113ad83f9346e",
+  "checksum": "9f0091cfadf3820f928a7d9a28d5e5f2",
   "room": {
     "id": 3824,
     "title": [
@@ -15,17 +15,20 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "266": "out",
-      "30708": "/rooms/3824/wayto/stringproc-30708.rb"
+      "30708": []
     },
     "timeto": {
       "266": 0.2,
-      "30708": "/rooms/3824/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "npchealer",
       "healer",
-      "urchin-access",
-      "urchin guide healer"
+      "no forageables",
+      "npchealer",
+      "urchin guide healer",
+      "urchin-access"
     ],
     "uid": [
       1015

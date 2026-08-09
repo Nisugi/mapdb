@@ -1,5 +1,5 @@
 {
-  "checksum": "cdfdeb91b15838360a22db8eb79be47d",
+  "checksum": "3eeb5c631477148358a5fa954c094856",
   "room": {
     "id": 17833,
     "title": [
@@ -15,7 +15,7 @@
     "wayto": {
       "17832": "east",
       "17834": "go door",
-      "18347": "/rooms/17833/wayto/stringproc-18347.rb"
+      "18347": "go panel"
     },
     "timeto": {
       "17832": 0.2,

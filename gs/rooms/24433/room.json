@@ -1,5 +1,5 @@
 {
-  "checksum": "cb3cec111cdb44cd6faa473d1d9e76ab",
+  "checksum": "643a37045713777a13b8ab0f48a91181",
   "room": {
     "id": 24433,
     "title": [
@@ -20,19 +20,27 @@
       "24434": "west",
       "24439": "north",
       "24440": "east",
-      "30709": "/rooms/24433/wayto/stringproc-30709.rb"
+      "30709": []
     },
     "timeto": {
       "24430": 0.2,
       "24434": 0.2,
       "24439": 0.2,
       "24440": 0.2,
-      "30709": "/rooms/24433/timeto/stringproc-30709.rb"
+      "30709": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "bolmara lichen",
+      "glassfern frond",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "node",
       "supernode",
-      "urchin-access"
+      "urchin-access",
+      "wingstem root"
     ],
     "uid": [
       4042257

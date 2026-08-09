@@ -1,5 +1,5 @@
 {
-  "checksum": "42d2084bdefdbfa0b6871478848fcb6c",
+  "checksum": "ba5f0f9d1c0597f4e2ba3d2e75f6b696",
   "room": {
     "id": 24532,
     "title": [
@@ -15,7 +15,21 @@
     "climate": "snowy, arctic",
     "terrain": "barren scrub",
     "wayto": {
-      "24519": "/rooms/24532/wayto/stringproc-24519.rb",
+      "24519": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb hillside"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ],
       "24542": "north",
       "24543": "northeast"
     },
@@ -25,19 +39,19 @@
       "24543": 0.2
     },
     "tags": [
-      "snow lily",
-      "wintergreen leaf",
-      "bright red teaberry",
       "arctic moss",
+      "bright red teaberry",
       "broken twig",
-      "rockberry",
       "crowberry",
-      "lingonberry",
       "ironfern root",
+      "lingonberry",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2025-03",
+      "rockberry",
+      "snow lily",
       "sunburst blossom",
       "wingstem root",
-      "meta:forage-sensed:day:2025-03"
+      "wintergreen leaf"
     ],
     "uid": [
       4124050

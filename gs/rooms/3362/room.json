@@ -1,5 +1,5 @@
 {
-  "checksum": "a52e334949331ec05dc7741199fbe43a",
+  "checksum": "ec1b5de6a07cd750ef4dedc6a01dbb59",
   "room": {
     "id": 3362,
     "title": [
@@ -18,26 +18,33 @@
     "wayto": {
       "2306": "go street",
       "19417": "go door",
-      "30709": "/rooms/3362/wayto/stringproc-30709.rb"
+      "30709": []
     },
     "timeto": {
       "2306": 0.2,
-      "19417": "/rooms/3362/timeto/stringproc-19417.rb",
-      "30709": "/rooms/3362/timeto/stringproc-30709.rb"
+      "19417": {
+        "cost": 0.2,
+        "requires": [
+          "prof:Empath"
+        ]
+      },
+      "30709": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "empath guild",
       "empathguild",
       "Icemule empath guild entrance",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Icemule Trace",
       "meta:mapname:Icemule Trace - Empath Guild",
       "meta:mapshortname:Empath Guild (Icemule)",
-      "meta:mapcategory:Icemule Trace",
-      "meta:mapcategory:Guilds",
-      "urchin-access",
+      "stalk of bluebells",
       "urchin guide empathguild",
-      "calmintha flower",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01",
-      "empath guild"
+      "urchin-access"
     ],
     "uid": [
       650001

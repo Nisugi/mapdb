@@ -1,5 +1,5 @@
 {
-  "checksum": "411d8c39052cb8a058e5ec6d18042a9f",
+  "checksum": "c12263c205c33a2148f9ece40c6112fd",
   "room": {
     "id": 30718,
     "title": [
@@ -47,41 +47,103 @@
       "30116": "urchin guide postoffice"
     },
     "timeto": {
-      "3652": "/rooms/30718/timeto/stringproc-3652.rb",
-      "3659": "/rooms/30718/timeto/stringproc-3659.rb",
-      "3668": "/rooms/30718/timeto/stringproc-3668.rb",
-      "3672": "/rooms/30718/timeto/stringproc-3672.rb",
-      "3845": "/rooms/30718/timeto/stringproc-3845.rb",
-      "12282": "/rooms/30718/timeto/stringproc-12282.rb",
-      "12285": "/rooms/30718/timeto/stringproc-12285.rb",
-      "12288": "/rooms/30718/timeto/stringproc-12288.rb",
-      "12290": "/rooms/30718/timeto/stringproc-12290.rb",
-      "12305": "/rooms/30718/timeto/stringproc-12305.rb",
-      "12306": "/rooms/30718/timeto/stringproc-12306.rb",
-      "12319": "/rooms/30718/timeto/stringproc-12319.rb",
-      "16349": "/rooms/30718/timeto/stringproc-16349.rb",
-      "16365": "/rooms/30718/timeto/stringproc-16365.rb",
-      "16404": "/rooms/30718/timeto/stringproc-16404.rb",
-      "16411": "/rooms/30718/timeto/stringproc-16411.rb",
-      "16470": "/rooms/30718/timeto/stringproc-16470.rb",
-      "17589": "/rooms/30718/timeto/stringproc-17589.rb",
-      "18897": "/rooms/30718/timeto/stringproc-18897.rb",
-      "19359": "/rooms/30718/timeto/stringproc-19359.rb",
-      "19393": "/rooms/30718/timeto/stringproc-19393.rb",
-      "19557": "/rooms/30718/timeto/stringproc-19557.rb",
-      "21155": "/rooms/30718/timeto/stringproc-21155.rb",
-      "23660": "/rooms/30718/timeto/stringproc-23660.rb",
-      "23661": "/rooms/30718/timeto/stringproc-23661.rb",
-      "23807": "/rooms/30718/timeto/stringproc-23807.rb",
-      "25304": "/rooms/30718/timeto/stringproc-25304.rb",
-      "25306": "/rooms/30718/timeto/stringproc-25306.rb",
-      "28617": "/rooms/30718/timeto/stringproc-28617.rb",
-      "28742": "/rooms/30718/timeto/stringproc-28742.rb",
-      "30116": "/rooms/30718/timeto/stringproc-30116.rb"
+      "3652": {
+        "same_as": "30714:7"
+      },
+      "3659": {
+        "same_as": "30714:7"
+      },
+      "3668": {
+        "same_as": "30714:7"
+      },
+      "3672": {
+        "same_as": "30714:7"
+      },
+      "3845": {
+        "same_as": "30714:7"
+      },
+      "12282": {
+        "same_as": "30714:7"
+      },
+      "12285": {
+        "same_as": "30714:7"
+      },
+      "12288": {
+        "same_as": "30714:7"
+      },
+      "12290": {
+        "same_as": "30714:7"
+      },
+      "12305": {
+        "same_as": "30714:7"
+      },
+      "12306": {
+        "same_as": "30714:7"
+      },
+      "12319": {
+        "same_as": "30714:7"
+      },
+      "16349": {
+        "same_as": "30714:7"
+      },
+      "16365": {
+        "same_as": "30714:7"
+      },
+      "16404": {
+        "same_as": "30714:7"
+      },
+      "16411": {
+        "same_as": "30714:7"
+      },
+      "16470": {
+        "same_as": "30714:7"
+      },
+      "17589": {
+        "same_as": "30714:7"
+      },
+      "18897": {
+        "same_as": "30714:7"
+      },
+      "19359": {
+        "same_as": "30714:7"
+      },
+      "19393": {
+        "same_as": "30714:7"
+      },
+      "19557": {
+        "same_as": "30714:7"
+      },
+      "21155": {
+        "same_as": "30714:7"
+      },
+      "23660": {
+        "same_as": "30714:7"
+      },
+      "23661": {
+        "same_as": "30714:7"
+      },
+      "23807": {
+        "same_as": "30714:7"
+      },
+      "25304": {
+        "same_as": "30714:7"
+      },
+      "25306": {
+        "same_as": "30714:7"
+      },
+      "28617": {
+        "same_as": "30714:7"
+      },
+      "28742": {
+        "same_as": "30714:7"
+      },
+      "30116": {
+        "same_as": "30714:7"
+      }
     },
     "tags": [
-      "urchin-hideout",
-      "meta:map:virtual room"
+      "meta:map:virtual room",
+      "urchin-hideout"
     ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "checksum": "c48d6fe0ae443272a1c0070efffb3db8",
+  "checksum": "e12000446d9ab686c1d3ceec08a9ca7b",
   "room": {
     "id": 1983,
     "title": [
@@ -14,19 +14,47 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "1982": "west",
-      "12603": "/rooms/1983/wayto/stringproc-12603.rb",
-      "12622": "/rooms/1983/wayto/stringproc-12622.rb",
-      "12701": "/rooms/1983/wayto/stringproc-12701.rb"
+      "12603": {
+        "strategy": "voln_seeking",
+        "target": 12603
+      },
+      "12622": {
+        "strategy": "voln_seeking",
+        "target": 12622
+      },
+      "12701": {
+        "strategy": "voln_seeking",
+        "target": 12701
+      }
     },
     "timeto": {
       "1982": 0.2,
-      "12603": "/rooms/1983/timeto/stringproc-12603.rb",
-      "12622": "/rooms/1983/timeto/stringproc-12622.rb",
-      "12701": "/rooms/1983/timeto/stringproc-12701.rb"
+      "12603": {
+        "cost": 2.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "12622": {
+        "cost": 2.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "12701": {
+        "cost": 2.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      }
     },
     "tags": [
-      "voln",
-      "meta:seeking"
+      "meta:seeking",
+      "no forageables",
+      "voln"
     ],
     "uid": [
       3003048

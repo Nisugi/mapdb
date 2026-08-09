@@ -1,5 +1,5 @@
 {
-  "checksum": "453108100962b4b14a44d1271caf8344",
+  "checksum": "5932abbd015c2eae30456a204097aeb2",
   "room": {
     "id": 4140,
     "title": [
@@ -16,33 +16,70 @@
     "terrain": "barren scrub",
     "wayto": {
       "4139": "go path",
-      "4141": "/rooms/4140/wayto/stringproc-4141.rb",
-      "16392": "/rooms/4140/wayto/stringproc-16392.rb"
+      "4141": {
+        "strategy": "unique_crossing",
+        "name": "crossing_4140_4141"
+      },
+      "16392": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb gate"
+        }
+      ]
     },
     "timeto": {
       "4139": 0.2,
-      "4141": "/rooms/4140/timeto/stringproc-4141.rb",
-      "16392": "/rooms/4140/timeto/stringproc-16392.rb"
+      "4141": {
+        "cost": 0.6,
+        "requires": [
+          "spell_known:407,1604,304,1207"
+        ],
+        "else": {
+          "cost": 120,
+          "requires": [
+            "climb_vs_encumbrance:12"
+          ],
+          "else": {
+            "cost": 5.2,
+            "requires": [
+              "prof:Warrior",
+              "level:>=15"
+            ],
+            "else": {
+              "cost": 30
+            }
+          }
+        }
+      },
+      "16392": {
+        "cost": 3,
+        "requires": [
+          "climb_vs_encumbrance:12"
+        ]
+      }
     },
     "tags": [
-      "wintergreen leaf",
-      "sprig of larkspur",
-      "wild chokecherry",
-      "wild strawberry",
-      "sprig of wild lilac",
-      "bright red teaberry",
       "blue whortleberry",
-      "small wild rose",
-      "stalk of chicory",
-      "cothinar flower",
       "blueberries",
+      "bright red teaberry",
       "broken twig",
+      "cothinar flower",
       "ironfern root",
-      "wingstem root",
       "meta:forage-sensed",
-      "sunburst blossom",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2024-01",
-      "meta:forage-sensed:day:2025-02"
+      "sprig of larkspur",
+      "sprig of wild lilac",
+      "stalk of chicory",
+      "sunburst blossom",
+      "wild chokecherry",
+      "wild rose",
+      "wild strawberry",
+      "wingstem root",
+      "wintergreen leaf"
     ],
     "uid": [
       18002

@@ -1,5 +1,5 @@
 {
-  "checksum": "dd0a703aba9af91cb7c2d323a0589eec",
+  "checksum": "2d3aaa54362a33d628efdb342b76f38e",
   "room": {
     "id": 11466,
     "title": [
@@ -13,16 +13,96 @@
     ],
     "location": "Maelstrom Bay",
     "wayto": {
-      "11455": "/rooms/11466/wayto/stringproc-11455.rb",
-      "11458": "/rooms/11466/wayto/stringproc-11458.rb",
-      "11461": "/rooms/11466/wayto/stringproc-11461.rb",
-      "11462": "/rooms/11466/wayto/stringproc-11462.rb",
-      "11465": "/rooms/11466/wayto/stringproc-11465.rb",
-      "11467": "/rooms/11466/wayto/stringproc-11467.rb",
-      "11469": "/rooms/11466/wayto/stringproc-11469.rb",
-      "11472": "/rooms/11466/wayto/stringproc-11472.rb",
-      "16060": "/rooms/11466/wayto/stringproc-16060.rb",
-      "16121": "/rooms/11466/wayto/stringproc-16121.rb"
+      "11455": [
+        {
+          "do": "move",
+          "cmd": "swim up"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11458": [
+        {
+          "do": "move",
+          "cmd": "swim southeast"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11461": [
+        {
+          "do": "move",
+          "cmd": "swim south"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11462": [
+        {
+          "do": "move",
+          "cmd": "swim southwest"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11465": [
+        {
+          "do": "move",
+          "cmd": "swim west"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11467": [
+        {
+          "do": "move",
+          "cmd": "swim down"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11469": [
+        {
+          "do": "move",
+          "cmd": "swim northeast"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11472": [
+        {
+          "do": "move",
+          "cmd": "swim north"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "16060": [
+        {
+          "do": "move",
+          "cmd": "swim east"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "16121": [
+        {
+          "do": "move",
+          "cmd": "swim northwest"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "11455": 3,

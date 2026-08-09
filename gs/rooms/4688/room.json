@@ -1,5 +1,5 @@
 {
-  "checksum": "ae586df16f336cc3517188e4d916d440",
+  "checksum": "5797e3a9fb9994a723f02dbec2ef9078",
   "room": {
     "id": 4688,
     "title": [
@@ -15,13 +15,28 @@
     "location": "Cysaegir",
     "wayto": {
       "4687": "northwest",
-      "26096": "/rooms/4688/wayto/stringproc-26096.rb",
-      "26097": "/rooms/4688/wayto/stringproc-26097.rb",
-      "26105": "/rooms/4688/wayto/stringproc-26105.rb",
-      "26106": "/rooms/4688/wayto/stringproc-26106.rb",
-      "26107": "/rooms/4688/wayto/stringproc-26107.rb",
+      "26096": {
+        "strategy": "table_join",
+        "table": "gold wing"
+      },
+      "26097": {
+        "strategy": "table_join",
+        "table": "silver wing"
+      },
+      "26105": {
+        "strategy": "table_join",
+        "table": "chartreuse wing"
+      },
+      "26106": {
+        "strategy": "table_join",
+        "table": "sienna wing"
+      },
+      "26107": {
+        "strategy": "table_join",
+        "table": "teal wing"
+      },
       "29540": "go mahogany bar",
-      "30717": "/rooms/4688/wayto/stringproc-30717.rb"
+      "30717": []
     },
     "timeto": {
       "4687": 0.2,
@@ -31,15 +46,17 @@
       "26106": 0.2,
       "26107": 0.2,
       "29540": 0.2,
-      "30717": "/rooms/4688/timeto/stringproc-30717.rb"
+      "30717": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "table",
-      "no forageables",
       "meta:forage-sensed",
-      "urchin-access",
+      "no forageables",
+      "table",
+      "tables",
       "urchin guide tables",
-      "tables"
+      "urchin-access"
     ],
     "uid": [
       14051018

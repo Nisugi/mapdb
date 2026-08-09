@@ -1,5 +1,5 @@
 {
-  "checksum": "649c6b9c0a649095b97e5292632db029",
+  "checksum": "3a6ea3608f1afbc375363cd5d39b7672",
   "room": {
     "id": 19585,
     "title": [
@@ -19,19 +19,21 @@
       "3638": "west",
       "3641": "east",
       "30116": "go coral-tiled office",
-      "30718": "/rooms/19585/wayto/stringproc-30718.rb"
+      "30718": []
     },
     "timeto": {
       "3638": 0.2,
       "3641": 0.2,
       "30116": 0.2,
-      "30718": "/rooms/19585/timeto/stringproc-30718.rb"
+      "30718": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-10"
+      "meta:forage-sensed:day:2022-10",
+      "no forageables",
+      "urchin-access"
     ],
     "uid": [
       3201040

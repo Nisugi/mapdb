@@ -1,5 +1,5 @@
 {
-  "checksum": "7aff3d05c46835704fa7b94c8431d863",
+  "checksum": "21a9bc9ce36337a71e49e55a6b17306d",
   "room": {
     "id": 10997,
     "title": [
@@ -15,7 +15,7 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "10870": "/rooms/10997/wayto/stringproc-10870.rb",
+      "10870": "go doorway",
       "10998": "north",
       "10999": "east",
       "11000": "south",
@@ -29,8 +29,8 @@
       "11001": 0.2
     },
     "tags": [
-      "no forageables",
-      "meta:nomagic"
+      "meta:nomagic",
+      "no forageables"
     ],
     "uid": [
       2101706

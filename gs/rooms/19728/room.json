@@ -1,5 +1,5 @@
 {
-  "checksum": "d8c314cfd6a824fd705f2a76fcc5aafa",
+  "checksum": "d4ad48655236de8a5b8ec5d4de9407c4",
   "room": {
     "id": 19728,
     "title": [
@@ -15,7 +15,10 @@
     "wayto": {
       "19729": "go stone",
       "19732": "northwest",
-      "19992": "/rooms/19728/wayto/stringproc-19992.rb"
+      "19992": {
+        "strategy": "unique_crossing",
+        "name": "crossing_19728_19992"
+      }
     },
     "timeto": {
       "19729": 8,
@@ -23,12 +26,12 @@
       "19992": 0.2
     },
     "tags": [
-      "murdroot",
-      "wingstem root",
       "bur-clover root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
-      "meta:trap"
+      "meta:trap",
+      "murdroot",
+      "wingstem root"
     ],
     "uid": [
       11008

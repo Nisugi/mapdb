@@ -1,0 +1,25 @@
+{
+  "checksum": "978bca8ba1ef5208b7ce412f31c210cf",
+  "room": {
+    "id": 36792,
+    "title": [
+      "[Tempest Queen, Saloon]"
+    ],
+    "description": [
+      "Dimly lit by brass lanterns casting an amber glow over worn wooden tables and mismatched chairs, the saloon walls are adorned with peeling parchment posters and faded illustrations that tell a story of the boat's history.  A polished mahogany bar showcases an array of cut glass decanters and liquid-filled bottles that glint in the low light, while a dwarven bartender serves up drinks with a showman's flair.  Amidst a cloud of cigar smoke, patrons sing off-key to the tinny melody of an aged music box in the corner."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36787": "out"
+    },
+    "timeto": {
+      "36787": 0.2
+    },
+    "uid": [
+      7134109
+    ]
+  }
+}

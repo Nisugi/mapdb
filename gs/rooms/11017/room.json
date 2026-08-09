@@ -1,5 +1,5 @@
 {
-  "checksum": "8477ec9e5d210de1cfd6c7c3158e3b4e",
+  "checksum": "bf505c4edd28606ea45d36e25a6c35f3",
   "room": {
     "id": 11017,
     "title": [
@@ -16,18 +16,25 @@
     "wayto": {
       "11016": "west",
       "17348": "go gate",
-      "30711": "/rooms/11017/wayto/stringproc-30711.rb"
+      "30711": []
     },
     "timeto": {
       "11016": 0.2,
-      "17348": "/rooms/11017/timeto/stringproc-17348.rb",
-      "30711": "/rooms/11017/timeto/stringproc-30711.rb"
+      "17348": {
+        "cost": 0.2,
+        "requires": [
+          "prof:Warrior"
+        ]
+      },
+      "30711": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "warriorguild",
-      "urchin-access",
       "urchin guide warriorguild",
-      "warrior guild"
+      "urchin-access",
+      "warrior guild",
+      "warriorguild"
     ],
     "uid": [
       253001

@@ -1,5 +1,5 @@
 {
-  "checksum": "557e6d22f735c505c4e9b4961ab674ee",
+  "checksum": "57640c4eb9fa953454c13cf28a932c30",
   "room": {
     "id": 25231,
     "title": [
@@ -13,7 +13,10 @@
     ],
     "location": "the shadow of the Sanctum",
     "wayto": {
-      "25172": "/rooms/25231/wayto/stringproc-25172.rb"
+      "25172": {
+        "strategy": "unique_crossing",
+        "name": "crossing_25231_25172"
+      }
     },
     "timeto": {
       "25172": 0.2

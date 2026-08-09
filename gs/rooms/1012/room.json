@@ -1,5 +1,5 @@
 {
-  "checksum": "4da83c1c7529821177776da17af62110",
+  "checksum": "ce77205aa5506e7944bddedd2cce0637",
   "room": {
     "id": 1012,
     "title": [
@@ -14,18 +14,27 @@
     "location": "Zul Logoth",
     "wayto": {
       "1011": "east",
-      "1013": "/rooms/1012/wayto/stringproc-1013.rb",
-      "30712": "/rooms/1012/wayto/stringproc-30712.rb"
+      "1013": [
+        {
+          "do": "await",
+          "cmd": "buy ticket",
+          "for": "You\\ hastily\\ exit\\ the\\ cart",
+          "timeout": 30
+        }
+      ],
+      "30712": []
     },
     "timeto": {
       "1011": 0.2,
       "1013": 180,
-      "30712": "/rooms/1012/timeto/stringproc-30712.rb"
+      "30712": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "silver-cost:1013:1000",
-      "no forageables",
       "meta:forage-sensed",
+      "no forageables",
+      "silver-cost:1013:1000",
       "urchin guide westcart",
       "urchin-access",
       "westcart"

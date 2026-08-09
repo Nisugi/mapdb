@@ -1,5 +1,5 @@
 {
-  "checksum": "0da0c308f44465dd3ea1050df184ffee",
+  "checksum": "edc981c31de73064560941147f3eb4a8",
   "room": {
     "id": 6873,
     "title": [
@@ -15,16 +15,46 @@
     "wayto": {
       "6870": "south",
       "6874": "east",
-      "22161": "/rooms/6873/wayto/stringproc-22161.rb",
-      "22162": "/rooms/6873/wayto/stringproc-22162.rb",
-      "22163": "/rooms/6873/wayto/stringproc-22163.rb",
-      "22164": "/rooms/6873/wayto/stringproc-22164.rb",
-      "22165": "/rooms/6873/wayto/stringproc-22165.rb",
-      "22166": "/rooms/6873/wayto/stringproc-22166.rb",
-      "22167": "/rooms/6873/wayto/stringproc-22167.rb",
-      "22168": "/rooms/6873/wayto/stringproc-22168.rb",
-      "22169": "/rooms/6873/wayto/stringproc-22169.rb",
-      "22170": "/rooms/6873/wayto/stringproc-22170.rb"
+      "22161": {
+        "strategy": "table_join",
+        "table": "Grey Ghost"
+      },
+      "22162": {
+        "strategy": "table_join",
+        "table": "Bombastic Banshee"
+      },
+      "22163": {
+        "strategy": "table_join",
+        "table": "Fleeing Phantom"
+      },
+      "22164": {
+        "strategy": "table_join",
+        "table": "Wrangled Wraith"
+      },
+      "22165": {
+        "strategy": "table_join",
+        "table": "Xenophobic Zombie"
+      },
+      "22166": {
+        "strategy": "table_join",
+        "table": "Flustered Flibbertigibbet"
+      },
+      "22167": {
+        "strategy": "table_join",
+        "table": "Amicable Apparition"
+      },
+      "22168": {
+        "strategy": "table_join",
+        "table": "Religious Revenant"
+      },
+      "22169": {
+        "strategy": "table_join",
+        "table": "Sloppy Specter"
+      },
+      "22170": {
+        "strategy": "table_join",
+        "table": "Shameful Shade"
+      }
     },
     "timeto": {
       "6870": 0.2,
@@ -41,9 +71,9 @@
       "22170": 0.2
     },
     "tags": [
-      "table",
+      "meta:forage-sensed",
       "no forageables",
-      "meta:forage-sensed"
+      "table"
     ],
     "uid": [
       21113

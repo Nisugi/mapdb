@@ -1,5 +1,5 @@
 {
-  "checksum": "183ff8a2398b75333c36c51e49a13380",
+  "checksum": "1ba67d3ef0c29db84a14086315c706d1",
   "room": {
     "id": 3428,
     "title": [
@@ -14,13 +14,16 @@
     "location": "Icemule Trace",
     "wayto": {
       "3426": "west",
-      "30709": "/rooms/3428/wayto/stringproc-30709.rb"
+      "30709": []
     },
     "timeto": {
       "3426": 0.2,
-      "30709": "/rooms/3428/timeto/stringproc-30709.rb"
+      "30709": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "no forageables",
       "node",
       "supernode",
       "urchin-access"

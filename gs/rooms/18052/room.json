@@ -1,5 +1,5 @@
 {
-  "checksum": "5d55a42d0465adc7d1a2a831f451d6f3",
+  "checksum": "be3268a65145001610590d88afa519d5",
   "room": {
     "id": 18052,
     "title": [
@@ -13,10 +13,16 @@
     ],
     "location": "Ta'Vaalor",
     "wayto": {
-      "18043": "/rooms/18052/wayto/stringproc-18043.rb",
+      "18043": {
+        "strategy": "unique_crossing",
+        "name": "crossing_18052_18043"
+      },
       "18048": "west",
       "18053": "go archway",
-      "18054": "/rooms/18052/wayto/stringproc-18054.rb",
+      "18054": {
+        "strategy": "unique_crossing",
+        "name": "crossing_18043_18052"
+      },
       "18056": "northeast"
     },
     "timeto": {

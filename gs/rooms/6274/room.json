@@ -1,5 +1,5 @@
 {
-  "checksum": "9a0651bddc863d4df16ea56971626ac7",
+  "checksum": "76be4a8cb9f7b8e3ca2b516bf2506b6e",
   "room": {
     "id": 6274,
     "title": [
@@ -16,7 +16,10 @@
     "terrain": "none",
     "wayto": {
       "6272": "out",
-      "11032": "/rooms/6274/wayto/stringproc-11032.rb"
+      "11032": {
+        "strategy": "unique_crossing",
+        "name": "crossing_6274_11032"
+      }
     },
     "timeto": {
       "6272": 0.2,
@@ -24,15 +27,15 @@
     },
     "tags": [
       "boot",
-      "wolifrew lichen",
-      "withered black mushroom",
       "cave moss",
-      "murdroot",
       "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed",
       "kobold",
-      "meta:forage-sensed:day:2025-02"
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "wingstem root",
+      "withered mushroom",
+      "wolifrew lichen"
     ],
     "uid": [
       373014

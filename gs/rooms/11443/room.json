@@ -1,5 +1,5 @@
 {
-  "checksum": "e195d34bb68c5f43d4f93ef59ef941dd",
+  "checksum": "3538c35c9d900d5289797983f65031e6",
   "room": {
     "id": 11443,
     "title": [
@@ -16,18 +16,86 @@
     "climate": "saltwater",
     "terrain": "",
     "wayto": {
-      "11440": "/rooms/11443/wayto/stringproc-11440.rb",
-      "11442": "/rooms/11443/wayto/stringproc-11442.rb",
-      "11444": "/rooms/11443/wayto/stringproc-11444.rb"
+      "11440": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "southeast"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim southeast"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11442": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "northeast"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim northeast"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11444": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "south"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim south"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "11440": 2,
       "11442": 2,
-      "11444": "/rooms/11443/timeto/stringproc-11444.rb"
+      "11444": {
+        "cost": 0.2,
+        "requires": [
+          "spell:112"
+        ],
+        "else": {
+          "cost": 2
+        }
+      }
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       304033

@@ -1,1 +1,0 @@
-if Spell[112].active?; move 'west';else; move 'swim west';end

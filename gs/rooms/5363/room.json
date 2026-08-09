@@ -1,5 +1,5 @@
 {
-  "checksum": "27d64d3f917e2d8b6ee7837d77d79713",
+  "checksum": "45b29caa01c883d7c7c7148cb89b4de5",
   "room": {
     "id": 5363,
     "title": [
@@ -18,7 +18,21 @@
       "5361": "northwest",
       "5362": "northeast",
       "5364": "north",
-      "5368": "/rooms/5363/wayto/stringproc-5368.rb"
+      "5368": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb path"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ]
     },
     "timeto": {
       "5361": 0.2,
@@ -27,26 +41,27 @@
       "5368": 0.2
     },
     "tags": [
-      "withered black mushroom",
-      "bright red cranberry",
-      "wild chokecherry",
       "acantha leaf",
-      "calamia fruit",
       "aloeas stem",
+      "black peppercorn",
+      "bright red cranberry",
+      "bur-clover root",
+      "calamia fruit",
+      "cardamom",
+      "cinnamon bark",
+      "cumin seeds",
+      "golden flax fronds",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "motherwort",
       "murdroot",
-      "wingstem root",
-      "meta:forage-sensed",
-      "bur-clover root",
-      "cinnamon bark",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
       "nutmeg",
-      "cumin seeds",
+      "pink peppercorn",
       "star anise",
-      "meta:forage-sensed:day:2023-02"
+      "vanilla bean",
+      "wild chokecherry",
+      "wingstem root",
+      "withered mushroom"
     ],
     "uid": [
       4600006

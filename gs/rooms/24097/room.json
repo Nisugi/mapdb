@@ -1,5 +1,5 @@
 {
-  "checksum": "c338f15157302b2cb26d4ff7957514f5",
+  "checksum": "1391bad6d10bf0e016f48b1042c3abc4",
   "room": {
     "id": 24097,
     "title": [
@@ -17,7 +17,20 @@
       "24098": "west",
       "24101": "northwest",
       "24103": "north",
-      "24110": "/rooms/24097/wayto/stringproc-24110.rb"
+      "24110": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "crawl opening"
+        },
+        {
+          "do": "move",
+          "cmd": "up"
+        }
+      ]
     },
     "timeto": {
       "24096": 0.2,

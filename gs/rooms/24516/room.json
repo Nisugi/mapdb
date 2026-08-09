@@ -1,5 +1,5 @@
 {
-  "checksum": "ded690dd27b4cb23a45652738088f0b7",
+  "checksum": "dacc0808fd2b75e94dff24243decfdef",
   "room": {
     "id": 24516,
     "title": [
@@ -13,7 +13,10 @@
     ],
     "location": "Old Ta'Faendryl",
     "wayto": {
-      "15651": "/rooms/24516/wayto/stringproc-15651.rb"
+      "15651": {
+        "strategy": "unique_crossing",
+        "name": "crossing_24516_15651"
+      }
     },
     "timeto": {
       "15651": 1

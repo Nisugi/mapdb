@@ -1,5 +1,5 @@
 {
-  "checksum": "d1b37fddc12e043978d4b6ca17da756e",
+  "checksum": "c7bee3b564fdbdef17366a59ba3d2d80",
   "room": {
     "id": 31746,
     "title": [
@@ -15,26 +15,86 @@
     "wayto": {
       "31570": "go door",
       "31791": "northwest",
-      "32114": "/rooms/31746/wayto/stringproc-32114.rb",
-      "32148": "/rooms/31746/wayto/stringproc-32148.rb",
-      "32149": "/rooms/31746/wayto/stringproc-32149.rb",
-      "32150": "/rooms/31746/wayto/stringproc-32150.rb",
-      "32151": "/rooms/31746/wayto/stringproc-32151.rb",
-      "32152": "/rooms/31746/wayto/stringproc-32152.rb",
-      "32153": "/rooms/31746/wayto/stringproc-32153.rb",
-      "32154": "/rooms/31746/wayto/stringproc-32154.rb",
-      "32155": "/rooms/31746/wayto/stringproc-32155.rb",
-      "32156": "/rooms/31746/wayto/stringproc-32156.rb",
-      "32157": "/rooms/31746/wayto/stringproc-32157.rb",
-      "32158": "/rooms/31746/wayto/stringproc-32158.rb",
-      "32159": "/rooms/31746/wayto/stringproc-32159.rb",
-      "32160": "/rooms/31746/wayto/stringproc-32160.rb",
-      "32161": "/rooms/31746/wayto/stringproc-32161.rb",
-      "32162": "/rooms/31746/wayto/stringproc-32162.rb",
-      "32163": "/rooms/31746/wayto/stringproc-32163.rb",
-      "32164": "/rooms/31746/wayto/stringproc-32164.rb",
-      "32165": "/rooms/31746/wayto/stringproc-32165.rb",
-      "32166": "/rooms/31746/wayto/stringproc-32166.rb"
+      "32114": {
+        "strategy": "table_join",
+        "table": "Witch"
+      },
+      "32148": {
+        "strategy": "table_join",
+        "table": "Ghoul"
+      },
+      "32149": {
+        "strategy": "table_join",
+        "table": "Goblin"
+      },
+      "32150": {
+        "strategy": "table_join",
+        "table": "Spirit"
+      },
+      "32151": {
+        "strategy": "table_join",
+        "table": "Ghost"
+      },
+      "32152": {
+        "strategy": "table_join",
+        "table": "Demon"
+      },
+      "32153": {
+        "strategy": "table_join",
+        "table": "Zombie"
+      },
+      "32154": {
+        "strategy": "table_join",
+        "table": "Banshee"
+      },
+      "32155": {
+        "strategy": "table_join",
+        "table": "Spectre"
+      },
+      "32156": {
+        "strategy": "table_join",
+        "table": "Revenant"
+      },
+      "32157": {
+        "strategy": "table_join",
+        "table": "Wraith"
+      },
+      "32158": {
+        "strategy": "table_join",
+        "table": "Shade"
+      },
+      "32159": {
+        "strategy": "table_join",
+        "table": "Apparition"
+      },
+      "32160": {
+        "strategy": "table_join",
+        "table": "Phantom"
+      },
+      "32161": {
+        "strategy": "table_join",
+        "table": "Necromancer"
+      },
+      "32162": {
+        "strategy": "table_join",
+        "table": "Warlock"
+      },
+      "32163": {
+        "strategy": "table_join",
+        "table": "Wight"
+      },
+      "32164": {
+        "strategy": "table_join",
+        "table": "Bogey"
+      },
+      "32165": {
+        "strategy": "table_join",
+        "table": "Eidolon"
+      },
+      "32166": {
+        "strategy": "table_join",
+        "table": "Phantasm"
+      }
     },
     "timeto": {
       "31570": 0.2,
@@ -61,12 +121,12 @@
       "32166": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-10",
+      "no forageables",
+      "table",
       "tables",
-      "tables2",
-      "table"
+      "tables2"
     ],
     "uid": [
       8087128

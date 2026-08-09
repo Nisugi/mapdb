@@ -1,5 +1,5 @@
 {
-  "checksum": "ef0ca88dbc5b767d328d01b931020329",
+  "checksum": "a579298df4fad21191d9ece62d7752fa",
   "room": {
     "id": 21308,
     "title": [
@@ -15,7 +15,12 @@
     "wayto": {
       "21305": "south",
       "21309": "go curtain",
-      "21310": "/rooms/21308/wayto/stringproc-21310.rb"
+      "21310": [
+        {
+          "do": "send",
+          "cmd": "pull lever"
+        }
+      ]
     },
     "timeto": {
       "21305": 0.2,
@@ -23,8 +28,8 @@
       "21310": 0.2
     },
     "tags": [
-      "meta:che:House Brigatta",
-      "meta:che:brigatta:entrance_locker"
+      "meta:che:brigatta:entrance_locker",
+      "meta:che:House Brigatta"
     ],
     "uid": [
       107107

@@ -1,5 +1,5 @@
 {
-  "checksum": "14a8945de74e4437a149744816fe3bff",
+  "checksum": "2f5343e1b80cdf13bebdc23b3c8447f5",
   "room": {
     "id": 3510,
     "title": [
@@ -20,22 +20,24 @@
       "3509": "west",
       "3511": "east",
       "10759": "go path",
-      "30713": "/rooms/3510/wayto/stringproc-30713.rb"
+      "30713": []
     },
     "timeto": {
       "3509": 0.2,
       "3511": 0.2,
       "10759": 0.2,
-      "30713": "/rooms/3510/timeto/stringproc-30713.rb"
+      "30713": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "empath guild",
       "empathguild",
-      "urchin guide empathguild",
-      "urchin-access",
       "meta:forage-sensed",
-      "no forageables",
       "meta:forage-sensed:night:2023-01",
-      "empath guild"
+      "no forageables",
+      "urchin guide empathguild",
+      "urchin-access"
     ],
     "uid": [
       14100072

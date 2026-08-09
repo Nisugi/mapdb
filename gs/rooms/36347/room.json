@@ -1,0 +1,34 @@
+{
+  "checksum": "fb50ce51e6058b0604ac66bc8493ffa8",
+  "room": {
+    "id": 36347,
+    "title": [
+      "[Meadow, Trail]"
+    ],
+    "description": [
+      "The flat ground becomes barer, the weeds thin out, the castle looms closer.  The jumble of small trails converges to a track leading along the banks of the moat."
+    ],
+    "paths": [
+      "Obvious paths: north, southwest"
+    ],
+    "location": "the Upper Trollfang",
+    "wayto": {
+      "36346": "southwest",
+      "36454": "north"
+    },
+    "timeto": {
+      "36346": 0.2,
+      "36454": 0.2
+    },
+    "uid": [
+      55006
+    ],
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      440,
+      920,
+      480,
+      960
+    ]
+  }
+}

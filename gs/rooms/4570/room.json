@@ -1,5 +1,5 @@
 {
-  "checksum": "ff5da038fc2326e1b80af55ab4e8674a",
+  "checksum": "c82207f7bf1d5ecc4954cd24819723fd",
   "room": {
     "id": 4570,
     "title": [
@@ -15,26 +15,72 @@
     "climate": "glacial",
     "terrain": "mountainous",
     "wayto": {
-      "4569": "/rooms/4570/wayto/stringproc-4569.rb",
-      "4571": "/rooms/4570/wayto/stringproc-4571.rb"
+      "4569": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "up"
+        }
+      ],
+      "4571": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "down"
+        }
+      ]
     },
     "timeto": {
       "4569": 4.2,
       "4571": 4.2
     },
     "tags": [
-      "sassafras leaf",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "sprig of holly",
+      "deep purple shockroot",
       "ironfern root",
       "meta:forage-sensed",
-      "sunburst blossom",
-      "deep purple shockroot",
       "meta:forage-sensed:day:2023-11",
-      "meta:forage-sensed:night:2024-05"
+      "meta:forage-sensed:night:2024-05",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sprig of holly",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root"
     ],
     "uid": [
       13302133

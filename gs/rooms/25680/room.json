@@ -1,5 +1,5 @@
 {
-  "checksum": "05f029ade5de2cc3b3cb9c1fec9c23fb",
+  "checksum": "37a5ce70505dc6d6e8cbe58cb5ac035f",
   "room": {
     "id": 25680,
     "title": [
@@ -14,8 +14,14 @@
     "location": "Solhaven",
     "wayto": {
       "25671": "out",
-      "25681": "/rooms/25680/wayto/stringproc-25681.rb",
-      "25682": "/rooms/25680/wayto/stringproc-25682.rb"
+      "25681": {
+        "strategy": "table_join",
+        "table": "large"
+      },
+      "25682": {
+        "strategy": "table_join",
+        "table": "small"
+      }
     },
     "timeto": {
       "25671": 0.2,

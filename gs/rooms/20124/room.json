@@ -1,5 +1,5 @@
 {
-  "checksum": "1a2d101bb2b8f9b0d9d0377db3237da1",
+  "checksum": "22d648293c899aa0f427391635ddeaa3",
   "room": {
     "id": 20124,
     "title": [
@@ -15,7 +15,16 @@
     "wayto": {
       "20123": "go path",
       "20376": "southeast",
-      "22619": "/rooms/20124/wayto/stringproc-22619.rb"
+      "22619": [
+        {
+          "do": "send",
+          "cmd": "go field"
+        },
+        {
+          "do": "send",
+          "cmd": "go field"
+        }
+      ]
     },
     "timeto": {
       "20123": 0.2,

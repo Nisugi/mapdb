@@ -1,5 +1,5 @@
 {
-  "checksum": "24fcdbdc62975cbabb926bec3af4418a",
+  "checksum": "603ace9266ef0f92b7056c9ef449eb9f",
   "room": {
     "id": 24152,
     "title": [
@@ -13,8 +13,30 @@
     ],
     "location": "the Feywrot Mire",
     "wayto": {
-      "24151": "/rooms/24152/wayto/stringproc-24151.rb",
-      "24154": "/rooms/24152/wayto/stringproc-24154.rb"
+      "24151": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "south"
+            }
+          ]
+        }
+      ],
+      "24154": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "ne"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "24151": 0.2,

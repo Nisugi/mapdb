@@ -1,5 +1,5 @@
 {
-  "checksum": "c3c1598b19f72b70317a86595ceee015",
+  "checksum": "80c97b41c48913403c497a870a3a51c7",
   "room": {
     "id": 13169,
     "title": [
@@ -15,17 +15,20 @@
     "wayto": {
       "1276": "north",
       "10837": "go passageway",
-      "30714": "/rooms/13169/wayto/stringproc-30714.rb"
+      "30714": []
     },
     "timeto": {
       "1276": 0.2,
       "10837": 0.2,
-      "30714": "/rooms/13169/timeto/stringproc-30714.rb"
+      "30714": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "chronomage",
-      "urchin-access",
-      "urchin guide chronomages"
+      "no forageables",
+      "urchin guide chronomages",
+      "urchin-access"
     ],
     "uid": [
       13112406

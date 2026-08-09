@@ -1,5 +1,5 @@
 {
-  "checksum": "545896a9a74d3ab25ad31f678668dcce",
+  "checksum": "3e6a2f845a0ca610aaab1ea9d51fe24c",
   "room": {
     "id": 32873,
     "title": [
@@ -16,17 +16,20 @@
     "terrain": "hard, flat",
     "wayto": {
       "5749": "out",
-      "13532": "/rooms/32873/wayto/stringproc-13532.rb"
+      "13532": {
+        "strategy": "unique_crossing",
+        "name": "crossing_32873_13532"
+      }
     },
     "timeto": {
       "5749": 0.2,
       "13532": 0.2
     },
     "tags": [
-      "silverwood",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "no forageables",
+      "silverwood"
     ],
     "uid": [
       4384070

@@ -1,5 +1,5 @@
 {
-  "checksum": "3839cee5aa6411dba02670180ffa1de3",
+  "checksum": "34ee00c4a7e3354a2f69b50cb828e1ba",
   "room": {
     "id": 26045,
     "title": [
@@ -13,11 +13,14 @@
     ],
     "location": "Ta'Vaalor",
     "wayto": {
-      "10418": "/rooms/26045/wayto/stringproc-10418.rb"
+      "10418": "go north"
     },
     "timeto": {
       "10418": 0.2
     },
+    "tags": [
+      "no forageables"
+    ],
     "uid": [
       14109023
     ],

@@ -1,5 +1,5 @@
 {
-  "checksum": "c8bc5d0f54524057e117da0e3d273715",
+  "checksum": "659cdcdecc668a37a689dc785bc30a52",
   "room": {
     "id": 7,
     "title": [
@@ -22,10 +22,45 @@
       "155": "north",
       "196": "southwest",
       "208": "northwest",
-      "3668": "/rooms/7/wayto/stringproc-3668.rb",
-      "26905": "/rooms/7/wayto/stringproc-26905.rb",
-      "30714": "/rooms/7/wayto/stringproc-30714.rb",
-      "31558": "/rooms/7/wayto/stringproc-31558.rb"
+      "3668": {
+        "strategy": "unique_crossing",
+        "name": "crossing_7_3668"
+      },
+      "26905": [
+        {
+          "do": "repeat",
+          "times": 2,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "event transport duskruin"
+            }
+          ]
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": 7
+        }
+      ],
+      "30714": [],
+      "31558": [
+        {
+          "do": "repeat",
+          "times": 2,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "event transport ebon gate"
+            }
+          ]
+        },
+        {
+          "do": "set",
+          "var": "ebon_gate_origin",
+          "value": 7
+        }
+      ]
     },
     "timeto": {
       "6": 0.2,
@@ -33,19 +68,37 @@
       "155": 0.2,
       "196": 0.2,
       "208": 0.2,
-      "3668": "/rooms/7/timeto/stringproc-3668.rb",
+      "3668": {
+        "cost": 15,
+        "requires": [
+          "var:fwi_trinket"
+        ]
+      },
       "26905": 2400,
-      "30714": "/rooms/7/timeto/stringproc-30714.rb",
-      "31558": "/rooms/7/timeto/stringproc-31558.rb"
+      "30714": {
+        "cost": 0.1,
+        "requires": [
+          "setting:urchins",
+          "grant:urchins_expire",
+          "not:hidden",
+          "not:invisible"
+        ]
+      },
+      "31558": {
+        "cost": 2400,
+        "requires": [
+          "month:10"
+        ]
+      }
     },
     "tags": [
-      "urchin guide moonglae",
-      "urchin-access",
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-11",
+      "meta:fwi:teleport",
       "meta:teleport",
-      "meta:fwi:teleport"
+      "no forageables",
+      "urchin guide moonglae",
+      "urchin-access"
     ],
     "uid": [
       13101017

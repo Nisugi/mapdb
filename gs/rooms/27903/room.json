@@ -1,5 +1,5 @@
 {
-  "checksum": "eb1dae378b8948d83c5b58bc5f45d51e",
+  "checksum": "5b6d3dd2a1b0dd2663ffde729653a447",
   "room": {
     "id": 27903,
     "title": [
@@ -13,7 +13,15 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "23199": "/rooms/27903/wayto/stringproc-23199.rb",
+      "23199": [
+        {
+          "do": "move",
+          "cmd": "go curtain"
+        },
+        {
+          "do": "replan"
+        }
+      ],
       "27904": "west"
     },
     "timeto": {
@@ -21,8 +29,8 @@
       "27904": 0.2
     },
     "tags": [
-      "meta:locker annex:Silvergate Inn",
-      "meta:che:silvergate_inn:entrance_annex"
+      "meta:che:silvergate_inn:entrance_annex",
+      "meta:locker annex:Silvergate Inn"
     ],
     "uid": [
       5001253

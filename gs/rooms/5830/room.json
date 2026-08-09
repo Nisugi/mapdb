@@ -1,5 +1,5 @@
 {
-  "checksum": "af233c322c7a508434b88a1c4cdb8779",
+  "checksum": "15ef1045ba002961a391c407331d4b75",
   "room": {
     "id": 5830,
     "title": [
@@ -17,16 +17,49 @@
     "wayto": {
       "5829": "go bridge",
       "5831": "northeast",
-      "23525": "/rooms/5830/wayto/stringproc-23525.rb"
+      "23525": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "search",
+              "for": "don't find anything|discover a rocky trail|Round ?time|\\.\\.\\.[Ww]ait",
+              "timeout": 5,
+              "if_match": {
+                "pattern": "discover a rocky trail",
+                "steps": [
+                  {
+                    "do": "break"
+                  }
+                ]
+              }
+            },
+            {
+              "do": "wait_rt"
+            }
+          ],
+          "times": 10
+        },
+        {
+          "do": "move",
+          "cmd": "go rocky trail"
+        }
+      ]
     },
     "timeto": {
       "5829": 0.2,
       "5831": 0.2,
-      "23525": "/rooms/5830/timeto/stringproc-23525.rb"
+      "23525": {
+        "cost": 0.2,
+        "requires": [
+          "skill:perception>=30"
+        ]
+      }
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       14003001

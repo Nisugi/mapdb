@@ -1,5 +1,5 @@
 {
-  "checksum": "661d3cc5047d691e87a1afc89d6ccb8b",
+  "checksum": "5978b386f2eddb4d06adafee1b9e7ef7",
   "room": {
     "id": 5906,
     "title": [
@@ -18,7 +18,22 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "3523": "/rooms/5906/wayto/stringproc-3523.rb",
+      "3523": [
+        {
+          "do": "if",
+          "when": "status:invisible",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "unhide"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go gate"
+        }
+      ],
       "10494": "southeast"
     },
     "timeto": {
@@ -27,9 +42,9 @@
     },
     "tags": [
       "advguard",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09"
+      "meta:forage-sensed:night:2022-09",
+      "no forageables"
     ],
     "uid": [
       14100039

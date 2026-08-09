@@ -1,5 +1,5 @@
 {
-  "checksum": "96eec9702213e1e82976c1f2052ac433",
+  "checksum": "0b0fc7a57a75b37f0bb24176cad72c62",
   "room": {
     "id": 12159,
     "title": [
@@ -16,7 +16,57 @@
     "climate": "cold, dry",
     "terrain": "hard, flat",
     "wayto": {
-      "2579": "/rooms/12159/wayto/stringproc-2579.rb",
+      "2579": {
+        "strategy": "patrol_search",
+        "rooms": [
+          12162,
+          12207,
+          12170,
+          12209,
+          12215,
+          12210,
+          12159,
+          12165,
+          12206,
+          12173,
+          12208,
+          null,
+          12160,
+          12211
+        ],
+        "dirs": [
+          "northwest",
+          "north",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "north",
+          "northwest",
+          "west",
+          "east",
+          "northeast",
+          "northwest",
+          "northeast"
+        ],
+        "objects": [
+          "thread"
+        ],
+        "enter": [
+          {
+            "do": "move",
+            "cmd": "climb thread"
+          },
+          {
+            "do": "wait_rt"
+          },
+          {
+            "do": "send",
+            "cmd": "stand"
+          }
+        ]
+      },
       "12165": "northeast",
       "12210": "southeast",
       "12211": "west"
@@ -28,17 +78,17 @@
       "12211": 0.2
     },
     "tags": [
-      "mass of congealed slime",
-      "oozing fleshsore bulb",
-      "fleshsore bulb",
-      "discolored fleshbinder bud",
-      "withered deathblossom",
-      "twisted black mawflower",
-      "fleshbinder bud",
-      "grave blossom",
       "black mawflower",
+      "discolored fleshbinder bud",
+      "fleshbinder bud",
+      "fleshsore bulb",
+      "grave blossom",
       "green fleshbulb",
-      "meta:forage-sensed"
+      "mass of congealed slime",
+      "meta:forage-sensed",
+      "oozing fleshsore bulb",
+      "twisted black mawflower",
+      "withered deathblossom"
     ],
     "uid": [
       4570003

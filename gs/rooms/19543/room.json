@@ -1,5 +1,5 @@
 {
-  "checksum": "5c6a71b65e142731ea5241ede712186d",
+  "checksum": "e7cf0e7f280c9c08ca6b90c97ae597f3",
   "room": {
     "id": 19543,
     "title": [
@@ -15,22 +15,25 @@
     "climate": "cold, dry",
     "terrain": "barren scrub",
     "wayto": {
-      "1102": "/rooms/19543/wayto/stringproc-1102.rb"
+      "1102": {
+        "strategy": "unique_crossing",
+        "name": "crossing_19543_1102"
+      }
     },
     "timeto": {
       "1102": 0.4
     },
     "tags": [
-      "no-auto-map",
-      "cothinar flower",
-      "wintergreen leaf",
       "bright red teaberry",
-      "stalk of chicory",
       "broken twig",
-      "sprig of larkspur",
+      "cothinar flower",
       "ironfern root",
+      "meta:forage-sensed",
+      "no-auto-map",
+      "sprig of larkspur",
+      "stalk of chicory",
       "sunburst blossom",
-      "meta:forage-sensed"
+      "wintergreen leaf"
     ],
     "uid": [
       13001081

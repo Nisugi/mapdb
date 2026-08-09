@@ -1,5 +1,5 @@
 {
-  "checksum": "de5bc88e148c13db554e7104e98b6a6b",
+  "checksum": "e3285c1c840b2253f8ae9f4636b2d9f4",
   "room": {
     "id": 2455,
     "title": [
@@ -21,23 +21,25 @@
       "3234": "go east gate",
       "27716": "go north tower",
       "27723": "go south tower",
-      "30709": "/rooms/2455/wayto/stringproc-30709.rb"
+      "30709": []
     },
     "timeto": {
       "2452": 0.2,
       "3234": 0.2,
       "27716": 0.2,
       "27723": 0.2,
-      "30709": "/rooms/2455/timeto/stringproc-30709.rb"
+      "30709": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "calmintha flower",
-      "urchin-access",
-      "urchin guide eastgate",
       "eastgate",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2022-09",
-      "meta:forage-sensed:day:2023-01"
+      "stalk of bluebells",
+      "urchin guide eastgate",
+      "urchin-access"
     ],
     "uid": [
       4042305

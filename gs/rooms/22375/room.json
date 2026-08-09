@@ -1,5 +1,5 @@
 {
-  "checksum": "e9de8c8d9a8f3d39d7404d2052f4fe88",
+  "checksum": "839425923681777de8221374544a7316",
   "room": {
     "id": 22375,
     "title": [
@@ -18,7 +18,12 @@
     },
     "timeto": {
       "22358": 0.2,
-      "22376": "/rooms/22375/timeto/stringproc-22376.rb"
+      "22376": {
+        "cost": 0.2,
+        "requires": [
+          "race:Halfling"
+        ]
+      }
     },
     "tags": [
       "no forageables"

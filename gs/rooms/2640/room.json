@@ -1,5 +1,5 @@
 {
-  "checksum": "4abb814cd0dc9926d7496bfc63970c30",
+  "checksum": "0d5b0bd572bd759298362edfc6ca8cf3",
   "room": {
     "id": 2640,
     "title": [
@@ -13,9 +13,45 @@
     ],
     "location": false,
     "wayto": {
-      "2639": "/rooms/2640/wayto/stringproc-2639.rb",
-      "2641": "/rooms/2640/wayto/stringproc-2641.rb",
-      "2642": "/rooms/2640/wayto/stringproc-2642.rb"
+      "2639": [
+        {
+          "do": "move",
+          "cmd": "swim up"
+        },
+        {
+          "do": "sleep",
+          "seconds": 1
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "2641": [
+        {
+          "do": "move",
+          "cmd": "swim down"
+        },
+        {
+          "do": "sleep",
+          "seconds": 1
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "2642": [
+        {
+          "do": "move",
+          "cmd": "swim opening"
+        },
+        {
+          "do": "sleep",
+          "seconds": 1
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "2639": 5,

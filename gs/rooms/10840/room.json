@@ -1,5 +1,5 @@
 {
-  "checksum": "e19d704cb326771906b06c44a58d16fc",
+  "checksum": "ece12f9100324df13e80376da8ce8346",
   "room": {
     "id": 10840,
     "title": [
@@ -20,7 +20,7 @@
       "10846": "east",
       "10852": "north",
       "11006": "go drawbridge",
-      "30711": "/rooms/10840/wayto/stringproc-30711.rb"
+      "30711": []
     },
     "timeto": {
       "10838": 0.2,
@@ -28,20 +28,22 @@
       "10846": 0.2,
       "10852": 0.2,
       "11006": 0.2,
-      "30711": "/rooms/10840/timeto/stringproc-30711.rb"
+      "30711": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "alchemy sea water",
-      "urchin guide drawbridge",
-      "urchin-access",
-      "sovyn clove",
-      "meta:forage-sensed",
-      "curly garlic scapes",
       "birch bark",
+      "curly garlic scapes",
       "ghost pepper",
       "hot pepper",
+      "meta:forage-sensed",
       "meta:forage-sensed:day:2024-05",
-      "no forageables"
+      "no forageables",
+      "sovyn clove",
+      "urchin guide drawbridge",
+      "urchin-access"
     ],
     "uid": [
       2101001

@@ -1,5 +1,5 @@
 {
-  "checksum": "1330e3a7ed52100d7c6f427ccac4765a",
+  "checksum": "adb5033fccd6ca8b01539adc9dd99729",
   "room": {
     "id": 18117,
     "title": [
@@ -15,7 +15,16 @@
     "wayto": {
       "18114": "climb ramp",
       "18118": "go overhang",
-      "18894": "/rooms/18117/wayto/stringproc-18894.rb"
+      "18894": [
+        {
+          "do": "send",
+          "cmd": "go overhang"
+        },
+        {
+          "do": "send",
+          "cmd": "go door"
+        }
+      ]
     },
     "timeto": {
       "18114": 0.2,

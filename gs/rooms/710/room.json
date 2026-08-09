@@ -1,5 +1,5 @@
 {
-  "checksum": "0f4dd89502a79a21bb85f462ac5ae18b",
+  "checksum": "5584c0ee08e60cecdf63b95f6e373a72",
   "room": {
     "id": 710,
     "title": [
@@ -20,18 +20,20 @@
     "wayto": {
       "164": "east",
       "711": "south",
-      "30714": "/rooms/710/wayto/stringproc-30714.rb"
+      "30714": []
     },
     "timeto": {
       "164": 0.2,
       "711": 0.2,
-      "30714": "/rooms/710/timeto/stringproc-30714.rb"
+      "30714": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
+      "meta:forage-sensed:night:2022-11",
+      "no forageables",
+      "urchin-access"
     ],
     "uid": [
       13101004

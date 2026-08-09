@@ -1,5 +1,5 @@
 {
-  "checksum": "8635298ff6fa8500a5baf33e12f7c6c9",
+  "checksum": "59d1c2093912407f7196996c68bde360",
   "room": {
     "id": 24149,
     "title": [
@@ -14,7 +14,15 @@
     "location": "the Feywrot Mire",
     "wayto": {
       "24148": "south",
-      "24151": "/rooms/24149/wayto/stringproc-24151.rb"
+      "24151": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "go gondolas"
+        }
+      ]
     },
     "timeto": {
       "24148": 0.2,

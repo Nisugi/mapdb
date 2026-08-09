@@ -1,5 +1,5 @@
 {
-  "checksum": "c62b99923b191ecbaf77abeec337b6a6",
+  "checksum": "41415de24f538d009a49f4a1aa5a70ab",
   "room": {
     "id": 22065,
     "title": [
@@ -14,11 +14,26 @@
     "location": "Mist Harbor",
     "wayto": {
       "22062": "go archway",
-      "28239": "/rooms/22065/wayto/stringproc-28239.rb",
-      "28240": "/rooms/22065/wayto/stringproc-28240.rb",
-      "28241": "/rooms/22065/wayto/stringproc-28241.rb",
-      "28242": "/rooms/22065/wayto/stringproc-28242.rb",
-      "28243": "/rooms/22065/wayto/stringproc-28243.rb"
+      "28239": {
+        "strategy": "table_join",
+        "table": "poet's"
+      },
+      "28240": {
+        "strategy": "table_join",
+        "table": "minstrel's"
+      },
+      "28241": {
+        "strategy": "table_join",
+        "table": "jester's"
+      },
+      "28242": {
+        "strategy": "table_join",
+        "table": "troubadour's"
+      },
+      "28243": {
+        "strategy": "table_join",
+        "table": "skald's"
+      }
     },
     "timeto": {
       "22062": 0.2,

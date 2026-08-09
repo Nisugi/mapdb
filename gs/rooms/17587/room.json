@@ -1,5 +1,5 @@
 {
-  "checksum": "bed095ad8a8b45134751a81e7431a00c",
+  "checksum": "cb2a06debb02cfe09135ce57fa60edde",
   "room": {
     "id": 17587,
     "title": [
@@ -20,20 +20,22 @@
       "17583": "southeast",
       "17588": "northwest",
       "17602": "northeast",
-      "30718": "/rooms/17587/wayto/stringproc-30718.rb"
+      "30718": []
     },
     "timeto": {
       "16061": 0.2,
       "17583": 0.2,
       "17588": 0.2,
       "17602": 0.2,
-      "30718": "/rooms/17587/timeto/stringproc-30718.rb"
+      "30718": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "supernode",
+      "no forageables",
       "node",
-      "urchin-access",
-      "no forageables"
+      "supernode",
+      "urchin-access"
     ],
     "uid": [
       3216007

@@ -1,5 +1,5 @@
 {
-  "checksum": "caf2caa032ad0374f3937b6afbda12d9",
+  "checksum": "9e79ac3c96f8c828ad689eaab55362ac",
   "room": {
     "id": 1262,
     "title": [
@@ -16,26 +16,86 @@
     "terrain": "none",
     "wayto": {
       "1263": "south",
-      "14965": "/rooms/1262/wayto/stringproc-14965.rb",
-      "22171": "/rooms/1262/wayto/stringproc-22171.rb",
-      "22172": "/rooms/1262/wayto/stringproc-22172.rb",
-      "22173": "/rooms/1262/wayto/stringproc-22173.rb",
-      "22174": "/rooms/1262/wayto/stringproc-22174.rb",
-      "22175": "/rooms/1262/wayto/stringproc-22175.rb",
-      "22176": "/rooms/1262/wayto/stringproc-22176.rb",
-      "22177": "/rooms/1262/wayto/stringproc-22177.rb",
-      "22178": "/rooms/1262/wayto/stringproc-22178.rb",
-      "22179": "/rooms/1262/wayto/stringproc-22179.rb",
-      "22180": "/rooms/1262/wayto/stringproc-22180.rb",
-      "22181": "/rooms/1262/wayto/stringproc-22181.rb",
-      "22182": "/rooms/1262/wayto/stringproc-22182.rb",
-      "22183": "/rooms/1262/wayto/stringproc-22183.rb",
-      "22184": "/rooms/1262/wayto/stringproc-22184.rb",
-      "22185": "/rooms/1262/wayto/stringproc-22185.rb",
-      "22186": "/rooms/1262/wayto/stringproc-22186.rb",
-      "22187": "/rooms/1262/wayto/stringproc-22187.rb",
-      "22188": "/rooms/1262/wayto/stringproc-22188.rb",
-      "22189": "/rooms/1262/wayto/stringproc-22189.rb"
+      "14965": {
+        "strategy": "table_join",
+        "table": "Rampant Rat"
+      },
+      "22171": {
+        "strategy": "table_join",
+        "table": "Drooling Rolton"
+      },
+      "22172": {
+        "strategy": "table_join",
+        "table": "Sneaky Kobold"
+      },
+      "22173": {
+        "strategy": "table_join",
+        "table": "Soaring Blood Eagle"
+      },
+      "22174": {
+        "strategy": "table_join",
+        "table": "Striking Cobra"
+      },
+      "22175": {
+        "strategy": "table_join",
+        "table": "Ghastly Revenant"
+      },
+      "22176": {
+        "strategy": "table_join",
+        "table": "Tenacious Wolverine"
+      },
+      "22177": {
+        "strategy": "table_join",
+        "table": "Charmed Cockatrice"
+      },
+      "22178": {
+        "strategy": "table_join",
+        "table": "Naughty Monkey"
+      },
+      "22179": {
+        "strategy": "table_join",
+        "table": "Hissing Basilisk"
+      },
+      "22180": {
+        "strategy": "table_join",
+        "table": "Spinning Spider"
+      },
+      "22181": {
+        "strategy": "table_join",
+        "table": "Rival Thrak"
+      },
+      "22182": {
+        "strategy": "table_join",
+        "table": "Smelly Manticore"
+      },
+      "22183": {
+        "strategy": "table_join",
+        "table": "Stunning Grey Orc"
+      },
+      "22184": {
+        "strategy": "table_join",
+        "table": "Hungry Ghost Wolf"
+      },
+      "22185": {
+        "strategy": "table_join",
+        "table": "Ugly Cave Troll"
+      },
+      "22186": {
+        "strategy": "table_join",
+        "table": "Pouncing Puma"
+      },
+      "22187": {
+        "strategy": "table_join",
+        "table": "Raiding Krolvin"
+      },
+      "22188": {
+        "strategy": "table_join",
+        "table": "Beautiful Vereri"
+      },
+      "22189": {
+        "strategy": "table_join",
+        "table": "Savage Warcat"
+      }
     },
     "timeto": {
       "1263": 0.2,
@@ -61,8 +121,8 @@
       "22189": 0.2
     },
     "tags": [
-      "table",
-      "no forageables"
+      "no forageables",
+      "table"
     ],
     "uid": [
       412045

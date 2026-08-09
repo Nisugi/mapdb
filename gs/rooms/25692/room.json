@@ -1,5 +1,5 @@
 {
-  "checksum": "4c1998ce6e3cc778370ffd59465c68c7",
+  "checksum": "f17038cef7a0a3e0939277747ee50824",
   "room": {
     "id": 25692,
     "title": [
@@ -15,9 +15,48 @@
     "climate": "saltwater",
     "terrain": "hard, flat",
     "wayto": {
-      "25691": "/rooms/25692/wayto/stringproc-25691.rb",
-      "25693": "/rooms/25692/wayto/stringproc-25693.rb",
-      "25819": "/rooms/25692/wayto/stringproc-25819.rb"
+      "25691": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "pedal #{direction}",
+              "for": "pedal",
+              "timeout": 2
+            }
+          ]
+        }
+      ],
+      "25693": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "pedal #{direction}",
+              "for": "pedal",
+              "timeout": 2
+            }
+          ]
+        }
+      ],
+      "25819": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "pedal #{direction}",
+              "for": "pedal",
+              "timeout": 2
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "25691": 6,
@@ -25,10 +64,10 @@
       "25819": 6
     },
     "tags": [
-      "meta:mapname:Isle of the Four Winds - Eastern Waterway",
-      "meta:mapshortname:Eastern Waterway",
       "meta:mapcategory:Isle of the Four Winds",
       "meta:mapcategory:Premium",
+      "meta:mapname:Isle of the Four Winds - Eastern Waterway",
+      "meta:mapshortname:Eastern Waterway",
       "no forageables"
     ],
     "uid": [

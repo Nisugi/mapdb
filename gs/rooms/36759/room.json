@@ -1,0 +1,25 @@
+{
+  "checksum": "7b336df465a332401fd918969c5dfd4e",
+  "room": {
+    "id": 36759,
+    "title": [
+      "[The Dragon Macaw, A-Parrot-ly]"
+    ],
+    "description": [
+      "One entire wall of the cabin is comprised of a jade and wrought iron tree with dozens of spreading branches covered in lifelike mechanical parrots.  The rest of the cabin is awash with gadgets, gears, and mechanical doo-dads in various stages of assembly.  Behind a counter almost but not quite free of clutter, a burghal gnome sits tinkering with a bright green mithril parrot."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36758": "out"
+    },
+    "timeto": {
+      "36758": 0.2
+    },
+    "uid": [
+      7134212
+    ]
+  }
+}

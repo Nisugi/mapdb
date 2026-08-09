@@ -1,5 +1,5 @@
 {
-  "checksum": "effe12d880ef7e5fce8681abbdc71666",
+  "checksum": "f9a4702fd66e9fb5c76a99f1727c9d84",
   "room": {
     "id": 10438,
     "title": [
@@ -19,15 +19,22 @@
       "13538": "go gateway",
       "13539": "go door",
       "28335": "go passageway",
-      "30713": "/rooms/10438/wayto/stringproc-30713.rb"
+      "30713": []
     },
     "timeto": {
       "3508": 0.2,
       "10761": 0.2,
       "13538": 0.2,
       "13539": 0.2,
-      "28335": "/rooms/10438/timeto/stringproc-28335.rb",
-      "30713": "/rooms/10438/timeto/stringproc-30713.rb"
+      "28335": {
+        "cost": 0.2,
+        "requires": [
+          "prof:Bard"
+        ]
+      },
+      "30713": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "bard guild",

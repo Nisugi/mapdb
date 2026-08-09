@@ -1,5 +1,5 @@
 {
-  "checksum": "e177d17cabbc17ab5def63941c023a67",
+  "checksum": "e8a2862248113495a2acbf6b35b544fb",
   "room": {
     "id": 2896,
     "title": [
@@ -15,43 +15,54 @@
     "climate": "snowy, arctic",
     "terrain": "mountainous",
     "wayto": {
-      "2895": "/rooms/2896/wayto/stringproc-2895.rb",
-      "2897": "/rooms/2896/wayto/stringproc-2897.rb"
+      "2895": {
+        "strategy": "ice_slope",
+        "cmd": "up"
+      },
+      "2897": {
+        "strategy": "ice_slope",
+        "cmd": "southwest"
+      }
     },
     "timeto": {
       "2895": 7,
       "2897": 0.2
     },
     "tags": [
-      "pale thornberry",
-      "some tundra grass",
-      "small loganberry",
-      "some valerian root",
-      "sassafras leaf",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "edelweiss",
-      "iceblossoms",
-      "snow lily",
-      "winter rose",
       "arctic moss",
-      "tundra grass",
-      "golden aster",
-      "calamintha blossom",
-      "snowberries",
-      "red winterberry",
-      "rockberry",
-      "crowberry",
-      "lingonberry",
-      "orange rowanberry",
-      "ironfern root",
       "bolmara lichen",
+      "calamintha blossom",
+      "crowberry",
+      "dwarf bilberry",
+      "edelweiss",
+      "giant's lace",
+      "glassfern frond",
+      "golden aster",
+      "green glacierberry",
+      "iceblossoms",
+      "ironfern root",
+      "lingonberry",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "orange rowanberry",
+      "pale thornberry",
+      "pennyroyal stem",
+      "red winterberry",
+      "resting poppy",
+      "rockberry",
+      "sassafras leaf",
+      "silver iceblossom",
+      "small loganberry",
+      "snow lily",
+      "snowberries",
       "sunburst blossom",
+      "sweetfern stalk",
+      "tundra grass",
+      "valerian root",
       "wingstem root",
-      "meta:forage-sensed:day:2022-11"
+      "winter rose",
+      "wintercrisp apple"
     ],
     "uid": [
       4560034

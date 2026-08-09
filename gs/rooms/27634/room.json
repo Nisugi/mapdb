@@ -1,5 +1,5 @@
 {
-  "checksum": "7442a205592d24aaf3f1a688c6700f80",
+  "checksum": "ddcb2c28cab3639a9ff22dbe7f130244",
   "room": {
     "id": 27634,
     "title": [
@@ -13,7 +13,15 @@
     ],
     "location": "Mist Harbor",
     "wayto": {
-      "12296": "/rooms/27634/wayto/stringproc-12296.rb",
+      "12296": [
+        {
+          "do": "move",
+          "cmd": "go arch"
+        },
+        {
+          "do": "replan"
+        }
+      ],
       "29573": "go emerald curtain",
       "36010": "go white curtain"
     },
@@ -23,9 +31,9 @@
       "36010": 0.2
     },
     "tags": [
-      "meta:locker annex:Silvergate Inn",
+      "meta:che:silvergate_inn:entrance_annex",
       "meta:che:silvergate_inn:entrance_locker",
-      "meta:che:silvergate_inn:entrance_annex"
+      "meta:locker annex:Silvergate Inn"
     ],
     "uid": [
       3215111

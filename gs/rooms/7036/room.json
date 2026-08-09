@@ -1,5 +1,5 @@
 {
-  "checksum": "d2377f9c958bf70e2ea62ccbc4dbe22c",
+  "checksum": "19368eaa335f13b22a4ce4b09904bcd1",
   "room": {
     "id": 7036,
     "title": [
@@ -16,7 +16,36 @@
     "terrain": "none",
     "wayto": {
       "7035": "down",
-      "7154": "/rooms/7036/wayto/stringproc-7154.rb"
+      "7154": [
+        {
+          "do": "try_move",
+          "cmd": "go door",
+          "check": "move_result",
+          "fallback": [
+            {
+              "do": "send",
+              "cmd": "kneel"
+            },
+            {
+              "do": "send",
+              "cmd": "touch statue"
+            },
+            {
+              "do": "await",
+              "for": "the black mein door has opened",
+              "timeout": 30
+            },
+            {
+              "do": "send",
+              "cmd": "stand"
+            },
+            {
+              "do": "move",
+              "cmd": "go door"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "7035": 0.2,
@@ -25,8 +54,8 @@
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
     ],
     "uid": [
       45134

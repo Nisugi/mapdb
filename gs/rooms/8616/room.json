@@ -1,5 +1,5 @@
 {
-  "checksum": "d530c8274ff05fd2728a08b22ad5bf18",
+  "checksum": "d786c88e83179295ba41316ea4448827",
   "room": {
     "id": 8616,
     "title": [
@@ -15,19 +15,21 @@
     "wayto": {
       "8615": "south",
       "8617": "north",
-      "30708": "/rooms/8616/wayto/stringproc-30708.rb"
+      "30708": []
     },
     "timeto": {
       "8615": 0.2,
       "8617": 0.2,
-      "30708": "/rooms/8616/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
-      "urchin guide blacksmith",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
+      "meta:forage-sensed:day:2022-11",
+      "no forageables",
+      "urchin guide blacksmith",
+      "urchin-access"
     ],
     "uid": [
       3020

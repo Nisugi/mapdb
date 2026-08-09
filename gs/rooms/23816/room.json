@@ -1,5 +1,5 @@
 {
-  "checksum": "34c8a2b146e74b2caf5b0502ecc2d44d",
+  "checksum": "d93282786c127812be04558a6c79631a",
   "room": {
     "id": 23816,
     "title": [
@@ -14,16 +14,19 @@
     "location": "Solhaven",
     "wayto": {
       "1551": "go out",
-      "30710": "/rooms/23816/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "1551": 0.2,
-      "30710": "/rooms/23816/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "collectibles",
-      "urchin-access",
-      "urchin guide collectibles"
+      "no forageables",
+      "urchin guide collectibles",
+      "urchin-access"
     ],
     "uid": [
       4901084

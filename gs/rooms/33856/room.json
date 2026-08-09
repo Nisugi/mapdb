@@ -1,5 +1,5 @@
 {
-  "checksum": "c3f951b31b3f421963b71587bbf4e003",
+  "checksum": "36e05209ed3bc7e856d22eee997f2add",
   "room": {
     "id": 33856,
     "title": [
@@ -19,7 +19,7 @@
       "33862": "northwest",
       "33863": "north",
       "33864": "northeast",
-      "34423": "/rooms/33856/wayto/stringproc-34423.rb"
+      "34423": []
     },
     "timeto": {
       "33831": 0.2,
@@ -28,22 +28,24 @@
       "33862": 0.2,
       "33863": 0.2,
       "33864": 0.2,
-      "34423": "/rooms/33856/timeto/stringproc-34423.rb"
+      "34423": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "portmaster",
-      "tiny white elderflowers",
-      "snake's head fritillary",
-      "vert and orange frog-cup",
-      "green acistira leaves",
       "acistira stem",
-      "pinkish green rosegrass",
-      "yellowish green twisted-fan",
       "blackish green twisted-fan",
+      "green acistira leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2023-09",
+      "pinkish green rosegrass",
+      "portmaster",
+      "snake's head fritillary",
+      "tiny white elderflowers",
+      "urchin guide docks",
       "urchin-access",
-      "urchin guide docks"
+      "vert and orange frog-cup",
+      "yellowish green twisted-fan"
     ],
     "uid": [
       14150050

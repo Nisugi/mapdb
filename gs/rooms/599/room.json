@@ -1,5 +1,5 @@
 {
-  "checksum": "031603f2aa96cf418e848921af02b298",
+  "checksum": "efc894d2d1e2e453c5173ad24ef2f1ee",
   "room": {
     "id": 599,
     "title": [
@@ -14,23 +14,68 @@
     "location": "the Shimmarglin Inn",
     "wayto": {
       "598": "north",
-      "600": "/rooms/599/wayto/stringproc-600.rb",
-      "626": "/rooms/599/wayto/stringproc-626.rb",
-      "13045": "/rooms/599/wayto/stringproc-13045.rb",
+      "600": {
+        "strategy": "table_join",
+        "table": "Golden Sunburst"
+      },
+      "626": {
+        "strategy": "table_join",
+        "table": "Emerald Sprite"
+      },
+      "13045": {
+        "strategy": "table_join",
+        "table": "Garnet Leaf"
+      },
       "13211": "go staircase",
       "13212": "go counter",
-      "26804": "/rooms/599/wayto/stringproc-26804.rb",
-      "26805": "/rooms/599/wayto/stringproc-26805.rb",
-      "26806": "/rooms/599/wayto/stringproc-26806.rb",
-      "26807": "/rooms/599/wayto/stringproc-26807.rb",
-      "26808": "/rooms/599/wayto/stringproc-26808.rb",
-      "26809": "/rooms/599/wayto/stringproc-26809.rb",
-      "26810": "/rooms/599/wayto/stringproc-26810.rb",
-      "26811": "/rooms/599/wayto/stringproc-26811.rb",
-      "26812": "/rooms/599/wayto/stringproc-26812.rb",
-      "26813": "/rooms/599/wayto/stringproc-26813.rb",
-      "26814": "/rooms/599/wayto/stringproc-26814.rb",
-      "26831": "/rooms/599/wayto/stringproc-26831.rb"
+      "26804": {
+        "strategy": "table_join",
+        "table": "Silver Moon"
+      },
+      "26805": {
+        "strategy": "table_join",
+        "table": "Copper Lantern"
+      },
+      "26806": {
+        "strategy": "table_join",
+        "table": "Jade Serpent"
+      },
+      "26807": {
+        "strategy": "table_join",
+        "table": "Ruby Eye"
+      },
+      "26808": {
+        "strategy": "table_join",
+        "table": "Lapis Cloud"
+      },
+      "26809": {
+        "strategy": "table_join",
+        "table": "Quartz Wolf"
+      },
+      "26810": {
+        "strategy": "table_join",
+        "table": "Topaz Bat"
+      },
+      "26811": {
+        "strategy": "table_join",
+        "table": "Obsidian Spider"
+      },
+      "26812": {
+        "strategy": "table_join",
+        "table": "Marble Gargoyle"
+      },
+      "26813": {
+        "strategy": "table_join",
+        "table": "Amber Bear"
+      },
+      "26814": {
+        "strategy": "table_join",
+        "table": "Bloodstone Lizard"
+      },
+      "26831": {
+        "strategy": "table_join",
+        "table": "Sapphire Star"
+      }
     },
     "timeto": {
       "598": 0.2,

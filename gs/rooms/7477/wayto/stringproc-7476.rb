@@ -1,1 +1,0 @@
-if not kneeling?;	fput 'kneel' if Stats.race !~ /dwarf|halfling|gnome/i;end;fput 'southeast'

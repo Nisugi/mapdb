@@ -1,5 +1,5 @@
 {
-  "checksum": "3b08ae8185592f973c67862f3bbd6a2f",
+  "checksum": "b9042021076358b3124e2b85554583c5",
   "room": {
     "id": 2679,
     "title": [
@@ -15,7 +15,31 @@
     "climate": "glacial",
     "terrain": "mountainous",
     "wayto": {
-      "2678": "/rooms/2679/wayto/stringproc-2678.rb",
+      "2678": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "cast_buff",
+              "spell": 506
+            },
+            {
+              "do": "await",
+              "cmd": "search",
+              "for": "discover a narrow icy ledge!|don't find anything of interest",
+              "timeout": 3
+            },
+            {
+              "do": "move",
+              "cmd": "go ledge"
+            },
+            {
+              "do": "break_if_moved"
+            }
+          ],
+          "times": 8
+        }
+      ],
       "2680": "northeast"
     },
     "timeto": {
@@ -23,23 +47,23 @@
       "2680": 0.2
     },
     "tags": [
-      "sassafras leaf",
-      "sweetfern stalk",
-      "red lichen",
+      "angelica root",
+      "arctic moss",
+      "daggit root",
       "feverfern stalk",
       "gok nut",
-      "manroot stalk",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "wyrmwood bark",
-      "daggit root",
-      "arctic moss",
-      "red winterberry",
-      "meta:forage-sensed",
       "ironfern root",
+      "manroot stalk",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "pennyroyal stem",
+      "red lichen",
+      "red winterberry",
+      "sassafras leaf",
       "sunburst blossom",
-      "meta:forage-sensed:day:2022-11"
+      "sweetfern stalk",
+      "valerian root",
+      "wyrmwood bark"
     ],
     "uid": [
       4561129

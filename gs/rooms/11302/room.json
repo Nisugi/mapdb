@@ -1,5 +1,5 @@
 {
-  "checksum": "db3f41db3014776b45a64196bbbc2cbd",
+  "checksum": "79bfad3c07ad5453555e0edd3b85cf52",
   "room": {
     "id": 11302,
     "title": [
@@ -14,15 +14,24 @@
     "location": "the Citadel",
     "wayto": {
       "11301": "north",
-      "11312": "/rooms/11302/wayto/stringproc-11312.rb"
+      "11312": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go door"
+        }
+      ]
     },
     "timeto": {
       "11301": 0.2,
       "11312": 0.2
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       377106

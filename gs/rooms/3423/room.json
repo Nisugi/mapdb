@@ -1,5 +1,5 @@
 {
-  "checksum": "a7798e1d9352403ed7235f1156b86db9",
+  "checksum": "c6915ac39be1eb3f62ec5d3fdec5ec0f",
   "room": {
     "id": 3423,
     "title": [
@@ -17,24 +17,26 @@
     "wayto": {
       "3231": "out",
       "26816": "go doors",
-      "30709": "/rooms/3423/wayto/stringproc-30709.rb"
+      "30709": []
     },
     "timeto": {
       "3231": 0.2,
       "26816": 0.2,
-      "30709": "/rooms/3423/timeto/stringproc-30709.rb"
+      "30709": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:mapcategory:Icemule Trace",
       "meta:mapname:Icemule Trace - Icemule Hall (PRO Hall)",
       "meta:mapshortname:Icemule Hall (PRO Hall)",
-      "meta:mapcategory:Icemule Trace",
       "mho hall",
-      "urchin-access",
-      "urchin guide townhall",
+      "stalk of bluebells",
       "townhall",
-      "calmintha flower",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
+      "urchin guide townhall",
+      "urchin-access"
     ],
     "uid": [
       855002

@@ -1,5 +1,5 @@
 {
-  "checksum": "34ef51ebada96f1da94f5b31dc3ce12e",
+  "checksum": "6496e46e5d2531a7bad4ed45f8c68bfe",
   "room": {
     "id": 12815,
     "title": [
@@ -19,21 +19,23 @@
       "12816": "north",
       "12817": "south",
       "13239": "climb stairway",
-      "30710": "/rooms/12815/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "1460": 0.2,
       "12816": 0.2,
       "12817": 0.2,
       "13239": 0.2,
-      "30710": "/rooms/12815/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "weaponshop",
+      "no forageables",
       "urchin guide weapons",
       "urchin-access",
       "weapons",
-      "no forageables"
+      "weaponshop"
     ],
     "uid": [
       4740014

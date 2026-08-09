@@ -1,5 +1,5 @@
 {
-  "checksum": "ad7961f0982966cafceb0d6ed2726650",
+  "checksum": "3d4c18bc8c5e31c3fda79ad254653cb9",
   "room": {
     "id": 785,
     "title": [
@@ -13,23 +13,53 @@
     ],
     "location": "Whistler's Pass",
     "wayto": {
-      "784": "/rooms/785/wayto/stringproc-784.rb",
-      "786": "/rooms/785/wayto/stringproc-786.rb"
+      "784": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "east"
+            },
+            {
+              "do": "move",
+              "cmd": "north"
+            }
+          ],
+          "until": "not:path:n"
+        }
+      ],
+      "786": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "south"
+            },
+            {
+              "do": "move",
+              "cmd": "west"
+            }
+          ],
+          "until": "not:path:s"
+        }
+      ]
     },
     "timeto": {
       "784": 0.4,
       "786": 0.4
     },
     "tags": [
-      "no-auto-map",
-      "white hook mushroom",
+      "bolmara lichen",
       "cave moss",
       "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
       "meta:forage-sensed",
       "meta:map:multi-uid",
-      "meta:maze"
+      "meta:maze",
+      "no-auto-map",
+      "white hook mushroom",
+      "wingstem root"
     ],
     "uid": [
       13016088,

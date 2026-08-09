@@ -1,5 +1,5 @@
 {
-  "checksum": "abd71413a9ade536a4050158136952a0",
+  "checksum": "0c521d731c7f8268bb6e39b0f2cf1c3c",
   "room": {
     "id": 4344,
     "title": [
@@ -14,16 +14,19 @@
     "location": "the Graveyard",
     "wayto": {
       "4143": "west",
-      "7298": "/rooms/4344/wayto/stringproc-7298.rb"
+      "7298": {
+        "strategy": "unique_crossing",
+        "name": "crossing_4344_7298"
+      }
     },
     "timeto": {
       "4143": 0.2,
       "7298": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "meta:forage-sensed:day:2022-09",
+      "no forageables"
     ],
     "uid": [
       18014

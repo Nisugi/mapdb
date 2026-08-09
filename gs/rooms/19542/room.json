@@ -1,5 +1,5 @@
 {
-  "checksum": "b209f9088059079243b55ba06d9fcc81",
+  "checksum": "d6d11d949255dda4d35084d2699d78d7",
   "room": {
     "id": 19542,
     "title": [
@@ -13,12 +13,128 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "24560": "/rooms/19542/wayto/stringproc-24560.rb",
-      "24574": "/rooms/19542/wayto/stringproc-24574.rb"
+      "24560": [
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "repeat",
+          "times": 8,
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "up"
+        },
+        {
+          "do": "sleep",
+          "seconds": 0.2
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "repeat",
+          "times": 8,
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "24574": [
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "repeat",
+          "times": 8,
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "down"
+        },
+        {
+          "do": "sleep",
+          "seconds": 0.2
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "repeat",
+          "times": 8,
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
-      "24560": "/rooms/19542/timeto/stringproc-24560.rb",
-      "24574": "/rooms/19542/timeto/stringproc-24574.rb"
+      "24560": {
+        "formula": "haste_scaled",
+        "base": 15,
+        "else": 15.2
+      },
+      "24574": {
+        "formula": "haste_scaled",
+        "base": 15,
+        "else": 15.2
+      }
     },
     "tags": [
       "set desc on; peer up =~ /^Huge steps .* Details of the cavern floor far below are lost in the shadowy distance./"

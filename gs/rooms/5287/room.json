@@ -1,5 +1,5 @@
 {
-  "checksum": "59ee7f72cb8d6d6a5274a4384241ec08",
+  "checksum": "6d180eb84671b8ad8d9ce94a243b1b34",
   "room": {
     "id": 5287,
     "title": [
@@ -15,7 +15,21 @@
     "climate": "humid",
     "terrain": "coniferous forest",
     "wayto": {
-      "5268": "/rooms/5287/wayto/stringproc-5268.rb",
+      "5268": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb tree"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ],
       "5288": "southeast"
     },
     "timeto": {
@@ -23,42 +37,46 @@
       "5288": 0.2
     },
     "tags": [
-      "soft white mushroom",
       "acantha leaf",
-      "woth flower",
+      "blackberries",
+      "blood orange",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "bright red teaberry",
+      "broken twig",
+      "brostheras grass",
       "calamia fruit",
-      "haphip root",
-      "pothinir grass",
-      "sticks",
-      "withered black mushroom",
-      "striped heart mushroom",
+      "cinnamon bark",
+      "coffee cherries",
       "daggerstalk mushroom",
+      "ebony twig",
+      "fiddlehead fern",
       "flathead mushroom",
       "genkew mushroom",
-      "red vornalite mushroom",
-      "blue trafel mushroom",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "wild gooseberry",
-      "fiddlehead fern",
+      "grapefruit",
       "handful of pinenuts",
-      "broken twig",
+      "haphip root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "pine cone",
       "pine needles",
-      "stalk of bluebells",
-      "wild chokecherry",
-      "tree bark",
-      "yew twig",
-      "twisted twig",
+      "pothinir grass",
+      "red vornalite mushroom",
+      "round yuzu",
       "slender twig",
-      "ebony twig",
-      "bolmara lichen",
-      "meta:forage-sensed",
+      "soft mushroom",
+      "stalk of bluebells",
+      "sticks",
+      "striped heart mushroom",
+      "tree bark",
       "trollfear mushroom",
-      "brostheras grass",
-      "blackberries",
-      "cinnamon bark",
-      "meta:forage-sensed:day:2023-02"
+      "twisted twig",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wintergreen leaf",
+      "withered mushroom",
+      "woth flower",
+      "yew twig"
     ],
     "uid": [
       4214303

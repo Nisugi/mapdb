@@ -1,5 +1,5 @@
 {
-  "checksum": "b40fd082cda8ea7e278006dd664f6513",
+  "checksum": "de8b741d2a85015ba01992a43efb22df",
   "room": {
     "id": 4029,
     "title": [
@@ -13,8 +13,30 @@
     ],
     "location": "Ta'Illistim",
     "wayto": {
-      "4027": "/rooms/4029/wayto/stringproc-4027.rb",
-      "4030": "/rooms/4029/wayto/stringproc-4030.rb"
+      "4027": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "north"
+            }
+          ],
+          "until_room": 4027
+        }
+      ],
+      "4030": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "south"
+            }
+          ],
+          "until_room": 4030
+        }
+      ]
     },
     "timeto": {
       "4027": 0.2,

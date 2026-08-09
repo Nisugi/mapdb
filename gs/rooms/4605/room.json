@@ -1,5 +1,5 @@
 {
-  "checksum": "54559f12b5f440faf28e3078972381b2",
+  "checksum": "9efd0d17279db3899bf183f056b1f5ba",
   "room": {
     "id": 4605,
     "title": [
@@ -15,7 +15,30 @@
     "climate": "glacial",
     "terrain": "mountainous",
     "wayto": {
-      "4604": "/rooms/4605/wayto/stringproc-4604.rb",
+      "4604": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "down"
+        }
+      ],
       "4606": "northeast"
     },
     "timeto": {
@@ -23,18 +46,18 @@
       "4606": 0.2
     },
     "tags": [
-      "sassafras leaf",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "sprig of holly",
-      "meta:forage-sensed",
-      "ironfern root",
-      "sunburst blossom",
       "deep purple shockroot",
+      "ironfern root",
+      "meta:forage-sensed",
       "meta:forage-sensed:day:2023-11",
-      "meta:forage-sensed:night:2024-05"
+      "meta:forage-sensed:night:2024-05",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sprig of holly",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root"
     ],
     "uid": [
       13302111

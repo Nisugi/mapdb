@@ -1,5 +1,5 @@
 {
-  "checksum": "460f94474b49751e551986bedaa3b3b5",
+  "checksum": "42ee22e1a3b0838e3bdd74ac6090be77",
   "room": {
     "id": 6626,
     "title": [
@@ -16,7 +16,50 @@
       "6622": "north",
       "6627": "west",
       "6628": "east",
-      "7436": "/rooms/6626/wayto/stringproc-7436.rb"
+      "7436": [
+        {
+          "do": "if",
+          "when": "not:loot_match:stairs",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "push medium moon"
+            },
+            {
+              "do": "send",
+              "cmd": "pull relief"
+            },
+            {
+              "do": "send",
+              "cmd": "push letter u"
+            },
+            {
+              "do": "send",
+              "cmd": "push letter t"
+            },
+            {
+              "do": "send",
+              "cmd": "push letter h"
+            },
+            {
+              "do": "send",
+              "cmd": "push letter e"
+            },
+            {
+              "do": "send",
+              "cmd": "push letter x"
+            },
+            {
+              "do": "send",
+              "cmd": "pull globe"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go stair"
+        }
+      ]
     },
     "timeto": {
       "6622": 0.2,

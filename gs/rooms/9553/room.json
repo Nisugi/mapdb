@@ -1,5 +1,5 @@
 {
-  "checksum": "3e0160161373d6ffcec5e78e4b9e9948",
+  "checksum": "2152d92dd41acea8f85f98b497c9ad2a",
   "room": {
     "id": 9553,
     "title": [
@@ -17,19 +17,26 @@
     "wayto": {
       "9432": "go arch",
       "9554": "go doors",
-      "30712": "/rooms/9553/wayto/stringproc-30712.rb"
+      "30712": []
     },
     "timeto": {
       "9432": 0.2,
-      "9554": "/rooms/9553/timeto/stringproc-9554.rb",
-      "30712": "/rooms/9553/timeto/stringproc-30712.rb"
+      "9554": {
+        "cost": 0.2,
+        "requires": [
+          "prof:Wizard"
+        ]
+      },
+      "30712": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "wizardguild",
-      "urchin-access",
+      "no forageables",
       "urchin guide wizardguild",
+      "urchin-access",
       "wizard guild",
-      "no forageables"
+      "wizardguild"
     ],
     "uid": [
       688001

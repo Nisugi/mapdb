@@ -1,5 +1,5 @@
 {
-  "checksum": "05b81bd7a868153edb7b9ed5bb7f3bb2",
+  "checksum": "63326b205833d625541fcdb0ea5e439f",
   "room": {
     "id": 4686,
     "title": [
@@ -15,19 +15,21 @@
     "wayto": {
       "4639": "out",
       "9667": "go arch",
-      "30717": "/rooms/4686/wayto/stringproc-30717.rb"
+      "30717": []
     },
     "timeto": {
       "4639": 0.2,
       "9667": 0.2,
-      "30717": "/rooms/4686/timeto/stringproc-30717.rb"
+      "30717": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "bank",
-      "no forageables",
       "meta:forage-sensed",
-      "urchin-access",
-      "urchin guide bank"
+      "no forageables",
+      "urchin guide bank",
+      "urchin-access"
     ],
     "uid": [
       14051015

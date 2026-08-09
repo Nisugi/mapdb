@@ -1,5 +1,5 @@
 {
-  "checksum": "26dd269c3958934112ba3a07447e4e04",
+  "checksum": "7f26d1d571166c44831808aad73aef70",
   "room": {
     "id": 28256,
     "title": [
@@ -20,55 +20,37 @@
       "7541": "go hay",
       "30586": "northwest",
       "30587": "northeast",
-      "30708": "/rooms/28256/wayto/stringproc-30708.rb"
+      "30708": []
     },
     "timeto": {
       "278": 0.2,
       "7541": 0.2,
       "30586": 0.2,
       "30587": 0.2,
-      "30708": "/rooms/28256/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "birch bark",
+      "bur-clover root",
+      "cave moss",
+      "ghost pepper",
+      "hot pepper",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "murdroot",
+      "off-white parsnip",
+      "pepperthorn root",
+      "round grumbleberry",
+      "sovyn clove",
+      "stable",
       "urchin guide stable",
       "urchin-access",
-      "stable",
-      "acantha leaf",
-      "calamia fruit",
-      "sovyn clove",
-      "small flower",
-      "small rose",
-      "small daisy",
-      "angelica root",
-      "withered black mushroom",
-      "stalk of chicory",
-      "sprig of alyssum",
-      "heath aster",
-      "stalk of goldenrod",
-      "yellow primrose",
-      "small wild rose",
-      "wild carrot",
-      "ginger root",
-      "wild chokecherry",
-      "motherwort",
-      "murkweed",
-      "blue whortleberry",
-      "white baneberry",
-      "pepperthorn root",
-      "murdroot",
-      "ironfern root",
       "wingstem root",
-      "bur-clover root",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11",
-      "meta:forage-sensed:night:2022-11"
+      "withered mushroom"
     ],
     "uid": [
       12001100

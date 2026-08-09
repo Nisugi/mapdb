@@ -1,5 +1,5 @@
 {
-  "checksum": "57ce5cae2990ec167e53af62734e222e",
+  "checksum": "7cbf5faccb7170eeb1c1c73cf36ce4ea",
   "room": {
     "id": 18187,
     "title": [
@@ -15,15 +15,18 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "451": "/rooms/18187/wayto/stringproc-451.rb"
+      "451": {
+        "strategy": "unique_crossing",
+        "name": "crossing_18187_451"
+      }
     },
     "timeto": {
       "451": 0.4
     },
     "tags": [
       "meta:map:ignore-blanks",
-      "no forageables",
-      "meta:nomagic"
+      "meta:nomagic",
+      "no forageables"
     ],
     "uid": [
       52019

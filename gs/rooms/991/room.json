@@ -1,5 +1,5 @@
 {
-  "checksum": "8f354ebd86d06c7047c1d63a94ed71e5",
+  "checksum": "4ebf4867e563f2a0dfe726e5c52331f9",
   "room": {
     "id": 991,
     "title": [
@@ -16,7 +16,18 @@
     "climate": "glacial",
     "terrain": "mountainous",
     "wayto": {
-      "990": "/rooms/991/wayto/stringproc-990.rb",
+      "990": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb trail"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
       "992": "go mouth"
     },
     "timeto": {
@@ -24,16 +35,16 @@
       "992": 0.2
     },
     "tags": [
-      "sassafras leaf",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "snowberries",
       "ironfern root",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-11",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "snowberries",
       "sunburst blossom",
-      "meta:forage-sensed:day:2023-11"
+      "sweetfern stalk",
+      "valerian root"
     ],
     "uid": [
       13003019

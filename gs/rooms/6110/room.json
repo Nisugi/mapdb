@@ -1,5 +1,5 @@
 {
-  "checksum": "df84ffac3fcec7a7681bd2021d95c808",
+  "checksum": "fab1a7ab3966351f4aaef053bdd6404b",
   "room": {
     "id": 6110,
     "title": [
@@ -16,9 +16,9 @@
     "climate": "cold, dry",
     "terrain": "hard, flat",
     "wayto": {
-      "6109": "/rooms/6110/wayto/stringproc-6109.rb",
+      "6109": "climb ravine",
       "6111": "southeast",
-      "6119": "/rooms/6110/wayto/stringproc-6119.rb",
+      "6119": "climb ridge",
       "7921": "southwest",
       "14725": "south"
     },
@@ -30,8 +30,8 @@
       "14725": 0.2
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       484001

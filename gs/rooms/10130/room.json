@@ -1,5 +1,5 @@
 {
-  "checksum": "1cbee40376e55df076269970c7e6bd08",
+  "checksum": "b6f7ee986729a0c59d452f4271394863",
   "room": {
     "id": 10130,
     "title": [
@@ -17,7 +17,15 @@
     "wayto": {
       "10128": "northwest",
       "10131": "west",
-      "10133": "/rooms/10130/wayto/stringproc-10133.rb"
+      "10133": [
+        {
+          "do": "move",
+          "cmd": "go mud"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "10128": 0.2,
@@ -25,18 +33,19 @@
       "10133": 5
     },
     "tags": [
-      "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "saltmeadow cordgrass",
       "blades of cordgrass",
       "blue-green marshgrass",
-      "feathery mannagrass",
-      "yellowed salt reedgrass",
-      "meta:forage-sensed:day:2023-11",
+      "bolmara lichen",
       "broken twig",
-      "meta:forage-sensed:night:2024-05"
+      "feathery mannagrass",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "murdroot",
+      "orange heliconia",
+      "saltmeadow cordgrass",
+      "wavepetal blossom",
+      "yellowed salt reedgrass"
     ],
     "uid": [
       13038005

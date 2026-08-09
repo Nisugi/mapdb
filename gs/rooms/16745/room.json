@@ -1,5 +1,5 @@
 {
-  "checksum": "b7559cf2d7e1162410d71ad42482000c",
+  "checksum": "141d5d1757b33edde5f267ae8ef924fe",
   "room": {
     "id": 16745,
     "title": [
@@ -16,40 +16,59 @@
     "terrain": "mountainous",
     "wayto": {
       "16744": "north",
-      "16746": "/rooms/16745/wayto/stringproc-16746.rb"
+      "16746": [
+        {
+          "do": "cast_buff",
+          "spell": 9704
+        },
+        {
+          "do": "move",
+          "cmd": "9704"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "16744": 0.2,
-      "16746": null
+      "16746": 15
     },
     "tags": [
-      "small apple",
-      "juicy plum",
+      "agave heart",
       "angelica root",
-      "stalk of bluebells",
-      "wild pink geranium",
-      "sprig of larkspur",
-      "yellow primrose",
-      "wild sage",
-      "sprig of columbine",
+      "bolmara lichen",
+      "cherry peppers",
       "crimson dragonstalk",
+      "fresh catnip",
+      "hop flowers",
+      "ironfern root",
+      "juicy plum",
+      "leek",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
       "mountain dryad",
-      "stalk of monkeyflower",
+      "peppermint leaves",
+      "pepperthorn root",
+      "red thanot berry",
+      "shallot",
+      "small apple",
+      "small watermelon",
+      "sprig of columbine",
       "sprig of holly",
       "sprig of ivy",
-      "pepperthorn root",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "wingstem root",
-      "leek",
-      "shallot",
-      "hop flowers",
-      "agave heart",
-      "viburnum twig",
-      "red thanot berry",
+      "sprig of larkspur",
+      "spring onion",
+      "stalk of bluebells",
+      "stalk of monkeyflower",
+      "sunburst blossom",
       "thanot thorn",
-      "meta:forage-sensed:night:2024-05"
+      "viburnum twig",
+      "wild pink geranium",
+      "wild sage",
+      "wingstem root",
+      "yellow primrose"
     ],
     "uid": [
       17005027

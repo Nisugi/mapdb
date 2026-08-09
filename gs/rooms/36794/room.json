@@ -1,0 +1,27 @@
+{
+  "checksum": "56f1a5d4e6ebb47c07ba4d91fadb1e9b",
+  "room": {
+    "id": 36794,
+    "title": [
+      "[Derelict Queen, Ramp]"
+    ],
+    "description": [
+      "While the outer hull of The Derelict Queen is battle-scarred, the bow is pristine, with polished interlocking oak and teak decks and a carved mahogany figurehead.  Ivory canvas sails are attached to sturdy masts with neatly arranged rigging, while a brilliant incarnadine sail edged in midnight black stands out at the foresail.  Fluttering in the ocean breeze, a flag flies from the prow."
+    ],
+    "paths": [
+      "Obvious paths: up, out"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "33084": "out",
+      "36795": "up"
+    },
+    "timeto": {
+      "33084": 0.2,
+      "36795": 0.2
+    },
+    "uid": [
+      7134141
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "checksum": "f75710d621400e30092ff853536013f3",
+  "checksum": "64042591da1fabc3b7a7e64ca952047e",
   "room": {
     "id": 28911,
     "title": [
@@ -19,19 +19,29 @@
       "28912": "east",
       "28979": "go villa",
       "29136": "go shack",
-      "30716": "/rooms/28911/wayto/stringproc-30716.rb"
+      "30716": []
     },
     "timeto": {
       "28910": 0.2,
       "28912": 0.2,
-      "28979": "/rooms/28911/timeto/stringproc-28979.rb",
+      "28979": {
+        "cost": 0.2,
+        "requires": [
+          "var:premium"
+        ],
+        "else": {
+          "cost": 10
+        }
+      },
       "29136": 0.2,
-      "30716": "/rooms/28911/timeto/stringproc-30716.rb"
+      "30716": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
       "meta:forage-sensed",
-      "no forageables"
+      "no forageables",
+      "urchin-access"
     ],
     "uid": [
       7118216

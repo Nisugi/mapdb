@@ -1,5 +1,5 @@
 {
-  "checksum": "f8dfbcb9fd88b4ce9a4d9b71905c5f2a",
+  "checksum": "463873d97873f93c3f04b791405c1853",
   "room": {
     "id": 23265,
     "title": [
@@ -15,14 +15,78 @@
     "climate": "hot, damp",
     "terrain": "barren scrub",
     "wayto": {
-      "7438": "/rooms/23265/wayto/stringproc-7438.rb",
-      "7443": "/rooms/23265/wayto/stringproc-7443.rb",
-      "7450": "/rooms/23265/wayto/stringproc-7450.rb",
-      "17319": "/rooms/23265/wayto/stringproc-17319.rb",
-      "17327": "/rooms/23265/wayto/stringproc-17327.rb",
-      "23259": "/rooms/23265/wayto/stringproc-23259.rb",
-      "23266": "/rooms/23265/wayto/stringproc-23266.rb",
-      "23267": "/rooms/23265/wayto/stringproc-23267.rb"
+      "7438": [
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "7443": [
+        {
+          "do": "move",
+          "cmd": "north"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "7450": [
+        {
+          "do": "move",
+          "cmd": "south"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "17319": [
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "17327": [
+        {
+          "do": "move",
+          "cmd": "northeast"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "23259": [
+        {
+          "do": "move",
+          "cmd": "west"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "23266": [
+        {
+          "do": "move",
+          "cmd": "east"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "23267": [
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "7438": 3.2,
@@ -35,13 +99,13 @@
       "23267": 3.2
     },
     "tags": [
-      "peer southeast =~ /^Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest$/",
-      "hooded figure",
-      "giant fog beetle",
-      "blackened moss",
       "black toadstool",
+      "blackened moss",
+      "giant fog beetle",
+      "hooded figure",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "peer southeast =~ /^Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest$/"
     ],
     "uid": [
       306032

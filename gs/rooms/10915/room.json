@@ -1,5 +1,5 @@
 {
-  "checksum": "0b83a9f4f5ac6e282efc14af5ec3f3bb",
+  "checksum": "3e3aa87cb7b7820d3bb73ced6e954eae",
   "room": {
     "id": 10915,
     "title": [
@@ -16,26 +16,28 @@
     "wayto": {
       "10911": "out",
       "18895": "east",
-      "30711": "/rooms/10915/wayto/stringproc-30711.rb"
+      "30711": []
     },
     "timeto": {
       "10911": 0.2,
       "18895": 0.2,
-      "30711": "/rooms/10915/timeto/stringproc-30711.rb"
+      "30711": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "advguard",
-      "urchin-access",
+      "debts",
+      "guard",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:nomagic",
+      "no forageables",
+      "purser",
       "urchin guide debts",
       "urchin guide guard",
       "urchin guide purser",
-      "debts",
-      "guard",
-      "purser",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09",
-      "meta:nomagic"
+      "urchin-access"
     ],
     "uid": [
       2101906

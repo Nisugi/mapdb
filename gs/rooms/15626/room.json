@@ -1,5 +1,5 @@
 {
-  "checksum": "14d61310b6a58d83f08e93350a8fe0bb",
+  "checksum": "80042a0f02868246dfab6969d76a11c4",
   "room": {
     "id": 15626,
     "title": [
@@ -20,8 +20,19 @@
     },
     "timeto": {
       "13137": 0.2,
-      "33715": "/rooms/15626/timeto/stringproc-33715.rb"
+      "33715": {
+        "cost": 0.2,
+        "requires": [
+          "var_raw:Elaienaran_Haven=true"
+        ]
+      }
     },
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells",
+      "wild sage"
+    ],
     "uid": [
       13051015
     ]

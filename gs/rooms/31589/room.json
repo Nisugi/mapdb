@@ -1,5 +1,5 @@
 {
-  "checksum": "d63d3e5844293235d82c6e5e1a0aa908",
+  "checksum": "8b79583c4b109b3a9e6c347a59eb9d02",
   "room": {
     "id": 31589,
     "title": [
@@ -16,8 +16,28 @@
     "terrain": "riparian",
     "wayto": {
       "31588": "go shore",
-      "32077": "/rooms/31589/wayto/stringproc-32077.rb",
-      "32082": "/rooms/31589/wayto/stringproc-32082.rb"
+      "32077": [
+        {
+          "do": "await",
+          "cmd": "push south",
+          "for": "(?i)you push|you can't push",
+          "timeout": 5
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "32082": [
+        {
+          "do": "await",
+          "cmd": "push west",
+          "for": "(?i)you push|you can't push",
+          "timeout": 5
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "31588": 0.2,
@@ -25,9 +45,9 @@
       "32082": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-10"
+      "meta:forage-sensed:night:2022-10",
+      "no forageables"
     ],
     "uid": [
       8083390

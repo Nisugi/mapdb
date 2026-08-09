@@ -1,5 +1,5 @@
 {
-  "checksum": "fa37b8bed8089fe407adf95f9ba3836d",
+  "checksum": "8fd9467cbd3f5cd4222a8157fdc49921",
   "room": {
     "id": 25362,
     "title": [
@@ -15,7 +15,12 @@
     "wayto": {
       "25361": "east",
       "25364": "north",
-      "25366": "/rooms/25362/wayto/stringproc-25366.rb"
+      "25366": [
+        {
+          "do": "send",
+          "cmd": "go pantry"
+        }
+      ]
     },
     "timeto": {
       "25361": 0.2,

@@ -1,5 +1,5 @@
 {
-  "checksum": "cdd48d2e24546389377a6eefdf668573",
+  "checksum": "7ad5040ed008b5fd9167feab1d2407fb",
   "room": {
     "id": 16411,
     "title": [
@@ -16,18 +16,20 @@
       "12316": "west",
       "12320": "climb stairs",
       "16420": "north",
-      "30718": "/rooms/16411/wayto/stringproc-30718.rb"
+      "30718": []
     },
     "timeto": {
       "12316": 0.2,
       "12320": 0.2,
       "16420": 0.2,
-      "30718": "/rooms/16411/timeto/stringproc-30718.rb"
+      "30718": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
+      "inn",
       "urchin guide inn",
-      "inn"
+      "urchin-access"
     ],
     "uid": [
       3209318

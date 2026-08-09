@@ -1,5 +1,5 @@
 {
-  "checksum": "63a92372b63a65aacd6d673ebfdc261a",
+  "checksum": "80b9b64a380b8b38d3ff5af9c9858adb",
   "room": {
     "id": 3600,
     "title": [
@@ -16,98 +16,185 @@
     "climate": "humid",
     "terrain": "cultivated",
     "wayto": {
-      "1213": "/rooms/3600/wayto/stringproc-1213.rb",
-      "3600": "/rooms/3600/wayto/stringproc-3600.rb",
+      "1213": {
+        "strategy": "voln_seeking",
+        "target": 1213
+      },
+      "3600": [
+        {
+          "do": "replan"
+        }
+      ],
       "3601": "west",
       "3629": "go spring",
       "3683": "go gate",
-      "3686": "/rooms/3600/wayto/stringproc-3686.rb",
-      "4141": "/rooms/3600/wayto/stringproc-4141.rb",
-      "6505": "/rooms/3600/wayto/stringproc-6505.rb",
-      "6615": "/rooms/3600/wayto/stringproc-6615.rb",
-      "7673": "/rooms/3600/wayto/stringproc-7673.rb",
-      "14072": "/rooms/3600/wayto/stringproc-14072.rb",
-      "24715": "/rooms/3600/wayto/stringproc-24715.rb"
+      "3686": {
+        "strategy": "voln_seeking",
+        "target": 3686
+      },
+      "4141": {
+        "strategy": "voln_seeking",
+        "target": 4141
+      },
+      "6505": {
+        "strategy": "voln_seeking",
+        "target": 6505
+      },
+      "6615": {
+        "strategy": "voln_seeking",
+        "target": 6615
+      },
+      "7673": {
+        "strategy": "voln_seeking",
+        "target": 7673
+      },
+      "14072": {
+        "strategy": "voln_seeking",
+        "target": 14072
+      },
+      "24715": {
+        "strategy": "voln_seeking",
+        "target": 24715
+      }
     },
     "timeto": {
-      "1213": "/rooms/3600/timeto/stringproc-1213.rb",
+      "1213": {
+        "cost": 3.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
       "3600": 0.2,
       "3601": 0.2,
       "3629": 0.2,
       "3683": 0.2,
-      "3686": "/rooms/3600/timeto/stringproc-3686.rb",
-      "4141": "/rooms/3600/timeto/stringproc-4141.rb",
-      "6505": "/rooms/3600/timeto/stringproc-6505.rb",
-      "6615": "/rooms/3600/timeto/stringproc-6615.rb",
-      "7673": "/rooms/3600/timeto/stringproc-7673.rb",
-      "14072": "/rooms/3600/timeto/stringproc-14072.rb",
-      "24715": "/rooms/3600/timeto/stringproc-24715.rb"
+      "3686": {
+        "cost": 3.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "4141": {
+        "cost": 3.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "6505": {
+        "cost": 3.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "6615": {
+        "cost": 3.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "7673": {
+        "cost": 3.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "14072": {
+        "cost": 3.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "24715": {
+        "cost": 3.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      }
     },
     "tags": [
-      "voln",
       "ayana leaf",
-      "withered black mushroom",
-      "flathead mushroom",
-      "blue whortleberry",
-      "purple passionflower",
-      "red passionflower",
+      "bay leaf",
+      "black peppercorn",
+      "blackberries",
       "blue passionflower",
-      "white passionflower",
-      "yellow passionflower",
-      "pink passionflower",
-      "node",
-      "luckbloom blossom",
-      "supernode",
-      "nightbloom blossom",
-      "calamia fruit",
-      "haphip root",
-      "pothinir grass",
-      "soft white mushroom",
-      "daggerstalk mushroom",
-      "genkew mushroom",
       "blue trafel mushroom",
+      "blue whortleberry",
+      "brown-skinned kiwi",
+      "calamia fruit",
+      "cardamom",
+      "cherry peppers",
+      "creamy white wisteria",
+      "cumin seeds",
+      "daggerstalk mushroom",
+      "dark blue wisteria",
+      "deep purple wisteria",
+      "flathead mushroom",
+      "fresh catnip",
+      "genkew mushroom",
+      "green tomato",
+      "haphip root",
       "Imaera's Lace",
-      "motherwort",
-      "yew twig",
-      "wavepetal blossom",
-      "onion skin",
+      "lemon balm",
+      "lemon verbena",
+      "luckbloom blossom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-01",
+      "meta:map:ignore-selfpath",
+      "meta:mapcategory:Wehnimer's Landing",
       "meta:mapname:Wehnimer's Landing - Outside Gates",
       "meta:mapshortname:Outside Gates",
-      "meta:mapcategory:Wehnimer's Landing",
-      "meta:forage-sensed",
-      "bay leaf",
-      "tobacco leaves",
-      "blackberries",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "meta:map:ignore-selfpath",
       "meta:seeking",
-      "trollear mushroom",
-      "red onion",
-      "sweet onion",
-      "purple-tipped artichoke",
-      "brown-skinned kiwi",
-      "meta:forage-sensed:night:2024-01",
-      "spearmint leaf",
-      "green tomato",
-      "red tomato",
-      "zucchini",
-      "yellow lemon",
-      "small watermelon",
-      "cherry peppers",
-      "fresh catnip",
-      "peppermint leaves",
-      "sun-wilted tea leaves",
-      "lemon balm",
-      "round yuzu",
-      "lemon verbena",
+      "motherwort",
+      "nightbloom blossom",
+      "node",
+      "nutmeg",
+      "onion skin",
       "orange persimmon",
-      "meta:forage-sensed:day:2025-02"
+      "pale rose pink wisteria",
+      "peppermint leaves",
+      "pink oleander",
+      "pink passionflower",
+      "pink peppercorn",
+      "pothinir grass",
+      "purple datura blossom",
+      "purple passionflower",
+      "purple-tipped artichoke",
+      "red oleander",
+      "red onion",
+      "red passionflower",
+      "red tomato",
+      "reddish-orange persimmon",
+      "round yuzu",
+      "small watermelon",
+      "soft mushroom",
+      "spearmint leaf",
+      "star anise",
+      "sun-wilted tea leaves",
+      "supernode",
+      "sweet onion",
+      "tobacco leaves",
+      "trollear mushroom",
+      "vanilla bean",
+      "voln",
+      "wavepetal blossom",
+      "white datura blossom",
+      "white oleander",
+      "white passionflower",
+      "withered mushroom",
+      "yellow datura blossom",
+      "yellow lemon",
+      "yellow passionflower",
+      "yew twig",
+      "zucchini"
     ],
     "uid": [
       312033

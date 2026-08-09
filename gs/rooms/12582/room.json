@@ -1,5 +1,5 @@
 {
-  "checksum": "ddc1c089cd878818d24800cc6242b331",
+  "checksum": "6ba293f0a3520da9f37ff633d1ad2787",
   "room": {
     "id": 12582,
     "title": [
@@ -20,7 +20,12 @@
     "timeto": {
       "2053": 0.2,
       "12583": 0.2,
-      "28709": "/rooms/12582/timeto/stringproc-28709.rb"
+      "28709": {
+        "cost": 0.2,
+        "requires": [
+          "citizenship:Teras Isle"
+        ]
+      }
     },
     "tags": [
       "no forageables"

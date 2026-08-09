@@ -1,5 +1,5 @@
 {
-  "checksum": "b31204b9aea37f30fe344a8d58d08f92",
+  "checksum": "392623a12fdd6dc2f7bf0c89d0d3a62c",
   "room": {
     "id": 35740,
     "title": [
@@ -15,7 +15,16 @@
     "wayto": {
       "35738": "go steps",
       "35741": "southwest",
-      "35768": "/rooms/35740/wayto/stringproc-35768.rb"
+      "35768": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "go hatch"
+        }
+      ]
     },
     "timeto": {
       "35738": 0.2,

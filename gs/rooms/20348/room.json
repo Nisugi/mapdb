@@ -1,5 +1,5 @@
 {
-  "checksum": "9e1cdd45bf6eed5be7706622cb59c4f6",
+  "checksum": "b1c46ae03598477f4664540e1f38621a",
   "room": {
     "id": 20348,
     "title": [
@@ -16,7 +16,22 @@
       "20347": "east",
       "20349": "go wagons",
       "20350": "southwest",
-      "23146": "/rooms/20348/wayto/stringproc-23146.rb",
+      "23146": [
+        {
+          "do": "move",
+          "cmd": "crawl hollow"
+        },
+        {
+          "do": "repeat",
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        }
+      ],
       "23159": "go cave",
       "24214": "go ladder"
     },

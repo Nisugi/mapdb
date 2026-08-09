@@ -1,5 +1,5 @@
 {
-  "checksum": "60beddeb7166196f7e86e0444bfa307f",
+  "checksum": "ed75d2dcfdf60689bc36ccb4bd70a590",
   "room": {
     "id": 12813,
     "title": [
@@ -17,20 +17,22 @@
     "wayto": {
       "1453": "out",
       "12814": "climb stairway",
-      "30710": "/rooms/12813/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "1453": 0.2,
       "12814": 0.2,
-      "30710": "/rooms/12813/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "armorshop",
-      "urchin-access",
-      "urchin guide armor",
       "armor",
+      "armorshop",
       "meta:forage-sensed",
-      "no forageables"
+      "no forageables",
+      "urchin guide armor",
+      "urchin-access"
     ],
     "uid": [
       4740013

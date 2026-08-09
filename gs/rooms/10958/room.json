@@ -1,5 +1,5 @@
 {
-  "checksum": "f940a0a9e4073835df554abd28022a9e",
+  "checksum": "2de6d796ab0a1991ed49379451ad2743",
   "room": {
     "id": 10958,
     "title": [
@@ -14,13 +14,31 @@
     "location": "the town of River's Rest",
     "wayto": {
       "10957": "go doorway",
-      "17070": "/rooms/10958/wayto/stringproc-17070.rb",
-      "17071": "/rooms/10958/wayto/stringproc-17071.rb",
-      "17073": "/rooms/10958/wayto/stringproc-17073.rb",
-      "17074": "/rooms/10958/wayto/stringproc-17074.rb",
-      "17076": "/rooms/10958/wayto/stringproc-17076.rb",
-      "17082": "/rooms/10958/wayto/stringproc-17082.rb",
-      "30711": "/rooms/10958/wayto/stringproc-30711.rb"
+      "17070": {
+        "strategy": "table_join",
+        "table": "Long River"
+      },
+      "17071": {
+        "strategy": "table_join",
+        "table": "Bent Creek"
+      },
+      "17073": {
+        "strategy": "table_join",
+        "table": "Wide River"
+      },
+      "17074": {
+        "strategy": "table_join",
+        "table": "Running Creek"
+      },
+      "17076": {
+        "strategy": "table_join",
+        "table": "Clear River"
+      },
+      "17082": {
+        "strategy": "table_join",
+        "table": "Sleepy River"
+      },
+      "30711": []
     },
     "timeto": {
       "10957": 0.2,
@@ -30,16 +48,18 @@
       "17074": 0.2,
       "17076": 0.2,
       "17082": 0.2,
-      "30711": "/rooms/10958/timeto/stringproc-30711.rb"
+      "30711": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "table",
-      "urchin-access",
-      "urchin guide tables",
-      "tables",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "meta:forage-sensed:day:2022-09",
+      "no forageables",
+      "table",
+      "tables",
+      "urchin guide tables",
+      "urchin-access"
     ],
     "uid": [
       2101966

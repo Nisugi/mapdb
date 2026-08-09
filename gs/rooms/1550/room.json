@@ -1,5 +1,5 @@
 {
-  "checksum": "f28b48e95e2f53b019afd130967ac499",
+  "checksum": "9052895ad32dcb2c06d9d73a0217433f",
   "room": {
     "id": 1550,
     "title": [
@@ -20,20 +20,27 @@
       "1546": "east",
       "18928": "go gate",
       "22350": "go portal",
-      "30710": "/rooms/1550/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "1546": 0.2,
-      "18928": "/rooms/1550/timeto/stringproc-18928.rb",
+      "18928": {
+        "cost": 0.2,
+        "requires": [
+          "prof:Sorcerer"
+        ]
+      },
       "22350": 5,
-      "30710": "/rooms/1550/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "no forageables",
       "sorcerer guild",
       "sorcererguild",
       "urchin guide sorcererguild",
-      "urchin-access",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       664001

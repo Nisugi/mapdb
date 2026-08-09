@@ -1,5 +1,5 @@
 {
-  "checksum": "f372fc931be67d5c07a088c02cc26695",
+  "checksum": "6f1babb45ca104aa8b2c16269a4fd696",
   "room": {
     "id": 29169,
     "title": [
@@ -15,7 +15,27 @@
     "climate": "arid",
     "terrain": "mountainous",
     "wayto": {
-      "29168": "/rooms/29169/wayto/stringproc-29168.rb",
+      "29168": [
+        {
+          "do": "preserve_stance",
+          "stance": "offensive",
+          "steps": [
+            {
+              "do": "empty_hands"
+            },
+            {
+              "do": "move",
+              "cmd": "climb basalt"
+            },
+            {
+              "do": "fill_hands"
+            }
+          ]
+        },
+        {
+          "do": "replan"
+        }
+      ],
       "29170": "go crater rim"
     },
     "timeto": {
@@ -23,18 +43,18 @@
       "29170": 0.2
     },
     "tags": [
-      "yellow primrose",
-      "stalk of drakefern",
-      "pepperthorn root",
-      "meta:forage-sensed",
-      "white cotton boll",
-      "spring onion",
-      "mate leaves",
       "butterfly pea flower",
-      "sprig of rooibos",
       "lemon balm",
       "lemon verbena",
-      "meta:forage-sensed:day:2025-07"
+      "mate leaves",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "pepperthorn root",
+      "sprig of rooibos",
+      "spring onion",
+      "stalk of drakefern",
+      "white cotton boll",
+      "yellow primrose"
     ],
     "uid": [
       3023106

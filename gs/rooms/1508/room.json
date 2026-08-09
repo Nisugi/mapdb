@@ -1,5 +1,5 @@
 {
-  "checksum": "d9c8a6a3efe7596fc3c01e06730d597b",
+  "checksum": "fcbb3fc77aca49ab8adef18099064d39",
   "room": {
     "id": 1508,
     "title": [
@@ -21,19 +21,26 @@
     "wayto": {
       "1506": "north",
       "19734": "go portcullis",
-      "30710": "/rooms/1508/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "1506": 0.2,
-      "19734": "/rooms/1508/timeto/stringproc-19734.rb",
-      "30710": "/rooms/1508/timeto/stringproc-30710.rb"
+      "19734": {
+        "cost": 0.2,
+        "requires": [
+          "prof:Empath"
+        ]
+      },
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "empath guild",
       "empathguild",
-      "urchin guide empathguild",
-      "urchin-access",
       "no forageables",
-      "empath guild"
+      "urchin guide empathguild",
+      "urchin-access"
     ],
     "uid": [
       654001

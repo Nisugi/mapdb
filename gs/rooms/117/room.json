@@ -1,5 +1,5 @@
 {
-  "checksum": "b2e3bf43088c1e99b067593245dd98ed",
+  "checksum": "b962135d5c4fd956cb220c9ef5665e36",
   "room": {
     "id": 117,
     "title": [
@@ -15,7 +15,16 @@
     "wayto": {
       "116": "north",
       "118": "south",
-      "16751": "/rooms/117/wayto/stringproc-16751.rb"
+      "16751": [
+        {
+          "do": "send",
+          "cmd": "rub carving"
+        },
+        {
+          "do": "move",
+          "cmd": "go passage"
+        }
+      ]
     },
     "timeto": {
       "116": 0.2,
@@ -23,8 +32,8 @@
       "16751": 0.4
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       13300025

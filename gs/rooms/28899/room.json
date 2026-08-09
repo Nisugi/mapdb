@@ -1,5 +1,5 @@
 {
-  "checksum": "fbf5ea588f2d75066405b7513c76fbfd",
+  "checksum": "1696625685d03dcb9bbbf88eff4db969",
   "room": {
     "id": 28899,
     "title": [
@@ -21,7 +21,7 @@
       "28901": "east",
       "28907": "north",
       "28933": "go slate tent",
-      "30716": "/rooms/28899/wayto/stringproc-30716.rb"
+      "30716": []
     },
     "timeto": {
       "28813": 0.2,
@@ -30,12 +30,14 @@
       "28901": 0.2,
       "28907": 0.2,
       "28933": 0.2,
-      "30716": "/rooms/28899/timeto/stringproc-30716.rb"
+      "30716": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
       "meta:forage-sensed",
-      "no forageables"
+      "no forageables",
+      "urchin-access"
     ],
     "uid": [
       7118232

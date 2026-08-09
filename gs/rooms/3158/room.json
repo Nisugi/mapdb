@@ -1,5 +1,5 @@
 {
-  "checksum": "15cd9f2cd46a0ccb5a367f6fffddbdc6",
+  "checksum": "e67e7f3c06c0122288ef78822709b0c4",
   "room": {
     "id": 3158,
     "title": [
@@ -17,7 +17,17 @@
     "wayto": {
       "3157": "east",
       "3159": "northwest",
-      "23281": "/rooms/3158/wayto/stringproc-23281.rb"
+      "23281": [
+        {
+          "do": "move",
+          "cmd": "go portal"
+        },
+        {
+          "do": "set",
+          "var": "talondown_origin",
+          "value": 3158
+        }
+      ]
     },
     "timeto": {
       "3157": 0.2,
@@ -25,45 +35,45 @@
       "23281": 0.4
     },
     "tags": [
-      "slender twig",
-      "tkaro root",
-      "frostflower",
-      "some bolmara lichen",
-      "sunburst blossom",
-      "twisted twig",
-      "some frostweed",
-      "red winterberry",
-      "sweetfern stalk",
-      "snow lily",
-      "stick",
-      "some tree bark",
-      "orange rowanberry",
-      "bright red teaberry",
-      "handful of pinenuts",
-      "some pine needles",
-      "sticks",
-      "sassafras leaf",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "iceblossoms",
-      "winter rose",
-      "wintergreen leaf",
+      "bolmara lichen",
+      "bright red teaberry",
       "broken twig",
+      "crowberry",
+      "frostflower",
+      "frostweed",
+      "handful of pinenuts",
+      "iceblossoms",
+      "ironfern root",
+      "lingonberry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "orange rowanberry",
+      "pale thornberry",
+      "pennyroyal stem",
       "pine cone",
       "pine needles",
-      "frostweed",
-      "snowberries",
-      "pale thornberry",
-      "small loganberry",
-      "tree bark",
+      "red winterberry",
       "rockberry",
-      "crowberry",
-      "lingonberry",
-      "ironfern root",
-      "meta:forage-sensed",
-      "bolmara lichen",
-      "meta:forage-sensed:day:2022-11"
+      "sassafras leaf",
+      "slender twig",
+      "small loganberry",
+      "snow lily",
+      "snowberries",
+      "some bolmara lichen",
+      "some frostweed",
+      "some pine needles",
+      "some tree bark",
+      "stick",
+      "sticks",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "winter rose",
+      "wintergreen leaf"
     ],
     "uid": [
       4160003

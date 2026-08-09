@@ -1,5 +1,5 @@
 {
-  "checksum": "b18a435291125de6d87e9a22799618e4",
+  "checksum": "1f565bf4a1acbd7e8d2a544bb647477a",
   "room": {
     "id": 27027,
     "title": [
@@ -13,8 +13,54 @@
     ],
     "location": "Ta'Vaalor",
     "wayto": {
-      "27026": "/rooms/27027/wayto/stringproc-27026.rb",
-      "27028": "/rooms/27027/wayto/stringproc-27028.rb"
+      "27026": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "south"
+        }
+      ],
+      "27028": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "north"
+        }
+      ]
     },
     "timeto": {
       "27026": 0.2,

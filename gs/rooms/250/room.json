@@ -1,5 +1,5 @@
 {
-  "checksum": "13410fe0500d591cee365bd777c480f3",
+  "checksum": "57b27353064a3924460ffbfde27c727b",
   "room": {
     "id": 250,
     "title": [
@@ -17,50 +17,212 @@
     "terrain": "hard, flat",
     "wayto": {
       "248": "west",
-      "1870": "/rooms/250/wayto/stringproc-1870.rb",
-      "10838": "/rooms/250/wayto/stringproc-10838.rb",
-      "11756": "/rooms/250/wayto/stringproc-11756.rb",
+      "1870": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 4"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 4"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 4",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "10838": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 3"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 3"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 3",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "11756": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 2"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 2"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 2",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
       "23483": "go waters",
-      "29033": "/rooms/250/wayto/stringproc-29033.rb",
+      "29033": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 5"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 5"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 5",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
       "29631": "go ramp",
       "30276": "go bridge",
-      "30708": "/rooms/250/wayto/stringproc-30708.rb",
-      "31493": "/rooms/250/wayto/stringproc-31493.rb",
-      "32372": "/rooms/250/wayto/stringproc-32372.rb",
-      "32928": "/rooms/250/wayto/stringproc-32928.rb",
-      "35254": "/rooms/250/wayto/stringproc-35254.rb"
+      "30708": [],
+      "31493": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 6"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 6"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 6",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "32372": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 7"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 7"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 7",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "32928": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 8"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 8"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 8",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "35254": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 11"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 11"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 11",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ]
     },
     "timeto": {
       "248": 0.2,
-      "1870": "/rooms/250/timeto/stringproc-1870.rb",
-      "10838": "/rooms/250/timeto/stringproc-10838.rb",
-      "11756": "/rooms/250/timeto/stringproc-11756.rb",
+      "1870": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "10838": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "11756": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
       "23483": 999.2,
-      "29033": "/rooms/250/timeto/stringproc-29033.rb",
+      "29033": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
       "29631": 0.2,
       "30276": 0.2,
-      "30708": "/rooms/250/timeto/stringproc-30708.rb",
-      "31493": "/rooms/250/timeto/stringproc-31493.rb",
-      "32372": "/rooms/250/timeto/stringproc-32372.rb",
-      "32928": "/rooms/250/timeto/stringproc-32928.rb",
-      "35254": "/rooms/250/timeto/stringproc-35254.rb"
+      "30708": {
+        "same_as": "7:30714"
+      },
+      "31493": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "32372": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "32928": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "35254": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      }
     },
     "tags": [
-      "portmaster",
-      "silver-cost:29033:25000",
-      "silver-cost:10838:25000",
-      "silver-cost:1870:25000",
-      "warrior guild crates",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
-      "silver-cost:31493:35000",
-      "no forageables",
       "meta:forage-sensed:night:2022-11",
-      "urchin-access",
-      "urchin guide docks",
+      "no forageables",
+      "portmaster",
+      "silver-cost:10838:25000",
       "silver-cost:11756:12500",
+      "silver-cost:1870:25000",
+      "silver-cost:29033:25000",
+      "silver-cost:31493:35000",
       "silver-cost:32372:25000",
-      "silver-cost:32928:25000"
+      "silver-cost:32928:25000",
+      "urchin guide docks",
+      "urchin-access",
+      "warrior guild crates"
     ],
     "uid": [
       7111

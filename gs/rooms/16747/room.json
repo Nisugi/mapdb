@@ -1,5 +1,5 @@
 {
-  "checksum": "9047d27cca8230d8518a0aaf1f0bd3d3",
+  "checksum": "ab3d61271547c428dd667d88d9e95b97",
   "room": {
     "id": 16747,
     "title": [
@@ -16,40 +16,59 @@
     "terrain": "mountainous",
     "wayto": {
       "16746": "northeast",
-      "16748": "/rooms/16747/wayto/stringproc-16748.rb"
+      "16748": [
+        {
+          "do": "cast_buff",
+          "spell": 9704
+        },
+        {
+          "do": "move",
+          "cmd": "9704"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "16746": 0.2,
       "16748": 15
     },
     "tags": [
-      "pepperthorn root",
+      "agave heart",
       "angelica root",
-      "stalk of bluebells",
-      "wild pink geranium",
-      "sprig of larkspur",
-      "yellow primrose",
-      "wild sage",
-      "sprig of columbine",
+      "bolmara lichen",
+      "cherry peppers",
       "crimson dragonstalk",
+      "fresh catnip",
+      "hop flowers",
+      "ironfern root",
+      "juicy plum",
+      "leek",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
       "mountain dryad",
-      "stalk of monkeyflower",
+      "peppermint leaves",
+      "pepperthorn root",
+      "red thanot berry",
+      "shallot",
+      "small apple",
+      "small watermelon",
+      "sprig of columbine",
       "sprig of holly",
       "sprig of ivy",
-      "small apple",
-      "juicy plum",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "wingstem root",
-      "leek",
-      "shallot",
-      "hop flowers",
-      "agave heart",
-      "viburnum twig",
-      "red thanot berry",
+      "sprig of larkspur",
+      "spring onion",
+      "stalk of bluebells",
+      "stalk of monkeyflower",
+      "sunburst blossom",
       "thanot thorn",
-      "meta:forage-sensed:night:2024-05"
+      "viburnum twig",
+      "wild pink geranium",
+      "wild sage",
+      "wingstem root",
+      "yellow primrose"
     ],
     "uid": [
       17005025

@@ -1,5 +1,5 @@
 {
-  "checksum": "23c9e78b1cb5ca63cf86c0b0f7bde85c",
+  "checksum": "105a82b7271556cded3fa71f5a61d3e0",
   "room": {
     "id": 5719,
     "title": [
@@ -18,20 +18,22 @@
       "1448": "out",
       "5720": "east",
       "5721": "climb stairway",
-      "30710": "/rooms/5719/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "1448": 0.2,
       "5720": 0.2,
       "5721": 0.2,
-      "30710": "/rooms/5719/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "gemshop",
-      "urchin guide gemshop",
-      "urchin-access",
       "meta:forage-sensed",
-      "no forageables"
+      "no forageables",
+      "urchin guide gemshop",
+      "urchin-access"
     ],
     "uid": [
       4740035

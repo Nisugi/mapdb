@@ -1,1 +1,0 @@
-move 'swim east'; waitrt?

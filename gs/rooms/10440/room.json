@@ -1,5 +1,5 @@
 {
-  "checksum": "a8bf5c163665a3a65f85daf66b51b0cb",
+  "checksum": "548dcbc7368cb9bc2fd75f2aac18ffc4",
   "room": {
     "id": 10440,
     "title": [
@@ -13,7 +13,44 @@
     ],
     "location": "the town of Kharam-Dzu",
     "wayto": {
-      "12415": "/rooms/10440/wayto/stringproc-12415.rb",
+      "12415": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "touch teeth"
+            },
+            {
+              "do": "sleep",
+              "seconds": 1
+            },
+            {
+              "do": "repeat",
+              "until": "not:status:stunned",
+              "steps": [
+                {
+                  "do": "sleep",
+                  "seconds": 0.5
+                }
+              ]
+            }
+          ],
+          "times": 2
+        },
+        {
+          "do": "send",
+          "cmd": "touch left wing"
+        },
+        {
+          "do": "send",
+          "cmd": "touch right wing"
+        },
+        {
+          "do": "wait_room_change",
+          "timeout": 60
+        }
+      ],
       "14693": "south"
     },
     "timeto": {

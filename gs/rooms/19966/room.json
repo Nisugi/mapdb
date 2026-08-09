@@ -1,5 +1,5 @@
 {
-  "checksum": "48ec7f3a1393b70d286baaf2d7947a73",
+  "checksum": "33eed9d7011725c8af1475d83eaf607a",
   "room": {
     "id": 19966,
     "title": [
@@ -15,7 +15,16 @@
     "wayto": {
       "19951": "go onyx arch",
       "19968": "go ebonwood arch",
-      "20060": "/rooms/19966/wayto/stringproc-20060.rb"
+      "20060": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "climb stone stairs"
+        }
+      ]
     },
     "timeto": {
       "19951": 0.2,
@@ -23,10 +32,10 @@
       "20060": 0.2
     },
     "tags": [
-      "meta:teleport:fwi",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
+      "meta:forage-sensed:day:2022-11",
+      "meta:teleport:fwi",
+      "no forageables"
     ],
     "uid": [
       28143

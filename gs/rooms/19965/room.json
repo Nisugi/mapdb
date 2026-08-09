@@ -1,5 +1,5 @@
 {
-  "checksum": "4f12096e92b57fbf3a1d65d82fc612ec",
+  "checksum": "be92c7356e2306efabf038a600c9718c",
   "room": {
     "id": 19965,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "19948": "/rooms/19965/wayto/stringproc-19948.rb",
+      "19948": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "go narrow door"
+        }
+      ],
       "19964": "west"
     },
     "timeto": {
@@ -21,10 +30,10 @@
       "19964": 0.2
     },
     "tags": [
-      "meta:teleport:fwi",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
+      "meta:forage-sensed:day:2022-11",
+      "meta:teleport:fwi",
+      "no forageables"
     ],
     "uid": [
       28136

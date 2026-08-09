@@ -1,5 +1,5 @@
 {
-  "checksum": "e060444f89740a172bf8fa0bd1c3f78c",
+  "checksum": "2d63866f688e20fc51c72e37cc4a7ef1",
   "room": {
     "id": 12421,
     "title": [
@@ -14,13 +14,21 @@
     "location": "Kharam-Dzu",
     "wayto": {
       "12420": "west",
-      "14089": "/rooms/12421/wayto/stringproc-14089.rb"
+      "14089": {
+        "strategy": "rogue_guild_door"
+      }
     },
     "timeto": {
       "12420": 0.2,
-      "14089": "/rooms/12421/timeto/stringproc-14089.rb"
+      "14089": {
+        "cost": 1.6,
+        "requires": [
+          "prof:Rogue"
+        ]
+      }
     },
     "tags": [
+      "no forageables",
       "rogue guild",
       "rogueguild"
     ],

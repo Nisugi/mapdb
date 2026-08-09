@@ -1,1 +1,0 @@
-UserVars.mapdb_hinterwilds_location == 'EN' and Map.current.location.to_s =~ /the Hinterwilds/ ? 240 : nil;

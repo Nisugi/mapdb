@@ -1,5 +1,5 @@
 {
-  "checksum": "42f0ee1ac7cb498ee135048e80738f4f",
+  "checksum": "c82174465a411eeef420bea2bd055cea",
   "room": {
     "id": 11557,
     "title": [
@@ -15,7 +15,18 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "11556": "/rooms/11557/wayto/stringproc-11556.rb",
+      "11556": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb mainmast"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ],
       "11558": "go hatchway",
       "11591": "east"
     },
@@ -25,8 +36,8 @@
       "11591": 0.2
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       420501

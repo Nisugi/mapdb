@@ -1,1 +1,0 @@
-if checksitting;while Room.current.id == 13966;fput('row east');waitrt?;end;else;move('swim east');end;

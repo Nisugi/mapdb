@@ -1,5 +1,5 @@
 {
-  "checksum": "383571e624e57ca0de7ba3b6055c8dd1",
+  "checksum": "1fb7dfb4255f5e835fa8e136fc08e745",
   "room": {
     "id": 9299,
     "title": [
@@ -15,16 +15,25 @@
     "climate": "hot, damp",
     "terrain": "deciduous",
     "wayto": {
-      "3831": "/rooms/9299/wayto/stringproc-3831.rb"
+      "3831": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go fissure"
+        }
+      ]
     },
     "timeto": {
       "3831": 0.2
     },
     "tags": [
-      "yellow primrose",
+      "meta:trap",
       "some calamia fruit",
       "some pothinir grass",
-      "meta:trap"
+      "yellow primrose"
     ],
     "uid": [
       4291009

@@ -1,5 +1,5 @@
 {
-  "checksum": "adb9f04f92cd71b38e6f62deba8a98e1",
+  "checksum": "4b2424870a22844f57f7a69653431bda",
   "room": {
     "id": 7474,
     "title": [
@@ -13,18 +13,54 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "7471": "/rooms/7474/wayto/stringproc-7471.rb",
-      "7475": "/rooms/7474/wayto/stringproc-7475.rb"
+      "7471": [
+        {
+          "do": "if",
+          "when_all": [
+            "not:status:kneeling",
+            "not:race_match:Dwarf|Halfling|Gnome"
+          ],
+          "then": [
+            {
+              "do": "send",
+              "cmd": "kneel"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "south"
+        }
+      ],
+      "7475": [
+        {
+          "do": "if",
+          "when_all": [
+            "not:status:kneeling",
+            "not:race_match:Dwarf|Halfling|Gnome"
+          ],
+          "then": [
+            {
+              "do": "send",
+              "cmd": "kneel"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        }
+      ]
     },
     "timeto": {
       "7471": 0.2,
       "7475": 0.2
     },
     "tags": [
-      "sponge mushroom",
-      "some glowing green lichen",
+      "bone mushroom",
       "magru",
-      "bone mushroom"
+      "some glowing green lichen",
+      "sponge mushroom"
     ],
     "uid": [
       94016

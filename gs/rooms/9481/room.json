@@ -1,5 +1,5 @@
 {
-  "checksum": "d252ed97406d7bc2cba8bf471a13f2c0",
+  "checksum": "709d65277c60b4cc3d9bdcc73be94238",
   "room": {
     "id": 9481,
     "title": [
@@ -16,20 +16,22 @@
       "9414": "out",
       "9482": "east",
       "16849": "go arch",
-      "30712": "/rooms/9481/wayto/stringproc-30712.rb"
+      "30712": []
     },
     "timeto": {
       "9414": 0.2,
       "9482": 0.2,
       "16849": 0.2,
-      "30712": "/rooms/9481/timeto/stringproc-30712.rb"
+      "30712": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "no forageables",
+      "inn",
       "meta:forage-sensed",
-      "urchin-access",
+      "no forageables",
       "urchin guide inn",
-      "inn"
+      "urchin-access"
     ],
     "uid": [
       13010010

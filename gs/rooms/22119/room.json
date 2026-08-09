@@ -1,5 +1,5 @@
 {
-  "checksum": "cc1432931ce87e0bbdc8a64da41f1a27",
+  "checksum": "8fa07a2eb5e614f93d551e21e6b5b72c",
   "room": {
     "id": 22119,
     "title": [
@@ -15,9 +15,18 @@
     "wayto": {
       "22118": "go sliding doors",
       "30953": "go linden door",
-      "30956": "/rooms/22119/wayto/stringproc-30956.rb",
-      "30957": "/rooms/22119/wayto/stringproc-30957.rb",
-      "30958": "/rooms/22119/wayto/stringproc-30958.rb"
+      "30956": {
+        "strategy": "table_join",
+        "table": "Forsythia"
+      },
+      "30957": {
+        "strategy": "table_join",
+        "table": "Thistle"
+      },
+      "30958": {
+        "strategy": "table_join",
+        "table": "Windflower"
+      }
     },
     "timeto": {
       "22118": 0.2,

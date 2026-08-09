@@ -1,5 +1,5 @@
 {
-  "checksum": "c556d9ddf31fbfcb963091a3d9b67333",
+  "checksum": "163ecbf412017aef79ba7d6eb29c8d77",
   "room": {
     "id": 0,
     "title": [
@@ -15,19 +15,58 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "1": "/rooms/0/wayto/stringproc-1.rb",
-      "2": "/rooms/0/wayto/stringproc-2.rb",
-      "3": "/rooms/0/wayto/stringproc-3.rb",
-      "147": "/rooms/0/wayto/stringproc-147.rb",
-      "148": "/rooms/0/wayto/stringproc-148.rb",
-      "202": "/rooms/0/wayto/stringproc-202.rb",
-      "595": "/rooms/0/wayto/stringproc-595.rb",
-      "631": "/rooms/0/wayto/stringproc-631.rb",
-      "632": "/rooms/0/wayto/stringproc-632.rb",
-      "633": "/rooms/0/wayto/stringproc-633.rb",
-      "687": "/rooms/0/wayto/stringproc-687.rb",
-      "688": "/rooms/0/wayto/stringproc-688.rb",
-      "689": "/rooms/0/wayto/stringproc-689.rb",
+      "1": {
+        "strategy": "table_join",
+        "table": "Cat's Paw"
+      },
+      "2": {
+        "strategy": "table_join",
+        "table": "hammer"
+      },
+      "3": {
+        "strategy": "table_join",
+        "table": "guardian"
+      },
+      "147": {
+        "strategy": "table_join",
+        "table": "Jastev's Crystal"
+      },
+      "148": {
+        "strategy": "table_join",
+        "table": "mistress"
+      },
+      "202": {
+        "strategy": "table_join",
+        "table": "wagon"
+      },
+      "595": {
+        "strategy": "table_join",
+        "table": "gryphon"
+      },
+      "631": {
+        "strategy": "table_join",
+        "table": "rat"
+      },
+      "632": {
+        "strategy": "table_join",
+        "table": "jackal"
+      },
+      "633": {
+        "strategy": "table_join",
+        "table": "lady"
+      },
+      "687": {
+        "strategy": "table_join",
+        "table": "Grandfather's Eye"
+      },
+      "688": {
+        "strategy": "table_join",
+        "table": "gates"
+      },
+      "689": {
+        "strategy": "table_join",
+        "table": "ur-daemon"
+      },
       "1628": "west",
       "1629": "northwest",
       "1630": "northeast",
@@ -36,8 +75,14 @@
       "13353": "east",
       "15652": "south",
       "15653": "north",
-      "27048": "/rooms/0/wayto/stringproc-27048.rb",
-      "27049": "/rooms/0/wayto/stringproc-27049.rb"
+      "27048": {
+        "strategy": "table_join",
+        "table": "arachne"
+      },
+      "27049": {
+        "strategy": "table_join",
+        "table": "bat"
+      }
     },
     "timeto": {
       "1": 0.2,
@@ -65,10 +110,10 @@
       "27049": 0.2
     },
     "tags": [
-      "table",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
+      "meta:forage-sensed:night:2022-11",
+      "no forageables",
+      "table"
     ],
     "uid": [
       13107012

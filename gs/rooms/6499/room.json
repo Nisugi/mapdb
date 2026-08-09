@@ -1,5 +1,5 @@
 {
-  "checksum": "ebd63e9f37ee7297529b107854460e73",
+  "checksum": "b95f83ef4ef5a272cdf2d5cc48801f11",
   "room": {
     "id": 6499,
     "title": [
@@ -15,7 +15,7 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "6497": "/rooms/6499/wayto/stringproc-6497.rb",
+      "6497": "go door",
       "6500": "down"
     },
     "timeto": {

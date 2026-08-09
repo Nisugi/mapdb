@@ -1,5 +1,5 @@
 {
-  "checksum": "0bb4475ca6329c7b898069252a0c951a",
+  "checksum": "495b3261c911747d0cdc6c05612afbad",
   "room": {
     "id": 3253,
     "title": [
@@ -15,9 +15,60 @@
     "climate": "cold, damp",
     "terrain": "plain dirt",
     "wayto": {
-      "3251": "/rooms/3253/wayto/stringproc-3251.rb",
-      "3254": "/rooms/3253/wayto/stringproc-3254.rb",
-      "3260": "/rooms/3253/wayto/stringproc-3260.rb"
+      "3251": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb south wall"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ],
+      "3254": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb north wall"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ],
+      "3260": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "west"
+        }
+      ]
     },
     "timeto": {
       "3251": 0.2,
@@ -25,44 +76,36 @@
       "3260": 4
     },
     "tags": [
-      "some wolifrew lichen",
-      "some acantha leaf",
-      "some aloeas stem",
-      "some arctic brambles",
-      "stalk of chicory",
-      "small wild rose",
-      "cuctucae berry",
-      "orange rowanberry",
-      "blue whortleberry",
-      "buckthorn berry",
-      "some valerian root",
-      "withered black mushroom",
-      "some tundra grass",
-      "sassafras leaf",
-      "wild chokecherry",
-      "some wingstem root",
-      "calmintha flower",
-      "handful of bearberries",
-      "winter rose",
-      "bright red cranberry",
-      "some pennyroyal stem",
-      "sweetfern stalk",
-      "some angelica root",
-      "frostflower",
       "acantha leaf",
-      "wolifrew lichen",
       "aloeas stem",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "bearberries",
-      "tundra grass",
       "arctic brambles",
-      "murdroot",
+      "bearberries",
+      "blue whortleberry",
+      "bright red cranberry",
+      "buckthorn berry",
+      "calamintha flower",
+      "cuctucae berry",
+      "frostflower",
       "ironfern root",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-09",
+      "murdroot",
+      "orange rowanberry",
+      "pennyroyal stem",
+      "pine twig",
+      "sassafras leaf",
+      "stalk of chicory",
+      "sweetfern stalk",
+      "tundra grass",
+      "valerian root",
+      "wild chokecherry",
+      "wild rose",
       "wingstem root",
-      "meta:forage-sensed:night:2022-09"
+      "winter rose",
+      "withered mushroom",
+      "wolifrew lichen"
     ],
     "uid": [
       7502015

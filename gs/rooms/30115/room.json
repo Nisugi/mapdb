@@ -1,5 +1,5 @@
 {
-  "checksum": "e91faf502e257b19424da6ed7f5d8ebb",
+  "checksum": "f0b2589c20bf63923e472ca6056589d6",
   "room": {
     "id": 30115,
     "title": [
@@ -16,8 +16,14 @@
     "climate": "",
     "terrain": "",
     "wayto": {
-      "29861": "/rooms/30115/wayto/stringproc-29861.rb",
-      "29867": "/rooms/30115/wayto/stringproc-29867.rb"
+      "29861": {
+        "strategy": "unique_crossing",
+        "name": "crossing_30115_29861"
+      },
+      "29867": {
+        "strategy": "unique_crossing",
+        "name": "crossing_30115_29867"
+      }
     },
     "timeto": {
       "29861": 60,

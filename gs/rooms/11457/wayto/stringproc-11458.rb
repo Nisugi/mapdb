@@ -1,1 +1,0 @@
-move 'swim north'; waitrt?

@@ -1,5 +1,5 @@
 {
-  "checksum": "a49a49448c13fdb7e80e0e49fa930fed",
+  "checksum": "4bb073c6b12f20efe476d64b4d27ab4e",
   "room": {
     "id": 33078,
     "title": [
@@ -15,15 +15,24 @@
     "wayto": {
       "33077": "east",
       "33079": "southwest",
-      "33091": "go archway"
+      "33091": "go archway",
+      "36787": "go boat"
     },
     "timeto": {
       "33077": 0.2,
       "33079": 0.2,
-      "33091": 0.2
+      "33091": 0.2,
+      "36787": 0.2
     },
     "uid": [
       7134057
+    ],
+    "image": "Flotilla.png",
+    "image_coords": [
+      189,
+      301,
+      202,
+      309
     ]
   }
 }

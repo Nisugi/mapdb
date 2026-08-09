@@ -1,5 +1,5 @@
 {
-  "checksum": "8100d8d4f4d0c309cf24e2799c30c107",
+  "checksum": "97810c14fbf80ae64b32148122be0414",
   "room": {
     "id": 28897,
     "title": [
@@ -20,7 +20,7 @@
       "28900": "east",
       "29007": "go shop",
       "29032": "go catwalk",
-      "30716": "/rooms/28897/wayto/stringproc-30716.rb"
+      "30716": []
     },
     "timeto": {
       "28896": 0.2,
@@ -28,15 +28,17 @@
       "28900": 0.2,
       "29007": 0.2,
       "29032": 0.2,
-      "30716": "/rooms/28897/timeto/stringproc-30716.rb"
+      "30716": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "handler",
-      "urchin guide catwalk",
-      "urchin-access",
       "dock handler",
+      "handler",
       "meta:forage-sensed",
-      "no forageables"
+      "no forageables",
+      "urchin guide catwalk",
+      "urchin-access"
     ],
     "uid": [
       7118238

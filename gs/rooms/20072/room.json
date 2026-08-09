@@ -1,5 +1,5 @@
 {
-  "checksum": "f52b0b1d798b7eaee75c5e24ba5eeab8",
+  "checksum": "eba93e0d65c5f270a52940e8bd680213",
   "room": {
     "id": 20072,
     "title": [
@@ -15,7 +15,16 @@
     "location": "the Feymist Cemetery",
     "wayto": {
       "20071": "go steps",
-      "23120": "/rooms/20072/wayto/stringproc-23120.rb"
+      "23120": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go staircase"
+        }
+      ]
     },
     "timeto": {
       "20071": 0.2,

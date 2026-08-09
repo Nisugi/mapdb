@@ -1,5 +1,5 @@
 {
-  "checksum": "4742167cbc4cea4e6c82b2b055696123",
+  "checksum": "07701380048cff5ecc37421105feec68",
   "room": {
     "id": 1957,
     "title": [
@@ -18,22 +18,24 @@
     "wayto": {
       "1956": "south",
       "1991": "go gate",
-      "30715": "/rooms/1957/wayto/stringproc-30715.rb"
+      "30715": []
     },
     "timeto": {
       "1956": 0.2,
       "1991": 0.2,
-      "30715": "/rooms/1957/timeto/stringproc-30715.rb"
+      "30715": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "advguard",
-      "urchin-access",
-      "urchin guide guard",
-      "urchin guide gate",
       "guard",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
+      "meta:forage-sensed:day:2023-01",
+      "no forageables",
+      "urchin guide gate",
+      "urchin guide guard",
+      "urchin-access"
     ],
     "uid": [
       3001046

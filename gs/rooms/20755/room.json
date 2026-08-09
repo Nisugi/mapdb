@@ -1,5 +1,5 @@
 {
-  "checksum": "ad7699c01dc8dfca34803961c1a7fa17",
+  "checksum": "d55a13856c343613b924e9bb1de626ba",
   "room": {
     "id": 20755,
     "title": [
@@ -14,8 +14,8 @@
     "location": "Icemule Trace",
     "wayto": {
       "20753": "out",
-      "23428": "/rooms/20755/wayto/stringproc-23428.rb",
-      "25187": "/rooms/20755/wayto/stringproc-25187.rb"
+      "23428": "go east",
+      "25187": "go north"
     },
     "timeto": {
       "20753": 0.2,

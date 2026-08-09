@@ -1,5 +1,5 @@
 {
-  "checksum": "9f1bbf6e377177afa9e4c40060ce81dc",
+  "checksum": "e79da7dc761cfe04089e79c2524e335d",
   "room": {
     "id": 3577,
     "title": [
@@ -16,7 +16,12 @@
     "terrain": "mountainous",
     "wayto": {
       "3576": "northwest",
-      "3578": "/rooms/3577/wayto/stringproc-3578.rb",
+      "3578": [
+        {
+          "do": "move_with_group",
+          "cmd": "climb stair"
+        }
+      ],
       "3729": "southeast",
       "3730": "east"
     },
@@ -27,23 +32,23 @@
       "3730": 0.2
     },
     "tags": [
-      "wild pink geranium",
-      "sweetfern stalk",
-      "sassafras leaf",
-      "stalk of bluebells",
-      "sprig of larkspur",
-      "cuctucae berry",
-      "marallis berry",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "ironfern root",
       "bolmara lichen",
+      "cuctucae berry",
+      "ironfern root",
+      "marallis berry",
       "meta:forage-sensed",
-      "sunburst blossom",
-      "wingstem root",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2025-01",
-      "meta:forage-sensed:day:2025-02"
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sprig of larkspur",
+      "stalk of bluebells",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wild pink geranium",
+      "wingstem root"
     ],
     "uid": [
       4291028

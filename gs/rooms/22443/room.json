@@ -1,5 +1,5 @@
 {
-  "checksum": "1a43bb291553ee4e2a298685f1cbdfec",
+  "checksum": "4477d0e79bb90df39cbc2af187673284",
   "room": {
     "id": 22443,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "Talador",
     "wayto": {
-      "1293": "/rooms/22443/wayto/stringproc-1293.rb",
+      "1293": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "go blood-soaked trail"
+        }
+      ],
       "22442": "down"
     },
     "timeto": {

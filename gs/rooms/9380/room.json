@@ -1,5 +1,5 @@
 {
-  "checksum": "03bb87a579952c44b37cb5679b480f95",
+  "checksum": "a438bd45cae52ab97f0c9e9111b2c5e7",
   "room": {
     "id": 9380,
     "title": [
@@ -19,36 +19,126 @@
       "9379": "go doors",
       "9390": "climb stairs",
       "9391": "go curtain",
-      "25592": "/rooms/9380/wayto/stringproc-25592.rb",
-      "30679": "/rooms/9380/wayto/stringproc-30679.rb",
-      "30680": "/rooms/9380/wayto/stringproc-30680.rb",
-      "30681": "/rooms/9380/wayto/stringproc-30681.rb",
-      "30682": "/rooms/9380/wayto/stringproc-30682.rb",
-      "30683": "/rooms/9380/wayto/stringproc-30683.rb",
-      "30684": "/rooms/9380/wayto/stringproc-30684.rb",
-      "30685": "/rooms/9380/wayto/stringproc-30685.rb",
-      "30686": "/rooms/9380/wayto/stringproc-30686.rb",
-      "30687": "/rooms/9380/wayto/stringproc-30687.rb",
-      "30688": "/rooms/9380/wayto/stringproc-30688.rb",
-      "30689": "/rooms/9380/wayto/stringproc-30689.rb",
-      "30690": "/rooms/9380/wayto/stringproc-30690.rb",
-      "30691": "/rooms/9380/wayto/stringproc-30691.rb",
-      "30692": "/rooms/9380/wayto/stringproc-30692.rb",
-      "30693": "/rooms/9380/wayto/stringproc-30693.rb",
-      "30694": "/rooms/9380/wayto/stringproc-30694.rb",
-      "30695": "/rooms/9380/wayto/stringproc-30695.rb",
-      "30696": "/rooms/9380/wayto/stringproc-30696.rb",
-      "30697": "/rooms/9380/wayto/stringproc-30697.rb",
-      "30698": "/rooms/9380/wayto/stringproc-30698.rb",
-      "30699": "/rooms/9380/wayto/stringproc-30699.rb",
-      "30700": "/rooms/9380/wayto/stringproc-30700.rb",
-      "30701": "/rooms/9380/wayto/stringproc-30701.rb",
-      "30702": "/rooms/9380/wayto/stringproc-30702.rb",
-      "30703": "/rooms/9380/wayto/stringproc-30703.rb",
-      "30704": "/rooms/9380/wayto/stringproc-30704.rb",
-      "30705": "/rooms/9380/wayto/stringproc-30705.rb",
-      "30706": "/rooms/9380/wayto/stringproc-30706.rb",
-      "30707": "/rooms/9380/wayto/stringproc-30707.rb"
+      "25592": {
+        "strategy": "table_join",
+        "table": "Cat"
+      },
+      "30679": {
+        "strategy": "table_join",
+        "table": "Wool"
+      },
+      "30680": {
+        "strategy": "table_join",
+        "table": "Cotton"
+      },
+      "30681": {
+        "strategy": "table_join",
+        "table": "Canvas"
+      },
+      "30682": {
+        "strategy": "table_join",
+        "table": "Felt"
+      },
+      "30683": {
+        "strategy": "table_join",
+        "table": "Silk"
+      },
+      "30684": {
+        "strategy": "table_join",
+        "table": "Burlap"
+      },
+      "30685": {
+        "strategy": "table_join",
+        "table": "Fern"
+      },
+      "30686": {
+        "strategy": "table_join",
+        "table": "Hyacinth"
+      },
+      "30687": {
+        "strategy": "table_join",
+        "table": "Rose"
+      },
+      "30688": {
+        "strategy": "table_join",
+        "table": "Lilac"
+      },
+      "30689": {
+        "strategy": "table_join",
+        "table": "Daffodil"
+      },
+      "30690": {
+        "strategy": "table_join",
+        "table": "Cactus"
+      },
+      "30691": {
+        "strategy": "table_join",
+        "table": "Apple"
+      },
+      "30692": {
+        "strategy": "table_join",
+        "table": "Orange"
+      },
+      "30693": {
+        "strategy": "table_join",
+        "table": "Banana"
+      },
+      "30694": {
+        "strategy": "table_join",
+        "table": "Lemon"
+      },
+      "30695": {
+        "strategy": "table_join",
+        "table": "Lime"
+      },
+      "30696": {
+        "strategy": "table_join",
+        "table": "Strawberry"
+      },
+      "30697": {
+        "strategy": "table_join",
+        "table": "Pebbles"
+      },
+      "30698": {
+        "strategy": "table_join",
+        "table": "Marbles"
+      },
+      "30699": {
+        "strategy": "table_join",
+        "table": "Sand"
+      },
+      "30700": {
+        "strategy": "table_join",
+        "table": "Coins"
+      },
+      "30701": {
+        "strategy": "table_join",
+        "table": "Buttons"
+      },
+      "30702": {
+        "strategy": "table_join",
+        "table": "Clasps"
+      },
+      "30703": {
+        "strategy": "table_join",
+        "table": "Dog"
+      },
+      "30704": {
+        "strategy": "table_join",
+        "table": "Rolton"
+      },
+      "30705": {
+        "strategy": "table_join",
+        "table": "Dragon"
+      },
+      "30706": {
+        "strategy": "table_join",
+        "table": "Kobold"
+      },
+      "30707": {
+        "strategy": "table_join",
+        "table": "Thing"
+      }
     },
     "timeto": {
       "9378": 0.2,
@@ -87,9 +177,9 @@
       "30707": 0.2
     },
     "tags": [
-      "table",
       "meta:forage-sensed",
-      "no forageables"
+      "no forageables",
+      "table"
     ],
     "uid": [
       2120121

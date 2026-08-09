@@ -1,5 +1,5 @@
 {
-  "checksum": "c99e4ce123de5eefe515f281ff9d2696",
+  "checksum": "809b1ab1a10a187c7e292c9ebb36d9d6",
   "room": {
     "id": 1932,
     "title": [
@@ -19,28 +19,30 @@
       "1931": "east",
       "1933": "west",
       "1944": "north",
-      "30715": "/rooms/1932/wayto/stringproc-30715.rb"
+      "30715": []
     },
     "timeto": {
       "1898": 3,
       "1931": 3,
       "1933": 3,
       "1944": 3,
-      "30715": "/rooms/1932/timeto/stringproc-30715.rb"
+      "30715": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "node",
-      "town",
-      "supernode",
-      "meta:mapname:Teras Isle - Kharam-Dzu",
-      "meta:mapshortname:Kharam-Dzu",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
       "meta:mapcategory:Teras Isle",
       "meta:mapcategory:Towns",
-      "urchin-access",
-      "urchin guide statue",
+      "meta:mapname:Teras Isle - Kharam-Dzu",
+      "meta:mapshortname:Kharam-Dzu",
       "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
+      "node",
+      "supernode",
+      "town",
+      "urchin guide statue",
+      "urchin-access"
     ],
     "uid": [
       3001025

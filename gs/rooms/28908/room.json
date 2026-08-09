@@ -1,5 +1,5 @@
 {
-  "checksum": "401ca173d68fe16545f4a6c81e8f30e3",
+  "checksum": "dd588a9c57ab0a46644e9736369b9659",
   "room": {
     "id": 28908,
     "title": [
@@ -15,19 +15,59 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "3668": "/rooms/28908/wayto/stringproc-3668.rb",
-      "26905": "/rooms/28908/wayto/stringproc-26905.rb",
+      "3668": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
+      "26905": [
+        {
+          "do": "repeat",
+          "times": 2,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "event transport duskruin"
+            }
+          ]
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": 28908
+        }
+      ],
       "28813": "southwest",
       "28871": "west",
       "28907": "south",
       "28909": "east",
       "28935": "go wagon",
       "28937": "go ladder",
-      "30716": "/rooms/28908/wayto/stringproc-30716.rb",
-      "31558": "/rooms/28908/wayto/stringproc-31558.rb"
+      "30716": [],
+      "31558": [
+        {
+          "do": "repeat",
+          "times": 2,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "event transport ebon gate"
+            }
+          ]
+        },
+        {
+          "do": "set",
+          "var": "ebon_gate_origin",
+          "value": 28908
+        }
+      ]
     },
     "timeto": {
-      "3668": "/rooms/28908/timeto/stringproc-3668.rb",
+      "3668": {
+        "same_as": "7:3668"
+      },
       "26905": 2400,
       "28813": 0.2,
       "28871": 0.2,
@@ -35,15 +75,22 @@
       "28909": 0.2,
       "28935": 0.2,
       "28937": 0.2,
-      "30716": "/rooms/28908/timeto/stringproc-30716.rb",
-      "31558": "/rooms/28908/timeto/stringproc-31558.rb"
+      "30716": {
+        "same_as": "7:30714"
+      },
+      "31558": {
+        "cost": 2400,
+        "requires": [
+          "month:10"
+        ]
+      }
     },
     "tags": [
-      "urchin-access",
-      "meta:teleport",
       "meta:forage-sensed",
       "meta:fwi:teleport",
-      "no forageables"
+      "meta:teleport",
+      "no forageables",
+      "urchin-access"
     ],
     "uid": [
       7118213

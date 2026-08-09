@@ -1,5 +1,5 @@
 {
-  "checksum": "1d045b61c87bc6834c74fe82a7383476",
+  "checksum": "fd9d7d5d0d94707a475390429961b332",
   "room": {
     "id": 7465,
     "title": [
@@ -13,9 +13,63 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "7464": "/rooms/7465/wayto/stringproc-7464.rb",
-      "7466": "/rooms/7465/wayto/stringproc-7466.rb",
-      "7467": "/rooms/7465/wayto/stringproc-7467.rb"
+      "7464": [
+        {
+          "do": "if",
+          "when_all": [
+            "not:status:kneeling",
+            "not:race_match:Dwarf|Halfling|Gnome"
+          ],
+          "then": [
+            {
+              "do": "send",
+              "cmd": "kneel"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "north"
+        }
+      ],
+      "7466": [
+        {
+          "do": "if",
+          "when_all": [
+            "not:status:kneeling",
+            "not:race_match:Dwarf|Halfling|Gnome"
+          ],
+          "then": [
+            {
+              "do": "send",
+              "cmd": "kneel"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "south"
+        }
+      ],
+      "7467": [
+        {
+          "do": "if",
+          "when_all": [
+            "not:status:kneeling",
+            "not:race_match:Dwarf|Halfling|Gnome"
+          ],
+          "then": [
+            {
+              "do": "send",
+              "cmd": "kneel"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "east"
+        }
+      ]
     },
     "timeto": {
       "7464": 0.2,
@@ -23,9 +77,9 @@
       "7467": 0.2
     },
     "tags": [
+      "magru",
       "some blackened moss",
       "some cave moss",
-      "magru",
       "some glowing green lichen"
     ],
     "uid": [

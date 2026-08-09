@@ -1,5 +1,5 @@
 {
-  "checksum": "b42bb96eef5e4ff50bf6606d7562070e",
+  "checksum": "774591e7ee86f975e4cd6245fb340cb1",
   "room": {
     "id": 27864,
     "title": [
@@ -13,12 +13,92 @@
     ],
     "location": "Keh'nira Fyr'sah",
     "wayto": {
-      "27860": "/rooms/27864/wayto/stringproc-27860.rb",
-      "27865": "/rooms/27864/wayto/stringproc-27865.rb"
+      "27860": [
+        {
+          "do": "if",
+          "when": "has_item:cord-strung delicate brass key",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "remove ##{key.id}"
+            },
+            {
+              "do": "send",
+              "cmd": "unlock #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "open #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "go #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "close #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "lock #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "wear ##{key.id}"
+            }
+          ]
+        }
+      ],
+      "27865": [
+        {
+          "do": "if",
+          "when": "has_item:cord-strung delicate brass key",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "remove ##{key.id}"
+            },
+            {
+              "do": "send",
+              "cmd": "unlock #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "open #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "go #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "close #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "lock #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "wear ##{key.id}"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
-      "27860": "/rooms/27864/timeto/stringproc-27860.rb",
-      "27865": "/rooms/27864/timeto/stringproc-27865.rb"
+      "27860": {
+        "cost": 5,
+        "requires": [
+          "has_item:cord-strung delicate brass key"
+        ]
+      },
+      "27865": {
+        "cost": 5,
+        "requires": [
+          "has_item:cord-strung delicate brass key"
+        ]
+      }
     },
     "tags": [
       "private property"

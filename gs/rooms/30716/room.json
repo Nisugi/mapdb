@@ -1,5 +1,5 @@
 {
-  "checksum": "df052be9abe58f9532cacba4fc9cebe7",
+  "checksum": "8de91ac371b03a1f59109829a8b25904",
   "room": {
     "id": 30716,
     "title": [
@@ -50,45 +50,115 @@
       "34948": "urchin guide temple"
     },
     "timeto": {
-      "28813": "/rooms/30716/timeto/stringproc-28813.rb",
-      "28870": "/rooms/30716/timeto/stringproc-28870.rb",
-      "28885": "/rooms/30716/timeto/stringproc-28885.rb",
-      "28897": "/rooms/30716/timeto/stringproc-28897.rb",
-      "28911": "/rooms/30716/timeto/stringproc-28911.rb",
-      "28927": "/rooms/30716/timeto/stringproc-28927.rb",
-      "28933": "/rooms/30716/timeto/stringproc-28933.rb",
-      "28935": "/rooms/30716/timeto/stringproc-28935.rb",
-      "28937": "/rooms/30716/timeto/stringproc-28937.rb",
-      "28938": "/rooms/30716/timeto/stringproc-28938.rb",
-      "28939": "/rooms/30716/timeto/stringproc-28939.rb",
-      "28940": "/rooms/30716/timeto/stringproc-28940.rb",
-      "28942": "/rooms/30716/timeto/stringproc-28942.rb",
-      "28944": "/rooms/30716/timeto/stringproc-28944.rb",
-      "28947": "/rooms/30716/timeto/stringproc-28947.rb",
-      "28950": "/rooms/30716/timeto/stringproc-28950.rb",
-      "28965": "/rooms/30716/timeto/stringproc-28965.rb",
-      "28968": "/rooms/30716/timeto/stringproc-28968.rb",
-      "28971": "/rooms/30716/timeto/stringproc-28971.rb",
-      "28972": "/rooms/30716/timeto/stringproc-28972.rb",
-      "28978": "/rooms/30716/timeto/stringproc-28978.rb",
-      "28990": "/rooms/30716/timeto/stringproc-28990.rb",
-      "28994": "/rooms/30716/timeto/stringproc-28994.rb",
-      "28997": "/rooms/30716/timeto/stringproc-28997.rb",
-      "29033": "/rooms/30716/timeto/stringproc-29033.rb",
-      "29096": "/rooms/30716/timeto/stringproc-29096.rb",
-      "29099": "/rooms/30716/timeto/stringproc-29099.rb",
-      "29127": "/rooms/30716/timeto/stringproc-29127.rb",
-      "29130": "/rooms/30716/timeto/stringproc-29130.rb",
-      "29468": "/rooms/30716/timeto/stringproc-29468.rb",
-      "29556": "/rooms/30716/timeto/stringproc-29556.rb",
-      "30291": "/rooms/30716/timeto/stringproc-30291.rb",
-      "32591": "/rooms/30716/timeto/stringproc-32591.rb",
-      "32595": "/rooms/30716/timeto/stringproc-32595.rb",
-      "34948": "/rooms/30716/timeto/stringproc-34948.rb"
+      "28813": {
+        "same_as": "30714:7"
+      },
+      "28870": {
+        "same_as": "30714:7"
+      },
+      "28885": {
+        "same_as": "30714:7"
+      },
+      "28897": {
+        "same_as": "30714:7"
+      },
+      "28911": {
+        "same_as": "30714:21"
+      },
+      "28927": {
+        "same_as": "30714:7"
+      },
+      "28933": {
+        "same_as": "30714:7"
+      },
+      "28935": {
+        "same_as": "30714:7"
+      },
+      "28937": {
+        "same_as": "30714:7"
+      },
+      "28938": {
+        "same_as": "30714:7"
+      },
+      "28939": {
+        "same_as": "30714:7"
+      },
+      "28940": {
+        "same_as": "30714:7"
+      },
+      "28942": {
+        "same_as": "30714:7"
+      },
+      "28944": {
+        "same_as": "30714:7"
+      },
+      "28947": {
+        "same_as": "30714:7"
+      },
+      "28950": {
+        "same_as": "30714:7"
+      },
+      "28965": {
+        "same_as": "30714:7"
+      },
+      "28968": {
+        "same_as": "30714:7"
+      },
+      "28971": {
+        "same_as": "30714:7"
+      },
+      "28972": {
+        "same_as": "30714:7"
+      },
+      "28978": {
+        "same_as": "30714:7"
+      },
+      "28990": {
+        "same_as": "30714:20707"
+      },
+      "28994": {
+        "same_as": "30714:7"
+      },
+      "28997": {
+        "same_as": "30714:7"
+      },
+      "29033": {
+        "same_as": "30714:7"
+      },
+      "29096": {
+        "same_as": "30714:7"
+      },
+      "29099": {
+        "same_as": "30714:7"
+      },
+      "29127": {
+        "same_as": "30714:7"
+      },
+      "29130": {
+        "same_as": "30714:7"
+      },
+      "29468": {
+        "same_as": "30714:7"
+      },
+      "29556": {
+        "same_as": "30714:7"
+      },
+      "30291": {
+        "same_as": "30714:7"
+      },
+      "32591": {
+        "same_as": "30714:7"
+      },
+      "32595": {
+        "same_as": "30714:7"
+      },
+      "34948": {
+        "same_as": "30714:7"
+      }
     },
     "tags": [
-      "urchin-hideout",
-      "meta:map:virtual room"
+      "meta:map:virtual room",
+      "urchin-hideout"
     ]
   }
 }

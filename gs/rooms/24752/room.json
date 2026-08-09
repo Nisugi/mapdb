@@ -1,5 +1,5 @@
 {
-  "checksum": "5c733510d79efb080cffb48aae7a5a65",
+  "checksum": "69b288e1ea8315e3ecd0a2bf316ce814",
   "room": {
     "id": 24752,
     "title": [
@@ -15,7 +15,10 @@
     "wayto": {
       "18709": "north",
       "18710": "northwest",
-      "20423": "/rooms/24752/wayto/stringproc-20423.rb",
+      "20423": {
+        "strategy": "unique_crossing",
+        "name": "crossing_24752_20423"
+      },
       "24462": "west"
     },
     "timeto": {

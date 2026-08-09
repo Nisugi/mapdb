@@ -1,5 +1,5 @@
 {
-  "checksum": "66523dce87912fb42d7ea3a1abe686cc",
+  "checksum": "3157ef76f38fe3880a10d210d85855a0",
   "room": {
     "id": 6102,
     "title": [
@@ -19,25 +19,37 @@
       "6105": "go tunnel",
       "18625": "go temple",
       "18627": "go shop",
-      "30710": "/rooms/6102/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "1485": 0.2,
       "6105": 0.2,
-      "18625": "/rooms/6102/timeto/stringproc-18625.rb",
-      "18627": "/rooms/6102/timeto/stringproc-18627.rb",
-      "30710": "/rooms/6102/timeto/stringproc-30710.rb"
+      "18625": {
+        "cost": 0.2,
+        "requires": [
+          "prof:Cleric"
+        ]
+      },
+      "18627": {
+        "cost": 0.2,
+        "requires": [
+          "prof:Cleric"
+        ]
+      },
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "cleric guild",
       "clericguild",
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Vornavis",
       "meta:mapname:Vornavis - Cleric Guild",
       "meta:mapshortname:Cleric Guild (VO)",
-      "meta:mapcategory:Vornavis",
-      "meta:mapcategory:Guilds",
-      "urchin-access",
-      "urchin guide clericguild",
       "no forageables",
-      "cleric guild"
+      "urchin guide clericguild",
+      "urchin-access"
     ],
     "uid": [
       674017

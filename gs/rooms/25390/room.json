@@ -1,5 +1,5 @@
 {
-  "checksum": "7a743f8ab4e09400f3cab2179bb5badf",
+  "checksum": "088b96aa26ec0808a884b79ea651c1c7",
   "room": {
     "id": 25390,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "Delirium Manor",
     "wayto": {
-      "25391": "/rooms/25390/wayto/stringproc-25391.rb",
+      "25391": [
+        {
+          "do": "send",
+          "cmd": "stand"
+        },
+        {
+          "do": "send",
+          "cmd": "out"
+        }
+      ],
       "25392": "north",
       "34022": "west"
     },

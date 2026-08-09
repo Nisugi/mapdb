@@ -1,5 +1,5 @@
 {
-  "checksum": "af728d3ad1723b0ede31b890843557df",
+  "checksum": "f6eb46fab01ec3b2918b049671351c58",
   "room": {
     "id": 31915,
     "title": [
@@ -14,7 +14,19 @@
     "location": "Evermore Hollow",
     "wayto": {
       "31914": "go steps",
-      "32083": "/rooms/31915/wayto/stringproc-32083.rb",
+      "32083": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "move",
+          "cmd": "go black arch"
+        }
+      ],
       "32086": "north",
       "32087": "south"
     },
@@ -25,9 +37,9 @@
       "32087": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-10"
+      "meta:forage-sensed:night:2022-10",
+      "no forageables"
     ],
     "uid": [
       8084605

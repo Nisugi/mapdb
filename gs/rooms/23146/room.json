@@ -1,5 +1,5 @@
 {
-  "checksum": "55fbfcd82806c2b731f564e9136e1446",
+  "checksum": "8a2804cf294df1910c76cab9883e2012",
   "room": {
     "id": 23146,
     "title": [
@@ -13,7 +13,22 @@
     ],
     "location": false,
     "wayto": {
-      "20348": "/rooms/23146/wayto/stringproc-20348.rb",
+      "20348": [
+        {
+          "do": "move",
+          "cmd": "crawl crevice"
+        },
+        {
+          "do": "repeat",
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        }
+      ],
       "23147": "east"
     },
     "timeto": {

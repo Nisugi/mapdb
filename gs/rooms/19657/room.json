@@ -1,5 +1,5 @@
 {
-  "checksum": "bc08d8b2a620bc0d3d469b107d612a77",
+  "checksum": "7724b83de06e47cafbc56fb5d8a063c1",
   "room": {
     "id": 19657,
     "title": [
@@ -14,15 +14,18 @@
     "location": "the foothills of Zeltoph",
     "wayto": {
       "19656": "southeast",
-      "20012": "/rooms/19657/wayto/stringproc-20012.rb"
+      "20012": {
+        "strategy": "unique_crossing",
+        "name": "crossing_19657_20012"
+      }
     },
     "timeto": {
       "19656": 0.2,
       "20012": 15000
     },
     "tags": [
-      "lockpick:door:-125",
       "ironfern root",
+      "lockpick:door:-125",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
       "meta:trap"

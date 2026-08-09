@@ -1,5 +1,5 @@
 {
-  "checksum": "0c3853aeadeec02baa4600ba2eb8fb1b",
+  "checksum": "ceef4169419b74ef260c3209de5ab52e",
   "room": {
     "id": 1448,
     "title": [
@@ -20,11 +20,49 @@
       "1438": "southwest",
       "1449": "east",
       "1453": "south",
-      "3668": "/rooms/1448/wayto/stringproc-3668.rb",
+      "3668": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
       "5719": "go front door",
-      "26905": "/rooms/1448/wayto/stringproc-26905.rb",
-      "30710": "/rooms/1448/wayto/stringproc-30710.rb",
-      "31558": "/rooms/1448/wayto/stringproc-31558.rb"
+      "26905": [
+        {
+          "do": "repeat",
+          "times": 2,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "event transport duskruin"
+            }
+          ]
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": 1448
+        }
+      ],
+      "30710": [],
+      "31558": [
+        {
+          "do": "repeat",
+          "times": 2,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "event transport ebon gate"
+            }
+          ]
+        },
+        {
+          "do": "set",
+          "var": "ebon_gate_origin",
+          "value": 1448
+        }
+      ]
     },
     "timeto": {
       "1436": 0.2,
@@ -32,18 +70,27 @@
       "1438": 0.2,
       "1449": 0.2,
       "1453": 0.2,
-      "3668": "/rooms/1448/timeto/stringproc-3668.rb",
+      "3668": {
+        "same_as": "7:3668"
+      },
       "5719": 0.2,
       "26905": 2400,
-      "30710": "/rooms/1448/timeto/stringproc-30710.rb",
-      "31558": "/rooms/1448/timeto/stringproc-31558.rb"
+      "30710": {
+        "same_as": "7:30714"
+      },
+      "31558": {
+        "cost": 2400,
+        "requires": [
+          "month:10"
+        ]
+      }
     },
     "tags": [
-      "urchin-access",
       "meta:forage-sensed",
+      "meta:fwi:teleport",
       "meta:teleport",
       "no forageables",
-      "meta:fwi:teleport"
+      "urchin-access"
     ],
     "uid": [
       4209023

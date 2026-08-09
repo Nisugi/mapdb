@@ -1,5 +1,5 @@
 {
-  "checksum": "320311c69a81fac774fd053a54005233",
+  "checksum": "8513e6f7bd8678153b1c23e5192393c4",
   "room": {
     "id": 33084,
     "title": [
@@ -14,14 +14,23 @@
     "location": "the Flotilla",
     "wayto": {
       "33076": "west",
-      "33088": "southeast"
+      "33088": "southeast",
+      "36794": "go man-of-war"
     },
     "timeto": {
       "33076": 0.2,
-      "33088": 0.2
+      "33088": 0.2,
+      "36794": 0.2
     },
     "uid": [
       7134052
+    ],
+    "image": "Flotilla.png",
+    "image_coords": [
+      454,
+      369,
+      463,
+      377
     ]
   }
 }

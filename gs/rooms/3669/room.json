@@ -1,5 +1,5 @@
 {
-  "checksum": "c008d2a1f72ef193d92aaf6363981e32",
+  "checksum": "e8aebcb5c957c4d9b8316830effc2edc",
   "room": {
     "id": 3669,
     "title": [
@@ -17,55 +17,248 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "7": "/rooms/3669/wayto/stringproc-7.rb",
-      "284": "/rooms/3669/wayto/stringproc-284.rb",
-      "1448": "/rooms/3669/wayto/stringproc-1448.rb",
-      "1944": "/rooms/3669/wayto/stringproc-1944.rb",
-      "2426": "/rooms/3669/wayto/stringproc-2426.rb",
-      "3521": "/rooms/3669/wayto/stringproc-3521.rb",
+      "7": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
+      "284": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
+      "1448": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
+      "1944": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
+      "2426": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
+      "3521": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
       "3668": "west",
       "3670": "go bank",
       "3673": "east",
-      "4651": "/rooms/3669/wayto/stringproc-4651.rb",
-      "9410": "/rooms/3669/wayto/stringproc-9410.rb",
-      "10862": "/rooms/3669/wayto/stringproc-10862.rb",
-      "26905": "/rooms/3669/wayto/stringproc-26905.rb",
-      "28908": "/rooms/3669/wayto/stringproc-28908.rb",
-      "29869": "/rooms/3669/wayto/stringproc-29869.rb",
-      "30718": "/rooms/3669/wayto/stringproc-30718.rb",
-      "31558": "/rooms/3669/wayto/stringproc-31558.rb",
-      "32885": "/rooms/3669/wayto/stringproc-32885.rb",
-      "33863": "/rooms/3669/wayto/stringproc-33863.rb",
-      "35593": "/rooms/3669/wayto/stringproc-35593.rb"
+      "4651": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
+      "9410": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
+      "10862": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
+      "26905": [
+        {
+          "do": "repeat",
+          "times": 2,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "event transport duskruin"
+            }
+          ]
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": 3669
+        }
+      ],
+      "28908": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
+      "29869": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
+      "30718": [],
+      "31558": [
+        {
+          "do": "repeat",
+          "times": 2,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "event transport ebon gate"
+            }
+          ]
+        },
+        {
+          "do": "set",
+          "var": "ebon_gate_origin",
+          "value": 3669
+        }
+      ],
+      "32885": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
+      "33863": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
+      "35593": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ]
     },
     "timeto": {
-      "7": "/rooms/3669/timeto/stringproc-7.rb",
-      "284": "/rooms/3669/timeto/stringproc-284.rb",
-      "1448": "/rooms/3669/timeto/stringproc-1448.rb",
-      "1944": "/rooms/3669/timeto/stringproc-1944.rb",
-      "2426": "/rooms/3669/timeto/stringproc-2426.rb",
-      "3521": "/rooms/3669/timeto/stringproc-3521.rb",
+      "7": {
+        "cost": 15,
+        "requires": [
+          "var:fwi_return_room=7"
+        ]
+      },
+      "284": {
+        "cost": 15,
+        "requires": [
+          "var:fwi_return_room=284"
+        ]
+      },
+      "1448": {
+        "cost": 15,
+        "requires": [
+          "var:fwi_return_room=1448"
+        ]
+      },
+      "1944": {
+        "cost": 15,
+        "requires": [
+          "var:fwi_return_room=1944"
+        ]
+      },
+      "2426": {
+        "cost": 15,
+        "requires": [
+          "var:fwi_return_room=2426"
+        ]
+      },
+      "3521": {
+        "cost": 15,
+        "requires": [
+          "var:fwi_return_room=3521"
+        ]
+      },
       "3668": 0.8,
       "3670": 0.2,
       "3673": 0.2,
-      "4651": "/rooms/3669/timeto/stringproc-4651.rb",
-      "9410": "/rooms/3669/timeto/stringproc-9410.rb",
-      "10862": "/rooms/3669/timeto/stringproc-10862.rb",
+      "4651": {
+        "cost": 15,
+        "requires": [
+          "var:fwi_return_room=4651"
+        ]
+      },
+      "9410": {
+        "cost": 15,
+        "requires": [
+          "var:fwi_return_room=9410"
+        ]
+      },
+      "10862": {
+        "cost": 15,
+        "requires": [
+          "var:fwi_return_room=10862"
+        ]
+      },
       "26905": 2400,
-      "28908": "/rooms/3669/timeto/stringproc-28908.rb",
-      "29869": "/rooms/3669/timeto/stringproc-29869.rb",
-      "30718": "/rooms/3669/timeto/stringproc-30718.rb",
-      "31558": "/rooms/3669/timeto/stringproc-31558.rb",
-      "32885": "/rooms/3669/timeto/stringproc-32885.rb",
-      "33863": "/rooms/3669/timeto/stringproc-33863.rb",
-      "35593": "/rooms/3669/timeto/stringproc-35593.rb"
+      "28908": {
+        "cost": 15,
+        "requires": [
+          "var:fwi_return_room=28908"
+        ]
+      },
+      "29869": {
+        "cost": 15,
+        "requires": [
+          "var:fwi_return_room=29869"
+        ]
+      },
+      "30718": {
+        "same_as": "7:30714"
+      },
+      "31558": {
+        "cost": 2400,
+        "requires": [
+          "month:10"
+        ]
+      },
+      "32885": {
+        "cost": 15,
+        "requires": [
+          "var:fwi_return_room=32885"
+        ]
+      },
+      "33863": {
+        "cost": 15,
+        "requires": [
+          "var:fwi_return_room=33863"
+        ]
+      },
+      "35593": {
+        "cost": 15,
+        "requires": [
+          "var:fwi_return_room=35593"
+        ]
+      }
     },
     "tags": [
-      "urchin-access",
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-10",
-      "meta:teleport"
+      "meta:teleport",
+      "no forageables",
+      "urchin-access"
     ],
     "uid": [
       3201030

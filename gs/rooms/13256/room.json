@@ -1,5 +1,5 @@
 {
-  "checksum": "f8887cce21ce68a39dc8bfb848327f1c",
+  "checksum": "b79499ba88d7819b48ba212ceb61bbc2",
   "room": {
     "id": 13256,
     "title": [
@@ -17,12 +17,27 @@
     "wayto": {
       "13255": "south",
       "13257": "go bar",
-      "24551": "/rooms/13256/wayto/stringproc-24551.rb",
-      "24552": "/rooms/13256/wayto/stringproc-24552.rb",
-      "24553": "/rooms/13256/wayto/stringproc-24553.rb",
-      "24554": "/rooms/13256/wayto/stringproc-24554.rb",
-      "25492": "/rooms/13256/wayto/stringproc-25492.rb",
-      "30714": "/rooms/13256/wayto/stringproc-30714.rb"
+      "24551": {
+        "strategy": "table_join",
+        "table": "jade"
+      },
+      "24552": {
+        "strategy": "table_join",
+        "table": "fountain"
+      },
+      "24553": {
+        "strategy": "table_join",
+        "table": "quilt"
+      },
+      "24554": {
+        "strategy": "table_join",
+        "table": "oak"
+      },
+      "25492": {
+        "strategy": "table_join",
+        "table": "stars"
+      },
+      "30714": []
     },
     "timeto": {
       "13255": 0.2,
@@ -32,14 +47,16 @@
       "24553": 0.2,
       "24554": 0.2,
       "25492": 0.2,
-      "30714": "/rooms/13256/timeto/stringproc-30714.rb"
+      "30714": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "no forageables",
       "table",
-      "urchin-access",
-      "urchin guide tables",
       "tables",
-      "no forageables"
+      "urchin guide tables",
+      "urchin-access"
     ],
     "uid": [
       13112003

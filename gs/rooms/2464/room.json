@@ -1,5 +1,5 @@
 {
-  "checksum": "68a5823c98006c3f48658102ebfa6d6c",
+  "checksum": "03b2f25956bbd220a73ecf879b0c08e7",
   "room": {
     "id": 2464,
     "title": [
@@ -14,17 +14,20 @@
     "location": "Icemule Trace",
     "wayto": {
       "2463": "out",
-      "30709": "/rooms/2464/wayto/stringproc-30709.rb"
+      "30709": []
     },
     "timeto": {
       "2463": 0.2,
-      "30709": "/rooms/2464/timeto/stringproc-30709.rb"
+      "30709": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "no forageables",
+      "pawn",
       "pawnshop",
-      "urchin-access",
       "urchin guide pawn",
-      "pawn"
+      "urchin-access"
     ],
     "uid": [
       4043353

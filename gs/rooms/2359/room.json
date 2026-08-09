@@ -1,5 +1,5 @@
 {
-  "checksum": "010e06023421cf2b99be877f5c94505a",
+  "checksum": "9e2a75a33943387a076a722c5a5a6dea",
   "room": {
     "id": 2359,
     "title": [
@@ -21,19 +21,24 @@
       "2360": "west",
       "3307": "go ice-encrusted gate",
       "3726": "go stairs",
-      "30709": "/rooms/2359/wayto/stringproc-30709.rb"
+      "30709": []
     },
     "timeto": {
       "2358": 0.2,
       "2360": 0.2,
       "3307": 0.2,
       "3726": 0.2,
-      "30709": "/rooms/2359/timeto/stringproc-30709.rb"
+      "30709": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "northgate",
+      "stalk of bluebells",
       "urchin guide northgate",
-      "northgate"
+      "urchin-access"
     ],
     "uid": [
       4042026

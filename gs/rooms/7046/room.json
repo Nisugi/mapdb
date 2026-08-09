@@ -1,5 +1,5 @@
 {
-  "checksum": "c8c069c7b61b1cae67013c7fcc9f4604",
+  "checksum": "7b5bd33fa48191ca58d5bd76f01d4533",
   "room": {
     "id": 7046,
     "title": [
@@ -15,12 +15,27 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "3705": "/rooms/7046/wayto/stringproc-3705.rb",
+      "3705": {
+        "strategy": "unique_crossing",
+        "name": "crossing_7046_3705"
+      },
       "7045": "out",
-      "7047": "/rooms/7046/wayto/stringproc-7047.rb",
-      "7083": "/rooms/7046/wayto/stringproc-7083.rb",
-      "7099": "/rooms/7046/wayto/stringproc-7099.rb",
-      "7144": "/rooms/7046/wayto/stringproc-7144.rb"
+      "7047": {
+        "strategy": "unique_crossing",
+        "name": "crossing_7046_7047"
+      },
+      "7083": {
+        "strategy": "unique_crossing",
+        "name": "crossing_7046_7083"
+      },
+      "7099": {
+        "strategy": "unique_crossing",
+        "name": "crossing_7046_7099"
+      },
+      "7144": {
+        "strategy": "unique_crossing",
+        "name": "crossing_7046_7144"
+      }
     },
     "timeto": {
       "3705": 0.2,
@@ -33,8 +48,8 @@
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
     ],
     "uid": [
       45132

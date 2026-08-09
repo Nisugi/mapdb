@@ -1,5 +1,5 @@
 {
-  "checksum": "7eb89952e09a4e0a53657564c17ecd7c",
+  "checksum": "a5c9c71ef9c616d4a8a8b2312f0f5348",
   "room": {
     "id": 13532,
     "title": [
@@ -13,26 +13,98 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "8695": "/rooms/13532/wayto/stringproc-8695.rb",
-      "8696": "/rooms/13532/wayto/stringproc-8696.rb",
+      "8695": [
+        {
+          "do": "move",
+          "cmd": "go door"
+        },
+        {
+          "do": "replan"
+        },
+        {
+          "do": "set_global",
+          "var": "SILVERWOOD_TOWN",
+          "value": null
+        }
+      ],
+      "8696": [
+        {
+          "do": "move",
+          "cmd": "go door"
+        },
+        {
+          "do": "replan"
+        },
+        {
+          "do": "set_global",
+          "var": "SILVERWOOD_TOWN",
+          "value": null
+        }
+      ],
       "13533": "climb staircase",
       "14002": "west",
       "14005": "east",
-      "14659": "/rooms/13532/wayto/stringproc-14659.rb",
-      "32873": "/rooms/13532/wayto/stringproc-32873.rb"
+      "14659": [
+        {
+          "do": "move",
+          "cmd": "go door"
+        },
+        {
+          "do": "replan"
+        },
+        {
+          "do": "set_global",
+          "var": "SILVERWOOD_TOWN",
+          "value": null
+        }
+      ],
+      "32873": [
+        {
+          "do": "move",
+          "cmd": "go door"
+        },
+        {
+          "do": "replan"
+        },
+        {
+          "do": "set_global",
+          "var": "SILVERWOOD_TOWN",
+          "value": null
+        }
+      ]
     },
     "timeto": {
-      "8695": "/rooms/13532/timeto/stringproc-8695.rb",
-      "8696": "/rooms/13532/timeto/stringproc-8696.rb",
+      "8695": {
+        "cost": 0.2,
+        "requires": [
+          "global:SILVERWOOD_TOWN=wl"
+        ]
+      },
+      "8696": {
+        "cost": 0.2,
+        "requires": [
+          "global:SILVERWOOD_TOWN=imt"
+        ]
+      },
       "13533": 0.2,
       "14002": 0.2,
       "14005": 0.2,
-      "14659": "/rooms/13532/timeto/stringproc-14659.rb",
-      "32873": "/rooms/13532/timeto/stringproc-32873.rb"
+      "14659": {
+        "cost": 0.2,
+        "requires": [
+          "global:SILVERWOOD_TOWN=va"
+        ]
+      },
+      "32873": {
+        "cost": 0.2,
+        "requires": [
+          "global:SILVERWOOD_TOWN=zul"
+        ]
+      }
     },
     "tags": [
-      "no-auto-map",
-      "meta:mentor"
+      "meta:mentor",
+      "no-auto-map"
     ],
     "uid": [
       4384004

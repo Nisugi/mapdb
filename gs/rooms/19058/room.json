@@ -1,5 +1,5 @@
 {
-  "checksum": "3ccb58b384c257bfe429e58449251a89",
+  "checksum": "143a2535d09b30deace9e43bb3ed1309",
   "room": {
     "id": 19058,
     "title": [
@@ -19,7 +19,19 @@
       "19061": "go shrouds",
       "19062": "south",
       "19068": "north",
-      "19075": "/rooms/19058/wayto/stringproc-19075.rb"
+      "19075": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "send",
+          "cmd": "stance offensive"
+        },
+        {
+          "do": "move",
+          "cmd": "climb rope ladder"
+        }
+      ]
     },
     "timeto": {
       "19054": 0.2,

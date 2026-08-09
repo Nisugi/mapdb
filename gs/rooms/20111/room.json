@@ -1,5 +1,5 @@
 {
-  "checksum": "4d34252d902422860d06f48e8f924411",
+  "checksum": "d89beab323a3ce8c3c02912635cb39dc",
   "room": {
     "id": 20111,
     "title": [
@@ -16,7 +16,12 @@
       "20108": "north",
       "20112": "go small shack",
       "20117": "south",
-      "22573": "/rooms/20111/wayto/stringproc-22573.rb"
+      "22573": [
+        {
+          "do": "send",
+          "cmd": "go shed"
+        }
+      ]
     },
     "timeto": {
       "20108": 0.2,

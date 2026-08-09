@@ -1,5 +1,5 @@
 {
-  "checksum": "540fda5c4a6fd34fe953b333a649f93a",
+  "checksum": "434964ca89fc4aa10791ef6dda1f657b",
   "room": {
     "id": 21750,
     "title": [
@@ -18,7 +18,12 @@
       "21752": "go painted door",
       "21753": "go gold door",
       "21754": "go red door",
-      "21764": "/rooms/21750/wayto/stringproc-21764.rb"
+      "21764": [
+        {
+          "do": "send",
+          "cmd": "go north"
+        }
+      ]
     },
     "timeto": {
       "21749": 0.2,

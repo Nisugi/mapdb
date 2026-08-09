@@ -1,5 +1,5 @@
 {
-  "checksum": "8da2b4da733ae8a4e890b39c39ad6822",
+  "checksum": "a2453cf9a95909e40ab44681ad31ed39",
   "room": {
     "id": 8671,
     "title": [
@@ -15,18 +15,21 @@
     "wayto": {
       "1195": "north",
       "8672": "go stairs",
-      "30708": "/rooms/8671/wayto/stringproc-30708.rb"
+      "30708": []
     },
     "timeto": {
       "1195": 0.2,
       "8672": 0.2,
-      "30708": "/rooms/8671/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "node",
       "inn",
-      "urchin-access",
-      "urchin guide inn"
+      "no forageables",
+      "node",
+      "urchin guide inn",
+      "urchin-access"
     ],
     "uid": [
       1019

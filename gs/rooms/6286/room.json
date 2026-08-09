@@ -1,5 +1,5 @@
 {
-  "checksum": "69d50a2b34d680585400d25cecdf6ed3",
+  "checksum": "7de0402b120d3fa52685cda07bdaa48b",
   "room": {
     "id": 6286,
     "title": [
@@ -15,7 +15,7 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "6285": "/rooms/6286/wayto/stringproc-6285.rb",
+      "6285": "climb bucket",
       "6287": "go tunnel"
     },
     "timeto": {
@@ -23,15 +23,15 @@
       "6287": 0.2
     },
     "tags": [
-      "withered black mushroom",
-      "pothinir grass",
-      "cave moss",
-      "murdroot",
-      "wingstem root",
       "bur-clover root",
+      "cave moss",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "pothinir grass",
       "round grumbleberry",
-      "meta:forage-sensed:day:2025-02"
+      "wingstem root",
+      "withered mushroom"
     ],
     "uid": [
       372004

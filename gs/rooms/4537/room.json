@@ -1,5 +1,5 @@
 {
-  "checksum": "49da8f9f2da97ceb4f2a0001e30d7cbd",
+  "checksum": "914d508fcc94762b2c5a385bb9bd53b5",
   "room": {
     "id": 4537,
     "title": [
@@ -14,7 +14,42 @@
     "location": "the Shadow Valley",
     "wayto": {
       "4536": "south",
-      "7389": "/rooms/4537/wayto/stringproc-7389.rb"
+      "7389": [
+        {
+          "do": "await",
+          "cmd": "push circular depression",
+          "for": "\\*[A-Z]+\\*$",
+          "timeout": 3
+        },
+        {
+          "do": "await",
+          "cmd": "push triangular depression",
+          "for": "\\*[A-Z]+\\*$",
+          "timeout": 3
+        },
+        {
+          "do": "await",
+          "cmd": "push square depression",
+          "for": "\\*[A-Z]+\\*$",
+          "timeout": 3
+        },
+        {
+          "do": "await",
+          "cmd": "push rectangular depression",
+          "for": "\\*[A-Z]+\\*$",
+          "timeout": 3
+        },
+        {
+          "do": "repeat",
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "4536": 0.2,
@@ -22,9 +57,9 @@
     },
     "tags": [
       "ghostly pooka",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "meta:forage-sensed:day:2022-09",
+      "no forageables"
     ],
     "uid": [
       389026

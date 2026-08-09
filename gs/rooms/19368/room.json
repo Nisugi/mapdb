@@ -1,5 +1,5 @@
 {
-  "checksum": "d2c191ed3b4f3b897ae55ad3b9f0f7f7",
+  "checksum": "8ddba332d0d8202c43dc71ed1a5f4571",
   "room": {
     "id": 19368,
     "title": [
@@ -16,12 +16,30 @@
     "wayto": {
       "19367": "out",
       "19369": "go door",
-      "28498": "/rooms/19368/wayto/stringproc-28498.rb",
-      "28499": "/rooms/19368/wayto/stringproc-28499.rb",
-      "28500": "/rooms/19368/wayto/stringproc-28500.rb",
-      "28501": "/rooms/19368/wayto/stringproc-28501.rb",
-      "28502": "/rooms/19368/wayto/stringproc-28502.rb",
-      "28503": "/rooms/19368/wayto/stringproc-28503.rb"
+      "28498": {
+        "strategy": "table_join",
+        "table": "bee-eater"
+      },
+      "28499": {
+        "strategy": "table_join",
+        "table": "toucan"
+      },
+      "28500": {
+        "strategy": "table_join",
+        "table": "macaw"
+      },
+      "28501": {
+        "strategy": "table_join",
+        "table": "broadbill"
+      },
+      "28502": {
+        "strategy": "table_join",
+        "table": "parrot"
+      },
+      "28503": {
+        "strategy": "table_join",
+        "table": "turtle"
+      }
     },
     "timeto": {
       "19367": 0.2,

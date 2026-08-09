@@ -1,5 +1,5 @@
 {
-  "checksum": "779f3f4b364681bfe481d197a03e4aaf",
+  "checksum": "a870da3f1f2df4601e568c6b3e4bd528",
   "room": {
     "id": 1259,
     "title": [
@@ -20,15 +20,18 @@
       "1194": "northeast",
       "1195": "east",
       "8722": "go thrak curtain",
-      "30708": "/rooms/1259/wayto/stringproc-30708.rb"
+      "30708": []
     },
     "timeto": {
       "1194": 0.2,
       "1195": 0.2,
       "8722": 0.2,
-      "30708": "/rooms/1259/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "no forageables",
       "node",
       "sanctuary",
       "supernode",

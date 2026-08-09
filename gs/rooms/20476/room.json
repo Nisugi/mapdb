@@ -1,5 +1,5 @@
 {
-  "checksum": "c9e6a608e3520e805b8583cae389e6ab",
+  "checksum": "832b4537b353cbe7fd0c576e4350fe4b",
   "room": {
     "id": 20476,
     "title": [
@@ -13,8 +13,58 @@
     ],
     "location": "the Pinefar Trading Post",
     "wayto": {
-      "20473": "/rooms/20476/wayto/stringproc-20473.rb",
-      "20477": "/rooms/20476/wayto/stringproc-20477.rb"
+      "20473": [
+        {
+          "do": "cast_buff",
+          "spell": 9704
+        },
+        {
+          "do": "cast_buff",
+          "spell": 112
+        },
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "112"
+            }
+          ],
+          "else": [
+            {
+              "do": "send",
+              "cmd": "swim west"
+            }
+          ]
+        }
+      ],
+      "20477": [
+        {
+          "do": "cast_buff",
+          "spell": 9704
+        },
+        {
+          "do": "cast_buff",
+          "spell": 112
+        },
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "112"
+            }
+          ],
+          "else": [
+            {
+              "do": "send",
+              "cmd": "swim north"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "20473": 2,

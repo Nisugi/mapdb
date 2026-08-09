@@ -1,5 +1,5 @@
 {
-  "checksum": "e1e742d6aa0f47eaba7462cdc9f64f12",
+  "checksum": "f0464dc1028c3eb56cd4180b60b795dc",
   "room": {
     "id": 30997,
     "title": [
@@ -14,11 +14,26 @@
     "location": "the Needle of Pentas",
     "wayto": {
       "30965": "out",
-      "30998": "/rooms/30997/wayto/stringproc-30998.rb",
-      "30999": "/rooms/30997/wayto/stringproc-30999.rb",
-      "31000": "/rooms/30997/wayto/stringproc-31000.rb",
-      "31001": "/rooms/30997/wayto/stringproc-31001.rb",
-      "31002": "/rooms/30997/wayto/stringproc-31002.rb"
+      "30998": {
+        "strategy": "table_join",
+        "table": "Starry Aster"
+      },
+      "30999": {
+        "strategy": "table_join",
+        "table": "Aubergine Bat Wing"
+      },
+      "31000": {
+        "strategy": "table_join",
+        "table": "Autumn Sedum"
+      },
+      "31001": {
+        "strategy": "table_join",
+        "table": "Azure Snow Salvia"
+      },
+      "31002": {
+        "strategy": "table_join",
+        "table": "Blue Eryngium"
+      }
     },
     "timeto": {
       "30965": 0.2,

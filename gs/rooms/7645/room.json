@@ -1,5 +1,5 @@
 {
-  "checksum": "385240bd5c82273d2f346370a4ffdd7d",
+  "checksum": "6909c3d6d342b258dba28482713b9c63",
   "room": {
     "id": 7645,
     "title": [
@@ -20,30 +20,35 @@
     },
     "timeto": {
       "7627": 0.2,
-      "18111": "/rooms/7645/timeto/stringproc-18111.rb"
+      "18111": {
+        "cost": 0.2,
+        "requires": [
+          "prof:Sorcerer"
+        ]
+      }
     },
     "tags": [
-      "sorcererguild",
-      "sorcerer guild",
-      "yellow primrose",
       "acantha leaf",
-      "cactacae spine",
       "angelica root",
-      "tiger lily",
-      "murdroot",
-      "wingstem root",
-      "bur-clover root",
       "banana leaf",
-      "meta:forage-sensed",
-      "pink peppercorn",
       "black peppercorn",
+      "bur-clover root",
+      "cactacae spine",
       "cardamom",
-      "vanilla bean",
-      "nutmeg",
       "cumin seeds",
-      "star anise",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2022-11",
-      "meta:forage-sensed:day:2025-02"
+      "murdroot",
+      "nutmeg",
+      "pink peppercorn",
+      "sorcerer guild",
+      "sorcererguild",
+      "star anise",
+      "tiger lily",
+      "vanilla bean",
+      "wingstem root",
+      "yellow primrose"
     ],
     "uid": [
       661001

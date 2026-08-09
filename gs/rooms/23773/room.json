@@ -1,5 +1,5 @@
 {
-  "checksum": "15f09965ca02d46364ee3f3dc5f60615",
+  "checksum": "4c9cd76d31eb30d04e1ad6f5a8d1baaa",
   "room": {
     "id": 23773,
     "title": [
@@ -18,7 +18,16 @@
       "23791": "go steps",
       "26907": "go dimly tunnel",
       "30356": "go oversized entryway",
-      "30358": "/rooms/23773/wayto/stringproc-30358.rb",
+      "30358": [
+        {
+          "do": "send",
+          "cmd": "go darkened alleyway"
+        },
+        {
+          "do": "send",
+          "cmd": "go darkened alleyway"
+        }
+      ],
       "35176": "go hut"
     },
     "timeto": {

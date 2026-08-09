@@ -1,5 +1,5 @@
 {
-  "checksum": "f6ac8c42d91e3bc920eecdfbf38ab5c1",
+  "checksum": "bb89d76edcc24892c382410252118c77",
   "room": {
     "id": 22408,
     "title": [
@@ -13,16 +13,37 @@
     ],
     "location": "Mist Harbor",
     "wayto": {
-      "22407": "/rooms/22408/wayto/stringproc-22407.rb"
+      "22407": [
+        {
+          "do": "try_move",
+          "cmd": "go curtain",
+          "fallback": [
+            {
+              "do": "send",
+              "cmd": "close locker"
+            },
+            {
+              "do": "move",
+              "cmd": "go curtain"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "22407": 0.2
     },
     "tags": [
-      "peer curtain =~ /^\\[Annex, Beacon Hall Lobby\\]$/",
       "bhalocker",
+      "locker:beaconhall",
+      "meta:che:Beacon Hall Archive",
+      "meta:che:beacon_hall:locker",
       "meta:locker",
-      "locker:beaconhall"
+      "meta:locker",
+      "peer curtain =~ /^\\[Annex, Beacon Hall Lobby\\]$/"
+    ],
+    "uid": [
+      3215132
     ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "checksum": "aa9287373c63ed083a57d036e37b191e",
+  "checksum": "84f0f47b3cd0f3ad9a3f0a5f80daa1f2",
   "room": {
     "id": 26453,
     "title": [
@@ -14,7 +14,15 @@
     "location": "Caligos Isle",
     "wayto": {
       "26450": "north",
-      "26454": "/rooms/26453/wayto/stringproc-26454.rb",
+      "26454": [
+        {
+          "do": "move",
+          "cmd": "go tunnel"
+        },
+        {
+          "do": "replan"
+        }
+      ],
       "26477": "south",
       "29338": "go ebon wagon"
     },

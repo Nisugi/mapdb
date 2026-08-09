@@ -1,5 +1,5 @@
 {
-  "checksum": "3b4e1853634161bb6d5f5f169a0d7a1e",
+  "checksum": "3c40b70f11f3057de0495e0e0d148e33",
   "room": {
     "id": 7313,
     "title": [
@@ -15,8 +15,44 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "7312": "/rooms/7313/wayto/stringproc-7312.rb",
-      "22426": "/rooms/7313/wayto/stringproc-22426.rb"
+      "7312": [
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "if",
+          "when": "in_room:7313",
+          "then": [
+            {
+              "do": "escort_wait"
+            },
+            {
+              "do": "move",
+              "cmd": "southwest"
+            }
+          ]
+        }
+      ],
+      "22426": [
+        {
+          "do": "move",
+          "cmd": "northeast"
+        },
+        {
+          "do": "if",
+          "when": "in_room:7313",
+          "then": [
+            {
+              "do": "escort_wait"
+            },
+            {
+              "do": "move",
+              "cmd": "northeast"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "7312": 0.2,
@@ -24,10 +60,10 @@
     },
     "tags": [
       "ironfern root",
-      "wingstem root",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2024-01",
-      "meta:forage-sensed:day:2025-02"
+      "wingstem root"
     ],
     "uid": [
       2150011

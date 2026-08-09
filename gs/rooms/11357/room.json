@@ -1,5 +1,5 @@
 {
-  "checksum": "22dd160b03c5e8c5110c77f09feacfd9",
+  "checksum": "dc944369b3666e933954ae10de922ab3",
   "room": {
     "id": 11357,
     "title": [
@@ -15,36 +15,53 @@
     "climate": "arid",
     "terrain": "rough",
     "wayto": {
-      "11355": "/rooms/11357/wayto/stringproc-11355.rb",
-      "11358": "/rooms/11357/wayto/stringproc-11358.rb"
+      "11355": [
+        {
+          "do": "preserve_stance",
+          "stance": "offensive",
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "climb wall"
+            }
+          ]
+        },
+        {
+          "do": "replan"
+        }
+      ],
+      "11358": {
+        "strategy": "unique_crossing",
+        "name": "crossing_11357_11358"
+      }
     },
     "timeto": {
       "11355": 0.2,
       "11358": 3
     },
     "tags": [
-      "yellow primrose",
+      "banana leaf",
+      "blue poppy",
       "broken twig",
       "cactus flower",
+      "ghost pepper",
+      "golden poppy",
+      "heath aster",
+      "horseradish root",
+      "hot pepper",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "moonlight cactus-bloom",
+      "pepperthorn root",
+      "pink poppy",
+      "purple poppy",
+      "red poppy",
       "stalk of chicory",
       "white poppy",
-      "moonlight cactus-bloom",
-      "pink poppy",
-      "heath aster",
-      "purple poppy",
-      "blue poppy",
-      "red poppy",
+      "wild rose",
       "yellow poppy",
-      "golden poppy",
-      "small wild rose",
-      "meta:forage-sensed",
-      "pepperthorn root",
-      "banana leaf",
-      "horseradish root",
-      "ghost pepper",
-      "hot pepper",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
+      "yellow primrose"
     ],
     "uid": [
       377017

@@ -1,5 +1,5 @@
 {
-  "checksum": "55eebffd0d5787e921ff076147420e02",
+  "checksum": "5582076a9cdf4361fc6c5c4173fd09d2",
   "room": {
     "id": 14358,
     "title": [
@@ -16,16 +16,19 @@
       "14357": "out",
       "14359": "go arch",
       "14360": "north",
-      "30710": "/rooms/14358/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "14357": 0.2,
       "14359": 5,
       "14360": 0.2,
-      "30710": "/rooms/14358/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "chronomage",
+      "no forageables",
       "urchin guide chronomages",
       "urchin-access"
     ],

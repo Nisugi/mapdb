@@ -1,5 +1,5 @@
 {
-  "checksum": "60305c1e3d9806d9a6c9badd1fae7809",
+  "checksum": "1fb2af469654c37061e1d555eabe079e",
   "room": {
     "id": 5751,
     "title": [
@@ -17,38 +17,40 @@
     "wayto": {
       "5750": "southeast",
       "5752": "go tunnel",
-      "30712": "/rooms/5751/wayto/stringproc-30712.rb"
+      "30712": []
     },
     "timeto": {
       "5750": 0.2,
       "5752": 0.2,
-      "30712": "/rooms/5751/timeto/stringproc-30712.rb"
+      "30712": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "pepperthorn root",
-      "ironfern root",
-      "locksmith pool",
-      "meta:boxpool:npc:shady looking dwarf",
-      "soft white mushroom",
-      "withered black mushroom",
+      "ayana leaf",
+      "blue trafel mushroom",
+      "bolmara lichen",
       "daggerstalk mushroom",
       "flathead mushroom",
       "genkew mushroom",
-      "blue trafel mushroom",
-      "murdroot",
-      "bolmara lichen",
+      "ironfern root",
+      "locksmith pool",
+      "locksmithpool",
+      "meta:boxpool:npc:shady looking dwarf",
+      "meta:boxpool:table:blackened ironwood crate",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-02",
+      "meta:forage-sensed:night:2026-03",
+      "meta:trashcan:large wooden barrel",
+      "murdroot",
+      "node",
+      "pepperthorn root",
+      "soft mushroom",
+      "supernode",
       "urchin guide locksmithpool",
       "urchin-access",
-      "locksmithpool",
-      "meta:trashcan:large wooden barrel",
-      "node",
-      "supernode",
-      "ayana leaf",
       "wingstem root",
-      "meta:forage-sensed:day:2023-02",
-      "meta:forage-sensed:night:2023-02",
-      "meta:boxpool:table:blackened ironwood crate"
+      "withered mushroom"
     ],
     "uid": [
       13006012

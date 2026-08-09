@@ -1,5 +1,5 @@
 {
-  "checksum": "de0a63330ec78f95a3a86156a1206614",
+  "checksum": "d043d7e5d00668ce626efe5b4b1fa62c",
   "room": {
     "id": 16863,
     "title": [
@@ -18,19 +18,21 @@
       "16850": "south",
       "16864": "east",
       "16865": "north",
-      "30712": "/rooms/16863/wayto/stringproc-30712.rb"
+      "30712": []
     },
     "timeto": {
       "16850": 0.2,
       "16864": 0.2,
       "16865": 0.2,
-      "30712": "/rooms/16863/timeto/stringproc-30712.rb"
+      "30712": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "cobbling",
+      "no forageables",
       "urchin guide cobbling",
-      "urchin-access",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       4056004

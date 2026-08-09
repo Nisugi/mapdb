@@ -1,5 +1,5 @@
 {
-  "checksum": "4c38f2a10756aaf312f9a88fffb2d08a",
+  "checksum": "2a79705b0d15e2b3b74a1bb311a984a5",
   "room": {
     "id": 19651,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "the foothills of Zeltoph",
     "wayto": {
-      "8574": "/rooms/19651/wayto/stringproc-8574.rb",
+      "8574": [
+        {
+          "do": "send",
+          "cmd": "open door"
+        },
+        {
+          "do": "move",
+          "cmd": "go door"
+        }
+      ],
       "19649": "north"
     },
     "timeto": {
@@ -21,13 +30,13 @@
       "19649": 0.2
     },
     "tags": [
-      "wolifrew lichen",
       "cave moss",
       "ironfern root",
-      "wingstem root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
-      "meta:trap"
+      "meta:trap",
+      "wingstem root",
+      "wolifrew lichen"
     ],
     "uid": [
       10008

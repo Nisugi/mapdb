@@ -1,5 +1,5 @@
 {
-  "checksum": "e9d4a6d2c2730dd9ee319875a62446c2",
+  "checksum": "2fee6f1f225847bc0684d345b287578d",
   "room": {
     "id": 22219,
     "title": [
@@ -15,10 +15,33 @@
     "climate": "moist",
     "terrain": "muddy wetlands",
     "wayto": {
-      "11620": "/rooms/22219/wayto/stringproc-11620.rb",
-      "11622": "/rooms/22219/wayto/stringproc-11622.rb",
+      "11620": [
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        }
+      ],
+      "11622": {
+        "strategy": "unique_crossing",
+        "name": "crossing_22219_11622"
+      },
       "11652": "north",
-      "11653": "/rooms/22219/wayto/stringproc-11653.rb",
+      "11653": {
+        "strategy": "unique_crossing",
+        "name": "crossing_22218_11618"
+      },
       "16124": "southwest"
     },
     "timeto": {
@@ -29,47 +52,48 @@
       "16124": 0.2
     },
     "tags": [
-      "peer north =~ /^Obvious paths: north, northeast, east, south/",
-      "calamia fruit",
+      "alligator lily",
       "aloeas stem",
-      "soft white mushroom",
-      "withered black mushroom",
+      "black peppercorn",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "broken twig",
+      "bur-clover root",
+      "calamia fruit",
+      "cardamom",
+      "cumin seeds",
       "daggerstalk mushroom",
       "flathead mushroom",
       "genkew mushroom",
-      "blue trafel mushroom",
-      "water chestnut",
-      "stalk of cattail",
-      "spider lily",
-      "alligator lily",
+      "golden mushroom",
       "kylan berry",
-      "yellow heliconia",
-      "orange heliconia",
-      "pink heliconia",
-      "red heliconia",
-      "purple passionflower",
-      "pink passionflower",
-      "red passionflower",
-      "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "talneo root",
-      "wingstem root",
       "meta:forage-sensed",
-      "sunburst blossom",
-      "bur-clover root",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "trollear mushroom",
-      "broken twig",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2026-01",
-      "golden hook mushroom",
-      "meta:forage-sensed:day:2026-01"
+      "murdroot",
+      "nutmeg",
+      "orange heliconia",
+      "peer north =~ /^Obvious paths: north, northeast, east, south/",
+      "pink heliconia",
+      "pink passionflower",
+      "pink peppercorn",
+      "purple passionflower",
+      "red heliconia",
+      "red passionflower",
+      "soft mushroom",
+      "spider lily",
+      "stalk of cattail",
+      "star anise",
+      "sunburst blossom",
+      "talneo root",
+      "trollear mushroom",
+      "vanilla bean",
+      "water chestnut",
+      "wavepetal blossom",
+      "wild rice",
+      "wingstem root",
+      "withered mushroom",
+      "yellow heliconia"
     ],
     "uid": [
       5004016

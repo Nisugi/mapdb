@@ -1,5 +1,5 @@
 {
-  "checksum": "0bb8bcf813d142342ef97fd908d7eb84",
+  "checksum": "c1e710aa648e4d679663968f607acea1",
   "room": {
     "id": 24147,
     "title": [
@@ -15,7 +15,16 @@
     "wayto": {
       "24146": "north",
       "24148": "jump",
-      "24168": "/rooms/24147/wayto/stringproc-24168.rb"
+      "24168": [
+        {
+          "do": "send",
+          "cmd": "get rope"
+        },
+        {
+          "do": "move",
+          "cmd": "push rope"
+        }
+      ]
     },
     "timeto": {
       "24146": 0.2,

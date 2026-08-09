@@ -1,5 +1,5 @@
 {
-  "checksum": "11de3301e2c629809d87d4d49c528482",
+  "checksum": "63073a06df4f5fa2398bb4a7b8e9a523",
   "room": {
     "id": 7160,
     "title": [
@@ -16,50 +16,58 @@
     "terrain": "mountainous",
     "wayto": {
       "7159": "up",
-      "8432": "/rooms/7160/wayto/stringproc-8432.rb"
+      "8432": [
+        {
+          "do": "move",
+          "cmd": "go tree"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "7159": 0.2,
       "8432": 10
     },
     "tags": [
-      "small apple",
-      "stalk of bluebells",
-      "sprig of larkspur",
-      "sprig of holly",
-      "sprig of ivy",
-      "angelica root",
-      "wild pink geranium",
-      "yellow primrose",
-      "golden aster",
-      "pepperthorn root",
-      "ironfern root",
-      "sunburst blossom",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "alder bark",
-      "deep purple shockroot",
-      "rhubarb",
-      "stalk of celery",
-      "leek",
-      "shallot",
-      "hop flowers",
       "agave heart",
-      "meta:forage-sensed:night:2023-02",
-      "dwarf billberry",
-      "round grumbleberry",
+      "alder bark",
+      "angelica root",
       "birch bark",
-      "small watermelon",
+      "bolmara lichen",
       "cherry peppers",
+      "deep purple shockroot",
+      "dwarf bilberry",
+      "dwarf billberry",
       "fresh catnip",
-      "peppermint leaves",
-      "sprig of rooibos",
-      "sun-wilted tea leaves",
+      "golden aster",
+      "hop flowers",
+      "ironfern root",
+      "leek",
       "lemon balm",
       "lemon verbena",
-      "dwarf bilberry",
-      "meta:forage-sensed:day:2025-05"
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "peppermint leaves",
+      "pepperthorn root",
+      "rhubarb",
+      "round grumbleberry",
+      "shallot",
+      "small apple",
+      "small watermelon",
+      "sprig of holly",
+      "sprig of ivy",
+      "sprig of larkspur",
+      "sprig of rooibos",
+      "stalk of bluebells",
+      "stalk of celery",
+      "sun-wilted tea leaves",
+      "sunburst blossom",
+      "wild pink geranium",
+      "wingstem root",
+      "yellow primrose"
     ],
     "uid": [
       16002

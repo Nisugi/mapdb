@@ -1,5 +1,5 @@
 {
-  "checksum": "89d3ac7aa3c9912a0b83c0d1b96dba0c",
+  "checksum": "3b0fcabd0eaa232eead206d4a77c6db3",
   "room": {
     "id": 30811,
     "title": [
@@ -16,7 +16,16 @@
     "terrain": "hard, flat",
     "wayto": {
       "29050": "south",
-      "30812": "/rooms/30811/wayto/stringproc-30812.rb"
+      "30812": [
+        {
+          "do": "send",
+          "cmd": "stance def"
+        },
+        {
+          "do": "move",
+          "cmd": "jump"
+        }
+      ]
     },
     "timeto": {
       "29050": 0.2,

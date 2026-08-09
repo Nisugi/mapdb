@@ -1,5 +1,5 @@
 {
-  "checksum": "43f69021c1dd2adf8bc77f750be76547",
+  "checksum": "cfd81058fa0a88dcc265b6d63692a136",
   "room": {
     "id": 6880,
     "title": [
@@ -15,7 +15,23 @@
     "wayto": {
       "6878": "east",
       "6881": "south",
-      "6882": "/rooms/6880/wayto/stringproc-6882.rb"
+      "6882": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "send",
+          "cmd": "open trapdoor"
+        },
+        {
+          "do": "move",
+          "cmd": "go trapdoor"
+        }
+      ]
     },
     "timeto": {
       "6878": 0.2,
@@ -23,8 +39,8 @@
       "6882": 0.2
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       21128

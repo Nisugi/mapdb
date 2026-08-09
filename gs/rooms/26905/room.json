@@ -1,5 +1,5 @@
 {
-  "checksum": "cfb2d2ea0c8432f5d90e655ba61b378e",
+  "checksum": "23b198de0f912a74e0351fb57b2121eb",
   "room": {
     "id": 26905,
     "title": [
@@ -15,38 +15,220 @@
     ],
     "location": "Bloodriven Village",
     "wayto": {
-      "7": "/rooms/26905/wayto/stringproc-7.rb",
-      "284": "/rooms/26905/wayto/stringproc-284.rb",
-      "1448": "/rooms/26905/wayto/stringproc-1448.rb",
-      "1944": "/rooms/26905/wayto/stringproc-1944.rb",
-      "2426": "/rooms/26905/wayto/stringproc-2426.rb",
-      "3669": "/rooms/26905/wayto/stringproc-3669.rb",
-      "3727": "/rooms/26905/wayto/stringproc-3727.rb",
-      "4651": "/rooms/26905/wayto/stringproc-4651.rb",
-      "9410": "/rooms/26905/wayto/stringproc-9410.rb",
-      "9652": "/rooms/26905/wayto/stringproc-9652.rb",
-      "10862": "/rooms/26905/wayto/stringproc-10862.rb",
+      "7": [
+        {
+          "do": "move",
+          "cmd": "go wagon"
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": null
+        }
+      ],
+      "284": [
+        {
+          "do": "move",
+          "cmd": "go wagon"
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": null
+        }
+      ],
+      "1448": [
+        {
+          "do": "move",
+          "cmd": "go wagon"
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": null
+        }
+      ],
+      "1944": [
+        {
+          "do": "move",
+          "cmd": "go wagon"
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": null
+        }
+      ],
+      "2426": [
+        {
+          "do": "move",
+          "cmd": "go wagon"
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": null
+        }
+      ],
+      "3669": [
+        {
+          "do": "move",
+          "cmd": "go wagon"
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": null
+        }
+      ],
+      "3727": [
+        {
+          "do": "move",
+          "cmd": "go wagon"
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": null
+        }
+      ],
+      "4651": [
+        {
+          "do": "move",
+          "cmd": "go wagon"
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": null
+        }
+      ],
+      "9410": [
+        {
+          "do": "move",
+          "cmd": "go wagon"
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": null
+        }
+      ],
+      "9652": [
+        {
+          "do": "move",
+          "cmd": "go wagon"
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": null
+        }
+      ],
+      "10862": [
+        {
+          "do": "move",
+          "cmd": "go wagon"
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": null
+        }
+      ],
       "26386": "go shore",
       "26904": "up",
-      "28908": "/rooms/26905/wayto/stringproc-28908.rb",
-      "33578": "/rooms/26905/wayto/stringproc-33578.rb"
+      "28908": [
+        {
+          "do": "move",
+          "cmd": "go wagon"
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": null
+        }
+      ],
+      "33578": []
     },
     "timeto": {
-      "7": "/rooms/26905/timeto/stringproc-7.rb",
-      "284": "/rooms/26905/timeto/stringproc-284.rb",
-      "1448": "/rooms/26905/timeto/stringproc-1448.rb",
-      "1944": "/rooms/26905/timeto/stringproc-1944.rb",
-      "2426": "/rooms/26905/timeto/stringproc-2426.rb",
-      "3669": "/rooms/26905/timeto/stringproc-3669.rb",
-      "3727": "/rooms/26905/timeto/stringproc-3727.rb",
-      "4651": "/rooms/26905/timeto/stringproc-4651.rb",
-      "9410": "/rooms/26905/timeto/stringproc-9410.rb",
-      "9652": "/rooms/26905/timeto/stringproc-9652.rb",
-      "10862": "/rooms/26905/timeto/stringproc-10862.rb",
+      "7": {
+        "cost": 0.2,
+        "requires": [
+          "var:duskruin_origin=7"
+        ]
+      },
+      "284": {
+        "cost": 0.2,
+        "requires": [
+          "var:duskruin_origin=284"
+        ]
+      },
+      "1448": {
+        "cost": 0.2,
+        "requires": [
+          "var:duskruin_origin=1448"
+        ]
+      },
+      "1944": {
+        "cost": 0.2,
+        "requires": [
+          "var:duskruin_origin=1944"
+        ]
+      },
+      "2426": {
+        "cost": 0.2,
+        "requires": [
+          "var:duskruin_origin=2426"
+        ]
+      },
+      "3669": {
+        "cost": 0.2,
+        "requires": [
+          "var:duskruin_origin=3669"
+        ]
+      },
+      "3727": {
+        "cost": 2400,
+        "requires": [
+          "var:duskruin_origin=3727"
+        ]
+      },
+      "4651": {
+        "cost": 0.2,
+        "requires": [
+          "var:duskruin_origin=4651"
+        ]
+      },
+      "9410": {
+        "cost": 0.2,
+        "requires": [
+          "var:duskruin_origin=9410"
+        ]
+      },
+      "9652": {
+        "cost": 0.2,
+        "requires": [
+          "var:duskruin_origin=9652"
+        ]
+      },
+      "10862": {
+        "cost": 0.2,
+        "requires": [
+          "var:duskruin_origin=10862"
+        ]
+      },
       "26386": 0.2,
       "26904": 0.2,
-      "28908": "/rooms/26905/timeto/stringproc-28908.rb",
-      "33578": "/rooms/26905/timeto/stringproc-33578.rb"
+      "28908": {
+        "cost": 0.2,
+        "requires": [
+          "var:duskruin_origin=28908"
+        ]
+      },
+      "33578": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "exit",

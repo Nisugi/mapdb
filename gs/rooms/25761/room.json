@@ -1,5 +1,5 @@
 {
-  "checksum": "9b700175c5a62867e817ae6cb7257cb3",
+  "checksum": "0f651eb5fa525d430704372a0dad2a59",
   "room": {
     "id": 25761,
     "title": [
@@ -15,9 +15,48 @@
     "climate": "saltwater",
     "terrain": "hard, flat",
     "wayto": {
-      "25755": "/rooms/25761/wayto/stringproc-25755.rb",
-      "25762": "/rooms/25761/wayto/stringproc-25762.rb",
-      "25764": "/rooms/25761/wayto/stringproc-25764.rb"
+      "25755": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "pedal #{direction}",
+              "for": "pedal",
+              "timeout": 2
+            }
+          ]
+        }
+      ],
+      "25762": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "pedal #{direction}",
+              "for": "pedal",
+              "timeout": 2
+            }
+          ]
+        }
+      ],
+      "25764": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "pedal #{direction}",
+              "for": "pedal",
+              "timeout": 2
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "25755": 6,

@@ -1,5 +1,5 @@
 {
-  "checksum": "1f3e1ae7ec81ce9264a670086116f704",
+  "checksum": "dc272f84990b43421b521ca6053717b6",
   "room": {
     "id": 10781,
     "title": [
@@ -16,26 +16,36 @@
     "terrain": "rough",
     "wayto": {
       "4715": "south",
-      "18150": "/rooms/10781/wayto/stringproc-18150.rb"
+      "18150": {
+        "strategy": "unique_crossing",
+        "name": "crossing_10781_18150"
+      }
     },
     "timeto": {
       "4715": 0.2,
-      "18150": "/rooms/10781/timeto/stringproc-18150.rb"
+      "18150": {
+        "cost": 10,
+        "requires": [
+          "prof:Sorcerer"
+        ]
+      }
     },
     "tags": [
-      "sorcererguild",
-      "sorcerer guild",
-      "wintergreen leaf",
       "bright red teaberry",
-      "stalk of chicory",
       "broken twig",
+      "handful of currants",
       "heath aster",
-      "moonlight cactus-bloom",
-      "sprig of larkspur",
       "ironfern root",
+      "juniper berry",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "moonlight cactus-bloom",
       "sky-blue delphira",
-      "meta:forage-sensed:day:2023-05"
+      "sorcerer guild",
+      "sorcererguild",
+      "sprig of larkspur",
+      "stalk of chicory",
+      "wintergreen leaf"
     ],
     "uid": [
       666001

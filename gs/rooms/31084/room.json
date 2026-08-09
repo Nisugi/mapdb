@@ -1,5 +1,5 @@
 {
-  "checksum": "7b77469bd7dcb28bcf9f76768e30e8eb",
+  "checksum": "84933399b68eec931c89ff386f137d6c",
   "room": {
     "id": 31084,
     "title": [
@@ -14,17 +14,26 @@
     "location": "the Forgotten Vineyard",
     "wayto": {
       "5383": "out",
-      "31085": "/rooms/31084/wayto/stringproc-31085.rb"
+      "31085": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go trapdoor"
+        }
+      ]
     },
     "timeto": {
       "5383": 0.2,
       "31085": 3.2
     },
     "tags": [
+      "meta:forage-sensed",
+      "meta:mapcategory:Vornavis",
       "meta:mapname:Vornavis - Forgotten Vineyard",
       "meta:mapshortname:Forgotten Vineyard",
-      "meta:mapcategory:Vornavis",
-      "meta:forage-sensed",
       "no forageables"
     ],
     "uid": [

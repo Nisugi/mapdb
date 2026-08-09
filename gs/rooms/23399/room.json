@@ -1,5 +1,5 @@
 {
-  "checksum": "5e58bd2d038aa61f48f6fb24c6cb186d",
+  "checksum": "282fa15386063495c2abb1b472cd2b8a",
   "room": {
     "id": 23399,
     "title": [
@@ -16,21 +16,45 @@
     "terrain": "none",
     "wayto": {
       "23398": "go stairs",
-      "23401": "/rooms/23399/wayto/stringproc-23401.rb"
+      "23401": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "down"
+        }
+      ]
     },
     "timeto": {
       "23398": 0.2,
       "23401": 0.2
     },
     "tags": [
-      "peer down =~ /Obvious exits: down/",
-      "white hook mushroom",
+      "bolmara lichen",
       "glowing toadstool",
       "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-02"
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "peer down =~ /Obvious exits: down/",
+      "white hook mushroom",
+      "wingstem root"
     ],
     "uid": [
       13018025

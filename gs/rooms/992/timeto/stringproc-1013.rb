@@ -1,1 +1,0 @@
-if Script.running? 'ego2';nil;else;180.0;end

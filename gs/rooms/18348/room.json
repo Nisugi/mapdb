@@ -1,5 +1,5 @@
 {
-  "checksum": "8b7c2ffee09d25ae0fb1904ba3be9de3",
+  "checksum": "32a6be1517e011fba26da686eb2cbd69",
   "room": {
     "id": 18348,
     "title": [
@@ -13,11 +13,22 @@
     ],
     "location": "Ta'Vaalor",
     "wayto": {
-      "17806": "/rooms/18348/wayto/stringproc-17806.rb",
+      "17806": [
+        {
+          "do": "cross",
+          "room": 12421,
+          "dest": "14089"
+        }
+      ],
       "18349": "go tunnel"
     },
     "timeto": {
-      "17806": "/rooms/18348/timeto/stringproc-17806.rb",
+      "17806": {
+        "cost": 1.6,
+        "requires": [
+          "prof:Rogue"
+        ]
+      },
       "18349": 0.2
     },
     "tags": [

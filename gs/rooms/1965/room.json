@@ -1,5 +1,5 @@
 {
-  "checksum": "52fe5335b972292b3d502aae3baa55a8",
+  "checksum": "1305ab77fb9c38840e29f14212577b3a",
   "room": {
     "id": 1965,
     "title": [
@@ -18,21 +18,44 @@
     "wayto": {
       "1964": "northeast",
       "1966": "go booth",
-      "2260": "/rooms/1965/wayto/stringproc-2260.rb",
-      "30715": "/rooms/1965/wayto/stringproc-30715.rb"
+      "2260": [
+        {
+          "do": "try_move",
+          "cmd": "go departing ferryboat",
+          "check": "move_result",
+          "fallback": [
+            {
+              "do": "echo",
+              "msg": "Waiting for ferryboat..."
+            },
+            {
+              "do": "await",
+              "for": "Some\\ dockworkers\\ prepare\\ a\\ ferryboat\\ for\\ departure\\ into\\ the\\ mine\\.",
+              "timeout": 30
+            },
+            {
+              "do": "move",
+              "cmd": "go departing ferryboat"
+            }
+          ]
+        }
+      ],
+      "30715": []
     },
     "timeto": {
       "1964": 0.2,
       "1966": 0.2,
-      "2260": 90,
-      "30715": "/rooms/1965/timeto/stringproc-30715.rb"
+      "2260": 40,
+      "30715": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
-      "urchin guide ferry",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
+      "meta:forage-sensed:day:2023-01",
+      "no forageables",
+      "urchin guide ferry",
+      "urchin-access"
     ],
     "uid": [
       3001006

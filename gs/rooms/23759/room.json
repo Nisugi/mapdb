@@ -1,5 +1,5 @@
 {
-  "checksum": "93dc56c687a73ce1b17fa2c422c91eb4",
+  "checksum": "f9eb6b93e36f583f3a692fa791d2016a",
   "room": {
     "id": 23759,
     "title": [
@@ -14,15 +14,17 @@
     "location": "Bloodriven Village",
     "wayto": {
       "26851": "go ladder",
-      "33578": "/rooms/23759/wayto/stringproc-33578.rb"
+      "33578": []
     },
     "timeto": {
       "26851": 0.2,
-      "33578": "/rooms/23759/timeto/stringproc-33578.rb"
+      "33578": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "sewer",
-      "dr sewer"
+      "dr sewer",
+      "sewer"
     ],
     "uid": [
       8214001

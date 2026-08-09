@@ -1,5 +1,5 @@
 {
-  "checksum": "35b2a36ce71a216dbc3ec957fd51ab64",
+  "checksum": "4229c6bde19922b855339d362aab963f",
   "room": {
     "id": 12282,
     "title": [
@@ -15,20 +15,22 @@
     "location": "the Isle of Four Winds",
     "wayto": {
       "12281": "go staircase",
-      "30718": "/rooms/12282/wayto/stringproc-30718.rb"
+      "30718": []
     },
     "timeto": {
       "12281": 0.2,
-      "30718": "/rooms/12282/timeto/stringproc-30718.rb"
+      "30718": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "locksmith",
-      "urchin-access",
-      "urchin guide locksmith",
-      "no forageables",
+      "locksmith shop",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-10",
-      "locksmith shop"
+      "no forageables",
+      "urchin guide locksmith",
+      "urchin-access"
     ],
     "uid": [
       3201284

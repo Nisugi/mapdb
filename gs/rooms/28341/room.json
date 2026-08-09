@@ -1,5 +1,5 @@
 {
-  "checksum": "046019fd3e9ec1e6916acca85a4c9c9c",
+  "checksum": "67edbf885d6ef99954fa8b7d3a279389",
   "room": {
     "id": 28341,
     "title": [
@@ -16,10 +16,22 @@
     "wayto": {
       "10436": "go green curtain",
       "28338": "west",
-      "28342": "/rooms/28341/wayto/stringproc-28342.rb",
-      "28343": "/rooms/28341/wayto/stringproc-28343.rb",
-      "28344": "/rooms/28341/wayto/stringproc-28344.rb",
-      "28345": "/rooms/28341/wayto/stringproc-28345.rb"
+      "28342": {
+        "strategy": "table_join",
+        "table": "dorian"
+      },
+      "28343": {
+        "strategy": "table_join",
+        "table": "ionian"
+      },
+      "28344": {
+        "strategy": "table_join",
+        "table": "mixolydian"
+      },
+      "28345": {
+        "strategy": "table_join",
+        "table": "locrian"
+      }
     },
     "timeto": {
       "10436": 0.2,

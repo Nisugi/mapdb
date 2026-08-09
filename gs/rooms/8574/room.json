@@ -1,5 +1,5 @@
 {
-  "checksum": "3c439516d092e34c038fa90b63f216ac",
+  "checksum": "d139093fe07b2706f585306234bdd9cf",
   "room": {
     "id": 8574,
     "title": [
@@ -20,7 +20,48 @@
       "8571": "southwest",
       "8572": "south",
       "8573": "southeast",
-      "19651": "/rooms/8574/wayto/stringproc-19651.rb"
+      "19651": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "sleep",
+          "seconds": 0.5
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "send",
+          "cmd": "get lockpick"
+        },
+        {
+          "do": "send",
+          "cmd": "pick door"
+        },
+        {
+          "do": "sleep",
+          "seconds": 0.5
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "send",
+          "cmd": "stow lockpick"
+        },
+        {
+          "do": "fill_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "go door"
+        }
+      ]
     },
     "timeto": {
       "8570": 0.2,
@@ -30,44 +71,45 @@
       "19651": 0.6
     },
     "tags": [
-      "white hook mushroom",
-      "tkaro root",
-      "marallis berry",
-      "cuctucae berry",
-      "sticks",
-      "sassafras leaf",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "soft white mushroom",
-      "withered black mushroom",
       "blue trafel mushroom",
-      "wintergreen leaf",
+      "bolmara lichen",
       "bright red teaberry",
-      "stalk of chicory",
-      "stalk of bluebells",
-      "wild pink geranium",
+      "brostheras grass",
+      "cuctucae berry",
+      "dwarf bilberry",
+      "dwarf billberry",
+      "golden aster",
+      "ironfern root",
+      "leafy arugula",
+      "luckbloom blossom",
+      "marallis berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-11",
+      "oak twig",
+      "pennyroyal stem",
+      "rainbow chard",
+      "sassafras leaf",
+      "slender twig",
+      "soft mushroom",
       "sprig of larkspur",
       "sprig of wild lilac",
-      "golden aster",
-      "tree bark",
-      "willow twig",
-      "yew twig",
-      "oak twig",
-      "luckbloom blossom",
-      "ironfern root",
-      "twisted twig",
-      "slender twig",
-      "bolmara lichen",
-      "brostheras grass",
+      "stalk of bluebells",
+      "stalk of chicory",
+      "sticks",
       "sunburst blossom",
-      "meta:forage-sensed",
-      "rainbow chard",
-      "leafy arugula",
-      "meta:forage-sensed:day:2023-02",
-      "dwarf billberry",
-      "meta:forage-sensed:night:2024-11"
+      "sweetfern stalk",
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "white hook mushroom",
+      "wild pink geranium",
+      "willow twig",
+      "wintergreen leaf",
+      "withered mushroom",
+      "yew twig"
     ],
     "uid": [
       10007

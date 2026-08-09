@@ -1,5 +1,5 @@
 {
-  "checksum": "ec692031d9a5d981aa671368d0db90ef",
+  "checksum": "3a0c2e3992f1a7b5beba34ebe1c21f5e",
   "room": {
     "id": 1512,
     "title": [
@@ -17,7 +17,16 @@
     "terrain": "hard, flat",
     "wayto": {
       "1511": "south",
-      "28598": "/rooms/1512/wayto/stringproc-28598.rb"
+      "28598": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go wall"
+        }
+      ]
     },
     "timeto": {
       "1511": 0.2,

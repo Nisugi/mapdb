@@ -1,5 +1,5 @@
 {
-  "checksum": "280d3c9e7caa9970d0cdbcc365ec79f8",
+  "checksum": "ea12148e26def418a03946ff4e82d79b",
   "room": {
     "id": 3582,
     "title": [
@@ -15,7 +15,28 @@
     "wayto": {
       "3581": "west",
       "3583": "east",
-      "17747": "/rooms/3582/wayto/stringproc-17747.rb"
+      "17747": [
+        {
+          "do": "try_move",
+          "cmd": "go door",
+          "check": "move_result",
+          "fallback": [
+            {
+              "do": "echo",
+              "msg": "Waiting for the door to open... "
+            },
+            {
+              "do": "await",
+              "for": "You\\ hear\\ a\\ soft\\ click\\ from\\ the\\ door\\ and\\ it\\ suddenly\\ flies\\ open\\.",
+              "timeout": 30
+            },
+            {
+              "do": "move",
+              "cmd": "go door"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "3581": 0.2,
@@ -23,9 +44,9 @@
       "17747": 0.6
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "meta:forage-sensed:day:2022-09",
+      "no forageables"
     ],
     "uid": [
       4292015

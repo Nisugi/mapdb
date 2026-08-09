@@ -1,5 +1,5 @@
 {
-  "checksum": "65260bc081846605522fd35eb43549eb",
+  "checksum": "336850df572782a03e0fd3b0fd38c9be",
   "room": {
     "id": 2641,
     "title": [
@@ -13,7 +13,19 @@
     ],
     "location": false,
     "wayto": {
-      "2640": "/rooms/2641/wayto/stringproc-2640.rb"
+      "2640": [
+        {
+          "do": "move",
+          "cmd": "swim up"
+        },
+        {
+          "do": "sleep",
+          "seconds": 1
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "2640": 5

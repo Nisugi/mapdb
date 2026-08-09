@@ -1,1 +1,0 @@
-fput 'pull lever'

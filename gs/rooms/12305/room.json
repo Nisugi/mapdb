@@ -1,5 +1,5 @@
 {
-  "checksum": "d032f0eb4d405724d08f30848e48ef04",
+  "checksum": "2969014832c1648b25087ed8091f2aaa",
   "room": {
     "id": 12305,
     "title": [
@@ -21,36 +21,38 @@
       "12304": "southeast",
       "19587": "go gate",
       "21089": "go path",
-      "30718": "/rooms/12305/wayto/stringproc-30718.rb"
+      "30718": []
     },
     "timeto": {
       "12304": 0.2,
       "19587": 0.2,
       "21089": 0.2,
-      "30718": "/rooms/12305/timeto/stringproc-30718.rb"
+      "30718": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "rose-marrow root",
       "bloodwood twig",
-      "yew twig",
-      "oak twig",
-      "luckbloom blossom",
-      "ironfern root",
-      "sunburst blossom",
-      "twisted twig",
-      "slender twig",
-      "ebony twig",
       "bolmara lichen",
       "brostheras grass",
+      "ebony twig",
       "fresh cilantro",
-      "red cherries",
-      "green pear",
       "fresh lemongrass",
-      "stalk of celery",
+      "green pear",
+      "ironfern root",
+      "luckbloom blossom",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
+      "oak twig",
+      "red cherries",
+      "rose-marrow root",
+      "slender twig",
+      "stalk of celery",
+      "sunburst blossom",
+      "twisted twig",
       "urchin guide weddinghall",
       "urchin-access",
-      "meta:forage-sensed:day:2024-05"
+      "yew twig"
     ],
     "uid": [
       3201055

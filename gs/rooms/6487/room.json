@@ -1,5 +1,5 @@
 {
-  "checksum": "a0bc43d335caaeab8f2516cb3f0a869a",
+  "checksum": "e897315b910800513c9829e589d7eb7f",
   "room": {
     "id": 6487,
     "title": [
@@ -15,7 +15,25 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "6486": "/rooms/6487/wayto/stringproc-6486.rb",
+      "6486": [
+        {
+          "do": "try_move",
+          "cmd": "go doors",
+          "check": "move_result",
+          "fallback": [
+            {
+              "do": "await",
+              "cmd": "pull lever",
+              "for": "the stone doors swing silently open",
+              "timeout": 3
+            },
+            {
+              "do": "move",
+              "cmd": "go doors"
+            }
+          ]
+        }
+      ],
       "6488": "west"
     },
     "timeto": {
@@ -23,9 +41,9 @@
       "6488": 0.2
     },
     "tags": [
-      "spectral monk",
       "monastic lich",
-      "no forageables"
+      "no forageables",
+      "spectral monk"
     ],
     "uid": [
       95156

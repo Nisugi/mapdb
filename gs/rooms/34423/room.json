@@ -1,5 +1,5 @@
 {
-  "checksum": "72deee5f12486ce029058d6b9a88b347",
+  "checksum": "522c97fd36e3661cd51aeee6f4cdcc82",
   "room": {
     "id": 34423,
     "title": [
@@ -21,16 +21,28 @@
       "33898": "urchin guide cobbling"
     },
     "timeto": {
-      "33856": "/rooms/34423/timeto/stringproc-33856.rb",
-      "33857": "/rooms/34423/timeto/stringproc-33857.rb",
-      "33860": "/rooms/34423/timeto/stringproc-33860.rb",
-      "33888": "/rooms/34423/timeto/stringproc-33888.rb",
-      "33889": "/rooms/34423/timeto/stringproc-33889.rb",
-      "33898": "/rooms/34423/timeto/stringproc-33898.rb"
+      "33856": {
+        "same_as": "30714:7"
+      },
+      "33857": {
+        "same_as": "30714:7"
+      },
+      "33860": {
+        "same_as": "30714:7"
+      },
+      "33888": {
+        "same_as": "30714:7"
+      },
+      "33889": {
+        "same_as": "30714:7"
+      },
+      "33898": {
+        "same_as": "30714:7"
+      }
     },
     "tags": [
-      "urchin-hideout",
-      "meta:map:virtual room"
+      "meta:map:virtual room",
+      "urchin-hideout"
     ]
   }
 }

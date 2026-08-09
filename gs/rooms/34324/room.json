@@ -1,5 +1,5 @@
 {
-  "checksum": "56638b71d2c13af30f9e4ef1eda8f3fb",
+  "checksum": "991063a183fb11c5d5f3a2af825357a4",
   "room": {
     "id": 34324,
     "title": [
@@ -15,7 +15,18 @@
     "climate": "moist",
     "terrain": "rough",
     "wayto": {
-      "34322": "/rooms/34324/wayto/stringproc-34322.rb",
+      "34322": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb rockface"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ],
       "34326": "south"
     },
     "timeto": {
@@ -24,11 +35,13 @@
     },
     "tags": [
       "broken twig",
-      "wild chokecherry",
       "cabbage rose",
-      "virescent rose",
+      "golden mushroom",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2024-05"
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "virescent rose",
+      "wild chokecherry"
     ],
     "uid": [
       13150307

@@ -1,5 +1,5 @@
 {
-  "checksum": "7d2ccd13fcd3113e0872d1f01bc9e4c9",
+  "checksum": "948b1ff6a4064cbd3c8a6d75963b476c",
   "room": {
     "id": 25859,
     "title": [
@@ -14,7 +14,16 @@
     "location": "the town of Wehnimer's Landing",
     "wayto": {
       "19930": "out",
-      "25858": "/rooms/25859/wayto/stringproc-25858.rb"
+      "25858": [
+        {
+          "do": "send",
+          "cmd": "give attendant 2000"
+        },
+        {
+          "do": "move",
+          "cmd": "go archway"
+        }
+      ]
     },
     "timeto": {
       "19930": 0.2,

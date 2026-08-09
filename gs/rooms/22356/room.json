@@ -1,5 +1,5 @@
 {
-  "checksum": "5094e7d851fcf7d105fa583ab9c120b0",
+  "checksum": "9020af27e1551839f06d7deb179d7f63",
   "room": {
     "id": 22356,
     "title": [
@@ -14,11 +14,26 @@
     "location": "Ta'Illistim Embassies",
     "wayto": {
       "22355": "north",
-      "22365": "/rooms/22356/wayto/stringproc-22365.rb",
-      "22366": "/rooms/22356/wayto/stringproc-22366.rb",
-      "22367": "/rooms/22356/wayto/stringproc-22367.rb",
-      "22368": "/rooms/22356/wayto/stringproc-22368.rb",
-      "22369": "/rooms/22356/wayto/stringproc-22369.rb"
+      "22365": {
+        "strategy": "table_join",
+        "table": "Clerisy"
+      },
+      "22366": {
+        "strategy": "table_join",
+        "table": "Agrestis"
+      },
+      "22367": {
+        "strategy": "table_join",
+        "table": "Emporion"
+      },
+      "22368": {
+        "strategy": "table_join",
+        "table": "Armata"
+      },
+      "22369": {
+        "strategy": "table_join",
+        "table": "Rachis"
+      }
     },
     "timeto": {
       "22355": 0.2,

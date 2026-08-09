@@ -1,5 +1,5 @@
 {
-  "checksum": "6e19a71b0b62725f403f2f5cd0764533",
+  "checksum": "54db46239704cf6baae7ade5e11474bc",
   "room": {
     "id": 7473,
     "title": [
@@ -13,7 +13,7 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "7472": "/rooms/7473/wayto/stringproc-7472.rb"
+      "7472": "climb walls"
     },
     "timeto": {
       "7472": 0.2

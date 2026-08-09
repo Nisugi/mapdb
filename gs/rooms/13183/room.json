@@ -1,5 +1,5 @@
 {
-  "checksum": "95b4a698c8828bc5772681650c6cc2a3",
+  "checksum": "7c37787fa6b8cb3681c2e2477e874238",
   "room": {
     "id": 13183,
     "title": [
@@ -13,15 +13,123 @@
     ],
     "location": "the dark woods",
     "wayto": {
-      "9884": "/rooms/13183/wayto/stringproc-9884.rb",
-      "9885": "/rooms/13183/wayto/stringproc-9885.rb",
-      "9886": "/rooms/13183/wayto/stringproc-9886.rb",
-      "9887": "/rooms/13183/wayto/stringproc-9887.rb",
-      "9888": "/rooms/13183/wayto/stringproc-9888.rb",
-      "9889": "/rooms/13183/wayto/stringproc-9889.rb",
-      "16956": "/rooms/13183/wayto/stringproc-16956.rb",
-      "16957": "/rooms/13183/wayto/stringproc-16957.rb",
-      "18803": "/rooms/13183/wayto/stringproc-18803.rb"
+      "9884": [
+        {
+          "do": "repeat",
+          "times": 50,
+          "until_room": 9884,
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "go forest"
+            }
+          ]
+        }
+      ],
+      "9885": [
+        {
+          "do": "repeat",
+          "times": 50,
+          "until_room": 9885,
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "go forest"
+            }
+          ]
+        }
+      ],
+      "9886": [
+        {
+          "do": "repeat",
+          "times": 50,
+          "until_room": 9886,
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "go forest"
+            }
+          ]
+        }
+      ],
+      "9887": [
+        {
+          "do": "repeat",
+          "times": 50,
+          "until_room": 9887,
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "go forest"
+            }
+          ]
+        }
+      ],
+      "9888": [
+        {
+          "do": "repeat",
+          "times": 50,
+          "until_room": 9888,
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "go forest"
+            }
+          ]
+        }
+      ],
+      "9889": [
+        {
+          "do": "repeat",
+          "times": 50,
+          "until_room": 9889,
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "go forest"
+            }
+          ]
+        }
+      ],
+      "16956": [
+        {
+          "do": "repeat",
+          "times": 50,
+          "until_room": 16956,
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "go forest"
+            }
+          ]
+        }
+      ],
+      "16957": [
+        {
+          "do": "repeat",
+          "times": 50,
+          "until_room": 16957,
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "go forest"
+            }
+          ]
+        }
+      ],
+      "18803": [
+        {
+          "do": "repeat",
+          "times": 50,
+          "until_room": 18803,
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "go forest"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "9884": 15,

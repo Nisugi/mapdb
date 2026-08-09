@@ -1,5 +1,5 @@
 {
-  "checksum": "cc10200a9ce2a5e7f8c634057d71a670",
+  "checksum": "bb2b3a75a9a6858eac41c69ec061c250",
   "room": {
     "id": 16191,
     "title": [
@@ -13,7 +13,20 @@
     ],
     "location": "Maelstrom Bay",
     "wayto": {
-      "16192": "/rooms/16191/wayto/stringproc-16192.rb"
+      "16192": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go crevice"
+        }
+      ]
     },
     "timeto": {
       "16192": 1.6

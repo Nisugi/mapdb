@@ -1,5 +1,5 @@
 {
-  "checksum": "d6ab6f88daa1a12ece6b114216e746cf",
+  "checksum": "5998c03cad36a727291249f9b1d24bda",
   "room": {
     "id": 16237,
     "title": [
@@ -16,17 +16,50 @@
     "terrain": "none",
     "wayto": {
       "11748": "out",
-      "18903": "/rooms/16237/wayto/stringproc-18903.rb",
-      "18904": "/rooms/16237/wayto/stringproc-18904.rb",
-      "18905": "/rooms/16237/wayto/stringproc-18905.rb",
-      "18906": "/rooms/16237/wayto/stringproc-18906.rb",
-      "18907": "/rooms/16237/wayto/stringproc-18907.rb",
-      "18908": "/rooms/16237/wayto/stringproc-18908.rb",
-      "18909": "/rooms/16237/wayto/stringproc-18909.rb",
-      "18910": "/rooms/16237/wayto/stringproc-18910.rb",
-      "18911": "/rooms/16237/wayto/stringproc-18911.rb",
-      "18912": "/rooms/16237/wayto/stringproc-18912.rb",
-      "18913": "/rooms/16237/wayto/stringproc-18913.rb"
+      "18903": {
+        "strategy": "table_join",
+        "table": "barking rolton"
+      },
+      "18904": {
+        "strategy": "table_join",
+        "table": "blood eagle"
+      },
+      "18905": {
+        "strategy": "table_join",
+        "table": "calm krolvin"
+      },
+      "18906": {
+        "strategy": "table_join",
+        "table": "clammy cave"
+      },
+      "18907": {
+        "strategy": "table_join",
+        "table": "peg-legged krolvin"
+      },
+      "18908": {
+        "strategy": "table_join",
+        "table": "sandy breezes"
+      },
+      "18909": {
+        "strategy": "table_join",
+        "table": "lazy falls"
+      },
+      "18910": {
+        "strategy": "table_join",
+        "table": "snapping crab"
+      },
+      "18911": {
+        "strategy": "table_join",
+        "table": "clumsy kobold"
+      },
+      "18912": {
+        "strategy": "table_join",
+        "table": "drunk kobold"
+      },
+      "18913": {
+        "strategy": "table_join",
+        "table": "dilapidated pier"
+      }
     },
     "timeto": {
       "11748": 0.2,
@@ -43,8 +76,8 @@
       "18913": 0.2
     },
     "tags": [
-      "table",
-      "no forageables"
+      "no forageables",
+      "table"
     ],
     "uid": [
       2101800

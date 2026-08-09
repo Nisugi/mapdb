@@ -1,0 +1,25 @@
+{
+  "checksum": "4b0749013b827d4a43c590b4f69b1c24",
+  "room": {
+    "id": 36790,
+    "title": [
+      "[Tempest Queen, Upward Deck]"
+    ],
+    "description": [
+      "Enclosed by a sturdy railing, the uppermost deck of the barge offers an omnidirectional view of the environs.  Huddled in the middle, rows of chaise lounges are kept clear of the promenade area.  A burnished brass signal bell hangs in silence outside of an abandoned pilothouse housing the ship's wheel."
+    ],
+    "paths": [
+      "Obvious paths: down"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36789": "down"
+    },
+    "timeto": {
+      "36789": 0.2
+    },
+    "uid": [
+      7134108
+    ]
+  }
+}

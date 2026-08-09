@@ -1,5 +1,5 @@
 {
-  "checksum": "86384e4a4ae4e56be910856646f6e1a2",
+  "checksum": "8992bcc9120839820ebf77ccd5f6e49c",
   "room": {
     "id": 32930,
     "title": [
@@ -16,12 +16,27 @@
     "terrain": "none",
     "wayto": {
       "32929": "east",
-      "32931": "/rooms/32930/wayto/stringproc-32931.rb",
-      "32932": "/rooms/32930/wayto/stringproc-32932.rb",
-      "32933": "/rooms/32930/wayto/stringproc-32933.rb",
-      "32934": "/rooms/32930/wayto/stringproc-32934.rb",
-      "32935": "/rooms/32930/wayto/stringproc-32935.rb",
-      "34400": "/rooms/32930/wayto/stringproc-34400.rb"
+      "32931": {
+        "strategy": "table_join",
+        "table": "Silly Sheep"
+      },
+      "32932": {
+        "strategy": "table_join",
+        "table": "Merry Meerkat"
+      },
+      "32933": {
+        "strategy": "table_join",
+        "table": "Guzzling Goose"
+      },
+      "32934": {
+        "strategy": "table_join",
+        "table": "Rollicking Rolton"
+      },
+      "32935": {
+        "strategy": "table_join",
+        "table": "Tipsy Tamarin"
+      },
+      "34400": []
     },
     "timeto": {
       "32929": 0.2,
@@ -30,14 +45,16 @@
       "32933": 0.2,
       "32934": 0.2,
       "32935": 0.2,
-      "34400": "/rooms/32930/timeto/stringproc-34400.rb"
+      "34400": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "meta:forage-sensed",
-      "table",
       "no forageables",
-      "urchin-access",
-      "urchin guide tables"
+      "table",
+      "urchin guide tables",
+      "urchin-access"
     ],
     "uid": [
       7140402

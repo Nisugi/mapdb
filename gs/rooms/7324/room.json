@@ -1,5 +1,5 @@
 {
-  "checksum": "a076c863ed68a1a9befddae1657e487a",
+  "checksum": "7c5d9532e9201a3b15c71a3a60675663",
   "room": {
     "id": 7324,
     "title": [
@@ -15,7 +15,10 @@
     "climate": "cold, damp",
     "terrain": "barren scrub",
     "wayto": {
-      "4541": "/rooms/7324/wayto/stringproc-4541.rb",
+      "4541": {
+        "strategy": "unique_crossing",
+        "name": "crossing_7324_4541"
+      },
       "7322": "southeast",
       "7323": "northeast"
     },
@@ -25,24 +28,24 @@
       "7323": 0.2
     },
     "tags": [
-      "bright red teaberry",
       "blue whortleberry",
-      "sprig of larkspur",
-      "wild strawberry",
-      "cothinar flower",
-      "wintergreen leaf",
       "blueberries",
-      "stalk of chicory",
+      "bright red teaberry",
       "broken twig",
-      "small wild rose",
-      "sprig of wild lilac",
-      "wild chokecherry",
+      "cothinar flower",
       "ironfern root",
-      "wingstem root",
       "meta:forage-sensed",
-      "sunburst blossom",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2024-01",
-      "meta:forage-sensed:day:2025-02"
+      "sprig of larkspur",
+      "sprig of wild lilac",
+      "stalk of chicory",
+      "sunburst blossom",
+      "wild chokecherry",
+      "wild rose",
+      "wild strawberry",
+      "wingstem root",
+      "wintergreen leaf"
     ],
     "uid": [
       2150007

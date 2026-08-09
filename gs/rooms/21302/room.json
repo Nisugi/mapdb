@@ -1,5 +1,5 @@
 {
-  "checksum": "f199ef3ee18a98185412e77559012868",
+  "checksum": "f565e8dcf4b08fe8a4b759b797ee8389",
   "room": {
     "id": 21302,
     "title": [
@@ -14,7 +14,12 @@
     "location": "Willow Hall",
     "wayto": {
       "19292": "out",
-      "21303": "/rooms/21302/wayto/stringproc-21303.rb"
+      "21303": [
+        {
+          "do": "send",
+          "cmd": "tap globe"
+        }
+      ]
     },
     "timeto": {
       "19292": 0.2,

@@ -1,5 +1,5 @@
 {
-  "checksum": "060f902f2ff7bfe20578cfebaa42a7cf",
+  "checksum": "5414fb3216b10e9edfae39b8e4e82965",
   "room": {
     "id": 4663,
     "title": [
@@ -16,20 +16,22 @@
     "wayto": {
       "4661": "out",
       "28718": "go oak archway",
-      "30717": "/rooms/4663/wayto/stringproc-30717.rb"
+      "30717": []
     },
     "timeto": {
       "4661": 0.2,
       "28718": 0.2,
-      "30717": "/rooms/4663/timeto/stringproc-30717.rb"
+      "30717": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "locksmith",
-      "no forageables",
+      "locksmith shop",
       "meta:forage-sensed",
-      "urchin-access",
+      "no forageables",
       "urchin guide locksmith",
-      "locksmith shop"
+      "urchin-access"
     ],
     "uid": [
       14051036

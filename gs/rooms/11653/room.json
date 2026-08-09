@@ -1,5 +1,5 @@
 {
-  "checksum": "4097a273c13659a1ebd524ba5d14a81b",
+  "checksum": "270f613c5156c1f98359d9e6426289ba",
   "room": {
     "id": 11653,
     "title": [
@@ -15,11 +15,69 @@
     "climate": "moist",
     "terrain": "muddy wetlands",
     "wayto": {
-      "11620": "/rooms/11653/wayto/stringproc-11620.rb",
-      "11622": "/rooms/11653/wayto/stringproc-11622.rb",
+      "11620": [
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "escort_wait"
+        }
+      ],
+      "11622": [
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "move",
+          "cmd": "northeast"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        }
+      ],
       "11661": "north",
       "16124": "southwest",
-      "22219": "/rooms/11653/wayto/stringproc-22219.rb"
+      "22219": [
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "move",
+          "cmd": "southeast"
+        }
+      ]
     },
     "timeto": {
       "11620": 0.8,
@@ -29,47 +87,48 @@
       "22219": 0.4
     },
     "tags": [
-      "peer north =~ /^Obvious paths: northeast, south, northwest/",
-      "calamia fruit",
+      "alligator lily",
       "aloeas stem",
-      "soft white mushroom",
-      "withered black mushroom",
+      "black peppercorn",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "broken twig",
+      "bur-clover root",
+      "calamia fruit",
+      "cardamom",
+      "cumin seeds",
       "daggerstalk mushroom",
       "flathead mushroom",
       "genkew mushroom",
-      "blue trafel mushroom",
-      "water chestnut",
-      "stalk of cattail",
-      "spider lily",
-      "alligator lily",
+      "golden mushroom",
       "kylan berry",
-      "yellow heliconia",
-      "orange heliconia",
-      "pink heliconia",
-      "red heliconia",
-      "purple passionflower",
-      "pink passionflower",
-      "red passionflower",
-      "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "talneo root",
-      "wingstem root",
       "meta:forage-sensed",
-      "bur-clover root",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "murdroot",
       "nutmeg",
-      "cumin seeds",
+      "orange heliconia",
+      "peer north =~ /^Obvious paths: northeast, south, northwest/",
+      "pink heliconia",
+      "pink passionflower",
+      "pink peppercorn",
+      "purple passionflower",
+      "red heliconia",
+      "red passionflower",
+      "soft mushroom",
+      "spider lily",
+      "stalk of cattail",
       "star anise",
       "sunburst blossom",
+      "talneo root",
       "trollear mushroom",
-      "broken twig",
-      "meta:forage-sensed:night:2026-01",
-      "golden hook mushroom",
-      "meta:forage-sensed:day:2026-01"
+      "vanilla bean",
+      "water chestnut",
+      "wavepetal blossom",
+      "wild rice",
+      "wingstem root",
+      "withered mushroom",
+      "yellow heliconia"
     ],
     "uid": [
       5004017

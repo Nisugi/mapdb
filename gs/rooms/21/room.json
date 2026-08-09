@@ -1,5 +1,5 @@
 {
-  "checksum": "0dc6e24e91ddd9f690fc6b7ace6ab903",
+  "checksum": "1b804eea95c1e6cfdc91acd9096c41c0",
   "room": {
     "id": 21,
     "title": [
@@ -21,19 +21,29 @@
       "20": "north",
       "22": "south",
       "17193": "go gate",
-      "30714": "/rooms/21/wayto/stringproc-30714.rb"
+      "30714": []
     },
     "timeto": {
       "20": 0.2,
       "22": 0.2,
-      "17193": "/rooms/21/timeto/stringproc-17193.rb",
-      "30714": "/rooms/21/timeto/stringproc-30714.rb"
+      "17193": {
+        "cost": 0.2,
+        "requires": [
+          "var:premium"
+        ],
+        "else": {
+          "cost": 10
+        }
+      },
+      "30714": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
+      "meta:forage-sensed:night:2022-11",
+      "no forageables",
+      "urchin-access"
     ],
     "uid": [
       13100050

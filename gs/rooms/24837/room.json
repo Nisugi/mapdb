@@ -1,5 +1,5 @@
 {
-  "checksum": "318b3390bd2d330e81bfbb98c5847569",
+  "checksum": "8ca5470c03be61a3936e1b48b638f668",
   "room": {
     "id": 24837,
     "title": [
@@ -14,7 +14,10 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "24831": "go river",
-      "24967": "/rooms/24837/wayto/stringproc-24967.rb"
+      "24967": {
+        "strategy": "unique_crossing",
+        "name": "crossing_24837_24967"
+      }
     },
     "timeto": {
       "24831": 0.2,

@@ -1,5 +1,5 @@
 {
-  "checksum": "212ea003d51ea9caafde677b3a5895fe",
+  "checksum": "118a083af627ce33d352f7547d0ee644",
   "room": {
     "id": 13048,
     "title": [
@@ -19,23 +19,25 @@
       "13047": "out",
       "13049": "east",
       "13050": "west",
-      "30714": "/rooms/13048/wayto/stringproc-30714.rb"
+      "30714": []
     },
     "timeto": {
       "1767": 0.2,
       "13047": 0.2,
       "13049": 0.2,
       "13050": 0.2,
-      "30714": "/rooms/13048/timeto/stringproc-30714.rb"
+      "30714": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "advguild",
-      "urchin guide bounty",
-      "urchin-access",
       "bounty",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
+      "meta:forage-sensed:night:2022-11",
+      "no forageables",
+      "urchin guide bounty",
+      "urchin-access"
     ],
     "uid": [
       15005002

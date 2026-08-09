@@ -1,1 +1,0 @@
-((!defined?(Stats.prof) or Stats.prof == 'Warrior') ? 0.2 : nil);

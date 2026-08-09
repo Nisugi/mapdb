@@ -1,5 +1,5 @@
 {
-  "checksum": "a58924ada9c3bf070282554fce41dcfe",
+  "checksum": "aa57c5b7c80718b306b39c61cf687a71",
   "room": {
     "id": 11006,
     "title": [
@@ -21,47 +21,58 @@
       "18677": "go path"
     },
     "timeto": {
-      "10840": "/rooms/11006/timeto/stringproc-10840.rb",
+      "10840": {
+        "cost": 0.2,
+        "requires": [
+          "citizenship:River's Rest"
+        ],
+        "else": {
+          "cost": 0.2,
+          "requires": [
+            "is:invisible"
+          ]
+        }
+      },
       "11007": 0.2,
       "11023": 0.2,
       "18677": 0.2
     },
     "tags": [
-      "blue trafel mushroom",
-      "stalk of bluebells",
-      "flathead mushroom",
       "acantha leaf",
-      "calamia fruit",
       "aloeas stem",
-      "soft white mushroom",
-      "withered black mushroom",
-      "striped heart mushroom",
-      "daggerstalk mushroom",
-      "genkew mushroom",
-      "water chestnut",
-      "stalk of cattail",
-      "wild chokecherry",
+      "banana leaf",
+      "blood orange",
+      "blue trafel mushroom",
+      "bright orange",
       "bright red cranberry",
+      "bright yellow plantain",
+      "calamia fruit",
+      "cassava root",
+      "coffee cherries",
+      "cone-shaped pineapple",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "golden flax fronds",
+      "grapefruit",
       "kylan berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
       "murdroot",
-      "wavepetal blossom",
+      "round yuzu",
+      "small green quenepas",
+      "soft mushroom",
+      "stalk of bluebells",
+      "stalk of cattail",
+      "striped heart mushroom",
       "sunburst blossom",
       "talneo root",
-      "banana leaf",
-      "meta:forage-sensed",
-      "golden flax fronds",
-      "cassava root",
-      "small green quenepas",
       "vibrant green plantain",
-      "bright yellow plantain",
-      "cone-shaped pineapple",
-      "bright orange",
-      "blood orange",
-      "grapefruit",
-      "coffee cherries",
-      "round yuzu",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
+      "water chestnut",
+      "wavepetal blossom",
+      "wild chokecherry",
+      "withered mushroom"
     ],
     "uid": [
       2104011

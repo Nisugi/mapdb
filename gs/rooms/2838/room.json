@@ -1,5 +1,5 @@
 {
-  "checksum": "134ee7f0865bf170f4833a98b451fe16",
+  "checksum": "df0ed19ebe4fb14430fbcf0e3f8891bd",
   "room": {
     "id": 2838,
     "title": [
@@ -15,7 +15,21 @@
     "climate": "snowy, arctic",
     "terrain": "mountainous",
     "wayto": {
-      "2837": "/rooms/2838/wayto/stringproc-2837.rb",
+      "2837": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb cliff"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ],
       "2839": "climb incline",
       "2872": "west"
     },
@@ -25,35 +39,40 @@
       "2872": 0.2
     },
     "tags": [
-      "sassafras leaf",
-      "handful of snowberries",
-      "lingonberry",
-      "some arctic moss",
-      "calamintha blossom",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "edelweiss",
-      "iceblossoms",
-      "snow lily",
-      "winter rose",
       "arctic moss",
-      "tundra grass",
-      "golden aster",
-      "snowberries",
-      "pale thornberry",
-      "red winterberry",
-      "small loganberry",
-      "rockberry",
-      "crowberry",
-      "orange rowanberry",
-      "ironfern root",
       "bolmara lichen",
+      "calamintha blossom",
+      "crowberry",
+      "dwarf bilberry",
+      "edelweiss",
+      "giant's lace",
+      "glassfern frond",
+      "golden aster",
+      "green glacierberry",
+      "iceblossoms",
+      "ironfern root",
+      "lingonberry",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "orange rowanberry",
+      "pale thornberry",
+      "pennyroyal stem",
+      "red winterberry",
+      "resting poppy",
+      "rockberry",
+      "sassafras leaf",
+      "silver iceblossom",
+      "small loganberry",
+      "snow lily",
+      "snowberries",
       "sunburst blossom",
+      "sweetfern stalk",
+      "tundra grass",
+      "valerian root",
       "wingstem root",
-      "meta:forage-sensed:day:2022-11"
+      "winter rose",
+      "wintercrisp apple"
     ],
     "uid": [
       4565004

@@ -1,5 +1,5 @@
 {
-  "checksum": "f92558bc612f7bfa99742b2cc09a9d14",
+  "checksum": "af13f0f1d3c7256474b4833027907d4e",
   "room": {
     "id": 30582,
     "title": [
@@ -13,8 +13,14 @@
     ],
     "location": false,
     "wayto": {
-      "30581": "/rooms/30582/wayto/stringproc-30581.rb",
-      "30583": "/rooms/30582/wayto/stringproc-30583.rb"
+      "30581": {
+        "strategy": "unique_crossing",
+        "name": "crossing_30581_30582"
+      },
+      "30583": {
+        "strategy": "unique_crossing",
+        "name": "crossing_30582_30583"
+      }
     },
     "timeto": {
       "30581": 12,

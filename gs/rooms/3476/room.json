@@ -1,5 +1,5 @@
 {
-  "checksum": "bd5df5b979a453030b08ad3314571826",
+  "checksum": "41b231bec593b54fbc9fbeb99c128369",
   "room": {
     "id": 3476,
     "title": [
@@ -15,9 +15,78 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "3475": "/rooms/3476/wayto/stringproc-3475.rb",
-      "3477": "/rooms/3476/wayto/stringproc-3477.rb",
-      "3478": "/rooms/3476/wayto/stringproc-3478.rb"
+      "3475": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "east"
+        }
+      ],
+      "3477": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "north"
+        }
+      ],
+      "3478": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "south"
+        }
+      ]
     },
     "timeto": {
       "3475": 0.2,
@@ -28,7 +97,7 @@
       "arctic moss",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2025-02"
+      "meta:forage-sensed:day:2026-03"
     ],
     "uid": [
       4044131

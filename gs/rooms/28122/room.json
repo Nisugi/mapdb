@@ -1,5 +1,5 @@
 {
-  "checksum": "a31cefe06c1ac5ea4f4f723a19329772",
+  "checksum": "8fe7a472965af606abdeb2478fdcf7c9",
   "room": {
     "id": 28122,
     "title": [
@@ -14,7 +14,16 @@
     "location": false,
     "wayto": {
       "28123": "northeast",
-      "28124": "/rooms/28122/wayto/stringproc-28124.rb"
+      "28124": [
+        {
+          "do": "move",
+          "cmd": "go mouth"
+        },
+        {
+          "do": "send",
+          "cmd": "stand"
+        }
+      ]
     },
     "timeto": {
       "28123": 0.2,

@@ -1,5 +1,5 @@
 {
-  "checksum": "f786d2002b03add04a492936e67aaf19",
+  "checksum": "686cd76c296c04989d53860da239f530",
   "room": {
     "id": 3592,
     "title": [
@@ -13,7 +13,28 @@
     ],
     "location": "Stone Valley",
     "wayto": {
-      "3590": "/rooms/3592/wayto/stringproc-3590.rb",
+      "3590": [
+        {
+          "do": "try_move",
+          "cmd": "go door",
+          "check": "move_result",
+          "fallback": [
+            {
+              "do": "echo",
+              "msg": "Waiting for the door to open... "
+            },
+            {
+              "do": "await",
+              "for": "You\\ hear\\ a\\ soft\\ click\\ from\\ the\\ door\\ and\\ it\\ suddenly\\ flies\\ open\\.",
+              "timeout": 30
+            },
+            {
+              "do": "move",
+              "cmd": "go door"
+            }
+          ]
+        }
+      ],
       "3593": "east"
     },
     "timeto": {
@@ -21,9 +42,9 @@
       "3593": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "meta:forage-sensed:day:2022-09",
+      "no forageables"
     ],
     "uid": [
       4292012

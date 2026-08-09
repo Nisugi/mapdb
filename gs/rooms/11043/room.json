@@ -1,5 +1,5 @@
 {
-  "checksum": "91a46506a0747f0b72315cc94f59ddf6",
+  "checksum": "99f84a2cc8c7dc149fb4bda48a373f0b",
   "room": {
     "id": 11043,
     "title": [
@@ -16,71 +16,107 @@
     "terrain": "coniferous forest",
     "wayto": {
       "11042": "west",
-      "11166": "/rooms/11043/wayto/stringproc-11166.rb",
-      "11374": "/rooms/11043/wayto/stringproc-11374.rb",
-      "11669": "/rooms/11043/wayto/stringproc-11669.rb",
-      "11711": "/rooms/11043/wayto/stringproc-11711.rb",
+      "11166": {
+        "strategy": "voln_seeking",
+        "target": 11166
+      },
+      "11374": {
+        "strategy": "voln_seeking",
+        "target": 11374
+      },
+      "11669": {
+        "strategy": "voln_seeking",
+        "target": 11669
+      },
+      "11711": {
+        "strategy": "voln_seeking",
+        "target": 11711
+      },
       "18378": "go pathway"
     },
     "timeto": {
       "11042": 0.2,
-      "11166": "/rooms/11043/timeto/stringproc-11166.rb",
-      "11374": "/rooms/11043/timeto/stringproc-11374.rb",
-      "11669": "/rooms/11043/timeto/stringproc-11669.rb",
-      "11711": "/rooms/11043/timeto/stringproc-11711.rb",
+      "11166": {
+        "cost": 2.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "11374": {
+        "cost": 5.1,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "11669": {
+        "cost": 2.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "11711": {
+        "cost": 2.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
       "18378": 0.2
     },
     "tags": [
-      "voln",
-      "handful of pinenuts",
-      "tkaro root",
-      "ebony twig",
       "acantha leaf",
-      "torban leaf",
-      "calamia fruit",
-      "sticks",
       "angelica root",
-      "soft white mushroom",
-      "withered black mushroom",
+      "ayana leaf",
+      "birch bark",
+      "blood orange",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "bright red teaberry",
+      "broken twig",
+      "brostheras grass",
+      "calamia fruit",
+      "coffee cherries",
+      "coppery rain lily",
       "daggerstalk mushroom",
+      "ebony twig",
+      "fiddlehead fern",
       "flathead mushroom",
       "genkew mushroom",
-      "blue trafel mushroom",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "wild gooseberry",
-      "fiddlehead fern",
-      "broken twig",
+      "golden buttercup",
+      "grapefruit",
+      "handful of pinenuts",
+      "ironfern root",
+      "kylan berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:seeking",
+      "mistweed",
       "pine cone",
       "pine needles",
-      "stalk of bluebells",
-      "golden buttercup",
-      "wild pink geranium",
-      "wild chokecherry",
-      "tree bark",
-      "mistweed",
-      "white lily",
       "pink rain lily",
-      "coppery rain lily",
-      "kylan berry",
-      "ayana leaf",
-      "yew twig",
-      "ironfern root",
-      "sunburst blossom",
-      "twisted twig",
-      "slender twig",
-      "bolmara lichen",
-      "brostheras grass",
-      "meta:forage-sensed",
-      "meta:seeking",
-      "viburnum twig",
-      "birch bark",
-      "tanik twig",
-      "blood orange",
-      "grapefruit",
-      "coffee cherries",
       "round yuzu",
-      "meta:forage-sensed:day:2026-01"
+      "slender twig",
+      "soft mushroom",
+      "stalk of bluebells",
+      "sticks",
+      "sunburst blossom",
+      "tanik twig",
+      "tkaro root",
+      "torban leaf",
+      "tree bark",
+      "twisted twig",
+      "viburnum twig",
+      "voln",
+      "white lily",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild pink geranium",
+      "wintergreen leaf",
+      "withered mushroom",
+      "yew twig"
     ],
     "uid": [
       5000108

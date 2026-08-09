@@ -1,5 +1,5 @@
 {
-  "checksum": "b84050bd49d32552f15e1da158704e11",
+  "checksum": "9b74c011aae220d10d5b8cee5ff3397d",
   "room": {
     "id": 18112,
     "title": [
@@ -17,7 +17,13 @@
       "18113": "go arch",
       "18114": "west",
       "18119": "east",
-      "18926": "/rooms/18112/wayto/stringproc-18926.rb"
+      "18926": [
+        {
+          "do": "cast",
+          "spell": 704,
+          "target": "insignia"
+        }
+      ]
     },
     "timeto": {
       "18111": 0.2,

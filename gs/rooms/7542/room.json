@@ -1,5 +1,5 @@
 {
-  "checksum": "c27727883fdae8dbd1db3e019682dbd3",
+  "checksum": "023efc588f2aad28b71dd7a7e48b9692",
   "room": {
     "id": 7542,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "the catacombs",
     "wayto": {
-      "404": "/rooms/7542/wayto/stringproc-404.rb",
+      "404": [
+        {
+          "do": "send",
+          "cmd": "pull huge broadsword"
+        },
+        {
+          "do": "send",
+          "cmd": "go depression"
+        }
+      ],
       "7540": "pull cresset"
     },
     "timeto": {
@@ -21,10 +30,10 @@
       "7540": 0.2
     },
     "tags": [
-      "node",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "meta:forage-sensed:day:2022-09",
+      "no forageables",
+      "node"
     ],
     "uid": [
       46027

@@ -1,5 +1,5 @@
 {
-  "checksum": "7dfe54121217f50d6526bdc58eaaaf9a",
+  "checksum": "6341bb0e55e904f0c5e136a02beaff67",
   "room": {
     "id": 22236,
     "title": [
@@ -13,7 +13,15 @@
     ],
     "location": "Talador",
     "wayto": {
-      "299": "/rooms/22236/wayto/stringproc-299.rb",
+      "299": [
+        {
+          "do": "move",
+          "cmd": "go fog"
+        },
+        {
+          "do": "replan"
+        }
+      ],
       "22243": "northwest"
     },
     "timeto": {

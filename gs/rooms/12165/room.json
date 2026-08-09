@@ -1,5 +1,5 @@
 {
-  "checksum": "41d016a2ab84b5d22d14852430d8db41",
+  "checksum": "253040d8c51de4ee026f840187be0a1d",
   "room": {
     "id": 12165,
     "title": [
@@ -16,7 +16,57 @@
     "climate": "cold, dry",
     "terrain": "hard, flat",
     "wayto": {
-      "2579": "/rooms/12165/wayto/stringproc-2579.rb",
+      "2579": {
+        "strategy": "patrol_search",
+        "rooms": [
+          12162,
+          12207,
+          12170,
+          12209,
+          12215,
+          12210,
+          12159,
+          12165,
+          12206,
+          12173,
+          12208,
+          null,
+          12160,
+          12211
+        ],
+        "dirs": [
+          "northwest",
+          "north",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "north",
+          "northwest",
+          "west",
+          "east",
+          "northeast",
+          "northwest",
+          "northeast"
+        ],
+        "objects": [
+          "thread"
+        ],
+        "enter": [
+          {
+            "do": "move",
+            "cmd": "climb thread"
+          },
+          {
+            "do": "wait_rt"
+          },
+          {
+            "do": "send",
+            "cmd": "stand"
+          }
+        ]
+      },
       "12159": "southwest",
       "12206": "north",
       "12207": "east",
@@ -30,17 +80,17 @@
       "12208": 0.2
     },
     "tags": [
-      "withered deathblossom",
-      "discolored fleshbinder bud",
-      "twisted black mawflower",
-      "oozing fleshsore bulb",
-      "fleshsore bulb",
-      "mass of congealed slime",
-      "fleshbinder bud",
-      "grave blossom",
       "black mawflower",
+      "discolored fleshbinder bud",
+      "fleshbinder bud",
+      "fleshsore bulb",
+      "grave blossom",
       "green fleshbulb",
-      "meta:forage-sensed"
+      "mass of congealed slime",
+      "meta:forage-sensed",
+      "oozing fleshsore bulb",
+      "twisted black mawflower",
+      "withered deathblossom"
     ],
     "uid": [
       4570002

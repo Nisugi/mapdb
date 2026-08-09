@@ -1,5 +1,5 @@
 {
-  "checksum": "a258c1b1b3ecc60d4b85193fd94e1151",
+  "checksum": "71596e5ea8cd381416eb39e9a1b4ba77",
   "room": {
     "id": 2642,
     "title": [
@@ -15,8 +15,40 @@
     ],
     "location": false,
     "wayto": {
-      "2640": "/rooms/2642/wayto/stringproc-2640.rb",
-      "2645": "/rooms/2642/wayto/stringproc-2645.rb"
+      "2640": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "move_random",
+              "among": [
+                "northwest",
+                "northeast"
+              ],
+              "prefix": "swim ",
+              "send": true
+            }
+          ],
+          "until": "path:up"
+        }
+      ],
+      "2645": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "move_random",
+              "among": [
+                "southwest",
+                "southeast"
+              ],
+              "prefix": "swim ",
+              "send": true
+            }
+          ],
+          "until": "path:up"
+        }
+      ]
     },
     "timeto": {
       "2640": 20,
@@ -24,8 +56,8 @@
     },
     "tags": [
       "meta:forage-sensed",
-      "meta:maze",
-      "meta:map:multi-uid"
+      "meta:map:multi-uid",
+      "meta:maze"
     ],
     "uid": [
       4562040,

@@ -1,5 +1,5 @@
 {
-  "checksum": "1167ef36595994d66a839a983863f37a",
+  "checksum": "2670f4989955ae4889a3407a1efa98bc",
   "room": {
     "id": 24853,
     "title": [
@@ -15,7 +15,13 @@
     "wayto": {
       "18249": "south",
       "18700": "southwest",
-      "18703": "/rooms/24853/wayto/stringproc-18703.rb",
+      "18703": [
+        {
+          "do": "cross",
+          "room": 18700,
+          "dest": "18250"
+        }
+      ],
       "18706": "west",
       "18707": "northwest",
       "18708": "north"

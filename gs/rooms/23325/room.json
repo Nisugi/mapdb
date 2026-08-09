@@ -1,5 +1,5 @@
 {
-  "checksum": "19db0136b49beef6f64cb2ee6c8b605b",
+  "checksum": "fe7d234788b3d9130ced850c30795ce8",
   "room": {
     "id": 23325,
     "title": [
@@ -10,78 +10,288 @@
     ],
     "location": "the Elemental Confluence",
     "wayto": {
-      "188": "/rooms/23325/wayto/stringproc-188.rb",
-      "228": "/rooms/23325/wayto/stringproc-228.rb",
-      "1005": "/rooms/23325/wayto/stringproc-1005.rb",
-      "1438": "/rooms/23325/wayto/stringproc-1438.rb",
-      "1932": "/rooms/23325/wayto/stringproc-1932.rb",
-      "2300": "/rooms/23325/wayto/stringproc-2300.rb",
-      "3519": "/rooms/23325/wayto/stringproc-3519.rb",
-      "3668": "/rooms/23325/wayto/stringproc-3668.rb",
-      "10855": "/rooms/23325/wayto/stringproc-10855.rb",
-      "23282": "/rooms/23325/wayto/stringproc-23282.rb",
-      "23283": "/rooms/23325/wayto/stringproc-23283.rb",
-      "23284": "/rooms/23325/wayto/stringproc-23284.rb",
-      "23285": "/rooms/23325/wayto/stringproc-23285.rb",
-      "23286": "/rooms/23325/wayto/stringproc-23286.rb",
-      "23287": "/rooms/23325/wayto/stringproc-23287.rb",
-      "23288": "/rooms/23325/wayto/stringproc-23288.rb",
-      "23289": "/rooms/23325/wayto/stringproc-23289.rb",
-      "23290": "/rooms/23325/wayto/stringproc-23290.rb",
-      "23291": "/rooms/23325/wayto/stringproc-23291.rb",
-      "23292": "/rooms/23325/wayto/stringproc-23292.rb",
-      "23293": "/rooms/23325/wayto/stringproc-23293.rb",
-      "23294": "/rooms/23325/wayto/stringproc-23294.rb",
-      "23295": "/rooms/23325/wayto/stringproc-23295.rb",
-      "23296": "/rooms/23325/wayto/stringproc-23296.rb",
-      "23297": "/rooms/23325/wayto/stringproc-23297.rb",
-      "23298": "/rooms/23325/wayto/stringproc-23298.rb",
-      "23299": "/rooms/23325/wayto/stringproc-23299.rb",
-      "23300": "/rooms/23325/wayto/stringproc-23300.rb",
-      "23301": "/rooms/23325/wayto/stringproc-23301.rb",
-      "23302": "/rooms/23325/wayto/stringproc-23302.rb",
-      "23303": "/rooms/23325/wayto/stringproc-23303.rb",
-      "23304": "/rooms/23325/wayto/stringproc-23304.rb",
-      "23305": "/rooms/23325/wayto/stringproc-23305.rb",
-      "23306": "/rooms/23325/wayto/stringproc-23306.rb",
-      "23307": "/rooms/23325/wayto/stringproc-23307.rb",
-      "23308": "/rooms/23325/wayto/stringproc-23308.rb",
-      "23309": "/rooms/23325/wayto/stringproc-23309.rb",
-      "23310": "/rooms/23325/wayto/stringproc-23310.rb",
-      "23311": "/rooms/23325/wayto/stringproc-23311.rb",
-      "23312": "/rooms/23325/wayto/stringproc-23312.rb",
-      "23313": "/rooms/23325/wayto/stringproc-23313.rb",
-      "23314": "/rooms/23325/wayto/stringproc-23314.rb",
-      "23315": "/rooms/23325/wayto/stringproc-23315.rb",
-      "23316": "/rooms/23325/wayto/stringproc-23316.rb",
-      "23317": "/rooms/23325/wayto/stringproc-23317.rb",
-      "23318": "/rooms/23325/wayto/stringproc-23318.rb",
-      "23319": "/rooms/23325/wayto/stringproc-23319.rb",
-      "23320": "/rooms/23325/wayto/stringproc-23320.rb",
-      "23321": "/rooms/23325/wayto/stringproc-23321.rb",
-      "23322": "/rooms/23325/wayto/stringproc-23322.rb",
-      "23323": "/rooms/23325/wayto/stringproc-23323.rb",
-      "23324": "/rooms/23325/wayto/stringproc-23324.rb",
-      "23326": "/rooms/23325/wayto/stringproc-23326.rb",
-      "23327": "/rooms/23325/wayto/stringproc-23327.rb",
-      "23328": "/rooms/23325/wayto/stringproc-23328.rb",
-      "23329": "/rooms/23325/wayto/stringproc-23329.rb",
-      "23330": "/rooms/23325/wayto/stringproc-23330.rb",
-      "23331": "/rooms/23325/wayto/stringproc-23331.rb",
-      "23332": "/rooms/23325/wayto/stringproc-23332.rb",
-      "23333": "/rooms/23325/wayto/stringproc-23333.rb",
-      "23334": "/rooms/23325/wayto/stringproc-23334.rb"
+      "188": {
+        "strategy": "confluence_explorer",
+        "target": "tranquility"
+      },
+      "228": {
+        "strategy": "confluence_explorer",
+        "target": "tranquility"
+      },
+      "1005": {
+        "strategy": "confluence_explorer",
+        "target": "tranquility"
+      },
+      "1438": {
+        "strategy": "confluence_explorer",
+        "target": "tranquility"
+      },
+      "1932": {
+        "strategy": "confluence_explorer",
+        "target": "tranquility"
+      },
+      "2300": {
+        "strategy": "confluence_explorer",
+        "target": "tranquility"
+      },
+      "3519": {
+        "strategy": "confluence_explorer",
+        "target": "tranquility"
+      },
+      "3668": {
+        "strategy": "confluence_explorer",
+        "target": "tranquility"
+      },
+      "10855": {
+        "strategy": "confluence_explorer",
+        "target": "tranquility"
+      },
+      "23282": {
+        "strategy": "confluence_explorer",
+        "target": 23282
+      },
+      "23283": {
+        "strategy": "confluence_explorer",
+        "target": 23283
+      },
+      "23284": {
+        "strategy": "confluence_explorer",
+        "target": 23284
+      },
+      "23285": {
+        "strategy": "confluence_explorer",
+        "target": 23285
+      },
+      "23286": {
+        "strategy": "confluence_explorer",
+        "target": 23286
+      },
+      "23287": {
+        "strategy": "confluence_explorer",
+        "target": 23287
+      },
+      "23288": {
+        "strategy": "confluence_explorer",
+        "target": 23288
+      },
+      "23289": {
+        "strategy": "confluence_explorer",
+        "target": 23289
+      },
+      "23290": {
+        "strategy": "confluence_explorer",
+        "target": 23290
+      },
+      "23291": {
+        "strategy": "confluence_explorer",
+        "target": 23291
+      },
+      "23292": {
+        "strategy": "confluence_explorer",
+        "target": 23292
+      },
+      "23293": {
+        "strategy": "confluence_explorer",
+        "target": 23293
+      },
+      "23294": {
+        "strategy": "confluence_explorer",
+        "target": 23294
+      },
+      "23295": {
+        "strategy": "confluence_explorer",
+        "target": 23295
+      },
+      "23296": {
+        "strategy": "confluence_explorer",
+        "target": 23296
+      },
+      "23297": {
+        "strategy": "confluence_explorer",
+        "target": 23297
+      },
+      "23298": {
+        "strategy": "confluence_explorer",
+        "target": 23298
+      },
+      "23299": {
+        "strategy": "confluence_explorer",
+        "target": 23299
+      },
+      "23300": {
+        "strategy": "confluence_explorer",
+        "target": 23300
+      },
+      "23301": {
+        "strategy": "confluence_explorer",
+        "target": 23301
+      },
+      "23302": {
+        "strategy": "confluence_explorer",
+        "target": 23302
+      },
+      "23303": {
+        "strategy": "confluence_explorer",
+        "target": 23303
+      },
+      "23304": {
+        "strategy": "confluence_explorer",
+        "target": 23304
+      },
+      "23305": {
+        "strategy": "confluence_explorer",
+        "target": 23305
+      },
+      "23306": {
+        "strategy": "confluence_explorer",
+        "target": 23306
+      },
+      "23307": {
+        "strategy": "confluence_explorer",
+        "target": 23307
+      },
+      "23308": {
+        "strategy": "confluence_explorer",
+        "target": 23308
+      },
+      "23309": {
+        "strategy": "confluence_explorer",
+        "target": 23309
+      },
+      "23310": {
+        "strategy": "confluence_explorer",
+        "target": 23310
+      },
+      "23311": {
+        "strategy": "confluence_explorer",
+        "target": 23311
+      },
+      "23312": {
+        "strategy": "confluence_explorer",
+        "target": 23312
+      },
+      "23313": {
+        "strategy": "confluence_explorer",
+        "target": 23313
+      },
+      "23314": {
+        "strategy": "confluence_explorer",
+        "target": 23314
+      },
+      "23315": {
+        "strategy": "confluence_explorer",
+        "target": 23315
+      },
+      "23316": {
+        "strategy": "confluence_explorer",
+        "target": 23316
+      },
+      "23317": {
+        "strategy": "confluence_explorer",
+        "target": 23317
+      },
+      "23318": {
+        "strategy": "confluence_explorer",
+        "target": 23318
+      },
+      "23319": {
+        "strategy": "confluence_explorer",
+        "target": 23319
+      },
+      "23320": {
+        "strategy": "confluence_explorer",
+        "target": 23320
+      },
+      "23321": {
+        "strategy": "confluence_explorer",
+        "target": 23321
+      },
+      "23322": {
+        "strategy": "confluence_explorer",
+        "target": 23322
+      },
+      "23323": {
+        "strategy": "confluence_explorer",
+        "target": 23323
+      },
+      "23324": {
+        "strategy": "confluence_explorer",
+        "target": 23324
+      },
+      "23326": {
+        "strategy": "confluence_explorer",
+        "target": 23326
+      },
+      "23327": {
+        "strategy": "confluence_explorer",
+        "target": 23327
+      },
+      "23328": {
+        "strategy": "confluence_explorer",
+        "target": 23328
+      },
+      "23329": {
+        "strategy": "confluence_explorer",
+        "target": 23329
+      },
+      "23330": {
+        "strategy": "confluence_explorer",
+        "target": 23330
+      },
+      "23331": {
+        "strategy": "confluence_explorer",
+        "target": 23331
+      },
+      "23332": {
+        "strategy": "confluence_explorer",
+        "target": 23332
+      },
+      "23333": {
+        "strategy": "confluence_explorer",
+        "target": 23333
+      },
+      "23334": {
+        "strategy": "confluence_explorer",
+        "target": 23334
+      }
     },
     "timeto": {
-      "188": "/rooms/23325/timeto/stringproc-188.rb",
-      "228": "/rooms/23325/timeto/stringproc-228.rb",
-      "1005": "/rooms/23325/timeto/stringproc-1005.rb",
-      "1438": "/rooms/23325/timeto/stringproc-1438.rb",
-      "1932": "/rooms/23325/timeto/stringproc-1932.rb",
-      "2300": "/rooms/23325/timeto/stringproc-2300.rb",
-      "3519": "/rooms/23325/timeto/stringproc-3519.rb",
-      "3668": "/rooms/23325/timeto/stringproc-3668.rb",
-      "10855": "/rooms/23325/timeto/stringproc-10855.rb",
+      "188": {
+        "event": "instability",
+        "key": 188
+      },
+      "228": {
+        "event": "instability",
+        "key": 228
+      },
+      "1005": {
+        "event": "instability",
+        "key": 1005
+      },
+      "1438": {
+        "event": "instability",
+        "key": 1438
+      },
+      "1932": {
+        "event": "instability",
+        "key": 1932
+      },
+      "2300": {
+        "event": "instability",
+        "key": 2300
+      },
+      "3519": {
+        "event": "instability",
+        "key": 3519
+      },
+      "3668": {
+        "event": "instability",
+        "key": 3668
+      },
+      "10855": {
+        "event": "instability",
+        "key": 10855
+      },
       "23282": 3,
       "23283": 3,
       "23284": 3,
@@ -136,17 +346,17 @@
       "23334": 3
     },
     "tags": [
-      "random-paths",
+      "crystalline stalk",
+      "earthen root",
+      "engorged bulb",
       "huge air elemental",
       "huge earth elemental",
       "huge ice elemental",
       "huge water elemental",
-      "oily flameleaf",
-      "engorged bulb",
-      "crystalline stalk",
-      "earthen root",
       "luminescent blossom",
-      "meta:map:multi-uid"
+      "meta:map:multi-uid",
+      "oily flameleaf",
+      "random-paths"
     ],
     "uid": [
       580025,

@@ -1,5 +1,5 @@
 {
-  "checksum": "1a3b320bd8c600adcfcf0adfe8e78d70",
+  "checksum": "ae879c8bf41c396e8866b41d416e1f1b",
   "room": {
     "id": 6497,
     "title": [
@@ -16,16 +16,25 @@
     "terrain": "none",
     "wayto": {
       "6493": "east",
-      "6499": "/rooms/6497/wayto/stringproc-6499.rb"
+      "6499": [
+        {
+          "do": "send",
+          "cmd": "turn brazier"
+        },
+        {
+          "do": "move",
+          "cmd": "go door"
+        }
+      ]
     },
     "timeto": {
       "6493": 0.2,
       "6499": 0.2
     },
     "tags": [
-      "spectral monk",
       "monastic lich",
-      "no forageables"
+      "no forageables",
+      "spectral monk"
     ],
     "uid": [
       95163

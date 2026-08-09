@@ -1,5 +1,5 @@
 {
-  "checksum": "c0ac8fa3ea7f43f09b833b40ff2488c5",
+  "checksum": "c52a0dcb325523b15614c714e6d68dbe",
   "room": {
     "id": 19945,
     "title": [
@@ -17,7 +17,16 @@
     "wayto": {
       "8683": "go door",
       "19944": "go passageway",
-      "19946": "/rooms/19945/wayto/stringproc-19946.rb"
+      "19946": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "go trapdoor"
+        }
+      ]
     },
     "timeto": {
       "8683": 10,
@@ -25,10 +34,10 @@
       "19946": 0.4
     },
     "tags": [
-      "meta:teleport:fwi",
       "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:day:2022-11"
+      "meta:forage-sensed:day:2022-11",
+      "meta:teleport:fwi",
+      "no forageables"
     ],
     "uid": [
       336028

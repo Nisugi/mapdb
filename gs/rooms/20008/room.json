@@ -1,5 +1,5 @@
 {
-  "checksum": "dcb7c28909ab39de0684c17df4875bfc",
+  "checksum": "3f2c612d2cca1257f872070c276ab5bc",
   "room": {
     "id": 20008,
     "title": [
@@ -15,7 +15,10 @@
     "wayto": {
       "20007": "north",
       "20009": "southeast",
-      "20011": "/rooms/20008/wayto/stringproc-20011.rb"
+      "20011": {
+        "strategy": "unique_crossing",
+        "name": "crossing_20008_20011"
+      }
     },
     "timeto": {
       "20007": 0.2,
@@ -23,10 +26,10 @@
       "20011": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
-      "meta:trap"
+      "meta:trap",
+      "no forageables"
     ],
     "uid": [
       11201

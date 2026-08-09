@@ -1,5 +1,5 @@
 {
-  "checksum": "a016e76010bef9f66760988d893c7584",
+  "checksum": "46b8c8b5539cebf941ff29024767068e",
   "room": {
     "id": 12170,
     "title": [
@@ -16,7 +16,57 @@
     "climate": "cold, dry",
     "terrain": "hard, flat",
     "wayto": {
-      "2579": "/rooms/12170/wayto/stringproc-2579.rb",
+      "2579": {
+        "strategy": "patrol_search",
+        "rooms": [
+          12162,
+          12207,
+          12170,
+          12209,
+          12215,
+          12210,
+          12159,
+          12165,
+          12206,
+          12173,
+          12208,
+          null,
+          12160,
+          12211
+        ],
+        "dirs": [
+          "northwest",
+          "north",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "north",
+          "northwest",
+          "west",
+          "east",
+          "northeast",
+          "northwest",
+          "northeast"
+        ],
+        "objects": [
+          "thread"
+        ],
+        "enter": [
+          {
+            "do": "move",
+            "cmd": "climb thread"
+          },
+          {
+            "do": "wait_rt"
+          },
+          {
+            "do": "send",
+            "cmd": "stand"
+          }
+        ]
+      },
       "12207": "south",
       "12209": "northeast",
       "12215": "west"
@@ -28,18 +78,18 @@
       "12215": 0.2
     },
     "tags": [
-      "oozing fleshsore bulb",
-      "mass of congealed slime",
-      "twisted black mawflower",
-      "fleshsore bulb",
-      "withered deathblossom",
-      "discolored fleshbinder bud",
-      "slime-covered grave blossom",
-      "fleshbinder bud",
-      "grave blossom",
       "black mawflower",
+      "discolored fleshbinder bud",
+      "fleshbinder bud",
+      "fleshsore bulb",
+      "grave blossom",
       "green fleshbulb",
-      "meta:forage-sensed"
+      "mass of congealed slime",
+      "meta:forage-sensed",
+      "oozing fleshsore bulb",
+      "slime-covered grave blossom",
+      "twisted black mawflower",
+      "withered deathblossom"
     ],
     "uid": [
       4570011

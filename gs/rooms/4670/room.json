@@ -1,5 +1,5 @@
 {
-  "checksum": "2ddc6a94c22cda9ea365ffbbd612787e",
+  "checksum": "253caf88908fde7d1ecf5ae9e369f808",
   "room": {
     "id": 4670,
     "title": [
@@ -18,7 +18,7 @@
       "9683": "east",
       "17132": "climb stairway",
       "17133": "go door",
-      "30717": "/rooms/4670/wayto/stringproc-30717.rb"
+      "30717": []
     },
     "timeto": {
       "4643": 0.2,
@@ -26,14 +26,16 @@
       "9683": 0.2,
       "17132": 0.2,
       "17133": 0.2,
-      "30717": "/rooms/4670/timeto/stringproc-30717.rb"
+      "30717": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "urchin-access",
+      "no forageables",
+      "townhall",
       "urchin guide townhall",
-      "townhall"
+      "urchin-access"
     ],
     "uid": [
       14053001

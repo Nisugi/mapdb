@@ -1,5 +1,5 @@
 {
-  "checksum": "fa09eedfe079cba232abb7f16fb5dea7",
+  "checksum": "d39531cf6f1e61daba1b375bb1778781",
   "room": {
     "id": 30355,
     "title": [
@@ -15,12 +15,14 @@
     "wayto": {
       "23789": "northeast",
       "23792": "northwest",
-      "33578": "/rooms/30355/wayto/stringproc-33578.rb"
+      "33578": []
     },
     "timeto": {
       "23789": 0.2,
       "23792": 0.2,
-      "33578": "/rooms/30355/timeto/stringproc-33578.rb"
+      "33578": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "cheap seats",

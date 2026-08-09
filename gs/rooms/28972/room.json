@@ -1,5 +1,5 @@
 {
-  "checksum": "5e40a2bd21514332cf0218ccf7c74be8",
+  "checksum": "fcb223be7bad2679d4cff15161e4699c",
   "room": {
     "id": 28972,
     "title": [
@@ -14,17 +14,20 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28958": "out",
-      "30716": "/rooms/28972/wayto/stringproc-30716.rb"
+      "30716": []
     },
     "timeto": {
       "28958": 0.2,
-      "30716": "/rooms/28972/timeto/stringproc-30716.rb"
+      "30716": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "no forageables",
+      "osaguild",
       "roles",
-      "urchin-access",
       "urchin guide osaguild",
-      "osaguild"
+      "urchin-access"
     ],
     "uid": [
       7121010

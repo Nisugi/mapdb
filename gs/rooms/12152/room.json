@@ -1,5 +1,5 @@
 {
-  "checksum": "5884c16eef8cee792f4c4a437d40b359",
+  "checksum": "3b7af85102e837e6ad11f5c29c7a9b81",
   "room": {
     "id": 12152,
     "title": [
@@ -18,8 +18,213 @@
     "wayto": {
       "12103": "northwest",
       "12133": "southwest",
-      "12207": "/rooms/12152/wayto/stringproc-12207.rb",
-      "12235": "/rooms/12152/wayto/stringproc-12235.rb",
+      "12207": {
+        "strategy": "patrol_search",
+        "rooms": [
+          12095,
+          12096,
+          12156,
+          12097,
+          12098,
+          null,
+          12151,
+          12133,
+          12152,
+          12248,
+          12139,
+          12106,
+          null,
+          null,
+          12138,
+          12146,
+          12153,
+          12122,
+          12157,
+          12145,
+          12125,
+          12141,
+          12140,
+          12119,
+          12252,
+          12103
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "west",
+          "northwest",
+          "southeast",
+          "southwest",
+          "northwest",
+          "northeast",
+          "west",
+          "southwest",
+          "southeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southeast",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southeast",
+          "east",
+          "northeast",
+          "northeast"
+        ],
+        "objects": [
+          "thread"
+        ],
+        "enter": [
+          {
+            "do": "move",
+            "cmd": "climb thread"
+          },
+          {
+            "do": "wait_rt"
+          },
+          {
+            "do": "send",
+            "cmd": "stand"
+          }
+        ]
+      },
+      "12235": {
+        "strategy": "patrol_search",
+        "rooms": [
+          12095,
+          12096,
+          12156,
+          12097,
+          12098,
+          null,
+          12151,
+          12133,
+          12152,
+          12248,
+          12139,
+          12106,
+          null,
+          null,
+          12138,
+          12146,
+          12153,
+          12122,
+          12157,
+          12145,
+          12125,
+          12141,
+          12140,
+          12119,
+          12252,
+          12103
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "west",
+          "northwest",
+          "southeast",
+          "southwest",
+          "northwest",
+          "northeast",
+          "west",
+          "southwest",
+          "southeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southeast",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southeast",
+          "east",
+          "northeast",
+          "northeast"
+        ],
+        "objects": [
+          "fissure"
+        ],
+        "enter": [
+          {
+            "do": "repeat",
+            "times": 5,
+            "steps": [
+              {
+                "do": "wait_rt"
+              },
+              {
+                "do": "if",
+                "when": "not:status:standing",
+                "then": [
+                  {
+                    "do": "send",
+                    "cmd": "stand"
+                  }
+                ]
+              },
+              {
+                "do": "wait_rt"
+              },
+              {
+                "do": "await",
+                "cmd": "push fissure",
+                "for": "^Grasping the distorted edges|^A wide fissure cannot be opened any farther\\.|^As you move to touch a sealed fissure|^What were you referring to\\?",
+                "timeout": 3,
+                "if_match": {
+                  "pattern": "^A wide fissure cannot be opened any farther\\.",
+                  "steps": [
+                    {
+                      "do": "break"
+                    }
+                  ]
+                }
+              },
+              {
+                "do": "wait_rt"
+              },
+              {
+                "do": "if",
+                "when": "not:status:standing",
+                "then": [
+                  {
+                    "do": "send",
+                    "cmd": "stand"
+                  }
+                ]
+              },
+              {
+                "do": "wait_rt"
+              }
+            ]
+          },
+          {
+            "do": "move",
+            "cmd": "go fissure"
+          }
+        ]
+      },
       "12248": "west"
     },
     "timeto": {
@@ -30,13 +235,13 @@
       "12248": 0.2
     },
     "tags": [
-      "oozing fleshsore bulb",
-      "mass of congealed slime",
-      "twisted black mawflower",
-      "slime-covered grave blossom",
-      "discolored fleshbinder bud",
       "congealed slime",
-      "meta:forage-sensed"
+      "discolored fleshbinder bud",
+      "mass of congealed slime",
+      "meta:forage-sensed",
+      "oozing fleshsore bulb",
+      "slime-covered grave blossom",
+      "twisted black mawflower"
     ],
     "uid": [
       4569011

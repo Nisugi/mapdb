@@ -1,5 +1,5 @@
 {
-  "checksum": "9444cfdc13e3c2f3189763f8e454bd70",
+  "checksum": "453adbca7d8c305d865c9d0504f21230",
   "room": {
     "id": 8148,
     "title": [
@@ -16,7 +16,20 @@
       "8145": "north",
       "8147": "northwest",
       "8149": "northeast",
-      "25890": "/rooms/8148/wayto/stringproc-25890.rb"
+      "25890": [
+        {
+          "do": "send",
+          "cmd": "search sculpture"
+        },
+        {
+          "do": "send",
+          "cmd": "pull latch"
+        },
+        {
+          "do": "move",
+          "cmd": "go staircase"
+        }
+      ]
     },
     "timeto": {
       "8145": 0.2,
@@ -25,9 +38,9 @@
       "25890": 0.3
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "meta:forage-sensed:day:2022-09",
+      "no forageables"
     ],
     "uid": [
       386072

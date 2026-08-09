@@ -1,5 +1,5 @@
 {
-  "checksum": "bd707140f46be480710f51016f0ed5c7",
+  "checksum": "75a3aeb4951f4296a2d7e6ae655264d2",
   "room": {
     "id": 31003,
     "title": [
@@ -14,11 +14,26 @@
     "location": "the Needle of Pentas",
     "wayto": {
       "30969": "out",
-      "31004": "/rooms/31003/wayto/stringproc-31004.rb",
-      "31005": "/rooms/31003/wayto/stringproc-31005.rb",
-      "31006": "/rooms/31003/wayto/stringproc-31006.rb",
-      "31007": "/rooms/31003/wayto/stringproc-31007.rb",
-      "31008": "/rooms/31003/wayto/stringproc-31008.rb"
+      "31004": {
+        "strategy": "table_join",
+        "table": "Pandemonium"
+      },
+      "31005": {
+        "strategy": "table_join",
+        "table": "Structured"
+      },
+      "31006": {
+        "strategy": "table_join",
+        "table": "Essentials"
+      },
+      "31007": {
+        "strategy": "table_join",
+        "table": "Ethos"
+      },
+      "31008": {
+        "strategy": "table_join",
+        "table": "Interdimensional"
+      }
     },
     "timeto": {
       "30969": 0.2,

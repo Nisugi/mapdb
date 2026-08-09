@@ -1,5 +1,5 @@
 {
-  "checksum": "91e8ee44e44f030a7053954170df568c",
+  "checksum": "f15183fa2195e0592a003968343b1b8d",
   "room": {
     "id": 15520,
     "title": [
@@ -14,15 +14,18 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "4077": "south",
-      "30708": "/rooms/15520/wayto/stringproc-30708.rb"
+      "30708": []
     },
     "timeto": {
       "4077": 0.2,
-      "30708": "/rooms/15520/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "cobblers",
       "cobbling",
+      "no forageables",
       "urchin guide cobbling",
       "urchin-access"
     ],

@@ -1,5 +1,5 @@
 {
-  "checksum": "055a2614250cc292a86304ef74056926",
+  "checksum": "d8d5c774dbdae394497390db88295157",
   "room": {
     "id": 26001,
     "title": [
@@ -13,7 +13,7 @@
     ],
     "location": "New Ta'Faendryl",
     "wayto": {
-      "26000": "/rooms/26001/wayto/stringproc-26000.rb"
+      "26000": "go doors"
     },
     "timeto": {
       "26000": 0.2

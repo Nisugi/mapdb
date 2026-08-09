@@ -1,1 +1,0 @@
-if Skills.swimming >= 30; 3.2; else nil; end

@@ -1,5 +1,5 @@
 {
-  "checksum": "4536bed25a294d80aeb729355977c7cd",
+  "checksum": "a4cc007e545b528d94dfd3e2356a10b6",
   "room": {
     "id": 5723,
     "title": [
@@ -16,18 +16,20 @@
     "terrain": "none",
     "wayto": {
       "5722": "go door",
-      "30710": "/rooms/5723/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "5722": 0.2,
-      "30710": "/rooms/5723/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "npchealer",
-      "urchin-access",
-      "urchin guide healer",
       "meta:forage-sensed",
-      "no forageables"
+      "no forageables",
+      "npchealer",
+      "urchin guide healer",
+      "urchin-access"
     ],
     "uid": [
       4740012

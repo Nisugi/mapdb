@@ -1,5 +1,5 @@
 {
-  "checksum": "833dc5edfef72cc5778d71dc89b00be2",
+  "checksum": "012903ada94bea13bf283a4913049eed",
   "room": {
     "id": 23281,
     "title": [
@@ -13,38 +13,173 @@
     ],
     "location": false,
     "wayto": {
-      "417": "/rooms/23281/wayto/stringproc-417.rb",
-      "682": "/rooms/23281/wayto/stringproc-682.rb",
-      "1005": "/rooms/23281/wayto/stringproc-1005.rb",
-      "1955": "/rooms/23281/wayto/stringproc-1955.rb",
-      "3158": "/rooms/23281/wayto/stringproc-3158.rb",
-      "3660": "/rooms/23281/wayto/stringproc-3660.rb",
-      "10883": "/rooms/23281/wayto/stringproc-10883.rb",
-      "13920": "/rooms/23281/wayto/stringproc-13920.rb",
-      "17425": "/rooms/23281/wayto/stringproc-17425.rb",
+      "417": [
+        {
+          "do": "move",
+          "cmd": "go exit passage"
+        },
+        {
+          "do": "set",
+          "var": "talondown_origin",
+          "value": null
+        }
+      ],
+      "682": [
+        {
+          "do": "move",
+          "cmd": "go exit passage"
+        },
+        {
+          "do": "set",
+          "var": "talondown_origin",
+          "value": null
+        }
+      ],
+      "1005": [
+        {
+          "do": "move",
+          "cmd": "go exit passage"
+        },
+        {
+          "do": "set",
+          "var": "talondown_origin",
+          "value": null
+        }
+      ],
+      "1955": [
+        {
+          "do": "move",
+          "cmd": "go exit passage"
+        },
+        {
+          "do": "set",
+          "var": "talondown_origin",
+          "value": null
+        }
+      ],
+      "3158": [
+        {
+          "do": "move",
+          "cmd": "go exit passage"
+        },
+        {
+          "do": "set",
+          "var": "talondown_origin",
+          "value": null
+        }
+      ],
+      "3660": [
+        {
+          "do": "move",
+          "cmd": "go exit passage"
+        },
+        {
+          "do": "set",
+          "var": "talondown_origin",
+          "value": null
+        }
+      ],
+      "10883": [
+        {
+          "do": "move",
+          "cmd": "go exit passage"
+        },
+        {
+          "do": "set",
+          "var": "talondown_origin",
+          "value": null
+        }
+      ],
+      "13920": [
+        {
+          "do": "move",
+          "cmd": "go exit passage"
+        },
+        {
+          "do": "set",
+          "var": "talondown_origin",
+          "value": null
+        }
+      ],
+      "17425": [
+        {
+          "do": "move",
+          "cmd": "go exit passage"
+        },
+        {
+          "do": "set",
+          "var": "talondown_origin",
+          "value": null
+        }
+      ],
       "28800": "northeast",
       "28801": "northwest",
       "28802": "north"
     },
     "timeto": {
-      "417": "/rooms/23281/timeto/stringproc-417.rb",
-      "682": "/rooms/23281/timeto/stringproc-682.rb",
-      "1005": "/rooms/23281/timeto/stringproc-1005.rb",
-      "1955": "/rooms/23281/timeto/stringproc-1955.rb",
-      "3158": "/rooms/23281/timeto/stringproc-3158.rb",
-      "3660": "/rooms/23281/timeto/stringproc-3660.rb",
-      "10883": "/rooms/23281/timeto/stringproc-10883.rb",
-      "13920": "/rooms/23281/timeto/stringproc-13920.rb",
-      "17425": "/rooms/23281/timeto/stringproc-17425.rb",
+      "417": {
+        "cost": 0.2,
+        "requires": [
+          "var:talondown_origin=417"
+        ]
+      },
+      "682": {
+        "cost": 0.2,
+        "requires": [
+          "var:talondown_origin=682"
+        ]
+      },
+      "1005": {
+        "cost": 0.2,
+        "requires": [
+          "var:talondown_origin=1005"
+        ]
+      },
+      "1955": {
+        "cost": 0.2,
+        "requires": [
+          "var:talondown_origin=1955"
+        ]
+      },
+      "3158": {
+        "cost": 0.2,
+        "requires": [
+          "var:talondown_origin=3158"
+        ]
+      },
+      "3660": {
+        "cost": 0.2,
+        "requires": [
+          "var:talondown_origin=3660"
+        ]
+      },
+      "10883": {
+        "cost": 0.2,
+        "requires": [
+          "var:talondown_origin=10883"
+        ]
+      },
+      "13920": {
+        "cost": 0.2,
+        "requires": [
+          "var:talondown_origin=13920"
+        ]
+      },
+      "17425": {
+        "cost": 0.2,
+        "requires": [
+          "var:talondown_origin=17425"
+        ]
+      },
       "28800": 0.2,
       "28801": 0.2,
       "28802": 0.2
     },
     "tags": [
-      "talondown",
       "exit",
-      "talondown exit",
-      "no-auto-map"
+      "no-auto-map",
+      "talondown",
+      "talondown exit"
     ],
     "uid": [
       4903601

@@ -1,1 +1,0 @@
-(!UserVars.mapdb_talondown_origin.nil? and UserVars.mapdb_talondown_origin == 10883) ? 0.2 : nil;

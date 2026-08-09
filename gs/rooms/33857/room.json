@@ -1,5 +1,5 @@
 {
-  "checksum": "136fb1e5156e9ac727fda6064a1eb1f4",
+  "checksum": "b7261b7025109f918e953b92f13e9ea2",
   "room": {
     "id": 33857,
     "title": [
@@ -18,7 +18,7 @@
       "33863": "northwest",
       "33864": "north",
       "33865": "northeast",
-      "34423": "/rooms/33857/wayto/stringproc-34423.rb"
+      "34423": []
     },
     "timeto": {
       "33856": 0.2,
@@ -26,22 +26,24 @@
       "33863": 0.2,
       "33864": 0.2,
       "33865": 0.2,
-      "34423": "/rooms/33857/timeto/stringproc-34423.rb"
+      "34423": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "boatswain",
-      "tiny white elderflowers",
-      "snake's head fritillary",
-      "vert and orange frog-cup",
-      "green acistira leaves",
       "acistira stem",
-      "pinkish green rosegrass",
-      "yellowish green twisted-fan",
       "blackish green twisted-fan",
+      "boatswain",
+      "green acistira leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2023-09",
+      "pinkish green rosegrass",
+      "snake's head fritillary",
+      "tiny white elderflowers",
+      "urchin guide boatswain",
       "urchin-access",
-      "urchin guide boatswain"
+      "vert and orange frog-cup",
+      "yellowish green twisted-fan"
     ],
     "uid": [
       14150051

@@ -1,5 +1,5 @@
 {
-  "checksum": "96005543b430b3f5ff0fe7725aae85d4",
+  "checksum": "36df4265140165f26132d2c7b5a80a9e",
   "room": {
     "id": 26000,
     "title": [
@@ -15,9 +15,9 @@
     "climate": "arid, temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "665": "/rooms/26000/wayto/stringproc-665.rb",
-      "26001": "/rooms/26000/wayto/stringproc-26001.rb",
-      "26002": "/rooms/26000/wayto/stringproc-26002.rb"
+      "665": "go out",
+      "26001": "go doors",
+      "26002": "go southeast"
     },
     "timeto": {
       "665": 0.2,
@@ -25,10 +25,10 @@
       "26002": 0.2
     },
     "tags": [
-      "meta:mapname:Elven Nations - Ta'Illistim - Isharn Enclave",
-      "meta:mapshortname:Isharn Enclave",
       "meta:mapcategory:Elven Nations",
       "meta:mapcategory:MHO",
+      "meta:mapname:Elven Nations - Ta'Illistim - Isharn Enclave",
+      "meta:mapshortname:Isharn Enclave",
       "no forageables"
     ],
     "uid": [

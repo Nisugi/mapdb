@@ -1,5 +1,5 @@
 {
-  "checksum": "acb78fa285c5445a3d16dbfd1b863b55",
+  "checksum": "133e21cd714549756bf81d1cae76d4e1",
   "room": {
     "id": 26595,
     "title": [
@@ -15,7 +15,19 @@
     "wayto": {
       "26594": "up",
       "26596": "northwest",
-      "26610": "/rooms/26595/wayto/stringproc-26610.rb"
+      "26610": [
+        {
+          "do": "send",
+          "cmd": "go fissure"
+        },
+        {
+          "do": "sleep",
+          "seconds": 0.5
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "26594": 0.2,

@@ -1,5 +1,5 @@
 {
-  "checksum": "c3379e70c39733a8cb870fa25798f5f7",
+  "checksum": "d60568b611609f37ab2630b8207ed45c",
   "room": {
     "id": 11458,
     "title": [
@@ -13,13 +13,69 @@
     ],
     "location": "Maelstrom Bay",
     "wayto": {
-      "11450": "/rooms/11458/wayto/stringproc-11450.rb",
-      "11456": "/rooms/11458/wayto/stringproc-11456.rb",
-      "11457": "/rooms/11458/wayto/stringproc-11457.rb",
-      "11459": "/rooms/11458/wayto/stringproc-11459.rb",
-      "11461": "/rooms/11458/wayto/stringproc-11461.rb",
-      "11466": "/rooms/11458/wayto/stringproc-11466.rb",
-      "16060": "/rooms/11458/wayto/stringproc-16060.rb"
+      "11450": [
+        {
+          "do": "move",
+          "cmd": "swim up"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11456": [
+        {
+          "do": "move",
+          "cmd": "swim southwest"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11457": [
+        {
+          "do": "move",
+          "cmd": "swim south"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11459": [
+        {
+          "do": "move",
+          "cmd": "swim down"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11461": [
+        {
+          "do": "move",
+          "cmd": "swim west"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11466": [
+        {
+          "do": "move",
+          "cmd": "swim northwest"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "16060": [
+        {
+          "do": "move",
+          "cmd": "swim north"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "11450": 3,

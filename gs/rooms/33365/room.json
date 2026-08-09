@@ -1,5 +1,5 @@
 {
-  "checksum": "2d009268e8b77341f7ece109ec8850a7",
+  "checksum": "68854a592b0050f879b76439bd15ad65",
   "room": {
     "id": 33365,
     "title": [
@@ -14,7 +14,10 @@
     "location": "Spindrift Sanctuary, inside the glacier-locked town of Icemule Trace",
     "wayto": {
       "3197": "go stone-lined path",
-      "33366": "/rooms/33365/wayto/stringproc-33366.rb"
+      "33366": {
+        "strategy": "unique_crossing",
+        "name": "crossing_33365_33366"
+      }
     },
     "timeto": {
       "3197": 0.2,

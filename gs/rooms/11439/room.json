@@ -1,5 +1,5 @@
 {
-  "checksum": "4f8e580f6a3d1ede22b53765795aaa33",
+  "checksum": "ec55738e51f66d671a2909a94da95636",
   "room": {
     "id": 11439,
     "title": [
@@ -16,14 +16,162 @@
     "climate": "saltwater",
     "terrain": "",
     "wayto": {
-      "11438": "/rooms/11439/wayto/stringproc-11438.rb",
-      "11446": "/rooms/11439/wayto/stringproc-11446.rb",
-      "11447": "/rooms/11439/wayto/stringproc-11447.rb",
-      "11450": "/rooms/11439/wayto/stringproc-11450.rb",
-      "11451": "/rooms/11439/wayto/stringproc-11451.rb",
-      "11455": "/rooms/11439/wayto/stringproc-11455.rb",
-      "11461": "/rooms/11439/wayto/stringproc-11461.rb",
-      "16041": "/rooms/11439/wayto/stringproc-16041.rb"
+      "11438": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "southeast"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim southeast"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11446": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "west"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim west"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11447": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "south"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim south"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11450": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "east"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim east"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11451": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "northeast"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim northeast"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11455": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "north"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim north"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11461": [
+        {
+          "do": "move",
+          "cmd": "swim down"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "16041": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "northwest"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim northwest"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "11438": 2,
@@ -36,8 +184,8 @@
       "16041": 2
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       304019

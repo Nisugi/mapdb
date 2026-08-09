@@ -1,5 +1,5 @@
 {
-  "checksum": "a3fe66894dc6f18fce9bfe3cd720a802",
+  "checksum": "40e9963582dd77436dffcbd96f9ac419",
   "room": {
     "id": 21062,
     "title": [
@@ -15,8 +15,32 @@
     "climate": "humid",
     "terrain": "riparian",
     "wayto": {
-      "21018": "/rooms/21062/wayto/stringproc-21018.rb",
-      "21063": "/rooms/21062/wayto/stringproc-21063.rb"
+      "21018": [
+        {
+          "do": "sleep",
+          "seconds": 0.2
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "send",
+          "cmd": "push e"
+        }
+      ],
+      "21063": [
+        {
+          "do": "sleep",
+          "seconds": 0.2
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "send",
+          "cmd": "push sw"
+        }
+      ]
     },
     "timeto": {
       "21018": 2,
@@ -24,17 +48,17 @@
     },
     "tags": [
       "acantha leaf",
-      "stalk of cattail",
-      "murdroot",
-      "wavepetal blossom",
-      "meta:forage-sensed",
-      "talneo root",
-      "cassava root",
-      "small green quenepas",
-      "vibrant green plantain",
       "bright yellow plantain",
+      "cassava root",
       "cone-shaped pineapple",
-      "meta:forage-sensed:day:2024-05"
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
+      "murdroot",
+      "small green quenepas",
+      "stalk of cattail",
+      "talneo root",
+      "vibrant green plantain",
+      "wavepetal blossom"
     ],
     "uid": [
       3210602

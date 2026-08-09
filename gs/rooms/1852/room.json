@@ -1,5 +1,5 @@
 {
-  "checksum": "98953c31340ba3f3815f971a6a1b0cb4",
+  "checksum": "5a5bc81da77f3d9c726bae27d333946e",
   "room": {
     "id": 1852,
     "title": [
@@ -18,21 +18,28 @@
     "wayto": {
       "1850": "north",
       "30552": "go silver gates",
-      "30715": "/rooms/1852/wayto/stringproc-30715.rb"
+      "30715": []
     },
     "timeto": {
       "1850": 0.2,
-      "30552": "/rooms/1852/timeto/stringproc-30552.rb",
-      "30715": "/rooms/1852/timeto/stringproc-30715.rb"
+      "30552": {
+        "cost": 0.2,
+        "requires": [
+          "prof:Empath"
+        ]
+      },
+      "30715": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "empath guild",
       "empathguild",
-      "urchin-access",
-      "urchin guide empathguild",
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2023-01",
-      "empath guild"
+      "no forageables",
+      "urchin guide empathguild",
+      "urchin-access"
     ],
     "uid": [
       652001

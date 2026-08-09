@@ -1,5 +1,5 @@
 {
-  "checksum": "96cfb9dfcc3bc54fad3a89279f3ddb76",
+  "checksum": "576d23ae9252d93921da5e27215a2b47",
   "room": {
     "id": 24961,
     "title": [
@@ -15,7 +15,16 @@
     "wayto": {
       "24960": "west",
       "24962": "go walkway",
-      "33448": "/rooms/24961/wayto/stringproc-33448.rb"
+      "33448": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "go concealed door"
+        }
+      ]
     },
     "timeto": {
       "24960": 0.2,

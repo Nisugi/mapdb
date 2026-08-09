@@ -1,5 +1,5 @@
 {
-  "checksum": "2d7cb6464f64d6eb6282c9cf263c5f94",
+  "checksum": "0efa97267efd8015fb00b983b1432e29",
   "room": {
     "id": 18181,
     "title": [
@@ -16,7 +16,10 @@
     "terrain": "none",
     "wayto": {
       "18180": "out",
-      "18182": "/rooms/18181/wayto/stringproc-18182.rb"
+      "18182": {
+        "strategy": "unique_crossing",
+        "name": "crossing_18181_18182"
+      }
     },
     "timeto": {
       "18180": 0.2,

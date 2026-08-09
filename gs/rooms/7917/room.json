@@ -1,5 +1,5 @@
 {
-  "checksum": "c51a3d95dcb86fe5681630fda0341453",
+  "checksum": "b4bd945d4efd015671cb15fdcd5b90e6",
   "room": {
     "id": 7917,
     "title": [
@@ -21,11 +21,16 @@
     },
     "timeto": {
       "6116": 0.2,
-      "7918": "/rooms/7917/timeto/stringproc-7918.rb"
+      "7918": {
+        "cost": 0.2,
+        "requires": [
+          "skill:climbing>99"
+        ]
+      }
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
+      "no forageables",
       "restricted:7918:skill:climbing:100"
     ],
     "uid": [

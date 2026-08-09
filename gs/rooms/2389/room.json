@@ -1,5 +1,5 @@
 {
-  "checksum": "1cfec9b3ac7a937594b753f75f09337a",
+  "checksum": "ec04020ca89beaf3cad189c3dd96c2bf",
   "room": {
     "id": 2389,
     "title": [
@@ -15,17 +15,20 @@
     "wayto": {
       "2387": "out",
       "3424": "go staircase",
-      "30709": "/rooms/2389/wayto/stringproc-30709.rb"
+      "30709": []
     },
     "timeto": {
       "2387": 0.2,
       "3424": 0.2,
-      "30709": "/rooms/2389/timeto/stringproc-30709.rb"
+      "30709": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
+      "nightowl",
+      "no forageables",
       "urchin guide nightowl",
-      "nightowl"
+      "urchin-access"
     ],
     "uid": [
       4043214

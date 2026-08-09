@@ -1,5 +1,5 @@
 {
-  "checksum": "0fde74949bccd72d7d51a4ddb5ccc7c0",
+  "checksum": "3d4190c23af32205f57a064c2f6d6875",
   "room": {
     "id": 24151,
     "title": [
@@ -14,7 +14,18 @@
     "location": "the Feywrot Mire",
     "wayto": {
       "24149": "go shoreline",
-      "24152": "/rooms/24151/wayto/stringproc-24152.rb"
+      "24152": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "north"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "24149": 0.2,

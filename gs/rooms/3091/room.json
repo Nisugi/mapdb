@@ -1,5 +1,5 @@
 {
-  "checksum": "7971f94dd6df32218cd164530da00fff",
+  "checksum": "832491658d328611dc64cdb43ee24a80",
   "room": {
     "id": 3091,
     "title": [
@@ -19,35 +19,71 @@
       "3092": "go doorway",
       "3100": "southeast",
       "3104": "go barn",
-      "31352": "/rooms/3091/wayto/stringproc-31352.rb"
+      "31352": [
+        {
+          "do": "if",
+          "when": "has_item:key",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "go snow cabin"
+            }
+          ],
+          "else": [
+            {
+              "do": "empty_hand"
+            },
+            {
+              "do": "send",
+              "cmd": "get my key from my {uservar:key_sack}"
+            },
+            {
+              "do": "send",
+              "cmd": "go snow cabin"
+            },
+            {
+              "do": "send",
+              "cmd": "put my key in my {uservar:key_sack}"
+            },
+            {
+              "do": "fill_hand"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "3070": 0.2,
       "3092": 0.2,
       "3100": 0.2,
       "3104": 0.2,
-      "31352": "/rooms/3091/timeto/stringproc-31352.rb"
+      "31352": {
+        "cost": 0.2,
+        "requires": [
+          "var_raw:sunset_cabin"
+        ]
+      }
     },
     "tags": [
-      "wavepetal blossom",
-      "moonflower",
-      "ice tulip",
-      "winter rose",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "frostflower",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
+      "frostflower",
+      "ice tulip",
       "meta:forage-sensed",
-      "sunburst blossom",
-      "snowy arctic rose",
+      "meta:forage-sensed:day:2025-03",
+      "moonflower",
+      "pennyroyal stem",
+      "resting poppy",
+      "sassafras leaf",
+      "silver iceblossom",
       "snow rose",
+      "snowy arctic rose",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wavepetal blossom",
       "white arctic rose",
       "white crallisberry",
-      "silver iceblossom",
-      "resting poppy",
-      "meta:forage-sensed:day:2025-03"
+      "winter rose"
     ],
     "uid": [
       4124014

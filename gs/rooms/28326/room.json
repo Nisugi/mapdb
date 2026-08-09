@@ -1,5 +1,5 @@
 {
-  "checksum": "d4206e6f0eaeb8ceabf9476a213215b9",
+  "checksum": "d623995f8c6f243b44ba332bd7a7b94c",
   "room": {
     "id": 28326,
     "title": [
@@ -16,12 +16,14 @@
     "wayto": {
       "26887": "north",
       "26892": "south",
-      "27653": "go cobblestone building"
+      "27653": "go cobblestone building",
+      "36340": "go stone doorframe"
     },
     "timeto": {
       "26887": 0.2,
       "26892": 0.2,
-      "27653": 0.2
+      "27653": 0.2,
+      "36340": 0.2
     },
     "uid": [
       8214533

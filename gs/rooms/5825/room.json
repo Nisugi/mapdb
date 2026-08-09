@@ -1,5 +1,5 @@
 {
-  "checksum": "dd3e0dff95e2e1589ceb3798697dc3ff",
+  "checksum": "55e30cfe6a5c2d45a652739f0b9f83e3",
   "room": {
     "id": 5825,
     "title": [
@@ -15,15 +15,33 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "5824": "/rooms/5825/wayto/stringproc-5824.rb",
+      "5824": {
+        "strategy": "table_join",
+        "table": "Black Marble"
+      },
       "5826": "go doors",
-      "6106": "/rooms/5825/wayto/stringproc-6106.rb",
+      "6106": {
+        "strategy": "table_join",
+        "table": "White Marble"
+      },
       "10303": "northeast",
       "10305": "southeast",
-      "24051": "/rooms/5825/wayto/stringproc-24051.rb",
-      "28266": "/rooms/5825/wayto/stringproc-28266.rb",
-      "28267": "/rooms/5825/wayto/stringproc-28267.rb",
-      "28268": "/rooms/5825/wayto/stringproc-28268.rb"
+      "24051": {
+        "strategy": "table_join",
+        "table": "Golden Marble"
+      },
+      "28266": {
+        "strategy": "table_join",
+        "table": "Green Marble"
+      },
+      "28267": {
+        "strategy": "table_join",
+        "table": "Blue Marble"
+      },
+      "28268": {
+        "strategy": "table_join",
+        "table": "Red Marble"
+      }
     },
     "timeto": {
       "5824": 0.2,
@@ -37,8 +55,8 @@
       "28268": 0.2
     },
     "tags": [
-      "table",
-      "no forageables"
+      "no forageables",
+      "table"
     ],
     "uid": [
       14101004

@@ -1,5 +1,5 @@
 {
-  "checksum": "34090b33f038cda4b9c1ec567314f0b1",
+  "checksum": "95495e54ef3a8484b9132d3f07562dfa",
   "room": {
     "id": 3998,
     "title": [
@@ -15,9 +15,55 @@
     "climate": "glacial",
     "terrain": "mountainous",
     "wayto": {
-      "3997": "/rooms/3998/wayto/stringproc-3997.rb",
+      "3997": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "down"
+        }
+      ],
       "3999": "go fissure",
-      "4000": "/rooms/3998/wayto/stringproc-4000.rb"
+      "4000": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "up"
+        }
+      ]
     },
     "timeto": {
       "3997": 4.2,
@@ -25,18 +71,18 @@
       "4000": 4.2
     },
     "tags": [
-      "sassafras leaf",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "sprig of holly",
-      "meta:forage-sensed",
-      "ironfern root",
-      "sunburst blossom",
       "deep purple shockroot",
+      "ironfern root",
+      "meta:forage-sensed",
       "meta:forage-sensed:day:2023-11",
-      "meta:forage-sensed:night:2024-05"
+      "meta:forage-sensed:night:2024-05",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sprig of holly",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root"
     ],
     "uid": [
       13302116

@@ -1,5 +1,5 @@
 {
-  "checksum": "1773e28172ce1257c685ffab40ed3a52",
+  "checksum": "63df7f3cf774aac0b4ccf4a1b8e3fdce",
   "room": {
     "id": 26723,
     "title": [
@@ -13,7 +13,25 @@
     ],
     "location": "Solhaven",
     "wayto": {
-      "14119": "/rooms/26723/wayto/stringproc-14119.rb"
+      "14119": [
+        {
+          "do": "try_move",
+          "cmd": "go opening",
+          "fallback": [
+            {
+              "do": "send",
+              "cmd": "close locker"
+            },
+            {
+              "do": "move",
+              "cmd": "go opening"
+            }
+          ]
+        },
+        {
+          "do": "replan"
+        }
+      ]
     },
     "timeto": {
       "14119": 22.2

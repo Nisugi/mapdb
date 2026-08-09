@@ -1,5 +1,5 @@
 {
-  "checksum": "913b215fc16619e0c8fac2bc91aa564a",
+  "checksum": "dfa23943ad7dbfe149c8f30ddbc936ec",
   "room": {
     "id": 26913,
     "title": [
@@ -15,7 +15,16 @@
     "wayto": {
       "26901": "go arch",
       "26912": "south",
-      "26914": "/rooms/26913/wayto/stringproc-26914.rb"
+      "26914": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go fissure"
+        }
+      ]
     },
     "timeto": {
       "26901": 0.2,

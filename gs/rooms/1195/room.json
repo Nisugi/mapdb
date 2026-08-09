@@ -1,5 +1,5 @@
 {
-  "checksum": "e59e73aec1ca504d8536a3a9322993db",
+  "checksum": "91c973e5fbe6dcdf4b3ca3c42dfe4ef3",
   "room": {
     "id": 1195,
     "title": [
@@ -18,7 +18,7 @@
       "1259": "west",
       "8670": "go doorway",
       "8671": "south",
-      "30708": "/rooms/1195/wayto/stringproc-30708.rb"
+      "30708": []
     },
     "timeto": {
       "227": 0.2,
@@ -26,11 +26,14 @@
       "1259": 0.2,
       "8670": 0.2,
       "8671": 0.2,
-      "30708": "/rooms/1195/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
-      "urchin guide thrak"
+      "no forageables",
+      "urchin guide thrak",
+      "urchin-access"
     ],
     "uid": [
       1016

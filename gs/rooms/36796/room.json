@@ -1,0 +1,27 @@
+{
+  "checksum": "77fcd466afe0781374258f6038971ca2",
+  "room": {
+    "id": 36796,
+    "title": [
+      "[Derelict Queen, Deck]"
+    ],
+    "description": [
+      "The faint cry of cormorants echoes high above the deck, the avian forms gliding across the black-edged incarnadine sail fluttering with the ambient breeze.  Eahnor-forged cannons stylized like wyverns and griffins line the sides of the ship, their long claws hooking into the oak and teak floor, each one encircled by lengths of hempen rope.  A heavy iron chain drapes over the wooden railing, the weight covered in dried kelp and home to several crustaceans, the tiny crabs darting in and out of the links."
+    ],
+    "paths": [
+      "Obvious paths: south"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36795": "south",
+      "36797": "go doors"
+    },
+    "timeto": {
+      "36795": 0.2,
+      "36797": 0.2
+    },
+    "uid": [
+      7134144
+    ]
+  }
+}

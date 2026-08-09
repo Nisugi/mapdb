@@ -1,5 +1,5 @@
 {
-  "checksum": "cf255bdd7a87e94bc6de5705f7899ea5",
+  "checksum": "8fa44f8ec6ee461c84afec4f273c2829",
   "room": {
     "id": 2925,
     "title": [
@@ -16,30 +16,61 @@
     "climate": "snowy, arctic",
     "terrain": "plain dirt",
     "wayto": {
-      "2924": "/rooms/2925/wayto/stringproc-2924.rb",
-      "2926": "/rooms/2925/wayto/stringproc-2926.rb"
+      "2924": [
+        {
+          "do": "send",
+          "cmd": "north"
+        },
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "north"
+            }
+          ],
+          "until_room_change": true
+        }
+      ],
+      "2926": [
+        {
+          "do": "send",
+          "cmd": "south"
+        },
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "south"
+            }
+          ],
+          "until_room_change": true
+        }
+      ]
     },
     "timeto": {
       "2924": 2,
       "2926": 2
     },
     "tags": [
-      "frostflower",
-      "orange rowanberry",
-      "sassafras leaf",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "winter rose",
       "arctic moss",
-      "tundra grass",
+      "frostflower",
       "frostweed",
-      "murdroot",
       "ironfern root",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "orange rowanberry",
+      "pennyroyal stem",
+      "pine twig",
+      "sassafras leaf",
+      "sweetfern stalk",
+      "tundra grass",
+      "valerian root",
       "wingstem root",
-      "meta:forage-sensed:day:2022-11"
+      "winter rose"
     ],
     "uid": [
       4560007

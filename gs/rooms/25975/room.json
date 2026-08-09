@@ -1,5 +1,5 @@
 {
-  "checksum": "d357e744894da7cf9e83b227f63fc01f",
+  "checksum": "164ad1c4f208e2d97881b17c7ca7c6a5",
   "room": {
     "id": 25975,
     "title": [
@@ -13,9 +13,9 @@
     ],
     "location": "the town of Wehnimer's Landing",
     "wayto": {
-      "25860": "/rooms/25975/wayto/stringproc-25860.rb",
-      "25976": "/rooms/25975/wayto/stringproc-25976.rb",
-      "25978": "/rooms/25975/wayto/stringproc-25978.rb"
+      "25860": "go passage",
+      "25976": "go northeast",
+      "25978": "go door"
     },
     "timeto": {
       "25860": 0.2,
@@ -23,9 +23,9 @@
       "25978": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "meta:forage-sensed:day:2022-09",
+      "no forageables"
     ],
     "uid": [
       336009

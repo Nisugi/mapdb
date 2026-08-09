@@ -1,5 +1,5 @@
 {
-  "checksum": "3ea76ebdb40b63e76bb86ed273b41893",
+  "checksum": "8cde6c881ee0f6eafa60cba935f45a7b",
   "room": {
     "id": 14169,
     "title": [
@@ -15,16 +15,19 @@
     "wayto": {
       "14168": "out",
       "14170": "southeast",
-      "30710": "/rooms/14169/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "14168": 0.2,
       "14170": 0.2,
-      "30710": "/rooms/14169/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
-      "urchin guide temple"
+      "no forageables",
+      "urchin guide temple",
+      "urchin-access"
     ],
     "uid": [
       4742006

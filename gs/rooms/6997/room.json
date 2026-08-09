@@ -1,5 +1,5 @@
 {
-  "checksum": "f96bc7e3e7a6896723b886b6f6b266b6",
+  "checksum": "9c84b92b7fd0b4b9f70c126d083cee4d",
   "room": {
     "id": 6997,
     "title": [
@@ -16,7 +16,61 @@
     "climate": "cold, dry",
     "terrain": "rough",
     "wayto": {
-      "6998": "/rooms/6997/wayto/stringproc-6998.rb",
+      "6998": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "if",
+              "when": "race_match:(?i)halfling|dwarf|burghal gnome|forest gnome",
+              "then": [
+                {
+                  "do": "send",
+                  "cmd": "jump"
+                }
+              ],
+              "else": [
+                {
+                  "do": "send",
+                  "cmd": "pull rope"
+                }
+              ]
+            },
+            {
+              "do": "await",
+              "for": "give it a good yank!|since it is underneath|what were you referring to|that was fun\\.",
+              "timeout": 1
+            },
+            {
+              "do": "if",
+              "when": "not:status:standing",
+              "then": [
+                {
+                  "do": "send",
+                  "cmd": "stand"
+                }
+              ]
+            },
+            {
+              "do": "wait_rt"
+            }
+          ],
+          "times": 50
+        },
+        {
+          "do": "move",
+          "cmd": "go drawbridge"
+        },
+        {
+          "do": "if",
+          "when": "not:in_room:6998",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
+        }
+      ],
       "34516": "southeast"
     },
     "timeto": {
@@ -24,17 +78,19 @@
       "34516": 0.2
     },
     "tags": [
-      "stalk of chicory",
-      "heath aster",
-      "sprig of larkspur",
       "bright red teaberry",
-      "wintergreen leaf",
       "broken twig",
-      "moonlight cactus-bloom",
+      "handful of currants",
+      "heath aster",
       "ironfern root",
+      "juniper berry",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2023-01",
-      "meta:forage-sensed:day:2025-02"
+      "moonlight cactus-bloom",
+      "sprig of larkspur",
+      "stalk of chicory",
+      "wintergreen leaf"
     ],
     "uid": [
       45103

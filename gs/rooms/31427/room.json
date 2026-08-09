@@ -1,5 +1,5 @@
 {
-  "checksum": "2fb72d1df16c21a6d3642103d77b000b",
+  "checksum": "fa232643836519c64298088fa5578a62",
   "room": {
     "id": 31427,
     "title": [
@@ -14,11 +14,19 @@
     "location": "Shivergale, outside the glacier-locked town of Icemule Trace",
     "wayto": {
       "31426": "go staircase",
-      "31428": "/rooms/31427/wayto/stringproc-31428.rb"
+      "31428": {
+        "strategy": "unique_crossing",
+        "name": "crossing_31427_31428"
+      }
     },
     "timeto": {
       "31426": 0.2,
-      "31428": "/rooms/31427/timeto/stringproc-31428.rb"
+      "31428": {
+        "cost": 0.2,
+        "requires": [
+          "var_raw:Shivergale"
+        ]
+      }
     },
     "tags": [
       "private property"

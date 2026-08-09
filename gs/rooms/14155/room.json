@@ -1,5 +1,5 @@
 {
-  "checksum": "2143e62ff4f89b8ef74a514a3ea19d9a",
+  "checksum": "8901f9d74f563f3aa9f496ef5eda5ba2",
   "room": {
     "id": 14155,
     "title": [
@@ -15,26 +15,71 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "5313": "/rooms/14155/wayto/stringproc-5313.rb",
-      "5403": "/rooms/14155/wayto/stringproc-5403.rb",
-      "9033": "/rooms/14155/wayto/stringproc-9033.rb",
-      "9347": "/rooms/14155/wayto/stringproc-9347.rb",
+      "5313": {
+        "strategy": "voln_seeking",
+        "target": 5313
+      },
+      "5403": {
+        "strategy": "voln_seeking",
+        "target": 5403
+      },
+      "9033": {
+        "strategy": "voln_seeking",
+        "target": 9033
+      },
+      "9347": {
+        "strategy": "voln_seeking",
+        "target": 9347
+      },
       "13196": "climb stairwell",
-      "14072": "/rooms/14155/wayto/stringproc-14072.rb"
+      "14072": {
+        "strategy": "voln_seeking",
+        "target": 14072
+      }
     },
     "timeto": {
-      "5313": "/rooms/14155/timeto/stringproc-5313.rb",
-      "5403": "/rooms/14155/timeto/stringproc-5403.rb",
-      "9033": "/rooms/14155/timeto/stringproc-9033.rb",
-      "9347": "/rooms/14155/timeto/stringproc-9347.rb",
+      "5313": {
+        "cost": 3.2,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "5403": {
+        "cost": 3.2,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "9033": {
+        "cost": 3.2,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "9347": {
+        "cost": 3.2,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
       "13196": 0.2,
-      "14072": "/rooms/14155/timeto/stringproc-14072.rb"
+      "14072": {
+        "cost": 3.2,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      }
     },
     "tags": [
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
       "meta:seeking",
-      "no forageables",
-      "meta:forage-sensed:day:2022-11"
+      "no forageables"
     ],
     "uid": [
       4749706

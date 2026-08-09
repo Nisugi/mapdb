@@ -1,5 +1,5 @@
 {
-  "checksum": "bdd4e4c885f58db54dbda91f1e3b2f75",
+  "checksum": "543de00728c1e08258b9b3df8696a3f8",
   "room": {
     "id": 25998,
     "title": [
@@ -19,9 +19,9 @@
       "21324": 0.2
     },
     "tags": [
-      "peer curtain =~ /^\\[Annex, White Haven Lobby\\]$/",
+      "meta:che:white_haven:locker",
       "meta:locker",
-      "meta:che:white_haven:locker"
+      "peer curtain =~ /^\\[Annex, White Haven Lobby\\]$/"
     ],
     "uid": [
       3215120

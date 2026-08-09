@@ -1,5 +1,5 @@
 {
-  "checksum": "d44f4c141ff0e0c0a4e770356ff8a171",
+  "checksum": "4eeb6d9fc58b5196e748159c6debf10b",
   "room": {
     "id": 23661,
     "title": [
@@ -17,24 +17,31 @@
     "wayto": {
       "17518": "out",
       "23662": "go arch",
-      "30718": "/rooms/23661/wayto/stringproc-30718.rb"
+      "30718": []
     },
     "timeto": {
       "17518": 0.2,
-      "23662": "/rooms/23661/timeto/stringproc-23662.rb",
-      "30718": "/rooms/23661/timeto/stringproc-30718.rb"
+      "23662": {
+        "cost": 0.2,
+        "requires": [
+          "prof:Warrior"
+        ]
+      },
+      "30718": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Isle of the Four Winds",
+      "meta:mapcategory:Premium",
       "meta:mapname:Four Winds - Warrior Guild",
       "meta:mapshortname:Warrior Guild (IFW)",
-      "meta:mapcategory:Isle of the Four Winds",
-      "meta:mapcategory:Guilds",
-      "meta:mapcategory:Premium",
-      "warriorguild",
-      "urchin-access",
+      "no forageables",
       "urchin guide warriorguild",
+      "urchin-access",
       "warrior guild",
-      "no forageables"
+      "warriorguild"
     ],
     "uid": [
       255058

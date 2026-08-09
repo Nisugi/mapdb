@@ -1,5 +1,5 @@
 {
-  "checksum": "50270374a7d8857f535534872b33967e",
+  "checksum": "60af41cfdef53309d30cc81696c0a13a",
   "room": {
     "id": 16196,
     "title": [
@@ -16,7 +16,10 @@
       "16185": "south",
       "16195": "north",
       "16197": "go door",
-      "22225": "/rooms/16196/wayto/stringproc-22225.rb"
+      "22225": {
+        "strategy": "unique_crossing",
+        "name": "crossing_16196_22225"
+      }
     },
     "timeto": {
       "16185": 0.2,
@@ -25,8 +28,8 @@
       "22225": 0.4
     },
     "tags": [
-      "meta:che:Beacon Hall Archive",
       "fire lily",
+      "meta:che:Beacon Hall Archive",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2026-01",
       "no forageables"

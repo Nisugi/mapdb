@@ -1,5 +1,5 @@
 {
-  "checksum": "570479ab7972f2bc04af48f81fafc2c3",
+  "checksum": "97076f454a10bf04418575fa3321c08e",
   "room": {
     "id": 26067,
     "title": [
@@ -16,7 +16,15 @@
     "terrain": "none",
     "wayto": {
       "26068": "go archway",
-      "26072": "/rooms/26067/wayto/stringproc-26072.rb"
+      "26072": [
+        {
+          "do": "move",
+          "cmd": "climb downward stairs"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "26068": 0.2,

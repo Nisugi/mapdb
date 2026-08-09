@@ -1,5 +1,5 @@
 {
-  "checksum": "630779be773a7f833f3b8adfd59f1769",
+  "checksum": "5861fcc85eeae0608a044c87d60331e7",
   "room": {
     "id": 22223,
     "title": [
@@ -19,8 +19,8 @@
       "16202": 0.2
     },
     "tags": [
-      "peer out =~ /^\\[Beacon Hall, Storage Room\\]$/",
-      "meta:che:Beacon Hall Archive"
+      "meta:che:Beacon Hall Archive",
+      "peer out =~ /^\\[Beacon Hall, Storage Room\\]$/"
     ],
     "image": "rr-beacon_hall-1405076623.png",
     "image_coords": [

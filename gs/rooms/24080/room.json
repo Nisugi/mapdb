@@ -1,5 +1,5 @@
 {
-  "checksum": "3f60008057af796b253e44658c0d8044",
+  "checksum": "2baf19639c8f99cf74cd62f43395a373",
   "room": {
     "id": 24080,
     "title": [
@@ -14,7 +14,20 @@
     "location": "the Feywrot Mire",
     "wayto": {
       "24079": "south",
-      "24082": "/rooms/24080/wayto/stringproc-24082.rb"
+      "24082": [
+        {
+          "do": "send",
+          "cmd": "get my adder"
+        },
+        {
+          "do": "send",
+          "cmd": "put adder in door"
+        },
+        {
+          "do": "move",
+          "cmd": "go stone door"
+        }
+      ]
     },
     "timeto": {
       "24079": 0.2,

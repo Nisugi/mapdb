@@ -1,1 +1,0 @@
-fput 'open door';while line = get;if line == "It's locked, Blazyn!";empty_hand;fput 'turn lock';fput 'open door';fput 'go door';fill_hand;break;else;fput 'go door';break;end;end

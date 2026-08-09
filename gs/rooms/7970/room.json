@@ -1,5 +1,5 @@
 {
-  "checksum": "959ae22f0b02043db3b40907d6545a84",
+  "checksum": "06273260ec5a39e4f9099c5cc0d1b04c",
   "room": {
     "id": 7970,
     "title": [
@@ -14,17 +14,20 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "7969": "east",
-      "30708": "/rooms/7970/wayto/stringproc-30708.rb"
+      "30708": []
     },
     "timeto": {
       "7969": 0.2,
-      "30708": "/rooms/7970/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "debts",
       "meta:teleport:fwi",
+      "no forageables",
       "urchin guide debts",
-      "urchin-access",
-      "debts"
+      "urchin-access"
     ],
     "uid": [
       2020

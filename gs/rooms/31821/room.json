@@ -1,5 +1,5 @@
 {
-  "checksum": "971e6afaa2e37b3b6c04ba9e4cb45e79",
+  "checksum": "641f74d6676bf87168336ab408248cff",
   "room": {
     "id": 31821,
     "title": [
@@ -15,17 +15,37 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "31820": "/rooms/31821/wayto/stringproc-31820.rb",
-      "31822": "/rooms/31821/wayto/stringproc-31822.rb"
+      "31820": [
+        {
+          "do": "await",
+          "cmd": "push north",
+          "for": "(?i)you push|you can't push",
+          "timeout": 5
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "31822": [
+        {
+          "do": "await",
+          "cmd": "push southeast",
+          "for": "(?i)you push|you can't push",
+          "timeout": 5
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "31820": 4.2,
       "31822": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-10"
+      "meta:forage-sensed:night:2022-10",
+      "no forageables"
     ],
     "uid": [
       8083401

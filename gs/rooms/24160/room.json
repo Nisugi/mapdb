@@ -1,5 +1,5 @@
 {
-  "checksum": "07a902ad31d27abb613cfce393b1b6c6",
+  "checksum": "1ef66c5d06ba3e9e0a5a8441580fbac6",
   "room": {
     "id": 24160,
     "title": [
@@ -13,7 +13,15 @@
     ],
     "location": "the Feywrot Mire",
     "wayto": {
-      "24159": "/rooms/24160/wayto/stringproc-24159.rb",
+      "24159": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "go gondolas"
+        }
+      ],
       "24161": "crawl fissure"
     },
     "timeto": {

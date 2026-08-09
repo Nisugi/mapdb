@@ -1,5 +1,5 @@
 {
-  "checksum": "2c8e65182215ea265b3384535b1b34bb",
+  "checksum": "81838e0257541b46b8ce1191f6836358",
   "room": {
     "id": 27639,
     "title": [
@@ -13,7 +13,10 @@
     ],
     "location": "Peregrine Tavern, outside the elven city of Ta'Illistim",
     "wayto": {
-      "27638": "/rooms/27639/wayto/stringproc-27638.rb",
+      "27638": {
+        "strategy": "unique_crossing",
+        "name": "crossing_27638_27639"
+      },
       "27640": "go maoral arch"
     },
     "timeto": {

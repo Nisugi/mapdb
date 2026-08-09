@@ -1,5 +1,5 @@
 {
-  "checksum": "d39725b1727a9bead547ffbb0ac8ee59",
+  "checksum": "cafc4d30e00c20ac7612f378745cddf9",
   "room": {
     "id": 10838,
     "title": [
@@ -17,77 +17,219 @@
     "climate": "moist",
     "terrain": "riparian",
     "wayto": {
-      "250": "/rooms/10838/wayto/stringproc-250.rb",
-      "1870": "/rooms/10838/wayto/stringproc-1870.rb",
+      "250": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 1"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 1"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 1",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "1870": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 4"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 4"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 4",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
       "10839": "east",
       "10840": "go weeds",
-      "11756": "/rooms/10838/wayto/stringproc-11756.rb",
-      "29033": "/rooms/10838/wayto/stringproc-29033.rb",
+      "11756": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 2"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 2"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 2",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "29033": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 5"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 5"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 5",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
       "29577": "go grasses",
-      "30711": "/rooms/10838/wayto/stringproc-30711.rb",
-      "31493": "/rooms/10838/wayto/stringproc-31493.rb",
-      "32372": "/rooms/10838/wayto/stringproc-32372.rb",
-      "32928": "/rooms/10838/wayto/stringproc-32928.rb"
+      "30711": [],
+      "31493": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 6"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 6"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 6",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "32372": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 7"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 7"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 7",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "32928": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 8"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 8"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 8",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ]
     },
     "timeto": {
-      "250": "/rooms/10838/timeto/stringproc-250.rb",
-      "1870": "/rooms/10838/timeto/stringproc-1870.rb",
+      "250": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "1870": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
       "10839": 0.2,
       "10840": 0.2,
-      "11756": "/rooms/10838/timeto/stringproc-11756.rb",
-      "29033": "/rooms/10838/timeto/stringproc-29033.rb",
+      "11756": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "29033": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
       "29577": 0.2,
-      "30711": "/rooms/10838/timeto/stringproc-30711.rb",
-      "31493": "/rooms/10838/timeto/stringproc-31493.rb",
-      "32372": "/rooms/10838/timeto/stringproc-32372.rb",
-      "32928": "/rooms/10838/timeto/stringproc-32928.rb"
+      "30711": {
+        "same_as": "7:30714"
+      },
+      "31493": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "32372": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "32928": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      }
     },
     "tags": [
-      "stalk of bluebells",
-      "water chestnut",
-      "striped heart mushroom",
       "acantha leaf",
-      "calamia fruit",
       "aloeas stem",
-      "soft white mushroom",
-      "withered black mushroom",
+      "banana leaf",
+      "blood orange",
+      "blue trafel mushroom",
+      "bright orange",
+      "bright red cranberry",
+      "bright yellow plantain",
+      "calamia fruit",
+      "cassava root",
+      "coffee cherries",
+      "cone-shaped pineapple",
       "daggerstalk mushroom",
       "flathead mushroom",
       "genkew mushroom",
-      "blue trafel mushroom",
-      "stalk of cattail",
-      "wild chokecherry",
-      "bright red cranberry",
+      "golden flax fronds",
+      "grapefruit",
       "kylan berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:???:2026-01",
+      "meta:forage-sensed:day:2026-03",
       "murdroot",
-      "wavepetal blossom",
-      "sunburst blossom",
-      "silver-cost:250:25000",
-      "silver-cost:1870:25000",
-      "silver-cost:29033:25000",
       "portmaster",
-      "silver-cost:31493:35000",
-      "urchin-access",
-      "urchin guide docks",
+      "round yuzu",
       "silver-cost:11756:12500",
+      "silver-cost:1870:25000",
+      "silver-cost:250:25000",
+      "silver-cost:29033:25000",
+      "silver-cost:31493:35000",
       "silver-cost:32372:12500",
       "silver-cost:32928:25000",
-      "talneo root",
-      "banana leaf",
-      "golden flax fronds",
-      "cassava root",
       "small green quenepas",
+      "soft mushroom",
+      "stalk of bluebells",
+      "stalk of cattail",
+      "striped heart mushroom",
+      "sunburst blossom",
+      "talneo root",
+      "urchin guide docks",
+      "urchin-access",
       "vibrant green plantain",
-      "bright yellow plantain",
-      "cone-shaped pineapple",
-      "bright orange",
-      "blood orange",
-      "grapefruit",
-      "coffee cherries",
-      "round yuzu",
-      "meta:forage-sensed:???:2026-01",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-01"
+      "water chestnut",
+      "wavepetal blossom",
+      "wild chokecherry",
+      "withered mushroom"
     ],
     "uid": [
       2101030

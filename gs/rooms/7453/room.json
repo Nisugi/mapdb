@@ -1,5 +1,5 @@
 {
-  "checksum": "db7bf811c35e50dca70f18153326cc54",
+  "checksum": "cdd441c9214472058b5f1325744c9588",
   "room": {
     "id": 7453,
     "title": [
@@ -15,12 +15,60 @@
     "climate": "hot, damp",
     "terrain": "barren scrub",
     "wayto": {
-      "7448": "/rooms/7453/wayto/stringproc-7448.rb",
-      "7455": "/rooms/7453/wayto/stringproc-7455.rb",
-      "7456": "/rooms/7453/wayto/stringproc-7456.rb",
-      "23262": "/rooms/7453/wayto/stringproc-23262.rb",
-      "23266": "/rooms/7453/wayto/stringproc-23266.rb",
-      "23267": "/rooms/7453/wayto/stringproc-23267.rb"
+      "7448": [
+        {
+          "do": "move",
+          "cmd": "north"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "7455": [
+        {
+          "do": "move",
+          "cmd": "south"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "7456": [
+        {
+          "do": "move",
+          "cmd": "northeast"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "23262": [
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "23266": [
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "23267": [
+        {
+          "do": "move",
+          "cmd": "west"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "7448": 3.2,
@@ -31,15 +79,15 @@
       "23267": 3.2
     },
     "tags": [
-      "large black toadstool",
-      "some blackened moss",
-      "peer northeast =~ /^Obvious paths: south, southwest, west, northwest$/",
-      "hooded figure",
-      "giant fog beetle",
-      "blackened moss",
       "black toadstool",
+      "blackened moss",
+      "giant fog beetle",
+      "hooded figure",
+      "large black toadstool",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "peer northeast =~ /^Obvious paths: south, southwest, west, northwest$/",
+      "some blackened moss"
     ],
     "uid": [
       306045

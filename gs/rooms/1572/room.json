@@ -1,5 +1,5 @@
 {
-  "checksum": "accc596fcabad08c483d1e8a177e2169",
+  "checksum": "ddd2982110ef2f5224ba6a62a54d85da",
   "room": {
     "id": 1572,
     "title": [
@@ -25,7 +25,7 @@
       "1574": "south",
       "1575": "southwest",
       "1576": "west",
-      "30710": "/rooms/1572/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "1551": 0.2,
@@ -36,15 +36,17 @@
       "1574": 0.2,
       "1575": 0.2,
       "1576": 0.2,
-      "30710": "/rooms/1572/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "meta:forage-sensed",
+      "meta:trashcan:ora-banded driftwood barrel",
+      "no forageables",
       "node",
       "supernode",
-      "meta:trashcan:ora-banded driftwood barrel",
-      "urchin-access",
-      "meta:forage-sensed",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       4902093

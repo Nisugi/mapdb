@@ -1,5 +1,5 @@
 {
-  "checksum": "d7bcf5972f60d759be691f2fe6441e03",
+  "checksum": "9e1e03e237935b3adc12989ac6af73fd",
   "room": {
     "id": 9445,
     "title": [
@@ -14,19 +14,21 @@
     "location": "Zul Logoth",
     "wayto": {
       "9442": "northeast",
-      "30712": "/rooms/9445/wayto/stringproc-30712.rb"
+      "30712": []
     },
     "timeto": {
       "9442": 0.2,
-      "30712": "/rooms/9445/timeto/stringproc-30712.rb"
+      "30712": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "advguild",
-      "no forageables",
+      "bounty",
       "meta:forage-sensed",
-      "urchin-access",
+      "no forageables",
       "urchin guide bounty",
-      "bounty"
+      "urchin-access"
     ],
     "uid": [
       13014109

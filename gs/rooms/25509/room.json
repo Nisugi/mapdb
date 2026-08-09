@@ -1,5 +1,5 @@
 {
-  "checksum": "2bdd420b4ce7573a1a370d52eff007c1",
+  "checksum": "6a08ef3ed2eec675caeeba6b75eb7ca1",
   "room": {
     "id": 25509,
     "title": [
@@ -13,14 +13,44 @@
     ],
     "location": "Aboard an Airship",
     "wayto": {
-      "25508": "/rooms/25509/wayto/stringproc-25508.rb",
+      "25508": [
+        {
+          "do": "move",
+          "cmd": "go burnt door"
+        },
+        {
+          "do": "set",
+          "var": "marksofthebeast_origin",
+          "value": null
+        }
+      ],
       "25510": "go hatch",
-      "28802": "/rooms/25509/wayto/stringproc-28802.rb"
+      "28802": [
+        {
+          "do": "move",
+          "cmd": "go burnt door"
+        },
+        {
+          "do": "set",
+          "var": "marksofthebeast_origin",
+          "value": null
+        }
+      ]
     },
     "timeto": {
-      "25508": "/rooms/25509/timeto/stringproc-25508.rb",
+      "25508": {
+        "cost": 0.2,
+        "requires": [
+          "var:marksofthebeast_origin=25508"
+        ]
+      },
       "25510": 0.2,
-      "28802": "/rooms/25509/timeto/stringproc-28802.rb"
+      "28802": {
+        "cost": 0.2,
+        "requires": [
+          "var:marksofthebeast_origin=28802"
+        ]
+      }
     },
     "tags": [
       "no-auto-map"

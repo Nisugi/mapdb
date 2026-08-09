@@ -1,5 +1,5 @@
 {
-  "checksum": "73b291ec146964abfcce5b36fa95deef",
+  "checksum": "cb353007217fe7b89acd7360da723537",
   "room": {
     "id": 12605,
     "title": [
@@ -13,15 +13,62 @@
     ],
     "location": "the Dark Palisade",
     "wayto": {
-      "12606": "/rooms/12605/wayto/stringproc-12606.rb"
+      "12606": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "cast_buff",
+              "spell": 506
+            },
+            {
+              "do": "await",
+              "cmd": "search",
+              "for": "search|don't find anything|find nothing else",
+              "timeout": 3
+            },
+            {
+              "do": "wait_rt"
+            },
+            {
+              "do": "await",
+              "cmd": "get handhold",
+              "for": "I could not find|You reach out|Get what",
+              "timeout": 3,
+              "if_match": {
+                "pattern": "You reach out",
+                "steps": [
+                  {
+                    "do": "break"
+                  }
+                ]
+              }
+            }
+          ],
+          "times": 10
+        },
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb face"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ]
     },
     "timeto": {
       "12606": 3.4
     },
     "tags": [
-      "pepperthorn root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-11"
+      "meta:forage-sensed:day:2023-11",
+      "pepperthorn root"
     ],
     "uid": [
       3041003

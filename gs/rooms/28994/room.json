@@ -1,5 +1,5 @@
 {
-  "checksum": "464106c482cd4023ab6929c09ab605c0",
+  "checksum": "f5d4be198488c15910a7e74d54eea6cc",
   "room": {
     "id": 28994,
     "title": [
@@ -14,18 +14,25 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28902": "out",
-      "30716": "/rooms/28994/wayto/stringproc-30716.rb"
+      "30716": []
     },
     "timeto": {
       "28902": 0.2,
-      "30716": "/rooms/28994/timeto/stringproc-30716.rb"
+      "30716": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "boatswain",
+      "bright pink protea",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "repair",
       "repairs",
-      "urchin-access",
+      "stalk of bluebells",
       "urchin guide boatswain",
-      "boatswain"
+      "urchin-access",
+      "wild sage"
     ],
     "uid": [
       7118436

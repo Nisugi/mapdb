@@ -1,5 +1,5 @@
 {
-  "checksum": "7aa5bfd05446ee95b4fb4bb47e8a7c4e",
+  "checksum": "a08658a5ac5366a314fea16bbfb7f6df",
   "room": {
     "id": 4945,
     "title": [
@@ -14,15 +14,24 @@
     "location": "Gyldemar Forest",
     "wayto": {
       "4944": "up",
-      "4946": "/rooms/4945/wayto/stringproc-4946.rb"
+      "4946": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go tunnel"
+        }
+      ]
     },
     "timeto": {
       "4944": 0.2,
       "4946": 0.2
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       13030078

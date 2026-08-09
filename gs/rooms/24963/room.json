@@ -1,5 +1,5 @@
 {
-  "checksum": "983f46916a8512fecdca42bad2445c57",
+  "checksum": "267024a4b0597d9aa6a6e5feb69328c2",
   "room": {
     "id": 24963,
     "title": [
@@ -13,16 +13,19 @@
     ],
     "location": "the catacombs",
     "wayto": {
-      "7602": "/rooms/24963/wayto/stringproc-7602.rb"
+      "7602": {
+        "strategy": "unique_crossing",
+        "name": "crossing_24963_7602"
+      }
     },
     "timeto": {
       "7602": 60
     },
     "tags": [
-      "meta:map:ignore-blanks",
       "meta:forage-sensed",
-      "no forageables",
-      "meta:nomagic"
+      "meta:map:ignore-blanks",
+      "meta:nomagic",
+      "no forageables"
     ],
     "uid": [
       2133500

@@ -1,5 +1,5 @@
 {
-  "checksum": "41efdfa0f1782cfcf1d15b497fff7798",
+  "checksum": "e6de56d8693620f53b29a54ba5f7b15a",
   "room": {
     "id": 28916,
     "title": [
@@ -19,20 +19,22 @@
       "28914": "west",
       "28917": "east",
       "29091": "go stucco bar",
-      "30716": "/rooms/28916/wayto/stringproc-30716.rb"
+      "30716": []
     },
     "timeto": {
       "28914": 0.2,
       "28917": 0.2,
       "29091": 0.2,
-      "30716": "/rooms/28916/timeto/stringproc-30716.rb"
+      "30716": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "supernode",
-      "node",
-      "urchin-access",
       "meta:forage-sensed",
-      "no forageables"
+      "no forageables",
+      "node",
+      "supernode",
+      "urchin-access"
     ],
     "uid": [
       7118205

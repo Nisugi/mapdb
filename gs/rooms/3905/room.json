@@ -1,5 +1,5 @@
 {
-  "checksum": "f2375310505c16b3715cee6016d09fec",
+  "checksum": "2322cc103a87fab6e7860c820adaeedf",
   "room": {
     "id": 3905,
     "title": [
@@ -17,18 +17,20 @@
     "wayto": {
       "3904": "northwest",
       "3906": "up",
-      "30710": "/rooms/3905/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "3904": 0.2,
       "3906": 0.2,
-      "30710": "/rooms/3905/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin guide marketbridge",
-      "urchin-access",
       "marketbridge",
-      "no forageables"
+      "no forageables",
+      "urchin guide marketbridge",
+      "urchin-access"
     ],
     "uid": [
       4744101

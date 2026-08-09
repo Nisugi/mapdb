@@ -1,5 +1,5 @@
 {
-  "checksum": "1d0f6f87ae5557e83dd796d6fa42bd82",
+  "checksum": "0cc39ecc857f96d29c8e43017f594525",
   "room": {
     "id": 2212,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "the Eye of V'Tull",
     "wayto": {
-      "2211": "/rooms/2212/wayto/stringproc-2211.rb",
+      "2211": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "climb rock"
+        }
+      ],
       "2213": "southeast",
       "2227": "southwest",
       "2228": "south"
@@ -25,12 +34,12 @@
       "2228": 0.2
     },
     "tags": [
-      "black trafel mushroom",
-      "daggerstalk mushroom",
       "cave moss",
-      "pepperthorn root",
+      "daggerstalk mushroom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-11"
+      "meta:forage-sensed:day:2026-03",
+      "pepperthorn root",
+      "trafel mushroom"
     ],
     "uid": [
       3061021

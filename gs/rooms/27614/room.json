@@ -1,5 +1,5 @@
 {
-  "checksum": "68dcd3f2aa974037dd4fa02f686ecd31",
+  "checksum": "f55215d893af94c16f9c8118c24334e2",
   "room": {
     "id": 27614,
     "title": [
@@ -14,7 +14,15 @@
     ],
     "location": "Icemule Trace",
     "wayto": {
-      "3166": "/rooms/27614/wayto/stringproc-3166.rb",
+      "3166": [
+        {
+          "do": "move",
+          "cmd": "go path"
+        },
+        {
+          "do": "replan"
+        }
+      ],
       "27615": "go scarlet door",
       "27630": "go cedar door"
     },
@@ -24,12 +32,12 @@
       "27630": 0.2
     },
     "tags": [
-      "meta:mapname:Icemule Trace - Twilight Hall Annex",
-      "meta:mapshortname:Twilight Hall Annex (Icemule Trace)",
-      "meta:mapcategory:Icemule Trace",
-      "meta:mapcategory:CHE",
+      "meta:che:twilight_hall:entrance_annex",
       "meta:locker annex:Twilight Hall",
-      "meta:che:twilight_hall:entrance_annex"
+      "meta:mapcategory:CHE",
+      "meta:mapcategory:Icemule Trace",
+      "meta:mapname:Icemule Trace - Twilight Hall Annex",
+      "meta:mapshortname:Twilight Hall Annex (Icemule Trace)"
     ],
     "uid": [
       4043705

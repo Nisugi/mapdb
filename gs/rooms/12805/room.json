@@ -1,5 +1,5 @@
 {
-  "checksum": "43c480c91d88e651e7724451588cf564",
+  "checksum": "ebe728cf8849accada468c7ec680d962",
   "room": {
     "id": 12805,
     "title": [
@@ -14,18 +14,20 @@
     "location": "the Adventurer's Guild",
     "wayto": {
       "12801": "out",
-      "30710": "/rooms/12805/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "12801": 0.2,
-      "30710": "/rooms/12805/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "advguild",
-      "urchin-access",
-      "urchin guide bounty",
       "bounty",
-      "meta:nomagic"
+      "meta:nomagic",
+      "urchin guide bounty",
+      "urchin-access"
     ],
     "uid": [
       15002006

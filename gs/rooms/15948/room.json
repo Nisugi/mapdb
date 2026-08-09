@@ -1,5 +1,5 @@
 {
-  "checksum": "d47669ef8c462febb6cd8a3ade284061",
+  "checksum": "e280036b221c240450de488efdd0fa03",
   "room": {
     "id": 15948,
     "title": [
@@ -13,16 +13,31 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "7987": "/rooms/15948/wayto/stringproc-7987.rb"
+      "7987": [
+        {
+          "do": "try_move",
+          "cmd": "go opening",
+          "fallback": [
+            {
+              "do": "send",
+              "cmd": "close locker"
+            },
+            {
+              "do": "move",
+              "cmd": "go opening"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "7987": 0.2
     },
     "tags": [
-      "peer opening =~ /You also see a curtained opening and a steel door\\./",
       "meta:che:House of Paupers",
+      "meta:che:paupers:locker",
       "meta:locker",
-      "meta:che:paupers:locker"
+      "peer opening =~ /You also see a curtained opening and a steel door\\./"
     ],
     "uid": [
       104200

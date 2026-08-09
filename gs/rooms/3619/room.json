@@ -1,5 +1,5 @@
 {
-  "checksum": "9f281c653434cb9347095fa87934f9f9",
+  "checksum": "911a614391b5f31fce5cbb93080b4577",
   "room": {
     "id": 3619,
     "title": [
@@ -14,29 +14,89 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "221": "out",
-      "1777": "/rooms/3619/wayto/stringproc-1777.rb",
-      "3620": "/rooms/3619/wayto/stringproc-3620.rb",
-      "3621": "/rooms/3619/wayto/stringproc-3621.rb",
-      "3625": "/rooms/3619/wayto/stringproc-3625.rb",
-      "3732": "/rooms/3619/wayto/stringproc-3732.rb",
-      "3760": "/rooms/3619/wayto/stringproc-3760.rb",
-      "3828": "/rooms/3619/wayto/stringproc-3828.rb",
-      "3832": "/rooms/3619/wayto/stringproc-3832.rb",
-      "3840": "/rooms/3619/wayto/stringproc-3840.rb",
-      "3841": "/rooms/3619/wayto/stringproc-3841.rb",
-      "3908": "/rooms/3619/wayto/stringproc-3908.rb",
-      "3911": "/rooms/3619/wayto/stringproc-3911.rb",
-      "3978": "/rooms/3619/wayto/stringproc-3978.rb",
+      "1777": {
+        "strategy": "table_join",
+        "table": "Crimson Crocus"
+      },
+      "3620": {
+        "strategy": "table_join",
+        "table": "Indigo Iris"
+      },
+      "3621": {
+        "strategy": "table_join",
+        "table": "Fragrant Freesia"
+      },
+      "3625": {
+        "strategy": "table_join",
+        "table": "Aesthetic Aster"
+      },
+      "3732": {
+        "strategy": "table_join",
+        "table": "Dancing Daisy"
+      },
+      "3760": {
+        "strategy": "table_join",
+        "table": "Esculent Echinacea"
+      },
+      "3828": {
+        "strategy": "table_join",
+        "table": "Jeweled Jasmine"
+      },
+      "3832": {
+        "strategy": "table_join",
+        "table": "Patient Peony"
+      },
+      "3840": {
+        "strategy": "table_join",
+        "table": "Bleeding Heart"
+      },
+      "3841": {
+        "strategy": "table_join",
+        "table": "queen"
+      },
+      "3908": {
+        "strategy": "table_join",
+        "table": "Maidenly Magnolia"
+      },
+      "3911": {
+        "strategy": "table_join",
+        "table": "Lucid Lotus"
+      },
+      "3978": {
+        "strategy": "table_join",
+        "table": "Hardy Heather"
+      },
       "9652": "south",
       "14627": "go steep stair",
-      "18230": "/rooms/3619/wayto/stringproc-18230.rb",
-      "18232": "/rooms/3619/wayto/stringproc-18232.rb",
-      "18233": "/rooms/3619/wayto/stringproc-18233.rb",
-      "21298": "/rooms/3619/wayto/stringproc-21298.rb",
-      "21299": "/rooms/3619/wayto/stringproc-21299.rb",
-      "21300": "/rooms/3619/wayto/stringproc-21300.rb",
-      "21301": "/rooms/3619/wayto/stringproc-21301.rb",
-      "30708": "/rooms/3619/wayto/stringproc-30708.rb"
+      "18230": {
+        "strategy": "table_join",
+        "table": "Graceful Goldenrod"
+      },
+      "18232": {
+        "strategy": "table_join",
+        "table": "Knotted Kerria"
+      },
+      "18233": {
+        "strategy": "table_join",
+        "table": "Nocuous Nightshade"
+      },
+      "21298": {
+        "strategy": "table_join",
+        "table": "Obscure Orris"
+      },
+      "21299": {
+        "strategy": "table_join",
+        "table": "Rustic Rose"
+      },
+      "21300": {
+        "strategy": "table_join",
+        "table": "Scented Salvia"
+      },
+      "21301": {
+        "strategy": "table_join",
+        "table": "Tantalizing Tulip"
+      },
+      "30708": []
     },
     "timeto": {
       "221": 0.2,
@@ -62,14 +122,16 @@
       "21299": 0.2,
       "21300": 0.2,
       "21301": 0.2,
-      "30708": "/rooms/3619/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "table",
-      "no forageables",
       "meta:forage-sensed",
-      "urchin-access",
+      "no forageables",
+      "table",
       "urchin guide wayside",
+      "urchin-access",
       "wayside"
     ],
     "uid": [

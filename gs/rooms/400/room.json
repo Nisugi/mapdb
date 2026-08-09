@@ -1,5 +1,5 @@
 {
-  "checksum": "22c8e49d5999a70c218e11355fd4db9c",
+  "checksum": "b3e4ac52680fb239b212cce5745a1b38",
   "room": {
     "id": 400,
     "title": [
@@ -14,19 +14,22 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "399": "go low arch",
-      "30708": "/rooms/400/wayto/stringproc-30708.rb"
+      "30708": []
     },
     "timeto": {
       "399": 0.2,
-      "30708": "/rooms/400/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "bank",
-      "meta:teleport:fwi",
       "antimagic",
-      "urchin-access",
+      "bank",
+      "meta:nomagic",
+      "meta:teleport:fwi",
+      "no forageables",
       "urchin guide bank",
-      "meta:nomagic"
+      "urchin-access"
     ],
     "uid": [
       2005

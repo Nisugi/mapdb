@@ -1,5 +1,5 @@
 {
-  "checksum": "78b0fcf0d0c547773cd44f57dbd307c9",
+  "checksum": "813f660f0da84e4fca18341343218bb1",
   "room": {
     "id": 10815,
     "title": [
@@ -16,7 +16,22 @@
     "terrain": "muddy wetlands",
     "wayto": {
       "10814": "west",
-      "10821": "/rooms/10815/wayto/stringproc-10821.rb",
+      "10821": [
+        {
+          "do": "cast_buff",
+          "spell": 9704
+        },
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "go water"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
       "15541": "go road"
     },
     "timeto": {
@@ -25,37 +40,39 @@
       "15541": 0.2
     },
     "tags": [
+      "black peppercorn",
+      "blue trafel mushroom",
+      "blue whortleberry",
+      "bolmara lichen",
+      "broken twig",
+      "bur-clover root",
       "calamia fruit",
-      "haphip root",
-      "soft white mushroom",
-      "withered black mushroom",
+      "cardamom",
+      "cumin seeds",
       "daggerstalk mushroom",
       "flathead mushroom",
       "genkew mushroom",
-      "blue trafel mushroom",
-      "wild gooseberry",
-      "stalk of cattail",
-      "small wild rose",
+      "golden mushroom",
+      "haphip root",
       "lady slipper blossom",
-      "blue whortleberry",
-      "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "talneo root",
-      "wingstem root",
       "meta:forage-sensed",
-      "bur-clover root",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "murdroot",
       "nutmeg",
-      "cumin seeds",
+      "pink peppercorn",
+      "soft mushroom",
+      "stalk of cattail",
       "star anise",
-      "meta:forage-sensed:day:2023-11",
+      "talneo root",
       "trollear mushroom",
-      "broken twig",
-      "meta:forage-sensed:night:2024-05"
+      "vanilla bean",
+      "wavepetal blossom",
+      "wild gooseberry",
+      "wild rice",
+      "wild rose",
+      "wingstem root",
+      "withered mushroom"
     ],
     "uid": [
       13032041

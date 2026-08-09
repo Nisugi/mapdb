@@ -1,5 +1,5 @@
 {
-  "checksum": "25f28e11191fb2f560d0112bb5d395c4",
+  "checksum": "ad4822f9990cc0e7f9fa36dfc90860b3",
   "room": {
     "id": 34434,
     "title": [
@@ -14,11 +14,19 @@
     "location": "Cuddfan Hollow, inside the Northern Caravansary on the outskirts of Wehnimer's Landing",
     "wayto": {
       "9249": "go track",
-      "34435": "/rooms/34434/wayto/stringproc-34435.rb"
+      "34435": {
+        "strategy": "unique_crossing",
+        "name": "crossing_34434_34435"
+      }
     },
     "timeto": {
       "9249": 0.2,
-      "34435": "/rooms/34434/timeto/stringproc-34435.rb"
+      "34435": {
+        "cost": 0.2,
+        "requires": [
+          "var_raw:Cuddfan_Hollow=true"
+        ]
+      }
     },
     "tags": [
       "private property"

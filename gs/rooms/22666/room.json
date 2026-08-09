@@ -1,5 +1,5 @@
 {
-  "checksum": "312ad10cd3041f20464b8d539185767a",
+  "checksum": "07592dad331c542fd1e6900233cf9a55",
   "room": {
     "id": 22666,
     "title": [
@@ -13,8 +13,23 @@
     ],
     "location": false,
     "wayto": {
-      "22571": "/rooms/22666/wayto/stringproc-22571.rb",
-      "24233": "/rooms/22666/wayto/stringproc-24233.rb"
+      "22571": [
+        {
+          "do": "send",
+          "cmd": "lie"
+        },
+        {
+          "do": "move",
+          "cmd": "crawl boulder-blocked passageway"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "24233": {
+        "strategy": "unique_crossing",
+        "name": "crossing_22666_24233"
+      }
     },
     "timeto": {
       "22571": 0.2,

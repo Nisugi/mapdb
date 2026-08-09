@@ -1,5 +1,5 @@
 {
-  "checksum": "3bac77413c4c45283f1319bae9d079a1",
+  "checksum": "fca7ec83762edc348418f03549f081fe",
   "room": {
     "id": 11449,
     "title": [
@@ -15,9 +15,69 @@
     "climate": "saltwater",
     "terrain": "",
     "wayto": {
-      "11436": "/rooms/11449/wayto/stringproc-11436.rb",
-      "11437": "/rooms/11449/wayto/stringproc-11437.rb",
-      "11448": "/rooms/11449/wayto/stringproc-11448.rb"
+      "11436": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "east"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim east"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11437": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "north"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim north"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11448": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "northwest"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim northwest"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "11436": 2,
@@ -25,8 +85,8 @@
       "11448": 2
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       304013

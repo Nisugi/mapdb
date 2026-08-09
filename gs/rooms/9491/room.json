@@ -1,5 +1,5 @@
 {
-  "checksum": "37befd2985dc0de5672245737afb2d4a",
+  "checksum": "53f87d2fed9accdd7d4828e609c2bd90",
   "room": {
     "id": 9491,
     "title": [
@@ -14,19 +14,21 @@
     "location": "Zul Logoth",
     "wayto": {
       "9490": "south",
-      "30712": "/rooms/9491/wayto/stringproc-30712.rb"
+      "30712": []
     },
     "timeto": {
       "9490": 0.2,
-      "30712": "/rooms/9491/timeto/stringproc-30712.rb"
+      "30712": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "locksmith",
-      "no forageables",
+      "locksmith shop",
       "meta:forage-sensed",
-      "urchin-access",
+      "no forageables",
       "urchin guide locksmith",
-      "locksmith shop"
+      "urchin-access"
     ],
     "uid": [
       13010017

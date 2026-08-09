@@ -1,5 +1,5 @@
 {
-  "checksum": "235025d32247912d0fccd3bd1bdc739d",
+  "checksum": "9a5f125d0685d51fac3afefbfb5cb642",
   "room": {
     "id": 34354,
     "title": [
@@ -15,14 +15,78 @@
     "climate": "freshwater",
     "terrain": "mountainous",
     "wayto": {
-      "34353": "/rooms/34354/wayto/stringproc-34353.rb",
-      "34355": "/rooms/34354/wayto/stringproc-34355.rb",
-      "34356": "/rooms/34354/wayto/stringproc-34356.rb",
-      "34357": "/rooms/34354/wayto/stringproc-34357.rb",
-      "34358": "/rooms/34354/wayto/stringproc-34358.rb",
-      "34359": "/rooms/34354/wayto/stringproc-34359.rb",
-      "34360": "/rooms/34354/wayto/stringproc-34360.rb",
-      "34361": "/rooms/34354/wayto/stringproc-34361.rb"
+      "34353": [
+        {
+          "do": "move",
+          "cmd": "go ring"
+        },
+        {
+          "do": "replan"
+        }
+      ],
+      "34355": [
+        {
+          "do": "move",
+          "cmd": "go ring"
+        },
+        {
+          "do": "replan"
+        }
+      ],
+      "34356": [
+        {
+          "do": "move",
+          "cmd": "go ring"
+        },
+        {
+          "do": "replan"
+        }
+      ],
+      "34357": [
+        {
+          "do": "move",
+          "cmd": "go ring"
+        },
+        {
+          "do": "replan"
+        }
+      ],
+      "34358": [
+        {
+          "do": "move",
+          "cmd": "go ring"
+        },
+        {
+          "do": "replan"
+        }
+      ],
+      "34359": [
+        {
+          "do": "move",
+          "cmd": "go ring"
+        },
+        {
+          "do": "replan"
+        }
+      ],
+      "34360": [
+        {
+          "do": "move",
+          "cmd": "go ring"
+        },
+        {
+          "do": "replan"
+        }
+      ],
+      "34361": [
+        {
+          "do": "move",
+          "cmd": "go ring"
+        },
+        {
+          "do": "replan"
+        }
+      ]
     },
     "timeto": {
       "34353": 1,

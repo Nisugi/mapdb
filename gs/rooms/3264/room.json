@@ -1,5 +1,5 @@
 {
-  "checksum": "ba6ba6629c07363880c7954ea6abb370",
+  "checksum": "2f722fea5cda2876cd54a81584a52370",
   "room": {
     "id": 3264,
     "title": [
@@ -15,7 +15,10 @@
     "climate": "glacial",
     "terrain": "plain dirt",
     "wayto": {
-      "3239": "/rooms/3264/wayto/stringproc-3239.rb",
+      "3239": {
+        "strategy": "unique_crossing",
+        "name": "crossing_3239_3264"
+      },
       "3265": "east",
       "3274": "go open",
       "3280": "climb stair"
@@ -27,21 +30,18 @@
       "3280": 0.2
     },
     "tags": [
-      "winter rose",
-      "sassafras leaf",
-      "some arctic moss",
-      "some angelica root",
-      "frostflower",
-      "sweetfern stalk",
-      "some valerian root",
-      "some pennyroyal stem",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
       "arctic moss",
-      "meta:forage-sensed",
+      "frostflower",
       "ironfern root",
-      "meta:forage-sensed:night:2022-09"
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-09",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sweetfern stalk",
+      "valerian root",
+      "winter rose"
     ],
     "uid": [
       4127005

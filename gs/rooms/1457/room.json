@@ -1,5 +1,5 @@
 {
-  "checksum": "d141b5756dd04a2e59798f8ff5006465",
+  "checksum": "b68bbd1b7989537720d7e5ad72367543",
   "room": {
     "id": 1457,
     "title": [
@@ -21,7 +21,18 @@
     },
     "timeto": {
       "1456": 0.2,
-      "33283": "/rooms/1457/timeto/stringproc-33283.rb"
+      "33283": {
+        "cost": 10,
+        "requires": [
+          "citizenship:Solhaven"
+        ],
+        "else": {
+          "cost": 10,
+          "requires": [
+            "var:allow_vornavis"
+          ]
+        }
+      }
     },
     "tags": [
       "meta:forage-sensed",

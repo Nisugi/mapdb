@@ -1,5 +1,5 @@
 {
-  "checksum": "82a376f4f0339d4fbdb57df4b2efcec1",
+  "checksum": "faf960f68605cb48eed0ebf45d9946a0",
   "room": {
     "id": 23927,
     "title": [
@@ -13,13 +13,29 @@
     ],
     "location": "the town of Kharam-Dzu",
     "wayto": {
-      "1961": "/rooms/23927/wayto/stringproc-1961.rb",
+      "1961": [
+        {
+          "do": "send",
+          "cmd": "turn wheel"
+        },
+        {
+          "do": "send",
+          "cmd": "open trapdoor"
+        },
+        {
+          "do": "move",
+          "cmd": "go trapdoor"
+        }
+      ],
       "23928": "go arch"
     },
     "timeto": {
       "1961": 0.8,
       "23928": 0.2
     },
+    "tags": [
+      "no forageables"
+    ],
     "uid": [
       3003055
     ]

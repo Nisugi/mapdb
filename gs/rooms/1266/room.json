@@ -1,5 +1,5 @@
 {
-  "checksum": "0115c7c31db9d394f04b9fcef424f535",
+  "checksum": "e779ca97f635a3b3aa5bc9ad3361f014",
   "room": {
     "id": 1266,
     "title": [
@@ -14,19 +14,38 @@
     "location": "Kharag 'doth Dzulthu",
     "wayto": {
       "1013": "out",
-      "1261": "/rooms/1266/wayto/stringproc-1261.rb",
-      "1267": "/rooms/1266/wayto/stringproc-1267.rb"
+      "1261": [
+        {
+          "do": "await",
+          "cmd": "buy pass",
+          "for": "You\\ hastily\\ exit\\ the\\ cart",
+          "timeout": 30
+        }
+      ],
+      "1267": [
+        {
+          "do": "await",
+          "cmd": "buy ticket",
+          "for": "You\\ hastily\\ exit\\ the\\ cart",
+          "timeout": 30
+        }
+      ]
     },
     "timeto": {
       "1013": 0.2,
-      "1261": "/rooms/1266/timeto/stringproc-1261.rb",
+      "1261": {
+        "cost": 180,
+        "requires": [
+          "no_script:ego2"
+        ]
+      },
       "1267": 180
     },
     "tags": [
-      "silver-cost:1267:1000",
-      "no forageables",
       "meta:forage-sensed",
-      "silver-cost:1261:2000"
+      "no forageables",
+      "silver-cost:1261:2000",
+      "silver-cost:1267:1000"
     ],
     "uid": [
       13004002

@@ -1,5 +1,5 @@
 {
-  "checksum": "502f6a4ef0690c9c40f098c6befe881c",
+  "checksum": "7ff1a6170a4aa631c99ed517494e5a5f",
   "room": {
     "id": 3659,
     "title": [
@@ -18,21 +18,23 @@
     "wayto": {
       "3658": "out",
       "16695": "east",
-      "30718": "/rooms/3659/wayto/stringproc-30718.rb"
+      "30718": []
     },
     "timeto": {
       "3658": 0.2,
       "16695": 0.2,
-      "30718": "/rooms/3659/timeto/stringproc-30718.rb"
+      "30718": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "jail",
-      "urchin-access",
-      "urchin guide justice",
       "justice",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-10"
+      "meta:forage-sensed:day:2022-10",
+      "no forageables",
+      "urchin guide justice",
+      "urchin-access"
     ],
     "uid": [
       3201501

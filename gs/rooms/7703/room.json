@@ -1,5 +1,5 @@
 {
-  "checksum": "2bc4ec5b6be41c48b5f6d107bd7e3cd7",
+  "checksum": "60744b4be2ae42f9dfb38114e788d2a2",
   "room": {
     "id": 7703,
     "title": [
@@ -14,16 +14,25 @@
     "location": "the Coastal Cliffs",
     "wayto": {
       "7702": "west",
-      "7704": "/rooms/7703/wayto/stringproc-7704.rb"
+      "7704": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go tunnel"
+        }
+      ]
     },
     "timeto": {
       "7702": 0.2,
       "7704": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "meta:forage-sensed:day:2022-09",
+      "no forageables"
     ],
     "uid": [
       68033

@@ -1,5 +1,5 @@
 {
-  "checksum": "a11c728a5ef9a7b7c298b59904359504",
+  "checksum": "38cd01aa1b639da4c4dc608a97d60700",
   "room": {
     "id": 18068,
     "title": [
@@ -13,7 +13,10 @@
     ],
     "location": "Ta'Vaalor",
     "wayto": {
-      "18054": "/rooms/18068/wayto/stringproc-18054.rb",
+      "18054": {
+        "strategy": "unique_crossing",
+        "name": "crossing_18052_18043"
+      },
       "18069": "go door"
     },
     "timeto": {

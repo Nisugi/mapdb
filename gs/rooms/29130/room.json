@@ -1,5 +1,5 @@
 {
-  "checksum": "876fe4cee71965ffed93ee4633dfbaf0",
+  "checksum": "cdfe33965f5d91989e19f11d09418df9",
   "room": {
     "id": 29130,
     "title": [
@@ -14,16 +14,19 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28909": "out",
-      "30716": "/rooms/29130/wayto/stringproc-30716.rb"
+      "30716": []
     },
     "timeto": {
       "28909": 0.2,
-      "30716": "/rooms/29130/timeto/stringproc-30716.rb"
+      "30716": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "fletcher",
-      "urchin-access",
-      "urchin guide fletcher"
+      "no forageables",
+      "urchin guide fletcher",
+      "urchin-access"
     ],
     "uid": [
       7118380

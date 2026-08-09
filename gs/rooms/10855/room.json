@@ -1,5 +1,5 @@
 {
-  "checksum": "004aec15854efa2461756be7b8983c77",
+  "checksum": "e1bf9643655140f0b3fba593edc3e54a",
   "room": {
     "id": 10855,
     "title": [
@@ -17,21 +17,23 @@
     "terrain": "hard, flat",
     "wayto": {
       "10856": "southeast",
-      "30711": "/rooms/10855/wayto/stringproc-30711.rb"
+      "30711": []
     },
     "timeto": {
       "10856": 0.2,
-      "30711": "/rooms/10855/timeto/stringproc-30711.rb"
+      "30711": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "node",
-      "supernode",
-      "sanctuary",
-      "urchin-access",
-      "urchin guide sanctuary",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "meta:forage-sensed:day:2022-09",
+      "no forageables",
+      "node",
+      "sanctuary",
+      "supernode",
+      "urchin guide sanctuary",
+      "urchin-access"
     ],
     "uid": [
       2101400

@@ -1,5 +1,5 @@
 {
-  "checksum": "a3e86557f341d24edf4738c03ea6b364",
+  "checksum": "e5d4577651406262620b161525bbc6cb",
   "room": {
     "id": 11461,
     "title": [
@@ -13,15 +13,87 @@
     ],
     "location": "Maelstrom Bay",
     "wayto": {
-      "11439": "/rooms/11461/wayto/stringproc-11439.rb",
-      "11456": "/rooms/11461/wayto/stringproc-11456.rb",
-      "11457": "/rooms/11461/wayto/stringproc-11457.rb",
-      "11458": "/rooms/11461/wayto/stringproc-11458.rb",
-      "11460": "/rooms/11461/wayto/stringproc-11460.rb",
-      "11462": "/rooms/11461/wayto/stringproc-11462.rb",
-      "11465": "/rooms/11461/wayto/stringproc-11465.rb",
-      "11466": "/rooms/11461/wayto/stringproc-11466.rb",
-      "16060": "/rooms/11461/wayto/stringproc-16060.rb"
+      "11439": [
+        {
+          "do": "move",
+          "cmd": "swim up"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11456": [
+        {
+          "do": "move",
+          "cmd": "swim south"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11457": [
+        {
+          "do": "move",
+          "cmd": "swim southeast"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11458": [
+        {
+          "do": "move",
+          "cmd": "swim east"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11460": [
+        {
+          "do": "move",
+          "cmd": "swim down"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11462": [
+        {
+          "do": "move",
+          "cmd": "swim west"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11465": [
+        {
+          "do": "move",
+          "cmd": "swim northwest"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11466": [
+        {
+          "do": "move",
+          "cmd": "swim north"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "16060": [
+        {
+          "do": "move",
+          "cmd": "swim northeast"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "11439": 3,

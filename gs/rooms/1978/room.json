@@ -1,5 +1,5 @@
 {
-  "checksum": "8ac747439dab81961e44995608a297fc",
+  "checksum": "78f7f065534e359829349a0ada36956d",
   "room": {
     "id": 1978,
     "title": [
@@ -18,19 +18,21 @@
     "wayto": {
       "1962": "west",
       "1979": "go marble gate",
-      "30715": "/rooms/1978/wayto/stringproc-30715.rb"
+      "30715": []
     },
     "timeto": {
       "1962": 0.2,
       "1979": 0.2,
-      "30715": "/rooms/1978/timeto/stringproc-30715.rb"
+      "30715": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin guide weddinghall",
-      "urchin-access",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
+      "meta:forage-sensed:day:2023-01",
+      "no forageables",
+      "urchin guide weddinghall",
+      "urchin-access"
     ],
     "uid": [
       3001011

@@ -1,5 +1,5 @@
 {
-  "checksum": "1271e57c1334a8a54438bcba22f08898",
+  "checksum": "bac9fdc2b63bf3d5221d3c5de3f8c227",
   "room": {
     "id": 16353,
     "title": [
@@ -14,7 +14,19 @@
     "location": "Warcamp",
     "wayto": {
       "16357": "south",
-      "16714": "/rooms/16353/wayto/stringproc-16714.rb"
+      "16714": [
+        {
+          "do": "send",
+          "cmd": "open hut"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "move",
+          "cmd": "go hut"
+        }
+      ]
     },
     "timeto": {
       "16357": 0.2,

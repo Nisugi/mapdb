@@ -1,5 +1,5 @@
 {
-  "checksum": "104c241602cdc3ab5c37f239f02138bd",
+  "checksum": "8da5f064788c2b6378119dd5bd17ad00",
   "room": {
     "id": 18243,
     "title": [
@@ -18,7 +18,10 @@
       "17520": "southwest",
       "18223": "southeast",
       "18245": "go bridge",
-      "22550": "/rooms/18243/wayto/stringproc-22550.rb"
+      "22550": {
+        "strategy": "unique_crossing",
+        "name": "crossing_18243_22550"
+      }
     },
     "timeto": {
       "17410": 0.2,

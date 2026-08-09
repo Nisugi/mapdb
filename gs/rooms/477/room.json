@@ -1,5 +1,5 @@
 {
-  "checksum": "004ee0e23a26083829a624913715f1bc",
+  "checksum": "b522ad8fe2ecd91362cf5668e78864c6",
   "room": {
     "id": 477,
     "title": [
@@ -17,24 +17,26 @@
     "wayto": {
       "410": "go steps",
       "13500": "go arch",
-      "30708": "/rooms/477/wayto/stringproc-30708.rb"
+      "30708": []
     },
     "timeto": {
       "410": 0.2,
       "13500": 0.2,
-      "30708": "/rooms/477/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "node",
-      "supernode",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:mapcategory:Wehnimer's Landing",
       "meta:mapname:Wehnimer's Landing - Hearthstone Manor",
       "meta:mapshortname:Hearthstone Manor",
-      "meta:mapcategory:Wehnimer's Landing",
-      "urchin-access",
-      "urchin guide hearthstone",
       "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
+      "node",
+      "supernode",
+      "urchin guide hearthstone",
+      "urchin-access"
     ],
     "uid": [
       397002

@@ -1,5 +1,5 @@
 {
-  "checksum": "4d4f4b5a38a03804cfa1970e0b23bc0d",
+  "checksum": "eb6d4b30d06f01ea5af4572c14a51fce",
   "room": {
     "id": 28382,
     "title": [
@@ -14,11 +14,26 @@
     "location": "the dark woods",
     "wayto": {
       "28354": "northwest",
-      "28383": "/rooms/28382/wayto/stringproc-28383.rb",
-      "28384": "/rooms/28382/wayto/stringproc-28384.rb",
-      "28385": "/rooms/28382/wayto/stringproc-28385.rb",
-      "28386": "/rooms/28382/wayto/stringproc-28386.rb",
-      "28387": "/rooms/28382/wayto/stringproc-28387.rb"
+      "28383": {
+        "strategy": "table_join",
+        "table": "dusk"
+      },
+      "28384": {
+        "strategy": "table_join",
+        "table": "moonbeam"
+      },
+      "28385": {
+        "strategy": "table_join",
+        "table": "midnight"
+      },
+      "28386": {
+        "strategy": "table_join",
+        "table": "stardust"
+      },
+      "28387": {
+        "strategy": "table_join",
+        "table": "dawn"
+      }
     },
     "timeto": {
       "28354": 0.2,

@@ -1,5 +1,5 @@
 {
-  "checksum": "dfc9a848f5f67f5c0550081d144aa065",
+  "checksum": "c6d142877ebbf6fc0aa31921a6a13fb0",
   "room": {
     "id": 20777,
     "title": [
@@ -18,7 +18,7 @@
       "20779": "go doorway",
       "20780": "go arch",
       "20781": "go screen",
-      "30715": "/rooms/20777/wayto/stringproc-30715.rb"
+      "30715": []
     },
     "timeto": {
       "20776": 0.2,
@@ -26,15 +26,17 @@
       "20779": 0.2,
       "20780": 0.2,
       "20781": 0.2,
-      "30715": "/rooms/20777/timeto/stringproc-30715.rb"
+      "30715": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "premium teleportation jewelry",
+      "meta:premium",
       "node",
       "premium supernode",
+      "premium teleportation jewelry",
       "supernode",
-      "urchin-access",
-      "meta:premium"
+      "urchin-access"
     ],
     "uid": [
       4002203

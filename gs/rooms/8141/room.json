@@ -1,5 +1,5 @@
 {
-  "checksum": "e2b582d9139fcbe2215e924261584210",
+  "checksum": "eb432c45a8f4328532d4b543b1e27503",
   "room": {
     "id": 8141,
     "title": [
@@ -15,7 +15,35 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "7905": "/rooms/8141/wayto/stringproc-7905.rb",
+      "7905": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "kneel"
+            }
+          ],
+          "until": "status:kneeling"
+        },
+        {
+          "do": "send",
+          "cmd": "crawl crack"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "repeat",
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        }
+      ],
       "8140": "north"
     },
     "timeto": {
@@ -23,20 +51,20 @@
       "8140": 0.2
     },
     "tags": [
-      "daggerstalk mushroom",
-      "genkew mushroom",
-      "withered black mushroom",
       "blue trafel mushroom",
-      "flathead mushroom",
-      "soft white mushroom",
-      "cave moss",
-      "pepperthorn root",
-      "murdroot",
-      "ironfern root",
       "bolmara lichen",
+      "cave moss",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "ironfern root",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "pepperthorn root",
+      "soft mushroom",
       "wingstem root",
-      "meta:forage-sensed:day:2023-02"
+      "withered mushroom"
     ],
     "uid": [
       4003010

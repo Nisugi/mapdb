@@ -1,5 +1,5 @@
 {
-  "checksum": "fe22418c07411bad00ae849b4dc88272",
+  "checksum": "d00a39fce743e5f7a1218f9a32bc1f4c",
   "room": {
     "id": 2506,
     "title": [
@@ -15,7 +15,30 @@
     "climate": "snowy, arctic",
     "terrain": "coniferous forest",
     "wayto": {
-      "2505": "/rooms/2506/wayto/stringproc-2505.rb",
+      "2505": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "north"
+        }
+      ],
       "2507": "go trail"
     },
     "timeto": {
@@ -23,47 +46,47 @@
       "2507": 0.2
     },
     "tags": [
-      "rockberry",
-      "handful of pinenuts",
-      "frostflower",
-      "lingonberry",
-      "tkaro root",
-      "pine cone",
-      "bright red teaberry",
-      "sticks",
-      "sassafras leaf",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "iceblossoms",
-      "snow lily",
-      "winter rose",
-      "wintergreen leaf",
-      "broken twig",
-      "pine needles",
-      "frostweed",
-      "snowberries",
-      "pale thornberry",
-      "red winterberry",
-      "small loganberry",
-      "tree bark",
-      "crowberry",
-      "orange rowanberry",
-      "ironfern root",
-      "twisted twig",
-      "slender twig",
       "bolmara lichen",
+      "bright red teaberry",
+      "broken twig",
+      "crowberry",
+      "frostflower",
+      "frostweed",
+      "handful of pinenuts",
+      "iceblossoms",
+      "ironfern root",
+      "lingonberry",
       "meta:forage-sensed",
-      "sunburst blossom",
-      "wintercrisp apple",
-      "white crallisberry",
-      "silver iceblossom",
+      "meta:forage-sensed:day:2026-03",
+      "orange rowanberry",
+      "pale thornberry",
+      "pennyroyal stem",
+      "pine cone",
+      "pine needles",
       "pine twig",
-      "spruce twig",
+      "red winterberry",
       "resting poppy",
+      "rockberry",
+      "sassafras leaf",
+      "silver iceblossom",
+      "slender twig",
+      "small loganberry",
+      "snow lily",
+      "snowberries",
+      "spruce twig",
+      "sticks",
+      "sunburst blossom",
+      "sweetfern stalk",
       "thorny wintersbite",
-      "meta:forage-sensed:day:2025-02"
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "white crallisberry",
+      "winter rose",
+      "wintercrisp apple",
+      "wintergreen leaf"
     ],
     "uid": [
       4044210

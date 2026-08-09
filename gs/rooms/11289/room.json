@@ -1,5 +1,5 @@
 {
-  "checksum": "06280b6b8680349136eb3344bd208bee",
+  "checksum": "afa5c4b8bc8bc465df89f73d68aeebfc",
   "room": {
     "id": 11289,
     "title": [
@@ -16,7 +16,16 @@
     "terrain": "hard, flat",
     "wayto": {
       "11288": "out",
-      "11290": "/rooms/11289/wayto/stringproc-11290.rb"
+      "11290": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go trapdoor"
+        }
+      ]
     },
     "timeto": {
       "11288": 0.2,

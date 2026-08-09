@@ -1,5 +1,5 @@
 {
-  "checksum": "f28e53bf4f428c6297cc894735515799",
+  "checksum": "3a79e9d0dfb2ad91ca16bb7b17baf9e1",
   "room": {
     "id": 6203,
     "title": [
@@ -15,14 +15,126 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "6202": "/rooms/6203/wayto/stringproc-6202.rb",
-      "6204": "/rooms/6203/wayto/stringproc-6204.rb",
-      "6205": "/rooms/6203/wayto/stringproc-6205.rb",
-      "6206": "/rooms/6203/wayto/stringproc-6206.rb",
-      "6207": "/rooms/6203/wayto/stringproc-6207.rb",
-      "6208": "/rooms/6203/wayto/stringproc-6208.rb",
-      "6209": "/rooms/6203/wayto/stringproc-6209.rb",
-      "6210": "/rooms/6203/wayto/stringproc-6210.rb"
+      "6202": {
+        "strategy": "shifting_maze",
+        "target": 6202,
+        "rooms": [
+          6210,
+          6208,
+          6203,
+          6205,
+          6204,
+          6207,
+          6206,
+          6209,
+          6202
+        ]
+      },
+      "6204": {
+        "strategy": "shifting_maze",
+        "target": 6204,
+        "rooms": [
+          6210,
+          6208,
+          6203,
+          6205,
+          6204,
+          6207,
+          6206,
+          6209,
+          6202
+        ]
+      },
+      "6205": {
+        "strategy": "shifting_maze",
+        "target": 6205,
+        "rooms": [
+          6210,
+          6208,
+          6203,
+          6205,
+          6204,
+          6207,
+          6206,
+          6209,
+          6202
+        ]
+      },
+      "6206": {
+        "strategy": "shifting_maze",
+        "target": 6206,
+        "rooms": [
+          6210,
+          6208,
+          6203,
+          6205,
+          6204,
+          6207,
+          6206,
+          6209,
+          6202
+        ]
+      },
+      "6207": {
+        "strategy": "shifting_maze",
+        "target": 6207,
+        "rooms": [
+          6210,
+          6208,
+          6203,
+          6205,
+          6204,
+          6207,
+          6206,
+          6209,
+          6202
+        ]
+      },
+      "6208": {
+        "strategy": "shifting_maze",
+        "target": 6208,
+        "rooms": [
+          6210,
+          6208,
+          6203,
+          6205,
+          6204,
+          6207,
+          6206,
+          6209,
+          6202
+        ]
+      },
+      "6209": {
+        "strategy": "shifting_maze",
+        "target": 6209,
+        "rooms": [
+          6210,
+          6208,
+          6203,
+          6205,
+          6204,
+          6207,
+          6206,
+          6209,
+          6202
+        ]
+      },
+      "6210": {
+        "strategy": "shifting_maze",
+        "target": 6210,
+        "rooms": [
+          6210,
+          6208,
+          6203,
+          6205,
+          6204,
+          6207,
+          6206,
+          6209,
+          6202
+        ]
+      }
     },
     "timeto": {
       "6202": 0.5,
@@ -35,18 +147,20 @@
       "6210": 0.5
     },
     "tags": [
-      "withered black mushroom",
-      "black hook mushroom",
-      "soft white mushroom",
-      "white hook mushroom",
+      "black mushroom",
       "blue trafel mushroom",
-      "cave moss",
-      "murdroot",
-      "ironfern root",
       "bolmara lichen",
+      "cave moss",
+      "ironfern root",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2025-06",
+      "murdroot",
+      "red mushroom",
+      "soft mushroom",
+      "white hook mushroom",
       "wingstem root",
-      "meta:forage-sensed:night:2025-06"
+      "withered mushroom"
     ],
     "uid": [
       2167072

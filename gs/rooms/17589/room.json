@@ -1,5 +1,5 @@
 {
-  "checksum": "334eeebb556a380743921bb4813319f1",
+  "checksum": "f79e3d679c5ea6d25b1ffe59ac95a659",
   "room": {
     "id": 17589,
     "title": [
@@ -17,24 +17,26 @@
     "wayto": {
       "17588": "southeast",
       "17590": "west",
-      "30718": "/rooms/17589/wayto/stringproc-30718.rb"
+      "30718": []
     },
     "timeto": {
       "17588": 0.2,
       "17590": 0.2,
-      "30718": "/rooms/17589/timeto/stringproc-30718.rb"
+      "30718": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "locksmith pool",
-      "meta:boxpool:table:elegant mahogany table",
+      "locksmithpool",
       "meta:boxpool:npc:pudgy forest gnome attendant",
+      "meta:boxpool:table:elegant mahogany table",
+      "meta:trashcan:splintered oak barrel",
+      "no forageables",
       "node",
       "supernode",
       "urchin guide locksmithpool",
-      "urchin-access",
-      "locksmithpool",
-      "meta:trashcan:splintered oak barrel",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       3216012

@@ -1,5 +1,5 @@
 {
-  "checksum": "bfda74fb47e69b12672ba124f2e56f69",
+  "checksum": "2769e0992f4aeed63db18d20de4f5422",
   "room": {
     "id": 3492,
     "title": [
@@ -21,7 +21,24 @@
     "wayto": {
       "3489": "east",
       "3493": "west",
-      "10329": "/rooms/3492/wayto/stringproc-10329.rb"
+      "10329": [
+        {
+          "do": "if",
+          "when": "platinum",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "go furrier"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "go warehouse"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "3489": 0.2,
@@ -30,8 +47,8 @@
     },
     "tags": [
       "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
     ],
     "uid": [
       14100008

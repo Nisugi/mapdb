@@ -1,1 +1,0 @@
-2.times{fput "event transport duskruin"};UserVars.mapdb_duskruin_origin = 2426;

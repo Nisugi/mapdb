@@ -1,5 +1,5 @@
 {
-  "checksum": "bcaaa88ecb0a6fbd4303d1db08fbe209",
+  "checksum": "17e1426a796bf8180b9c09c42a360953",
   "room": {
     "id": 16849,
     "title": [
@@ -16,13 +16,31 @@
     "terrain": "none",
     "wayto": {
       "9481": "go arch",
-      "24376": "/rooms/16849/wayto/stringproc-24376.rb",
-      "24377": "/rooms/16849/wayto/stringproc-24377.rb",
-      "24378": "/rooms/16849/wayto/stringproc-24378.rb",
-      "24379": "/rooms/16849/wayto/stringproc-24379.rb",
-      "24380": "/rooms/16849/wayto/stringproc-24380.rb",
-      "24381": "/rooms/16849/wayto/stringproc-24381.rb",
-      "30712": "/rooms/16849/wayto/stringproc-30712.rb"
+      "24376": {
+        "strategy": "table_join",
+        "table": "Lilting Lute"
+      },
+      "24377": {
+        "strategy": "table_join",
+        "table": "Suffering Shawm"
+      },
+      "24378": {
+        "strategy": "table_join",
+        "table": "Meandering Mandolin"
+      },
+      "24379": {
+        "strategy": "table_join",
+        "table": "Flighty Flute"
+      },
+      "24380": {
+        "strategy": "table_join",
+        "table": "Crooning Crumhorn"
+      },
+      "24381": {
+        "strategy": "table_join",
+        "table": "Prickly Piccolo"
+      },
+      "30712": []
     },
     "timeto": {
       "9481": 0.2,
@@ -32,14 +50,16 @@
       "24379": 0.2,
       "24380": 0.2,
       "24381": 0.2,
-      "30712": "/rooms/16849/timeto/stringproc-30712.rb"
+      "30712": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "no forageables",
       "table",
-      "urchin-access",
-      "urchin guide tables",
       "tables",
-      "no forageables"
+      "urchin guide tables",
+      "urchin-access"
     ],
     "uid": [
       13010013

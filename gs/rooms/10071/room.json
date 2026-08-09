@@ -1,5 +1,5 @@
 {
-  "checksum": "2da02b84d744ea131453a5e6f77dfd33",
+  "checksum": "11d4498a0c27e74fd64ba04a6209d528",
   "room": {
     "id": 10071,
     "title": [
@@ -15,11 +15,26 @@
     "wayto": {
       "680": "out",
       "15607": "go bar",
-      "18590": "/rooms/10071/wayto/stringproc-18590.rb",
-      "18592": "/rooms/10071/wayto/stringproc-18592.rb",
-      "18593": "/rooms/10071/wayto/stringproc-18593.rb",
-      "18594": "/rooms/10071/wayto/stringproc-18594.rb",
-      "18595": "/rooms/10071/wayto/stringproc-18595.rb"
+      "18590": {
+        "strategy": "table_join",
+        "table": "mermaid"
+      },
+      "18592": {
+        "strategy": "table_join",
+        "table": "mystic"
+      },
+      "18593": {
+        "strategy": "table_join",
+        "table": "pegleg"
+      },
+      "18594": {
+        "strategy": "table_join",
+        "table": "Ant Hill"
+      },
+      "18595": {
+        "strategy": "table_join",
+        "table": "Jeweled Dagger"
+      }
     },
     "timeto": {
       "680": 0.2,
@@ -31,6 +46,7 @@
       "18595": 0.2
     },
     "tags": [
+      "no forageables",
       "table"
     ],
     "uid": [

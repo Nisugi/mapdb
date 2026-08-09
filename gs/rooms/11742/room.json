@@ -1,5 +1,5 @@
 {
-  "checksum": "f6616d698bfc7b557d8005f75e8dc9d9",
+  "checksum": "9d33dddc799a2656c9c1559c20971e9b",
   "room": {
     "id": 11742,
     "title": [
@@ -14,15 +14,26 @@
     "location": "the Marsh Keep",
     "wayto": {
       "11741": "out",
-      "11747": "/rooms/11742/wayto/stringproc-11747.rb"
+      "11747": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "swim pool"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ]
     },
     "timeto": {
       "11741": 0.2,
       "11747": 30
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       376076

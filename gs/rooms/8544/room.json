@@ -1,5 +1,5 @@
 {
-  "checksum": "ce8d19339f7fb6bbce14d8515fbf8ae0",
+  "checksum": "cda31f04361663bf4c40e6b29b52f3da",
   "room": {
     "id": 8544,
     "title": [
@@ -18,7 +18,29 @@
       "8541": "northwest",
       "8543": "north",
       "8545": "west",
-      "8546": "/rooms/8544/wayto/stringproc-8546.rb"
+      "8546": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "search"
+            },
+            {
+              "do": "sleep",
+              "seconds": 1
+            },
+            {
+              "do": "wait_rt"
+            },
+            {
+              "do": "move",
+              "cmd": "go crevice"
+            }
+          ],
+          "until": "not:path:nw"
+        }
+      ]
     },
     "timeto": {
       "8541": 0.2,
@@ -27,19 +49,20 @@
       "8546": 3.2
     },
     "tags": [
-      "sprig of larkspur",
-      "moonlight cactus-bloom",
-      "stalk of chicory",
-      "cothinar flower",
-      "wintergreen leaf",
       "bright red teaberry",
       "broken twig",
+      "cothinar flower",
+      "handful of currants",
       "ironfern root",
-      "wingstem root",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-11",
+      "moonlight cactus-bloom",
+      "sprig of larkspur",
+      "stalk of chicory",
       "sunburst blossom",
-      "meta:forage-sensed:day:2023-02",
-      "meta:forage-sensed:night:2024-11"
+      "wingstem root",
+      "wintergreen leaf"
     ],
     "uid": [
       10006

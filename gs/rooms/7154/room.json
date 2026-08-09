@@ -1,5 +1,5 @@
 {
-  "checksum": "2d88b852994ef31f326a633173672940",
+  "checksum": "49d16666cb0b457f1aedb4403ddb9e90",
   "room": {
     "id": 7154,
     "title": [
@@ -15,7 +15,36 @@
     "climate": "cold, dry",
     "terrain": "hard, flat",
     "wayto": {
-      "7036": "/rooms/7154/wayto/stringproc-7036.rb"
+      "7036": [
+        {
+          "do": "try_move",
+          "cmd": "go door",
+          "check": "move_result",
+          "fallback": [
+            {
+              "do": "send",
+              "cmd": "kneel"
+            },
+            {
+              "do": "send",
+              "cmd": "touch jackal"
+            },
+            {
+              "do": "await",
+              "for": "the black mein door has opened",
+              "timeout": 30
+            },
+            {
+              "do": "send",
+              "cmd": "stand"
+            },
+            {
+              "do": "move",
+              "cmd": "go door"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "7036": 20
@@ -23,8 +52,8 @@
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
     ],
     "uid": [
       45135

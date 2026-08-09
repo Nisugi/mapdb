@@ -1,5 +1,5 @@
 {
-  "checksum": "a434db98b6e129734a054f878df8bd74",
+  "checksum": "d7be8ef1c7077db3494fdc30f6969fd4",
   "room": {
     "id": 6486,
     "title": [
@@ -16,17 +16,25 @@
     "terrain": "none",
     "wayto": {
       "6485": "east",
-      "6487": "/rooms/6486/wayto/stringproc-6487.rb"
+      "6487": {
+        "strategy": "unique_crossing",
+        "name": "crossing_6486_6487"
+      }
     },
     "timeto": {
       "6485": 0.2,
-      "6487": "/rooms/6486/timeto/stringproc-6487.rb"
+      "6487": {
+        "cost": 20,
+        "requires": [
+          "spell_known:920"
+        ]
+      }
     },
     "tags": [
-      "murdroot",
       "meta:forage-sensed",
-      "wingstem root",
-      "meta:forage-sensed:day:2025-02"
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "wingstem root"
     ],
     "uid": [
       95155

@@ -1,5 +1,5 @@
 {
-  "checksum": "e79f108dc9318270e5928592086bda51",
+  "checksum": "37886de422c3ac1fa4dcba0736c203f5",
   "room": {
     "id": 12206,
     "title": [
@@ -16,7 +16,57 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "2579": "/rooms/12206/wayto/stringproc-2579.rb",
+      "2579": {
+        "strategy": "patrol_search",
+        "rooms": [
+          12162,
+          12207,
+          12170,
+          12209,
+          12215,
+          12210,
+          12159,
+          12165,
+          12206,
+          12173,
+          12208,
+          null,
+          12160,
+          12211
+        ],
+        "dirs": [
+          "northwest",
+          "north",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "north",
+          "northwest",
+          "west",
+          "east",
+          "northeast",
+          "northwest",
+          "northeast"
+        ],
+        "objects": [
+          "thread"
+        ],
+        "enter": [
+          {
+            "do": "move",
+            "cmd": "climb thread"
+          },
+          {
+            "do": "wait_rt"
+          },
+          {
+            "do": "send",
+            "cmd": "stand"
+          }
+        ]
+      },
       "12160": "east",
       "12165": "south",
       "12173": "northwest"
@@ -28,15 +78,15 @@
       "12173": 0.2
     },
     "tags": [
+      "congealed slime",
+      "discolored fleshbinder bud",
+      "fleshsore bulb",
+      "mass of congealed slime",
+      "meta:forage-sensed",
+      "oozing fleshsore bulb",
       "rotting bile green fleshbulb",
       "twisted black mawflower",
-      "discolored fleshbinder bud",
-      "oozing fleshsore bulb",
-      "fleshsore bulb",
-      "withered deathblossom",
-      "mass of congealed slime",
-      "congealed slime",
-      "meta:forage-sensed"
+      "withered deathblossom"
     ],
     "uid": [
       4570012

@@ -1,5 +1,5 @@
 {
-  "checksum": "ed3a67b552495f6e62768e4360ece22e",
+  "checksum": "40b1dcaab0f69ac8ca4231f085b521f7",
   "room": {
     "id": 17600,
     "title": [
@@ -13,19 +13,52 @@
     ],
     "location": "the Western Harbor",
     "wayto": {
-      "13663": "/rooms/17600/wayto/stringproc-13663.rb",
-      "13664": "/rooms/17600/wayto/stringproc-13664.rb",
-      "15154": "/rooms/17600/wayto/stringproc-15154.rb",
-      "15527": "/rooms/17600/wayto/stringproc-15527.rb",
+      "13663": {
+        "strategy": "table_join",
+        "table": "Nautilus"
+      },
+      "13664": {
+        "strategy": "table_join",
+        "table": "Leaping Dolphin"
+      },
+      "15154": {
+        "strategy": "table_join",
+        "table": "Giant Sea Turtle"
+      },
+      "15527": {
+        "strategy": "table_join",
+        "table": "Seaside"
+      },
       "16061": "out",
-      "16698": "/rooms/17600/wayto/stringproc-16698.rb",
-      "17346": "/rooms/17600/wayto/stringproc-17346.rb",
-      "17386": "/rooms/17600/wayto/stringproc-17386.rb",
-      "17408": "/rooms/17600/wayto/stringproc-17408.rb",
-      "17413": "/rooms/17600/wayto/stringproc-17413.rb",
+      "16698": {
+        "strategy": "table_join",
+        "table": "Sunken Shipwreck"
+      },
+      "17346": {
+        "strategy": "table_join",
+        "table": "Dozing Seahorse"
+      },
+      "17386": {
+        "strategy": "table_join",
+        "table": "Tidepool"
+      },
+      "17408": {
+        "strategy": "table_join",
+        "table": "Odd-shaped Driftwood"
+      },
+      "17413": {
+        "strategy": "table_join",
+        "table": "Braided Seaweed Rope"
+      },
       "17601": "climb staircase",
-      "17888": "/rooms/17600/wayto/stringproc-17888.rb",
-      "18684": "/rooms/17600/wayto/stringproc-18684.rb"
+      "17888": {
+        "strategy": "table_join",
+        "table": "Decrepit Captain's"
+      },
+      "18684": {
+        "strategy": "table_join",
+        "table": "Broken Ship's Door"
+      }
     },
     "timeto": {
       "13663": 0.2,

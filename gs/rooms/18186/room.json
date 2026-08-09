@@ -1,5 +1,5 @@
 {
-  "checksum": "cb284d3fcc59c739d32f4be2ea8c8f31",
+  "checksum": "e7736b1fe8c04a32e0a84f1211e68be7",
   "room": {
     "id": 18186,
     "title": [
@@ -15,9 +15,15 @@
     "climate": "hot, damp",
     "terrain": "hard, flat",
     "wayto": {
-      "451": "/rooms/18186/wayto/stringproc-451.rb",
+      "451": {
+        "strategy": "unique_crossing",
+        "name": "crossing_18186_451"
+      },
       "18185": "go shaft",
-      "18187": "/rooms/18186/wayto/stringproc-18187.rb"
+      "18187": {
+        "strategy": "unique_crossing",
+        "name": "crossing_18186_18187"
+      }
     },
     "timeto": {
       "451": 0.2,

@@ -1,5 +1,5 @@
 {
-  "checksum": "9d86df130344d010edfd20047d3d9f70",
+  "checksum": "5245821ce38c9811421c6a7f3c077eb6",
   "room": {
     "id": 2521,
     "title": [
@@ -15,31 +15,77 @@
     "climate": "glacial",
     "terrain": "mountainous",
     "wayto": {
-      "2520": "/rooms/2521/wayto/stringproc-2520.rb",
-      "2522": "/rooms/2521/wayto/stringproc-2522.rb"
+      "2520": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "northeast"
+        }
+      ],
+      "2522": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        }
+      ]
     },
     "timeto": {
       "2520": 0.2,
       "2522": 0.2
     },
     "tags": [
-      "small loganberry",
-      "sassafras leaf",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "winter rose",
       "arctic moss",
       "calamintha blossom",
-      "snowberries",
-      "pale thornberry",
-      "red winterberry",
       "ironfern root",
       "meta:forage-sensed",
-      "sunburst blossom",
+      "meta:forage-sensed:day:2026-03",
+      "pale thornberry",
+      "pennyroyal stem",
+      "red winterberry",
+      "sassafras leaf",
       "silver iceblossom",
-      "meta:forage-sensed:day:2025-02"
+      "small loganberry",
+      "snowberries",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "winter rose"
     ],
     "uid": [
       4044116

@@ -1,5 +1,5 @@
 {
-  "checksum": "a17bf6d2e417e1bab0e7859c0b985f17",
+  "checksum": "8b2c733cac68a6bd339219074539d804",
   "room": {
     "id": 25306,
     "title": [
@@ -14,17 +14,19 @@
     "location": "Mist Harbor",
     "wayto": {
       "3638": "out",
-      "30718": "/rooms/25306/wayto/stringproc-30718.rb"
+      "30718": []
     },
     "timeto": {
       "3638": 0.2,
-      "30718": "/rooms/25306/timeto/stringproc-30718.rb"
+      "30718": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "weaponshop",
-      "urchin-access",
       "urchin guide weapons",
-      "weapons"
+      "urchin-access",
+      "weapons",
+      "weaponshop"
     ],
     "uid": [
       3209307

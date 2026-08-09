@@ -1,5 +1,5 @@
 {
-  "checksum": "f7c1fdab635ee6d9dc5b12a563557d0c",
+  "checksum": "11e844bcb06c16d29704ecd048ee4fb2",
   "room": {
     "id": 12382,
     "title": [
@@ -17,16 +17,27 @@
     "terrain": "hard, flat",
     "wayto": {
       "1988": "go path",
-      "12383": "/rooms/12382/wayto/stringproc-12383.rb"
+      "12383": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb rope"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ]
     },
     "timeto": {
       "1988": 0.2,
       "12383": 0.6
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
+      "meta:forage-sensed:day:2023-01",
+      "no forageables"
     ],
     "uid": [
       3008010

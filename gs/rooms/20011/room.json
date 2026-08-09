@@ -1,5 +1,5 @@
 {
-  "checksum": "5361f3254a2fbb32313c24fa0c801129",
+  "checksum": "2613d574175bb9ed051256bc664ae8f8",
   "room": {
     "id": 20011,
     "title": [
@@ -19,11 +19,11 @@
       "20008": 0.2
     },
     "tags": [
-      "no-auto-map",
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
-      "meta:trap"
+      "meta:trap",
+      "no forageables",
+      "no-auto-map"
     ],
     "uid": [
       11200

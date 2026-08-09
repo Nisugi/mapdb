@@ -1,5 +1,5 @@
 {
-  "checksum": "e69edbcd4e79a51450a98314c6bc563f",
+  "checksum": "2048487a737b9e6be85a3e37bfb0f4e2",
   "room": {
     "id": 18677,
     "title": [
@@ -16,53 +16,58 @@
     "terrain": "riparian",
     "wayto": {
       "11006": "go path",
-      "11749": "/rooms/18677/wayto/stringproc-11749.rb",
+      "11749": {
+        "strategy": "unique_crossing",
+        "name": "crossing_18677_11749"
+      },
       "18678": "go shack",
-      "30711": "/rooms/18677/wayto/stringproc-30711.rb"
+      "30711": []
     },
     "timeto": {
       "11006": 0.2,
       "11749": 300,
       "18678": 0.2,
-      "30711": "/rooms/18677/timeto/stringproc-30711.rb"
+      "30711": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
       "acantha leaf",
-      "calamia fruit",
       "aloeas stem",
-      "soft white mushroom",
-      "withered black mushroom",
-      "striped heart mushroom",
+      "banana leaf",
+      "blood orange",
+      "blue trafel mushroom",
+      "bright orange",
+      "bright red cranberry",
+      "bright yellow plantain",
+      "calamia fruit",
+      "cassava root",
+      "coffee cherries",
+      "cone-shaped pineapple",
       "daggerstalk mushroom",
       "flathead mushroom",
       "genkew mushroom",
-      "blue trafel mushroom",
-      "water chestnut",
-      "stalk of cattail",
-      "stalk of bluebells",
-      "wild chokecherry",
-      "bright red cranberry",
+      "golden flax fronds",
+      "grapefruit",
       "kylan berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
       "murdroot",
-      "wavepetal blossom",
+      "round yuzu",
+      "small green quenepas",
+      "soft mushroom",
+      "stalk of bluebells",
+      "stalk of cattail",
+      "striped heart mushroom",
       "sunburst blossom",
       "talneo root",
-      "banana leaf",
-      "meta:forage-sensed",
-      "golden flax fronds",
-      "cassava root",
-      "small green quenepas",
+      "urchin-access",
       "vibrant green plantain",
-      "bright yellow plantain",
-      "cone-shaped pineapple",
-      "bright orange",
-      "blood orange",
-      "grapefruit",
-      "coffee cherries",
-      "round yuzu",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
+      "water chestnut",
+      "wavepetal blossom",
+      "wild chokecherry",
+      "withered mushroom"
     ],
     "uid": [
       2101039

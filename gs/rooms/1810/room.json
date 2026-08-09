@@ -1,5 +1,5 @@
 {
-  "checksum": "7723dce0bc6f607c6e6de1d0c3c444ef",
+  "checksum": "22b4c5bc6e59341a6fd67121287d6520",
   "room": {
     "id": 1810,
     "title": [
@@ -16,10 +16,62 @@
     "climate": "cold, damp",
     "terrain": "deciduous forest",
     "wayto": {
-      "1809": "/rooms/1810/wayto/stringproc-1809.rb",
-      "1811": "/rooms/1810/wayto/stringproc-1811.rb",
-      "9895": "/rooms/1810/wayto/stringproc-9895.rb",
-      "13481": "/rooms/1810/wayto/stringproc-13481.rb"
+      "1809": [
+        {
+          "do": "move",
+          "cmd": "northeast"
+        },
+        {
+          "do": "if",
+          "when": "not:path:nw",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "southeast"
+            }
+          ]
+        }
+      ],
+      "1811": [
+        {
+          "do": "repeat",
+          "until": "not:path:ne",
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "northwest"
+            }
+          ]
+        }
+      ],
+      "9895": [
+        {
+          "do": "repeat",
+          "until": "not:path:se",
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "southeast"
+            }
+          ]
+        }
+      ],
+      "13481": [
+        {
+          "do": "move",
+          "cmd": "northeast"
+        },
+        {
+          "do": "if",
+          "when": "path:nw",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "northwest"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "1809": 0.4,
@@ -28,49 +80,52 @@
       "13481": 0.4
     },
     "tags": [
-      "tkaro root",
-      "blue whortleberry",
-      "blue trafel mushroom",
       "acantha leaf",
-      "wolifrew lichen",
-      "ephlox moss",
-      "sticks",
-      "sassafras leaf",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "soft white mushroom",
-      "withered black mushroom",
-      "wintergreen leaf",
-      "bright red teaberry",
+      "blue trafel mushroom",
+      "blue whortleberry",
       "blueberries",
-      "wild gooseberry",
-      "fiddlehead fern",
-      "broken twig",
-      "stalk of bluebells",
-      "wild pink geranium",
-      "small wild rose",
-      "sprig of wild lilac",
-      "wild chokecherry",
-      "bright red cranberry",
-      "tree bark",
-      "willow twig",
-      "yew twig",
-      "oak twig",
-      "luckbloom blossom",
-      "murdroot",
-      "twisted twig",
-      "slender twig",
       "bolmara lichen",
-      "meta:forage-sensed",
-      "white hook mushroom",
+      "bright red cranberry",
+      "bright red teaberry",
+      "broken twig",
       "brostheras grass",
+      "dwarf bilberry",
+      "dwarf billberry",
+      "ephlox moss",
+      "fiddlehead fern",
+      "golden flax fronds",
+      "luckbloom blossom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2022-11",
       "meta:map:multi-uid",
       "meta:maze",
-      "dwarf billberry",
-      "meta:forage-sensed:day:2023-11"
+      "murdroot",
+      "oak twig",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "slender twig",
+      "soft mushroom",
+      "sprig of wild lilac",
+      "stalk of bluebells",
+      "sticks",
+      "sweetfern stalk",
+      "thanot thorn",
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "white hook mushroom",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild pink geranium",
+      "wild rose",
+      "willow twig",
+      "wintergreen leaf",
+      "withered mushroom",
+      "wolifrew lichen",
+      "yew twig"
     ],
     "uid": [
       13027027,

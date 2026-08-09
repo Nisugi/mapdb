@@ -1,5 +1,5 @@
 {
-  "checksum": "94fdcc0dddc5b40614e4464c7ce310a8",
+  "checksum": "fcaff1685eff1ff387fd5223e3131446",
   "room": {
     "id": 6303,
     "title": [
@@ -16,16 +16,16 @@
     "terrain": "none",
     "wayto": {
       "6302": "northeast",
-      "6304": "/rooms/6303/wayto/stringproc-6304.rb"
+      "6304": "climb roots"
     },
     "timeto": {
       "6302": 0.2,
       "6304": 0.2
     },
     "tags": [
-      "murdroot",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2025-02"
+      "meta:forage-sensed:day:2026-03",
+      "murdroot"
     ],
     "uid": [
       372020

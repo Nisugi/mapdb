@@ -1,5 +1,5 @@
 {
-  "checksum": "9ab175af57c270df9caead4ebeb5d8b1",
+  "checksum": "b6963d2458cbaa1a0d8a082765b4d80e",
   "room": {
     "id": 21386,
     "title": [
@@ -18,7 +18,10 @@
       "20164": "north",
       "20165": "south",
       "20167": "east",
-      "23157": "/rooms/21386/wayto/stringproc-23157.rb"
+      "23157": {
+        "strategy": "unique_crossing",
+        "name": "crossing_21386_23157"
+      }
     },
     "timeto": {
       "20128": 0.2,

@@ -1,5 +1,5 @@
 {
-  "checksum": "09ebd3eb2441fec0818148fb2afbfbb9",
+  "checksum": "738687d7f18533f756225980691166d6",
   "room": {
     "id": 5296,
     "title": [
@@ -16,7 +16,21 @@
     "terrain": "coniferous forest",
     "wayto": {
       "5295": "northwest",
-      "5297": "/rooms/5296/wayto/stringproc-5297.rb",
+      "5297": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb hillock"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ],
       "5298": "south"
     },
     "timeto": {
@@ -25,50 +39,56 @@
       "5298": 0.2
     },
     "tags": [
-      "pine cone",
-      "oxblood lily",
       "acantha leaf",
-      "torban leaf",
-      "calamia fruit",
-      "haphip root",
-      "tkaro root",
-      "sticks",
       "angelica root",
-      "soft white mushroom",
-      "withered black mushroom",
+      "birch bark",
+      "blood orange",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "bright red teaberry",
+      "broken twig",
+      "brostheras grass",
+      "calamia fruit",
+      "coffee cherries",
+      "coppery rain lily",
       "daggerstalk mushroom",
+      "ebony twig",
+      "fiddlehead fern",
       "flathead mushroom",
       "genkew mushroom",
-      "red vornalite mushroom",
-      "blue trafel mushroom",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "wild gooseberry",
-      "fiddlehead fern",
-      "handful of pinenuts",
-      "broken twig",
-      "pine needles",
-      "stalk of bluebells",
       "golden buttercup",
-      "wild pink geranium",
-      "wild chokecherry",
-      "tree bark",
-      "white lily",
-      "pink rain lily",
-      "coppery rain lily",
-      "kylan berry",
-      "white baneberry",
-      "yew twig",
+      "grapefruit",
+      "handful of pinenuts",
+      "haphip root",
       "ironfern root",
-      "sunburst blossom",
-      "twisted twig",
-      "slender twig",
-      "ebony twig",
-      "bolmara lichen",
+      "kylan berry",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "oxblood lily",
+      "pine cone",
+      "pine needles",
+      "pink rain lily",
+      "red vornalite mushroom",
+      "round yuzu",
+      "slender twig",
+      "soft mushroom",
+      "stalk of bluebells",
+      "sticks",
+      "sunburst blossom",
+      "tanik twig",
+      "tkaro root",
+      "torban leaf",
+      "tree bark",
       "trollfear mushroom",
-      "brostheras grass",
-      "meta:forage-sensed:day:2023-02"
+      "twisted twig",
+      "white baneberry",
+      "white lily",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild pink geranium",
+      "wintergreen leaf",
+      "withered mushroom",
+      "yew twig"
     ],
     "uid": [
       4214311

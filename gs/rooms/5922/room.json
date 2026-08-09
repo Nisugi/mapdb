@@ -1,5 +1,5 @@
 {
-  "checksum": "4bec3d3b953bc28b8edac5104967b242",
+  "checksum": "c8c800747f9433d40cda5d5bf3192778",
   "room": {
     "id": 5922,
     "title": [
@@ -16,7 +16,27 @@
     "wayto": {
       "5921": "south",
       "5923": "north",
-      "10476": "/rooms/5922/wayto/stringproc-10476.rb"
+      "10476": [
+        {
+          "do": "move",
+          "cmd": "go niche"
+        },
+        {
+          "do": "if",
+          "when": "in_room:5922",
+          "then": [
+            {
+              "do": "await",
+              "for": "Your eyes have recovered from the poor light within the niche\\.",
+              "timeout": 30
+            },
+            {
+              "do": "move",
+              "cmd": "go niche"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "5921": 0.2,
@@ -24,18 +44,19 @@
       "10476": 0.2
     },
     "tags": [
-      "some bolmara lichen",
+      "black mushroom",
       "blue trafel mushroom",
-      "ironfern root",
-      "white hook mushroom",
-      "soft white mushroom",
-      "withered black mushroom",
-      "black hook mushroom",
-      "murdroot",
       "bolmara lichen",
-      "wingstem root",
+      "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-01",
+      "murdroot",
+      "red mushroom",
+      "soft mushroom",
+      "white hook mushroom",
+      "wingstem root",
+      "withered mushroom"
     ],
     "uid": [
       14009014

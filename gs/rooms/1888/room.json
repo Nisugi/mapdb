@@ -1,5 +1,5 @@
 {
-  "checksum": "ca3af2d19203c88ac737872a7ac18063",
+  "checksum": "1dc06c36969ef79501209a554ea37d67",
   "room": {
     "id": 1888,
     "title": [
@@ -15,18 +15,21 @@
     "wayto": {
       "1884": "go door",
       "1889": "east",
-      "30715": "/rooms/1888/wayto/stringproc-30715.rb"
+      "30715": []
     },
     "timeto": {
       "1884": 0.2,
       "1889": 0.2,
-      "30715": "/rooms/1888/timeto/stringproc-30715.rb"
+      "30715": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "armor",
       "armorshop",
+      "no forageables",
       "urchin guide armor",
-      "urchin-access",
-      "armor"
+      "urchin-access"
     ],
     "uid": [
       3003019

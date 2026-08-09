@@ -1,5 +1,5 @@
 {
-  "checksum": "70b9ef84e298c0bd4bd14b1f94a37ac0",
+  "checksum": "ced4304ab716967a30005f921001e102",
   "room": {
     "id": 6223,
     "title": [
@@ -15,16 +15,176 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "6222": "/rooms/6223/wayto/stringproc-6222.rb",
-      "6224": "/rooms/6223/wayto/stringproc-6224.rb",
-      "6225": "/rooms/6223/wayto/stringproc-6225.rb",
-      "6229": "/rooms/6223/wayto/stringproc-6229.rb",
-      "6230": "/rooms/6223/wayto/stringproc-6230.rb",
-      "6231": "/rooms/6223/wayto/stringproc-6231.rb",
-      "6232": "/rooms/6223/wayto/stringproc-6232.rb",
-      "6233": "/rooms/6223/wayto/stringproc-6233.rb",
-      "6234": "/rooms/6223/wayto/stringproc-6234.rb",
-      "6235": "/rooms/6223/wayto/stringproc-6235.rb"
+      "6222": {
+        "strategy": "shifting_maze",
+        "target": 6222,
+        "rooms": [
+          6225,
+          6234,
+          6235,
+          6223,
+          6230,
+          6233,
+          6229,
+          6224,
+          6232,
+          6231,
+          6222
+        ]
+      },
+      "6224": {
+        "strategy": "shifting_maze",
+        "target": 6224,
+        "rooms": [
+          6225,
+          6234,
+          6235,
+          6223,
+          6230,
+          6233,
+          6229,
+          6224,
+          6232,
+          6231,
+          6222
+        ]
+      },
+      "6225": {
+        "strategy": "shifting_maze",
+        "target": 6225,
+        "rooms": [
+          6225,
+          6234,
+          6235,
+          6223,
+          6230,
+          6233,
+          6229,
+          6224,
+          6232,
+          6231,
+          6222
+        ]
+      },
+      "6229": {
+        "strategy": "shifting_maze",
+        "target": 6229,
+        "rooms": [
+          6225,
+          6234,
+          6235,
+          6223,
+          6230,
+          6233,
+          6229,
+          6224,
+          6232,
+          6231,
+          6222
+        ]
+      },
+      "6230": {
+        "strategy": "shifting_maze",
+        "target": 6230,
+        "rooms": [
+          6225,
+          6234,
+          6235,
+          6223,
+          6230,
+          6233,
+          6229,
+          6224,
+          6232,
+          6231,
+          6222
+        ]
+      },
+      "6231": {
+        "strategy": "shifting_maze",
+        "target": 6231,
+        "rooms": [
+          6225,
+          6234,
+          6235,
+          6223,
+          6230,
+          6233,
+          6229,
+          6224,
+          6232,
+          6231,
+          6222
+        ]
+      },
+      "6232": {
+        "strategy": "shifting_maze",
+        "target": 6232,
+        "rooms": [
+          6225,
+          6234,
+          6235,
+          6223,
+          6230,
+          6233,
+          6229,
+          6224,
+          6232,
+          6231,
+          6222
+        ]
+      },
+      "6233": {
+        "strategy": "shifting_maze",
+        "target": 6233,
+        "rooms": [
+          6225,
+          6234,
+          6235,
+          6223,
+          6230,
+          6233,
+          6229,
+          6224,
+          6232,
+          6231,
+          6222
+        ]
+      },
+      "6234": {
+        "strategy": "shifting_maze",
+        "target": 6234,
+        "rooms": [
+          6225,
+          6234,
+          6235,
+          6223,
+          6230,
+          6233,
+          6229,
+          6224,
+          6232,
+          6231,
+          6222
+        ]
+      },
+      "6235": {
+        "strategy": "shifting_maze",
+        "target": 6235,
+        "rooms": [
+          6225,
+          6234,
+          6235,
+          6223,
+          6230,
+          6233,
+          6229,
+          6224,
+          6232,
+          6231,
+          6222
+        ]
+      }
     },
     "timeto": {
       "6222": 0.5,
@@ -39,20 +199,20 @@
       "6235": 0.5
     },
     "tags": [
-      "withered black mushroom",
-      "black hook mushroom",
-      "soft white mushroom",
-      "white hook mushroom",
+      "black mushroom",
       "blue trafel mushroom",
-      "cave moss",
-      "murdroot",
-      "ironfern root",
       "bolmara lichen",
+      "cave moss",
+      "ironfern root",
       "meta:forage-sensed",
-      "red trafel mushroom",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2025-06",
+      "murdroot",
+      "red mushroom",
+      "soft mushroom",
+      "white hook mushroom",
       "wingstem root",
-      "meta:forage-sensed:day:2025-02",
-      "meta:forage-sensed:night:2025-06"
+      "withered mushroom"
     ],
     "uid": [
       2167117

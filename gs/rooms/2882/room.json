@@ -1,5 +1,5 @@
 {
-  "checksum": "a9f5e8b1ec9a3483ef852066bb35a911",
+  "checksum": "f46f5356af3ad120168815fdd2c8653c",
   "room": {
     "id": 2882,
     "title": [
@@ -15,40 +15,49 @@
     "climate": "snowy, arctic",
     "terrain": "mountainous",
     "wayto": {
-      "2881": "/rooms/2882/wayto/stringproc-2881.rb"
+      "2881": {
+        "strategy": "ice_slope",
+        "cmd": "east"
+      }
     },
     "timeto": {
       "2881": 7
     },
     "tags": [
+      "angelica root",
+      "arctic moss",
+      "bolmara lichen",
+      "calamintha blossom",
+      "crowberry",
+      "dwarf bilberry",
+      "edelweiss",
+      "giant's lace",
+      "glassfern frond",
       "golden aster",
-      "some valerian root",
+      "green glacierberry",
+      "iceblossoms",
+      "ironfern root",
+      "lingonberry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "orange rowanberry",
       "pale thornberry",
-      "crowberry",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
       "pennyroyal stem",
-      "edelweiss",
-      "iceblossoms",
-      "snow lily",
-      "winter rose",
-      "arctic moss",
-      "tundra grass",
-      "calamintha blossom",
-      "snowberries",
       "red winterberry",
-      "small loganberry",
+      "resting poppy",
       "rockberry",
-      "lingonberry",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
+      "sassafras leaf",
+      "silver iceblossom",
+      "small loganberry",
+      "snow lily",
+      "snowberries",
       "sunburst blossom",
+      "sweetfern stalk",
+      "tundra grass",
+      "valerian root",
       "wingstem root",
-      "meta:forage-sensed:day:2022-11"
+      "winter rose",
+      "wintercrisp apple"
     ],
     "uid": [
       4560048

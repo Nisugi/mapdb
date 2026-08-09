@@ -1,5 +1,5 @@
 {
-  "checksum": "747405ee2cf849428b1d215eb76b3597",
+  "checksum": "f78196f2f875b6c7222608b8c8cc8347",
   "room": {
     "id": 20707,
     "title": [
@@ -15,29 +15,31 @@
     "wayto": {
       "18720": "go door",
       "20703": "south",
-      "30714": "/rooms/20707/wayto/stringproc-30714.rb"
+      "30714": []
     },
     "timeto": {
       "18720": 0.2,
       "20703": 0.2,
-      "30714": "/rooms/20707/timeto/stringproc-30714.rb"
+      "30714": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "premium teleportation jewelry",
-      "node",
-      "supernode",
-      "meta:mapname:Premium Halls of Elanthia",
-      "meta:mapcategory:Premium",
       "meta:mapcategory:Elven Nations",
+      "meta:mapcategory:Icemule Trace",
+      "meta:mapcategory:Premium",
+      "meta:mapcategory:River's Rest",
+      "meta:mapcategory:Teras Isle",
+      "meta:mapcategory:Vornavis",
       "meta:mapcategory:Wehnimer's Landing",
       "meta:mapcategory:Zul Logoth",
-      "meta:mapcategory:River's Rest",
-      "meta:mapcategory:Icemule Trace",
-      "meta:mapcategory:Vornavis",
-      "meta:mapcategory:Teras Isle",
+      "meta:mapname:Premium Halls of Elanthia",
+      "meta:premium",
+      "node",
       "premium supernode",
-      "urchin-access",
-      "meta:premium"
+      "premium teleportation jewelry",
+      "supernode",
+      "urchin-access"
     ],
     "uid": [
       4002710

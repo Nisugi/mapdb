@@ -1,5 +1,5 @@
 {
-  "checksum": "8bb540528f72ced08e9f303c1ca69d2b",
+  "checksum": "e77acb9697778ab7c68ca4d79e38752b",
   "room": {
     "id": 1834,
     "title": [
@@ -17,55 +17,66 @@
     "wayto": {
       "1833": "southeast",
       "1835": "southwest",
-      "27470": "/rooms/1834/wayto/stringproc-27470.rb"
+      "27470": {
+        "strategy": "uservar_sends",
+        "var": "Mularos_Lover"
+      }
     },
     "timeto": {
       "1833": 0.2,
       "1835": 0.2,
-      "27470": "/rooms/1834/timeto/stringproc-27470.rb"
+      "27470": {
+        "cost": 0.2,
+        "requires": [
+          "var_raw:Mularos_Lover"
+        ]
+      }
     },
     "tags": [
-      "withered black mushroom",
-      "bright red cranberry",
-      "sprig of wild lilac",
-      "wild chokecherry",
-      "sweetfern stalk",
-      "small wild rose",
-      "fiddlehead fern",
-      "wild gooseberry",
-      "white hook mushroom",
-      "wintergreen leaf",
-      "blue trafel mushroom",
-      "stalk of bluebells",
-      "wild pink geranium",
-      "soft white mushroom",
-      "blue whortleberry",
-      "sassafras leaf",
-      "tkaro root",
-      "bright red teaberry",
-      "willow twig",
       "acantha leaf",
-      "wolifrew lichen",
-      "ephlox moss",
-      "sticks",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
+      "blue trafel mushroom",
+      "blue whortleberry",
       "blueberries",
-      "broken twig",
-      "tree bark",
-      "yew twig",
-      "oak twig",
-      "luckbloom blossom",
-      "murdroot",
-      "twisted twig",
-      "slender twig",
       "bolmara lichen",
-      "meta:forage-sensed",
+      "bright red cranberry",
+      "bright red teaberry",
+      "broken twig",
       "brostheras grass",
-      "meta:forage-sensed:night:2022-11",
+      "dwarf bilberry",
       "dwarf billberry",
-      "meta:forage-sensed:day:2023-11"
+      "ephlox moss",
+      "fiddlehead fern",
+      "golden flax fronds",
+      "luckbloom blossom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
+      "murdroot",
+      "oak twig",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "slender twig",
+      "soft mushroom",
+      "sprig of wild lilac",
+      "stalk of bluebells",
+      "sticks",
+      "sweetfern stalk",
+      "thanot thorn",
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "white hook mushroom",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild pink geranium",
+      "wild rose",
+      "willow twig",
+      "wintergreen leaf",
+      "withered mushroom",
+      "wolifrew lichen",
+      "yew twig"
     ],
     "uid": [
       13027002

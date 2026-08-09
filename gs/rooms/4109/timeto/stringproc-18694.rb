@@ -1,1 +1,0 @@
-(Script.running?('bigshot') or Script.running?('wander')) ? nil : 0.2

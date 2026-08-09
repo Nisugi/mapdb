@@ -1,5 +1,5 @@
 {
-  "checksum": "3d44b8b233a0120b3a24b5e7efef964d",
+  "checksum": "d7c07be9466e11cce358e822171f31f3",
   "room": {
     "id": 3727,
     "title": [
@@ -17,28 +17,82 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "3483": "/rooms/3727/wayto/stringproc-3483.rb",
+      "3483": [
+        {
+          "do": "if",
+          "when": "status:invisible",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "unhide"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go gate"
+        }
+      ],
       "6104": "northwest",
-      "26905": "/rooms/3727/wayto/stringproc-26905.rb",
-      "30713": "/rooms/3727/wayto/stringproc-30713.rb",
-      "31558": "/rooms/3727/wayto/stringproc-31558.rb"
+      "26905": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "event transport duskruin"
+            }
+          ],
+          "times": 2
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": "{map_id}"
+        }
+      ],
+      "30713": [],
+      "31558": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "event transport ebon gate"
+            }
+          ],
+          "times": 2
+        },
+        {
+          "do": "set",
+          "var": "ebon_gate_origin",
+          "value": "{map_id}"
+        }
+      ]
     },
     "timeto": {
       "3483": 0.2,
       "6104": 0.2,
       "26905": 2400,
-      "30713": "/rooms/3727/timeto/stringproc-30713.rb",
-      "31558": "/rooms/3727/timeto/stringproc-31558.rb"
+      "30713": {
+        "same_as": "7:30714"
+      },
+      "31558": {
+        "cost": 2400,
+        "requires": [
+          "month:10"
+        ]
+      }
     },
     "tags": [
       "advguard",
-      "no forageables",
-      "meta:forage-sensed",
-      "urchin-access",
-      "urchin guide guard",
       "guard",
+      "meta:forage-sensed",
       "meta:forage-sensed:night:2022-09",
-      "meta:teleport"
+      "meta:teleport",
+      "no forageables",
+      "urchin guide guard",
+      "urchin-access"
     ],
     "uid": [
       14100003

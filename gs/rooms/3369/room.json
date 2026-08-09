@@ -1,5 +1,5 @@
 {
-  "checksum": "e5ee51668bea1a65773628538898a28a",
+  "checksum": "2768737da902d4ee2209ccd3561ea9bb",
   "room": {
     "id": 3369,
     "title": [
@@ -20,22 +20,31 @@
     },
     "timeto": {
       "3365": 0.2,
-      "3561": "/rooms/3369/timeto/stringproc-3561.rb"
+      "3561": {
+        "cost": 0.2,
+        "requires": [
+          "society:Order of Voln"
+        ]
+      }
     },
     "tags": [
-      "ice tulip",
-      "moonflower",
-      "sweetfern stalk",
-      "sassafras leaf",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "snow pansy",
-      "winter rose",
+      "blue snow rose",
       "frostflower",
-      "sunburst blossom",
+      "ice tulip",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
+      "meta:forage-sensed:day:2026-03",
+      "moonflower",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "silver iceblossom",
+      "snow pansy",
+      "snowy arctic rose",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "white arctic rose",
+      "winter rose"
     ],
     "uid": [
       4043801

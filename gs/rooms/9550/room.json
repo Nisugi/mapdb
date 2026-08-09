@@ -1,5 +1,5 @@
 {
-  "checksum": "56a392b457a33820aacf66b3409085b3",
+  "checksum": "bab49cc5cfb0183fc0433e4b8e8a9cd7",
   "room": {
     "id": 9550,
     "title": [
@@ -18,31 +18,34 @@
       "997": "out",
       "9551": "go white arch",
       "9552": "go pink arch",
-      "30712": "/rooms/9550/wayto/stringproc-30712.rb"
+      "30712": []
     },
     "timeto": {
       "997": 0.2,
       "9551": 0.2,
       "9552": 0.2,
-      "30712": "/rooms/9550/timeto/stringproc-30712.rb"
+      "30712": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "blue trafel mushroom",
+      "bolmara lichen",
       "chronomage",
-      "soft white mushroom",
-      "withered black mushroom",
       "daggerstalk mushroom",
       "flathead mushroom",
       "genkew mushroom",
-      "blue trafel mushroom",
-      "pepperthorn root",
-      "murdroot",
       "ironfern root",
-      "bolmara lichen",
       "meta:forage-sensed",
-      "urchin-access",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "murdroot",
+      "pepperthorn root",
+      "soft mushroom",
       "urchin guide chronomages",
+      "urchin-access",
       "wingstem root",
-      "meta:forage-sensed:night:2023-02"
+      "withered mushroom"
     ],
     "uid": [
       13014051

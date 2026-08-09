@@ -1,5 +1,5 @@
 {
-  "checksum": "0aaac329c5f743ea323ab75d7e416a93",
+  "checksum": "dd9004fab2a3e0b21ccb437225fb2e0a",
   "room": {
     "id": 18889,
     "title": [
@@ -13,15 +13,30 @@
     ],
     "location": "Maelstrom Bay",
     "wayto": {
-      "18888": "/rooms/18889/wayto/stringproc-18888.rb"
+      "18888": [
+        {
+          "do": "try_move",
+          "cmd": "go opening",
+          "fallback": [
+            {
+              "do": "send",
+              "cmd": "close locker"
+            },
+            {
+              "do": "move",
+              "cmd": "go opening"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "18888": 0.2
     },
     "tags": [
       "bhalocker",
-      "meta:che:Beacon Hall Archive",
       "fire lily",
+      "meta:che:Beacon Hall Archive",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2026-01",
       "no forageables"

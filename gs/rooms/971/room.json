@@ -1,5 +1,5 @@
 {
-  "checksum": "c6603e808ea27c218b3b9799213ee042",
+  "checksum": "209ef391c2d39eaa656a3618ea54694d",
   "room": {
     "id": 971,
     "title": [
@@ -16,7 +16,15 @@
     "climate": "cold, dry",
     "terrain": "mountainous",
     "wayto": {
-      "970": "/rooms/971/wayto/stringproc-970.rb",
+      "970": [
+        {
+          "do": "move",
+          "cmd": "go fissure"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
       "972": "up"
     },
     "timeto": {
@@ -24,24 +32,25 @@
       "972": 0.2
     },
     "tags": [
-      "marallis berry",
-      "cuctucae berry",
-      "sassafras leaf",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "stalk of bluebells",
-      "wild pink geranium",
-      "sprig of larkspur",
-      "cluster of butterflyweed",
-      "ironfern root",
       "bolmara lichen",
-      "wingstem root",
-      "sunburst blossom",
+      "cluster of butterflyweed",
+      "cuctucae berry",
+      "ironfern root",
+      "marallis berry",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2022-11",
-      "meta:forage-sensed:day:2023-11"
+      "pennyroyal stem",
+      "red thanot berry",
+      "sassafras leaf",
+      "sprig of larkspur",
+      "stalk of bluebells",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wild pink geranium",
+      "wingstem root"
     ],
     "uid": [
       13015002

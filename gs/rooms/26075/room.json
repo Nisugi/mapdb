@@ -1,5 +1,5 @@
 {
-  "checksum": "dfaafedb65dc8f2efa48a07da6a5d7ca",
+  "checksum": "bdb42118acb371ce1dc75e9e390cf5c5",
   "room": {
     "id": 26075,
     "title": [
@@ -15,8 +15,24 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "26074": "/rooms/26075/wayto/stringproc-26074.rb",
-      "26076": "/rooms/26075/wayto/stringproc-26076.rb"
+      "26074": [
+        {
+          "do": "move",
+          "cmd": "climb upward stairs"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "26076": [
+        {
+          "do": "move",
+          "cmd": "climb downward stairs"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "26074": 24,

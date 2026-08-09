@@ -1,5 +1,5 @@
 {
-  "checksum": "bb58772158d8a628140d110177c02d32",
+  "checksum": "2d3b224936803c95ac9ea12741af63b6",
   "room": {
     "id": 16193,
     "title": [
@@ -13,7 +13,10 @@
     ],
     "location": "Maelstrom Bay",
     "wayto": {
-      "16192": "/rooms/16193/wayto/stringproc-16192.rb",
+      "16192": {
+        "strategy": "unique_crossing",
+        "name": "crossing_16193_16192"
+      },
       "16194": "go door"
     },
     "timeto": {
@@ -21,28 +24,28 @@
       "16194": 0.2
     },
     "tags": [
-      "meta:che:Beacon Hall Archive",
       "acantha leaf",
-      "cactacae spine",
       "angelica root",
-      "yellow primrose",
-      "sagebrush root",
-      "tiger lily",
-      "murdroot",
-      "wingstem root",
-      "bur-clover root",
-      "small coconut",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
       "banana leaf",
+      "black peppercorn",
+      "bur-clover root",
+      "cactacae spine",
+      "cardamom",
+      "cumin seeds",
+      "meta:che:Beacon Hall Archive",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
+      "murdroot",
+      "nutmeg",
+      "pink peppercorn",
+      "sagebrush root",
+      "small coconut",
+      "star anise",
+      "tiger lily",
+      "vanilla bean",
+      "wingstem root",
+      "yellow primrose"
     ],
     "uid": [
       216010

@@ -1,5 +1,5 @@
 {
-  "checksum": "8e0f57ec7232f69b28aee0b76efae453",
+  "checksum": "a7b5a0051c16cc378a2bc350f060c505",
   "room": {
     "id": 10388,
     "title": [
@@ -16,13 +16,31 @@
     "wayto": {
       "10387": "west",
       "21223": "south",
-      "28261": "/rooms/10388/wayto/stringproc-28261.rb",
-      "28262": "/rooms/10388/wayto/stringproc-28262.rb",
-      "28263": "/rooms/10388/wayto/stringproc-28263.rb",
-      "28264": "/rooms/10388/wayto/stringproc-28264.rb",
-      "28265": "/rooms/10388/wayto/stringproc-28265.rb",
-      "28283": "/rooms/10388/wayto/stringproc-28283.rb",
-      "30713": "/rooms/10388/wayto/stringproc-30713.rb"
+      "28261": {
+        "strategy": "table_join",
+        "table": "Lantern"
+      },
+      "28262": {
+        "strategy": "table_join",
+        "table": "Circling Dragon"
+      },
+      "28263": {
+        "strategy": "table_join",
+        "table": "Sleeping Dragon"
+      },
+      "28264": {
+        "strategy": "table_join",
+        "table": "Rampant Dragon"
+      },
+      "28265": {
+        "strategy": "table_join",
+        "table": "Watchful Dragon"
+      },
+      "28283": {
+        "strategy": "table_join",
+        "table": "candle"
+      },
+      "30713": []
     },
     "timeto": {
       "10387": 0.2,
@@ -33,13 +51,15 @@
       "28264": 0.2,
       "28265": 0.2,
       "28283": 0.2,
-      "30713": "/rooms/10388/timeto/stringproc-30713.rb"
+      "30713": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "table",
-      "urchin-access",
+      "tables",
       "urchin guide tables",
-      "tables"
+      "urchin-access"
     ],
     "uid": [
       14102010

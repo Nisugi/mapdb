@@ -1,5 +1,5 @@
 {
-  "checksum": "9b1aebc050b2bd1d9cb70493fceaa1e6",
+  "checksum": "4456a756f0182547fc4c259ff578209e",
   "room": {
     "id": 27868,
     "title": [
@@ -13,10 +13,50 @@
     ],
     "location": "Keh'nira Fyr'sah",
     "wayto": {
-      "27865": "/rooms/27868/wayto/stringproc-27865.rb"
+      "27865": [
+        {
+          "do": "if",
+          "when": "has_item:cord-strung delicate brass key",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "remove ##{key.id}"
+            },
+            {
+              "do": "send",
+              "cmd": "unlock #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "open #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "go #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "close #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "lock #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "wear ##{key.id}"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
-      "27865": "/rooms/27868/timeto/stringproc-27865.rb"
+      "27865": {
+        "cost": 5,
+        "requires": [
+          "has_item:cord-strung delicate brass key"
+        ]
+      }
     },
     "tags": [
       "private property"

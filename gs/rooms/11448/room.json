@@ -1,5 +1,5 @@
 {
-  "checksum": "1cdfda2d5f96d68e2ac26f677d32fd80",
+  "checksum": "b45f70e354d4a7f8260b47f42a6c1924",
   "room": {
     "id": 11448,
     "title": [
@@ -15,10 +15,90 @@
     "climate": "saltwater",
     "terrain": "",
     "wayto": {
-      "11437": "/rooms/11448/wayto/stringproc-11437.rb",
-      "11438": "/rooms/11448/wayto/stringproc-11438.rb",
-      "11447": "/rooms/11448/wayto/stringproc-11447.rb",
-      "11449": "/rooms/11448/wayto/stringproc-11449.rb"
+      "11437": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "east"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim east"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11438": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "north"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim north"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11447": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "northwest"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim northwest"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11449": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "southeast"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim southeast"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "11437": 2,
@@ -27,8 +107,8 @@
       "11449": 2
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       304015

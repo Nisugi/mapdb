@@ -1,5 +1,5 @@
 {
-  "checksum": "b518fe1f24663c77ff3504ed3dbd377e",
+  "checksum": "00407f29d919b3cf181a5dd7f1735743",
   "room": {
     "id": 33082,
     "title": [
@@ -16,7 +16,7 @@
       "33081": "west",
       "33083": "south",
       "33085": "east",
-      "33100": "go treacherous gangplank"
+      "33100": "go gangplank"
     },
     "timeto": {
       "33081": 0.2,
@@ -26,6 +26,13 @@
     },
     "uid": [
       7134062
+    ],
+    "image": "Flotilla.png",
+    "image_coords": [
+      387,
+      236,
+      400,
+      246
     ]
   }
 }

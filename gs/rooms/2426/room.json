@@ -1,5 +1,5 @@
 {
-  "checksum": "1e35b072fd5403f4cdd099595d63091c",
+  "checksum": "4ece5caa47623e7de849c63a7b36ba04",
   "room": {
     "id": 2426,
     "title": [
@@ -21,26 +21,72 @@
       "2423": "south",
       "2427": "east",
       "3370": "go archway",
-      "3668": "/rooms/2426/wayto/stringproc-3668.rb",
-      "26905": "/rooms/2426/wayto/stringproc-26905.rb",
-      "31558": "/rooms/2426/wayto/stringproc-31558.rb"
+      "3668": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
+      "26905": [
+        {
+          "do": "repeat",
+          "times": 2,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "event transport duskruin"
+            }
+          ]
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": 2426
+        }
+      ],
+      "31558": [
+        {
+          "do": "repeat",
+          "times": 2,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "event transport ebon gate"
+            }
+          ]
+        },
+        {
+          "do": "set",
+          "var": "ebon_gate_origin",
+          "value": 2426
+        }
+      ]
     },
     "timeto": {
       "2300": 0.2,
       "2423": 0.2,
       "2427": 0.2,
       "3370": 0.2,
-      "3668": "/rooms/2426/timeto/stringproc-3668.rb",
+      "3668": {
+        "same_as": "7:3668"
+      },
       "26905": 2400,
-      "31558": "/rooms/2426/timeto/stringproc-31558.rb"
+      "31558": {
+        "cost": 2400,
+        "requires": [
+          "month:10"
+        ]
+      }
     },
     "tags": [
-      "trash",
-      "calmintha flower",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2022-11",
+      "meta:fwi:teleport",
       "meta:teleport",
-      "meta:fwi:teleport"
+      "stalk of bluebells",
+      "trash"
     ],
     "uid": [
       4042301

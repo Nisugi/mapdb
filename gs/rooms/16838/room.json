@@ -1,5 +1,5 @@
 {
-  "checksum": "f64ffc27307b3362a740926d66bcdba9",
+  "checksum": "b593f43f400c61d5cfb92e8003887b44",
   "room": {
     "id": 16838,
     "title": [
@@ -16,19 +16,30 @@
     "terrain": "none",
     "wayto": {
       "9450": "out",
-      "17897": "/rooms/16838/wayto/stringproc-17897.rb"
+      "17897": [
+        {
+          "do": "cross",
+          "room": 12421,
+          "dest": "14089"
+        }
+      ]
     },
     "timeto": {
       "9450": 0.2,
-      "17897": "/rooms/16838/timeto/stringproc-17897.rb"
+      "17897": {
+        "cost": 1.6,
+        "requires": [
+          "prof:Rogue"
+        ]
+      }
     },
     "tags": [
-      "rogue guild",
-      "meta:mapname:Zul Logoth - Rogue Guild",
-      "meta:mapcategory:Zul Logoth",
       "meta:mapcategory:Guilds",
+      "meta:mapcategory:Zul Logoth",
+      "meta:mapname:Zul Logoth - Rogue Guild",
       "meta:mapshortname:Rogue Guild (Zul Logoth)",
       "no forageables",
+      "rogue guild",
       "rogueguild"
     ],
     "uid": [

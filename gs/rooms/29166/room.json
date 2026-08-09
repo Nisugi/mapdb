@@ -1,5 +1,5 @@
 {
-  "checksum": "4a3e6d94ca6fd4fed90b6b50e1e7f264",
+  "checksum": "0b88ab1d2a177ad8c4a16ea0cadbed8e",
   "room": {
     "id": 29166,
     "title": [
@@ -17,7 +17,27 @@
     "wayto": {
       "29165": "down",
       "29167": "east",
-      "29168": "/rooms/29166/wayto/stringproc-29168.rb"
+      "29168": [
+        {
+          "do": "preserve_stance",
+          "stance": "offensive",
+          "steps": [
+            {
+              "do": "empty_hands"
+            },
+            {
+              "do": "move",
+              "cmd": "climb cliff face"
+            },
+            {
+              "do": "fill_hands"
+            }
+          ]
+        },
+        {
+          "do": "replan"
+        }
+      ]
     },
     "timeto": {
       "29165": 0.2,
@@ -25,18 +45,18 @@
       "29168": 0.2
     },
     "tags": [
-      "yellow primrose",
-      "stalk of drakefern",
-      "pepperthorn root",
-      "meta:forage-sensed",
-      "white cotton boll",
-      "spring onion",
-      "mate leaves",
       "butterfly pea flower",
-      "sprig of rooibos",
       "lemon balm",
       "lemon verbena",
-      "meta:forage-sensed:day:2025-07"
+      "mate leaves",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "pepperthorn root",
+      "sprig of rooibos",
+      "spring onion",
+      "stalk of drakefern",
+      "white cotton boll",
+      "yellow primrose"
     ],
     "uid": [
       3023103

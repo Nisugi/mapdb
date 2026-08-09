@@ -1,5 +1,5 @@
 {
-  "checksum": "4c1372489f49050e0437d13bbf19b71e",
+  "checksum": "ee23953b18bd2235afc3fd85a9240e5f",
   "room": {
     "id": 14726,
     "title": [
@@ -17,7 +17,10 @@
     "wayto": {
       "451": "go mountain path",
       "14728": "go opening",
-      "18172": "/rooms/14726/wayto/stringproc-18172.rb"
+      "18172": {
+        "strategy": "unique_crossing",
+        "name": "crossing_14726_18172"
+      }
     },
     "timeto": {
       "451": 0.1,
@@ -25,23 +28,24 @@
       "18172": 11
     },
     "tags": [
-      "cuctucae berry",
-      "marallis berry",
-      "sassafras leaf",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "stalk of bluebells",
-      "wild pink geranium",
-      "sprig of larkspur",
+      "bolmara lichen",
+      "cuctucae berry",
+      "dwarf bilberry",
       "golden aster",
       "ironfern root",
-      "bolmara lichen",
+      "marallis berry",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sprig of larkspur",
+      "stalk of bluebells",
       "sunburst blossom",
-      "wingstem root",
-      "meta:forage-sensed:day:2023-02"
+      "sweetfern stalk",
+      "valerian root",
+      "wild pink geranium",
+      "wingstem root"
     ],
     "uid": [
       52001

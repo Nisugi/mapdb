@@ -1,5 +1,5 @@
 {
-  "checksum": "0a86a872d6e77e6c0bf7c2cdb3997826",
+  "checksum": "9494c878c133a16f3aeb0091ecccdd09",
   "room": {
     "id": 33091,
     "title": [
@@ -14,14 +14,23 @@
     "location": "the Flotilla",
     "wayto": {
       "33078": "go archway",
-      "33092": "north"
+      "33092": "north",
+      "36783": "go ship"
     },
     "timeto": {
       "33078": 0.2,
-      "33092": 0.2
+      "33092": 0.2,
+      "36783": 0.2
     },
     "uid": [
       7134066
+    ],
+    "image": "Flotilla.png",
+    "image_coords": [
+      120,
+      298,
+      137,
+      311
     ]
   }
 }

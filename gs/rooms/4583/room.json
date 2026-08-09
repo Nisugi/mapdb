@@ -1,5 +1,5 @@
 {
-  "checksum": "f6373afa5fe3dcb815803175f683b40e",
+  "checksum": "e19465ab23b5a587d81075b45cd16a96",
   "room": {
     "id": 4583,
     "title": [
@@ -14,14 +14,48 @@
     "location": "Solhaven",
     "wayto": {
       "1500": "climb wall",
-      "4584": "/rooms/4583/wayto/stringproc-4584.rb"
+      "4584": [
+        {
+          "do": "send",
+          "cmd": "push gargoyl"
+        },
+        {
+          "do": "send",
+          "cmd": "push letter i"
+        },
+        {
+          "do": "send",
+          "cmd": "push letter w"
+        },
+        {
+          "do": "send",
+          "cmd": "push letter n"
+        },
+        {
+          "do": "send",
+          "cmd": "push letter b"
+        },
+        {
+          "do": "send",
+          "cmd": "push letter t"
+        },
+        {
+          "do": "send",
+          "cmd": "push letter c"
+        },
+        {
+          "do": "move",
+          "cmd": "go door"
+        }
+      ]
     },
     "timeto": {
       "1500": 0.2,
       "4584": 1.6
     },
     "tags": [
-      "meta:nomagic"
+      "meta:nomagic",
+      "no forageables"
     ],
     "uid": [
       4220010

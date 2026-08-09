@@ -1,5 +1,5 @@
 {
-  "checksum": "7e897fe8bd2b5c969ee7c5de702e9fca",
+  "checksum": "78b27a830628bb4064bbcda033401cc0",
   "room": {
     "id": 24572,
     "title": [
@@ -13,12 +13,128 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "7486": "/rooms/24572/wayto/stringproc-7486.rb",
-      "7487": "/rooms/24572/wayto/stringproc-7487.rb"
+      "7486": [
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "repeat",
+          "times": 8,
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "down"
+        },
+        {
+          "do": "sleep",
+          "seconds": 0.2
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "repeat",
+          "times": 8,
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "7487": [
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "repeat",
+          "times": 8,
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "up"
+        },
+        {
+          "do": "sleep",
+          "seconds": 0.2
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "repeat",
+          "times": 8,
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
-      "7486": "/rooms/24572/timeto/stringproc-7486.rb",
-      "7487": "/rooms/24572/timeto/stringproc-7487.rb"
+      "7486": {
+        "formula": "haste_scaled",
+        "base": 15,
+        "else": 15.2
+      },
+      "7487": {
+        "formula": "haste_scaled",
+        "base": 15,
+        "else": 15.2
+      }
     },
     "uid": [
       94029

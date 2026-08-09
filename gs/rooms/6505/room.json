@@ -1,5 +1,5 @@
 {
-  "checksum": "95d549ae2f0da42fdd4a2b0ccc842e07",
+  "checksum": "adee75c1864deee08119d9e233fa9da6",
   "room": {
     "id": 6505,
     "title": [
@@ -16,18 +16,18 @@
     "terrain": "none",
     "wayto": {
       "6504": "out",
-      "6621": "/rooms/6505/wayto/stringproc-6621.rb"
+      "6621": "read runes"
     },
     "timeto": {
       "6504": 0.2,
       "6621": 0.2
     },
     "tags": [
-      "node",
+      "meta:mapcategory:Wehnimer's Landing",
       "meta:mapname:Wehnimer's Landing - Lysierian Hills",
       "meta:mapshortname:Lysierian Hills",
-      "meta:mapcategory:Wehnimer's Landing",
-      "no forageables"
+      "no forageables",
+      "node"
     ],
     "uid": [
       95186

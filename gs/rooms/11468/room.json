@@ -1,5 +1,5 @@
 {
-  "checksum": "2bce3be9879f79d5c0c9738ec7fb26de",
+  "checksum": "2cdc4fd09354dd0d7fb5c8872acf4d72",
   "room": {
     "id": 11468,
     "title": [
@@ -15,11 +15,51 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "11459": "/rooms/11468/wayto/stringproc-11459.rb",
-      "11467": "/rooms/11468/wayto/stringproc-11467.rb",
-      "11470": "/rooms/11468/wayto/stringproc-11470.rb",
-      "11471": "/rooms/11468/wayto/stringproc-11471.rb",
-      "16060": "/rooms/11468/wayto/stringproc-16060.rb"
+      "11459": [
+        {
+          "do": "move",
+          "cmd": "swim south"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11467": [
+        {
+          "do": "move",
+          "cmd": "swim west"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11470": [
+        {
+          "do": "move",
+          "cmd": "swim north"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11471": [
+        {
+          "do": "move",
+          "cmd": "swim northwest"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "16060": [
+        {
+          "do": "move",
+          "cmd": "swim up"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "11459": 2,

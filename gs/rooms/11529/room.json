@@ -1,5 +1,5 @@
 {
-  "checksum": "02f56c063e9bb57d4863fd7d1c2b9d6f",
+  "checksum": "3e65860c0eda95a706ea2eea2d98e83b",
   "room": {
     "id": 11529,
     "title": [
@@ -16,7 +16,15 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "11477": "/rooms/11529/wayto/stringproc-11477.rb",
+      "11477": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "go opening"
+        }
+      ],
       "11528": "north"
     },
     "timeto": {
@@ -24,15 +32,15 @@
       "11528": 0.2
     },
     "tags": [
-      "murdroot",
-      "meta:forage-sensed",
-      "strand of seaweed",
-      "wavepetal blossom",
       "bolmara lichen",
       "broken twig",
-      "orange heliconia",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
+      "murdroot",
+      "orange heliconia",
+      "strand of seaweed",
+      "wavepetal blossom"
     ],
     "uid": [
       305001

@@ -1,5 +1,5 @@
 {
-  "checksum": "b4f2e624dccd202d35d193cf3732fc31",
+  "checksum": "92803902932ee76af82934a4434f52de",
   "room": {
     "id": 10879,
     "title": [
@@ -16,22 +16,24 @@
       "10878": "go pathway",
       "10880": "go stairs",
       "25601": "go arched walkway",
-      "30711": "/rooms/10879/wayto/stringproc-30711.rb"
+      "30711": []
     },
     "timeto": {
       "10878": 0.2,
       "10880": 0.2,
       "25601": 0.2,
-      "30711": "/rooms/10879/timeto/stringproc-30711.rb"
+      "30711": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "bardguild",
-      "urchin-access",
-      "urchin guide bardguild",
       "bard guild",
-      "agave heart",
+      "bardguild",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "no forageables",
+      "urchin guide bardguild",
+      "urchin-access"
     ],
     "uid": [
       283007

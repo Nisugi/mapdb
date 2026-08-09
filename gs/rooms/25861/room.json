@@ -1,5 +1,5 @@
 {
-  "checksum": "f0d767ddd96d78cd239b12d7955ba5f6",
+  "checksum": "73dfc076a5f6202fb85a51b19d4110f0",
   "room": {
     "id": 25861,
     "title": [
@@ -16,17 +16,26 @@
     "terrain": "none",
     "wayto": {
       "19930": "out",
-      "25971": "/rooms/25861/wayto/stringproc-25971.rb"
+      "25971": [
+        {
+          "do": "send",
+          "cmd": "give attendant 2000"
+        },
+        {
+          "do": "move",
+          "cmd": "go archway"
+        }
+      ]
     },
     "timeto": {
       "19930": 0.2,
       "25971": 0.3
     },
     "tags": [
-      "silver-cost:25971:2000",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
       "no forageables",
-      "meta:forage-sensed:day:2022-11"
+      "silver-cost:25971:2000"
     ],
     "uid": [
       336010

@@ -1,5 +1,5 @@
 {
-  "checksum": "654220df0894b009714b4f4f5520c9c3",
+  "checksum": "899d8448192cd96846826ea537aa50db",
   "room": {
     "id": 18849,
     "title": [
@@ -16,11 +16,26 @@
     "wayto": {
       "18848": "go coraesine door",
       "18859": "down",
-      "18882": "/rooms/18849/wayto/stringproc-18882.rb",
-      "18884": "/rooms/18849/wayto/stringproc-18884.rb",
-      "18885": "/rooms/18849/wayto/stringproc-18885.rb",
-      "18886": "/rooms/18849/wayto/stringproc-18886.rb",
-      "18887": "/rooms/18849/wayto/stringproc-18887.rb"
+      "18882": {
+        "strategy": "table_join",
+        "table": "half moon"
+      },
+      "18884": {
+        "strategy": "table_join",
+        "table": "golden star"
+      },
+      "18885": {
+        "strategy": "table_join",
+        "table": "ronan"
+      },
+      "18886": {
+        "strategy": "table_join",
+        "table": "black sword"
+      },
+      "18887": {
+        "strategy": "table_join",
+        "table": "sheru"
+      }
     },
     "timeto": {
       "18848": 0.2,

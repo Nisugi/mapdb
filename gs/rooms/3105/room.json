@@ -1,5 +1,5 @@
 {
-  "checksum": "1c5f3394cafbb276e56861b9c7b1b511",
+  "checksum": "a027216cf5f929155d7a32ba0cb0757b",
   "room": {
     "id": 3105,
     "title": [
@@ -21,10 +21,10 @@
       "23714": 0.2
     },
     "tags": [
-      "wraith",
-      "peer north =~ /^Obvious exits: north, south$/",
+      "meta:forage-sensed",
       "no forageables",
-      "meta:forage-sensed"
+      "peer north =~ /^Obvious exits: north, south$/",
+      "wraith"
     ],
     "uid": [
       4124009

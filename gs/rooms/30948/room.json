@@ -1,5 +1,5 @@
 {
-  "checksum": "f6407ddabf61ce11fdab25862d35b811",
+  "checksum": "09194ed91cb3bca154d19c5f2575b459",
   "room": {
     "id": 30948,
     "title": [
@@ -13,7 +13,11 @@
     ],
     "location": "the Settlement of Reim",
     "wayto": {
-      "30949": "/rooms/30948/wayto/stringproc-30949.rb"
+      "30949": [
+        {
+          "do": "wait_room_change"
+        }
+      ]
     },
     "timeto": {
       "30949": 2

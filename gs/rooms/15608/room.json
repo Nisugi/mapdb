@@ -1,5 +1,5 @@
 {
-  "checksum": "2e4d7aa891099e1ae99544d361dbe905",
+  "checksum": "0d70488fb41f867337176385e45c51ca",
   "room": {
     "id": 15608,
     "title": [
@@ -14,12 +14,30 @@
     "location": "Ta'Illistim",
     "wayto": {
       "9920": "go door",
-      "26772": "/rooms/15608/wayto/stringproc-26772.rb",
-      "26773": "/rooms/15608/wayto/stringproc-26773.rb",
-      "27050": "/rooms/15608/wayto/stringproc-27050.rb",
-      "27051": "/rooms/15608/wayto/stringproc-27051.rb",
-      "27052": "/rooms/15608/wayto/stringproc-27052.rb",
-      "27053": "/rooms/15608/wayto/stringproc-27053.rb"
+      "26772": {
+        "strategy": "table_join",
+        "table": "splintered"
+      },
+      "26773": {
+        "strategy": "table_join",
+        "table": "flimsy"
+      },
+      "27050": {
+        "strategy": "table_join",
+        "table": "sooty"
+      },
+      "27051": {
+        "strategy": "table_join",
+        "table": "squalid"
+      },
+      "27052": {
+        "strategy": "table_join",
+        "table": "trailing"
+      },
+      "27053": {
+        "strategy": "table_join",
+        "table": "careless"
+      }
     },
     "timeto": {
       "9920": 0.2,
@@ -31,6 +49,7 @@
       "27053": 0.2
     },
     "tags": [
+      "no forageables",
       "table"
     ],
     "uid": [

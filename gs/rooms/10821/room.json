@@ -1,5 +1,5 @@
 {
-  "checksum": "aed82289d1415042f8716b73e7bd9df1",
+  "checksum": "f372936586904c91bc5dc07d1de66d4b",
   "room": {
     "id": 10821,
     "title": [
@@ -15,16 +15,94 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "10815": "/rooms/10821/wayto/stringproc-10815.rb",
-      "10817": "/rooms/10821/wayto/stringproc-10817.rb"
+      "10815": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "swim"
+            },
+            {
+              "do": "sleep",
+              "seconds": 1
+            },
+            {
+              "do": "wait_rt"
+            },
+            {
+              "do": "if",
+              "when": "path:west",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            },
+            {
+              "do": "if",
+              "when": "path:east",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            }
+          ],
+          "times": 50
+        },
+        {
+          "do": "fill_hands"
+        }
+      ],
+      "10817": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "swim"
+            },
+            {
+              "do": "sleep",
+              "seconds": 1
+            },
+            {
+              "do": "wait_rt"
+            },
+            {
+              "do": "if",
+              "when": "path:west",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            },
+            {
+              "do": "if",
+              "when": "path:east",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            }
+          ],
+          "times": 50
+        },
+        {
+          "do": "fill_hands"
+        }
+      ]
     },
     "timeto": {
       "10815": 5,
       "10817": 5
     },
     "tags": [
-      "no forageables",
-      "meta:nomagic"
+      "meta:nomagic",
+      "no forageables"
     ],
     "uid": [
       13032042

@@ -1,5 +1,5 @@
 {
-  "checksum": "464facc70e752155008b51b0adf17381",
+  "checksum": "fd379e787d470a28334e05b7fdfe9667",
   "room": {
     "id": 5411,
     "title": [
@@ -15,16 +15,16 @@
     "location": "Bonespear Tower",
     "wayto": {
       "5409": "south",
-      "5413": "/rooms/5411/wayto/stringproc-5413.rb"
+      "5413": "go iron door"
     },
     "timeto": {
       "5409": 0.2,
       "5413": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "meta:forage-sensed:day:2022-09",
+      "no forageables"
     ],
     "uid": [
       319100

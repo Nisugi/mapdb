@@ -1,5 +1,5 @@
 {
-  "checksum": "1dc12f8fb5c53757279927501d0ba131",
+  "checksum": "358a5bd5cb704d76fa990f8beb580f12",
   "room": {
     "id": 297,
     "title": [
@@ -17,7 +17,16 @@
     "wayto": {
       "288": "north",
       "296": "south",
-      "22349": "/rooms/297/wayto/stringproc-22349.rb"
+      "22349": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "go alleyway"
+        }
+      ]
     },
     "timeto": {
       "288": 0.2,
@@ -25,11 +34,11 @@
       "22349": 0.2
     },
     "tags": [
-      "meta:teleport:fwi",
       "meta:forage-sensed",
-      "no forageables",
       "meta:forage-sensed:day:2022-09",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "meta:teleport:fwi",
+      "no forageables"
     ],
     "uid": [
       7356

@@ -1,5 +1,5 @@
 {
-  "checksum": "39a283e16716817c149a15340d685c40",
+  "checksum": "e25fa509b4815a9a598ed2239f6484ae",
   "room": {
     "id": 6632,
     "title": [
@@ -13,7 +13,36 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "6631": "/rooms/6632/wayto/stringproc-6631.rb",
+      "6631": [
+        {
+          "do": "cast_buff",
+          "spell": 506
+        },
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "search",
+              "for": "anything of interest|concealed door",
+              "timeout": 3,
+              "if_match": {
+                "pattern": "concealed door",
+                "steps": [
+                  {
+                    "do": "break"
+                  }
+                ]
+              }
+            }
+          ],
+          "times": 50
+        },
+        {
+          "do": "move",
+          "cmd": "go door"
+        }
+      ],
       "6633": "west",
       "6635": "southwest"
     },

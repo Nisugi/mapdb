@@ -1,5 +1,5 @@
 {
-  "checksum": "7e3decb9976964503de89591c73708d9",
+  "checksum": "6f1767e18baf0a8e8dc5478192e839cd",
   "room": {
     "id": 11753,
     "title": [
@@ -16,15 +16,18 @@
     "terrain": "hard, flat",
     "wayto": {
       "5731": "north",
-      "11749": "/rooms/11753/wayto/stringproc-11749.rb"
+      "11749": {
+        "strategy": "unique_crossing",
+        "name": "crossing_11753_11749"
+      }
     },
     "timeto": {
       "5731": 350,
       "11749": 300
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       4744011

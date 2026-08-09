@@ -1,5 +1,5 @@
 {
-  "checksum": "12924869becaf35c37b01d46f5ceb698",
+  "checksum": "5f274c2048b7e1b75cebd42656953fb6",
   "room": {
     "id": 4033,
     "title": [
@@ -16,30 +16,57 @@
     "terrain": "none",
     "wayto": {
       "745": "north",
-      "1830": "/rooms/4033/wayto/stringproc-1830.rb",
+      "1830": {
+        "strategy": "voln_seeking",
+        "target": 1830
+      },
       "4034": "east",
       "4038": "go doors",
-      "9823": "/rooms/4033/wayto/stringproc-9823.rb",
-      "10010": "/rooms/4033/wayto/stringproc-10010.rb"
+      "9823": {
+        "strategy": "voln_seeking",
+        "target": 9823
+      },
+      "10010": {
+        "strategy": "voln_seeking",
+        "target": 10010
+      }
     },
     "timeto": {
       "745": 0.2,
-      "1830": "/rooms/4033/timeto/stringproc-1830.rb",
+      "1830": {
+        "cost": 2.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
       "4034": 0.2,
       "4038": 0.2,
-      "9823": "/rooms/4033/timeto/stringproc-9823.rb",
-      "10010": "/rooms/4033/timeto/stringproc-10010.rb"
+      "9823": {
+        "cost": 2.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "10010": {
+        "cost": 2.8,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      }
     },
     "tags": [
-      "node",
-      "voln",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-11",
+      "meta:mapcategory:Elven Nations",
       "meta:mapname:Elven Nations - Ta'Illistim Buildings",
       "meta:mapshortname:Ta'Illistim Buildings",
-      "meta:mapcategory:Elven Nations",
       "meta:seeking",
       "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
+      "node",
+      "voln"
     ],
     "uid": [
       13109002

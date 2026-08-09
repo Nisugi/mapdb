@@ -1,5 +1,5 @@
 {
-  "checksum": "0f3039db899735ee2d3497e1ff812820",
+  "checksum": "eb27090d3f96578e08fb9e95e1297fbf",
   "room": {
     "id": 10397,
     "title": [
@@ -16,16 +16,22 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "10396": "out",
-      "30713": "/rooms/10397/wayto/stringproc-30713.rb"
+      "30713": []
     },
     "timeto": {
       "10396": 0.2,
-      "30713": "/rooms/10397/timeto/stringproc-30713.rb"
+      "30713": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "npchealer",
+      "stalk of bluebells",
       "urchin guide healer",
-      "urchin-access"
+      "urchin-access",
+      "wild sage"
     ],
     "uid": [
       14103401

@@ -1,5 +1,5 @@
 {
-  "checksum": "03a2c472126c1c088d2573304a7c1182",
+  "checksum": "d9b80991ebd9224e1e94243c013745cd",
   "room": {
     "id": 9474,
     "title": [
@@ -16,30 +16,33 @@
     "terrain": "none",
     "wayto": {
       "9412": "go door",
-      "30712": "/rooms/9474/wayto/stringproc-30712.rb"
+      "30712": []
     },
     "timeto": {
       "9412": 0.2,
-      "30712": "/rooms/9474/timeto/stringproc-30712.rb"
+      "30712": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "armor",
       "armorshop",
-      "soft white mushroom",
-      "withered black mushroom",
+      "blue trafel mushroom",
+      "bolmara lichen",
       "daggerstalk mushroom",
       "flathead mushroom",
       "genkew mushroom",
-      "blue trafel mushroom",
-      "pepperthorn root",
-      "murdroot",
       "ironfern root",
-      "bolmara lichen",
       "meta:forage-sensed",
-      "urchin-access",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "murdroot",
+      "pepperthorn root",
+      "soft mushroom",
       "urchin guide armor",
-      "armor",
+      "urchin-access",
       "wingstem root",
-      "meta:forage-sensed:night:2023-02"
+      "withered mushroom"
     ],
     "uid": [
       13010178

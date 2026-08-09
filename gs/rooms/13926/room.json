@@ -1,5 +1,5 @@
 {
-  "checksum": "ff6c783f2fcf53b1bd3474a12cee84a5",
+  "checksum": "e2302629863a336b2816e0c4eef85f93",
   "room": {
     "id": 13926,
     "title": [
@@ -19,10 +19,22 @@
       "13925": "out",
       "13927": "go archway",
       "13963": "north",
-      "23977": "/rooms/13926/wayto/stringproc-23977.rb",
-      "23981": "/rooms/13926/wayto/stringproc-23981.rb",
-      "23983": "/rooms/13926/wayto/stringproc-23983.rb",
-      "23985": "/rooms/13926/wayto/stringproc-23985.rb"
+      "23977": {
+        "strategy": "table_join",
+        "table": "king"
+      },
+      "23981": {
+        "strategy": "table_join",
+        "table": "queen"
+      },
+      "23983": {
+        "strategy": "table_join",
+        "table": "knight"
+      },
+      "23985": {
+        "strategy": "table_join",
+        "table": "jester"
+      }
     },
     "timeto": {
       "13925": 0.2,
@@ -34,10 +46,10 @@
       "23985": 0.2
     },
     "tags": [
-      "table",
       "meta:forage-sensed",
+      "meta:forage-sensed:night:2022-11",
       "no forageables",
-      "meta:forage-sensed:night:2022-11"
+      "table"
     ],
     "uid": [
       14201100

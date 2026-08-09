@@ -1,5 +1,5 @@
 {
-  "checksum": "3987dbbd452e3e10c64d3fe98f780d27",
+  "checksum": "40a13b491fee8134644704da89a10abd",
   "room": {
     "id": 8227,
     "title": [
@@ -15,8 +15,46 @@
     "wayto": {
       "8226": "go gate",
       "8228": "south",
-      "8245": "/rooms/8227/wayto/stringproc-8245.rb",
-      "8247": "/rooms/8227/wayto/stringproc-8247.rb"
+      "8245": [
+        {
+          "do": "move",
+          "cmd": "go second iron door"
+        },
+        {
+          "do": "if",
+          "when": "not:in_room:8245",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "go iron door"
+            },
+            {
+              "do": "move",
+              "cmd": "go first iron door"
+            }
+          ]
+        }
+      ],
+      "8247": [
+        {
+          "do": "move",
+          "cmd": "go first iron door"
+        },
+        {
+          "do": "if",
+          "when": "not:in_room:8247",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "go iron door"
+            },
+            {
+              "do": "move",
+              "cmd": "go second iron door"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "8226": 0.2,
@@ -25,8 +63,8 @@
       "8247": 0.2
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       390002

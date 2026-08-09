@@ -1,5 +1,5 @@
 {
-  "checksum": "87a9bb11bdbd59070927a194d663af0b",
+  "checksum": "1d1e8a0076e147d71b22dbfaac371317",
   "room": {
     "id": 25602,
     "title": [
@@ -13,8 +13,14 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "25603": "/rooms/25602/wayto/stringproc-25603.rb",
-      "25604": "/rooms/25602/wayto/stringproc-25604.rb",
+      "25603": {
+        "strategy": "table_join",
+        "table": "carved"
+      },
+      "25604": {
+        "strategy": "table_join",
+        "table": "dark"
+      },
       "25605": "out"
     },
     "timeto": {

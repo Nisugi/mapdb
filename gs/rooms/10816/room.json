@@ -1,5 +1,5 @@
 {
-  "checksum": "111e95a10cc6a56e63668ae4899ff0a7",
+  "checksum": "fed22b15a0c39511107f59181bd12c1c",
   "room": {
     "id": 10816,
     "title": [
@@ -13,8 +13,36 @@
     ],
     "location": "Gyldemar Road",
     "wayto": {
-      "10815": "/rooms/10816/wayto/stringproc-10815.rb",
-      "10817": "/rooms/10816/wayto/stringproc-10817.rb"
+      "10815": [
+        {
+          "do": "repeat",
+          "until_room": 10815,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "swim north"
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        }
+      ],
+      "10817": [
+        {
+          "do": "repeat",
+          "until_room": 10817,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "swim east"
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "10815": 0.2,

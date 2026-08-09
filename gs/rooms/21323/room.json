@@ -1,5 +1,5 @@
 {
-  "checksum": "1273cd0c471545affd6d618fd9c6e928",
+  "checksum": "d8ef77c4e3a8ee73b63fbf6d22ef74f0",
   "room": {
     "id": 21323,
     "title": [
@@ -14,7 +14,24 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "21321": "out",
-      "25687": "/rooms/21323/wayto/stringproc-25687.rb"
+      "25687": [
+        {
+          "do": "send",
+          "cmd": "lean wall"
+        },
+        {
+          "do": "send",
+          "cmd": "knock wall"
+        },
+        {
+          "do": "send",
+          "cmd": "knock wall"
+        },
+        {
+          "do": "send",
+          "cmd": "knock wall"
+        }
+      ]
     },
     "timeto": {
       "21321": 0.2,

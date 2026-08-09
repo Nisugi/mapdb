@@ -1,5 +1,5 @@
 {
-  "checksum": "f41f894a6f67ecd32464c5c455c00412",
+  "checksum": "d1113a8ce753d84aac99363b9a714725",
   "room": {
     "id": 5722,
     "title": [
@@ -17,19 +17,21 @@
     "wayto": {
       "1446": "out",
       "5723": "go door",
-      "30710": "/rooms/5722/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "1446": 0.2,
       "5723": 0.2,
-      "30710": "/rooms/5722/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "herbalist",
-      "urchin-access",
-      "urchin guide herbalist",
       "meta:forage-sensed",
-      "no forageables"
+      "no forageables",
+      "urchin guide herbalist",
+      "urchin-access"
     ],
     "uid": [
       4740011

@@ -1,5 +1,5 @@
 {
-  "checksum": "256508df819ba3b2610282cbc0b39cdc",
+  "checksum": "e214792920d17ffdc1609178825eda52",
   "room": {
     "id": 27860,
     "title": [
@@ -14,11 +14,51 @@
     "location": "Keh'nira Fyr'sah",
     "wayto": {
       "4651": "go staircase",
-      "27864": "/rooms/27860/wayto/stringproc-27864.rb"
+      "27864": [
+        {
+          "do": "if",
+          "when": "has_item:cord-strung delicate brass key",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "remove ##{key.id}"
+            },
+            {
+              "do": "send",
+              "cmd": "unlock #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "open #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "go #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "close #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "lock #{door}"
+            },
+            {
+              "do": "send",
+              "cmd": "wear ##{key.id}"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "4651": 0.2,
-      "27864": "/rooms/27860/timeto/stringproc-27864.rb"
+      "27864": {
+        "cost": 5,
+        "requires": [
+          "has_item:cord-strung delicate brass key"
+        ]
+      }
     },
     "tags": [
       "Keh'nira Fyr'sah",

@@ -1,5 +1,5 @@
 {
-  "checksum": "eb4aac11534874729d9a6ccc6fdd7e10",
+  "checksum": "4524617335d189707893937d007f565b",
   "room": {
     "id": 24109,
     "title": [
@@ -16,7 +16,20 @@
       "24108": "go stone stairwell",
       "24110": "southeast",
       "24111": "southwest",
-      "24113": "/rooms/24109/wayto/stringproc-24113.rb"
+      "24113": [
+        {
+          "do": "send",
+          "cmd": "get my rattlesnake"
+        },
+        {
+          "do": "send",
+          "cmd": "put my rattlesnake in stone door"
+        },
+        {
+          "do": "move",
+          "cmd": "go stone door"
+        }
+      ]
     },
     "timeto": {
       "24108": 0.2,

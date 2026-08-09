@@ -1,5 +1,5 @@
 {
-  "checksum": "b26246f60b78f4b8c76ab46c98d0b08f",
+  "checksum": "e22fb338f4de3eeb02e6eb1a2386bca3",
   "room": {
     "id": 3261,
     "title": [
@@ -15,10 +15,84 @@
     "climate": "cold, damp",
     "terrain": "plain dirt",
     "wayto": {
-      "3249": "/rooms/3261/wayto/stringproc-3249.rb",
-      "3258": "/rooms/3261/wayto/stringproc-3258.rb",
-      "3260": "/rooms/3261/wayto/stringproc-3260.rb",
-      "3262": "/rooms/3261/wayto/stringproc-3262.rb"
+      "3249": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb south wall"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ],
+      "3258": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb north wall"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ],
+      "3260": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "east"
+        }
+      ],
+      "3262": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        }
+      ]
     },
     "timeto": {
       "3249": 0.2,
@@ -27,44 +101,36 @@
       "3262": 4
     },
     "tags": [
-      "some wolifrew lichen",
-      "some acantha leaf",
-      "some aloeas stem",
-      "some arctic brambles",
-      "handful of bearberries",
-      "bright red cranberry",
-      "wild chokecherry",
-      "some tundra grass",
-      "some wingstem root",
-      "stalk of chicory",
-      "withered black mushroom",
-      "winter rose",
-      "cuctucae berry",
-      "buckthorn berry",
-      "some pennyroyal stem",
-      "some angelica root",
-      "calmintha flower",
-      "sweetfern stalk",
-      "sassafras leaf",
-      "small wild rose",
-      "orange rowanberry",
-      "some valerian root",
-      "frostflower",
-      "blue whortleberry",
       "acantha leaf",
-      "wolifrew lichen",
       "aloeas stem",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "bearberries",
-      "tundra grass",
       "arctic brambles",
-      "murdroot",
+      "bearberries",
+      "blue whortleberry",
+      "bright red cranberry",
+      "buckthorn berry",
+      "calamintha flower",
+      "cuctucae berry",
+      "frostflower",
       "ironfern root",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-09",
+      "murdroot",
+      "orange rowanberry",
+      "pennyroyal stem",
+      "pine twig",
+      "sassafras leaf",
+      "stalk of chicory",
+      "sweetfern stalk",
+      "tundra grass",
+      "valerian root",
+      "wild chokecherry",
+      "wild rose",
       "wingstem root",
-      "meta:forage-sensed:night:2022-09"
+      "winter rose",
+      "withered mushroom",
+      "wolifrew lichen"
     ],
     "uid": [
       7502013

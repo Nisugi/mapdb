@@ -1,5 +1,5 @@
 {
-  "checksum": "26044d05545aa353661857454ae60a7c",
+  "checksum": "b07f7e713c65d96744488ba7595ebdda",
   "room": {
     "id": 3924,
     "title": [
@@ -15,7 +15,28 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "3584": "/rooms/3924/wayto/stringproc-3584.rb",
+      "3584": [
+        {
+          "do": "try_move",
+          "cmd": "go door",
+          "check": "move_result",
+          "fallback": [
+            {
+              "do": "echo",
+              "msg": "Waiting for the door to open... "
+            },
+            {
+              "do": "await",
+              "for": "You\\ hear\\ a\\ soft\\ click\\ from\\ the\\ door\\ and\\ it\\ suddenly\\ flies\\ open\\.",
+              "timeout": 30
+            },
+            {
+              "do": "move",
+              "cmd": "go door"
+            }
+          ]
+        }
+      ],
       "3923": "down",
       "3925": "east"
     },

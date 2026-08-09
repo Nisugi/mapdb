@@ -1,5 +1,5 @@
 {
-  "checksum": "bf1dbbcbc6d245b625dcafba14f1f679",
+  "checksum": "e4bac123d9f96a67958f1ed7b3424ef7",
   "room": {
     "id": 25890,
     "title": [
@@ -15,7 +15,16 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "8148": "/rooms/25890/wayto/stringproc-8148.rb",
+      "8148": [
+        {
+          "do": "send",
+          "cmd": "pull chain"
+        },
+        {
+          "do": "move",
+          "cmd": "go staircase"
+        }
+      ],
       "25889": "down",
       "25891": "go tapestry"
     },

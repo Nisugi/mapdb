@@ -1,1 +1,0 @@
-if checksitting;while Room.current.id == 23526;fput('row shore');waitrt?;end;else;move('climb shore');end;fill_hand;

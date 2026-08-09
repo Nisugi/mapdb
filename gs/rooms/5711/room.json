@@ -1,5 +1,5 @@
 {
-  "checksum": "ae684407a01cb6016b3ca44248b698c3",
+  "checksum": "ae31949aa53b9910bf73bd0f0189b0ac",
   "room": {
     "id": 5711,
     "title": [
@@ -17,22 +17,24 @@
     "wayto": {
       "1475": "out",
       "5712": "west",
-      "30710": "/rooms/5711/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "1475": 0.2,
       "5712": 0.2,
-      "30710": "/rooms/5711/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "pawnshop",
-      "urchin guide pawn",
-      "urchin-access",
-      "trash",
-      "meta:trashcan:wide-lipped copper urn",
-      "pawn",
       "meta:forage-sensed",
-      "no forageables"
+      "meta:trashcan:wide-lipped copper urn",
+      "no forageables",
+      "pawn",
+      "pawnshop",
+      "trash",
+      "urchin guide pawn",
+      "urchin-access"
     ],
     "uid": [
       4740075

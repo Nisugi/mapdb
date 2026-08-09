@@ -1,5 +1,5 @@
 {
-  "checksum": "348ad86c6bac1d5d44dd9aa498f1c796",
+  "checksum": "5e0962769483cd4be7017e68820bd6b2",
   "room": {
     "id": 3743,
     "title": [
@@ -15,11 +15,26 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "3740": "west",
-      "3744": "/rooms/3743/wayto/stringproc-3744.rb",
-      "17371": "/rooms/3743/wayto/stringproc-17371.rb",
-      "17372": "/rooms/3743/wayto/stringproc-17372.rb",
-      "17373": "/rooms/3743/wayto/stringproc-17373.rb",
-      "17374": "/rooms/3743/wayto/stringproc-17374.rb",
+      "3744": {
+        "strategy": "table_join",
+        "table": "red"
+      },
+      "17371": {
+        "strategy": "table_join",
+        "table": "blue"
+      },
+      "17372": {
+        "strategy": "table_join",
+        "table": "green"
+      },
+      "17373": {
+        "strategy": "table_join",
+        "table": "white"
+      },
+      "17374": {
+        "strategy": "table_join",
+        "table": "black"
+      },
       "36008": "east"
     },
     "timeto": {
@@ -31,6 +46,9 @@
       "17374": 0.2,
       "36008": 0.2
     },
+    "tags": [
+      "no forageables"
+    ],
     "uid": [
       109599
     ],

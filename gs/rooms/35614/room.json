@@ -1,5 +1,5 @@
 {
-  "checksum": "6cbd61def93e077d5ab7b1c10f3e62d0",
+  "checksum": "afb3df55d2b7c49b994940d242a19e59",
   "room": {
     "id": 35614,
     "title": [
@@ -16,7 +16,19 @@
       "35613": "go hatch",
       "35615": "southeast",
       "35618": "northwest",
-      "35727": "/rooms/35614/wayto/stringproc-35727.rb"
+      "35727": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "send",
+          "cmd": "go gash"
+        }
+      ]
     },
     "timeto": {
       "35613": 0.2,

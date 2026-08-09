@@ -1,5 +1,5 @@
 {
-  "checksum": "bfab2de9f16c119d5ad0fa32ba955bc1",
+  "checksum": "bc5245aa078a6e4eebb0464cdf6ed459",
   "room": {
     "id": 7990,
     "title": [
@@ -16,11 +16,26 @@
     "wayto": {
       "7986": "go mahogany door",
       "8747": "go curtain",
-      "32853": "/rooms/7990/wayto/stringproc-32853.rb",
-      "32854": "/rooms/7990/wayto/stringproc-32854.rb",
-      "32855": "/rooms/7990/wayto/stringproc-32855.rb",
-      "32856": "/rooms/7990/wayto/stringproc-32856.rb",
-      "32857": "/rooms/7990/wayto/stringproc-32857.rb"
+      "32853": {
+        "strategy": "table_join",
+        "table": "Singing Traveler"
+      },
+      "32854": {
+        "strategy": "table_join",
+        "table": "Elemental Fire"
+      },
+      "32855": {
+        "strategy": "table_join",
+        "table": "Minor Water"
+      },
+      "32856": {
+        "strategy": "table_join",
+        "table": "Tangleweed"
+      },
+      "32857": {
+        "strategy": "table_join",
+        "table": "Mana"
+      }
     },
     "timeto": {
       "7986": 0.2,

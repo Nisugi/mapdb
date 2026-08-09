@@ -1,5 +1,5 @@
 {
-  "checksum": "45e7cadf188b83a4983561982546c372",
+  "checksum": "d62aee0e13a6a2dd30bfdb82f1e4de44",
   "room": {
     "id": 29553,
     "title": [
@@ -19,9 +19,9 @@
       "29717": 0.2
     },
     "tags": [
-      "peer curtain =~ /Beacon Hall/",
       "bhalocker",
-      "meta:locker"
+      "meta:locker",
+      "peer curtain =~ /Beacon Hall/"
     ]
   }
 }

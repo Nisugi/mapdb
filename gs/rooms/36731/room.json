@@ -1,0 +1,29 @@
+{
+  "checksum": "98a1252c7f918d99d8d1de741e5f402c",
+  "room": {
+    "id": 36731,
+    "title": [
+      "[Krytze's General Store]"
+    ],
+    "description": [
+      "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  A plain wooden table sits in one corner while a worn rug rests on an unfinished wooden floor."
+    ],
+    "paths": [
+      "Obvious exits: north, east, out"
+    ],
+    "location": "Kraken's Fall",
+    "wayto": {
+      "36730": "out",
+      "36732": "n",
+      "36733": "e"
+    },
+    "timeto": {
+      "36730": 0.2,
+      "36732": 0.2,
+      "36733": 0.2
+    },
+    "uid": [
+      642385
+    ]
+  }
+}

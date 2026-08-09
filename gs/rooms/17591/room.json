@@ -1,5 +1,5 @@
 {
-  "checksum": "1b2e0a986fd5a1b2a7cc5edcf8c67eef",
+  "checksum": "a77ce2ba12fed28a3522e1e6493a8e9b",
   "room": {
     "id": 17591,
     "title": [
@@ -16,15 +16,24 @@
     "terrain": "hard, flat",
     "wayto": {
       "17590": "climb steps",
-      "17645": "/rooms/17591/wayto/stringproc-17645.rb"
+      "17645": [
+        {
+          "do": "send",
+          "cmd": "ask fisherman about boat"
+        },
+        {
+          "do": "send",
+          "cmd": "ask fisherman about boat"
+        }
+      ]
     },
     "timeto": {
       "17590": 0.2,
       "17645": 120
     },
     "tags": [
-      "silver-cost:17645:500",
-      "no forageables"
+      "no forageables",
+      "silver-cost:17645:500"
     ],
     "uid": [
       3216020

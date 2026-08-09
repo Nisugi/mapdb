@@ -1,0 +1,29 @@
+{
+  "checksum": "745597de27a89596b69e77dc750f9bd8",
+  "room": {
+    "id": 36775,
+    "title": [
+      "[Market of Lost Things]"
+    ],
+    "description": [
+      "The passage is divided by reinforced beams that frame narrow entries to storage alcoves, some converted to small kiosks or makeshift sleeping bunks.  Hooks and nails crowd every available plank, holding lanterns, baskets, and signs advertising wares.  Cargo nets hang overhead, securing a few forgotten wine barrels bearing brands from foreign ports."
+    ],
+    "paths": [
+      "Obvious exits: south"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36774": "south",
+      "36776": "go stall",
+      "36777": "go kiosk"
+    },
+    "timeto": {
+      "36774": 0.2,
+      "36776": 0.2,
+      "36777": 0.2
+    },
+    "uid": [
+      7134217
+    ]
+  }
+}

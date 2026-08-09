@@ -1,5 +1,5 @@
 {
-  "checksum": "cc3e193a94991fa20f7e13d950da9958",
+  "checksum": "4caf0507387a4a2f3ebd215c78f21041",
   "room": {
     "id": 30285,
     "title": [
@@ -15,17 +15,22 @@
     "location": "Solhaven",
     "wayto": {
       "1443": "out",
-      "30710": "/rooms/30285/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "1443": 0.2,
-      "30710": "/rooms/30285/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "mail",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "postoffice",
-      "urchin-access",
-      "urchin guide postoffice"
+      "stalk of bluebells",
+      "urchin guide postoffice",
+      "urchin-access"
     ],
     "uid": [
       4747090

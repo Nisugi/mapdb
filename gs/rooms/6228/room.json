@@ -1,5 +1,5 @@
 {
-  "checksum": "7fbe3c52dded1978c6fb8ec2d274555d",
+  "checksum": "63f7125cfe91b0ed8c91d07b17e575fd",
   "room": {
     "id": 6228,
     "title": [
@@ -15,7 +15,7 @@
     "climate": "cold, damp",
     "terrain": "subterranean",
     "wayto": {
-      "6227": "/rooms/6228/wayto/stringproc-6227.rb",
+      "6227": "climb path",
       "9651": "climb trail"
     },
     "timeto": {
@@ -23,17 +23,17 @@
       "9651": 0.2
     },
     "tags": [
-      "soft white mushroom",
-      "withered black mushroom",
-      "white hook mushroom",
       "blue trafel mushroom",
-      "murdroot",
-      "ironfern root",
       "bolmara lichen",
+      "ironfern root",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2025-06",
+      "murdroot",
+      "soft mushroom",
+      "white hook mushroom",
       "wingstem root",
-      "meta:forage-sensed:day:2025-02",
-      "meta:forage-sensed:night:2025-06"
+      "withered mushroom"
     ],
     "uid": [
       2167110

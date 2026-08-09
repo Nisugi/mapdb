@@ -1,5 +1,5 @@
 {
-  "checksum": "394b3babbb13bcc0f3a174ae4663d483",
+  "checksum": "35431c0dbc16fad80023ffa7e416ad6f",
   "room": {
     "id": 14234,
     "title": [
@@ -18,19 +18,21 @@
     "wayto": {
       "1568": "go ramp",
       "14353": "climb stairway",
-      "30710": "/rooms/14234/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "1568": 0.2,
       "14353": 0.2,
-      "30710": "/rooms/14234/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "meta:forage-sensed",
+      "no forageables",
       "node",
       "supernode",
-      "urchin-access",
-      "meta:forage-sensed",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       4902087

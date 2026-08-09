@@ -1,5 +1,5 @@
 {
-  "checksum": "ed1cbd650e80f71738f8a91e23779b0c",
+  "checksum": "8cf045f894d641fe345ff07712766ac3",
   "room": {
     "id": 11432,
     "title": [
@@ -18,7 +18,25 @@
     "terrain": "hard, flat",
     "wayto": {
       "11431": "up",
-      "11433": "/rooms/11432/wayto/stringproc-11433.rb"
+      "11433": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "if",
+          "when": "spell:invisibility",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "unhide"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go river"
+        }
+      ]
     },
     "timeto": {
       "11431": 0.2,

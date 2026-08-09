@@ -1,5 +1,5 @@
 {
-  "checksum": "a1c95a4d861dacdaf6e15c59e24bacd2",
+  "checksum": "6e753df81e0a531416ca55187a06be76",
   "room": {
     "id": 24056,
     "title": [
@@ -14,7 +14,16 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "8747": "go wooden stairs",
-      "24057": "/rooms/24056/wayto/stringproc-24057.rb"
+      "24057": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go jagged opening"
+        }
+      ]
     },
     "timeto": {
       "8747": 0.2,

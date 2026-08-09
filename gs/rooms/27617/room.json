@@ -1,5 +1,5 @@
 {
-  "checksum": "23b02f5009da1e302063db1753f13a98",
+  "checksum": "94efc6c5a7e4dfc8b2f7f2fa9d7c416d",
   "room": {
     "id": 27617,
     "title": [
@@ -13,15 +13,30 @@
     ],
     "location": "Icemule Trace",
     "wayto": {
-      "27616": "/rooms/27617/wayto/stringproc-27616.rb"
+      "27616": [
+        {
+          "do": "try_move",
+          "cmd": "go cedar door",
+          "fallback": [
+            {
+              "do": "send",
+              "cmd": "close locker"
+            },
+            {
+              "do": "move",
+              "cmd": "go cedar door"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "27616": 0.2
     },
     "tags": [
       "meta:che:Twilight Hall",
-      "meta:locker",
-      "meta:che:twilight_hall:locker"
+      "meta:che:twilight_hall:locker",
+      "meta:locker"
     ],
     "uid": [
       4043709

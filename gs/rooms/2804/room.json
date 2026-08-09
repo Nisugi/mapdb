@@ -1,5 +1,5 @@
 {
-  "checksum": "010bd7d7f2f64a0e3b1230b5cbdb7815",
+  "checksum": "7ad8b16f299ebc6ddf260e04811a2f9c",
   "room": {
     "id": 2804,
     "title": [
@@ -15,58 +15,90 @@
     "climate": "cold, damp",
     "terrain": "cultivated",
     "wayto": {
-      "2635": "/rooms/2804/wayto/stringproc-2635.rb",
+      "2635": {
+        "strategy": "voln_seeking",
+        "target": 2635
+      },
       "2803": "northwest",
       "2805": "northeast",
-      "2808": "/rooms/2804/wayto/stringproc-2808.rb",
-      "2972": "/rooms/2804/wayto/stringproc-2972.rb",
-      "3140": "/rooms/2804/wayto/stringproc-3140.rb",
+      "2808": {
+        "strategy": "voln_seeking",
+        "target": 2808
+      },
+      "2972": {
+        "strategy": "voln_seeking",
+        "target": 2972
+      },
+      "3140": {
+        "strategy": "voln_seeking",
+        "target": 3140
+      },
       "23145": "go spring"
     },
     "timeto": {
-      "2635": "/rooms/2804/timeto/stringproc-2635.rb",
+      "2635": {
+        "cost": 3,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
       "2803": 0.2,
       "2805": 0.2,
-      "2808": "/rooms/2804/timeto/stringproc-2808.rb",
-      "2972": "/rooms/2804/timeto/stringproc-2972.rb",
-      "3140": "/rooms/2804/timeto/stringproc-3140.rb",
+      "2808": {
+        "cost": 3,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "2972": {
+        "cost": 3,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
+      "3140": {
+        "cost": 3,
+        "requires": [
+          "society:Order of Voln+26",
+          "seeking_enabled"
+        ]
+      },
       "23145": 0.2
     },
     "tags": [
-      "node",
-      "some wyrmwood bark",
-      "manroot stalk",
-      "voln",
-      "some valerian root",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "red lichen",
-      "feverfern stalk",
-      "gok nut",
       "angelica root",
-      "pennyroyal stem",
-      "daggit root",
-      "soft white mushroom",
-      "withered black mushroom",
-      "white hook mushroom",
-      "blue trafel mushroom",
-      "moonflower",
-      "bright red cranberry",
-      "frostflower",
-      "blue whortleberry",
       "arctic brambles",
       "ayana leaf",
-      "witchwood twig",
-      "yew twig",
+      "blue trafel mushroom",
+      "blue whortleberry",
+      "bright red cranberry",
+      "daggit root",
+      "feverfew stalk",
+      "frostflower",
+      "gok nut",
       "luckbloom blossom",
-      "wavepetal blossom",
-      "some red lichen",
-      "valerian root",
-      "wyrmwood bark",
+      "manroot stalk",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:seeking",
+      "moonflower",
+      "node",
+      "pennyroyal stem",
+      "red lichen",
+      "sassafras leaf",
+      "soft mushroom",
       "sunburst blossom",
-      "meta:forage-sensed:day:2022-11"
+      "sweetfern stalk",
+      "valerian root",
+      "voln",
+      "wavepetal blossom",
+      "white hook mushroom",
+      "withered mushroom",
+      "wyrmwood bark",
+      "yew twig"
     ],
     "uid": [
       10000110

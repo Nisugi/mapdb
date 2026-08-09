@@ -1,5 +1,5 @@
 {
-  "checksum": "7d8a92fa2e4d926567a0506a0cd5fee2",
+  "checksum": "861be6516878a7bdc18d74b5e5ea9a42",
   "room": {
     "id": 9408,
     "title": [
@@ -15,16 +15,26 @@
     "wayto": {
       "9407": "go steel gate",
       "9409": "go arch",
-      "30712": "/rooms/9408/wayto/stringproc-30712.rb"
+      "30712": []
     },
     "timeto": {
       "9407": 0.2,
-      "9409": "/rooms/9408/timeto/stringproc-9409.rb",
-      "30712": "/rooms/9408/timeto/stringproc-30712.rb"
+      "9409": {
+        "cost": 0.2,
+        "requires": [
+          "var:premium"
+        ],
+        "else": {
+          "cost": 10
+        }
+      },
+      "30712": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
+      "no forageables",
       "urchin-access"
     ],
     "uid": [

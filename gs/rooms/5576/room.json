@@ -1,5 +1,5 @@
 {
-  "checksum": "ce2e52af862324d84882e8879068c3f0",
+  "checksum": "faec77cf6413a02b2dbddd2ac15d7032",
   "room": {
     "id": 5576,
     "title": [
@@ -16,57 +16,73 @@
     "terrain": "plain dirt",
     "wayto": {
       "4617": "north",
-      "30710": "/rooms/5576/wayto/stringproc-30710.rb",
+      "30710": [],
       "33305": "go copper gates"
     },
     "timeto": {
       "4617": 0.2,
-      "30710": "/rooms/5576/timeto/stringproc-30710.rb",
-      "33305": "/rooms/5576/timeto/stringproc-33305.rb"
+      "30710": {
+        "same_as": "7:30714"
+      },
+      "33305": {
+        "cost": 10,
+        "requires": [
+          "citizenship:Solhaven"
+        ],
+        "else": {
+          "cost": 10,
+          "requires": [
+            "var:allow_vornavis"
+          ]
+        }
+      }
     },
     "tags": [
-      "advguard",
       "acantha leaf",
+      "advguard",
+      "agave heart",
+      "angelica root",
+      "birch bark",
+      "black peppercorn",
+      "bur-clover root",
       "calamia fruit",
-      "sovyn clove",
+      "cardamom",
+      "cumin seeds",
+      "dark blue honeyberries",
+      "ghost pepper",
+      "guard",
+      "heath aster",
+      "hot pepper",
+      "ironfern root",
+      "juniper berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "motherwort",
+      "murdroot",
+      "northgate",
+      "nutmeg",
+      "pepperthorn root",
+      "pink peppercorn",
+      "plump black mulberries",
+      "small daisy",
       "small flower",
       "small rose",
-      "small daisy",
-      "angelica root",
-      "withered black mushroom",
-      "stalk of chicory",
+      "sovyn clove",
       "sprig of alyssum",
-      "heath aster",
+      "stalk of chicory",
       "stalk of goldenrod",
-      "yellow primrose",
-      "small wild rose",
-      "wild chokecherry",
-      "motherwort",
-      "white baneberry",
-      "pepperthorn root",
-      "murdroot",
-      "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "urchin-access",
+      "star anise",
+      "sweet potato",
       "urchin guide guard",
       "urchin guide northgate",
-      "guard",
-      "northgate",
-      "bur-clover root",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
+      "urchin-access",
       "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "dark blue honeyberries",
-      "plump black mulberries",
-      "sweet potato",
-      "agave heart",
-      "brown-skinned kiwi",
-      "meta:forage-sensed:day:2023-02"
+      "white baneberry",
+      "wild chokecherry",
+      "wild rose",
+      "wingstem root",
+      "withered mushroom",
+      "yellow primrose"
     ],
     "uid": [
       2130208

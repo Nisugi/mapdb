@@ -1,5 +1,5 @@
 {
-  "checksum": "f24f1d6b5ac0e52cb3045e0f8f668ec4",
+  "checksum": "8bae512e4277ca9708c05e1711750ab1",
   "room": {
     "id": 3544,
     "title": [
@@ -22,26 +22,28 @@
     "wayto": {
       "3542": "north",
       "10381": "go dock",
-      "30713": "/rooms/3544/wayto/stringproc-30713.rb"
+      "30713": []
     },
     "timeto": {
       "3542": 0.2,
       "10381": 0.2,
-      "30713": "/rooms/3544/timeto/stringproc-30713.rb"
+      "30713": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "node",
       "locksmith pool",
+      "locksmithpool",
       "meta:boxpool:npc:well-dressed elven merchant",
       "meta:boxpool:table:crude table",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-01",
+      "meta:trashcan:wooden barrel",
+      "no forageables",
+      "node",
       "supernode",
       "urchin guide locksmithpool",
-      "urchin-access",
-      "locksmithpool",
-      "meta:trashcan:wooden barrel",
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
+      "urchin-access"
     ],
     "uid": [
       14100045

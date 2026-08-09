@@ -1,5 +1,5 @@
 {
-  "checksum": "c6ac7d49d2f27e9beececef658e19513",
+  "checksum": "59f9307a3eea3b76e87e2e5a1f360cfd",
   "room": {
     "id": 7318,
     "title": [
@@ -16,7 +16,10 @@
     "terrain": "none",
     "wayto": {
       "7317": "down",
-      "7319": "/rooms/7318/wayto/stringproc-7319.rb"
+      "7319": {
+        "strategy": "unique_crossing",
+        "name": "crossing_7318_7319"
+      }
     },
     "timeto": {
       "7317": 0.2,
@@ -24,10 +27,10 @@
     },
     "tags": [
       "ironfern root",
-      "wingstem root",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2024-01",
-      "meta:forage-sensed:day:2025-02"
+      "wingstem root"
     ],
     "uid": [
       2150001

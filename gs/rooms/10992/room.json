@@ -1,5 +1,5 @@
 {
-  "checksum": "4274e09d7f3f4b5cda95e499665d93b2",
+  "checksum": "c1e96727bab588da61584ab081312d1a",
   "room": {
     "id": 10992,
     "title": [
@@ -14,17 +14,20 @@
     "location": "the Adventurer's Guild",
     "wayto": {
       "10991": "south",
-      "30711": "/rooms/10992/wayto/stringproc-30711.rb"
+      "30711": []
     },
     "timeto": {
       "10991": 0.2,
-      "30711": "/rooms/10992/timeto/stringproc-30711.rb"
+      "30711": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "advguild",
-      "urchin-access",
+      "bounty",
+      "no forageables",
       "urchin guide bounty",
-      "bounty"
+      "urchin-access"
     ],
     "uid": [
       15003004

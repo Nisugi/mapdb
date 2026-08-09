@@ -1,5 +1,5 @@
 {
-  "checksum": "9f24d7cbf1894e16ed87d1a476e9a557",
+  "checksum": "2e0c1cc768db4a9c27a8e2ae6e1c8ceb",
   "room": {
     "id": 22007,
     "title": [
@@ -13,10 +13,43 @@
     ],
     "location": "Talador",
     "wayto": {
-      "21962": "/rooms/22007/wayto/stringproc-21962.rb",
-      "21964": "/rooms/22007/wayto/stringproc-21964.rb",
-      "21967": "/rooms/22007/wayto/stringproc-21967.rb",
-      "22008": "/rooms/22007/wayto/stringproc-22008.rb"
+      "21962": [
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "move",
+          "cmd": "west"
+        }
+      ],
+      "21964": [
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb wall"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ],
+      "21967": {
+        "strategy": "unique_crossing",
+        "name": "crossing_22007_21967"
+      },
+      "22008": [
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "move",
+          "cmd": "south"
+        }
+      ]
     },
     "timeto": {
       "21962": 0.2,

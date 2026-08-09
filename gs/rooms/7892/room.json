@@ -1,5 +1,5 @@
 {
-  "checksum": "a2f7f0cb25f34ab790e2760cb9b62c79",
+  "checksum": "649c52948f4c0793dfb62de8b64f4365",
   "room": {
     "id": 7892,
     "title": [
@@ -16,42 +16,86 @@
     "terrain": "deciduous forest",
     "wayto": {
       "7891": "northwest",
-      "24675": "/rooms/7892/wayto/stringproc-24675.rb"
+      "24675": [
+        {
+          "do": "set",
+          "var": "redforest_location",
+          "value": "WL"
+        },
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "repeat",
+              "until": "status:standing",
+              "steps": [
+                {
+                  "do": "send",
+                  "cmd": "stand"
+                }
+              ]
+            },
+            {
+              "do": "await",
+              "cmd": "go fog",
+              "for": "get turned around and come right back out|Obvious paths: northeast, southeast",
+              "timeout": 5,
+              "if_match": {
+                "pattern": "Obvious paths: northeast, southeast",
+                "steps": [
+                  {
+                    "do": "break"
+                  }
+                ]
+              }
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.5
+            },
+            {
+              "do": "wait_rt"
+            }
+          ],
+          "times": 50
+        }
+      ]
     },
     "timeto": {
       "7891": 0.2,
       "24675": 0.2
     },
     "tags": [
-      "wild pink geranium",
-      "white hook mushroom",
-      "stalk of bluebells",
-      "bright red teaberry",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "bright red cranberry",
-      "wintergreen leaf",
-      "tkaro root",
       "acantha leaf",
-      "wolifrew lichen",
-      "ephlox moss",
-      "sticks",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "broken twig",
-      "tree bark",
-      "willow twig",
-      "yew twig",
-      "oak twig",
-      "luckbloom blossom",
-      "twisted twig",
-      "slender twig",
       "bolmara lichen",
-      "meta:forage-sensed",
+      "bright red cranberry",
+      "bright red teaberry",
+      "broken twig",
       "brostheras grass",
+      "ephlox moss",
+      "luckbloom blossom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2023-02",
-      "meta:forage-sensed:day:2025-05"
+      "oak twig",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "slender twig",
+      "stalk of bluebells",
+      "sticks",
+      "sweetfern stalk",
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "white hook mushroom",
+      "wild beechnut",
+      "wild pink geranium",
+      "willow twig",
+      "wintergreen leaf",
+      "wolifrew lichen",
+      "yew twig"
     ],
     "uid": [
       2123010

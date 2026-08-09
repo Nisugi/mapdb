@@ -1,0 +1,29 @@
+{
+  "checksum": "3182954d7352bfa560c540406f7f6758",
+  "room": {
+    "id": 36725,
+    "title": [
+      "[Salty's Services, Foyer]"
+    ],
+    "description": [
+      "Opening off of a wide driftwood arch, the area is cavernous and spare, with high ceilings and a plain wooden floor scattered with loose sand.  Varied multihued banners line the wooden walls, each adorned with the sewn-on image of a stylized kraken.  Above, a metal brazier hangs from the ceiling, casting a dim light across the warehouse entry.  A narrow winding stairway disappears upward into the warehouse's second floor, while a broad kelp-lined curtain opposite the arch leads further inward."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "Kraken's Fall",
+    "wayto": {
+      "36724": "go arch",
+      "36726": "go curtain",
+      "36746": "go stairway"
+    },
+    "timeto": {
+      "36724": 0.2,
+      "36726": 0.2,
+      "36746": 0.2
+    },
+    "uid": [
+      740004
+    ]
+  }
+}

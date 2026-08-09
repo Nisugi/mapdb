@@ -1,5 +1,5 @@
 {
-  "checksum": "724e2a5ae0ba052be12175e53fc8a3a8",
+  "checksum": "6e41c4ad3eb60122c81d01d6b17494e1",
   "room": {
     "id": 402,
     "title": [
@@ -15,19 +15,22 @@
     "wayto": {
       "276": "out",
       "403": "go door",
-      "30708": "/rooms/402/wayto/stringproc-30708.rb"
+      "30708": []
     },
     "timeto": {
       "276": 0.2,
       "403": 0.2,
-      "30708": "/rooms/402/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "weaponshop",
       "meta:noteleport:fwi",
-      "urchin-access",
+      "no forageables",
       "urchin guide weapons",
-      "weapons"
+      "urchin-access",
+      "weapons",
+      "weaponshop"
     ],
     "uid": [
       2008

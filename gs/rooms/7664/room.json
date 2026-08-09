@@ -1,5 +1,5 @@
 {
-  "checksum": "d9b64fbdb5e1324155f35d07c6bed5c8",
+  "checksum": "e53a41960c19e968b2ae5785d1bbe86c",
   "room": {
     "id": 7664,
     "title": [
@@ -15,7 +15,44 @@
     "wayto": {
       "7659": "northeast",
       "7665": "west",
-      "7669": "/rooms/7664/wayto/stringproc-7669.rb"
+      "7669": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "wait_rt"
+            },
+            {
+              "do": "if",
+              "when": "not:status:standing",
+              "then": [
+                {
+                  "do": "send",
+                  "cmd": "stand"
+                }
+              ]
+            },
+            {
+              "do": "wait_rt"
+            },
+            {
+              "do": "await",
+              "cmd": "climb stone",
+              "for": "slide back down|You dance lightly up",
+              "timeout": 3,
+              "if_match": {
+                "pattern": "You dance lightly up",
+                "steps": [
+                  {
+                    "do": "break"
+                  }
+                ]
+              }
+            }
+          ],
+          "times": 3
+        }
+      ]
     },
     "timeto": {
       "7659": 0.2,
@@ -23,10 +60,10 @@
       "7669": 0.2
     },
     "tags": [
-      "shelfae chieftain",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "meta:forage-sensed:day:2022-09",
+      "no forageables",
+      "shelfae chieftain"
     ],
     "uid": [
       84406

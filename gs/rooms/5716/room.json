@@ -1,5 +1,5 @@
 {
-  "checksum": "9ae01a679c3e0993e0e487061938697c",
+  "checksum": "a0c87c3dddf3e1fecdb4f4ec7f3104ec",
   "room": {
     "id": 5716,
     "title": [
@@ -17,37 +17,127 @@
     "wayto": {
       "5713": "go arch",
       "5715": "south",
-      "24212": "/rooms/5716/wayto/stringproc-24212.rb",
-      "24461": "/rooms/5716/wayto/stringproc-24461.rb",
-      "26190": "/rooms/5716/wayto/stringproc-26190.rb",
-      "26191": "/rooms/5716/wayto/stringproc-26191.rb",
-      "26192": "/rooms/5716/wayto/stringproc-26192.rb",
-      "26193": "/rooms/5716/wayto/stringproc-26193.rb",
-      "26194": "/rooms/5716/wayto/stringproc-26194.rb",
-      "26195": "/rooms/5716/wayto/stringproc-26195.rb",
-      "26196": "/rooms/5716/wayto/stringproc-26196.rb",
-      "26197": "/rooms/5716/wayto/stringproc-26197.rb",
-      "26198": "/rooms/5716/wayto/stringproc-26198.rb",
-      "26199": "/rooms/5716/wayto/stringproc-26199.rb",
-      "26200": "/rooms/5716/wayto/stringproc-26200.rb",
-      "26201": "/rooms/5716/wayto/stringproc-26201.rb",
-      "26202": "/rooms/5716/wayto/stringproc-26202.rb",
-      "26203": "/rooms/5716/wayto/stringproc-26203.rb",
-      "26204": "/rooms/5716/wayto/stringproc-26204.rb",
-      "26205": "/rooms/5716/wayto/stringproc-26205.rb",
-      "26206": "/rooms/5716/wayto/stringproc-26206.rb",
-      "26207": "/rooms/5716/wayto/stringproc-26207.rb",
-      "26208": "/rooms/5716/wayto/stringproc-26208.rb",
-      "26209": "/rooms/5716/wayto/stringproc-26209.rb",
-      "26210": "/rooms/5716/wayto/stringproc-26210.rb",
-      "26211": "/rooms/5716/wayto/stringproc-26211.rb",
-      "26212": "/rooms/5716/wayto/stringproc-26212.rb",
-      "26213": "/rooms/5716/wayto/stringproc-26213.rb",
-      "26214": "/rooms/5716/wayto/stringproc-26214.rb",
-      "26215": "/rooms/5716/wayto/stringproc-26215.rb",
-      "26216": "/rooms/5716/wayto/stringproc-26216.rb",
-      "26217": "/rooms/5716/wayto/stringproc-26217.rb",
-      "30710": "/rooms/5716/wayto/stringproc-30710.rb"
+      "24212": {
+        "strategy": "table_join",
+        "table": "Shadowy Shark"
+      },
+      "24461": {
+        "strategy": "table_join",
+        "table": "Jocular Jack"
+      },
+      "26190": {
+        "strategy": "table_join",
+        "table": "Grumpy Grouper"
+      },
+      "26191": {
+        "strategy": "table_join",
+        "table": "Merry Mermaid"
+      },
+      "26192": {
+        "strategy": "table_join",
+        "table": "Sickly Seathrak"
+      },
+      "26193": {
+        "strategy": "table_join",
+        "table": "Elusive Eel"
+      },
+      "26194": {
+        "strategy": "table_join",
+        "table": "Scrappy Scallop"
+      },
+      "26195": {
+        "strategy": "table_join",
+        "table": "Floundering Flounder"
+      },
+      "26196": {
+        "strategy": "table_join",
+        "table": "Malevolent Marlin"
+      },
+      "26197": {
+        "strategy": "table_join",
+        "table": "Salivating Salmon"
+      },
+      "26198": {
+        "strategy": "table_join",
+        "table": "Ornery Octopus"
+      },
+      "26199": {
+        "strategy": "table_join",
+        "table": "Squirmy Squid"
+      },
+      "26200": {
+        "strategy": "table_join",
+        "table": "Sturdy Sturgeon"
+      },
+      "26201": {
+        "strategy": "table_join",
+        "table": "Lumpy Lobster"
+      },
+      "26202": {
+        "strategy": "table_join",
+        "table": "White Whale"
+      },
+      "26203": {
+        "strategy": "table_join",
+        "table": "Wacky Wahoo"
+      },
+      "26204": {
+        "strategy": "table_join",
+        "table": "Cozy Catfish"
+      },
+      "26205": {
+        "strategy": "table_join",
+        "table": "Pearly Oyster"
+      },
+      "26206": {
+        "strategy": "table_join",
+        "table": "Swaggering Swordfish"
+      },
+      "26207": {
+        "strategy": "table_join",
+        "table": "Salty Sailfish"
+      },
+      "26208": {
+        "strategy": "table_join",
+        "table": "Shrunken Shrimp"
+      },
+      "26209": {
+        "strategy": "table_join",
+        "table": "Clacking Clam"
+      },
+      "26210": {
+        "strategy": "table_join",
+        "table": "Standing Starfish"
+      },
+      "26211": {
+        "strategy": "table_join",
+        "table": "Jolly Jellyfish"
+      },
+      "26212": {
+        "strategy": "table_join",
+        "table": "Skittering Sand Crab"
+      },
+      "26213": {
+        "strategy": "table_join",
+        "table": "Bare Bonefish"
+      },
+      "26214": {
+        "strategy": "table_join",
+        "table": "Bloated Blowfish"
+      },
+      "26215": {
+        "strategy": "table_join",
+        "table": "Tenacious Trout"
+      },
+      "26216": {
+        "strategy": "table_join",
+        "table": "Tarnished Tarpon"
+      },
+      "26217": {
+        "strategy": "table_join",
+        "table": "Hearty Halibut"
+      },
+      "30710": []
     },
     "timeto": {
       "5713": 0.2,
@@ -82,15 +172,17 @@
       "26215": 0.2,
       "26216": 0.2,
       "26217": 0.2,
-      "30710": "/rooms/5716/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "table",
-      "urchin-access",
-      "urchin guide tables",
-      "tables",
       "meta:forage-sensed",
-      "no forageables"
+      "no forageables",
+      "table",
+      "tables",
+      "urchin guide tables",
+      "urchin-access"
     ],
     "uid": [
       4740034

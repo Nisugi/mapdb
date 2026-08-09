@@ -1,5 +1,5 @@
 {
-  "checksum": "7fd6535b64146336ed521a5b7dac33e4",
+  "checksum": "d189faddcf4ae0f93b4c67da9be8d0b9",
   "room": {
     "id": 17931,
     "title": [
@@ -14,18 +14,30 @@
     "location": "Solhaven",
     "wayto": {
       "13243": "go steps",
-      "17932": "/rooms/17931/wayto/stringproc-17932.rb"
+      "17932": [
+        {
+          "do": "cross",
+          "room": 12421,
+          "dest": "14089"
+        }
+      ]
     },
     "timeto": {
       "13243": 0.2,
-      "17932": "/rooms/17931/timeto/stringproc-17932.rb"
+      "17932": {
+        "cost": 1.6,
+        "requires": [
+          "prof:Rogue"
+        ]
+      }
     },
     "tags": [
-      "rogue guild",
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Vornavis",
       "meta:mapname:Vornavis - Rogue Guild",
       "meta:mapshortname:Rogue Guild (VO)",
-      "meta:mapcategory:Vornavis",
-      "meta:mapcategory:Guilds",
+      "no forageables",
+      "rogue guild",
       "rogueguild"
     ],
     "uid": [

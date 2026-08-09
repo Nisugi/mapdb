@@ -1,5 +1,5 @@
 {
-  "checksum": "97d469b3d4eed614eaa3056869e184dc",
+  "checksum": "a26ecc7772d18dd70ed09c3adce4faf0",
   "room": {
     "id": 18870,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "8623": "/rooms/18870/wayto/stringproc-8623.rb",
+      "8623": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go ladder"
+        }
+      ],
       "18861": "up",
       "18871": "go polished door",
       "18872": "go cherrywood door",

@@ -1,5 +1,5 @@
 {
-  "checksum": "78ff4ed503fee667b90fca49fad9a159",
+  "checksum": "ed74031dc159e836ac08e3050439175c",
   "room": {
     "id": 32362,
     "title": [
@@ -13,15 +13,17 @@
     ],
     "location": "the Crawling Shore",
     "wayto": {
-      "32334": "go trapdoor"
+      "32334": "go trapdoor",
+      "32363": "lean stone"
     },
     "timeto": {
-      "32334": 0.2
+      "32334": 0.2,
+      "32363": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
+      "meta:forage-sensed:day:2022-11",
+      "no forageables"
     ],
     "uid": [
       4576060

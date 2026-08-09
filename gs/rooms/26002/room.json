@@ -1,5 +1,5 @@
 {
-  "checksum": "870d977704124928efe527d62da623e9",
+  "checksum": "3d7237aa50c0c0ac088157cabed0c900",
   "room": {
     "id": 26002,
     "title": [
@@ -15,7 +15,7 @@
     "climate": "arid, temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "26000": "/rooms/26002/wayto/stringproc-26000.rb"
+      "26000": "go northwest"
     },
     "timeto": {
       "26000": 0.2

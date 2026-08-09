@@ -1,5 +1,5 @@
 {
-  "checksum": "01ca8ec626c6a38264ed67ff5d736eba",
+  "checksum": "6fb038a1599d1a3aa9a744dbcb7fe263",
   "room": {
     "id": 16770,
     "title": [
@@ -15,7 +15,16 @@
     "wayto": {
       "16769": "west",
       "16771": "south",
-      "16781": "/rooms/16770/wayto/stringproc-16781.rb"
+      "16781": [
+        {
+          "do": "send",
+          "cmd": "get jug"
+        },
+        {
+          "do": "move",
+          "cmd": "go archway"
+        }
+      ]
     },
     "timeto": {
       "16769": 0.2,
@@ -23,8 +32,8 @@
       "16781": 0.4
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       13300046

@@ -1,5 +1,5 @@
 {
-  "checksum": "7e9f9e5ca418f8ebc08ce0e19722ca5f",
+  "checksum": "9f9a87a63d43ad45f2d5d33e3df573cb",
   "room": {
     "id": 11442,
     "title": [
@@ -16,22 +16,103 @@
     "climate": "saltwater",
     "terrain": "",
     "wayto": {
-      "11441": "/rooms/11442/wayto/stringproc-11441.rb",
-      "11443": "/rooms/11442/wayto/stringproc-11443.rb",
-      "11453": "/rooms/11442/wayto/stringproc-11453.rb",
-      "11479": "/rooms/11442/wayto/stringproc-11479.rb",
-      "11485": "/rooms/11442/wayto/stringproc-11485.rb"
+      "11441": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "south"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim south"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11443": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "southwest"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim southwest"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11453": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "southeast"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim southeast"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11479": [
+        {
+          "do": "move",
+          "cmd": "swim down"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11485": [
+        {
+          "do": "move",
+          "cmd": "climb pathway"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ]
     },
     "timeto": {
       "11441": 2,
       "11443": 2,
       "11453": 2,
       "11479": 3,
-      "11485": "/rooms/11442/timeto/stringproc-11485.rb"
+      "11485": {
+        "cost": 0.2,
+        "requires": [
+          "skill:climbing>14"
+        ]
+      }
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
+      "no forageables",
       "restricted:11485:skill:climbing:15"
     ],
     "uid": [

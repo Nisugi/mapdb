@@ -1,5 +1,5 @@
 {
-  "checksum": "03c4d67eaf049a8618163d31a8699fec",
+  "checksum": "6b7ed95a612466a507b0a09d5a3d8317",
   "room": {
     "id": 19029,
     "title": [
@@ -13,7 +13,13 @@
     ],
     "location": "Kharam-Dzu",
     "wayto": {
-      "19007": "/rooms/19029/wayto/stringproc-19007.rb"
+      "19007": [
+        {
+          "do": "cast",
+          "spell": 704,
+          "target": "banner"
+        }
+      ]
     },
     "timeto": {
       "19007": 5

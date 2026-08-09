@@ -1,5 +1,5 @@
 {
-  "checksum": "d1dcb101fa37858af9a8bcbd701fce0a",
+  "checksum": "e661e7106e32c9cc52e755f2b298d457",
   "room": {
     "id": 1844,
     "title": [
@@ -16,19 +16,21 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "1843": "go stair",
-      "30715": "/rooms/1844/wayto/stringproc-30715.rb"
+      "30715": []
     },
     "timeto": {
       "1843": 0.2,
-      "30715": "/rooms/1844/timeto/stringproc-30715.rb"
+      "30715": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "meta:sign of darkness",
+      "meta:society:Council of Light",
       "node",
       "supernode",
-      "urchin-access",
       "urchin guide tower",
-      "meta:sign of darkness",
-      "meta:society:Council of Light"
+      "urchin-access"
     ],
     "uid": [
       3001001

@@ -1,5 +1,5 @@
 {
-  "checksum": "254c3c0c0b4e43ef6c92f4d5472f5db0",
+  "checksum": "48d42f62c30adceccd5f707cd4a5be5f",
   "room": {
     "id": 9818,
     "title": [
@@ -13,7 +13,10 @@
     ],
     "location": "the Maaghara Tower",
     "wayto": {
-      "9734": "/rooms/9818/wayto/stringproc-9734.rb",
+      "9734": {
+        "strategy": "unique_crossing",
+        "name": "crossing_9784_9734"
+      },
       "9817": "west",
       "9819": "east"
     },
@@ -23,8 +26,8 @@
       "9819": 0.2
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       13022015

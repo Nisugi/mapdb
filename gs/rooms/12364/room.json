@@ -1,5 +1,5 @@
 {
-  "checksum": "ea917f327b1258ce5e8e3ef0ba20a40b",
+  "checksum": "310c28c8ef23f8face15a1027278517c",
   "room": {
     "id": 12364,
     "title": [
@@ -15,11 +15,23 @@
     "location": "Mist Harbor",
     "wayto": {
       "3661": "out",
-      "23243": "/rooms/12364/wayto/stringproc-23243.rb",
+      "23243": {
+        "strategy": "table_join",
+        "table": "green"
+      },
       "23745": "east",
-      "26187": "/rooms/12364/wayto/stringproc-26187.rb",
-      "26188": "/rooms/12364/wayto/stringproc-26188.rb",
-      "26189": "/rooms/12364/wayto/stringproc-26189.rb"
+      "26187": {
+        "strategy": "table_join",
+        "table": "blue"
+      },
+      "26188": {
+        "strategy": "table_join",
+        "table": "red"
+      },
+      "26189": {
+        "strategy": "table_join",
+        "table": "yellow"
+      }
     },
     "timeto": {
       "3661": 0.2,

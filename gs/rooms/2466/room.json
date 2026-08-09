@@ -1,5 +1,5 @@
 {
-  "checksum": "8300e0f69a42e616afbacb3764e245bd",
+  "checksum": "6dbac873a5d083b343b31044b0583653",
   "room": {
     "id": 2466,
     "title": [
@@ -14,16 +14,19 @@
     "location": "Icemule Trace",
     "wayto": {
       "2465": "out",
-      "30709": "/rooms/2466/wayto/stringproc-30709.rb"
+      "30709": []
     },
     "timeto": {
       "2465": 0.2,
-      "30709": "/rooms/2466/timeto/stringproc-30709.rb"
+      "30709": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "furrier",
-      "urchin-access",
-      "urchin guide furrier"
+      "no forageables",
+      "urchin guide furrier",
+      "urchin-access"
     ],
     "uid": [
       4043312

@@ -1,5 +1,5 @@
 {
-  "checksum": "a0752e742ad6a00d90b0ce35c0eb1e24",
+  "checksum": "0c29d42a24ae94b5a5ebb2fdbf16fb63",
   "room": {
     "id": 18843,
     "title": [
@@ -9,10 +9,66 @@
       "Obvious paths: north, southeast, southwest, west, northwest, down"
     ],
     "wayto": {
-      "18823": "/rooms/18843/wayto/stringproc-18823.rb",
-      "18842": "/rooms/18843/wayto/stringproc-18842.rb",
-      "25616": "/rooms/18843/wayto/stringproc-25616.rb",
-      "25617": "/rooms/18843/wayto/stringproc-25617.rb"
+      "18823": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "row southeast"
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        }
+      ],
+      "18842": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "row northwest"
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        }
+      ],
+      "25616": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "row southwest"
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        }
+      ],
+      "25617": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "row west"
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "18823": 0.2,

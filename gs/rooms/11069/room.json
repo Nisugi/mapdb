@@ -1,5 +1,5 @@
 {
-  "checksum": "120d6b99adc4bb1e3c1cc72455b21550",
+  "checksum": "9f2e46ed48b6515de9a666fbb2f7d722",
   "room": {
     "id": 11069,
     "title": [
@@ -13,7 +13,22 @@
     ],
     "location": "the Sea Caves",
     "wayto": {
-      "11068": "/rooms/11069/wayto/stringproc-11068.rb",
+      "11068": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "swim tunnel"
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            }
+          ],
+          "until_room": 11068
+        }
+      ],
       "11070": "east"
     },
     "timeto": {
@@ -21,10 +36,10 @@
       "11070": 0.2
     },
     "tags": [
-      "murdroot",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
+      "murdroot"
     ],
     "uid": [
       26103

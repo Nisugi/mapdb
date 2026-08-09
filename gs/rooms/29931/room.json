@@ -1,5 +1,5 @@
 {
-  "checksum": "051a357f1cb101b3ac1f2a90aa24b70a",
+  "checksum": "e93181e1f8ad4f7574c659584f3590ab",
   "room": {
     "id": 29931,
     "title": [
@@ -17,7 +17,16 @@
     "wayto": {
       "29930": "northeast",
       "29932": "northwest",
-      "30085": "/rooms/29931/wayto/stringproc-30085.rb"
+      "30085": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go shrouded path"
+        }
+      ]
     },
     "timeto": {
       "29930": 0.2,
@@ -25,41 +34,41 @@
       "30085": 0.2
     },
     "tags": [
-      "tkaro root",
-      "sticks",
-      "sassafras leaf",
-      "sweetfern stalk",
-      "red lichen",
-      "gok nut",
-      "manroot stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "wyrmwood bark",
-      "daggit root",
       "black acorn",
-      "wintergreen leaf",
+      "bolmara lichen",
       "bright red teaberry",
-      "handful of pinenuts",
       "broken twig",
+      "crowberry",
+      "daggit root",
+      "feverfew stalk",
+      "frostflower",
+      "frostweed",
+      "gok nut",
+      "handful of pinenuts",
+      "ironfern root",
+      "lingonberry",
+      "manroot stalk",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-01",
+      "orange rowanberry",
+      "pennyroyal stem",
       "pine cone",
       "pine needles",
-      "frostweed",
+      "red lichen",
       "red winterberry",
-      "tree bark",
-      "frostflower",
       "rockberry",
-      "crowberry",
-      "lingonberry",
-      "orange rowanberry",
-      "ironfern root",
-      "twisted twig",
+      "sassafras leaf",
       "slender twig",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01",
-      "feverfew stalk",
-      "meta:forage-sensed:day:2025-03"
+      "sticks",
+      "sweetfern stalk",
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "wintergreen leaf",
+      "wyrmwood bark"
     ],
     "uid": [
       7503133

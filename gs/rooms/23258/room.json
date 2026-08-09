@@ -1,5 +1,5 @@
 {
-  "checksum": "007ff6a8e5c3f119f719915293435869",
+  "checksum": "010b8579ed6f46f910646acc1627cd0e",
   "room": {
     "id": 23258,
     "title": [
@@ -15,13 +15,69 @@
     "climate": "hot, damp",
     "terrain": "barren scrub",
     "wayto": {
-      "7437": "/rooms/23258/wayto/stringproc-7437.rb",
-      "7438": "/rooms/23258/wayto/stringproc-7438.rb",
-      "7439": "/rooms/23258/wayto/stringproc-7439.rb",
-      "7440": "/rooms/23258/wayto/stringproc-7440.rb",
-      "7441": "/rooms/23258/wayto/stringproc-7441.rb",
-      "17319": "/rooms/23258/wayto/stringproc-17319.rb",
-      "23259": "/rooms/23258/wayto/stringproc-23259.rb"
+      "7437": [
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "7438": [
+        {
+          "do": "move",
+          "cmd": "northeast"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "7439": [
+        {
+          "do": "move",
+          "cmd": "south"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "7440": [
+        {
+          "do": "move",
+          "cmd": "west"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "7441": [
+        {
+          "do": "move",
+          "cmd": "north"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "17319": [
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "23259": [
+        {
+          "do": "move",
+          "cmd": "east"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "7437": 3.2,
@@ -33,10 +89,10 @@
       "23259": 3.2
     },
     "tags": [
-      "hooded figure",
-      "giant fog beetle",
-      "blackened moss",
       "black toadstool",
+      "blackened moss",
+      "giant fog beetle",
+      "hooded figure",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2023-01"
     ],

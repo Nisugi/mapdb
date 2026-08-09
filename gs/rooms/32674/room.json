@@ -1,5 +1,5 @@
 {
-  "checksum": "1a4d9155627f2f0dfa4ff51a99bc03c4",
+  "checksum": "8d531f76c7fc565c7c81739af9d8584e",
   "room": {
     "id": 32674,
     "title": [
@@ -14,16 +14,19 @@
     "location": "Ta'Illistim",
     "wayto": {
       "678": "out",
-      "30714": "/rooms/32674/wayto/stringproc-30714.rb"
+      "30714": []
     },
     "timeto": {
       "678": 0.2,
-      "30714": "/rooms/32674/timeto/stringproc-30714.rb"
+      "30714": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "grocer",
-      "urchin-access",
-      "urchin guide grocer"
+      "no forageables",
+      "urchin guide grocer",
+      "urchin-access"
     ],
     "uid": [
       13051031

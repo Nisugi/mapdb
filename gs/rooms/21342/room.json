@@ -1,5 +1,5 @@
 {
-  "checksum": "103bc9b5afbe2bb8edae0faa091d0736",
+  "checksum": "4e39ec95c3a523f823a828dd44aed5d5",
   "room": {
     "id": 21342,
     "title": [
@@ -14,11 +14,26 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "21341": "go modwir door",
-      "21361": "/rooms/21342/wayto/stringproc-21361.rb",
-      "21362": "/rooms/21342/wayto/stringproc-21362.rb",
-      "21363": "/rooms/21342/wayto/stringproc-21363.rb",
-      "21364": "/rooms/21342/wayto/stringproc-21364.rb",
-      "21365": "/rooms/21342/wayto/stringproc-21365.rb"
+      "21361": {
+        "strategy": "table_join",
+        "table": "Pixies"
+      },
+      "21362": {
+        "strategy": "table_join",
+        "table": "Tree Nymph"
+      },
+      "21363": {
+        "strategy": "table_join",
+        "table": "Sea Nymph"
+      },
+      "21364": {
+        "strategy": "table_join",
+        "table": "Moonstone Butterfly"
+      },
+      "21365": {
+        "strategy": "table_join",
+        "table": "Water Lily"
+      }
     },
     "timeto": {
       "21341": 0.2,

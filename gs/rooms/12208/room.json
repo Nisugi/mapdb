@@ -1,5 +1,5 @@
 {
-  "checksum": "9fb3f889eb4e236894120034eb28e273",
+  "checksum": "7223d26481c92a6551971d2eb4e2ba91",
   "room": {
     "id": 12208,
     "title": [
@@ -16,7 +16,57 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "2579": "/rooms/12208/wayto/stringproc-2579.rb",
+      "2579": {
+        "strategy": "patrol_search",
+        "rooms": [
+          12162,
+          12207,
+          12170,
+          12209,
+          12215,
+          12210,
+          12159,
+          12165,
+          12206,
+          12173,
+          12208,
+          null,
+          12160,
+          12211
+        ],
+        "dirs": [
+          "northwest",
+          "north",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "north",
+          "northwest",
+          "west",
+          "east",
+          "northeast",
+          "northwest",
+          "northeast"
+        ],
+        "objects": [
+          "thread"
+        ],
+        "enter": [
+          {
+            "do": "move",
+            "cmd": "climb thread"
+          },
+          {
+            "do": "wait_rt"
+          },
+          {
+            "do": "send",
+            "cmd": "stand"
+          }
+        ]
+      },
       "12165": "southwest",
       "12173": "east",
       "12209": "northwest"
@@ -28,15 +78,15 @@
       "12209": 0.2
     },
     "tags": [
-      "mass of congealed slime",
-      "withered deathblossom",
-      "rotting bile green fleshbulb",
-      "twisted black mawflower",
-      "slime-covered grave blossom",
-      "oozing fleshsore bulb",
-      "discolored fleshbinder bud",
       "congealed slime",
-      "meta:forage-sensed"
+      "discolored fleshbinder bud",
+      "mass of congealed slime",
+      "meta:forage-sensed",
+      "oozing fleshsore bulb",
+      "rotting bile green fleshbulb",
+      "slime-covered grave blossom",
+      "twisted black mawflower",
+      "withered deathblossom"
     ],
     "uid": [
       4570013

@@ -1,5 +1,5 @@
 {
-  "checksum": "c41242fc2137578913b84bda331fdcb7",
+  "checksum": "36a67e2fde852235b8bceb60ae7ff317",
   "room": {
     "id": 10424,
     "title": [
@@ -16,12 +16,30 @@
       "3498": "out",
       "10425": "go stair",
       "28270": "go curtain",
-      "28271": "/rooms/10424/wayto/stringproc-28271.rb",
-      "28272": "/rooms/10424/wayto/stringproc-28272.rb",
-      "28273": "/rooms/10424/wayto/stringproc-28273.rb",
-      "28274": "/rooms/10424/wayto/stringproc-28274.rb",
-      "28275": "/rooms/10424/wayto/stringproc-28275.rb",
-      "28276": "/rooms/10424/wayto/stringproc-28276.rb"
+      "28271": {
+        "strategy": "table_join",
+        "table": "Longsword"
+      },
+      "28272": {
+        "strategy": "table_join",
+        "table": "Hammer"
+      },
+      "28273": {
+        "strategy": "table_join",
+        "table": "Voulge"
+      },
+      "28274": {
+        "strategy": "table_join",
+        "table": "Trident"
+      },
+      "28275": {
+        "strategy": "table_join",
+        "table": "Longbow"
+      },
+      "28276": {
+        "strategy": "table_join",
+        "table": "Hook-knife"
+      }
     },
     "timeto": {
       "3498": 0.2,

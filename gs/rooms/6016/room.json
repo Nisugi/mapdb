@@ -1,5 +1,5 @@
 {
-  "checksum": "b4c007c0087e5ba3efbeb57d845269bb",
+  "checksum": "fee057da12e1513572d891777eaa9726",
   "room": {
     "id": 6016,
     "title": [
@@ -20,59 +20,71 @@
       "6014": "south",
       "6017": "east",
       "6018": "north",
-      "18748": "/rooms/6016/wayto/stringproc-18748.rb"
+      "18748": [
+        {
+          "do": "cast",
+          "spell": 704,
+          "target": "shadow"
+        }
+      ]
     },
     "timeto": {
       "6014": 0.2,
       "6017": 0.2,
       "6018": 0.2,
-      "18748": "/rooms/6016/timeto/stringproc-18748.rb"
+      "18748": {
+        "cost": 3,
+        "requires": [
+          "prof:Sorcerer"
+        ]
+      }
     },
     "tags": [
-      "pepperthorn root",
-      "sorcererguild",
-      "sorcerer guild",
-      "withered black mushroom",
-      "murdroot",
-      "ironfern root",
-      "wingstem root",
-      "bur-clover root",
-      "meta:forage-sensed",
       "acantha leaf",
+      "agave heart",
+      "angelica root",
+      "black peppercorn",
+      "brown potato",
+      "bur-clover root",
       "calamia fruit",
-      "sovyn clove",
+      "cardamom",
+      "cumin seeds",
+      "curly garlic scapes",
+      "dark blue honeyberries",
+      "heath aster",
+      "ironfern root",
+      "juniper berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-09",
+      "mistweed",
+      "motherwort",
+      "murdroot",
+      "nutmeg",
+      "pepperthorn root",
+      "pink peppercorn",
+      "plump black mulberries",
+      "purple potato",
+      "rye grass",
+      "small daisy",
       "small flower",
       "small rose",
-      "small daisy",
-      "angelica root",
-      "stalk of chicory",
+      "sorcerer guild",
+      "sorcererguild",
+      "sovyn clove",
       "sprig of alyssum",
-      "heath aster",
-      "stalk of goldenrod",
-      "yellow primrose",
-      "small wild rose",
-      "wild chokecherry",
-      "motherwort",
-      "mistweed",
-      "white baneberry",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "meta:forage-sensed:night:2022-09",
-      "rye grass",
-      "juniper berry",
-      "dark blue honeyberries",
-      "plump black mulberries",
-      "brown potato",
-      "purple potato",
-      "agave heart",
-      "curly garlic scapes",
       "spring onion",
-      "meta:forage-sensed:day:2025-07"
+      "stalk of chicory",
+      "stalk of goldenrod",
+      "star anise",
+      "vanilla bean",
+      "white baneberry",
+      "wild chokecherry",
+      "wild rice",
+      "wild rose",
+      "wingstem root",
+      "withered mushroom",
+      "yellow primrose"
     ],
     "uid": [
       14005004

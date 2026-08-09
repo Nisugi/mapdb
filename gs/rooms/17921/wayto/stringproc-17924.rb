@@ -1,1 +1,0 @@
-multifput 'search', 'go passage'

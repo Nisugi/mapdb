@@ -1,1 +1,0 @@
-2.times{fput "event transport ebon gate"};UserVars.mapdb_ebon_gate_origin = Map.current.id;

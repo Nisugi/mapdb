@@ -1,5 +1,5 @@
 {
-  "checksum": "274e5b1ba3007c3ddb3bd66e0657c8f5",
+  "checksum": "8a296c7d5dbed05d0193c167c3b7c52d",
   "room": {
     "id": 19007,
     "title": [
@@ -15,7 +15,13 @@
     "wayto": {
       "19006": "southwest",
       "19008": "climb ramp",
-      "19029": "/rooms/19007/wayto/stringproc-19029.rb"
+      "19029": [
+        {
+          "do": "cast",
+          "spell": 704,
+          "target": "oil painting"
+        }
+      ]
     },
     "timeto": {
       "19006": 0.2,

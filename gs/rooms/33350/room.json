@@ -1,5 +1,5 @@
 {
-  "checksum": "ff3573d9d6abd92c2e63957f60b0792d",
+  "checksum": "d6d6384e5d1914600b53dee21091e83e",
   "room": {
     "id": 33350,
     "title": [
@@ -14,7 +14,10 @@
     "location": "Safe Harbor, inside the seaside town of Solhaven",
     "wayto": {
       "5728": "out",
-      "33351": "/rooms/33350/wayto/stringproc-33351.rb"
+      "33351": {
+        "strategy": "unique_crossing",
+        "name": "crossing_33350_33351"
+      }
     },
     "timeto": {
       "5728": 0.2,

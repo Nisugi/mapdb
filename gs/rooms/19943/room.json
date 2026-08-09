@@ -1,5 +1,5 @@
 {
-  "checksum": "85edc5a6b15e28513c5cbb2628ce27e9",
+  "checksum": "365dfe04fbe9e7ff6fde57a42389f116",
   "room": {
     "id": 19943,
     "title": [
@@ -16,7 +16,16 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "8683": "/rooms/19943/wayto/stringproc-8683.rb",
+      "8683": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "go long rope"
+        }
+      ],
       "19938": "go hatch"
     },
     "timeto": {
@@ -24,11 +33,11 @@
       "19938": 0.2
     },
     "tags": [
-      "meta:teleport:fwi",
       "meta:forage-sensed",
-      "no forageables",
       "meta:forage-sensed:day:2022-09",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "meta:teleport:fwi",
+      "no forageables"
     ],
     "uid": [
       336027

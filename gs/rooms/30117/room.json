@@ -1,5 +1,5 @@
 {
-  "checksum": "b4188a0f8a6191a7d59ee12b96d78b65",
+  "checksum": "f411385a05fc0b4291d24af35873ed59",
   "room": {
     "id": 30117,
     "title": [
@@ -17,17 +17,19 @@
     "wayto": {
       "10839": "out",
       "30118": "east",
-      "30711": "/rooms/30117/wayto/stringproc-30711.rb"
+      "30711": []
     },
     "timeto": {
       "10839": 0.2,
       "30118": 0.2,
-      "30711": "/rooms/30117/timeto/stringproc-30711.rb"
+      "30711": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "no forageables",
       "urchin guide postoffice",
-      "urchin-access",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       2101032

@@ -1,5 +1,5 @@
 {
-  "checksum": "aa8231341414ce91856d9b60568fba7b",
+  "checksum": "92697e17d3922fa7007cd09cab40fdf4",
   "room": {
     "id": 3778,
     "title": [
@@ -15,18 +15,20 @@
     "wayto": {
       "2427": "out",
       "3779": "west",
-      "30709": "/rooms/3778/wayto/stringproc-30709.rb"
+      "30709": []
     },
     "timeto": {
       "2427": 0.2,
       "3779": 0.2,
-      "30709": "/rooms/3778/timeto/stringproc-30709.rb"
+      "30709": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "advguild",
+      "bounty",
       "urchin guide bounty",
-      "urchin-access",
-      "bounty"
+      "urchin-access"
     ],
     "uid": [
       15004001

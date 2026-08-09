@@ -1,5 +1,5 @@
 {
-  "checksum": "19c2898c87e02d4223b208d8e5795c77",
+  "checksum": "21423a48ef0a681a42d0905d40ee4da6",
   "room": {
     "id": 10117,
     "title": [
@@ -16,16 +16,49 @@
     "terrain": "hard, flat",
     "wayto": {
       "10115": "go path",
-      "10119": "/rooms/10117/wayto/stringproc-10119.rb"
+      "10119": [
+        {
+          "do": "move",
+          "cmd": "go gangplank"
+        },
+        {
+          "do": "if",
+          "when": "in_room:10117",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Waiting for ferry... "
+            },
+            {
+              "do": "await",
+              "for": "An elven crewmember scrambles back onto the boat and lowers the gangplank\\.",
+              "timeout": 600
+            },
+            {
+              "do": "move",
+              "cmd": "go gangplank"
+            }
+          ]
+        },
+        {
+          "do": "await",
+          "for": "An elven crewmember scrambles back onto the boat and lowers the gangplank\\.",
+          "timeout": 600
+        },
+        {
+          "do": "move",
+          "cmd": "out"
+        }
+      ]
     },
     "timeto": {
       "10115": 0.2,
       "10119": 300
     },
     "tags": [
-      "node",
+      "meta:forage-sensed",
       "no forageables",
-      "meta:forage-sensed"
+      "node"
     ],
     "uid": [
       13049050

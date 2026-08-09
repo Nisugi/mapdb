@@ -1,5 +1,5 @@
 {
-  "checksum": "052ecc3e4057facde097d19ec77df735",
+  "checksum": "13d78363829ad0747cae6faa1cf460ab",
   "room": {
     "id": 22359,
     "title": [
@@ -26,7 +26,12 @@
       "22354": 0.2,
       "22360": 0.2,
       "22379": 0.2,
-      "22419": "/rooms/22359/timeto/stringproc-22419.rb",
+      "22419": {
+        "cost": 0.2,
+        "requires": [
+          "race:Giantman"
+        ]
+      },
       "34949": 0.2
     },
     "tags": [

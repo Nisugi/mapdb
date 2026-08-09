@@ -1,5 +1,5 @@
 {
-  "checksum": "faca7922c258a128335f67b1542557d6",
+  "checksum": "583172892ea1792dd6c5d230bb4e6575",
   "room": {
     "id": 7366,
     "title": [
@@ -18,20 +18,22 @@
       "7362": "east",
       "7364": "northwest",
       "7365": "north",
-      "7367": "northeast"
+      "7367": "northeast",
+      "36595": "go hut"
     },
     "timeto": {
       "7362": 0.2,
       "7364": 0.2,
       "7365": 0.2,
-      "7367": 0.2
+      "7367": 0.2,
+      "36595": 0.2
     },
     "tags": [
       "longgrass",
-      "wyrm thorn",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-02",
       "petrified shadowstalk",
-      "meta:forage-sensed:day:2023-02"
+      "wyrm thorn"
     ],
     "uid": [
       2160027

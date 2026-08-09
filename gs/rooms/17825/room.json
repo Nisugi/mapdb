@@ -1,5 +1,5 @@
 {
-  "checksum": "2791c63c9df01bbf0a13acf0db47ca9f",
+  "checksum": "1e3c776ac8c2fa3a628f05066698cd50",
   "room": {
     "id": 17825,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "Ta'Vaalor",
     "wayto": {
-      "10434": "/rooms/17825/wayto/stringproc-10434.rb",
+      "10434": [
+        {
+          "do": "send",
+          "cmd": "look barrel"
+        },
+        {
+          "do": "move",
+          "cmd": "go chute"
+        }
+      ],
       "17811": "west",
       "17826": "east"
     },

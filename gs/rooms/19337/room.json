@@ -1,5 +1,5 @@
 {
-  "checksum": "6e00ca8c82ebc9f99895cce0d727d0c9",
+  "checksum": "afb4b58311bbce21bdf25449ea2a97a2",
   "room": {
     "id": 19337,
     "title": [
@@ -13,20 +13,31 @@
     ],
     "location": "Mist Harbor",
     "wayto": {
-      "21127": "/rooms/19337/wayto/stringproc-21127.rb",
+      "21127": [
+        {
+          "do": "cross",
+          "room": 12421,
+          "dest": "14089"
+        }
+      ],
       "21140": "out"
     },
     "timeto": {
-      "21127": "/rooms/19337/timeto/stringproc-21127.rb",
+      "21127": {
+        "cost": 1.6,
+        "requires": [
+          "prof:Rogue"
+        ]
+      },
       "21140": 0.2
     },
     "tags": [
-      "rogue guild",
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Isle of the Four Winds",
+      "meta:mapcategory:Premium",
       "meta:mapname:Isle of the Four Winds - Rogue Guild",
       "meta:mapshortname:Rogue Guild (FWI)",
-      "meta:mapcategory:Isle of the Four Winds",
-      "meta:mapcategory:Guilds",
-      "meta:mapcategory:Premium",
+      "rogue guild",
       "rogueguild"
     ],
     "uid": [

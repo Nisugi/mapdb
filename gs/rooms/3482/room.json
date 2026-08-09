@@ -1,5 +1,5 @@
 {
-  "checksum": "5bb721668ab920c7187dbc4ac093132d",
+  "checksum": "ede769fc404608cc7ea5b38c5913d494",
   "room": {
     "id": 3482,
     "title": [
@@ -15,7 +15,30 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "3480": "/rooms/3482/wayto/stringproc-3480.rb"
+      "3480": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "north"
+        }
+      ]
     },
     "timeto": {
       "3480": 0.2
@@ -24,7 +47,7 @@
       "arctic moss",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2025-02"
+      "meta:forage-sensed:day:2026-03"
     ],
     "uid": [
       4044138

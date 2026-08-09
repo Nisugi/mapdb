@@ -1,5 +1,5 @@
 {
-  "checksum": "8d565955f8610c9a8360976ea42bd0a5",
+  "checksum": "649810879b8f23497e8128b7ccf3eac1",
   "room": {
     "id": 6882,
     "title": [
@@ -14,15 +14,24 @@
     ],
     "location": "the Abandoned Inn",
     "wayto": {
-      "6880": "/rooms/6882/wayto/stringproc-6880.rb"
+      "6880": [
+        {
+          "do": "send",
+          "cmd": "open trapdoor"
+        },
+        {
+          "do": "move",
+          "cmd": "go trapdoor"
+        }
+      ]
     },
     "timeto": {
       "6880": 0.2
     },
     "tags": [
-      "node",
+      "meta:forage-sensed",
       "no forageables",
-      "meta:forage-sensed"
+      "node"
     ],
     "uid": [
       21129

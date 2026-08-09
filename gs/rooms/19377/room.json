@@ -1,5 +1,5 @@
 {
-  "checksum": "06191909008ffae23e1aff8c2a826a9a",
+  "checksum": "a3d047c0462e27e0a79963d81a8a1936",
   "room": {
     "id": 19377,
     "title": [
@@ -17,18 +17,23 @@
     "terrain": "hard, flat",
     "wayto": {
       "19376": "climb steps",
-      "25691": "/rooms/19377/wayto/stringproc-25691.rb",
-      "30718": "/rooms/19377/wayto/stringproc-30718.rb"
+      "25691": {
+        "strategy": "unique_crossing",
+        "name": "crossing_19377_25691"
+      },
+      "30718": []
     },
     "timeto": {
       "19376": 0.2,
       "25691": 2,
-      "30718": "/rooms/19377/timeto/stringproc-30718.rb"
+      "30718": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "no forageables",
       "silver-cost:25691:500",
-      "urchin-access",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       3223020

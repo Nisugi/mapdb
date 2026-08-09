@@ -1,5 +1,5 @@
 {
-  "checksum": "51fe561e93e18efc9db6e70cf685b782",
+  "checksum": "e1ee00673e95ba6d01c58e10e9190442",
   "room": {
     "id": 19032,
     "title": [
@@ -15,7 +15,13 @@
     ],
     "location": "Ta'Vaalor",
     "wayto": {
-      "18744": "/rooms/19032/wayto/stringproc-18744.rb",
+      "18744": [
+        {
+          "do": "cast",
+          "spell": 704,
+          "target": "rock"
+        }
+      ],
       "19031": "go mist"
     },
     "timeto": {

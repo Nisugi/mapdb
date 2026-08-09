@@ -1,5 +1,5 @@
 {
-  "checksum": "e12aad628503941e2b9bb3b01992d644",
+  "checksum": "c6c9cd19b0a8bef7bd2e230d07dd44a9",
   "room": {
     "id": 18894,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "the Coastal Cliffs",
     "wayto": {
-      "18117": "/rooms/18894/wayto/stringproc-18117.rb",
+      "18117": [
+        {
+          "do": "send",
+          "cmd": "go wall"
+        },
+        {
+          "do": "send",
+          "cmd": "go ship"
+        }
+      ],
       "18118": "go wall"
     },
     "timeto": {

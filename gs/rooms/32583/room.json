@@ -1,5 +1,5 @@
 {
-  "checksum": "92c59bd8fd3d559c9a298a84f1120b39",
+  "checksum": "938fdf262e9343855b0dae3ef8be0846",
   "room": {
     "id": 32583,
     "title": [
@@ -16,18 +16,20 @@
     "terrain": "none",
     "wayto": {
       "10841": "out",
-      "30711": "/rooms/32583/wayto/stringproc-30711.rb"
+      "30711": []
     },
     "timeto": {
       "10841": 0.2,
-      "30711": "/rooms/32583/timeto/stringproc-30711.rb"
+      "30711": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "grocer",
-      "urchin-access",
-      "urchin guide grocer",
+      "meta:nomagic",
       "no forageables",
-      "meta:nomagic"
+      "urchin guide grocer",
+      "urchin-access"
     ],
     "uid": [
       2101917

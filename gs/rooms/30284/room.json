@@ -1,5 +1,5 @@
 {
-  "checksum": "8a69df662b1bc9a20eb21e15848c4a7c",
+  "checksum": "b1a4a4397a6048e3b3df9bb6e6b22e9f",
   "room": {
     "id": 30284,
     "title": [
@@ -16,12 +16,30 @@
     "terrain": "hard, flat",
     "wayto": {
       "30279": "go stairs",
-      "30941": "/rooms/30284/wayto/stringproc-30941.rb",
-      "30942": "/rooms/30284/wayto/stringproc-30942.rb",
-      "30943": "/rooms/30284/wayto/stringproc-30943.rb",
-      "30944": "/rooms/30284/wayto/stringproc-30944.rb",
-      "30945": "/rooms/30284/wayto/stringproc-30945.rb",
-      "30946": "/rooms/30284/wayto/stringproc-30946.rb"
+      "30941": {
+        "strategy": "table_join",
+        "table": "Silver Knave"
+      },
+      "30942": {
+        "strategy": "table_join",
+        "table": "Golden Zealot"
+      },
+      "30943": {
+        "strategy": "table_join",
+        "table": "Rooftop Rook"
+      },
+      "30944": {
+        "strategy": "table_join",
+        "table": "Blue Baystone"
+      },
+      "30945": {
+        "strategy": "table_join",
+        "table": "Blood Marble"
+      },
+      "30946": {
+        "strategy": "table_join",
+        "table": "Dark Bleakstone"
+      }
     },
     "timeto": {
       "30279": 0.2,
@@ -34,9 +52,9 @@
     },
     "tags": [
       "meta:forage-sensed",
-      "no forageables",
       "meta:forage-sensed:day:2022-09",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
     ],
     "uid": [
       336663

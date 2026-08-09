@@ -1,5 +1,5 @@
 {
-  "checksum": "ed89124f521dfa69a4bd1602111563b9",
+  "checksum": "24d0a1a2c9c3278c10970e80a05b1d61",
   "room": {
     "id": 28717,
     "title": [
@@ -14,25 +14,27 @@
     "location": "the town of River's Rest",
     "wayto": {
       "10852": "out",
-      "30711": "/rooms/28717/wayto/stringproc-30711.rb"
+      "30711": []
     },
     "timeto": {
       "10852": 0.2,
-      "30711": "/rooms/28717/timeto/stringproc-30711.rb"
+      "30711": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "locksmith pool",
+      "locksmithpool",
       "meta:boxpool:npc:slender half-elven woman",
       "meta:boxpool:table:rough walnut table",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
       "meta:trashcan:large wooden crate",
+      "no forageables",
       "node",
       "supernode",
-      "urchin-access",
       "urchin guide locksmithpool",
-      "locksmithpool",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "urchin-access"
     ],
     "uid": [
       2101945

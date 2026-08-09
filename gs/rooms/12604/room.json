@@ -1,5 +1,5 @@
 {
-  "checksum": "2c0f472164b818ea7c15dcc381ed9fc1",
+  "checksum": "13f18cfd7d2c4f316f5d41d1a54ad773",
   "room": {
     "id": 12604,
     "title": [
@@ -13,7 +13,54 @@
     ],
     "location": "the Dark Palisade",
     "wayto": {
-      "12605": "/rooms/12604/wayto/stringproc-12605.rb"
+      "12605": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "cast_buff",
+              "spell": 506
+            },
+            {
+              "do": "await",
+              "cmd": "search",
+              "for": "search|don't find anything|find nothing else",
+              "timeout": 3
+            },
+            {
+              "do": "wait_rt"
+            },
+            {
+              "do": "await",
+              "cmd": "get rock",
+              "for": "I could not find|You reach out|Get what",
+              "timeout": 3,
+              "if_match": {
+                "pattern": "You reach out",
+                "steps": [
+                  {
+                    "do": "break"
+                  }
+                ]
+              }
+            }
+          ],
+          "times": 10
+        },
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb wall"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ]
     },
     "timeto": {
       "12605": 3.4

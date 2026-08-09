@@ -1,5 +1,5 @@
 {
-  "checksum": "dfc09920bf3836a702b96633d9e8bac9",
+  "checksum": "a13c808e9c58243953812132dc120782",
   "room": {
     "id": 10887,
     "title": [
@@ -17,26 +17,28 @@
       "10888": "go door",
       "10895": "west",
       "10896": "north",
-      "30711": "/rooms/10887/wayto/stringproc-30711.rb"
+      "30711": []
     },
     "timeto": {
       "10841": 0.2,
       "10888": 0.2,
       "10895": 0.2,
       "10896": 0.2,
-      "30711": "/rooms/10887/timeto/stringproc-30711.rb"
+      "30711": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "jail",
-      "urchin-access",
-      "urchin guide justice",
       "justice",
-      "rogue guild hardlock",
-      "rogue guild hardlock:hatchway",
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
-      "meta:nomagic"
+      "meta:nomagic",
+      "no forageables",
+      "rogue guild hardlock",
+      "rogue guild hardlock:hatchway",
+      "urchin guide justice",
+      "urchin-access"
     ],
     "uid": [
       2101300

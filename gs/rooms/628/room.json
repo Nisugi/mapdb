@@ -1,5 +1,5 @@
 {
-  "checksum": "722a012923028dc4cb2760e2ee9f581f",
+  "checksum": "090143bc308f20fe3a52f2d7add70247",
   "room": {
     "id": 628,
     "title": [
@@ -15,7 +15,20 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "627": "/rooms/628/wayto/stringproc-627.rb",
+      "627": [
+        {
+          "do": "send",
+          "cmd": "kneel"
+        },
+        {
+          "do": "move",
+          "cmd": "go opening"
+        },
+        {
+          "do": "send",
+          "cmd": "stand"
+        }
+      ],
       "13447": "southeast",
       "13449": "northeast"
     },
@@ -25,15 +38,15 @@
       "13449": 0.2
     },
     "tags": [
-      "cave moss",
-      "pepperthorn root",
-      "murdroot",
-      "ironfern root",
       "bolmara lichen",
-      "wingstem root",
+      "cave moss",
+      "ironfern root",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
       "meta:forage-sensed:night:2023-11",
-      "meta:forage-sensed:day:2024-05"
+      "murdroot",
+      "pepperthorn root",
+      "wingstem root"
     ],
     "uid": [
       17002237

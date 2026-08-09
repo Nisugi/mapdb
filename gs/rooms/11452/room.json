@@ -1,5 +1,5 @@
 {
-  "checksum": "9c2ee76d42ef93121cc718d68b206805",
+  "checksum": "6294b95e1ab3b782f1ce81cb9521e111",
   "room": {
     "id": 11452,
     "title": [
@@ -16,11 +16,99 @@
     "climate": "saltwater",
     "terrain": "",
     "wayto": {
-      "11451": "/rooms/11452/wayto/stringproc-11451.rb",
-      "11453": "/rooms/11452/wayto/stringproc-11453.rb",
-      "11454": "/rooms/11452/wayto/stringproc-11454.rb",
-      "11455": "/rooms/11452/wayto/stringproc-11455.rb",
-      "11469": "/rooms/11452/wayto/stringproc-11469.rb"
+      "11451": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "south"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim south"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11453": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "northwest"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim northwest"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11454": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "west"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim west"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11455": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "southwest"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim southwest"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "11469": [
+        {
+          "do": "move",
+          "cmd": "swim down"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "11451": 2,
@@ -30,8 +118,8 @@
       "11469": 3
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       304026

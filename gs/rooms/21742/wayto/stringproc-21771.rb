@@ -1,1 +1,0 @@
-fput 'go oaken door'

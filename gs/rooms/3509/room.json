@@ -1,5 +1,5 @@
 {
-  "checksum": "770d61bf39e52a6ed1930baa2ab33a97",
+  "checksum": "e571aec12f02204daafcdf971d9fbcf2",
   "room": {
     "id": 3509,
     "title": [
@@ -18,17 +18,25 @@
     "wayto": {
       "3507": "north",
       "3510": "east",
-      "17805": "/rooms/3509/wayto/stringproc-17805.rb"
+      "17805": {
+        "strategy": "unique_crossing",
+        "name": "crossing_3509_17805"
+      }
     },
     "timeto": {
       "3507": 0.2,
       "3510": 0.2,
-      "17805": "/rooms/3509/timeto/stringproc-17805.rb"
+      "17805": {
+        "cost": 2,
+        "requires": [
+          "prof:Rogue"
+        ]
+      }
     },
     "tags": [
       "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
     ],
     "uid": [
       14100071

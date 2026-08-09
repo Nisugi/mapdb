@@ -1,5 +1,5 @@
 {
-  "checksum": "4f54c13fdf3eb90d3d44abe775d2431a",
+  "checksum": "3ebaa0ef1ff5401ff9e228d9a5ebc728",
   "room": {
     "id": 17360,
     "title": [
@@ -14,8 +14,8 @@
     "location": "the Warrior Guild",
     "wayto": {
       "17359": "west",
-      "17361": "/rooms/17360/wayto/stringproc-17361.rb",
-      "17368": "/rooms/17360/wayto/stringproc-17368.rb"
+      "17361": "go glass door",
+      "17368": "go arched door"
     },
     "timeto": {
       "17359": 0.2,

@@ -1,5 +1,5 @@
 {
-  "checksum": "3eb313b44abf52f6f8e7178c03e01e21",
+  "checksum": "53dd28e681461fa0a12db0ad3ec1b0f9",
   "room": {
     "id": 3446,
     "title": [
@@ -21,6 +21,7 @@
       "15638": "go simple shop",
       "19439": "go emporium",
       "19440": "go stucco shop",
+      "21232": "go rainbow-bricked warehouse",
       "22232": "go plaster emporium"
     },
     "timeto": {
@@ -29,8 +30,14 @@
       "15638": 0.2,
       "19439": 0.2,
       "19440": 0.2,
+      "21232": 0.2,
       "22232": 0.2
     },
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "stalk of bluebells"
+    ],
     "uid": [
       735030
     ],

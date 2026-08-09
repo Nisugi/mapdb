@@ -1,5 +1,5 @@
 {
-  "checksum": "544133d1e0fd4ef950c7a32dfacd7b40",
+  "checksum": "2e050ead10ffa6387387345822f53ec2",
   "room": {
     "id": 22218,
     "title": [
@@ -15,10 +15,28 @@
     "climate": "cold, damp",
     "terrain": "muddy wetlands",
     "wayto": {
-      "11612": "/rooms/22218/wayto/stringproc-11612.rb",
-      "11617": "/rooms/22218/wayto/stringproc-11617.rb",
-      "11618": "/rooms/22218/wayto/stringproc-11618.rb",
-      "11630": "/rooms/22218/wayto/stringproc-11630.rb",
+      "11612": {
+        "strategy": "unique_crossing",
+        "name": "crossing_22218_11612"
+      },
+      "11617": {
+        "strategy": "unique_crossing",
+        "name": "crossing_22218_11617"
+      },
+      "11618": {
+        "strategy": "unique_crossing",
+        "name": "crossing_22218_11618"
+      },
+      "11630": [
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "move",
+          "cmd": "northeast"
+        }
+      ],
       "11633": "north",
       "16122": "southwest"
     },
@@ -32,24 +50,24 @@
     },
     "tags": [
       "aloeas stem",
-      "soft white mushroom",
-      "withered black mushroom",
       "blue trafel mushroom",
-      "wild gooseberry",
-      "stalk of cattail",
-      "small wild rose",
+      "bolmara lichen",
+      "broken twig",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
       "mistweed",
       "murdroot",
-      "wavepetal blossom",
+      "soft mushroom",
+      "stalk of cattail",
       "sunburst blossom",
-      "bolmara lichen",
       "talneo root",
-      "wingstem root",
-      "meta:forage-sensed",
+      "wavepetal blossom",
       "white hook mushroom",
-      "broken twig",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
+      "wild gooseberry",
+      "wild rose",
+      "wingstem root",
+      "withered mushroom"
     ],
     "uid": [
       5003039

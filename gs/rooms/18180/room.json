@@ -1,5 +1,5 @@
 {
-  "checksum": "bca2967ff704e604b54c9262f4c1b705",
+  "checksum": "9523cf1ee032a4facefb684413a3ab1e",
   "room": {
     "id": 18180,
     "title": [
@@ -16,7 +16,10 @@
     "terrain": "mountainous",
     "wayto": {
       "18179": "east",
-      "18181": "/rooms/18180/wayto/stringproc-18181.rb"
+      "18181": {
+        "strategy": "unique_crossing",
+        "name": "crossing_18180_18181"
+      }
     },
     "timeto": {
       "18179": 0.2,
@@ -24,8 +27,10 @@
     },
     "tags": [
       "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "sunburst blossom",
+      "wingstem root"
     ],
     "uid": [
       52012

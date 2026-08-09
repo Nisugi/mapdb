@@ -1,5 +1,5 @@
 {
-  "checksum": "3e759520d01583ca4baabc24afe87618",
+  "checksum": "78c39e2fc11278dc098544cc07841f0e",
   "room": {
     "id": 1230,
     "title": [
@@ -16,55 +16,89 @@
     "terrain": "deciduous forest",
     "wayto": {
       "1229": "southwest",
-      "30523": "/rooms/1230/wayto/stringproc-30523.rb"
+      "30523": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "search",
+              "for": "don't find anything|discover.*?crack|Round ?time|\\.\\.\\.[Ww]ait",
+              "timeout": 5,
+              "if_match": {
+                "pattern": "discover.*?crack",
+                "steps": [
+                  {
+                    "do": "break"
+                  }
+                ]
+              }
+            },
+            {
+              "do": "wait_rt"
+            }
+          ],
+          "times": 50
+        },
+        {
+          "do": "move",
+          "cmd": "go crack"
+        }
+      ]
     },
     "timeto": {
       "1229": 0.2,
       "30523": 10
     },
     "tags": [
-      "striped heart mushroom",
       "acantha leaf",
-      "woth flower",
-      "calamia fruit",
-      "haphip root",
-      "pothinir grass",
-      "sticks",
-      "soft white mushroom",
-      "withered black mushroom",
-      "daggerstalk mushroom",
-      "flathead mushroom",
-      "black trafel mushroom",
-      "blue trafel mushroom",
-      "wild gooseberry",
-      "fiddlehead fern",
-      "broken twig",
-      "small wild rose",
-      "sprig of wild lilac",
-      "wild chokecherry",
-      "tree bark",
-      "murkweed",
-      "blue whortleberry",
-      "white passionflower",
-      "yellow passionflower",
-      "blue passionflower",
-      "bloodwood twig",
-      "murdroot",
-      "twisted twig",
-      "slender twig",
-      "ebony twig",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "trollfear mushroom",
-      "nightbloom blossom",
-      "brostheras grass",
-      "red cherries",
-      "golden apricot",
-      "green pear",
       "blackberries",
+      "bloodwood twig",
+      "blue passionflower",
+      "blue trafel mushroom",
+      "blue whortleberry",
+      "bolmara lichen",
+      "broken twig",
+      "brostheras grass",
+      "brown-skinned kiwi",
+      "calamia fruit",
+      "cherry peppers",
       "cinnamon bark",
+      "daggerstalk mushroom",
+      "ebony twig",
+      "fiddlehead fern",
+      "flathead mushroom",
+      "fresh catnip",
+      "green pear",
+      "haphip root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2023-02",
-      "meta:forage-sensed:day:2023-02"
+      "murdroot",
+      "murkweed",
+      "nightbloom blossom",
+      "peppermint leaves",
+      "pothinir grass",
+      "round yuzu",
+      "slender twig",
+      "small watermelon",
+      "soft mushroom",
+      "sprig of wild lilac",
+      "sticks",
+      "striped heart mushroom",
+      "sun-wilted tea leaves",
+      "trafel mushroom",
+      "tree bark",
+      "trollfear mushroom",
+      "twisted twig",
+      "white passionflower",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild rose",
+      "withered mushroom",
+      "woth flower",
+      "yellow lemon",
+      "yellow passionflower"
     ],
     "uid": [
       2190012

@@ -1,5 +1,5 @@
 {
-  "checksum": "a1dfafddc696a47ddc7ac3ab5cd2e074",
+  "checksum": "a06baf81b71320a3fa4ec8c900edd67c",
   "room": {
     "id": 23222,
     "title": [
@@ -15,11 +15,26 @@
     "wayto": {
       "23221": "out",
       "23223": "go curved passageway",
-      "23631": "/rooms/23222/wayto/stringproc-23631.rb",
-      "23632": "/rooms/23222/wayto/stringproc-23632.rb",
-      "23633": "/rooms/23222/wayto/stringproc-23633.rb",
-      "23634": "/rooms/23222/wayto/stringproc-23634.rb",
-      "23639": "/rooms/23222/wayto/stringproc-23639.rb"
+      "23631": {
+        "strategy": "table_join",
+        "table": "wildflower"
+      },
+      "23632": {
+        "strategy": "table_join",
+        "table": "mithril"
+      },
+      "23633": {
+        "strategy": "table_join",
+        "table": "granite"
+      },
+      "23634": {
+        "strategy": "table_join",
+        "table": "rose"
+      },
+      "23639": {
+        "strategy": "table_join",
+        "table": "ice hound"
+      }
     },
     "timeto": {
       "23221": 0.2,

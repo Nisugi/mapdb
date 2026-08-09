@@ -1,5 +1,5 @@
 {
-  "checksum": "9951b7be70774d6f947f5176bcf08133",
+  "checksum": "88573f85d5c9909d29dcf2a522972c38",
   "room": {
     "id": 16392,
     "title": [
@@ -14,15 +14,26 @@
     "location": "the Graveyard",
     "wayto": {
       "4140": "down",
-      "4141": "/rooms/16392/wayto/stringproc-4141.rb"
+      "4141": [
+        {
+          "do": "move",
+          "cmd": "jump"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ]
     },
     "timeto": {
       "4140": 0.2,
       "4141": 3
     },
     "tags": [
-      "no forageables",
-      "meta:nomagic"
+      "meta:nomagic",
+      "no forageables"
     ],
     "uid": [
       18062

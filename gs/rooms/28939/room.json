@@ -1,5 +1,5 @@
 {
-  "checksum": "3d3e9dfb590e2297df20cf4f5293553b",
+  "checksum": "c236c53482ef06d6a1f9ce591dd7a6b3",
   "room": {
     "id": 28939,
     "title": [
@@ -14,17 +14,20 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28938": "east",
-      "30716": "/rooms/28939/wayto/stringproc-30716.rb"
+      "30716": []
     },
     "timeto": {
       "28938": 0.2,
-      "30716": "/rooms/28939/timeto/stringproc-30716.rb"
+      "30716": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "healer",
-      "urchin-access",
+      "no forageables",
+      "npchealer",
       "urchin guide healer",
-      "npchealer"
+      "urchin-access"
     ],
     "uid": [
       7118358

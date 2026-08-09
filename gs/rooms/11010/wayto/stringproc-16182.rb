@@ -1,1 +1,0 @@
-move 'go wooden door'

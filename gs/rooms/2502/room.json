@@ -1,5 +1,5 @@
 {
-  "checksum": "99278f104b41357598741e63ba0a2187",
+  "checksum": "5ec25efb42d2c0a15c06d88f114b76ed",
   "room": {
     "id": 2502,
     "title": [
@@ -15,7 +15,30 @@
     "climate": "snowy, arctic",
     "terrain": "coniferous forest",
     "wayto": {
-      "2501": "/rooms/2502/wayto/stringproc-2501.rb",
+      "2501": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "north"
+        }
+      ],
       "2503": "climb branch"
     },
     "timeto": {
@@ -23,47 +46,47 @@
       "2503": 0.2
     },
     "tags": [
-      "small loganberry",
-      "winter rose",
-      "silver iceblossom",
-      "frostflower",
-      "handful of pinenuts",
-      "tkaro root",
-      "orange rowanberry",
-      "rockberry",
-      "sweetfern stalk",
-      "bright red teaberry",
-      "wintergreen leaf",
-      "sticks",
-      "sassafras leaf",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "iceblossoms",
-      "snow lily",
+      "bolmara lichen",
+      "bright red teaberry",
       "broken twig",
+      "crowberry",
+      "frostflower",
+      "frostweed",
+      "handful of pinenuts",
+      "iceblossoms",
+      "ironfern root",
+      "lingonberry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "orange rowanberry",
+      "pale thornberry",
+      "pennyroyal stem",
       "pine cone",
       "pine needles",
-      "frostweed",
-      "snowberries",
-      "pale thornberry",
-      "red winterberry",
-      "tree bark",
-      "crowberry",
-      "lingonberry",
-      "ironfern root",
-      "twisted twig",
-      "slender twig",
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "wintercrisp apple",
-      "white crallisberry",
       "pine twig",
-      "spruce twig",
+      "red winterberry",
       "resting poppy",
+      "rockberry",
+      "sassafras leaf",
+      "silver iceblossom",
+      "slender twig",
+      "small loganberry",
+      "snow lily",
+      "snowberries",
+      "spruce twig",
+      "sticks",
+      "sunburst blossom",
+      "sweetfern stalk",
       "thorny wintersbite",
-      "meta:forage-sensed:day:2025-02"
+      "tkaro root",
+      "tree bark",
+      "twisted twig",
+      "valerian root",
+      "white crallisberry",
+      "winter rose",
+      "wintercrisp apple",
+      "wintergreen leaf"
     ],
     "uid": [
       4044214

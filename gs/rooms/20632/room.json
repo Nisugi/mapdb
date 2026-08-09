@@ -1,5 +1,5 @@
 {
-  "checksum": "6547254e8dc6d2f848f379e6dae610b9",
+  "checksum": "8dd596ad8c4e741a23101d5112437f25",
   "room": {
     "id": 20632,
     "title": [
@@ -16,27 +16,36 @@
     "terrain": "none",
     "wayto": {
       "20631": "south",
-      "30940": "/rooms/20632/wayto/stringproc-30940.rb"
+      "30940": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "go crack"
+        }
+      ]
     },
     "timeto": {
       "20631": 0.2,
       "30940": 1
     },
     "tags": [
-      "soft white mushroom",
-      "withered black mushroom",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "cave moss",
       "daggerstalk mushroom",
       "flathead mushroom",
       "genkew mushroom",
-      "blue trafel mushroom",
-      "cave moss",
-      "pepperthorn root",
-      "murdroot",
       "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2025-02"
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "pepperthorn root",
+      "soft mushroom",
+      "wingstem root",
+      "withered mushroom"
     ],
     "uid": [
       336724

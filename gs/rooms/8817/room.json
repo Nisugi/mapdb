@@ -1,5 +1,5 @@
 {
-  "checksum": "1697986e3b4a5670a73b97098efe0fb3",
+  "checksum": "a6391c872b6b42e6defe28b006deafcf",
   "room": {
     "id": 8817,
     "title": [
@@ -18,19 +18,21 @@
       "242": "out",
       "8818": "southwest",
       "8820": "go black door",
-      "30708": "/rooms/8817/wayto/stringproc-30708.rb"
+      "30708": []
     },
     "timeto": {
       "242": 0.2,
       "8818": 0.2,
       "8820": 0.2,
-      "30708": "/rooms/8817/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
-      "urchin guide beldrins",
       "beldrins",
-      "no forageables"
+      "no forageables",
+      "urchin guide beldrins",
+      "urchin-access"
     ],
     "uid": [
       5058

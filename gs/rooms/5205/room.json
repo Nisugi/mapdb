@@ -1,5 +1,5 @@
 {
-  "checksum": "3a20424704f00f3709f30cd2efa6b13c",
+  "checksum": "e43d9fa2eb7387cde30b6aea4e0dd026",
   "room": {
     "id": 5205,
     "title": [
@@ -20,16 +20,22 @@
     },
     "timeto": {
       "5126": 0.2,
-      "24431": "/rooms/5205/timeto/stringproc-24431.rb"
+      "24431": {
+        "cost": 0.2,
+        "requires": [
+          "no_script:bigshot,wander"
+        ]
+      }
     },
     "tags": [
-      "yabathilium fruit",
-      "strand of seaweed",
       "BRS",
-      "murdroot",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "strand of seaweed",
       "wavepetal blossom",
-      "meta:forage-sensed:day:2023-02"
+      "yabathilium fruit",
+      "yellowed salt reedgrass"
     ],
     "uid": [
       4202321

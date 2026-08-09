@@ -1,5 +1,5 @@
 {
-  "checksum": "1758d80d673e6918251cd43318ef7791",
+  "checksum": "832a289303e25aa330660ea7f417cf84",
   "room": {
     "id": 30266,
     "title": [
@@ -13,12 +13,42 @@
     ],
     "location": "The Tenebrous Cauldron",
     "wayto": {
-      "29038": "/rooms/30266/wayto/stringproc-29038.rb",
-      "30119": "/rooms/30266/wayto/stringproc-30119.rb",
-      "30130": "/rooms/30266/wayto/stringproc-30130.rb",
-      "30142": "/rooms/30266/wayto/stringproc-30142.rb",
-      "30166": "/rooms/30266/wayto/stringproc-30166.rb",
-      "30176": "/rooms/30266/wayto/stringproc-30176.rb",
+      "29038": [
+        {
+          "do": "send",
+          "cmd": "go gang"
+        }
+      ],
+      "30119": [
+        {
+          "do": "send",
+          "cmd": "go gang"
+        }
+      ],
+      "30130": [
+        {
+          "do": "send",
+          "cmd": "go gang"
+        }
+      ],
+      "30142": [
+        {
+          "do": "send",
+          "cmd": "go gang"
+        }
+      ],
+      "30166": [
+        {
+          "do": "send",
+          "cmd": "go gang"
+        }
+      ],
+      "30176": [
+        {
+          "do": "send",
+          "cmd": "go gang"
+        }
+      ],
       "30267": "west",
       "30269": "down",
       "30270": "up",
@@ -37,10 +67,10 @@
       "30271": 0.2
     },
     "tags": [
-      "meta:exit:go gangplank:previous in:29038,30142,30119,30176,30166,30130",
       "enemy carrack",
-      "meta:morphing",
-      "meta:map:multi-uid"
+      "meta:exit:go gangplank:previous in:29038,30142,30119,30176,30166,30130",
+      "meta:map:multi-uid",
+      "meta:morphing"
     ],
     "uid": [
       7120001,

@@ -1,5 +1,5 @@
 {
-  "checksum": "ad4bb781b365034efc6ad22bfb964e7f",
+  "checksum": "20cb58b249e7da8ae365c00edf2b78b2",
   "room": {
     "id": 35254,
     "title": [
@@ -13,18 +13,78 @@
     ],
     "location": "the Isle of Ornath",
     "wayto": {
-      "250": "/rooms/35254/wayto/stringproc-250.rb",
-      "11756": "/rooms/35254/wayto/stringproc-11756.rb",
-      "32372": "/rooms/35254/wayto/stringproc-32372.rb",
+      "250": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 1"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 1"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 1",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "11756": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 2"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 2"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 2",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "32372": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 7"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 7"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 7",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
       "35255": "east",
       "35267": "southeast",
       "35272": "southwest",
       "35449": "west"
     },
     "timeto": {
-      "250": "/rooms/35254/timeto/stringproc-250.rb",
-      "11756": "/rooms/35254/timeto/stringproc-11756.rb",
-      "32372": "/rooms/35254/timeto/stringproc-32372.rb",
+      "250": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "11756": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "32372": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
       "35253": 0.2,
       "35255": 0.2,
       "35267": 0.2,
@@ -33,17 +93,17 @@
     },
     "tags": [
       "portmaster",
-      "silver-cost:11756:25000",
       "silver-cost:10838:25000",
+      "silver-cost:11754:25000",
+      "silver-cost:11756:25000",
       "silver-cost:1870:25000",
+      "silver-cost:250:35000",
       "silver-cost:29033:25000",
       "silver-cost:31493:25000",
       "silver-cost:32372:25000",
       "silver-cost:32928:25000",
-      "urchin-access",
       "urchin guide docks",
-      "silver-cost:11754:25000",
-      "silver-cost:250:35000"
+      "urchin-access"
     ],
     "uid": [
       7142028

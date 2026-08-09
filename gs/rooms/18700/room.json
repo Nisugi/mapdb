@@ -1,5 +1,5 @@
 {
-  "checksum": "e521f65d5505ae9ccdb451963459008f",
+  "checksum": "187c0b8752db4286378d344abbe4d7ad",
   "room": {
     "id": 18700,
     "title": [
@@ -14,7 +14,10 @@
     "location": "somewhere on the Great Western Sea",
     "wayto": {
       "18249": "east",
-      "18250": "/rooms/18700/wayto/stringproc-18250.rb",
+      "18250": {
+        "strategy": "unique_crossing",
+        "name": "crossing_18700_18250"
+      },
       "18706": "north",
       "24853": "northeast"
     },

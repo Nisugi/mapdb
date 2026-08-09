@@ -1,5 +1,5 @@
 {
-  "checksum": "e463ea359c644b5792e41ef2ecf9d44f",
+  "checksum": "85c43b1b61a1b1f1f767e10c06a6a79b",
   "room": {
     "id": 19727,
     "title": [
@@ -14,18 +14,21 @@
     "location": "the foothills of Zeltoph",
     "wayto": {
       "19726": "go shore",
-      "19990": "/rooms/19727/wayto/stringproc-19990.rb"
+      "19990": {
+        "strategy": "unique_crossing",
+        "name": "crossing_19727_19990"
+      }
     },
     "timeto": {
       "19726": 0.2,
       "19990": 2.2
     },
     "tags": [
-      "no-auto-map",
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
-      "meta:trap"
+      "meta:trap",
+      "no forageables",
+      "no-auto-map"
     ],
     "uid": [
       11100

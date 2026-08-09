@@ -1,5 +1,5 @@
 {
-  "checksum": "30943349e57a53aec6357bdb37a2c1e2",
+  "checksum": "dc95385cdb3165d93d2225887e79d4a8",
   "room": {
     "id": 2260,
     "title": [
@@ -16,17 +16,37 @@
     "climate": "arid",
     "terrain": "hard, flat",
     "wayto": {
-      "1965": "/rooms/2260/wayto/stringproc-1965.rb",
-      "2261": "/rooms/2260/wayto/stringproc-2261.rb"
+      "1965": [
+        {
+          "do": "await",
+          "for": "The\\ boat\\ arrives\\ at\\ the\\ dock\\ with\\ a\\ soft\\ thunk\\.",
+          "timeout": 30
+        },
+        {
+          "do": "move",
+          "cmd": "out"
+        }
+      ],
+      "2261": [
+        {
+          "do": "await",
+          "for": "You\\ arrive\\ at\\ the\\ stone\\ dock\\ with\\ a\\ soft\\ thunk\\.",
+          "timeout": 30
+        },
+        {
+          "do": "move",
+          "cmd": "out"
+        }
+      ]
     },
     "timeto": {
-      "1965": 120,
-      "2261": 120
+      "1965": 40,
+      "2261": 40
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
+      "meta:forage-sensed:day:2023-01",
+      "no forageables"
     ],
     "uid": [
       3005013

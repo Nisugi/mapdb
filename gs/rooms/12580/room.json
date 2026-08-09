@@ -1,5 +1,5 @@
 {
-  "checksum": "201dfd068ac963162849868876115c8b",
+  "checksum": "85fb9014ab341087ba8019d0d400653c",
   "room": {
     "id": 12580,
     "title": [
@@ -17,37 +17,57 @@
     "terrain": "mountainous",
     "wayto": {
       "12579": "southwest",
-      "29048": "/rooms/12580/wayto/stringproc-29048.rb"
+      "29048": [
+        {
+          "do": "preserve_stance",
+          "stance": "offensive",
+          "steps": [
+            {
+              "do": "empty_hands"
+            },
+            {
+              "do": "move",
+              "cmd": "climb rockslide"
+            },
+            {
+              "do": "fill_hands"
+            }
+          ]
+        },
+        {
+          "do": "replan"
+        }
+      ]
     },
     "timeto": {
       "12579": 0.2,
       "29048": 2
     },
     "tags": [
-      "pothinir grass",
-      "golden hook mushroom",
-      "spotted heart mushroom",
-      "sprig of larkspur",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
-      "sugar cane",
-      "round grumbleberry",
-      "thin hemp",
-      "mulberry fronds",
-      "white cotton boll",
-      "tea leaves",
-      "white tea leaves",
       "black tea leaves",
-      "green tea leaves",
-      "purple tea leaves",
-      "mate leaves",
+      "bolmara lichen",
       "butterfly pea flower",
-      "sprig of rooibos",
-      "sun-wilted tea leaves",
+      "golden mushroom",
+      "green tea leaves",
       "lemon balm",
       "lemon verbena",
-      "meta:forage-sensed:day:2025-07"
+      "mate leaves",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "mulberry fronds",
+      "pothinir grass",
+      "purple tea leaves",
+      "round grumbleberry",
+      "spotted heart mushroom",
+      "sprig of larkspur",
+      "sprig of rooibos",
+      "sugar cane",
+      "sun-wilted tea leaves",
+      "tea leaves",
+      "thin hemp",
+      "white cotton boll",
+      "white tea leaves",
+      "wingstem root"
     ],
     "uid": [
       3023017

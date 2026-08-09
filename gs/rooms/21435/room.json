@@ -1,5 +1,5 @@
 {
-  "checksum": "375a799f98c80a0d26a262371ba1322d",
+  "checksum": "b93244abc8f576adecc16e827d9aa82f",
   "room": {
     "id": 21435,
     "title": [
@@ -14,7 +14,16 @@
     "location": false,
     "wayto": {
       "21434": "go opening",
-      "23164": "/rooms/21435/wayto/stringproc-23164.rb"
+      "23164": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go concealed door"
+        }
+      ]
     },
     "timeto": {
       "21434": 0.2,

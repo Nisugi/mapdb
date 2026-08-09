@@ -1,5 +1,5 @@
 {
-  "checksum": "c7fc7634ec32dca9ea5a0ed7d533b6ef",
+  "checksum": "402a40b0dc550b96b6d0845369fb96ea",
   "room": {
     "id": 3839,
     "title": [
@@ -16,7 +16,21 @@
     "terrain": "none",
     "wayto": {
       "3838": "out",
-      "8429": "/rooms/3839/wayto/stringproc-8429.rb"
+      "8429": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "swim nook"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ]
     },
     "timeto": {
       "3838": 0.2,
@@ -24,9 +38,9 @@
     },
     "tags": [
       "meta:forage-sensed",
-      "murdroot",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2025-01",
-      "meta:forage-sensed:day:2025-02"
+      "murdroot"
     ],
     "uid": [
       4291052

@@ -1,5 +1,5 @@
 {
-  "checksum": "1f8a294a1ef894a0b63c6cfe6037befb",
+  "checksum": "79e61f4499141585cfb85a253893bee1",
   "room": {
     "id": 16122,
     "title": [
@@ -16,10 +16,44 @@
     "climate": "cold, damp",
     "terrain": "muddy wetlands",
     "wayto": {
-      "11612": "/rooms/16122/wayto/stringproc-11612.rb",
-      "11618": "/rooms/16122/wayto/stringproc-11618.rb",
-      "11630": "/rooms/16122/wayto/stringproc-11630.rb",
-      "22218": "/rooms/16122/wayto/stringproc-22218.rb"
+      "11612": {
+        "strategy": "unique_crossing",
+        "name": "crossing_16122_11612"
+      },
+      "11618": {
+        "strategy": "unique_crossing",
+        "name": "crossing_16122_11618"
+      },
+      "11630": [
+        {
+          "do": "repeat",
+          "until": "not:paths_are:ne,se,sw,nw",
+          "steps": [
+            {
+              "do": "move_random",
+              "among": [
+                "northeast",
+                "southeast"
+              ]
+            }
+          ]
+        }
+      ],
+      "22218": [
+        {
+          "do": "repeat",
+          "until": "not:paths_are:ne,se,sw,nw",
+          "steps": [
+            {
+              "do": "move_random",
+              "among": [
+                "northeast",
+                "southeast"
+              ]
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "11612": 10,
@@ -29,26 +63,26 @@
     },
     "tags": [
       "aloeas stem",
-      "soft white mushroom",
-      "withered black mushroom",
-      "white hook mushroom",
       "blue trafel mushroom",
-      "wild gooseberry",
-      "stalk of cattail",
-      "small wild rose",
+      "bolmara lichen",
+      "broken twig",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
+      "meta:map:multi-uid",
+      "meta:maze",
       "mistweed",
       "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "talneo root",
-      "meta:forage-sensed",
+      "soft mushroom",
+      "stalk of cattail",
       "sunburst blossom",
+      "talneo root",
+      "wavepetal blossom",
+      "white hook mushroom",
+      "wild gooseberry",
+      "wild rose",
       "wingstem root",
-      "meta:maze",
-      "meta:map:multi-uid",
-      "broken twig",
-      "meta:forage-sensed:night:2026-01",
-      "meta:forage-sensed:day:2026-01"
+      "withered mushroom"
     ],
     "uid": [
       5003021,

@@ -1,5 +1,5 @@
 {
-  "checksum": "e9adeb81ac10358e26cf829ba6dca44a",
+  "checksum": "0f8d0ff69d5fb6003fc4740a3fe5096c",
   "room": {
     "id": 34400,
     "title": [
@@ -20,15 +20,25 @@
       "32947": "urchin guide osatask"
     },
     "timeto": {
-      "32928": "/rooms/34400/timeto/stringproc-32928.rb",
-      "32930": "/rooms/34400/timeto/stringproc-32930.rb",
-      "32936": "/rooms/34400/timeto/stringproc-32936.rb",
-      "32941": "/rooms/34400/timeto/stringproc-32941.rb",
-      "32947": "/rooms/34400/timeto/stringproc-32947.rb"
+      "32928": {
+        "same_as": "30714:7"
+      },
+      "32930": {
+        "same_as": "30714:7"
+      },
+      "32936": {
+        "same_as": "30714:7"
+      },
+      "32941": {
+        "same_as": "30714:7"
+      },
+      "32947": {
+        "same_as": "30714:7"
+      }
     },
     "tags": [
-      "urchin-hideout",
-      "meta:map:virtual room"
+      "meta:map:virtual room",
+      "urchin-hideout"
     ]
   }
 }

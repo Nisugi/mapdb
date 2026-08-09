@@ -1,5 +1,5 @@
 {
-  "checksum": "0a15c9f2c16703156453ad358f37402e",
+  "checksum": "a9f1074c602479c0580c14ab590a0b8e",
   "room": {
     "id": 18123,
     "title": [
@@ -15,7 +15,16 @@
     "wayto": {
       "18115": "go trail",
       "18124": "south",
-      "18126": "/rooms/18123/wayto/stringproc-18126.rb"
+      "18126": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go trapdoor"
+        }
+      ]
     },
     "timeto": {
       "18115": 0.2,

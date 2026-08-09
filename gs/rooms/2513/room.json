@@ -1,5 +1,5 @@
 {
-  "checksum": "36a0f540deb955329c195b6d53bc2952",
+  "checksum": "2779edf11e8ade023381a9b0028dfa10",
   "room": {
     "id": 2513,
     "title": [
@@ -15,21 +15,67 @@
     "climate": "glacial",
     "terrain": "barren scrub",
     "wayto": {
-      "2512": "/rooms/2513/wayto/stringproc-2512.rb",
-      "2514": "/rooms/2513/wayto/stringproc-2514.rb"
+      "2512": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        }
+      ],
+      "2514": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "south"
+        }
+      ]
     },
     "timeto": {
       "2512": 0.2,
       "2514": 0.2
     },
     "tags": [
-      "snow pansy",
       "arctic moss",
       "broken twig",
       "ironfern root",
       "meta:forage-sensed",
-      "sunburst blossom",
-      "meta:forage-sensed:day:2025-02"
+      "meta:forage-sensed:day:2026-03",
+      "snow pansy",
+      "sunburst blossom"
     ],
     "uid": [
       4044203

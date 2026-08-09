@@ -1,5 +1,5 @@
 {
-  "checksum": "df2f04c0fb34ea3e7809c07b6cdfa3a7",
+  "checksum": "bcbe32f8b10f9179045545a4eddd568f",
   "room": {
     "id": 12173,
     "title": [
@@ -16,7 +16,57 @@
     "climate": "cold, dry",
     "terrain": "hard, flat",
     "wayto": {
-      "2579": "/rooms/12173/wayto/stringproc-2579.rb",
+      "2579": {
+        "strategy": "patrol_search",
+        "rooms": [
+          12162,
+          12207,
+          12170,
+          12209,
+          12215,
+          12210,
+          12159,
+          12165,
+          12206,
+          12173,
+          12208,
+          null,
+          12160,
+          12211
+        ],
+        "dirs": [
+          "northwest",
+          "north",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "north",
+          "northwest",
+          "west",
+          "east",
+          "northeast",
+          "northwest",
+          "northeast"
+        ],
+        "objects": [
+          "thread"
+        ],
+        "enter": [
+          {
+            "do": "move",
+            "cmd": "climb thread"
+          },
+          {
+            "do": "wait_rt"
+          },
+          {
+            "do": "send",
+            "cmd": "stand"
+          }
+        ]
+      },
       "12160": "northeast",
       "12206": "southeast",
       "12208": "west"
@@ -28,18 +78,18 @@
       "12208": 0.2
     },
     "tags": [
-      "rotting bile green fleshbulb",
-      "twisted black mawflower",
-      "mass of congealed slime",
-      "fleshsore bulb",
-      "oozing fleshsore bulb",
-      "withered deathblossom",
+      "black mawflower",
       "discolored fleshbinder bud",
       "fleshbinder bud",
+      "fleshsore bulb",
       "grave blossom",
-      "black mawflower",
       "green fleshbulb",
-      "meta:forage-sensed"
+      "mass of congealed slime",
+      "meta:forage-sensed",
+      "oozing fleshsore bulb",
+      "rotting bile green fleshbulb",
+      "twisted black mawflower",
+      "withered deathblossom"
     ],
     "uid": [
       4570009

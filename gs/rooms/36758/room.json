@@ -1,0 +1,27 @@
+{
+  "checksum": "f2d236d05c01c1d0727552934dda4451",
+  "room": {
+    "id": 36758,
+    "title": [
+      "[The Dragon Macaw, Deck]"
+    ],
+    "description": [
+      "The expansive deck is made of highly polished teak with occasional gear-shaped scuffs providing purchase.  Twists of colorful sailcloth stitched with stylized dragon-like parrots swoop between ironwood poles and hold dozens of tiny crystalline lamps glittering in the sunlight.  A gear-framed sign points toward the main cabin, which is invitingly open, but all other egresses into the ship are heavily guarded by scowling burghal gnomes armed to the teeth."
+    ],
+    "paths": [
+      "Obvious paths: none"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "33093": "go gangplank",
+      "36759": "go cabin"
+    },
+    "timeto": {
+      "33093": 0.2,
+      "36759": 0.2
+    },
+    "uid": [
+      7134211
+    ]
+  }
+}

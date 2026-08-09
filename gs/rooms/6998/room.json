@@ -1,5 +1,5 @@
 {
-  "checksum": "84410296ab5180fd0c867847a72c8405",
+  "checksum": "7f7db4b88e9471d48b49ac6965feb9e6",
   "room": {
     "id": 6998,
     "title": [
@@ -15,31 +15,88 @@
     "climate": "cold, dry",
     "terrain": "plain dirt",
     "wayto": {
-      "6997": "/rooms/6998/wayto/stringproc-6997.rb",
-      "6999": "/rooms/6998/wayto/stringproc-6999.rb"
+      "6997": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "push lever",
+              "for": "won't budge|Now what|lower a wooden drawbridge",
+              "timeout": 3,
+              "if_match": {
+                "pattern": "Now what|lower a wooden drawbridge",
+                "steps": [
+                  {
+                    "do": "break"
+                  }
+                ]
+              }
+            }
+          ],
+          "times": 50
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "move",
+          "cmd": "go drawbridge"
+        }
+      ],
+      "6999": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "pull lever",
+              "for": "won't budge|Now what|raise a wooden drawbridge",
+              "timeout": 3,
+              "if_match": {
+                "pattern": "Now what|raise a wooden drawbridge",
+                "steps": [
+                  {
+                    "do": "break"
+                  }
+                ]
+              }
+            }
+          ],
+          "times": 50
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "move",
+          "cmd": "go white portcullis"
+        }
+      ]
     },
     "timeto": {
       "6997": 0.2,
       "6999": 0.2
     },
     "tags": [
-      "stalk of chicory",
-      "cuctucae berry",
-      "sassafras leaf",
       "acantha leaf",
-      "wolifrew lichen",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "heath aster",
       "bright red cranberry",
+      "cuctucae berry",
+      "heath aster",
       "ironfern root",
-      "wingstem root",
+      "juniper berry",
       "meta:forage-sensed",
-      "moonlight cactus-bloom",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2023-01",
-      "meta:forage-sensed:day:2025-02"
+      "moonlight cactus-bloom",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "stalk of chicory",
+      "sweetfern stalk",
+      "valerian root",
+      "wingstem root",
+      "wolifrew lichen"
     ],
     "uid": [
       45104

@@ -1,5 +1,5 @@
 {
-  "checksum": "4ae33c24b78fce3240b5dee7fd48de45",
+  "checksum": "cba5067908d198680d0654ce4d2c6859",
   "room": {
     "id": 12589,
     "title": [
@@ -18,7 +18,41 @@
       "12588": "west",
       "12590": "north",
       "12591": "south",
-      "12593": "/rooms/12589/wayto/stringproc-12593.rb"
+      "12593": [
+        {
+          "do": "send",
+          "cmd": "jump"
+        },
+        {
+          "do": "await",
+          "for": "You feel the presence of cold hard stone underneath you\\.",
+          "timeout": 30
+        },
+        {
+          "do": "sleep",
+          "seconds": 0.1
+        },
+        {
+          "do": "if",
+          "when": "not:status:standing",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        },
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "west"
+            }
+          ],
+          "until_room": 12593
+        }
+      ]
     },
     "timeto": {
       "12588": 0.2,
@@ -27,29 +61,29 @@
       "12593": 20
     },
     "tags": [
-      "wild chokecherry",
-      "white clover blossom",
-      "red clover blossom",
-      "stalk of chicory",
-      "yellow passionflower",
-      "wintergreen leaf",
-      "wild gooseberry",
-      "stalk of goldenrod",
-      "pink clover blossom",
-      "white passionflower",
-      "fiddlehead fern",
-      "bright red teaberry",
       "blue passionflower",
-      "yellow clover blossom",
-      "sprig of larkspur",
-      "handful of currants",
-      "purple clover blossom",
-      "golden hook mushroom",
+      "bright red teaberry",
       "broken twig",
-      "small wild rose",
-      "motherwort",
+      "fiddlehead fern",
+      "golden hook mushroom",
+      "handful of currants",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-11"
+      "meta:forage-sensed:day:2023-11",
+      "motherwort",
+      "pink clover blossom",
+      "purple clover blossom",
+      "red clover blossom",
+      "small wild rose",
+      "sprig of larkspur",
+      "stalk of chicory",
+      "stalk of goldenrod",
+      "white clover blossom",
+      "white passionflower",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wintergreen leaf",
+      "yellow clover blossom",
+      "yellow passionflower"
     ],
     "uid": [
       3040002

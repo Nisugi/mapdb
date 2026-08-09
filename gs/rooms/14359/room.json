@@ -1,5 +1,5 @@
 {
-  "checksum": "d8b8a4919636cdfafc495755a1d2b9f6",
+  "checksum": "d1aa454aa7757d923f86d7e3388eafa5",
   "room": {
     "id": 14359,
     "title": [
@@ -14,16 +14,155 @@
     ],
     "location": "Solhaven",
     "wayto": {
-      "8634": "/rooms/14359/wayto/stringproc-8634.rb",
-      "8916": "/rooms/14359/wayto/stringproc-8916.rb",
+      "8634": {
+        "strategy": "chronomage_day_pass",
+        "towns": [
+          "Solhaven",
+          "Wehnimer's Landing"
+        ],
+        "buy_token": "sol,wl",
+        "npc": "agent",
+        "ask": "wehnimer",
+        "enter": "out",
+        "exit": "go arch",
+        "bank_to": [
+          "out",
+          "down",
+          "down",
+          "down",
+          "down",
+          "go ramp",
+          "east",
+          "northwest",
+          "north",
+          "north",
+          "northwest",
+          "north",
+          "north",
+          "north",
+          "north",
+          "north",
+          "north",
+          "northwest",
+          "east",
+          "go doors"
+        ],
+        "bank_from": [
+          "out",
+          "west",
+          "southeast",
+          "south",
+          "south",
+          "south",
+          "south",
+          "south",
+          "south",
+          "southeast",
+          "south",
+          "south",
+          "southeast",
+          "west",
+          "climb ramp",
+          "climb stairway",
+          "up",
+          "up",
+          "up",
+          "go building"
+        ],
+        "withdraw": 5000
+      },
+      "8916": {
+        "strategy": "chronomage_day_pass",
+        "towns": [
+          "Icemule Trace",
+          "Solhaven"
+        ],
+        "buy_token": "sol,imt",
+        "npc": "agent",
+        "ask": "icemule",
+        "enter": "out",
+        "exit": "go arch",
+        "bank_to": [
+          "out",
+          "down",
+          "down",
+          "down",
+          "down",
+          "go ramp",
+          "east",
+          "northwest",
+          "north",
+          "north",
+          "northwest",
+          "north",
+          "north",
+          "north",
+          "north",
+          "north",
+          "north",
+          "northwest",
+          "east",
+          "go doors"
+        ],
+        "bank_from": [
+          "out",
+          "west",
+          "southeast",
+          "south",
+          "south",
+          "south",
+          "south",
+          "south",
+          "south",
+          "southeast",
+          "south",
+          "south",
+          "southeast",
+          "west",
+          "climb ramp",
+          "climb stairway",
+          "up",
+          "up",
+          "up",
+          "go building"
+        ],
+        "withdraw": 5000
+      },
       "14358": "out"
     },
     "timeto": {
-      "8634": "/rooms/14359/timeto/stringproc-8634.rb",
-      "8916": "/rooms/14359/timeto/stringproc-8916.rb",
+      "8634": {
+        "cost": 0.8,
+        "requires": [
+          "setting:day_pass",
+          "pass:Solhaven+Wehnimer's Landing"
+        ],
+        "else": {
+          "cost": 7.4,
+          "requires": [
+            "setting:day_pass",
+            "pass_buyable:sol,wl"
+          ]
+        }
+      },
+      "8916": {
+        "cost": 0.8,
+        "requires": [
+          "setting:day_pass",
+          "pass:Solhaven+Icemule Trace"
+        ],
+        "else": {
+          "cost": 7.4,
+          "requires": [
+            "setting:day_pass",
+            "pass_buyable:sol,imt"
+          ]
+        }
+      },
       "14358": 0.2
     },
     "tags": [
+      "no forageables",
       "travel waiting room"
     ],
     "uid": [

@@ -1,5 +1,5 @@
 {
-  "checksum": "1d815b5ac64669169aedfc011bdff67a",
+  "checksum": "c1c820c25d3c60731a3e8f0c133f2f04",
   "room": {
     "id": 12211,
     "title": [
@@ -16,7 +16,57 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "2579": "/rooms/12211/wayto/stringproc-2579.rb",
+      "2579": {
+        "strategy": "patrol_search",
+        "rooms": [
+          12162,
+          12207,
+          12170,
+          12209,
+          12215,
+          12210,
+          12159,
+          12165,
+          12206,
+          12173,
+          12208,
+          null,
+          12160,
+          12211
+        ],
+        "dirs": [
+          "northwest",
+          "north",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "north",
+          "northwest",
+          "west",
+          "east",
+          "northeast",
+          "northwest",
+          "northeast"
+        ],
+        "objects": [
+          "thread"
+        ],
+        "enter": [
+          {
+            "do": "move",
+            "cmd": "climb thread"
+          },
+          {
+            "do": "wait_rt"
+          },
+          {
+            "do": "send",
+            "cmd": "stand"
+          }
+        ]
+      },
       "12159": "west",
       "12160": "southeast",
       "12162": "northeast"
@@ -28,12 +78,12 @@
       "12162": 0.2
     },
     "tags": [
-      "withered deathblossom",
+      "congealed slime",
       "mass of congealed slime",
+      "meta:forage-sensed",
       "slime-covered grave blossom",
       "twisted black mawflower",
-      "congealed slime",
-      "meta:forage-sensed"
+      "withered deathblossom"
     ],
     "uid": [
       4570005

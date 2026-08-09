@@ -1,5 +1,5 @@
 {
-  "checksum": "c88e1cdf5d34f46d891cacb4dcf12c85",
+  "checksum": "6f29cb82d29f848000662e208b2557b6",
   "room": {
     "id": 12506,
     "title": [
@@ -14,16 +14,43 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "12504": "go door",
-      "28722": "/rooms/12506/wayto/stringproc-28722.rb",
-      "28725": "/rooms/12506/wayto/stringproc-28725.rb",
-      "28726": "/rooms/12506/wayto/stringproc-28726.rb",
-      "28729": "/rooms/12506/wayto/stringproc-28729.rb",
-      "28730": "/rooms/12506/wayto/stringproc-28730.rb",
-      "28731": "/rooms/12506/wayto/stringproc-28731.rb",
-      "28732": "/rooms/12506/wayto/stringproc-28732.rb",
-      "28733": "/rooms/12506/wayto/stringproc-28733.rb",
-      "28734": "/rooms/12506/wayto/stringproc-28734.rb",
-      "30715": "/rooms/12506/wayto/stringproc-30715.rb"
+      "28722": {
+        "strategy": "table_join",
+        "table": "Brave Battle-Axe"
+      },
+      "28725": {
+        "strategy": "table_join",
+        "table": "Cleaving Claidhmore"
+      },
+      "28726": {
+        "strategy": "table_join",
+        "table": "Dual Dagger"
+      },
+      "28729": {
+        "strategy": "table_join",
+        "table": "Fearsome Falchion"
+      },
+      "28730": {
+        "strategy": "table_join",
+        "table": "Elegant Espadon"
+      },
+      "28731": {
+        "strategy": "table_join",
+        "table": "Golden Gladius"
+      },
+      "28732": {
+        "strategy": "table_join",
+        "table": "Hurling Handaxe"
+      },
+      "28733": {
+        "strategy": "table_join",
+        "table": "Imposing Impaler"
+      },
+      "28734": {
+        "strategy": "table_join",
+        "table": "Armed Arbalest"
+      },
+      "30715": []
     },
     "timeto": {
       "12504": 0.2,
@@ -36,13 +63,16 @@
       "28732": 0.2,
       "28733": 0.2,
       "28734": 0.2,
-      "30715": "/rooms/12506/timeto/stringproc-30715.rb"
+      "30715": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "no forageables",
       "table",
-      "urchin-access",
+      "tables",
       "urchin guide tables",
-      "tables"
+      "urchin-access"
     ],
     "uid": [
       3003009

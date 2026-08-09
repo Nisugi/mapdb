@@ -1,5 +1,5 @@
 {
-  "checksum": "e5f4fd4af5e982bcd24448cc973e6b08",
+  "checksum": "c8f6e1ad309fac0c8ed4470c916b3165",
   "room": {
     "id": 28740,
     "title": [
@@ -13,14 +13,34 @@
     ],
     "location": "Icemule Trace",
     "wayto": {
-      "28739": "/rooms/28740/wayto/stringproc-28739.rb"
+      "28739": [
+        {
+          "do": "try_move",
+          "cmd": "go opening",
+          "fallback": [
+            {
+              "do": "send",
+              "cmd": "close locker"
+            },
+            {
+              "do": "move",
+              "cmd": "go opening"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "28739": 0.2
     },
     "tags": [
       "bhalocker",
+      "meta:che:Beacon Hall Archive",
+      "meta:che:beacon_hall:locker",
       "meta:locker"
+    ],
+    "uid": [
+      4043719
     ],
     "image": "imt-beacon_hall.png",
     "image_coords": [

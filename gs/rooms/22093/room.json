@@ -1,5 +1,5 @@
 {
-  "checksum": "04afdac7ccbe67d2f2b022faf1f8b7a3",
+  "checksum": "13c7cc900ad170e6c7a61fbc2a8ecb98",
   "room": {
     "id": 22093,
     "title": [
@@ -13,8 +13,14 @@
     ],
     "location": "Icemule Trace",
     "wayto": {
-      "22094": "/rooms/22093/wayto/stringproc-22094.rb",
-      "22095": "/rooms/22093/wayto/stringproc-22095.rb",
+      "22094": {
+        "strategy": "table_join",
+        "table": "carved"
+      },
+      "22095": {
+        "strategy": "table_join",
+        "table": "dark"
+      },
       "22096": "out"
     },
     "timeto": {

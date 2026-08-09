@@ -1,5 +1,5 @@
 {
-  "checksum": "6b8389eb71f964aaea0d7e70bbc9ebd3",
+  "checksum": "d7d058435aead5bfa173885295d615c3",
   "room": {
     "id": 1601,
     "title": [
@@ -20,7 +20,7 @@
       "1599": "east",
       "13225": "go archway",
       "13226": "go gate",
-      "30710": "/rooms/1601/wayto/stringproc-30710.rb",
+      "30710": [],
       "31026": "go walkway"
     },
     "timeto": {
@@ -28,14 +28,16 @@
       "1599": 0.2,
       "13225": 0.2,
       "13226": 0.2,
-      "30710": "/rooms/1601/timeto/stringproc-30710.rb",
+      "30710": {
+        "same_as": "7:30714"
+      },
       "31026": 0.2
     },
     "tags": [
       "meta:forage-sensed",
-      "urchin-access",
+      "no forageables",
       "urchin guide weddinghall",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       4209060

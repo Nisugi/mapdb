@@ -1,5 +1,5 @@
 {
-  "checksum": "efaf140d2f0af7f332afe3071b99cc04",
+  "checksum": "701f0432acc67246cedac8fd768c5cba",
   "room": {
     "id": 6321,
     "title": [
@@ -19,26 +19,33 @@
       "220": "go gate",
       "17104": "go building",
       "17192": "south",
-      "30708": "/rooms/6321/wayto/stringproc-30708.rb"
+      "30708": []
     },
     "timeto": {
       "220": 0.2,
-      "17104": "/rooms/6321/timeto/stringproc-17104.rb",
+      "17104": {
+        "cost": 0.2,
+        "requires": [
+          "prof:Cleric"
+        ]
+      },
       "17192": 0.2,
-      "30708": "/rooms/6321/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "cleric guild",
       "clericguild",
-      "meta:mapname:Wehnimer's Landing - Cleric Guild",
-      "meta:mapshortname:Cleric Guild (Wehnimer's)",
-      "meta:mapcategory:Wehnimer's Landing",
-      "meta:mapcategory:Guilds",
-      "urchin guide clericguild",
-      "urchin-access",
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-11",
-      "cleric guild"
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Wehnimer's Landing",
+      "meta:mapname:Wehnimer's Landing - Cleric Guild",
+      "meta:mapshortname:Cleric Guild (Wehnimer's)",
+      "no forageables",
+      "urchin guide clericguild",
+      "urchin-access"
     ],
     "uid": [
       671011

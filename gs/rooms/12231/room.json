@@ -1,5 +1,5 @@
 {
-  "checksum": "4e50a719be4f1f41bc95cdad7ec02449",
+  "checksum": "8ede3b623fcffefa6b16f5a8f97ae7fb",
   "room": {
     "id": 12231,
     "title": [
@@ -17,7 +17,111 @@
     "climate": "arid",
     "terrain": "hard, flat",
     "wayto": {
-      "12151": "/rooms/12231/wayto/stringproc-12151.rb",
+      "12151": {
+        "strategy": "patrol_search",
+        "rooms": [
+          12240,
+          12229,
+          12228,
+          12219,
+          12217,
+          12220,
+          12231,
+          12230,
+          12232,
+          12235,
+          12236,
+          12238,
+          12239,
+          12237,
+          12234,
+          null,
+          12233
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "southwest",
+          "up",
+          "northwest",
+          "east",
+          "northwest",
+          "northeast",
+          "down",
+          "southeast",
+          "southeast",
+          "southeast",
+          "up",
+          "northeast",
+          "west",
+          "southeast",
+          "northwest",
+          "northwest",
+          "northeast",
+          "up"
+        ],
+        "objects": [
+          "fissure"
+        ],
+        "enter": [
+          {
+            "do": "repeat",
+            "times": 5,
+            "steps": [
+              {
+                "do": "wait_rt"
+              },
+              {
+                "do": "if",
+                "when": "not:status:standing",
+                "then": [
+                  {
+                    "do": "send",
+                    "cmd": "stand"
+                  }
+                ]
+              },
+              {
+                "do": "wait_rt"
+              },
+              {
+                "do": "await",
+                "cmd": "push fissure",
+                "for": "^Grasping the distorted edges|^A wide fissure cannot be opened any farther\\.|^As you move to touch a sealed fissure|^What were you referring to\\?",
+                "timeout": 3,
+                "if_match": {
+                  "pattern": "^A wide fissure cannot be opened any farther\\.",
+                  "steps": [
+                    {
+                      "do": "break"
+                    }
+                  ]
+                }
+              },
+              {
+                "do": "wait_rt"
+              },
+              {
+                "do": "if",
+                "when": "not:status:standing",
+                "then": [
+                  {
+                    "do": "send",
+                    "cmd": "stand"
+                  }
+                ]
+              },
+              {
+                "do": "wait_rt"
+              }
+            ]
+          },
+          {
+            "do": "move",
+            "cmd": "go fissure"
+          }
+        ]
+      },
       "12230": "northwest",
       "12233": "southeast"
     },
@@ -27,13 +131,13 @@
       "12233": 0.2
     },
     "tags": [
-      "withered deathblossom",
-      "fleshsore bulb",
-      "fleshbinder bud",
-      "grave blossom",
       "black mawflower",
+      "fleshbinder bud",
+      "fleshsore bulb",
+      "grave blossom",
       "green fleshbulb",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "withered deathblossom"
     ],
     "uid": [
       4571002

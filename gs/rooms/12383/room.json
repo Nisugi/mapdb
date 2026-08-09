@@ -1,5 +1,5 @@
 {
-  "checksum": "72890b4c8308775aeef17868f0d60426",
+  "checksum": "cf367d71c611b788e9c07c0821e7dd53",
   "room": {
     "id": 12383,
     "title": [
@@ -16,7 +16,18 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "12382": "/rooms/12383/wayto/stringproc-12382.rb",
+      "12382": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "climb rope"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ],
       "12498": "go dwelling"
     },
     "timeto": {
@@ -24,9 +35,9 @@
       "12498": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
+      "meta:forage-sensed:day:2023-01",
+      "no forageables"
     ],
     "uid": [
       3008011

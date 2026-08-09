@@ -1,5 +1,5 @@
 {
-  "checksum": "4c517abaf330352be27b79268d0d5ad0",
+  "checksum": "34ecf9f5e8c2e64f585d390e4c6abced",
   "room": {
     "id": 2516,
     "title": [
@@ -15,34 +15,80 @@
     "climate": "glacial",
     "terrain": "hilly",
     "wayto": {
-      "2515": "/rooms/2516/wayto/stringproc-2515.rb",
-      "2517": "/rooms/2516/wayto/stringproc-2517.rb"
+      "2515": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "north"
+        }
+      ],
+      "2517": [
+        {
+          "do": "if",
+          "when": "ice_caution",
+          "then": [
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "echo",
+              "msg": "trying not to slip..."
+            },
+            {
+              "do": "sleep",
+              "seconds": 4
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "south"
+        }
+      ]
     },
     "timeto": {
       "2515": 0.2,
       "2517": 0.2
     },
     "tags": [
-      "frostflower",
-      "calamintha blossom",
-      "red winterberry",
-      "winter rose",
-      "small loganberry",
-      "sticks",
-      "sassafras leaf",
-      "sweetfern stalk",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
       "arctic moss",
-      "snowberries",
-      "pale thornberry",
+      "calamintha blossom",
+      "frostflower",
       "ironfern root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "silver iceblossom",
       "iseya lichen",
-      "meta:forage-sensed:day:2025-02"
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "pale thornberry",
+      "pennyroyal stem",
+      "red winterberry",
+      "sassafras leaf",
+      "silver iceblossom",
+      "small loganberry",
+      "snowberries",
+      "sticks",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "winter rose"
     ],
     "uid": [
       4044200

@@ -1,5 +1,5 @@
 {
-  "checksum": "c865075b2b0bf16fac6d9c12ee0d3837",
+  "checksum": "744cff5807513685d362ce0387668751",
   "room": {
     "id": 25614,
     "title": [
@@ -15,24 +15,96 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "23527": "/rooms/25614/wayto/stringproc-23527.rb",
-      "25544": "/rooms/25614/wayto/stringproc-25544.rb"
+      "23527": [
+        {
+          "do": "if",
+          "when": "status:sitting",
+          "then": [
+            {
+              "do": "repeat",
+              "until_room_change": true,
+              "steps": [
+                {
+                  "do": "send",
+                  "cmd": "row northeast"
+                },
+                {
+                  "do": "wait_rt"
+                }
+              ]
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim northeast"
+            }
+          ]
+        }
+      ],
+      "25544": [
+        {
+          "do": "if",
+          "when": "status:sitting",
+          "then": [
+            {
+              "do": "repeat",
+              "until_room_change": true,
+              "steps": [
+                {
+                  "do": "send",
+                  "cmd": "row north"
+                },
+                {
+                  "do": "wait_rt"
+                }
+              ]
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim north"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
-      "23527": "/rooms/25614/timeto/stringproc-23527.rb",
-      "25544": "/rooms/25614/timeto/stringproc-25544.rb"
+      "23527": {
+        "cost": 10,
+        "requires": [
+          "is:sitting",
+          "climate:freshwater"
+        ],
+        "else": {
+          "cost": 0.2
+        }
+      },
+      "25544": {
+        "cost": 10,
+        "requires": [
+          "is:sitting",
+          "climate:freshwater"
+        ],
+        "else": {
+          "cost": 0.2
+        }
+      }
     },
     "tags": [
-      "meta:forage-sensed",
       "aloeas stem",
-      "wild gooseberry",
-      "water chestnut",
-      "stalk of cattail",
-      "wood violet",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
       "murdroot",
-      "wavepetal blossom",
       "orchil lichen",
-      "meta:forage-sensed:night:2024-05"
+      "stalk of cattail",
+      "sunburst blossom",
+      "water chestnut",
+      "wavepetal blossom",
+      "wild gooseberry",
+      "wood violet"
     ],
     "uid": [
       14117023

@@ -1,5 +1,5 @@
 {
-  "checksum": "96415bf395a33f9f9724afb6abd023bc",
+  "checksum": "c51e9909b6981eeedfba7734bb23c818",
   "room": {
     "id": 2485,
     "title": [
@@ -12,7 +12,25 @@
       "Obvious exits: none"
     ],
     "wayto": {
-      "2440": "/rooms/2485/wayto/stringproc-2440.rb"
+      "2440": [
+        {
+          "do": "try_move",
+          "cmd": "go curtain",
+          "fallback": [
+            {
+              "do": "send",
+              "cmd": "close locker"
+            },
+            {
+              "do": "move",
+              "cmd": "go curtain"
+            }
+          ]
+        },
+        {
+          "do": "replan"
+        }
+      ]
     },
     "timeto": {
       "2440": 0.2

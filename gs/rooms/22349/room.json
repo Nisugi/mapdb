@@ -1,5 +1,5 @@
 {
-  "checksum": "9d473611611618c6a5b4cf29056ffb92",
+  "checksum": "4a8e7f9ab24b4598bb2054758bf21e77",
   "room": {
     "id": 22349,
     "title": [
@@ -16,18 +16,21 @@
     "terrain": "hard, flat",
     "wayto": {
       "297": "out",
-      "22444": "/rooms/22349/wayto/stringproc-22444.rb"
+      "22444": {
+        "strategy": "unique_crossing",
+        "name": "crossing_22349_22444"
+      }
     },
     "timeto": {
       "297": 0.2,
       "22444": 1
     },
     "tags": [
-      "meta:teleport:fwi",
       "meta:forage-sensed",
-      "no forageables",
       "meta:forage-sensed:day:2022-09",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "meta:teleport:fwi",
+      "no forageables"
     ],
     "uid": [
       7357

@@ -1,5 +1,5 @@
 {
-  "checksum": "fcd3a6072da579364d530c808fcf5d2a",
+  "checksum": "e8fcd934a9b16b364b1b43e559a681f5",
   "room": {
     "id": 17104,
     "title": [
@@ -16,7 +16,16 @@
       "6321": "go door",
       "18597": "up",
       "18598": "northwest",
-      "18602": "/rooms/17104/wayto/stringproc-18602.rb",
+      "18602": [
+        {
+          "do": "move",
+          "cmd": "west"
+        },
+        {
+          "do": "move",
+          "cmd": "go annex"
+        }
+      ],
       "18603": "southwest",
       "18606": "southeast",
       "18607": "northeast",

@@ -1,5 +1,5 @@
 {
-  "checksum": "8b7853d73e082b391a9c306a5b04b6da",
+  "checksum": "fa9c14981b4fd1532b8ef58635eb524c",
   "room": {
     "id": 28898,
     "title": [
@@ -21,7 +21,7 @@
       "28899": "east",
       "28943": "go purple wagon",
       "30291": "go red-bricked shop",
-      "30716": "/rooms/28898/wayto/stringproc-30716.rb"
+      "30716": []
     },
     "timeto": {
       "28813": 0.2,
@@ -30,12 +30,14 @@
       "28899": 0.2,
       "28943": 0.2,
       "30291": 0.2,
-      "30716": "/rooms/28898/timeto/stringproc-30716.rb"
+      "30716": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
       "meta:forage-sensed",
-      "no forageables"
+      "no forageables",
+      "urchin-access"
     ],
     "uid": [
       7118231

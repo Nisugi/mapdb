@@ -1,5 +1,5 @@
 {
-  "checksum": "d13c9a3907c2fa45c58e5afe18d7caba",
+  "checksum": "aad376242bacb262f08c0a432014949a",
   "room": {
     "id": 902,
     "title": [
@@ -15,7 +15,15 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "901": "/rooms/902/wayto/stringproc-901.rb",
+      "901": [
+        {
+          "do": "move",
+          "cmd": "go crevasse"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
       "903": "southwest"
     },
     "timeto": {
@@ -23,14 +31,14 @@
       "903": 0.2
     },
     "tags": [
-      "white hook mushroom",
+      "bolmara lichen",
       "cave moss",
       "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2022-11",
-      "meta:forage-sensed:day:2023-11"
+      "white hook mushroom",
+      "wingstem root"
     ],
     "uid": [
       13015071

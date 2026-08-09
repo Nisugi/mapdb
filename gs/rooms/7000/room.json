@@ -1,5 +1,5 @@
 {
-  "checksum": "d66b34bd874351808911fcb2aa932576",
+  "checksum": "45709ca3c01726a828ed2b2d53c57963",
   "room": {
     "id": 7000,
     "title": [
@@ -15,7 +15,26 @@
     "climate": "cold, dry",
     "terrain": "plain dirt",
     "wayto": {
-      "6998": "/rooms/7000/wayto/stringproc-6998.rb",
+      "6998": [
+        {
+          "do": "send",
+          "cmd": "kneel"
+        },
+        {
+          "do": "send",
+          "cmd": "kiss red portcullis"
+        },
+        {
+          "do": "if",
+          "when": "not:status:standing",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        }
+      ],
       "7001": "north",
       "7025": "south"
     },
@@ -25,23 +44,24 @@
       "7025": 0.2
     },
     "tags": [
-      "sweetfern stalk",
-      "cuctucae berry",
-      "bright red cranberry",
-      "heath aster",
       "acantha leaf",
-      "wolifrew lichen",
-      "sassafras leaf",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "stalk of chicory",
+      "bright red cranberry",
+      "cuctucae berry",
+      "heath aster",
       "ironfern root",
-      "wingstem root",
+      "juniper berry",
       "meta:forage-sensed",
-      "moonlight cactus-bloom",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2023-01",
-      "meta:forage-sensed:day:2025-02"
+      "moonlight cactus-bloom",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "stalk of chicory",
+      "sweetfern stalk",
+      "valerian root",
+      "wingstem root",
+      "wolifrew lichen"
     ],
     "uid": [
       45106

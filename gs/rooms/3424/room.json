@@ -1,5 +1,5 @@
 {
-  "checksum": "e8e71e96e7a2afaffb29f481e1b02ba2",
+  "checksum": "ae3736187ef83cc3c04694045d159229",
   "room": {
     "id": 3424,
     "title": [
@@ -14,17 +14,44 @@
     "location": "Icemule Trace",
     "wayto": {
       "2389": "go staircase",
-      "3609": "/rooms/3424/wayto/stringproc-3609.rb",
-      "3627": "/rooms/3424/wayto/stringproc-3627.rb",
-      "3631": "/rooms/3424/wayto/stringproc-3631.rb",
-      "3632": "/rooms/3424/wayto/stringproc-3632.rb",
-      "3821": "/rooms/3424/wayto/stringproc-3821.rb",
-      "3822": "/rooms/3424/wayto/stringproc-3822.rb",
+      "3609": {
+        "strategy": "table_join",
+        "table": "Barn Owl"
+      },
+      "3627": {
+        "strategy": "table_join",
+        "table": "owlet"
+      },
+      "3631": {
+        "strategy": "table_join",
+        "table": "Screech Owl"
+      },
+      "3632": {
+        "strategy": "table_join",
+        "table": "Hoot Owl"
+      },
+      "3821": {
+        "strategy": "table_join",
+        "table": "White Owl"
+      },
+      "3822": {
+        "strategy": "table_join",
+        "table": "Spotted Owl"
+      },
       "9006": "go curtain",
-      "17088": "/rooms/3424/wayto/stringproc-17088.rb",
-      "17089": "/rooms/3424/wayto/stringproc-17089.rb",
-      "17090": "/rooms/3424/wayto/stringproc-17090.rb",
-      "30709": "/rooms/3424/wayto/stringproc-30709.rb"
+      "17088": {
+        "strategy": "table_join",
+        "table": "Burrowing Owl"
+      },
+      "17089": {
+        "strategy": "table_join",
+        "table": "Horned Owl"
+      },
+      "17090": {
+        "strategy": "table_join",
+        "table": "Winking Owl"
+      },
+      "30709": []
     },
     "timeto": {
       "2389": 0.2,
@@ -38,15 +65,18 @@
       "17088": 0.2,
       "17089": 0.2,
       "17090": 0.2,
-      "30709": "/rooms/3424/timeto/stringproc-30709.rb"
+      "30709": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "table",
-      "pub",
-      "urchin-access",
-      "urchin guide tables",
       "guard",
-      "tables"
+      "no forageables",
+      "pub",
+      "table",
+      "tables",
+      "urchin guide tables",
+      "urchin-access"
     ],
     "uid": [
       4043215

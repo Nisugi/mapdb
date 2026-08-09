@@ -1,5 +1,5 @@
 {
-  "checksum": "ba8d310fd83d6118a8f1fad64f59c1bd",
+  "checksum": "2a27e86cba7817e0458d314bd8d47074",
   "room": {
     "id": 22394,
     "title": [
@@ -22,7 +22,12 @@
       "22392": 0.2,
       "22395": 0.2,
       "22396": 0.2,
-      "22418": "/rooms/22394/timeto/stringproc-22418.rb"
+      "22418": {
+        "cost": 0.2,
+        "requires": [
+          "race:Dwarf"
+        ]
+      }
     },
     "tags": [
       "no forageables"

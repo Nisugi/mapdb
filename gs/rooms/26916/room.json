@@ -1,5 +1,5 @@
 {
-  "checksum": "96fb82eea4e15f70d32cec644c493bed",
+  "checksum": "6719c1f23fe713d09cd65a081336b545",
   "room": {
     "id": 26916,
     "title": [
@@ -13,16 +13,31 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "7988": "/rooms/26916/wayto/stringproc-7988.rb"
+      "7988": [
+        {
+          "do": "try_move",
+          "cmd": "go opening",
+          "fallback": [
+            {
+              "do": "send",
+              "cmd": "close locker"
+            },
+            {
+              "do": "move",
+              "cmd": "go opening"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "7988": 0.2
     },
     "tags": [
-      "peer opening =~ /^\\[Paupers, Hallway\\]/",
       "meta:che:House of Paupers",
+      "meta:che:paupers:locker",
       "meta:locker",
-      "meta:che:paupers:locker"
+      "peer opening =~ /^\\[Paupers, Hallway\\]/"
     ],
     "uid": [
       104402

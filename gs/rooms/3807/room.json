@@ -1,5 +1,5 @@
 {
-  "checksum": "c2f682e78bd8a2b2fbb675de1d85e1b8",
+  "checksum": "58f471e437efbdb751a42ae3b63bc75d",
   "room": {
     "id": 3807,
     "title": [
@@ -16,30 +16,32 @@
       "223": "out",
       "6932": "go wooden steps",
       "23335": "go wooden trapdoor",
-      "30708": "/rooms/3807/wayto/stringproc-30708.rb"
+      "30708": []
     },
     "timeto": {
       "223": 0.2,
       "6932": 0.2,
       "23335": 0.3,
-      "30708": "/rooms/3807/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "easttower",
+      "locksmith pool",
+      "locksmithpool",
+      "meta:boxpool:npc:scruffy human worker",
+      "meta:boxpool:table:sturdy wooden table",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:teleport:fwi",
+      "meta:trashcan:large wastebasket",
+      "no forageables",
       "node",
       "supernode",
-      "meta:teleport:fwi",
-      "locksmith pool",
-      "meta:boxpool:table:sturdy wooden table",
-      "meta:boxpool:npc:scruffy human worker",
-      "meta:trashcan:large wastebasket",
-      "urchin-access",
-      "urchin guide locksmithpool",
       "urchin guide easttower",
-      "locksmithpool",
-      "easttower",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
+      "urchin guide locksmithpool",
+      "urchin-access"
     ],
     "uid": [
       3040

@@ -1,5 +1,5 @@
 {
-  "checksum": "fe0cb6f7d8f7c4dfbc38e1346b4c5203",
+  "checksum": "16f4c6be5fba57f0a0bbc0676ad325ab",
   "room": {
     "id": 26651,
     "title": [
@@ -16,7 +16,15 @@
     "wayto": {
       "26652": "swim northwest",
       "26654": "swim west",
-      "26673": "/rooms/26651/wayto/stringproc-26673.rb"
+      "26673": [
+        {
+          "do": "move",
+          "cmd": "swim down"
+        },
+        {
+          "do": "replan"
+        }
+      ]
     },
     "timeto": {
       "26652": 0.2,

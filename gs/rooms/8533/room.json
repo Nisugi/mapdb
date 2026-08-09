@@ -1,5 +1,5 @@
 {
-  "checksum": "e01ee0bb8f718445040dcb95ade01012",
+  "checksum": "8c737707cfbc45b9549b871a2c5ae8dd",
   "room": {
     "id": 8533,
     "title": [
@@ -15,48 +15,64 @@
     "climate": "temperate",
     "terrain": "muddy wetlands",
     "wayto": {
-      "8532": "/rooms/8533/wayto/stringproc-8532.rb",
-      "8534": "/rooms/8533/wayto/stringproc-8534.rb"
+      "8532": [
+        {
+          "do": "move",
+          "cmd": "north"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "8534": [
+        {
+          "do": "move",
+          "cmd": "west"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "8532": 5,
       "8534": 5
     },
     "tags": [
-      "water chestnut",
-      "daggerstalk mushroom",
-      "stalk of cattail",
-      "withered black mushroom",
-      "flathead mushroom",
-      "soft white mushroom",
-      "genkew mushroom",
-      "trollfear mushroom",
-      "blue trafel mushroom",
-      "murdroot",
-      "calamia fruit",
-      "haphip root",
-      "wild gooseberry",
-      "small wild rose",
-      "kylan berry",
-      "blue whortleberry",
-      "pepperthorn root",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "talneo root",
-      "wingstem root",
-      "meta:forage-sensed",
-      "bur-clover root",
-      "sunburst blossom",
-      "pink peppercorn",
       "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "meta:forage-sensed:night:2023-02",
+      "blue trafel mushroom",
+      "blue whortleberry",
+      "bolmara lichen",
       "broken twig",
-      "meta:forage-sensed:day:2025-05"
+      "bur-clover root",
+      "calamia fruit",
+      "cardamom",
+      "cumin seeds",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "haphip root",
+      "kylan berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2023-02",
+      "murdroot",
+      "nutmeg",
+      "pepperthorn root",
+      "pink peppercorn",
+      "soft mushroom",
+      "stalk of cattail",
+      "star anise",
+      "sunburst blossom",
+      "talneo root",
+      "trollfear mushroom",
+      "vanilla bean",
+      "water chestnut",
+      "wavepetal blossom",
+      "wild gooseberry",
+      "wild rose",
+      "wingstem root",
+      "withered mushroom"
     ],
     "uid": [
       16019

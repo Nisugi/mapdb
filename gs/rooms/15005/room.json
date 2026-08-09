@@ -1,5 +1,5 @@
 {
-  "checksum": "476a32bf37be847c89f0b960e05addb9",
+  "checksum": "f2ba5920785d9204a271664b72d73351",
   "room": {
     "id": 15005,
     "title": [
@@ -19,9 +19,9 @@
       "15002": 0.2
     },
     "tags": [
-      "peer curtain =~ /^\\[Annex, Helden Hall Lobby\\]$/",
+      "meta:che:helden_hall:locker",
       "meta:locker",
-      "meta:che:helden_hall:locker"
+      "peer curtain =~ /^\\[Annex, Helden Hall Lobby\\]$/"
     ],
     "uid": [
       3215122

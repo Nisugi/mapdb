@@ -1,5 +1,5 @@
 {
-  "checksum": "aa29a5ea0ce35a700001ecc5f01987e2",
+  "checksum": "166c98b5429b98259a889574e4408eeb",
   "room": {
     "id": 4172,
     "title": [
@@ -15,9 +15,106 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "4171": "/rooms/4172/wayto/stringproc-4171.rb",
-      "4173": "/rooms/4172/wayto/stringproc-4173.rb",
-      "4174": "/rooms/4172/wayto/stringproc-4174.rb",
+      "4171": [
+        {
+          "do": "if",
+          "when": "not:loot_match:door",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "south"
+            },
+            {
+              "do": "send",
+              "cmd": "search"
+            },
+            {
+              "do": "move",
+              "cmd": "go stair"
+            },
+            {
+              "do": "move",
+              "cmd": "southwest"
+            },
+            {
+              "do": "move",
+              "cmd": "southwest"
+            },
+            {
+              "do": "move",
+              "cmd": "southeast"
+            },
+            {
+              "do": "move",
+              "cmd": "go crack"
+            },
+            {
+              "do": "move",
+              "cmd": "north"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go door"
+        }
+      ],
+      "4173": [
+        {
+          "do": "if",
+          "when": "not:loot_match:door",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "south"
+            },
+            {
+              "do": "send",
+              "cmd": "search"
+            },
+            {
+              "do": "move",
+              "cmd": "go stair"
+            },
+            {
+              "do": "move",
+              "cmd": "southwest"
+            },
+            {
+              "do": "move",
+              "cmd": "southwest"
+            },
+            {
+              "do": "move",
+              "cmd": "southeast"
+            },
+            {
+              "do": "move",
+              "cmd": "go crack"
+            },
+            {
+              "do": "move",
+              "cmd": "north"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "south"
+        }
+      ],
+      "4174": [
+        {
+          "do": "repeat",
+          "until": "not:path:s",
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "south"
+            }
+          ]
+        }
+      ],
       "16806": "north"
     },
     "timeto": {
@@ -27,15 +124,15 @@
       "16806": 0.2
     },
     "tags": [
-      "wolifrew lichen",
-      "withered black mushroom",
       "cave moss",
-      "murdroot",
       "ironfern root",
-      "wingstem root",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2024-01",
-      "meta:forage-sensed:day:2025-02"
+      "murdroot",
+      "wingstem root",
+      "withered mushroom",
+      "wolifrew lichen"
     ],
     "uid": [
       2138116

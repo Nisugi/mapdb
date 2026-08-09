@@ -1,5 +1,5 @@
 {
-  "checksum": "6cbd6967dce77d95e7323ca1ebf5f987",
+  "checksum": "325836102f6111e74cd23ed16e5a25f4",
   "room": {
     "id": 7488,
     "title": [
@@ -14,11 +14,69 @@
     "location": "the Broken Lands",
     "wayto": {
       "7489": "go tunnel",
-      "24571": "/rooms/7488/wayto/stringproc-24571.rb"
+      "24571": [
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "repeat",
+          "times": 8,
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "down"
+        },
+        {
+          "do": "sleep",
+          "seconds": 0.2
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "repeat",
+          "times": 8,
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "7489": 0.2,
-      "24571": "/rooms/7488/timeto/stringproc-24571.rb"
+      "24571": {
+        "formula": "haste_scaled",
+        "base": 15,
+        "else": 15.2
+      }
     },
     "uid": [
       94036

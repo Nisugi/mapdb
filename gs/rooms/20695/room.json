@@ -1,5 +1,5 @@
 {
-  "checksum": "37efcd5da10c00ba942cd87c08a15387",
+  "checksum": "1db5890e89051e4037f42160ded99912",
   "room": {
     "id": 20695,
     "title": [
@@ -14,17 +14,19 @@
     "location": "Zul Logoth",
     "wayto": {
       "20694": "east",
-      "30712": "/rooms/20695/wayto/stringproc-30712.rb"
+      "30712": []
     },
     "timeto": {
       "20694": 0.2,
-      "30712": "/rooms/20695/timeto/stringproc-30712.rb"
+      "30712": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "meta:premium",
       "premium supernode",
       "supernode",
-      "urchin-access",
-      "meta:premium"
+      "urchin-access"
     ],
     "uid": [
       4002407

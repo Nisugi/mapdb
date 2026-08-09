@@ -1,5 +1,5 @@
 {
-  "checksum": "00166e9e2f062d8324a9587e6d83c0a7",
+  "checksum": "85d84f53f19eee48f555e7d5f07827d9",
   "room": {
     "id": 2636,
     "title": [
@@ -13,11 +13,20 @@
     ],
     "location": "Koar's Shrine",
     "wayto": {
-      "2579": "/rooms/2636/wayto/stringproc-2579.rb",
+      "2579": {
+        "strategy": "unique_crossing",
+        "name": "crossing_2636_2579"
+      },
       "2635": "north",
-      "12093": "/rooms/2636/wayto/stringproc-12093.rb",
+      "12093": {
+        "strategy": "unique_crossing",
+        "name": "crossing_2636_12093"
+      },
       "12099": "go sphere",
-      "12118": "/rooms/2636/wayto/stringproc-12118.rb"
+      "12118": {
+        "strategy": "unique_crossing",
+        "name": "crossing_2636_12118"
+      }
     },
     "timeto": {
       "2579": 30,
@@ -27,10 +36,10 @@
       "12118": 30
     },
     "tags": [
-      "node",
-      "murdroot",
       "bur-clover root",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "murdroot",
+      "node"
     ],
     "uid": [
       4562036

@@ -1,5 +1,5 @@
 {
-  "checksum": "e62a6ceb7e06210bf92e85c006e37056",
+  "checksum": "87ae0bcc9919c8b2f2e040adc5b0e3d6",
   "room": {
     "id": 20721,
     "title": [
@@ -17,21 +17,23 @@
       "20722": "go doors",
       "20726": "northwest",
       "20727": "northeast",
-      "30710": "/rooms/20721/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "20719": 0.2,
       "20722": 0.2,
       "20726": 0.2,
       "20727": 0.2,
-      "30710": "/rooms/20721/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "meta:premium",
       "meta:trashcan:pale modwir bin",
       "premium supernode",
       "supernode",
-      "urchin-access",
-      "meta:premium"
+      "urchin-access"
     ],
     "uid": [
       4002505

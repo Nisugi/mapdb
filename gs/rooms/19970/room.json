@@ -1,5 +1,5 @@
 {
-  "checksum": "58ffab933e87ffa4d4cec6e9c306e03d",
+  "checksum": "a2fd66363cd08377582b191384e33a0b",
   "room": {
     "id": 19970,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "19948": "/rooms/19970/wayto/stringproc-19948.rb",
+      "19948": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "go stone passageway"
+        }
+      ],
       "19969": "west"
     },
     "timeto": {
@@ -21,10 +30,10 @@
       "19969": 0.2
     },
     "tags": [
-      "meta:teleport:fwi",
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
+      "meta:forage-sensed:day:2022-11",
+      "meta:teleport:fwi",
+      "no forageables"
     ],
     "uid": [
       28138

@@ -1,5 +1,5 @@
 {
-  "checksum": "7e409f17673ed90d59d262a61b113cae",
+  "checksum": "dc3bb07ab8aed13a80852bbead057e61",
   "room": {
     "id": 5251,
     "title": [
@@ -16,7 +16,15 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "5250": "/rooms/5251/wayto/stringproc-5250.rb",
+      "5250": [
+        {
+          "do": "move",
+          "cmd": "climb hole"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
       "5653": "northwest",
       "5655": "northeast"
     },
@@ -26,14 +34,17 @@
       "5655": 0.2
     },
     "tags": [
-      "withered black mushroom",
-      "pepperthorn root",
-      "murdroot",
-      "ironfern root",
-      "wingstem root",
-      "meta:forage-sensed",
+      "birch bark",
       "bur-clover root",
-      "meta:forage-sensed:day:2023-02"
+      "ghost pepper",
+      "hot pepper",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "pepperthorn root",
+      "wingstem root",
+      "withered mushroom"
     ],
     "uid": [
       4006007

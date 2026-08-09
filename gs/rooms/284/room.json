@@ -1,5 +1,5 @@
 {
-  "checksum": "38879c8bc70d6cd0fde5acf8fc33c218",
+  "checksum": "5ea611c14b7283096bc74872dcc4829a",
   "room": {
     "id": 284,
     "title": [
@@ -20,11 +20,49 @@
       "285": "north",
       "288": "south",
       "289": "west",
-      "3668": "/rooms/284/wayto/stringproc-3668.rb",
+      "3668": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
       "7983": "go cobblestone walkway",
       "8632": "go wood-sided shop",
-      "26905": "/rooms/284/wayto/stringproc-26905.rb",
-      "31558": "/rooms/284/wayto/stringproc-31558.rb"
+      "26905": [
+        {
+          "do": "repeat",
+          "times": 2,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "event transport duskruin"
+            }
+          ]
+        },
+        {
+          "do": "set",
+          "var": "duskruin_origin",
+          "value": 284
+        }
+      ],
+      "31558": [
+        {
+          "do": "repeat",
+          "times": 2,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "event transport ebon gate"
+            }
+          ]
+        },
+        {
+          "do": "set",
+          "var": "ebon_gate_origin",
+          "value": 284
+        }
+      ]
     },
     "timeto": {
       "228": 1,
@@ -32,63 +70,70 @@
       "285": 0.2,
       "288": 0.2,
       "289": 0.2,
-      "3668": "/rooms/284/timeto/stringproc-3668.rb",
+      "3668": {
+        "same_as": "7:3668"
+      },
       "7983": 0.2,
       "8632": 0.2,
       "26905": 2400,
-      "31558": "/rooms/284/timeto/stringproc-31558.rb"
+      "31558": {
+        "cost": 2400,
+        "requires": [
+          "month:10"
+        ]
+      }
     },
     "tags": [
-      "small daisy",
-      "pepperthorn root",
-      "wild carrot",
-      "small rose",
-      "small wild rose",
-      "small flower",
-      "angelica root",
-      "withered black mushroom",
-      "stalk of chicory",
-      "sprig of alyssum",
-      "heath aster",
-      "stalk of goldenrod",
-      "yellow primrose",
-      "ginger root",
-      "wild chokecherry",
-      "motherwort",
-      "murkweed",
-      "blue whortleberry",
-      "white baneberry",
-      "murdroot",
-      "ironfern root",
-      "wingstem root",
-      "bur-clover root",
-      "meta:teleport:fwi",
       "acantha leaf",
-      "calamia fruit",
-      "sovyn clove",
-      "meta:forage-sensed",
-      "pink peppercorn",
-      "black peppercorn",
-      "cardamom",
-      "vanilla bean",
-      "nutmeg",
-      "cumin seeds",
-      "star anise",
-      "meta:forage-sensed:night:2022-11",
-      "meta:teleport",
-      "juniper berry",
-      "dark blue honeyberries",
-      "plump black mulberries",
-      "brown potato",
       "agave heart",
+      "angelica root",
+      "birch bark",
+      "black peppercorn",
+      "blue whortleberry",
+      "brown potato",
+      "bur-clover root",
+      "calamia fruit",
+      "cardamom",
+      "cumin seeds",
+      "dark blue honeyberries",
+      "ghost pepper",
+      "ginger root",
+      "heath aster",
+      "hot pepper",
+      "ironfern root",
+      "juniper berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2022-11",
       "meta:fwi:teleport",
+      "meta:teleport",
+      "meta:teleport:fwi",
+      "motherwort",
+      "murdroot",
+      "murkweed",
+      "nutmeg",
+      "off-white parsnip",
+      "pepperthorn root",
+      "pink peppercorn",
+      "plump black mulberries",
       "purple potato",
       "round grumbleberry",
-      "birch bark",
-      "ghost pepper",
-      "hot pepper",
-      "off-white parsnip",
-      "meta:forage-sensed:day:2025-02"
+      "small daisy",
+      "small flower",
+      "small rose",
+      "sovyn clove",
+      "sprig of alyssum",
+      "stalk of chicory",
+      "stalk of goldenrod",
+      "star anise",
+      "vanilla bean",
+      "white baneberry",
+      "wild carrot",
+      "wild chokecherry",
+      "wild rose",
+      "wingstem root",
+      "withered mushroom",
+      "yellow primrose"
     ],
     "uid": [
       7046

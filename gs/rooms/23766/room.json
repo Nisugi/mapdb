@@ -1,5 +1,5 @@
 {
-  "checksum": "5a86003eb8f199ac6655da8e17f71a6a",
+  "checksum": "d0b83189d048014597dbef155c3022c6",
   "room": {
     "id": 23766,
     "title": [
@@ -15,13 +15,20 @@
     "wayto": {
       "23767": "north",
       "26885": "go iron portcullis",
-      "33578": "/rooms/23766/wayto/stringproc-33578.rb"
+      "33578": []
     },
     "timeto": {
       "23767": 0.2,
       "26885": 0.2,
-      "33578": "/rooms/23766/timeto/stringproc-33578.rb"
+      "33578": {
+        "same_as": "7:30714"
+      }
     },
+    "tags": [
+      "eboard",
+      "endlesswall",
+      "endwall"
+    ],
     "uid": [
       8213001
     ],

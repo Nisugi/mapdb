@@ -1,5 +1,5 @@
 {
-  "checksum": "79f82e9b1efca944874b7d3b210ce7c9",
+  "checksum": "0d983c9230951ba238c6d1cd44db19c6",
   "room": {
     "id": 2877,
     "title": [
@@ -16,8 +16,14 @@
     "terrain": "mountainous",
     "wayto": {
       "2876": "go mound",
-      "2878": "/rooms/2877/wayto/stringproc-2878.rb",
-      "2881": "/rooms/2877/wayto/stringproc-2881.rb"
+      "2878": {
+        "strategy": "ice_slope",
+        "cmd": "down"
+      },
+      "2881": {
+        "strategy": "ice_slope",
+        "cmd": "southwest"
+      }
     },
     "timeto": {
       "2876": 0.2,
@@ -25,47 +31,43 @@
       "2881": 7
     },
     "tags": [
-      "sassafras leaf",
-      "some wingstem root",
-      "lingonberry",
-      "snow lily",
-      "golden aster",
-      "some pennyroyal stem",
-      "small loganberry",
-      "rockberry",
-      "some bolmara lichen",
-      "crowberry",
-      "some valerian root",
-      "some tundra grass",
-      "orange rowanberry",
-      "pale thornberry",
-      "handful of snowberries",
+      "angelica root",
+      "arctic moss",
+      "bolmara lichen",
       "calamintha blossom",
-      "some arctic moss",
-      "sprig of edelweiss",
-      "azure iceblossom",
-      "fiery red iceblossom",
-      "pale violet iceblossom",
-      "red winterberry",
+      "crowberry",
+      "dwarf bilberry",
+      "edelweiss",
+      "giant's lace",
+      "glassfern frond",
+      "golden aster",
+      "green glacierberry",
+      "iceblossoms",
+      "ironfern root",
+      "lingonberry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:mapcategory:Icemule Trace",
       "meta:mapname:Icemule Trace - East, West and North Gates",
       "meta:mapshortname:East, West and North Gates",
-      "meta:mapcategory:Icemule Trace",
-      "sweetfern stalk",
-      "angelica root",
-      "valerian root",
+      "orange rowanberry",
+      "pale thornberry",
       "pennyroyal stem",
-      "edelweiss",
-      "iceblossoms",
-      "winter rose",
-      "arctic moss",
-      "tundra grass",
+      "red winterberry",
+      "resting poppy",
+      "rockberry",
+      "sassafras leaf",
+      "silver iceblossom",
+      "small loganberry",
+      "snow lily",
       "snowberries",
-      "ironfern root",
-      "bolmara lichen",
-      "meta:forage-sensed",
       "sunburst blossom",
+      "sweetfern stalk",
+      "tundra grass",
+      "valerian root",
       "wingstem root",
-      "meta:forage-sensed:day:2022-11"
+      "winter rose",
+      "wintercrisp apple"
     ],
     "uid": [
       4560050

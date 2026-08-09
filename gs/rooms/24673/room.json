@@ -1,5 +1,5 @@
 {
-  "checksum": "89aa8e0f849ff6b88ee5c585c7361f70",
+  "checksum": "3b76912088109fee88bd4b21022ddc57",
   "room": {
     "id": 24673,
     "title": [
@@ -14,11 +14,13 @@
     "location": "Duskruin Arena",
     "wayto": {
       "23785": "north",
-      "33578": "/rooms/24673/wayto/stringproc-33578.rb"
+      "33578": []
     },
     "timeto": {
       "23785": 0.2,
-      "33578": "/rooms/24673/timeto/stringproc-33578.rb"
+      "33578": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "bank"

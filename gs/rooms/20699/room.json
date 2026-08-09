@@ -1,5 +1,5 @@
 {
-  "checksum": "8efd34f1a8717bb8355b56cea13e6259",
+  "checksum": "33f70aba4f0330b8fb48967410aedc6f",
   "room": {
     "id": 20699,
     "title": [
@@ -14,17 +14,19 @@
     "location": "Ta'Illistim",
     "wayto": {
       "18721": "go petal doorway",
-      "30714": "/rooms/20699/wayto/stringproc-30714.rb"
+      "30714": []
     },
     "timeto": {
       "18721": 0.2,
-      "30714": "/rooms/20699/timeto/stringproc-30714.rb"
+      "30714": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "meta:premium",
       "node",
       "premium:transport",
-      "urchin-access",
-      "meta:premium"
+      "urchin-access"
     ],
     "uid": [
       4002718

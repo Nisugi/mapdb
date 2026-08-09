@@ -1,5 +1,5 @@
 {
-  "checksum": "5fe49e434c90c0751c0e497fbe1e338a",
+  "checksum": "b8833880a457532e0a703e681c3f7a33",
   "room": {
     "id": 35856,
     "title": [
@@ -13,8 +13,8 @@
     ],
     "location": "the River Muagh",
     "wayto": {
-      "35855": "/rooms/35856/wayto/stringproc-35855.rb",
-      "35857": "/rooms/35856/wayto/stringproc-35857.rb"
+      "35855": "push south",
+      "35857": "push north"
     },
     "timeto": {
       "35855": 0.2,

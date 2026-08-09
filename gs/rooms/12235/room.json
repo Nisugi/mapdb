@@ -1,5 +1,5 @@
 {
-  "checksum": "bd1daee23c205aafbc2f6e463902b835",
+  "checksum": "c47683fc6458dd42bdd50c1fb74d149b",
   "room": {
     "id": 12235,
     "title": [
@@ -15,7 +15,111 @@
     ],
     "location": "the Rift",
     "wayto": {
-      "12151": "/rooms/12235/wayto/stringproc-12151.rb",
+      "12151": {
+        "strategy": "patrol_search",
+        "rooms": [
+          12240,
+          12229,
+          12228,
+          12219,
+          12217,
+          12220,
+          12231,
+          12230,
+          12232,
+          12235,
+          12236,
+          12238,
+          12239,
+          12237,
+          12234,
+          null,
+          12233
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "southwest",
+          "up",
+          "northwest",
+          "east",
+          "northwest",
+          "northeast",
+          "down",
+          "southeast",
+          "southeast",
+          "southeast",
+          "up",
+          "northeast",
+          "west",
+          "southeast",
+          "northwest",
+          "northwest",
+          "northeast",
+          "up"
+        ],
+        "objects": [
+          "fissure"
+        ],
+        "enter": [
+          {
+            "do": "repeat",
+            "times": 5,
+            "steps": [
+              {
+                "do": "wait_rt"
+              },
+              {
+                "do": "if",
+                "when": "not:status:standing",
+                "then": [
+                  {
+                    "do": "send",
+                    "cmd": "stand"
+                  }
+                ]
+              },
+              {
+                "do": "wait_rt"
+              },
+              {
+                "do": "await",
+                "cmd": "push fissure",
+                "for": "^Grasping the distorted edges|^A wide fissure cannot be opened any farther\\.|^As you move to touch a sealed fissure|^What were you referring to\\?",
+                "timeout": 3,
+                "if_match": {
+                  "pattern": "^A wide fissure cannot be opened any farther\\.",
+                  "steps": [
+                    {
+                      "do": "break"
+                    }
+                  ]
+                }
+              },
+              {
+                "do": "wait_rt"
+              },
+              {
+                "do": "if",
+                "when": "not:status:standing",
+                "then": [
+                  {
+                    "do": "send",
+                    "cmd": "stand"
+                  }
+                ]
+              },
+              {
+                "do": "wait_rt"
+              }
+            ]
+          },
+          {
+            "do": "move",
+            "cmd": "go fissure"
+          }
+        ]
+      },
       "12232": "up",
       "12236": "southeast"
     },

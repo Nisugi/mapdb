@@ -1,5 +1,5 @@
 {
-  "checksum": "0d925dbd8eb93355938c814b4a228cd9",
+  "checksum": "3e3ad726479faa82cd9704d281263728",
   "room": {
     "id": 19261,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "7489": "/rooms/19261/wayto/stringproc-7489.rb",
+      "7489": [
+        {
+          "do": "send",
+          "cmd": "touch large statue"
+        },
+        {
+          "do": "send",
+          "cmd": "say dyar trog"
+        }
+      ],
       "19262": "northwest",
       "19267": "northeast"
     },

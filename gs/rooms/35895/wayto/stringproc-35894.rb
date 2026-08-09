@@ -1,1 +1,0 @@
-move('push west')

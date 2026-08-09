@@ -1,1 +1,0 @@
-(!UserVars.mapdb_ebon_gate_origin.nil? and UserVars.mapdb_ebon_gate_origin == 10862) ? 2400.0 : nil;

@@ -1,5 +1,5 @@
 {
-  "checksum": "80d2200f2fac52893bc4efc103363e21",
+  "checksum": "852bd25593711c6f2694cb15ce75c342",
   "room": {
     "id": 2388,
     "title": [
@@ -16,32 +16,39 @@
     "wayto": {
       "2387": "east",
       "17749": "go gate",
-      "30709": "/rooms/2388/wayto/stringproc-30709.rb"
+      "30709": []
     },
     "timeto": {
       "2387": 0.2,
-      "17749": "/rooms/2388/timeto/stringproc-17749.rb",
-      "30709": "/rooms/2388/timeto/stringproc-30709.rb"
+      "17749": {
+        "cost": 0.2,
+        "requires": [
+          "prof:Warrior"
+        ]
+      },
+      "30709": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "warriorguild",
-      "some valerian root",
-      "some arctic moss",
-      "some tundra grass",
-      "some wingstem root",
-      "orange rowanberry",
-      "winter rose",
-      "some pennyroyal stem",
-      "ironfern root",
-      "some angelica root",
-      "sweetfern stalk",
-      "sassafras leaf",
-      "frostweed",
       "frostflower",
+      "frostweed",
+      "ironfern root",
       "murdroot",
+      "orange rowanberry",
+      "sassafras leaf",
+      "some angelica root",
+      "some arctic moss",
+      "some pennyroyal stem",
+      "some tundra grass",
+      "some valerian root",
+      "some wingstem root",
+      "sweetfern stalk",
       "urchin guide warriorguild",
       "urchin-access",
-      "warrior guild"
+      "warrior guild",
+      "warriorguild",
+      "winter rose"
     ],
     "uid": [
       250001

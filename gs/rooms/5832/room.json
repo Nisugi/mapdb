@@ -1,5 +1,5 @@
 {
-  "checksum": "5f68f1d70620eef6cf63b039415039e4",
+  "checksum": "245e1dd927d651d128de197749f2843c",
   "room": {
     "id": 5832,
     "title": [
@@ -17,7 +17,19 @@
     "wayto": {
       "5831": "southwest",
       "5833": "northeast",
-      "25637": "/rooms/5832/wayto/stringproc-25637.rb"
+      "25637": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "move",
+          "cmd": "go footpath"
+        }
+      ]
     },
     "timeto": {
       "5831": 0.2,
@@ -25,8 +37,8 @@
       "25637": 6.2
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       14003003

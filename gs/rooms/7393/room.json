@@ -1,5 +1,5 @@
 {
-  "checksum": "877438d5037a878891b774247a473f20",
+  "checksum": "c2cc91830d1ec9a5be95a3cdb1523fae",
   "room": {
     "id": 7393,
     "title": [
@@ -15,7 +15,40 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "7328": "/rooms/7393/wayto/stringproc-7328.rb",
+      "7328": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "crawl hole",
+              "for": "^You crawl under the low overhang",
+              "timeout": 3
+            }
+          ],
+          "until_room_change": true
+        },
+        {
+          "do": "repeat",
+          "until": "not:status:stunned",
+          "steps": [
+            {
+              "do": "sleep",
+              "seconds": 0.5
+            }
+          ]
+        },
+        {
+          "do": "repeat",
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        }
+      ],
       "7392": "west"
     },
     "timeto": {
@@ -24,11 +57,11 @@
     },
     "tags": [
       "blackgrove root",
-      "cave moss",
-      "shadowlace moss",
-      "meta:forage-sensed",
       "blue moss",
-      "meta:forage-sensed:day:2023-02"
+      "cave moss",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-02",
+      "shadowlace moss"
     ],
     "uid": [
       389057

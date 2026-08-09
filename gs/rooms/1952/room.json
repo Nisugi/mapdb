@@ -1,5 +1,5 @@
 {
-  "checksum": "576a953052e2ddd22d6148d0548f85a3",
+  "checksum": "de0bef7895211c50915c8703ee2debc2",
   "room": {
     "id": 1952,
     "title": [
@@ -15,19 +15,22 @@
     "wayto": {
       "1951": "go archway",
       "30667": "go stairway",
-      "30715": "/rooms/1952/wayto/stringproc-30715.rb"
+      "30715": []
     },
     "timeto": {
       "1951": 0.2,
       "30667": 0.2,
-      "30715": "/rooms/1952/timeto/stringproc-30715.rb"
+      "30715": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "mho hall",
       "mho hall board",
-      "urchin-access",
+      "no forageables",
+      "townhall",
       "urchin guide townhall",
-      "townhall"
+      "urchin-access"
     ],
     "uid": [
       858002

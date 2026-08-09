@@ -1,5 +1,5 @@
 {
-  "checksum": "b8b328208985688e143b0958e5fe9fa5",
+  "checksum": "4e49d899e4d331e0d9c91667782c6e0a",
   "room": {
     "id": 10325,
     "title": [
@@ -14,18 +14,21 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "10324": "out",
-      "30713": "/rooms/10325/wayto/stringproc-30713.rb"
+      "30713": []
     },
     "timeto": {
       "10324": 0.2,
-      "30713": "/rooms/10325/timeto/stringproc-30713.rb"
+      "30713": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "bank",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-09",
-      "urchin-access",
-      "urchin guide bank"
+      "no forageables",
+      "urchin guide bank",
+      "urchin-access"
     ],
     "uid": [
       14106002

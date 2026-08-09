@@ -1,5 +1,5 @@
 {
-  "checksum": "3eb96c3d49ea400fd141c43c58c3d968",
+  "checksum": "df1d473b3f1b6768f55ab68dc9643222",
   "room": {
     "id": 35593,
     "title": [
@@ -13,23 +13,31 @@
     ],
     "location": "Sailor's Grief",
     "wayto": {
-      "3668": "/rooms/35593/wayto/stringproc-3668.rb",
+      "3668": [
+        {
+          "do": "cross",
+          "room": 7,
+          "dest": "3668"
+        }
+      ],
       "35588": "go hatch",
       "35594": "east",
       "35603": "climb mast"
     },
     "timeto": {
-      "3668": "/rooms/35593/timeto/stringproc-3668.rb",
+      "3668": {
+        "same_as": "7:3668"
+      },
       "35588": 0.2,
       "35594": 0.2,
       "35603": 0.2
     },
     "tags": [
-      "meta:teleport",
-      "meta:fwi:teleport",
-      "stalk of bluebells",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2025-10"
+      "meta:forage-sensed:day:2025-10",
+      "meta:fwi:teleport",
+      "meta:teleport",
+      "stalk of bluebells"
     ],
     "uid": [
       7150607

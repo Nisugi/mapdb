@@ -1,5 +1,5 @@
 {
-  "checksum": "635eeab1c2293396c0306a2909203602",
+  "checksum": "5d0dc40675722880667f042f2040248f",
   "room": {
     "id": 12209,
     "title": [
@@ -16,7 +16,57 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "2579": "/rooms/12209/wayto/stringproc-2579.rb",
+      "2579": {
+        "strategy": "patrol_search",
+        "rooms": [
+          12162,
+          12207,
+          12170,
+          12209,
+          12215,
+          12210,
+          12159,
+          12165,
+          12206,
+          12173,
+          12208,
+          null,
+          12160,
+          12211
+        ],
+        "dirs": [
+          "northwest",
+          "north",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "north",
+          "northwest",
+          "west",
+          "east",
+          "northeast",
+          "northwest",
+          "northeast"
+        ],
+        "objects": [
+          "thread"
+        ],
+        "enter": [
+          {
+            "do": "move",
+            "cmd": "climb thread"
+          },
+          {
+            "do": "wait_rt"
+          },
+          {
+            "do": "send",
+            "cmd": "stand"
+          }
+        ]
+      },
       "12170": "southwest",
       "12208": "northeast",
       "12215": "northwest"
@@ -28,13 +78,13 @@
       "12215": 0.2
     },
     "tags": [
-      "mass of congealed slime",
-      "rotting bile green fleshbulb",
-      "twisted black mawflower",
-      "oozing fleshsore bulb",
-      "slime-covered grave blossom",
       "congealed slime",
-      "meta:forage-sensed"
+      "mass of congealed slime",
+      "meta:forage-sensed",
+      "oozing fleshsore bulb",
+      "rotting bile green fleshbulb",
+      "slime-covered grave blossom",
+      "twisted black mawflower"
     ],
     "uid": [
       4570010

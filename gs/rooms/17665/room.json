@@ -1,5 +1,5 @@
 {
-  "checksum": "3ae71f45411d14568e0a1d9566c5e50d",
+  "checksum": "9c4e6d34816f51e5210ee4252dfb4d6f",
   "room": {
     "id": 17665,
     "title": [
@@ -13,7 +13,10 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "11433": "/rooms/17665/wayto/stringproc-11433.rb"
+      "11433": {
+        "strategy": "unique_crossing",
+        "name": "crossing_17665_11433"
+      }
     },
     "timeto": {
       "11433": 30

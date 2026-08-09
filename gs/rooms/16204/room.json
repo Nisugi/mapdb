@@ -1,5 +1,5 @@
 {
-  "checksum": "d37ad427f7a738d6eceadcc87e56d46d",
+  "checksum": "f0c16a75251d14dc182c8be772226d07",
   "room": {
     "id": 16204,
     "title": [
@@ -14,15 +14,24 @@
     "location": "Maelstrom Bay",
     "wayto": {
       "16203": "north",
-      "18888": "/rooms/16204/wayto/stringproc-18888.rb"
+      "18888": [
+        {
+          "do": "send",
+          "cmd": "push shield"
+        },
+        {
+          "do": "move",
+          "cmd": "go door"
+        }
+      ]
     },
     "timeto": {
       "16203": 0.2,
       "18888": 0.2
     },
     "tags": [
-      "meta:che:Beacon Hall Archive",
       "fire lily",
+      "meta:che:Beacon Hall Archive",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2026-01",
       "no forageables"

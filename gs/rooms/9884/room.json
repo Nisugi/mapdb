@@ -1,5 +1,5 @@
 {
-  "checksum": "66dffd0b349af59f2b9e3854fbac5cb7",
+  "checksum": "ef1a828f763c4a95491042ba5659300c",
   "room": {
     "id": 9884,
     "title": [
@@ -18,10 +18,58 @@
     "wayto": {
       "54": "go path",
       "9885": "north",
-      "13183": "/rooms/9884/wayto/stringproc-13183.rb",
-      "16956": "/rooms/9884/wayto/stringproc-16956.rb",
-      "16957": "/rooms/9884/wayto/stringproc-16957.rb",
-      "18803": "/rooms/9884/wayto/stringproc-18803.rb"
+      "13183": [
+        {
+          "do": "repeat",
+          "times": 50,
+          "until_room": 13183,
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "go forest"
+            }
+          ]
+        }
+      ],
+      "16956": [
+        {
+          "do": "repeat",
+          "times": 50,
+          "until_room": 16956,
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "go forest"
+            }
+          ]
+        }
+      ],
+      "16957": [
+        {
+          "do": "repeat",
+          "times": 50,
+          "until_room": 16957,
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "go forest"
+            }
+          ]
+        }
+      ],
+      "18803": [
+        {
+          "do": "repeat",
+          "times": 50,
+          "until_room": 18803,
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "go forest"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "54": 0.2,
@@ -32,72 +80,72 @@
       "18803": 15
     },
     "tags": [
-      "some acantha leaf",
-      "some torban leaf",
-      "no-auto-map",
-      "tkaro root",
-      "some haphip root",
-      "wild chokecherry",
-      "stick",
-      "some tree bark",
-      "luckbloom blossom",
-      "lady slipper blossom",
-      "bloodwood twig",
-      "some murkweed",
-      "blue trafel mushroom",
-      "broken twig",
-      "some basal moss",
-      "twisted twig",
-      "ebony twig",
-      "some calamia fruit",
       "acantha leaf",
-      "torban leaf",
-      "calamia fruit",
-      "haphip root",
-      "basal moss",
-      "sticks",
       "angelica root",
-      "trollfear mushroom",
-      "soft white mushroom",
-      "withered black mushroom",
+      "basal moss",
+      "bloodwood twig",
+      "blue trafel mushroom",
+      "blue whortleberry",
+      "blueberries",
+      "bolmara lichen",
+      "bright red teaberry",
+      "broken twig",
+      "calamia fruit",
+      "coppery rain lily",
       "daggerstalk mushroom",
+      "ebony twig",
+      "elderberries",
+      "fiddlehead fern",
       "flathead mushroom",
       "genkew mushroom",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "blueberries",
-      "elderberries",
-      "wild gooseberry",
-      "fiddlehead fern",
-      "wild grapes",
-      "stalk of bluebells",
       "golden buttercup",
-      "wild pink geranium",
-      "stalk of goldenrod",
-      "small wild rose",
-      "sprig of wild lilac",
-      "wild beechnut",
-      "stalk of burdock",
-      "silver-edged fern",
-      "wild orchid",
-      "wood violet",
-      "wolfsbane root",
-      "sprig of mistletoe",
-      "tree bark",
-      "murkweed",
-      "white lily",
-      "pink rain lily",
-      "coppery rain lily",
-      "oxblood lily",
-      "blue whortleberry",
-      "white baneberry",
-      "yew twig",
-      "oak twig",
+      "haphip root",
+      "lady slipper blossom",
+      "luckbloom blossom",
+      "meta:forage-sensed",
       "murdroot",
+      "murkweed",
       "nightbloom blossom",
+      "no-auto-map",
+      "oak twig",
+      "oxblood lily",
+      "pink rain lily",
+      "silver-edged fern",
       "slender twig",
-      "bolmara lichen",
-      "meta:forage-sensed"
+      "small wild rose",
+      "soft white mushroom",
+      "some acantha leaf",
+      "some basal moss",
+      "some calamia fruit",
+      "some haphip root",
+      "some murkweed",
+      "some torban leaf",
+      "some tree bark",
+      "sprig of mistletoe",
+      "sprig of wild lilac",
+      "stalk of bluebells",
+      "stalk of burdock",
+      "stalk of goldenrod",
+      "stick",
+      "sticks",
+      "tkaro root",
+      "torban leaf",
+      "tree bark",
+      "trollfear mushroom",
+      "twisted twig",
+      "white baneberry",
+      "white lily",
+      "wild beechnut",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild grapes",
+      "wild orchid",
+      "wild pink geranium",
+      "wintergreen leaf",
+      "withered black mushroom",
+      "wolfsbane root",
+      "wood violet",
+      "yew twig"
     ],
     "uid": [
       219001

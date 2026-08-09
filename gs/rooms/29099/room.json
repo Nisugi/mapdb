@@ -1,5 +1,5 @@
 {
-  "checksum": "cd42e828712e6b5bc390077458b8ffcc",
+  "checksum": "bf697ba67dbe5286ff976de20194970f",
   "room": {
     "id": 29099,
     "title": [
@@ -14,15 +14,18 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28884": "out",
-      "30716": "/rooms/29099/wayto/stringproc-30716.rb"
+      "30716": []
     },
     "timeto": {
       "28884": 0.2,
-      "30716": "/rooms/29099/timeto/stringproc-30716.rb"
+      "30716": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
+      "no forageables",
       "urchin guide weapons",
+      "urchin-access",
       "weapons"
     ],
     "uid": [

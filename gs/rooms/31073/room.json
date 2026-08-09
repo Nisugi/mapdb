@@ -1,5 +1,5 @@
 {
-  "checksum": "363499829fb801b11b786eadaafc2b11",
+  "checksum": "2a78a8ce9bf364363a6bcd3d2879210a",
   "room": {
     "id": 31073,
     "title": [
@@ -15,7 +15,30 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "29860": "/rooms/31073/wayto/stringproc-29860.rb",
+      "29860": [
+        {
+          "do": "set",
+          "var": "hinterwilds_location",
+          "value": "EN"
+        },
+        {
+          "do": "send",
+          "cmd": "inquire"
+        },
+        {
+          "do": "send",
+          "cmd": "order 1"
+        },
+        {
+          "do": "send",
+          "cmd": "order confirm"
+        },
+        {
+          "do": "await",
+          "for": "With\\ a\\ groan\\ and\\ a\\ creak,\\ the\\ caravan\\ comes\\ to\\ a\\ stop\\.",
+          "timeout": 30
+        }
+      ],
       "31071": "out",
       "31074": "east"
     },
@@ -25,9 +48,9 @@
       "31074": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-11",
+      "no forageables",
       "silver-cost:29860:3000"
     ],
     "uid": [

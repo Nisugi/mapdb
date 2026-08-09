@@ -1,5 +1,5 @@
 {
-  "checksum": "183cff08edfe88daff2692b2539134be",
+  "checksum": "11d99c72de6ab2e7ba0098b8114a5acb",
   "room": {
     "id": 3684,
     "title": [
@@ -22,17 +22,22 @@
     },
     "timeto": {
       "3683": 0.2,
-      "3685": "/rooms/3684/timeto/stringproc-3685.rb",
+      "3685": {
+        "cost": 0.2,
+        "requires": [
+          "society:+26"
+        ]
+      },
       "18212": 0.2,
       "18213": 0.2,
       "18214": 0.2,
       "18215": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-11",
-      "meta:society:Order of Voln"
+      "meta:society:Order of Voln",
+      "no forageables"
     ],
     "uid": [
       312027

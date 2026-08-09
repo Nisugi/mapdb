@@ -1,5 +1,5 @@
 {
-  "checksum": "8feebddc603cc9fe8562794b8c6cc0a6",
+  "checksum": "011366e79b64168cd4a1350af100e8d9",
   "room": {
     "id": 18707,
     "title": [
@@ -13,7 +13,13 @@
     ],
     "location": "somewhere on the Great Western Sea",
     "wayto": {
-      "18702": "/rooms/18707/wayto/stringproc-18702.rb",
+      "18702": [
+        {
+          "do": "cross",
+          "room": 18700,
+          "dest": "18250"
+        }
+      ],
       "18706": "south",
       "18708": "east",
       "24853": "southeast"

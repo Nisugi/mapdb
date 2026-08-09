@@ -1,5 +1,5 @@
 {
-  "checksum": "32ec366c729023bdbc8d55017f73f493",
+  "checksum": "1f9f08cebde9b60b0fe7dddd5e863f8d",
   "room": {
     "id": 35982,
     "title": [
@@ -13,15 +13,30 @@
     ],
     "location": "the Lost Home",
     "wayto": {
-      "35981": "/rooms/35982/wayto/stringproc-35981.rb"
+      "35981": [
+        {
+          "do": "try_move",
+          "cmd": "go opening",
+          "fallback": [
+            {
+              "do": "send",
+              "cmd": "close locker"
+            },
+            {
+              "do": "move",
+              "cmd": "go opening"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "35981": 0.2
     },
     "tags": [
       "bhalocker",
-      "meta:locker",
-      "locker:beaconhall"
+      "locker:beaconhall",
+      "meta:locker"
     ],
     "uid": [
       13112316

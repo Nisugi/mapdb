@@ -1,5 +1,5 @@
 {
-  "checksum": "6d25c5c114384d250d1cbebd47dcb488",
+  "checksum": "c85fdfbdebee822863798615f8f04764",
   "room": {
     "id": 27908,
     "title": [
@@ -13,14 +13,29 @@
     ],
     "location": "the Lost Home",
     "wayto": {
-      "19257": "/rooms/27908/wayto/stringproc-19257.rb"
+      "19257": [
+        {
+          "do": "try_move",
+          "cmd": "go opening",
+          "fallback": [
+            {
+              "do": "send",
+              "cmd": "close locker"
+            },
+            {
+              "do": "move",
+              "cmd": "go opening"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "19257": 0.2
     },
     "tags": [
-      "meta:locker",
-      "meta:che:paupers:locker"
+      "meta:che:paupers:locker",
+      "meta:locker"
     ],
     "uid": [
       13112303

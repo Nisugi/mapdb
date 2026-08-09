@@ -1,5 +1,5 @@
 {
-  "checksum": "e3c14bdc011ae4828282188c9138eb47",
+  "checksum": "1e28aa5a2d62eb65ce31e733f6b2516c",
   "room": {
     "id": 23483,
     "title": [
@@ -16,7 +16,24 @@
     "terrain": "none",
     "wayto": {
       "250": "go docks",
-      "23490": "/rooms/23483/wayto/stringproc-23490.rb"
+      "23490": [
+        {
+          "do": "if",
+          "when": "spell:112",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "north"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim north"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "250": 0.2,
@@ -25,8 +42,8 @@
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
-      "no forageables",
-      "meta:forage-sensed:night:2022-11"
+      "meta:forage-sensed:night:2022-11",
+      "no forageables"
     ],
     "uid": [
       336801

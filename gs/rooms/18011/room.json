@@ -1,5 +1,5 @@
 {
-  "checksum": "3b1561f6e6bdcee7dacdea109623de75",
+  "checksum": "4d34cfb5240d6695e6b5a761a7f67ff8",
   "room": {
     "id": 18011,
     "title": [
@@ -13,7 +13,22 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "10953": "/rooms/18011/wayto/stringproc-10953.rb"
+      "10953": [
+        {
+          "do": "try_move",
+          "cmd": "go opening",
+          "fallback": [
+            {
+              "do": "send",
+              "cmd": "close locker"
+            },
+            {
+              "do": "move",
+              "cmd": "go opening"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "10953": 22.2

@@ -1,5 +1,5 @@
 {
-  "checksum": "f1e49d92b843197d6bd5f51510ee42ed",
+  "checksum": "ad618813084d63fe8a48504968886d46",
   "room": {
     "id": 2675,
     "title": [
@@ -15,7 +15,41 @@
     "wayto": {
       "2674": "northeast",
       "2676": "northwest",
-      "2677": "/rooms/2675/wayto/stringproc-2677.rb"
+      "2677": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "pull ring",
+              "for": "begins to rise|will not budge an inch|manage to pull it downward",
+              "timeout": 8,
+              "if_match": {
+                "pattern": "begins to rise|will not budge an inch",
+                "steps": [
+                  {
+                    "do": "break"
+                  }
+                ]
+              }
+            }
+          ],
+          "times": 50
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "go door"
+        }
+      ]
     },
     "timeto": {
       "2674": 0.2,
@@ -23,8 +57,8 @@
       "2677": 0.2
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       4562001

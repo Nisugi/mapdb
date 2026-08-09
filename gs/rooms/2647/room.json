@@ -1,5 +1,5 @@
 {
-  "checksum": "55513e57141fb75af620da57a6d21f11",
+  "checksum": "8629bba6adfa4b83c9b88293b504998f",
   "room": {
     "id": 2647,
     "title": [
@@ -13,7 +13,7 @@
     ],
     "location": "Koar's Shrine",
     "wayto": {
-      "2646": "/rooms/2647/wayto/stringproc-2646.rb",
+      "2646": "go pool",
       "2648": "up",
       "2658": "climb steps"
     },
@@ -23,8 +23,8 @@
       "2658": 0.2
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       4562020

@@ -1,5 +1,5 @@
 {
-  "checksum": "f1b9f285810a0960686f8a66e3b62b5a",
+  "checksum": "12f8803fe844beb299a748f477fb56f6",
   "room": {
     "id": 1477,
     "title": [
@@ -22,7 +22,7 @@
       "1483": "northwest",
       "5689": "go warehouse",
       "20698": "go gate",
-      "30710": "/rooms/1477/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "1476": 0.2,
@@ -31,13 +31,23 @@
       "1482": 0.2,
       "1483": 0.2,
       "5689": 0.2,
-      "20698": "/rooms/1477/timeto/stringproc-20698.rb",
-      "30710": "/rooms/1477/timeto/stringproc-30710.rb"
+      "20698": {
+        "cost": 0.2,
+        "requires": [
+          "var:premium"
+        ],
+        "else": {
+          "cost": 10
+        }
+      },
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
       "meta:forage-sensed",
-      "no forageables"
+      "no forageables",
+      "urchin-access"
     ],
     "uid": [
       4209046

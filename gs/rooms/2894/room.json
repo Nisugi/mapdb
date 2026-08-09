@@ -1,5 +1,5 @@
 {
-  "checksum": "4284d984435493fae0da9d3306b76083",
+  "checksum": "2ac9dfa3b4e78aeb46ddf007caa68bf9",
   "room": {
     "id": 2894,
     "title": [
@@ -15,42 +15,54 @@
     "climate": "snowy, arctic",
     "terrain": "mountainous",
     "wayto": {
-      "2886": "/rooms/2894/wayto/stringproc-2886.rb",
-      "2895": "/rooms/2894/wayto/stringproc-2895.rb"
+      "2886": {
+        "strategy": "ice_slope",
+        "cmd": "climb butte"
+      },
+      "2895": {
+        "strategy": "ice_slope",
+        "cmd": "down"
+      }
     },
     "timeto": {
       "2886": 0.2,
       "2895": 7
     },
     "tags": [
-      "sweetfern stalk",
-      "some valerian root",
-      "sassafras leaf",
       "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "edelweiss",
-      "iceblossoms",
-      "snow lily",
-      "winter rose",
       "arctic moss",
-      "tundra grass",
-      "golden aster",
-      "calamintha blossom",
-      "snowberries",
-      "pale thornberry",
-      "red winterberry",
-      "small loganberry",
-      "rockberry",
-      "crowberry",
-      "lingonberry",
-      "orange rowanberry",
-      "ironfern root",
       "bolmara lichen",
+      "calamintha blossom",
+      "crowberry",
+      "dwarf bilberry",
+      "edelweiss",
+      "giant's lace",
+      "glassfern frond",
+      "golden aster",
+      "green glacierberry",
+      "iceblossoms",
+      "ironfern root",
+      "lingonberry",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "orange rowanberry",
+      "pale thornberry",
+      "pennyroyal stem",
+      "red winterberry",
+      "resting poppy",
+      "rockberry",
+      "sassafras leaf",
+      "silver iceblossom",
+      "small loganberry",
+      "snow lily",
+      "snowberries",
       "sunburst blossom",
+      "sweetfern stalk",
+      "tundra grass",
+      "valerian root",
       "wingstem root",
-      "meta:forage-sensed:day:2022-11"
+      "winter rose",
+      "wintercrisp apple"
     ],
     "uid": [
       4560036

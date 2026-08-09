@@ -1,5 +1,5 @@
 {
-  "checksum": "da24e8e264fe1139cb8bf98ee5ed4dc6",
+  "checksum": "972d123edde9fc91782b67915cd06289",
   "room": {
     "id": 7625,
     "title": [
@@ -17,7 +17,16 @@
     "wayto": {
       "7623": "east",
       "7626": "west",
-      "20619": "/rooms/7625/wayto/stringproc-20619.rb",
+      "20619": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "go gap"
+        }
+      ],
       "32568": "go bay"
     },
     "timeto": {
@@ -27,13 +36,13 @@
       "32568": 0.2
     },
     "tags": [
-      "yabathilium fruit",
-      "strand of seaweed",
-      "murdroot",
       "greater kappa",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2022-11",
-      "meta:forage-sensed:day:2025-02"
+      "murdroot",
+      "strand of seaweed",
+      "yabathilium fruit"
     ],
     "uid": [
       85007

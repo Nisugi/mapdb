@@ -1,5 +1,5 @@
 {
-  "checksum": "5b32cc62c868ed1fb96d13d701ef4940",
+  "checksum": "07e9d021f00941186ddc82018ddf4869",
   "room": {
     "id": 27638,
     "title": [
@@ -14,7 +14,10 @@
     "location": "Peregrine Tavern, outside the elven city of Ta'Illistim",
     "wayto": {
       "27637": "out",
-      "27639": "/rooms/27638/wayto/stringproc-27639.rb"
+      "27639": {
+        "strategy": "unique_crossing",
+        "name": "crossing_27638_27639"
+      }
     },
     "timeto": {
       "27637": 0.2,

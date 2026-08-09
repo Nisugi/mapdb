@@ -1,5 +1,5 @@
 {
-  "checksum": "2d1b311ffb1998f22ac3734e557ad1e9",
+  "checksum": "8e0af7d6e34baf8d59dadb9d920270f8",
   "room": {
     "id": 28913,
     "title": [
@@ -18,18 +18,20 @@
       "28912": "northwest",
       "29139": "go building",
       "29622": "go wrought-iron gate",
-      "30716": "/rooms/28913/wayto/stringproc-30716.rb"
+      "30716": []
     },
     "timeto": {
       "28912": 0.2,
       "29139": 0.2,
       "29622": 0.2,
-      "30716": "/rooms/28913/timeto/stringproc-30716.rb"
+      "30716": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
       "meta:forage-sensed",
-      "no forageables"
+      "no forageables",
+      "urchin-access"
     ],
     "uid": [
       7118227

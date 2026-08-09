@@ -1,5 +1,5 @@
 {
-  "checksum": "6188c8a06cccec293ba20779dd3c5447",
+  "checksum": "8422d4c0f4d0729e5894a5891b9fb213",
   "room": {
     "id": 6256,
     "title": [
@@ -15,21 +15,23 @@
     "wayto": {
       "1249": "west",
       "6257": "east",
-      "30708": "/rooms/6256/wayto/stringproc-30708.rb"
+      "30708": []
     },
     "timeto": {
       "1249": 0.2,
       "6257": 0.2,
-      "30708": "/rooms/6256/timeto/stringproc-30708.rb"
+      "30708": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "consignment",
-      "urchin-access",
-      "urchin guide alchemy",
       "alchemy",
-      "no forageables",
+      "consignment",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
+      "meta:forage-sensed:day:2022-11",
+      "no forageables",
+      "urchin guide alchemy",
+      "urchin-access"
     ],
     "uid": [
       160001

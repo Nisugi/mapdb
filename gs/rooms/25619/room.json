@@ -1,5 +1,5 @@
 {
-  "checksum": "00827c9269dda4488794f90bbddf7a6d",
+  "checksum": "6ff2f7edaa46ca82389fc35bdbe3ad92",
   "room": {
     "id": 25619,
     "title": [
@@ -15,30 +15,181 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "13966": "/rooms/25619/wayto/stringproc-13966.rb",
-      "18842": "/rooms/25619/wayto/stringproc-18842.rb",
-      "25618": "/rooms/25619/wayto/stringproc-25618.rb",
-      "25620": "/rooms/25619/wayto/stringproc-25620.rb",
+      "13966": [
+        {
+          "do": "if",
+          "when": "status:sitting",
+          "then": [
+            {
+              "do": "repeat",
+              "until_room_change": true,
+              "steps": [
+                {
+                  "do": "send",
+                  "cmd": "row west"
+                },
+                {
+                  "do": "wait_rt"
+                }
+              ]
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim west"
+            }
+          ]
+        }
+      ],
+      "18842": [
+        {
+          "do": "if",
+          "when": "status:sitting",
+          "then": [
+            {
+              "do": "repeat",
+              "until_room_change": true,
+              "steps": [
+                {
+                  "do": "send",
+                  "cmd": "row south"
+                },
+                {
+                  "do": "wait_rt"
+                }
+              ]
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim south"
+            }
+          ]
+        }
+      ],
+      "25618": [
+        {
+          "do": "if",
+          "when": "status:sitting",
+          "then": [
+            {
+              "do": "repeat",
+              "until_room_change": true,
+              "steps": [
+                {
+                  "do": "send",
+                  "cmd": "row southeast"
+                },
+                {
+                  "do": "wait_rt"
+                }
+              ]
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim southeast"
+            }
+          ]
+        }
+      ],
+      "25620": [
+        {
+          "do": "if",
+          "when": "status:sitting",
+          "then": [
+            {
+              "do": "repeat",
+              "until_room_change": true,
+              "steps": [
+                {
+                  "do": "send",
+                  "cmd": "row northwest"
+                },
+                {
+                  "do": "wait_rt"
+                }
+              ]
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "swim northwest"
+            }
+          ]
+        }
+      ],
       "30506": "swim down"
     },
     "timeto": {
-      "13966": "/rooms/25619/timeto/stringproc-13966.rb",
-      "18842": "/rooms/25619/timeto/stringproc-18842.rb",
-      "25618": "/rooms/25619/timeto/stringproc-25618.rb",
-      "25620": "/rooms/25619/timeto/stringproc-25620.rb",
-      "30506": "/rooms/25619/timeto/stringproc-30506.rb"
+      "13966": {
+        "cost": 10,
+        "requires": [
+          "is:sitting",
+          "climate:freshwater"
+        ],
+        "else": {
+          "cost": 0.2
+        }
+      },
+      "18842": {
+        "cost": 10,
+        "requires": [
+          "is:sitting",
+          "climate:freshwater"
+        ],
+        "else": {
+          "cost": 0.2
+        }
+      },
+      "25618": {
+        "cost": 10,
+        "requires": [
+          "is:sitting",
+          "climate:freshwater"
+        ],
+        "else": {
+          "cost": 0.2
+        }
+      },
+      "25620": {
+        "cost": 10,
+        "requires": [
+          "is:sitting",
+          "climate:freshwater"
+        ],
+        "else": {
+          "cost": 0.2
+        }
+      },
+      "30506": {
+        "cost": null,
+        "requires": [
+          "is:sitting",
+          "climate:freshwater"
+        ],
+        "else": {
+          "cost": 0.2
+        }
+      }
     },
     "tags": [
-      "meta:forage-sensed",
       "aloeas stem",
-      "wild gooseberry",
-      "water chestnut",
-      "stalk of cattail",
-      "wood violet",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
       "murdroot",
-      "wavepetal blossom",
       "orchil lichen",
-      "meta:forage-sensed:night:2024-05"
+      "stalk of cattail",
+      "sunburst blossom",
+      "water chestnut",
+      "wavepetal blossom",
+      "wild gooseberry",
+      "wood violet"
     ],
     "uid": [
       14117010

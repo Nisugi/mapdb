@@ -1,5 +1,5 @@
 {
-  "checksum": "1f221fbf00c24a93eaa3f213528d763f",
+  "checksum": "a18c947c4a8d4837f45984032525a6f5",
   "room": {
     "id": 24239,
     "title": [
@@ -15,7 +15,10 @@
     "wayto": {
       "24236": "jump",
       "24238": "go rockslide",
-      "24240": "/rooms/24239/wayto/stringproc-24240.rb"
+      "24240": {
+        "strategy": "unique_crossing",
+        "name": "crossing_24239_24240"
+      }
     },
     "timeto": {
       "24236": 0.2,

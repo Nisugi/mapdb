@@ -1,5 +1,5 @@
 {
-  "checksum": "64a5b2d3282433e6c4672b167565ed4a",
+  "checksum": "d6ba1e1961dab51c93b327d4d662d941",
   "room": {
     "id": 21960,
     "title": [
@@ -13,7 +13,10 @@
     ],
     "location": "Talador",
     "wayto": {
-      "21961": "/rooms/21960/wayto/stringproc-21961.rb"
+      "21961": {
+        "strategy": "unique_crossing",
+        "name": "crossing_21960_21961"
+      }
     },
     "timeto": {
       "21961": 3.8

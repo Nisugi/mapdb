@@ -1,5 +1,5 @@
 {
-  "checksum": "412920c80676a9fdbcd9e5e342336b22",
+  "checksum": "fa77bdbee2517e1510bc3d7a85218cf8",
   "room": {
     "id": 1260,
     "title": [
@@ -16,21 +16,30 @@
     "terrain": "none",
     "wayto": {
       "994": "west",
-      "1261": "/rooms/1260/wayto/stringproc-1261.rb",
-      "30712": "/rooms/1260/wayto/stringproc-30712.rb"
+      "1261": [
+        {
+          "do": "await",
+          "cmd": "buy ticket",
+          "for": "You\\ hastily\\ exit\\ the\\ cart",
+          "timeout": 30
+        }
+      ],
+      "30712": []
     },
     "timeto": {
       "994": 0.2,
       "1261": 180,
-      "30712": "/rooms/1260/timeto/stringproc-30712.rb"
+      "30712": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "silver-cost:1261:1000",
-      "no forageables",
+      "eastcart",
       "meta:forage-sensed",
+      "no forageables",
+      "silver-cost:1261:1000",
       "urchin guide eastcart",
-      "urchin-access",
-      "eastcart"
+      "urchin-access"
     ],
     "uid": [
       13010201

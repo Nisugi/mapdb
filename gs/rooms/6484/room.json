@@ -1,5 +1,5 @@
 {
-  "checksum": "3d19079b6fa97ae2dae0f93a03db3178",
+  "checksum": "97ff94bcb7d56e33e44e69a98700ab96",
   "room": {
     "id": 6484,
     "title": [
@@ -15,7 +15,31 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "6481": "/rooms/6484/wayto/stringproc-6481.rb",
+      "6481": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "swim opening"
+            },
+            {
+              "do": "sleep",
+              "seconds": 1
+            },
+            {
+              "do": "wait_rt"
+            }
+          ],
+          "until_room_change": true
+        },
+        {
+          "do": "fill_hands"
+        }
+      ],
       "6485": "go narrow beach"
     },
     "timeto": {
@@ -23,11 +47,11 @@
       "6485": 0.2
     },
     "tags": [
-      "murdroot",
-      "wingstem root",
-      "meta:forage-sensed",
       "bur-clover root",
-      "meta:forage-sensed:day:2025-02"
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot",
+      "wingstem root"
     ],
     "uid": [
       95153

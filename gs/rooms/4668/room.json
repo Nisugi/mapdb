@@ -1,5 +1,5 @@
 {
-  "checksum": "4c19a2cdc1cca485990354a0840ff26c",
+  "checksum": "3cc86600d41782df4f07545830c7728f",
   "room": {
     "id": 4668,
     "title": [
@@ -16,20 +16,22 @@
     "terrain": "none",
     "wayto": {
       "4666": "out",
-      "30717": "/rooms/4668/wayto/stringproc-30717.rb"
+      "30717": []
     },
     "timeto": {
       "4666": 0.2,
-      "30717": "/rooms/4668/timeto/stringproc-30717.rb"
+      "30717": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "weaponshop",
-      "no forageables",
       "meta:forage-sensed",
-      "urchin-access",
+      "meta:forage-sensed:night:2022-11",
+      "no forageables",
       "urchin guide weapons",
+      "urchin-access",
       "weapons",
-      "meta:forage-sensed:night:2022-11"
+      "weaponshop"
     ],
     "uid": [
       14051001

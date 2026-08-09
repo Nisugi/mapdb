@@ -1,5 +1,5 @@
 {
-  "checksum": "f896bfab02f8a2c7602497c9e48acc34",
+  "checksum": "5f05f04dcd8c3d189f8359d35da8d34b",
   "room": {
     "id": 7905,
     "title": [
@@ -14,16 +14,34 @@
     "location": "Glatoph",
     "wayto": {
       "4124": "southwest",
-      "8141": "/rooms/7905/wayto/stringproc-8141.rb"
+      "8141": [
+        {
+          "do": "send",
+          "cmd": "crawl crack"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "if",
+          "when": "not:status:standing",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "4124": 0.2,
       "8141": 3
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
+      "meta:forage-sensed:day:2022-09",
+      "no forageables"
     ],
     "uid": [
       35013

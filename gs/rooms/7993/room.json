@@ -1,5 +1,5 @@
 {
-  "checksum": "9030a568130b001f4d8ab7dd9599f6a0",
+  "checksum": "5fa354d953449d12004e06207a3d3f03",
   "room": {
     "id": 7993,
     "title": [
@@ -17,7 +17,22 @@
     "wayto": {
       "4206": "southeast",
       "7994": "north",
-      "7997": "/rooms/7993/wayto/stringproc-7997.rb"
+      "7997": [
+        {
+          "do": "empty_hand"
+        },
+        {
+          "do": "send",
+          "cmd": "turn ring"
+        },
+        {
+          "do": "move",
+          "cmd": "go hole"
+        },
+        {
+          "do": "fill_hand"
+        }
+      ]
     },
     "timeto": {
       "4206": 0.2,
@@ -25,43 +40,46 @@
       "7997": 0.2
     },
     "tags": [
-      "yellow primrose",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "wild strawberry",
-      "blueberries",
-      "stalk of chicory",
-      "handful of currants",
-      "elderberries",
-      "wild gooseberry",
-      "fiddlehead fern",
-      "wild grapes",
-      "broken twig",
-      "sprig of alyssum",
-      "heath aster",
-      "golden buttercup",
-      "red clover blossom",
-      "pink clover blossom",
-      "white clover blossom",
-      "purple clover blossom",
-      "yellow clover blossom",
-      "stalk of goldenrod",
-      "sprig of larkspur",
-      "small wild rose",
-      "wild chokecherry",
-      "motherwort",
-      "white baneberry",
-      "pepperthorn root",
-      "meta:forage-sensed",
-      "ironfern root",
-      "deep purple shockroot",
       "banana leaf",
-      "rhubarb",
-      "stalk of celery",
-      "leek",
-      "shallot",
+      "blueberries",
+      "bright red teaberry",
+      "broken twig",
+      "deep purple shockroot",
+      "elderberries",
+      "fiddlehead fern",
+      "ghost pepper",
+      "golden buttercup",
+      "handful of currants",
+      "heath aster",
+      "hot pepper",
+      "ironfern root",
+      "juniper berry",
       "leafy arugula",
-      "meta:forage-sensed:day:2023-02"
+      "leek",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "motherwort",
+      "pepperthorn root",
+      "pink clover blossom",
+      "purple clover blossom",
+      "red clover blossom",
+      "rhubarb",
+      "shallot",
+      "sprig of alyssum",
+      "sprig of larkspur",
+      "stalk of celery",
+      "stalk of chicory",
+      "stalk of goldenrod",
+      "white baneberry",
+      "white clover blossom",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild grapes",
+      "wild rose",
+      "wild strawberry",
+      "wintergreen leaf",
+      "yellow clover blossom",
+      "yellow primrose"
     ],
     "uid": [
       20015

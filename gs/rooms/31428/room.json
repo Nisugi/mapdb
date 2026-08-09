@@ -1,5 +1,5 @@
 {
-  "checksum": "98996ac85e8912e480c1008b4cf400ae",
+  "checksum": "617cacc2605fbc5068847de7e3df1a0c",
   "room": {
     "id": 31428,
     "title": [
@@ -13,7 +13,10 @@
     ],
     "location": "Shivergale, outside the glacier-locked town of Icemule Trace",
     "wayto": {
-      "31427": "/rooms/31428/wayto/stringproc-31427.rb",
+      "31427": {
+        "strategy": "unique_crossing",
+        "name": "crossing_31427_31428"
+      },
       "31429": "north"
     },
     "timeto": {

@@ -1,5 +1,5 @@
 {
-  "checksum": "c4f4c8d66f8ca6baa0fceacdb65459cb",
+  "checksum": "0fd196b7ce4d06d5ba6438f1d57965de",
   "room": {
     "id": 23606,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "the catacombs",
     "wayto": {
-      "5924": "/rooms/23606/wayto/stringproc-5924.rb"
+      "5924": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "go crevice"
+        }
+      ]
     },
     "timeto": {
       "5924": 0.2

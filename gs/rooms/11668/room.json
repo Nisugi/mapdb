@@ -1,5 +1,5 @@
 {
-  "checksum": "d7a20ca3528eee5417cd835a04edc63b",
+  "checksum": "9569c01291ea541eff64232b74b6bdc4",
   "room": {
     "id": 11668,
     "title": [
@@ -16,7 +16,42 @@
     "climate": "moist",
     "terrain": "hard, flat",
     "wayto": {
-      "11675": "/rooms/11668/wayto/stringproc-11675.rb"
+      "11675": [
+        {
+          "do": "move",
+          "cmd": "down"
+        },
+        {
+          "do": "move",
+          "cmd": "out"
+        },
+        {
+          "do": "if",
+          "when": "path:ne",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "northeast"
+            },
+            {
+              "do": "move",
+              "cmd": "east"
+            }
+          ],
+          "else": [
+            {
+              "do": "if",
+              "when": "not:path:e",
+              "then": [
+                {
+                  "do": "move",
+                  "cmd": "west"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "11675": 0.8

@@ -1,5 +1,5 @@
 {
-  "checksum": "1f143fba8ef3d90097eab6620b47dba8",
+  "checksum": "e743ed49a58a560c67610c8508975987",
   "room": {
     "id": 12613,
     "title": [
@@ -14,7 +14,35 @@
     "location": "the Dark Palisade",
     "wayto": {
       "12612": "out",
-      "12614": "/rooms/12613/wayto/stringproc-12614.rb"
+      "12614": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "send",
+          "cmd": "lie"
+        },
+        {
+          "do": "move",
+          "cmd": "go chute"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        },
+        {
+          "do": "if",
+          "when": "not:status:standing",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "12612": 0.2,

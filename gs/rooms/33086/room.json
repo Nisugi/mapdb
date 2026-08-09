@@ -1,5 +1,5 @@
 {
-  "checksum": "a2bf7f95548091f220af13070bbe583c",
+  "checksum": "5c09a9b6fd23a7cab2f32de9549a8377",
   "room": {
     "id": 33086,
     "title": [
@@ -14,14 +14,23 @@
     "location": "the Flotilla",
     "wayto": {
       "33085": "west",
-      "33087": "north"
+      "33087": "north",
+      "36785": "go tent"
     },
     "timeto": {
       "33085": 0.2,
-      "33087": 0.2
+      "33087": 0.2,
+      "36785": 0.2
     },
     "uid": [
       7134064
+    ],
+    "image": "Flotilla.png",
+    "image_coords": [
+      520,
+      234,
+      531,
+      248
     ]
   }
 }

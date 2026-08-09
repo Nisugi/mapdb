@@ -1,0 +1,27 @@
+{
+  "checksum": "9118bab4bfbe8e469cc70ff9d04ee1b7",
+  "room": {
+    "id": 36769,
+    "title": [
+      "[Pearls Before Brine, Deck]"
+    ],
+    "description": [
+      "Sheets of patched canvas stretch overhead, forming a sun-bleached awning above a broad, uneven deck.  A rusted anchor chain snakes between overturned crates forming makeshift tables, a variety of trinkets and wares piled on top.  Towards the bow, a pair of skull-shaped iron lanterns illuminate a narrow opening to a steep stairwell that leads down into the cargo hold."
+    ],
+    "paths": [
+      "Obvious paths: none"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "33092": "go gangplank",
+      "36770": "go stairwell"
+    },
+    "timeto": {
+      "33092": 0.2,
+      "36770": 0.2
+    },
+    "uid": [
+      7134241
+    ]
+  }
+}

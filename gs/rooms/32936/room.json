@@ -1,5 +1,5 @@
 {
-  "checksum": "8e9fa1e2f9b2895269d9af28630b4d85",
+  "checksum": "5a19df2017c5b87eb1d74988d7a28595",
   "room": {
     "id": 32936,
     "title": [
@@ -16,19 +16,21 @@
     "terrain": "none",
     "wayto": {
       "32877": "out",
-      "34400": "/rooms/32936/wayto/stringproc-34400.rb"
+      "34400": []
     },
     "timeto": {
       "32877": 0.2,
-      "34400": "/rooms/32936/timeto/stringproc-34400.rb"
+      "34400": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "mail",
-      "postoffice",
       "meta:forage-sensed",
       "no forageables",
-      "urchin-access",
-      "urchin guide postoffice"
+      "postoffice",
+      "urchin guide postoffice",
+      "urchin-access"
     ],
     "uid": [
       7140508

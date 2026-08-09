@@ -1,5 +1,5 @@
 {
-  "checksum": "eecc148711efdce7e0b5cc05a7c07820",
+  "checksum": "1120ebad9f1250df8bc7e17670e61be5",
   "room": {
     "id": 27725,
     "title": [
@@ -13,8 +13,26 @@
     ],
     "location": "Icemule Trace",
     "wayto": {
-      "27724": "/rooms/27725/wayto/stringproc-27724.rb",
-      "27726": "/rooms/27725/wayto/stringproc-27726.rb"
+      "27724": [
+        {
+          "do": "send",
+          "cmd": "pull rope"
+        },
+        {
+          "do": "move",
+          "cmd": "go down"
+        }
+      ],
+      "27726": [
+        {
+          "do": "send",
+          "cmd": "push rope"
+        },
+        {
+          "do": "move",
+          "cmd": "climb rope"
+        }
+      ]
     },
     "timeto": {
       "27724": 10.2,

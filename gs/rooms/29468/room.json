@@ -1,5 +1,5 @@
 {
-  "checksum": "49658ee9b24f17e2132073febedbe189",
+  "checksum": "e292867896c934dd6d6bdc9f8c925295",
   "room": {
     "id": 29468,
     "title": [
@@ -16,17 +16,20 @@
       "28964": "east",
       "28969": "go red door",
       "29469": "west",
-      "30716": "/rooms/29468/wayto/stringproc-30716.rb"
+      "30716": []
     },
     "timeto": {
       "28964": 0.2,
       "28969": 0.2,
       "29469": 0.2,
-      "30716": "/rooms/29468/timeto/stringproc-30716.rb"
+      "30716": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
-      "urchin guide weddinghall"
+      "no forageables",
+      "urchin guide weddinghall",
+      "urchin-access"
     ],
     "uid": [
       7121006

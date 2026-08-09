@@ -1,5 +1,5 @@
 {
-  "checksum": "f27214e3ef69d3f3b6173e6a4f8f6d5c",
+  "checksum": "5643e38b02ac05de02b06addd1a008dd",
   "room": {
     "id": 23551,
     "title": [
@@ -13,7 +13,15 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "23548": "/rooms/23551/wayto/stringproc-23548.rb",
+      "23548": [
+        {
+          "do": "move",
+          "cmd": "go door"
+        },
+        {
+          "do": "replan"
+        }
+      ],
       "23552": "go stair",
       "23553": "go arch"
     },
@@ -22,6 +30,9 @@
       "23552": 0.2,
       "23553": 0.2
     },
+    "tags": [
+      "no forageables"
+    ],
     "uid": [
       54302
     ],

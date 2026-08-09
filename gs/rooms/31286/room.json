@@ -1,5 +1,5 @@
 {
-  "checksum": "7ecdf91fc43b9e5ed4252ebbe2948a90",
+  "checksum": "11e09754ca332d3578d774f189e53215",
   "room": {
     "id": 31286,
     "title": [
@@ -15,7 +15,10 @@
     "location": "Mist Harbor",
     "wayto": {
       "31285": "out",
-      "31345": "/rooms/31286/wayto/stringproc-31345.rb"
+      "31345": {
+        "strategy": "unique_crossing",
+        "name": "crossing_31286_31345"
+      }
     },
     "timeto": {
       "31285": 0.2,

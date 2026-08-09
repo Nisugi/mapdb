@@ -1,5 +1,5 @@
 {
-  "checksum": "7d4baa273f479d9615fb3cf288a1718d",
+  "checksum": "f385072f5ef6f623c1d63c0f428f6673",
   "room": {
     "id": 26890,
     "title": [
@@ -16,8 +16,30 @@
     "terrain": "none",
     "wayto": {
       "244": "go out",
-      "26901": "/rooms/26890/wayto/stringproc-26901.rb",
-      "26911": "/rooms/26890/wayto/stringproc-26911.rb"
+      "26901": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go trapdoor"
+        }
+      ],
+      "26911": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "climb ladder"
+        }
+      ]
     },
     "timeto": {
       "244": 0.2,

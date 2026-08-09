@@ -1,5 +1,5 @@
 {
-  "checksum": "2795078f4655d2ec8c7c3a1e4358b68f",
+  "checksum": "89e0e5b03679687b78d2b6b5c77671c5",
   "room": {
     "id": 2658,
     "title": [
@@ -13,10 +13,22 @@
     ],
     "location": "Koar's Shrine",
     "wayto": {
-      "2647": "/rooms/2658/wayto/stringproc-2647.rb",
-      "2659": "/rooms/2658/wayto/stringproc-2659.rb",
-      "2660": "/rooms/2658/wayto/stringproc-2660.rb",
-      "2661": "/rooms/2658/wayto/stringproc-2661.rb"
+      "2647": {
+        "strategy": "unique_crossing",
+        "name": "crossing_2658_2647"
+      },
+      "2659": {
+        "strategy": "unique_crossing",
+        "name": "crossing_2658_2659"
+      },
+      "2660": {
+        "strategy": "unique_crossing",
+        "name": "crossing_2658_2660"
+      },
+      "2661": {
+        "strategy": "unique_crossing",
+        "name": "crossing_2658_2661"
+      }
     },
     "timeto": {
       "2647": 1,
@@ -25,8 +37,8 @@
       "2661": 1
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       4562019

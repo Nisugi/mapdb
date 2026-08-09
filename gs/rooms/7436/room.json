@@ -1,5 +1,5 @@
 {
-  "checksum": "18602435d8ff3214c124ea360618ed11",
+  "checksum": "5bdd62c0a1e92fb3020c6dd6a86f006f",
   "room": {
     "id": 7436,
     "title": [
@@ -13,7 +13,26 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "6626": "/rooms/7436/wayto/stringproc-6626.rb",
+      "6626": [
+        {
+          "do": "if",
+          "when": "not:loot_match:stairs",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "turn stalactite"
+            },
+            {
+              "do": "send",
+              "cmd": "turn stalagmite"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go stair"
+        }
+      ],
       "7437": "out"
     },
     "timeto": {

@@ -1,5 +1,5 @@
 {
-  "checksum": "55c63d34c41899d9e12eac35224a83a3",
+  "checksum": "42b2014ed88d64ed2de7aaca61077c15",
   "room": {
     "id": 20810,
     "title": [
@@ -15,11 +15,26 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "20804": "go rooftop garden",
-      "25542": "/rooms/20810/wayto/stringproc-25542.rb",
-      "25545": "/rooms/20810/wayto/stringproc-25545.rb",
-      "25546": "/rooms/20810/wayto/stringproc-25546.rb",
-      "25547": "/rooms/20810/wayto/stringproc-25547.rb",
-      "25548": "/rooms/20810/wayto/stringproc-25548.rb"
+      "25542": {
+        "strategy": "table_join",
+        "table": "acantha"
+      },
+      "25545": {
+        "strategy": "table_join",
+        "table": "imaera"
+      },
+      "25546": {
+        "strategy": "table_join",
+        "table": "praying"
+      },
+      "25547": {
+        "strategy": "table_join",
+        "table": "woth"
+      },
+      "25548": {
+        "strategy": "table_join",
+        "table": "healer"
+      }
     },
     "timeto": {
       "20804": 0.2,

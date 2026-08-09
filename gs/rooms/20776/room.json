@@ -1,5 +1,5 @@
 {
-  "checksum": "f602f87049a76307d273bce79a43136f",
+  "checksum": "03f0b53e02baff848ed8813970693c51",
   "room": {
     "id": 20776,
     "title": [
@@ -17,12 +17,14 @@
     "wayto": {
       "20775": "southeast",
       "20777": "go door",
-      "30715": "/rooms/20776/wayto/stringproc-30715.rb"
+      "30715": []
     },
     "timeto": {
       "20775": 0.2,
       "20777": 0.2,
-      "30715": "/rooms/20776/timeto/stringproc-30715.rb"
+      "30715": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "meta:premium",

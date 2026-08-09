@@ -1,5 +1,5 @@
 {
-  "checksum": "4aa7d898554e206e793e8e50d2ae5b12",
+  "checksum": "bd4bf1c706bd519a94da0dc1010bbdfb",
   "room": {
     "id": 8820,
     "title": [
@@ -20,7 +20,12 @@
     },
     "timeto": {
       "8817": 0.2,
-      "16393": "/rooms/8820/timeto/stringproc-16393.rb"
+      "16393": {
+        "cost": 0.2,
+        "requires": [
+          "prof:Rogue"
+        ]
+      }
     },
     "tags": [
       "no forageables"

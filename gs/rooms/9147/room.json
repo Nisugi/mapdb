@@ -1,5 +1,5 @@
 {
-  "checksum": "26fb288f6f2b8dcbd25ca3293e09c37b",
+  "checksum": "c35c24cff62e82f36ef82bc2cdeaaf49",
   "room": {
     "id": 9147,
     "title": [
@@ -15,18 +15,17 @@
     "location": "Thurfel's Island",
     "wayto": {
       "9146": "west",
-      "24863": "/rooms/9147/wayto/stringproc-24863.rb"
+      "24863": "go vortex"
     },
     "timeto": {
       "9146": 0.2,
       "24863": 2
     },
     "tags": [
-      "some bur-clover root",
-      "murdroot",
-      "meta:forage-sensed",
       "bur-clover root",
-      "meta:forage-sensed:day:2022-10"
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "murdroot"
     ],
     "uid": [
       7530025

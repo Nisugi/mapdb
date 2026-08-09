@@ -1,5 +1,5 @@
 {
-  "checksum": "5ed30b424645b1e6fe278c7ac8f1a9bd",
+  "checksum": "2df6fd9d92001e3db179a51bb38c2d40",
   "room": {
     "id": 21067,
     "title": [
@@ -15,20 +15,44 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "21066": "/rooms/21067/wayto/stringproc-21066.rb",
-      "21068": "/rooms/21067/wayto/stringproc-21068.rb"
+      "21066": [
+        {
+          "do": "sleep",
+          "seconds": 0.2
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "send",
+          "cmd": "push nw"
+        }
+      ],
+      "21068": [
+        {
+          "do": "sleep",
+          "seconds": 0.2
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "send",
+          "cmd": "push e"
+        }
+      ]
     },
     "timeto": {
       "21066": 2,
       "21068": 2
     },
     "tags": [
-      "stalk of cattail",
-      "murdroot",
       "meta:forage-sensed",
-      "wavepetal blossom",
+      "meta:forage-sensed:day:2024-05",
+      "murdroot",
+      "stalk of cattail",
       "sunburst blossom",
-      "meta:forage-sensed:day:2024-05"
+      "wavepetal blossom"
     ],
     "uid": [
       3217005

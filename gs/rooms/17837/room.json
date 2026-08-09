@@ -1,5 +1,5 @@
 {
-  "checksum": "b47390a3e6cdc2887c4a639cf417fe9f",
+  "checksum": "bee9fc6e38a4ab5549979eedbeb48c5b",
   "room": {
     "id": 17837,
     "title": [
@@ -14,11 +14,22 @@
     "location": "Ta'Illistim",
     "wayto": {
       "13350": "out",
-      "17838": "/rooms/17837/wayto/stringproc-17838.rb"
+      "17838": [
+        {
+          "do": "cross",
+          "room": 12421,
+          "dest": "14089"
+        }
+      ]
     },
     "timeto": {
       "13350": 0.2,
-      "17838": "/rooms/17837/timeto/stringproc-17838.rb"
+      "17838": {
+        "cost": 1.6,
+        "requires": [
+          "prof:Rogue"
+        ]
+      }
     },
     "tags": [
       "rogue guild",

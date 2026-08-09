@@ -1,5 +1,5 @@
 {
-  "checksum": "b4e01c3b1d26547391cde8a13089f706",
+  "checksum": "b570061f17ccbc9518edd2010550189e",
   "room": {
     "id": 10434,
     "title": [
@@ -17,17 +17,20 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "3502": "out",
-      "30713": "/rooms/10434/wayto/stringproc-30713.rb"
+      "30713": []
     },
     "timeto": {
       "3502": 0.2,
-      "30713": "/rooms/10434/timeto/stringproc-30713.rb"
+      "30713": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "locksmith",
-      "urchin-access",
+      "locksmith shop",
+      "no forageables",
       "urchin guide locksmith",
-      "locksmith shop"
+      "urchin-access"
     ],
     "uid": [
       14103325

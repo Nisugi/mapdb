@@ -1,5 +1,5 @@
 {
-  "checksum": "a0ca6d9b85431d363ebbe4f89ad0405f",
+  "checksum": "150eedb87a35abe8046933eb5e1aa58a",
   "room": {
     "id": 23352,
     "title": [
@@ -16,31 +16,39 @@
     "terrain": "mountainous",
     "wayto": {
       "23351": "southeast",
-      "23354": "/rooms/23352/wayto/stringproc-23354.rb"
+      "23354": [
+        {
+          "do": "move",
+          "cmd": "go cliff"
+        },
+        {
+          "do": "replan"
+        }
+      ]
     },
     "timeto": {
       "23351": 0.2,
       "23354": 0.2
     },
     "tags": [
-      "angelica root",
-      "stalk of bluebells",
-      "wild pink geranium",
-      "sprig of larkspur",
-      "yellow primrose",
-      "golden aster",
-      "mountain dryad",
-      "stalk of monkeyflower",
-      "snowberries",
-      "rockberry",
-      "crowberry",
-      "pepperthorn root",
-      "ironfern root",
-      "bolmara lichen",
-      "wingstem root",
-      "meta:forage-sensed",
       "agave heart",
-      "meta:forage-sensed:night:2023-02"
+      "angelica root",
+      "bolmara lichen",
+      "crowberry",
+      "golden aster",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2023-02",
+      "mountain dryad",
+      "pepperthorn root",
+      "rockberry",
+      "snowberries",
+      "sprig of larkspur",
+      "stalk of bluebells",
+      "stalk of monkeyflower",
+      "wild pink geranium",
+      "wingstem root",
+      "yellow primrose"
     ],
     "uid": [
       13018060

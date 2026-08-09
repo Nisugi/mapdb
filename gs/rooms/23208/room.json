@@ -1,5 +1,5 @@
 {
-  "checksum": "4c4a7b02dc9301348f22875c91836acc",
+  "checksum": "2ca8ce0fd62bd4700aa3ffc4eff50e4e",
   "room": {
     "id": 23208,
     "title": [
@@ -13,7 +13,23 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "17682": "/rooms/23208/wayto/stringproc-17682.rb",
+      "17682": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go trapdoor"
+        }
+      ],
       "23206": "south",
       "23207": "north"
     },
@@ -23,9 +39,9 @@
       "23207": 0.2
     },
     "tags": [
-      "agave heart",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
     ],
     "uid": [
       5001058

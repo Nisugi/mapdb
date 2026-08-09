@@ -1,0 +1,27 @@
+{
+  "checksum": "91ffaf3de779f99da14eabd1f128e0f9",
+  "room": {
+    "id": 36755,
+    "title": [
+      "[Salty's Services, Facades]"
+    ],
+    "description": [
+      "Loose building materials are strewn about the area.  Nails, buckets of pitch, and varied boxes half-full with supplies are set about haphazardly.  Above, a hanging metal brazier forged in the shape of a starfish provides a meager light to the collection.  Periodic figures pass through the area, stepping around the accumulation to proceed."
+    ],
+    "paths": [
+      "Obvious exits: north, south"
+    ],
+    "location": "Kraken's Fall",
+    "wayto": {
+      "36754": "n",
+      "36756": "s"
+    },
+    "timeto": {
+      "36754": 0.2,
+      "36756": 0.2
+    },
+    "uid": [
+      740007
+    ]
+  }
+}

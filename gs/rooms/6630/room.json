@@ -1,5 +1,5 @@
 {
-  "checksum": "30f79b5e15060cc41c4cf1106d832c4b",
+  "checksum": "b950cfa1f76f95233cb3470f18e3ce40",
   "room": {
     "id": 6630,
     "title": [
@@ -14,7 +14,36 @@
     "location": "the Broken Lands",
     "wayto": {
       "6629": "go curtain",
-      "6631": "/rooms/6630/wayto/stringproc-6631.rb"
+      "6631": [
+        {
+          "do": "cast_buff",
+          "spell": 506
+        },
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "search",
+              "for": "anything of interest|rough hole",
+              "timeout": 3,
+              "if_match": {
+                "pattern": "rough hole",
+                "steps": [
+                  {
+                    "do": "break"
+                  }
+                ]
+              }
+            }
+          ],
+          "times": 50
+        },
+        {
+          "do": "move",
+          "cmd": "go hole"
+        }
+      ]
     },
     "timeto": {
       "6629": 0.2,

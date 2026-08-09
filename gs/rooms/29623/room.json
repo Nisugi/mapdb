@@ -1,5 +1,5 @@
 {
-  "checksum": "e44fe4e62d1f14496a01107f8a513c8e",
+  "checksum": "bf6f86b9d25e72e375872cb052f0823c",
   "room": {
     "id": 29623,
     "title": [
@@ -18,7 +18,7 @@
       "29625": "east",
       "29632": "go mahogany door",
       "29633": "go recessed panel",
-      "30716": "/rooms/29623/wayto/stringproc-30716.rb"
+      "30716": []
     },
     "timeto": {
       "29622": 0.2,
@@ -26,17 +26,19 @@
       "29625": 0.2,
       "29632": 0.2,
       "29633": 0.2,
-      "30716": "/rooms/29623/timeto/stringproc-30716.rb"
+      "30716": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "supernode",
-      "node",
-      "urchin-access",
-      "meta:mapname:Kraken's Fall - Hand of the Arkati",
-      "meta:mapshortname:Hand of the Arkati",
       "meta:mapcategory:Kraken's Fall",
       "meta:mapcategory:MHO",
-      "meta:mho:Hand of the Arkati"
+      "meta:mapname:Kraken's Fall - Hand of the Arkati",
+      "meta:mapshortname:Hand of the Arkati",
+      "meta:mho:Hand of the Arkati",
+      "node",
+      "supernode",
+      "urchin-access"
     ],
     "uid": [
       18050002

@@ -1,5 +1,5 @@
 {
-  "checksum": "72eb0fba21d3221f8512ecdf10cf7722",
+  "checksum": "804d58ac5db8c558507ce8455d0bdc36",
   "room": {
     "id": 9477,
     "title": [
@@ -15,20 +15,22 @@
     "wayto": {
       "1003": "out",
       "9478": "south",
-      "30712": "/rooms/9477/wayto/stringproc-30712.rb"
+      "30712": []
     },
     "timeto": {
       "1003": 0.2,
       "9478": 0.2,
-      "30712": "/rooms/9477/timeto/stringproc-30712.rb"
+      "30712": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "pawnshop",
-      "no forageables",
       "meta:forage-sensed",
-      "urchin-access",
+      "no forageables",
+      "pawn",
+      "pawnshop",
       "urchin guide pawn",
-      "pawn"
+      "urchin-access"
     ],
     "uid": [
       13010006

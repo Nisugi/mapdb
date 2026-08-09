@@ -1,5 +1,5 @@
 {
-  "checksum": "de7c5f7a546ba0b8ebb69f04dd49a2c7",
+  "checksum": "dd0006e519a5c2434e225b95dd61adc2",
   "room": {
     "id": 17580,
     "title": [
@@ -19,10 +19,10 @@
       "17579": 0.2
     },
     "tags": [
-      "peer curtain =~ /^\\[Annex, Twilight Hall Lobby\\]$/",
       "locker:twilighthall",
+      "meta:che:twilight_hall:locker",
       "meta:locker",
-      "meta:che:twilight_hall:locker"
+      "peer curtain =~ /^\\[Annex, Twilight Hall Lobby\\]$/"
     ],
     "uid": [
       3215141

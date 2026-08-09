@@ -1,5 +1,5 @@
 {
-  "checksum": "c4cd0aa8074780182f1a161722274bb7",
+  "checksum": "faed26c77dc446cd9c04afeaceb3beae",
   "room": {
     "id": 8373,
     "title": [
@@ -16,7 +16,10 @@
     "terrain": "none",
     "wayto": {
       "8372": "down",
-      "8374": "/rooms/8373/wayto/stringproc-8374.rb"
+      "8374": {
+        "strategy": "unique_crossing",
+        "name": "crossing_8373_8374"
+      }
     },
     "timeto": {
       "8372": 0.2,

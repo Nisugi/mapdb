@@ -1,5 +1,5 @@
 {
-  "checksum": "a7306f19f6d8fc8a49ba9da644e05e95",
+  "checksum": "47504bcf3e570425d5b6c0b0889b9636",
   "room": {
     "id": 18995,
     "title": [
@@ -15,7 +15,13 @@
     "wayto": {
       "18981": "north",
       "18996": "go doors",
-      "19001": "/rooms/18995/wayto/stringproc-19001.rb"
+      "19001": [
+        {
+          "do": "cast",
+          "spell": 704,
+          "target": "mosaic"
+        }
+      ]
     },
     "timeto": {
       "18981": 0.2,

@@ -1,5 +1,5 @@
 {
-  "checksum": "c6078c14ecf899fee6ad0c8f7b7b5abc",
+  "checksum": "429087b7edce1898bf9fc3fd9b729335",
   "room": {
     "id": 28937,
     "title": [
@@ -16,25 +16,27 @@
     "terrain": "hard, flat",
     "wayto": {
       "28908": "down",
-      "30716": "/rooms/28937/wayto/stringproc-30716.rb"
+      "30716": []
     },
     "timeto": {
       "28908": 0.2,
-      "30716": "/rooms/28937/timeto/stringproc-30716.rb"
+      "30716": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "locksmith pool",
       "locksmith-pool",
       "locksmithpool",
-      "locksmith pool",
-      "meta:boxpool:table:sturdy wooden table",
       "meta:boxpool:npc:scruffy human worker",
+      "meta:boxpool:table:sturdy wooden table",
+      "meta:forage-sensed",
+      "meta:trashcan:large wastebasket",
+      "no forageables",
       "node",
       "supernode",
-      "urchin-access",
       "urchin guide locksmithpool",
-      "meta:trashcan:large wastebasket",
-      "meta:forage-sensed",
-      "no forageables"
+      "urchin-access"
     ],
     "uid": [
       7118379

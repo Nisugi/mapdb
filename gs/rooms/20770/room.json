@@ -1,5 +1,5 @@
 {
-  "checksum": "b1e0be239a847674488fee44e0da4797",
+  "checksum": "2c08ca68149ffbbe1f979a8042b5ab02",
   "room": {
     "id": 20770,
     "title": [
@@ -15,18 +15,20 @@
     "wayto": {
       "20767": "go steps",
       "20771": "go archway",
-      "30711": "/rooms/20770/wayto/stringproc-30711.rb"
+      "30711": []
     },
     "timeto": {
       "20767": 0.2,
       "20771": 0.2,
-      "30711": "/rooms/20770/timeto/stringproc-30711.rb"
+      "30711": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
+      "meta:premium",
       "premium supernode",
       "supernode",
-      "urchin-access",
-      "meta:premium"
+      "urchin-access"
     ],
     "uid": [
       4002305

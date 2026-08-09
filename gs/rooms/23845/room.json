@@ -1,5 +1,5 @@
 {
-  "checksum": "8c2b386328e49a8d6cc111c09e419c32",
+  "checksum": "8d59ab6056b1827f3ed7da445cb94beb",
   "room": {
     "id": 23845,
     "title": [
@@ -15,7 +15,10 @@
     "location": "Mist Harbor",
     "wayto": {
       "23844": "go curtain",
-      "23926": "/rooms/23845/wayto/stringproc-23926.rb"
+      "23926": {
+        "strategy": "unique_crossing",
+        "name": "crossing_23845_23926"
+      }
     },
     "timeto": {
       "23844": 0.2,

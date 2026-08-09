@@ -1,5 +1,5 @@
 {
-  "checksum": "aab4ee734450fb9355c9df8e5bbf1f03",
+  "checksum": "7078695894f725d7dc35aa5280a4bbed",
   "room": {
     "id": 24507,
     "title": [
@@ -14,7 +14,15 @@
     ],
     "location": "the Lost Home",
     "wayto": {
-      "4709": "/rooms/24507/wayto/stringproc-4709.rb",
+      "4709": [
+        {
+          "do": "move",
+          "cmd": "go forest"
+        },
+        {
+          "do": "replan"
+        }
+      ],
       "24508": "go hemp ladder",
       "24509": "go riverstone lodge"
     },
@@ -24,11 +32,11 @@
       "24509": 0.2
     },
     "tags": [
-      "meta:mapname:Elven Nations - Twilight Hall Annex",
+      "meta:che:twilight_hall:entrance_annex",
+      "meta:locker annex:Twilight Hall",
       "meta:mapcategory:CHE:Twilight Hall Annex (Elven Nations)",
       "meta:mapcategory:Elven Nations:Twilight Hall Annex",
-      "meta:locker annex:Twilight Hall",
-      "meta:che:twilight_hall:entrance_annex"
+      "meta:mapname:Elven Nations - Twilight Hall Annex"
     ],
     "uid": [
       13112521

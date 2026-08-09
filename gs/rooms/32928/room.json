@@ -1,5 +1,5 @@
 {
-  "checksum": "56b17b000af7277409ef4b453ce86b62",
+  "checksum": "048963328f02105c01a80395c6173ccc",
   "room": {
     "id": 32928,
     "title": [
@@ -15,38 +15,180 @@
     "climate": "arid, temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "250": "/rooms/32928/wayto/stringproc-250.rb",
-      "1870": "/rooms/32928/wayto/stringproc-1870.rb",
-      "10838": "/rooms/32928/wayto/stringproc-10838.rb",
-      "11756": "/rooms/32928/wayto/stringproc-11756.rb",
-      "29033": "/rooms/32928/wayto/stringproc-29033.rb",
-      "31493": "/rooms/32928/wayto/stringproc-31493.rb",
-      "32372": "/rooms/32928/wayto/stringproc-32372.rb",
+      "250": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 1"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 1"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 1",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "1870": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 4"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 4"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 4",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "10838": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 3"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 3"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 3",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "11756": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 2"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 2"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 2",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "29033": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 5"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 5"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 5",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "31493": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 6"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 6"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 6",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
+      "32372": [
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 7"
+        },
+        {
+          "do": "send",
+          "cmd": "ask portmaster about travel 7"
+        },
+        {
+          "do": "await",
+          "cmd": "ask portmaster about travel 7",
+          "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
+          "timeout": 30
+        }
+      ],
       "32927": "west",
-      "34400": "/rooms/32928/wayto/stringproc-34400.rb"
+      "34400": []
     },
     "timeto": {
-      "250": "/rooms/32928/timeto/stringproc-250.rb",
-      "1870": "/rooms/32928/timeto/stringproc-1870.rb",
-      "10838": "/rooms/32928/timeto/stringproc-10838.rb",
-      "11756": "/rooms/32928/timeto/stringproc-11756.rb",
-      "29033": "/rooms/32928/timeto/stringproc-29033.rb",
-      "31493": "/rooms/32928/timeto/stringproc-31493.rb",
-      "32372": "/rooms/32928/timeto/stringproc-32372.rb",
+      "250": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "1870": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "10838": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "11756": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "29033": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "31493": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
+      "32372": {
+        "cost": 1200,
+        "requires": [
+          "setting:portmasters"
+        ]
+      },
       "32927": 0.2,
-      "34400": "/rooms/32928/timeto/stringproc-34400.rb"
+      "34400": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
       "meta:forage-sensed",
+      "no forageables",
       "portmaster",
-      "silver-cost:250:25000",
-      "silver-cost:11756:12500",
       "silver-cost:10838:12500",
+      "silver-cost:11756:12500",
       "silver-cost:1870:25000",
+      "silver-cost:250:25000",
       "silver-cost:29033:25000",
       "silver-cost:31493:35000",
       "silver-cost:32372:25000",
-      "no forageables",
       "urchin guide docks",
       "urchin-access"
     ],

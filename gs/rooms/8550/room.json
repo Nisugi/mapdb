@@ -1,5 +1,5 @@
 {
-  "checksum": "a42ed990940ee30ff359f69f05e9a35f",
+  "checksum": "6c5676771f81e609e86a628b0fb3623f",
   "room": {
     "id": 8550,
     "title": [
@@ -15,7 +15,7 @@
     "climate": "",
     "terrain": "rough",
     "wayto": {
-      "8549": "/rooms/8550/wayto/stringproc-8549.rb",
+      "8549": "climb rubble",
       "8551": "south"
     },
     "timeto": {
@@ -23,10 +23,10 @@
       "8551": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "no forageables"
     ],
     "uid": [
       10102

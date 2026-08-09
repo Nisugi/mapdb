@@ -1,5 +1,5 @@
 {
-  "checksum": "e4d2e25ef34e538c2e7062725c7814ac",
+  "checksum": "070527caa0574e9b9d503f6a56682767",
   "room": {
     "id": 8635,
     "title": [
@@ -14,15 +14,98 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "8634": "south",
-      "8916": "/rooms/8635/wayto/stringproc-8916.rb",
-      "14360": "/rooms/8635/wayto/stringproc-14360.rb"
+      "8916": {
+        "strategy": "chronomage_day_pass",
+        "towns": [
+          "Icemule Trace",
+          "Wehnimer's Landing"
+        ],
+        "buy_token": "wl,imt",
+        "npc": "clerk",
+        "ask": "icemule",
+        "enter": "south",
+        "exit": "north",
+        "bank_to": [
+          "up",
+          "north",
+          "out",
+          "north",
+          "go bank",
+          "go arch"
+        ],
+        "bank_from": [
+          "go arch",
+          "out",
+          "south",
+          "go wood-sided shop",
+          "south",
+          "down"
+        ],
+        "withdraw": 5000
+      },
+      "14360": {
+        "strategy": "chronomage_day_pass",
+        "towns": [
+          "Solhaven",
+          "Wehnimer's Landing"
+        ],
+        "buy_token": "wl,sol",
+        "npc": "clerk",
+        "ask": "solhaven",
+        "enter": "south",
+        "exit": "north",
+        "bank_to": [
+          "up",
+          "north",
+          "out",
+          "north",
+          "go bank",
+          "go arch"
+        ],
+        "bank_from": [
+          "go arch",
+          "out",
+          "south",
+          "go wood-sided shop",
+          "south",
+          "down"
+        ],
+        "withdraw": 5000
+      }
     },
     "timeto": {
       "8634": 0.2,
-      "8916": "/rooms/8635/timeto/stringproc-8916.rb",
-      "14360": "/rooms/8635/timeto/stringproc-14360.rb"
+      "8916": {
+        "cost": 0.8,
+        "requires": [
+          "setting:day_pass",
+          "pass:Wehnimer's Landing+Icemule Trace"
+        ],
+        "else": {
+          "cost": 4.4,
+          "requires": [
+            "setting:day_pass",
+            "pass_buyable:wl,imt"
+          ]
+        }
+      },
+      "14360": {
+        "cost": 0.8,
+        "requires": [
+          "setting:day_pass",
+          "pass:Wehnimer's Landing+Solhaven"
+        ],
+        "else": {
+          "cost": 4.4,
+          "requires": [
+            "setting:day_pass",
+            "pass_buyable:wl,sol"
+          ]
+        }
+      }
     },
     "tags": [
+      "no forageables",
       "travel waiting room"
     ],
     "uid": [

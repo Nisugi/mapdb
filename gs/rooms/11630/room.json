@@ -1,5 +1,5 @@
 {
-  "checksum": "c711215983d2269b11648dc6f1a464c6",
+  "checksum": "28de3d1e154c346cc4451f8b75dbcdeb",
   "room": {
     "id": 11630,
     "title": [
@@ -15,12 +15,124 @@
     "climate": "cold, damp",
     "terrain": "muddy wetlands",
     "wayto": {
-      "11612": "/rooms/11630/wayto/stringproc-11612.rb",
-      "11617": "/rooms/11630/wayto/stringproc-11617.rb",
-      "11618": "/rooms/11630/wayto/stringproc-11618.rb",
+      "11612": [
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "escort_wait"
+        }
+      ],
+      "11617": [
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "escort_wait"
+        }
+      ],
+      "11618": [
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "escort_wait"
+        }
+      ],
       "11631": "north",
       "16122": "southeast",
-      "22218": "/rooms/11630/wayto/stringproc-22218.rb"
+      "22218": [
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "move",
+          "cmd": "northeast"
+        }
+      ]
     },
     "timeto": {
       "11612": 1,
@@ -32,24 +144,24 @@
     },
     "tags": [
       "aloeas stem",
-      "soft white mushroom",
-      "withered black mushroom",
-      "white hook mushroom",
       "blue trafel mushroom",
-      "wild gooseberry",
-      "stalk of cattail",
-      "small wild rose",
+      "bolmara lichen",
+      "broken twig",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-01",
       "mistweed",
       "murdroot",
-      "wavepetal blossom",
-      "bolmara lichen",
-      "talneo root",
-      "meta:forage-sensed",
+      "soft mushroom",
+      "stalk of cattail",
       "sunburst blossom",
+      "talneo root",
+      "wavepetal blossom",
+      "white hook mushroom",
+      "wild gooseberry",
+      "wild rose",
       "wingstem root",
-      "meta:forage-sensed:day:2024-05",
-      "broken twig",
-      "meta:forage-sensed:night:2026-01"
+      "withered mushroom"
     ],
     "uid": [
       5003040

@@ -1,5 +1,5 @@
 {
-  "checksum": "5543920ac6d00298f53b71e4040d2a79",
+  "checksum": "dcc12e24e1029aba04ed0ac6fd9e608d",
   "room": {
     "id": 20732,
     "title": [
@@ -16,18 +16,18 @@
     "climate": "saltwater",
     "terrain": "riparian",
     "wayto": {
-      "20731": "/rooms/20732/wayto/stringproc-20731.rb"
+      "20731": "go beach"
     },
     "timeto": {
       "20731": 0.2
     },
     "tags": [
+      "meta:forage-sensed",
       "meta:premium",
-      "yabathilium fruit",
-      "strand of seaweed",
       "murdroot",
+      "strand of seaweed",
       "wavepetal blossom",
-      "meta:forage-sensed"
+      "yabathilium fruit"
     ],
     "uid": [
       4002514

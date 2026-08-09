@@ -1,5 +1,5 @@
 {
-  "checksum": "c01122778289c36284ef79e037228884",
+  "checksum": "b799d7f87548702b1d75871e3b36b096",
   "room": {
     "id": 14060,
     "title": [
@@ -14,12 +14,18 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "13766": "east",
-      "20430": "/rooms/14060/wayto/stringproc-20430.rb"
+      "20430": {
+        "strategy": "unique_crossing",
+        "name": "crossing_14060_20430"
+      }
     },
     "timeto": {
       "13766": 0.2,
       "20430": 300
     },
+    "tags": [
+      "no forageables"
+    ],
     "uid": [
       14110102
     ]

@@ -1,5 +1,5 @@
 {
-  "checksum": "ef9e86ff70dc6fe80f07775879c5d367",
+  "checksum": "abb22a2533a22880697da27b6762e1ae",
   "room": {
     "id": 1231,
     "title": [
@@ -13,7 +13,35 @@
     ],
     "location": "the Vipershroud",
     "wayto": {
-      "1230": "/rooms/1231/wayto/stringproc-1230.rb",
+      "1230": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "search",
+              "for": "don't find anything|discover.*?opening|Round ?time|\\.\\.\\.[Ww]ait",
+              "timeout": 5,
+              "if_match": {
+                "pattern": "discover.*?opening",
+                "steps": [
+                  {
+                    "do": "break"
+                  }
+                ]
+              }
+            },
+            {
+              "do": "wait_rt"
+            }
+          ],
+          "times": 50
+        },
+        {
+          "do": "move",
+          "cmd": "go opening"
+        }
+      ],
       "1232": "out"
     },
     "timeto": {
@@ -21,9 +49,9 @@
       "1232": 10
     },
     "tags": [
-      "no forageables",
       "meta:forage-sensed",
-      "meta:trap"
+      "meta:trap",
+      "no forageables"
     ],
     "uid": [
       2190014

@@ -1,5 +1,5 @@
 {
-  "checksum": "7cdabb2691e1fcda03e7dfea205542e5",
+  "checksum": "b3623e22a3ecbb32cf7590db4e0c4bb0",
   "room": {
     "id": 18893,
     "title": [
@@ -13,7 +13,10 @@
     ],
     "location": "Ta'Illistim",
     "wayto": {
-      "13441": "/rooms/18893/wayto/stringproc-13441.rb",
+      "13441": {
+        "strategy": "unique_crossing",
+        "name": "crossing_18893_13441"
+      },
       "18891": "go steps"
     },
     "timeto": {

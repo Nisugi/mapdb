@@ -1,5 +1,5 @@
 {
-  "checksum": "9dc55327d80a00c1bc2f3c1f1f104b2e",
+  "checksum": "387419c6cf6c8d0a40fa087881680225",
   "room": {
     "id": 1507,
     "title": [
@@ -21,7 +21,18 @@
     },
     "timeto": {
       "1469": 0.2,
-      "33280": "/rooms/1507/timeto/stringproc-33280.rb"
+      "33280": {
+        "cost": 10,
+        "requires": [
+          "citizenship:Solhaven"
+        ],
+        "else": {
+          "cost": 10,
+          "requires": [
+            "var:allow_vornavis"
+          ]
+        }
+      }
     },
     "tags": [
       "advguard",

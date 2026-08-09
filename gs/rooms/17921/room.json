@@ -1,5 +1,5 @@
 {
-  "checksum": "affb2b405bccc9b1f38652b8711e808f",
+  "checksum": "ae90e9d78a25dfe04afb495c44e07c00",
   "room": {
     "id": 17921,
     "title": [
@@ -14,7 +14,16 @@
     "location": "Zul Logoth",
     "wayto": {
       "17913": "north",
-      "17924": "/rooms/17921/wayto/stringproc-17924.rb"
+      "17924": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "go passage"
+        }
+      ]
     },
     "timeto": {
       "17913": 0.2,

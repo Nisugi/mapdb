@@ -1,5 +1,5 @@
 {
-  "checksum": "33e4d1f62a63e7ddca667bebcddcbb0c",
+  "checksum": "63537536393fede5312b6ea094db18ce",
   "room": {
     "id": 9767,
     "title": [
@@ -14,15 +14,64 @@
     "location": "Ta'Illistim",
     "wayto": {
       "9746": "west",
-      "9804": "/rooms/9767/wayto/stringproc-9804.rb"
+      "9804": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "touch green leaf",
+              "for": "^You touch the|You shouldn't mess with that",
+              "timeout": 3,
+              "if_match": {
+                "pattern": "^You touch the",
+                "steps": [
+                  {
+                    "do": "break"
+                  }
+                ]
+              }
+            },
+            {
+              "do": "sleep",
+              "seconds": 3
+            }
+          ],
+          "times": 50
+        },
+        {
+          "do": "send",
+          "cmd": "touch gold leaf"
+        },
+        {
+          "do": "send",
+          "cmd": "touch red leaf"
+        },
+        {
+          "do": "send",
+          "cmd": "touch blighted leaf"
+        },
+        {
+          "do": "send",
+          "cmd": "touch outstretched hand"
+        },
+        {
+          "do": "send",
+          "cmd": "recite Listen to the wind in the forest,;That which whispers the words of the lady of the tower.;She of old who is called Maaghara."
+        },
+        {
+          "do": "wait_room_change",
+          "timeout": 20
+        }
+      ]
     },
     "timeto": {
       "9746": 0.2,
       "9804": 1.2
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       13021022

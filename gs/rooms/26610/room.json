@@ -1,5 +1,5 @@
 {
-  "checksum": "d17013e2d07d1ad7dd2e55b55b07676c",
+  "checksum": "9fb6260f1cd87054afa916b18273b9d5",
   "room": {
     "id": 26610,
     "title": [
@@ -13,7 +13,19 @@
     ],
     "location": "Caligos Isle",
     "wayto": {
-      "26595": "/rooms/26610/wayto/stringproc-26595.rb",
+      "26595": [
+        {
+          "do": "send",
+          "cmd": "go fissure"
+        },
+        {
+          "do": "sleep",
+          "seconds": 0.5
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
       "26611": "go hole"
     },
     "timeto": {

@@ -1,5 +1,5 @@
 {
-  "checksum": "afae66ce54def481be6188caa9bd26d6",
+  "checksum": "f4e53a92c4c9dbe8eb1dfc7a4cedd033",
   "room": {
     "id": 1453,
     "title": [
@@ -20,7 +20,7 @@
       "1454": "east",
       "1460": "south",
       "12813": "go entrance",
-      "30710": "/rooms/1453/wayto/stringproc-30710.rb"
+      "30710": []
     },
     "timeto": {
       "1438": 0.2,
@@ -28,14 +28,16 @@
       "1454": 0.2,
       "1460": 0.2,
       "12813": 0.2,
-      "30710": "/rooms/1453/timeto/stringproc-30710.rb"
+      "30710": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "urchin-access",
-      "trash",
-      "meta:trashcan:green and white oak barrel",
       "meta:forage-sensed",
-      "no forageables"
+      "meta:trashcan:green and white oak barrel",
+      "no forageables",
+      "trash",
+      "urchin-access"
     ],
     "uid": [
       4209031

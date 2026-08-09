@@ -1,5 +1,5 @@
 {
-  "checksum": "9cf65111cca22d8f845e07db6a3405bf",
+  "checksum": "89724e98e9d3731d349c2743226a7d9a",
   "room": {
     "id": 682,
     "title": [
@@ -19,7 +19,17 @@
       "681": "north",
       "683": "southeast",
       "10073": "southwest",
-      "23281": "/rooms/682/wayto/stringproc-23281.rb",
+      "23281": [
+        {
+          "do": "move",
+          "cmd": "go arch"
+        },
+        {
+          "do": "set",
+          "var": "talondown_origin",
+          "value": 682
+        }
+      ],
       "30160": "south"
     },
     "timeto": {
@@ -30,8 +40,8 @@
       "30160": 0.2
     },
     "tags": [
-      "no forageables",
-      "meta:forage-sensed"
+      "meta:forage-sensed",
+      "no forageables"
     ],
     "uid": [
       13050012

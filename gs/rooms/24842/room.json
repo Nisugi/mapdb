@@ -1,5 +1,5 @@
 {
-  "checksum": "407917ee111ccadf7394e07359f9918c",
+  "checksum": "86332afa6c251a84578c687a80feee4f",
   "room": {
     "id": 24842,
     "title": [
@@ -16,7 +16,19 @@
     "climate": "snowy, arctic",
     "terrain": "hard, flat",
     "wayto": {
-      "24876": "/rooms/24842/wayto/stringproc-24876.rb",
+      "24876": [
+        {
+          "do": "send",
+          "cmd": "go path"
+        },
+        {
+          "do": "send",
+          "cmd": "go path"
+        },
+        {
+          "do": "replan"
+        }
+      ],
       "25173": "go structure",
       "25262": "south",
       "26223": "north"
@@ -28,10 +40,10 @@
       "26223": 0.2
     },
     "tags": [
-      "no forageables",
       "meta:mapcategory:Quests",
       "meta:mapname:Quests - Reim Fortress and Base Camp",
-      "meta:mapshortname:Reim Fortress and Base Camp"
+      "meta:mapshortname:Reim Fortress and Base Camp",
+      "no forageables"
     ],
     "uid": [
       7106001

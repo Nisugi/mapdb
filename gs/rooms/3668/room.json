@@ -1,5 +1,5 @@
 {
-  "checksum": "a07386a1bb5745c31afe91810598356d",
+  "checksum": "5a82c5b5d87fd1d662a96fcf79bae93e",
   "room": {
     "id": 3668,
     "title": [
@@ -20,30 +20,32 @@
       "3649": "west",
       "3657": "south",
       "3669": "east",
-      "30718": "/rooms/3668/wayto/stringproc-30718.rb"
+      "30718": []
     },
     "timeto": {
       "3637": 0.8,
       "3649": 0.8,
       "3657": 0.8,
       "3669": 0.8,
-      "30718": "/rooms/3668/timeto/stringproc-30718.rb"
+      "30718": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "node",
-      "town",
-      "supernode",
+      "commons",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-10",
+      "meta:mapcategory:Isle of the Four Winds",
+      "meta:mapcategory:Premium",
+      "meta:mapcategory:Towns",
       "meta:mapname:Isle of the Four Winds - Mist Harbor",
       "meta:mapshortname:Mist Harbor",
-      "meta:mapcategory:Isle of the Four Winds",
-      "meta:mapcategory:Towns",
-      "meta:mapcategory:Premium",
-      "urchin-access",
-      "urchin guide commons",
-      "commons",
       "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-10"
+      "node",
+      "supernode",
+      "town",
+      "urchin guide commons",
+      "urchin-access"
     ],
     "uid": [
       3201029

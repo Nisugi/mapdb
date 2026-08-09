@@ -1,5 +1,5 @@
 {
-  "checksum": "c27d54870c2813b4770fbe89fbdbd244",
+  "checksum": "2c09f24eb004564d6da0fddfedb95aeb",
   "room": {
     "id": 23525,
     "title": [
@@ -15,52 +15,97 @@
     "climate": "temperate",
     "terrain": "riparian",
     "wayto": {
-      "5830": "/rooms/23525/wayto/stringproc-5830.rb",
-      "23526": "/rooms/23525/wayto/stringproc-23526.rb"
+      "5830": [
+        {
+          "do": "repeat",
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "search",
+              "for": "don't find anything|discover a rocky trail|Round ?time|\\.\\.\\.[Ww]ait",
+              "timeout": 5,
+              "if_match": {
+                "pattern": "discover a rocky trail",
+                "steps": [
+                  {
+                    "do": "break"
+                  }
+                ]
+              }
+            },
+            {
+              "do": "wait_rt"
+            }
+          ],
+          "times": 10
+        },
+        {
+          "do": "move",
+          "cmd": "go rocky trail"
+        }
+      ],
+      "23526": {
+        "strategy": "unique_crossing",
+        "name": "crossing_18822_18823"
+      }
     },
     "timeto": {
-      "5830": "/rooms/23525/timeto/stringproc-5830.rb",
-      "23526": "/rooms/23525/timeto/stringproc-23526.rb"
+      "5830": {
+        "cost": 0.2,
+        "requires": [
+          "skill:perception>=30"
+        ]
+      },
+      "23526": {
+        "cost": 3.2,
+        "requires": [
+          "skill:swimming>=30"
+        ]
+      }
     },
     "tags": [
       "acantha leaf",
+      "blue trafel mushroom",
+      "blueberries",
+      "bright red teaberry",
       "calamia fruit",
-      "soft white mushroom",
-      "withered black mushroom",
       "daggerstalk mushroom",
+      "fiddlehead fern",
       "flathead mushroom",
       "genkew mushroom",
-      "blue trafel mushroom",
-      "wintergreen leaf",
-      "bright red teaberry",
-      "blueberries",
       "handful of currants",
-      "wild gooseberry",
-      "fiddlehead fern",
-      "water chestnut",
-      "wild grapes",
-      "stalk of cattail",
-      "stalk of bluebells",
-      "red clover blossom",
-      "pink clover blossom",
-      "white clover blossom",
-      "purple clover blossom",
-      "yellow clover blossom",
-      "stalk of goldenrod",
-      "small wild rose",
-      "sprig of wild lilac",
       "Imaera's Lace",
-      "wild chokecherry",
-      "wood violet",
-      "mistweed",
-      "pepperthorn root",
-      "murdroot",
-      "wavepetal blossom",
       "ironfern root",
-      "talneo root",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2024-05",
+      "mistweed",
+      "murdroot",
+      "pepperthorn root",
+      "pink clover blossom",
+      "purple clover blossom",
+      "red clover blossom",
+      "soft mushroom",
+      "sprig of jasmine",
+      "sprig of wild lilac",
+      "stalk of bluebells",
+      "stalk of cattail",
+      "stalk of goldenrod",
+      "sunburst blossom",
+      "talneo root",
       "vert globe artichoke",
-      "meta:forage-sensed:night:2024-05"
+      "water chestnut",
+      "wavepetal blossom",
+      "white clover blossom",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild grapes",
+      "wild rose",
+      "wintergreen leaf",
+      "withered mushroom",
+      "wood violet",
+      "yellow clover blossom",
+      "yellowed salt reedgrass"
     ],
     "uid": [
       14117224

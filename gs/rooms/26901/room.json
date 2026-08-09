@@ -1,5 +1,5 @@
 {
-  "checksum": "54c68997dbb728547c65a6cb6034e7f5",
+  "checksum": "6ae10b2f0148d1acc27d41519c6193d8",
   "room": {
     "id": 26901,
     "title": [
@@ -14,7 +14,16 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "26890": "out",
-      "26908": "/rooms/26901/wayto/stringproc-26908.rb",
+      "26908": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go door"
+        }
+      ],
       "26909": "go steps",
       "26913": "go arch"
     },
@@ -25,10 +34,10 @@
       "26913": 0.2
     },
     "tags": [
-      "meta:mapname:Black Hand Trading Company - Wehnimer's Landing",
-      "meta:mapshortname:Black Hand",
       "meta:mapcategory:MHO",
       "meta:mapcategory:Wehnimer's Landing",
+      "meta:mapname:Black Hand Trading Company - Wehnimer's Landing",
+      "meta:mapshortname:Black Hand",
       "meta:mho:The Black Hand Trading Co."
     ],
     "uid": [

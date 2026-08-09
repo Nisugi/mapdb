@@ -1,5 +1,5 @@
 {
-  "checksum": "d091cf35633d49078bb2cbf0d681ab9c",
+  "checksum": "3b0bed270ef69ea2fbf039c6a619f725",
   "room": {
     "id": 28739,
     "title": [
@@ -13,7 +13,15 @@
     ],
     "location": "Icemule Trace",
     "wayto": {
-      "28736": "go arch",
+      "28736": [
+        {
+          "do": "move",
+          "cmd": "go arch"
+        },
+        {
+          "do": "replan"
+        }
+      ],
       "28740": "go opening"
     },
     "timeto": {
@@ -22,6 +30,9 @@
     },
     "tags": [
       "meta:locker annex:Beacon Hall Archive"
+    ],
+    "uid": [
+      4043718
     ],
     "image": "imt-beacon_hall.png",
     "image_coords": [

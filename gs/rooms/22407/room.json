@@ -1,5 +1,5 @@
 {
-  "checksum": "ee9bd6354ce34a632a02b13bbc51d81a",
+  "checksum": "5adf1c6f1077a02fa7348a2369d832a7",
   "room": {
     "id": 22407,
     "title": [
@@ -13,7 +13,15 @@
     ],
     "location": "Mist Harbor",
     "wayto": {
-      "16700": "/rooms/22407/wayto/stringproc-16700.rb",
+      "16700": [
+        {
+          "do": "move",
+          "cmd": "go arch"
+        },
+        {
+          "do": "replan"
+        }
+      ],
       "22408": "go curtain"
     },
     "timeto": {
@@ -22,6 +30,9 @@
     },
     "tags": [
       "meta:locker annex:Beacon Hall Archive"
+    ],
+    "uid": [
+      3215131
     ]
   }
 }

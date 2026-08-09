@@ -1,5 +1,5 @@
 {
-  "checksum": "bfc4bc5b4a4121cdd01f633282010ca6",
+  "checksum": "b4b63b96b92130ef49b3bec0cffe99c1",
   "room": {
     "id": 25834,
     "title": [
@@ -15,16 +15,73 @@
     "climate": "saltwater",
     "terrain": "hard, flat",
     "wayto": {
-      "25833": "/rooms/25834/wayto/stringproc-25833.rb",
-      "25835": "/rooms/25834/wayto/stringproc-25835.rb",
-      "25844": "/rooms/25834/wayto/stringproc-25844.rb",
-      "36175": "/rooms/25834/wayto/stringproc-36175.rb"
+      "25833": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "pedal #{direction}",
+              "for": "pedal",
+              "timeout": 2
+            }
+          ]
+        }
+      ],
+      "25835": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "pedal #{direction}",
+              "for": "pedal",
+              "timeout": 2
+            }
+          ]
+        }
+      ],
+      "25844": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "pedal #{direction}",
+              "for": "pedal",
+              "timeout": 2
+            }
+          ]
+        }
+      ],
+      "36175": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "pedal #{direction}",
+              "for": "pedal",
+              "timeout": 2
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "25833": 6,
       "25835": 6,
       "25844": 6,
-      "36175": "/rooms/25834/timeto/stringproc-36175.rb"
+      "36175": {
+        "cost": 6,
+        "requires": [
+          "no_script:bigshot,wander"
+        ]
+      }
     },
     "tags": [
       "no forageables"

@@ -1,5 +1,5 @@
 {
-  "checksum": "6c87132913e231360414fb453cd3eab5",
+  "checksum": "89c5d7a1041dd32bd046627d0dc5e1f8",
   "room": {
     "id": 26488,
     "title": [
@@ -16,7 +16,16 @@
       "26487": "go stairway",
       "26489": "south",
       "26490": "north",
-      "26746": "/rooms/26488/wayto/stringproc-26746.rb"
+      "26746": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go trapdoor"
+        }
+      ]
     },
     "timeto": {
       "26487": 0.2,

@@ -1,5 +1,5 @@
 {
-  "checksum": "3430a3181da7e6773207def97a0c659c",
+  "checksum": "550d8925364aebe9564cd81e1fc5ca60",
   "room": {
     "id": 7457,
     "title": [
@@ -15,10 +15,42 @@
     "climate": "hot, damp",
     "terrain": "barren scrub",
     "wayto": {
-      "7448": "/rooms/7457/wayto/stringproc-7448.rb",
-      "7453": "/rooms/7457/wayto/stringproc-7453.rb",
-      "7455": "/rooms/7457/wayto/stringproc-7455.rb",
-      "7456": "/rooms/7457/wayto/stringproc-7456.rb"
+      "7448": [
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "7453": [
+        {
+          "do": "move",
+          "cmd": "west"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "7455": [
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
+      "7456": [
+        {
+          "do": "move",
+          "cmd": "north"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "7448": 3.2,
@@ -27,14 +59,14 @@
       "7456": 3.2
     },
     "tags": [
-      "large black toadstool",
-      "hooded figure",
-      "giant fog beetle",
-      "some blackened moss",
-      "blackened moss",
       "black toadstool",
+      "blackened moss",
+      "giant fog beetle",
+      "hooded figure",
+      "large black toadstool",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
+      "meta:forage-sensed:night:2023-01",
+      "some blackened moss"
     ],
     "uid": [
       306048

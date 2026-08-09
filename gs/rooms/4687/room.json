@@ -1,5 +1,5 @@
 {
-  "checksum": "d61de650f249bc4f8f27c6f34c821a3a",
+  "checksum": "6ce4d93d705756ac74715ba2ec73b97f",
   "room": {
     "id": 4687,
     "title": [
@@ -18,7 +18,7 @@
       "4689": "south",
       "4690": "southwest",
       "4691": "climb stairway",
-      "30717": "/rooms/4687/wayto/stringproc-30717.rb"
+      "30717": []
     },
     "timeto": {
       "4639": 0.2,
@@ -26,14 +26,16 @@
       "4689": 0.2,
       "4690": 0.2,
       "4691": 0.2,
-      "30717": "/rooms/4687/timeto/stringproc-30717.rb"
+      "30717": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "no forageables",
+      "inn",
       "meta:forage-sensed",
-      "urchin-access",
+      "no forageables",
       "urchin guide inn",
-      "inn"
+      "urchin-access"
     ],
     "uid": [
       14051028

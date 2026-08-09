@@ -1,5 +1,5 @@
 {
-  "checksum": "2085f83f8949f954070c6f4a2536e193",
+  "checksum": "dba948a2107b4cb648e6bea33dd92fa3",
   "room": {
     "id": 9510,
     "title": [
@@ -18,33 +18,40 @@
       "9509": "north",
       "9511": "southeast",
       "18997": "go gate",
-      "30712": "/rooms/9510/wayto/stringproc-30712.rb"
+      "30712": []
     },
     "timeto": {
       "9509": 0.2,
       "9511": 0.2,
-      "18997": "/rooms/9510/timeto/stringproc-18997.rb",
-      "30712": "/rooms/9510/timeto/stringproc-30712.rb"
+      "18997": {
+        "cost": 0.2,
+        "requires": [
+          "prof:Sorcerer"
+        ]
+      },
+      "30712": {
+        "same_as": "7:30714"
+      }
     },
     "tags": [
-      "sorcerer guild",
-      "soft white mushroom",
-      "withered black mushroom",
+      "blue trafel mushroom",
+      "bolmara lichen",
       "daggerstalk mushroom",
       "flathead mushroom",
       "genkew mushroom",
-      "blue trafel mushroom",
-      "pepperthorn root",
-      "murdroot",
       "ironfern root",
-      "bolmara lichen",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-02",
+      "meta:forage-sensed:night:2026-03",
+      "murdroot",
+      "pepperthorn root",
+      "soft mushroom",
+      "sorcerer guild",
       "sorcererguild",
       "urchin guide sorcererguild",
       "urchin-access",
       "wingstem root",
-      "meta:forage-sensed:day:2023-02",
-      "meta:forage-sensed:night:2023-02"
+      "withered mushroom"
     ],
     "uid": [
       13006047

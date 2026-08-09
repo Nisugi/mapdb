@@ -1,5 +1,5 @@
 {
-  "checksum": "af2f628faf58be6ab22831a4e891c511",
+  "checksum": "df2bb8de6109f1c1c391b93cc613f240",
   "room": {
     "id": 24473,
     "title": [
@@ -17,11 +17,26 @@
       "24407": "south",
       "24474": "go open doorway",
       "24475": "go descending staircase",
-      "24482": "/rooms/24473/wayto/stringproc-24482.rb",
-      "29615": "/rooms/24473/wayto/stringproc-29615.rb",
-      "29616": "/rooms/24473/wayto/stringproc-29616.rb",
-      "29617": "/rooms/24473/wayto/stringproc-29617.rb",
-      "29618": "/rooms/24473/wayto/stringproc-29618.rb",
+      "24482": {
+        "strategy": "table_join",
+        "table": "Merchants"
+      },
+      "29615": {
+        "strategy": "table_join",
+        "table": "Enlightenment"
+      },
+      "29616": {
+        "strategy": "table_join",
+        "table": "Professions"
+      },
+      "29617": {
+        "strategy": "table_join",
+        "table": "Wanderer's"
+      },
+      "29618": {
+        "strategy": "table_join",
+        "table": "Contemplation"
+      },
       "36081": "pull leather volume"
     },
     "timeto": {
@@ -36,10 +51,13 @@
       "36081": 0.2
     },
     "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
       "node",
+      "roneacademy",
+      "stalk of bluebells",
       "supernode",
-      "table",
-      "roneacademy"
+      "table"
     ],
     "uid": [
       217006
