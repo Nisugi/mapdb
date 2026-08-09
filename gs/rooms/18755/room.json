@@ -1,5 +1,5 @@
 {
-  "checksum": "22a77350ab62a333ed4c41e4c78798fe",
+  "checksum": "543a0b5b42c85df562b894ea97beb7ee",
   "room": {
     "id": 18755,
     "title": [
@@ -22,7 +22,7 @@
         },
         {
           "do": "move",
-          "cmd": "9704"
+          "cmd": "jump north side"
         },
         {
           "do": "wait_rt"
@@ -35,7 +35,7 @@
         },
         {
           "do": "move",
-          "cmd": "9704"
+          "cmd": "jump south side"
         },
         {
           "do": "wait_rt"

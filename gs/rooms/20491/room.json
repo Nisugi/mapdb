@@ -1,5 +1,5 @@
 {
-  "checksum": "a9bb2ace8dde30194db387cff556a19d",
+  "checksum": "76a36f4a8966b635d3d83c6805c6b6ec",
   "room": {
     "id": 20491,
     "title": [
@@ -28,7 +28,7 @@
           "then": [
             {
               "do": "send",
-              "cmd": "112"
+              "cmd": "go south"
             }
           ],
           "else": [
@@ -54,7 +54,7 @@
           "then": [
             {
               "do": "send",
-              "cmd": "112"
+              "cmd": "go northeast"
             }
           ],
           "else": [

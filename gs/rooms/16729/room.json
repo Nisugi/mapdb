@@ -1,5 +1,5 @@
 {
-  "checksum": "0009524c257474fc668370248fb3b05d",
+  "checksum": "0c14e394c00d04d1b9044758583c1694",
   "room": {
     "id": 16729,
     "title": [
@@ -22,7 +22,7 @@
         },
         {
           "do": "move",
-          "cmd": "9704"
+          "cmd": "swim north side"
         },
         {
           "do": "wait_rt"
@@ -35,7 +35,7 @@
         },
         {
           "do": "move",
-          "cmd": "9704"
+          "cmd": "swim south side"
         },
         {
           "do": "wait_rt"

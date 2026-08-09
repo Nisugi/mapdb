@@ -1,5 +1,5 @@
 {
-  "checksum": "98497c8ede398755094794b4f894b670",
+  "checksum": "e0999d283334e2c0a453efff547d9333",
   "room": {
     "id": 16723,
     "title": [
@@ -23,7 +23,7 @@
         },
         {
           "do": "move",
-          "cmd": "9704"
+          "cmd": "climb thick rope"
         },
         {
           "do": "wait_rt"
@@ -36,7 +36,7 @@
         },
         {
           "do": "move",
-          "cmd": "9704"
+          "cmd": "jump bridge"
         },
         {
           "do": "wait_rt"
