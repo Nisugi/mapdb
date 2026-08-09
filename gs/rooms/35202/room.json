@@ -1,5 +1,5 @@
 {
-  "checksum": "6a2f17baaa42bd7810fd9ea485d9c9e8",
+  "checksum": "20f9be8b7c9e83f5b854b928d4ac8d16",
   "room": {
     "id": 35202,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "Zul Logoth",
     "wayto": {
-      "35201": "go curtain"
+      "35201": [
+        {
+          "do": "send",
+          "cmd": "close locker"
+        },
+        {
+          "do": "move",
+          "cmd": "go curtain"
+        }
+      ]
     },
     "timeto": {
       "35201": 0.2

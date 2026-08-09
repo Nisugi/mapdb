@@ -1,5 +1,5 @@
 {
-  "checksum": "521cc4d09fd202cf2e2f881b6c88cf94",
+  "checksum": "a49265ca64ad74b1faaae6360b30cfe3",
   "room": {
     "id": 35474,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "Icemule Trace",
     "wayto": {
-      "35472": "go gold tapestry"
+      "35472": [
+        {
+          "do": "send",
+          "cmd": "close locker"
+        },
+        {
+          "do": "move",
+          "cmd": "go gold tapestry"
+        }
+      ]
     },
     "timeto": {
       "35472": 0.2

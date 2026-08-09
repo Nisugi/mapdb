@@ -1,5 +1,5 @@
 {
-  "checksum": "406247c6a9ed72b5cc057ba669b033dd",
+  "checksum": "5857892ead347ad59e4f5c2d42fe47b1",
   "room": {
     "id": 33005,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "White Haven",
     "wayto": {
-      "23214": "go curtained opening"
+      "23214": [
+        {
+          "do": "send",
+          "cmd": "close locker"
+        },
+        {
+          "do": "move",
+          "cmd": "go curtained opening"
+        }
+      ]
     },
     "timeto": {
       "23214": 0.2

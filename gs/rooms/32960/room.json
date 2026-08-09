@@ -1,5 +1,5 @@
 {
-  "checksum": "7c989e88247b109281cabc7644abadc4",
+  "checksum": "8ccffcb0803bf890bfc1e7dde782f2a3",
   "room": {
     "id": 32960,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "32958": "go silver door"
+      "32958": [
+        {
+          "do": "send",
+          "cmd": "close locker"
+        },
+        {
+          "do": "move",
+          "cmd": "go silver door"
+        }
+      ]
     },
     "timeto": {
       "32958": 0.2

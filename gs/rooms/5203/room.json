@@ -1,5 +1,5 @@
 {
-  "checksum": "b588c334c0b7914018a45f4bce7319bf",
+  "checksum": "d30b409331713930164b5b1e33fda82b",
   "room": {
     "id": 5203,
     "title": [
@@ -13,7 +13,16 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "24247": "go brown curtain"
+      "24247": [
+        {
+          "do": "send",
+          "cmd": "close locker"
+        },
+        {
+          "do": "move",
+          "cmd": "go brown curtain"
+        }
+      ]
     },
     "timeto": {
       "24247": 0.2
