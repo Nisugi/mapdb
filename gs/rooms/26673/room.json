@@ -1,5 +1,5 @@
 {
-  "checksum": "8a69124da9e3eb8b9b9069fd23f6870b",
+  "checksum": "d2d0395d86b9fcc9ada2684365073cb7",
   "room": {
     "id": 26673,
     "title": [
@@ -19,7 +19,13 @@
           "cmd": "swim up"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:26661",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "26672": "swim southeast",
@@ -31,7 +37,13 @@
           "cmd": "swim down"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:26687",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ]
     },

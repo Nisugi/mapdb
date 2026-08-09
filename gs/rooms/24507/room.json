@@ -1,5 +1,5 @@
 {
-  "checksum": "7078695894f725d7dc35aa5280a4bbed",
+  "checksum": "62ee4b22a7b8802d64af9ce655fbc525",
   "room": {
     "id": 24507,
     "title": [
@@ -20,7 +20,13 @@
           "cmd": "go forest"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:4709",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "24508": "go hemp ladder",

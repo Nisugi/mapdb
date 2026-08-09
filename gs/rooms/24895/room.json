@@ -1,5 +1,5 @@
 {
-  "checksum": "736635cdd1d17a78dbbec0711b3092dc",
+  "checksum": "b3f0dad1ab7e87822c3fdc1b9f9b80bb",
   "room": {
     "id": 24895,
     "title": [
@@ -23,7 +23,13 @@
           "cmd": "go vortex"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:24876",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "24888": "go mist"

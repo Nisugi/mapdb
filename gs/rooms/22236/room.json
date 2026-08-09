@@ -1,5 +1,5 @@
 {
-  "checksum": "6341bb0e55e904f0c5e136a02beaff67",
+  "checksum": "0929fc3684c04660176459cdd608a9d2",
   "room": {
     "id": 22236,
     "title": [
@@ -19,7 +19,13 @@
           "cmd": "go fog"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:299",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "22243": "northwest"

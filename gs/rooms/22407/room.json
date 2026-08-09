@@ -1,5 +1,5 @@
 {
-  "checksum": "5adf1c6f1077a02fa7348a2369d832a7",
+  "checksum": "c94bcd611b37f61b7445601512c7298a",
   "room": {
     "id": 22407,
     "title": [
@@ -19,7 +19,13 @@
           "cmd": "go arch"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:16700",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "22408": "go curtain"

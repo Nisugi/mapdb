@@ -1,5 +1,5 @@
 {
-  "checksum": "f55215d893af94c16f9c8118c24334e2",
+  "checksum": "9cd7ba5833c356880a7ab2c85d10cc1b",
   "room": {
     "id": 27614,
     "title": [
@@ -20,7 +20,13 @@
           "cmd": "go path"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:3166",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "27615": "go scarlet door",

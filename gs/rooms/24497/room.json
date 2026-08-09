@@ -1,5 +1,5 @@
 {
-  "checksum": "e2674285476f7a9f240988b23685f8d6",
+  "checksum": "fc72c0a3ba64369eaab53d1d74387aa2",
   "room": {
     "id": 24497,
     "title": [
@@ -19,7 +19,13 @@
           "cmd": "go curtain"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:9495",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ]
     },

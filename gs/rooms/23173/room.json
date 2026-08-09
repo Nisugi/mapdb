@@ -1,5 +1,5 @@
 {
-  "checksum": "de6257e2a5ac7f2ede7416a0ef7ffde8",
+  "checksum": "ece3b49952638176e96520291af928b4",
   "room": {
     "id": 23173,
     "title": [
@@ -20,7 +20,13 @@
           "cmd": "go painted carousel"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:23165",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "checksum": "9fed9dff42bedd3293bc41ab49575b43",
+  "checksum": "32ea140d0d847421eb69497947a4e7cb",
   "room": {
     "id": 16550,
     "title": [
@@ -21,7 +21,13 @@
           "cmd": "out"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:12269",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "16608": "east",

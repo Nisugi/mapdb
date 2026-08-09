@@ -1,5 +1,5 @@
 {
-  "checksum": "7af67b67637973fb2736029ec6bf8b01",
+  "checksum": "82103b14485557ad40a292344107b193",
   "room": {
     "id": 26687,
     "title": [
@@ -19,7 +19,13 @@
           "cmd": "swim up"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:26684",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "26688": "swim west",

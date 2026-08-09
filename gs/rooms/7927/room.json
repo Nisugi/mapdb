@@ -1,5 +1,5 @@
 {
-  "checksum": "0cbc67f8178db8ff27e96fe192f67edc",
+  "checksum": "38cd8f0bbe506abf09f7146efec777f2",
   "room": {
     "id": 7927,
     "title": [
@@ -23,7 +23,13 @@
           "cmd": "go ethereal portal"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:34489",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ]
     },

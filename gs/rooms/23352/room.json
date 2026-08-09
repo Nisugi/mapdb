@@ -1,5 +1,5 @@
 {
-  "checksum": "150eedb87a35abe8046933eb5e1aa58a",
+  "checksum": "5005db70a145e4b56f45997923e5d528",
   "room": {
     "id": 23352,
     "title": [
@@ -22,7 +22,13 @@
           "cmd": "go cliff"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:23354",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ]
     },

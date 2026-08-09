@@ -1,5 +1,5 @@
 {
-  "checksum": "6f1babb45ca104aa8b2c16269a4fd696",
+  "checksum": "ab7fea08aeca56a9e3eaea32dcfd39f7",
   "room": {
     "id": 29169,
     "title": [
@@ -33,7 +33,13 @@
           ]
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:29168",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "29170": "go crater rim"

@@ -1,5 +1,5 @@
 {
-  "checksum": "84f0f47b3cd0f3ad9a3f0a5f80daa1f2",
+  "checksum": "b54d25e5d82b7f465a7ab8a0ccaf03ba",
   "room": {
     "id": 26453,
     "title": [
@@ -20,7 +20,13 @@
           "cmd": "go tunnel"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:26454",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "26477": "south",

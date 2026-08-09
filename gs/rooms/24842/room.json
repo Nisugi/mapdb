@@ -1,5 +1,5 @@
 {
-  "checksum": "86332afa6c251a84578c687a80feee4f",
+  "checksum": "e065302b9d1e9d3dabb353cb639d1528",
   "room": {
     "id": 24842,
     "title": [
@@ -26,7 +26,13 @@
           "cmd": "go path"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:24876",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "25173": "go structure",

@@ -1,5 +1,5 @@
 {
-  "checksum": "9a5f125d0685d51fac3afefbfb5cb642",
+  "checksum": "6aa5b011c5a5b8e7c8364c2374bf2388",
   "room": {
     "id": 34354,
     "title": [
@@ -21,7 +21,13 @@
           "cmd": "go ring"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:34353",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "34355": [
@@ -30,7 +36,13 @@
           "cmd": "go ring"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:34355",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "34356": [
@@ -39,7 +51,13 @@
           "cmd": "go ring"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:34356",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "34357": [
@@ -48,7 +66,13 @@
           "cmd": "go ring"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:34357",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "34358": [
@@ -57,7 +81,13 @@
           "cmd": "go ring"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:34358",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "34359": [
@@ -66,7 +96,13 @@
           "cmd": "go ring"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:34359",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "34360": [
@@ -75,7 +111,13 @@
           "cmd": "go ring"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:34360",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ],
       "34361": [
@@ -84,7 +126,13 @@
           "cmd": "go ring"
         },
         {
-          "do": "replan"
+          "do": "if",
+          "when": "not:in_room:34361",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
         }
       ]
     },
