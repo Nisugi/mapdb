@@ -1,5 +1,5 @@
 {
-  "checksum": "9c84b92b7fd0b4b9f70c126d083cee4d",
+  "checksum": "af702cac53cd852da22e01e12b9ad6e1",
   "room": {
     "id": 6997,
     "title": [
@@ -39,7 +39,8 @@
             {
               "do": "await",
               "for": "give it a good yank!|since it is underneath|what were you referring to|that was fun\\.",
-              "timeout": 1
+              "timeout": 1,
+              "on_timeout": "fail"
             },
             {
               "do": "if",

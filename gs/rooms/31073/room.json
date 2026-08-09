@@ -1,5 +1,5 @@
 {
-  "checksum": "2a78a8ce9bf364363a6bcd3d2879210a",
+  "checksum": "dcdacd1ce93a7f813ffdf4b64efd3c11",
   "room": {
     "id": 31073,
     "title": [
@@ -36,7 +36,8 @@
         {
           "do": "await",
           "for": "With\\ a\\ groan\\ and\\ a\\ creak,\\ the\\ caravan\\ comes\\ to\\ a\\ stop\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "31071": "out",

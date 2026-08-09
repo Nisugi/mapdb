@@ -1,5 +1,5 @@
 {
-  "checksum": "98ba36368f3168d96f419eda6bc7b295",
+  "checksum": "e678e7daa8bf4ac70930cbfdac74e109",
   "room": {
     "id": 36166,
     "title": [
@@ -16,10 +16,26 @@
     "terrain": "none",
     "wayto": {
       "36165": "go doorway",
-      "36167": {
-        "strategy": "unique_crossing",
-        "name": "crossing_36166_36167"
-      }
+      "36167": [
+        {
+          "do": "send",
+          "cmd": "sit chair"
+        },
+        {
+          "do": "send",
+          "cmd": "pull splinter"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "send",
+          "cmd": "stand"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "36165": 0.2,

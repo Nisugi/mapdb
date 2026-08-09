@@ -1,5 +1,5 @@
 {
-  "checksum": "20cb58b249e7da8ae365c00edf2b78b2",
+  "checksum": "cb55b1231e8e9135d86b9543cddd4057",
   "room": {
     "id": 35254,
     "title": [
@@ -26,7 +26,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 1",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "11756": [
@@ -42,7 +43,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 2",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "32372": [
@@ -58,7 +60,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 7",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "35255": "east",

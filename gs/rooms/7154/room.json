@@ -1,5 +1,5 @@
 {
-  "checksum": "49d16666cb0b457f1aedb4403ddb9e90",
+  "checksum": "3bf1377dfe20280be92e9ad2af535dc0",
   "room": {
     "id": 7154,
     "title": [
@@ -32,7 +32,8 @@
             {
               "do": "await",
               "for": "the black mein door has opened",
-              "timeout": 30
+              "timeout": 30,
+              "on_timeout": "fail"
             },
             {
               "do": "send",

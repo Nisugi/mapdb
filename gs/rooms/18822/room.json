@@ -1,5 +1,5 @@
 {
-  "checksum": "5e88477455f3e7a8ee4fab999b5dad4b",
+  "checksum": "3ca1836e0a7720f791c46690b4407fb7",
   "room": {
     "id": 18822,
     "title": [
@@ -16,10 +16,19 @@
     "terrain": "riparian",
     "wayto": {
       "18821": "southwest",
-      "18823": {
-        "strategy": "unique_crossing",
-        "name": "crossing_18822_18823"
-      }
+      "18823": [
+        {
+          "do": "empty_hand"
+        },
+        {
+          "do": "send",
+          "cmd": "go river"
+        },
+        {
+          "do": "move",
+          "cmd": "go river"
+        }
+      ]
     },
     "timeto": {
       "18821": 0.2,

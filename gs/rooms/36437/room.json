@@ -1,5 +1,5 @@
 {
-  "checksum": "b14ce71fde375af2a4a8835d6f07d5ea",
+  "checksum": "75a48046348c265b7a1686ff5cb933b1",
   "room": {
     "id": 36437,
     "title": [
@@ -17,7 +17,8 @@
         {
           "do": "await",
           "for": "You\\ swing\\ near\\ the\\ disk\\ to\\ the\\ west|The\\ disk\\ to\\ the\\ west\\ swings\\ near",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         },
         {
           "do": "move",
@@ -28,7 +29,8 @@
         {
           "do": "await",
           "for": "You\\ swing\\ near\\ the\\ eastern\\ ledge",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         },
         {
           "do": "move",

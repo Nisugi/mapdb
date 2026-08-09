@@ -1,5 +1,5 @@
 {
-  "checksum": "1305ab77fb9c38840e29f14212577b3a",
+  "checksum": "44a9492595ecc6e361ef184711410d40",
   "room": {
     "id": 1965,
     "title": [
@@ -31,7 +31,8 @@
             {
               "do": "await",
               "for": "Some\\ dockworkers\\ prepare\\ a\\ ferryboat\\ for\\ departure\\ into\\ the\\ mine\\.",
-              "timeout": 30
+              "timeout": 600,
+              "on_timeout": "fail"
             },
             {
               "do": "move",

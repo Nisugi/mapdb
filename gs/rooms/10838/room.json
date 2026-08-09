@@ -1,5 +1,5 @@
 {
-  "checksum": "cafc4d30e00c20ac7612f378745cddf9",
+  "checksum": "90a29ac9c754eebff0b34ffc5269758b",
   "room": {
     "id": 10838,
     "title": [
@@ -30,7 +30,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 1",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "1870": [
@@ -46,7 +47,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 4",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "10839": "east",
@@ -64,7 +66,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 2",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "29033": [
@@ -80,7 +83,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 5",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "29577": "go grasses",
@@ -98,7 +102,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 6",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "32372": [
@@ -114,7 +119,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 7",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "32928": [
@@ -130,7 +136,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 8",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ]
     },

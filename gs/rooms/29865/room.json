@@ -1,5 +1,5 @@
 {
-  "checksum": "301a443e28578d449393734602188e9d",
+  "checksum": "9f624bf8c2f2ec1b423b03bb31e4edda",
   "room": {
     "id": 29865,
     "title": [
@@ -29,7 +29,8 @@
         {
           "do": "await",
           "for": "The\\ wagon\\ comes\\ to\\ a\\ halt|The\\ wagon\\ draws\\ to\\ an\\ abrupt\\ halt|the\\ caravan\\ comes\\ to\\ a\\ stop",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         },
         {
           "do": "set",
@@ -54,7 +55,8 @@
         {
           "do": "await",
           "for": "The\\ wagon\\ comes\\ to\\ a\\ halt|The\\ wagon\\ draws\\ to\\ an\\ abrupt\\ halt|the\\ caravan\\ comes\\ to\\ a\\ stop",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         },
         {
           "do": "set",

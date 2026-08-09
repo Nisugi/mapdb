@@ -1,5 +1,5 @@
 {
-  "checksum": "3f2c612d2cca1257f872070c276ab5bc",
+  "checksum": "79528d7ec03014fdb79b5cd97398093e",
   "room": {
     "id": 20008,
     "title": [
@@ -15,10 +15,30 @@
     "wayto": {
       "20007": "north",
       "20009": "southeast",
-      "20011": {
-        "strategy": "unique_crossing",
-        "name": "crossing_20008_20011"
-      }
+      "20011": [
+        {
+          "do": "empty_hand"
+        },
+        {
+          "do": "send",
+          "cmd": "turn lock"
+        },
+        {
+          "do": "fill_hand"
+        },
+        {
+          "do": "send",
+          "cmd": "open door"
+        },
+        {
+          "do": "send",
+          "cmd": "go door"
+        },
+        {
+          "do": "echo",
+          "msg": "** WARNING: The door closes behind you!  Get out soon before it locks! **"
+        }
+      ]
     },
     "timeto": {
       "20007": 0.2,

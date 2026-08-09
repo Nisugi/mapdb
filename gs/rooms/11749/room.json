@@ -1,5 +1,5 @@
 {
-  "checksum": "c35a172fbbedff3b4e3e0f84ead34891",
+  "checksum": "e221c8286ef5c009ffc8fc15057e7386",
   "room": {
     "id": 11749,
     "title": [
@@ -18,7 +18,8 @@
         {
           "do": "await",
           "for": "The crew hurriedly puts out the gangplank\\.|River's Rest\\.\\.\\..+ ashore!",
-          "timeout": 600
+          "timeout": 600,
+          "on_timeout": "fail"
         },
         {
           "do": "send",
@@ -30,7 +31,8 @@
         {
           "do": "await",
           "for": "The crew hurriedly puts out the gangplank\\.|Solhaven\\.\\.\\..+ ashore!",
-          "timeout": 600
+          "timeout": 600,
+          "on_timeout": "fail"
         },
         {
           "do": "send",

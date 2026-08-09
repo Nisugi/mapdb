@@ -1,5 +1,5 @@
 {
-  "checksum": "cba5067908d198680d0654ce4d2c6859",
+  "checksum": "f9f0b3bd82cdd66892aaf1c50ebe05d4",
   "room": {
     "id": 12589,
     "title": [
@@ -26,7 +26,8 @@
         {
           "do": "await",
           "for": "You feel the presence of cold hard stone underneath you\\.",
-          "timeout": 30
+          "timeout": 30,
+          "on_timeout": "fail"
         },
         {
           "do": "sleep",

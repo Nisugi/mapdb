@@ -1,5 +1,5 @@
 {
-  "checksum": "93b79667a4432ec49440e29c8a27c784",
+  "checksum": "ad3ba0a57581560d05aaf3bfa2fce242",
   "room": {
     "id": 32372,
     "title": [
@@ -28,7 +28,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 1",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "1870": [
@@ -44,7 +45,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 4",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "10838": [
@@ -60,7 +62,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 3",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "11756": [
@@ -76,7 +79,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 2",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "29033": [
@@ -92,7 +96,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 5",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "31493": [
@@ -108,7 +113,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 6",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "32371": "south",
@@ -125,7 +131,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 8",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "35254": [
@@ -141,7 +148,8 @@
           "do": "await",
           "cmd": "ask portmaster about travel 11",
           "for": "A\\ crew\\ member\\ escorts\\ you\\ off\\ the\\ ship\\.",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ]
     },

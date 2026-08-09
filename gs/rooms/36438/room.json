@@ -1,5 +1,5 @@
 {
-  "checksum": "2abba6ad16f942e6c655a38650776a8b",
+  "checksum": "d69faab3353b6314e75eb3f9fdbac88f",
   "room": {
     "id": 36438,
     "title": [
@@ -17,7 +17,8 @@
         {
           "do": "await",
           "for": "The\\ nearest\\ disk,\\ with\\ no\\ one\\ on\\ it,\\ swings\\ near\\ the\\ ledge",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         },
         {
           "do": "move",

@@ -1,5 +1,5 @@
 {
-  "checksum": "2c09f24eb004564d6da0fddfedb95aeb",
+  "checksum": "836f6546179d8a30a2569da6ca60d3e4",
   "room": {
     "id": 23525,
     "title": [
@@ -44,10 +44,19 @@
           "cmd": "go rocky trail"
         }
       ],
-      "23526": {
-        "strategy": "unique_crossing",
-        "name": "crossing_18822_18823"
-      }
+      "23526": [
+        {
+          "do": "empty_hand"
+        },
+        {
+          "do": "send",
+          "cmd": "go river"
+        },
+        {
+          "do": "move",
+          "cmd": "go river"
+        }
+      ]
     },
     "timeto": {
       "5830": {

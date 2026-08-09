@@ -1,5 +1,5 @@
 {
-  "checksum": "2d3b224936803c95ac9ea12741af63b6",
+  "checksum": "bea45a6b6194bd28298715538c3502f9",
   "room": {
     "id": 16193,
     "title": [
@@ -13,10 +13,20 @@
     ],
     "location": "Maelstrom Bay",
     "wayto": {
-      "16192": {
-        "strategy": "unique_crossing",
-        "name": "crossing_16193_16192"
-      },
+      "16192": [
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "send",
+          "cmd": "push block"
+        },
+        {
+          "do": "move",
+          "cmd": "go opening"
+        }
+      ],
       "16194": "go door"
     },
     "timeto": {

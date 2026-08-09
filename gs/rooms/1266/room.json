@@ -1,5 +1,5 @@
 {
-  "checksum": "e779ca97f635a3b3aa5bc9ad3361f014",
+  "checksum": "737ead5c9d7d920a3b8c887490260813",
   "room": {
     "id": 1266,
     "title": [
@@ -19,7 +19,8 @@
           "do": "await",
           "cmd": "buy pass",
           "for": "You\\ hastily\\ exit\\ the\\ cart",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ],
       "1267": [
@@ -27,7 +28,8 @@
           "do": "await",
           "cmd": "buy ticket",
           "for": "You\\ hastily\\ exit\\ the\\ cart",
-          "timeout": 30
+          "timeout": 600,
+          "on_timeout": "fail"
         }
       ]
     },
