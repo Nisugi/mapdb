@@ -1,5 +1,5 @@
 {
-  "checksum": "85c43b1b61a1b1f1f767e10c06a6a79b",
+  "checksum": "48a3fae741f72fdae06f1bd906aeee66",
   "room": {
     "id": 19727,
     "title": [
@@ -14,10 +14,17 @@
     "location": "the foothills of Zeltoph",
     "wayto": {
       "19726": "go shore",
-      "19990": {
-        "strategy": "unique_crossing",
-        "name": "crossing_19727_19990"
-      }
+      "19990": [
+        {
+          "do": "wait_until",
+          "when": "loot_noun:island",
+          "timeout": 300
+        },
+        {
+          "do": "send",
+          "cmd": "go island"
+        }
+      ]
     },
     "timeto": {
       "19726": 0.2,

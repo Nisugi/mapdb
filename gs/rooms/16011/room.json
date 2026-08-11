@@ -1,5 +1,5 @@
 {
-  "checksum": "764d656efb6fad5f4f463898b9e6532d",
+  "checksum": "7c63d77f108e9027c443ccd76fe4575d",
   "room": {
     "id": 16011,
     "title": [
@@ -186,10 +186,21 @@
     ],
     "location": "the Karazja Jungle",
     "wayto": {
-      "11022": {
-        "strategy": "unique_crossing",
-        "name": "crossing_16011_11022"
-      },
+      "11022": [
+        {
+          "do": "repeat",
+          "until": "room_object:ferns",
+          "steps": [
+            {
+              "do": "move_random"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go ferns"
+        }
+      ],
       "16256": [
         {
           "do": "repeat",

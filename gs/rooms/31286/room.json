@@ -1,5 +1,5 @@
 {
-  "checksum": "11e09754ca332d3578d774f189e53215",
+  "checksum": "790aae107921f4cc9db6f52c3cbe84ff",
   "room": {
     "id": 31286,
     "title": [
@@ -15,10 +15,25 @@
     "location": "Mist Harbor",
     "wayto": {
       "31285": "out",
-      "31345": {
-        "strategy": "unique_crossing",
-        "name": "crossing_31286_31345"
-      }
+      "31345": [
+        {
+          "do": "repeat",
+          "until": "loot_noun:gap",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "search"
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go gap"
+        }
+      ]
     },
     "timeto": {
       "31285": 0.2,

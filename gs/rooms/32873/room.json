@@ -1,5 +1,5 @@
 {
-  "checksum": "3e6a2f845a0ca610aaab1ea9d51fe24c",
+  "checksum": "cc76b533082f025394121ec36615e80d",
   "room": {
     "id": 32873,
     "title": [
@@ -16,10 +16,17 @@
     "terrain": "hard, flat",
     "wayto": {
       "5749": "out",
-      "13532": {
-        "strategy": "unique_crossing",
-        "name": "crossing_32873_13532"
-      }
+      "13532": [
+        {
+          "do": "set_global",
+          "var": "SILVERWOOD_TOWN",
+          "value": "zul"
+        },
+        {
+          "do": "move",
+          "cmd": "go door"
+        }
+      ]
     },
     "timeto": {
       "5749": 0.2,

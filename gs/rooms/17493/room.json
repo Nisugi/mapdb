@@ -1,5 +1,5 @@
 {
-  "checksum": "04cc112717f03a449786a582253e0ff8",
+  "checksum": "087072e9797a3ac69dc535a9cd687655",
   "room": {
     "id": 17493,
     "title": [
@@ -13,10 +13,17 @@
     ],
     "location": "Highman Games near Icemule Trace",
     "wayto": {
-      "3235": {
-        "strategy": "unique_crossing",
-        "name": "crossing_17493_3235"
-      },
+      "3235": [
+        {
+          "do": "move",
+          "cmd": "go arches"
+        },
+        {
+          "do": "wait_until",
+          "when": "path:e",
+          "timeout": 60
+        }
+      ],
       "17454": "northeast",
       "17494": "go arches",
       "17499": "south"

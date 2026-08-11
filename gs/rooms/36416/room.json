@@ -1,5 +1,5 @@
 {
-  "checksum": "05f3e6e14e5e8115226dbb4eb4387006",
+  "checksum": "61a7a0c40510b358b22cb922afa86200",
   "room": {
     "id": 36416,
     "title": [
@@ -14,10 +14,17 @@
     "location": "the Upper Trollfang",
     "wayto": {
       "36395": "go portal",
-      "36412": {
-        "strategy": "unique_crossing",
-        "name": "crossing_36416_36412"
-      }
+      "36412": [
+        {
+          "do": "move",
+          "cmd": "jump pit"
+        },
+        {
+          "do": "wait_until",
+          "when": "not:status:stunned",
+          "timeout": 60
+        }
+      ]
     },
     "timeto": {
       "36395": 0.2,
