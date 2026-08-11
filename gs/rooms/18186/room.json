@@ -1,5 +1,5 @@
 {
-  "checksum": "0c631cc57cd1a5747d36ae344af52e3e",
+  "checksum": "203bb739f3da8c48b40c75d0e70d7994",
   "room": {
     "id": 18186,
     "title": [
@@ -15,10 +15,84 @@
     "climate": "hot, damp",
     "terrain": "hard, flat",
     "wayto": {
-      "451": {
-        "strategy": "unique_crossing",
-        "name": "crossing_18186_451"
-      },
+      "451": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "send",
+          "cmd": "go opening"
+        },
+        {
+          "do": "send",
+          "cmd": "lay"
+        },
+        {
+          "do": "echo",
+          "msg": "Waiting for 'one on the left and one on the right'."
+        },
+        {
+          "do": "await",
+          "timeout": 600,
+          "on_timeout": "fail",
+          "for": "one on the left and one on the right"
+        },
+        {
+          "do": "send",
+          "cmd": "lean left"
+        },
+        {
+          "do": "echo",
+          "msg": "Waiting for 'branches off to the left just ahead'."
+        },
+        {
+          "do": "await",
+          "timeout": 600,
+          "on_timeout": "fail",
+          "for": "branches off to the left just ahead"
+        },
+        {
+          "do": "send",
+          "cmd": "lean left"
+        },
+        {
+          "do": "echo",
+          "msg": "Waiting for 'Another tunnel branches off to the left just ahead'."
+        },
+        {
+          "do": "await",
+          "timeout": 600,
+          "on_timeout": "fail",
+          "for": "Another tunnel branches off to the left just ahead"
+        },
+        {
+          "do": "echo",
+          "msg": "Waiting for 'Suddenly the tunnel turns into a nearly vertical drop'."
+        },
+        {
+          "do": "await",
+          "timeout": 600,
+          "on_timeout": "fail",
+          "for": "Suddenly the tunnel turns into a nearly vertical drop"
+        },
+        {
+          "do": "send",
+          "cmd": "lean left"
+        },
+        {
+          "do": "echo",
+          "msg": "Waiting to exit the tunnels."
+        },
+        {
+          "do": "await",
+          "timeout": 600,
+          "on_timeout": "fail",
+          "for": "Obvious paths: southwest"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ],
       "18185": "go shaft",
       "18187": [
         {

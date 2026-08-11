@@ -1,5 +1,5 @@
 {
-  "checksum": "7cbf5faccb7170eeb1c1c73cf36ce4ea",
+  "checksum": "13a5b53dee290621b57b9490ccf7fe0b",
   "room": {
     "id": 18187,
     "title": [
@@ -15,10 +15,77 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "451": {
-        "strategy": "unique_crossing",
-        "name": "crossing_18187_451"
-      }
+      "451": [
+        {
+          "do": "send",
+          "cmd": "lay"
+        },
+        {
+          "do": "echo",
+          "msg": "Waiting for 'one on the left and one on the right'."
+        },
+        {
+          "do": "await",
+          "timeout": 600,
+          "on_timeout": "fail",
+          "for": "one on the left and one on the right"
+        },
+        {
+          "do": "send",
+          "cmd": "lean left"
+        },
+        {
+          "do": "echo",
+          "msg": "Waiting for 'branches off to the left just ahead'."
+        },
+        {
+          "do": "await",
+          "timeout": 600,
+          "on_timeout": "fail",
+          "for": "branches off to the left just ahead"
+        },
+        {
+          "do": "send",
+          "cmd": "lean left"
+        },
+        {
+          "do": "echo",
+          "msg": "Waiting for 'Another tunnel branches off to the left just ahead'."
+        },
+        {
+          "do": "await",
+          "timeout": 600,
+          "on_timeout": "fail",
+          "for": "Another tunnel branches off to the left just ahead"
+        },
+        {
+          "do": "echo",
+          "msg": "Waiting for 'Suddenly the tunnel turns into a nearly vertical drop'."
+        },
+        {
+          "do": "await",
+          "timeout": 600,
+          "on_timeout": "fail",
+          "for": "Suddenly the tunnel turns into a nearly vertical drop"
+        },
+        {
+          "do": "send",
+          "cmd": "lean left"
+        },
+        {
+          "do": "echo",
+          "msg": "Waiting to exit the tunnels."
+        },
+        {
+          "do": "await",
+          "timeout": 600,
+          "on_timeout": "fail",
+          "for": "Obvious paths: southwest"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ]
     },
     "timeto": {
       "451": 0.4
