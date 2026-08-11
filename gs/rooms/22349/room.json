@@ -1,5 +1,5 @@
 {
-  "checksum": "4a8e7f9ab24b4598bb2054758bf21e77",
+  "checksum": "12ce63cca022105d51c1455c3aab4080",
   "room": {
     "id": 22349,
     "title": [
@@ -16,10 +16,40 @@
     "terrain": "hard, flat",
     "wayto": {
       "297": "out",
-      "22444": {
-        "strategy": "unique_crossing",
-        "name": "crossing_22349_22444"
-      }
+      "22444": [
+        {
+          "do": "repeat",
+          "times": 30,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "search",
+              "timeout": 5,
+              "on_timeout": "continue",
+              "for": "(dead rat|strand of silver hair|broken lockpick|tarnished coin)!$|brick-covered trapdoor!$",
+              "bind": {
+                "found": 0
+              }
+            },
+            {
+              "do": "if",
+              "when": "capture_match:found=brick-covered trapdoor!$",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "send",
+          "cmd": "go trapdoor"
+        }
+      ]
     },
     "timeto": {
       "297": 0.2,

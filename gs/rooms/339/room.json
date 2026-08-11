@@ -1,5 +1,5 @@
 {
-  "checksum": "ce06798c272cacf5d29598c55d2bb66e",
+  "checksum": "05c698135957bac3407f949fe543f18a",
   "room": {
     "id": 339,
     "title": [
@@ -21,10 +21,12 @@
       "15021": "go boutique",
       "15022": "go bejewelled citadel",
       "15024": "go wooden treehouse",
-      "24768": {
-        "strategy": "unique_crossing",
-        "name": "crossing_339_24768"
-      },
+      "24768": [
+        {
+          "do": "send",
+          "cmd": "go {room_id:ivy-covered grey stone building with a sturdy cross-gabled roof}"
+        }
+      ],
       "33475": "go rustic store",
       "33478": "go red-brick building"
     },

@@ -1,5 +1,5 @@
 {
-  "checksum": "cb76ffec1ae61065c3fb5523708f1bfe",
+  "checksum": "d2c71fdf277d8e5fadbeb8631797cb2b",
   "room": {
     "id": 24976,
     "title": [
@@ -14,10 +14,43 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "24975": "east",
-      "24979": {
-        "strategy": "unique_crossing",
-        "name": "crossing_24976_24979"
-      }
+      "24979": [
+        {
+          "do": "send",
+          "cmd": "lie tomb"
+        },
+        {
+          "do": "await",
+          "cmd": "sleep",
+          "timeout": 3,
+          "for": "^As you start to drift into unconsciousness",
+          "on_timeout": "continue"
+        },
+        {
+          "do": "wait_until",
+          "when": "status:stunned",
+          "timeout": 60
+        },
+        {
+          "do": "echo",
+          "msg": "** Waiting for stunned status to end... **"
+        },
+        {
+          "do": "wait_until",
+          "when": "not:status:stunned",
+          "timeout": 300
+        },
+        {
+          "do": "repeat",
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "24975": 0.2,

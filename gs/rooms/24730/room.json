@@ -1,5 +1,5 @@
 {
-  "checksum": "92c5f5529ece651a02eee6d63cba9c2b",
+  "checksum": "2b76b122e07cd83bf6eb9b5a93200b51",
   "room": {
     "id": 24730,
     "title": [
@@ -15,10 +15,47 @@
     "climate": "cold, damp",
     "terrain": "deciduous forest",
     "wayto": {
-      "24729": {
-        "strategy": "unique_crossing",
-        "name": "crossing_24730_24729"
-      },
+      "24729": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "repeat",
+              "until": "status:standing",
+              "steps": [
+                {
+                  "do": "send",
+                  "cmd": "stand"
+                }
+              ]
+            },
+            {
+              "do": "await",
+              "cmd": "go fog",
+              "timeout": 5,
+              "on_timeout": "continue",
+              "for": "^Rows upon rows of oak trees|^You attempt to navigate",
+              "bind": {
+                "result": 0
+              }
+            },
+            {
+              "do": "if",
+              "when": "capture_match:result=^You attempt to navigate",
+              "then": [
+                {
+                  "do": "sleep",
+                  "seconds": 0.5
+                },
+                {
+                  "do": "wait_rt"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "24731": "southwest",
       "24734": "east"
     },
