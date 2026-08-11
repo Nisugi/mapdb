@@ -1,5 +1,5 @@
 {
-  "checksum": "2f722fea5cda2876cd54a81584a52370",
+  "checksum": "477ae46393865bdb2de8012c07aac5c3",
   "room": {
     "id": 3264,
     "title": [
@@ -15,10 +15,73 @@
     "climate": "glacial",
     "terrain": "plain dirt",
     "wayto": {
-      "3239": {
-        "strategy": "unique_crossing",
-        "name": "crossing_3239_3264"
-      },
+      "3239": [
+        {
+          "do": "await",
+          "cmd": "open rolaren gate",
+          "timeout": 10,
+          "for": "^You open|^That is already open|^It appears to be locked",
+          "on_timeout": "continue",
+          "bind": {
+            "outcome": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture_match:outcome=It appears to be locked",
+          "then": [
+            {
+              "do": "if",
+              "when": "climb_bonus:50",
+              "then": [
+                {
+                  "do": "cast_buff",
+                  "spell": "sigil of resolve",
+                  "stamina": true,
+                  "unless": [
+                    "POPed muscles"
+                  ]
+                },
+                {
+                  "do": "move",
+                  "cmd": "climb rolaren gate"
+                }
+              ],
+              "else": [
+                {
+                  "do": "cast",
+                  "spell": [
+                    704,
+                    407,
+                    1207
+                  ],
+                  "target": "rolaren gate",
+                  "retry_on": "^The gate vibrates slightly but nothing else happens|^A translucent force slams into the gate, but it remains unaffected"
+                },
+                {
+                  "do": "move",
+                  "cmd": "go rolaren gate"
+                }
+              ]
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "go rolaren gate"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "not:in_room:3239",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
+        }
+      ],
       "3265": "east",
       "3274": "go open",
       "3280": "climb stair"

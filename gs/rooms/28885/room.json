@@ -1,5 +1,5 @@
 {
-  "checksum": "ccc8545f80f1c9dd7e7b267e21e25ee5",
+  "checksum": "b35278a823e8747112f5809e2d843786",
   "room": {
     "id": 28885,
     "title": [
@@ -20,10 +20,63 @@
       "28884": "southeast",
       "28886": "south",
       "28889": "west",
-      "29773": {
-        "strategy": "unique_crossing",
-        "name": "crossing_28885_29773"
-      },
+      "29773": [
+        {
+          "do": "await",
+          "cmd": "speak",
+          "timeout": 5,
+          "for": "You are currently speaking (.*?)\\.",
+          "bind": {
+            "language": 1
+          }
+        },
+        {
+          "do": "if",
+          "when": "not:capture:language=Guildspeak",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "speak wizard"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "status:hidden",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "unhide"
+            }
+          ],
+          "else": [
+            {
+              "do": "if",
+              "when": "status:invisible",
+              "then": [
+                {
+                  "do": "send",
+                  "cmd": "unhide"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "say ::portal wizard"
+        },
+        {
+          "do": "if",
+          "when": "not:capture:language=Guildspeak",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "speak {capture:language}"
+            }
+          ]
+        }
+      ],
       "30716": []
     },
     "timeto": {

@@ -1,5 +1,5 @@
 {
-  "checksum": "bf2014eaae7001382fb8fb865420cd74",
+  "checksum": "eeb167bbf1b5ba52a49aab80463aaf73",
   "room": {
     "id": 3495,
     "title": [
@@ -18,10 +18,63 @@
     "terrain": "cultivated",
     "wayto": {
       "3493": "north",
-      "18041": {
-        "strategy": "unique_crossing",
-        "name": "crossing_3495_18041"
-      },
+      "18041": [
+        {
+          "do": "await",
+          "cmd": "speak",
+          "timeout": 5,
+          "for": "You are currently speaking (.*?)\\.",
+          "bind": {
+            "language": 1
+          }
+        },
+        {
+          "do": "if",
+          "when": "not:capture:language=Guildspeak",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "speak wizard"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "status:hidden",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "unhide"
+            }
+          ],
+          "else": [
+            {
+              "do": "if",
+              "when": "status:invisible",
+              "then": [
+                {
+                  "do": "send",
+                  "cmd": "unhide"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "say ::door wizard"
+        },
+        {
+          "do": "if",
+          "when": "not:capture:language=Guildspeak",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "speak {capture:language}"
+            }
+          ]
+        }
+      ],
       "30713": []
     },
     "timeto": {

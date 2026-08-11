@@ -1,5 +1,5 @@
 {
-  "checksum": "79e61f4499141585cfb85a253893bee1",
+  "checksum": "7b58567d35b399cba9fc8f71d3bb03dc",
   "room": {
     "id": 16122,
     "title": [
@@ -16,14 +16,76 @@
     "climate": "cold, damp",
     "terrain": "muddy wetlands",
     "wayto": {
-      "11612": {
-        "strategy": "unique_crossing",
-        "name": "crossing_16122_11612"
-      },
-      "11618": {
-        "strategy": "unique_crossing",
-        "name": "crossing_16122_11618"
-      },
+      "11612": [
+        {
+          "do": "repeat",
+          "until": "not:paths_are:ne,se,sw,nw",
+          "steps": [
+            {
+              "do": "move_random",
+              "among": [
+                "northwest",
+                "southwest"
+              ]
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "path:nw",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "northwest"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "path:w",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "west"
+            }
+          ]
+        }
+      ],
+      "11618": [
+        {
+          "do": "repeat",
+          "until": "not:paths_are:ne,se,sw,nw",
+          "steps": [
+            {
+              "do": "move_random",
+              "among": [
+                "northwest",
+                "southwest"
+              ]
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "path:e",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "east"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "path:se",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "southeast"
+            }
+          ]
+        }
+      ],
       "11630": [
         {
           "do": "repeat",

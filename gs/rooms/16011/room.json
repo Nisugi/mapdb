@@ -1,5 +1,5 @@
 {
-  "checksum": "3333968879b03d06f591443659e87f70",
+  "checksum": "764d656efb6fad5f4f463898b9e6532d",
   "room": {
     "id": 16011,
     "title": [
@@ -190,14 +190,36 @@
         "strategy": "unique_crossing",
         "name": "crossing_16011_11022"
       },
-      "16256": {
-        "strategy": "unique_crossing",
-        "name": "crossing_16011_16256"
-      },
-      "16270": {
-        "strategy": "unique_crossing",
-        "name": "crossing_16011_16270"
-      }
+      "16256": [
+        {
+          "do": "repeat",
+          "until": "loot_noun:path",
+          "steps": [
+            {
+              "do": "move_random"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go path"
+        }
+      ],
+      "16270": [
+        {
+          "do": "repeat",
+          "until": "loot_noun:trail",
+          "steps": [
+            {
+              "do": "move_random"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go trail"
+        }
+      ]
     },
     "timeto": {
       "11022": 10,

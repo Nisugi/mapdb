@@ -1,5 +1,5 @@
 {
-  "checksum": "32a977252897590a45fc802ba9c80c09",
+  "checksum": "7e96ae9c80c316d655349e7f4f8b6521",
   "room": {
     "id": 3239,
     "title": [
@@ -17,10 +17,73 @@
     "wayto": {
       "3238": "go trail",
       "3240": "north",
-      "3264": {
-        "strategy": "unique_crossing",
-        "name": "crossing_3239_3264"
-      }
+      "3264": [
+        {
+          "do": "await",
+          "cmd": "open rolaren gate",
+          "timeout": 10,
+          "for": "^You open|^That is already open|^It appears to be locked",
+          "on_timeout": "continue",
+          "bind": {
+            "outcome": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture_match:outcome=It appears to be locked",
+          "then": [
+            {
+              "do": "if",
+              "when": "climb_bonus:50",
+              "then": [
+                {
+                  "do": "cast_buff",
+                  "spell": "sigil of resolve",
+                  "stamina": true,
+                  "unless": [
+                    "POPed muscles"
+                  ]
+                },
+                {
+                  "do": "move",
+                  "cmd": "climb rolaren gate"
+                }
+              ],
+              "else": [
+                {
+                  "do": "cast",
+                  "spell": [
+                    704,
+                    407,
+                    1207
+                  ],
+                  "target": "rolaren gate",
+                  "retry_on": "^The gate vibrates slightly but nothing else happens|^A translucent force slams into the gate, but it remains unaffected"
+                },
+                {
+                  "do": "move",
+                  "cmd": "go rolaren gate"
+                }
+              ]
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "go rolaren gate"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "not:in_room:3264",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "3238": 0.2,
