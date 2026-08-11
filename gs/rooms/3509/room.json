@@ -1,5 +1,5 @@
 {
-  "checksum": "e571aec12f02204daafcdf971d9fbcf2",
+  "checksum": "9a88dbddfece52929c24d1934daa6d1c",
   "room": {
     "id": 3509,
     "title": [
@@ -18,10 +18,39 @@
     "wayto": {
       "3507": "north",
       "3510": "east",
-      "17805": {
-        "strategy": "unique_crossing",
-        "name": "crossing_3509_17805"
-      }
+      "17805": [
+        {
+          "do": "borrow_item",
+          "item": "lockpick"
+        },
+        {
+          "do": "send",
+          "cmd": "pick shed"
+        },
+        {
+          "do": "if",
+          "when": "capture:container",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "_drag {capture:item} {capture:container}"
+            }
+          ],
+          "else": [
+            {
+              "do": "return_item"
+            }
+          ]
+        },
+        {
+          "do": "send",
+          "cmd": "open shed"
+        },
+        {
+          "do": "move",
+          "cmd": "go shed"
+        }
+      ]
     },
     "timeto": {
       "3507": 0.2,

@@ -1,5 +1,5 @@
 {
-  "checksum": "e5a69b932ae52265374b0ea78bda6fe1",
+  "checksum": "823df70c4f4f2798ac4bee63793f4bd9",
   "room": {
     "id": 23338,
     "title": [
@@ -15,10 +15,23 @@
     "climate": "snowy, arctic",
     "terrain": "coniferous",
     "wayto": {
-      "23339": {
-        "strategy": "unique_crossing",
-        "name": "crossing_23338_23339"
-      },
+      "23339": [
+        {
+          "do": "borrow_item",
+          "item": "heavy key"
+        },
+        {
+          "do": "send",
+          "cmd": "unlock spiked gate with my heavy key"
+        },
+        {
+          "do": "return_item"
+        },
+        {
+          "do": "move",
+          "cmd": "go spiked gate"
+        }
+      ],
       "23385": "out"
     },
     "timeto": {
