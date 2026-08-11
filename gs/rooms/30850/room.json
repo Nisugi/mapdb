@@ -1,5 +1,5 @@
 {
-  "checksum": "ab63f92c5a92c6cd5a1fe2ffe09e84a7",
+  "checksum": "e9234fc0585ff0e56f30b0c53a53fab2",
   "room": {
     "id": 30850,
     "title": [
@@ -17,10 +17,84 @@
     "terrain": "riparian",
     "wayto": {
       "30845": "north",
-      "30851": {
-        "strategy": "unique_crossing",
-        "name": "crossing_30850_30851"
-      }
+      "30851": [
+        {
+          "do": "if",
+          "when": "room_object_match:blue barrier",
+          "then": [
+            {
+              "do": "travel_to",
+              "tag": "atoll blue crystal"
+            },
+            {
+              "do": "send",
+              "cmd": "touch crystal"
+            },
+            {
+              "do": "travel_to",
+              "room": 30850
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "room_object_match:black barrier",
+          "then": [
+            {
+              "do": "travel_to",
+              "tag": "atoll black crystal"
+            },
+            {
+              "do": "send",
+              "cmd": "touch crystal"
+            },
+            {
+              "do": "travel_to",
+              "room": 30850
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "room_object_match:red barrier",
+          "then": [
+            {
+              "do": "travel_to",
+              "tag": "atoll red crystal"
+            },
+            {
+              "do": "send",
+              "cmd": "touch crystal"
+            },
+            {
+              "do": "travel_to",
+              "room": 30850
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "room_object_match:yellow barrier",
+          "then": [
+            {
+              "do": "travel_to",
+              "tag": "atoll yellow crystal"
+            },
+            {
+              "do": "send",
+              "cmd": "touch crystal"
+            },
+            {
+              "do": "travel_to",
+              "room": 30850
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go barrier"
+        }
+      ]
     },
     "timeto": {
       "30845": 0.2,
