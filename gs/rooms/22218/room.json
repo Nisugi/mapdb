@@ -1,5 +1,5 @@
 {
-  "checksum": "2e050ead10ffa6387387345822f53ec2",
+  "checksum": "3618c44ad6f5d3818b12d70dbbace94a",
   "room": {
     "id": 22218,
     "title": [
@@ -15,18 +15,119 @@
     "climate": "cold, damp",
     "terrain": "muddy wetlands",
     "wayto": {
-      "11612": {
-        "strategy": "unique_crossing",
-        "name": "crossing_22218_11612"
-      },
-      "11617": {
-        "strategy": "unique_crossing",
-        "name": "crossing_22218_11617"
-      },
-      "11618": {
-        "strategy": "unique_crossing",
-        "name": "crossing_22218_11618"
-      },
+      "11612": [
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "escort_wait"
+        }
+      ],
+      "11617": [
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "escort_wait"
+        }
+      ],
+      "11618": [
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "escort_wait"
+        }
+      ],
       "11630": [
         {
           "do": "move",

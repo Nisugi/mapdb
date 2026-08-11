@@ -1,5 +1,5 @@
 {
-  "checksum": "35216b2f54005d72067b1bdc2d758c04",
+  "checksum": "0c23a4d522815bd8437263c1b655a8ee",
   "room": {
     "id": 23526,
     "title": [
@@ -16,10 +16,36 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "23525": {
-        "strategy": "unique_crossing",
-        "name": "crossing_23526_23525"
-      },
+      "23525": [
+        {
+          "do": "if",
+          "when": "status:sitting",
+          "then": [
+            {
+              "do": "repeat",
+              "until_room_change": true,
+              "steps": [
+                {
+                  "do": "send",
+                  "cmd": "row shore"
+                },
+                {
+                  "do": "wait_rt"
+                }
+              ]
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "climb shore"
+            }
+          ]
+        },
+        {
+          "do": "fill_hand"
+        }
+      ],
       "23527": [
         {
           "do": "if",

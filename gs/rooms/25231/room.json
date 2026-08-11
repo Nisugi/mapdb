@@ -1,5 +1,5 @@
 {
-  "checksum": "57640c4eb9fa953454c13cf28a932c30",
+  "checksum": "c17ed93e902009da0f196eccc5be5f71",
   "room": {
     "id": 25231,
     "title": [
@@ -13,10 +13,27 @@
     ],
     "location": "the shadow of the Sanctum",
     "wayto": {
-      "25172": {
-        "strategy": "unique_crossing",
-        "name": "crossing_25231_25172"
-      }
+      "25172": [
+        {
+          "do": "preserve_stance",
+          "stance": "offensive",
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "climb wide hole"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "not:in_room:25172",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "25172": 0.2

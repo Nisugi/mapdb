@@ -1,5 +1,5 @@
 {
-  "checksum": "2fee6f1f225847bc0684d345b287578d",
+  "checksum": "e553e6407a8c263d9b67c5c3209382cc",
   "room": {
     "id": 22219,
     "title": [
@@ -33,15 +33,73 @@
           "cmd": "southwest"
         }
       ],
-      "11622": {
-        "strategy": "unique_crossing",
-        "name": "crossing_22219_11622"
-      },
+      "11622": [
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "northeast"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "escort_wait"
+        }
+      ],
       "11652": "north",
-      "11653": {
-        "strategy": "unique_crossing",
-        "name": "crossing_22218_11618"
-      },
+      "11653": [
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "escort_wait"
+        },
+        {
+          "do": "move",
+          "cmd": "southwest"
+        },
+        {
+          "do": "escort_wait"
+        }
+      ],
       "16124": "southwest"
     },
     "timeto": {
