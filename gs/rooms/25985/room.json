@@ -1,5 +1,5 @@
 {
-  "checksum": "57a40a8c1d7703d77fcc75d0a662aa2b",
+  "checksum": "238b41dbcfa2062f92e528034b47e5ea",
   "room": {
     "id": 25985,
     "title": [
@@ -16,10 +16,38 @@
     "terrain": "cultivated",
     "wayto": {
       "1451": "go mistwood gate",
-      "26834": {
-        "strategy": "unique_crossing",
-        "name": "crossing_25985_26834"
-      }
+      "26834": [
+        {
+          "do": "if",
+          "when": "has_item:key",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "go beechwood door"
+            }
+          ],
+          "else": [
+            {
+              "do": "empty_hand"
+            },
+            {
+              "do": "send",
+              "cmd": "get my {uservar:journeys_end} from my {uservar:keysack}"
+            },
+            {
+              "do": "send",
+              "cmd": "go beechwood door"
+            },
+            {
+              "do": "send",
+              "cmd": "put my key in my {uservar:keysack}"
+            },
+            {
+              "do": "fill_hand"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "1451": 0.2,

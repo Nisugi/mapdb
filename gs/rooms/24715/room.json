@@ -1,5 +1,5 @@
 {
-  "checksum": "01fa6b918b40c5e374171782df193076",
+  "checksum": "c04e03ff7268596020e7a767f488fc5c",
   "room": {
     "id": 24715,
     "title": [
@@ -16,10 +16,37 @@
     "terrain": "deciduous forest",
     "wayto": {
       "24710": "go southwest",
-      "24716": {
-        "strategy": "unique_crossing",
-        "name": "crossing_24715_24716"
-      }
+      "24716": [
+        {
+          "do": "repeat",
+          "until": "paths_are:northeast, southeast",
+          "steps": [
+            {
+              "do": "repeat",
+              "until": "status:standing",
+              "steps": [
+                {
+                  "do": "send",
+                  "cmd": "stand"
+                }
+              ]
+            },
+            {
+              "do": "await",
+              "cmd": "go fog",
+              "timeout": 5,
+              "for": "You attempt to navigate your way through the fog, but get turned around and come right back out where you started!|Obvious paths: northeast, southeast"
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.5
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "24710": 0.2,

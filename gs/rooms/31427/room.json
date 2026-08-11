@@ -1,5 +1,5 @@
 {
-  "checksum": "fa232643836519c64298088fa5578a62",
+  "checksum": "860ddb6ef6e37f1edeb22c1c2c0ad46b",
   "room": {
     "id": 31427,
     "title": [
@@ -14,10 +14,38 @@
     "location": "Shivergale, outside the glacier-locked town of Icemule Trace",
     "wayto": {
       "31426": "go staircase",
-      "31428": {
-        "strategy": "unique_crossing",
-        "name": "crossing_31427_31428"
-      }
+      "31428": [
+        {
+          "do": "if",
+          "when": "has_item:^key(?:ring)?$",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "go pine door"
+            }
+          ],
+          "else": [
+            {
+              "do": "empty_hand"
+            },
+            {
+              "do": "send",
+              "cmd": "get my key from my {uservar:key_sack}"
+            },
+            {
+              "do": "send",
+              "cmd": "go pine door"
+            },
+            {
+              "do": "send",
+              "cmd": "put my key in my {uservar:key_sack}"
+            },
+            {
+              "do": "fill_hand"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "31426": 0.2,

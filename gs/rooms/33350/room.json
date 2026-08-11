@@ -1,5 +1,5 @@
 {
-  "checksum": "d6d6384e5d1914600b53dee21091e83e",
+  "checksum": "efc5c1a01841f0dc2117aee5df7a7a3f",
   "room": {
     "id": 33350,
     "title": [
@@ -14,10 +14,38 @@
     "location": "Safe Harbor, inside the seaside town of Solhaven",
     "wayto": {
       "5728": "out",
-      "33351": {
-        "strategy": "unique_crossing",
-        "name": "crossing_33350_33351"
-      }
+      "33351": [
+        {
+          "do": "if",
+          "when": "has_item:key",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "go brick-covered door"
+            }
+          ],
+          "else": [
+            {
+              "do": "empty_hand"
+            },
+            {
+              "do": "send",
+              "cmd": "get my {uservar:safe_harbor} from my {uservar:keysack}"
+            },
+            {
+              "do": "send",
+              "cmd": "go brick-covered door"
+            },
+            {
+              "do": "send",
+              "cmd": "put my key in my {uservar:keysack}"
+            },
+            {
+              "do": "fill_hand"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "5728": 0.2,

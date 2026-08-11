@@ -1,5 +1,5 @@
 {
-  "checksum": "89e0e5b03679687b78d2b6b5c77671c5",
+  "checksum": "ba3693123e016292b6d871bf437061d8",
   "room": {
     "id": 2658,
     "title": [
@@ -13,22 +13,114 @@
     ],
     "location": "Koar's Shrine",
     "wayto": {
-      "2647": {
-        "strategy": "unique_crossing",
-        "name": "crossing_2658_2647"
-      },
-      "2659": {
-        "strategy": "unique_crossing",
-        "name": "crossing_2658_2659"
-      },
-      "2660": {
-        "strategy": "unique_crossing",
-        "name": "crossing_2658_2660"
-      },
-      "2661": {
-        "strategy": "unique_crossing",
-        "name": "crossing_2658_2661"
-      }
+      "2647": [
+        {
+          "do": "send",
+          "cmd": "look"
+        },
+        {
+          "do": "await",
+          "for": "a flight of (ascending|descending) steps (curving along|leading straight through) the (?<wall>northern|eastern|southern|western) wall, a flight of (ascending|descending) steps (curving along|leading straight through) the (?<wall>northern|eastern|southern|western) wall, a flight of (ascending|descending) steps (curving along|leading straight through) the (?<wall>northern|eastern|southern|western) wall and a flight of (ascending|descending) steps (curving along|leading straight through) the (?<wall>northern|eastern|southern|western) wall\\.",
+          "timeout": 10,
+          "bind": {
+            "which": {
+              "group": "wall",
+              "equals": "northern",
+              "words": [
+                "steps",
+                "second steps",
+                "third steps",
+                "fourth steps"
+              ]
+            }
+          }
+        },
+        {
+          "do": "move",
+          "cmd": "climb {capture:which}"
+        }
+      ],
+      "2659": [
+        {
+          "do": "send",
+          "cmd": "look"
+        },
+        {
+          "do": "await",
+          "for": "a flight of (ascending|descending) steps (curving along|leading straight through) the (?<wall>northern|eastern|southern|western) wall, a flight of (ascending|descending) steps (curving along|leading straight through) the (?<wall>northern|eastern|southern|western) wall, a flight of (ascending|descending) steps (curving along|leading straight through) the (?<wall>northern|eastern|southern|western) wall and a flight of (ascending|descending) steps (curving along|leading straight through) the (?<wall>northern|eastern|southern|western) wall\\.",
+          "timeout": 10,
+          "bind": {
+            "which": {
+              "group": "wall",
+              "equals": "eastern",
+              "words": [
+                "steps",
+                "second steps",
+                "third steps",
+                "fourth steps"
+              ]
+            }
+          }
+        },
+        {
+          "do": "move",
+          "cmd": "climb {capture:which}"
+        }
+      ],
+      "2660": [
+        {
+          "do": "send",
+          "cmd": "look"
+        },
+        {
+          "do": "await",
+          "for": "a flight of (ascending|descending) steps (curving along|leading straight through) the (?<wall>northern|eastern|southern|western) wall, a flight of (ascending|descending) steps (curving along|leading straight through) the (?<wall>northern|eastern|southern|western) wall, a flight of (ascending|descending) steps (curving along|leading straight through) the (?<wall>northern|eastern|southern|western) wall and a flight of (ascending|descending) steps (curving along|leading straight through) the (?<wall>northern|eastern|southern|western) wall\\.",
+          "timeout": 10,
+          "bind": {
+            "which": {
+              "group": "wall",
+              "equals": "southern",
+              "words": [
+                "steps",
+                "second steps",
+                "third steps",
+                "fourth steps"
+              ]
+            }
+          }
+        },
+        {
+          "do": "move",
+          "cmd": "climb {capture:which}"
+        }
+      ],
+      "2661": [
+        {
+          "do": "send",
+          "cmd": "look"
+        },
+        {
+          "do": "await",
+          "for": "a flight of (ascending|descending) steps (curving along|leading straight through) the (?<wall>northern|eastern|southern|western) wall, a flight of (ascending|descending) steps (curving along|leading straight through) the (?<wall>northern|eastern|southern|western) wall, a flight of (ascending|descending) steps (curving along|leading straight through) the (?<wall>northern|eastern|southern|western) wall and a flight of (ascending|descending) steps (curving along|leading straight through) the (?<wall>northern|eastern|southern|western) wall\\.",
+          "timeout": 10,
+          "bind": {
+            "which": {
+              "group": "wall",
+              "equals": "western",
+              "words": [
+                "steps",
+                "second steps",
+                "third steps",
+                "fourth steps"
+              ]
+            }
+          }
+        },
+        {
+          "do": "move",
+          "cmd": "climb {capture:which}"
+        }
+      ]
     },
     "timeto": {
       "2647": 1,

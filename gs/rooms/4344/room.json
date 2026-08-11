@@ -1,5 +1,5 @@
 {
-  "checksum": "0c521d731c7f8268bb6e39b0f2cf1c3c",
+  "checksum": "5ea6e1a9e8ce1c412126a6597a161254",
   "room": {
     "id": 4344,
     "title": [
@@ -14,10 +14,12 @@
     "location": "the Graveyard",
     "wayto": {
       "4143": "west",
-      "7298": {
-        "strategy": "unique_crossing",
-        "name": "crossing_4344_7298"
-      }
+      "7298": [
+        {
+          "do": "move_with_group",
+          "cmd": "say shadow bind my soul"
+        }
+      ]
     },
     "timeto": {
       "4143": 0.2,

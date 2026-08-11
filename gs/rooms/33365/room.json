@@ -1,5 +1,5 @@
 {
-  "checksum": "68854a592b0050f879b76439bd15ad65",
+  "checksum": "d4348b24124736124c56d0cfeb9afb06",
   "room": {
     "id": 33365,
     "title": [
@@ -14,10 +14,38 @@
     "location": "Spindrift Sanctuary, inside the glacier-locked town of Icemule Trace",
     "wayto": {
       "3197": "go stone-lined path",
-      "33366": {
-        "strategy": "unique_crossing",
-        "name": "crossing_33365_33366"
-      }
+      "33366": [
+        {
+          "do": "if",
+          "when": "has_item:key",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "go entryway"
+            }
+          ],
+          "else": [
+            {
+              "do": "empty_hand"
+            },
+            {
+              "do": "send",
+              "cmd": "get my {uservar:spindrift} from my {uservar:keysack}"
+            },
+            {
+              "do": "send",
+              "cmd": "go entryway"
+            },
+            {
+              "do": "send",
+              "cmd": "put my key in my {uservar:keysack}"
+            },
+            {
+              "do": "fill_hand"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "3197": 0.2,

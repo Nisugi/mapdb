@@ -1,5 +1,5 @@
 {
-  "checksum": "54d81bdfe94c686e35943c6eb4dd6ff0",
+  "checksum": "57c437fb45b9021e8b9c65dd66ca0914",
   "room": {
     "id": 1042,
     "title": [
@@ -15,10 +15,29 @@
     "climate": "cold, damp",
     "terrain": "grassland",
     "wayto": {
-      "1041": {
-        "strategy": "unique_crossing",
-        "name": "crossing_1042_1041"
-      },
+      "1041": [
+        {
+          "do": "move",
+          "cmd": "climb boulder"
+        },
+        {
+          "do": "await",
+          "cmd": "look trail",
+          "for": "You\\ peer\\ into\\ the\\ mist\\ and\\ see\\ that\\ the\\ trail\\ heads\\ off\\ to\\ the\\s*(\\w+)",
+          "bind": {
+            "dir": 1
+          },
+          "timeout": 10
+        },
+        {
+          "do": "move",
+          "cmd": "down"
+        },
+        {
+          "do": "move",
+          "cmd": "{capture:dir}"
+        }
+      ],
       "1043": "west",
       "1265": "climb boulder"
     },

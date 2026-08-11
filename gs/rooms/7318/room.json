@@ -1,5 +1,5 @@
 {
-  "checksum": "59f9307a3eea3b76e87e2e5a1f360cfd",
+  "checksum": "b51c6f2e03fdb887c785c391fa03b497",
   "room": {
     "id": 7318,
     "title": [
@@ -16,10 +16,21 @@
     "terrain": "none",
     "wayto": {
       "7317": "down",
-      "7319": {
-        "strategy": "unique_crossing",
-        "name": "crossing_7318_7319"
-      }
+      "7319": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move_with_group",
+          "cmd": "climb opening"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        }
+      ]
     },
     "timeto": {
       "7317": 0.2,

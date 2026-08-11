@@ -1,5 +1,5 @@
 {
-  "checksum": "1e11cc9bcc4c0726a3eadd263fcb660f",
+  "checksum": "c857a827eaaf4ec3e369bbb0a2b9a1ab",
   "room": {
     "id": 16744,
     "title": [
@@ -17,10 +17,42 @@
     "wayto": {
       "16743": "northeast",
       "16745": "south",
-      "24675": {
-        "strategy": "unique_crossing",
-        "name": "crossing_16744_24675"
-      }
+      "24675": [
+        {
+          "do": "set",
+          "var": "redforest_location",
+          "value": "EN"
+        },
+        {
+          "do": "repeat",
+          "until": "paths_are:northeast, southeast",
+          "steps": [
+            {
+              "do": "repeat",
+              "until": "status:standing",
+              "steps": [
+                {
+                  "do": "send",
+                  "cmd": "stand"
+                }
+              ]
+            },
+            {
+              "do": "await",
+              "cmd": "go fog",
+              "timeout": 5,
+              "for": "You attempt to navigate your way through the fog, but get turned around and come right back out where you started!|Obvious paths: northeast, southeast"
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.5
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "16743": 0.2,
