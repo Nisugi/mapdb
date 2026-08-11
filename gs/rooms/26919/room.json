@@ -1,5 +1,5 @@
 {
-  "checksum": "0db46820e3bc2bfac0ffe9196f7ebb5c",
+  "checksum": "50a4b07f043889753aefb79297a316aa",
   "room": {
     "id": 26919,
     "title": [
@@ -13,10 +13,31 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "24055": {
-        "strategy": "unique_crossing",
-        "name": "crossing_15950_7989"
-      }
+      "24055": [
+        {
+          "do": "try_move",
+          "cmd": "go opening",
+          "fallback": [
+            {
+              "do": "send",
+              "cmd": "close locker"
+            },
+            {
+              "do": "move",
+              "cmd": "go opening"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "not:in_room:24055",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "24055": 0.2

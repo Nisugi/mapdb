@@ -1,5 +1,5 @@
 {
-  "checksum": "6da12e7dffdd989dcd37ed26a9ec8708",
+  "checksum": "ba5f9be58087e0d44df1012d9efed5cb",
   "room": {
     "id": 25148,
     "title": [
@@ -15,14 +15,124 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "221": {
-        "strategy": "unique_crossing",
-        "name": "crossing_25148_221"
-      },
-      "3904": {
-        "strategy": "unique_crossing",
-        "name": "crossing_25148_3904"
-      },
+      "221": [
+        {
+          "do": "await",
+          "cmd": "inquire",
+          "timeout": 5,
+          "for": "(\\d)\\) Wehnimer's Landing",
+          "on_timeout": "fail",
+          "bind": {
+            "choice": 1
+          }
+        },
+        {
+          "do": "await",
+          "cmd": "order {capture:choice}",
+          "timeout": 5,
+          "for": "The cost has already been covered",
+          "on_timeout": "continue"
+        },
+        {
+          "do": "send",
+          "cmd": "order confirm"
+        },
+        {
+          "do": "wait_until",
+          "when": "room_name:Caravan, Wagon",
+          "timeout": 120
+        },
+        {
+          "do": "sleep",
+          "seconds": 1
+        },
+        {
+          "do": "wait_until",
+          "when": "not:room_name:Caravan, Wagon",
+          "timeout": 1800
+        },
+        {
+          "do": "if",
+          "when": "npc_match:thief|rogue|bandit|mugger|outlaw|highwayman|marauder|brigand|thug|robber",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "BANDITS!!! BANDITS!!! BANDITS!!!"
+            },
+            {
+              "do": "break"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "not:in_room:221",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
+        }
+      ],
+      "3904": [
+        {
+          "do": "await",
+          "cmd": "inquire",
+          "timeout": 5,
+          "for": "(\\d)\\) Vornavis",
+          "on_timeout": "fail",
+          "bind": {
+            "choice": 1
+          }
+        },
+        {
+          "do": "await",
+          "cmd": "order {capture:choice}",
+          "timeout": 5,
+          "for": "The cost has already been covered",
+          "on_timeout": "continue"
+        },
+        {
+          "do": "send",
+          "cmd": "order confirm"
+        },
+        {
+          "do": "wait_until",
+          "when": "room_name:Caravan, Wagon",
+          "timeout": 120
+        },
+        {
+          "do": "sleep",
+          "seconds": 1
+        },
+        {
+          "do": "wait_until",
+          "when": "not:room_name:Caravan, Wagon",
+          "timeout": 1800
+        },
+        {
+          "do": "if",
+          "when": "npc_match:thief|rogue|bandit|mugger|outlaw|highwayman|marauder|brigand|thug|robber",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "BANDITS!!! BANDITS!!! BANDITS!!!"
+            },
+            {
+              "do": "break"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "not:in_room:3904",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
+        }
+      ],
       "25145": "go arch"
     },
     "timeto": {
