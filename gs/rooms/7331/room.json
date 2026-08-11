@@ -1,5 +1,5 @@
 {
-  "checksum": "7cd6f6158832076ebc98a8b7cf283836",
+  "checksum": "96da106e021639ae8dbab68f7f5af17c",
   "room": {
     "id": 7331,
     "title": [
@@ -13,10 +13,42 @@
     ],
     "location": "the Shadow Valley",
     "wayto": {
-      "7315": {
-        "strategy": "unique_crossing",
-        "name": "crossing_7331_7315"
-      },
+      "7315": [
+        {
+          "do": "note_group"
+        },
+        {
+          "do": "if",
+          "when": "not:status:standing",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        },
+        {
+          "do": "send",
+          "cmd": "jump abyss"
+        },
+        {
+          "do": "wait_until",
+          "when": "status:stunned",
+          "timeout": 30
+        },
+        {
+          "do": "wait_until",
+          "when": "not:status:stunned",
+          "timeout": 300
+        },
+        {
+          "do": "send",
+          "cmd": "stand"
+        },
+        {
+          "do": "group_wait"
+        }
+      ],
       "7328": "up"
     },
     "timeto": {
