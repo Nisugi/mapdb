@@ -1,5 +1,5 @@
 {
-  "checksum": "85d84f53f19eee48f555e7d5f07827d9",
+  "checksum": "4271d54b2abce7389d4d94b17943db8b",
   "room": {
     "id": 2636,
     "title": [
@@ -13,20 +13,110 @@
     ],
     "location": "Koar's Shrine",
     "wayto": {
-      "2579": {
-        "strategy": "unique_crossing",
-        "name": "crossing_2636_2579"
-      },
+      "2579": [
+        {
+          "do": "send",
+          "cmd": "go sphere"
+        },
+        {
+          "do": "repeat",
+          "until": "room_loaded",
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "north",
+              "timeout": 2,
+              "for": "You are surrounded by an ethereal fog.|You feel every shred of yourself torn to tiny pieces and reformed...|You can do nothing... you can feel nothing... you are nothing...",
+              "on_timeout": "continue"
+            }
+          ]
+        },
+        {
+          "do": "wait_until",
+          "when": "room_loaded",
+          "timeout": 30
+        },
+        {
+          "do": "if",
+          "when": "not:status:standing",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        }
+      ],
       "2635": "north",
-      "12093": {
-        "strategy": "unique_crossing",
-        "name": "crossing_2636_12093"
-      },
+      "12093": [
+        {
+          "do": "send",
+          "cmd": "go sphere"
+        },
+        {
+          "do": "repeat",
+          "until": "room_loaded",
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "east",
+              "timeout": 2,
+              "for": "You are surrounded by an ethereal fog.|You feel every shred of yourself torn to tiny pieces and reformed...|You can do nothing... you can feel nothing... you are nothing...",
+              "on_timeout": "continue"
+            }
+          ]
+        },
+        {
+          "do": "wait_until",
+          "when": "room_loaded",
+          "timeout": 30
+        },
+        {
+          "do": "if",
+          "when": "not:status:standing",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        }
+      ],
       "12099": "go sphere",
-      "12118": {
-        "strategy": "unique_crossing",
-        "name": "crossing_2636_12118"
-      }
+      "12118": [
+        {
+          "do": "send",
+          "cmd": "go sphere"
+        },
+        {
+          "do": "repeat",
+          "until": "room_loaded",
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "west",
+              "timeout": 2,
+              "for": "You are surrounded by an ethereal fog.|You feel every shred of yourself torn to tiny pieces and reformed...|You can do nothing... you can feel nothing... you are nothing...",
+              "on_timeout": "continue"
+            }
+          ]
+        },
+        {
+          "do": "wait_until",
+          "when": "room_loaded",
+          "timeout": 30
+        },
+        {
+          "do": "if",
+          "when": "not:status:standing",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "2579": 30,

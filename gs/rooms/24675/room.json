@@ -1,5 +1,5 @@
 {
-  "checksum": "8a0a8e25053292292854068c08c10919",
+  "checksum": "8ef3764bf2ce575d6c5a04d2966a658f",
   "room": {
     "id": 24675,
     "title": [
@@ -15,14 +15,96 @@
     "climate": "cold, damp",
     "terrain": "deciduous forest",
     "wayto": {
-      "7892": {
-        "strategy": "unique_crossing",
-        "name": "crossing_24675_7892"
-      },
-      "16744": {
-        "strategy": "unique_crossing",
-        "name": "crossing_24675_16744"
-      },
+      "7892": [
+        {
+          "do": "repeat",
+          "until": "paths_are:northwest",
+          "steps": [
+            {
+              "do": "repeat",
+              "until": "status:standing",
+              "steps": [
+                {
+                  "do": "send",
+                  "cmd": "stand"
+                }
+              ]
+            },
+            {
+              "do": "await",
+              "cmd": "go fog",
+              "timeout": 5,
+              "for": "You attempt to navigate your way through the fog, but get turned around and come right back out where you started!|Obvious paths: northwest"
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.5
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "set",
+          "var": "redforest_location",
+          "value": null
+        },
+        {
+          "do": "if",
+          "when": "not:in_room:7892",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
+        }
+      ],
+      "16744": [
+        {
+          "do": "repeat",
+          "until": "paths_are:northeast, south",
+          "steps": [
+            {
+              "do": "repeat",
+              "until": "status:standing",
+              "steps": [
+                {
+                  "do": "send",
+                  "cmd": "stand"
+                }
+              ]
+            },
+            {
+              "do": "await",
+              "cmd": "go fog",
+              "timeout": 5,
+              "for": "You attempt to navigate your way through the fog, but get turned around and come right back out where you started!|Obvious paths: northeast, south"
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.5
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "set",
+          "var": "redforest_location",
+          "value": null
+        },
+        {
+          "do": "if",
+          "when": "not:in_room:16744",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
+        }
+      ],
       "24676": "southeast",
       "24688": "northeast"
     },

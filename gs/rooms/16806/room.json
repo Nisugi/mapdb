@@ -1,5 +1,5 @@
 {
-  "checksum": "747db478ad2b48f6ad67139762cc4841",
+  "checksum": "478d6e171d3766e0b3792e715142dbeb",
   "room": {
     "id": 16806,
     "title": [
@@ -15,18 +15,42 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "4160": {
-        "strategy": "unique_crossing",
-        "name": "crossing_16806_4160"
-      },
+      "4160": [
+        {
+          "do": "move",
+          "cmd": "northeast"
+        },
+        {
+          "do": "repeat",
+          "until": "not:path:e",
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "east"
+            }
+          ]
+        }
+      ],
       "4162": {
         "strategy": "unique_crossing",
         "name": "crossing_16806_4162"
       },
-      "4164": {
-        "strategy": "unique_crossing",
-        "name": "crossing_16806_4164"
-      },
+      "4164": [
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "repeat",
+          "until": "not:path:w",
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "west"
+            }
+          ]
+        }
+      ],
       "4172": "south"
     },
     "timeto": {
