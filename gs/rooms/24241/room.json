@@ -1,5 +1,5 @@
 {
-  "checksum": "9c9282b5f5d07bf8b5477e3d3cfe4fb3",
+  "checksum": "67de42a0535862dc1a1f70971b497ebd",
   "room": {
     "id": 24241,
     "title": [
@@ -13,10 +13,33 @@
     ],
     "location": "the Feywrot Mire",
     "wayto": {
-      "313": {
-        "strategy": "unique_crossing",
-        "name": "crossing_24241_313"
-      },
+      "313": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "repeat",
+              "until": "status:standing",
+              "steps": [
+                {
+                  "do": "send",
+                  "cmd": "stand"
+                }
+              ]
+            },
+            {
+              "do": "send",
+              "cmd": "climb root"
+            }
+          ]
+        },
+        {
+          "do": "wait_until",
+          "when": "in_room:313",
+          "timeout": 300
+        }
+      ],
       "20233": [
         {
           "do": "repeat",

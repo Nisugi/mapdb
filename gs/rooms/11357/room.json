@@ -1,5 +1,5 @@
 {
-  "checksum": "19bbbeb7a56e35e08b7260ffba24aa8a",
+  "checksum": "892bdde3eba7b1790d65201881f8ebd4",
   "room": {
     "id": 11357,
     "title": [
@@ -36,10 +36,28 @@
           ]
         }
       ],
-      "11358": {
-        "strategy": "unique_crossing",
-        "name": "crossing_11357_11358"
-      }
+      "11358": [
+        {
+          "do": "repeat",
+          "until": "not:room_name:\\A\\[Ravine\\ Bottom\\]\\z",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "search"
+            },
+            {
+              "do": "move",
+              "cmd": "climb footholds"
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "fill_hands"
+        }
+      ]
     },
     "timeto": {
       "11355": 0.2,

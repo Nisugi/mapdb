@@ -1,5 +1,5 @@
 {
-  "checksum": "f1f9f83fc89b8963553911dc280afb58",
+  "checksum": "146bb83cc69b79415703e990ae85e2f6",
   "room": {
     "id": 24238,
     "title": [
@@ -13,10 +13,28 @@
     ],
     "location": "the Feywrot Mire",
     "wayto": {
-      "21557": {
-        "strategy": "unique_crossing",
-        "name": "crossing_24238_21557"
-      },
+      "21557": [
+        {
+          "do": "send",
+          "cmd": "get pile"
+        },
+        {
+          "do": "send",
+          "cmd": "push raft"
+        },
+        {
+          "do": "send",
+          "cmd": "go raft"
+        },
+        {
+          "do": "echo",
+          "msg": "Waiting possibly up to 5 minutes or more for the geyser to shoot..."
+        },
+        {
+          "do": "wait_room_change",
+          "timeout": 1800
+        }
+      ],
       "24239": "go gaping hole"
     },
     "timeto": {

@@ -1,5 +1,5 @@
 {
-  "checksum": "0efa97267efd8015fb00b983b1432e29",
+  "checksum": "77758dd40ed27a8ce7444200f1a67328",
   "room": {
     "id": 18181,
     "title": [
@@ -16,10 +16,22 @@
     "terrain": "none",
     "wayto": {
       "18180": "out",
-      "18182": {
-        "strategy": "unique_crossing",
-        "name": "crossing_18181_18182"
-      }
+      "18182": [
+        {
+          "do": "echo",
+          "msg": "Waiting for 'ledge comes into view'.  This may take around four minutes."
+        },
+        {
+          "do": "await",
+          "timeout": 1800,
+          "on_timeout": "fail",
+          "for": "ledge comes into view and the cab grinds to a clunky halt"
+        },
+        {
+          "do": "move",
+          "cmd": "out"
+        }
+      ]
     },
     "timeto": {
       "18180": 0.2,

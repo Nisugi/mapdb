@@ -1,5 +1,5 @@
 {
-  "checksum": "a18c947c4a8d4837f45984032525a6f5",
+  "checksum": "32191e54eb11f9b429ee0b79eda23cc9",
   "room": {
     "id": 24239,
     "title": [
@@ -15,10 +15,18 @@
     "wayto": {
       "24236": "jump",
       "24238": "go rockslide",
-      "24240": {
-        "strategy": "unique_crossing",
-        "name": "crossing_24239_24240"
-      }
+      "24240": [
+        {
+          "do": "echo",
+          "msg": "Waiting for current to carry you to the new room..."
+        },
+        {
+          "do": "await",
+          "timeout": 1800,
+          "for": "sturdy ladder",
+          "on_timeout": "fail"
+        }
+      ]
     },
     "timeto": {
       "24236": 0.2,

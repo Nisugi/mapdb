@@ -1,5 +1,5 @@
 {
-  "checksum": "478d6e171d3766e0b3792e715142dbeb",
+  "checksum": "0de79591cdf45770e73f84b1855fe836",
   "room": {
     "id": 16806,
     "title": [
@@ -31,10 +31,26 @@
           ]
         }
       ],
-      "4162": {
-        "strategy": "unique_crossing",
-        "name": "crossing_16806_4162"
-      },
+      "4162": [
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "if",
+          "when": "not:path:w",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "east"
+            },
+            {
+              "do": "move",
+              "cmd": "east"
+            }
+          ]
+        }
+      ],
       "4164": [
         {
           "do": "move",
