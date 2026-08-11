@@ -1,5 +1,5 @@
 {
-  "checksum": "d827737f56d1b49e6e204ea4b591bb17",
+  "checksum": "9a7d362afb733a04152103deeeca89a2",
   "room": {
     "id": 15571,
     "title": [
@@ -18,10 +18,116 @@
       "16963": "west",
       "16965": "east",
       "16968": "south",
-      "17721": {
-        "strategy": "unique_crossing",
-        "name": "crossing_15571_17721"
-      }
+      "17721": [
+        {
+          "do": "repeat",
+          "times": 1,
+          "steps": [
+            {
+              "do": "if",
+              "when": "spells_known:505,914,912",
+              "then": [
+                {
+                  "do": "repeat",
+                  "times": 2,
+                  "steps": [
+                    {
+                      "do": "move",
+                      "cmd": "north"
+                    }
+                  ]
+                },
+                {
+                  "do": "cast",
+                  "spell": 505,
+                  "target": "grey orb"
+                },
+                {
+                  "do": "cast",
+                  "spell": 914,
+                  "target": "blue orb"
+                },
+                {
+                  "do": "cast",
+                  "spell": 912,
+                  "target": "white orb"
+                },
+                {
+                  "do": "break"
+                }
+              ]
+            },
+            {
+              "do": "if",
+              "when": "spells_known:908,519,906",
+              "then": [
+                {
+                  "do": "repeat",
+                  "times": 2,
+                  "steps": [
+                    {
+                      "do": "move",
+                      "cmd": "west"
+                    }
+                  ]
+                },
+                {
+                  "do": "cast",
+                  "spell": 908,
+                  "target": "blue flame"
+                },
+                {
+                  "do": "cast",
+                  "spell": 519,
+                  "target": "scarlet flame"
+                },
+                {
+                  "do": "cast",
+                  "spell": 906,
+                  "target": "white flame"
+                },
+                {
+                  "do": "break"
+                }
+              ]
+            },
+            {
+              "do": "if",
+              "when": "spells_known:520,510,909",
+              "then": [
+                {
+                  "do": "repeat",
+                  "times": 2,
+                  "steps": [
+                    {
+                      "do": "move",
+                      "cmd": "south"
+                    }
+                  ]
+                },
+                {
+                  "do": "cast",
+                  "spell": 520,
+                  "target": "blue crystal"
+                },
+                {
+                  "do": "cast",
+                  "spell": 510,
+                  "target": "black crystal"
+                },
+                {
+                  "do": "cast",
+                  "spell": 909,
+                  "target": "violet crystal"
+                },
+                {
+                  "do": "break"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "15569": 0.2,
