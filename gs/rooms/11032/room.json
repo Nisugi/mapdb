@@ -1,5 +1,5 @@
 {
-  "checksum": "e2b555ab97afa7c50f0478f5c3e26a13",
+  "checksum": "c395e1850ed478a60632183739a8ef88",
   "room": {
     "id": 11032,
     "title": [
@@ -15,10 +15,175 @@
     "climate": "moist",
     "terrain": "riparian",
     "wayto": {
-      "6274": {
-        "strategy": "unique_crossing",
-        "name": "crossing_11032_6274"
-      },
+      "6274": [
+        {
+          "do": "if",
+          "when": "citizenship:River's Rest",
+          "then": [
+            {
+              "do": "find_item",
+              "nouns": [
+                "driftwood"
+              ],
+              "verify": "look {item}",
+              "timeout": 3,
+              "matching": "sun-washed driftwood",
+              "settles": "^You see nothing unusual\\.|^I could not find|^What were you referring to"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "not:capture:item",
+          "then": [
+            {
+              "do": "find_item",
+              "nouns": [
+                "amulet"
+              ],
+              "verify": "look {item}",
+              "timeout": 3,
+              "matching": "crystal amulet",
+              "settles": "^You see nothing unusual\\.|^I could not find|^What were you referring to"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "not:capture:item",
+          "then": [
+            {
+              "do": "travel_to",
+              "tag": "bank"
+            },
+            {
+              "do": "if",
+              "when": "status:hidden",
+              "then": [
+                {
+                  "do": "send",
+                  "cmd": "unhide"
+                }
+              ]
+            },
+            {
+              "do": "await",
+              "cmd": "withdraw 2000 silvers",
+              "timeout": 10,
+              "on_timeout": "continue",
+              "bind": {
+                "withdrew": 0
+              },
+              "for": "hands you|don't seem to have that much"
+            },
+            {
+              "do": "if",
+              "when": "not:capture_match:withdrew=hands you",
+              "then": [
+                {
+                  "do": "echo",
+                  "msg": "Too poor to go to River's Rest."
+                },
+                {
+                  "do": "break"
+                }
+              ]
+            },
+            {
+              "do": "travel_to",
+              "tag": "alchemist"
+            },
+            {
+              "do": "if",
+              "when": "status:hidden",
+              "then": [
+                {
+                  "do": "send",
+                  "cmd": "unhide"
+                }
+              ]
+            },
+            {
+              "do": "send",
+              "cmd": "order 10"
+            },
+            {
+              "do": "await",
+              "cmd": "buy",
+              "timeout": 10,
+              "on_timeout": "continue",
+              "for": "hands you a crystal amulet|Looks like you might buckle under this weight",
+              "bind": {
+                "bought": 0
+              }
+            },
+            {
+              "do": "if",
+              "when": "not:capture_match:bought=hands you a crystal amulet",
+              "then": [
+                {
+                  "do": "echo",
+                  "msg": "Too encumbered to go to River's Rest."
+                },
+                {
+                  "do": "break"
+                }
+              ]
+            },
+            {
+              "do": "travel_to",
+              "tag": "bank"
+            },
+            {
+              "do": "send",
+              "cmd": "deposit all"
+            },
+            {
+              "do": "find_item",
+              "nouns": [
+                "amulet"
+              ],
+              "verify": "look {item}",
+              "timeout": 3,
+              "matching": "crystal amulet",
+              "settles": "^You see nothing unusual\\.|^I could not find|^What were you referring to"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "not:capture:item",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "You have no crystal amulet."
+            },
+            {
+              "do": "break"
+            }
+          ]
+        },
+        {
+          "do": "send",
+          "cmd": "put {capture:item} in giant's boot"
+        },
+        {
+          "do": "move",
+          "cmd": "go giant's boot"
+        },
+        {
+          "do": "fill_hands"
+        },
+        {
+          "do": "if",
+          "when": "not:in_room:6274",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
+        }
+      ],
       "11025": "west",
       "11033": "northeast",
       "16015": "go pathway",
