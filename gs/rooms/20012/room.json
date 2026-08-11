@@ -1,5 +1,5 @@
 {
-  "checksum": "ec070b580fd59ed159844719e32d360f",
+  "checksum": "4a91860de9d709af0442563800af3640",
   "room": {
     "id": 20012,
     "title": [
@@ -13,10 +13,52 @@
     ],
     "location": "the foothills of Zeltoph",
     "wayto": {
-      "19657": {
-        "strategy": "unique_crossing",
-        "name": "crossing_20012_19657"
-      },
+      "19657": [
+        {
+          "do": "await",
+          "cmd": "open door",
+          "timeout": 5,
+          "on_timeout": "continue",
+          "for": "You open a large stone door\\.|That is already open\\.|It appears to be locked\\.",
+          "bind": {
+            "reply": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture_match:reply=You open a large stone door\\.|That is already open\\.",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "go door"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "capture_match:reply=It appears to be locked\\.",
+          "then": [
+            {
+              "do": "empty_hand"
+            },
+            {
+              "do": "send",
+              "cmd": "turn lock"
+            },
+            {
+              "do": "send",
+              "cmd": "open door"
+            },
+            {
+              "do": "send",
+              "cmd": "go door"
+            },
+            {
+              "do": "fill_hand"
+            }
+          ]
+        }
+      ],
       "20009": "west"
     },
     "timeto": {

@@ -1,5 +1,5 @@
 {
-  "checksum": "7724b83de06e47cafbc56fb5d8a063c1",
+  "checksum": "67e9d95be4280fec2cb4ac4c2105b8c5",
   "room": {
     "id": 19657,
     "title": [
@@ -14,10 +14,60 @@
     "location": "the foothills of Zeltoph",
     "wayto": {
       "19656": "southeast",
-      "20012": {
-        "strategy": "unique_crossing",
-        "name": "crossing_19657_20012"
-      }
+      "20012": [
+        {
+          "do": "await",
+          "cmd": "open door",
+          "timeout": 5,
+          "on_timeout": "continue",
+          "for": "You open the nearly invisible stone door\\.|That is already open\\.|It appears to be locked\\.",
+          "bind": {
+            "reply": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture_match:reply=You open the nearly invisible stone door\\.|That is already open\\.",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "go door"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "capture_match:reply=It appears to be locked\\.",
+          "then": [
+            {
+              "do": "empty_hands"
+            },
+            {
+              "do": "send",
+              "cmd": "get lockpick"
+            },
+            {
+              "do": "send",
+              "cmd": "pick door"
+            },
+            {
+              "do": "send",
+              "cmd": "stow lockpick"
+            },
+            {
+              "do": "fill_hands"
+            },
+            {
+              "do": "send",
+              "cmd": "open door"
+            },
+            {
+              "do": "send",
+              "cmd": "go door"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "19656": 0.2,
