@@ -1,5 +1,5 @@
 {
-  "checksum": "503d0b7d0b3a0973c0d26d4020901fcc",
+  "checksum": "5bd6b3a8a70125622347892bfa2d14c6",
   "room": {
     "id": 36440,
     "title": [
@@ -13,10 +13,27 @@
     ],
     "location": "the Upper Trollfang",
     "wayto": {
-      "36419": {
-        "strategy": "unique_crossing",
-        "name": "crossing_36440_36419"
-      },
+      "36419": [
+        {
+          "do": "if",
+          "when": "not:loot_match:opening",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "pull lever"
+            },
+            {
+              "do": "wait_until",
+              "when": "loot_match:opening",
+              "timeout": 60
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go opening"
+        }
+      ],
       "36441": "east"
     },
     "timeto": {

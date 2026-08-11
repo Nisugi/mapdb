@@ -1,5 +1,5 @@
 {
-  "checksum": "b6963d2458cbaa1a0d8a082765b4d80e",
+  "checksum": "a25c06d9cc64a366f5b9b8f5f6bf87c5",
   "room": {
     "id": 21386,
     "title": [
@@ -18,10 +18,20 @@
       "20164": "north",
       "20165": "south",
       "20167": "east",
-      "23157": {
-        "strategy": "unique_crossing",
-        "name": "crossing_21386_23157"
-      }
+      "23157": [
+        {
+          "do": "cast_buff",
+          "spell": 506
+        },
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "move",
+          "cmd": "go camouflaged opening"
+        }
+      ]
     },
     "timeto": {
       "20128": 0.2,

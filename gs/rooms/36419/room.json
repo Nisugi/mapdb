@@ -1,5 +1,5 @@
 {
-  "checksum": "3d66b1bf68e2f58aab7b1590ca22b447",
+  "checksum": "e4eb129f10f088b0e5d4f4143114e827",
   "room": {
     "id": 36419,
     "title": [
@@ -16,10 +16,47 @@
       "36418": "west",
       "36420": "north",
       "36422": "south",
-      "36440": {
-        "strategy": "unique_crossing",
-        "name": "crossing_36419_36440"
-      }
+      "36440": [
+        {
+          "do": "if",
+          "when": "not:loot_match:opening",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "west"
+            },
+            {
+              "do": "move",
+              "cmd": "north"
+            },
+            {
+              "do": "send",
+              "cmd": "pull statue"
+            },
+            {
+              "do": "send",
+              "cmd": "turn statue"
+            },
+            {
+              "do": "move",
+              "cmd": "south"
+            },
+            {
+              "do": "move",
+              "cmd": "east"
+            },
+            {
+              "do": "wait_until",
+              "when": "loot_match:opening",
+              "timeout": 60
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go opening"
+        }
+      ]
     },
     "timeto": {
       "36418": 0.2,

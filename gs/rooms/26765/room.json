@@ -1,5 +1,5 @@
 {
-  "checksum": "7ca1067b5739503e2c7ff9e38365776c",
+  "checksum": "4013fa4623a3358c754cd60d8dfbb2cb",
   "room": {
     "id": 26765,
     "title": [
@@ -16,10 +16,25 @@
     "wayto": {
       "26764": "west",
       "26766": "east",
-      "27623": {
-        "strategy": "unique_crossing",
-        "name": "crossing_26765_27623"
-      }
+      "27623": [
+        {
+          "do": "repeat",
+          "until": "loot_match:craggy\\ rough\\-hewn\\ opening",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "search"
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "send",
+          "cmd": "go opening"
+        }
+      ]
     },
     "timeto": {
       "26764": 0.2,

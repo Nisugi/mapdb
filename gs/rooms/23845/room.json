@@ -1,5 +1,5 @@
 {
-  "checksum": "8d59ab6056b1827f3ed7da445cb94beb",
+  "checksum": "0f3d150f09f46e7cd5b988d820619439",
   "room": {
     "id": 23845,
     "title": [
@@ -15,10 +15,23 @@
     "location": "Mist Harbor",
     "wayto": {
       "23844": "go curtain",
-      "23926": {
-        "strategy": "unique_crossing",
-        "name": "crossing_23845_23926"
-      }
+      "23926": [
+        {
+          "do": "cast_buff",
+          "spell": 506
+        },
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "send",
+          "cmd": "go wooden trapdoor"
+        }
+      ]
     },
     "timeto": {
       "23844": 0.2,

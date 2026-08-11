@@ -1,5 +1,5 @@
 {
-  "checksum": "f334087ade4e1cef40a3dde23f51e53e",
+  "checksum": "f13ed8b6502a5cf65779c1e1bc146f3f",
   "room": {
     "id": 30583,
     "title": [
@@ -13,10 +13,63 @@
     ],
     "location": false,
     "wayto": {
-      "30581": {
-        "strategy": "unique_crossing",
-        "name": "crossing_30582_30583"
-      }
+      "30581": [
+        {
+          "do": "repeat",
+          "until": "status:prone",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "lie"
+            }
+          ]
+        },
+        {
+          "do": "repeat",
+          "times": 20,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "search",
+              "timeout": 3,
+              "for": "curtain",
+              "on_timeout": "continue",
+              "bind": {
+                "found": 0
+              }
+            },
+            {
+              "do": "if",
+              "when": "capture:found",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "repeat",
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "send",
+          "cmd": "go curtain"
+        }
+      ]
     },
     "timeto": {
       "30581": 12

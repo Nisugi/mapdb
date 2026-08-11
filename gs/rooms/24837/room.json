@@ -1,5 +1,5 @@
 {
-  "checksum": "8ca5470c03be61a3936e1b48b638f668",
+  "checksum": "47912e3883b7c88d1924c8bae7b96bbe",
   "room": {
     "id": 24837,
     "title": [
@@ -14,10 +14,37 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "24831": "go river",
-      "24967": {
-        "strategy": "unique_crossing",
-        "name": "crossing_24837_24967"
-      }
+      "24967": [
+        {
+          "do": "repeat",
+          "times": 50,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "search",
+              "timeout": 3,
+              "for": "You discover a shallow crevice while searching the area!",
+              "on_timeout": "continue",
+              "bind": {
+                "found": 0
+              }
+            },
+            {
+              "do": "if",
+              "when": "capture:found",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go crevice"
+        }
+      ]
     },
     "timeto": {
       "24831": 0.2,

@@ -1,5 +1,5 @@
 {
-  "checksum": "202665e791027c9140312127b405053a",
+  "checksum": "0116122463350c8248ca1dbb463ba6a4",
   "room": {
     "id": 30581,
     "title": [
@@ -14,10 +14,63 @@
     "location": "the Graveyard",
     "wayto": {
       "7626": "crawl out",
-      "30582": {
-        "strategy": "unique_crossing",
-        "name": "crossing_30581_30582"
-      }
+      "30582": [
+        {
+          "do": "repeat",
+          "until": "status:prone",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "lie"
+            }
+          ]
+        },
+        {
+          "do": "repeat",
+          "times": 20,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "search",
+              "timeout": 3,
+              "for": "staircase",
+              "on_timeout": "continue",
+              "bind": {
+                "found": 0
+              }
+            },
+            {
+              "do": "if",
+              "when": "capture:found",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "repeat",
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "send",
+          "cmd": "go staircase"
+        }
+      ]
     },
     "timeto": {
       "7626": 0.2,

@@ -1,5 +1,5 @@
 {
-  "checksum": "af13f0f1d3c7256474b4833027907d4e",
+  "checksum": "7e906dede32155b5c7b74045b3411b6f",
   "room": {
     "id": 30582,
     "title": [
@@ -13,14 +13,120 @@
     ],
     "location": false,
     "wayto": {
-      "30581": {
-        "strategy": "unique_crossing",
-        "name": "crossing_30581_30582"
-      },
-      "30583": {
-        "strategy": "unique_crossing",
-        "name": "crossing_30582_30583"
-      }
+      "30581": [
+        {
+          "do": "repeat",
+          "until": "status:prone",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "lie"
+            }
+          ]
+        },
+        {
+          "do": "repeat",
+          "times": 20,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "search",
+              "timeout": 3,
+              "for": "staircase",
+              "on_timeout": "continue",
+              "bind": {
+                "found": 0
+              }
+            },
+            {
+              "do": "if",
+              "when": "capture:found",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "repeat",
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "send",
+          "cmd": "go staircase"
+        }
+      ],
+      "30583": [
+        {
+          "do": "repeat",
+          "until": "status:prone",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "lie"
+            }
+          ]
+        },
+        {
+          "do": "repeat",
+          "times": 20,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "search",
+              "timeout": 3,
+              "for": "curtain",
+              "on_timeout": "continue",
+              "bind": {
+                "found": 0
+              }
+            },
+            {
+              "do": "if",
+              "when": "capture:found",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "repeat",
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "send",
+          "cmd": "go curtain"
+        }
+      ]
     },
     "timeto": {
       "30581": 12,
