@@ -1,5 +1,5 @@
 {
-  "checksum": "39e1038768bda20d1cb58652f2473ab3",
+  "checksum": "9c9282b5f5d07bf8b5477e3d3cfe4fb3",
   "room": {
     "id": 24241,
     "title": [
@@ -17,10 +17,18 @@
         "strategy": "unique_crossing",
         "name": "crossing_24241_313"
       },
-      "20233": {
-        "strategy": "unique_crossing",
-        "name": "crossing_24241_20233"
-      },
+      "20233": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "climb root"
+            }
+          ]
+        }
+      ],
       "24240": "go stone arch",
       "24798": "go arch"
     },

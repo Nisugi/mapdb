@@ -1,5 +1,5 @@
 {
-  "checksum": "267024a4b0597d9aa6a6e5feb69328c2",
+  "checksum": "8f86464674ef2c986a176d01bd7c6b6e",
   "room": {
     "id": 24963,
     "title": [
@@ -13,10 +13,18 @@
     ],
     "location": "the catacombs",
     "wayto": {
-      "7602": {
-        "strategy": "unique_crossing",
-        "name": "crossing_24963_7602"
-      }
+      "7602": [
+        {
+          "do": "repeat",
+          "until_room": 7602,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "swim downstream"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "7602": 60

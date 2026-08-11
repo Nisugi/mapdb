@@ -1,5 +1,5 @@
 {
-  "checksum": "8b450ee215579b8ff336a876ca847b08",
+  "checksum": "82a6714e87b98eb81360f81422d643e4",
   "room": {
     "id": 23496,
     "title": [
@@ -13,10 +13,16 @@
     ],
     "location": "the bay",
     "wayto": {
-      "19109": {
-        "strategy": "unique_crossing",
-        "name": "crossing_23496_19109"
-      },
+      "19109": [
+        {
+          "do": "move",
+          "cmd": "knock wall"
+        },
+        {
+          "do": "send",
+          "cmd": "stand"
+        }
+      ],
       "23497": "go arch",
       "23503": "go modwir bar"
     },

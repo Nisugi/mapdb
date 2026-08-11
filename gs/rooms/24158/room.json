@@ -1,5 +1,5 @@
 {
-  "checksum": "de389f50e524685ffea95fa01d8a8cb9",
+  "checksum": "bd6fadfe2422a6d0bc5617f8f14c8b18",
   "room": {
     "id": 24158,
     "title": [
@@ -25,10 +25,18 @@
           ]
         }
       ],
-      "24159": {
-        "strategy": "unique_crossing",
-        "name": "crossing_24158_24159"
-      }
+      "24159": [
+        {
+          "do": "repeat",
+          "times": 2,
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "n"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "24152": 0.2,

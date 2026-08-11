@@ -1,5 +1,5 @@
 {
-  "checksum": "2e0c1cc768db4a9c27a8e2ae6e1c8ceb",
+  "checksum": "898164f386a89c446a32e0e2b77302cf",
   "room": {
     "id": 22007,
     "title": [
@@ -37,10 +37,27 @@
           "do": "fill_hands"
         }
       ],
-      "21967": {
-        "strategy": "unique_crossing",
-        "name": "crossing_22007_21967"
-      },
+      "21967": [
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "repeat",
+          "times": 4,
+          "steps": [
+            {
+              "do": "move",
+              "cmd": "climb wall"
+            }
+          ]
+        },
+        {
+          "do": "fill_hands"
+        }
+      ],
       "22008": [
         {
           "do": "wait_rt"
