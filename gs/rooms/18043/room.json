@@ -1,5 +1,5 @@
 {
-  "checksum": "6071aaa08cf2c8f559e52cfca685c669",
+  "checksum": "b8afaac0a1591e1ec197bbaa1792ff6b",
   "room": {
     "id": 18043,
     "title": [
@@ -14,10 +14,27 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "18042": "go steps",
-      "18052": {
-        "strategy": "unique_crossing",
-        "name": "crossing_18043_18052"
-      }
+      "18052": [
+        {
+          "do": "wait_until",
+          "when": "loot_match:{char} disk$",
+          "timeout": 4
+        },
+        {
+          "do": "if",
+          "when": "not:loot_match:{char} disk$",
+          "then": [
+            {
+              "do": "cast_buff",
+              "spell": 511
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "up"
+        }
+      ]
     },
     "timeto": {
       "18042": 0.2,

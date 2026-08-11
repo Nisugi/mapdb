@@ -1,5 +1,5 @@
 {
-  "checksum": "89bfe2a1f33fae3b42714b64ee869182",
+  "checksum": "2e812ddd94b40dc397745dd5f233e524",
   "room": {
     "id": 18054,
     "title": [
@@ -13,14 +13,48 @@
     ],
     "location": "Ta'Vaalor",
     "wayto": {
-      "18052": {
-        "strategy": "unique_crossing",
-        "name": "crossing_18052_18043"
-      },
-      "18068": {
-        "strategy": "unique_crossing",
-        "name": "crossing_18043_18052"
-      },
+      "18052": [
+        {
+          "do": "wait_until",
+          "when": "loot_match:{char} disk$",
+          "timeout": 4
+        },
+        {
+          "do": "if",
+          "when": "not:loot_match:{char} disk$",
+          "then": [
+            {
+              "do": "cast_buff",
+              "spell": 511
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "down"
+        }
+      ],
+      "18068": [
+        {
+          "do": "wait_until",
+          "when": "loot_match:{char} disk$",
+          "timeout": 4
+        },
+        {
+          "do": "if",
+          "when": "not:loot_match:{char} disk$",
+          "then": [
+            {
+              "do": "cast_buff",
+              "spell": 511
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "up"
+        }
+      ],
       "18070": "southeast",
       "18071": "northeast"
     },

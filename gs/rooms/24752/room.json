@@ -1,5 +1,5 @@
 {
-  "checksum": "69b288e1ea8315e3ecd0a2bf316ce814",
+  "checksum": "e94e4161c56297e09f73fa48bdba7626",
   "room": {
     "id": 24752,
     "title": [
@@ -15,10 +15,44 @@
     "wayto": {
       "18709": "north",
       "18710": "northwest",
-      "20423": {
-        "strategy": "unique_crossing",
-        "name": "crossing_24752_20423"
-      },
+      "20423": [
+        {
+          "do": "move",
+          "cmd": "west"
+        },
+        {
+          "do": "move",
+          "cmd": "west"
+        },
+        {
+          "do": "move",
+          "cmd": "northwest"
+        },
+        {
+          "do": "send",
+          "cmd": "rub blood"
+        },
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "move",
+          "cmd": "east"
+        },
+        {
+          "do": "move",
+          "cmd": "east"
+        },
+        {
+          "do": "send",
+          "cmd": "rub hatch"
+        },
+        {
+          "do": "move",
+          "cmd": "go hatch"
+        }
+      ],
       "24462": "west"
     },
     "timeto": {

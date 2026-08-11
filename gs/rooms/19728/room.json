@@ -1,5 +1,5 @@
 {
-  "checksum": "d4ad48655236de8a5b8ec5d4de9407c4",
+  "checksum": "b0cf9f6097d824c3469778cd1ffdf8db",
   "room": {
     "id": 19728,
     "title": [
@@ -15,10 +15,38 @@
     "wayto": {
       "19729": "go stone",
       "19732": "northwest",
-      "19992": {
-        "strategy": "unique_crossing",
-        "name": "crossing_19728_19992"
-      }
+      "19992": [
+        {
+          "do": "if",
+          "when": "loot_noun:door",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "go door"
+            }
+          ],
+          "else": [
+            {
+              "do": "send",
+              "cmd": "push stone"
+            },
+            {
+              "do": "repeat",
+              "until": "status:standing",
+              "steps": [
+                {
+                  "do": "send",
+                  "cmd": "stand"
+                }
+              ]
+            },
+            {
+              "do": "send",
+              "cmd": "go door"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "19729": 8,

@@ -1,5 +1,5 @@
 {
-  "checksum": "e7736b1fe8c04a32e0a84f1211e68be7",
+  "checksum": "0c631cc57cd1a5747d36ae344af52e3e",
   "room": {
     "id": 18186,
     "title": [
@@ -20,10 +20,15 @@
         "name": "crossing_18186_451"
       },
       "18185": "go shaft",
-      "18187": {
-        "strategy": "unique_crossing",
-        "name": "crossing_18186_18187"
-      }
+      "18187": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "go opening"
+        }
+      ]
     },
     "timeto": {
       "451": 0.2,
