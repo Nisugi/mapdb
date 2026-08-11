@@ -1,5 +1,5 @@
 {
-  "checksum": "9523cf1ee032a4facefb684413a3ab1e",
+  "checksum": "49183c3d396720a4e4dfede01f1b0f18",
   "room": {
     "id": 18180,
     "title": [
@@ -16,10 +16,56 @@
     "terrain": "mountainous",
     "wayto": {
       "18179": "east",
-      "18181": {
-        "strategy": "unique_crossing",
-        "name": "crossing_18180_18181"
-      }
+      "18181": [
+        {
+          "do": "sleep",
+          "seconds": 0.2
+        },
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "if",
+          "when": "not:loot_match:wooden cab",
+          "then": [
+            {
+              "do": "await",
+              "cmd": "close dam",
+              "timeout": 3,
+              "on_timeout": "continue",
+              "for": "You push hard on the wooden dam slat and it slides closed.|It is already closed."
+            },
+            {
+              "do": "echo",
+              "msg": "Waiting for 'riding on the trellis'.  This may take around four and a half minutes."
+            },
+            {
+              "do": "await",
+              "timeout": 600,
+              "on_timeout": "fail",
+              "for": "riding on the trellis, crawls down the side of the mountain and comes to a clunky stop"
+            }
+          ]
+        },
+        {
+          "do": "send",
+          "cmd": "open dam"
+        },
+        {
+          "do": "sleep",
+          "seconds": 0.5
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "fill_hands"
+        },
+        {
+          "do": "move",
+          "cmd": "go cab"
+        }
+      ]
     },
     "timeto": {
       "18179": 0.2,
