@@ -1,5 +1,5 @@
 {
-  "checksum": "649c52948f4c0793dfb62de8b64f4365",
+  "checksum": "29e0c847644295eb5e76bb6f733a44f2",
   "room": {
     "id": 7892,
     "title": [
@@ -24,6 +24,7 @@
         },
         {
           "do": "repeat",
+          "until": "paths_are:northeast, southeast",
           "steps": [
             {
               "do": "repeat",
@@ -38,16 +39,8 @@
             {
               "do": "await",
               "cmd": "go fog",
-              "for": "get turned around and come right back out|Obvious paths: northeast, southeast",
               "timeout": 5,
-              "if_match": {
-                "pattern": "Obvious paths: northeast, southeast",
-                "steps": [
-                  {
-                    "do": "break"
-                  }
-                ]
-              }
+              "for": "You attempt to navigate your way through the fog, but get turned around and come right back out where you started!|Obvious paths: northeast, southeast"
             },
             {
               "do": "sleep",
@@ -56,8 +49,7 @@
             {
               "do": "wait_rt"
             }
-          ],
-          "times": 50
+          ]
         }
       ]
     },

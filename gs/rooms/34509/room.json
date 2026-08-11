@@ -1,5 +1,5 @@
 {
-  "checksum": "1e1f4f99d6c7cad5fee89765b43c07ff",
+  "checksum": "606bd6509d2db83f56f448155290c519",
   "room": {
     "id": 34509,
     "title": [
@@ -15,10 +15,55 @@
     "climate": "arid",
     "terrain": "rough",
     "wayto": {
-      "7927": {
-        "strategy": "unique_crossing",
-        "name": "crossing_34509_7927"
-      },
+      "7927": [
+        {
+          "do": "search_rooms",
+          "rooms": [
+            "u474204",
+            "u474205",
+            "u474206",
+            "u474207",
+            "u474208",
+            "u474209",
+            "u474210",
+            "u474211",
+            "u474212",
+            "u474213",
+            "u474214",
+            "u474215",
+            "u474216",
+            "u474218",
+            "u474219",
+            "u474220",
+            "u474221",
+            "u474222",
+            "u474224",
+            "u474225",
+            "u474226",
+            "u474227",
+            "u474228",
+            "u474229",
+            "u474200",
+            "u474201",
+            "u474202",
+            "u474203"
+          ],
+          "until": "loot_match:rippling ethereal green portal"
+        },
+        {
+          "do": "move",
+          "cmd": "go ethereal portal"
+        },
+        {
+          "do": "if",
+          "when": "not:in_room:7927",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
+        }
+      ],
       "34508": "west",
       "34510": "north"
     },

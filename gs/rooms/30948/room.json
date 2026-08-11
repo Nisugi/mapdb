@@ -1,5 +1,5 @@
 {
-  "checksum": "09194ed91cb3bca154d19c5f2575b459",
+  "checksum": "9e08d85084f6415ebca7ce7c473c5c7e",
   "room": {
     "id": 30948,
     "title": [
@@ -15,7 +15,8 @@
     "wayto": {
       "30949": [
         {
-          "do": "wait_room_change"
+          "do": "wait_room_change",
+          "timeout": 300
         }
       ]
     },

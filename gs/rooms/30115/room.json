@@ -1,5 +1,5 @@
 {
-  "checksum": "f0b2589c20bf63923e472ca6056589d6",
+  "checksum": "171848e7bad6f4147cd4d713d1e8c3c6",
   "room": {
     "id": 30115,
     "title": [
@@ -20,10 +20,34 @@
         "strategy": "unique_crossing",
         "name": "crossing_30115_29861"
       },
-      "29867": {
-        "strategy": "unique_crossing",
-        "name": "crossing_30115_29867"
-      }
+      "29867": [
+        {
+          "do": "send",
+          "cmd": "west"
+        },
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "north"
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "not:in_room:29867",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "29861": 60,

@@ -1,5 +1,5 @@
 {
-  "checksum": "9c4e6d34816f51e5210ee4252dfb4d6f",
+  "checksum": "fa6a05dd31cd93eba723aaa0e2ce6cfa",
   "room": {
     "id": 17665,
     "title": [
@@ -13,10 +13,21 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "11433": {
-        "strategy": "unique_crossing",
-        "name": "crossing_17665_11433"
-      }
+      "11433": [
+        {
+          "do": "wait_room_change",
+          "timeout": 300
+        },
+        {
+          "do": "if",
+          "when": "not:in_room:11433",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "11433": 30
