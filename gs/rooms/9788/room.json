@@ -1,5 +1,5 @@
 {
-  "checksum": "be16ffc062f57817c53ea3bd6a1353cf",
+  "checksum": "1dd76d9a6a8ca99140ee5a65aa87a993",
   "room": {
     "id": 9788,
     "title": [
@@ -13,10 +13,42 @@
     ],
     "location": "the Maaghara Tower",
     "wayto": {
-      "9734": {
-        "strategy": "unique_crossing",
-        "name": "crossing_9784_9734"
-      },
+      "9734": [
+        {
+          "do": "repeat",
+          "times": 20,
+          "until": "room_name:\\AMaaghara Tower, Refuse Heap\\z",
+          "steps": [
+            {
+              "do": "try_move",
+              "cmd": "go root",
+              "fallback": [
+                {
+                  "do": "move_random"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "wait_until",
+          "when": "room_name:\\AMaaghara Tower, Refuse Heap\\z",
+          "timeout": 60
+        },
+        {
+          "do": "repeat",
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        },
+        {
+          "do": "wait_rt"
+        }
+      ],
       "9772": "southwest",
       "9799": "north"
     },
