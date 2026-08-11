@@ -1,5 +1,5 @@
 {
-  "checksum": "20320e5e5b4835ca3b15082153345251",
+  "checksum": "251fa0c01a63c0c822da06a670cd9c02",
   "room": {
     "id": 34435,
     "title": [
@@ -13,10 +13,35 @@
     ],
     "location": "Cuddfan Hollow, inside the Northern Caravansary on the outskirts of Wehnimer's Landing",
     "wayto": {
-      "34434": {
-        "strategy": "unique_crossing",
-        "name": "crossing_34434_34435"
-      },
+      "34434": [
+        {
+          "do": "borrow_item",
+          "item": "{uservar:key}"
+        },
+        {
+          "do": "send",
+          "cmd": "unlock bright door"
+        },
+        {
+          "do": "send",
+          "cmd": "open bright door"
+        },
+        {
+          "do": "move",
+          "cmd": "go bright door"
+        },
+        {
+          "do": "send",
+          "cmd": "close bright door"
+        },
+        {
+          "do": "send",
+          "cmd": "lock bright door"
+        },
+        {
+          "do": "return_item"
+        }
+      ],
       "34436": "east"
     },
     "timeto": {
