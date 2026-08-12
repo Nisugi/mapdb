@@ -1,5 +1,5 @@
 {
-  "checksum": "ce3c1d5cac9893c07ed1d8077ac7b6a9",
+  "checksum": "a9b121d9f9a79e00dc5b15c8633df211",
   "room": {
     "id": 18748,
     "title": [
@@ -14,10 +14,80 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "6016": "out",
-      "18747": {
-        "strategy": "unique_crossing",
-        "name": "crossing_18748_18747"
-      }
+      "18747": [
+        {
+          "do": "cast",
+          "spell": 707
+        },
+        {
+          "do": "for_each",
+          "as": "dir",
+          "items": [
+            "out",
+            "south",
+            "door",
+            "northwest",
+            "northeast",
+            "west",
+            "water",
+            "grate",
+            "southeast",
+            "southeast",
+            "open",
+            "stair"
+          ],
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "tell eye to go {capture:dir}"
+            }
+          ]
+        },
+        {
+          "do": "await",
+          "cmd": "tell eye to read basalt",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "The (wy'zio|ag'loenar|odeir'cos|beiron'fyn|ikar'fyn|quiss'fyn|erikar'fyn|lorae'tyr|shien'tyr|vakra|grk'tyr) rune glows with a pallid light on the surface of the panel of basalt",
+          "bind": {
+            "rune": 1
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:rune",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "draw {capture:rune} rune on basalt"
+            }
+          ]
+        },
+        {
+          "do": "await",
+          "cmd": "tell eye to read chalcedony",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "The (wy'zio|ag'loenar|odeir'cos|beiron'fyn|ikar'fyn|quiss'fyn|erikar'fyn|lorae'tyr|shien'tyr|vakra|grk'tyr) rune glows with a pallid light on the surface of the panel of chalcedony",
+          "bind": {
+            "rune": 1
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:rune",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "draw {capture:rune} rune on chalcedony"
+            }
+          ]
+        },
+        {
+          "do": "send",
+          "cmd": "tell eye to return"
+        }
+      ]
     },
     "timeto": {
       "6016": 0.2,

@@ -1,5 +1,5 @@
 {
-  "checksum": "62125e90fdb5e53bd084231929b56225",
+  "checksum": "a33aa0378905d90d37e7ef2139fbbea9",
   "room": {
     "id": 16165,
     "title": [
@@ -13,10 +13,103 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "16064": {
-        "strategy": "unique_crossing",
-        "name": "crossing_16165_16064"
-      },
+      "16064": [
+        {
+          "do": "repeat",
+          "times": 20,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "turn mirror right",
+              "timeout": 5,
+              "on_timeout": "continue",
+              "for": "The mirror won't turn any farther to the right|You turn the oak-framed mirror slightly to the right",
+              "bind": {
+                "turn": 0
+              }
+            },
+            {
+              "do": "if",
+              "when": "capture_match:turn=The mirror won't turn any farther to the right",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "repeat",
+          "times": 20,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "tilt mirror",
+              "timeout": 5,
+              "on_timeout": "continue",
+              "for": "from the base of the statue onto the center of the statue|You tilt the oak-framed mirror up until it flips around|You tilt the oak-framed mirror up slightly",
+              "bind": {
+                "tilt": 0
+              }
+            },
+            {
+              "do": "if",
+              "when": "capture_match:tilt=from the base of the statue onto the center of the statue",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            },
+            {
+              "do": "if",
+              "when": "capture_match:tilt=flips around",
+              "then": [
+                {
+                  "do": "await",
+                  "cmd": "turn mirror left",
+                  "timeout": 5,
+                  "on_timeout": "continue",
+                  "for": "from the base of the statue onto the center of the statue|You turn the oak-framed mirror slightly to the left|The mirror won't turn any farther to the left",
+                  "bind": {
+                    "left": 0
+                  }
+                },
+                {
+                  "do": "if",
+                  "when": "capture_match:left=from the base of the statue onto the center of the statue",
+                  "then": [
+                    {
+                      "do": "break"
+                    }
+                  ]
+                },
+                {
+                  "do": "if",
+                  "when": "capture_match:left=The mirror won't turn any farther to the left",
+                  "then": [
+                    {
+                      "do": "repeat",
+                      "times": 4,
+                      "steps": [
+                        {
+                          "do": "send",
+                          "cmd": "turn mirror right"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go shadow"
+        }
+      ],
       "16158": "west"
     },
     "timeto": {

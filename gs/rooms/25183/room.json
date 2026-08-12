@@ -1,5 +1,5 @@
 {
-  "checksum": "b4f7b33866e3788a09def38ef122005a",
+  "checksum": "6929719f8e4ec832facd730f56c74813",
   "room": {
     "id": 25183,
     "title": [
@@ -14,10 +14,84 @@
     "location": "the shadow of the Sanctum",
     "wayto": {
       "419": "go flap",
-      "25145": {
-        "strategy": "unique_crossing",
-        "name": "crossing_25183_25145"
-      }
+      "25145": [
+        {
+          "do": "await",
+          "cmd": "inquire",
+          "timeout": 5,
+          "on_timeout": "fail",
+          "for": "(\\d)\\) the Sea of Fire",
+          "bind": {
+            "choice": 1
+          }
+        },
+        {
+          "do": "await",
+          "cmd": "order {capture:choice}",
+          "timeout": 5,
+          "on_timeout": "continue",
+          "for": "about the price of a trip to the Sea of Fire"
+        },
+        {
+          "do": "await",
+          "cmd": "order confirm",
+          "timeout": 5,
+          "on_timeout": "continue",
+          "for": "It doesn't look like you have enough silver to ride\\.|We'll be taking that payment in silver, then\\.",
+          "bind": {
+            "paid": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture_match:paid=enough silver to ride",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for the Sea of Fire caravan."
+            },
+            {
+              "do": "break"
+            }
+          ]
+        },
+        {
+          "do": "wait_until",
+          "when": "room_name:Caravan, Wagon",
+          "timeout": 120
+        },
+        {
+          "do": "sleep",
+          "seconds": 1
+        },
+        {
+          "do": "wait_until",
+          "when": "not:room_name:Caravan, Wagon",
+          "timeout": 1800
+        },
+        {
+          "do": "if",
+          "when": "npc_match:thief|rogue|bandit|mugger|outlaw|highwayman|marauder|brigand|thug|robber",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "BANDITS!!! BANDITS!!! BANDITS!!!"
+            },
+            {
+              "do": "break"
+            }
+          ]
+        },
+        {
+          "do": "if",
+          "when": "not:in_room:25145",
+          "then": [
+            {
+              "do": "replan"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "419": 0.2,
