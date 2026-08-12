@@ -1,5 +1,5 @@
 {
-  "checksum": "becc8d33c2cf23043874ffdbe265fe0e",
+  "checksum": "ea31cf60a9c30d4141d177eec2edc6a1",
   "room": {
     "id": 1260,
     "title": [
@@ -20,6 +20,28 @@
         {
           "do": "await",
           "cmd": "buy ticket",
+          "timeout": 5,
+          "on_timeout": "continue",
+          "for": "don.t have enough silvers to purchase",
+          "bind": {
+            "refused": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:refused",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for a cart ticket."
+            },
+            {
+              "do": "break"
+            }
+          ]
+        },
+        {
+          "do": "await",
           "for": "You\\ hastily\\ exit\\ the\\ cart",
           "timeout": 1800,
           "on_timeout": "fail"

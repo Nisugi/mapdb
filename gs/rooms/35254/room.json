@@ -1,5 +1,5 @@
 {
-  "checksum": "72482cb659071a5d63f52116f453b4fb",
+  "checksum": "ee4728545eaa178d8745228434aeb887",
   "room": {
     "id": 35254,
     "title": [
@@ -19,8 +19,27 @@
           "cmd": "ask portmaster about travel 1"
         },
         {
-          "do": "send",
-          "cmd": "ask portmaster about travel 1"
+          "do": "await",
+          "cmd": "ask portmaster about travel 1",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "ain.t got the money",
+          "bind": {
+            "refused": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:refused",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for passage."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",
@@ -35,8 +54,27 @@
           "cmd": "ask portmaster about travel 2"
         },
         {
-          "do": "send",
-          "cmd": "ask portmaster about travel 2"
+          "do": "await",
+          "cmd": "ask portmaster about travel 2",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "ain.t got the money",
+          "bind": {
+            "refused": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:refused",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for passage."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",
@@ -51,8 +89,27 @@
           "cmd": "ask portmaster about travel 7"
         },
         {
-          "do": "send",
-          "cmd": "ask portmaster about travel 7"
+          "do": "await",
+          "cmd": "ask portmaster about travel 7",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "ain.t got the money",
+          "bind": {
+            "refused": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:refused",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for passage."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",

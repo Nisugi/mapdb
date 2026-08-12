@@ -1,5 +1,5 @@
 {
-  "checksum": "2402c64eb28f99f312cc04c331942f3c",
+  "checksum": "2249a77f83b19fefeb5a269798553c80",
   "room": {
     "id": 250,
     "title": [
@@ -23,8 +23,27 @@
           "cmd": "ask portmaster about travel 4"
         },
         {
-          "do": "send",
-          "cmd": "ask portmaster about travel 4"
+          "do": "await",
+          "cmd": "ask portmaster about travel 4",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "ain.t got the money",
+          "bind": {
+            "refused": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:refused",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for passage."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",
@@ -39,8 +58,27 @@
           "cmd": "ask portmaster about travel 3"
         },
         {
-          "do": "send",
-          "cmd": "ask portmaster about travel 3"
+          "do": "await",
+          "cmd": "ask portmaster about travel 3",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "ain.t got the money",
+          "bind": {
+            "refused": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:refused",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for passage."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",
@@ -55,8 +93,27 @@
           "cmd": "ask portmaster about travel 2"
         },
         {
-          "do": "send",
-          "cmd": "ask portmaster about travel 2"
+          "do": "await",
+          "cmd": "ask portmaster about travel 2",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "ain.t got the money",
+          "bind": {
+            "refused": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:refused",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for passage."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",
@@ -72,8 +129,27 @@
           "cmd": "ask portmaster about travel 5"
         },
         {
-          "do": "send",
-          "cmd": "ask portmaster about travel 5"
+          "do": "await",
+          "cmd": "ask portmaster about travel 5",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "ain.t got the money",
+          "bind": {
+            "refused": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:refused",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for passage."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",
@@ -91,8 +167,27 @@
           "cmd": "ask portmaster about travel 6"
         },
         {
-          "do": "send",
-          "cmd": "ask portmaster about travel 6"
+          "do": "await",
+          "cmd": "ask portmaster about travel 6",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "ain.t got the money",
+          "bind": {
+            "refused": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:refused",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for passage."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",
@@ -107,8 +202,27 @@
           "cmd": "ask portmaster about travel 7"
         },
         {
-          "do": "send",
-          "cmd": "ask portmaster about travel 7"
+          "do": "await",
+          "cmd": "ask portmaster about travel 7",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "ain.t got the money",
+          "bind": {
+            "refused": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:refused",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for passage."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",
@@ -123,8 +237,27 @@
           "cmd": "ask portmaster about travel 8"
         },
         {
-          "do": "send",
-          "cmd": "ask portmaster about travel 8"
+          "do": "await",
+          "cmd": "ask portmaster about travel 8",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "ain.t got the money",
+          "bind": {
+            "refused": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:refused",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for passage."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",
@@ -139,8 +272,27 @@
           "cmd": "ask portmaster about travel 11"
         },
         {
-          "do": "send",
-          "cmd": "ask portmaster about travel 11"
+          "do": "await",
+          "cmd": "ask portmaster about travel 11",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "ain.t got the money",
+          "bind": {
+            "refused": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:refused",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for passage."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",

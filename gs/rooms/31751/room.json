@@ -1,5 +1,5 @@
 {
-  "checksum": "0b619491d90051eb9093c7d1cb93df8a",
+  "checksum": "3f1ad8d77e8709dc39d9f17aea60fcc3",
   "room": {
     "id": 31751,
     "title": [
@@ -16,8 +16,27 @@
       "31750": "go door",
       "32075": [
         {
-          "do": "send",
-          "cmd": "give attendant 2000"
+          "do": "await",
+          "cmd": "give attendant 2000",
+          "timeout": 5,
+          "on_timeout": "continue",
+          "for": "don.t have that much silver",
+          "bind": {
+            "refused": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:refused",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for the attendant."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "move",
