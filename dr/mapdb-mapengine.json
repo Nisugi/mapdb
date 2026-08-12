@@ -15781,8 +15781,88 @@
       "472": "go gate",
       "474": "northeast",
       "1375": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_473_1375"
+        "define": {
+          "swim": [
+            {
+              "do": "send",
+              "cmd": "swim {capture:leg}"
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        "steps": [
+          {
+            "do": "if",
+            "when": "script_exists:bescort",
+            "then": [
+              {
+                "do": "run_script",
+                "script": "bescort",
+                "args": [
+                  "faldesu",
+                  "crossing"
+                ]
+              }
+            ],
+            "else": [
+              {
+                "do": "echo",
+                "msg": "Create a script named UDC to remove armor and RDC to wear it again."
+              },
+              {
+                "do": "run_script",
+                "script": "udc"
+              },
+              {
+                "do": "send",
+                "cmd": "dive river"
+              },
+              {
+                "do": "wait_rt"
+              },
+              {
+                "do": "for_each",
+                "as": "leg",
+                "items": [
+                  "s",
+                  "s",
+                  "s",
+                  "s",
+                  "s",
+                  "s",
+                  "s",
+                  "s",
+                  "sw",
+                  "se",
+                  "se",
+                  "se",
+                  "se",
+                  "se",
+                  "se",
+                  "se",
+                  "se",
+                  "se"
+                ],
+                "steps": [
+                  {
+                    "do": "steps_ref",
+                    "name": "swim"
+                  }
+                ]
+              },
+              {
+                "do": "send",
+                "cmd": "climb bridge"
+              },
+              {
+                "do": "run_script",
+                "script": "rdc"
+              }
+            ]
+          }
+        ]
       },
       "9339": "go path"
     },
@@ -48287,8 +48367,89 @@
     "location": "North Road and the Marsh",
     "wayto": {
       "473": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_1375_473"
+        "define": {
+          "swim": [
+            {
+              "do": "send",
+              "cmd": "swim {capture:leg}"
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        "steps": [
+          {
+            "do": "if",
+            "when": "script_exists:bescort",
+            "then": [
+              {
+                "do": "run_script",
+                "script": "bescort",
+                "args": [
+                  "faldesu",
+                  "haven"
+                ]
+              }
+            ],
+            "else": [
+              {
+                "do": "echo",
+                "msg": "Create a script named UDC to remove armor and RDC to wear it again."
+              },
+              {
+                "do": "run_script",
+                "script": "udc"
+              },
+              {
+                "do": "send",
+                "cmd": "dive river"
+              },
+              {
+                "do": "wait_rt"
+              },
+              {
+                "do": "for_each",
+                "as": "leg",
+                "items": [
+                  "n",
+                  "n",
+                  "n",
+                  "n",
+                  "n",
+                  "n",
+                  "n",
+                  "n",
+                  "nw",
+                  "ne",
+                  "ne",
+                  "ne",
+                  "ne",
+                  "ne",
+                  "ne",
+                  "ne",
+                  "ne",
+                  "ne",
+                  "ne"
+                ],
+                "steps": [
+                  {
+                    "do": "steps_ref",
+                    "name": "swim"
+                  }
+                ]
+              },
+              {
+                "do": "send",
+                "cmd": "climb bridge"
+              },
+              {
+                "do": "run_script",
+                "script": "rdc"
+              }
+            ]
+          }
+        ]
       },
       "1376": "southeast"
     },
@@ -77931,10 +78092,68 @@
     "location": "The Gash and Obsidian Pass",
     "wayto": {
       "2246": "go ridge",
-      "2904": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_2249_2904"
-      }
+      "2904": [
+        {
+          "do": "if",
+          "when": "script_exists:bescort",
+          "then": [
+            {
+              "do": "run_script",
+              "script": "bescort",
+              "args": [
+                "gondola",
+                "south"
+              ]
+            }
+          ],
+          "else": [
+            {
+              "do": "await",
+              "cmd": "go gondola",
+              "timeout": 10,
+              "on_timeout": "continue",
+              "for": "There is no wooden gondola here\\.|Gondola,\\ Cab\\ North",
+              "bind": {
+                "boarded": 0
+              }
+            },
+            {
+              "do": "if",
+              "when": "not:capture_match:boarded=Gondola,\\ Cab\\ North",
+              "then": [
+                {
+                  "do": "echo",
+                  "msg": "waiting for the gondola..."
+                },
+                {
+                  "do": "await",
+                  "timeout": 1800,
+                  "on_timeout": "fail",
+                  "for": "The gondola stops on the platform and the door silently swings open\\."
+                },
+                {
+                  "do": "move",
+                  "cmd": "go gondola"
+                }
+              ]
+            },
+            {
+              "do": "move",
+              "cmd": "south"
+            },
+            {
+              "do": "await",
+              "timeout": 1800,
+              "on_timeout": "fail",
+              "for": "With a soft bump, the gondola comes to a stop at its destination\\."
+            },
+            {
+              "do": "move",
+              "cmd": "out"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "2246": 0.2,
@@ -100047,10 +100266,68 @@
     ],
     "location": "Southern Trade Route South of the Gondola",
     "wayto": {
-      "2249": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_2904_2249"
-      },
+      "2249": [
+        {
+          "do": "if",
+          "when": "script_exists:bescort",
+          "then": [
+            {
+              "do": "run_script",
+              "script": "bescort",
+              "args": [
+                "gondola",
+                "north"
+              ]
+            }
+          ],
+          "else": [
+            {
+              "do": "await",
+              "cmd": "go gondola",
+              "timeout": 10,
+              "on_timeout": "continue",
+              "for": "There is no wooden gondola here\\.|Gondola,\\ Cab\\ South",
+              "bind": {
+                "boarded": 0
+              }
+            },
+            {
+              "do": "if",
+              "when": "not:capture_match:boarded=Gondola,\\ Cab\\ South",
+              "then": [
+                {
+                  "do": "echo",
+                  "msg": "waiting for the gondola..."
+                },
+                {
+                  "do": "await",
+                  "timeout": 1800,
+                  "on_timeout": "fail",
+                  "for": "The gondola stops on the platform and the door silently swings open\\."
+                },
+                {
+                  "do": "move",
+                  "cmd": "go gondola"
+                }
+              ]
+            },
+            {
+              "do": "move",
+              "cmd": "north"
+            },
+            {
+              "do": "await",
+              "timeout": 1800,
+              "on_timeout": "fail",
+              "for": "With a soft bump, the gondola comes to a stop at its destination\\."
+            },
+            {
+              "do": "move",
+              "cmd": "out"
+            }
+          ]
+        }
+      ],
       "2903": "go frame"
     },
     "timeto": {
@@ -154052,10 +154329,36 @@
     "wayto": {
       "4539": "go opening",
       "4541": "up",
-      "4543": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_4540_4543"
-      }
+      "4543": [
+        {
+          "do": "await",
+          "cmd": "go stone wall",
+          "timeout": 5,
+          "on_timeout": "continue",
+          "for": "I could not find what you were referring to\\.|Seord\\ Kerwaith,\\ Squat\\ Cavern",
+          "bind": {
+            "result": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "not:capture_match:result=Seord\\ Kerwaith,\\ Squat\\ Cavern",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "turn torch"
+            },
+            {
+              "do": "sleep",
+              "seconds": 1
+            },
+            {
+              "do": "move",
+              "cmd": "go stone wall"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "4539": 0.2,
@@ -154150,10 +154453,36 @@
     ],
     "location": "Forfedhdar",
     "wayto": {
-      "4540": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_4543_4540"
-      },
+      "4540": [
+        {
+          "do": "await",
+          "cmd": "go stone wall",
+          "timeout": 5,
+          "on_timeout": "continue",
+          "for": "I could not find what you were referring to\\.|Cragstone\\ Vale,\\ Tunnel",
+          "bind": {
+            "result": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "not:capture_match:result=Cragstone\\ Vale,\\ Tunnel",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "turn basin"
+            },
+            {
+              "do": "sleep",
+              "seconds": 1
+            },
+            {
+              "do": "move",
+              "cmd": "go stone wall"
+            }
+          ]
+        }
+      ],
       "6229": [
         {
           "do": "send",
@@ -170951,10 +171280,22 @@
     ],
     "location": "Ratha, Tiers Three and Four",
     "wayto": {
-      "4794": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_5072_4794"
-      },
+      "4794": [
+        {
+          "do": "await",
+          "cmd": "open door",
+          "timeout": 5,
+          "on_timeout": "continue",
+          "for": "already open|slowly lifting the door"
+        },
+        {
+          "do": "await",
+          "cmd": "climb steep tunnel in door",
+          "timeout": 15,
+          "on_timeout": "continue",
+          "for": "Ratha"
+        }
+      ],
       "5065": "south",
       "5071": "north"
     },
@@ -174812,10 +175153,30 @@
     "wayto": {
       "5190": "east",
       "5192": "west",
-      "12660": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_5191_12660"
-      }
+      "12660": [
+        {
+          "do": "sleep",
+          "seconds": 1
+        },
+        {
+          "do": "await",
+          "cmd": "search",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "Roundtime"
+        },
+        {
+          "do": "sleep",
+          "seconds": 4
+        },
+        {
+          "do": "await",
+          "cmd": "go narrow gap",
+          "timeout": 15,
+          "on_timeout": "continue",
+          "for": "This narrow trail through"
+        }
+      ]
     },
     "timeto": {
       "5190": 0.2,
@@ -251951,10 +252312,25 @@
     "location": "Therengia",
     "wayto": {
       "7634": "southwest",
-      "7647": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_7633_7647"
-      }
+      "7647": [
+        {
+          "do": "if",
+          "when": "not:drskill:Athletics>=240",
+          "then": [
+            {
+              "do": "run_script",
+              "script": "weararmor",
+              "args": [
+                "swimming"
+              ]
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go bank"
+        }
+      ]
     },
     "timeto": {
       "7634": 0.2,
@@ -252174,10 +252550,47 @@
         }
       ],
       "7641": "south",
-      "7643": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_7639_7643"
-      }
+      "7643": [
+        {
+          "do": "send",
+          "cmd": "search rocky ledge"
+        },
+        {
+          "do": "move",
+          "cmd": "climb shrub"
+        },
+        {
+          "do": "await",
+          "cmd": "peer path",
+          "timeout": 15,
+          "on_timeout": "continue",
+          "for": "Peering closely at a faint path, you realize you would need to head (\\w+)",
+          "bind": {
+            "dir": 1
+          }
+        },
+        {
+          "do": "if",
+          "when": "not:capture:dir",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Could not read the path direction."
+            },
+            {
+              "do": "break"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "down"
+        },
+        {
+          "do": "move",
+          "cmd": "{capture:dir}"
+        }
+      ]
     },
     "timeto": {
       "7640": 0.2,
@@ -252655,10 +253068,22 @@
           "do": "wait_rt"
         }
       ],
-      "7658": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_7651_7658"
-      }
+      "7658": [
+        {
+          "do": "if",
+          "when": "not:drskill:Athletics>=240",
+          "then": [
+            {
+              "do": "run_script",
+              "script": "weararmor"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go bank"
+        }
+      ]
     },
     "timeto": {
       "7650": 0.2,
@@ -266118,10 +266543,43 @@
     ],
     "wayto": {
       "8075": "climb trunk",
-      "8082": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_8060_8082"
-      }
+      "8082": [
+        {
+          "do": "await",
+          "cmd": "peer church",
+          "timeout": 15,
+          "on_timeout": "continue",
+          "for": "You recall that the path you traced to the church lies to the (?<dir>\\w+)|you manage to spy a suitable path to the (?<dir>\\w+)",
+          "bind": {
+            "dir": "dir"
+          }
+        },
+        {
+          "do": "if",
+          "when": "not:capture:dir",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Could not read the church direction."
+            },
+            {
+              "do": "break"
+            }
+          ]
+        },
+        {
+          "do": "sleep",
+          "seconds": 2
+        },
+        {
+          "do": "move",
+          "cmd": "climb trunk"
+        },
+        {
+          "do": "move",
+          "cmd": "{capture:dir}"
+        }
+      ]
     },
     "timeto": {
       "8075": 0.2,
@@ -290642,10 +291100,19 @@
         }
       ],
       "8838": "northwest",
-      "8841": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_8837_8841"
-      }
+      "8841": [
+        {
+          "do": "send",
+          "cmd": "go river west"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "move",
+          "cmd": "go island"
+        }
+      ]
     },
     "timeto": {
       "6823": 0.2,
@@ -290775,10 +291242,19 @@
       "Obvious paths: south, southwest, west, northwest."
     ],
     "wayto": {
-      "8837": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_8841_8837"
-      },
+      "8837": [
+        {
+          "do": "send",
+          "cmd": "go river east"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "move",
+          "cmd": "go bank"
+        }
+      ],
       "8842": "northwest",
       "8847": "southwest",
       "8848": "west",
@@ -384500,10 +384976,15 @@
       "Obvious exits: none."
     ],
     "wayto": {
-      "12131": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_12132_12131"
-      }
+      "12131": [
+        {
+          "do": "echo",
+          "msg": "No known way out of the Hidden Place: this edge was never mapped."
+        },
+        {
+          "do": "break"
+        }
+      ]
     },
     "timeto": {
       "12131": 0.2
@@ -386340,9 +386821,9 @@
         },
         {
           "do": "await",
-          "for": "After\\ a\\ seemingly\\ interminible\\ length\\ of\\ time,\\ you\\ crawl\\ out\\ of\\ the\\ passage\\ into",
-          "timeout": 1800,
-          "on_timeout": "fail"
+          "timeout": 600,
+          "on_timeout": "fail",
+          "for": "After a seemingly interminible length of time, you crawl out of the passage into"
         }
       ]
     },
@@ -392936,9 +393417,9 @@
         },
         {
           "do": "await",
-          "for": "After\\ a\\ seemingly\\ interminible\\ length\\ of\\ time,\\ you\\ crawl\\ out\\ of\\ the\\ passage\\ into",
-          "timeout": 1800,
-          "on_timeout": "fail"
+          "timeout": 600,
+          "on_timeout": "fail",
+          "for": "After a seemingly interminible length of time, you crawl out of the passage into"
         }
       ],
       "12400": "go white arch",
@@ -524798,10 +525279,20 @@
     "wayto": {
       "11775": "west",
       "19074": "east",
-      "19389": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_19075_19389"
-      }
+      "19389": [
+        {
+          "do": "move",
+          "cmd": "w"
+        },
+        {
+          "do": "move",
+          "cmd": "w"
+        },
+        {
+          "do": "move",
+          "cmd": "w"
+        }
+      ]
     },
     "timeto": {
       "11775": 0.2,
@@ -532614,10 +533105,20 @@
     ],
     "location": "Segoltha River",
     "wayto": {
-      "19075": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_19389_19075"
-      },
+      "19075": [
+        {
+          "do": "move",
+          "cmd": "e"
+        },
+        {
+          "do": "move",
+          "cmd": "e"
+        },
+        {
+          "do": "move",
+          "cmd": "e"
+        }
+      ],
       "19373": "west",
       "19391": "north"
     },
@@ -537701,10 +538202,37 @@
       "34394": "west",
       "34398": "southwest",
       "34402": "southeast",
-      "34404": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_34400_34404"
-      }
+      "34404": [
+        {
+          "do": "repeat",
+          "times": 20,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "turn sconce",
+              "timeout": 10,
+              "on_timeout": "continue",
+              "for": "you (?<status>\\w+) down|You (?<status>\\w+) up",
+              "bind": {
+                "status": "status"
+              }
+            },
+            {
+              "do": "if",
+              "when": "capture:status=pull",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go door"
+        }
+      ]
     },
     "timeto": {
       "34394": 0.2,
@@ -537793,10 +538321,13 @@
     ],
     "location": "Catacombs",
     "wayto": {
-      "34400": {
-        "strategy": "unique_crossing",
-        "name": "crossing_dr_34400_34404"
-      },
+      "34400": [
+        {
+          "do": "cross",
+          "room": 34400,
+          "dest": "34404"
+        }
+      ],
       "46804": "climb step"
     },
     "timeto": {
