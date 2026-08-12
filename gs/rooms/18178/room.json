@@ -1,5 +1,5 @@
 {
-  "checksum": "2d3d289dfa6b8cd2d0056103173f5a81",
+  "checksum": "1c9306b27c32ffc1c3019187d71630eb",
   "room": {
     "id": 18178,
     "title": [
@@ -17,8 +17,120 @@
     "wayto": {
       "18177": "east",
       "18179": {
-        "strategy": "unique_crossing",
-        "name": "crossing_18178_18179"
+        "define": {
+          "read_runes": [
+            {
+              "do": "await",
+              "cmd": "look runes",
+              "timeout": 3,
+              "on_timeout": "continue",
+              "for": "There are five protrusions with rune markings\\..*?The last one, labeled (\\w), is directly under the (\\w) rune\\.",
+              "bind": {
+                "rune": 1,
+                "under": 2
+              }
+            },
+            {
+              "do": "if",
+              "when": "not:capture:under",
+              "then": [
+                {
+                  "do": "set_capture",
+                  "name": "under",
+                  "value": "E"
+                }
+              ]
+            }
+          ]
+        },
+        "steps": [
+          {
+            "do": "await",
+            "cmd": "look staircase",
+            "timeout": 3,
+            "on_timeout": "continue",
+            "for": "you could easily scramble up them to the ledge above|It really doesn.t make much sense",
+            "bind": {
+              "stairs": 0
+            }
+          },
+          {
+            "do": "if",
+            "when": "not:capture_match:stairs=scramble up them",
+            "then": [
+              {
+                "do": "steps_ref",
+                "name": "read_runes"
+              },
+              {
+                "do": "repeat",
+                "times": 30,
+                "steps": [
+                  {
+                    "do": "map_capture",
+                    "from": "under",
+                    "to": "press",
+                    "table": {
+                      "O": "R",
+                      "R": "S",
+                      "Z": "Z",
+                      "S": "O",
+                      "E": "E"
+                    },
+                    "default": "E"
+                  },
+                  {
+                    "do": "await",
+                    "cmd": "press {capture:press} rune",
+                    "timeout": 5,
+                    "on_timeout": "continue",
+                    "for": "You touch the \\w rune\\.  With a loud grinding sound, .*?\\.  (.*?)  Curiously the (\\w) rune seems to have shifted position\\.  It is now lined up under the (\\w) rune\\.|Nothing happens|You touch the E rune\\.  With a loud grinding sound, the entire staircase lowers into the ledge\\.",
+                    "bind": {
+                      "result": 0,
+                      "stairs": 1,
+                      "rune": 2,
+                      "under": 3
+                    }
+                  },
+                  {
+                    "do": "if",
+                    "when": "capture_match:stairs=complete staircase",
+                    "then": [
+                      {
+                        "do": "break"
+                      }
+                    ]
+                  },
+                  {
+                    "do": "if",
+                    "when": "capture_match:result=entire staircase lowers",
+                    "then": [
+                      {
+                        "do": "steps_ref",
+                        "name": "read_runes"
+                      }
+                    ]
+                  },
+                  {
+                    "do": "if",
+                    "when": "capture_match:result=Nothing happens",
+                    "then": [
+                      {
+                        "do": "set_capture",
+                        "name": "under",
+                        "value": "E"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "do": "move",
+            "cmd": "go staircase"
+          }
+        ]
       }
     },
     "timeto": {

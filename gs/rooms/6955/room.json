@@ -1,5 +1,5 @@
 {
-  "checksum": "73403318716f5e4a391994eec66ae126",
+  "checksum": "661cd672f913be130b72ea5a9836caf7",
   "room": {
     "id": 6955,
     "title": [
@@ -17,8 +17,260 @@
     "wayto": {
       "6954": "north",
       "6985": {
-        "strategy": "unique_crossing",
-        "name": "crossing_6955_6985"
+        "steps": [
+          {
+            "do": "empty_hands"
+          },
+          {
+            "do": "borrow_item",
+            "item": "short sword"
+          },
+          {
+            "do": "if",
+            "when": "not:capture:item",
+            "then": [
+              {
+                "do": "if",
+                "when": "global:go2_get_silvers",
+                "then": [
+                  {
+                    "do": "travel_to",
+                    "tag": "bank"
+                  },
+                  {
+                    "do": "if",
+                    "when": "status:hidden",
+                    "then": [
+                      {
+                        "do": "send",
+                        "cmd": "unhide"
+                      }
+                    ]
+                  },
+                  {
+                    "do": "await",
+                    "cmd": "withdraw 200",
+                    "timeout": 10,
+                    "on_timeout": "continue",
+                    "for": "hands you|don.t seem to have that much",
+                    "bind": {
+                      "withdrew": 0
+                    }
+                  },
+                  {
+                    "do": "if",
+                    "when": "not:capture_match:withdrew=hands you",
+                    "then": [
+                      {
+                        "do": "echo",
+                        "msg": "Not enough silver to buy a short sword."
+                      },
+                      {
+                        "do": "break"
+                      }
+                    ]
+                  },
+                  {
+                    "do": "travel_to",
+                    "tag": "weaponshop"
+                  },
+                  {
+                    "do": "if",
+                    "when": "status:hidden",
+                    "then": [
+                      {
+                        "do": "send",
+                        "cmd": "unhide"
+                      }
+                    ]
+                  },
+                  {
+                    "do": "send",
+                    "cmd": "order 3"
+                  },
+                  {
+                    "do": "await",
+                    "cmd": "buy",
+                    "timeout": 10,
+                    "on_timeout": "continue",
+                    "for": "You hand|you don.t have enough"
+                  },
+                  {
+                    "do": "travel_to",
+                    "tag": "bank"
+                  },
+                  {
+                    "do": "if",
+                    "when": "status:hidden",
+                    "then": [
+                      {
+                        "do": "send",
+                        "cmd": "unhide"
+                      }
+                    ]
+                  },
+                  {
+                    "do": "send",
+                    "cmd": "deposit all"
+                  },
+                  {
+                    "do": "travel_to",
+                    "room": 6955
+                  },
+                  {
+                    "do": "borrow_item",
+                    "item": "short sword"
+                  }
+                ],
+                "else": [
+                  {
+                    "do": "echo",
+                    "msg": "You have no short sword. Use go2 getsilvers=on to have one bought for you."
+                  },
+                  {
+                    "do": "break"
+                  }
+                ]
+              },
+              {
+                "do": "if",
+                "when": "not:capture:item",
+                "then": [
+                  {
+                    "do": "break"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "do": "cast_buff",
+            "spell": 9704,
+            "stamina": true,
+            "timeout": 60
+          },
+          {
+            "do": "suspend_scripts",
+            "scripts": [
+              "disarm"
+            ],
+            "steps": [
+              {
+                "do": "repeat",
+                "times": 30,
+                "until_room": 6985,
+                "steps": [
+                  {
+                    "do": "move",
+                    "cmd": "go pool"
+                  },
+                  {
+                    "do": "send",
+                    "cmd": "swim down"
+                  },
+                  {
+                    "do": "send",
+                    "cmd": "kneel"
+                  },
+                  {
+                    "do": "sleep",
+                    "seconds": 0.5
+                  },
+                  {
+                    "do": "if",
+                    "when": "capture:recovering",
+                    "then": [
+                      {
+                        "do": "await",
+                        "cmd": "recover item",
+                        "timeout": 3,
+                        "on_timeout": "continue",
+                        "for": "nothing recoverable|and recover it",
+                        "bind": {
+                          "recovered": 0
+                        }
+                      },
+                      {
+                        "do": "if",
+                        "when": "capture_match:recovered=and recover it",
+                        "then": [
+                          {
+                            "do": "set_capture",
+                            "name": "recovering",
+                            "value": ""
+                          }
+                        ]
+                      },
+                      {
+                        "do": "wait_rt"
+                      }
+                    ],
+                    "else": [
+                      {
+                        "do": "await",
+                        "cmd": "pry gap",
+                        "timeout": 3,
+                        "on_timeout": "continue",
+                        "for": "you are spit out|tumbles out of your hand|good enough leverage",
+                        "bind": {
+                          "pried": 0
+                        }
+                      },
+                      {
+                        "do": "if",
+                        "when": "capture_match:pried=tumbles out of your hand",
+                        "then": [
+                          {
+                            "do": "set_capture",
+                            "name": "recovering",
+                            "value": "yes"
+                          }
+                        ]
+                      },
+                      {
+                        "do": "wait_rt"
+                      },
+                      {
+                        "do": "break_if_moved"
+                      }
+                    ]
+                  },
+                  {
+                    "do": "send",
+                    "cmd": "swim up"
+                  },
+                  {
+                    "do": "send",
+                    "cmd": "go shore"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "do": "repeat",
+            "times": 10,
+            "until": "status:standing",
+            "steps": [
+              {
+                "do": "send",
+                "cmd": "stand"
+              }
+            ]
+          },
+          {
+            "do": "wait_rt"
+          },
+          {
+            "do": "return_item"
+          },
+          {
+            "do": "fill_hands"
+          },
+          {
+            "do": "replan"
+          }
+        ]
       },
       "22229": "go pool"
     },

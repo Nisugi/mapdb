@@ -1,5 +1,5 @@
 {
-  "checksum": "dc272f84990b43421b521ca6053717b6",
+  "checksum": "bccf0f1dc8b17238939b166f7f6dcfe8",
   "room": {
     "id": 10781,
     "title": [
@@ -17,8 +17,61 @@
     "wayto": {
       "4715": "south",
       "18150": {
-        "strategy": "unique_crossing",
-        "name": "crossing_10781_18150"
+        "define": {
+          "attune": [
+            {
+              "do": "await",
+              "cmd": "look {capture:pillar} pillar",
+              "timeout": 5,
+              "on_timeout": "continue",
+              "for": "dark cloud|dark eye|hazy black|slate grey|blood-drop|radiating circle|consist of",
+              "bind": {
+                "symbol": 0
+              }
+            },
+            {
+              "do": "map_capture",
+              "from": "symbol",
+              "to": "spell",
+              "table": {
+                "blood-drop": "701",
+                "radiating circle": "702",
+                "dark cloud": "703",
+                "hazy black": "704",
+                "slate grey": "705",
+                "dark eye": "717"
+              }
+            },
+            {
+              "do": "if",
+              "when": "capture:spell",
+              "then": [
+                {
+                  "do": "cast",
+                  "spell": "{capture:spell}",
+                  "target": "{capture:pillar} pillar"
+                }
+              ]
+            }
+          ]
+        },
+        "steps": [
+          {
+            "do": "for_each",
+            "as": "pillar",
+            "items": [
+              "deep",
+              "black",
+              "dark"
+            ],
+            "steps": [
+              {
+                "do": "steps_ref",
+                "name": "attune"
+              }
+            ]
+          }
+        ]
       }
     },
     "timeto": {
