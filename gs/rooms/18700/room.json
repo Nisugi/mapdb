@@ -1,5 +1,5 @@
 {
-  "checksum": "187c0b8752db4286378d344abbe4d7ad",
+  "checksum": "aa74242e3cd93b7685e1138ca01dcc7e",
   "room": {
     "id": 18700,
     "title": [
@@ -14,10 +14,85 @@
     "location": "somewhere on the Great Western Sea",
     "wayto": {
       "18249": "east",
-      "18250": {
-        "strategy": "unique_crossing",
-        "name": "crossing_18700_18250"
-      },
+      "18250": [
+        {
+          "do": "if",
+          "when": "loot_match:ruined cell door",
+          "then": [
+            {
+              "do": "move",
+              "cmd": "go door"
+            }
+          ],
+          "else": [
+            {
+              "do": "if",
+              "when": "not:holding:",
+              "then": [
+                {
+                  "do": "echo",
+                  "msg": "You need a weapon in hand to batter the door."
+                },
+                {
+                  "do": "break"
+                }
+              ]
+            },
+            {
+              "do": "echo",
+              "msg": "Battering the door until it is destroyed..."
+            },
+            {
+              "do": "repeat",
+              "times": 30,
+              "steps": [
+                {
+                  "do": "await",
+                  "cmd": "batter door",
+                  "timeout": 3,
+                  "on_timeout": "continue",
+                  "for": "You bash at the|The cell door has already been destroyed\\.|Your .*? is ineffective against the door|going to do much good",
+                  "bind": {
+                    "result": 0
+                  }
+                },
+                {
+                  "do": "if",
+                  "when": "capture_match:result=ineffective|going to do much good",
+                  "then": [
+                    {
+                      "do": "echo",
+                      "msg": "You need a different weapon to batter this door."
+                    },
+                    {
+                      "do": "break"
+                    }
+                  ]
+                },
+                {
+                  "do": "if",
+                  "when": "capture_match:result=destroyed",
+                  "then": [
+                    {
+                      "do": "break"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "do": "if",
+              "when": "loot_match:ruined cell door",
+              "then": [
+                {
+                  "do": "move",
+                  "cmd": "go door"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "18706": "north",
       "24853": "northeast"
     },

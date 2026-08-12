@@ -1,5 +1,5 @@
 {
-  "checksum": "8bf6f1cccb8d2863360d6a828262d50a",
+  "checksum": "a973d5bece1e28fa6d72d6b7cd62a5c4",
   "room": {
     "id": 24980,
     "title": [
@@ -13,10 +13,106 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "24804": {
-        "strategy": "unique_crossing",
-        "name": "crossing_24980_24804"
-      }
+      "24804": [
+        {
+          "do": "echo",
+          "msg": "Waiting for the stain to show up..."
+        },
+        {
+          "do": "await",
+          "timeout": 600,
+          "on_timeout": "fail",
+          "for": "dark stains"
+        },
+        {
+          "do": "send",
+          "cmd": "get stain"
+        },
+        {
+          "do": "if",
+          "when": "status:standing",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "lie"
+            }
+          ]
+        },
+        {
+          "do": "repeat",
+          "times": 30,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "search",
+              "timeout": 3,
+              "on_timeout": "continue",
+              "for": "descending slope",
+              "bind": {
+                "slope": 0
+              }
+            },
+            {
+              "do": "if",
+              "when": "capture:slope",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "await",
+          "cmd": "go slope",
+          "timeout": 3,
+          "on_timeout": "continue",
+          "for": "You gradually make your way down the descending slope"
+        },
+        {
+          "do": "repeat",
+          "times": 30,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "search",
+              "timeout": 3,
+              "on_timeout": "continue",
+              "for": "opening",
+              "bind": {
+                "opening": 0
+              }
+            },
+            {
+              "do": "if",
+              "when": "capture:opening",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "await",
+          "cmd": "go opening",
+          "timeout": 3,
+          "on_timeout": "continue",
+          "for": "You duck down low and half-crawl into the opening"
+        },
+        {
+          "do": "repeat",
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "24804": 2

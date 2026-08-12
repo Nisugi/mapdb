@@ -1,5 +1,5 @@
 {
-  "checksum": "b799d7f87548702b1d75871e3b36b096",
+  "checksum": "18dd867e080ec64c96b61aadc41fb077",
   "room": {
     "id": 14060,
     "title": [
@@ -14,10 +14,47 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "13766": "east",
-      "20430": {
-        "strategy": "unique_crossing",
-        "name": "crossing_14060_20430"
-      }
+      "20430": [
+        {
+          "do": "await",
+          "cmd": "open door",
+          "timeout": 5,
+          "on_timeout": "continue",
+          "for": "That is already open\\.|There doesn't seem to be any way to do that\\.",
+          "bind": {
+            "reply": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture_match:reply=any way to do that",
+          "then": [
+            {
+              "do": "if",
+              "when": "holding:gem",
+              "then": [
+                {
+                  "do": "send",
+                  "cmd": "put {hand_id} in vaalorn door"
+                }
+              ],
+              "else": [
+                {
+                  "do": "echo",
+                  "msg": "This door needs a gem: put a cheap one in your hand and try again."
+                },
+                {
+                  "do": "break"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go door"
+        }
+      ]
     },
     "timeto": {
       "13766": 0.2,
