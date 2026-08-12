@@ -1,5 +1,5 @@
 {
-  "checksum": "a77ce2ba12fed28a3522e1e6493a8e9b",
+  "checksum": "63e9592a3f913c3ec3ff2763f007c571",
   "room": {
     "id": 17591,
     "title": [
@@ -22,8 +22,27 @@
           "cmd": "ask fisherman about boat"
         },
         {
-          "do": "send",
-          "cmd": "ask fisherman about boat"
+          "do": "await",
+          "cmd": "ask fisherman about boat",
+          "timeout": 5,
+          "on_timeout": "continue",
+          "for": "dun ha.e .nough fer tha. rate",
+          "bind": {
+            "refused": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:refused",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver to rent a boat."
+            },
+            {
+              "do": "break"
+            }
+          ]
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "checksum": "c54f7acaeeb966ed93abf2d0af3544f8",
+  "checksum": "83cb2a98fecd0df9d580dbae3945a1cc",
   "room": {
     "id": 19377,
     "title": [
@@ -19,12 +19,29 @@
       "19376": "climb steps",
       "25691": [
         {
-          "do": "repeat",
-          "times": 2,
-          "steps": [
+          "do": "send",
+          "cmd": "ask sailor about boat"
+        },
+        {
+          "do": "await",
+          "cmd": "ask sailor about boat",
+          "timeout": 5,
+          "on_timeout": "continue",
+          "for": "have enough for the fare",
+          "bind": {
+            "refused": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:refused",
+          "then": [
             {
-              "do": "send",
-              "cmd": "ask sailor about boat"
+              "do": "echo",
+              "msg": "Not enough silver to rent a boat."
+            },
+            {
+              "do": "break"
             }
           ]
         }
