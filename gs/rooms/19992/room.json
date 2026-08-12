@@ -1,5 +1,5 @@
 {
-  "checksum": "374864e80e82944176237c6304237af2",
+  "checksum": "08333fc91bdfea8679911e3cd4edc9fd",
   "room": {
     "id": 19992,
     "title": [
@@ -13,10 +13,48 @@
     ],
     "location": "the foothills of Zeltoph",
     "wayto": {
-      "19728": {
-        "strategy": "unique_crossing",
-        "name": "crossing_19992_19728"
-      }
+      "19728": [
+        {
+          "do": "await",
+          "cmd": "open door",
+          "timeout": 5,
+          "on_timeout": "continue",
+          "for": "It's locked, Blazyn!",
+          "bind": {
+            "reply": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture:reply",
+          "then": [
+            {
+              "do": "empty_hand"
+            },
+            {
+              "do": "send",
+              "cmd": "turn lock"
+            },
+            {
+              "do": "send",
+              "cmd": "open door"
+            },
+            {
+              "do": "move",
+              "cmd": "go door"
+            },
+            {
+              "do": "fill_hand"
+            }
+          ],
+          "else": [
+            {
+              "do": "move",
+              "cmd": "go door"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "19728": 0.2

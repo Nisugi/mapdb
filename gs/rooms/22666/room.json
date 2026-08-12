@@ -1,5 +1,5 @@
 {
-  "checksum": "07592dad331c542fd1e6900233cf9a55",
+  "checksum": "3ecead0f50871a85c7e191c6909b6035",
   "room": {
     "id": 22666,
     "title": [
@@ -26,10 +26,59 @@
           "do": "wait_rt"
         }
       ],
-      "24233": {
-        "strategy": "unique_crossing",
-        "name": "crossing_22666_24233"
-      }
+      "24233": [
+        {
+          "do": "repeat",
+          "times": 10,
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        },
+        {
+          "do": "send",
+          "cmd": "go ladder"
+        },
+        {
+          "do": "cast_buff",
+          "spell": 506
+        },
+        {
+          "do": "repeat",
+          "times": 10,
+          "steps": [
+            {
+              "do": "await",
+              "cmd": "search",
+              "timeout": 3,
+              "on_timeout": "continue",
+              "for": "own leg|You take small comfort|find nothing|low opening",
+              "bind": {
+                "found": 0
+              }
+            },
+            {
+              "do": "if",
+              "when": "not:capture_match:found=low opening",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go opening"
+        }
+      ]
     },
     "timeto": {
       "22571": 0.2,

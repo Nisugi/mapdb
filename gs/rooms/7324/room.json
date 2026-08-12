@@ -1,5 +1,5 @@
 {
-  "checksum": "7c5d9532e9201a3b15c71a3a60675663",
+  "checksum": "df0cdf9f2106d20485307d3f33b02658",
   "room": {
     "id": 7324,
     "title": [
@@ -15,10 +15,85 @@
     "climate": "cold, damp",
     "terrain": "barren scrub",
     "wayto": {
-      "4541": {
-        "strategy": "unique_crossing",
-        "name": "crossing_7324_4541"
-      },
+      "4541": [
+        {
+          "do": "note_group"
+        },
+        {
+          "do": "send",
+          "cmd": "yell jaron galarn"
+        },
+        {
+          "do": "sleep",
+          "seconds": 1
+        },
+        {
+          "do": "repeat",
+          "times": 20,
+          "steps": [
+            {
+              "do": "repeat",
+              "until": "status:standing",
+              "steps": [
+                {
+                  "do": "send",
+                  "cmd": "stand"
+                }
+              ]
+            },
+            {
+              "do": "await",
+              "cmd": "search",
+              "timeout": 5,
+              "on_timeout": "continue",
+              "for": "Feeling around in the darkness, you stumble upon a low opening in the wall near the ground\\.|As you blindly search the area, you find something rooted to the ground|You feel around in the darkness as best you can, but find nothing\\.",
+              "bind": {
+                "result": 0
+              }
+            },
+            {
+              "do": "wait_rt"
+            },
+            {
+              "do": "if",
+              "when": "capture_match:result=Feeling around in the darkness, you stumble upon a low opening in the wall near the ground\\.",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "repeat",
+          "times": 20,
+          "until": "path:south",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "go opening"
+            },
+            {
+              "do": "sleep",
+              "seconds": 0.2
+            }
+          ]
+        },
+        {
+          "do": "repeat",
+          "until": "status:standing",
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "stand"
+            }
+          ]
+        },
+        {
+          "do": "group_wait"
+        }
+      ],
       "7322": "southeast",
       "7323": "northeast"
     },

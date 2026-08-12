@@ -1,5 +1,5 @@
 {
-  "checksum": "a73143955929b448d4d8a729ab431dbc",
+  "checksum": "6b71efab27e1754b6509696d9e5181c9",
   "room": {
     "id": 11355,
     "title": [
@@ -16,10 +16,45 @@
     "terrain": "hard, flat",
     "wayto": {
       "11354": "west",
-      "11357": {
-        "strategy": "unique_crossing",
-        "name": "crossing_11355_11357"
-      }
+      "11357": [
+        {
+          "do": "empty_hands"
+        },
+        {
+          "do": "preserve_stance",
+          "stance": "offensive",
+          "steps": [
+            {
+              "do": "repeat",
+              "times": 20,
+              "until": "paths_at_most:0",
+              "steps": [
+                {
+                  "do": "if",
+                  "when": "not:status:standing",
+                  "then": [
+                    {
+                      "do": "send",
+                      "cmd": "stand"
+                    }
+                  ]
+                },
+                {
+                  "do": "send",
+                  "cmd": "climb ledge"
+                },
+                {
+                  "do": "sleep",
+                  "seconds": 0.1
+                },
+                {
+                  "do": "wait_rt"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "11354": 0.2,

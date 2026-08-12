@@ -1,5 +1,5 @@
 {
-  "checksum": "69bc5d5e418e6e02680a8e12931abf38",
+  "checksum": "eb21d98b5855554f8dce1871810787ad",
   "room": {
     "id": 6135,
     "title": [
@@ -16,10 +16,60 @@
     "terrain": "mountainous",
     "wayto": {
       "6134": "north",
-      "6136": {
-        "strategy": "unique_crossing",
-        "name": "crossing_6135_6136"
-      }
+      "6136": [
+        {
+          "do": "note_group"
+        },
+        {
+          "do": "repeat",
+          "times": 20,
+          "steps": [
+            {
+              "do": "cast_buff",
+              "spell": 506
+            },
+            {
+              "do": "await",
+              "cmd": "search",
+              "timeout": 1,
+              "on_timeout": "continue",
+              "for": "you discover a narrow crevice",
+              "bind": {
+                "found": 0
+              }
+            },
+            {
+              "do": "wait_rt"
+            },
+            {
+              "do": "if",
+              "when": "capture:found",
+              "then": [
+                {
+                  "do": "break"
+                }
+              ],
+              "else": [
+                {
+                  "do": "move",
+                  "cmd": "n"
+                },
+                {
+                  "do": "move",
+                  "cmd": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "send",
+          "cmd": "point crevice"
+        },
+        {
+          "do": "group_wait"
+        }
+      ]
     },
     "timeto": {
       "6134": 0.2,
