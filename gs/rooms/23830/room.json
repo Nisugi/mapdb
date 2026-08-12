@@ -1,5 +1,5 @@
 {
-  "checksum": "41f9e300253d5cce5cac5cd0f6bb00f1",
+  "checksum": "c642605675a89ce8cc0e8965023a6e51",
   "room": {
     "id": 23830,
     "title": [
@@ -25,8 +25,27 @@
           "cmd": "order 1"
         },
         {
-          "do": "send",
-          "cmd": "order confirm"
+          "do": "await",
+          "cmd": "order confirm",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "It doesn't look like you have enough silver to ride\\.|We'll be taking that payment in silver, then\\.",
+          "bind": {
+            "paid": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture_match:paid=enough silver to ride",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for this caravan."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",
@@ -45,8 +64,27 @@
           "cmd": "order 2"
         },
         {
-          "do": "send",
-          "cmd": "order confirm"
+          "do": "await",
+          "cmd": "order confirm",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "It doesn't look like you have enough silver to ride\\.|We'll be taking that payment in silver, then\\.",
+          "bind": {
+            "paid": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture_match:paid=enough silver to ride",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for this caravan."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",
@@ -72,8 +110,27 @@
           "cmd": "order 3"
         },
         {
-          "do": "send",
-          "cmd": "order confirm"
+          "do": "await",
+          "cmd": "order confirm",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "It doesn't look like you have enough silver to ride\\.|We'll be taking that payment in silver, then\\.",
+          "bind": {
+            "paid": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture_match:paid=enough silver to ride",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for this caravan."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",

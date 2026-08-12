@@ -1,5 +1,5 @@
 {
-  "checksum": "ebd3e1dd2e9d80d8443f9aa9cb1b11f5",
+  "checksum": "97cf33538c265e42768215fb0012555f",
   "room": {
     "id": 29865,
     "title": [
@@ -23,8 +23,27 @@
           "cmd": "order 1"
         },
         {
-          "do": "send",
-          "cmd": "order confirm"
+          "do": "await",
+          "cmd": "order confirm",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "It doesn't look like you have enough silver to ride\\.|We'll be taking that payment in silver, then\\.",
+          "bind": {
+            "paid": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture_match:paid=enough silver to ride",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for this caravan."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",
@@ -49,8 +68,27 @@
           "cmd": "order 2"
         },
         {
-          "do": "send",
-          "cmd": "order confirm"
+          "do": "await",
+          "cmd": "order confirm",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "It doesn't look like you have enough silver to ride\\.|We'll be taking that payment in silver, then\\.",
+          "bind": {
+            "paid": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture_match:paid=enough silver to ride",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for this caravan."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",

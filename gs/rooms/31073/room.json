@@ -1,5 +1,5 @@
 {
-  "checksum": "5492c1c8134f4933aa4372c23a134165",
+  "checksum": "9bc6651c85f7c09b51325907ac0f7061",
   "room": {
     "id": 31073,
     "title": [
@@ -30,8 +30,27 @@
           "cmd": "order 1"
         },
         {
-          "do": "send",
-          "cmd": "order confirm"
+          "do": "await",
+          "cmd": "order confirm",
+          "timeout": 10,
+          "on_timeout": "continue",
+          "for": "It doesn't look like you have enough silver to ride\\.|We'll be taking that payment in silver, then\\.",
+          "bind": {
+            "paid": 0
+          }
+        },
+        {
+          "do": "if",
+          "when": "capture_match:paid=enough silver to ride",
+          "then": [
+            {
+              "do": "echo",
+              "msg": "Not enough silver for this caravan."
+            },
+            {
+              "do": "break"
+            }
+          ]
         },
         {
           "do": "await",
