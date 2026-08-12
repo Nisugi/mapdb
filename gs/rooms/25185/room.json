@@ -1,5 +1,5 @@
 {
-  "checksum": "543d2c56d72d698e8a28ecd1afaa0d78",
+  "checksum": "4db2792e013ee2ed5ca29fd93c1a10df",
   "room": {
     "id": 25185,
     "title": [
@@ -16,80 +16,9 @@
       "5579": "go caravansary",
       "25145": [
         {
-          "do": "await",
-          "cmd": "inquire",
-          "timeout": 5,
-          "on_timeout": "fail",
-          "for": "(\\d)\\) the Sea of Fire",
-          "bind": {
-            "choice": 1
-          }
-        },
-        {
-          "do": "await",
-          "cmd": "order {capture:choice}",
-          "timeout": 5,
-          "on_timeout": "continue",
-          "for": "about the price of a trip to the Sea of Fire"
-        },
-        {
-          "do": "await",
-          "cmd": "order confirm",
-          "timeout": 5,
-          "on_timeout": "continue",
-          "for": "It doesn't look like you have enough silver to ride\\.|We'll be taking that payment in silver, then\\.",
-          "bind": {
-            "paid": 0
-          }
-        },
-        {
-          "do": "if",
-          "when": "capture_match:paid=enough silver to ride",
-          "then": [
-            {
-              "do": "echo",
-              "msg": "Not enough silver for the Sea of Fire caravan."
-            },
-            {
-              "do": "break"
-            }
-          ]
-        },
-        {
-          "do": "wait_until",
-          "when": "room_name:Caravan, Wagon",
-          "timeout": 120
-        },
-        {
-          "do": "sleep",
-          "seconds": 1
-        },
-        {
-          "do": "wait_until",
-          "when": "not:room_name:Caravan, Wagon",
-          "timeout": 1800
-        },
-        {
-          "do": "if",
-          "when": "npc_match:thief|rogue|bandit|mugger|outlaw|highwayman|marauder|brigand|thug|robber",
-          "then": [
-            {
-              "do": "echo",
-              "msg": "BANDITS!!! BANDITS!!! BANDITS!!!"
-            },
-            {
-              "do": "break"
-            }
-          ]
-        },
-        {
-          "do": "if",
-          "when": "not:in_room:25145",
-          "then": [
-            {
-              "do": "replan"
-            }
-          ]
+          "do": "cross",
+          "room": 25183,
+          "dest": "25145"
         }
       ]
     },

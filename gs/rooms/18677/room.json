@@ -1,5 +1,5 @@
 {
-  "checksum": "61ed684f88288d9d2a371c264b739c72",
+  "checksum": "db02f4787178256d61b254ba4cc756ba",
   "room": {
     "id": 18677,
     "title": [
@@ -66,7 +66,7 @@
               "then": [
                 {
                   "do": "travel_to",
-                  "room": 10911
+                  "tag": "bank"
                 },
                 {
                   "do": "await",
