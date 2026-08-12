@@ -1,5 +1,5 @@
 {
-  "checksum": "47da6c4bd742dc985a7bf9038b4100c4",
+  "checksum": "93336c650ede0004ed3975cf9c1d935e",
   "room": {
     "id": 23282,
     "title": [
@@ -47,8 +47,8 @@
         "target": "tranquility"
       },
       "23282": {
-        "strategy": "unique_crossing",
-        "name": "crossing_23282_23282"
+        "strategy": "confluence_explorer",
+        "target": "tranquility"
       },
       "23283": {
         "strategy": "confluence_explorer",

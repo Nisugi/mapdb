@@ -1,5 +1,5 @@
 {
-  "checksum": "e7cf0e7f280c9c08ca6b90c97ae597f3",
+  "checksum": "02a08f5231f882d66bf26254423930e2",
   "room": {
     "id": 19543,
     "title": [
@@ -15,10 +15,26 @@
     "climate": "cold, dry",
     "terrain": "barren scrub",
     "wayto": {
-      "1102": {
-        "strategy": "unique_crossing",
-        "name": "crossing_19543_1102"
-      }
+      "1102": [
+        {
+          "do": "move",
+          "cmd": "southeast"
+        },
+        {
+          "do": "move",
+          "cmd": "northeast"
+        },
+        {
+          "do": "repeat",
+          "times": 20,
+          "until": "paths_at_most:2",
+          "steps": [
+            {
+              "do": "move_random"
+            }
+          ]
+        }
+      ]
     },
     "timeto": {
       "1102": 0.4

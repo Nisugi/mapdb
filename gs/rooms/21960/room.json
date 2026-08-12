@@ -1,5 +1,5 @@
 {
-  "checksum": "d6ba1e1961dab51c93b327d4d662d941",
+  "checksum": "1bef1e440676904bdcb156d509be9b28",
   "room": {
     "id": 21960,
     "title": [
@@ -13,10 +13,39 @@
     ],
     "location": "Talador",
     "wayto": {
-      "21961": {
-        "strategy": "unique_crossing",
-        "name": "crossing_21960_21961"
-      }
+      "21961": [
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "send",
+          "cmd": "search"
+        },
+        {
+          "do": "wait_rt"
+        },
+        {
+          "do": "if",
+          "when": "not:status:kneeling",
+          "then": [
+            {
+              "do": "send",
+              "cmd": "kneel"
+            }
+          ]
+        },
+        {
+          "do": "move",
+          "cmd": "go hole"
+        },
+        {
+          "do": "send",
+          "cmd": "stand"
+        },
+        {
+          "do": "wait_rt"
+        }
+      ]
     },
     "timeto": {
       "21961": 3.8

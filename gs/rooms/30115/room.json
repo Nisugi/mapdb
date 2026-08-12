@@ -1,5 +1,5 @@
 {
-  "checksum": "171848e7bad6f4147cd4d713d1e8c3c6",
+  "checksum": "7060eb3a9816a9c10faa81ff1408228b",
   "room": {
     "id": 30115,
     "title": [
@@ -16,10 +16,21 @@
     "climate": "",
     "terrain": "",
     "wayto": {
-      "29861": {
-        "strategy": "unique_crossing",
-        "name": "crossing_30115_29861"
-      },
+      "29861": [
+        {
+          "do": "repeat",
+          "until_room_change": true,
+          "steps": [
+            {
+              "do": "send",
+              "cmd": "south"
+            },
+            {
+              "do": "wait_rt"
+            }
+          ]
+        }
+      ],
       "29867": [
         {
           "do": "send",
