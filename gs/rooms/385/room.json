@@ -1,5 +1,4 @@
 {
-  "checksum": "c6af775ca50fc4670320076b76005368",
   "room": {
     "id": 385,
     "title": [
@@ -19,13 +18,13 @@
       "230": "out",
       "8684": "go path",
       "30633": "go doors",
-      "30708": "/rooms/385/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "230": 0.2,
       "8684": 0.2,
       "30633": 0.2,
-      "30708": "/rooms/385/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "meta:forage-sensed",

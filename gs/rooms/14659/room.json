@@ -1,5 +1,4 @@
 {
-  "checksum": "7db1f7621de25c911c3f348cc9c19b34",
   "room": {
     "id": 14659,
     "title": [
@@ -16,7 +15,7 @@
     "terrain": "cultivated",
     "wayto": {
       "3506": "out",
-      "13532": "/rooms/14659/wayto/stringproc-13532.rb"
+      "13532": ";e $SILVERWOOD_TOWN=:va;move 'go door'"
     },
     "timeto": {
       "3506": 0.2,

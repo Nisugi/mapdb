@@ -1,5 +1,4 @@
 {
-  "checksum": "51e011668f23575a3ea158f340af117d",
   "room": {
     "id": 27165,
     "title": [
@@ -11,7 +10,7 @@
     "paths": [
       "Obvious exits: out"
     ],
-    "location": false,
+    "location": "Bloodriven Village",
     "wayto": {
       "26892": "out",
       "27166": "go door"
@@ -19,6 +18,9 @@
     "timeto": {
       "26892": 0.2,
       "27166": 0.2
-    }
+    },
+    "uid": [
+      8215004
+    ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "db3d80c67f12f1e4be541182b2a1304e",
   "room": {
     "id": 22009,
     "title": [
@@ -13,22 +12,22 @@
     ],
     "location": "Talador",
     "wayto": {
-      "21961": "/rooms/22009/wayto/stringproc-21961.rb",
-      "22010": "/rooms/22009/wayto/stringproc-22010.rb"
+      "21961": ";e waitrt?; move 'west'",
+      "22010": ";e waitrt?; move 'east'"
     },
     "timeto": {
       "21961": 0.2,
       "22010": 0.2
     },
-    "tags": [
-      "peer west =~ /^Obvious exits: east$/"
-    ],
     "image": "wl-talador-east-1392305660.png",
     "image_coords": [
       800,
       427,
       815,
       441
+    ],
+    "tags": [
+      "peer west =~ /^Obvious exits: east$/"
     ]
   }
 }

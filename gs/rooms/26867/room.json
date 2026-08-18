@@ -1,5 +1,4 @@
 {
-  "checksum": "83534fa4af000a270873cfb796e77d53",
   "room": {
     "id": 26867,
     "title": [
@@ -19,8 +18,8 @@
       "26844": "south",
       "26868": "out",
       "30313": "go ramshackle shop",
-      "35183": "go brick shack",
-      "35185": "go ebonwood door"
+      "35183": "go shack",
+      "35185": "go door"
     },
     "timeto": {
       "26844": 0.2,
@@ -29,12 +28,6 @@
       "35183": 0.2,
       "35185": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214527
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       772,
@@ -42,6 +35,12 @@
       801,
       500
     ],
-    "check_location": false
+    "tags": [
+      "no forageables"
+    ],
+    "check_location": false,
+    "uid": [
+      8214527
+    ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "b42bb96eef5e4ff50bf6606d7562070e",
   "room": {
     "id": 27864,
     "title": [
@@ -13,12 +12,12 @@
     ],
     "location": "Keh'nira Fyr'sah",
     "wayto": {
-      "27860": "/rooms/27864/wayto/stringproc-27860.rb",
-      "27865": "/rooms/27864/wayto/stringproc-27865.rb"
+      "27860": ";e door='oak door';key=GameObj.inv.find{|k| k.name=='cord-strung delicate brass key';};if !key.nil? then multifput \"remove ##{key.id}\",  \"unlock #{door}\", \"open #{door}\", \"go #{door}\", \"close #{door}\", \"lock #{door}\", \"wear ##{key.id}\"; end;",
+      "27865": ";e door='stained door';key=GameObj.inv.find{|k| k.name=='cord-strung delicate brass key';};if !key.nil? then multifput \"remove ##{key.id}\",  \"unlock #{door}\", \"open #{door}\", \"go #{door}\", \"close #{door}\", \"lock #{door}\", \"wear ##{key.id}\"; end;"
     },
     "timeto": {
-      "27860": "/rooms/27864/timeto/stringproc-27860.rb",
-      "27865": "/rooms/27864/timeto/stringproc-27865.rb"
+      "27860": ";e key=GameObj.inv.find{|k| k.name=='cord-strung delicate brass key';};if !key.nil? then 5 else nil end;",
+      "27865": ";e key=GameObj.inv.find{|k| k.name=='cord-strung delicate brass key';};if !key.nil? then 5 else nil end;"
     },
     "tags": [
       "private property"

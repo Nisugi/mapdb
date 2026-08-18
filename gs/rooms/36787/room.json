@@ -1,0 +1,30 @@
+{
+  "room": {
+    "id": 36787,
+    "title": [
+      "[Tempest Queen, Main Cabin]"
+    ],
+    "description": [
+      "Whitewashed and trimmed in gilt, the main cabin is lavishly decorated with turned wood columns and fanciful scrollwork.  Crystal chandeliers hang in a spacious salon flanked by first-class staterooms, while a grand staircase leads to amusements on the upper deck.  Music and laughter spill through a pair of swinging doors."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "33078": "out",
+      "36788": "go stair",
+      "36792": "go doors",
+      "36793": "go stateroom"
+    },
+    "timeto": {
+      "33078": 0.2,
+      "36788": 0.2,
+      "36792": 0.2,
+      "36793": 0.2
+    },
+    "uid": [
+      7134106
+    ]
+  }
+}

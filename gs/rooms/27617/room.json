@@ -1,5 +1,4 @@
 {
-  "checksum": "abacfb3a597c707ef73637bc0025df70",
   "room": {
     "id": 27617,
     "title": [
@@ -13,11 +12,18 @@
     ],
     "location": "Icemule Trace",
     "wayto": {
-      "27616": "/rooms/27617/wayto/stringproc-27616.rb"
+      "27616": ";e room = Room.current.id;fput 'go cedar door'; if ( room == Room.current.id ); fput 'close locker';move 'go cedar door'; end"
     },
     "timeto": {
       "27616": 0.2
     },
+    "image": "imt_Twilight_Cavern.png",
+    "image_coords": [
+      272,
+      129,
+      331,
+      190
+    ],
     "tags": [
       "meta:che:Twilight Hall",
       "meta:che:twilight_hall:locker",
@@ -25,13 +31,6 @@
     ],
     "uid": [
       4043709
-    ],
-    "image": "imt_Twilight_Cavern.png",
-    "image_coords": [
-      272,
-      129,
-      331,
-      190
     ]
   }
 }

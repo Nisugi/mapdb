@@ -1,5 +1,4 @@
 {
-  "checksum": "06c5ca5b024d6ad45301497d349263ac",
   "room": {
     "id": 10678,
     "title": [
@@ -23,6 +22,13 @@
       "10681": 0.2,
       "13917": 0.2
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      167,
+      1009,
+      196,
+      1036
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -103,13 +109,6 @@
     ],
     "uid": [
       14200002
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      167,
-      1009,
-      196,
-      1036
     ]
   }
 }

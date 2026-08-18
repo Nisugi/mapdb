@@ -1,5 +1,4 @@
 {
-  "checksum": "214adfba612ad7e6a7d22c072e953db0",
   "room": {
     "id": 27747,
     "title": [
@@ -19,21 +18,21 @@
       "27748": "west"
     },
     "timeto": {
-      "3726": 3,
-      "27748": 3
+      "3726": 3.0,
+      "27748": 3.0
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      4050004
-    ],
     "image": "imt-Town_Walls_Map-1707071672.png",
     "image_coords": [
       408,
       213,
       434,
       240
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      4050004
     ]
   }
 }

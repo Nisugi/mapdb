@@ -1,5 +1,4 @@
 {
-  "checksum": "ab942b71f596779eb70eccbec5b690f3",
   "room": {
     "id": 22349,
     "title": [
@@ -16,11 +15,11 @@
     "terrain": "hard, flat",
     "wayto": {
       "297": "out",
-      "22444": "/rooms/22349/wayto/stringproc-22444.rb"
+      "22444": ";e put \"search\";while line=get;if line=~ /(dead rat|strand of silver hair|broken lockpick|tarnished coin)!$/;put \"search\";elsif line=~/brick-covered trapdoor!$/;put \"go trapdoor\";break;end;end"
     },
     "timeto": {
       "297": 0.2,
-      "22444": 1
+      "22444": 1.0
     },
     "tags": [
       "meta:forage-sensed",

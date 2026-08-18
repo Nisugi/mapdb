@@ -1,5 +1,4 @@
 {
-  "checksum": "3f06f218284fd2ec6e9ab32257760dc4",
   "room": {
     "id": 1306,
     "title": [
@@ -22,8 +21,15 @@
     "timeto": {
       "1305": 0.2,
       "1307": 0.2,
-      "9312": 1
+      "9312": 1.0
     },
+    "image": "vo-trail-1264234799.png",
+    "image_coords": [
+      338,
+      365,
+      348,
+      375
+    ],
     "tags": [
       "agave heart",
       "alder bark",
@@ -65,13 +71,6 @@
     ],
     "uid": [
       2131005
-    ],
-    "image": "vo-trail-1264234799.png",
-    "image_coords": [
-      338,
-      365,
-      348,
-      375
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "effe12d880ef7e5fce8681abbdc71666",
   "room": {
     "id": 10438,
     "title": [
@@ -19,16 +18,23 @@
       "13538": "go gateway",
       "13539": "go door",
       "28335": "go passageway",
-      "30713": "/rooms/10438/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3508": 0.2,
       "10761": 0.2,
       "13538": 0.2,
       "13539": 0.2,
-      "28335": "/rooms/10438/timeto/stringproc-28335.rb",
-      "30713": "/rooms/10438/timeto/stringproc-30713.rb"
+      "28335": ";e ((!defined?(Stats.prof) or Stats.prof == 'Bard') ? 0.2 : nil);",
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "en-vaalor-bard-guild.png",
+    "image_coords": [
+      269,
+      441,
+      290,
+      459
+    ],
     "tags": [
       "bard guild",
       "bardguild",
@@ -38,13 +44,6 @@
     ],
     "uid": [
       287001
-    ],
-    "image": "en-vaalor-bard-guild.png",
-    "image_coords": [
-      269,
-      441,
-      290,
-      459
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "2efe8d7bcf95e910570d91cf60498489",
   "room": {
     "id": 13960,
     "title": [
@@ -17,12 +16,19 @@
     "terrain": "riparian",
     "wayto": {
       "13918": "west",
-      "30500": "/rooms/13960/wayto/stringproc-30500.rb"
+      "30500": ";e empty_hand;move('go deep water')"
     },
     "timeto": {
       "13918": 0.2,
       "30500": 0.2
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      884,
+      565,
+      913,
+      594
+    ],
     "tags": [
       "acantha leaf",
       "blue trafel mushroom",
@@ -69,13 +75,6 @@
     ],
     "uid": [
       7056107
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      884,
-      565,
-      913,
-      594
     ]
   }
 }

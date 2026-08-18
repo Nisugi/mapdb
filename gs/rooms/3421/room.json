@@ -1,5 +1,4 @@
 {
-  "checksum": "bdf4aa84474104938dc2e842cd80c3b6",
   "room": {
     "id": 3421,
     "title": [
@@ -20,6 +19,12 @@
       "3419": 0.2,
       "3420": 0.2
     },
+    "image_coords": [
+      547,
+      595,
+      563,
+      611
+    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-09",
@@ -27,12 +32,6 @@
     ],
     "uid": [
       9006450
-    ],
-    "image_coords": [
-      547,
-      595,
-      563,
-      611
     ]
   }
 }

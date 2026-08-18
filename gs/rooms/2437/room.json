@@ -1,5 +1,4 @@
 {
-  "checksum": "8946fda9eae1ae7ec7587c9feb78c776",
   "room": {
     "id": 2437,
     "title": [
@@ -24,19 +23,19 @@
       "31051": 0.2,
       "33742": 0.2
     },
-    "tags": [
-      "no forageables",
-      "peer door =~ /House Brigatta|Cairnfang Manor/"
-    ],
-    "uid": [
-      7121203
-    ],
     "image": "kf-inking_den-1615857364.png",
     "image_coords": [
       545,
       458,
       576,
       483
+    ],
+    "tags": [
+      "no forageables",
+      "peer door =~ /House Brigatta|Cairnfang Manor/"
+    ],
+    "uid": [
+      7121203
     ]
   }
 }

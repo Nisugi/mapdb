@@ -1,5 +1,4 @@
 {
-  "checksum": "2f21bc8dbb4d31f110f04428e67941f5",
   "room": {
     "id": 13313,
     "title": [
@@ -19,6 +18,13 @@
     "timeto": {
       "14116": 0.2
     },
+    "image": "vo-warehouse_lockers-1485119080.png",
+    "image_coords": [
+      833,
+      829,
+      933,
+      880
+    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -26,13 +32,6 @@
     ],
     "uid": [
       4219476
-    ],
-    "image": "vo-warehouse_lockers-1485119080.png",
-    "image_coords": [
-      833,
-      829,
-      933,
-      880
     ]
   }
 }

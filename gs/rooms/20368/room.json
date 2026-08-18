@@ -1,5 +1,4 @@
 {
-  "checksum": "c27d16c0acc73d8765f1dd442dba24a8",
   "room": {
     "id": 20368,
     "title": [
@@ -14,7 +13,7 @@
     "location": "the Feywrot Mire",
     "wayto": {
       "20345": "go mouth",
-      "25464": "/rooms/20368/wayto/stringproc-25464.rb"
+      "25464": ";e fput 'search';move 'go tunnel'"
     },
     "timeto": {
       "20345": 0.2,

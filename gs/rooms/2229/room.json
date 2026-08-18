@@ -1,5 +1,4 @@
 {
-  "checksum": "4737be5ad8baaa8bec852334b19ce295",
   "room": {
     "id": 2229,
     "title": [
@@ -13,25 +12,25 @@
     ],
     "location": "the Eye of V'Tull",
     "wayto": {
-      "2216": "/rooms/2229/wayto/stringproc-2216.rb",
+      "2216": ";e move 'jump lava'; sleep 1; waitrt?",
       "2230": "go fissure"
     },
     "timeto": {
-      "2216": 2,
+      "2216": 2.0,
       "2230": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      3051031
-    ],
     "image": "ti-vtull-1663120653.png",
     "image_coords": [
       499,
       987,
       509,
       997
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      3051031
     ]
   }
 }

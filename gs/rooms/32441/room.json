@@ -1,5 +1,4 @@
 {
-  "checksum": "5321f966f574324f01bc7e03da7fc970",
   "room": {
     "id": 32441,
     "title": [
@@ -20,6 +19,13 @@
     "timeto": {
       "32440": 0.2
     },
+    "image": "imt-Moonsedge-1770317665.png",
+    "image_coords": [
+      381,
+      710,
+      400,
+      727
+    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2023-01",
@@ -28,13 +34,6 @@
     ],
     "uid": [
       4577105
-    ],
-    "image": "imt-Moonsedge-1770317665.png",
-    "image_coords": [
-      381,
-      710,
-      400,
-      727
     ]
   }
 }

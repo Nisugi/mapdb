@@ -1,5 +1,4 @@
 {
-  "checksum": "1fdadf836627a6c50df859f30091ca71",
   "room": {
     "id": 4143,
     "title": [
@@ -14,7 +13,7 @@
     "location": "the Graveyard",
     "wayto": {
       "4142": "go arch",
-      "4144": "/rooms/4143/wayto/stringproc-4144.rb",
+      "4144": ";e fput \"search\"\nmove \"go crack\"",
       "4344": "east",
       "4345": "west"
     },
@@ -24,6 +23,13 @@
       "4344": 0.2,
       "4345": 0.2
     },
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      568,
+      949,
+      578,
+      959
+    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -31,13 +37,6 @@
     ],
     "uid": [
       18013
-    ],
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      568,
-      949,
-      578,
-      959
     ]
   }
 }

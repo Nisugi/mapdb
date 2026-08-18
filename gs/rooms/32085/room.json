@@ -1,5 +1,4 @@
 {
-  "checksum": "88aceac96d60ef1fb7992b25569b8a67",
   "room": {
     "id": 32085,
     "title": [
@@ -14,11 +13,11 @@
     "location": "Evermore Hollow",
     "wayto": {
       "31967": "go stairs",
-      "32084": "/rooms/32085/wayto/stringproc-32084.rb"
+      "32084": ";e fput 'search';waitrt?;move ('go black arch')"
     },
     "timeto": {
       "31967": 0.2,
-      "32084": 5
+      "32084": 5.0
     },
     "tags": [
       "meta:forage-sensed",

@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36783,
+    "title": [
+      "[Red Skies, Main Deck]"
+    ],
+    "description": [
+      "Freshly swabbed, the wooden planks of the main deck are painted a deep crimson.  Iron-ringed masts rise up from the center of the ship, their rigging blackened with pitch, and overhead, the canvas sails hang like tattered scarlet wings flapping in the salt-laced sea breeze.  Coils of rope and stacked barrels line the railings, while a great wheel of dark cocobolo wood stands aft, its surface polished smooth by the hands of countless helmsmen."
+    ],
+    "paths": [
+      "Obvious paths: none"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "33091": "go gangplan",
+      "36784": "go doors"
+    },
+    "timeto": {
+      "33091": 0.2,
+      "36784": 0.2
+    },
+    "uid": [
+      7134244
+    ]
+  }
+}

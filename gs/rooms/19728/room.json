@@ -1,5 +1,4 @@
 {
-  "checksum": "441f737bd5009b5ff32235ee0a0d24d9",
   "room": {
     "id": 19728,
     "title": [
@@ -15,13 +14,20 @@
     "wayto": {
       "19729": "go stone",
       "19732": "northwest",
-      "19992": "/rooms/19728/wayto/stringproc-19992.rb"
+      "19992": ";e if GameObj.loot.find{|item| item.noun == \"door\"};fput \"go door\";else;fput \"push stone\";fput \"stand\" until standing?;fput \"go door\";end"
     },
     "timeto": {
-      "19729": 8,
+      "19729": 8.0,
       "19732": 0.2,
       "19992": 0.2
     },
+    "image": "wl-cavernhold-1295073688.png",
+    "image_coords": [
+      403,
+      552,
+      413,
+      562
+    ],
     "tags": [
       "bur-clover root",
       "meta:forage-sensed",
@@ -32,13 +38,6 @@
     ],
     "uid": [
       11008
-    ],
-    "image": "wl-cavernhold-1295073688.png",
-    "image_coords": [
-      403,
-      552,
-      413,
-      562
     ]
   }
 }

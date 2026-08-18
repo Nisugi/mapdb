@@ -1,5 +1,4 @@
 {
-  "checksum": "63fa932c4e804c2478f43040e5fa504e",
   "room": {
     "id": 13727,
     "title": [
@@ -26,6 +25,13 @@
     "timeto": {
       "13726": 0.2
     },
+    "image": "en-vaalor-bard-guild.png",
+    "image_coords": [
+      110,
+      680,
+      131,
+      698
+    ],
     "tags": [
       "aloeas stem",
       "meta:forage-sensed",
@@ -41,13 +47,6 @@
     ],
     "uid": [
       287010
-    ],
-    "image": "en-vaalor-bard-guild.png",
-    "image_coords": [
-      110,
-      680,
-      131,
-      698
     ]
   }
 }

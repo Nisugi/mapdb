@@ -1,5 +1,4 @@
 {
-  "checksum": "fe7082b249da6c49463e552ddf418a47",
   "room": {
     "id": 33713,
     "title": [
@@ -14,7 +13,7 @@
     "location": "Kraken's Fall",
     "wayto": {
       "33712": "down",
-      "33714": "/rooms/33713/wayto/stringproc-33714.rb"
+      "33714": ";e multifput 'get rope', 'push rope'"
     },
     "timeto": {
       "33712": 0.2,

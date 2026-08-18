@@ -1,5 +1,4 @@
 {
-  "checksum": "8331425cc967590fa4abc514f0ec743c",
   "room": {
     "id": 21155,
     "title": [
@@ -17,12 +16,12 @@
     "wayto": {
       "21141": "go walkway",
       "22062": "go staircase",
-      "30718": "/rooms/21155/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "21141": 0.2,
       "22062": 0.2,
-      "30718": "/rooms/21155/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "bard guild",

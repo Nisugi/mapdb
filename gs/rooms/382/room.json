@@ -1,5 +1,4 @@
 {
-  "checksum": "ca6ab9a13dd50e351677f4741e8a32ac",
   "room": {
     "id": 382,
     "title": [
@@ -17,13 +16,20 @@
     "wayto": {
       "377": "go path",
       "19236": "go gates",
-      "30708": "/rooms/382/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "377": 0.2,
-      "19236": "/rooms/382/timeto/stringproc-19236.rb",
-      "30708": "/rooms/382/timeto/stringproc-30708.rb"
+      "19236": ";e Stats.prof == 'Empath' ? 0.2 : nil",
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      1194,
+      788,
+      1230,
+      824
+    ],
     "tags": [
       "empath guild",
       "empathguild",
@@ -35,13 +41,6 @@
     ],
     "uid": [
       651001
-    ],
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      1194,
-      788,
-      1230,
-      824
     ]
   }
 }

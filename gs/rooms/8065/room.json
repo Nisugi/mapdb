@@ -1,5 +1,4 @@
 {
-  "checksum": "c6683fa4cba3f994afc7b447ffd4cfb9",
   "room": {
     "id": 8065,
     "title": [
@@ -22,8 +21,15 @@
     "timeto": {
       "8063": 0.2,
       "8066": 0.2,
-      "8067": 15
+      "8067": 15.0
     },
+    "image": "wl-mineroad-1264234799.png",
+    "image_coords": [
+      1241,
+      953,
+      1251,
+      963
+    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -44,13 +50,6 @@
     ],
     "uid": [
       4250069
-    ],
-    "image": "wl-mineroad-1264234799.png",
-    "image_coords": [
-      1241,
-      953,
-      1251,
-      963
     ]
   }
 }

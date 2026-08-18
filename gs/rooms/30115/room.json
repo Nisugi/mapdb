@@ -1,5 +1,4 @@
 {
-  "checksum": "e91faf502e257b19424da6ed7f5d8ebb",
   "room": {
     "id": 30115,
     "title": [
@@ -16,13 +15,20 @@
     "climate": "",
     "terrain": "",
     "wayto": {
-      "29861": "/rooms/30115/wayto/stringproc-29861.rb",
-      "29867": "/rooms/30115/wayto/stringproc-29867.rb"
+      "29861": ";e while Room.current.id == 30115; fput 'south'; waitrt; end;",
+      "29867": ";e fput 'west'; while Room.current.id == 30115; fput 'north'; waitrt; end; if Room.current.id != 29867; $go2_restart = true; end;"
     },
     "timeto": {
       "29861": 60,
       "29867": 60
     },
+    "image": "imt-Hinterwilds-1651886165.jpg",
+    "image_coords": [
+      679,
+      1214,
+      727,
+      1256
+    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:night:2023-01",
@@ -30,13 +36,6 @@
     ],
     "uid": [
       7503051
-    ],
-    "image": "imt-Hinterwilds-1651886165.jpg",
-    "image_coords": [
-      679,
-      1214,
-      727,
-      1256
     ]
   }
 }

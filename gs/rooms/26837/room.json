@@ -1,5 +1,4 @@
 {
-  "checksum": "abeb66dcf7743470858003be0e45d2c7",
   "room": {
     "id": 26837,
     "title": [
@@ -18,12 +17,12 @@
     "wayto": {
       "23717": "go oak-framed shop",
       "26836": "east",
-      "26845": "go stone shop",
+      "26845": "go shop",
       "26846": "go pavilion",
       "26864": "north",
       "29823": "go colorful tent",
-      "33579": "go wooden building",
-      "35186": "go wooden stairs"
+      "33579": "go building",
+      "35186": "go stairs"
     },
     "timeto": {
       "23717": 0.2,
@@ -35,12 +34,6 @@
       "33579": 0.2,
       "35186": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214521
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       571,
@@ -48,6 +41,12 @@
       600,
       741
     ],
-    "check_location": false
+    "tags": [
+      "no forageables"
+    ],
+    "check_location": false,
+    "uid": [
+      8214521
+    ]
   }
 }

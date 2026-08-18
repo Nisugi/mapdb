@@ -1,5 +1,4 @@
 {
-  "checksum": "495fdbd567074963fc63e9e3fb45d844",
   "room": {
     "id": 8011,
     "title": [
@@ -20,6 +19,13 @@
     "timeto": {
       "8010": 0.2
     },
+    "image": "wl-mineroad-1264234799.png",
+    "image_coords": [
+      80,
+      944,
+      90,
+      954
+    ],
     "tags": [
       "ironfern root",
       "meta:forage-sensed",
@@ -27,13 +33,6 @@
     ],
     "uid": [
       401014
-    ],
-    "image": "wl-mineroad-1264234799.png",
-    "image_coords": [
-      80,
-      944,
-      90,
-      954
     ]
   }
 }

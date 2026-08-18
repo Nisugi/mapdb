@@ -1,5 +1,4 @@
 {
-  "checksum": "08d46c90250d1c9d113436a14906c524",
   "room": {
     "id": 9242,
     "title": [
@@ -20,14 +19,21 @@
       "245": "out",
       "24561": "go door",
       "24562": "go path",
-      "30708": "/rooms/9242/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "245": 0.2,
       "24561": 0.2,
       "24562": 0.2,
-      "30708": "/rooms/9242/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "wl-black_wolves_manor.png",
+    "image_coords": [
+      355,
+      564,
+      381,
+      591
+    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-11",
@@ -42,13 +48,6 @@
     ],
     "uid": [
       18002001
-    ],
-    "image": "wl-black_wolves_manor.png",
-    "image_coords": [
-      355,
-      564,
-      381,
-      591
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "0f7a939baaf3fa1fe997cf275ed3b4f4",
   "room": {
     "id": 36300,
     "title": [
@@ -20,6 +19,13 @@
       "36299": 0.2,
       "36301": 0.2
     },
+    "image": "albatross-1342665555.png",
+    "image_coords": [
+      353,
+      91,
+      371,
+      111
+    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -27,13 +33,6 @@
     ],
     "uid": [
       777303
-    ],
-    "image": "albatross-1342665555.png",
-    "image_coords": [
-      353,
-      91,
-      371,
-      111
     ]
   }
 }

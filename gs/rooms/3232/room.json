@@ -1,5 +1,4 @@
 {
-  "checksum": "a31bfde6e36843c3534767a497d101cd",
   "room": {
     "id": 3232,
     "title": [
@@ -24,6 +23,13 @@
       "3231": 0.2,
       "3233": 0.2
     },
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      404,
+      786,
+      440,
+      822
+    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -32,13 +38,6 @@
     ],
     "uid": [
       4042104
-    ],
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      404,
-      786,
-      440,
-      822
     ]
   }
 }

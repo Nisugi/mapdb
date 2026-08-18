@@ -1,5 +1,4 @@
 {
-  "checksum": "07896ce5869fbfec393f1c07202165ea",
   "room": {
     "id": 18033,
     "title": [
@@ -26,6 +25,13 @@
       "18034": 0.2,
       "18035": 0.2
     },
+    "image": "imt-homes-1264234799.png",
+    "image_coords": [
+      946,
+      837,
+      966,
+      857
+    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -34,13 +40,6 @@
     ],
     "uid": [
       705073
-    ],
-    "image": "imt-homes-1264234799.png",
-    "image_coords": [
-      946,
-      837,
-      966,
-      857
     ]
   }
 }

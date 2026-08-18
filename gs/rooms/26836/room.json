@@ -1,5 +1,4 @@
 {
-  "checksum": "82d2ecbcdf2abdcbd9b19f4f85d01ad8",
   "room": {
     "id": 26836,
     "title": [
@@ -21,7 +20,8 @@
       "26844": "go alleyway",
       "26847": "south",
       "28713": "go ironwood wagon",
-      "29824": "go limestone dwelling"
+      "29824": "go dwelling",
+      "36799": "go crack"
     },
     "timeto": {
       "23819": 0.2,
@@ -30,20 +30,21 @@
       "26844": 0.2,
       "26847": 0.2,
       "28713": 0.2,
-      "29824": 0.2
+      "29824": 0.2,
+      "36799": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214522
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       771,
       712,
       802,
       743
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      8214522
     ]
   }
 }

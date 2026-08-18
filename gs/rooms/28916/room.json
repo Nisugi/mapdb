@@ -1,5 +1,4 @@
 {
-  "checksum": "7090106e1012dec43e57b4686afe2826",
   "room": {
     "id": 28916,
     "title": [
@@ -19,14 +18,21 @@
       "28914": "west",
       "28917": "east",
       "29091": "go stucco bar",
-      "30716": "/rooms/28916/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28914": 0.2,
       "28917": 0.2,
       "29091": 0.2,
-      "30716": "/rooms/28916/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "kf-krakens_fall-1648278406.png",
+    "image_coords": [
+      670,
+      242,
+      683,
+      256
+    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables",
@@ -36,13 +42,6 @@
     ],
     "uid": [
       7118205
-    ],
-    "image": "kf-krakens_fall-1648278406.png",
-    "image_coords": [
-      670,
-      242,
-      683,
-      256
     ]
   }
 }

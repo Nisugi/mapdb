@@ -1,5 +1,4 @@
 {
-  "checksum": "c8c518091df12331a8268882bf04911f",
   "room": {
     "id": 26850,
     "title": [
@@ -17,8 +16,8 @@
     "wayto": {
       "23731": "go oblong temple",
       "25174": "south",
-      "25178": "go circular building",
-      "25179": "go teak bungalow",
+      "25178": "go building",
+      "25179": "go bungalow",
       "25188": "go shop",
       "26840": "north",
       "26847": "west",
@@ -38,12 +37,6 @@
       "26852": 0.2,
       "26856": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214506
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       862,
@@ -51,6 +44,12 @@
       892,
       842
     ],
-    "check_location": false
+    "tags": [
+      "no forageables"
+    ],
+    "check_location": false,
+    "uid": [
+      8214506
+    ]
   }
 }

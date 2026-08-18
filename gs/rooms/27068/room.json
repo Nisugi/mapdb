@@ -1,5 +1,4 @@
 {
-  "checksum": "ab33d7cd591d886f590aad7a651dcf16",
   "room": {
     "id": 27068,
     "title": [
@@ -24,6 +23,13 @@
       "27067": 0.2,
       "27069": 0.2
     },
+    "image": "en-wildwood.png",
+    "image_coords": [
+      480,
+      1447,
+      530,
+      1496
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -114,13 +120,6 @@
     ],
     "uid": [
       13130006
-    ],
-    "image": "en-wildwood.png",
-    "image_coords": [
-      480,
-      1447,
-      530,
-      1496
     ]
   }
 }

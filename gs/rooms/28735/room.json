@@ -1,5 +1,4 @@
 {
-  "checksum": "4365ed2c2a35782242c21463240decba",
   "room": {
     "id": 28735,
     "title": [
@@ -22,6 +21,13 @@
       "3053": 0.2,
       "28736": 0.2
     },
+    "image": "imt-beacon_hall.png",
+    "image_coords": [
+      218,
+      264,
+      251,
+      300
+    ],
     "tags": [
       "angelica root",
       "beaconhall",
@@ -50,13 +56,6 @@
     ],
     "uid": [
       4050324
-    ],
-    "image": "imt-beacon_hall.png",
-    "image_coords": [
-      218,
-      264,
-      251,
-      300
     ]
   }
 }

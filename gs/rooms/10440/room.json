@@ -1,5 +1,4 @@
 {
-  "checksum": "a8bf5c163665a3a65f85daf66b51b0cb",
   "room": {
     "id": 10440,
     "title": [
@@ -13,11 +12,11 @@
     ],
     "location": "the town of Kharam-Dzu",
     "wayto": {
-      "12415": "/rooms/10440/wayto/stringproc-12415.rb",
+      "12415": ";e 2.times { fput 'touch teeth'; sleep 1; wait_while { stunned? } }; fput 'touch left wing'; fput 'touch right wing'; wait_until { Room.current.id == 12415 }",
       "14693": "south"
     },
     "timeto": {
-      "12415": 10,
+      "12415": 10.0,
       "14693": 0.2
     },
     "tags": [

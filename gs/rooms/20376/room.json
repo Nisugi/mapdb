@@ -1,5 +1,4 @@
 {
-  "checksum": "fdedee648e6f4cc14cef82af6b20ff97",
   "room": {
     "id": 20376,
     "title": [
@@ -14,7 +13,7 @@
     "location": "the Feywrot Mire",
     "wayto": {
       "20124": "northwest",
-      "20377": "/rooms/20376/wayto/stringproc-20377.rb",
+      "20377": ";e put \"go field\";put \"go field\"",
       "20378": "southeast"
     },
     "timeto": {

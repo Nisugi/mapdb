@@ -1,5 +1,4 @@
 {
-  "checksum": "d71801c348bcacfec1c1a3a77ce0644a",
   "room": {
     "id": 30867,
     "title": [
@@ -21,6 +20,13 @@
     "timeto": {
       "30865": 0.2
     },
+    "image": "kf-atoll-1652294074.jpg",
+    "image_coords": [
+      818,
+      348,
+      847,
+      377
+    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -30,13 +36,6 @@
     ],
     "uid": [
       7138206
-    ],
-    "image": "kf-atoll-1652294074.jpg",
-    "image_coords": [
-      818,
-      348,
-      847,
-      377
     ]
   }
 }

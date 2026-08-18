@@ -1,5 +1,4 @@
 {
-  "checksum": "8fa25be11caa14bf78655186210e760c",
   "room": {
     "id": 16719,
     "title": [
@@ -16,12 +15,19 @@
     "terrain": "deciduous forest",
     "wayto": {
       "16718": "north",
-      "16720": "/rooms/16719/wayto/stringproc-16720.rb"
+      "16720": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'climb wall'; waitrt?"
     },
     "timeto": {
       "16718": 0.2,
-      "16720": 5
+      "16720": 5.0
     },
+    "image": "en-aradhul-road-1308194332.png",
+    "image_coords": [
+      329,
+      359,
+      350,
+      377
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -112,13 +118,6 @@
     ],
     "uid": [
       17005019
-    ],
-    "image": "en-aradhul-road-1308194332.png",
-    "image_coords": [
-      329,
-      359,
-      350,
-      377
     ]
   }
 }

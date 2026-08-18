@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36786,
+    "title": [
+      "[The Reel Deal]"
+    ],
+    "description": [
+      "Thick sailcloth is supported by a frame of carved driftwood that creates the walls and canopy of the spacious tent.  A bronze-edged wooden chest is centered on a worn dark carpet that partially covers the deck board flooring.  A pair of sconces illuminate a tiered driftwood stand surrounded by stacks of crates, boxes, and various supplies."
+    ],
+    "paths": [
+      "Obvious exits: west"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36785": "west"
+    },
+    "timeto": {
+      "36785": 0.2
+    },
+    "uid": [
+      7134183
+    ]
+  }
+}

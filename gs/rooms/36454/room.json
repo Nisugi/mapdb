@@ -1,5 +1,4 @@
 {
-  "checksum": "ae4608da4726b62afaa22d6199cc5f3a",
   "room": {
     "id": 36454,
     "title": [
@@ -26,6 +25,13 @@
       "36456": 0.2,
       "36459": 0.2
     },
+    "image": "quest-black_swan_castle.png",
+    "image_coords": [
+      440,
+      840,
+      480,
+      880
+    ],
     "tags": [
       "fennel bulb",
       "handful of raspberries",
@@ -46,13 +52,6 @@
     ],
     "uid": [
       59042
-    ],
-    "image": "quest-black_swan_castle.png",
-    "image_coords": [
-      440,
-      840,
-      480,
-      880
     ]
   }
 }

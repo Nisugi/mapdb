@@ -1,5 +1,4 @@
 {
-  "checksum": "4a0c3211d09d9d80faafeb712c8227cf",
   "room": {
     "id": 26876,
     "title": [
@@ -22,7 +21,9 @@
       "29814": "go white tent",
       "29857": "go marquee",
       "29858": "go tower",
-      "33314": "go ebonwood door"
+      "33314": "go door",
+      "36804": "go structure",
+      "36806": "go blockhouse"
     },
     "timeto": {
       "23808": 0.2,
@@ -32,14 +33,10 @@
       "29814": 0.2,
       "29857": 0.2,
       "29858": 0.2,
-      "33314": 0.2
+      "33314": 0.2,
+      "36804": 0.2,
+      "36806": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214517
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       571,
@@ -47,6 +44,12 @@
       601,
       220
     ],
-    "check_location": false
+    "tags": [
+      "no forageables"
+    ],
+    "check_location": false,
+    "uid": [
+      8214517
+    ]
   }
 }

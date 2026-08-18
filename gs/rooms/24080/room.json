@@ -1,5 +1,4 @@
 {
-  "checksum": "3f60008057af796b253e44658c0d8044",
   "room": {
     "id": 24080,
     "title": [
@@ -14,7 +13,7 @@
     "location": "the Feywrot Mire",
     "wayto": {
       "24079": "south",
-      "24082": "/rooms/24080/wayto/stringproc-24082.rb"
+      "24082": ";e fput \"get my adder\";fput \"put adder in door\";move \"go stone door\""
     },
     "timeto": {
       "24079": 0.2,

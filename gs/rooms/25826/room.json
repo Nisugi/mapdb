@@ -1,5 +1,4 @@
 {
-  "checksum": "df0aabb34f2a11f8b08eada327ca8ba7",
   "room": {
     "id": 25826,
     "title": [
@@ -17,7 +16,7 @@
     "wayto": {
       "25825": "south",
       "25827": "southeast",
-      "33232": "/rooms/25826/wayto/stringproc-33232.rb"
+      "33232": ";e fput 'search';move('go hole');"
     },
     "timeto": {
       "25825": 0.2,

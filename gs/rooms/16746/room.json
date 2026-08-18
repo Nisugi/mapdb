@@ -1,5 +1,4 @@
 {
-  "checksum": "50907ccc6ae62ad87db05ce3c5c09c35",
   "room": {
     "id": 16746,
     "title": [
@@ -15,13 +14,20 @@
     "climate": "temperate",
     "terrain": "mountainous",
     "wayto": {
-      "16745": "/rooms/16746/wayto/stringproc-16745.rb",
+      "16745": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'jump rock'; waitrt?",
       "16747": "southwest"
     },
     "timeto": {
       "16745": 15,
       "16747": 0.2
     },
+    "image": "en-aradhul-road-1308194332.png",
+    "image_coords": [
+      703,
+      759,
+      726,
+      777
+    ],
     "tags": [
       "agave heart",
       "angelica root",
@@ -60,13 +66,6 @@
     ],
     "uid": [
       17005026
-    ],
-    "image": "en-aradhul-road-1308194332.png",
-    "image_coords": [
-      703,
-      759,
-      726,
-      777
     ]
   }
 }

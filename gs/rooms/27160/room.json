@@ -1,5 +1,4 @@
 {
-  "checksum": "ece1ff836a62254bf3f9b397e8d235c6",
   "room": {
     "id": 27160,
     "title": [
@@ -11,7 +10,7 @@
     "paths": [
       "Obvious exits: southwest"
     ],
-    "location": false,
+    "location": "Bloodriven Village",
     "wayto": {
       "27158": "southwest"
     },
@@ -19,8 +18,8 @@
       "27158": 0.2
     },
     "tags": [
-      "ophidian cabal",
-      "bandit"
+      "bandit",
+      "ophidian cabal"
     ],
     "uid": [
       8215014

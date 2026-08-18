@@ -1,5 +1,4 @@
 {
-  "checksum": "6753fba19e4eb936e04694dec19316ba",
   "room": {
     "id": 36403,
     "title": [
@@ -13,20 +12,20 @@
     ],
     "location": "the Upper Trollfang",
     "wayto": {
-      "36402": "/rooms/36403/wayto/stringproc-36402.rb"
+      "36402": ";e 3.times{fput 'knock door'};fput 'go door'"
     },
     "timeto": {
       "36402": 0.2
     },
-    "uid": [
-      58009
-    ],
     "image": "quest-black_swan_castle.png",
     "image_coords": [
       1280,
       360,
       1320,
       400
+    ],
+    "uid": [
+      58009
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "374ec219be0414d6495fc6eb93ef734e",
   "room": {
     "id": 21063,
     "title": [
@@ -15,11 +14,18 @@
     "climate": "humid",
     "terrain": "tropical",
     "wayto": {
-      "21062": "/rooms/21063/wayto/stringproc-21062.rb"
+      "21062": ";e pause 0.2; waitrt?; fput 'push ne'"
     },
     "timeto": {
-      "21062": 2
+      "21062": 2.0
     },
+    "image": "ifw-wilds-1368242816.png",
+    "image_coords": [
+      641,
+      1519,
+      660,
+      1539
+    ],
     "tags": [
       "acantha leaf",
       "bamboo cane",
@@ -69,13 +75,6 @@
     ],
     "uid": [
       3210601
-    ],
-    "image": "ifw-wilds-1368242816.png",
-    "image_coords": [
-      641,
-      1519,
-      660,
-      1539
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "55e2f2e6c028f1e197a4b4c2c66f01c3",
   "room": {
     "id": 25902,
     "title": [
@@ -22,12 +21,6 @@
       "28088": 0.2,
       "36527": 0.2
     },
-    "tags": [
-      "exit"
-    ],
-    "uid": [
-      8211001
-    ],
     "image": "fest-RW2026.png",
     "image_coords": [
       296,
@@ -35,6 +28,12 @@
       322,
       685
     ],
-    "check_location": false
+    "tags": [
+      "exit"
+    ],
+    "check_location": false,
+    "uid": [
+      8211001
+    ]
   }
 }

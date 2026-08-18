@@ -1,5 +1,4 @@
 {
-  "checksum": "a60dc2a84bef1e91f201bad0cca6e443",
   "room": {
     "id": 29773,
     "title": [
@@ -22,6 +21,13 @@
       "29774": 0.2,
       "29776": 0.2
     },
+    "image": "kf-wizardguild.png",
+    "image_coords": [
+      323,
+      343,
+      342,
+      364
+    ],
     "tags": [
       "meta:mapcategory:Guilds",
       "meta:mapcategory:Kraken's Fall",
@@ -31,13 +37,6 @@
     ],
     "uid": [
       689001
-    ],
-    "image": "kf-wizardguild.png",
-    "image_coords": [
-      323,
-      343,
-      342,
-      364
     ]
   }
 }

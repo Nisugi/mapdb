@@ -1,5 +1,4 @@
 {
-  "checksum": "3bf073b5af7aab1abebc841d0a4024ad",
   "room": {
     "id": 229,
     "title": [
@@ -23,12 +22,19 @@
       "387": "go Moot Hall"
     },
     "timeto": {
-      "228": 1,
+      "228": 1.0,
       "230": 0.2,
       "276": 0.2,
       "282": 0.2,
       "387": 0.2
     },
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      357,
+      615,
+      393,
+      651
+    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -83,13 +89,6 @@
     ],
     "uid": [
       7048
-    ],
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      357,
-      615,
-      393,
-      651
     ]
   }
 }

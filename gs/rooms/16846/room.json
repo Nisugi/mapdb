@@ -1,5 +1,4 @@
 {
-  "checksum": "cef4a0ade22c43d1fd59d6484f904a08",
   "room": {
     "id": 16846,
     "title": [
@@ -16,11 +15,11 @@
     "terrain": "none",
     "wayto": {
       "16843": "go door",
-      "30712": "/rooms/16846/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "16843": 0.2,
-      "30712": "/rooms/16846/timeto/stringproc-30712.rb"
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "debts",

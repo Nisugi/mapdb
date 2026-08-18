@@ -1,5 +1,4 @@
 {
-  "checksum": "add5a8d051f0768a1cb078683023cbb0",
   "room": {
     "id": 18839,
     "title": [
@@ -23,6 +22,13 @@
       "18838": 0.2,
       "18844": 0.2
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1039,
+      166,
+      1066,
+      192
+    ],
     "tags": [
       "acantha leaf",
       "blackberries",
@@ -82,13 +88,6 @@
     ],
     "uid": [
       14202014
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1039,
-      166,
-      1066,
-      192
     ]
   }
 }

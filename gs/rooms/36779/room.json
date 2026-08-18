@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36779,
+    "title": [
+      "[Market of Lost Things, Hold]"
+    ],
+    "description": [
+      "Draped in layered silks that mute sound and filter lantern light into soft pinks and ambers, the corridor is filled with perfumed smoke curling up into the evenly spaced beams overhead.  Painted signs promise fortunes, trinkets, and wines of rare vintage.  Along the bulkhead, oaken barrels double as tables where merchants sip spirits, trade gossip, and throw dice."
+    ],
+    "paths": [
+      "Obvious exits: west, up"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36778": "up",
+      "36780": "west"
+    },
+    "timeto": {
+      "36778": 0.2,
+      "36780": 0.2
+    },
+    "uid": [
+      7134219
+    ]
+  }
+}

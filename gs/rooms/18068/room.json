@@ -1,5 +1,4 @@
 {
-  "checksum": "a11c728a5ef9a7b7c298b59904359504",
   "room": {
     "id": 18068,
     "title": [
@@ -13,22 +12,22 @@
     ],
     "location": "Ta'Vaalor",
     "wayto": {
-      "18054": "/rooms/18068/wayto/stringproc-18054.rb",
+      "18054": ";e 40.times { sleep 0.1; break if GameObj.loot.any? { |obj| obj.name =~ /#{Char.name} disk$/ } }; unless GameObj.loot.any? { |obj| obj.name =~ /#{Char.name} disk$/ }; disk = Spell[511]; wait_until { disk.affordable? }; disk.cast; end; move 'down'",
       "18069": "go door"
     },
     "timeto": {
-      "18054": 3,
+      "18054": 3.0,
       "18069": 0.2
     },
-    "uid": [
-      687039
-    ],
     "image": "en-ta_vaalor_wizard_guild-1649013056.jpg",
     "image_coords": [
       352,
       41,
       419,
       106
+    ],
+    "uid": [
+      687039
     ]
   }
 }

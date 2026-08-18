@@ -1,5 +1,4 @@
 {
-  "checksum": "3b3c4ebcdd806f7b284e1d3a16aac7ef",
   "room": {
     "id": 5296,
     "title": [
@@ -16,7 +15,7 @@
     "terrain": "coniferous forest",
     "wayto": {
       "5295": "northwest",
-      "5297": "/rooms/5296/wayto/stringproc-5297.rb",
+      "5297": ";e empty_hands; move 'climb hillock'; waitrt?; fill_hands",
       "5298": "south"
     },
     "timeto": {
@@ -24,6 +23,13 @@
       "5297": 0.2,
       "5298": 0.2
     },
+    "image": "vo-foggy_valley-1264234799.png",
+    "image_coords": [
+      982,
+      581,
+      992,
+      591
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -78,13 +84,6 @@
     ],
     "uid": [
       4214311
-    ],
-    "image": "vo-foggy_valley-1264234799.png",
-    "image_coords": [
-      982,
-      581,
-      992,
-      591
     ]
   }
 }
