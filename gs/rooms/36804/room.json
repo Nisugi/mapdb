@@ -1,0 +1,28 @@
+{
+  "room": {
+    "id": 36804,
+    "title": [
+      "[Petal to the Metal, Entry]"
+    ],
+    "description": [
+      "Wads of moss and clumps of leaves have been shoved between the intertwined tree trunks making up the walls of this enclosed space, the extra foliage mixing together with the mottled lichen and climbing ivy vines covering every surface.  Filtered sunlight creeps in from the hole in the ceiling where woven branches form the roof, while hanging jars of phosphorescent algae illuminate the wares within a knotty pine display case and a hollowed tree stump.  A foggy glass-inset door leads to an attached greenhouse."
+    ],
+    "paths": [
+      "Obvious exits: north, out"
+    ],
+    "location": "Bloodriven Village",
+    "wayto": {
+      "26876": "out",
+      "36805": "go door",
+      "36807": "north"
+    },
+    "timeto": {
+      "26876": 0.2,
+      "36805": 0.2,
+      "36807": 0.2
+    },
+    "uid": [
+      8212836
+    ]
+  }
+}

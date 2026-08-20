@@ -1,5 +1,4 @@
 {
-  "checksum": "ce71982ff32fde73ec6e4842b7a9594f",
   "room": {
     "id": 13362,
     "title": [
@@ -19,15 +18,23 @@
     "wayto": {
       "13360": "southwest",
       "13361": "southeast",
-      "30714": "/rooms/13362/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "13360": 0.2,
       "13361": 0.2,
-      "30714": "/rooms/13362/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "en-ta_illistim_buildings.png",
+    "image_coords": [
+      1721,
+      1800,
+      1765,
+      1841
+    ],
     "tags": [
       "angelica root",
+      "arbutus berry",
       "ayana leaf",
       "black peppercorn",
       "blaestonberries",
@@ -42,6 +49,7 @@
       "cardamom",
       "chives",
       "creamy white wisteria",
+      "crystal-like sylthiel",
       "cumin seeds",
       "curly leaf parsley",
       "daggerstalk mushroom",
@@ -57,6 +65,7 @@
       "fresh broccoli",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green beans",
       "green cabbage",
@@ -75,7 +84,7 @@
       "light blue hydrangea",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
       "motherwort",
       "mustard seeds",
@@ -107,6 +116,7 @@
       "rhubarb",
       "rose-marrow root",
       "round red radish",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small anemone",
@@ -142,6 +152,7 @@
       "supernode",
       "sweet onion",
       "tendril of vinca",
+      "thistle seeds",
       "thyme",
       "tiger lily",
       "trollfear mushroom",
@@ -149,6 +160,7 @@
       "vanilla bean",
       "vert globe artichoke",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "white begonia",
       "white datura blossom",
@@ -158,8 +170,10 @@
       "white peony",
       "white ramie",
       "wild pansy blossom",
+      "wild rice",
       "wild spinach",
       "withered mushroom",
+      "yellow carrot",
       "yellow datura blossom",
       "yellow squash",
       "yew twig",
@@ -167,13 +181,6 @@
     ],
     "uid": [
       13107303
-    ],
-    "image": "en-ta_illistim_buildings.png",
-    "image_coords": [
-      1721,
-      1800,
-      1765,
-      1841
     ]
   }
 }

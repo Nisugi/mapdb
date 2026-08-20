@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36747,
+    "title": [
+      "[Salty's Services, Displays]"
+    ],
+    "description": [
+      "Stone and wood-carved creatures, figures, and objects of varying size and shape clutter this section of the warehouse, placed in a disorderly manner such that there is no clear path through them from one end of the area to the other.  The carved figures represent a collection ranging from sea creatures to noteworthy Kraken's Fall sights and figures.  Above, several iron braziers cast a significant light across the area, ensuring the room is bright enough to observe the multitude of decorative options."
+    ],
+    "paths": [
+      "Obvious exits: north, east"
+    ],
+    "location": "Kraken's Fall",
+    "wayto": {
+      "36746": "n",
+      "36748": "e"
+    },
+    "timeto": {
+      "36746": 0.2,
+      "36748": 0.2
+    },
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      740015
+    ]
+  }
+}

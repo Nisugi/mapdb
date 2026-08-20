@@ -1,5 +1,4 @@
 {
-  "checksum": "5fc74c438c5172cd7142fa25d8451921",
   "room": {
     "id": 4012,
     "title": [
@@ -16,11 +15,11 @@
     "terrain": "none",
     "wayto": {
       "184": "out",
-      "30714": "/rooms/4012/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "184": 0.2,
-      "30714": "/rooms/4012/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "armor",

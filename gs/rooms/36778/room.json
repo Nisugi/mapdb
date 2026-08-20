@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36778,
+    "title": [
+      "[Market of Lost Things]"
+    ],
+    "description": [
+      "The straight passageway is narrow, with small brightly painted kiosk fronts packed shoulder to shoulder.  Floorboards are reinforced by crossbeams, forming visible seams that mark old repair work.  At the far end, a rope hoist pulley is fixed along the low ceiling for lifting crates to the lower deck levels."
+    ],
+    "paths": [
+      "Obvious exits: west, down"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36774": "west",
+      "36779": "down"
+    },
+    "timeto": {
+      "36774": 0.2,
+      "36779": 0.2
+    },
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      7134218
+    ]
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "checksum": "66c405cfb6d99c497c8d6265a2787075",
   "room": {
     "id": 29233,
     "title": [
@@ -20,6 +19,13 @@
     "timeto": {
       "29232": 0.2
     },
+    "image": "kf-widowmakers_road-1668643957.png",
+    "image_coords": [
+      429,
+      152,
+      443,
+      166
+    ],
     "tags": [
       "alpine violet",
       "angelica root",
@@ -58,6 +64,7 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "oak twig",
       "oxblood lily",
@@ -102,13 +109,6 @@
     ],
     "uid": [
       7130016
-    ],
-    "image": "kf-widowmakers_road-1668643957.png",
-    "image_coords": [
-      429,
-      152,
-      443,
-      166
     ]
   }
 }

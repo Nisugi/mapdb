@@ -1,5 +1,4 @@
 {
-  "checksum": "b4fb40d943287462bba05db6c35f5021",
   "room": {
     "id": 35360,
     "title": [
@@ -20,15 +19,20 @@
       "35359": 0.2,
       "35361": 0.2
     },
-    "uid": [
-      7142185
-    ],
     "image": "2Sleeping_Drake_Harbor_and_Bericsaba_Market.png",
     "image_coords": [
       1347,
       1195,
       1374,
       1220
+    ],
+    "tags": [
+      "green vine",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      7142185
     ]
   }
 }

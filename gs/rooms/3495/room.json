@@ -1,5 +1,4 @@
 {
-  "checksum": "5230a8db93fe2ed0acb13268208badcb",
   "room": {
     "id": 3495,
     "title": [
@@ -18,17 +17,25 @@
     "terrain": "cultivated",
     "wayto": {
       "3493": "north",
-      "18041": "/rooms/3495/wayto/stringproc-18041.rb",
-      "30713": "/rooms/3495/wayto/stringproc-30713.rb"
+      "18041": ";e fput 'speak'; language = /You are currently speaking (.*?)\\./.match(get).captures.first until language;; fput('speak wizard') unless language == 'Guildspeak'; fput('unhide') if hidden? or invisible?; move 'say ::door wizard'; fput('speak ' + language.to_s) unless language == 'Guildspeak'",
+      "30713": ";e true"
     },
     "timeto": {
       "3493": 0.2,
-      "18041": "/rooms/3495/timeto/stringproc-18041.rb",
-      "30713": "/rooms/3495/timeto/stringproc-30713.rb"
+      "18041": ";e ((!defined?(Stats.prof) or Stats.prof == 'Wizard') ? 0.2 : nil);",
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "en-tavaalor-1565907614.png",
+    "image_coords": [
+      926,
+      330,
+      958,
+      364
+    ],
     "tags": [
       "advguard",
       "angelica root",
+      "arbutus berry",
       "ayana leaf",
       "bay leaf",
       "black peppercorn",
@@ -43,6 +50,7 @@
       "cardamom",
       "cherry peppers",
       "chives",
+      "crystal-like sylthiel",
       "cumin seeds",
       "curly garlic scapes",
       "curly leaf parsley",
@@ -60,11 +68,13 @@
       "fresh cilantro",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green beans",
       "green cabbage",
       "green olive",
       "green pepper",
+      "green soybean pod",
       "haphip root",
       "heath aster",
       "honeysuckle vine",
@@ -80,7 +90,7 @@
       "light blue hydrangea",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "motherwort",
       "mustard seeds",
@@ -109,6 +119,7 @@
       "red pepper",
       "rose-marrow root",
       "round red radish",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small anemone",
@@ -145,6 +156,7 @@
       "sunflower seeds",
       "sweet onion",
       "tendril of vinca",
+      "thistle seeds",
       "thyme",
       "tiger lily",
       "tobacco leaves",
@@ -154,6 +166,7 @@
       "vanilla bean",
       "vert globe artichoke",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "white begonia",
       "white hydrangea",
@@ -161,9 +174,11 @@
       "white peony",
       "white ramie",
       "wild pansy blossom",
+      "wild rice",
       "withered mushroom",
       "wizard guild",
       "wizardguild",
+      "yellow carrot",
       "yellow lemon",
       "yellow pepper",
       "yellow squash",
@@ -172,13 +187,6 @@
     ],
     "uid": [
       14100082
-    ],
-    "image": "en-tavaalor-1565907614.png",
-    "image_coords": [
-      926,
-      330,
-      958,
-      364
     ]
   }
 }

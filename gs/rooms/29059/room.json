@@ -1,5 +1,4 @@
 {
-  "checksum": "03120e6f1c989dca1415bfc38688e374",
   "room": {
     "id": 29059,
     "title": [
@@ -24,6 +23,13 @@
       "29060": 0.2,
       "29070": 0.2
     },
+    "image": "kf-widowmakers_road-1668643957.png",
+    "image_coords": [
+      823,
+      186,
+      836,
+      198
+    ],
     "tags": [
       "agave heart",
       "angelica root",
@@ -64,6 +70,7 @@
       "lobster-claw heliconia",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "monstera frond",
       "motherwort",
       "murdroot",
@@ -114,13 +121,6 @@
     ],
     "uid": [
       7128003
-    ],
-    "image": "kf-widowmakers_road-1668643957.png",
-    "image_coords": [
-      823,
-      186,
-      836,
-      198
     ]
   }
 }

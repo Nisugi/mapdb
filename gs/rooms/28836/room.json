@@ -1,5 +1,4 @@
 {
-  "checksum": "1bd3d0371755db00d219e61cc42ad414",
   "room": {
     "id": 28836,
     "title": [
@@ -20,6 +19,13 @@
       "28835": 0.2,
       "28861": 0.2
     },
+    "image": "imt-Den of Rot Map-51200901.png",
+    "image_coords": [
+      3,
+      510,
+      49,
+      556
+    ],
     "tags": [
       "blue trafel mushroom",
       "bolmara lichen",
@@ -27,6 +33,7 @@
       "flathead mushroom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "pepperthorn root",
       "soft mushroom",
@@ -35,13 +42,6 @@
     ],
     "uid": [
       4132219
-    ],
-    "image": "imt-Den of Rot Map-51200901.png",
-    "image_coords": [
-      3,
-      510,
-      49,
-      556
     ]
   }
 }

@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36730,
+    "title": [
+      "[Salty's Services, Warehouse]"
+    ],
+    "description": [
+      "The way through the warehouse dead-ends in a semicircle of shops surrounding a wood-lined marble relief of a thrashing kraken, which faces the path into the area, its many marble tentacles splaying outward from the relief's main body.  Two of the relief's tentacles prominently clutch a silver-bordered driftwood sign.  The entire installation is directly opposite some wide stone benches carved with a starfish motif, where several warehouse merchants and customers take repose."
+    ],
+    "paths": [
+      "Obvious exits: west"
+    ],
+    "location": "Kraken's Fall",
+    "wayto": {
+      "36729": "w",
+      "36731": "go shop",
+      "36734": "go second shop"
+    },
+    "timeto": {
+      "36729": 0.2,
+      "36731": 0.2,
+      "36734": 0.2
+    },
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      740024
+    ]
+  }
+}

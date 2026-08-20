@@ -1,5 +1,4 @@
 {
-  "checksum": "74b9fe48b8e27ba3261e6d28496c7d2d",
   "room": {
     "id": 25419,
     "title": [
@@ -20,20 +19,21 @@
     "timeto": {
       "23713": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      336350
-    ],
     "image": "wl-hendoran_outpost-1669182273.png",
     "image_coords": [
       448,
       37,
       483,
       71
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      336350
     ]
   }
 }

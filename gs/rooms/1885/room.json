@@ -1,5 +1,4 @@
 {
-  "checksum": "7958df2c557a697d74c3cc321d4b475e",
   "room": {
     "id": 1885,
     "title": [
@@ -15,16 +14,18 @@
     "wayto": {
       "1884": "go archway",
       "12983": "go door",
-      "30715": "/rooms/1885/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1884": 0.2,
       "12983": 0.2,
-      "30715": "/rooms/1885/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "meta:trashcan:slightly charred wooden barrel",
-      "no forageables",
       "pawn",
       "pawnshop",
       "trash",

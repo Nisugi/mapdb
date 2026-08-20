@@ -1,5 +1,4 @@
 {
-  "checksum": "915005146fc297672eca704b5a376710",
   "room": {
     "id": 28791,
     "title": [
@@ -18,18 +17,19 @@
     "timeto": {
       "28792": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      3213026
-    ],
     "image": "imt-Vardar_Hollow_Map-51200827a.png",
     "image_coords": [
       692,
       193,
       753,
       252
+    ],
+    "tags": [
+      "meta:splashy",
+      "no forageables"
+    ],
+    "uid": [
+      3213026
     ]
   }
 }

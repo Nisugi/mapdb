@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36748,
+    "title": [
+      "[Salty's Services, Displays]"
+    ],
+    "description": [
+      "Art pieces adorn this section of the warehouse, which is also set with a thick black carpet that fills most of the floor.  Small carved statues are set across this carpet, while the driftwood walls are lined with tapestries, paintings, and boards stuck with various sea creatures.  To one side of the room, a puce-hued plush easy chair is placed, and sitting upon its overstuffed cushions is a stout half-elf vendor.  Alongside the vendor are painting supplies, bolts of cloth, discarded bits of food, and empty bottles."
+    ],
+    "paths": [
+      "Obvious exits: north, west"
+    ],
+    "location": "Kraken's Fall",
+    "wayto": {
+      "36747": "w",
+      "36749": "n"
+    },
+    "timeto": {
+      "36747": 0.2,
+      "36749": 0.2
+    },
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      740014
+    ]
+  }
+}

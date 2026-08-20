@@ -1,5 +1,4 @@
 {
-  "checksum": "902258ade7e6719a8695b18183e3a3fc",
   "room": {
     "id": 7563,
     "title": [
@@ -20,18 +19,20 @@
       "7538": 0.2,
       "7564": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      2023
-    ],
     "image": "wl-moot_hall-1486755929.png",
     "image_coords": [
       997,
       965,
       1136,
       1024
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      2023
     ]
   }
 }

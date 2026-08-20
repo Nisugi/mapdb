@@ -1,5 +1,4 @@
 {
-  "checksum": "5e61ee9411e9425b2c2243b1837c5017",
   "room": {
     "id": 1417,
     "title": [
@@ -24,6 +23,13 @@
       "1418": 0.2,
       "4616": 0.2
     },
+    "image": "vo-caravansary-1264234799.png",
+    "image_coords": [
+      1174,
+      595,
+      1184,
+      605
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -45,6 +51,7 @@
       "daggerstalk mushroom",
       "dill",
       "ear of corn",
+      "fire lily",
       "flat-leaf parsley",
       "flathead mushroom",
       "fresh broccoli",
@@ -56,6 +63,7 @@
       "golden buttercup",
       "grapefruit",
       "green cabbage",
+      "green soybean pod",
       "green tea leaves",
       "heath aster",
       "honeymoon melon",
@@ -71,8 +79,10 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "murdroot",
+      "nightbloom blossom",
       "orange-red apple",
       "pale green honeydew",
       "pearl onions",
@@ -108,11 +118,14 @@
       "stalk of goldenrod",
       "sun-wilted tea leaves",
       "sunburst blossom",
+      "sunny yellow sylara'wor",
       "sweet onion",
       "sweet potato",
       "tea leaves",
       "thin hemp",
+      "thistle seeds",
       "tobacco leaves",
+      "trollear mushroom",
       "Vornavian orange",
       "wavepetal blossom",
       "white clover blossom",
@@ -133,13 +146,6 @@
     ],
     "uid": [
       2130003
-    ],
-    "image": "vo-caravansary-1264234799.png",
-    "image_coords": [
-      1174,
-      595,
-      1184,
-      605
     ]
   }
 }

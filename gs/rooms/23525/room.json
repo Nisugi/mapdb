@@ -1,5 +1,4 @@
 {
-  "checksum": "3718e0cae0ce252d1de4419362537d35",
   "room": {
     "id": 23525,
     "title": [
@@ -15,13 +14,20 @@
     "climate": "temperate",
     "terrain": "riparian",
     "wayto": {
-      "5830": "/rooms/23525/wayto/stringproc-5830.rb",
-      "23526": "/rooms/23525/wayto/stringproc-23526.rb"
+      "5830": ";e 10.times { result = dothistimeout 'search', 5, /don't find anything|discover a rocky trail|Round ?time|...[Ww]ait/; waitrt?; break if result =~ /discover a rocky trail/ };move('go rocky trail')",
+      "23526": ";e empty_hand;fput('go river');move('go river')"
     },
     "timeto": {
-      "5830": "/rooms/23525/timeto/stringproc-5830.rb",
-      "23526": "/rooms/23525/timeto/stringproc-23526.rb"
+      "5830": ";e if Skills.perception >= 30; 0.2; else nil; end",
+      "23526": ";e if Skills.swimming >= 30; 3.2; else nil; end"
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1441,
+      923,
+      1468,
+      951
+    ],
     "tags": [
       "acantha leaf",
       "blue trafel mushroom",
@@ -32,11 +38,12 @@
       "fiddlehead fern",
       "flathead mushroom",
       "genkew mushroom",
+      "green soybean pod",
       "handful of currants",
       "Imaera's Lace",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "mistweed",
       "murdroot",
@@ -44,6 +51,7 @@
       "pink clover blossom",
       "purple clover blossom",
       "red clover blossom",
+      "safflower seeds",
       "soft mushroom",
       "sprig of jasmine",
       "sprig of wild lilac",
@@ -52,6 +60,7 @@
       "stalk of goldenrod",
       "sunburst blossom",
       "talneo root",
+      "thistle seeds",
       "vert globe artichoke",
       "water chestnut",
       "wavepetal blossom",
@@ -68,13 +77,6 @@
     ],
     "uid": [
       14117224
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1441,
-      923,
-      1468,
-      951
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "e2325eddfcdcc47fa0b3443745cec592",
   "room": {
     "id": 10362,
     "title": [
@@ -15,12 +14,12 @@
     "wayto": {
       "3533": "out",
       "10363": "south",
-      "30713": "/rooms/10362/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3533": 0.2,
       "10363": 0.2,
-      "30713": "/rooms/10362/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "fletcher",

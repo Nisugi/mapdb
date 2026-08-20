@@ -1,5 +1,4 @@
 {
-  "checksum": "c6f0959412b583ea9393d4e70fb890ce",
   "room": {
     "id": 5876,
     "title": [
@@ -24,8 +23,16 @@
       "5877": 0.2,
       "5880": 0.2
     },
+    "image": "en-cemetery-1617615116.png",
+    "image_coords": [
+      570,
+      604,
+      581,
+      613
+    ],
     "tags": [
       "angelica root",
+      "arbutus berry",
       "bay leaf",
       "black peppercorn",
       "blaestonberries",
@@ -39,6 +46,7 @@
       "cardamom",
       "cherry peppers",
       "chives",
+      "crystal-like sylthiel",
       "cumin seeds",
       "curly garlic scapes",
       "curly leaf parsley",
@@ -56,11 +64,13 @@
       "fresh cilantro",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green beans",
       "green cabbage",
       "green olive",
       "green pepper",
+      "green soybean pod",
       "haphip root",
       "heath aster",
       "honeysuckle vine",
@@ -76,7 +86,7 @@
       "light blue hydrangea",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2025-07",
       "motherwort",
       "mustard seeds",
@@ -104,6 +114,7 @@
       "red pepper",
       "rose-marrow root",
       "round red radish",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small anemone",
@@ -140,6 +151,7 @@
       "sunflower seeds",
       "sweet onion",
       "tendril of vinca",
+      "thistle seeds",
       "thyme",
       "tiger lily",
       "tobacco leaves",
@@ -147,6 +159,7 @@
       "vanilla bean",
       "vert globe artichoke",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "white begonia",
       "white hydrangea",
@@ -154,8 +167,10 @@
       "white peony",
       "white ramie",
       "wild pansy blossom",
+      "wild rice",
       "witchwood twig",
       "withered mushroom",
+      "yellow carrot",
       "yellow lemon",
       "yellow pepper",
       "yellow squash",
@@ -164,13 +179,6 @@
     ],
     "uid": [
       14008040
-    ],
-    "image": "en-cemetery-1617615116.png",
-    "image_coords": [
-      570,
-      604,
-      581,
-      613
     ]
   }
 }

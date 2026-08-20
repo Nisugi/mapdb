@@ -1,5 +1,4 @@
 {
-  "checksum": "62577d70bd1a30db804fd552cf0d0933",
   "room": {
     "id": 30771,
     "title": [
@@ -20,18 +19,21 @@
       "12502": 0.2,
       "30772": 0.2
     },
-    "tags": [
-      "private property"
-    ],
-    "uid": [
-      730451
-    ],
     "image": "pp-emberglaes_hearth-1652313624.jpg",
     "image_coords": [
       628,
       1186,
       775,
       1334
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "private property"
+    ],
+    "uid": [
+      730451
     ]
   }
 }

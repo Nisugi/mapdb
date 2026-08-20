@@ -1,5 +1,4 @@
 {
-  "checksum": "ced5355807d377af88bfc866968d3a92",
   "room": {
     "id": 8668,
     "title": [
@@ -23,22 +22,22 @@
       "7562": 0.2,
       "8667": 0.2
     },
-    "tags": [
-      "node",
-      "meta:teleport:fwi",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "no forageables"
-    ],
-    "uid": [
-      7353
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       246,
       421,
       256,
       431
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:teleport:fwi",
+      "node",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      7353
     ]
   }
 }

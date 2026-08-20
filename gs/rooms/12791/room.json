@@ -1,5 +1,4 @@
 {
-  "checksum": "1b926c33d76573e96ab44c629b6c2d08",
   "room": {
     "id": 12791,
     "title": [
@@ -18,20 +17,22 @@
     "timeto": {
       "12790": 0.2
     },
-    "tags": [
-      "travel waiting room",
-      "no forageables",
-      "meta:nomagic"
-    ],
-    "uid": [
-      3012003
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       289,
       1101,
       325,
       1137
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:nomagic",
+      "travel waiting room"
+    ],
+    "uid": [
+      3012003
     ]
   }
 }

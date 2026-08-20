@@ -1,5 +1,4 @@
 {
-  "checksum": "e5f8edf9dd79d37d95595cc78bc23a09",
   "room": {
     "id": 22192,
     "title": [
@@ -20,19 +19,23 @@
       "22191": 0.2,
       "22193": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:citizenship:Ta'Vaalor"
-    ],
-    "uid": [
-      14119007
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       1028,
       421,
       1046,
       439
+    ],
+    "tags": [
+      "fire lily",
+      "meta:citizenship:Ta'Vaalor",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      14119007
     ]
   }
 }

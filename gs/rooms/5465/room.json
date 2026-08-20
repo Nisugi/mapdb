@@ -1,5 +1,4 @@
 {
-  "checksum": "f2a41c5a9f7337898af9231fee708066",
   "room": {
     "id": 5465,
     "title": [
@@ -23,6 +22,13 @@
       "5450": 0.2,
       "5466": 0.2
     },
+    "image": "vo-outlands-1264234799.png",
+    "image_coords": [
+      176,
+      893,
+      186,
+      903
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -56,6 +62,7 @@
       "golden buttercup",
       "grapefruit",
       "green cabbage",
+      "green soybean pod",
       "green tea leaves",
       "heath aster",
       "honeymoon melon",
@@ -70,7 +77,7 @@
       "luckbloom blossom",
       "mate leaves",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:mapcategory:Vornavis",
       "meta:mapname:Vornavis - Outlands",
       "meta:mapshortname:Outlands",
@@ -112,10 +119,12 @@
       "stalk of goldenrod",
       "sun-wilted tea leaves",
       "sunburst blossom",
+      "sunny yellow sylara'wor",
       "sweet onion",
       "sweet potato",
       "tea leaves",
       "thin hemp",
+      "thistle seeds",
       "tobacco leaves",
       "trollfear mushroom",
       "Vornavian orange",
@@ -138,13 +147,6 @@
     ],
     "uid": [
       4215001
-    ],
-    "image": "vo-outlands-1264234799.png",
-    "image_coords": [
-      176,
-      893,
-      186,
-      903
     ]
   }
 }

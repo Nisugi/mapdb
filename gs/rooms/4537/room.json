@@ -1,5 +1,4 @@
 {
-  "checksum": "379f3f2f4dec8ab5d48951fde2c21aa4",
   "room": {
     "id": 4537,
     "title": [
@@ -14,12 +13,19 @@
     "location": "the Shadow Valley",
     "wayto": {
       "4536": "south",
-      "7389": "/rooms/4537/wayto/stringproc-7389.rb"
+      "7389": ";e %w(circular triangular square rectangular).each{|d| dothistimeout \"push #{d} depression\", 3, /\\*[A-Z]+\\*$/};fput \"stand\" until standing?"
     },
     "timeto": {
       "4536": 0.2,
-      "7389": 1
+      "7389": 1.0
     },
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      1302,
+      512,
+      1312,
+      522
+    ],
     "tags": [
       "ghostly pooka",
       "meta:forage-sensed",
@@ -28,13 +34,6 @@
     ],
     "uid": [
       389026
-    ],
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      1302,
-      512,
-      1312,
-      522
     ]
   }
 }

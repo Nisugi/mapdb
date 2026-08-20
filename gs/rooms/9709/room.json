@@ -1,5 +1,4 @@
 {
-  "checksum": "9026edd629f701e29fefc7cb7eadd8a5",
   "room": {
     "id": 9709,
     "title": [
@@ -25,9 +24,17 @@
       "9708": 0.2,
       "9710": 0.2
     },
+    "image": "en-tower-1264234799.png",
+    "image_coords": [
+      411,
+      633,
+      421,
+      643
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
+      "arbutus berry",
       "basal moss",
       "birch bark",
       "bloodwood twig",
@@ -43,6 +50,7 @@
       "cherry peppers",
       "coppery rain lily",
       "creamy white wisteria",
+      "crystal-like sylthiel",
       "curly leaf parsley",
       "daggerstalk mushroom",
       "dark blue honeyberries",
@@ -57,13 +65,14 @@
       "flathead mushroom",
       "fresh catnip",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green pear",
       "haphip root",
       "lady slipper blossom",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
       "murdroot",
       "murkweed",
@@ -99,6 +108,7 @@
       "trollfear mushroom",
       "twisted twig",
       "viburnum twig",
+      "violet sel'elun vine",
       "white baneberry",
       "white datura blossom",
       "white lily",
@@ -119,13 +129,6 @@
     ],
     "uid": [
       13020100
-    ],
-    "image": "en-tower-1264234799.png",
-    "image_coords": [
-      411,
-      633,
-      421,
-      643
     ]
   }
 }

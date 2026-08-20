@@ -1,5 +1,4 @@
 {
-  "checksum": "3825a8fd9573cf51679658d1e67c9f3b",
   "room": {
     "id": 27903,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "23199": "/rooms/27903/wayto/stringproc-23199.rb",
+      "23199": ";e move 'go curtain'; $go2_restart = true",
       "27904": "west"
     },
     "timeto": {

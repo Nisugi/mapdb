@@ -1,5 +1,4 @@
 {
-  "checksum": "1317138e198c239adb6b01628ea38183",
   "room": {
     "id": 7970,
     "title": [
@@ -14,28 +13,30 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "7969": "east",
-      "30708": "/rooms/7970/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "7969": 0.2,
-      "30708": "/rooms/7970/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "debts",
-      "meta:teleport:fwi",
-      "no forageables",
-      "urchin guide debts",
-      "urchin-access"
-    ],
-    "uid": [
-      2020
-    ],
     "image": "wl-moot_hall-1486755929.png",
     "image_coords": [
       712,
       1273,
       855,
       1333
+    ],
+    "tags": [
+      "debts",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:teleport:fwi",
+      "urchin guide debts",
+      "urchin-access"
+    ],
+    "uid": [
+      2020
     ]
   }
 }

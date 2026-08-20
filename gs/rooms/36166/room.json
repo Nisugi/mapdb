@@ -1,5 +1,4 @@
 {
-  "checksum": "a56ced288dd78144a363eeca1c3add70",
   "room": {
     "id": 36166,
     "title": [
@@ -16,7 +15,7 @@
     "terrain": "none",
     "wayto": {
       "36165": "go doorway",
-      "36167": "/rooms/36166/wayto/stringproc-36167.rb"
+      "36167": ";e multifput('sit chair', 'pull splinter'); waitrt?; fput('stand'); waitrt?"
     },
     "timeto": {
       "36165": 0.2,

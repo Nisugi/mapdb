@@ -1,5 +1,4 @@
 {
-  "checksum": "d73d7e7fc59102e61e1b02659df5dce0",
   "room": {
     "id": 8918,
     "title": [
@@ -18,14 +17,21 @@
       "3352": "go footbridge",
       "8919": "go path",
       "8920": "go doors",
-      "30709": "/rooms/8918/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "3352": 0.2,
       "8919": 0.2,
-      "8920": "/rooms/8918/timeto/stringproc-8920.rb",
-      "30709": "/rooms/8918/timeto/stringproc-30709.rb"
+      "8920": ";e ((!defined?(Stats.prof) or Stats.prof == 'Wizard') ? 0.2 : nil);",
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "imt-wizard_guild.png",
+    "image_coords": [
+      212,
+      800,
+      263,
+      851
+    ],
     "tags": [
       "angelica root",
       "arctic brambles",
@@ -43,7 +49,7 @@
       "Imaera's Lace",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-09",
       "nightbloom blossom",
       "onion skin",
@@ -73,13 +79,6 @@
     ],
     "uid": [
       680002
-    ],
-    "image": "imt-wizard_guild.png",
-    "image_coords": [
-      212,
-      800,
-      263,
-      851
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "4704ec277aa1e774a614a085d1cd3124",
   "room": {
     "id": 6706,
     "title": [
@@ -18,19 +17,20 @@
     "timeto": {
       "6696": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      2121026
-    ],
     "image": "wl-gates-1264234799.png",
     "image_coords": [
       108,
       1252,
       118,
       1262
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:splashy",
+      "no forageables"
+    ],
+    "uid": [
+      2121026
     ]
   }
 }

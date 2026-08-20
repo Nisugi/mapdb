@@ -1,5 +1,4 @@
 {
-  "checksum": "c11e2dc616fbc0bb3417509728b1fc43",
   "room": {
     "id": 2745,
     "title": [
@@ -26,41 +25,35 @@
       "2743": 0.2,
       "2744": 0.2
     },
-    "tags": [
-      "red winterberry",
-      "some wyrmwood bark",
-      "some valerian root",
-      "sweetfern stalk",
-      "some arctic moss",
-      "manroot stalk",
-      "some pennyroyal stem",
-      "some angelica root",
-      "feverfern stalk",
-      "sassafras leaf",
-      "some red lichen",
-      "some daggit root",
-      "gok nut",
-      "red lichen",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "wyrmwood bark",
-      "daggit root",
-      "arctic moss",
-      "meta:forage-sensed",
-      "ironfern root",
-      "sunburst blossom",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      4561002
-    ],
     "image": "imt-pinefar-1264234799.png",
     "image_coords": [
       845,
       849,
       855,
       859
+    ],
+    "tags": [
+      "angelica root",
+      "arctic moss",
+      "daggit root",
+      "feverfew stalk",
+      "gok nut",
+      "ironfern root",
+      "manroot stalk",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:night:2026-08",
+      "pennyroyal stem",
+      "red lichen",
+      "red winterberry",
+      "sassafras leaf",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "valerian root",
+      "wyrmwood bark"
+    ],
+    "uid": [
+      4561002
     ]
   }
 }

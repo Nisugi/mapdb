@@ -1,5 +1,4 @@
 {
-  "checksum": "f77fb41fd3ebac6f18bf869c9ef57645",
   "room": {
     "id": 27845,
     "title": [
@@ -18,18 +17,20 @@
     "timeto": {
       "27844": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      18060009
-    ],
     "image": "wl-sphere_and_scythe-1554245616.png",
     "image_coords": [
       158,
       333,
       294,
       374
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      18060009
     ]
   }
 }

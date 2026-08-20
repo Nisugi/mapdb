@@ -1,5 +1,4 @@
 {
-  "checksum": "668d71437f9650f74dfadd6dbd2ffa62",
   "room": {
     "id": 35097,
     "title": [
@@ -22,15 +21,20 @@
       "35098": 0.2,
       "35099": 0.2
     },
-    "uid": [
-      4426549
-    ],
     "image": "imt-glaoveln-1754606664.png",
     "image_coords": [
       393,
       198,
       414,
       217
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "white-belled wintergreen"
+    ],
+    "uid": [
+      4426549
     ]
   }
 }

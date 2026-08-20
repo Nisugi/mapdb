@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36723,
+    "title": [
+      "[Raincail's Magic Shoppe]"
+    ],
+    "description": [
+      "Enclosed by plain wooden walls, the shop features a worn rug in the center of its wooden floor.  A tattered merchant permit hangs under the wooden ceiling.  Right near the front is a plain wooden table and a simple wooden shelf."
+    ],
+    "paths": [
+      "Obvious exits: west"
+    ],
+    "location": "River's Rest",
+    "wayto": {
+      "36721": "w"
+    },
+    "timeto": {
+      "36721": 0.2
+    },
+    "uid": [
+      641314
+    ]
+  }
+}

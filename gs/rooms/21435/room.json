@@ -1,5 +1,4 @@
 {
-  "checksum": "375a799f98c80a0d26a262371ba1322d",
   "room": {
     "id": 21435,
     "title": [
@@ -14,7 +13,7 @@
     "location": false,
     "wayto": {
       "21434": "go opening",
-      "23164": "/rooms/21435/wayto/stringproc-23164.rb"
+      "23164": ";e fput \"search\";move \"go concealed door\""
     },
     "timeto": {
       "21434": 0.2,

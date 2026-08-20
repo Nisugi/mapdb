@@ -1,5 +1,4 @@
 {
-  "checksum": "1ab1f772f4614f99c89223d8eee7f3c5",
   "room": {
     "id": 10278,
     "title": [
@@ -21,9 +20,17 @@
     "timeto": {
       "10276": 0.2
     },
+    "image": "en-fearling-1632908688.png",
+    "image_coords": [
+      1276,
+      859,
+      1286,
+      869
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
+      "arbutus berry",
       "basal moss",
       "bloodwood twig",
       "blue trafel mushroom",
@@ -36,6 +43,7 @@
       "calamia fruit",
       "cherry peppers",
       "coppery rain lily",
+      "crystal-like sylthiel",
       "curly leaf parsley",
       "daggerstalk mushroom",
       "dark blue honeyberries",
@@ -47,13 +55,14 @@
       "fresh catnip",
       "fuzzy peach",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green pear",
       "haphip root",
       "lady slipper blossom",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "mistweed",
       "murdroot",
@@ -83,6 +92,7 @@
       "trollear mushroom",
       "twisted twig",
       "viburnum twig",
+      "violet sel'elun vine",
       "white baneberry",
       "white lily",
       "wild beechnut",
@@ -101,13 +111,6 @@
     ],
     "uid": [
       14013007
-    ],
-    "image": "en-fearling-1632908688.png",
-    "image_coords": [
-      1276,
-      859,
-      1286,
-      869
     ]
   }
 }

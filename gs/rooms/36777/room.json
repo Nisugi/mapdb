@@ -1,0 +1,29 @@
+{
+  "room": {
+    "id": 36777,
+    "title": [
+      "[Fashion Always Floats]"
+    ],
+    "description": [
+      "Roughly hewn pearwood walls, waterlogged and discolored, create a small, close-quarters kiosk covered by an awning fashioned from ragged sailcloth in sun-faded hues of red and yellow.  Hay and dried sea grass are scattered across the ground, the brittle blades crumbling as shoppers move through the space.  Despite being illuminated by several candle-filled bronze lanterns, the wares arranged within nearby chicken coops remain difficult to make out, resembling nothing more than piles of plucked feathers."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36775": "out"
+    },
+    "timeto": {
+      "36775": 0.2
+    },
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      7134233
+    ]
+  }
+}

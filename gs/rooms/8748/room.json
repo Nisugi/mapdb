@@ -1,5 +1,4 @@
 {
-  "checksum": "f84e022c049b051b78c0a02eac876c11",
   "room": {
     "id": 8748,
     "title": [
@@ -19,18 +18,21 @@
     "timeto": {
       "8749": 0.2
     },
-    "tags": [
-      "meta:che:House of Paupers"
-    ],
-    "uid": [
-      104102
-    ],
     "image": "wl-house_paupers.jpg",
     "image_coords": [
       711,
       124,
       789,
       177
+    ],
+    "tags": [
+      "meta:che:House of Paupers",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      104102
     ]
   }
 }

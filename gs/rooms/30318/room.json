@@ -1,5 +1,4 @@
 {
-  "checksum": "48a8282a95cd34c46e76bab545937940",
   "room": {
     "id": 30318,
     "title": [
@@ -16,22 +15,22 @@
     "wayto": {
       "30317": "southwest",
       "30319": "east",
-      "36332": "go grime-covered tent"
+      "36332": "go tent"
     },
     "timeto": {
       "30317": 0.2,
       "30319": 0.2,
       "36332": 0.2
     },
-    "uid": [
-      8214732
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       180,
       1042,
       208,
       1073
+    ],
+    "uid": [
+      8214732
     ]
   }
 }

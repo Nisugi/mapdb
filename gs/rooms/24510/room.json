@@ -1,5 +1,4 @@
 {
-  "checksum": "be1e8434810ca0c9453dd4deaa78ab13",
   "room": {
     "id": 24510,
     "title": [
@@ -19,18 +18,21 @@
     "timeto": {
       "24509": 0.2
     },
-    "tags": [
-      "meta:locker annex:Twilight Hall"
-    ],
-    "uid": [
-      13112525
-    ],
     "image": "en-TwilightHallAnnex.png",
     "image_coords": [
       302,
       290,
       442,
       381
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:locker annex:Twilight Hall"
+    ],
+    "uid": [
+      13112525
     ]
   }
 }

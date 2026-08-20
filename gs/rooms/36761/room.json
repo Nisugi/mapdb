@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36761,
+    "title": [
+      "[The Peashirmen]"
+    ],
+    "description": [
+      "Little more than a fishing boat, the skiff is painted bright orange and edged in glossy black.  Low seats are attached to the gunwale, the trio set at the center of the vessel, while a canvas tarp is draped across the triangular stern and bound in place by rope lashings.  A single, lateen-rigged pine mast rises out from the boat, its bright purple and yellow sail safely furled and lashed in place."
+    ],
+    "paths": [
+      "Obvious paths: out"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "33093": "go out"
+    },
+    "timeto": {
+      "33093": 0.2
+    },
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells",
+      "tiny white elderflowers",
+      "wild sage"
+    ],
+    "uid": [
+      7134180
+    ]
+  }
+}

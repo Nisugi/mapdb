@@ -1,5 +1,4 @@
 {
-  "checksum": "a8662af5c487daa801ee30e41b39aef8",
   "room": {
     "id": 14718,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "arid, temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "14711": "/rooms/14718/wayto/stringproc-14711.rb"
+      "14711": ";e fput 'open hatch'; move 'go hatch'"
     },
     "timeto": {
       "14711": 0.2

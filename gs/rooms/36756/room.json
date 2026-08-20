@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36756,
+    "title": [
+      "[Salty's Services, Management]"
+    ],
+    "description": [
+      "One side of the room is set with a series of cabinets, desks, and chairs, each stacked and overflowing with papers.  A brazier hanging above is set with votives and provides a bare light.  The room's other half is the through-way, with periodic merchants and customers walking through on their way to other parts of the second floor.  Shuffling around and busying themselves with the papers scattered across the room's more cluttered half is a weathered tall half-elf, the local shop authority."
+    ],
+    "paths": [
+      "Obvious exits: north, south"
+    ],
+    "location": "Kraken's Fall",
+    "wayto": {
+      "36746": "s",
+      "36755": "n"
+    },
+    "timeto": {
+      "36746": 0.2,
+      "36755": 0.2
+    },
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      740006
+    ]
+  }
+}

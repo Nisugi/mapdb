@@ -1,5 +1,4 @@
 {
-  "checksum": "f1ab378915ed9d1862ad4cdf5444a603",
   "room": {
     "id": 4041,
     "title": [
@@ -19,7 +18,7 @@
       "4046": "go door",
       "7523": "go altar",
       "8687": "go curved arch",
-      "30708": "/rooms/4041/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "234": 0.2,
@@ -28,25 +27,26 @@
       "4046": 0.2,
       "7523": 0.2,
       "8687": 0.2,
-      "30708": "/rooms/4041/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11",
-      "meta:teleport:fwi",
-      "no forageables",
-      "urchin guide temple",
-      "urchin-access"
-    ],
-    "uid": [
-      2033
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       585,
       881,
       615,
       911
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:night:2026-08",
+      "meta:teleport:fwi",
+      "urchin guide temple",
+      "urchin-access"
+    ],
+    "uid": [
+      2033
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "7fc8e13a94bb33951a59db415a149b6f",
   "room": {
     "id": 13779,
     "title": [
@@ -18,20 +17,22 @@
     "timeto": {
       "5883": 0.2
     },
-    "tags": [
-      "travel waiting room",
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      14004101
-    ],
     "image": "en-victory-1264234799.png",
     "image_coords": [
       962,
       533,
       972,
       543
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells",
+      "travel waiting room",
+      "wild sage"
+    ],
+    "uid": [
+      14004101
     ]
   }
 }

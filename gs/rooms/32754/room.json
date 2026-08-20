@@ -1,5 +1,4 @@
 {
-  "checksum": "875e5217a7c3ac3e045397fbfd2c3f23",
   "room": {
     "id": 32754,
     "title": [
@@ -20,10 +19,12 @@
     "timeto": {
       "390": 0.2,
       "391": 0.2,
-      "3855": 240
+      "3855": 240.0
     },
     "tags": [
-      "no forageables",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "public locker",
       "publiclockers"
     ],

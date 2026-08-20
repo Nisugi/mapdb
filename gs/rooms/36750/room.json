@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36750,
+    "title": [
+      "[Salty's Services, Signs]"
+    ],
+    "description": [
+      "Preconstructed signs made from various woods are densely stacked across the area, as if the entire storage operation for them is contained within the room.  Signs and sign-making materials are placed precariously to the height of several giantkin wall-to-wall.  Flecks of paint aggressively splatter the floor and also the ceiling, like whoever made these signs was set in a pitched battle against them.  A dark iron brazier, also speckled with paint, hangs from the ceiling and dimly lights the area."
+    ],
+    "paths": [
+      "Obvious exits: north, south"
+    ],
+    "location": "Kraken's Fall",
+    "wayto": {
+      "36749": "s",
+      "36751": "n"
+    },
+    "timeto": {
+      "36749": 0.2,
+      "36751": 0.2
+    },
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      740012
+    ]
+  }
+}

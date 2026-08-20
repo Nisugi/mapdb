@@ -1,5 +1,4 @@
 {
-  "checksum": "361f8f4bf3f7ae17a6bad31ed27bf220",
   "room": {
     "id": 6437,
     "title": [
@@ -22,11 +21,19 @@
       "6428": 0.2,
       "6438": 0.2
     },
+    "image": "wl-lysierian-1264234799.png",
+    "image_coords": [
+      1124,
+      135,
+      1134,
+      145
+    ],
     "tags": [
       "cave moss",
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "wingstem root",
       "withered mushroom",
@@ -34,13 +41,6 @@
     ],
     "uid": [
       93071
-    ],
-    "image": "wl-lysierian-1264234799.png",
-    "image_coords": [
-      1124,
-      135,
-      1134,
-      145
     ]
   }
 }

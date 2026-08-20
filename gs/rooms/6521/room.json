@@ -1,5 +1,4 @@
 {
-  "checksum": "b26af418bb78bb0cdf4411206e927391",
   "room": {
     "id": 6521,
     "title": [
@@ -27,6 +26,13 @@
       "6533": 0.2,
       "6535": 0.2
     },
+    "image": "wl-lysierian-1264234799.png",
+    "image_coords": [
+      1215,
+      1081,
+      1225,
+      1091
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -40,6 +46,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "moonlight cactus-bloom",
       "pennyroyal stem",
       "sassafras leaf",
@@ -54,13 +61,6 @@
     ],
     "uid": [
       4286016
-    ],
-    "image": "wl-lysierian-1264234799.png",
-    "image_coords": [
-      1215,
-      1081,
-      1225,
-      1091
     ]
   }
 }

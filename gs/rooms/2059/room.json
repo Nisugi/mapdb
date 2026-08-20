@@ -1,5 +1,4 @@
 {
-  "checksum": "2279f66787fed389faa69c7d2602ce59",
   "room": {
     "id": 2059,
     "title": [
@@ -22,6 +21,13 @@
       "2058": 0.2,
       "2060": 0.2
     },
+    "image": "ti-wilds-1643860469.png",
+    "image_coords": [
+      598,
+      484,
+      608,
+      494
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -37,6 +43,7 @@
       "coffee cherries",
       "daggerstalk mushroom",
       "dill",
+      "fire lily",
       "flathead mushroom",
       "fresh broccoli",
       "fresh lemongrass",
@@ -57,8 +64,10 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "murdroot",
+      "nightbloom blossom",
       "pale green honeydew",
       "pearl onions",
       "pepperthorn root",
@@ -92,6 +101,7 @@
       "tea leaves",
       "thin hemp",
       "tobacco leaves",
+      "trollear mushroom",
       "wavepetal blossom",
       "white clover blossom",
       "white lily",
@@ -111,13 +121,6 @@
     ],
     "uid": [
       3009009
-    ],
-    "image": "ti-wilds-1643860469.png",
-    "image_coords": [
-      598,
-      484,
-      608,
-      494
     ]
   }
 }

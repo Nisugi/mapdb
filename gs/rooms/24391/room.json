@@ -1,5 +1,4 @@
 {
-  "checksum": "258004526f540bc80009fd978f30dd3a",
   "room": {
     "id": 24391,
     "title": [
@@ -18,18 +17,21 @@
     "timeto": {
       "24390": 0.2
     },
-    "tags": [
-      "ranger guild shop"
-    ],
-    "uid": [
-      275018
-    ],
     "image": "en-ta_illistim-rangerguild-v2.png",
     "image_coords": [
       134,
       101,
       154,
       121
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "ranger guild shop"
+    ],
+    "uid": [
+      275018
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "a49a9ff6e4fbca31a9384af663b5d9b8",
   "room": {
     "id": 3855,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "389": "/rooms/3855/wayto/stringproc-389.rb"
+      "389": ";e room = Room.current.id;fput 'go opening'; if ( room == Room.current.id ); fput 'close locker';move 'go opening'; end; $go2_restart = true"
     },
     "timeto": {
       "389": 0.2

@@ -1,5 +1,4 @@
 {
-  "checksum": "dce8534dbd3707c75e47415787cf7d49",
   "room": {
     "id": 8536,
     "title": [
@@ -15,13 +14,20 @@
     "climate": "moist",
     "terrain": "muddy wetlands",
     "wayto": {
-      "8535": "/rooms/8536/wayto/stringproc-8535.rb",
-      "8537": "/rooms/8536/wayto/stringproc-8537.rb"
+      "8535": ";e move 'south'; waitrt?",
+      "8537": ";e move 'west'; waitrt?"
     },
     "timeto": {
-      "8535": 5,
-      "8537": 5
+      "8535": 5.0,
+      "8537": 5.0
     },
+    "image": "wl-trollfang-1264234799.png",
+    "image_coords": [
+      928,
+      651,
+      938,
+      661
+    ],
     "tags": [
       "aloeas stem",
       "black peppercorn",
@@ -41,7 +47,7 @@
       "kylan berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2023-02",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "nutmeg",
       "pink passionflower",
@@ -54,7 +60,7 @@
       "star anise",
       "sunburst blossom",
       "talneo root",
-      "trollfear mushroom",
+      "trollear mushroom",
       "vanilla bean",
       "water chestnut",
       "wavepetal blossom",
@@ -63,13 +69,6 @@
     ],
     "uid": [
       16009
-    ],
-    "image": "wl-trollfang-1264234799.png",
-    "image_coords": [
-      928,
-      651,
-      938,
-      661
     ]
   }
 }

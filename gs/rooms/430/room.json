@@ -1,5 +1,4 @@
 {
-  "checksum": "5773091df02f48aca7801eadcbdb8496",
   "room": {
     "id": 430,
     "title": [
@@ -17,15 +16,20 @@
     "wayto": {
       "429": "north",
       "432": "west",
-      "433": "southwest",
-      "32536": "go trail"
+      "433": "southwest"
     },
     "timeto": {
       "429": 0.2,
       "432": 0.2,
-      "433": 0.2,
-      "32536": 0.2
+      "433": 0.2
     },
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      551,
+      574,
+      561,
+      584
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -43,7 +47,7 @@
       "kobold",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2022-11",
+      "meta:forage-sensed:night:2026-08",
       "pennyroyal stem",
       "pine cone",
       "pine needles",
@@ -69,13 +73,6 @@
     ],
     "uid": [
       9038
-    ],
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      551,
-      574,
-      561,
-      584
     ]
   }
 }

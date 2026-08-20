@@ -1,5 +1,4 @@
 {
-  "checksum": "af2731ffaa5d13e5bdf4a68e82048e4f",
   "room": {
     "id": 8527,
     "title": [
@@ -18,21 +17,22 @@
     "timeto": {
       "8526": 0.2
     },
-    "tags": [
-      "forest troll",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      16035
-    ],
     "image": "wl-trollfang-1264234799.png",
     "image_coords": [
       874,
       839,
       884,
       849
+    ],
+    "tags": [
+      "fire lily",
+      "forest troll",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      16035
     ]
   }
 }

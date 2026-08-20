@@ -1,5 +1,4 @@
 {
-  "checksum": "ffe05d78872263ff49f8d90ea585685b",
   "room": {
     "id": 19584,
     "title": [
@@ -26,6 +25,13 @@
       "28697": 0.2,
       "32535": 0.2
     },
+    "image": "ebonstone_manor-1485361515.png",
+    "image_coords": [
+      187,
+      352,
+      256,
+      396
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -65,7 +71,7 @@
       "leek",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
       "meta:mapcategory:CHE",
       "meta:mapcategory:Wehnimer's Landing",
@@ -94,6 +100,7 @@
       "rose-marrow root",
       "round grumbleberry",
       "round yuzu",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small apple",
@@ -120,6 +127,7 @@
       "sun-wilted tea leaves",
       "sunburst blossom",
       "sweet onion",
+      "thistle seeds",
       "tobacco leaves",
       "traesharm berry",
       "trollfear mushroom",
@@ -146,13 +154,6 @@
     ],
     "uid": [
       201021
-    ],
-    "image": "ebonstone_manor-1485361515.png",
-    "image_coords": [
-      187,
-      352,
-      256,
-      396
     ]
   }
 }

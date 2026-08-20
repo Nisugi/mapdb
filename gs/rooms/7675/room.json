@@ -1,5 +1,4 @@
 {
-  "checksum": "8fca703a2a1b20f06b0ba791e46e4192",
   "room": {
     "id": 7675,
     "title": [
@@ -22,20 +21,21 @@
       "7674": 0.2,
       "7676": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      67052
-    ],
     "image": "wl-coastal_cliffs-1264234799.png",
     "image_coords": [
       196,
       979,
       206,
       989
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      67052
     ]
   }
 }

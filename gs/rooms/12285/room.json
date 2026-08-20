@@ -1,5 +1,4 @@
 {
-  "checksum": "0b3e287c00fc63ec325b53bddc0f254f",
   "room": {
     "id": 12285,
     "title": [
@@ -16,12 +15,12 @@
     "wayto": {
       "3654": "out",
       "12286": "go doorway",
-      "30718": "/rooms/12285/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "3654": 0.2,
       "12286": 0.2,
-      "30718": "/rooms/12285/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "furrier",

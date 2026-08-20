@@ -1,5 +1,4 @@
 {
-  "checksum": "c2b1a9f071a1dfcf62db2d908833e1aa",
   "room": {
     "id": 6509,
     "title": [
@@ -26,6 +25,13 @@
       "6552": 0.2,
       "13260": 0.2
     },
+    "image": "wl-lysierian-1264234799.png",
+    "image_coords": [
+      846,
+      895,
+      882,
+      931
+    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -38,6 +44,7 @@
       "marallis berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "moonlight cactus-bloom",
       "oak twig",
       "pennyroyal stem",
@@ -61,13 +68,6 @@
     ],
     "uid": [
       4286004
-    ],
-    "image": "wl-lysierian-1264234799.png",
-    "image_coords": [
-      846,
-      895,
-      882,
-      931
     ]
   }
 }

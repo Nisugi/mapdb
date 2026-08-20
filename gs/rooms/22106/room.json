@@ -1,5 +1,4 @@
 {
-  "checksum": "8e0e7144840996d2dd8f4ec85c6b4826",
   "room": {
     "id": 22106,
     "title": [
@@ -22,24 +21,25 @@
       "150": 0.2,
       "22107": 0.2
     },
-    "tags": [
-      "meta:mapcategory:CHE",
-      "meta:mapshortname:Cairnfang Manor",
-      "meta:mapname:Vornavis - Cairnfang Manor",
-      "meta:mapcategory:Vornavis",
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:che:cairnfang_manor:entrance_che"
-    ],
-    "uid": [
-      106001
-    ],
     "image": "vo-cairnfang_manor-1657584717.png",
     "image_coords": [
       179,
       494,
       190,
       506
+    ],
+    "tags": [
+      "meta:che:cairnfang_manor:entrance_che",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:mapcategory:CHE",
+      "meta:mapcategory:Vornavis",
+      "meta:mapname:Vornavis - Cairnfang Manor",
+      "meta:mapshortname:Cairnfang Manor",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      106001
     ]
   }
 }

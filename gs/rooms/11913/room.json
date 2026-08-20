@@ -1,5 +1,4 @@
 {
-  "checksum": "d7d3ce03deb92ad582cc3b6e19a8784a",
   "room": {
     "id": 11913,
     "title": [
@@ -22,30 +21,31 @@
       "11912": 0.2,
       "11914": 0.2
     },
-    "tags": [
-      "acantha leaf",
-      "calamia fruit",
-      "wild chokecherry",
-      "wood violet",
-      "pepperthorn root",
-      "murdroot",
-      "wavepetal blossom",
-      "ironfern root",
-      "talneo root",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "meta:forage-sensed:night:2023-11",
-      "meta:forage-sensed:day:2024-05"
-    ],
-    "uid": [
-      17002229
-    ],
     "image": "en-old_ta_faendryl-1716923763.png",
     "image_coords": [
       1293,
       461,
       1303,
       471
+    ],
+    "tags": [
+      "acantha leaf",
+      "calamia fruit",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
+      "meta:forage-sensed:night:2026-08",
+      "murdroot",
+      "pepperthorn root",
+      "sprig of jasmine",
+      "sunburst blossom",
+      "talneo root",
+      "wavepetal blossom",
+      "wild chokecherry",
+      "wood violet"
+    ],
+    "uid": [
+      17002229
     ]
   }
 }

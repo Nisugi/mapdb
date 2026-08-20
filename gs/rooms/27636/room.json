@@ -1,5 +1,4 @@
 {
-  "checksum": "ad34d447cfd88b164734d14ca6893ef5",
   "room": {
     "id": 27636,
     "title": [
@@ -18,18 +17,21 @@
     "timeto": {
       "27635": 0.2
     },
-    "tags": [
-      "private property"
-    ],
-    "uid": [
-      1304302
-    ],
     "image": "pp-eastern-spine-1543903046.png",
     "image_coords": [
       109,
       922,
       209,
       1019
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "private property"
+    ],
+    "uid": [
+      1304302
     ]
   }
 }

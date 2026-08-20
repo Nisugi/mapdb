@@ -1,5 +1,4 @@
 {
-  "checksum": "23d0ad771c74ae232bd8b7bb94e80e41",
   "room": {
     "id": 7686,
     "title": [
@@ -22,20 +21,21 @@
       "7687": 0.2,
       "7688": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      68011
-    ],
     "image": "wl-coastal_cliffs-1264234799.png",
     "image_coords": [
       497,
       1123,
       507,
       1133
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      68011
     ]
   }
 }

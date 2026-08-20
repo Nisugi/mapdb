@@ -1,5 +1,4 @@
 {
-  "checksum": "e2bc5b3085c4ad1638b346bd82055335",
   "room": {
     "id": 7160,
     "title": [
@@ -16,12 +15,19 @@
     "terrain": "mountainous",
     "wayto": {
       "7159": "up",
-      "8432": "/rooms/7160/wayto/stringproc-8432.rb"
+      "8432": ";e move 'go tree'; waitrt?"
     },
     "timeto": {
       "7159": 0.2,
-      "8432": 10
+      "8432": 10.0
     },
+    "image": "wl-trollfang-1264234799.png",
+    "image_coords": [
+      714,
+      482,
+      724,
+      492
+    ],
     "tags": [
       "agave heart",
       "alder bark",
@@ -41,7 +47,7 @@
       "lemon verbena",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2023-02",
+      "meta:forage-sensed:night:2026-08",
       "peppermint leaves",
       "pepperthorn root",
       "rhubarb",
@@ -63,13 +69,6 @@
     ],
     "uid": [
       16002
-    ],
-    "image": "wl-trollfang-1264234799.png",
-    "image_coords": [
-      714,
-      482,
-      724,
-      492
     ]
   }
 }

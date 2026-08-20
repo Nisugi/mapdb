@@ -1,5 +1,4 @@
 {
-  "checksum": "1deff48cea7b26874f624df250d84823",
   "room": {
     "id": 10066,
     "title": [
@@ -20,21 +19,22 @@
       "679": 0.2,
       "10067": 0.2
     },
-    "tags": [
-      "pawnshop",
-      "no forageables",
-      "meta:forage-sensed",
-      "pawn"
-    ],
-    "uid": [
-      13051002
-    ],
     "image": "en-sylvarraend-1264234799.png",
     "image_coords": [
       313,
       799,
       349,
       835
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "pawn",
+      "pawnshop"
+    ],
+    "uid": [
+      13051002
     ]
   }
 }

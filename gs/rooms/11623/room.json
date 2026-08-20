@@ -1,5 +1,4 @@
 {
-  "checksum": "8197509671701220284c78c23a7b033b",
   "room": {
     "id": 11623,
     "title": [
@@ -19,9 +18,9 @@
       "11622": "west",
       "11624": "northeast",
       "11629": "southwest",
-      "11653": "/rooms/11623/wayto/stringproc-11653.rb",
-      "16124": "/rooms/11623/wayto/stringproc-16124.rb",
-      "22219": "/rooms/11623/wayto/stringproc-22219.rb"
+      "11653": ";e fput 'search';move 'go trail';move 'southeast';move 'southeast'",
+      "16124": ";e fput 'search'; move 'go trail'",
+      "22219": ";e fput 'search';move 'go trail';move 'southeast';move 'northwest';move 'southeast'"
     },
     "timeto": {
       "11622": 0.2,
@@ -31,6 +30,13 @@
       "16124": 0.4,
       "22219": 0.8
     },
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      851,
+      613,
+      861,
+      623
+    ],
     "tags": [
       "aloeas stem",
       "blue trafel mushroom",
@@ -38,7 +44,7 @@
       "broken twig",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2026-01",
+      "meta:forage-sensed:night:2026-08",
       "mistweed",
       "murdroot",
       "soft mushroom",
@@ -54,13 +60,6 @@
     ],
     "uid": [
       5003009
-    ],
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      851,
-      613,
-      861,
-      623
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "062ebcdbb3ab7a033ea1df5252adbe62",
   "room": {
     "id": 4231,
     "title": [
@@ -23,6 +22,13 @@
       "4230": 0.2,
       "4232": 0.2
     },
+    "image": "wl-mineroad-1264234799.png",
+    "image_coords": [
+      1226,
+      474,
+      1236,
+      484
+    ],
     "tags": [
       "banana leaf",
       "blueberries",
@@ -42,6 +48,7 @@
       "leek",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "pepperthorn root",
       "pink clover blossom",
@@ -67,13 +74,6 @@
     ],
     "uid": [
       395042
-    ],
-    "image": "wl-mineroad-1264234799.png",
-    "image_coords": [
-      1226,
-      474,
-      1236,
-      484
     ]
   }
 }

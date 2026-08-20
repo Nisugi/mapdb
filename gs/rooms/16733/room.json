@@ -1,5 +1,4 @@
 {
-  "checksum": "d5dc00b96c3aed4baca9088abc0f25c0",
   "room": {
     "id": 16733,
     "title": [
@@ -15,19 +14,27 @@
     "climate": "temperate",
     "terrain": "grassland",
     "wayto": {
-      "16732": "/rooms/16733/wayto/stringproc-16732.rb",
+      "16732": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'climb rope'; waitrt?",
       "16734": "south",
-      "18755": "/rooms/16733/wayto/stringproc-18755.rb"
+      "18755": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'jump bridge'; waitrt?"
     },
     "timeto": {
       "16732": 0.2,
       "16734": 0.2,
       "18755": 10
     },
+    "image": "en-aradhul-road-1308194332.png",
+    "image_coords": [
+      752,
+      159,
+      774,
+      180
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
       "angelica root",
+      "arbutus berry",
       "barley grass",
       "blaestonberries",
       "blaestonberry blossom",
@@ -39,6 +46,7 @@
       "cherry peppers",
       "chives",
       "crimson dragonstalk",
+      "crystal-like sylthiel",
       "curly garlic scapes",
       "curly leaf parsley",
       "daggerstalk mushroom",
@@ -53,8 +61,10 @@
       "fresh lemongrass",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green cabbage",
+      "green soybean pod",
       "heath aster",
       "honeysuckle vine",
       "hop flowers",
@@ -66,7 +76,7 @@
       "leek",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "mistweed",
       "motherwort",
@@ -86,6 +96,7 @@
       "red onion",
       "rose-marrow root",
       "rye grass",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small apple",
@@ -111,9 +122,11 @@
       "stalk of monkeyflower",
       "sunburst blossom",
       "sweet onion",
+      "thistle seeds",
       "tobacco leaves",
       "trollear mushroom",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "wheat grass",
       "white clover blossom",
@@ -140,13 +153,6 @@
     ],
     "uid": [
       17005006
-    ],
-    "image": "en-aradhul-road-1308194332.png",
-    "image_coords": [
-      752,
-      159,
-      774,
-      180
     ]
   }
 }

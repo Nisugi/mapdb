@@ -1,5 +1,4 @@
 {
-  "checksum": "31e24bdf546a95d609aff063f26d2de6",
   "room": {
     "id": 23496,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "the bay",
     "wayto": {
-      "19109": "/rooms/23496/wayto/stringproc-19109.rb",
+      "19109": ";e move \"knock wall\"; fput\"stand\"",
       "23497": "go arch",
       "23503": "go modwir bar"
     },

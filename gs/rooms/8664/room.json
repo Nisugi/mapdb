@@ -1,5 +1,4 @@
 {
-  "checksum": "5f35d851a2ce4ff52c1b416a801f1a01",
   "room": {
     "id": 8664,
     "title": [
@@ -18,23 +17,23 @@
     "timeto": {
       "282": 0.2
     },
-    "tags": [
-      "general store",
-      "Wehnimer's Landing general store",
-      "meta:teleport:fwi",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      2010
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       357,
       878,
       393,
       914
+    ],
+    "tags": [
+      "fire lily",
+      "general store",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:teleport:fwi",
+      "Wehnimer's Landing general store"
+    ],
+    "uid": [
+      2010
     ]
   }
 }

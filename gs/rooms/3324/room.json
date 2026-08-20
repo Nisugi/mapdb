@@ -1,5 +1,4 @@
 {
-  "checksum": "6374a5f7ffeaf1cbcbe18d8563b5b79a",
   "room": {
     "id": 3324,
     "title": [
@@ -20,20 +19,19 @@
       "3323": 0.2,
       "3325": 0.2
     },
-    "tags": [
-      "arctic moss",
-      "meta:forage-sensed",
-      "ironfern root"
-    ],
-    "uid": [
-      4130019
-    ],
     "image": "imt-east_west_north_gates-1668398077.png",
     "image_coords": [
       1418,
       864,
       1428,
       874
+    ],
+    "tags": [
+      "ironfern root",
+      "meta:forage-sensed"
+    ],
+    "uid": [
+      4130019
     ]
   }
 }

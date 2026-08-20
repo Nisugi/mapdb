@@ -1,5 +1,4 @@
 {
-  "checksum": "699135980ff80efd7330e0af4c88236b",
   "room": {
     "id": 9891,
     "title": [
@@ -23,10 +22,18 @@
       "9890": 0.2,
       "28353": 0.2
     },
+    "image": "en-sapphire-1658723758.png",
+    "image_coords": [
+      1045,
+      184,
+      1055,
+      194
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
       "angelica root",
+      "arbutus berry",
       "barley grass",
       "birch bark",
       "blaestonberries",
@@ -38,6 +45,7 @@
       "brown potato",
       "chives",
       "crimson dragonstalk",
+      "crystal-like sylthiel",
       "curly leaf parsley",
       "daggerstalk mushroom",
       "dwarf bilberry",
@@ -52,6 +60,7 @@
       "fresh lemongrass",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden aster",
       "golden buttercup",
       "green cabbage",
@@ -67,6 +76,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "murdroot",
       "murkweed",
@@ -85,6 +95,7 @@
       "rhubarb",
       "rose-marrow root",
       "rye grass",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small apple",
@@ -112,8 +123,10 @@
       "sunburst blossom",
       "sweet onion",
       "thin hemp",
-      "trollfear mushroom",
+      "thistle seeds",
+      "trollear mushroom",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "wheat grass",
       "white clover blossom",
@@ -138,13 +151,6 @@
     ],
     "uid": [
       219020
-    ],
-    "image": "en-sapphire-1658723758.png",
-    "image_coords": [
-      1045,
-      184,
-      1055,
-      194
     ]
   }
 }

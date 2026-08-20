@@ -1,5 +1,4 @@
 {
-  "checksum": "97dde2f56821ead7dbec0adbc102a34c",
   "room": {
     "id": 31487,
     "title": [
@@ -24,22 +23,25 @@
       "31493": 0.2,
       "31494": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "dock handler",
-      "vaalor handler",
-      "handler",
-      "no forageables"
-    ],
-    "uid": [
-      7136031
-    ],
     "image": "en-ta_vaalor_port-1662946910.png",
     "image_coords": [
       807,
       332,
       825,
       350
+    ],
+    "tags": [
+      "dock handler",
+      "fire lily",
+      "handler",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells",
+      "vaalor handler",
+      "wild sage"
+    ],
+    "uid": [
+      7136031
     ]
   }
 }

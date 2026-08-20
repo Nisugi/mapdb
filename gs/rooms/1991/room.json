@@ -1,5 +1,4 @@
 {
-  "checksum": "1d7d6f9db030b55db3ae91ada8bcf694",
   "room": {
     "id": 1991,
     "title": [
@@ -23,23 +22,24 @@
       "1957": 0.2,
       "1992": 0.2
     },
-    "tags": [
-      "meta:mapname:Teras Isle - Fhorian Village",
-      "meta:mapshortname:Fhorian Village",
-      "meta:mapcategory:Teras Isle",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      3001051
-    ],
     "image": "ti-wilds-1643860469.png",
     "image_coords": [
       418,
       510,
       428,
       520
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "meta:forage-sensed:night:2026-08",
+      "meta:mapcategory:Teras Isle",
+      "meta:mapname:Teras Isle - Fhorian Village",
+      "meta:mapshortname:Fhorian Village"
+    ],
+    "uid": [
+      3001051
     ]
   }
 }

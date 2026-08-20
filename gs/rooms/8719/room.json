@@ -1,5 +1,4 @@
 {
-  "checksum": "dd3ffd8c3b071ccf270de7fbb337de1c",
   "room": {
     "id": 8719,
     "title": [
@@ -16,15 +15,17 @@
     "terrain": "none",
     "wayto": {
       "307": "out",
-      "30708": "/rooms/8719/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "307": 0.2,
-      "30708": "/rooms/8719/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "fire lily",
       "fletcher",
-      "no forageables",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "urchin guide fletcher",
       "urchin-access"
     ],

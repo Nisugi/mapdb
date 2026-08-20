@@ -1,5 +1,4 @@
 {
-  "checksum": "497333f9bf507c6623b6eb7cce74bd02",
   "room": {
     "id": 18328,
     "title": [
@@ -22,26 +21,27 @@
       "18333": "swim east"
     },
     "timeto": {
-      "18326": 5,
+      "18326": 5.0,
       "18327": 0.2,
-      "18330": 5,
-      "18331": 5,
-      "18333": 5
+      "18330": 5.0,
+      "18331": 5.0,
+      "18333": 5.0
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      3210482
-    ],
     "image": "ifw-saewehna_lagoon-1525325794.png",
     "image_coords": [
       1959,
       900,
       1989,
       929
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:splashy",
+      "no forageables"
+    ],
+    "uid": [
+      3210482
     ]
   }
 }

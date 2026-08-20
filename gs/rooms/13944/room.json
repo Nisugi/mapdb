@@ -1,5 +1,4 @@
 {
-  "checksum": "10369a9bfd1908b478bcf9790ae13441",
   "room": {
     "id": 13944,
     "title": [
@@ -24,6 +23,13 @@
       "13945": 0.2,
       "13947": 0.2
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      410,
+      290,
+      437,
+      316
+    ],
     "tags": [
       "ambrominas leaf",
       "angelica root",
@@ -55,7 +61,7 @@
       "leek",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "motherwort",
       "mountain dryad",
@@ -109,13 +115,6 @@
     ],
     "uid": [
       14200100
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      410,
-      290,
-      437,
-      316
     ]
   }
 }

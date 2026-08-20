@@ -1,5 +1,4 @@
 {
-  "checksum": "1c260e90588eb628fbf094ed18e04585",
   "room": {
     "id": 10083,
     "title": [
@@ -22,19 +21,22 @@
       "672": 0.2,
       "10084": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      13049029
-    ],
     "image": "en-sylvarraend-1264234799.png",
     "image_coords": [
       663,
       824,
       673,
       834
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      13049029
     ]
   }
 }

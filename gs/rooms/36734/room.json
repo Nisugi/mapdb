@@ -1,0 +1,28 @@
+{
+  "room": {
+    "id": 36734,
+    "title": [
+      "[Rhodrimawr's General Store]"
+    ],
+    "description": [
+      "Enclosed by patterned white walls, the shop features a worn rug in the center of its wooden floor.  A tattered merchant permit hangs under the wooden ceiling.  Right near the front is a plain wooden table and a simple wooden shelf."
+    ],
+    "paths": [
+      "Obvious exits: north, east, out"
+    ],
+    "location": "Kraken's Fall",
+    "wayto": {
+      "36730": "out",
+      "36735": "n",
+      "36736": "e"
+    },
+    "timeto": {
+      "36730": 0.2,
+      "36735": 0.2,
+      "36736": 0.2
+    },
+    "uid": [
+      634241
+    ]
+  }
+}

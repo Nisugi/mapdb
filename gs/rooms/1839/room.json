@@ -1,5 +1,4 @@
 {
-  "checksum": "af06e564b7345d789a0cd736de8bd845",
   "room": {
     "id": 1839,
     "title": [
@@ -22,20 +21,21 @@
       "1837": 0.2,
       "1840": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      3001012
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       952,
       781,
       982,
       811
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      3001012
     ]
   }
 }

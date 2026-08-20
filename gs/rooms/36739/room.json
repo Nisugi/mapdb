@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36739,
+    "title": [
+      "[Nisugi's General Store]"
+    ],
+    "description": [
+      "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  A plain wooden table sits in one corner while a worn rug rests on an unfinished wooden floor."
+    ],
+    "paths": [
+      "Obvious exits: west"
+    ],
+    "location": "Kraken's Fall",
+    "wayto": {
+      "36737": "w"
+    },
+    "timeto": {
+      "36737": 0.2
+    },
+    "uid": [
+      642378
+    ]
+  }
+}

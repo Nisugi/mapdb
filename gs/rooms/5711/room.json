@@ -1,5 +1,4 @@
 {
-  "checksum": "495d8b5aac00d7f02da4abc447b7733e",
   "room": {
     "id": 5711,
     "title": [
@@ -17,13 +16,20 @@
     "wayto": {
       "1475": "out",
       "5712": "west",
-      "30710": "/rooms/5711/wayto/stringproc-30710.rb"
+      "30710": ";e true"
     },
     "timeto": {
       "1475": 0.2,
       "5712": 0.2,
-      "30710": "/rooms/5711/timeto/stringproc-30710.rb"
+      "30710": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "vo-solhaven-1675635404.png",
+    "image_coords": [
+      901,
+      724,
+      901,
+      724
+    ],
     "tags": [
       "meta:forage-sensed",
       "meta:trashcan:wide-lipped copper urn",
@@ -36,13 +42,6 @@
     ],
     "uid": [
       4740075
-    ],
-    "image": "vo-solhaven-1675635404.png",
-    "image_coords": [
-      901,
-      724,
-      901,
-      724
     ]
   }
 }

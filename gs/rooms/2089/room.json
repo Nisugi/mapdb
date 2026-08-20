@@ -1,5 +1,4 @@
 {
-  "checksum": "4e42abfe7a9996f80beed32991946ac7",
   "room": {
     "id": 2089,
     "title": [
@@ -29,6 +28,13 @@
       "2112": 0.2,
       "12661": 0.2
     },
+    "image": "ti-wilds-1643860469.png",
+    "image_coords": [
+      1050,
+      999,
+      1060,
+      1009
+    ],
     "tags": [
       "acantha leaf",
       "black peppercorn",
@@ -41,8 +47,10 @@
       "green garden cucumber",
       "green guava",
       "juniper berry",
+      "macadamia nuts",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "murdroot",
       "nutmeg",
@@ -62,13 +70,6 @@
     ],
     "uid": [
       3030227
-    ],
-    "image": "ti-wilds-1643860469.png",
-    "image_coords": [
-      1050,
-      999,
-      1060,
-      1009
     ]
   }
 }

@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36745,
+    "title": [
+      "[Erienne's General Store]"
+    ],
+    "description": [
+      "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  A plain wooden table sits in one corner while a worn rug rests on an unfinished wooden floor."
+    ],
+    "paths": [
+      "Obvious exits: west"
+    ],
+    "location": "Kraken's Fall",
+    "wayto": {
+      "36743": "w"
+    },
+    "timeto": {
+      "36743": 0.2
+    },
+    "uid": [
+      642362
+    ]
+  }
+}

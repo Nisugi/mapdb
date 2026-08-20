@@ -1,5 +1,4 @@
 {
-  "checksum": "b379ca25bd968187d15de5a11fdd3a0d",
   "room": {
     "id": 1893,
     "title": [
@@ -14,15 +13,17 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "1892": "east",
-      "30715": "/rooms/1893/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1892": 0.2,
-      "30715": "/rooms/1893/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "debts",
-      "no forageables",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "urchin guide debts",
       "urchin-access"
     ],

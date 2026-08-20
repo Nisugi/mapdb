@@ -1,5 +1,4 @@
 {
-  "checksum": "a63dd6fbe2333e2130d0a5746815e1fd",
   "room": {
     "id": 27158,
     "title": [
@@ -11,11 +10,11 @@
     "paths": [
       "Obvious exits: northeast, southeast, northwest"
     ],
-    "location": false,
+    "location": "Bloodriven Village",
     "wayto": {
       "27157": "go staircase",
       "27159": "northwest",
-      "27160": "northeast",
+      "27160": "swim northeast",
       "27161": "southeast"
     },
     "timeto": {

@@ -1,5 +1,4 @@
 {
-  "checksum": "1abb19b37dc7eed1106b03f179fbbb22",
   "room": {
     "id": 13441,
     "title": [
@@ -20,13 +19,20 @@
     "timeto": {
       "13440": 0.2
     },
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      111,
+      1044,
+      133,
+      1066
+    ],
     "tags": [
       "ayana'al leaf",
       "blue trafel mushroom",
       "bolmara lichen",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
       "meta:nomagic",
       "murdroot",
@@ -37,13 +43,6 @@
     ],
     "uid": [
       13113005
-    ],
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      111,
-      1044,
-      133,
-      1066
     ]
   }
 }

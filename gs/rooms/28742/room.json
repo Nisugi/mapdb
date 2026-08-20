@@ -1,5 +1,4 @@
 {
-  "checksum": "7d4a1c3b4355290f081bfe135046f487",
   "room": {
     "id": 28742,
     "title": [
@@ -18,7 +17,7 @@
       "28743": "go archway",
       "28744": "go door",
       "28745": "go tunnel",
-      "30718": "/rooms/28742/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "3637": 0.2,
@@ -26,7 +25,7 @@
       "28743": 0.2,
       "28744": 0.2,
       "28745": 0.2,
-      "30718": "/rooms/28742/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "ayana leaf",

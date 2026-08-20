@@ -1,5 +1,4 @@
 {
-  "checksum": "c0bbe82f69c462f5c139c66cb8f65ddb",
   "room": {
     "id": 32833,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "9408": "/rooms/32833/wayto/stringproc-9408.rb",
+      "9408": ";e fput 'search';move('go opening')",
       "32832": "north"
     },
     "timeto": {
@@ -30,7 +29,7 @@
       "genkew mushroom",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2023-02",
       "murdroot",
       "pepperthorn root",

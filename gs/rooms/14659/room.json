@@ -1,5 +1,4 @@
 {
-  "checksum": "7db1f7621de25c911c3f348cc9c19b34",
   "room": {
     "id": 14659,
     "title": [
@@ -16,7 +15,7 @@
     "terrain": "cultivated",
     "wayto": {
       "3506": "out",
-      "13532": "/rooms/14659/wayto/stringproc-13532.rb"
+      "13532": ";e $SILVERWOOD_TOWN=:va;move 'go door'"
     },
     "timeto": {
       "3506": 0.2,
@@ -24,6 +23,7 @@
     },
     "tags": [
       "angelica root",
+      "arbutus berry",
       "bay leaf",
       "black peppercorn",
       "blaestonberries",
@@ -37,6 +37,7 @@
       "cardamom",
       "cherry peppers",
       "chives",
+      "crystal-like sylthiel",
       "cumin seeds",
       "curly garlic scapes",
       "curly leaf parsley",
@@ -54,11 +55,13 @@
       "fresh cilantro",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green beans",
       "green cabbage",
       "green olive",
       "green pepper",
+      "green soybean pod",
       "haphip root",
       "heath aster",
       "honeysuckle vine",
@@ -75,7 +78,7 @@
       "luckbloom blossom",
       "mentors",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "motherwort",
       "mustard seeds",
@@ -103,6 +106,7 @@
       "red pepper",
       "rose-marrow root",
       "round red radish",
+      "safflower seeds",
       "scallions",
       "shallot",
       "silverwood",
@@ -140,6 +144,7 @@
       "sunflower seeds",
       "sweet onion",
       "tendril of vinca",
+      "thistle seeds",
       "thyme",
       "tiger lily",
       "tobacco leaves",
@@ -147,6 +152,7 @@
       "vanilla bean",
       "vert globe artichoke",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "white begonia",
       "white hydrangea",
@@ -154,7 +160,9 @@
       "white peony",
       "white ramie",
       "wild pansy blossom",
+      "wild rice",
       "withered mushroom",
+      "yellow carrot",
       "yellow lemon",
       "yellow pepper",
       "yellow squash",

@@ -1,5 +1,4 @@
 {
-  "checksum": "f456770bbc456b1400d2d208a8f611aa",
   "room": {
     "id": 1828,
     "title": [
@@ -21,19 +20,20 @@
       "1827": 0.2,
       "1829": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      13027014
-    ],
     "image": "en-sylvarraend-1264234799.png",
     "image_coords": [
       98,
       224,
       108,
       234
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      13027014
     ]
   }
 }

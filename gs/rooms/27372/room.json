@@ -1,5 +1,4 @@
 {
-  "checksum": "9c508d580e9a9eef742fbbb855115011",
   "room": {
     "id": 27372,
     "title": [
@@ -24,18 +23,21 @@
       "27375": 0.2,
       "27382": 0.2
     },
-    "tags": [
-      "meta:mho:The Order of the Azure Sun"
-    ],
-    "uid": [
-      18028002
-    ],
     "image": "sunholm.png",
     "image_coords": [
       302,
       348,
       377,
       422
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:mho:The Order of the Azure Sun",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      18028002
     ]
   }
 }

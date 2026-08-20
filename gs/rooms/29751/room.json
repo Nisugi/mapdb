@@ -1,5 +1,4 @@
 {
-  "checksum": "57e75577668ed4006f7a133850a46d7f",
   "room": {
     "id": 29751,
     "title": [
@@ -18,22 +17,24 @@
     },
     "timeto": {
       "29750": 0.2,
-      "32756": 240
+      "32756": 240.0
     },
-    "tags": [
-      "no forageables",
-      "public locker",
-      "publiclockers"
-    ],
-    "uid": [
-      7121106
-    ],
     "image": "kf-inking_den-1615857364.png",
     "image_coords": [
       42,
       320,
       69,
       343
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "public locker",
+      "publiclockers"
+    ],
+    "uid": [
+      7121106
     ]
   }
 }

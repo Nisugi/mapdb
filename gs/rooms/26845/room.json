@@ -1,5 +1,4 @@
 {
-  "checksum": "949ac70b3139a800f998144282035d75",
   "room": {
     "id": 26845,
     "title": [
@@ -20,9 +19,12 @@
       "26837": 0.2,
       "26870": 0.2
     },
+    "tags": [
+      "meta:nomagic"
+    ],
+    "check_location": false,
     "uid": [
       8212504
-    ],
-    "check_location": false
+    ]
   }
 }

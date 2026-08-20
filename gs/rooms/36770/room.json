@@ -1,0 +1,32 @@
+{
+  "room": {
+    "id": 36770,
+    "title": [
+      "[Pearls Before Brine, Hold]"
+    ],
+    "description": [
+      "Thick with the scent of brine and tar, the hold is cramped, the low beams forcing most visitors to stoop.  Along one bulkhead, repurposed crates have been stacked to form shelves of salvaged goods, while to the stern, a makeshift door crafted from an old hatch leads into a storage alcove stuffed with battered trunks.  A tattered parchment chart marked with red-inked routes lies on a rickety gaming table strewn with candle stubs and empty rum bottles."
+    ],
+    "paths": [
+      "Obvious paths: up"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36769": "up"
+    },
+    "timeto": {
+      "36769": 0.2
+    },
+    "tags": [
+      "bright pink protea",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      7134242
+    ]
+  }
+}

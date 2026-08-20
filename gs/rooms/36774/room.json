@@ -1,0 +1,33 @@
+{
+  "room": {
+    "id": 36774,
+    "title": [
+      "[Market of Lost Things]"
+    ],
+    "description": [
+      "Lanterns of tinted glass sway from chains overhead, painting the planked floor in drifting patches of red and turquoise.  Stacked crates form a crooked walkway between crowded stalls displaying their wares, the underlying clink of coins echoing throughout the market.  Along the starboard wall, a crudely painted kraken points the way to the nearest exit."
+    ],
+    "paths": [
+      "Obvious exits: north, east, out"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36773": "out",
+      "36775": "north",
+      "36778": "east"
+    },
+    "timeto": {
+      "36773": 0.2,
+      "36775": 0.2,
+      "36778": 0.2
+    },
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      7134216
+    ]
+  }
+}

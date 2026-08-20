@@ -1,5 +1,4 @@
 {
-  "checksum": "945666587fafb317b6883fed20e2542e",
   "room": {
     "id": 16016,
     "title": [
@@ -18,13 +17,20 @@
     "wayto": {
       "11032": "go road",
       "16115": "south",
-      "30711": "/rooms/16016/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "11032": 0.2,
       "16115": 0.2,
-      "30711": "/rooms/16016/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      2691,
+      1566,
+      2713,
+      1587
+    ],
     "tags": [
       "acantha leaf",
       "bamboo cane",
@@ -56,7 +62,7 @@
       "luckbloom blossom",
       "mate leaves",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2026-01",
       "mulberry fronds",
       "murdroot",
@@ -105,13 +111,6 @@
     ],
     "uid": [
       2104400
-    ],
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      2691,
-      1566,
-      2713,
-      1587
     ]
   }
 }

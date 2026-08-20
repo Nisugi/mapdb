@@ -1,5 +1,4 @@
 {
-  "checksum": "fe4312d8832daa2c11b964ba0c27d813",
   "room": {
     "id": 9510,
     "title": [
@@ -18,14 +17,21 @@
       "9509": "north",
       "9511": "southeast",
       "18997": "go gate",
-      "30712": "/rooms/9510/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "9509": 0.2,
       "9511": 0.2,
-      "18997": "/rooms/9510/timeto/stringproc-18997.rb",
-      "30712": "/rooms/9510/timeto/stringproc-30712.rb"
+      "18997": ";e Stats.prof == 'Sorcerer' ? 0.2 : nil",
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "en-zul_logoth-1639816187.png",
+    "image_coords": [
+      659,
+      936,
+      669,
+      946
+    ],
     "tags": [
       "blue trafel mushroom",
       "bolmara lichen",
@@ -34,7 +40,7 @@
       "genkew mushroom",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-02",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2026-03",
       "murdroot",
       "pepperthorn root",
@@ -48,13 +54,6 @@
     ],
     "uid": [
       13006047
-    ],
-    "image": "en-zul_logoth-1639816187.png",
-    "image_coords": [
-      659,
-      936,
-      669,
-      946
     ]
   }
 }

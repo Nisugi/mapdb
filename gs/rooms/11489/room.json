@@ -1,5 +1,4 @@
 {
-  "checksum": "a7368fdcc76d22b5b0715490d8611654",
   "room": {
     "id": 11489,
     "title": [
@@ -24,6 +23,13 @@
       "11490": 0.2,
       "11530": 0.2
     },
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      648,
+      919,
+      658,
+      929
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -71,7 +77,7 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2026-01",
+      "meta:forage-sensed:night:2026-08",
       "mistweed",
       "motherwort",
       "murdroot",
@@ -134,13 +140,6 @@
     ],
     "uid": [
       305052
-    ],
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      648,
-      919,
-      658,
-      929
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "f0336ede3ceabcca5c78527ef8904801",
   "room": {
     "id": 1846,
     "title": [
@@ -21,6 +20,13 @@
     "timeto": {
       "1841": 0.2
     },
+    "image": "ti-teras-1264234799.png",
+    "image_coords": [
+      628,
+      745,
+      664,
+      781
+    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -41,11 +47,13 @@
       "juniper berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "murdroot",
       "nutmeg",
       "pepperthorn root",
       "pink peppercorn",
+      "pistachio nuts",
       "round grumbleberry",
       "small daisy",
       "small flower",
@@ -68,13 +76,6 @@
     ],
     "uid": [
       3002034
-    ],
-    "image": "ti-teras-1264234799.png",
-    "image_coords": [
-      628,
-      745,
-      664,
-      781
     ]
   }
 }

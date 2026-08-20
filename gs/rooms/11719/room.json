@@ -1,5 +1,4 @@
 {
-  "checksum": "b8c48bb510c75279b1a4c76405d71ba9",
   "room": {
     "id": 11719,
     "title": [
@@ -22,19 +21,20 @@
       "11745": 0.2,
       "11746": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      376051
-    ],
     "image": "rr-marsh_keep-1266356986.png",
     "image_coords": [
       867,
       847,
       877,
       857
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      376051
     ]
   }
 }

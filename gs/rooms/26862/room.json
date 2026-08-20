@@ -1,5 +1,4 @@
 {
-  "checksum": "8f89bb8b5488c455f90ce5b35d50a90d",
   "room": {
     "id": 26862,
     "title": [
@@ -22,7 +21,7 @@
       "27156": "go door",
       "28328": "go three-story structure",
       "29853": "go edifice",
-      "30311": "go crimson pavilion",
+      "30311": "go pavilion",
       "33322": "go silk tent",
       "35188": "go small shack"
     },
@@ -37,18 +36,18 @@
       "33322": 0.2,
       "35188": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214535
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       671,
       621,
       701,
       651
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      8214535
     ]
   }
 }

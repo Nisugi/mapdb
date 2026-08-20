@@ -1,5 +1,4 @@
 {
-  "checksum": "2c8e65182215ea265b3384535b1b34bb",
   "room": {
     "id": 27639,
     "title": [
@@ -13,25 +12,25 @@
     ],
     "location": "Peregrine Tavern, outside the elven city of Ta'Illistim",
     "wayto": {
-      "27638": "/rooms/27639/wayto/stringproc-27638.rb",
+      "27638": ";e if UserVars.Peregrine; UserVars.Peregrine.each{|c| fput \"#{c}\" } end",
       "27640": "go maoral arch"
     },
     "timeto": {
       "27638": 0.2,
       "27640": 0.2
     },
-    "tags": [
-      "private property"
-    ],
-    "uid": [
-      1304305
-    ],
     "image": "pp-eastern-spine-1543903046.png",
     "image_coords": [
       309,
       722,
       408,
       822
+    ],
+    "tags": [
+      "private property"
+    ],
+    "uid": [
+      1304305
     ]
   }
 }

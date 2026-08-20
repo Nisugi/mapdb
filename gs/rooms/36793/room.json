@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36793,
+    "title": [
+      "[Tempest Queen, Stateroom]"
+    ],
+    "description": [
+      "Fine linen curtains frame an overlarge porthole in the wall above a carved mahogany bed featuring a plump, feather-stuffed mattress.  Partially concealed by a silk-screened partition, a bar of fragrant cedarwood soap floats on the surface of a water-filled, copper tub next to a small stool piled high with plush cotton towels.  A crumpled pamphlet lies on top of a polished mahogany night stand, an open drawer revealing a cut glass decanter and a shot glass of whiskey."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36787": "out"
+    },
+    "timeto": {
+      "36787": 0.2
+    },
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells",
+      "tiny white elderflowers",
+      "wild sage"
+    ],
+    "uid": [
+      7134114
+    ]
+  }
+}

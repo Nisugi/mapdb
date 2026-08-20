@@ -1,5 +1,4 @@
 {
-  "checksum": "068838189b77c8761d0b3849f59a6d05",
   "room": {
     "id": 2782,
     "title": [
@@ -19,21 +18,22 @@
     "timeto": {
       "2777": 0.2
     },
-    "tags": [
-      "herbalist",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      4564010
-    ],
     "image": "imt-PinefarTradingPost-1615312810.png",
     "image_coords": [
       65,
       155,
       163,
       212
+    ],
+    "tags": [
+      "herbalist",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      4564010
     ]
   }
 }

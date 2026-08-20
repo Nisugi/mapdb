@@ -1,5 +1,4 @@
 {
-  "checksum": "adac03c20db89d31b8472b1eaac1b2eb",
   "room": {
     "id": 4206,
     "title": [
@@ -24,6 +23,13 @@
       "4207": 0.2,
       "7993": 0.2
     },
+    "image": "wl-mineroad-1264234799.png",
+    "image_coords": [
+      369,
+      709,
+      379,
+      719
+    ],
     "tags": [
       "ambrominas leaf",
       "angelica root",
@@ -56,6 +62,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "murkweed",
       "nightbloom blossom",
@@ -87,7 +94,7 @@
       "tkaro root",
       "traesharm berry",
       "tree bark",
-      "trollfear mushroom",
+      "trollear mushroom",
       "twisted twig",
       "white lily",
       "wild pansy blossom",
@@ -100,13 +107,6 @@
     ],
     "uid": [
       20013
-    ],
-    "image": "wl-mineroad-1264234799.png",
-    "image_coords": [
-      369,
-      709,
-      379,
-      719
     ]
   }
 }

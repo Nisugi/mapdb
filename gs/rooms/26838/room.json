@@ -1,5 +1,4 @@
 {
-  "checksum": "76f3ce9ab556c3ed2fb0cbedd6d6ceee",
   "room": {
     "id": 26838,
     "title": [
@@ -20,7 +19,7 @@
       "26839": "go hedges",
       "26840": "southwest",
       "33315": "go lean-to",
-      "35190": "go ebonwood shop"
+      "35190": "go shop"
     },
     "timeto": {
       "26839": 0.2,
@@ -28,18 +27,18 @@
       "33315": 0.2,
       "35190": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214537
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       922,
       650,
       952,
       681
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      8214537
     ]
   }
 }

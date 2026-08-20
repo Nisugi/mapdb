@@ -1,5 +1,4 @@
 {
-  "checksum": "773cfb8b203ad4bc4e0a9830c41a9bd5",
   "room": {
     "id": 3979,
     "title": [
@@ -18,18 +17,21 @@
     "timeto": {
       "24811": 0.2
     },
-    "tags": [
-      "meta:che:Helden Hall"
-    ],
-    "uid": [
-      212410
-    ],
     "image": "wl-heldenhall-1502386358.png",
     "image_coords": [
       735,
       1331,
       772,
       1367
+    ],
+    "tags": [
+      "coastal sword sedge",
+      "meta:che:Helden Hall",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08"
+    ],
+    "uid": [
+      212410
     ]
   }
 }

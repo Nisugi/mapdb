@@ -1,5 +1,4 @@
 {
-  "checksum": "e6234af9a306fe0ebfeab30a3c216416",
   "room": {
     "id": 14627,
     "title": [
@@ -15,15 +14,17 @@
     "wayto": {
       "223": "go grate under ashes",
       "3619": "go steep stair",
-      "30708": "/rooms/14627/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
-      "223": 15,
+      "223": 15.0,
       "3619": 0.2,
-      "30708": "/rooms/14627/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
-      "no forageables",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "node",
       "supernode",
       "urchin-access"

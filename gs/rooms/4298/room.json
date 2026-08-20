@@ -1,5 +1,4 @@
 {
-  "checksum": "a2aa89cecc04619984ab4b63cdd7cf50",
   "room": {
     "id": 4298,
     "title": [
@@ -24,6 +23,13 @@
       "6410": 0.2,
       "6461": 0.2
     },
+    "image": "wl-lysierian-1264234799.png",
+    "image_coords": [
+      249,
+      585,
+      259,
+      595
+    ],
     "tags": [
       "acantha leaf",
       "alder bark",
@@ -67,6 +73,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "murkweed",
       "nightbloom blossom",
@@ -94,7 +101,7 @@
       "tkaro root",
       "torban leaf",
       "tree bark",
-      "trollfear mushroom",
+      "trollear mushroom",
       "twisted twig",
       "walnuts",
       "white baneberry",
@@ -116,13 +123,6 @@
     ],
     "uid": [
       92018
-    ],
-    "image": "wl-lysierian-1264234799.png",
-    "image_coords": [
-      249,
-      585,
-      259,
-      595
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "9d2395961a2a08491fec379fba73a8ec",
   "room": {
     "id": 22358,
     "title": [
@@ -22,18 +21,22 @@
       "22353": 0.2,
       "22375": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      13125047
-    ],
     "image": "en-ta_illistim-embassies-1405076623.png",
     "image_coords": [
       1092,
       382,
       1135,
       418
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      13125047
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "d62bda183baa01d78ee77e7c521650e1",
   "room": {
     "id": 678,
     "title": [
@@ -19,29 +18,32 @@
     "wayto": {
       "677": "southeast",
       "679": "southwest",
-      "30714": "/rooms/678/wayto/stringproc-30714.rb",
+      "30714": ";e true",
       "32674": "go pine shop"
     },
     "timeto": {
       "677": 0.2,
       "679": 0.2,
-      "30714": "/rooms/678/timeto/stringproc-30714.rb",
+      "30714": ";e Map[7].timeto['30714'].call;",
       "32674": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables",
-      "urchin-access"
-    ],
-    "uid": [
-      13050006
-    ],
     "image": "en-sylvarraend-1264234799.png",
     "image_coords": [
       384,
       727,
       420,
       763
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells",
+      "urchin-access",
+      "wild sage"
+    ],
+    "uid": [
+      13050006
     ]
   }
 }

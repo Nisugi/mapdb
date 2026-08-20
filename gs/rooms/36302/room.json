@@ -1,5 +1,4 @@
 {
-  "checksum": "5d59c8092dd28eb8e4c513a736a3216d",
   "room": {
     "id": 36302,
     "title": [
@@ -32,18 +31,20 @@
       "36318": 0.2,
       "36321": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      777308
-    ],
     "image": "albatross-1342665555.png",
     "image_coords": [
       283,
       300,
       300,
       320
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      777308
     ]
   }
 }

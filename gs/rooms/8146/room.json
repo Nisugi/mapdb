@@ -1,5 +1,4 @@
 {
-  "checksum": "cdf538fe826e334dfb229a3454889e16",
   "room": {
     "id": 8146,
     "title": [
@@ -22,21 +21,23 @@
       "8147": 0.2,
       "8150": 0.2
     },
-    "tags": [
-      "Leya",
-      "leya",
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      386071
-    ],
     "image": "wl-mineroad-1264234799.png",
     "image_coords": [
       1064,
       46,
       1074,
       56
+    ],
+    "tags": [
+      "fire lily",
+      "Leya",
+      "leya",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      386071
     ]
   }
 }

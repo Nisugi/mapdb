@@ -1,5 +1,4 @@
 {
-  "checksum": "977c7cf9c2482320ec447c05d8b45de3",
   "room": {
     "id": 1416,
     "title": [
@@ -25,19 +24,21 @@
       "1415": 0.2,
       "1417": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      2130004
-    ],
     "image": "vo-caravansary-1264234799.png",
     "image_coords": [
       1174,
       507,
       1184,
       517
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      2130004
     ]
   }
 }

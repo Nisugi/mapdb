@@ -1,5 +1,4 @@
 {
-  "checksum": "8dcc217c984f887968c8a756ddc08b47",
   "room": {
     "id": 26897,
     "title": [
@@ -21,8 +20,8 @@
       "26894": "east",
       "26898": "go building",
       "29831": "go fel wagon",
-      "31415": "go jadewood bungalow",
-      "31417": "go briar cottage"
+      "31415": "go bungalow",
+      "31417": "go cottage"
     },
     "timeto": {
       "23718": 0.2,
@@ -33,12 +32,6 @@
       "31415": 0.2,
       "31417": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214510
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       1223,
@@ -46,6 +39,12 @@
       1253,
       1012
     ],
-    "check_location": false
+    "tags": [
+      "no forageables"
+    ],
+    "check_location": false,
+    "uid": [
+      8214510
+    ]
   }
 }

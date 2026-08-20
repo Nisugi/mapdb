@@ -1,5 +1,4 @@
 {
-  "checksum": "fdde89e3a6aa9818099726c7a644e287",
   "room": {
     "id": 7485,
     "title": [
@@ -28,33 +27,28 @@
       "7483": 0.2,
       "7484": 0.2
     },
-    "tags": [
-      "luminescent green fungus",
-      "pink mold",
-      "some blackened moss",
-      "large black toadstool",
-      "some cave moss",
-      "some glowing green lichen",
-      "blue mold",
-      "sponge mushroom",
-      "red mold",
-      "myklian",
-      "red myklian",
-      "purple myklian",
-      "white mold",
-      "purple mold",
-      "green mold",
-      "yellow mold"
-    ],
-    "uid": [
-      94024
-    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       1028,
       798,
       1038,
       808
+    ],
+    "tags": [
+      "black toadstool",
+      "blackened moss",
+      "bone mushroom",
+      "cave moss",
+      "glowing green lichen",
+      "green fungus",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "molds",
+      "myklian",
+      "sponge mushroom"
+    ],
+    "uid": [
+      94024
     ]
   }
 }

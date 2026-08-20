@@ -1,5 +1,4 @@
 {
-  "checksum": "2b834c58f79075f33d6fd6580dfd14c7",
   "room": {
     "id": 35377,
     "title": [
@@ -18,15 +17,20 @@
     "timeto": {
       "35376": 0.2
     },
-    "uid": [
-      7142116
-    ],
     "image": "2Sleeping_Drake_Harbor_and_Bericsaba_Market.png",
     "image_coords": [
       445,
       363,
       474,
       388
+    ],
+    "tags": [
+      "bract of sea spurge",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      7142116
     ]
   }
 }

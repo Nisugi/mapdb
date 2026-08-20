@@ -1,5 +1,4 @@
 {
-  "checksum": "2f8fd5b3c89616d4aa266a362d95d42f",
   "room": {
     "id": 8225,
     "title": [
@@ -16,12 +15,19 @@
     "terrain": "none",
     "wayto": {
       "8224": "out",
-      "8226": "/rooms/8225/wayto/stringproc-8226.rb"
+      "8226": ";e move 'swim opening'\nfput 'stand' unless standing?"
     },
     "timeto": {
       "8224": 0.2,
       "8226": 0.2
     },
+    "image": "wl-mineroad-1264234799.png",
+    "image_coords": [
+      234,
+      192,
+      244,
+      202
+    ],
     "tags": [
       "black mushroom",
       "blue trafel mushroom",
@@ -30,6 +36,7 @@
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "red mushroom",
       "soft mushroom",
@@ -39,13 +46,6 @@
     ],
     "uid": [
       392003
-    ],
-    "image": "wl-mineroad-1264234799.png",
-    "image_coords": [
-      234,
-      192,
-      244,
-      202
     ]
   }
 }

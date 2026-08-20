@@ -1,5 +1,4 @@
 {
-  "checksum": "dfdbf3bf5f219efd5604b2c2d3f471a0",
   "room": {
     "id": 10316,
     "title": [
@@ -18,18 +17,20 @@
     "timeto": {
       "10314": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      14103452
-    ],
     "image": "en-ta_vaalor-wyverns_keep-1488759285.png",
     "image_coords": [
       505,
       264,
       645,
       324
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      14103452
     ]
   }
 }

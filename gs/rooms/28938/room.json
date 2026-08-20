@@ -1,5 +1,4 @@
 {
-  "checksum": "4428847251a54dae5217f1f3e7c350a7",
   "room": {
     "id": 28938,
     "title": [
@@ -15,16 +14,18 @@
     "wayto": {
       "28872": "out",
       "28939": "west",
-      "30716": "/rooms/28938/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28872": 0.2,
       "28939": 0.2,
-      "30716": "/rooms/28938/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "fire lily",
       "herbalist",
-      "no forageables",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "urchin guide herbalist",
       "urchin-access"
     ],

@@ -1,5 +1,4 @@
 {
-  "checksum": "557a9862fde6f3afc163a0b0af7c2622",
   "room": {
     "id": 34162,
     "title": [
@@ -22,23 +21,24 @@
       "34163": 0.2,
       "34166": 0.2
     },
-    "tags": [
-      "bolmara lichen",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2025-02",
-      "murdroot",
-      "wingstem root"
-    ],
-    "uid": [
-      13041013
-    ],
     "image": "en-zul_logoth_the_hive-1702229165.png",
     "image_coords": [
       1651,
       269,
       1672,
       288
+    ],
+    "tags": [
+      "bolmara lichen",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2025-02",
+      "meta:splashy",
+      "murdroot",
+      "wingstem root"
+    ],
+    "uid": [
+      13041013
     ]
   }
 }

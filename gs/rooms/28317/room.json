@@ -1,5 +1,4 @@
 {
-  "checksum": "4970271d6e5c5ca9cd57d1b8bc5b3b7d",
   "room": {
     "id": 28317,
     "title": [
@@ -17,17 +16,18 @@
     "wayto": {
       "751": "out",
       "28318": "go archway",
-      "30714": "/rooms/28317/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "751": 0.2,
       "28318": 0.2,
-      "30714": "/rooms/28317/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
       "angelica root",
+      "arbutus berry",
       "barley grass",
       "birch bark",
       "blaestonberries",
@@ -39,6 +39,7 @@
       "brown potato",
       "chives",
       "crimson dragonstalk",
+      "crystal-like sylthiel",
       "curly leaf parsley",
       "daggerstalk mushroom",
       "dwarf bilberry",
@@ -52,6 +53,7 @@
       "fresh lemongrass",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden aster",
       "golden buttercup",
       "green cabbage",
@@ -66,7 +68,7 @@
       "leek",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
       "motherwort",
       "murdroot",
@@ -86,6 +88,7 @@
       "rhubarb",
       "rose-marrow root",
       "rye grass",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small apple",
@@ -114,10 +117,12 @@
       "sunburst blossom",
       "sweet onion",
       "thin hemp",
+      "thistle seeds",
       "trollfear mushroom",
       "urchin guide stable",
       "urchin-access",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "wheat grass",
       "white clover blossom",
