@@ -1,5 +1,4 @@
 {
-  "checksum": "2d7333463ca186eb881b82c42bf67c95",
   "room": {
     "id": 27615,
     "title": [
@@ -20,18 +19,25 @@
       "27614": 0.2,
       "27616": 0.2
     },
-    "tags": [
-      "meta:locker annex:Twilight Hall"
-    ],
-    "uid": [
-      4043706
-    ],
     "image": "imt_Twilight_Cavern.png",
     "image_coords": [
       272,
       381,
       332,
       442
+    ],
+    "tags": [
+      "bolmara lichen",
+      "glassfern frond",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:locker annex:Twilight Hall",
+      "murdroot",
+      "wingstem root"
+    ],
+    "uid": [
+      4043706
     ]
   }
 }

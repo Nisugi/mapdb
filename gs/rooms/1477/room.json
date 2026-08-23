@@ -1,5 +1,4 @@
 {
-  "checksum": "81aa1a8cb2e0562b3070eccc88bb8f53",
   "room": {
     "id": 1477,
     "title": [
@@ -22,7 +21,7 @@
       "1483": "northwest",
       "5689": "go warehouse",
       "20698": "go gate",
-      "30710": "/rooms/1477/wayto/stringproc-30710.rb"
+      "30710": ";e true"
     },
     "timeto": {
       "1476": 0.2,
@@ -31,23 +30,24 @@
       "1482": 0.2,
       "1483": 0.2,
       "5689": 0.2,
-      "20698": "/rooms/1477/timeto/stringproc-20698.rb",
-      "30710": "/rooms/1477/timeto/stringproc-30710.rb"
+      "20698": ";e UserVars.mapdb_premium.nil? ? 10 : 0.2;",
+      "30710": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables",
-      "urchin-access"
-    ],
-    "uid": [
-      4209046
-    ],
     "image": "vo-solhaven-1675635404.png",
     "image_coords": [
       758,
       702,
       782,
       726
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells",
+      "urchin-access"
+    ],
+    "uid": [
+      4209046
     ]
   }
 }

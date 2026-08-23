@@ -1,5 +1,4 @@
 {
-  "checksum": "cc892ecb0ebc2bd1ba88f00e68839a76",
   "room": {
     "id": 13049,
     "title": [
@@ -18,15 +17,20 @@
     "timeto": {
       "13048": 0.2
     },
-    "uid": [
-      15005005
-    ],
     "image": "adventurers_guild-1485358936.png",
     "image_coords": [
       1742,
       2564,
       1808,
       2630
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      15005005
     ]
   }
 }

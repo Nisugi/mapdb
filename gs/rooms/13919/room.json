@@ -1,5 +1,4 @@
 {
-  "checksum": "de84855441ebd4164c16a4918b91d2f7",
   "room": {
     "id": 13919,
     "title": [
@@ -21,6 +20,13 @@
     "timeto": {
       "13918": 0.2
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      662,
+      518,
+      689,
+      546
+    ],
     "tags": [
       "acantha leaf",
       "blue trafel mushroom",
@@ -31,11 +37,12 @@
       "fiddlehead fern",
       "flathead mushroom",
       "genkew mushroom",
+      "green soybean pod",
       "handful of currants",
       "Imaera's Lace",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "mistweed",
       "murdroot",
@@ -43,6 +50,7 @@
       "pink clover blossom",
       "purple clover blossom",
       "red clover blossom",
+      "safflower seeds",
       "soft mushroom",
       "sprig of jasmine",
       "sprig of wild lilac",
@@ -51,6 +59,7 @@
       "stalk of goldenrod",
       "sunburst blossom",
       "talneo root",
+      "thistle seeds",
       "vert globe artichoke",
       "water chestnut",
       "wavepetal blossom",
@@ -67,13 +76,6 @@
     ],
     "uid": [
       7056106
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      662,
-      518,
-      689,
-      546
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "95792ab705a2d0cf8778c4eec8faa4fe",
   "room": {
     "id": 22667,
     "title": [
@@ -17,7 +16,7 @@
     ],
     "location": false,
     "wayto": {
-      "20347": "/rooms/22667/wayto/stringproc-20347.rb",
+      "20347": ";e fput \"stand\" until standing?;move \"out\"",
       "22992": "crawl opening"
     },
     "timeto": {

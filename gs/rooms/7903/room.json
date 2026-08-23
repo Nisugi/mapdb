@@ -1,5 +1,4 @@
 {
-  "checksum": "e9efabff6853301a8c5839853baba8fd",
   "room": {
     "id": 7903,
     "title": [
@@ -20,20 +19,21 @@
       "4124": 0.2,
       "7904": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      35014
-    ],
     "image": "wl-danjirland-1264234799.png",
     "image_coords": [
       105,
       419,
       115,
       429
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      35014
     ]
   }
 }

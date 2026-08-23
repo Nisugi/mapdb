@@ -1,5 +1,4 @@
 {
-  "checksum": "f69744a4493eb94f6b90119e17b8038c",
   "room": {
     "id": 23520,
     "title": [
@@ -26,6 +25,13 @@
       "23524": 0.2,
       "24045": 0.2
     },
+    "image": "wl-faendrylenclave.png",
+    "image_coords": [
+      175,
+      472,
+      215,
+      510
+    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -41,12 +47,13 @@
       "dark blue honeyberries",
       "ghost pepper",
       "ginger root",
+      "golden yellow shadesbane",
       "heath aster",
       "hot pepper",
       "ironfern root",
       "juniper berry",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
       "motherwort",
       "murdroot",
@@ -77,13 +84,6 @@
     ],
     "uid": [
       18048001
-    ],
-    "image": "wl-faendrylenclave.png",
-    "image_coords": [
-      175,
-      472,
-      215,
-      510
     ]
   }
 }

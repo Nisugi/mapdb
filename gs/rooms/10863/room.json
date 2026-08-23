@@ -1,5 +1,4 @@
 {
-  "checksum": "77582e65e9fa53ff330f318e7ab10851",
   "room": {
     "id": 10863,
     "title": [
@@ -18,13 +17,20 @@
     "wayto": {
       "10862": "go trail",
       "10864": "north",
-      "30711": "/rooms/10863/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "10862": 0.2,
       "10864": 0.2,
-      "30711": "/rooms/10863/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      2288,
+      777,
+      2326,
+      815
+    ],
     "tags": [
       "alligator lily",
       "angelica root",
@@ -75,7 +81,7 @@
       "luckbloom blossom",
       "mate leaves",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2026-01",
       "motherwort",
       "nutmeg",
@@ -137,8 +143,10 @@
       "white lily",
       "white petunia",
       "white tea leaves",
+      "wild rice",
       "wild spinach",
       "withered mushroom",
+      "yellow carrot",
       "yellow lemon",
       "yellow papaya",
       "yellow pepper",
@@ -148,13 +156,6 @@
     ],
     "uid": [
       2101012
-    ],
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      2288,
-      777,
-      2326,
-      815
     ]
   }
 }

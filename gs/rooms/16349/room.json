@@ -1,5 +1,4 @@
 {
-  "checksum": "548cca880db728c9fe63559402ba8a7f",
   "room": {
     "id": 16349,
     "title": [
@@ -15,12 +14,12 @@
     "wayto": {
       "12302": "out",
       "16350": "go arch",
-      "30718": "/rooms/16349/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "12302": 0.2,
       "16350": 0.2,
-      "30718": "/rooms/16349/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "herbalist",

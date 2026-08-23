@@ -1,5 +1,4 @@
 {
-  "checksum": "146c3546edd9583cfad8c12d6b794a63",
   "room": {
     "id": 14727,
     "title": [
@@ -20,6 +19,13 @@
     "timeto": {
       "14696": 0.2
     },
+    "image": "ti-wilds-1643860469.png",
+    "image_coords": [
+      735,
+      241,
+      745,
+      251
+    ],
     "tags": [
       "black tea leaves",
       "bolmara lichen",
@@ -31,6 +37,7 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "mulberry fronds",
       "pothinir grass",
       "purple tea leaves",
@@ -48,13 +55,6 @@
     ],
     "uid": [
       3023028
-    ],
-    "image": "ti-wilds-1643860469.png",
-    "image_coords": [
-      735,
-      241,
-      745,
-      251
     ]
   }
 }

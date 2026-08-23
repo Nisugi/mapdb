@@ -1,5 +1,4 @@
 {
-  "checksum": "4dd78fdfca74045e12880b5c7c58f20b",
   "room": {
     "id": 5882,
     "title": [
@@ -27,8 +26,16 @@
       "5890": 0.2,
       "29575": 0.2
     },
+    "image": "en-cemetery-1617615116.png",
+    "image_coords": [
+      478,
+      482,
+      489,
+      491
+    ],
     "tags": [
       "angelica root",
+      "arbutus berry",
       "bay leaf",
       "black peppercorn",
       "blaestonberries",
@@ -42,6 +49,7 @@
       "cardamom",
       "cherry peppers",
       "chives",
+      "crystal-like sylthiel",
       "cumin seeds",
       "curly garlic scapes",
       "curly leaf parsley",
@@ -59,11 +67,13 @@
       "fresh cilantro",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green beans",
       "green cabbage",
       "green olive",
       "green pepper",
+      "green soybean pod",
       "haphip root",
       "heath aster",
       "honeysuckle vine",
@@ -79,7 +89,7 @@
       "light blue hydrangea",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2025-07",
       "motherwort",
       "mustard seeds",
@@ -107,6 +117,7 @@
       "red pepper",
       "rose-marrow root",
       "round red radish",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small anemone",
@@ -143,6 +154,7 @@
       "sunflower seeds",
       "sweet onion",
       "tendril of vinca",
+      "thistle seeds",
       "thyme",
       "tiger lily",
       "tobacco leaves",
@@ -150,6 +162,7 @@
       "vanilla bean",
       "vert globe artichoke",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "white begonia",
       "white hydrangea",
@@ -157,24 +170,19 @@
       "white peony",
       "white ramie",
       "wild pansy blossom",
+      "wild rice",
       "witchwood twig",
       "withered mushroom",
+      "yellow carrot",
       "yellow lemon",
       "yellow pepper",
       "yellow squash",
       "yew twig",
       "zucchini"
     ],
+    "check_location": false,
     "uid": [
       14008044
-    ],
-    "image": "en-cemetery-1617615116.png",
-    "image_coords": [
-      478,
-      482,
-      489,
-      491
-    ],
-    "check_location": false
+    ]
   }
 }

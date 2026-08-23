@@ -1,5 +1,4 @@
 {
-  "checksum": "69107470056daa3cdcbac52714d7a910",
   "room": {
     "id": 10852,
     "title": [
@@ -20,7 +19,7 @@
       "10859": "northeast",
       "10861": "go pathway",
       "28717": "go patched tent",
-      "30711": "/rooms/10852/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "10840": 0.2,
@@ -28,8 +27,15 @@
       "10859": 0.2,
       "10861": 0.2,
       "28717": 0.2,
-      "30711": "/rooms/10852/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      2290,
+      1006,
+      2326,
+      1040
+    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -52,7 +58,7 @@
       "juniper berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2026-01",
+      "meta:forage-sensed:night:2026-08",
       "mistweed",
       "motherwort",
       "murdroot",
@@ -83,13 +89,6 @@
     ],
     "uid": [
       2101004
-    ],
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      2290,
-      1006,
-      2326,
-      1040
     ]
   }
 }

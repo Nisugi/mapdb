@@ -1,5 +1,4 @@
 {
-  "checksum": "a9845d1613601aace359d673b8a61bda",
   "room": {
     "id": 21120,
     "title": [
@@ -14,12 +13,21 @@
     "location": "Mist Harbor",
     "wayto": {
       "20927": "go tree",
-      "21121": "/rooms/21120/wayto/stringproc-21121.rb"
+      "21121": ";e pause 0.2;fput 'search';waitrt;fput 'go passage'"
     },
     "timeto": {
       "20927": 0.2,
       "21121": 3
     },
+    "tags": [
+      "blackened moss",
+      "bolmara lichen",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "murdroot",
+      "wingstem root"
+    ],
     "uid": [
       3214101
     ]

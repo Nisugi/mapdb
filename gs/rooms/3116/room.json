@@ -1,5 +1,4 @@
 {
-  "checksum": "0cda298222349e3cb76191962ba9f112",
   "room": {
     "id": 3116,
     "title": [
@@ -21,20 +20,21 @@
     "timeto": {
       "3107": 0.2
     },
-    "tags": [
-      "wraith",
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      4124032
-    ],
     "image": "imt-south_gate-1647231707.png",
     "image_coords": [
       731,
       389,
       741,
       399
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells",
+      "wraith"
+    ],
+    "uid": [
+      4124032
     ]
   }
 }

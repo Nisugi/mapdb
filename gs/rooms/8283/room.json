@@ -1,5 +1,4 @@
 {
-  "checksum": "f2d357edead3fb185404143a55bbf1c8",
   "room": {
     "id": 8283,
     "title": [
@@ -22,6 +21,13 @@
       "8282": 0.2,
       "8284": 0.2
     },
+    "image": "wl-spider_temple-1264234799.png",
+    "image_coords": [
+      989,
+      1388,
+      999,
+      1398
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -61,7 +67,7 @@
       "leek",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "monkey grass",
       "motherwort",
       "murdroot",
@@ -84,6 +90,7 @@
       "rose-marrow root",
       "round grumbleberry",
       "round yuzu",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small apple",
@@ -110,6 +117,7 @@
       "sun-wilted tea leaves",
       "sunburst blossom",
       "sweet onion",
+      "thistle seeds",
       "tobacco leaves",
       "traesharm berry",
       "trollfear mushroom",
@@ -136,13 +144,6 @@
     ],
     "uid": [
       12003
-    ],
-    "image": "wl-spider_temple-1264234799.png",
-    "image_coords": [
-      989,
-      1388,
-      999,
-      1398
     ]
   }
 }

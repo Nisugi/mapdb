@@ -1,5 +1,4 @@
 {
-  "checksum": "b40fd082cda8ea7e278006dd664f6513",
   "room": {
     "id": 4029,
     "title": [
@@ -13,8 +12,8 @@
     ],
     "location": "Ta'Illistim",
     "wayto": {
-      "4027": "/rooms/4029/wayto/stringproc-4027.rb",
-      "4030": "/rooms/4029/wayto/stringproc-4030.rb"
+      "4027": ";e begin\nmove 'north'\nend until Room.current.id == 4027",
+      "4030": ";e begin\nmove 'south'\nend until Room.current.id == 4030"
     },
     "timeto": {
       "4027": 0.2,

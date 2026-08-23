@@ -1,5 +1,4 @@
 {
-  "checksum": "f495df9b9e9359e81c56af3a61df84d4",
   "room": {
     "id": 675,
     "title": [
@@ -22,8 +21,16 @@
       "674": 0.2,
       "676": 0.2
     },
+    "image": "en-sylvarraend-1264234799.png",
+    "image_coords": [
+      597,
+      867,
+      633,
+      903
+    ],
     "tags": [
       "angelica root",
+      "arbutus berry",
       "black peppercorn",
       "blaestonberries",
       "blaestonberry blossom",
@@ -37,6 +44,7 @@
       "cardamom",
       "chives",
       "creamy white wisteria",
+      "crystal-like sylthiel",
       "cumin seeds",
       "curly leaf parsley",
       "daggerstalk mushroom",
@@ -46,11 +54,13 @@
       "ear of corn",
       "fennel bulb",
       "fig",
+      "fire lily",
       "flat-leaf parsley",
       "flathead mushroom",
       "fresh broccoli",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green beans",
       "green cabbage",
@@ -70,8 +80,10 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "mustard seeds",
+      "nightbloom blossom",
       "nutmeg",
       "onion skin",
       "orange begonia",
@@ -98,6 +110,7 @@
       "rhubarb",
       "rose-marrow root",
       "round red radish",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small anemone",
@@ -132,11 +145,14 @@
       "sunflower seeds",
       "sweet onion",
       "tendril of vinca",
+      "thistle seeds",
       "thyme",
       "tiger lily",
+      "trollear mushroom",
       "vanilla bean",
       "vert globe artichoke",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "white begonia",
       "white datura blossom",
@@ -146,8 +162,10 @@
       "white peony",
       "white ramie",
       "wild pansy blossom",
+      "wild rice",
       "wild spinach",
       "withered mushroom",
+      "yellow carrot",
       "yellow datura blossom",
       "yellow squash",
       "yew twig",
@@ -155,13 +173,6 @@
     ],
     "uid": [
       13050003
-    ],
-    "image": "en-sylvarraend-1264234799.png",
-    "image_coords": [
-      597,
-      867,
-      633,
-      903
     ]
   }
 }

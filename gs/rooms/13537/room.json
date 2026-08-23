@@ -1,5 +1,4 @@
 {
-  "checksum": "f3b45f9baf54774ad24701a582d38c8d",
   "room": {
     "id": 13537,
     "title": [
@@ -18,18 +17,20 @@
     "timeto": {
       "10761": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      287101
-    ],
     "image": "en-vaalor-bard-guild.png",
     "image_coords": [
       111,
       360,
       127,
       378
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      287101
     ]
   }
 }

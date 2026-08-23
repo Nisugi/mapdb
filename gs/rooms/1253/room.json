@@ -1,5 +1,4 @@
 {
-  "checksum": "faad4aae7ba451295ae9334c4ce9ee41",
   "room": {
     "id": 1253,
     "title": [
@@ -28,6 +27,13 @@
       "4069": 0.2,
       "4072": 0.2
     },
+    "image": "wl-dyers_tent-1487674019.png",
+    "image_coords": [
+      1397,
+      847,
+      1539,
+      912
+    ],
     "tags": [
       "bur-clover root",
       "cave moss",
@@ -36,6 +42,7 @@
       "hot pepper",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "pepperthorn root",
       "pothinir grass",
@@ -45,13 +52,6 @@
     ],
     "uid": [
       34103
-    ],
-    "image": "wl-dyers_tent-1487674019.png",
-    "image_coords": [
-      1397,
-      847,
-      1539,
-      912
     ]
   }
 }

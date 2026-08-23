@@ -1,5 +1,4 @@
 {
-  "checksum": "f531c052db450e6eeaa5e92977bd3e9d",
   "room": {
     "id": 23178,
     "title": [
@@ -20,9 +19,14 @@
       "8898": 0.2,
       "23181": 0.2
     },
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "check_location": false,
     "uid": [
       4031900
-    ],
-    "check_location": false
+    ]
   }
 }

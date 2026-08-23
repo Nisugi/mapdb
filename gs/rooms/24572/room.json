@@ -1,5 +1,4 @@
 {
-  "checksum": "7e897fe8bd2b5c969ee7c5de702e9fca",
   "room": {
     "id": 24572,
     "title": [
@@ -13,22 +12,22 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "7486": "/rooms/24572/wayto/stringproc-7486.rb",
-      "7487": "/rooms/24572/wayto/stringproc-7487.rb"
+      "7486": ";e waitrt?; 8.times { if standing?; break; else; fput 'stand'; sleep 0.2; waitrt?; end }; move 'down'; sleep 0.2; waitrt?; 8.times { if standing?; break; else; fput 'stand'; sleep 0.2; waitrt?; end }; waitrt?",
+      "7487": ";e waitrt?; 8.times { if standing?; break; else; fput 'stand'; sleep 0.2; waitrt?; end }; move 'up'; sleep 0.2; waitrt?; 8.times { if standing?; break; else; fput 'stand'; sleep 0.2; waitrt?; end }; waitrt?"
     },
     "timeto": {
-      "7486": "/rooms/24572/timeto/stringproc-7486.rb",
-      "7487": "/rooms/24572/timeto/stringproc-7487.rb"
+      "7486": ";e if Spell['Haste'].active?; (15 * [((80 - ([Spells.majorelemental,Stats.level].min/5) - (Skills.elair/5)) / 100.0), 0.4].max).floor + 0.2; else; 15.2; end",
+      "7487": ";e if Spell['Haste'].active?; (15 * [((80 - ([Spells.majorelemental,Stats.level].min/5) - (Skills.elair/5)) / 100.0), 0.4].max).floor + 0.2; else; 15.2; end"
     },
-    "uid": [
-      94029
-    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       1000,
       677,
       1011,
       687
+    ],
+    "uid": [
+      94029
     ]
   }
 }

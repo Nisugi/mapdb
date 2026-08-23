@@ -1,5 +1,4 @@
 {
-  "checksum": "f67f39cc8f0f2ada8fabdac13e86b69f",
   "room": {
     "id": 14830,
     "title": [
@@ -18,18 +17,20 @@
     "timeto": {
       "14829": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      34332
-    ],
     "image": "ti-dyers_tent-1512163219.png",
     "image_coords": [
       1256,
       868,
       1405,
       948
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      34332
     ]
   }
 }

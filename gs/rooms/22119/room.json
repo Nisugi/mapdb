@@ -1,5 +1,4 @@
 {
-  "checksum": "cc1432931ce87e0bbdc8a64da41f1a27",
   "room": {
     "id": 22119,
     "title": [
@@ -15,9 +14,9 @@
     "wayto": {
       "22118": "go sliding doors",
       "30953": "go linden door",
-      "30956": "/rooms/22119/wayto/stringproc-30956.rb",
-      "30957": "/rooms/22119/wayto/stringproc-30957.rb",
-      "30958": "/rooms/22119/wayto/stringproc-30958.rb"
+      "30956": ";e table = \"Forsythia\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "30957": ";e table = \"Thistle\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "30958": ";e table = \"Windflower\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"
     },
     "timeto": {
       "22118": 0.2,
@@ -26,18 +25,18 @@
       "30957": 0.2,
       "30958": 0.2
     },
-    "tags": [
-      "meta:che:Cairnfang Manor"
-    ],
-    "uid": [
-      106016
-    ],
     "image": "vo-cairnfang_manor-1657584717.png",
     "image_coords": [
       239,
       246,
       250,
       259
+    ],
+    "tags": [
+      "meta:che:Cairnfang Manor"
+    ],
+    "uid": [
+      106016
     ]
   }
 }

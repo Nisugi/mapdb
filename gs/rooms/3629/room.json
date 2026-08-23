@@ -1,5 +1,4 @@
 {
-  "checksum": "d65957120602bf520e722f69e56de7e9",
   "room": {
     "id": 3629,
     "title": [
@@ -20,22 +19,23 @@
     "timeto": {
       "3600": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09",
-      "meta:forage-sensed:night:2023-01",
-      "meta:nomagic"
-    ],
-    "uid": [
-      312037
-    ],
     "image": "wl-gates-1264234799.png",
     "image_coords": [
       1160,
       67,
       1170,
       77
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2023-01",
+      "meta:nomagic",
+      "meta:splashy",
+      "no forageables"
+    ],
+    "uid": [
+      312037
     ]
   }
 }

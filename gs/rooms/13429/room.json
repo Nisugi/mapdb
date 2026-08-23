@@ -1,5 +1,4 @@
 {
-  "checksum": "3739a7160b3d3b3a8e3b6c428a27ad28",
   "room": {
     "id": 13429,
     "title": [
@@ -16,10 +15,10 @@
     "climate": "temperate",
     "terrain": "",
     "wayto": {
-      "13404": "/rooms/13429/wayto/stringproc-13404.rb"
+      "13404": ";e while Room.current.id == 13429; fput 'row south'; waitrt?; end"
     },
     "timeto": {
-      "13404": 10
+      "13404": 10.0
     },
     "tags": [
       "meta:forage-sensed",

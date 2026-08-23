@@ -1,5 +1,4 @@
 {
-  "checksum": "42a8dceaf136b12ad91e019dcf290a76",
   "room": {
     "id": 20708,
     "title": [
@@ -24,18 +23,21 @@
       "20710": 0.2,
       "20711": 0.2
     },
-    "tags": [
-      "meta:premium"
-    ],
-    "uid": [
-      4002608
-    ],
     "image": "premium_halls-1489980086.png",
     "image_coords": [
       376,
       847,
       500,
       900
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:premium"
+    ],
+    "uid": [
+      4002608
     ]
   }
 }

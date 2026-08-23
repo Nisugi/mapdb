@@ -1,5 +1,4 @@
 {
-  "checksum": "f81e8662629b279879de7fc026957411",
   "room": {
     "id": 28591,
     "title": [
@@ -19,11 +18,14 @@
       "20704": 0.2
     },
     "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "meta:premium"
     ],
+    "check_location": true,
     "uid": [
       4002712
-    ],
-    "check_location": true
+    ]
   }
 }

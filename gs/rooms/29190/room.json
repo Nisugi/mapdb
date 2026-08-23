@@ -1,5 +1,4 @@
 {
-  "checksum": "3e8c429c8a0523891adcd1943741ebbf",
   "room": {
     "id": 29190,
     "title": [
@@ -30,6 +29,13 @@
       "29198": 0.2,
       "29199": 0.2
     },
+    "image": "kf-krakens_fall-1648278406.png",
+    "image_coords": [
+      744,
+      703,
+      755,
+      713
+    ],
     "tags": [
       "banana leaf",
       "blackened moss",
@@ -54,6 +60,7 @@
       "Imaera's Lace",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "phoenix palm frond",
       "pink clover blossom",
@@ -85,13 +92,6 @@
     ],
     "uid": [
       7127004
-    ],
-    "image": "kf-krakens_fall-1648278406.png",
-    "image_coords": [
-      744,
-      703,
-      755,
-      713
     ]
   }
 }

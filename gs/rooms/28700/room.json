@@ -1,5 +1,4 @@
 {
-  "checksum": "594808b60355c1d1a573e0ac81cf9235",
   "room": {
     "id": 28700,
     "title": [
@@ -22,20 +21,21 @@
       "28699": 0.2,
       "29559": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      336787
-    ],
     "image": "wl-burrow_way-1616121316.png",
     "image_coords": [
       507,
       292,
       544,
       328
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      336787
     ]
   }
 }

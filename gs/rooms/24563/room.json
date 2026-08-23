@@ -1,5 +1,4 @@
 {
-  "checksum": "6bca1a7c80decf6c8d12804e976a4dcd",
   "room": {
     "id": 24563,
     "title": [
@@ -18,20 +17,21 @@
     "timeto": {
       "24562": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      18002010
-    ],
     "image": "wl-black_wolves_manor.png",
     "image_coords": [
       579,
       564,
       606,
       592
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      18002010
     ]
   }
 }

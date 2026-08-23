@@ -1,5 +1,4 @@
 {
-  "checksum": "383c2e0634b98ee3085336ebf35caea6",
   "room": {
     "id": 13538,
     "title": [
@@ -28,8 +27,16 @@
       "13724": 0.2,
       "13726": 0.2
     },
+    "image": "en-vaalor-bard-guild.png",
+    "image_coords": [
+      190,
+      522,
+      210,
+      540
+    ],
     "tags": [
       "angelica root",
+      "arbutus berry",
       "bay leaf",
       "black peppercorn",
       "blaestonberries",
@@ -43,6 +50,7 @@
       "cardamom",
       "cherry peppers",
       "chives",
+      "crystal-like sylthiel",
       "cumin seeds",
       "curly garlic scapes",
       "curly leaf parsley",
@@ -51,6 +59,7 @@
       "dill",
       "ear of corn",
       "fennel bulb",
+      "fire lily",
       "flat-leaf parsley",
       "flathead mushroom",
       "fresh basil",
@@ -59,11 +68,13 @@
       "fresh cilantro",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green beans",
       "green cabbage",
       "green olive",
       "green pepper",
+      "green soybean pod",
       "haphip root",
       "heath aster",
       "honeysuckle vine",
@@ -80,8 +91,10 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "mustard seeds",
+      "nightbloom blossom",
       "nutmeg",
       "onion skin",
       "orange begonia",
@@ -105,6 +118,7 @@
       "red pepper",
       "rose-marrow root",
       "round red radish",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small anemone",
@@ -141,12 +155,15 @@
       "sunflower seeds",
       "sweet onion",
       "tendril of vinca",
+      "thistle seeds",
       "thyme",
       "tiger lily",
       "tobacco leaves",
+      "trollear mushroom",
       "vanilla bean",
       "vert globe artichoke",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "white begonia",
       "white hydrangea",
@@ -154,7 +171,9 @@
       "white peony",
       "white ramie",
       "wild pansy blossom",
+      "wild rice",
       "withered mushroom",
+      "yellow carrot",
       "yellow lemon",
       "yellow pepper",
       "yellow squash",
@@ -163,13 +182,6 @@
     ],
     "uid": [
       287012
-    ],
-    "image": "en-vaalor-bard-guild.png",
-    "image_coords": [
-      190,
-      522,
-      210,
-      540
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "acb64410df834f17e75a1a55affc145a",
   "room": {
     "id": 1888,
     "title": [
@@ -15,17 +14,19 @@
     "wayto": {
       "1884": "go door",
       "1889": "east",
-      "30715": "/rooms/1888/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1884": 0.2,
       "1889": 0.2,
-      "30715": "/rooms/1888/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "armor",
       "armorshop",
-      "no forageables",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "urchin guide armor",
       "urchin-access"
     ],

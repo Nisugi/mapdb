@@ -1,5 +1,4 @@
 {
-  "checksum": "0cb53ea21b1584bab578d976843cc106",
   "room": {
     "id": 16174,
     "title": [
@@ -23,6 +22,13 @@
       "16180": 0.2,
       "17648": 0.2
     },
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      598,
+      132,
+      638,
+      170
+    ],
     "tags": [
       "blueberries",
       "branch of acacia",
@@ -39,6 +45,7 @@
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "mistweed",
       "murkweed",
       "pepperthorn root",
@@ -64,13 +71,6 @@
     ],
     "uid": [
       5009030
-    ],
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      598,
-      132,
-      638,
-      170
     ]
   }
 }

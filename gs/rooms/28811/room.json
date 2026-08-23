@@ -1,5 +1,4 @@
 {
-  "checksum": "6216c0e2b54baf80c919837f42248b9c",
   "room": {
     "id": 28811,
     "title": [
@@ -20,6 +19,13 @@
       "2981": 0.2,
       "28810": 0.2
     },
+    "image": "imt-Abbey_Map-1652211219.png",
+    "image_coords": [
+      1504,
+      757,
+      1558,
+      807
+    ],
     "tags": [
       "black mushroom",
       "blue trafel mushroom",
@@ -27,6 +33,7 @@
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "red mushroom",
       "soft mushroom",
@@ -36,13 +43,6 @@
     ],
     "uid": [
       4132119
-    ],
-    "image": "imt-Abbey_Map-1652211219.png",
-    "image_coords": [
-      1504,
-      757,
-      1558,
-      807
     ]
   }
 }

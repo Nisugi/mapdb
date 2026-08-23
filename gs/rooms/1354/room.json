@@ -1,5 +1,4 @@
 {
-  "checksum": "72c9275e24a5efd89341a44488ef1d08",
   "room": {
     "id": 1354,
     "title": [
@@ -22,20 +21,21 @@
       "1353": 0.2,
       "1355": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      4748028
-    ],
     "image": "vo-trail-1264234799.png",
     "image_coords": [
       468,
       819,
       478,
       829
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      4748028
     ]
   }
 }

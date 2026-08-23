@@ -1,5 +1,4 @@
 {
-  "checksum": "38aa1ac511bf064582890917e2e714f2",
   "room": {
     "id": 27018,
     "title": [
@@ -20,18 +19,21 @@
       "27017": 0.2,
       "27019": 0.2
     },
-    "tags": [
-      "private property"
-    ],
-    "uid": [
-      1303104
-    ],
     "image": "imt-keep-aenatumgana.png",
     "image_coords": [
       551,
       487,
       705,
       580
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "private property",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      1303104
     ]
   }
 }

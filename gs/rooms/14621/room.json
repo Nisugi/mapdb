@@ -1,5 +1,4 @@
 {
-  "checksum": "6ea5352d21a37b5437be66f8c7d4e264",
   "room": {
     "id": 14621,
     "title": [
@@ -22,20 +21,21 @@
       "8773": 0.2,
       "15545": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      217003
-    ],
     "image": "wl-rone_academy-1619899949.png",
     "image_coords": [
       786,
       320,
       810,
       344
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:forage-sensed:night:2023-01",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      217003
     ]
   }
 }

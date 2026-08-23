@@ -1,5 +1,4 @@
 {
-  "checksum": "4118eb860bdc095eed6993dee5edd052",
   "room": {
     "id": 29053,
     "title": [
@@ -22,6 +21,13 @@
       "29051": 0.2,
       "29054": 0.2
     },
+    "image": "kf-widowmakers_road-1668643957.png",
+    "image_coords": [
+      330,
+      251,
+      343,
+      263
+    ],
     "tags": [
       "banana leaf",
       "bearberries",
@@ -44,6 +50,7 @@
       "juniper berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "pepperthorn root",
       "phoenix palm frond",
@@ -71,13 +78,6 @@
     ],
     "uid": [
       7119114
-    ],
-    "image": "kf-widowmakers_road-1668643957.png",
-    "image_coords": [
-      330,
-      251,
-      343,
-      263
     ]
   }
 }

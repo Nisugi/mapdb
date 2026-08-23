@@ -1,5 +1,4 @@
 {
-  "checksum": "4c3662d4a803a53c9e92527d2827a604",
   "room": {
     "id": 7729,
     "title": [
@@ -23,6 +22,13 @@
       "7727": 0.2,
       "7728": 0.2
     },
+    "image": "wl-coastal_cliffs-1264234799.png",
+    "image_coords": [
+      244,
+      1308,
+      254,
+      1318
+    ],
     "tags": [
       "blue trafel mushroom",
       "bolmara lichen",
@@ -32,6 +38,7 @@
       "genkew mushroom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "soft mushroom",
       "wingstem root",
@@ -39,13 +46,6 @@
     ],
     "uid": [
       2163625
-    ],
-    "image": "wl-coastal_cliffs-1264234799.png",
-    "image_coords": [
-      244,
-      1308,
-      254,
-      1318
     ]
   }
 }

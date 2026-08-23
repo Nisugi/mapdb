@@ -1,5 +1,4 @@
 {
-  "checksum": "7c6c8f9ac8a6835bc4f0afe6cd57c5ec",
   "room": {
     "id": 3809,
     "title": [
@@ -17,14 +16,14 @@
       "8858": "north",
       "8859": "west",
       "8861": "go entrance",
-      "30708": "/rooms/3809/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "271": 0.2,
       "8858": 0.2,
       "8859": 0.2,
       "8861": 0.2,
-      "30708": "/rooms/3809/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "advguard2",

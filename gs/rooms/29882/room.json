@@ -1,5 +1,4 @@
 {
-  "checksum": "aa691903164b5571a16f8866b444e4bd",
   "room": {
     "id": 29882,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "snowy, arctic",
     "terrain": "coniferous",
     "wayto": {
-      "29878": "/rooms/29882/wayto/stringproc-29878.rb",
+      "29878": ";e fput 'search';waitrt?;move 'go path'",
       "29883": "southeast",
       "29884": "east"
     },
@@ -24,6 +23,13 @@
       "29883": 0.2,
       "29884": 0.2
     },
+    "image": "imt-Hinterwilds-1651886165.jpg",
+    "image_coords": [
+      681,
+      1107,
+      696,
+      1121
+    ],
     "tags": [
       "angelica root",
       "black acorn",
@@ -42,7 +48,7 @@
       "manroot stalk",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2023-01",
+      "meta:forage-sensed:night:2026-08",
       "orange rowanberry",
       "pennyroyal stem",
       "pine cone",
@@ -63,13 +69,6 @@
     ],
     "uid": [
       7503102
-    ],
-    "image": "imt-Hinterwilds-1651886165.jpg",
-    "image_coords": [
-      681,
-      1107,
-      696,
-      1121
     ]
   }
 }

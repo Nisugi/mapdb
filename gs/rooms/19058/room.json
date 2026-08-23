@@ -1,5 +1,4 @@
 {
-  "checksum": "3ccb58b384c257bfe429e58449251a89",
   "room": {
     "id": 19058,
     "title": [
@@ -19,7 +18,7 @@
       "19061": "go shrouds",
       "19062": "south",
       "19068": "north",
-      "19075": "/rooms/19058/wayto/stringproc-19075.rb"
+      "19075": ";e empty_hands;fput \"stance offensive\";move \"climb rope ladder\""
     },
     "timeto": {
       "19054": 0.2,
@@ -28,7 +27,7 @@
       "19061": 0.2,
       "19062": 0.2,
       "19068": 0.2,
-      "19075": 2
+      "19075": 2.0
     },
     "image": "fest-spitfire-1302895531.jpg",
     "image_coords": [

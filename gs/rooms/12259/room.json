@@ -1,5 +1,4 @@
 {
-  "checksum": "33a2bdd964382060556a26275f14d3b0",
   "room": {
     "id": 12259,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "11906": "/rooms/12259/wayto/stringproc-11906.rb"
+      "11906": ";e move 'crawl opening'; fput 'stand'; waitrt?"
     },
     "timeto": {
       "11906": 0.4

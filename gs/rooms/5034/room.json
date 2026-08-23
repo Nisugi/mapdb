@@ -1,5 +1,4 @@
 {
-  "checksum": "97c51a469dfce3c4838c9cdcab66948d",
   "room": {
     "id": 5034,
     "title": [
@@ -23,10 +22,18 @@
       "5033": 0.2,
       "5035": 0.2
     },
+    "image": "en-sylvarraend-1264234799.png",
+    "image_coords": [
+      997,
+      575,
+      1007,
+      585
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
       "angelica root",
+      "arbutus berry",
       "barley grass",
       "birch bark",
       "blaestonberries",
@@ -38,6 +45,7 @@
       "brown potato",
       "chives",
       "crimson dragonstalk",
+      "crystal-like sylthiel",
       "curly leaf parsley",
       "daggerstalk mushroom",
       "dwarf bilberry",
@@ -52,6 +60,7 @@
       "fresh lemongrass",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden aster",
       "golden buttercup",
       "green cabbage",
@@ -66,7 +75,7 @@
       "leek",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
       "motherwort",
       "murdroot",
@@ -86,6 +95,7 @@
       "rhubarb",
       "rose-marrow root",
       "rye grass",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small apple",
@@ -113,8 +123,10 @@
       "sunburst blossom",
       "sweet onion",
       "thin hemp",
+      "thistle seeds",
       "trollfear mushroom",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "wheat grass",
       "white clover blossom",
@@ -139,13 +151,6 @@
     ],
     "uid": [
       13034209
-    ],
-    "image": "en-sylvarraend-1264234799.png",
-    "image_coords": [
-      997,
-      575,
-      1007,
-      585
     ]
   }
 }

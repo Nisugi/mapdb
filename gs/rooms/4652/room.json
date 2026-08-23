@@ -1,5 +1,4 @@
 {
-  "checksum": "3184cdb5d04fccc3260fc11f832c2c78",
   "room": {
     "id": 4652,
     "title": [
@@ -18,13 +17,20 @@
     "wayto": {
       "4650": "go bridge",
       "9688": "southeast",
-      "30717": "/rooms/4652/wayto/stringproc-30717.rb"
+      "30717": ";e true"
     },
     "timeto": {
       "4650": 0.2,
       "9688": 0.2,
-      "30717": "/rooms/4652/timeto/stringproc-30717.rb"
+      "30717": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "en-cysaegir-1679641246.png",
+    "image_coords": [
+      517,
+      809,
+      541,
+      833
+    ],
     "tags": [
       "angelica root",
       "ayana leaf",
@@ -40,6 +46,7 @@
       "calamia fruit",
       "cardamom",
       "chives",
+      "clove pink flower",
       "creamy white wisteria",
       "cumin seeds",
       "curly leaf parsley",
@@ -48,6 +55,7 @@
       "dark blue wisteria",
       "deep purple wisteria",
       "ear of corn",
+      "feather clover bloom",
       "fennel bulb",
       "fig",
       "fire lily",
@@ -61,6 +69,7 @@
       "green cabbage",
       "green olive",
       "haphip root",
+      "hawksbeard blossom",
       "heath aster",
       "honeysuckle vine",
       "hop flowers",
@@ -68,6 +77,7 @@
       "Imaera's Lace",
       "iris blossom",
       "juicy plum",
+      "lacy mountain hydrangea",
       "large sunflower",
       "large white gardenia",
       "leek",
@@ -75,7 +85,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2022-11",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "mustard seeds",
       "nightbloom blossom",
@@ -89,7 +99,9 @@
       "pink oleander",
       "pink peony",
       "pink peppercorn",
+      "pink redstem filaree",
       "plump black mulberries",
+      "purple bearded iris",
       "purple cabbage",
       "purple datura blossom",
       "purple hydrangea",
@@ -139,12 +151,13 @@
       "tendril of vinca",
       "thyme",
       "tiger lily",
-      "trollfear mushroom",
+      "trollear mushroom",
       "urchin guide garden",
       "urchin guide weddinghall",
       "urchin-access",
       "vanilla bean",
       "vert globe artichoke",
+      "vibrant yellow forsythia",
       "viburnum twig",
       "wavepetal blossom",
       "white begonia",
@@ -155,6 +168,7 @@
       "white peony",
       "white ramie",
       "wild pansy blossom",
+      "wild rice",
       "wild spinach",
       "withered mushroom",
       "yellow datura blossom",
@@ -164,13 +178,6 @@
     ],
     "uid": [
       14050017
-    ],
-    "image": "en-cysaegir-1679641246.png",
-    "image_coords": [
-      517,
-      809,
-      541,
-      833
     ]
   }
 }

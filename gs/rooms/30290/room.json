@@ -1,5 +1,4 @@
 {
-  "checksum": "dcdea5303701d945b6bf358b69a4dd7b",
   "room": {
     "id": 30290,
     "title": [
@@ -14,15 +13,17 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "12538": "go leather curtain",
-      "30715": "/rooms/30290/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "12538": 0.2,
-      "30715": "/rooms/30290/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "fire lily",
       "mail",
-      "no forageables",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "postoffice",
       "urchin guide postoffice",
       "urchin-access"

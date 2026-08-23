@@ -1,5 +1,4 @@
 {
-  "checksum": "a014441336065d6a5e1ed258cbd0365f",
   "room": {
     "id": 6736,
     "title": [
@@ -22,19 +21,20 @@
       "6734": 0.2,
       "6737": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4121019
-    ],
     "image": "wl-gates-1264234799.png",
     "image_coords": [
       362,
       958,
       372,
       968
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      4121019
     ]
   }
 }

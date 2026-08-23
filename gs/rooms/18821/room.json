@@ -1,5 +1,4 @@
 {
-  "checksum": "18e77ca683852de9f1bb874cb9d775dc",
   "room": {
     "id": 18821,
     "title": [
@@ -21,10 +20,17 @@
       "18824": "north"
     },
     "timeto": {
-      "14059": 10,
-      "18822": 10,
-      "18824": 10
+      "14059": 10.0,
+      "18822": 10.0,
+      "18824": 10.0
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1198,
+      325,
+      1228,
+      353
+    ],
     "tags": [
       "black peppercorn",
       "blades of cordgrass",
@@ -42,7 +48,7 @@
       "golden mushroom",
       "haphip root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "mistweed",
       "murdroot",
@@ -72,13 +78,6 @@
     ],
     "uid": [
       14202002
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1198,
-      325,
-      1228,
-      353
     ]
   }
 }

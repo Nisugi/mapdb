@@ -1,5 +1,4 @@
 {
-  "checksum": "9028066573b0266edbc1b938f29071ee",
   "room": {
     "id": 14730,
     "title": [
@@ -20,20 +19,23 @@
       "1936": 0.2,
       "27906": 0.2
     },
-    "tags": [
-      "pauperslockers",
-      "meta:locker annex:House of Paupers",
-      "meta:che:paupers:entrance_annex"
-    ],
-    "uid": [
-      3003038
-    ],
     "image": "ti-adventurers_rest-1486448911.png",
     "image_coords": [
       853,
       842,
       999,
       908
+    ],
+    "tags": [
+      "fire lily",
+      "meta:che:paupers:entrance_annex",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:locker annex:House of Paupers",
+      "pauperslockers"
+    ],
+    "uid": [
+      3003038
     ]
   }
 }

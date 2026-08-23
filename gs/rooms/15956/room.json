@@ -1,5 +1,4 @@
 {
-  "checksum": "a8ce7a8ff4ba02dfcf62c619991dc944",
   "room": {
     "id": 15956,
     "title": [
@@ -18,18 +17,19 @@
     "timeto": {
       "7991": 0.2
     },
-    "tags": [
-      "meta:che:House of Paupers"
-    ],
-    "uid": [
-      104100
-    ],
     "image": "wl-house_paupers.jpg",
     "image_coords": [
       594,
       124,
       673,
       176
+    ],
+    "tags": [
+      "meta:che:House of Paupers",
+      "meta:splashy"
+    ],
+    "uid": [
+      104100
     ]
   }
 }

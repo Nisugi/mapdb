@@ -1,5 +1,4 @@
 {
-  "checksum": "652de77ffe2a612e106cda4ded9ce8a9",
   "room": {
     "id": 19929,
     "title": [
@@ -25,24 +24,26 @@
       "19936": 0.2,
       "25970": 0.2
     },
-    "tags": [
-      "meta:mapname:Wehnimer's Landing - Stone Baths",
-      "meta:mapshortname:Stone Baths",
-      "meta:mapcategory:Wehnimer's Landing",
-      "meta:teleport:fwi",
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      336001
-    ],
     "image": "wl-stone_baths-1487292814.png",
     "image_coords": [
       697,
       858,
       836,
       917
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2026-08",
+      "meta:mapcategory:Wehnimer's Landing",
+      "meta:mapname:Wehnimer's Landing - Stone Baths",
+      "meta:mapshortname:Stone Baths",
+      "meta:teleport:fwi",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      336001
     ]
   }
 }

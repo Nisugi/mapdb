@@ -1,5 +1,4 @@
 {
-  "checksum": "e556808167eb87d7a74e3622f465bad9",
   "room": {
     "id": 10124,
     "title": [
@@ -23,20 +22,23 @@
       "10123": 0.2,
       "10125": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:nomagic"
-    ],
-    "uid": [
-      14116001
-    ],
     "image": "en-fearling-1632908688.png",
     "image_coords": [
       719,
       260,
       729,
       270
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:nomagic",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      14116001
     ]
   }
 }

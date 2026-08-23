@@ -1,5 +1,4 @@
 {
-  "checksum": "c79c2aedc28e150eae4e851618069ea9",
   "room": {
     "id": 11566,
     "title": [
@@ -23,19 +22,21 @@
       "11568": 0.2,
       "11569": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      420534
-    ],
     "image": "rr-maelstrom-1619824696.png",
     "image_coords": [
       167,
       1288,
       177,
       1298
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      420534
     ]
   }
 }

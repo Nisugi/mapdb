@@ -1,5 +1,4 @@
 {
-  "checksum": "b24e087903b57d1681ece796c3b693cb",
   "room": {
     "id": 3455,
     "title": [
@@ -14,12 +13,19 @@
     "location": "Icemule Trace",
     "wayto": {
       "3454": "out",
-      "30709": "/rooms/3455/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "3454": 0.2,
-      "30709": "/rooms/3455/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      226,
+      1142,
+      262,
+      1178
+    ],
     "tags": [
       "armor",
       "armorshop",
@@ -32,13 +38,6 @@
     ],
     "uid": [
       4043851
-    ],
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      226,
-      1142,
-      262,
-      1178
     ]
   }
 }

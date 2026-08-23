@@ -1,5 +1,4 @@
 {
-  "checksum": "f5474e3f018a95b5477bc372eedf74e0",
   "room": {
     "id": 18822,
     "title": [
@@ -16,12 +15,19 @@
     "terrain": "riparian",
     "wayto": {
       "18821": "southwest",
-      "18823": "/rooms/18822/wayto/stringproc-18823.rb"
+      "18823": ";e empty_hand;fput('go river');move('go river')"
     },
     "timeto": {
       "18821": 0.2,
       "18823": 0.2
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1239,
+      286,
+      1267,
+      311
+    ],
     "tags": [
       "aloeas stem",
       "meta:forage-sensed",
@@ -38,13 +44,6 @@
     ],
     "uid": [
       14202001
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1239,
-      286,
-      1267,
-      311
     ]
   }
 }

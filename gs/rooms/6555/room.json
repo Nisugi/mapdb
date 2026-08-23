@@ -1,5 +1,4 @@
 {
-  "checksum": "990057bd601e5593cd205b4f8b11125c",
   "room": {
     "id": 6555,
     "title": [
@@ -22,19 +21,20 @@
       "6534": 0.2,
       "6556": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4285001
-    ],
     "image": "wl-lysierian-1264234799.png",
     "image_coords": [
       1240,
       939,
       1250,
       949
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      4285001
     ]
   }
 }

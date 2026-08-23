@@ -1,5 +1,4 @@
 {
-  "checksum": "606a24df87992c672d3938c91bcc3584",
   "room": {
     "id": 22363,
     "title": [
@@ -20,6 +19,13 @@
       "22362": 0.2,
       "22364": 0.2
     },
+    "image": "en-ta_illistim-embassies-1405076623.png",
+    "image_coords": [
+      120,
+      369,
+      184,
+      405
+    ],
     "tags": [
       "blue trafel mushroom",
       "bolmara lichen",
@@ -30,6 +36,7 @@
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "pepperthorn root",
       "soft mushroom",
@@ -38,13 +45,6 @@
     ],
     "uid": [
       13125008
-    ],
-    "image": "en-ta_illistim-embassies-1405076623.png",
-    "image_coords": [
-      120,
-      369,
-      184,
-      405
     ]
   }
 }

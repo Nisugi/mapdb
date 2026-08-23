@@ -1,5 +1,4 @@
 {
-  "checksum": "52b42c925b7c7b1522b0c5dcc548b50a",
   "room": {
     "id": 9256,
     "title": [
@@ -34,6 +33,13 @@
       "9253": 0.2,
       "9255": 0.2
     },
+    "image": "vo-trail-1264234799.png",
+    "image_coords": [
+      115,
+      357,
+      125,
+      367
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -68,6 +74,7 @@
       "golden buttercup",
       "grapefruit",
       "green cabbage",
+      "green soybean pod",
       "green tea leaves",
       "heath aster",
       "honeymoon melon",
@@ -83,6 +90,7 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "meta:mapcategory:Vornavis",
       "meta:mapcategory:Wehnimer's Landing",
       "meta:mapname:Trail to Vornavis",
@@ -125,12 +133,14 @@
       "stalk of goldenrod",
       "sun-wilted tea leaves",
       "sunburst blossom",
+      "sunny yellow sylara'wor",
       "sweet onion",
       "sweet potato",
       "tea leaves",
       "thin hemp",
+      "thistle seeds",
       "tobacco leaves",
-      "trollfear mushroom",
+      "trollear mushroom",
       "Vornavian orange",
       "wavepetal blossom",
       "white clover blossom",
@@ -151,13 +161,6 @@
     ],
     "uid": [
       4746003
-    ],
-    "image": "vo-trail-1264234799.png",
-    "image_coords": [
-      115,
-      357,
-      125,
-      367
     ]
   }
 }

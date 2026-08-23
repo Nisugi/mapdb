@@ -1,5 +1,4 @@
 {
-  "checksum": "b024ac515f4dc97660d052b112b1a873",
   "room": {
     "id": 29631,
     "title": [
@@ -26,25 +25,26 @@
       "30236": 0.2,
       "30237": 0.2
     },
-    "tags": [
-      "handler",
-      "meta:mapname:The Docks and Rusty Cutless - Wehnimer's Landing",
-      "meta:mapshortname:Docks and Rusty Cutlass",
-      "meta:mapcategory:Open Sea Adventures:Docks (WL)",
-      "meta:mapcategory:Wehnimer's Landing",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      7122101
-    ],
     "image": "wl-docks and tavern-1642366998.jpg",
     "image_coords": [
       242,
       190,
       272,
       220
+    ],
+    "tags": [
+      "fire lily",
+      "handler",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:mapcategory:Open Sea Adventures:Docks (WL)",
+      "meta:mapcategory:Wehnimer's Landing",
+      "meta:mapname:The Docks and Rusty Cutless - Wehnimer's Landing",
+      "meta:mapshortname:Docks and Rusty Cutlass",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      7122101
     ]
   }
 }

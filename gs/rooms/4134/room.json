@@ -1,5 +1,4 @@
 {
-  "checksum": "f0a01e58b9c57ad2215c7832a2df513a",
   "room": {
     "id": 4134,
     "title": [
@@ -24,6 +23,13 @@
       "4135": 0.2,
       "14971": 0.2
     },
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      218,
+      1089,
+      254,
+      1125
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -65,7 +71,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2022-11",
+      "meta:forage-sensed:night:2026-08",
       "monkey grass",
       "motherwort",
       "murdroot",
@@ -88,6 +94,7 @@
       "rose-marrow root",
       "round grumbleberry",
       "round yuzu",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small apple",
@@ -114,9 +121,10 @@
       "sun-wilted tea leaves",
       "sunburst blossom",
       "sweet onion",
+      "thistle seeds",
       "tobacco leaves",
       "traesharm berry",
-      "trollfear mushroom",
+      "trollear mushroom",
       "wavepetal blossom",
       "wheat grass",
       "white clover blossom",
@@ -140,13 +148,6 @@
     ],
     "uid": [
       9050
-    ],
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      218,
-      1089,
-      254,
-      1125
     ]
   }
 }

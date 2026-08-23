@@ -1,5 +1,4 @@
 {
-  "checksum": "756d392bc425e6a61cbf70e76fe27f10",
   "room": {
     "id": 32607,
     "title": [
@@ -26,19 +25,21 @@
       "32608": 0.2,
       "32613": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      336416
-    ],
     "image": "wl-bazaar-1671674653.png",
     "image_coords": [
       565,
       286,
       615,
       337
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      336416
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "b39ea8dc653252cc9844e728672f997a",
   "room": {
     "id": 25306,
     "title": [
@@ -14,11 +13,11 @@
     "location": "Mist Harbor",
     "wayto": {
       "3638": "out",
-      "30718": "/rooms/25306/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "3638": 0.2,
-      "30718": "/rooms/25306/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "urchin guide weapons",

@@ -1,5 +1,4 @@
 {
-  "checksum": "73a06f8abf000a66cc3471db166719ad",
   "room": {
     "id": 22107,
     "title": [
@@ -29,6 +28,13 @@
       "22110": 0.2,
       "22112": 0.2
     },
+    "image": "vo-cairnfang_manor-1657584717.png",
+    "image_coords": [
+      179,
+      435,
+      190,
+      446
+    ],
     "tags": [
       "angelica root",
       "bay leaf",
@@ -73,6 +79,7 @@
       "green cabbage",
       "green olive",
       "green pepper",
+      "green soybean pod",
       "green tea leaves",
       "haphip root",
       "heath aster",
@@ -87,7 +94,7 @@
       "luckbloom blossom",
       "mate leaves",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2023-01",
       "mezereon bark",
       "motherwort",
@@ -146,6 +153,7 @@
       "sweet potato",
       "tea leaves",
       "tendril of vinca",
+      "thistle seeds",
       "tiger lily",
       "tobacco leaves",
       "trollfear mushroom",
@@ -168,13 +176,6 @@
     ],
     "uid": [
       106002
-    ],
-    "image": "vo-cairnfang_manor-1657584717.png",
-    "image_coords": [
-      179,
-      435,
-      190,
-      446
     ]
   }
 }

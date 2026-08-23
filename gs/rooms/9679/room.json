@@ -1,5 +1,4 @@
 {
-  "checksum": "56b6370d9be9a2a8c461fb8f721349bb",
   "room": {
     "id": 9679,
     "title": [
@@ -20,13 +19,15 @@
     "timeto": {
       "9678": 0.2,
       "9680": 0.2,
-      "32755": 240
+      "32755": 240.0
     },
     "tags": [
-      "publiclockers",
       "cysaegir public locker",
-      "no forageables",
-      "public locker"
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "public locker",
+      "publiclockers"
     ],
     "uid": [
       14053181

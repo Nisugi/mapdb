@@ -1,5 +1,4 @@
 {
-  "checksum": "bd4f5b6e9f1b6223721a8c504c53952c",
   "room": {
     "id": 29096,
     "title": [
@@ -14,11 +13,11 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28871": "out",
-      "30716": "/rooms/29096/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28871": 0.2,
-      "30716": "/rooms/29096/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "armor",

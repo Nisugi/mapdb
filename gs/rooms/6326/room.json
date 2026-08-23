@@ -1,5 +1,4 @@
 {
-  "checksum": "cc34191e093976d1f44443670d089587",
   "room": {
     "id": 6326,
     "title": [
@@ -23,6 +22,13 @@
       "450": 0.2,
       "6327": 0.2
     },
+    "image": "wl-wizard_guild.jpg",
+    "image_coords": [
+      711,
+      651,
+      721,
+      661
+    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -33,6 +39,7 @@
       "marallis berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "meta:mapcategory:Guilds",
       "meta:mapcategory:Wehnimer's Landing",
       "meta:mapname:Wehnimer's Landing - Wizard Guild",
@@ -49,13 +56,6 @@
     ],
     "uid": [
       52022
-    ],
-    "image": "wl-wizard_guild.jpg",
-    "image_coords": [
-      711,
-      651,
-      721,
-      661
     ]
   }
 }

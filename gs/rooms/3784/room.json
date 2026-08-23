@@ -1,5 +1,4 @@
 {
-  "checksum": "dac56e417313f775d6ef4a1f13a4b551",
   "room": {
     "id": 3784,
     "title": [
@@ -19,19 +18,22 @@
     "timeto": {
       "1775": 0.2
     },
-    "tags": [
-      "advhead",
-      "meta:nomagic"
-    ],
-    "uid": [
-      15000002
-    ],
     "image": "adventurers_guild-1485358936.png",
     "image_coords": [
       74,
       1082,
       141,
       1147
+    ],
+    "tags": [
+      "advhead",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:nomagic",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      15000002
     ]
   }
 }

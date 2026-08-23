@@ -1,5 +1,4 @@
 {
-  "checksum": "85ccec88b767c32d3a9cd2239c8caf9b",
   "room": {
     "id": 1996,
     "title": [
@@ -24,6 +23,13 @@
       "1997": 0.2,
       "12564": 0.2
     },
+    "image": "ti-wilds-1643860469.png",
+    "image_coords": [
+      367,
+      377,
+      377,
+      387
+    ],
     "tags": [
       "bright red beet",
       "bright red teaberry",
@@ -41,6 +47,7 @@
       "juniper berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "pepperthorn root",
       "pink clover blossom",
@@ -63,13 +70,6 @@
     ],
     "uid": [
       3009014
-    ],
-    "image": "ti-wilds-1643860469.png",
-    "image_coords": [
-      367,
-      377,
-      377,
-      387
     ]
   }
 }

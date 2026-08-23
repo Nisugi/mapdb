@@ -1,5 +1,4 @@
 {
-  "checksum": "2878da5860182e6dbcd6b69d7e481cd9",
   "room": {
     "id": 8754,
     "title": [
@@ -19,15 +18,22 @@
       "14616": "go crystal path",
       "20788": "go double doors",
       "20794": "go narrow footpath",
-      "30708": "/rooms/8754/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "258": 0.2,
       "14616": 0.2,
       "20788": 0.2,
       "20794": 0.2,
-      "30708": "/rooms/8754/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      681,
+      1016,
+      717,
+      1050
+    ],
     "tags": [
       "angelica root",
       "aubergine hellebore",
@@ -87,7 +93,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2022-11",
+      "meta:forage-sensed:night:2026-08",
       "meta:noteleport:fwi",
       "motherwort",
       "nightbloom blossom",
@@ -117,6 +123,7 @@
       "rose-marrow root",
       "round red radish",
       "round yuzu",
+      "safflower seeds",
       "sanguine blood rose",
       "scallions",
       "shallot",
@@ -151,9 +158,10 @@
       "supernode",
       "sweet onion",
       "tangerine butterflyweed",
+      "thistle seeds",
       "tiger lily",
       "tobacco leaves",
-      "trollfear mushroom",
+      "trollear mushroom",
       "urchin-access",
       "vanilla bean",
       "wavepetal blossom",
@@ -163,6 +171,7 @@
       "wild pansy blossom",
       "wild spinach",
       "withered mushroom",
+      "yellow carrot",
       "yellow datura blossom",
       "yellow lemon",
       "yellow squash",
@@ -172,13 +181,6 @@
     ],
     "uid": [
       210001
-    ],
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      681,
-      1016,
-      717,
-      1050
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "a11cd0c962a8e6733c6bd670eac70311",
   "room": {
     "id": 4923,
     "title": [
@@ -23,19 +22,21 @@
       "4922": 0.2,
       "4924": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      13030056
-    ],
     "image": "en-gyldemar-1264234799.png",
     "image_coords": [
       1034,
       358,
       1042,
       366
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      13030056
     ]
   }
 }

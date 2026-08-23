@@ -1,5 +1,4 @@
 {
-  "checksum": "9e1cdd45bf6eed5be7706622cb59c4f6",
   "room": {
     "id": 20348,
     "title": [
@@ -16,7 +15,7 @@
       "20347": "east",
       "20349": "go wagons",
       "20350": "southwest",
-      "23146": "/rooms/20348/wayto/stringproc-23146.rb",
+      "23146": ";e move \"crawl hollow\";fput \"stand\" until standing?",
       "23159": "go cave",
       "24214": "go ladder"
     },

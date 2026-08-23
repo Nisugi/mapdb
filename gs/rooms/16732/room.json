@@ -1,5 +1,4 @@
 {
-  "checksum": "97bca69e997af99c89f53faa1ba35bce",
   "room": {
     "id": 16732,
     "title": [
@@ -15,13 +14,20 @@
     "climate": "temperate",
     "terrain": "mountainous",
     "wayto": {
-      "16731": "/rooms/16732/wayto/stringproc-16731.rb",
-      "16733": "/rooms/16732/wayto/stringproc-16733.rb"
+      "16731": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'climb thin rope'; waitrt?",
+      "16733": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'climb thick rope'; waitrt?"
     },
     "timeto": {
-      "16731": 10,
-      "16733": 10
+      "16731": 10.0,
+      "16733": 10.0
     },
+    "image": "en-aradhul-road-1308194332.png",
+    "image_coords": [
+      427,
+      606,
+      450,
+      627
+    ],
     "tags": [
       "agave heart",
       "angelica root",
@@ -34,7 +40,7 @@
       "juicy plum",
       "leek",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "mountain dryad",
       "peppermint leaves",
@@ -60,13 +66,6 @@
     ],
     "uid": [
       17005007
-    ],
-    "image": "en-aradhul-road-1308194332.png",
-    "image_coords": [
-      427,
-      606,
-      450,
-      627
     ]
   }
 }

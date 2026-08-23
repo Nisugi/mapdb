@@ -1,5 +1,4 @@
 {
-  "checksum": "5e648c84feec38095ea42a618ff68d3f",
   "room": {
     "id": 13717,
     "title": [
@@ -25,22 +24,24 @@
       "13716": 0.2,
       "13720": 0.2,
       "13721": 0.2,
-      "18757": "/rooms/13717/timeto/stringproc-18757.rb"
+      "18757": ";e Stats.prof == 'Empath' ? 0.2 : nil"
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "no forageables"
-    ],
-    "uid": [
-      657004
-    ],
     "image": "en-ta_vaalor_empath_guild.png",
     "image_coords": [
       1007,
       449,
       1076,
       513
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      657004
     ]
   }
 }

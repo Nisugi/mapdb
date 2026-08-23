@@ -1,5 +1,4 @@
 {
-  "checksum": "c4dbe5bee6dedad784508203ea137007",
   "room": {
     "id": 7653,
     "title": [
@@ -18,19 +17,21 @@
     "timeto": {
       "7652": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      386022
-    ],
     "image": "wl-coastal_cliffs-1264234799.png",
     "image_coords": [
       718,
       637,
       728,
       647
+    ],
+    "tags": [
+      "coastal sword sedge",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:splashy"
+    ],
+    "uid": [
+      386022
     ]
   }
 }

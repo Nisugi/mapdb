@@ -1,5 +1,4 @@
 {
-  "checksum": "8f27d53c51b1f04f49472a3ced702971",
   "room": {
     "id": 12420,
     "title": [
@@ -22,22 +21,24 @@
       "12421": 0.2,
       "14814": 0.2
     },
-    "tags": [
-      "meta:mapcategory:Guilds",
-      "meta:mapcategory:Teras Isle",
-      "meta:mapname:Teras Isle - Rogue Guild",
-      "meta:mapshortname:Rogue Guild (Teras)",
-      "no forageables"
-    ],
-    "uid": [
-      3003067
-    ],
     "image": "ti-rogue_guild-1486041266.png",
     "image_coords": [
       139,
       736,
       258,
       817
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Teras Isle",
+      "meta:mapname:Teras Isle - Rogue Guild",
+      "meta:mapshortname:Rogue Guild (Teras)"
+    ],
+    "uid": [
+      3003067
     ]
   }
 }

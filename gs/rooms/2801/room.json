@@ -1,5 +1,4 @@
 {
-  "checksum": "bfdcb7ce268fd1385f37900fdc696a51",
   "room": {
     "id": 2801,
     "title": [
@@ -24,6 +23,13 @@
       "2802": 0.2,
       "2806": 0.2
     },
+    "image": "imt-pinefar-1264234799.png",
+    "image_coords": [
+      154,
+      927,
+      164,
+      937
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -48,8 +54,8 @@
       "manroot stalk",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "meta:nomagic",
-      "moonflower",
       "orange rowanberry",
       "pennyroyal stem",
       "pine cone",
@@ -80,13 +86,6 @@
     ],
     "uid": [
       10000105
-    ],
-    "image": "imt-pinefar-1264234799.png",
-    "image_coords": [
-      154,
-      927,
-      164,
-      937
     ]
   }
 }

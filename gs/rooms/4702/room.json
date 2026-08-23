@@ -1,5 +1,4 @@
 {
-  "checksum": "d2d060c3ddc1f597e576a12e2fdd68b8",
   "room": {
     "id": 4702,
     "title": [
@@ -21,19 +20,22 @@
       "4655": 0.2,
       "9685": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      14051004
-    ],
     "image": "en-cysaegir-1679641246.png",
     "image_coords": [
       468,
       676,
       494,
       701
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      14051004
     ]
   }
 }

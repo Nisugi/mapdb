@@ -1,5 +1,4 @@
 {
-  "checksum": "60cec0ebf2fb548c92c61e2741bdbb3c",
   "room": {
     "id": 3759,
     "title": [
@@ -25,6 +24,13 @@
       "7927": 0.2,
       "7930": 0.2
     },
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      925,
+      199,
+      935,
+      209
+    ],
     "tags": [
       "acantha leaf",
       "aloeas stem",
@@ -38,6 +44,7 @@
       "kylan berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "round yuzu",
       "soft mushroom",
@@ -53,13 +60,6 @@
     ],
     "uid": [
       2148003
-    ],
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      925,
-      199,
-      935,
-      209
     ]
   }
 }

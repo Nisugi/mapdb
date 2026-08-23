@@ -1,5 +1,4 @@
 {
-  "checksum": "31b53b2068811358075cdbf1b91cfcef",
   "room": {
     "id": 20718,
     "title": [
@@ -22,20 +21,22 @@
       "20698": 0.2,
       "20719": 0.2
     },
-    "tags": [
-      "premium teleportation jewelry",
-      "meta:premium",
-      "no forageables"
-    ],
-    "uid": [
-      4002502
-    ],
     "image": "premium_halls-1489980086.png",
     "image_coords": [
       1476,
       2129,
       1605,
       2186
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:premium",
+      "premium teleportation jewelry",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      4002502
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "d14e5293fa34e9bd71ccc3fdaf23a553",
   "room": {
     "id": 15996,
     "title": [
@@ -22,19 +21,20 @@
       "15993": 0.2,
       "23247": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      18030009
-    ],
     "image": "wl-House_Onoir-1439662135.png",
     "image_coords": [
       567,
       785,
       650,
       868
+    ],
+    "tags": [
+      "coastal sword sedge",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08"
+    ],
+    "uid": [
+      18030009
     ]
   }
 }

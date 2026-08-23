@@ -1,5 +1,4 @@
 {
-  "checksum": "5e552bc32b75862d496506525598ef83",
   "room": {
     "id": 13437,
     "title": [
@@ -22,6 +21,13 @@
       "13244": 0.2,
       "13438": 0.2
     },
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      219,
+      984,
+      241,
+      1005
+    ],
     "tags": [
       "black mushroom",
       "blue trafel mushroom",
@@ -29,7 +35,7 @@
       "cave moss",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
       "murdroot",
       "red mushroom",
@@ -40,13 +46,6 @@
     ],
     "uid": [
       13117005
-    ],
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      219,
-      984,
-      241,
-      1005
     ]
   }
 }

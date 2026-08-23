@@ -1,5 +1,4 @@
 {
-  "checksum": "3f1a8e570bf05028367c61533b265deb",
   "room": {
     "id": 10241,
     "title": [
@@ -22,8 +21,16 @@
       "10240": 0.2,
       "10242": 0.2
     },
+    "image": "en-fearling-1632908688.png",
+    "image_coords": [
+      226,
+      973,
+      236,
+      983
+    ],
     "tags": [
       "angelica root",
+      "arbutus berry",
       "bay leaf",
       "black peppercorn",
       "blaestonberries",
@@ -37,6 +44,7 @@
       "cardamom",
       "cherry peppers",
       "chives",
+      "crystal-like sylthiel",
       "cumin seeds",
       "curly garlic scapes",
       "curly leaf parsley",
@@ -54,11 +62,13 @@
       "fresh cilantro",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green beans",
       "green cabbage",
       "green olive",
       "green pepper",
+      "green soybean pod",
       "haphip root",
       "heath aster",
       "honeysuckle vine",
@@ -74,7 +84,7 @@
       "light blue hydrangea",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-09",
       "motherwort",
       "mustard seeds",
@@ -102,6 +112,7 @@
       "red pepper",
       "rose-marrow root",
       "round red radish",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small anemone",
@@ -138,6 +149,7 @@
       "sunflower seeds",
       "sweet onion",
       "tendril of vinca",
+      "thistle seeds",
       "thyme",
       "tiger lily",
       "tobacco leaves",
@@ -145,6 +157,7 @@
       "vanilla bean",
       "vert globe artichoke",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "white begonia",
       "white hydrangea",
@@ -152,7 +165,9 @@
       "white peony",
       "white ramie",
       "wild pansy blossom",
+      "wild rice",
       "withered mushroom",
+      "yellow carrot",
       "yellow lemon",
       "yellow pepper",
       "yellow squash",
@@ -161,13 +176,6 @@
     ],
     "uid": [
       14012019
-    ],
-    "image": "en-fearling-1632908688.png",
-    "image_coords": [
-      226,
-      973,
-      236,
-      983
     ]
   }
 }

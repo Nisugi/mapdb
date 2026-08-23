@@ -1,5 +1,4 @@
 {
-  "checksum": "bfc4bc5b4a4121cdd01f633282010ca6",
   "room": {
     "id": 25834,
     "title": [
@@ -15,29 +14,29 @@
     "climate": "saltwater",
     "terrain": "hard, flat",
     "wayto": {
-      "25833": "/rooms/25834/wayto/stringproc-25833.rb",
-      "25835": "/rooms/25834/wayto/stringproc-25835.rb",
-      "25844": "/rooms/25834/wayto/stringproc-25844.rb",
-      "36175": "/rooms/25834/wayto/stringproc-36175.rb"
+      "25833": ";e direction=\"northeast\";start=Room.current.id; dothistimeout \"pedal #{direction}\", 2, /pedal/ while Room.current.id == start",
+      "25835": ";e direction=\"west\";start=Room.current.id;dothistimeout \"pedal #{direction}\", 2, /pedal/ while Room.current.id == start",
+      "25844": ";e direction=\"southeast\";start=Room.current.id; dothistimeout \"pedal #{direction}\", 2, /pedal/ while Room.current.id == start",
+      "36175": ";e direction=\"east\";start=Room.current.id;dothistimeout \"pedal #{direction}\", 2, /pedal/ while Room.current.id == start"
     },
     "timeto": {
-      "25833": 6,
-      "25835": 6,
-      "25844": 6,
-      "36175": "/rooms/25834/timeto/stringproc-36175.rb"
+      "25833": 6.0,
+      "25835": 6.0,
+      "25844": 6.0,
+      "36175": ";e (Script.running?('bigshot') || Script.running?('wander'))? nil : 6.0"
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      3223858
-    ],
     "image": "ifw-eastern_waterway-1489553700.png",
     "image_coords": [
       1040,
       1680,
       1061,
       1698
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      3223858
     ]
   }
 }

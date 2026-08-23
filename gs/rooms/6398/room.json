@@ -1,5 +1,4 @@
 {
-  "checksum": "648a8e1cb1ec60d10d4ab1252df7dcd9",
   "room": {
     "id": 6398,
     "title": [
@@ -22,6 +21,13 @@
       "6397": 0.2,
       "6399": 0.2
     },
+    "image": "wl-lysierian-1264234799.png",
+    "image_coords": [
+      440,
+      490,
+      450,
+      500
+    ],
     "tags": [
       "cave moss",
       "daggerstalk mushroom",
@@ -29,19 +35,13 @@
       "fire rat",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "pepperthorn root",
       "striped warcat",
       "trafel mushroom"
     ],
     "uid": [
       92123
-    ],
-    "image": "wl-lysierian-1264234799.png",
-    "image_coords": [
-      440,
-      490,
-      450,
-      500
     ]
   }
 }

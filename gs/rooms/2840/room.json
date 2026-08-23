@@ -1,5 +1,4 @@
 {
-  "checksum": "15d9a4ba7ad0c30ebe9768b46ac5f93f",
   "room": {
     "id": 2840,
     "title": [
@@ -16,7 +15,7 @@
     "terrain": "mountainous",
     "wayto": {
       "2839": "east",
-      "2841": "/rooms/2840/wayto/stringproc-2841.rb",
+      "2841": ";e empty_hands\nmove 'climb incline'\nwaitrt?\nfill_hands",
       "2871": "climb slope"
     },
     "timeto": {
@@ -24,6 +23,13 @@
       "2841": 0.2,
       "2871": 0.2
     },
+    "image": "imt-pinefar-1264234799.png",
+    "image_coords": [
+      249,
+      1244,
+      259,
+      1254
+    ],
     "tags": [
       "angelica root",
       "arctic moss",
@@ -41,6 +47,7 @@
       "lingonberry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "orange rowanberry",
       "pale thornberry",
       "pennyroyal stem",
@@ -62,13 +69,6 @@
     ],
     "uid": [
       4565007
-    ],
-    "image": "imt-pinefar-1264234799.png",
-    "image_coords": [
-      249,
-      1244,
-      259,
-      1254
     ]
   }
 }

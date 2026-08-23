@@ -1,5 +1,4 @@
 {
-  "checksum": "e1c8b8884a1ca98df573d50ad70bf54d",
   "room": {
     "id": 10376,
     "title": [
@@ -18,14 +17,21 @@
       "3535": "go gate",
       "10377": "north",
       "19809": "go building",
-      "30713": "/rooms/10376/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3535": 0.2,
       "10377": 0.2,
-      "19809": "/rooms/10376/timeto/stringproc-19809.rb",
-      "30713": "/rooms/10376/timeto/stringproc-30713.rb"
+      "19809": ";e if Stats.prof == 'Cleric'; 0.2; else; nil; end",
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "en-ta_vaalor_cleric_guild.png",
+    "image_coords": [
+      208,
+      931,
+      260,
+      983
+    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -44,7 +50,7 @@
       "ironfern root",
       "juniper berry",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
       "mistweed",
       "motherwort",
@@ -77,13 +83,6 @@
     ],
     "uid": [
       675001
-    ],
-    "image": "en-ta_vaalor_cleric_guild.png",
-    "image_coords": [
-      208,
-      931,
-      260,
-      983
     ]
   }
 }

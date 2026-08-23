@@ -1,5 +1,4 @@
 {
-  "checksum": "bdd3cb2abc90a4457ba587244c7ef5b4",
   "room": {
     "id": 28920,
     "title": [
@@ -28,6 +27,13 @@
       "28922": 0.2,
       "29078": 0.2
     },
+    "image": "kf-krakens_fall-1648278406.png",
+    "image_coords": [
+      735,
+      111,
+      748,
+      126
+    ],
     "tags": [
       "agave heart",
       "angelica root",
@@ -68,6 +74,7 @@
       "lobster-claw heliconia",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "monstera frond",
       "motherwort",
       "murdroot",
@@ -118,13 +125,6 @@
     ],
     "uid": [
       7119053
-    ],
-    "image": "kf-krakens_fall-1648278406.png",
-    "image_coords": [
-      735,
-      111,
-      748,
-      126
     ]
   }
 }

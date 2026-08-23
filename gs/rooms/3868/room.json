@@ -1,5 +1,4 @@
 {
-  "checksum": "cac7761ecef0cb821c6e6de9a9c87cf1",
   "room": {
     "id": 3868,
     "title": [
@@ -18,13 +17,20 @@
     "wayto": {
       "3655": "go arch",
       "3869": "north",
-      "30718": "/rooms/3868/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "3655": 0.2,
       "3869": 0.2,
-      "30718": "/rooms/3868/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "ifw-isle_of_four_winds-1310232949.png",
+    "image_coords": [
+      3342,
+      1794,
+      3355,
+      1803
+    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -34,12 +40,14 @@
       "cardamom",
       "cumin seeds",
       "curly garlic scapes",
+      "deep crimson plumeria",
       "ghost pepper",
       "green guava",
       "hot pepper",
       "ironfern root",
+      "jasmine floret",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2024-05",
+      "meta:forage-sensed:day:2026-08",
       "murdroot",
       "nutmeg",
       "pepperthorn root",
@@ -48,17 +56,11 @@
       "sweet potato",
       "urchin-access",
       "vanilla bean",
+      "wild rice",
       "wingstem root"
     ],
     "uid": [
       739401
-    ],
-    "image": "ifw-isle_of_four_winds-1310232949.png",
-    "image_coords": [
-      3342,
-      1794,
-      3355,
-      1803
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "ac68621a48315c9c56981e9747f8c364",
   "room": {
     "id": 8481,
     "title": [
@@ -21,19 +20,20 @@
       "8480": 0.2,
       "8482": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      2155047
-    ],
     "image": "wl-trollfang-1264234799.png",
     "image_coords": [
       65,
       754,
       75,
       764
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      2155047
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "834358baaade5116fd500038531197d9",
   "room": {
     "id": 5411,
     "title": [
@@ -15,12 +14,19 @@
     "location": "Bonespear Tower",
     "wayto": {
       "5409": "south",
-      "5413": "/rooms/5411/wayto/stringproc-5413.rb"
+      "5413": ";e move('go iron door')"
     },
     "timeto": {
       "5409": 0.2,
       "5413": 0.2
     },
+    "image": "vo-foggy_valley-1264234799.png",
+    "image_coords": [
+      1224,
+      933,
+      1232,
+      941
+    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -28,13 +34,6 @@
     ],
     "uid": [
       319100
-    ],
-    "image": "vo-foggy_valley-1264234799.png",
-    "image_coords": [
-      1224,
-      933,
-      1232,
-      941
     ]
   }
 }

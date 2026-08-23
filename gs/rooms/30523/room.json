@@ -1,5 +1,4 @@
 {
-  "checksum": "b25a13844670305b3f890b4150f321db",
   "room": {
     "id": 30523,
     "title": [
@@ -14,12 +13,19 @@
     "location": "the Vipershroud",
     "wayto": {
       "1230": "out",
-      "1232": "/rooms/30523/wayto/stringproc-1232.rb"
+      "1232": ";e begin; fput 'search'; search_result = waitfor \"don't find anything\", \"discover a narrow opening\", \"Roundtime\", \"Round time\"; waitrt?; end until search_result =~ /discover a narrow opening/; move 'go opening'"
     },
     "timeto": {
-      "1230": 10,
-      "1232": 10
+      "1230": 10.0,
+      "1232": 10.0
     },
+    "image": "en-trail-1264234799.png",
+    "image_coords": [
+      120,
+      739,
+      130,
+      749
+    ],
     "tags": [
       "meta:forage-sensed",
       "meta:trap",
@@ -27,13 +33,6 @@
     ],
     "uid": [
       2190013
-    ],
-    "image": "en-trail-1264234799.png",
-    "image_coords": [
-      120,
-      739,
-      130,
-      749
     ]
   }
 }

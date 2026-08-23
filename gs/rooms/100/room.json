@@ -1,5 +1,4 @@
 {
-  "checksum": "860488d75ad5fe568b6dc6055ae00cf9",
   "room": {
     "id": 100,
     "title": [
@@ -22,13 +21,20 @@
       "99": 0.2,
       "101": 0.2
     },
+    "image": "en-skull-1264234799.png",
+    "image_coords": [
+      556,
+      872,
+      566,
+      882
+    ],
     "tags": [
       "bloodwood twig",
       "blue trafel mushroom",
       "cactus flower",
       "elderberries",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
       "moonlight cactus-bloom",
       "nightbloom blossom",
@@ -46,13 +52,6 @@
     ],
     "uid": [
       13301217
-    ],
-    "image": "en-skull-1264234799.png",
-    "image_coords": [
-      556,
-      872,
-      566,
-      882
     ]
   }
 }

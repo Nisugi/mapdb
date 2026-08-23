@@ -1,5 +1,4 @@
 {
-  "checksum": "5641a9754c65654d63aa46f905cda764",
   "room": {
     "id": 10296,
     "title": [
@@ -24,10 +23,18 @@
       "10295": 0.2,
       "10297": 0.2
     },
+    "image": "en-fearling-1632908688.png",
+    "image_coords": [
+      672,
+      951,
+      682,
+      961
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
       "angelica root",
+      "arbutus berry",
       "barley grass",
       "blaestonberries",
       "blaestonberry blossom",
@@ -39,6 +46,7 @@
       "cherry peppers",
       "chives",
       "crimson dragonstalk",
+      "crystal-like sylthiel",
       "curly garlic scapes",
       "curly leaf parsley",
       "daggerstalk mushroom",
@@ -53,8 +61,10 @@
       "fresh lemongrass",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green cabbage",
+      "green soybean pod",
       "heath aster",
       "honeysuckle vine",
       "hop flowers",
@@ -66,7 +76,7 @@
       "leek",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "mistweed",
       "motherwort",
@@ -86,6 +96,7 @@
       "red onion",
       "rose-marrow root",
       "rye grass",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small apple",
@@ -111,9 +122,11 @@
       "stalk of monkeyflower",
       "sunburst blossom",
       "sweet onion",
+      "thistle seeds",
       "tobacco leaves",
       "trollear mushroom",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "wheat grass",
       "white clover blossom",
@@ -140,13 +153,6 @@
     ],
     "uid": [
       14010108
-    ],
-    "image": "en-fearling-1632908688.png",
-    "image_coords": [
-      672,
-      951,
-      682,
-      961
     ]
   }
 }

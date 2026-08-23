@@ -1,5 +1,4 @@
 {
-  "checksum": "c2c65b4b733ef1093224c00579ba2597",
   "room": {
     "id": 2117,
     "title": [
@@ -23,6 +22,13 @@
       "2116": 0.2,
       "2118": 0.2
     },
+    "image": "ti-wilds-1643860469.png",
+    "image_coords": [
+      500,
+      243,
+      510,
+      253
+    ],
     "tags": [
       "blue passionflower",
       "bright red teaberry",
@@ -36,6 +42,7 @@
       "juniper berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "pink clover blossom",
       "purple clover blossom",
@@ -54,13 +61,6 @@
     ],
     "uid": [
       3009011
-    ],
-    "image": "ti-wilds-1643860469.png",
-    "image_coords": [
-      500,
-      243,
-      510,
-      253
     ]
   }
 }

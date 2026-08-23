@@ -1,5 +1,4 @@
 {
-  "checksum": "715c98c91586870375e5a448448699ad",
   "room": {
     "id": 5287,
     "title": [
@@ -15,13 +14,20 @@
     "climate": "humid",
     "terrain": "coniferous forest",
     "wayto": {
-      "5268": "/rooms/5287/wayto/stringproc-5268.rb",
+      "5268": ";e empty_hands\nmove 'climb tree'\nwaitrt?\nfill_hands",
       "5288": "southeast"
     },
     "timeto": {
       "5268": 0.2,
       "5288": 0.2
     },
+    "image": "vo-foggy_valley-1264234799.png",
+    "image_coords": [
+      743,
+      528,
+      753,
+      538
+    ],
     "tags": [
       "acantha leaf",
       "blackberries",
@@ -29,6 +35,7 @@
       "blue trafel mushroom",
       "bolmara lichen",
       "bright red teaberry",
+      "bright yellow sunwort",
       "broken twig",
       "brostheras grass",
       "calamia fruit",
@@ -43,7 +50,7 @@
       "handful of pinenuts",
       "haphip root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "pine cone",
       "pine needles",
       "pothinir grass",
@@ -66,13 +73,6 @@
     ],
     "uid": [
       4214303
-    ],
-    "image": "vo-foggy_valley-1264234799.png",
-    "image_coords": [
-      743,
-      528,
-      753,
-      538
     ]
   }
 }

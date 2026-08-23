@@ -1,5 +1,4 @@
 {
-  "checksum": "d5ab0b1356486c4876c36db381695855",
   "room": {
     "id": 20789,
     "title": [
@@ -19,27 +18,27 @@
     "timeto": {
       "14616": 0.2
     },
-    "tags": [
-      "workshop",
-      "node",
-      "meta:mapname:Wehnimer's Landing - House Sovyn",
-      "meta:mapshortname:House Sovyn",
-      "meta:mapcategory:Wehnimer's Landing",
-      "meta:mapcategory:CHE",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11",
-      "meta:che:House Sovyn"
-    ],
-    "uid": [
-      210006
-    ],
     "image": "wl-house_sovyn-11481362649.png",
     "image_coords": [
       5,
       1326,
       169,
       1412
+    ],
+    "tags": [
+      "meta:che:House Sovyn",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:mapcategory:CHE",
+      "meta:mapcategory:Wehnimer's Landing",
+      "meta:mapname:Wehnimer's Landing - House Sovyn",
+      "meta:mapshortname:House Sovyn",
+      "node",
+      "stalk of bluebells",
+      "workshop"
+    ],
+    "uid": [
+      210006
     ]
   }
 }

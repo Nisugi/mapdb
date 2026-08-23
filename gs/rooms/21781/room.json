@@ -1,5 +1,4 @@
 {
-  "checksum": "eb7299f48bb2e2542b8d1bf3d963f038",
   "room": {
     "id": 21781,
     "title": [
@@ -22,18 +21,20 @@
       "21773": 0.2,
       "21782": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      103513
-    ],
     "image": "wl-house_phoenix-1485115199.png",
     "image_coords": [
       1405,
       1671,
       1526,
       1748
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      103513
     ]
   }
 }

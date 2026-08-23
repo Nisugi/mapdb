@@ -1,5 +1,4 @@
 {
-  "checksum": "cceab960b0813034a860dd4db84a3392",
   "room": {
     "id": 10948,
     "title": [
@@ -21,19 +20,21 @@
     "timeto": {
       "10947": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      2101046
-    ],
     "image_coords": [
       943,
       712,
       969,
       738
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      2101046
     ]
   }
 }

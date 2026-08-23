@@ -1,5 +1,4 @@
 {
-  "checksum": "bbdcee9a85641790820e4dd620819d5b",
   "room": {
     "id": 13094,
     "title": [
@@ -22,18 +21,20 @@
       "3051": 0.2,
       "13095": 0.2
     },
-    "tags": [
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      561008
-    ],
     "image": "imt-south_gate-1647231707.png",
     "image_coords": [
       561,
       572,
       571,
       582
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      561008
     ]
   }
 }

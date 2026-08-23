@@ -1,5 +1,4 @@
 {
-  "checksum": "61f3b867b48b3aef8a1c614958ca7569",
   "room": {
     "id": 18844,
     "title": [
@@ -22,8 +21,16 @@
       "18828": 0.2,
       "18839": 0.2
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1079,
+      207,
+      1106,
+      234
+    ],
     "tags": [
       "acantha leaf",
+      "arbutus berry",
       "blackberries",
       "bloodwood twig",
       "blue passionflower",
@@ -37,17 +44,19 @@
       "calamia fruit",
       "cherry peppers",
       "cinnamon bark",
+      "crystal-like sylthiel",
       "daggerstalk mushroom",
       "ebony twig",
       "fiddlehead fern",
       "flathead mushroom",
       "fresh catnip",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "haphip root",
       "lady slipper blossom",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "mistweed",
       "murdroot",
@@ -67,6 +76,7 @@
       "tree bark",
       "trollear mushroom",
       "twisted twig",
+      "violet sel'elun vine",
       "white passionflower",
       "wild chokecherry",
       "wild gooseberry",
@@ -81,13 +91,6 @@
     ],
     "uid": [
       14202013
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1079,
-      207,
-      1106,
-      234
     ]
   }
 }

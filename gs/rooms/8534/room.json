@@ -1,5 +1,4 @@
 {
-  "checksum": "4b72263cdf77667d79d07c0d76384acb",
   "room": {
     "id": 8534,
     "title": [
@@ -15,13 +14,20 @@
     "climate": "temperate",
     "terrain": "muddy wetlands",
     "wayto": {
-      "8533": "/rooms/8534/wayto/stringproc-8533.rb",
-      "8535": "/rooms/8534/wayto/stringproc-8535.rb"
+      "8533": ";e move 'east'; waitrt?",
+      "8535": ";e move 'southwest'; waitrt?"
     },
     "timeto": {
-      "8533": 5,
-      "8535": 5
+      "8533": 5.0,
+      "8535": 5.0
     },
+    "image": "wl-trollfang-1264234799.png",
+    "image_coords": [
+      954,
+      652,
+      964,
+      662
+    ],
     "tags": [
       "black peppercorn",
       "blue trafel mushroom",
@@ -35,11 +41,12 @@
       "daggerstalk mushroom",
       "flathead mushroom",
       "genkew mushroom",
+      "golden yellow shadesbane",
       "haphip root",
       "kylan berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2023-02",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "nutmeg",
       "pepperthorn root",
@@ -49,7 +56,7 @@
       "star anise",
       "sunburst blossom",
       "talneo root",
-      "trollfear mushroom",
+      "trollear mushroom",
       "vanilla bean",
       "water chestnut",
       "wavepetal blossom",
@@ -60,13 +67,6 @@
     ],
     "uid": [
       16011
-    ],
-    "image": "wl-trollfang-1264234799.png",
-    "image_coords": [
-      954,
-      652,
-      964,
-      662
     ]
   }
 }

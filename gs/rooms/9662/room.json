@@ -1,5 +1,4 @@
 {
-  "checksum": "d1662cb5d1c5e9c1a7f99f3318a7a212",
   "room": {
     "id": 9662,
     "title": [
@@ -19,20 +18,23 @@
     "timeto": {
       "982": 0.2
     },
-    "tags": [
-      "gemshop",
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      13003200
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       1130,
       1038,
       1140,
       1048
+    ],
+    "tags": [
+      "fire lily",
+      "gemshop",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      13003200
     ]
   }
 }

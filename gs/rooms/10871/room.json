@@ -1,5 +1,4 @@
 {
-  "checksum": "63da74431c6665cdd0cb3791717c9549",
   "room": {
     "id": 10871,
     "title": [
@@ -23,18 +22,20 @@
       "10868": 0.2,
       "11002": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      2101051
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       2605,
       846,
       2646,
       886
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      2101051
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "db1fa4018fea909f80707f56cdf47ab0",
   "room": {
     "id": 2249,
     "title": [
@@ -14,12 +13,19 @@
     "location": "the Eye of V'Tull",
     "wayto": {
       "2248": "south",
-      "2250": "/rooms/2249/wayto/stringproc-2250.rb"
+      "2250": ";e fput 'search'\nmove 'go door'"
     },
     "timeto": {
       "2248": 0.2,
       "2250": 0.2
     },
+    "image": "ti-vtull-1663120653.png",
+    "image_coords": [
+      250,
+      750,
+      260,
+      760
+    ],
     "tags": [
       "crimson-flecked rose",
       "ember orange rose",
@@ -28,17 +34,11 @@
       "hot pepper",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "pepperthorn root"
     ],
     "uid": [
       3051018
-    ],
-    "image": "ti-vtull-1663120653.png",
-    "image_coords": [
-      250,
-      750,
-      260,
-      760
     ]
   }
 }

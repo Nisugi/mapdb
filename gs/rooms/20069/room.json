@@ -1,5 +1,4 @@
 {
-  "checksum": "63a0c9e3f0eba64906e936f5a7680775",
   "room": {
     "id": 20069,
     "title": [
@@ -16,7 +15,7 @@
     "wayto": {
       "20065": "south",
       "20068": "southeast",
-      "20070": "/rooms/20069/wayto/stringproc-20070.rb",
+      "20070": ";e fput 'go mausoleum'",
       "20073": "southwest",
       "21588": "northwest",
       "21590": "northeast"

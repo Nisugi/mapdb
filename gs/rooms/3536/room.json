@@ -1,5 +1,4 @@
 {
-  "checksum": "209cb32b5d5d54fccc394b7f583edea3",
   "room": {
     "id": 3536,
     "title": [
@@ -28,20 +27,22 @@
       "3537": 0.2,
       "17293": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      14100036
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       1299,
       778,
       1336,
       814
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:forage-sensed:night:2023-01",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      14100036
     ]
   }
 }

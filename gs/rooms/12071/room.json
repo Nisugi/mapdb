@@ -1,5 +1,4 @@
 {
-  "checksum": "6b0fb6ef5b2139f6c763e44318006e45",
   "room": {
     "id": 12071,
     "title": [
@@ -24,26 +23,27 @@
       "12070": 0.2,
       "12072": 0.2
     },
-    "tags": [
-      "aloeas stem",
-      "wood violet",
-      "murdroot",
-      "wavepetal blossom",
-      "orchil lichen",
-      "meta:forage-sensed",
-      "sunburst blossom",
-      "meta:forage-sensed:night:2023-11",
-      "meta:forage-sensed:day:2024-05"
-    ],
-    "uid": [
-      17004087
-    ],
     "image": "en-old_ta_faendryl-1716923763.png",
     "image_coords": [
       769,
       319,
       777,
       327
+    ],
+    "tags": [
+      "aloeas stem",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
+      "meta:forage-sensed:night:2023-11",
+      "meta:splashy",
+      "murdroot",
+      "orchil lichen",
+      "sunburst blossom",
+      "wavepetal blossom",
+      "wood violet"
+    ],
+    "uid": [
+      17004087
     ]
   }
 }

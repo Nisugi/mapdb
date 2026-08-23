@@ -1,5 +1,4 @@
 {
-  "checksum": "c778be9c61a820512b1a52a7bb4a1fa0",
   "room": {
     "id": 6785,
     "title": [
@@ -23,6 +22,13 @@
       "6782": 0.2,
       "6784": 0.2
     },
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      577,
+      999,
+      587,
+      1009
+    ],
     "tags": [
       "acantha leaf",
       "banana leaf",
@@ -40,12 +46,14 @@
       "kylan berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "pepperthorn root",
       "pink clover blossom",
       "purple clover blossom",
       "red clover blossom",
       "round yuzu",
+      "safflower seeds",
       "soft mushroom",
       "sprig of jasmine",
       "sprig of wild lilac",
@@ -54,6 +62,7 @@
       "stalk of goldenrod",
       "sunburst blossom",
       "talneo root",
+      "thistle seeds",
       "water chestnut",
       "wavepetal blossom",
       "white clover blossom",
@@ -67,13 +76,6 @@
     ],
     "uid": [
       4300024
-    ],
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      577,
-      999,
-      587,
-      1009
     ]
   }
 }

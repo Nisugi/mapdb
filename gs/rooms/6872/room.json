@@ -1,5 +1,4 @@
 {
-  "checksum": "a2750bdbf67137573316b155d3804068",
   "room": {
     "id": 6872,
     "title": [
@@ -18,19 +17,20 @@
     "timeto": {
       "6871": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      21141
-    ],
     "image": "wl-gates-1264234799.png",
     "image_coords": [
       772,
       969,
       782,
       979
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      21141
     ]
   }
 }

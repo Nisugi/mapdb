@@ -1,5 +1,4 @@
 {
-  "checksum": "6388f83c3bca428439974a96eb83dc12",
   "room": {
     "id": 28919,
     "title": [
@@ -20,7 +19,7 @@
       "28920": "northeast",
       "28931": "go tower",
       "28978": "go gate",
-      "30716": "/rooms/28919/wayto/stringproc-30716.rb",
+      "30716": ";e true",
       "32591": "go oak barn"
     },
     "timeto": {
@@ -28,9 +27,16 @@
       "28920": 0.2,
       "28931": 0.2,
       "28978": 0.2,
-      "30716": "/rooms/28919/timeto/stringproc-30716.rb",
+      "30716": ";e Map[7].timeto['30714'].call;",
       "32591": 0.2
     },
+    "image": "kf-krakens_fall-1648278406.png",
+    "image_coords": [
+      700,
+      142,
+      717,
+      155
+    ],
     "tags": [
       "agave heart",
       "angelica root",
@@ -71,6 +77,7 @@
       "lobster-claw heliconia",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "monstera frond",
       "motherwort",
       "murdroot",
@@ -122,13 +129,6 @@
     ],
     "uid": [
       7119052
-    ],
-    "image": "kf-krakens_fall-1648278406.png",
-    "image_coords": [
-      700,
-      142,
-      717,
-      155
     ]
   }
 }

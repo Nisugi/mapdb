@@ -1,5 +1,4 @@
 {
-  "checksum": "f0841fbaa9a7200ce044b1842e173c23",
   "room": {
     "id": 26803,
     "title": [
@@ -15,10 +14,10 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "18140": "/rooms/26803/wayto/stringproc-18140.rb"
+      "18140": ";e room = Room.current.id;fput 'go curtain'; if ( room == Room.current.id ); fput 'close locker';move 'go curtain'; end; $go2_restart = true"
     },
     "timeto": {
-      "18140": 2
+      "18140": 2.0
     },
     "tags": [
       "meta:forage-sensed",

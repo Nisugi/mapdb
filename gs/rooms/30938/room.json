@@ -1,5 +1,4 @@
 {
-  "checksum": "12fcd70fa9779bdcb75596e5658e7fde",
   "room": {
     "id": 30938,
     "title": [
@@ -22,6 +21,13 @@
       "30937": 0.2,
       "30939": 0.2
     },
+    "image": "wl-burrow_way-1616121316.png",
+    "image_coords": [
+      904,
+      666,
+      938,
+      700
+    ],
     "tags": [
       "blue trafel mushroom",
       "bolmara lichen",
@@ -32,6 +38,7 @@
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "pepperthorn root",
       "soft mushroom",
@@ -40,13 +47,6 @@
     ],
     "uid": [
       336728
-    ],
-    "image": "wl-burrow_way-1616121316.png",
-    "image_coords": [
-      904,
-      666,
-      938,
-      700
     ]
   }
 }
