@@ -1,5 +1,4 @@
 {
-  "checksum": "7b9b3b4d06ab96e67c4e39a873f07816",
   "room": {
     "id": 12331,
     "title": [
@@ -18,27 +17,27 @@
       "16338": "go archway",
       "16410": "south",
       "16431": "north",
-      "30718": "/rooms/12331/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "12330": 0.2,
       "16338": 0.2,
       "16410": 0.2,
       "16431": 0.2,
-      "30718": "/rooms/12331/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "urchin-access"
-    ],
-    "uid": [
-      3209321
-    ],
     "image": "ifw-isle_of_four_winds-1310232949.png",
     "image_coords": [
       920,
       2160,
       941,
       2181
+    ],
+    "tags": [
+      "urchin-access"
+    ],
+    "uid": [
+      3209321
     ]
   }
 }

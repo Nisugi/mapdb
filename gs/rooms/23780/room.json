@@ -1,11 +1,11 @@
 {
-  "checksum": "a1f660bd9ed8e2bb750c43208e34d403",
   "room": {
     "id": 23780,
     "title": [
       "[Duskruin Arena, Sands Approach]"
     ],
     "description": [
+      "Still visible beneath a thin layer of sand, dark stains mar the stone floor, the coloring that of dried blood creating a grisly pathway through the entrance to the arena itself, just visible ahead.  Bright torchlight illuminates the arena beyond, spilling through into the otherwise dark corridor.  A ramp leads slightly downward to another arena entrance.Still visible beneath a thin layer of sand, dark stains mar the stone floor, the coloring that of dried blood creating a grisly pathway through the entrance to the arena itself, just visible ahead.  Bright torchlight illuminates the arena beyond, spilling through into the otherwise dark corridor.  A ramp leads slightly downward to another arena entrance.",
       "Still visible beneath a thin layer of sand, dark stains mar the stone floor, the coloring that of dried blood creating a grisly pathway through the entrance to the arena itself, just visible ahead.  Bright torchlight illuminates the arena beyond, spilling through into the otherwise dark corridor.",
       "Still visible beneath a thin layer of sand, dark stains mar the stone floor, the coloring that of dried blood creating a grisly pathway through the entrance to the arena itself, just visible ahead.  Bright torchlight illuminates the arena beyond, spilling through into the otherwise dark corridor.  A ramp leads slightly downward to another arena entrance."
     ],
@@ -15,14 +15,23 @@
     "location": "Duskruin Arena",
     "wayto": {
       "23779": "south",
+      "24550": "go entrance",
       "26387": "down",
-      "33578": "/rooms/23780/wayto/stringproc-33578.rb"
+      "33578": ";e true"
     },
     "timeto": {
       "23779": 0.2,
+      "24550": 0.2,
       "26387": 0.2,
-      "33578": "/rooms/23780/timeto/stringproc-33578.rb"
+      "33578": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "fest-duskruin-1660957206.png",
+    "image_coords": [
+      1423,
+      258,
+      1444,
+      277
+    ],
     "tags": [
       "arena",
       "meta:mapcategory:Events and Festivals",
@@ -31,13 +40,6 @@
     ],
     "uid": [
       8213015
-    ],
-    "image": "fest-duskruin-1660957206.png",
-    "image_coords": [
-      1423,
-      258,
-      1444,
-      277
     ]
   }
 }

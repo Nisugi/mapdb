@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36773,
+    "title": [
+      "[The Merry Kraken, Market Entry]"
+    ],
+    "description": [
+      "Dim light filters in through two bullseye windows to port and starboard, casting mote-filled rays of light and shadow along the piles of canvas-covered wares that almost fill the entryway.  Some oversized double doors of iron-reinforced oak lead into the market."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36772": "go arch",
+      "36774": "go doors"
+    },
+    "timeto": {
+      "36772": 0.2,
+      "36774": 0.2
+    },
+    "uid": [
+      7134215
+    ]
+  }
+}

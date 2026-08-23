@@ -1,5 +1,4 @@
 {
-  "checksum": "df5ea90f2bc6ee1632f993d83b8c64ff",
   "room": {
     "id": 29876,
     "title": [
@@ -14,11 +13,11 @@
     "location": "the Hinterwilds",
     "wayto": {
       "29871": "out",
-      "34399": "/rooms/29876/wayto/stringproc-34399.rb"
+      "34399": ";e true"
     },
     "timeto": {
       "29871": 0.2,
-      "34399": "/rooms/29876/timeto/stringproc-34399.rb"
+      "34399": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "advguard3",

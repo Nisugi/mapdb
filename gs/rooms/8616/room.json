@@ -1,5 +1,4 @@
 {
-  "checksum": "00f4996a4656384d5174acc45dd47e42",
   "room": {
     "id": 8616,
     "title": [
@@ -15,13 +14,20 @@
     "wayto": {
       "8615": "south",
       "8617": "north",
-      "30708": "/rooms/8616/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "8615": 0.2,
       "8617": 0.2,
-      "30708": "/rooms/8616/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      505,
+      463,
+      514,
+      473
+    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-11",
@@ -31,13 +37,6 @@
     ],
     "uid": [
       3020
-    ],
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      505,
-      463,
-      514,
-      473
     ]
   }
 }

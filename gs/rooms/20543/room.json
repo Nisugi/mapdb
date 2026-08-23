@@ -1,5 +1,4 @@
 {
-  "checksum": "c9daef2ab31e9c95acbab2701c428646",
   "room": {
     "id": 20543,
     "title": [
@@ -14,7 +13,7 @@
     "location": "the Pinefar Trading Post",
     "wayto": {
       "20542": "west",
-      "20568": "/rooms/20543/wayto/stringproc-20568.rb"
+      "20568": ";e fput \"get rope\";fput \"push rope\""
     },
     "timeto": {
       "20542": 0.2,

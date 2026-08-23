@@ -1,5 +1,4 @@
 {
-  "checksum": "9a3435c7612f497015e07952432905ff",
   "room": {
     "id": 26765,
     "title": [
@@ -16,12 +15,12 @@
     "wayto": {
       "26764": "west",
       "26766": "east",
-      "27623": "/rooms/26765/wayto/stringproc-27623.rb"
+      "27623": ";e fput 'search' until GameObj.loot.find{|x| x.name == 'craggy rough-hewn opening'}; fput 'go opening'"
     },
     "timeto": {
       "26764": 0.2,
       "26766": 0.2,
-      "27623": 10
+      "27623": 10.0
     }
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "0cc1ab01b7af803dc2ef755a39e139fa",
   "room": {
     "id": 9564,
     "title": [
@@ -17,13 +16,20 @@
     "wayto": {
       "9563": "east",
       "9565": "west",
-      "30712": "/rooms/9564/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "9563": 0.2,
       "9565": 0.2,
-      "30712": "/rooms/9564/timeto/stringproc-30712.rb"
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "en-zul_logoth-1639816187.png",
+    "image_coords": [
+      1118,
+      605,
+      1144,
+      631
+    ],
     "tags": [
       "alchemy",
       "blue trafel mushroom",
@@ -46,13 +52,6 @@
     ],
     "uid": [
       160022
-    ],
-    "image": "en-zul_logoth-1639816187.png",
-    "image_coords": [
-      1118,
-      605,
-      1144,
-      631
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "4f54c13fdf3eb90d3d44abe775d2431a",
   "room": {
     "id": 17360,
     "title": [
@@ -14,26 +13,26 @@
     "location": "the Warrior Guild",
     "wayto": {
       "17359": "west",
-      "17361": "/rooms/17360/wayto/stringproc-17361.rb",
-      "17368": "/rooms/17360/wayto/stringproc-17368.rb"
+      "17361": ";e move 'go glass door'",
+      "17368": ";e move 'go arched door'"
     },
     "timeto": {
       "17359": 0.2,
       "17361": 0.2,
       "17368": 0.2
     },
-    "tags": [
-      "warrior guild armor"
-    ],
-    "uid": [
-      253007
-    ],
     "image": "warrior_guilds-1268684755.png",
     "image_coords": [
       882,
       988,
       903,
       1006
+    ],
+    "tags": [
+      "warrior guild armor"
+    ],
+    "uid": [
+      253007
     ]
   }
 }

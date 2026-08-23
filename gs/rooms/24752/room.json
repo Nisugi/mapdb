@@ -1,5 +1,4 @@
 {
-  "checksum": "5c733510d79efb080cffb48aae7a5a65",
   "room": {
     "id": 24752,
     "title": [
@@ -15,7 +14,7 @@
     "wayto": {
       "18709": "north",
       "18710": "northwest",
-      "20423": "/rooms/24752/wayto/stringproc-20423.rb",
+      "20423": ";e ['west','west','northwest'].each{|d| move(d)};fput 'rub blood';['southeast','east','east'].each{|d| move(d)};fput 'rub hatch';move('go hatch');",
       "24462": "west"
     },
     "timeto": {
@@ -24,15 +23,15 @@
       "20423": 1.6,
       "24462": 0.2
     },
-    "uid": [
-      4031023
-    ],
     "image": "quest-troubled_waters.png",
     "image_coords": [
       586,
       268,
       604,
       283
+    ],
+    "uid": [
+      4031023
     ]
   }
 }

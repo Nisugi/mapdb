@@ -1,5 +1,4 @@
 {
-  "checksum": "af925c9703d9c0615019c04f6990fa26",
   "room": {
     "id": 25172,
     "title": [
@@ -14,21 +13,21 @@
     "location": "the shadow of the Sanctum",
     "wayto": {
       "25171": "out",
-      "25231": "/rooms/25172/wayto/stringproc-25231.rb"
+      "25231": ";e save_stance = XMLData.stance_text;fput 'stance offensive' if save_stance != 'offensive';put 'climb latrine pit';move('climb latrine pit');fput \"stance #{save_stance}\" if save_stance != XMLData.stance_text;;$go2_restart = true;"
     },
     "timeto": {
       "25171": 0.2,
       "25231": 0.2
     },
-    "uid": [
-      4216056
-    ],
     "image": "SanctumMap-Eiadh-1643825243.png",
     "image_coords": [
       121,
       468,
       145,
       491
+    ],
+    "uid": [
+      4216056
     ]
   }
 }

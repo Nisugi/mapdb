@@ -1,0 +1,28 @@
+{
+  "room": {
+    "id": 36740,
+    "title": [
+      "[Faiyth's General Store]"
+    ],
+    "description": [
+      "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  A swirl-pattern deep bloodwood stand and a plain wooden table sit in opposite corners while a worn rug rests on an unfinished wooden floor."
+    ],
+    "paths": [
+      "Obvious exits: north, east, out"
+    ],
+    "location": "Kraken's Fall",
+    "wayto": {
+      "36726": "out",
+      "36741": "go n",
+      "36742": "e"
+    },
+    "timeto": {
+      "36726": 0.2,
+      "36741": 0.2,
+      "36742": 0.2
+    },
+    "uid": [
+      642369
+    ]
+  }
+}

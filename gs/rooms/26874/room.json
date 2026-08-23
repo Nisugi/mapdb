@@ -1,5 +1,4 @@
 {
-  "checksum": "a53a7adf27e98f71551f4d775dac3b5e",
   "room": {
     "id": 26874,
     "title": [
@@ -20,10 +19,10 @@
       "26875": "go shop",
       "26876": "north",
       "27648": "go building",
-      "29815": "go stone edifice",
-      "29817": "go stone hut",
-      "29820": "go stone shed",
-      "35189": "go rough shrine"
+      "29815": "go edifice",
+      "29817": "go hut",
+      "29820": "go shed",
+      "35189": "go shrine"
     },
     "timeto": {
       "26871": 0.2,
@@ -35,12 +34,6 @@
       "29820": 0.2,
       "35189": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214518
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       571,
@@ -48,6 +41,12 @@
       601,
       411
     ],
-    "check_location": false
+    "tags": [
+      "no forageables"
+    ],
+    "check_location": false,
+    "uid": [
+      8214518
+    ]
   }
 }

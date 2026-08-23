@@ -1,5 +1,4 @@
 {
-  "checksum": "052ecc3e4057facde097d19ec77df735",
   "room": {
     "id": 22359,
     "title": [
@@ -26,21 +25,21 @@
       "22354": 0.2,
       "22360": 0.2,
       "22379": 0.2,
-      "22419": "/rooms/22359/timeto/stringproc-22419.rb",
+      "22419": ";e Stats.race == 'Giantman' ? 0.2 : nil",
       "34949": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      13125003
-    ],
     "image": "en-ta_illistim-embassies-1405076623.png",
     "image_coords": [
       541,
       685,
       617,
       760
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      13125003
     ]
   }
 }

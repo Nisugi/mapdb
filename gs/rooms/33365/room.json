@@ -1,5 +1,4 @@
 {
-  "checksum": "2d009268e8b77341f7ece109ec8850a7",
   "room": {
     "id": 33365,
     "title": [
@@ -14,7 +13,7 @@
     "location": "Spindrift Sanctuary, inside the glacier-locked town of Icemule Trace",
     "wayto": {
       "3197": "go stone-lined path",
-      "33366": "/rooms/33365/wayto/stringproc-33366.rb"
+      "33366": ";e if GameObj.inv.find {|obj| obj.noun == \"key\"};fput \"go entryway\";else;empty_hand;multifput \"get my #{UserVars.spindrift} from my #{UserVars.keysack}\",\"go entryway\",\"put my key in my #{UserVars.keysack}\";fill_hand;end"
     },
     "timeto": {
       "3197": 0.2,

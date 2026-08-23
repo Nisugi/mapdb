@@ -1,5 +1,4 @@
 {
-  "checksum": "2c5c57ce2512b336fabc4d7275685de5",
   "room": {
     "id": 24549,
     "title": [
@@ -15,7 +14,7 @@
     "location": "Duskruin Arena",
     "wayto": {
       "24547": "northwest",
-      "24548": "west",
+      "24548": "swim west",
       "26093": "southwest"
     },
     "timeto": {
@@ -23,15 +22,15 @@
       "24548": 0.2,
       "26093": 0.2
     },
-    "uid": [
-      8213604
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       1353,
       434,
       1363,
       442
+    ],
+    "uid": [
+      8213604
     ]
   }
 }

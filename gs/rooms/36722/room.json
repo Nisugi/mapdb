@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36722,
+    "title": [
+      "[Raincail's Armory]"
+    ],
+    "description": [
+      "Plain wooden walls rise from an unfinished wooden floor.  Just above a worn rug hangs a tattered merchant permit, and an uneven wooden ceiling completes the picture.  A plain wooden table and a simple wooden shelf stand side by side in the middle of the room."
+    ],
+    "paths": [
+      "Obvious exits: south"
+    ],
+    "location": "River's Rest",
+    "wayto": {
+      "36721": "s"
+    },
+    "timeto": {
+      "36721": 0.2
+    },
+    "uid": [
+      641315
+    ]
+  }
+}

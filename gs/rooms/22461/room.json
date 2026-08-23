@@ -1,5 +1,4 @@
 {
-  "checksum": "4c9e957620901e83aae92b03c371cee2",
   "room": {
     "id": 22461,
     "title": [
@@ -16,14 +15,21 @@
     "terrain": "grassland",
     "wayto": {
       "4639": "out",
-      "30717": "/rooms/22461/wayto/stringproc-30717.rb",
+      "30717": ";e true",
       "33261": "go maple stable"
     },
     "timeto": {
       "4639": 0.2,
-      "30717": "/rooms/22461/timeto/stringproc-30717.rb",
+      "30717": ";e Map[7].timeto['30714'].call;",
       "33261": 0.2
     },
+    "image": "en-cysaegir-1679641246.png",
+    "image_coords": [
+      25,
+      377,
+      49,
+      401
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -65,13 +71,6 @@
     ],
     "uid": [
       12010001
-    ],
-    "image": "en-cysaegir-1679641246.png",
-    "image_coords": [
-      25,
-      377,
-      49,
-      401
     ]
   }
 }

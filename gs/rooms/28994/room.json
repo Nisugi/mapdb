@@ -1,5 +1,4 @@
 {
-  "checksum": "79458037a742d350552412fdcabbf891",
   "room": {
     "id": 28994,
     "title": [
@@ -14,11 +13,11 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28902": "out",
-      "30716": "/rooms/28994/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28902": 0.2,
-      "30716": "/rooms/28994/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "boatswain",

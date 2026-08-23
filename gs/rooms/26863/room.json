@@ -1,5 +1,4 @@
 {
-  "checksum": "b359e701b9c21cfed7b44d9aa3c04f6d",
   "room": {
     "id": 26863,
     "title": [
@@ -23,7 +22,7 @@
       "29847": "go airship",
       "29850": "go grey tent",
       "29851": "go black tent",
-      "29852": "go dark pavilion",
+      "29852": "go pavilion",
       "35194": "go ivory shop"
     },
     "timeto": {
@@ -37,18 +36,18 @@
       "29852": 0.2,
       "35194": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214534
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       621,
       621,
       652,
       652
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      8214534
     ]
   }
 }

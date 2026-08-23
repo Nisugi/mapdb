@@ -1,5 +1,4 @@
 {
-  "checksum": "25f28e11191fb2f560d0112bb5d395c4",
   "room": {
     "id": 34434,
     "title": [
@@ -14,11 +13,11 @@
     "location": "Cuddfan Hollow, inside the Northern Caravansary on the outskirts of Wehnimer's Landing",
     "wayto": {
       "9249": "go track",
-      "34435": "/rooms/34434/wayto/stringproc-34435.rb"
+      "34435": ";e refill_hand = false;key_worn = false;\n  (refill_hand = true;empty_hand) if !checkleft.nil? and !checkright.nil?;\n  key_worn = true if GameObj.inv.find {|obj| obj.name =~ /#{UserVars.key.split(' ').join('.*?')}/};\n  fput \"remove my #{UserVars.key}\" if key_worn;\n  fput \"get my #{UserVars.key} from my #{UserVars.key_sack}\" if !key_worn;\n  door = 'bright door';\n  multifput \"unlock #{door}\",\"open #{door}\",\"go #{door}\",\"close #{door}\",\"lock #{door}\";\n  fput \"wear my #{UserVars.key}\" if key_worn;\n  fput \"put my #{UserVars.key} in my #{UserVars.key_sack}\" if !key_worn;\n  fill_hand if refill_hand;"
     },
     "timeto": {
       "9249": 0.2,
-      "34435": "/rooms/34434/timeto/stringproc-34435.rb"
+      "34435": ";e (UserVars.Cuddfan_Hollow.to_s != 'true' ? nil : 0.2)"
     },
     "tags": [
       "private property"

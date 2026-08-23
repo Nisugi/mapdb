@@ -1,5 +1,4 @@
 {
-  "checksum": "afbe8c7200c98f281067a697765596c6",
   "room": {
     "id": 6328,
     "title": [
@@ -22,9 +21,16 @@
     },
     "timeto": {
       "6327": 0.2,
-      "6329": "/rooms/6328/timeto/stringproc-6329.rb",
+      "6329": ";e ((!defined?(Stats.prof) or Stats.prof == 'Wizard') ? 0.2 : nil);",
       "9399": 0.2
     },
+    "image": "wl-wizard_guild.jpg",
+    "image_coords": [
+      317,
+      616,
+      366,
+      663
+    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-11",
@@ -34,13 +40,6 @@
     ],
     "uid": [
       681001
-    ],
-    "image": "wl-wizard_guild.jpg",
-    "image_coords": [
-      317,
-      616,
-      366,
-      663
     ]
   }
 }

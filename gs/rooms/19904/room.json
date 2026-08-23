@@ -1,5 +1,4 @@
 {
-  "checksum": "ace06ef408871f79e83d379d2cfed85d",
   "room": {
     "id": 19904,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "19903": "/rooms/19904/wayto/stringproc-19903.rb"
+      "19903": ";e fput 'unlock door'; fput 'open door'; move 'go door'"
     },
     "timeto": {
       "19903": 0.6

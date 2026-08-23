@@ -1,5 +1,4 @@
 {
-  "checksum": "55af88bafd3c3975967fc2caada2124a",
   "room": {
     "id": 26844,
     "title": [
@@ -21,7 +20,7 @@
       "26867": "north",
       "31410": "go ramshackle structure",
       "33312": "go building",
-      "35179": "go birch structure"
+      "35179": "go structure"
     },
     "timeto": {
       "26836": 0.2,
@@ -31,18 +30,18 @@
       "33312": 0.2,
       "35179": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214526
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       772,
       622,
       802,
       651
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      8214526
     ]
   }
 }

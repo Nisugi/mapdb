@@ -1,5 +1,4 @@
 {
-  "checksum": "52a76bce86e5e11d4ee92027566d6098",
   "room": {
     "id": 14614,
     "title": [
@@ -24,10 +23,10 @@
     "climate": "temperate",
     "terrain": "deciduous",
     "wayto": {
-      "9377": "/rooms/14614/wayto/stringproc-9377.rb"
+      "9377": ";e move checkpaths[rand(checkpaths.length)] until checkpaths.include?('out')"
     },
     "timeto": {
-      "9377": 1
+      "9377": 1.0
     },
     "tags": [
       "acantha leaf",

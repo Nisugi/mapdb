@@ -1,5 +1,4 @@
 {
-  "checksum": "e0c2f944851225292821827d05ec363d",
   "room": {
     "id": 13920,
     "title": [
@@ -20,7 +19,7 @@
       "13931": "northwest",
       "13936": "southwest",
       "13939": "northeast",
-      "23281": "/rooms/13920/wayto/stringproc-23281.rb",
+      "23281": ";e move('go doorframe');UserVars.mapdb_talondown_origin = 13920;",
       "32816": "go pavilion"
     },
     "timeto": {
@@ -32,6 +31,13 @@
       "23281": 0.4,
       "32816": 0.2
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      255,
+      738,
+      346,
+      826
+    ],
     "tags": [
       "angelica root",
       "ayana leaf",
@@ -177,13 +183,6 @@
     ],
     "uid": [
       14200006
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      255,
-      738,
-      346,
-      826
     ]
   }
 }

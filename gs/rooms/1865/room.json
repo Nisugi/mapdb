@@ -1,5 +1,4 @@
 {
-  "checksum": "aa1f44dfadba93d73aef1c27e6ecd973",
   "room": {
     "id": 1865,
     "title": [
@@ -19,14 +18,21 @@
       "1848": "north",
       "1866": "west",
       "1878": "south",
-      "30715": "/rooms/1865/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1848": 0.2,
       "1866": 0.2,
       "1878": 0.2,
-      "30715": "/rooms/1865/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "ti-teras-1264234799.png",
+    "image_coords": [
+      378,
+      745,
+      414,
+      781
+    ],
     "tags": [
       "grocer",
       "meta:forage-sensed",
@@ -37,13 +43,6 @@
     ],
     "uid": [
       3002021
-    ],
-    "image": "ti-teras-1264234799.png",
-    "image_coords": [
-      378,
-      745,
-      414,
-      781
     ]
   }
 }

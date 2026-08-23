@@ -1,5 +1,4 @@
 {
-  "checksum": "061a107adcef238bd3c6c424d5f2e822",
   "room": {
     "id": 384,
     "title": [
@@ -14,7 +13,7 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "383": "northwest",
-      "23976": "/rooms/384/wayto/stringproc-23976.rb"
+      "23976": ";e multifput 'search', 'go trapdoor'"
     },
     "timeto": {
       "383": 0.2,

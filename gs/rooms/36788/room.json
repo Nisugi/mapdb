@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36788,
+    "title": [
+      "[Tempest Queen, Second Deck]"
+    ],
+    "description": [
+      "Plush carpet runners muffle the sounds of constant foot traffic between the lounges and entertainments on this level and the main deck below.  Tucked into dimly lit alcoves along the hallway, velvet-cushioned settees invite respite and casual conversation.  On the starboard side, a gilded plaque is mounted on a burnished mahogany door."
+    ],
+    "paths": [
+      "Obvious exits: south, down"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36787": "down",
+      "36789": "south"
+    },
+    "timeto": {
+      "36787": 0.2,
+      "36789": 0.2
+    },
+    "uid": [
+      7134110
+    ]
+  }
+}

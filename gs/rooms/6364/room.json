@@ -1,5 +1,4 @@
 {
-  "checksum": "ec0e51c99c5f814102816cd1cd6dc163",
   "room": {
     "id": 6364,
     "title": [
@@ -14,13 +13,20 @@
     ],
     "location": "The Hidden Plateau",
     "wayto": {
-      "6245": "/rooms/6364/wayto/stringproc-6245.rb",
+      "6245": ";e move 'go door'",
       "6365": "west"
     },
     "timeto": {
-      "6245": 30,
+      "6245": 30.0,
       "6365": 0.2
     },
+    "image": "wl-wehntoph-1310775397.png",
+    "image_coords": [
+      1111,
+      493,
+      1129,
+      511
+    ],
     "tags": [
       "black hook mushroom",
       "blue trafel mushroom",
@@ -35,13 +41,6 @@
     ],
     "uid": [
       2167101
-    ],
-    "image": "wl-wehntoph-1310775397.png",
-    "image_coords": [
-      1111,
-      493,
-      1129,
-      511
     ]
   }
 }

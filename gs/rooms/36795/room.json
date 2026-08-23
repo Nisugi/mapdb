@@ -1,0 +1,31 @@
+{
+  "room": {
+    "id": 36795,
+    "title": [
+      "[Derelict Queen, Main Deck]"
+    ],
+    "description": [
+      "Ivory canvas sails stretch above the oak and teak floor, the tall masts casting shadows across the incarnadine ramp framed by knotted hemp ropes.  A rope-entwined ironwood staircase leads upwards to a velvet-curtained archway flanked by iron-forged windows, the sea glass geometry highlighted by slivers of nacreous shells, each cluster of glass forming images of sealife.  Affixed across the masts are weblike lengths of ebony netting, the ladders anchored to curved eahnor hooks set at various intervals."
+    ],
+    "paths": [
+      "Obvious paths: north"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36794": "go ramp",
+      "36796": "north",
+      "36798": "go staircase"
+    },
+    "timeto": {
+      "36794": 0.2,
+      "36796": 0.2,
+      "36798": 0.2
+    },
+    "tags": [
+      "cages"
+    ],
+    "uid": [
+      7134143
+    ]
+  }
+}

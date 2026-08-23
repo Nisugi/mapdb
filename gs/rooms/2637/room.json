@@ -1,5 +1,4 @@
 {
-  "checksum": "cc57bfb314772af825488e9f384eca64",
   "room": {
     "id": 2637,
     "title": [
@@ -15,13 +14,20 @@
     "wayto": {
       "2635": "northeast",
       "2638": "southeast",
-      "2639": "/rooms/2637/wayto/stringproc-2639.rb"
+      "2639": ";e move 'go lake'"
     },
     "timeto": {
       "2635": 0.2,
       "2638": 0.2,
       "2639": 0.2
     },
+    "image": "imt-pinefar-1264234799.png",
+    "image_coords": [
+      114,
+      174,
+      122,
+      182
+    ],
     "tags": [
       "bur-clover root",
       "meta:forage-sensed",
@@ -30,13 +36,6 @@
     ],
     "uid": [
       4562034
-    ],
-    "image": "imt-pinefar-1264234799.png",
-    "image_coords": [
-      114,
-      174,
-      122,
-      182
     ]
   }
 }

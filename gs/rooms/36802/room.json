@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36802,
+    "title": [
+      "[Coalescence, Dark Chamber]"
+    ],
+    "description": [
+      "This end of the chamber tapers toward a series of gouges in the misshapen walls.  The skeletal remains of a large, serpentine beast lie just below the gouges, its twisted length partially sunken into the muddy floor."
+    ],
+    "paths": [
+      "Obvious exits: southwest"
+    ],
+    "location": "Bloodriven Village",
+    "wayto": {
+      "36800": "southwest"
+    },
+    "timeto": {
+      "36800": 0.2
+    },
+    "uid": [
+      8212886
+    ]
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "checksum": "1fbd225f988ec5b386ca37a97f79ae77",
   "room": {
     "id": 6152,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "temperate",
     "terrain": "grassland",
     "wayto": {
-      "6141": "/rooms/6152/wayto/stringproc-6141.rb",
+      "6141": ";e empty_hands; move 'climb landslide'; waitrt?; fill_hands",
       "6153": "south",
       "6156": "north"
     },
@@ -24,6 +23,13 @@
       "6153": 0.2,
       "6156": 0.2
     },
+    "image": "wl-wehntoph-1310775397.png",
+    "image_coords": [
+      543,
+      818,
+      579,
+      854
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -140,13 +146,6 @@
     ],
     "uid": [
       2167019
-    ],
-    "image": "wl-wehntoph-1310775397.png",
-    "image_coords": [
-      543,
-      818,
-      579,
-      854
     ]
   }
 }

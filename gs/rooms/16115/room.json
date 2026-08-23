@@ -1,5 +1,4 @@
 {
-  "checksum": "1adbfa9c25a6b2ec5b0abcd3fcf1a160",
   "room": {
     "id": 16115,
     "title": [
@@ -18,13 +17,20 @@
     "wayto": {
       "16016": "north",
       "26180": "go bore",
-      "30711": "/rooms/16115/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "16016": 0.2,
       "26180": 0.2,
-      "30711": "/rooms/16115/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      2691,
+      1613,
+      2713,
+      1635
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -98,13 +104,6 @@
     ],
     "uid": [
       2104401
-    ],
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      2691,
-      1613,
-      2713,
-      1635
     ]
   }
 }

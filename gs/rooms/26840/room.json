@@ -1,5 +1,4 @@
 {
-  "checksum": "e48904ac28e88f3aaab5e7dae118c8e2",
   "room": {
     "id": 26840,
     "title": [
@@ -22,8 +21,8 @@
       "26838": "northeast",
       "26841": "go tavern",
       "26850": "south",
-      "35182": "go black hatch",
-      "35191": "go grey building"
+      "35182": "go hatch",
+      "35191": "go building"
     },
     "timeto": {
       "23822": 0.2,
@@ -34,18 +33,18 @@
       "35182": 0.2,
       "35191": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214523
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       863,
       712,
       891,
       740
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      8214523
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "da81357b294cdb027c888e0a27fbde90",
   "room": {
     "id": 10874,
     "title": [
@@ -19,7 +18,8 @@
       "10876": "northwest",
       "10877": "southwest",
       "16040": "go warehouse",
-      "33583": "go clapboard building"
+      "33583": "go clapboard building",
+      "36721": "go simple shop"
     },
     "timeto": {
       "10873": 0.2,
@@ -27,8 +27,16 @@
       "10876": 0.2,
       "10877": 0.2,
       "16040": 0.2,
-      "33583": 0.2
+      "33583": 0.2,
+      "36721": 0.2
     },
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      2507,
+      666,
+      2528,
+      688
+    ],
     "tags": [
       "acantha leaf",
       "banana leaf",
@@ -101,13 +109,6 @@
     ],
     "uid": [
       734005
-    ],
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      2507,
-      666,
-      2528,
-      688
     ]
   }
 }

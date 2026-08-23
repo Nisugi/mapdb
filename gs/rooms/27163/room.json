@@ -1,5 +1,4 @@
 {
-  "checksum": "d570b3589717b9af5588f2d92b4c1b98",
   "room": {
     "id": 27163,
     "title": [
@@ -11,9 +10,9 @@
     "paths": [
       "Obvious exits: southwest"
     ],
-    "location": false,
+    "location": "Bloodriven Village",
     "wayto": {
-      "27162": "southwest"
+      "27162": "swim southwest"
     },
     "timeto": {
       "27162": 0.2
@@ -21,6 +20,9 @@
     "tags": [
       "Silent Investor",
       "tactician"
+    ],
+    "uid": [
+      8215002
     ]
   }
 }
