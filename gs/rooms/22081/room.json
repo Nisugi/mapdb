@@ -1,4 +1,5 @@
 {
+  "checksum": "5f3f9776c812abf1e772187d733b1ec5",
   "room": {
     "id": 22081,
     "title": [
@@ -23,13 +24,6 @@
       "22083": 0.2,
       "24052": 0.2
     },
-    "image": "wl-house_paupers.jpg",
-    "image_coords": [
-      447,
-      561,
-      529,
-      615
-    ],
     "tags": [
       "meta:che:House of Paupers",
       "meta:forage-sensed",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       104004
+    ],
+    "image": "wl-house_paupers.jpg",
+    "image_coords": [
+      447,
+      561,
+      529,
+      615
     ]
   }
 }

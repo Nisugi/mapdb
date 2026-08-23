@@ -1,4 +1,5 @@
 {
+  "checksum": "da631d690c1ec208f763ff76c9b95aaf",
   "room": {
     "id": 11017,
     "title": [
@@ -15,20 +16,13 @@
     "wayto": {
       "11016": "west",
       "17348": "go gate",
-      "30711": ";e true"
+      "30711": "/rooms/11017/wayto/stringproc-30711.rb"
     },
     "timeto": {
       "11016": 0.2,
-      "17348": ";e ((!defined?(Stats.prof) or Stats.prof == 'Warrior') ? 0.2 : nil);",
-      "30711": ";e Map[7].timeto['30714'].call;"
+      "17348": "/rooms/11017/timeto/stringproc-17348.rb",
+      "30711": "/rooms/11017/timeto/stringproc-30711.rb"
     },
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      2398,
-      1865,
-      2420,
-      1887
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -41,6 +35,13 @@
     ],
     "uid": [
       253001
+    ],
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      2398,
+      1865,
+      2420,
+      1887
     ]
   }
 }

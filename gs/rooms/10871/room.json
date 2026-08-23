@@ -1,4 +1,5 @@
 {
+  "checksum": "90121e2b22e78fc2aff616a1356e5157",
   "room": {
     "id": 10871,
     "title": [
@@ -22,13 +23,6 @@
       "10868": 0.2,
       "11002": 0.2
     },
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      2605,
-      846,
-      2646,
-      886
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-08",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       2101051
+    ],
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      2605,
+      846,
+      2646,
+      886
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "6e57d38fd5eb3ec872b1a51b9138a517",
   "room": {
     "id": 19970,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "19948": ";e fput \"search\";fput \"go stone passageway\"",
+      "19948": "/rooms/19970/wayto/stringproc-19948.rb",
       "19969": "west"
     },
     "timeto": {
       "19948": 0.2,
       "19969": 0.2
     },
-    "image": "wl-museum-1487435869.png",
-    "image_coords": [
-      1804,
-      1033,
-      1947,
-      1093
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       28138
+    ],
+    "image": "wl-museum-1487435869.png",
+    "image_coords": [
+      1804,
+      1033,
+      1947,
+      1093
     ]
   }
 }

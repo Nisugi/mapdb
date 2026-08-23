@@ -1,4 +1,5 @@
 {
+  "checksum": "2b379608abb897ed97101c8e2c1d1ab4",
   "room": {
     "id": 35861,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "the River Muagh",
     "wayto": {
-      "35860": ";e move('push west')",
-      "35862": ";e move('push south')"
+      "35860": "/rooms/35861/wayto/stringproc-35860.rb",
+      "35862": "/rooms/35861/wayto/stringproc-35862.rb"
     },
     "timeto": {
       "35860": 0.2,
       "35862": 0.2
     },
-    "image": "ti-kragnek_dzu-1761314324.png",
-    "image_coords": [
-      263,
-      955,
-      301,
-      993
-    ],
     "tags": [
       "broken twig",
       "bur-clover root",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       3024016
+    ],
+    "image": "ti-kragnek_dzu-1761314324.png",
+    "image_coords": [
+      263,
+      955,
+      301,
+      993
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "312ad10cd3041f20464b8d539185767a",
   "room": {
     "id": 22666,
     "title": [
@@ -12,8 +13,8 @@
     ],
     "location": false,
     "wayto": {
-      "22571": ";e fput \"lie\";move \"crawl boulder-blocked passageway\";waitrt",
-      "24233": ";e 10.times { fput 'stand' unless standing?; waitrt? }; fput 'go ladder'; if celerity = Spell[506] and celerity.known? and celerity.affordable? and not celerity.active?; celerity.cast; end; 10.times { res = dothistimeout 'search', 3, /own leg|You take small comfort|find nothing|low opening/; break if res !~ /low opening/}; move 'go opening'"
+      "22571": "/rooms/22666/wayto/stringproc-22571.rb",
+      "24233": "/rooms/22666/wayto/stringproc-24233.rb"
     },
     "timeto": {
       "22571": 0.2,

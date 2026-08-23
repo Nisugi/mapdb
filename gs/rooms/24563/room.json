@@ -1,4 +1,5 @@
 {
+  "checksum": "1c2644bb0c1d23ee60463430a3521ed1",
   "room": {
     "id": 24563,
     "title": [
@@ -17,13 +18,6 @@
     "timeto": {
       "24562": 0.2
     },
-    "image": "wl-black_wolves_manor.png",
-    "image_coords": [
-      579,
-      564,
-      606,
-      592
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -32,6 +26,13 @@
     ],
     "uid": [
       18002010
+    ],
+    "image": "wl-black_wolves_manor.png",
+    "image_coords": [
+      579,
+      564,
+      606,
+      592
     ]
   }
 }

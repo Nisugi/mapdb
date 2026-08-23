@@ -1,4 +1,5 @@
 {
+  "checksum": "704ffb7b92df884c813bff7f3ef471f7",
   "room": {
     "id": 6484,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "6481": ";e empty_hands; while Room.current == Room[6484]; put 'swim opening'; sleep 1; waitrt?; end; fill_hands",
+      "6481": "/rooms/6484/wayto/stringproc-6481.rb",
       "6485": "go narrow beach"
     },
     "timeto": {
       "6481": 0.2,
       "6485": 0.2
     },
-    "image": "wl-lysierian-1264234799.png",
-    "image_coords": [
-      513,
-      1005,
-      523,
-      1015
-    ],
     "tags": [
       "bur-clover root",
       "meta:forage-sensed",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       95153
+    ],
+    "image": "wl-lysierian-1264234799.png",
+    "image_coords": [
+      513,
+      1005,
+      523,
+      1015
     ]
   }
 }

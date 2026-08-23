@@ -1,4 +1,5 @@
 {
+  "checksum": "96cfb9dfcc3bc54fad3a89279f3ddb76",
   "room": {
     "id": 24961,
     "title": [
@@ -14,25 +15,25 @@
     "wayto": {
       "24960": "west",
       "24962": "go walkway",
-      "33448": ";e multifput 'search', 'go concealed door'"
+      "33448": "/rooms/24961/wayto/stringproc-33448.rb"
     },
     "timeto": {
       "24960": 0.2,
       "24962": 0.2,
       "33448": 0.2
     },
+    "tags": [
+      "meta:che:House of the Argent Aspis"
+    ],
+    "uid": [
+      102024
+    ],
     "image": "wl-argent_aspis-1680542112.png",
     "image_coords": [
       1651,
       1129,
       1807,
       1224
-    ],
-    "tags": [
-      "meta:che:House of the Argent Aspis"
-    ],
-    "uid": [
-      102024
     ]
   }
 }

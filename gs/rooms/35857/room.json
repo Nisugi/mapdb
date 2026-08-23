@@ -1,4 +1,5 @@
 {
+  "checksum": "2413d69980714699c3d42f4609c4505e",
   "room": {
     "id": 35857,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "the River Muagh",
     "wayto": {
-      "35856": ";e move('push south')",
-      "35858": ";e move('push north')"
+      "35856": "/rooms/35857/wayto/stringproc-35856.rb",
+      "35858": "/rooms/35857/wayto/stringproc-35858.rb"
     },
     "timeto": {
       "35856": 0.2,
       "35858": 0.2
     },
-    "image": "ti-kragnek_dzu-1761314324.png",
-    "image_coords": [
-      96,
-      1181,
-      133,
-      1217
-    ],
     "tags": [
       "bolmara lichen",
       "meta:forage-sensed",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       3024005
+    ],
+    "image": "ti-kragnek_dzu-1761314324.png",
+    "image_coords": [
+      96,
+      1181,
+      133,
+      1217
     ]
   }
 }

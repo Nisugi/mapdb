@@ -1,4 +1,5 @@
 {
+  "checksum": "c9038d55c883d0df271fb419929c4a36",
   "room": {
     "id": 12306,
     "title": [
@@ -15,12 +16,12 @@
     "wayto": {
       "3673": "go glass-centered door",
       "16352": "go rosewood arch",
-      "30718": ";e true"
+      "30718": "/rooms/12306/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "3673": 0.2,
       "16352": 0.2,
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "30718": "/rooms/12306/timeto/stringproc-30718.rb"
     },
     "tags": [
       "meta:forage-sensed",

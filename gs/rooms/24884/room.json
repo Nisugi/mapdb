@@ -1,4 +1,5 @@
 {
+  "checksum": "91e775db63867d20b977fb413f823f71",
   "room": {
     "id": 24884,
     "title": [
@@ -12,20 +13,20 @@
     ],
     "location": "the Settlement of Reim",
     "wayto": {
-      "24887": ";e move \"climb chains\""
+      "24887": "/rooms/24884/wayto/stringproc-24887.rb"
     },
     "timeto": {
-      "24887": 2.0
+      "24887": 2
     },
+    "uid": [
+      -7105002
+    ],
     "image": "imt-Reim-1260914759.png",
     "image_coords": [
       670,
       968,
       684,
       981
-    ],
-    "uid": [
-      -7105002
     ]
   }
 }

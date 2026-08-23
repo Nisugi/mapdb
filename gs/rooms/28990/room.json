@@ -1,4 +1,5 @@
 {
+  "checksum": "e4ea6dc28f1e239a0f72239b536c4b29",
   "room": {
     "id": 28990,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28981": "go doors",
-      "30716": ";e true"
+      "30716": "/rooms/28990/wayto/stringproc-30716.rb"
     },
     "timeto": {
       "28981": 0.2,
-      "30716": ";e Map[7].timeto['30714'].call;"
+      "30716": "/rooms/28990/timeto/stringproc-30716.rb"
     },
     "tags": [
       "bright pink protea",

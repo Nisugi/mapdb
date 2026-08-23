@@ -1,4 +1,5 @@
 {
+  "checksum": "d218069470f0331cff084e1e49511fac",
   "room": {
     "id": 24979,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "24980": ";e multifput 'touch rock', 'go gaping hole'"
+      "24980": "/rooms/24979/wayto/stringproc-24980.rb"
     },
     "timeto": {
       "24980": 0.2

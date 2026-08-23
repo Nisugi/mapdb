@@ -1,4 +1,5 @@
 {
+  "checksum": "5611ccf788f226da2cb36225d82925aa",
   "room": {
     "id": 23208,
     "title": [
@@ -12,22 +13,15 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "17682": ";e fput 'search'; waitrt?; fput 'search'; move 'go trapdoor'",
+      "17682": "/rooms/23208/wayto/stringproc-17682.rb",
       "23206": "south",
       "23207": "north"
     },
     "timeto": {
-      "17682": 3.0,
+      "17682": 3,
       "23206": 0.2,
       "23207": 0.2
     },
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      1072,
-      1082,
-      1111,
-      1122
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       5001058
+    ],
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      1072,
+      1082,
+      1111,
+      1122
     ]
   }
 }

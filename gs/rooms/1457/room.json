@@ -1,4 +1,5 @@
 {
+  "checksum": "5ebf9c334979d758bbf7a9db2bc050bf",
   "room": {
     "id": 1457,
     "title": [
@@ -20,15 +21,8 @@
     },
     "timeto": {
       "1456": 0.2,
-      "33283": ";e ((Char.citizenship == \"Solhaven\" or !UserVars.mapdb_allow_vornavis.nil?) ? 10.0 : nil);"
+      "33283": "/rooms/1457/timeto/stringproc-33283.rb"
     },
-    "image": "vo-solhaven-1675635404.png",
-    "image_coords": [
-      1307,
-      576,
-      1331,
-      600
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-08",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       4209036
+    ],
+    "image": "vo-solhaven-1675635404.png",
+    "image_coords": [
+      1307,
+      576,
+      1331,
+      600
     ]
   }
 }

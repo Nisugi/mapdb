@@ -1,4 +1,5 @@
 {
+  "checksum": "73531588beb209257d0cbf13f84b189f",
   "room": {
     "id": 17747,
     "title": [
@@ -14,18 +15,11 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "3582": ";e unless (move 'go door'); echo 'Waiting for the door to open... '; waitfor 'You hear a soft click from the door and it suddenly flies open.'; move 'go door'; end"
+      "3582": "/rooms/17747/wayto/stringproc-3582.rb"
     },
     "timeto": {
       "3582": 0.2
     },
-    "image": "wl-stronghold-1264234799.png",
-    "image_coords": [
-      508,
-      383,
-      518,
-      393
-    ],
     "tags": [
       "ironfern root",
       "meta:forage-sensed",
@@ -33,6 +27,13 @@
     ],
     "uid": [
       4292034
+    ],
+    "image": "wl-stronghold-1264234799.png",
+    "image_coords": [
+      508,
+      383,
+      518,
+      393
     ]
   }
 }

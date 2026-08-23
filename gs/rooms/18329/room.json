@@ -1,4 +1,5 @@
 {
+  "checksum": "b7ee9745f0295dd9700e5c5207cbed98",
   "room": {
     "id": 18329,
     "title": [
@@ -21,18 +22,11 @@
       "18331": "swim southwest"
     },
     "timeto": {
-      "18269": 5.0,
-      "18318": 5.0,
-      "18330": 5.0,
-      "18331": 5.0
+      "18269": 5,
+      "18318": 5,
+      "18330": 5,
+      "18331": 5
     },
-    "image": "ifw-saewehna_lagoon-1525325794.png",
-    "image_coords": [
-      1998,
-      785,
-      2029,
-      812
-    ],
     "tags": [
       "bur-clover root",
       "meta:forage-sensed",
@@ -43,6 +37,13 @@
     ],
     "uid": [
       3210473
+    ],
+    "image": "ifw-saewehna_lagoon-1525325794.png",
+    "image_coords": [
+      1998,
+      785,
+      2029,
+      812
     ]
   }
 }

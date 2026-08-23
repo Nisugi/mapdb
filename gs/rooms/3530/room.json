@@ -1,4 +1,5 @@
 {
+  "checksum": "626479038bf5a7368bf543239dc68c7a",
   "room": {
     "id": 3530,
     "title": [
@@ -23,21 +24,14 @@
       "3529": "south",
       "3531": "north",
       "3533": "east",
-      "26025": ";e fput 'search'; move 'go opening'"
+      "26025": "/rooms/3530/wayto/stringproc-26025.rb"
     },
     "timeto": {
       "3529": 0.2,
       "3531": 0.2,
       "3533": 0.2,
-      "26025": 5.0
+      "26025": 5
     },
-    "image": "en-tavaalor-1565907614.png",
-    "image_coords": [
-      1228,
-      404,
-      1259,
-      440
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -47,6 +41,13 @@
     ],
     "uid": [
       14100021
+    ],
+    "image": "en-tavaalor-1565907614.png",
+    "image_coords": [
+      1228,
+      404,
+      1259,
+      440
     ]
   }
 }

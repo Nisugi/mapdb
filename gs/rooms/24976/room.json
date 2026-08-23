@@ -1,4 +1,5 @@
 {
+  "checksum": "ac04fc97004e7284d5720a40a4d816b5",
   "room": {
     "id": 24976,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "24975": "east",
-      "24979": ";e fput 'lie tomb';dothistimeout 'sleep', 3, /^As you start to drift into unconsciousness/;wait_until{stunned?};echo '** Waiting for stunned status to end... **';wait_until{!stunned?};fput 'stand' until standing?"
+      "24979": "/rooms/24976/wayto/stringproc-24979.rb"
     },
     "timeto": {
       "24975": 0.2,
-      "24979": 2.0
+      "24979": 2
     },
     "tags": [
       "missing"

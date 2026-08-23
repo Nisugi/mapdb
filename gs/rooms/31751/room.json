@@ -1,4 +1,5 @@
 {
+  "checksum": "d5d631f164554506e89b78f62fbd1b9b",
   "room": {
     "id": 31751,
     "title": [
@@ -13,7 +14,7 @@
     "location": "Naidem",
     "wayto": {
       "31750": "go door",
-      "32075": ";e fput \"give attendant 2000\";move(\"go arch\")"
+      "32075": "/rooms/31751/wayto/stringproc-32075.rb"
     },
     "timeto": {
       "31750": 0.2,

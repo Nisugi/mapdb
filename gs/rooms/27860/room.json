@@ -1,4 +1,5 @@
 {
+  "checksum": "f7a7b41f9c2991f49ecfc46daee42787",
   "room": {
     "id": 27860,
     "title": [
@@ -13,19 +14,12 @@
     "location": "Keh'nira Fyr'sah",
     "wayto": {
       "4651": "go staircase",
-      "27864": ";e door='oak door';key=GameObj.inv.find{|k| k.name=='cord-strung delicate brass key';};if !key.nil? then multifput \"remove ##{key.id}\",  \"unlock #{door}\", \"open #{door}\", \"go #{door}\", \"close #{door}\", \"lock #{door}\", \"wear ##{key.id}\"; end;"
+      "27864": "/rooms/27860/wayto/stringproc-27864.rb"
     },
     "timeto": {
       "4651": 0.2,
-      "27864": ";e key=GameObj.inv.find{|k| k.name=='cord-strung delicate brass key';};if !key.nil? then 5 else nil end;"
+      "27864": "/rooms/27860/timeto/stringproc-27864.rb"
     },
-    "image": "en-cysaegir-1679641246.png",
-    "image_coords": [
-      613,
-      689,
-      638,
-      712
-    ],
     "tags": [
       "fire lily",
       "Keh'nira Fyr'sah",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       1303401
+    ],
+    "image": "en-cysaegir-1679641246.png",
+    "image_coords": [
+      613,
+      689,
+      638,
+      712
     ]
   }
 }

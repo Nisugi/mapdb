@@ -1,4 +1,5 @@
 {
+  "checksum": "099c5267d256e707625d4acec2b965fc",
   "room": {
     "id": 10074,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Ta'Illistim",
     "wayto": {
       "10073": "out",
-      "30714": ";e true"
+      "30714": "/rooms/10074/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "10073": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/10074/timeto/stringproc-30714.rb"
     },
     "tags": [
       "fire lily",

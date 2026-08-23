@@ -1,4 +1,5 @@
 {
+  "checksum": "2501f4d9866111f0703afb88c6d8e5b8",
   "room": {
     "id": 21370,
     "title": [
@@ -17,13 +18,6 @@
     "timeto": {
       "19275": 0.2
     },
-    "image": "wl-moot_hall-1486755929.png",
-    "image_coords": [
-      288,
-      1386,
-      429,
-      1448
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -32,9 +26,16 @@
       "meta:teleport:fwi",
       "stalk of bluebells"
     ],
-    "check_location": false,
     "uid": [
       336303
-    ]
+    ],
+    "image": "wl-moot_hall-1486755929.png",
+    "image_coords": [
+      288,
+      1386,
+      429,
+      1448
+    ],
+    "check_location": false
   }
 }

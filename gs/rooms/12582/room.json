@@ -1,4 +1,5 @@
 {
+  "checksum": "ddc1c089cd878818d24800cc6242b331",
   "room": {
     "id": 12582,
     "title": [
@@ -19,20 +20,20 @@
     "timeto": {
       "2053": 0.2,
       "12583": 0.2,
-      "28709": ";e Char.citizenship == \"Teras Isle\" ? 0.2 : nil;"
+      "28709": "/rooms/12582/timeto/stringproc-28709.rb"
     },
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      3010001
+    ],
     "image": "ti-wilds-1643860469.png",
     "image_coords": [
       419,
       315,
       429,
       325
-    ],
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      3010001
     ]
   }
 }

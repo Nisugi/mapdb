@@ -1,4 +1,5 @@
 {
+  "checksum": "0c50eb49968876f29d864aa59e9f571b",
   "room": {
     "id": 26919,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "24055": ";e room = Room.current.id;fput 'go opening'; if ( room == Room.current.id ); fput 'close locker';move 'go opening'; end ; $go2_restart = true"
+      "24055": "/rooms/26919/wayto/stringproc-24055.rb"
     },
     "timeto": {
       "24055": 0.2
@@ -23,9 +24,9 @@
       "meta:locker",
       "meta:nomagic"
     ],
-    "check_location": true,
     "uid": [
       104408
-    ]
+    ],
+    "check_location": true
   }
 }

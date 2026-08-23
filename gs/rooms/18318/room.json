@@ -1,4 +1,5 @@
 {
+  "checksum": "725d2a8e9a6067138785f741d10b604c",
   "room": {
     "id": 18318,
     "title": [
@@ -21,19 +22,12 @@
       "18331": "swim south"
     },
     "timeto": {
-      "18269": 5.0,
+      "18269": 5,
       "18317": 0.2,
-      "18329": 5.0,
-      "18330": 5.0,
-      "18331": 5.0
+      "18329": 5,
+      "18330": 5,
+      "18331": 5
     },
-    "image": "ifw-saewehna_lagoon-1525325794.png",
-    "image_coords": [
-      1955,
-      785,
-      1988,
-      814
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-11",
@@ -42,6 +36,13 @@
     ],
     "uid": [
       3210480
+    ],
+    "image": "ifw-saewehna_lagoon-1525325794.png",
+    "image_coords": [
+      1955,
+      785,
+      1988,
+      814
     ]
   }
 }

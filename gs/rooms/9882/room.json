@@ -1,4 +1,5 @@
 {
+  "checksum": "2601c0d56f872b365d7c31e12eaeafab",
   "room": {
     "id": 9882,
     "title": [
@@ -15,18 +16,11 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "4573": ";e fput 'push door'\nmove 'go door'"
+      "4573": "/rooms/9882/wayto/stringproc-4573.rb"
     },
     "timeto": {
       "4573": 0.2
     },
-    "image": "en-skull-1264234799.png",
-    "image_coords": [
-      554,
-      329,
-      565,
-      339
-    ],
     "tags": [
       "angelica root",
       "deep purple shockroot",
@@ -43,6 +37,13 @@
     ],
     "uid": [
       13302144
+    ],
+    "image": "en-skull-1264234799.png",
+    "image_coords": [
+      554,
+      329,
+      565,
+      339
     ]
   }
 }

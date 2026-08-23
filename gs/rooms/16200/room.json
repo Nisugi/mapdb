@@ -1,4 +1,5 @@
 {
+  "checksum": "0df9930fddbf7b7624bf71d89081f624",
   "room": {
     "id": 16200,
     "title": [
@@ -15,11 +16,11 @@
       "16187": "south",
       "16198": "north",
       "16201": "go door",
-      "18898": ";e table = \"dark elf\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "18899": ";e table = \"shadowguard\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "18900": ";e table = \"darkstone\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "18901": ";e table = \"talbot\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "18902": ";e table = \"drake\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"
+      "18898": "/rooms/16200/wayto/stringproc-18898.rb",
+      "18899": "/rooms/16200/wayto/stringproc-18899.rb",
+      "18900": "/rooms/16200/wayto/stringproc-18900.rb",
+      "18901": "/rooms/16200/wayto/stringproc-18901.rb",
+      "18902": "/rooms/16200/wayto/stringproc-18902.rb"
     },
     "timeto": {
       "16187": 0.2,
@@ -31,13 +32,6 @@
       "18901": 0.2,
       "18902": 0.2
     },
-    "image": "rr-beacon_hall-1405076623.png",
-    "image_coords": [
-      610,
-      466,
-      657,
-      511
-    ],
     "tags": [
       "fire lily",
       "meta:che:Beacon Hall Archive",
@@ -47,6 +41,13 @@
     ],
     "uid": [
       216014
+    ],
+    "image": "rr-beacon_hall-1405076623.png",
+    "image_coords": [
+      610,
+      466,
+      657,
+      511
     ]
   }
 }

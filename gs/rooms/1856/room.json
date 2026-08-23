@@ -1,4 +1,5 @@
 {
+  "checksum": "49cae9316f1dfe6169dc0a160c66b053",
   "room": {
     "id": 1856,
     "title": [
@@ -13,11 +14,11 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "1855": "out",
-      "30715": ";e true"
+      "30715": "/rooms/1856/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "1855": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "30715": "/rooms/1856/timeto/stringproc-30715.rb"
     },
     "tags": [
       "fire lily",

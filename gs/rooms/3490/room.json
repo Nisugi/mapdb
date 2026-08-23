@@ -1,4 +1,5 @@
 {
+  "checksum": "27ad4621401730522a9a73d5bdd229da",
   "room": {
     "id": 3490,
     "title": [
@@ -23,7 +24,7 @@
       "5827": "go gate",
       "13518": "go building",
       "25588": "go ladder",
-      "30713": ";e true"
+      "30713": "/rooms/3490/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "3412": 0.2,
@@ -32,15 +33,8 @@
       "5827": 0.2,
       "13518": 0.2,
       "25588": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/3490/timeto/stringproc-30713.rb"
     },
-    "image": "en-tavaalor-1565907614.png",
-    "image_coords": [
-      1151,
-      253,
-      1184,
-      290
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -53,6 +47,13 @@
     ],
     "uid": [
       14100010
+    ],
+    "image": "en-tavaalor-1565907614.png",
+    "image_coords": [
+      1151,
+      253,
+      1184,
+      290
     ]
   }
 }

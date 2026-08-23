@@ -1,4 +1,5 @@
 {
+  "checksum": "f1c32f12f6438408fb6506d499bf2b9a",
   "room": {
     "id": 25985,
     "title": [
@@ -15,20 +16,13 @@
     "terrain": "cultivated",
     "wayto": {
       "1451": "go mistwood gate",
-      "26834": ";e if GameObj.inv.find {|obj| obj.noun == \"key\"};fput \"go beechwood door\";else;empty_hand;multifput \"get my #{UserVars.journeys_end} from my #{UserVars.keysack}\",\"go beechwood door\",\"put my key in my #{UserVars.keysack}\";fill_hand;end"
+      "26834": "/rooms/25985/wayto/stringproc-26834.rb"
     },
     "timeto": {
       "1451": 0.2,
       "25984": 0.2,
       "26834": 0.2
     },
-    "image": "Journeys_End.jpg",
-    "image_coords": [
-      394,
-      555,
-      607,
-      689
-    ],
     "tags": [
       "angelica root",
       "bay leaf",
@@ -170,6 +164,13 @@
     ],
     "uid": [
       4547201
+    ],
+    "image": "Journeys_End.jpg",
+    "image_coords": [
+      394,
+      555,
+      607,
+      689
     ]
   }
 }

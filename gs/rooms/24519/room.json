@@ -1,4 +1,5 @@
 {
+  "checksum": "88f9fd09fa0074e6318ecf247e314b2d",
   "room": {
     "id": 24519,
     "title": [
@@ -17,20 +18,13 @@
     "wayto": {
       "3111": "go patch",
       "24520": "northwest",
-      "24532": ";e empty_hands\nmove 'climb hillside'\nwaitrt?\nfill_hands"
+      "24532": "/rooms/24519/wayto/stringproc-24532.rb"
     },
     "timeto": {
       "3111": 0.2,
       "24520": 0.2,
       "24532": 0.2
     },
-    "image": "imt-bramble_patch-1307499864.png",
-    "image_coords": [
-      201,
-      291,
-      213,
-      303
-    ],
     "tags": [
       "arctic moss",
       "bright red teaberry",
@@ -51,6 +45,13 @@
     ],
     "uid": [
       4124037
+    ],
+    "image": "imt-bramble_patch-1307499864.png",
+    "image_coords": [
+      201,
+      291,
+      213,
+      303
     ]
   }
 }

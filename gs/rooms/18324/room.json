@@ -1,4 +1,5 @@
 {
+  "checksum": "648163631082178a77bab782423c9e3b",
   "room": {
     "id": 18324,
     "title": [
@@ -22,19 +23,12 @@
       "18333": "swim west"
     },
     "timeto": {
-      "18322": 5.0,
+      "18322": 5,
       "18323": 0.2,
-      "18326": 5.0,
-      "18330": 5.0,
-      "18333": 5.0
+      "18326": 5,
+      "18330": 5,
+      "18333": 5
     },
-    "image": "ifw-saewehna_lagoon-1525325794.png",
-    "image_coords": [
-      2041,
-      900,
-      2070,
-      929
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2024-05",
@@ -43,6 +37,13 @@
     ],
     "uid": [
       3210477
+    ],
+    "image": "ifw-saewehna_lagoon-1525325794.png",
+    "image_coords": [
+      2041,
+      900,
+      2070,
+      929
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "7e5d12c1cce1b0d6b81b873f71973655",
   "room": {
     "id": 2641,
     "title": [
@@ -12,18 +13,11 @@
     ],
     "location": false,
     "wayto": {
-      "2640": ";e move 'swim up'; sleep 1; waitrt?"
+      "2640": "/rooms/2641/wayto/stringproc-2640.rb"
     },
     "timeto": {
-      "2640": 5.0
+      "2640": 5
     },
-    "image": "imt-pinefar-1264234799.png",
-    "image_coords": [
-      38,
-      317,
-      46,
-      325
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:nomagic",
@@ -31,6 +25,13 @@
     ],
     "uid": [
       4562045
+    ],
+    "image": "imt-pinefar-1264234799.png",
+    "image_coords": [
+      38,
+      317,
+      46,
+      325
     ]
   }
 }

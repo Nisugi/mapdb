@@ -1,4 +1,5 @@
 {
+  "checksum": "031441460596c01d9a7719e04ad30efb",
   "room": {
     "id": 22349,
     "title": [
@@ -15,11 +16,11 @@
     "terrain": "hard, flat",
     "wayto": {
       "297": "out",
-      "22444": ";e put \"search\";while line=get;if line=~ /(dead rat|strand of silver hair|broken lockpick|tarnished coin)!$/;put \"search\";elsif line=~/brick-covered trapdoor!$/;put \"go trapdoor\";break;end;end"
+      "22444": "/rooms/22349/wayto/stringproc-22444.rb"
     },
     "timeto": {
       "297": 0.2,
-      "22444": 1.0
+      "22444": 1
     },
     "tags": [
       "fire lily",

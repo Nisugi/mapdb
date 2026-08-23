@@ -1,4 +1,5 @@
 {
+  "checksum": "5829d20d220def48cf804deed4c2036f",
   "room": {
     "id": 11713,
     "title": [
@@ -21,13 +22,6 @@
       "11712": 0.2,
       "11714": 0.2
     },
-    "image": "rr-marsh_keep-1266356986.png",
-    "image_coords": [
-      831,
-      1049,
-      841,
-      1059
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:night:2026-08",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       376043
+    ],
+    "image": "rr-marsh_keep-1266356986.png",
+    "image_coords": [
+      831,
+      1049,
+      841,
+      1059
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "6b8c79907a0e7409c334b6ad3e418fd9",
   "room": {
     "id": 15694,
     "title": [
@@ -13,19 +14,12 @@
     "location": "the town of Icemule Trace",
     "wayto": {
       "3430": "go tapestry",
-      "17964": ";e Map[12421].wayto['14089'].call; # rogue guild proc"
+      "17964": "/rooms/15694/wayto/stringproc-17964.rb"
     },
     "timeto": {
       "3430": 0.2,
-      "17964": ";e if Stats.prof == 'Rogue'; 1.6; else; nil; end"
+      "17964": "/rooms/15694/timeto/stringproc-17964.rb"
     },
-    "image": "imt-rogue_guild-1305438533.png",
-    "image_coords": [
-      499,
-      399,
-      528,
-      424
-    ],
     "tags": [
       "meta:mapcategory:Guilds",
       "meta:mapcategory:Icemule Trace",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       260001
+    ],
+    "image": "imt-rogue_guild-1305438533.png",
+    "image_coords": [
+      499,
+      399,
+      528,
+      424
     ]
   }
 }

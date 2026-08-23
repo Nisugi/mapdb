@@ -1,4 +1,5 @@
 {
+  "checksum": "9b7f0dc2529f97d4910ceefe8086840e",
   "room": {
     "id": 6457,
     "title": [
@@ -23,13 +24,6 @@
       "6418": 0.2,
       "6458": 0.2
     },
-    "image": "wl-lysierian-1264234799.png",
-    "image_coords": [
-      960,
-      345,
-      970,
-      355
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       93083
+    ],
+    "image": "wl-lysierian-1264234799.png",
+    "image_coords": [
+      960,
+      345,
+      970,
+      355
     ]
   }
 }

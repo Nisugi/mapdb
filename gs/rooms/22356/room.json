@@ -1,4 +1,5 @@
 {
+  "checksum": "5094e7d851fcf7d105fa583ab9c120b0",
   "room": {
     "id": 22356,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Ta'Illistim Embassies",
     "wayto": {
       "22355": "north",
-      "22365": ";e table = \"Clerisy\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "22366": ";e table = \"Agrestis\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "22367": ";e table = \"Emporion\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "22368": ";e table = \"Armata\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "22369": ";e table = \"Rachis\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"
+      "22365": "/rooms/22356/wayto/stringproc-22365.rb",
+      "22366": "/rooms/22356/wayto/stringproc-22366.rb",
+      "22367": "/rooms/22356/wayto/stringproc-22367.rb",
+      "22368": "/rooms/22356/wayto/stringproc-22368.rb",
+      "22369": "/rooms/22356/wayto/stringproc-22369.rb"
     },
     "timeto": {
       "22355": 0.2,
@@ -27,15 +28,15 @@
       "22368": 0.2,
       "22369": 0.2
     },
+    "uid": [
+      13125015
+    ],
     "image": "en-ta_illistim-embassies-1405076623.png",
     "image_coords": [
       608,
       500,
       671,
       536
-    ],
-    "uid": [
-      13125015
     ]
   }
 }

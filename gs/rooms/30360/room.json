@@ -1,4 +1,5 @@
 {
+  "checksum": "412d0128f9540fe1efe6b4ae6e8c48b9",
   "room": {
     "id": 30360,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "20588": "north",
-      "30708": ";e true"
+      "30708": "/rooms/30360/wayto/stringproc-30708.rb"
     },
     "timeto": {
       "20588": 0.2,
-      "30708": ";e Map[7].timeto['30714'].call;"
+      "30708": "/rooms/30360/timeto/stringproc-30708.rb"
     },
     "tags": [
       "fire lily",

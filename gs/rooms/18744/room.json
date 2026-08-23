@@ -1,4 +1,5 @@
 {
+  "checksum": "f8d89934e4b4a8aa39a5a311fcedf43b",
   "room": {
     "id": 18744,
     "title": [
@@ -14,22 +15,22 @@
     "wayto": {
       "18734": "northwest",
       "18745": "go opening",
-      "19032": ";e loop { wait_until { Spell[704].affordable? }; result = cast(704, 'rock'); break unless result =~ /Spell Hindrance/ } "
+      "19032": "/rooms/18744/wayto/stringproc-19032.rb"
     },
     "timeto": {
       "18734": 0.2,
       "18745": 0.2,
       "19032": 5.5
     },
+    "uid": [
+      667007
+    ],
     "image": "en-ta_vaalor-sorcerer_guild-1405076623.png",
     "image_coords": [
       766,
       608,
       804,
       645
-    ],
-    "uid": [
-      667007
     ]
   }
 }

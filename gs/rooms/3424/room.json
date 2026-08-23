@@ -1,4 +1,5 @@
 {
+  "checksum": "c13b0d564647c781a36f315ef6ce33dd",
   "room": {
     "id": 3424,
     "title": [
@@ -13,17 +14,17 @@
     "location": "Icemule Trace",
     "wayto": {
       "2389": "go staircase",
-      "3609": ";e table = \"Barn Owl\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "3627": ";e table = \"owlet\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "3631": ";e table = \"Screech Owl\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "3632": ";e table = \"Hoot Owl\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "3821": ";e table = \"White Owl\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "3822": ";e table = \"Spotted Owl\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "3609": "/rooms/3424/wayto/stringproc-3609.rb",
+      "3627": "/rooms/3424/wayto/stringproc-3627.rb",
+      "3631": "/rooms/3424/wayto/stringproc-3631.rb",
+      "3632": "/rooms/3424/wayto/stringproc-3632.rb",
+      "3821": "/rooms/3424/wayto/stringproc-3821.rb",
+      "3822": "/rooms/3424/wayto/stringproc-3822.rb",
       "9006": "go curtain",
-      "17088": ";e table = \"Burrowing Owl\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "17089": ";e table = \"Horned Owl\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "17090": ";e table = \"Winking Owl\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "30709": ";e true"
+      "17088": "/rooms/3424/wayto/stringproc-17088.rb",
+      "17089": "/rooms/3424/wayto/stringproc-17089.rb",
+      "17090": "/rooms/3424/wayto/stringproc-17090.rb",
+      "30709": "/rooms/3424/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "2389": 0.2,
@@ -37,15 +38,8 @@
       "17088": 0.2,
       "17089": 0.2,
       "17090": 0.2,
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "30709": "/rooms/3424/timeto/stringproc-30709.rb"
     },
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      139,
-      877,
-      175,
-      913
-    ],
     "tags": [
       "guard",
       "no forageables",
@@ -57,6 +51,13 @@
     ],
     "uid": [
       4043215
+    ],
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      139,
+      877,
+      175,
+      913
     ]
   }
 }

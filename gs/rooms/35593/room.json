@@ -1,4 +1,5 @@
 {
+  "checksum": "eb191b90b9b8cc6fd3cf0affbfebae2c",
   "room": {
     "id": 35593,
     "title": [
@@ -12,24 +13,17 @@
     ],
     "location": "Sailor's Grief",
     "wayto": {
-      "3668": ";e Map[7].wayto['3668'].call;",
+      "3668": "/rooms/35593/wayto/stringproc-3668.rb",
       "35588": "go hatch",
       "35594": "east",
       "35603": "climb mast"
     },
     "timeto": {
-      "3668": ";e Map[7].timeto['3668'].call;",
+      "3668": "/rooms/35593/timeto/stringproc-3668.rb",
       "35588": 0.2,
       "35594": 0.2,
       "35603": 0.2
     },
-    "image": "Sailors_Grief.jpg",
-    "image_coords": [
-      4360,
-      680,
-      4440,
-      760
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2025-10",
@@ -39,6 +33,13 @@
     ],
     "uid": [
       7150607
+    ],
+    "image": "Sailors_Grief.jpg",
+    "image_coords": [
+      4360,
+      680,
+      4440,
+      760
     ]
   }
 }

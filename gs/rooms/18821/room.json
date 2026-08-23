@@ -1,4 +1,5 @@
 {
+  "checksum": "baff0316a21a29fa055e71de5e8294dd",
   "room": {
     "id": 18821,
     "title": [
@@ -20,17 +21,10 @@
       "18824": "north"
     },
     "timeto": {
-      "14059": 10.0,
-      "18822": 10.0,
-      "18824": 10.0
+      "14059": 10,
+      "18822": 10,
+      "18824": 10
     },
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1198,
-      325,
-      1228,
-      353
-    ],
     "tags": [
       "black peppercorn",
       "blades of cordgrass",
@@ -78,6 +72,13 @@
     ],
     "uid": [
       14202002
+    ],
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1198,
+      325,
+      1228,
+      353
     ]
   }
 }

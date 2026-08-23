@@ -1,4 +1,5 @@
 {
+  "checksum": "1d3c90ce4e653c64e0dad49cd535c903",
   "room": {
     "id": 5826,
     "title": [
@@ -14,12 +15,12 @@
     "wayto": {
       "3485": "out",
       "5825": "go doors",
-      "30713": ";e true"
+      "30713": "/rooms/5826/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "3485": 0.2,
       "5825": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/5826/timeto/stringproc-30713.rb"
     },
     "tags": [
       "inn",

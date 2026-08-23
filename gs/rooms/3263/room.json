@@ -1,4 +1,5 @@
 {
+  "checksum": "6e15a354822857320bef6327b14d467c",
   "room": {
     "id": 3263,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "plain dirt",
     "wayto": {
       "3245": "climb wall",
-      "3262": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'east'"
+      "3262": "/rooms/3263/wayto/stringproc-3262.rb"
     },
     "timeto": {
       "3245": 0.2,
-      "3262": 4.0
+      "3262": 4
     },
-    "image": "imt-east_west_north_gates-1668398077.png",
-    "image_coords": [
-      42,
-      325,
-      52,
-      335
-    ],
     "tags": [
       "acantha leaf",
       "aloeas stem",
@@ -62,6 +56,13 @@
     ],
     "uid": [
       7502011
+    ],
+    "image": "imt-east_west_north_gates-1668398077.png",
+    "image_coords": [
+      42,
+      325,
+      52,
+      335
     ]
   }
 }

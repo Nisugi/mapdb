@@ -1,4 +1,5 @@
 {
+  "checksum": "135101dd78e94c5036526055723c1407",
   "room": {
     "id": 24049,
     "title": [
@@ -19,13 +20,6 @@
     "timeto": {
       "24048": 0.2
     },
-    "image": "wl-faendrylenclave.png",
-    "image_coords": [
-      176,
-      101,
-      215,
-      139
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-08",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       18048010
+    ],
+    "image": "wl-faendrylenclave.png",
+    "image_coords": [
+      176,
+      101,
+      215,
+      139
     ]
   }
 }

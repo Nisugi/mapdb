@@ -1,4 +1,5 @@
 {
+  "checksum": "243bea0ce8d4f4473dc767cb67d1fc2d",
   "room": {
     "id": 30501,
     "title": [
@@ -23,13 +24,6 @@
       "30502": 0.2,
       "30503": 0.2
     },
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1122,
-      571,
-      1141,
-      589
-    ],
     "tags": [
       "aloeas stem",
       "meta:forage-sensed",
@@ -47,6 +41,13 @@
     ],
     "uid": [
       14117003
+    ],
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1122,
+      571,
+      1141,
+      589
     ]
   }
 }

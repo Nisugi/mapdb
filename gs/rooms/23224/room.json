@@ -1,4 +1,5 @@
 {
+  "checksum": "e95471f9ccb2c3945c23a1a759cb26fa",
   "room": {
     "id": 23224,
     "title": [
@@ -17,13 +18,6 @@
     "timeto": {
       "23221": 0.2
     },
-    "image": "imt-WhiteHaven2.png",
-    "image_coords": [
-      920,
-      562,
-      1001,
-      639
-    ],
     "tags": [
       "meta:che:White Haven",
       "meta:forage-sensed",
@@ -32,6 +26,13 @@
     ],
     "uid": [
       213011
+    ],
+    "image": "imt-WhiteHaven2.png",
+    "image_coords": [
+      920,
+      562,
+      1001,
+      639
     ]
   }
 }

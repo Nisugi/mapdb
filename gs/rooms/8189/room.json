@@ -1,4 +1,5 @@
 {
+  "checksum": "06e5eb3216f670490f94b40e73209848",
   "room": {
     "id": 8189,
     "title": [
@@ -21,13 +22,6 @@
       "8188": 0.2,
       "8190": 0.2
     },
-    "image": "wl-mineroad-1264234799.png",
-    "image_coords": [
-      422,
-      564,
-      432,
-      574
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-08",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       20023
+    ],
+    "image": "wl-mineroad-1264234799.png",
+    "image_coords": [
+      422,
+      564,
+      432,
+      574
     ]
   }
 }

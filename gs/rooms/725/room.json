@@ -1,4 +1,5 @@
 {
+  "checksum": "e69346c79f522a6c5ed38c3cdb860148",
   "room": {
     "id": 725,
     "title": [
@@ -24,13 +25,6 @@
       "724": 0.2,
       "3546": 0.2
     },
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      1539,
-      529,
-      1559,
-      550
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-08",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       13100039
+    ],
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      1539,
+      529,
+      1559,
+      550
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "daa7caccf8dca82332c514d409a82cfc",
   "room": {
     "id": 16191,
     "title": [
@@ -12,18 +13,11 @@
     ],
     "location": "Maelstrom Bay",
     "wayto": {
-      "16192": ";e fput 'search'; fput 'search'; move 'go crevice'"
+      "16192": "/rooms/16191/wayto/stringproc-16192.rb"
     },
     "timeto": {
       "16192": 1.6
     },
-    "image": "rr-beacon_hall-1405076623.png",
-    "image_coords": [
-      131,
-      364,
-      177,
-      409
-    ],
     "tags": [
       "meta:che:Beacon Hall Archive",
       "meta:splashy",
@@ -31,6 +25,13 @@
     ],
     "uid": [
       216019
+    ],
+    "image": "rr-beacon_hall-1405076623.png",
+    "image_coords": [
+      131,
+      364,
+      177,
+      409
     ]
   }
 }

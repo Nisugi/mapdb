@@ -1,4 +1,5 @@
 {
+  "checksum": "244141019ebaa6259deb4e77cf29aac8",
   "room": {
     "id": 6327,
     "title": [
@@ -15,20 +16,13 @@
     "climate": "cold, damp",
     "terrain": "mountainous",
     "wayto": {
-      "6326": ";e move 'climb stair'",
+      "6326": "/rooms/6327/wayto/stringproc-6326.rb",
       "6328": "go portcullis"
     },
     "timeto": {
       "6326": 0.2,
       "6328": 0.2
     },
-    "image": "wl-wizard_guild.jpg",
-    "image_coords": [
-      315,
-      718,
-      366,
-      766
-    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -52,6 +46,13 @@
     ],
     "uid": [
       52023
+    ],
+    "image": "wl-wizard_guild.jpg",
+    "image_coords": [
+      315,
+      718,
+      366,
+      766
     ]
   }
 }

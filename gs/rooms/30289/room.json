@@ -1,4 +1,5 @@
 {
+  "checksum": "c448abb9c193f59cceedf400064ce4a0",
   "room": {
     "id": 30289,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Cysaegir",
     "wayto": {
       "17132": "go ebonwood door",
-      "30717": ";e true"
+      "30717": "/rooms/30289/wayto/stringproc-30717.rb"
     },
     "timeto": {
       "17132": 0.2,
-      "30717": ";e Map[7].timeto['30714'].call;"
+      "30717": "/rooms/30289/timeto/stringproc-30717.rb"
     },
     "tags": [
       "fire lily",

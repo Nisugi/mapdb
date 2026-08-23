@@ -1,4 +1,5 @@
 {
+  "checksum": "64f4766ce0cfbb54c7205572a9392cb5",
   "room": {
     "id": 13273,
     "title": [
@@ -21,13 +22,6 @@
       "13274": 0.2,
       "33211": 0.2
     },
-    "image": "en-ta_illistim_buildings.png",
-    "image_coords": [
-      286,
-      276,
-      342,
-      329
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       13112011
+    ],
+    "image": "en-ta_illistim_buildings.png",
+    "image_coords": [
+      286,
+      276,
+      342,
+      329
     ]
   }
 }

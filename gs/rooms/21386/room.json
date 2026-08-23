@@ -1,4 +1,5 @@
 {
+  "checksum": "9ab175af57c270df9caead4ebeb5d8b1",
   "room": {
     "id": 21386,
     "title": [
@@ -17,7 +18,7 @@
       "20164": "north",
       "20165": "south",
       "20167": "east",
-      "23157": ";e if celerity = Spell[506] and celerity.known? and celerity.affordable? and not celerity.active?; celerity.cast; end; fput 'search'; move 'go camouflaged opening'"
+      "23157": "/rooms/21386/wayto/stringproc-23157.rb"
     },
     "timeto": {
       "20128": 0.2,

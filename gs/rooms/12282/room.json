@@ -1,4 +1,5 @@
 {
+  "checksum": "261694c78f7d703828e6129b030f0e1e",
   "room": {
     "id": 12282,
     "title": [
@@ -14,11 +15,11 @@
     "location": "the Isle of Four Winds",
     "wayto": {
       "12281": "go staircase",
-      "30718": ";e true"
+      "30718": "/rooms/12282/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "12281": 0.2,
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "30718": "/rooms/12282/timeto/stringproc-30718.rb"
     },
     "tags": [
       "locksmith",

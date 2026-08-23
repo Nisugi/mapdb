@@ -1,4 +1,5 @@
 {
+  "checksum": "ed77b9e144dd5e24d379a0e2aecf87b8",
   "room": {
     "id": 1522,
     "title": [
@@ -20,15 +21,8 @@
     },
     "timeto": {
       "1519": 0.2,
-      "33276": ";e ((Char.citizenship == \"Solhaven\" or !UserVars.mapdb_allow_vornavis.nil?) ? 10.0 : nil);"
+      "33276": "/rooms/1522/timeto/stringproc-33276.rb"
     },
-    "image": "vo-solhaven-1675635404.png",
-    "image_coords": [
-      1307,
-      1143,
-      1331,
-      1167
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       4902049
+    ],
+    "image": "vo-solhaven-1675635404.png",
+    "image_coords": [
+      1307,
+      1143,
+      1331,
+      1167
     ]
   }
 }

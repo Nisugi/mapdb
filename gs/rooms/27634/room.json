@@ -1,4 +1,5 @@
 {
+  "checksum": "b070e499e06380c4fff1c6fcd8c6a445",
   "room": {
     "id": 27634,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "Mist Harbor",
     "wayto": {
-      "12296": ";e move 'go arch'; $go2_restart = true",
+      "12296": "/rooms/27634/wayto/stringproc-12296.rb",
       "29573": "go emerald curtain",
       "36010": "go white curtain"
     },

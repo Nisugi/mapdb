@@ -1,4 +1,5 @@
 {
+  "checksum": "13f17ecc87582a69e7aef153b7e2b520",
   "room": {
     "id": 11749,
     "title": [
@@ -13,14 +14,14 @@
     ],
     "location": "the South River Road",
     "wayto": {
-      "10838": ";e while line = get;if line=~ /The crew hurriedly puts out the gangplank\\.|River's Rest\\.\\.\\..+ ashore!/;fput \"out\";break;end;end",
+      "10838": "/rooms/11749/wayto/stringproc-10838.rb",
       "11750": "down",
-      "11753": ";e while line = get;if line=~ /The crew hurriedly puts out the gangplank\\.|Solhaven\\.\\.\\..+ ashore!/;fput \"out\";break;end;end"
+      "11753": "/rooms/11749/wayto/stringproc-11753.rb"
     },
     "timeto": {
-      "10838": 300.0,
+      "10838": 300,
       "11750": 0.2,
-      "11753": 300.0
+      "11753": 300
     },
     "tags": [
       "meta:transport"

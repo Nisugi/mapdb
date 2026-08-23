@@ -1,4 +1,5 @@
 {
+  "checksum": "db6c3ff5791bb10aa78d7718ffe95386",
   "room": {
     "id": 2214,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "2213": "northwest",
       "2215": "south",
-      "12788": ";e fput 'search'\nmove 'go crack'"
+      "12788": "/rooms/2214/wayto/stringproc-12788.rb"
     },
     "timeto": {
       "2213": 0.2,
       "2215": 0.2,
       "12788": 0.2
     },
-    "image": "ti-vtull-1663120653.png",
-    "image_coords": [
-      499,
-      706,
-      509,
-      716
-    ],
     "tags": [
       "cave moss",
       "daggerstalk mushroom",
@@ -39,6 +33,13 @@
     ],
     "uid": [
       3061023
+    ],
+    "image": "ti-vtull-1663120653.png",
+    "image_coords": [
+      499,
+      706,
+      509,
+      716
     ]
   }
 }

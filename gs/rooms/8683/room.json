@@ -1,4 +1,5 @@
 {
+  "checksum": "64538447cd1047f409fa53e1b57b34e6",
   "room": {
     "id": 8683,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "hard, flat",
     "wayto": {
       "276": "south",
-      "19943": ";e multifput 'search', 'go long rope'"
+      "19943": "/rooms/8683/wayto/stringproc-19943.rb"
     },
     "timeto": {
       "276": 0.2,
       "19943": 10
     },
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      355,
-      262,
-      391,
-      298
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       1053
+    ],
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      355,
+      262,
+      391,
+      298
     ]
   }
 }

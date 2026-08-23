@@ -1,4 +1,5 @@
 {
+  "checksum": "83bf433c09a5e775806be9f99f6c943f",
   "room": {
     "id": 12589,
     "title": [
@@ -17,21 +18,14 @@
       "12588": "west",
       "12590": "north",
       "12591": "south",
-      "12593": ";e fput 'jump'\nwaitfor 'You feel the presence of cold hard stone underneath you.'\nsleep 0.1\nfput 'stand' unless standing?\nmove 'west' until Room.current.id == 12593"
+      "12593": "/rooms/12589/wayto/stringproc-12593.rb"
     },
     "timeto": {
       "12588": 0.2,
       "12590": 0.2,
       "12591": 0.2,
-      "12593": 20.0
+      "12593": 20
     },
-    "image": "ti-wilds-1643860469.png",
-    "image_coords": [
-      777,
-      377,
-      787,
-      387
-    ],
     "tags": [
       "blue passionflower",
       "bright red teaberry",
@@ -64,6 +58,13 @@
     ],
     "uid": [
       3040002
+    ],
+    "image": "ti-wilds-1643860469.png",
+    "image_coords": [
+      777,
+      377,
+      787,
+      387
     ]
   }
 }

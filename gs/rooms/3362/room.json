@@ -1,4 +1,5 @@
 {
+  "checksum": "31249295b02a3a1c03037306262c6463",
   "room": {
     "id": 3362,
     "title": [
@@ -17,20 +18,13 @@
     "wayto": {
       "2306": "go street",
       "19417": "go door",
-      "30709": ";e true"
+      "30709": "/rooms/3362/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "2306": 0.2,
-      "19417": ";e ((!defined?(Stats.prof) or Stats.prof == 'Empath') ? 0.2 : nil);",
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "19417": "/rooms/3362/timeto/stringproc-19417.rb",
+      "30709": "/rooms/3362/timeto/stringproc-30709.rb"
     },
-    "image": "imt-empath_guild-1307499864.png",
-    "image_coords": [
-      126,
-      425,
-      172,
-      468
-    ],
     "tags": [
       "empath guild",
       "empathguild",
@@ -47,6 +41,13 @@
     ],
     "uid": [
       650001
+    ],
+    "image": "imt-empath_guild-1307499864.png",
+    "image_coords": [
+      126,
+      425,
+      172,
+      468
     ]
   }
 }

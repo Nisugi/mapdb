@@ -1,4 +1,5 @@
 {
+  "checksum": "231e8a93d8b7e9417b826d177e09f05d",
   "room": {
     "id": 1809,
     "title": [
@@ -15,12 +16,12 @@
     "climate": "cold, damp",
     "terrain": "deciduous forest",
     "wayto": {
-      "1808": ";e move 'northeast' while checkpaths.include?('nw')",
-      "1810": ";e move 'southwest' while checkpaths.include?('sw')",
-      "13224": ";e move 'southeast'; move 'northeast' if checkpaths.include?('ne')",
-      "13481": ";e move 'northwest'; move 'southwest' unless checkpaths.include?('ne')",
-      "14664": ";e move 'southeast'; move 'southwest' unless checkpaths.include?('ne')",
-      "14665": ";e move 'northwest'; move 'northeast' if checkpaths.include?('ne')"
+      "1808": "/rooms/1809/wayto/stringproc-1808.rb",
+      "1810": "/rooms/1809/wayto/stringproc-1810.rb",
+      "13224": "/rooms/1809/wayto/stringproc-13224.rb",
+      "13481": "/rooms/1809/wayto/stringproc-13481.rb",
+      "14664": "/rooms/1809/wayto/stringproc-14664.rb",
+      "14665": "/rooms/1809/wayto/stringproc-14665.rb"
     },
     "timeto": {
       "1808": 0.4,
@@ -30,13 +31,6 @@
       "14664": 0.4,
       "14665": 0.4
     },
-    "image": "en-sylvarraend-1264234799.png",
-    "image_coords": [
-      422,
-      330,
-      432,
-      340
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -88,6 +82,13 @@
     "uid": [
       13027031,
       13027034
+    ],
+    "image": "en-sylvarraend-1264234799.png",
+    "image_coords": [
+      422,
+      330,
+      432,
+      340
     ]
   }
 }

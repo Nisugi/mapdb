@@ -1,4 +1,5 @@
 {
+  "checksum": "3b7f5da8688212b1ed08a5d1ad228eb3",
   "room": {
     "id": 30288,
     "title": [
@@ -15,11 +16,11 @@
     "terrain": "none",
     "wayto": {
       "16905": "go faux-wood door",
-      "30712": ";e true"
+      "30712": "/rooms/30288/wayto/stringproc-30712.rb"
     },
     "timeto": {
       "16905": 0.2,
-      "30712": ";e Map[7].timeto['30714'].call;"
+      "30712": "/rooms/30288/timeto/stringproc-30712.rb"
     },
     "tags": [
       "mail",

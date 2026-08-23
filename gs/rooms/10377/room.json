@@ -1,4 +1,5 @@
 {
+  "checksum": "995f158f5dc9b7521db4ee5066df0f0f",
   "room": {
     "id": 10377,
     "title": [
@@ -22,15 +23,8 @@
     "timeto": {
       "10376": 0.2,
       "13502": 0.2,
-      "19810": ";e Stats.prof == 'Cleric' ? 0.2 : nil"
+      "19810": "/rooms/10377/timeto/stringproc-19810.rb"
     },
-    "image": "en-ta_vaalor_cleric_guild.png",
-    "image_coords": [
-      208,
-      827,
-      260,
-      880
-    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -78,6 +72,13 @@
     ],
     "uid": [
       675002
+    ],
+    "image": "en-ta_vaalor_cleric_guild.png",
+    "image_coords": [
+      208,
+      827,
+      260,
+      880
     ]
   }
 }

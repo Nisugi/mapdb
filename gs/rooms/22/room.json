@@ -1,4 +1,5 @@
 {
+  "checksum": "ff76d3077088a897816fc2d1aa2dacd6",
   "room": {
     "id": 22,
     "title": [
@@ -18,21 +19,14 @@
       "21": "north",
       "23": "south",
       "728": "east",
-      "30714": ";e true"
+      "30714": "/rooms/22/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "21": 0.2,
       "23": 0.2,
       "728": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/22/timeto/stringproc-30714.rb"
     },
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      947,
-      677,
-      970,
-      699
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-08",
@@ -43,6 +37,13 @@
     ],
     "uid": [
       13100048
+    ],
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      947,
+      677,
+      970,
+      699
     ]
   }
 }

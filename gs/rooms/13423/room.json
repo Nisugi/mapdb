@@ -1,4 +1,5 @@
 {
+  "checksum": "ea80793c50a8924316e57005b9dbf1f6",
   "room": {
     "id": 13423,
     "title": [
@@ -20,7 +21,7 @@
       "13424": "northwest",
       "13425": "north",
       "13427": "east",
-      "30714": ";e true"
+      "30714": "/rooms/13423/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "13420": 0.2,
@@ -28,15 +29,8 @@
       "13424": 0.2,
       "13425": 0.2,
       "13427": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/13423/timeto/stringproc-30714.rb"
     },
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      240,
-      207,
-      256,
-      220
-    ],
     "tags": [
       "angelica root",
       "arbutus berry",
@@ -183,6 +177,13 @@
     ],
     "uid": [
       13111032
+    ],
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      240,
+      207,
+      256,
+      220
     ]
   }
 }

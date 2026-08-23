@@ -1,4 +1,5 @@
 {
+  "checksum": "f96240f6bfcfcd1e924f38a856ed7000",
   "room": {
     "id": 22106,
     "title": [
@@ -21,13 +22,6 @@
       "150": 0.2,
       "22107": 0.2
     },
-    "image": "vo-cairnfang_manor-1657584717.png",
-    "image_coords": [
-      179,
-      494,
-      190,
-      506
-    ],
     "tags": [
       "meta:che:cairnfang_manor:entrance_che",
       "meta:forage-sensed",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       106001
+    ],
+    "image": "vo-cairnfang_manor-1657584717.png",
+    "image_coords": [
+      179,
+      494,
+      190,
+      506
     ]
   }
 }

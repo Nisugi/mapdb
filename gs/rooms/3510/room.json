@@ -1,4 +1,5 @@
 {
+  "checksum": "e868674285ed489d5a12cd6a442c0e22",
   "room": {
     "id": 3510,
     "title": [
@@ -19,21 +20,14 @@
       "3509": "west",
       "3511": "east",
       "10759": "go path",
-      "30713": ";e true"
+      "30713": "/rooms/3510/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "3509": 0.2,
       "3511": 0.2,
       "10759": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/3510/timeto/stringproc-30713.rb"
     },
-    "image": "en-tavaalor-1565907614.png",
-    "image_coords": [
-      550,
-      780,
-      582,
-      815
-    ],
     "tags": [
       "empath guild",
       "empathguild",
@@ -47,6 +41,13 @@
     ],
     "uid": [
       14100072
+    ],
+    "image": "en-tavaalor-1565907614.png",
+    "image_coords": [
+      550,
+      780,
+      582,
+      815
     ]
   }
 }

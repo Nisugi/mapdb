@@ -1,4 +1,5 @@
 {
+  "checksum": "c0e7a7116eb959f0858e1154a036713f",
   "room": {
     "id": 22394,
     "title": [
@@ -21,15 +22,8 @@
       "22392": 0.2,
       "22395": 0.2,
       "22396": 0.2,
-      "22418": ";e Stats.race == 'Dwarf' ? 0.2 : nil"
+      "22418": "/rooms/22394/timeto/stringproc-22418.rb"
     },
-    "image": "en-ta_illistim-embassies-1405076623.png",
-    "image_coords": [
-      878,
-      657,
-      942,
-      696
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       13125018
+    ],
+    "image": "en-ta_illistim-embassies-1405076623.png",
+    "image_coords": [
+      878,
+      657,
+      942,
+      696
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "c1a9ff1a766195fdcad6d2d1c1004e86",
   "room": {
     "id": 2642,
     "title": [
@@ -14,20 +15,13 @@
     ],
     "location": false,
     "wayto": {
-      "2640": ";e until checkpaths.include?('up'); fput 'swim ' + ['northwest','northeast'][rand(2)]; waitrt?; end",
-      "2645": ";e until checkpaths.include?('up'); fput 'swim ' + ['southwest','southeast'][rand(2)]; waitrt?; end"
+      "2640": "/rooms/2642/wayto/stringproc-2640.rb",
+      "2645": "/rooms/2642/wayto/stringproc-2645.rb"
     },
     "timeto": {
-      "2640": 20.0,
-      "2645": 20.0
+      "2640": 20,
+      "2645": 20
     },
-    "image": "imt-pinefar-1264234799.png",
-    "image_coords": [
-      216,
-      330,
-      226,
-      340
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:map:multi-uid",
@@ -37,6 +31,13 @@
       4562040,
       4562041,
       4562042
+    ],
+    "image": "imt-pinefar-1264234799.png",
+    "image_coords": [
+      216,
+      330,
+      226,
+      340
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "601a3c9b152aa44dd3264d147c44db87",
   "room": {
     "id": 23830,
     "title": [
@@ -14,11 +15,11 @@
     ],
     "location": "the Abbey",
     "wayto": {
-      "221": ";e multifput 'inquire','order 1','order confirm';waitfor 'The wagon comes to a halt','The wagon draws to an abrupt halt','the caravan comes to a stop';",
-      "2773": ";e multifput 'inquire','order 2','order confirm';waitfor 'The wagon comes to a halt','The wagon draws to an abrupt halt','the caravan comes to a stop';",
+      "221": "/rooms/23830/wayto/stringproc-221.rb",
+      "2773": "/rooms/23830/wayto/stringproc-2773.rb",
       "2942": "south",
       "2943": "north",
-      "29860": ";e UserVars.mapdb_hinterwilds_location = 'IM';multifput 'inquire','order 3','order confirm';waitfor 'The wagon comes to a halt','The wagon draws to an abrupt halt','the caravan comes to a stop';"
+      "29860": "/rooms/23830/wayto/stringproc-29860.rb"
     },
     "timeto": {
       "221": 3600,
@@ -27,13 +28,6 @@
       "2943": 0.2,
       "29860": 3600
     },
-    "image": "imt-Abbey_Map-1652211219.png",
-    "image_coords": [
-      379,
-      963,
-      433,
-      1016
-    ],
     "tags": [
       "arctic puma",
       "dark shambler",
@@ -47,6 +41,13 @@
     ],
     "uid": [
       4132017
+    ],
+    "image": "imt-Abbey_Map-1652211219.png",
+    "image_coords": [
+      379,
+      963,
+      433,
+      1016
     ]
   }
 }

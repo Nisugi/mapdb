@@ -1,4 +1,5 @@
 {
+  "checksum": "440657ebdb6765242b16806bd485e713",
   "room": {
     "id": 6962,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "freshwater",
     "terrain": "hilly",
     "wayto": {
-      "6955": ";e empty_hands\nmove 'climb cliff'\nfill_hands",
+      "6955": "/rooms/6962/wayto/stringproc-6955.rb",
       "6963": "northeast"
     },
     "timeto": {
       "6955": 0.2,
       "6963": 0.2
     },
-    "image": "wl-darkstone-1717380773.png",
-    "image_coords": [
-      185,
-      384,
-      195,
-      394
-    ],
     "tags": [
       "bolmara lichen",
       "meta:forage-sensed",
@@ -39,6 +33,13 @@
     ],
     "uid": [
       43006
+    ],
+    "image": "wl-darkstone-1717380773.png",
+    "image_coords": [
+      185,
+      384,
+      195,
+      394
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "684711406dec069f7bdf539ba12231aa",
   "room": {
     "id": 1585,
     "title": [
@@ -22,13 +23,6 @@
       "1581": 0.2,
       "1586": 0.2
     },
-    "image": "vo-solhaven-1675635404.png",
-    "image_coords": [
-      697,
-      1521,
-      721,
-      1545
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-08",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       4902125
+    ],
+    "image": "vo-solhaven-1675635404.png",
+    "image_coords": [
+      697,
+      1521,
+      721,
+      1545
     ]
   }
 }

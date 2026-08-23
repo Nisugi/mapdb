@@ -1,4 +1,5 @@
 {
+  "checksum": "9a2d8eb81c522a4a485051bbebfb1852",
   "room": {
     "id": 1259,
     "title": [
@@ -19,21 +20,14 @@
       "1194": "northeast",
       "1195": "east",
       "8722": "go thrak curtain",
-      "30708": ";e true"
+      "30708": "/rooms/1259/wayto/stringproc-30708.rb"
     },
     "timeto": {
       "1194": 0.2,
       "1195": 0.2,
       "8722": 0.2,
-      "30708": ";e Map[7].timeto['30714'].call;"
+      "30708": "/rooms/1259/timeto/stringproc-30708.rb"
     },
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      201,
-      354,
-      231,
-      384
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -45,6 +39,13 @@
     ],
     "uid": [
       1118
+    ],
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      201,
+      354,
+      231,
+      384
     ]
   }
 }

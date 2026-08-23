@@ -1,4 +1,5 @@
 {
+  "checksum": "724bcf25705e3b804daf061026a536bd",
   "room": {
     "id": 11773,
     "title": [
@@ -24,13 +25,6 @@
       "11774": 0.2,
       "11778": 0.2
     },
-    "image": "en-vo-homes-1264234799.png",
-    "image_coords": [
-      623,
-      1451,
-      643,
-      1471
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-08",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       712002
+    ],
+    "image": "en-vo-homes-1264234799.png",
+    "image_coords": [
+      623,
+      1451,
+      643,
+      1471
     ]
   }
 }

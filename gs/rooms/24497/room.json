@@ -1,4 +1,5 @@
 {
+  "checksum": "1621b2b350d9cca6002a4730404c4d1e",
   "room": {
     "id": 24497,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "Zul Logoth",
     "wayto": {
-      "9495": ";e move 'go curtain'; $go2_restart = true"
+      "9495": "/rooms/24497/wayto/stringproc-9495.rb"
     },
     "timeto": {
       "9495": 22.2

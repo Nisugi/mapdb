@@ -1,4 +1,5 @@
 {
+  "checksum": "e3b1987b1f425f6dcba616572593e3fc",
   "room": {
     "id": 8325,
     "title": [
@@ -21,13 +22,6 @@
       "8324": 0.2,
       "8326": 0.2
     },
-    "image": "wl-spider_temple-1264234799.png",
-    "image_coords": [
-      906,
-      797,
-      916,
-      807
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-08",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       12031
+    ],
+    "image": "wl-spider_temple-1264234799.png",
+    "image_coords": [
+      906,
+      797,
+      916,
+      807
     ]
   }
 }

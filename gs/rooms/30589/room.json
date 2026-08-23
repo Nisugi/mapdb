@@ -1,4 +1,5 @@
 {
+  "checksum": "b8e70eb8a201edaefee87c9a092e3906",
   "room": {
     "id": 30589,
     "title": [
@@ -15,11 +16,11 @@
     "terrain": "hard, flat",
     "wayto": {
       "12393": "out",
-      "30715": ";e true"
+      "30715": "/rooms/30589/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "12393": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "30715": "/rooms/30589/timeto/stringproc-30715.rb"
     },
     "tags": [
       "fire lily",

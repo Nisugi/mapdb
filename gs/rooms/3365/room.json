@@ -1,4 +1,5 @@
 {
+  "checksum": "7078f6de962644c5feccaa6f0d2c50e9",
   "room": {
     "id": 3365,
     "title": [
@@ -15,33 +16,26 @@
     "terrain": "plain dirt",
     "wayto": {
       "2304": "go wrought gate",
-      "2635": ";e $mapdb_seeking_destination = 2635;Map[3600].wayto['3600'].call;",
-      "2808": ";e $mapdb_seeking_destination = 2808;Map[3600].wayto['3600'].call;",
-      "2972": ";e $mapdb_seeking_destination = 2972;Map[3600].wayto['3600'].call;",
-      "3140": ";e $mapdb_seeking_destination = 3140;Map[3600].wayto['3600'].call;",
+      "2635": "/rooms/3365/wayto/stringproc-2635.rb",
+      "2808": "/rooms/3365/wayto/stringproc-2808.rb",
+      "2972": "/rooms/3365/wayto/stringproc-2972.rb",
+      "3140": "/rooms/3365/wayto/stringproc-3140.rb",
       "3369": "north",
-      "24533": ";e $mapdb_seeking_destination = 24533;Map[3600].wayto['3600'].call;",
-      "28817": ";e $mapdb_seeking_destination = 28817;Map[3600].wayto['3600'].call;",
-      "30709": ";e true"
+      "24533": "/rooms/3365/wayto/stringproc-24533.rb",
+      "28817": "/rooms/3365/wayto/stringproc-28817.rb",
+      "30709": "/rooms/3365/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "2304": 0.2,
-      "2635": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 3.2; else; nil; end",
-      "2808": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 3.2; else; nil; end",
-      "2972": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 3.2; else; nil; end",
-      "3140": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 3.2; else; nil; end",
+      "2635": "/rooms/3365/timeto/stringproc-2635.rb",
+      "2808": "/rooms/3365/timeto/stringproc-2808.rb",
+      "2972": "/rooms/3365/timeto/stringproc-2972.rb",
+      "3140": "/rooms/3365/timeto/stringproc-3140.rb",
       "3369": 0.2,
-      "24533": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 3.2; else; nil; end",
-      "28817": ";e if Society.status == 'Order of Voln' and Society.rank == 26 and $go2_use_seeking; 3.2; else; nil; end",
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "24533": "/rooms/3365/timeto/stringproc-24533.rb",
+      "28817": "/rooms/3365/timeto/stringproc-28817.rb",
+      "30709": "/rooms/3365/timeto/stringproc-30709.rb"
     },
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      760,
-      611,
-      796,
-      647
-    ],
     "tags": [
       "angelica root",
       "arctic moss",
@@ -62,6 +56,13 @@
     ],
     "uid": [
       4043800
+    ],
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      760,
+      611,
+      796,
+      647
     ]
   }
 }

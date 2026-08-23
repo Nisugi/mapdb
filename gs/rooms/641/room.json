@@ -1,4 +1,5 @@
 {
+  "checksum": "3bc50df56368c1e3d9df255c26db441a",
   "room": {
     "id": 641,
     "title": [
@@ -22,7 +23,7 @@
       "3875": "go maple building",
       "24260": "go pale store",
       "24261": "go storefront",
-      "30714": ";e true"
+      "30714": "/rooms/641/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "33": 0.2,
@@ -32,15 +33,8 @@
       "3875": 0.2,
       "24260": 0.2,
       "24261": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/641/timeto/stringproc-30714.rb"
     },
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      1464,
-      698,
-      1481,
-      714
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -51,6 +45,13 @@
     ],
     "uid": [
       737001
+    ],
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      1464,
+      698,
+      1481,
+      714
     ]
   }
 }

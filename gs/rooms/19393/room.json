@@ -1,4 +1,5 @@
 {
+  "checksum": "11fea5d1999000ffa8f00a2fa16efc56",
   "room": {
     "id": 19393,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Mist Harbor",
     "wayto": {
       "19389": "west",
-      "30718": ";e true"
+      "30718": "/rooms/19393/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "19389": 0.2,
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "30718": "/rooms/19393/timeto/stringproc-30718.rb"
     },
     "tags": [
       "cobbling",

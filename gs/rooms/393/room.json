@@ -1,4 +1,5 @@
 {
+  "checksum": "a4af3a25b827075c2b5941f5cf496530",
   "room": {
     "id": 393,
     "title": [
@@ -17,15 +18,8 @@
     },
     "timeto": {
       "392": 0.2,
-      "3855": 240.0
+      "3855": 240
     },
-    "image": "wl-moot_hall-1486755929.png",
-    "image_coords": [
-      1353,
-      1286,
-      1497,
-      1348
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       54057
+    ],
+    "image": "wl-moot_hall-1486755929.png",
+    "image_coords": [
+      1353,
+      1286,
+      1497,
+      1348
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "4fbf33d8905737040955053654456283",
   "room": {
     "id": 4925,
     "title": [
@@ -22,13 +23,6 @@
       "4924": 0.2,
       "4926": 0.2
     },
-    "image": "en-gyldemar-1264234799.png",
-    "image_coords": [
-      1061,
-      383,
-      1071,
-      393
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-08",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       13030058
+    ],
+    "image": "en-gyldemar-1264234799.png",
+    "image_coords": [
+      1061,
+      383,
+      1071,
+      393
     ]
   }
 }

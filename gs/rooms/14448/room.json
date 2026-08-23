@@ -1,4 +1,5 @@
 {
+  "checksum": "f268f087f57dc71ddf1ab4ed88a8cbfe",
   "room": {
     "id": 14448,
     "title": [
@@ -21,7 +22,7 @@
       "14647": "go green arch",
       "19947": "go gold arch",
       "19950": "go staircase",
-      "20054": ";e fput \"search\";fput \"climb steps\""
+      "20054": "/rooms/14448/wayto/stringproc-20054.rb"
     },
     "timeto": {
       "235": 0.2,
@@ -31,13 +32,6 @@
       "19950": 0.2,
       "20054": 0.2
     },
-    "image": "wl-museum-1487435869.png",
-    "image_coords": [
-      898,
-      1494,
-      1040,
-      1556
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -50,6 +44,13 @@
     ],
     "uid": [
       28101
+    ],
+    "image": "wl-museum-1487435869.png",
+    "image_coords": [
+      898,
+      1494,
+      1040,
+      1556
     ]
   }
 }

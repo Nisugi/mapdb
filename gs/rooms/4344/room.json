@@ -1,4 +1,5 @@
 {
+  "checksum": "31b010bd281472712e8d011ecd08e424",
   "room": {
     "id": 4344,
     "title": [
@@ -13,19 +14,12 @@
     "location": "the Graveyard",
     "wayto": {
       "4143": "west",
-      "7298": ";e group_members = nil; clear.reverse.each { |line| if line =~ /^Obvious (paths|exits)/; break; elsif line =~ /^([A-Za-z ,]+) followed\\.$/; group_members = $1.split(/, | and /); group_members.delete_if { |m| m =~ /^[Yy]our / }; group_members = nil if group_members.empty?; break; end }; move 'say shadow bind my soul'; if (group_members.to_a.length > 0); echo 'Waiting for your group... To ditch them, ;send go'; wait_until { (group_members.to_a - checkpcs.to_a).empty? or clear.find { |line| line == 'go' } }; end"
+      "7298": "/rooms/4344/wayto/stringproc-7298.rb"
     },
     "timeto": {
       "4143": 0.2,
       "7298": 0.2
     },
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      595,
-      949,
-      605,
-      959
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -33,6 +27,13 @@
     ],
     "uid": [
       18014
+    ],
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      595,
+      949,
+      605,
+      959
     ]
   }
 }

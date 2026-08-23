@@ -1,4 +1,5 @@
 {
+  "checksum": "e2a5eadff884abbb61b300a2d8f86a01",
   "room": {
     "id": 665,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "664": "northwest",
       "666": "southeast",
-      "26000": ";e move 'go thinness'"
+      "26000": "/rooms/665/wayto/stringproc-26000.rb"
     },
     "timeto": {
       "664": 0.2,
       "666": 0.2,
       "26000": 0.2
     },
-    "image": "en-sylvarraend-1264234799.png",
-    "image_coords": [
-      556,
-      700,
-      566,
-      710
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -39,6 +33,13 @@
     ],
     "uid": [
       13049021
+    ],
+    "image": "en-sylvarraend-1264234799.png",
+    "image_coords": [
+      556,
+      700,
+      566,
+      710
     ]
   }
 }

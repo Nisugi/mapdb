@@ -1,4 +1,5 @@
 {
+  "checksum": "aedd4b8e08b0af8d600ef131611c788f",
   "room": {
     "id": 25973,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "the town of Wehnimer's Landing",
     "wayto": {
-      "25971": ";e move 'go northeast'",
-      "25974": ";e move 'go door'"
+      "25971": "/rooms/25973/wayto/stringproc-25971.rb",
+      "25974": "/rooms/25973/wayto/stringproc-25974.rb"
     },
     "timeto": {
       "25971": 0.2,
       "25974": 0.2
     },
-    "image": "wl-stone_baths-1487292814.png",
-    "image_coords": [
-      52,
-      1385,
-      191,
-      1444
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -34,6 +28,13 @@
     ],
     "uid": [
       336012
+    ],
+    "image": "wl-stone_baths-1487292814.png",
+    "image_coords": [
+      52,
+      1385,
+      191,
+      1444
     ]
   }
 }

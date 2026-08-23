@@ -1,4 +1,5 @@
 {
+  "checksum": "9fe90669b21941b1922c9b53206562a9",
   "room": {
     "id": 18687,
     "title": [
@@ -16,11 +17,11 @@
     "terrain": "none",
     "wayto": {
       "13311": "go archway",
-      "30714": ";e true"
+      "30714": "/rooms/18687/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "13311": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/18687/timeto/stringproc-30714.rb"
     },
     "tags": [
       "locksmith pool",

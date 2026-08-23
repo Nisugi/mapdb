@@ -1,4 +1,5 @@
 {
+  "checksum": "3c582ff4ddb9bbe37272451fe9083cd3",
   "room": {
     "id": 1072,
     "title": [
@@ -15,20 +16,13 @@
     "climate": "cold, dry",
     "terrain": "",
     "wayto": {
-      "1071": ";e move 'climb down'\nwaitrt?",
-      "1073": ";e move 'climb up'\nwaitrt?"
+      "1071": "/rooms/1072/wayto/stringproc-1071.rb",
+      "1073": "/rooms/1072/wayto/stringproc-1073.rb"
     },
     "timeto": {
-      "1071": 15.0,
-      "1073": 15.0
+      "1071": 15,
+      "1073": 15
     },
-    "image": "en-trail-1264234799.png",
-    "image_coords": [
-      1246,
-      756,
-      1256,
-      766
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:nomagic",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       13001040
+    ],
+    "image": "en-trail-1264234799.png",
+    "image_coords": [
+      1246,
+      756,
+      1256,
+      766
     ]
   }
 }

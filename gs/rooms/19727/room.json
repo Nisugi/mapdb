@@ -1,4 +1,5 @@
 {
+  "checksum": "54ffc1f7df43f1adda14b9ff4943767e",
   "room": {
     "id": 19727,
     "title": [
@@ -13,19 +14,12 @@
     "location": "the foothills of Zeltoph",
     "wayto": {
       "19726": "go shore",
-      "19990": ";e wait_until{GameObj.loot.find{|item| item.noun == \"island\"}};fput \"go island\""
+      "19990": "/rooms/19727/wayto/stringproc-19990.rb"
     },
     "timeto": {
       "19726": 0.2,
       "19990": 2.2
     },
-    "image": "wl-cavernhold-1295073688.png",
-    "image_coords": [
-      341,
-      603,
-      359,
-      619
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       11100
+    ],
+    "image": "wl-cavernhold-1295073688.png",
+    "image_coords": [
+      341,
+      603,
+      359,
+      619
     ]
   }
 }

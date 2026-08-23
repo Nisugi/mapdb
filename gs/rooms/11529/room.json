@@ -1,4 +1,5 @@
 {
+  "checksum": "4d010cdd03802fff5ad5bfa418260fd2",
   "room": {
     "id": 11529,
     "title": [
@@ -15,20 +16,13 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "11477": ";e empty_hands\nmove 'go opening'",
+      "11477": "/rooms/11529/wayto/stringproc-11477.rb",
       "11528": "north"
     },
     "timeto": {
       "11477": 0.2,
       "11528": 0.2
     },
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      900,
-      1090,
-      910,
-      1100
-    ],
     "tags": [
       "bolmara lichen",
       "broken twig",
@@ -42,6 +36,13 @@
     ],
     "uid": [
       305001
+    ],
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      900,
+      1090,
+      910,
+      1100
     ]
   }
 }

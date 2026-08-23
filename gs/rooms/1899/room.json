@@ -1,4 +1,5 @@
 {
+  "checksum": "5c09552c78d8ce170603185f9129d61e",
   "room": {
     "id": 1899,
     "title": [
@@ -23,13 +24,6 @@
       "1900": 0.2,
       "1901": 0.2
     },
-    "image": "ti-teras-1264234799.png",
-    "image_coords": [
-      1122,
-      610,
-      1152,
-      640
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       3001021
+    ],
+    "image": "ti-teras-1264234799.png",
+    "image_coords": [
+      1122,
+      610,
+      1152,
+      640
     ]
   }
 }

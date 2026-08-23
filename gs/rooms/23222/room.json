@@ -1,4 +1,5 @@
 {
+  "checksum": "a1dfafddc696a47ddc7ac3ab5cd2e074",
   "room": {
     "id": 23222,
     "title": [
@@ -14,11 +15,11 @@
     "wayto": {
       "23221": "out",
       "23223": "go curved passageway",
-      "23631": ";e table = \"wildflower\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "23632": ";e table = \"mithril\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "23633": ";e table = \"granite\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "23634": ";e table = \"rose\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "23639": ";e table = \"ice hound\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"
+      "23631": "/rooms/23222/wayto/stringproc-23631.rb",
+      "23632": "/rooms/23222/wayto/stringproc-23632.rb",
+      "23633": "/rooms/23222/wayto/stringproc-23633.rb",
+      "23634": "/rooms/23222/wayto/stringproc-23634.rb",
+      "23639": "/rooms/23222/wayto/stringproc-23639.rb"
     },
     "timeto": {
       "23221": 0.2,
@@ -29,18 +30,18 @@
       "23634": 0.2,
       "23639": 0.2
     },
+    "tags": [
+      "meta:che:White Haven"
+    ],
+    "uid": [
+      213010
+    ],
     "image": "imt-WhiteHaven2.png",
     "image_coords": [
       1442,
       442,
       1519,
       518
-    ],
-    "tags": [
-      "meta:che:White Haven"
-    ],
-    "uid": [
-      213010
     ]
   }
 }

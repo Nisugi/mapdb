@@ -1,4 +1,5 @@
 {
+  "checksum": "2ec0afd0cc40458503c14db222dc5b89",
   "room": {
     "id": 7331,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "the Shadow Valley",
     "wayto": {
-      "7315": ";e group_members = nil; clear.reverse.each { |line| if line =~ /^Obvious (paths|exits)/; break; elsif line =~ /^([A-Za-z ,]+) followed\\.$/; group_members = $1.split(/, | and /); group_members.delete_if { |m| m =~ /^[Yy]our / }; group_members = nil if group_members.empty?; break; end }; fput 'stand' unless standing?; fput 'jump abyss'; wait_until { stunned? }; wait_while { stunned? }; fput 'stand'; if (group_members.to_a.length > 0); echo 'Waiting for your group... To ditch them, ;send go'; wait_until { (group_members.to_a - GameObj.pcs.to_a.delete_if { |pc| not pc.status.nil? }.collect { |pc| pc.name }).empty? or clear.find { |line| line == 'go' } }; end",
+      "7315": "/rooms/7331/wayto/stringproc-7315.rb",
       "7328": "up"
     },
     "timeto": {
-      "7315": 30.0,
+      "7315": 30,
       "7328": 0.2
     },
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      1390,
-      696,
-      1398,
-      704
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -34,6 +28,13 @@
     ],
     "uid": [
       389036
+    ],
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      1390,
+      696,
+      1398,
+      704
     ]
   }
 }

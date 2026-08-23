@@ -1,4 +1,5 @@
 {
+  "checksum": "d4b3241446f9c258cb18bbea71e5e2dd",
   "room": {
     "id": 5146,
     "title": [
@@ -20,13 +21,6 @@
       "5144": 0.2,
       "5147": 0.2
     },
-    "image": "vo-north_beach-1264234799.png",
-    "image_coords": [
-      344,
-      871,
-      354,
-      881
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-08",
@@ -34,6 +28,13 @@
     ],
     "uid": [
       4202180
+    ],
+    "image": "vo-north_beach-1264234799.png",
+    "image_coords": [
+      344,
+      871,
+      354,
+      881
     ]
   }
 }

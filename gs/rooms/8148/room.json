@@ -1,4 +1,5 @@
 {
+  "checksum": "6ddcd333dba92e88c50634df76970cd0",
   "room": {
     "id": 8148,
     "title": [
@@ -15,7 +16,7 @@
       "8145": "north",
       "8147": "northwest",
       "8149": "northeast",
-      "25890": ";e fput 'search sculpture'; fput 'pull latch'; move 'go staircase'"
+      "25890": "/rooms/8148/wayto/stringproc-25890.rb"
     },
     "timeto": {
       "8145": 0.2,
@@ -23,13 +24,6 @@
       "8149": 0.2,
       "25890": 0.3
     },
-    "image": "wl-mineroad-1264234799.png",
-    "image_coords": [
-      1091,
-      100,
-      1101,
-      110
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       386072
+    ],
+    "image": "wl-mineroad-1264234799.png",
+    "image_coords": [
+      1091,
+      100,
+      1101,
+      110
     ]
   }
 }

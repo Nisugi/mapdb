@@ -1,4 +1,5 @@
 {
+  "checksum": "18602435d8ff3214c124ea360618ed11",
   "room": {
     "id": 7436,
     "title": [
@@ -12,22 +13,22 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "6626": ";e unless checkloot.include? 'stairs'; fput 'turn stalactite'; fput 'turn stalagmite'; end; move 'go stair'",
+      "6626": "/rooms/7436/wayto/stringproc-6626.rb",
       "7437": "out"
     },
     "timeto": {
       "6626": 0.2,
       "7437": 0.2
     },
+    "uid": [
+      306011
+    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       502,
       899,
       512,
       909
-    ],
-    "uid": [
-      306011
     ]
   }
 }

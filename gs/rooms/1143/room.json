@@ -1,4 +1,5 @@
 {
+  "checksum": "58835c5592bb887cb16fe074b7a5462c",
   "room": {
     "id": 1143,
     "title": [
@@ -19,16 +20,9 @@
       "1144": "west"
     },
     "timeto": {
-      "1142": 10.0,
+      "1142": 10,
       "1144": 0.2
     },
-    "image": "en-trail-1264234799.png",
-    "image_coords": [
-      763,
-      164,
-      773,
-      174
-    ],
     "tags": [
       "acantha leaf",
       "alder bark",
@@ -118,6 +112,13 @@
     ],
     "uid": [
       13000049
+    ],
+    "image": "en-trail-1264234799.png",
+    "image_coords": [
+      763,
+      164,
+      773,
+      174
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "0fefaea6343589544ef1b8a2384c6095",
   "room": {
     "id": 18269,
     "title": [
@@ -20,16 +21,9 @@
     },
     "timeto": {
       "18267": 0.2,
-      "18320": 5.0,
-      "18329": 5.0
+      "18320": 5,
+      "18329": 5
     },
-    "image": "ifw-saewehna_lagoon-1525325794.png",
-    "image_coords": [
-      2000,
-      742,
-      2032,
-      773
-    ],
     "tags": [
       "bur-clover root",
       "meta:forage-sensed",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       3210472
+    ],
+    "image": "ifw-saewehna_lagoon-1525325794.png",
+    "image_coords": [
+      2000,
+      742,
+      2032,
+      773
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "aba6673b86f60e4dc79f18c54827a55d",
   "room": {
     "id": 3363,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "2308": "out",
       "3364": "go door",
-      "30709": ";e true"
+      "30709": "/rooms/3363/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "2308": 0.2,
       "3364": 0.2,
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "30709": "/rooms/3363/timeto/stringproc-30709.rb"
     },
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      1027,
-      699,
-      1063,
-      735
-    ],
     "tags": [
       "herbalist",
       "no forageables",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       4043866
+    ],
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      1027,
+      699,
+      1063,
+      735
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "32eb9497ab711816a545ae8da81e5a02",
   "room": {
     "id": 10730,
     "title": [
@@ -22,13 +23,6 @@
       "10729": 0.2,
       "10731": 0.2
     },
-    "image": "en-cemetery-1617615116.png",
-    "image_coords": [
-      539,
-      111,
-      550,
-      123
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-08",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       14011024
+    ],
+    "image": "en-cemetery-1617615116.png",
+    "image_coords": [
+      539,
+      111,
+      550,
+      123
     ]
   }
 }

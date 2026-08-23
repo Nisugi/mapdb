@@ -1,4 +1,5 @@
 {
+  "checksum": "ed9d79277f82034d7b82bc22e4bb4b71",
   "room": {
     "id": 28939,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28938": "east",
-      "30716": ";e true"
+      "30716": "/rooms/28939/wayto/stringproc-30716.rb"
     },
     "timeto": {
       "28938": 0.2,
-      "30716": ";e Map[7].timeto['30714'].call;"
+      "30716": "/rooms/28939/timeto/stringproc-30716.rb"
     },
     "tags": [
       "fire lily",

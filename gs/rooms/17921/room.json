@@ -1,4 +1,5 @@
 {
+  "checksum": "affb2b405bccc9b1f38652b8711e808f",
   "room": {
     "id": 17921,
     "title": [
@@ -13,24 +14,24 @@
     "location": "Zul Logoth",
     "wayto": {
       "17913": "north",
-      "17924": ";e multifput 'search', 'go passage'"
+      "17924": "/rooms/17921/wayto/stringproc-17924.rb"
     },
     "timeto": {
       "17913": 0.2,
       "17924": 0.2
     },
+    "tags": [
+      "rogue guild plant"
+    ],
+    "uid": [
+      268059
+    ],
     "image": "en-zul_logoth-rogue-1648915933.jpg",
     "image_coords": [
       477,
       1113,
       516,
       1149
-    ],
-    "tags": [
-      "rogue guild plant"
-    ],
-    "uid": [
-      268059
     ]
   }
 }

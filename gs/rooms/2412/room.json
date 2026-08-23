@@ -1,4 +1,5 @@
 {
+  "checksum": "89b7a6a14551259e46756bd918e20bc0",
   "room": {
     "id": 2412,
     "title": [
@@ -21,7 +22,7 @@
       "3438": "west",
       "27702": "go east tower",
       "27709": "go west tower",
-      "30709": ";e true"
+      "30709": "/rooms/2412/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "2411": 0.2,
@@ -30,15 +31,8 @@
       "3438": 0.2,
       "27702": 0.2,
       "27709": 0.2,
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "30709": "/rooms/2412/timeto/stringproc-30709.rb"
     },
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      582,
-      1229,
-      618,
-      1265
-    ],
     "tags": [
       "advpickup",
       "meta:forage-sensed",
@@ -52,6 +46,13 @@
     ],
     "uid": [
       4042225
+    ],
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      582,
+      1229,
+      618,
+      1265
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "19cba59f92cc8b66b1b0717334209954",
   "room": {
     "id": 10327,
     "title": [
@@ -18,12 +19,12 @@
     "wayto": {
       "3494": "out",
       "10328": "east",
-      "30713": ";e true"
+      "30713": "/rooms/10327/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "3494": 0.2,
       "10328": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/10327/timeto/stringproc-30713.rb"
     },
     "tags": [
       "gemshop",

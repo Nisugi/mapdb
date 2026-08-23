@@ -1,4 +1,5 @@
 {
+  "checksum": "1a1ef8a3ac97975ce6bc38660ad94b66",
   "room": {
     "id": 23661,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "17518": "out",
       "23662": "go arch",
-      "30718": ";e true"
+      "30718": "/rooms/23661/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "17518": 0.2,
-      "23662": ";e ((!defined?(Stats.prof) or Stats.prof == 'Warrior') ? 0.2 : nil);",
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "23662": "/rooms/23661/timeto/stringproc-23662.rb",
+      "30718": "/rooms/23661/timeto/stringproc-30718.rb"
     },
-    "image": "ifw-Warrior Guild.jpg",
-    "image_coords": [
-      378,
-      634,
-      402,
-      657
-    ],
     "tags": [
       "meta:mapcategory:Guilds",
       "meta:mapcategory:Isle of the Four Winds",
@@ -44,6 +38,13 @@
     ],
     "uid": [
       255058
+    ],
+    "image": "ifw-Warrior Guild.jpg",
+    "image_coords": [
+      378,
+      634,
+      402,
+      657
     ]
   }
 }

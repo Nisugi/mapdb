@@ -1,4 +1,5 @@
 {
+  "checksum": "0bb44b6c7dfaaa13dc39e0483c03cd09",
   "room": {
     "id": 26000,
     "title": [
@@ -14,22 +15,15 @@
     "climate": "arid, temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "665": ";e move 'go out'",
-      "26001": ";e move 'go doors'",
-      "26002": ";e move 'go southeast'"
+      "665": "/rooms/26000/wayto/stringproc-665.rb",
+      "26001": "/rooms/26000/wayto/stringproc-26001.rb",
+      "26002": "/rooms/26000/wayto/stringproc-26002.rb"
     },
     "timeto": {
       "665": 0.2,
       "26001": 0.2,
       "26002": 0.2
     },
-    "image": "en-ta_illistim-isharn_enclave-1648064027.png",
-    "image_coords": [
-      673,
-      321,
-      970,
-      577
-    ],
     "tags": [
       "meta:mapcategory:Elven Nations",
       "meta:mapcategory:MHO",
@@ -39,6 +33,13 @@
     ],
     "uid": [
       158101
+    ],
+    "image": "en-ta_illistim-isharn_enclave-1648064027.png",
+    "image_coords": [
+      673,
+      321,
+      970,
+      577
     ]
   }
 }

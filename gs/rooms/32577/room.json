@@ -1,4 +1,5 @@
 {
+  "checksum": "da81f4a63ac71278d40bedced20a71c4",
   "room": {
     "id": 32577,
     "title": [
@@ -14,8 +15,8 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "32574": ";e if Spell[112].active?; move 'northwest';else; move 'swim northwest';end",
-      "32578": ";e if Spell[112].active?; move 'southeast';else; move 'swim southeast';end"
+      "32574": "/rooms/32577/wayto/stringproc-32574.rb",
+      "32578": "/rooms/32577/wayto/stringproc-32578.rb"
     },
     "timeto": {
       "32574": 3.2,

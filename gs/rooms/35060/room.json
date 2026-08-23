@@ -1,4 +1,5 @@
 {
+  "checksum": "0e351cba26813283ef84527644ec7829",
   "room": {
     "id": 35060,
     "title": [
@@ -23,13 +24,6 @@
       "35061": 0.2,
       "35062": 0.2
     },
-    "image": "imt-glaoveln-1754606664.png",
-    "image_coords": [
-      695,
-      300,
-      715,
-      318
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:night:2026-08",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       4426518
+    ],
+    "image": "imt-glaoveln-1754606664.png",
+    "image_coords": [
+      695,
+      300,
+      715,
+      318
     ]
   }
 }

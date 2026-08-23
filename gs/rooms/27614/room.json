@@ -1,4 +1,5 @@
 {
+  "checksum": "37f7170743ac374332474523ac8bef93",
   "room": {
     "id": 27614,
     "title": [
@@ -13,7 +14,7 @@
     ],
     "location": "Icemule Trace",
     "wayto": {
-      "3166": ";e move \"go path\";$go2_restart = true",
+      "3166": "/rooms/27614/wayto/stringproc-3166.rb",
       "27615": "go scarlet door",
       "27630": "go cedar door"
     },
@@ -22,13 +23,6 @@
       "27615": 0.2,
       "27630": 0.2
     },
-    "image": "imt_Twilight_Cavern.png",
-    "image_coords": [
-      270,
-      507,
-      331,
-      569
-    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -80,6 +74,13 @@
     ],
     "uid": [
       4043705
+    ],
+    "image": "imt_Twilight_Cavern.png",
+    "image_coords": [
+      270,
+      507,
+      331,
+      569
     ]
   }
 }

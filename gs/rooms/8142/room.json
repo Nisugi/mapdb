@@ -1,4 +1,5 @@
 {
+  "checksum": "d81b652beb11cd0b727d2a6d4ba3e2f1",
   "room": {
     "id": 8142,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "moist",
     "terrain": "deciduous forest",
     "wayto": {
-      "4280": ";e fput 'search'\nmove 'climb path'",
+      "4280": "/rooms/8142/wayto/stringproc-4280.rb",
       "8143": "climb boulder"
     },
     "timeto": {
       "4280": 0.2,
       "8143": 0.2
     },
-    "image": "wl-mineroad-1264234799.png",
-    "image_coords": [
-      1252,
-      84,
-      1262,
-      94
-    ],
     "tags": [
       "acantha leaf",
       "blackberries",
@@ -78,6 +72,13 @@
     ],
     "uid": [
       386064
+    ],
+    "image": "wl-mineroad-1264234799.png",
+    "image_coords": [
+      1252,
+      84,
+      1262,
+      94
     ]
   }
 }

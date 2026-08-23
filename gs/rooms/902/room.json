@@ -1,4 +1,5 @@
 {
+  "checksum": "b8b1d01e946df66cbf269fb7cca53ba2",
   "room": {
     "id": 902,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "901": ";e move 'go crevasse'; waitrt?",
+      "901": "/rooms/902/wayto/stringproc-901.rb",
       "903": "southwest"
     },
     "timeto": {
-      "901": 3.0,
+      "901": 3,
       "903": 0.2
     },
-    "image": "en-whistlers_pass-1639036092.png",
-    "image_coords": [
-      438,
-      218,
-      448,
-      228
-    ],
     "tags": [
       "bolmara lichen",
       "cave moss",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       13015071
+    ],
+    "image": "en-whistlers_pass-1639036092.png",
+    "image_coords": [
+      438,
+      218,
+      448,
+      228
     ]
   }
 }

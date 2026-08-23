@@ -1,4 +1,5 @@
 {
+  "checksum": "829bd74fe625da75ff58d2202eab5247",
   "room": {
     "id": 10938,
     "title": [
@@ -13,18 +14,12 @@
     "location": "the town of River's Rest",
     "wayto": {
       "10937": "east",
-      "30711": ";e true"
+      "30711": "/rooms/10938/wayto/stringproc-30711.rb"
     },
     "timeto": {
       "10937": 0.2,
-      "30711": ";e Map[7].timeto['30714'].call;"
+      "30711": "/rooms/10938/timeto/stringproc-30711.rb"
     },
-    "image_coords": [
-      693,
-      669,
-      719,
-      695
-    ],
     "tags": [
       "armor",
       "meta:forage-sensed",
@@ -35,6 +30,12 @@
     ],
     "uid": [
       2101908
+    ],
+    "image_coords": [
+      693,
+      669,
+      719,
+      695
     ]
   }
 }

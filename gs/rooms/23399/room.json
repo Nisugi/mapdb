@@ -1,4 +1,5 @@
 {
+  "checksum": "234cd6c99bdb12fec938a023389fdfd2",
   "room": {
     "id": 23399,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "none",
     "wayto": {
       "23398": "go stairs",
-      "23401": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'down'"
+      "23401": "/rooms/23399/wayto/stringproc-23401.rb"
     },
     "timeto": {
       "23398": 0.2,
       "23401": 0.2
     },
-    "image": "en-zul_logoth_liaerion-1703216519.png",
-    "image_coords": [
-      190,
-      399,
-      200,
-      409
-    ],
     "tags": [
       "bolmara lichen",
       "glowing toadstool",
@@ -41,6 +35,13 @@
     ],
     "uid": [
       13018025
+    ],
+    "image": "en-zul_logoth_liaerion-1703216519.png",
+    "image_coords": [
+      190,
+      399,
+      200,
+      409
     ]
   }
 }

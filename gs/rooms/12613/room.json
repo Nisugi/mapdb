@@ -1,4 +1,5 @@
 {
+  "checksum": "1f143fba8ef3d90097eab6620b47dba8",
   "room": {
     "id": 12613,
     "title": [
@@ -13,24 +14,24 @@
     "location": "the Dark Palisade",
     "wayto": {
       "12612": "out",
-      "12614": ";e empty_hands\nfput 'lie'\nmove 'go chute'\nwaitrt?\nfill_hands\nfput 'stand' unless standing?"
+      "12614": "/rooms/12613/wayto/stringproc-12614.rb"
     },
     "timeto": {
       "12612": 0.2,
       "12614": 0.2
     },
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      3041010
+    ],
     "image": "ti-wilds-1643860469.png",
     "image_coords": [
       961,
       594,
       971,
       604
-    ],
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      3041010
     ]
   }
 }

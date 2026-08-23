@@ -1,4 +1,5 @@
 {
+  "checksum": "7af16a4f721774ef79dea7cc73637f8d",
   "room": {
     "id": 11906,
     "title": [
@@ -17,7 +18,7 @@
       "627": "go hole",
       "11905": "west",
       "11907": "northeast",
-      "12259": ";e move 'crawl tree'; fput 'stand'; waitrt?"
+      "12259": "/rooms/11906/wayto/stringproc-12259.rb"
     },
     "timeto": {
       "627": 0.2,
@@ -25,13 +26,6 @@
       "11907": 0.2,
       "12259": 0.4
     },
-    "image": "en-old_ta_faendryl-1716923763.png",
-    "image_coords": [
-      1293,
-      567,
-      1303,
-      577
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -64,6 +58,13 @@
     ],
     "uid": [
       17002223
+    ],
+    "image": "en-old_ta_faendryl-1716923763.png",
+    "image_coords": [
+      1293,
+      567,
+      1303,
+      577
     ]
   }
 }

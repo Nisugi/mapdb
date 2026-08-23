@@ -1,4 +1,5 @@
 {
+  "checksum": "32ec676e0a1f0f4d44f71fbb7dea5b11",
   "room": {
     "id": 28899,
     "title": [
@@ -20,7 +21,7 @@
       "28901": "east",
       "28907": "north",
       "28933": "go slate tent",
-      "30716": ";e true"
+      "30716": "/rooms/28899/wayto/stringproc-30716.rb"
     },
     "timeto": {
       "28813": 0.2,
@@ -29,15 +30,8 @@
       "28901": 0.2,
       "28907": 0.2,
       "28933": 0.2,
-      "30716": ";e Map[7].timeto['30714'].call;"
+      "30716": "/rooms/28899/timeto/stringproc-30716.rb"
     },
-    "image": "kf-krakens_fall-1648278406.png",
-    "image_coords": [
-      472,
-      440,
-      485,
-      451
-    ],
     "tags": [
       "bright pink protea",
       "fire lily",
@@ -49,6 +43,13 @@
     ],
     "uid": [
       7118232
+    ],
+    "image": "kf-krakens_fall-1648278406.png",
+    "image_coords": [
+      472,
+      440,
+      485,
+      451
     ]
   }
 }

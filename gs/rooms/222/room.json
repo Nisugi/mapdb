@@ -1,4 +1,5 @@
 {
+  "checksum": "6844b7220fd6cdbe05c57a11a78f0577",
   "room": {
     "id": 222,
     "title": [
@@ -19,23 +20,16 @@
       "6258": "go walkway",
       "6323": "go clearing",
       "20733": "go path",
-      "30708": ";e true"
+      "30708": "/rooms/222/wayto/stringproc-30708.rb"
     },
     "timeto": {
       "221": 0.2,
       "410": 0.2,
       "6258": 0.2,
       "6323": 0.2,
-      "20733": ";e UserVars.mapdb_premium.nil? ? 10 : 0.2;",
-      "30708": ";e Map[7].timeto['30714'].call;"
+      "20733": "/rooms/222/timeto/stringproc-20733.rb",
+      "30708": "/rooms/222/timeto/stringproc-30708.rb"
     },
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      656,
-      181,
-      666,
-      191
-    ],
     "tags": [
       "acantha leaf",
       "alder bark",
@@ -127,6 +121,13 @@
     ],
     "uid": [
       397001
+    ],
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      656,
+      181,
+      666,
+      191
     ]
   }
 }

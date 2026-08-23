@@ -1,4 +1,5 @@
 {
+  "checksum": "f05af66f1ae250c09ff892d69cb8bca4",
   "room": {
     "id": 20980,
     "title": [
@@ -15,21 +16,14 @@
     "terrain": "riparian",
     "wayto": {
       "20967": "go bank",
-      "21068": ";e pause 0.2; waitrt?; fput 'push nw'",
-      "21069": ";e pause 0.2; waitrt?; fput 'push s'"
+      "21068": "/rooms/20980/wayto/stringproc-21068.rb",
+      "21069": "/rooms/20980/wayto/stringproc-21069.rb"
     },
     "timeto": {
       "20967": 0.2,
-      "21068": 2.0,
-      "21069": 2.0
+      "21068": 2,
+      "21069": 2
     },
-    "image": "ifw-wilds-1368242816.png",
-    "image_coords": [
-      1580,
-      1920,
-      1599,
-      1939
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2024-05",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       3217007
+    ],
+    "image": "ifw-wilds-1368242816.png",
+    "image_coords": [
+      1580,
+      1920,
+      1599,
+      1939
     ]
   }
 }

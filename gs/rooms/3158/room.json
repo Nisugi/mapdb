@@ -1,4 +1,5 @@
 {
+  "checksum": "24c97844507b51e6b5c1f075e3255c8a",
   "room": {
     "id": 3158,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "3157": "east",
       "3159": "northwest",
-      "23281": ";e move('go portal');UserVars.mapdb_talondown_origin = 3158;"
+      "23281": "/rooms/3158/wayto/stringproc-23281.rb"
     },
     "timeto": {
       "3157": 0.2,
       "3159": 0.2,
       "23281": 0.4
     },
-    "image": "imt-south_gate-1647231707.png",
-    "image_coords": [
-      101,
-      655,
-      111,
-      665
-    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -75,6 +69,13 @@
     ],
     "uid": [
       4160003
+    ],
+    "image": "imt-south_gate-1647231707.png",
+    "image_coords": [
+      101,
+      655,
+      111,
+      665
     ]
   }
 }

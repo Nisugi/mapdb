@@ -1,4 +1,5 @@
 {
+  "checksum": "26abce502675f33df00ba0b799a13ade",
   "room": {
     "id": 11457,
     "title": [
@@ -12,29 +13,29 @@
     ],
     "location": "Maelstrom Bay",
     "wayto": {
-      "11438": ";e move 'swim up'; waitrt?",
-      "11456": ";e move 'swim west'; waitrt?",
-      "11458": ";e move 'swim north'; waitrt?",
-      "11461": ";e move 'swim northwest'; waitrt?"
+      "11438": "/rooms/11457/wayto/stringproc-11438.rb",
+      "11456": "/rooms/11457/wayto/stringproc-11456.rb",
+      "11458": "/rooms/11457/wayto/stringproc-11458.rb",
+      "11461": "/rooms/11457/wayto/stringproc-11461.rb"
     },
     "timeto": {
-      "11438": 3.0,
-      "11456": 2.0,
-      "11458": 2.0,
-      "11461": 2.0
+      "11438": 3,
+      "11456": 2,
+      "11458": 2,
+      "11461": 2
     },
+    "tags": [
+      "meta:underwater"
+    ],
+    "uid": [
+      304116
+    ],
     "image": "rr-maelstrom-1619824696.png",
     "image_coords": [
       815,
       1288,
       825,
       1298
-    ],
-    "tags": [
-      "meta:underwater"
-    ],
-    "uid": [
-      304116
     ]
   }
 }

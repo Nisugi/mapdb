@@ -1,4 +1,5 @@
 {
+  "checksum": "18800907d12a68a960a4fbbf9f307540",
   "room": {
     "id": 13928,
     "title": [
@@ -22,13 +23,6 @@
       "13925": 0.2,
       "13956": 0.2
     },
-    "image": "en-ravelin.png",
-    "image_coords": [
-      665,
-      762,
-      693,
-      791
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-08",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       14200040
+    ],
+    "image": "en-ravelin.png",
+    "image_coords": [
+      665,
+      762,
+      693,
+      791
     ]
   }
 }

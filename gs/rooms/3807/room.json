@@ -1,4 +1,5 @@
 {
+  "checksum": "94f94ab3a93dd217f1f2b5dfa613701b",
   "room": {
     "id": 3807,
     "title": [
@@ -15,21 +16,14 @@
       "223": "out",
       "6932": "go wooden steps",
       "23335": "go wooden trapdoor",
-      "30708": ";e true"
+      "30708": "/rooms/3807/wayto/stringproc-30708.rb"
     },
     "timeto": {
       "223": 0.2,
       "6932": 0.2,
       "23335": 0.3,
-      "30708": ";e Map[7].timeto['30714'].call;"
+      "30708": "/rooms/3807/timeto/stringproc-30708.rb"
     },
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      317,
-      84,
-      353,
-      120
-    ],
     "tags": [
       "easttower",
       "fire lily",
@@ -50,6 +44,13 @@
     ],
     "uid": [
       3040
+    ],
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      317,
+      84,
+      353,
+      120
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "913b215fc16619e0c8fac2bc91aa564a",
   "room": {
     "id": 26913,
     "title": [
@@ -14,25 +15,25 @@
     "wayto": {
       "26901": "go arch",
       "26912": "south",
-      "26914": ";e fput 'search'; move 'go fissure'"
+      "26914": "/rooms/26913/wayto/stringproc-26914.rb"
     },
     "timeto": {
       "26901": 0.2,
       "26912": 0.2,
-      "26914": 3.0
+      "26914": 3
     },
+    "tags": [
+      "meta:mho:The Black Hand Trading Co."
+    ],
+    "uid": [
+      18018006
+    ],
     "image": "wl-black_hand-1527320047.png",
     "image_coords": [
       692,
       571,
       852,
       705
-    ],
-    "tags": [
-      "meta:mho:The Black Hand Trading Co."
-    ],
-    "uid": [
-      18018006
     ]
   }
 }

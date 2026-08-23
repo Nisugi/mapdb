@@ -1,4 +1,5 @@
 {
+  "checksum": "81ca5943b65903add58f5d750abb239e",
   "room": {
     "id": 13106,
     "title": [
@@ -22,13 +23,6 @@
       "13112": 0.2,
       "13125": 0.2
     },
-    "image": "vo-outlands-1264234799.png",
-    "image_coords": [
-      550,
-      866,
-      560,
-      876
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-08",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       562011
+    ],
+    "image": "vo-outlands-1264234799.png",
+    "image_coords": [
+      550,
+      866,
+      560,
+      876
     ]
   }
 }

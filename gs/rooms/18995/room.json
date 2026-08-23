@@ -1,4 +1,5 @@
 {
+  "checksum": "a7306f19f6d8fc8a49ba9da644e05e95",
   "room": {
     "id": 18995,
     "title": [
@@ -14,22 +15,22 @@
     "wayto": {
       "18981": "north",
       "18996": "go doors",
-      "19001": ";e loop { wait_until { Spell[704].affordable? }; result = cast(704, 'mosaic'); break unless result =~ /Spell Hindrance/ } "
+      "19001": "/rooms/18995/wayto/stringproc-19001.rb"
     },
     "timeto": {
       "18981": 0.2,
       "18996": 0.2,
       "19001": 5
     },
+    "uid": [
+      668004
+    ],
     "image": "en-zul-sorcerer_guild-1405076623.png",
     "image_coords": [
       762,
       462,
       800,
       499
-    ],
-    "uid": [
-      668004
     ]
   }
 }

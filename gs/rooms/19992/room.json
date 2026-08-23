@@ -1,4 +1,5 @@
 {
+  "checksum": "e54f86bae17f61fdca4629f359bdccd8",
   "room": {
     "id": 19992,
     "title": [
@@ -12,18 +13,11 @@
     ],
     "location": "the foothills of Zeltoph",
     "wayto": {
-      "19728": ";e fput 'open door';while line = get;if line == \"It's locked, Blazyn!\";empty_hand;fput 'turn lock';fput 'open door';fput 'go door';fill_hand;break;else;fput 'go door';break;end;end"
+      "19728": "/rooms/19992/wayto/stringproc-19728.rb"
     },
     "timeto": {
       "19728": 0.2
     },
-    "image": "wl-cavernhold-1295073688.png",
-    "image_coords": [
-      467,
-      551,
-      476,
-      561
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -32,6 +26,13 @@
     ],
     "uid": [
       11500
+    ],
+    "image": "wl-cavernhold-1295073688.png",
+    "image_coords": [
+      467,
+      551,
+      476,
+      561
     ]
   }
 }

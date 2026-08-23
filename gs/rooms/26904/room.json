@@ -1,4 +1,5 @@
 {
+  "checksum": "ef4de386f20082e1bfb3fdc38d8a23c8",
   "room": {
     "id": 26904,
     "title": [
@@ -27,6 +28,13 @@
       "29859": 0.2,
       "33319": 0.2
     },
+    "tags": [
+      "locus",
+      "traveler"
+    ],
+    "uid": [
+      8214502
+    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       631,
@@ -34,13 +42,6 @@
       661,
       1072
     ],
-    "tags": [
-      "locus",
-      "traveler"
-    ],
-    "check_location": false,
-    "uid": [
-      8214502
-    ]
+    "check_location": false
   }
 }

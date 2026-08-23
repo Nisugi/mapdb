@@ -1,4 +1,5 @@
 {
+  "checksum": "3b22715273af15267ceabe64257bc392",
   "room": {
     "id": 8622,
     "title": [
@@ -26,13 +27,6 @@
       "18846": 0.2,
       "18847": 0.2
     },
-    "image": "wl-twilight_hall.jpg",
-    "image_coords": [
-      585,
-      439,
-      673,
-      498
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-08",
@@ -43,6 +37,13 @@
     ],
     "uid": [
       108001
+    ],
+    "image": "wl-twilight_hall.jpg",
+    "image_coords": [
+      585,
+      439,
+      673,
+      498
     ]
   }
 }

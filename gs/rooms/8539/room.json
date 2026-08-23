@@ -1,4 +1,5 @@
 {
+  "checksum": "1fd2518af25108ccbe0dea7feadd4746",
   "room": {
     "id": 8539,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "temperate",
     "terrain": "muddy wetlands",
     "wayto": {
-      "8538": ";e move 'southeast'; waitrt?",
-      "8540": ";e move 'northwest'; waitrt?"
+      "8538": "/rooms/8539/wayto/stringproc-8538.rb",
+      "8540": "/rooms/8539/wayto/stringproc-8540.rb"
     },
     "timeto": {
-      "8538": 5.0,
-      "8540": 5.0
+      "8538": 5,
+      "8540": 5
     },
-    "image": "wl-trollfang-1264234799.png",
-    "image_coords": [
-      847,
-      599,
-      857,
-      609
-    ],
     "tags": [
       "black peppercorn",
       "blue trafel mushroom",
@@ -67,6 +61,13 @@
     ],
     "uid": [
       16006
+    ],
+    "image": "wl-trollfang-1264234799.png",
+    "image_coords": [
+      847,
+      599,
+      857,
+      609
     ]
   }
 }

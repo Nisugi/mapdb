@@ -1,4 +1,5 @@
 {
+  "checksum": "986feda9eb46f8192e5bca3361a63af2",
   "room": {
     "id": 9744,
     "title": [
@@ -21,13 +22,6 @@
       "9745": 0.2,
       "9746": 0.2
     },
-    "image": "en-tower-1264234799.png",
-    "image_coords": [
-      639,
-      464,
-      649,
-      474
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-08",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       13021020
+    ],
+    "image": "en-tower-1264234799.png",
+    "image_coords": [
+      639,
+      464,
+      649,
+      474
     ]
   }
 }

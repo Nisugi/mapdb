@@ -1,4 +1,5 @@
 {
+  "checksum": "56dba513549858a43314c8d1f39c7c23",
   "room": {
     "id": 18897,
     "title": [
@@ -18,21 +19,14 @@
       "16728": "southeast",
       "19548": "southwest",
       "19860": "go building",
-      "30718": ";e true"
+      "30718": "/rooms/18897/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "16728": 0.2,
       "19548": 0.2,
-      "19860": ";e ((!defined?(Stats.prof) or Stats.prof == 'Cleric') ? 0.2 : nil);",
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "19860": "/rooms/18897/timeto/stringproc-19860.rb",
+      "30718": "/rooms/18897/timeto/stringproc-30718.rb"
     },
-    "image": "ifw-cleric_guild.png",
-    "image_coords": [
-      1264,
-      1920,
-      1472,
-      2098
-    ],
     "tags": [
       "bay leaf",
       "black peppercorn",
@@ -81,6 +75,13 @@
     ],
     "uid": [
       678031
+    ],
+    "image": "ifw-cleric_guild.png",
+    "image_coords": [
+      1264,
+      1920,
+      1472,
+      2098
     ]
   }
 }

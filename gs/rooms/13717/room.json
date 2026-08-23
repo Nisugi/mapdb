@@ -1,4 +1,5 @@
 {
+  "checksum": "497ca7f68c9ba0a01b634b0651e7e4bc",
   "room": {
     "id": 13717,
     "title": [
@@ -24,15 +25,8 @@
       "13716": 0.2,
       "13720": 0.2,
       "13721": 0.2,
-      "18757": ";e Stats.prof == 'Empath' ? 0.2 : nil"
+      "18757": "/rooms/13717/timeto/stringproc-18757.rb"
     },
-    "image": "en-ta_vaalor_empath_guild.png",
-    "image_coords": [
-      1007,
-      449,
-      1076,
-      513
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -42,6 +36,13 @@
     ],
     "uid": [
       657004
+    ],
+    "image": "en-ta_vaalor_empath_guild.png",
+    "image_coords": [
+      1007,
+      449,
+      1076,
+      513
     ]
   }
 }

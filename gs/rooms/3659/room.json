@@ -1,4 +1,5 @@
 {
+  "checksum": "68d192d3dd68e982fcb3ce02625b7ba1",
   "room": {
     "id": 3659,
     "title": [
@@ -17,12 +18,12 @@
     "wayto": {
       "3658": "out",
       "16695": "east",
-      "30718": ";e true"
+      "30718": "/rooms/3659/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "3658": 0.2,
       "16695": 0.2,
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "30718": "/rooms/3659/timeto/stringproc-30718.rb"
     },
     "tags": [
       "jail",

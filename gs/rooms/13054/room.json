@@ -1,4 +1,5 @@
 {
+  "checksum": "9501b4cbcce7c610500f1bdc70adf197",
   "room": {
     "id": 13054,
     "title": [
@@ -15,11 +16,11 @@
     "terrain": "none",
     "wayto": {
       "1473": "out",
-      "30710": ";e true"
+      "30710": "/rooms/13054/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "1473": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/13054/timeto/stringproc-30710.rb"
     },
     "tags": [
       "furrier",

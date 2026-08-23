@@ -1,4 +1,5 @@
 {
+  "checksum": "c98708b92e4a427609682d9690145c1a",
   "room": {
     "id": 11742,
     "title": [
@@ -13,19 +14,12 @@
     "location": "the Marsh Keep",
     "wayto": {
       "11741": "out",
-      "11747": ";e empty_hands\nmove 'swim pool'\nfill_hands"
+      "11747": "/rooms/11742/wayto/stringproc-11747.rb"
     },
     "timeto": {
       "11741": 0.2,
-      "11747": 30.0
+      "11747": 30
     },
-    "image": "rr-marsh_keep-1266356986.png",
-    "image_coords": [
-      553,
-      730,
-      563,
-      740
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:splashy",
@@ -33,6 +27,13 @@
     ],
     "uid": [
       376076
+    ],
+    "image": "rr-marsh_keep-1266356986.png",
+    "image_coords": [
+      553,
+      730,
+      563,
+      740
     ]
   }
 }

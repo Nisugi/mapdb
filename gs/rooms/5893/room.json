@@ -1,4 +1,5 @@
 {
+  "checksum": "cfd866a8914fa182476a8b2d8d1c42dc",
   "room": {
     "id": 5893,
     "title": [
@@ -23,13 +24,6 @@
       "5869": 0.2,
       "24559": 0.2
     },
-    "image": "en-cemetery-1617615116.png",
-    "image_coords": [
-      477,
-      695,
-      489,
-      707
-    ],
     "tags": [
       "angelica root",
       "arbutus berry",
@@ -177,9 +171,16 @@
       "yew twig",
       "zucchini"
     ],
-    "check_location": false,
     "uid": [
       14008052
-    ]
+    ],
+    "image": "en-cemetery-1617615116.png",
+    "image_coords": [
+      477,
+      695,
+      489,
+      707
+    ],
+    "check_location": false
   }
 }

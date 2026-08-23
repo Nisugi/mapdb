@@ -1,4 +1,5 @@
 {
+  "checksum": "cc1e0953cac206098f90db950294a950",
   "room": {
     "id": 9326,
     "title": [
@@ -22,13 +23,6 @@
       "9325": 0.2,
       "9327": 0.2
     },
-    "image": "vo-trail-1264234799.png",
-    "image_coords": [
-      442,
-      714,
-      450,
-      721
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2023-01",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       4748100
+    ],
+    "image": "vo-trail-1264234799.png",
+    "image_coords": [
+      442,
+      714,
+      450,
+      721
     ]
   }
 }

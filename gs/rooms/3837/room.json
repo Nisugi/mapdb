@@ -1,4 +1,5 @@
 {
+  "checksum": "1e4c903fdef1a8820768eeb1dd942904",
   "room": {
     "id": 3837,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "3831": ";e while checkpaths.include?('e'); fput 'search'; move 'go fissure'; end",
+      "3831": "/rooms/3837/wayto/stringproc-3831.rb",
       "3836": "east"
     },
     "timeto": {
       "3831": 0.4,
       "3836": 0.2
     },
-    "image": "wl-stronghold-1264234799.png",
-    "image_coords": [
-      288,
-      621,
-      298,
-      631
-    ],
     "tags": [
       "bolmara lichen",
       "ironfern root",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       4291050
+    ],
+    "image": "wl-stronghold-1264234799.png",
+    "image_coords": [
+      288,
+      621,
+      298,
+      631
     ]
   }
 }

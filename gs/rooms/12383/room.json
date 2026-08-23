@@ -1,4 +1,5 @@
 {
+  "checksum": "64b1a005b94ca13e0fb8d76818294727",
   "room": {
     "id": 12383,
     "title": [
@@ -15,20 +16,13 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "12382": ";e empty_hands; move 'climb rope'; fill_hands",
+      "12382": "/rooms/12383/wayto/stringproc-12382.rb",
       "12498": "go dwelling"
     },
     "timeto": {
       "12382": 0.6,
       "12498": 0.2
     },
-    "image": "ti-teras-1264234799.png",
-    "image_coords": [
-      204,
-      91,
-      240,
-      127
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       3008011
+    ],
+    "image": "ti-teras-1264234799.png",
+    "image_coords": [
+      204,
+      91,
+      240,
+      127
     ]
   }
 }

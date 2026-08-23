@@ -1,4 +1,5 @@
 {
+  "checksum": "9bb1a0a263644a73fb87450cbe40cac8",
   "room": {
     "id": 2455,
     "title": [
@@ -20,22 +21,15 @@
       "3234": "go east gate",
       "27716": "go north tower",
       "27723": "go south tower",
-      "30709": ";e true"
+      "30709": "/rooms/2455/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "2452": 0.2,
       "3234": 0.2,
       "27716": 0.2,
       "27723": 0.2,
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "30709": "/rooms/2455/timeto/stringproc-30709.rb"
     },
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      1026,
-      787,
-      1062,
-      823
-    ],
     "tags": [
       "eastgate",
       "meta:forage-sensed",
@@ -47,6 +41,13 @@
     ],
     "uid": [
       4042305
+    ],
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      1026,
+      787,
+      1062,
+      823
     ]
   }
 }

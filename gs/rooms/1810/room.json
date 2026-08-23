@@ -1,4 +1,5 @@
 {
+  "checksum": "70c84226697d933bb902226477e2967e",
   "room": {
     "id": 1810,
     "title": [
@@ -15,10 +16,10 @@
     "climate": "cold, damp",
     "terrain": "deciduous forest",
     "wayto": {
-      "1809": ";e move 'northeast'; move 'southeast' unless checkpaths.include?('nw')",
-      "1811": ";e move 'northwest' while checkpaths.include?('ne')",
-      "9895": ";e move 'southeast' while checkpaths.include?('se')",
-      "13481": ";e move 'northeast'; move 'northwest' if checkpaths.include?('nw')"
+      "1809": "/rooms/1810/wayto/stringproc-1809.rb",
+      "1811": "/rooms/1810/wayto/stringproc-1811.rb",
+      "9895": "/rooms/1810/wayto/stringproc-9895.rb",
+      "13481": "/rooms/1810/wayto/stringproc-13481.rb"
     },
     "timeto": {
       "1809": 0.4,
@@ -26,13 +27,6 @@
       "9895": 0.4,
       "13481": 0.4
     },
-    "image": "en-sylvarraend-1264234799.png",
-    "image_coords": [
-      372,
-      354,
-      382,
-      364
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -84,6 +78,13 @@
     "uid": [
       13027027,
       13027028
+    ],
+    "image": "en-sylvarraend-1264234799.png",
+    "image_coords": [
+      372,
+      354,
+      382,
+      364
     ]
   }
 }

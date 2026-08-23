@@ -1,4 +1,5 @@
 {
+  "checksum": "f13619127401914a3ee49900c0f5bee7",
   "room": {
     "id": 20946,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "humid",
     "terrain": "riparian",
     "wayto": {
-      "20945": ";e pause 0.2; waitrt?; fput 'climb rock'",
-      "21061": ";e pause 0.2; waitrt?; fput 'push s'"
+      "20945": "/rooms/20946/wayto/stringproc-20945.rb",
+      "21061": "/rooms/20946/wayto/stringproc-21061.rb"
     },
     "timeto": {
-      "20945": 2.0,
-      "21061": 2.0
+      "20945": 2,
+      "21061": 2
     },
-    "image": "ifw-wilds-1368242816.png",
-    "image_coords": [
-      1060,
-      999,
-      1079,
-      1020
-    ],
     "tags": [
       "acantha leaf",
       "blackened moss",
@@ -49,6 +43,13 @@
     ],
     "uid": [
       3210697
+    ],
+    "image": "ifw-wilds-1368242816.png",
+    "image_coords": [
+      1060,
+      999,
+      1079,
+      1020
     ]
   }
 }

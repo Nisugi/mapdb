@@ -1,4 +1,5 @@
 {
+  "checksum": "b0cb4478636a2c7389471c8f65a08685",
   "room": {
     "id": 35899,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "the River Muagh",
     "wayto": {
-      "35898": ";e move('push southwest')",
+      "35898": "/rooms/35899/wayto/stringproc-35898.rb",
       "35900": "go basalt ledge"
     },
     "timeto": {
       "35898": 0.2,
       "35900": 0.2
     },
-    "image": "ti-kragnek_dzu-1761314324.png",
-    "image_coords": [
-      331,
-      525,
-      369,
-      562
-    ],
     "tags": [
       "broken twig",
       "meta:forage-sensed",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       3024015
+    ],
+    "image": "ti-kragnek_dzu-1761314324.png",
+    "image_coords": [
+      331,
+      525,
+      369,
+      562
     ]
   }
 }

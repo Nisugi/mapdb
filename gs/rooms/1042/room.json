@@ -1,4 +1,5 @@
 {
+  "checksum": "38d3c23194061e1df82390600a7a518c",
   "room": {
     "id": 1042,
     "title": [
@@ -14,22 +15,15 @@
     "climate": "cold, damp",
     "terrain": "grassland",
     "wayto": {
-      "1041": ";e move 'climb boulder'\nfput 'look trail'\ndir = matchfindword \"You peer into the mist and see that the trail heads off to the ?\"\nmove 'down'\nsleep 5 if running?('agoto')\nmove dir",
+      "1041": "/rooms/1042/wayto/stringproc-1041.rb",
       "1043": "west",
       "1265": "climb boulder"
     },
     "timeto": {
-      "1041": 3.0,
+      "1041": 3,
       "1043": 0.2,
       "1265": 0.2
     },
-    "image": "en-trail-1264234799.png",
-    "image_coords": [
-      1172,
-      477,
-      1182,
-      487
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -66,6 +60,13 @@
     ],
     "uid": [
       13001070
+    ],
+    "image": "en-trail-1264234799.png",
+    "image_coords": [
+      1172,
+      477,
+      1182,
+      487
     ]
   }
 }

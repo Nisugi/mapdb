@@ -1,4 +1,5 @@
 {
+  "checksum": "e1534a949adf6039a1507f8c058598ab",
   "room": {
     "id": 10119,
     "title": [
@@ -15,20 +16,13 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "10117": ";e move 'go gangplank'\nif Room.current.id == 10119\necho 'Waiting for ferry... '\nwaitfor 'An elven crewmember scrambles back onto the boat and lowers the gangplank.'\nmove 'go gangplank'\nend\nwaitfor 'An elven crewmember scrambles back onto the boat and lowers the gangplank.'\nmove 'out'",
+      "10117": "/rooms/10119/wayto/stringproc-10117.rb",
       "10120": "south"
     },
     "timeto": {
-      "10117": 300.0,
+      "10117": 300,
       "10120": 0.2
     },
-    "image": "en-fearling-1632908688.png",
-    "image_coords": [
-      666,
-      237,
-      676,
-      247
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       14001002
+    ],
+    "image": "en-fearling-1632908688.png",
+    "image_coords": [
+      666,
+      237,
+      676,
+      247
     ]
   }
 }

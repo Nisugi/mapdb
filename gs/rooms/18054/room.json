@@ -1,4 +1,5 @@
 {
+  "checksum": "58187680fbc15da5b3af63c680a45a7d",
   "room": {
     "id": 18054,
     "title": [
@@ -12,26 +13,26 @@
     ],
     "location": "Ta'Vaalor",
     "wayto": {
-      "18052": ";e 40.times { sleep 0.1; break if GameObj.loot.any? { |obj| obj.name =~ /#{Char.name} disk$/ } }; unless GameObj.loot.any? { |obj| obj.name =~ /#{Char.name} disk$/ }; disk = Spell[511]; wait_until { disk.affordable? }; disk.cast; end; move 'down'",
-      "18068": ";e 40.times { sleep 0.1; break if GameObj.loot.any? { |obj| obj.name =~ /#{Char.name} disk$/ } }; unless GameObj.loot.any? { |obj| obj.name =~ /#{Char.name} disk$/ }; disk = Spell[511]; wait_until { disk.affordable? }; disk.cast; end; move 'up'",
+      "18052": "/rooms/18054/wayto/stringproc-18052.rb",
+      "18068": "/rooms/18054/wayto/stringproc-18068.rb",
       "18070": "southeast",
       "18071": "northeast"
     },
     "timeto": {
-      "18052": 3.0,
-      "18068": 3.0,
+      "18052": 3,
+      "18068": 3,
       "18070": 0.2,
       "18071": 0.2
     },
+    "uid": [
+      687029
+    ],
     "image": "en-ta_vaalor_wizard_guild-1649013056.jpg",
     "image_coords": [
       353,
       236,
       422,
       301
-    ],
-    "uid": [
-      687029
     ]
   }
 }

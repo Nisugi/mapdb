@@ -1,4 +1,5 @@
 {
+  "checksum": "62aa47a452eccab96707e9e034c01fed",
   "room": {
     "id": 7461,
     "title": [
@@ -12,22 +13,15 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "7460": ";e fput 'kneel' unless kneeling? or (Stats.race =~ /Dwarf|Halfling|Gnome/); move 'northwest'",
-      "7462": ";e fput 'kneel' unless kneeling? or (Stats.race =~ /Dwarf|Halfling|Gnome/); move 'southeast'",
-      "7477": ";e fput 'kneel' unless kneeling? or (Stats.race =~ /Dwarf|Halfling|Gnome/); move 'northeast'"
+      "7460": "/rooms/7461/wayto/stringproc-7460.rb",
+      "7462": "/rooms/7461/wayto/stringproc-7462.rb",
+      "7477": "/rooms/7461/wayto/stringproc-7477.rb"
     },
     "timeto": {
       "7460": 0.2,
       "7462": 0.2,
       "7477": 0.2
     },
-    "image": "wl-broken-1264234799.png",
-    "image_coords": [
-      834,
-      853,
-      844,
-      863
-    ],
     "tags": [
       "blackened moss",
       "bone mushroom",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       94004
+    ],
+    "image": "wl-broken-1264234799.png",
+    "image_coords": [
+      834,
+      853,
+      844,
+      863
     ]
   }
 }

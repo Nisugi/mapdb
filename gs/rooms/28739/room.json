@@ -1,4 +1,5 @@
 {
+  "checksum": "5dfe9b73e8c9f5960af876a40e566e06",
   "room": {
     "id": 28739,
     "title": [
@@ -12,25 +13,25 @@
     ],
     "location": "Icemule Trace",
     "wayto": {
-      "28736": ";e move 'go arch'; $go2_restart = true",
+      "28736": "/rooms/28739/wayto/stringproc-28736.rb",
       "28740": "go opening"
     },
     "timeto": {
       "28736": 0.2,
       "28740": 0.2
     },
+    "tags": [
+      "meta:locker annex:Beacon Hall Archive"
+    ],
+    "uid": [
+      4043718
+    ],
     "image": "imt-beacon_hall.png",
     "image_coords": [
       313,
       356,
       350,
       394
-    ],
-    "tags": [
-      "meta:locker annex:Beacon Hall Archive"
-    ],
-    "uid": [
-      4043718
     ]
   }
 }

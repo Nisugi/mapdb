@@ -1,4 +1,5 @@
 {
+  "checksum": "4cda94eab4b9a740acdbd98825c153fa",
   "room": {
     "id": 10434,
     "title": [
@@ -16,11 +17,11 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "3502": "out",
-      "30713": ";e true"
+      "30713": "/rooms/10434/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "3502": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/10434/timeto/stringproc-30713.rb"
     },
     "tags": [
       "locksmith",

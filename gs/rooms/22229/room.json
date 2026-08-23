@@ -1,4 +1,5 @@
 {
+  "checksum": "6d25e5b23573e5985f3b38aa9f392231",
   "room": {
     "id": 22229,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": false,
     "wayto": {
-      "6955": ";e fput \"swim up\";fput \"go shore\""
+      "6955": "/rooms/22229/wayto/stringproc-6955.rb"
     },
     "timeto": {
       "6955": 0.2

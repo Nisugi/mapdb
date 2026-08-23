@@ -1,4 +1,5 @@
 {
+  "checksum": "9b5eb702eedb229a0d18f2e02f0b866a",
   "room": {
     "id": 25540,
     "title": [
@@ -18,16 +19,9 @@
       "20794": "go stone walkway"
     },
     "timeto": {
-      "20788": 10.0,
+      "20788": 10,
       "20794": 0.2
     },
-    "image": "wl-house_sovyn-11481362649.png",
-    "image_coords": [
-      5,
-      386,
-      168,
-      480
-    ],
     "tags": [
       "angelica root",
       "aubergine hellebore",
@@ -169,6 +163,13 @@
     ],
     "uid": [
       210902
+    ],
+    "image": "wl-house_sovyn-11481362649.png",
+    "image_coords": [
+      5,
+      386,
+      168,
+      480
     ]
   }
 }

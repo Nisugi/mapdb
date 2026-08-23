@@ -1,4 +1,5 @@
 {
+  "checksum": "cfb2d2ea0c8432f5d90e655ba61b378e",
   "room": {
     "id": 26905,
     "title": [
@@ -14,39 +15,46 @@
     ],
     "location": "Bloodriven Village",
     "wayto": {
-      "7": ";e move('go wagon');UserVars.mapdb_duskruin_origin = nil;",
-      "284": ";e move('go wagon');UserVars.mapdb_duskruin_origin = nil;",
-      "1448": ";e move('go wagon');UserVars.mapdb_duskruin_origin = nil;",
-      "1944": ";e move('go wagon');UserVars.mapdb_duskruin_origin = nil;",
-      "2426": ";e move('go wagon');UserVars.mapdb_duskruin_origin = nil;",
-      "3669": ";e move('go wagon');UserVars.mapdb_duskruin_origin = nil;",
-      "3727": ";e move('go wagon');UserVars.mapdb_duskruin_origin = nil;",
-      "4651": ";e move('go wagon');UserVars.mapdb_duskruin_origin = nil;",
-      "9410": ";e move('go wagon');UserVars.mapdb_duskruin_origin = nil;",
-      "9652": ";e move('go wagon');UserVars.mapdb_duskruin_origin = nil;",
-      "10862": ";e move('go wagon');UserVars.mapdb_duskruin_origin = nil;",
+      "7": "/rooms/26905/wayto/stringproc-7.rb",
+      "284": "/rooms/26905/wayto/stringproc-284.rb",
+      "1448": "/rooms/26905/wayto/stringproc-1448.rb",
+      "1944": "/rooms/26905/wayto/stringproc-1944.rb",
+      "2426": "/rooms/26905/wayto/stringproc-2426.rb",
+      "3669": "/rooms/26905/wayto/stringproc-3669.rb",
+      "3727": "/rooms/26905/wayto/stringproc-3727.rb",
+      "4651": "/rooms/26905/wayto/stringproc-4651.rb",
+      "9410": "/rooms/26905/wayto/stringproc-9410.rb",
+      "9652": "/rooms/26905/wayto/stringproc-9652.rb",
+      "10862": "/rooms/26905/wayto/stringproc-10862.rb",
       "26386": "go shore",
       "26904": "up",
-      "28908": ";e move('go wagon');UserVars.mapdb_duskruin_origin = nil;",
-      "33578": ";e true"
+      "28908": "/rooms/26905/wayto/stringproc-28908.rb",
+      "33578": "/rooms/26905/wayto/stringproc-33578.rb"
     },
     "timeto": {
-      "7": ";e (!UserVars.mapdb_duskruin_origin.nil? and UserVars.mapdb_duskruin_origin == 7) ? 0.2 : nil;",
-      "284": ";e (!UserVars.mapdb_duskruin_origin.nil? and UserVars.mapdb_duskruin_origin == 284) ? 0.2 : nil;",
-      "1448": ";e (!UserVars.mapdb_duskruin_origin.nil? and UserVars.mapdb_duskruin_origin == 1448) ? 0.2 : nil;",
-      "1944": ";e (!UserVars.mapdb_duskruin_origin.nil? and UserVars.mapdb_duskruin_origin == 1944) ? 0.2 : nil;",
-      "2426": ";e (!UserVars.mapdb_duskruin_origin.nil? and UserVars.mapdb_duskruin_origin == 2426) ? 0.2 : nil;",
-      "3669": ";e (!UserVars.mapdb_duskruin_origin.nil? and UserVars.mapdb_duskruin_origin == 3669) ? 0.2 : nil;",
-      "3727": ";e (!UserVars.mapdb_duskruin_origin.nil? and UserVars.mapdb_duskruin_origin == 3727) ? 2400.0 : nil;",
-      "4651": ";e (!UserVars.mapdb_duskruin_origin.nil? and UserVars.mapdb_duskruin_origin == 4651) ? 0.2 : nil;",
-      "9410": ";e (!UserVars.mapdb_duskruin_origin.nil? and UserVars.mapdb_duskruin_origin == 9410) ? 0.2 : nil;",
-      "9652": ";e (!UserVars.mapdb_duskruin_origin.nil? and UserVars.mapdb_duskruin_origin == 9652) ? 0.2 : nil;",
-      "10862": ";e (!UserVars.mapdb_duskruin_origin.nil? and UserVars.mapdb_duskruin_origin == 10862) ? 0.2 : nil;",
+      "7": "/rooms/26905/timeto/stringproc-7.rb",
+      "284": "/rooms/26905/timeto/stringproc-284.rb",
+      "1448": "/rooms/26905/timeto/stringproc-1448.rb",
+      "1944": "/rooms/26905/timeto/stringproc-1944.rb",
+      "2426": "/rooms/26905/timeto/stringproc-2426.rb",
+      "3669": "/rooms/26905/timeto/stringproc-3669.rb",
+      "3727": "/rooms/26905/timeto/stringproc-3727.rb",
+      "4651": "/rooms/26905/timeto/stringproc-4651.rb",
+      "9410": "/rooms/26905/timeto/stringproc-9410.rb",
+      "9652": "/rooms/26905/timeto/stringproc-9652.rb",
+      "10862": "/rooms/26905/timeto/stringproc-10862.rb",
       "26386": 0.2,
       "26904": 0.2,
-      "28908": ";e (!UserVars.mapdb_duskruin_origin.nil? and UserVars.mapdb_duskruin_origin == 28908) ? 0.2 : nil;",
-      "33578": ";e Map[7].timeto['30714'].call;"
+      "28908": "/rooms/26905/timeto/stringproc-28908.rb",
+      "33578": "/rooms/26905/timeto/stringproc-33578.rb"
     },
+    "tags": [
+      "exit",
+      "meta:teleport"
+    ],
+    "uid": [
+      8214501
+    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       631,
@@ -54,13 +62,6 @@
       661,
       1161
     ],
-    "tags": [
-      "exit",
-      "meta:teleport"
-    ],
-    "check_location": false,
-    "uid": [
-      8214501
-    ]
+    "check_location": false
   }
 }

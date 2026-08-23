@@ -1,4 +1,5 @@
 {
+  "checksum": "79bec4e7ca37f9de24a56cbd9b86d341",
   "room": {
     "id": 31060,
     "title": [
@@ -13,11 +14,11 @@
     "location": "the Hinterwilds",
     "wayto": {
       "29871": "out",
-      "34399": ";e true"
+      "34399": "/rooms/31060/wayto/stringproc-34399.rb"
     },
     "timeto": {
       "29871": 0.2,
-      "34399": ";e Map[7].timeto['30714'].call;"
+      "34399": "/rooms/31060/timeto/stringproc-34399.rb"
     },
     "tags": [
       "furrier",

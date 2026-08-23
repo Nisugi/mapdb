@@ -1,4 +1,5 @@
 {
+  "checksum": "09688f9a4184102766d45718322fa747",
   "room": {
     "id": 9472,
     "title": [
@@ -16,21 +17,14 @@
       "9410": "out",
       "9473": "go arch",
       "29682": "go alcove",
-      "30712": ";e true"
+      "30712": "/rooms/9472/wayto/stringproc-30712.rb"
     },
     "timeto": {
       "9410": 0.2,
       "9473": 0.2,
       "29682": 0.2,
-      "30712": ";e Map[7].timeto['30714'].call;"
+      "30712": "/rooms/9472/timeto/stringproc-30712.rb"
     },
-    "image": "en-zul_logoth-1639816187.png",
-    "image_coords": [
-      677,
-      451,
-      713,
-      487
-    ],
     "tags": [
       "bank",
       "meta:forage-sensed",
@@ -41,6 +35,13 @@
     ],
     "uid": [
       13010001
+    ],
+    "image": "en-zul_logoth-1639816187.png",
+    "image_coords": [
+      677,
+      451,
+      713,
+      487
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "bc43e4b2d5d116a821408d4eb6328741",
   "room": {
     "id": 12207,
     "title": [
@@ -15,7 +16,7 @@
     "climate": "cold, dry",
     "terrain": "hard, flat",
     "wayto": {
-      "2579": ";e start_room = [ 12162, 12207, 12170, 12209, 12215, 12210, 12159, 12165, 12206, 12173, 12208, nil, 12160, 12211 ]; dirs = [ 'northwest', 'north', 'northeast', 'northwest', 'northeast', 'northwest', 'northeast', 'north', 'northwest', 'west', 'east', 'northeast', 'northwest', 'northeast' ]; if index = start_room.index(Room.current.id); until checkloot.include?('thread'); move dirs[index]; index += 1; index = 0 if index >= dirs.length; end; move 'climb thread'; waitrt?; fput 'stand'; else; echo 'error: mini-script expected a different room'; end; $go2_restart = true",
+      "2579": "/rooms/12207/wayto/stringproc-2579.rb",
       "12162": "southeast",
       "12165": "west",
       "12170": "north"
@@ -26,13 +27,6 @@
       "12165": 0.2,
       "12170": 0.2
     },
-    "image": "imt-rift-1554575848.png",
-    "image_coords": [
-      829,
-      1190,
-      839,
-      1200
-    ],
     "tags": [
       "black mawflower",
       "discolored fleshbinder bud",
@@ -48,6 +42,13 @@
     ],
     "uid": [
       4570001
+    ],
+    "image": "imt-rift-1554575848.png",
+    "image_coords": [
+      829,
+      1190,
+      839,
+      1200
     ]
   }
 }

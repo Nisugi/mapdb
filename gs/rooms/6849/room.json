@@ -1,4 +1,5 @@
 {
+  "checksum": "3e20c57ff400cc1f38b4c1ef1ce38d81",
   "room": {
     "id": 6849,
     "title": [
@@ -21,13 +22,6 @@
       "6848": 0.2,
       "6850": 0.2
     },
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      1152,
-      361,
-      1162,
-      371
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       374018
+    ],
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      1152,
+      361,
+      1162,
+      371
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "fcaf58dd2916c06c274fb027236ab988",
   "room": {
     "id": 5906,
     "title": [
@@ -17,20 +18,13 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "3523": ";e fput 'unhide' if invisible?;move('go gate')",
+      "3523": "/rooms/5906/wayto/stringproc-3523.rb",
       "10494": "southeast"
     },
     "timeto": {
       "3523": 0.2,
       "10494": 0.2
     },
-    "image": "en-cemetery-1617615116.png",
-    "image_coords": [
-      165,
-      1212,
-      177,
-      1224
-    ],
     "tags": [
       "advguard",
       "fire lily",
@@ -41,6 +35,13 @@
     ],
     "uid": [
       14100039
+    ],
+    "image": "en-cemetery-1617615116.png",
+    "image_coords": [
+      165,
+      1212,
+      177,
+      1224
     ]
   }
 }

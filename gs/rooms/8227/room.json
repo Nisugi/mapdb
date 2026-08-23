@@ -1,4 +1,5 @@
 {
+  "checksum": "2089e2c344fb58e79394db2c4a6ef1a7",
   "room": {
     "id": 8227,
     "title": [
@@ -14,8 +15,8 @@
     "wayto": {
       "8226": "go gate",
       "8228": "south",
-      "8245": ";e move 'go second iron door'; unless Room.current.id == 8245; move 'go iron door'; move 'go first iron door'; end",
-      "8247": ";e move 'go first iron door'; unless Room.current.id == 8247; move 'go iron door'; move 'go second iron door'; end"
+      "8245": "/rooms/8227/wayto/stringproc-8245.rb",
+      "8247": "/rooms/8227/wayto/stringproc-8247.rb"
     },
     "timeto": {
       "8226": 0.2,
@@ -23,19 +24,19 @@
       "8245": 0.2,
       "8247": 0.2
     },
-    "image": "wl-mineroad-1264234799.png",
-    "image_coords": [
-      132,
-      259,
-      142,
-      269
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables"
     ],
     "uid": [
       390002
+    ],
+    "image": "wl-mineroad-1264234799.png",
+    "image_coords": [
+      132,
+      259,
+      142,
+      269
     ]
   }
 }

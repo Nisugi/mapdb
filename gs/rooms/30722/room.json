@@ -1,4 +1,5 @@
 {
+  "checksum": "24f7351cc42324277d3506aa9634536d",
   "room": {
     "id": 30722,
     "title": [
@@ -17,17 +18,10 @@
       "30723": "north"
     },
     "timeto": {
-      "28255": 240.0,
+      "28255": 240,
       "30721": 0.2,
       "30723": 0.2
     },
-    "image": "en-ta_vaalor-wyverns_keep-1488759285.png",
-    "image_coords": [
-      833,
-      925,
-      978,
-      987
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       14104010
+    ],
+    "image": "en-ta_vaalor-wyverns_keep-1488759285.png",
+    "image_coords": [
+      833,
+      925,
+      978,
+      987
     ]
   }
 }

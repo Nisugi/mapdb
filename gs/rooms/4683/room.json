@@ -1,4 +1,5 @@
 {
+  "checksum": "61c8d2684f867d6981b3d5ad4096de37",
   "room": {
     "id": 4683,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "4682": "out",
       "17162": "go archway",
-      "30717": ";e true"
+      "30717": "/rooms/4683/wayto/stringproc-30717.rb"
     },
     "timeto": {
       "4682": 0.2,
       "17162": 0.2,
-      "30717": ";e Map[7].timeto['30714'].call;"
+      "30717": "/rooms/4683/timeto/stringproc-30717.rb"
     },
-    "image": "en-cysaegir-1679641246.png",
-    "image_coords": [
-      361,
-      821,
-      386,
-      845
-    ],
     "tags": [
       "fire lily",
       "meta:forage-sensed",
@@ -39,6 +33,13 @@
     ],
     "uid": [
       14051005
+    ],
+    "image": "en-cysaegir-1679641246.png",
+    "image_coords": [
+      361,
+      821,
+      386,
+      845
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "8f1a27bbd488b9d90d5e09ce0ee8e03d",
   "room": {
     "id": 27958,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "Mist Harbor",
     "wayto": {
-      "16314": ";e room = Room.current.id;fput 'go curtain'; if ( room == Room.current.id ); fput 'close locker';move 'go curtain'; end; $go2_restart = true"
+      "16314": "/rooms/27958/wayto/stringproc-16314.rb"
     },
     "timeto": {
       "16314": 0.2
@@ -21,11 +22,11 @@
       "locker:public",
       "meta:locker"
     ],
-    "unique_loot": [
-      "honeysuckle-embroidered curtain"
-    ],
     "uid": [
       3204120
+    ],
+    "unique_loot": [
+      "honeysuckle-embroidered curtain"
     ]
   }
 }

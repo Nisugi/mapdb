@@ -1,4 +1,5 @@
 {
+  "checksum": "24e6b2cb76e80545dadcbf959cf8fe35",
   "room": {
     "id": 28719,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "none",
     "wayto": {
       "5728": "out",
-      "30710": ";e true"
+      "30710": "/rooms/28719/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "5728": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/28719/timeto/stringproc-30710.rb"
     },
-    "image": "vo-caravansary-1264234799.png",
-    "image_coords": [
-      821,
-      734,
-      821,
-      734
-    ],
     "tags": [
       "locksmith pool",
       "locksmithpool",
@@ -43,6 +37,13 @@
     "uid": [
       4740306,
       4744306
+    ],
+    "image": "vo-caravansary-1264234799.png",
+    "image_coords": [
+      821,
+      734,
+      821,
+      734
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "79a98a8245d6a1cd3cdcd40d5d4a2856",
   "room": {
     "id": 23660,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "23655": "west",
       "23659": "southwest",
-      "30718": ";e true"
+      "30718": "/rooms/23660/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "23655": 0.2,
       "23659": 0.2,
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "30718": "/rooms/23660/timeto/stringproc-30718.rb"
     },
-    "image": "adventurers_guild-1485358936.png",
-    "image_coords": [
-      1165,
-      1568,
-      1235,
-      1633
-    ],
     "tags": [
       "advguild",
       "bounty",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       15006003
+    ],
+    "image": "adventurers_guild-1485358936.png",
+    "image_coords": [
+      1165,
+      1568,
+      1235,
+      1633
     ]
   }
 }
