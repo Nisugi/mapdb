@@ -1,5 +1,4 @@
 {
-  "checksum": "6738756b5583decfd9bd975d2016eb65",
   "room": {
     "id": 30289,
     "title": [
@@ -14,11 +13,11 @@
     "location": "Cysaegir",
     "wayto": {
       "17132": "go ebonwood door",
-      "30717": "/rooms/30289/wayto/stringproc-30717.rb"
+      "30717": ";e true"
     },
     "timeto": {
       "17132": 0.2,
-      "30717": "/rooms/30289/timeto/stringproc-30717.rb"
+      "30717": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "mail",

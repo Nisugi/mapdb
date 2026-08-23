@@ -1,5 +1,4 @@
 {
-  "checksum": "cc02e32a5648b2f33f2b4fdde8e738a7",
   "room": {
     "id": 25351,
     "title": [
@@ -14,7 +13,7 @@
     "location": "Delirium Manor",
     "wayto": {
       "25352": "north",
-      "25360": "/rooms/25351/wayto/stringproc-25360.rb"
+      "25360": ";e fput 'go gate'"
     },
     "timeto": {
       "25352": 0.2,

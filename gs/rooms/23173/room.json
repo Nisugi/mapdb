@@ -1,5 +1,4 @@
 {
-  "checksum": "cfcc989bc0c6d165b4702f75199e36af",
   "room": {
     "id": 23173,
     "title": [
@@ -14,7 +13,7 @@
     "location": "the Feywrot Mire",
     "wayto": {
       "21413": "go wooden gate",
-      "23165": "/rooms/23173/wayto/stringproc-23165.rb"
+      "23165": ";e move \"go painted carousel\";$go2_restart=true"
     },
     "timeto": {
       "21413": 0.2,

@@ -1,5 +1,4 @@
 {
-  "checksum": "af3f070b3689d88dc6cf085a5de6484b",
   "room": {
     "id": 30274,
     "title": [
@@ -17,12 +16,12 @@
     "wayto": {
       "614": "go double doors",
       "30273": "go lapis arch",
-      "30714": "/rooms/30274/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "614": 0.2,
       "30273": 0.2,
-      "30714": "/rooms/30274/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "meta:forage-sensed",

@@ -1,5 +1,4 @@
 {
-  "checksum": "89aa8e0f849ff6b88ee5c585c7361f70",
   "room": {
     "id": 24673,
     "title": [
@@ -14,24 +13,24 @@
     "location": "Duskruin Arena",
     "wayto": {
       "23785": "north",
-      "33578": "/rooms/24673/wayto/stringproc-33578.rb"
+      "33578": ";e true"
     },
     "timeto": {
       "23785": 0.2,
-      "33578": "/rooms/24673/timeto/stringproc-33578.rb"
+      "33578": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "bank"
-    ],
-    "uid": [
-      8213023
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       1484,
       752,
       1514,
       781
+    ],
+    "tags": [
+      "bank"
+    ],
+    "uid": [
+      8213023
     ]
   }
 }

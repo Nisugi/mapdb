@@ -1,5 +1,4 @@
 {
-  "checksum": "318b3390bd2d330e81bfbb98c5847569",
   "room": {
     "id": 24837,
     "title": [
@@ -14,11 +13,11 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "24831": "go river",
-      "24967": "/rooms/24837/wayto/stringproc-24967.rb"
+      "24967": ";e line = fput \"search\" until line =~ /You discover a shallow crevice while searching the area!/;move 'go crevice'"
     },
     "timeto": {
       "24831": 0.2,
-      "24967": 2
+      "24967": 2.0
     },
     "tags": [
       "missing"

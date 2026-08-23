@@ -1,5 +1,4 @@
 {
-  "checksum": "535127b37f68a31bbc30b362b72b83b8",
   "room": {
     "id": 6621,
     "title": [
@@ -13,22 +12,22 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "6505": "/rooms/6621/wayto/stringproc-6505.rb",
+      "6505": ";e move 'read runes'",
       "6622": "out"
     },
     "timeto": {
       "6505": 0.2,
       "6622": 0.2
     },
-    "uid": [
-      487001
-    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       502,
       758,
       512,
       768
+    ],
+    "uid": [
+      487001
     ]
   }
 }

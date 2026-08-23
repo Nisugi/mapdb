@@ -1,5 +1,4 @@
 {
-  "checksum": "0abe5c3cc522d5ea2993c5414df41022",
   "room": {
     "id": 8686,
     "title": [
@@ -15,13 +14,20 @@
     "wayto": {
       "232": "out",
       "7517": "climb ladder",
-      "30708": "/rooms/8686/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "232": 0.2,
       "7517": 0.2,
-      "30708": "/rooms/8686/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      509,
+      735,
+      545,
+      771
+    ],
     "tags": [
       "jail",
       "justice",
@@ -35,13 +41,6 @@
     ],
     "uid": [
       2600
-    ],
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      509,
-      735,
-      545,
-      771
     ]
   }
 }

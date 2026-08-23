@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36806,
+    "title": [
+      "[Aggro Culture]"
+    ],
+    "description": [
+      "Sooty grime clings to the warped wooden floorboards of the cramped store, some gouged and splintered from years of badly aimed trial swings.  The air is thick with the sour stink of sweat, old blood, and dust.  A sagging ebonwood counter sits crooked in the corner, flanked by a pair of rickety stocks repurposed into weapon racks."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "Bloodriven Village",
+    "wayto": {
+      "26876": "out"
+    },
+    "timeto": {
+      "26876": 0.2
+    },
+    "uid": [
+      8212684
+    ]
+  }
+}

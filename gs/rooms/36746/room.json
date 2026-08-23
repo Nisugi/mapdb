@@ -1,0 +1,28 @@
+{
+  "room": {
+    "id": 36746,
+    "title": [
+      "[Salty's Services, Landing]"
+    ],
+    "description": [
+      "A tangle of ropes and netting hangs over a wide room off a narrow winding stairway.  Caught within the amalgamation are varied larger containers, lengths of wood, fishing poles, and tattered bits of clothing.  The room is relatively unadorned, except for triangle-shaped series of votive-topped barrels at its center.  Amidst the barrels, Administrator Salty stands, leaning on a propped-up driftwood sign atop one of the barrels, facing the stairway."
+    ],
+    "paths": [
+      "Obvious exits: north, south"
+    ],
+    "location": "Kraken's Fall",
+    "wayto": {
+      "36725": "go stairway",
+      "36747": "s",
+      "36756": "n"
+    },
+    "timeto": {
+      "36725": 0.2,
+      "36747": 0.2,
+      "36756": 0.2
+    },
+    "uid": [
+      740005
+    ]
+  }
+}

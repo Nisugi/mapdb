@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36800,
+    "title": [
+      "[Coalescence, Dark Chamber]"
+    ],
+    "description": [
+      "Darkness consumes the furthest areas of this misshapen, twisted chamber, visibility nearly absent other than the dim light provided by a virid glow that emanates from beyond an angular twisted stone archway.  Virescent tendrils undulate and swirl out of a shallow haze-shrouded pool centered in the muddy ground, ebbing as they spread toward and cling to the jagged walls."
+    ],
+    "paths": [
+      "Obvious exits: northeast"
+    ],
+    "location": "Bloodriven Village",
+    "wayto": {
+      "35182": "go archway",
+      "36802": "northeast"
+    },
+    "timeto": {
+      "35182": 0.2,
+      "36802": 0.2
+    },
+    "uid": [
+      8212885
+    ]
+  }
+}

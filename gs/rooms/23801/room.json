@@ -1,5 +1,4 @@
 {
-  "checksum": "c2ab0b98bb55f9d7b087867bcbd67496",
   "room": {
     "id": 23801,
     "title": [
@@ -16,7 +15,7 @@
       "23802": "go curtain",
       "23803": "northeast",
       "23804": "northwest",
-      "23805": "/rooms/23801/wayto/stringproc-23805.rb",
+      "23805": ";e fput \"search\";move \"go trapdoor\"",
       "26868": "out"
     },
     "timeto": {

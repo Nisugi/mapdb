@@ -1,11 +1,11 @@
 {
-  "checksum": "f1ae8b56ae860b5e67444ad72db74a47",
   "room": {
     "id": 26861,
     "title": [
       "[Bloodriven Village, Copper Road]"
     ],
     "description": [
+      "Crowded plaster buildings overlook the incredibly narrow road, their faces pockmarked with missing stucco.  Chipped bricks line the road but quickly transition to packed dirt as the street progresses away from the alley and to the west.  Bent at a funny angle, a single lamppost is planted amid the crumbling stonework.",
       "Crowded plaster buildings overlook the incredibly narrow road, their faces pockmarked with missing stucco.  Chipped bricks line the road, but quickly transition to packed dirt as the street progresses away from the alley and to the west.  Bent at a funny angle, a single lamppost is planted amid the crumbling stonework."
     ],
     "paths": [
@@ -34,18 +34,18 @@
       "33364": 0.2,
       "33581": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214536
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       721,
       621,
       751,
       650
+    ],
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      8214536
     ]
   }
 }

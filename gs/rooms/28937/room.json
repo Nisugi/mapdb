@@ -1,5 +1,4 @@
 {
-  "checksum": "0333d4cf5fb14092504e4e4e0114c741",
   "room": {
     "id": 28937,
     "title": [
@@ -16,11 +15,11 @@
     "terrain": "hard, flat",
     "wayto": {
       "28908": "down",
-      "30716": "/rooms/28937/wayto/stringproc-30716.rb"
+      "30716": ";e true"
     },
     "timeto": {
       "28908": 0.2,
-      "30716": "/rooms/28937/timeto/stringproc-30716.rb"
+      "30716": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "locksmith pool",

@@ -1,5 +1,4 @@
 {
-  "checksum": "e478f19fb20cfe93b527ed7c90b712c7",
   "room": {
     "id": 10873,
     "title": [
@@ -20,7 +19,7 @@
       "10877": "west",
       "16030": "go imflass-paneled pagoda",
       "16031": "go shop",
-      "30711": "/rooms/10873/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "10868": 0.2,
@@ -29,8 +28,15 @@
       "10877": 0.2,
       "16030": 0.2,
       "16031": 0.2,
-      "30711": "/rooms/10873/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      2544,
+      705,
+      2566,
+      729
+    ],
     "tags": [
       "acantha leaf",
       "banana leaf",
@@ -104,13 +110,6 @@
     ],
     "uid": [
       734004
-    ],
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      2544,
-      705,
-      2566,
-      729
     ]
   }
 }

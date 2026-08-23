@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36753,
+    "title": [
+      "[Salty's Services, Containers]"
+    ],
+    "description": [
+      "Boxes, trunks, baskets, and other smaller containers of varying woods are collected about the area, approximating the offerings that prospective merchants might purchase from this section of the warehouse.  Each of these containers is open, giving customers a complete view of what to expect from a sale, except for a starfish-set driftwood chest conspicuously set to one side.  Votives of varying size are set alongside each container, providing a dim light to better consider options."
+    ],
+    "paths": [
+      "Obvious exits: south, west"
+    ],
+    "location": "Kraken's Fall",
+    "wayto": {
+      "36752": "s",
+      "36754": "w"
+    },
+    "timeto": {
+      "36752": 0.2,
+      "36754": 0.2
+    },
+    "uid": [
+      740009
+    ]
+  }
+}

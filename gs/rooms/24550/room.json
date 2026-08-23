@@ -1,5 +1,4 @@
 {
-  "checksum": "c05bfa78120679c57d768f1715b0fba8",
   "room": {
     "id": 24550,
     "title": [
@@ -14,9 +13,16 @@
     "location": "Duskruin Arena",
     "wayto": {},
     "timeto": {},
+    "image": "fest-duskruin-1503606263.png",
+    "image_coords": [
+      977,
+      316,
+      1067,
+      357
+    ],
     "tags": [
-      "meta:pay-to-play",
-      "meta:map:multi-uid"
+      "meta:map:multi-uid",
+      "meta:pay-to-play"
     ],
     "uid": [
       8213304,
@@ -24,14 +30,8 @@
       8213318,
       8213320,
       8213334,
-      8213338
-    ],
-    "image": "fest-duskruin-1503606263.png",
-    "image_coords": [
-      977,
-      316,
-      1067,
-      357
+      8213338,
+      8213311
     ]
   }
 }

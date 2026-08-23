@@ -1,5 +1,4 @@
 {
-  "checksum": "97aaf7e8016b16ca74c4def7239f3872",
   "room": {
     "id": 21394,
     "title": [
@@ -14,7 +13,7 @@
     "location": false,
     "wayto": {
       "21393": "out",
-      "24209": "/rooms/21394/wayto/stringproc-24209.rb"
+      "24209": ";e fput \"search\";move \"pull loose floorboard\""
     },
     "timeto": {
       "21393": 0.2,

@@ -1,5 +1,4 @@
 {
-  "checksum": "0b11eca8d38cd9b0c811f55625e44025",
   "room": {
     "id": 26877,
     "title": [
@@ -20,9 +19,10 @@
       "26878": "go space",
       "26880": "go shop",
       "27650": "go building",
-      "28327": "go lopsided shack",
+      "28327": "go shack",
       "29811": "go dark wagon",
-      "29813": "go haon shop"
+      "29813": "go shop",
+      "36814": "go clockwerke-set wagon"
     },
     "timeto": {
       "26868": 0.2,
@@ -32,14 +32,9 @@
       "27650": 0.2,
       "28327": 0.2,
       "29811": 0.2,
-      "29813": 0.2
+      "29813": 0.2,
+      "36814": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214516
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       731,
@@ -47,6 +42,12 @@
       762,
       380
     ],
-    "check_location": false
+    "tags": [
+      "no forageables"
+    ],
+    "check_location": false,
+    "uid": [
+      8214516
+    ]
   }
 }

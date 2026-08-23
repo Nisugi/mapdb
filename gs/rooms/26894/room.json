@@ -1,5 +1,4 @@
 {
-  "checksum": "955483cd1483be0d9fcbdb4d564cfc9d",
   "room": {
     "id": 26894,
     "title": [
@@ -19,7 +18,7 @@
       "26888": "northwest",
       "26895": "go salon",
       "26897": "west",
-      "29833": "go canvas shop"
+      "29833": "go shop"
     },
     "timeto": {
       "23727": 0.2,
@@ -28,12 +27,6 @@
       "26897": 0.2,
       "29833": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214511
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       1363,
@@ -41,6 +34,12 @@
       1393,
       1011
     ],
-    "check_location": false
+    "tags": [
+      "no forageables"
+    ],
+    "check_location": false,
+    "uid": [
+      8214511
+    ]
   }
 }

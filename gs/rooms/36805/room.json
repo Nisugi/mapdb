@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36805,
+    "title": [
+      "[Petal to the Metal, Greenhouse]"
+    ],
+    "description": [
+      "Flowers, bushes, and trees sprout in every open surface of this greenhouse, bathing in the sunlight that spills in from the glass panels that make up the walls and ceiling.  A raised flower bed runs along one wall, while the floor is mostly dirt with a cobblestone path bisecting the middle.  The air is full of the smells of moist earth."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "Bloodriven Village",
+    "wayto": {
+      "36804": "out"
+    },
+    "timeto": {
+      "36804": 0.2
+    },
+    "uid": [
+      8212838
+    ]
+  }
+}

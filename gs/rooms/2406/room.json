@@ -1,5 +1,4 @@
 {
-  "checksum": "9494324ca2879fed2f36fae8e2744a0b",
   "room": {
     "id": 2406,
     "title": [
@@ -15,13 +14,20 @@
     "wayto": {
       "2403": "out",
       "2405": "east",
-      "30709": "/rooms/2406/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "2403": 0.2,
       "2405": 0.2,
-      "30709": "/rooms/2406/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      227,
+      966,
+      263,
+      1002
+    ],
     "tags": [
       "healer",
       "meta:forage-sensed",
@@ -34,13 +40,6 @@
     ],
     "uid": [
       4043601
-    ],
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      227,
-      966,
-      263,
-      1002
     ]
   }
 }

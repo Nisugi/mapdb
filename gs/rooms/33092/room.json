@@ -1,5 +1,4 @@
 {
-  "checksum": "24be70d022b44ac825d27f5cfc93973b",
   "room": {
     "id": 33092,
     "title": [
@@ -14,12 +13,29 @@
     "location": "the Flotilla",
     "wayto": {
       "33091": "south",
-      "33093": "north"
+      "33093": "north",
+      "36766": "go sloop",
+      "36767": "go ship",
+      "36769": "go oaken sloop",
+      "36771": "go canopy sloop",
+      "36772": "go vessel"
     },
     "timeto": {
       "33091": 0.2,
-      "33093": 0.2
+      "33093": 0.2,
+      "36766": 0.2,
+      "36767": 0.2,
+      "36769": 0.2,
+      "36771": 0.2,
+      "36772": 0.2
     },
+    "image": "Flotilla.png",
+    "image_coords": [
+      120,
+      233,
+      136,
+      246
+    ],
     "uid": [
       7134067
     ]

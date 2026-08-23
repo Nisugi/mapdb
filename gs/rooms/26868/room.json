@@ -1,5 +1,4 @@
 {
-  "checksum": "d6ac205997ef5c5cf8ad2d3d95995666",
   "room": {
     "id": 26868,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "Bloodriven Village",
     "wayto": {
-      "23801": "go dark building",
+      "23801": "go building",
       "26005": "go pine building",
       "26867": "go alleyway",
       "26877": "northwest",
@@ -28,9 +27,6 @@
       "26884": 0.2,
       "28333": 0.2
     },
-    "uid": [
-      8214515
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       850,
@@ -38,6 +34,9 @@
       881,
       500
     ],
-    "check_location": false
+    "check_location": false,
+    "uid": [
+      8214515
+    ]
   }
 }

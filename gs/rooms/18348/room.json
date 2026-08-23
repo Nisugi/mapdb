@@ -1,5 +1,4 @@
 {
-  "checksum": "8b7c2ffee09d25ae0fb1904ba3be9de3",
   "room": {
     "id": 18348,
     "title": [
@@ -13,26 +12,26 @@
     ],
     "location": "Ta'Vaalor",
     "wayto": {
-      "17806": "/rooms/18348/wayto/stringproc-17806.rb",
+      "17806": ";e Map[12421].wayto['14089'].call; # rogue guild proc",
       "18349": "go tunnel"
     },
     "timeto": {
-      "17806": "/rooms/18348/timeto/stringproc-17806.rb",
+      "17806": ";e Stats.prof == 'Rogue' ? 1.6 : nil",
       "18349": 0.2
     },
-    "tags": [
-      "rogue guild",
-      "rogueguild"
-    ],
-    "uid": [
-      267101
-    ],
     "image": "en-vaalor-rogue-guild.png",
     "image_coords": [
       911,
       1155,
       949,
       1195
+    ],
+    "tags": [
+      "rogue guild",
+      "rogueguild"
+    ],
+    "uid": [
+      267101
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "7dfe54121217f50d6526bdc58eaaaf9a",
   "room": {
     "id": 22236,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "Talador",
     "wayto": {
-      "299": "/rooms/22236/wayto/stringproc-299.rb",
+      "299": ";e move 'go fog'; $go2_restart = true",
       "22243": "northwest"
     },
     "timeto": {

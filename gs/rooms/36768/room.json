@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36768,
+    "title": [
+      "[The Kraken's Dispatch, Delivery]"
+    ],
+    "description": [
+      "Behind a polished mahogany counter, shelves and cubbies line the walls, filled to overflowing with packages, parcels, envelopes, and letters.  Mail accoutrements for purchase are neatly displayed along the walls closest to the spacious staircase leading up to the main deck."
+    ],
+    "paths": [
+      "Obvious exits: none"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36767": "go staircase"
+    },
+    "timeto": {
+      "36767": 0.2
+    },
+    "uid": [
+      7134252
+    ]
+  }
+}

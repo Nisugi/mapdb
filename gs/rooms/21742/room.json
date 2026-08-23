@@ -1,5 +1,4 @@
 {
-  "checksum": "6602621e448ef0fbd4fa978d3f864583",
   "room": {
     "id": 21742,
     "title": [
@@ -18,7 +17,7 @@
       "256": "go archway",
       "21743": "up",
       "21744": "go bank",
-      "21771": "/rooms/21742/wayto/stringproc-21771.rb"
+      "21771": ";e fput 'go oaken door'"
     },
     "timeto": {
       "256": 0.2,
@@ -26,6 +25,13 @@
       "21744": 0.2,
       "21771": 0.2
     },
+    "image": "wl-house_phoenix-1485115199.png",
+    "image_coords": [
+      547,
+      1471,
+      668,
+      1547
+    ],
     "tags": [
       "angelica root",
       "aubergine hellebore",
@@ -163,13 +169,6 @@
     ],
     "uid": [
       103501
-    ],
-    "image": "wl-house_phoenix-1485115199.png",
-    "image_coords": [
-      547,
-      1471,
-      668,
-      1547
     ]
   }
 }

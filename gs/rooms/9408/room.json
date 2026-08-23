@@ -1,5 +1,4 @@
 {
-  "checksum": "3018a6c5e87356677e2e92487b4ea1cb",
   "room": {
     "id": 9408,
     "title": [
@@ -15,13 +14,20 @@
     "wayto": {
       "9407": "go steel gate",
       "9409": "go arch",
-      "30712": "/rooms/9408/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "9407": 0.2,
-      "9409": "/rooms/9408/timeto/stringproc-9409.rb",
-      "30712": "/rooms/9408/timeto/stringproc-30712.rb"
+      "9409": ";e UserVars.mapdb_premium.nil? ? 10 : 0.2;",
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "en-zul_logoth-1639816187.png",
+    "image_coords": [
+      600,
+      411,
+      620,
+      431
+    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables",
@@ -29,13 +35,6 @@
     ],
     "uid": [
       13010026
-    ],
-    "image": "en-zul_logoth-1639816187.png",
-    "image_coords": [
-      600,
-      411,
-      620,
-      431
     ]
   }
 }

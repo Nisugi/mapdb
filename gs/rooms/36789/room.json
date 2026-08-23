@@ -1,0 +1,28 @@
+{
+  "room": {
+    "id": 36789,
+    "title": [
+      "[Tempest Queen, Smoking Lounge]"
+    ],
+    "description": [
+      "Reserved for gentlemen, the richly appointed lounge smells of fragrant tobacco.  Opposite a gilded arch, a pair of brass-buttoned dark leather couches faces each other across a low ivory-inlaid table.  A felt-topped gaming table is arranged with a quartet of high-backed chairs, a trolley nearby stocked with playing cards and white jade dice."
+    ],
+    "paths": [
+      "Obvious exits: north"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36788": "go n",
+      "36790": "go staircase",
+      "36791": "go arch"
+    },
+    "timeto": {
+      "36788": 0.2,
+      "36790": 0.2,
+      "36791": 0.2
+    },
+    "uid": [
+      7134111
+    ]
+  }
+}

@@ -1,5 +1,4 @@
 {
-  "checksum": "ded690dd27b4cb23a45652738088f0b7",
   "room": {
     "id": 24516,
     "title": [
@@ -13,20 +12,20 @@
     ],
     "location": "Old Ta'Faendryl",
     "wayto": {
-      "15651": "/rooms/24516/wayto/stringproc-15651.rb"
+      "15651": ";e fput 'kneel' until kneeling?; move 'go opening'"
     },
     "timeto": {
       "15651": 1
     },
-    "tags": [
-      "closed"
-    ],
     "image": "en-old_ta_faendryl-1716923763.png",
     "image_coords": [
       28,
       618,
       38,
       629
+    ],
+    "tags": [
+      "closed"
     ]
   }
 }

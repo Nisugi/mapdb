@@ -1,5 +1,4 @@
 {
-  "checksum": "9ff0217a66548ba247749e9b166ec766",
   "room": {
     "id": 18602,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "17104": "/rooms/18602/wayto/stringproc-17104.rb",
+      "17104": ";e move 'out'; move 'east'",
       "18611": "west",
       "18612": "east",
       "18728": "out"
@@ -24,19 +23,19 @@
       "18612": 0.2,
       "18728": 0.2
     },
-    "tags": [
-      "cleric alchemy administrator",
-      "cleric guild administrator"
-    ],
-    "uid": [
-      671018
-    ],
     "image": "wl-cleric_guild-1275417297.png",
     "image_coords": [
       89,
       347,
       135,
       393
+    ],
+    "tags": [
+      "cleric alchemy administrator",
+      "cleric guild administrator"
+    ],
+    "uid": [
+      671018
     ]
   }
 }

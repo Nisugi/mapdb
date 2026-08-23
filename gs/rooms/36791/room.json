@@ -1,0 +1,24 @@
+{
+  "room": {
+    "id": 36791,
+    "title": [
+      "[Tempest Queen, Lathes' Cabin]"
+    ],
+    "description": [
+      "Featuring a spectacular colored glass window spanning the cabin's width, this private parlor for the ladies aboard offers plush velvet chairs and settees, all in shades of deep crimson and rich gold, arranged for intimate conversation.  A silver serving cart is laid out for a tea party, the delicate porcelain settings painted with a lace pattern and rimmed with gold.  A centerpiece of fresh peonies nestled in greenery fills the room with a sweet, yet refreshing fragrance."
+    ],
+    "paths": [
+      "Obvious exits: out"
+    ],
+    "location": "the Flotilla",
+    "wayto": {
+      "36789": "out"
+    },
+    "timeto": {
+      "36789": 0.2
+    },
+    "uid": [
+      7134107
+    ]
+  }
+}

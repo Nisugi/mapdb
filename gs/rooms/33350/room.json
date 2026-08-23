@@ -1,5 +1,4 @@
 {
-  "checksum": "ff3573d9d6abd92c2e63957f60b0792d",
   "room": {
     "id": 33350,
     "title": [
@@ -14,7 +13,7 @@
     "location": "Safe Harbor, inside the seaside town of Solhaven",
     "wayto": {
       "5728": "out",
-      "33351": "/rooms/33350/wayto/stringproc-33351.rb"
+      "33351": ";e if GameObj.inv.find {|obj| obj.noun == \"key\"};fput \"go brick-covered door\";else;empty_hand;multifput \"get my #{UserVars.safe_harbor} from my #{UserVars.keysack}\",\"go brick-covered door\",\"put my key in my #{UserVars.keysack}\";fill_hand;end"
     },
     "timeto": {
       "5728": 0.2,

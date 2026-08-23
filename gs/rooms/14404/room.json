@@ -1,5 +1,4 @@
 {
-  "checksum": "d8393346776d9574612b2fc5035b0f0b",
   "room": {
     "id": 14404,
     "title": [
@@ -14,7 +13,7 @@
     "location": "the town of Solhaven",
     "wayto": {
       "14403": "go steps",
-      "32712": "/rooms/14404/wayto/stringproc-32712.rb"
+      "32712": ";e multifput 'search', 'go panel'"
     },
     "timeto": {
       "14403": 0.2,

@@ -1,11 +1,11 @@
 {
-  "checksum": "a9ba695dc8a56fa26392b1bf3cac16c8",
   "room": {
     "id": 30322,
     "title": [
       "[Locksmehr River, Encampment]"
     ],
     "description": [
+      "Thin curls of colorful wood, piles of sawdust, and various bundles of bright wire rest within the shelter of small awnings amid worktables and a variety of benches.  Bittersweet vines mingle with sapling sassafras along the edge of the small clearing and provide a bright orange color to the otherwise brown, green, and grey landscape.  Barely visible, a tight dirt passageway dips beneath the domed sinew and hide tent situated amid the workstations.",
       "Thin curls of wood, piles of sawdust, and various bundles of bright wire rest within the weatherproof jars beneath of small oilcloth-covered awnings and worktables.  Vibrant spheres of colorful glass hang from ropes in overlapping patterns by each station, adding color to the otherwise brown, green, and grey landscape.  Situated amid the workstations is a domed sinew and hide tent decorated with bright ceramic tiles."
     ],
     "paths": [
@@ -13,20 +13,22 @@
     ],
     "location": "Bloodriven Village",
     "wayto": {
-      "30320": "west"
+      "30320": "west",
+      "31423": "go passageway"
     },
     "timeto": {
-      "30320": 0.2
+      "30320": 0.2,
+      "31423": 0.2
     },
-    "uid": [
-      8214738
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       361,
       1103,
       391,
       1134
+    ],
+    "uid": [
+      8214738
     ]
   }
 }

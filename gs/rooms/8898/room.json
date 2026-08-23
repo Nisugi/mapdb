@@ -1,5 +1,4 @@
 {
-  "checksum": "ff2daf8bf70f2f01ddeec9794e505fa6",
   "room": {
     "id": 8898,
     "title": [
@@ -20,7 +19,7 @@
       "23178": "go dock",
       "23492": "go wagon",
       "23493": "go tent",
-      "30708": "/rooms/8898/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
       "246": 0.2,
@@ -28,8 +27,15 @@
       "23178": 0.2,
       "23492": 0.2,
       "23493": 0.2,
-      "30708": "/rooms/8898/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      1053,
+      525,
+      1091,
+      563
+    ],
     "tags": [
       "alchemy sea water",
       "meta:forage-sensed",
@@ -40,13 +46,6 @@
     ],
     "uid": [
       7113
-    ],
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      1053,
-      525,
-      1091,
-      563
     ]
   }
 }

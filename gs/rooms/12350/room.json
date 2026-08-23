@@ -1,5 +1,4 @@
 {
-  "checksum": "8f90ae2a9e166d2b953207fc4c176348",
   "room": {
     "id": 12350,
     "title": [
@@ -14,11 +13,11 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "3516": "out",
-      "30713": "/rooms/12350/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3516": 0.2,
-      "30713": "/rooms/12350/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "armor",

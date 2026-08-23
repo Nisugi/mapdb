@@ -1,5 +1,4 @@
 {
-  "checksum": "d014c8c09237f4d693407844dc120a45",
   "room": {
     "id": 18258,
     "title": [
@@ -14,11 +13,11 @@
     "location": "the Western Harbor",
     "wayto": {
       "17588": "go doors",
-      "30718": "/rooms/18258/wayto/stringproc-30718.rb"
+      "30718": ";e true"
     },
     "timeto": {
       "17588": 0.2,
-      "30718": "/rooms/18258/timeto/stringproc-30718.rb"
+      "30718": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "node",

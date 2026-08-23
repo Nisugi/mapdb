@@ -1,0 +1,26 @@
+{
+  "room": {
+    "id": 36751,
+    "title": [
+      "[Salty's Services, Ceilings]"
+    ],
+    "description": [
+      "Unlike other areas of the warehouse, the room is pristine.  Long, rectangular samples of wood, glass, and stone used in ceiling work lean against the walls and are interspersed by varied plants whose pots match the wood color they are set alongside.  Above each ceiling material sample board, wall-inset votives lend a decent amount more light to the area than other, adjacent parts of the warehouse.  The floors are covered by carpets in a variety of darker tones, primarily shades of blue and purple."
+    ],
+    "paths": [
+      "Obvious exits: north, south"
+    ],
+    "location": "Kraken's Fall",
+    "wayto": {
+      "36750": "s",
+      "36752": "n"
+    },
+    "timeto": {
+      "36750": 0.2,
+      "36752": 0.2
+    },
+    "uid": [
+      740011
+    ]
+  }
+}

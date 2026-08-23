@@ -1,5 +1,4 @@
 {
-  "checksum": "7e58e15824cdedd91da379a899c8b56d",
   "room": {
     "id": 2388,
     "title": [
@@ -16,13 +15,20 @@
     "wayto": {
       "2387": "east",
       "17749": "go gate",
-      "30709": "/rooms/2388/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "2387": 0.2,
-      "17749": "/rooms/2388/timeto/stringproc-17749.rb",
-      "30709": "/rooms/2388/timeto/stringproc-30709.rb"
+      "17749": ";e Stats.prof == 'Warrior' ? 0.2 : nil",
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      50,
+      877,
+      86,
+      913
+    ],
     "tags": [
       "frostflower",
       "frostweed",
@@ -45,13 +51,6 @@
     ],
     "uid": [
       250001
-    ],
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      50,
-      877,
-      86,
-      913
     ]
   }
 }

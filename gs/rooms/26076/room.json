@@ -1,5 +1,4 @@
 {
-  "checksum": "b816660c61a429460fa46ae780d52f02",
   "room": {
     "id": 26076,
     "title": [
@@ -15,12 +14,12 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "26075": "/rooms/26076/wayto/stringproc-26075.rb",
-      "26077": "/rooms/26076/wayto/stringproc-26077.rb"
+      "26075": ";e move 'climb upward stairs'; waitrt?",
+      "26077": ";e move 'climb downward stairs'; waitrt?"
     },
     "timeto": {
-      "26075": 24,
-      "26077": 12
+      "26075": 24.0,
+      "26077": 12.0
     },
     "tags": [
       "no forageables"
