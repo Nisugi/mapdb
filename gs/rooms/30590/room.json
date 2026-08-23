@@ -1,5 +1,4 @@
 {
-  "checksum": "f5242f737cc70044373dd60fb400ee76",
   "room": {
     "id": 30590,
     "title": [
@@ -15,18 +14,28 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "6021": "out",
-      "30713": "/rooms/30590/wayto/stringproc-30713.rb",
+      "30713": ";e Cartographer.evaluate_script('wayto/room-30590-to-30713.rb')",
       "32367": "go baker's door"
     },
     "timeto": {
       "6021": 0.2,
-      "30713": "/rooms/30590/timeto/stringproc-30713.rb",
+      "30713": ";e Cartographer.evaluate_script('timeto/room-30590-to-30713.rb')",
       "32367": 0.2
     },
     "tags": [
+      "bur-clover root",
+      "curly garlic scapes",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "murdroot",
+      "pepperthorn root",
       "stable",
       "urchin guide stable",
-      "urchin-access"
+      "urchin-access",
+      "wild rice",
+      "wingstem root",
+      "withered mushroom"
     ],
     "uid": [
       12009001

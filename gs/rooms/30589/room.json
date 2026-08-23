@@ -1,5 +1,4 @@
 {
-  "checksum": "da3ffe89959709287716349afefb9402",
   "room": {
     "id": 30589,
     "title": [
@@ -16,16 +15,17 @@
     "terrain": "hard, flat",
     "wayto": {
       "12393": "out",
-      "30715": "/rooms/30589/wayto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('wayto/room-30589-to-30715.rb')"
     },
     "timeto": {
       "12393": 0.2,
-      "30715": "/rooms/30589/timeto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('timeto/room-30589-to-30715.rb')"
     },
     "tags": [
+      "fire lily",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2023-01",
-      "no forageables",
+      "meta:forage-sensed:night:2026-08",
       "stable",
       "urchin guide stable",
       "urchin-access"

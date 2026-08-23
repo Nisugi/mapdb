@@ -1,5 +1,4 @@
 {
-  "checksum": "c39b2fb31d488472b3b4e92d602fafb7",
   "room": {
     "id": 9651,
     "title": [
@@ -15,11 +14,18 @@
     "climate": "temperate",
     "terrain": "subterranean",
     "wayto": {
-      "6135": "/rooms/9651/wayto/stringproc-6135.rb"
+      "6135": ";e Cartographer.evaluate_script('wayto/room-9651-to-6135.rb')"
     },
     "timeto": {
       "6135": 30
     },
+    "image": "wl-wehntoph-1310775397.png",
+    "image_coords": [
+      844,
+      26,
+      878,
+      60
+    ],
     "tags": [
       "blue trafel mushroom",
       "bolmara lichen",
@@ -28,7 +34,7 @@
       "genkew mushroom",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2025-06",
       "murdroot",
       "pepperthorn root",
@@ -38,13 +44,6 @@
     ],
     "uid": [
       2167126
-    ],
-    "image": "wl-wehntoph-1310775397.png",
-    "image_coords": [
-      844,
-      26,
-      878,
-      60
     ]
   }
 }

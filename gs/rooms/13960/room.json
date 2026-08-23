@@ -1,5 +1,4 @@
 {
-  "checksum": "2efe8d7bcf95e910570d91cf60498489",
   "room": {
     "id": 13960,
     "title": [
@@ -17,12 +16,19 @@
     "terrain": "riparian",
     "wayto": {
       "13918": "west",
-      "30500": "/rooms/13960/wayto/stringproc-30500.rb"
+      "30500": ";e Cartographer.evaluate_script('wayto/room-13960-to-30500.rb')"
     },
     "timeto": {
       "13918": 0.2,
       "30500": 0.2
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      884,
+      565,
+      913,
+      594
+    ],
     "tags": [
       "acantha leaf",
       "blue trafel mushroom",
@@ -33,11 +39,12 @@
       "fiddlehead fern",
       "flathead mushroom",
       "genkew mushroom",
+      "green soybean pod",
       "handful of currants",
       "Imaera's Lace",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "mistweed",
       "murdroot",
@@ -45,6 +52,7 @@
       "pink clover blossom",
       "purple clover blossom",
       "red clover blossom",
+      "safflower seeds",
       "soft mushroom",
       "sprig of jasmine",
       "sprig of wild lilac",
@@ -53,6 +61,7 @@
       "stalk of goldenrod",
       "sunburst blossom",
       "talneo root",
+      "thistle seeds",
       "vert globe artichoke",
       "water chestnut",
       "wavepetal blossom",
@@ -69,13 +78,6 @@
     ],
     "uid": [
       7056107
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      884,
-      565,
-      913,
-      594
     ]
   }
 }

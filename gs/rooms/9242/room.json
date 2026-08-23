@@ -1,5 +1,4 @@
 {
-  "checksum": "08d46c90250d1c9d113436a14906c524",
   "room": {
     "id": 9242,
     "title": [
@@ -20,35 +19,36 @@
       "245": "out",
       "24561": "go door",
       "24562": "go path",
-      "30708": "/rooms/9242/wayto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('wayto/room-9242-to-30708.rb')"
     },
     "timeto": {
       "245": 0.2,
       "24561": 0.2,
       "24562": 0.2,
-      "30708": "/rooms/9242/timeto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('timeto/room-9242-to-30708.rb')"
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11",
-      "meta:mapcategory:MHO",
-      "meta:mapcategory:Wehnimer's Landing",
-      "meta:mapname:Wehnimer's Landing - Black Wolves",
-      "meta:mapshortname:Black Wolves",
-      "no forageables",
-      "node",
-      "supernode",
-      "urchin-access"
-    ],
-    "uid": [
-      18002001
-    ],
     "image": "wl-black_wolves_manor.png",
     "image_coords": [
       355,
       564,
       381,
       591
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:night:2026-08",
+      "meta:mapcategory:MHO",
+      "meta:mapcategory:Wehnimer's Landing",
+      "meta:mapname:Wehnimer's Landing - Black Wolves",
+      "meta:mapshortname:Black Wolves",
+      "node",
+      "supernode",
+      "urchin-access"
+    ],
+    "uid": [
+      18002001
     ]
   }
 }

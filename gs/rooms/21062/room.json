@@ -1,5 +1,4 @@
 {
-  "checksum": "8eb7efce94c4027376ac497bd4b8872f",
   "room": {
     "id": 21062,
     "title": [
@@ -15,21 +14,33 @@
     "climate": "humid",
     "terrain": "riparian",
     "wayto": {
-      "21018": "/rooms/21062/wayto/stringproc-21018.rb",
-      "21063": "/rooms/21062/wayto/stringproc-21063.rb"
+      "21018": ";e Cartographer.evaluate_script('wayto/room-21062-to-21018.rb')",
+      "21063": ";e Cartographer.evaluate_script('wayto/room-21062-to-21063.rb')"
     },
     "timeto": {
       "21018": 2,
       "21063": 2
     },
+    "image": "ifw-wilds-1368242816.png",
+    "image_coords": [
+      780,
+      1379,
+      801,
+      1399
+    ],
     "tags": [
       "acantha leaf",
+      "blackened moss",
+      "blood orange",
       "bright yellow plantain",
       "cassava root",
+      "coffee cherries",
       "cone-shaped pineapple",
+      "grapefruit",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2024-05",
+      "meta:forage-sensed:day:2026-08",
       "murdroot",
+      "round yuzu",
       "small green quenepas",
       "stalk of cattail",
       "talneo root",
@@ -38,13 +49,6 @@
     ],
     "uid": [
       3210602
-    ],
-    "image": "ifw-wilds-1368242816.png",
-    "image_coords": [
-      780,
-      1379,
-      801,
-      1399
     ]
   }
 }

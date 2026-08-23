@@ -1,5 +1,4 @@
 {
-  "checksum": "2e0daa9ce6bd1756c65eaf153fedadb8",
   "room": {
     "id": 4929,
     "title": [
@@ -23,10 +22,18 @@
       "4927": 0.2,
       "4930": 0.2
     },
+    "image": "en-gyldemar-1264234799.png",
+    "image_coords": [
+      1059,
+      436,
+      1069,
+      446
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
       "angelica root",
+      "arbutus berry",
       "barley grass",
       "birch bark",
       "blaestonberries",
@@ -38,6 +45,7 @@
       "brown potato",
       "chives",
       "crimson dragonstalk",
+      "crystal-like sylthiel",
       "curly leaf parsley",
       "daggerstalk mushroom",
       "dwarf bilberry",
@@ -52,6 +60,7 @@
       "fresh lemongrass",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden aster",
       "golden buttercup",
       "green cabbage",
@@ -66,7 +75,7 @@
       "leek",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2025-08",
       "motherwort",
       "murdroot",
@@ -86,6 +95,7 @@
       "rhubarb",
       "rose-marrow root",
       "rye grass",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small apple",
@@ -113,8 +123,10 @@
       "sunburst blossom",
       "sweet onion",
       "thin hemp",
+      "thistle seeds",
       "trollear mushroom",
       "viburnum twig",
+      "violet sel'elun vine",
       "violet shining rose",
       "wavepetal blossom",
       "wheat grass",
@@ -140,13 +152,6 @@
     ],
     "uid": [
       13030061
-    ],
-    "image": "en-gyldemar-1264234799.png",
-    "image_coords": [
-      1059,
-      436,
-      1069,
-      446
     ]
   }
 }

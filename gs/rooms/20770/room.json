@@ -1,5 +1,4 @@
 {
-  "checksum": "4c9ba21dc42651a853332e863e0809ae",
   "room": {
     "id": 20770,
     "title": [
@@ -15,28 +14,32 @@
     "wayto": {
       "20767": "go steps",
       "20771": "go archway",
-      "30711": "/rooms/20770/wayto/stringproc-30711.rb"
+      "30711": ";e Cartographer.evaluate_script('wayto/room-20770-to-30711.rb')"
     },
     "timeto": {
       "20767": 0.2,
       "20771": 0.2,
-      "30711": "/rooms/20770/timeto/stringproc-30711.rb"
+      "30711": ";e Cartographer.evaluate_script('timeto/room-20770-to-30711.rb')"
     },
-    "tags": [
-      "meta:premium",
-      "premium supernode",
-      "supernode",
-      "urchin-access"
-    ],
-    "uid": [
-      4002305
-    ],
     "image": "premium_halls-1489980086.png",
     "image_coords": [
       3968,
       853,
       4091,
       905
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:premium",
+      "premium supernode",
+      "stalk of bluebells",
+      "supernode",
+      "urchin-access"
+    ],
+    "uid": [
+      4002305
     ]
   }
 }

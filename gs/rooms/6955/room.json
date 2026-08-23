@@ -1,5 +1,4 @@
 {
-  "checksum": "65a5cda79f7a4c9b35e6307611c36961",
   "room": {
     "id": 6955,
     "title": [
@@ -16,14 +15,21 @@
     "terrain": "deciduous",
     "wayto": {
       "6954": "north",
-      "6985": "/rooms/6955/wayto/stringproc-6985.rb",
+      "6985": ";e Cartographer.evaluate_script('wayto/room-6955-to-6985.rb')",
       "22229": "go pool"
     },
     "timeto": {
       "6954": 0.2,
-      "6985": "/rooms/6955/timeto/stringproc-6985.rb",
-      "22229": "/rooms/6955/timeto/stringproc-22229.rb"
+      "6985": ";e Cartographer.evaluate_script('timeto/room-6955-to-6985.rb')",
+      "22229": ";e Cartographer.evaluate_script('timeto/room-6955-to-22229.rb')"
     },
+    "image": "wl-darkstone-1717380773.png",
+    "image_coords": [
+      158,
+      206,
+      168,
+      216
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -35,7 +41,7 @@
       "ephlox moss",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2023-01",
       "oak twig",
       "pennyroyal stem",
@@ -58,13 +64,6 @@
     ],
     "uid": [
       43062
-    ],
-    "image": "wl-darkstone-1717380773.png",
-    "image_coords": [
-      158,
-      206,
-      168,
-      216
     ]
   }
 }

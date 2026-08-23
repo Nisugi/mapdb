@@ -1,5 +1,4 @@
 {
-  "checksum": "852623b31a23ff2e3d6cddbb676df88c",
   "room": {
     "id": 18329,
     "title": [
@@ -27,22 +26,23 @@
       "18330": 5,
       "18331": 5
     },
-    "tags": [
-      "meta:forage-sensed",
-      "murdroot",
-      "wingstem root",
-      "bur-clover root",
-      "meta:forage-sensed:day:2024-05"
-    ],
-    "uid": [
-      3210473
-    ],
     "image": "ifw-saewehna_lagoon-1525325794.png",
     "image_coords": [
       1998,
       785,
       2029,
       812
+    ],
+    "tags": [
+      "bur-clover root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
+      "meta:splashy",
+      "murdroot",
+      "wingstem root"
+    ],
+    "uid": [
+      3210473
     ]
   }
 }

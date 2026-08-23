@@ -1,5 +1,4 @@
 {
-  "checksum": "c984b5b02c131e84445c40f73d22e76f",
   "room": {
     "id": 31493,
     "title": [
@@ -16,32 +15,40 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "250": "/rooms/31493/wayto/stringproc-250.rb",
-      "1870": "/rooms/31493/wayto/stringproc-1870.rb",
-      "10838": "/rooms/31493/wayto/stringproc-10838.rb",
-      "11756": "/rooms/31493/wayto/stringproc-11756.rb",
-      "29033": "/rooms/31493/wayto/stringproc-29033.rb",
-      "30713": "/rooms/31493/wayto/stringproc-30713.rb",
+      "250": ";e Cartographer.evaluate_script('wayto/room-31493-to-250.rb')",
+      "1870": ";e Cartographer.evaluate_script('wayto/room-31493-to-1870.rb')",
+      "10838": ";e Cartographer.evaluate_script('wayto/room-31493-to-10838.rb')",
+      "11756": ";e Cartographer.evaluate_script('wayto/room-31493-to-11756.rb')",
+      "29033": ";e Cartographer.evaluate_script('wayto/room-31493-to-29033.rb')",
+      "30713": ";e Cartographer.evaluate_script('wayto/room-31493-to-30713.rb')",
       "31487": "north",
-      "32372": "/rooms/31493/wayto/stringproc-32372.rb",
-      "32928": "/rooms/31493/wayto/stringproc-32928.rb",
+      "32372": ";e Cartographer.evaluate_script('wayto/room-31493-to-32372.rb')",
+      "32928": ";e Cartographer.evaluate_script('wayto/room-31493-to-32928.rb')",
       "33403": "go vaalorn gate"
     },
     "timeto": {
-      "250": "/rooms/31493/timeto/stringproc-250.rb",
-      "1870": "/rooms/31493/timeto/stringproc-1870.rb",
-      "10838": "/rooms/31493/timeto/stringproc-10838.rb",
-      "11756": "/rooms/31493/timeto/stringproc-11756.rb",
-      "29033": "/rooms/31493/timeto/stringproc-29033.rb",
-      "30713": "/rooms/31493/timeto/stringproc-30713.rb",
+      "250": ";e Cartographer.evaluate_script('timeto/room-31493-to-250.rb')",
+      "1870": ";e Cartographer.evaluate_script('timeto/room-31493-to-1870.rb')",
+      "10838": ";e Cartographer.evaluate_script('timeto/room-31493-to-10838.rb')",
+      "11756": ";e Cartographer.evaluate_script('timeto/room-31493-to-11756.rb')",
+      "29033": ";e Cartographer.evaluate_script('timeto/room-31493-to-29033.rb')",
+      "30713": ";e Cartographer.evaluate_script('timeto/room-31493-to-30713.rb')",
       "31487": 0.2,
-      "32372": "/rooms/31493/timeto/stringproc-32372.rb",
-      "32928": "/rooms/31493/timeto/stringproc-32928.rb",
+      "32372": ";e Cartographer.evaluate_script('timeto/room-31493-to-32372.rb')",
+      "32928": ";e Cartographer.evaluate_script('timeto/room-31493-to-32928.rb')",
       "33403": 0.2
     },
+    "image": "en-ta_vaalor_port-1662946910.png",
+    "image_coords": [
+      807,
+      373,
+      825,
+      389
+    ],
     "tags": [
+      "fire lily",
       "meta:forage-sensed",
-      "no forageables",
+      "meta:forage-sensed:night:2026-08",
       "portmaster",
       "silver-cost:10838:35000",
       "silver-cost:11756:12500",
@@ -50,18 +57,13 @@
       "silver-cost:29033:35000",
       "silver-cost:32372:25000",
       "silver-cost:32928:25000",
+      "stalk of bluebells",
       "urchin guide docks",
-      "urchin-access"
+      "urchin-access",
+      "wild sage"
     ],
     "uid": [
       7136032
-    ],
-    "image": "en-ta_vaalor_port-1662946910.png",
-    "image_coords": [
-      807,
-      373,
-      825,
-      389
     ]
   }
 }

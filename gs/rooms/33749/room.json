@@ -1,5 +1,4 @@
 {
-  "checksum": "f1dacc90c451b9d244bbe8ff643ab7a7",
   "room": {
     "id": 33749,
     "title": [
@@ -21,8 +20,9 @@
       "33750": 0.2
     },
     "tags": [
-      "no forageables",
-      "exchange"
+      "exchange",
+      "meta:nomagic",
+      "no forageables"
     ],
     "uid": [
       7140513

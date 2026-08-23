@@ -1,5 +1,4 @@
 {
-  "checksum": "b0cc8f782e5e0e0ff64b1b46a59ce5a3",
   "room": {
     "id": 6203,
     "title": [
@@ -15,14 +14,14 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "6202": "/rooms/6203/wayto/stringproc-6202.rb",
-      "6204": "/rooms/6203/wayto/stringproc-6204.rb",
-      "6205": "/rooms/6203/wayto/stringproc-6205.rb",
-      "6206": "/rooms/6203/wayto/stringproc-6206.rb",
-      "6207": "/rooms/6203/wayto/stringproc-6207.rb",
-      "6208": "/rooms/6203/wayto/stringproc-6208.rb",
-      "6209": "/rooms/6203/wayto/stringproc-6209.rb",
-      "6210": "/rooms/6203/wayto/stringproc-6210.rb"
+      "6202": ";e Cartographer.evaluate_script('wayto/room-6203-to-6202.rb')",
+      "6204": ";e Cartographer.evaluate_script('wayto/room-6203-to-6204.rb')",
+      "6205": ";e Cartographer.evaluate_script('wayto/room-6203-to-6205.rb')",
+      "6206": ";e Cartographer.evaluate_script('wayto/room-6203-to-6206.rb')",
+      "6207": ";e Cartographer.evaluate_script('wayto/room-6203-to-6207.rb')",
+      "6208": ";e Cartographer.evaluate_script('wayto/room-6203-to-6208.rb')",
+      "6209": ";e Cartographer.evaluate_script('wayto/room-6203-to-6209.rb')",
+      "6210": ";e Cartographer.evaluate_script('wayto/room-6203-to-6210.rb')"
     },
     "timeto": {
       "6202": 0.5,
@@ -34,6 +33,13 @@
       "6209": 0.5,
       "6210": 0.5
     },
+    "image": "wl-wehntoph-1310775397.png",
+    "image_coords": [
+      760,
+      135,
+      778,
+      153
+    ],
     "tags": [
       "black mushroom",
       "blue trafel mushroom",
@@ -41,7 +47,7 @@
       "cave moss",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2025-06",
       "murdroot",
       "red mushroom",
@@ -52,13 +58,6 @@
     ],
     "uid": [
       2167072
-    ],
-    "image": "wl-wehntoph-1310775397.png",
-    "image_coords": [
-      760,
-      135,
-      778,
-      153
     ]
   }
 }

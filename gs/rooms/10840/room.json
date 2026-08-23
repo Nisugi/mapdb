@@ -1,5 +1,4 @@
 {
-  "checksum": "debb198ce4ab6dea2b7bf2d6f5187e13",
   "room": {
     "id": 10840,
     "title": [
@@ -20,7 +19,7 @@
       "10846": "east",
       "10852": "north",
       "11006": "go drawbridge",
-      "30711": "/rooms/10840/wayto/stringproc-30711.rb"
+      "30711": ";e Cartographer.evaluate_script('wayto/room-10840-to-30711.rb')"
     },
     "timeto": {
       "10838": 0.2,
@@ -28,30 +27,70 @@
       "10846": 0.2,
       "10852": 0.2,
       "11006": 0.2,
-      "30711": "/rooms/10840/timeto/stringproc-30711.rb"
+      "30711": ";e Cartographer.evaluate_script('timeto/room-10840-to-30711.rb')"
     },
-    "tags": [
-      "alchemy sea water",
-      "birch bark",
-      "curly garlic scapes",
-      "ghost pepper",
-      "hot pepper",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2024-05",
-      "no forageables",
-      "sovyn clove",
-      "urchin guide drawbridge",
-      "urchin-access"
-    ],
-    "uid": [
-      2101001
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       2288,
       1160,
       2328,
       1200
+    ],
+    "tags": [
+      "acantha leaf",
+      "agave heart",
+      "alchemy sea water",
+      "angelica root",
+      "birch bark",
+      "black peppercorn",
+      "bright red beet",
+      "bur-clover root",
+      "calamia fruit",
+      "cardamom",
+      "cumin seeds",
+      "curly garlic scapes",
+      "ghost pepper",
+      "green garden cucumber",
+      "green guava",
+      "handful of oats",
+      "heath aster",
+      "hot pepper",
+      "ironfern root",
+      "juniper berry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
+      "meta:forage-sensed:night:2026-08",
+      "mistweed",
+      "motherwort",
+      "murdroot",
+      "murkweed",
+      "nutmeg",
+      "pepperthorn root",
+      "pink peppercorn",
+      "sagebrush root",
+      "small daisy",
+      "small flower",
+      "small rose",
+      "sovyn clove",
+      "sprig of alyssum",
+      "sprig of thanot",
+      "spring onion",
+      "stalk of chicory",
+      "stalk of goldenrod",
+      "star anise",
+      "sweet potato",
+      "urchin guide drawbridge",
+      "urchin-access",
+      "vanilla bean",
+      "wild chokecherry",
+      "wild rice",
+      "wild rose",
+      "wingstem root",
+      "withered mushroom",
+      "yellow primrose"
+    ],
+    "uid": [
+      2101001
     ]
   }
 }

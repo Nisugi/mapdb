@@ -1,5 +1,4 @@
 {
-  "checksum": "532c7bf797851212b084e0656ed5f4db",
   "room": {
     "id": 400,
     "title": [
@@ -14,30 +13,32 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "399": "go low arch",
-      "30708": "/rooms/400/wayto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('wayto/room-400-to-30708.rb')"
     },
     "timeto": {
       "399": 0.2,
-      "30708": "/rooms/400/timeto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('timeto/room-400-to-30708.rb')"
     },
-    "tags": [
-      "antimagic",
-      "bank",
-      "meta:nomagic",
-      "meta:teleport:fwi",
-      "no forageables",
-      "urchin guide bank",
-      "urchin-access"
-    ],
-    "uid": [
-      2005
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       196,
       617,
       232,
       653
+    ],
+    "tags": [
+      "antimagic",
+      "bank",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:nomagic",
+      "meta:teleport:fwi",
+      "urchin guide bank",
+      "urchin-access"
+    ],
+    "uid": [
+      2005
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "875954165e5f7e848ecea85f4855ee93",
   "room": {
     "id": 6897,
     "title": [
@@ -18,7 +17,7 @@
       "6892": "north",
       "6896": "east",
       "6899": "south",
-      "6928": "/rooms/6897/wayto/stringproc-6928.rb"
+      "6928": ";e Cartographer.evaluate_script('wayto/room-6897-to-6928.rb')"
     },
     "timeto": {
       "6892": 0.2,
@@ -26,16 +25,24 @@
       "6899": 0.2,
       "6928": 0.2
     },
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      1050,
+      1302,
+      1060,
+      1312
+    ],
     "tags": [
       "birch bark",
       "bur-clover root",
       "cave moss",
       "ghost pepper",
+      "golden yellow shadesbane",
       "hot pepper",
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2025-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "off-white parsnip",
       "pepperthorn root",
@@ -46,13 +53,6 @@
     ],
     "uid": [
       37026
-    ],
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      1050,
-      1302,
-      1060,
-      1312
     ]
   }
 }

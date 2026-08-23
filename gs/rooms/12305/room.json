@@ -1,5 +1,4 @@
 {
-  "checksum": "4e02e94af3f51ef7046d24e975d63c40",
   "room": {
     "id": 12305,
     "title": [
@@ -21,46 +20,60 @@
       "12304": "southeast",
       "19587": "go gate",
       "21089": "go path",
-      "30718": "/rooms/12305/wayto/stringproc-30718.rb"
+      "30718": ";e Cartographer.evaluate_script('wayto/room-12305-to-30718.rb')"
     },
     "timeto": {
       "12304": 0.2,
       "19587": 0.2,
       "21089": 0.2,
-      "30718": "/rooms/12305/timeto/stringproc-30718.rb"
+      "30718": ";e Cartographer.evaluate_script('timeto/room-12305-to-30718.rb')"
     },
-    "tags": [
-      "bloodwood twig",
-      "bolmara lichen",
-      "brostheras grass",
-      "ebony twig",
-      "fresh cilantro",
-      "fresh lemongrass",
-      "green pear",
-      "ironfern root",
-      "luckbloom blossom",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2024-05",
-      "oak twig",
-      "red cherries",
-      "rose-marrow root",
-      "slender twig",
-      "stalk of celery",
-      "sunburst blossom",
-      "twisted twig",
-      "urchin guide weddinghall",
-      "urchin-access",
-      "yew twig"
-    ],
-    "uid": [
-      3201055
-    ],
     "image": "ifw-isle_of_four_winds-1310232949.png",
     "image_coords": [
       2073,
       625,
       2105,
       655
+    ],
+    "tags": [
+      "black tea leaves",
+      "bloodwood twig",
+      "bolmara lichen",
+      "brostheras grass",
+      "butterfly pea flower",
+      "cherry peppers",
+      "ebony twig",
+      "fresh catnip",
+      "fresh cilantro",
+      "fresh lemongrass",
+      "green pear",
+      "green tea leaves",
+      "ironfern root",
+      "luckbloom blossom",
+      "mate leaves",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "oak twig",
+      "peppermint leaves",
+      "purple tea leaves",
+      "red cherries",
+      "rose-marrow root",
+      "slender twig",
+      "small watermelon",
+      "sprig of rooibos",
+      "stalk of celery",
+      "sun-wilted tea leaves",
+      "sunburst blossom",
+      "tea leaves",
+      "twisted twig",
+      "urchin guide weddinghall",
+      "urchin-access",
+      "white tea leaves",
+      "wild rice",
+      "yew twig"
+    ],
+    "uid": [
+      3201055
     ]
   }
 }

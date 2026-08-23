@@ -1,5 +1,4 @@
 {
-  "checksum": "b8580f7321ae9bf5793b20d73aead3e5",
   "room": {
     "id": 8149,
     "title": [
@@ -22,19 +21,20 @@
       "8148": 0.2,
       "8150": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      386068
-    ],
     "image": "wl-mineroad-1264234799.png",
     "image_coords": [
       1118,
       72,
       1128,
       82
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      386068
     ]
   }
 }

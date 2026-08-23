@@ -1,5 +1,4 @@
 {
-  "checksum": "70ac002c54041bb20385ffed4b32fc89",
   "room": {
     "id": 15948,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "7987": "/rooms/15948/wayto/stringproc-7987.rb"
+      "7987": ";e Cartographer.evaluate_script('wayto/room-15948-to-7987.rb')"
     },
     "timeto": {
       "7987": 0.2
@@ -22,11 +21,12 @@
       "meta:che:House of Paupers",
       "meta:che:paupers:locker",
       "meta:locker",
+      "meta:nomagic",
       "peer opening =~ /You also see a curtained opening and a steel door\\./"
     ],
+    "check_location": true,
     "uid": [
       104200
-    ],
-    "check_location": true
+    ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "99de3e9e545c3b473eab823f590a9beb",
   "room": {
     "id": 11431,
     "title": [
@@ -18,26 +17,29 @@
     "wayto": {
       "11429": "south",
       "11432": "down",
-      "30711": "/rooms/11431/wayto/stringproc-30711.rb"
+      "30711": ";e Cartographer.evaluate_script('wayto/room-11431-to-30711.rb')"
     },
     "timeto": {
       "11429": 0.2,
       "11432": 0.2,
-      "30711": "/rooms/11431/timeto/stringproc-30711.rb"
+      "30711": ";e Cartographer.evaluate_script('timeto/room-11431-to-30711.rb')"
     },
-    "tags": [
-      "no forageables",
-      "urchin-access"
-    ],
-    "uid": [
-      2101986
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       1980,
       326,
       2000,
       348
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells",
+      "urchin-access"
+    ],
+    "uid": [
+      2101986
     ]
   }
 }

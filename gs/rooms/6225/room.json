@@ -1,5 +1,4 @@
 {
-  "checksum": "f5145834e938412b4327a1491ffcf4cf",
   "room": {
     "id": 6225,
     "title": [
@@ -15,17 +14,17 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "6222": "/rooms/6225/wayto/stringproc-6222.rb",
-      "6223": "/rooms/6225/wayto/stringproc-6223.rb",
-      "6224": "/rooms/6225/wayto/stringproc-6224.rb",
+      "6222": ";e Cartographer.evaluate_script('wayto/room-6225-to-6222.rb')",
+      "6223": ";e Cartographer.evaluate_script('wayto/room-6225-to-6223.rb')",
+      "6224": ";e Cartographer.evaluate_script('wayto/room-6225-to-6224.rb')",
       "6226": "west",
-      "6229": "/rooms/6225/wayto/stringproc-6229.rb",
-      "6230": "/rooms/6225/wayto/stringproc-6230.rb",
-      "6231": "/rooms/6225/wayto/stringproc-6231.rb",
-      "6232": "/rooms/6225/wayto/stringproc-6232.rb",
-      "6233": "/rooms/6225/wayto/stringproc-6233.rb",
-      "6234": "/rooms/6225/wayto/stringproc-6234.rb",
-      "6235": "/rooms/6225/wayto/stringproc-6235.rb"
+      "6229": ";e Cartographer.evaluate_script('wayto/room-6225-to-6229.rb')",
+      "6230": ";e Cartographer.evaluate_script('wayto/room-6225-to-6230.rb')",
+      "6231": ";e Cartographer.evaluate_script('wayto/room-6225-to-6231.rb')",
+      "6232": ";e Cartographer.evaluate_script('wayto/room-6225-to-6232.rb')",
+      "6233": ";e Cartographer.evaluate_script('wayto/room-6225-to-6233.rb')",
+      "6234": ";e Cartographer.evaluate_script('wayto/room-6225-to-6234.rb')",
+      "6235": ";e Cartographer.evaluate_script('wayto/room-6225-to-6235.rb')"
     },
     "timeto": {
       "6222": 0.5,
@@ -40,6 +39,13 @@
       "6234": 0.5,
       "6235": 0.5
     },
+    "image": "wl-wehntoph-1310775397.png",
+    "image_coords": [
+      977,
+      235,
+      995,
+      253
+    ],
     "tags": [
       "blue trafel mushroom",
       "bolmara lichen",
@@ -49,7 +55,7 @@
       "genkew mushroom",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2025-06",
       "murdroot",
       "pepperthorn root",
@@ -59,13 +65,6 @@
     ],
     "uid": [
       2167121
-    ],
-    "image": "wl-wehntoph-1310775397.png",
-    "image_coords": [
-      977,
-      235,
-      995,
-      253
     ]
   }
 }

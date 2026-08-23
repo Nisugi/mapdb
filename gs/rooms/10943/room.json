@@ -1,5 +1,4 @@
 {
-  "checksum": "dc4eea5a8f97ecc6b2af81025ddb88cf",
   "room": {
     "id": 10943,
     "title": [
@@ -15,19 +14,21 @@
     "location": "the town of River's Rest",
     "wayto": {
       "10848": "out",
-      "30711": "/rooms/10943/wayto/stringproc-30711.rb"
+      "30711": ";e Cartographer.evaluate_script('wayto/room-10943-to-30711.rb')"
     },
     "timeto": {
       "10848": 0.2,
-      "30711": "/rooms/10943/timeto/stringproc-30711.rb"
+      "30711": ";e Cartographer.evaluate_script('timeto/room-10943-to-30711.rb')"
     },
     "tags": [
+      "fire lily",
       "locksmith",
       "locksmith shop",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2026-08",
       "meta:trashcan:old pickle barrel",
-      "no forageables",
+      "stalk of bluebells",
       "urchin guide locksmith",
       "urchin-access"
     ],

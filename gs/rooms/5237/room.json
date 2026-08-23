@@ -1,5 +1,4 @@
 {
-  "checksum": "287499202198b03f08045b6b18c5b1c4",
   "room": {
     "id": 5237,
     "title": [
@@ -25,20 +24,21 @@
       "5239": 0.2,
       "5240": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      4202147
-    ],
     "image": "vo-foggy_valley-1264234799.png",
     "image_coords": [
       148,
       642,
       158,
       652
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:splashy",
+      "no forageables"
+    ],
+    "uid": [
+      4202147
     ]
   }
 }

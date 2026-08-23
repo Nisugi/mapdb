@@ -1,5 +1,4 @@
 {
-  "checksum": "9225ed2b95c08ce8bf375119ba8b6176",
   "room": {
     "id": 1852,
     "title": [
@@ -18,31 +17,32 @@
     "wayto": {
       "1850": "north",
       "30552": "go silver gates",
-      "30715": "/rooms/1852/wayto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('wayto/room-1852-to-30715.rb')"
     },
     "timeto": {
       "1850": 0.2,
-      "30552": "/rooms/1852/timeto/stringproc-30552.rb",
-      "30715": "/rooms/1852/timeto/stringproc-30715.rb"
+      "30552": ";e Cartographer.evaluate_script('timeto/room-1852-to-30552.rb')",
+      "30715": ";e Cartographer.evaluate_script('timeto/room-1852-to-30715.rb')"
     },
-    "tags": [
-      "empath guild",
-      "empathguild",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01",
-      "no forageables",
-      "urchin guide empathguild",
-      "urchin-access"
-    ],
-    "uid": [
-      652001
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       467,
       569,
       503,
       605
+    ],
+    "tags": [
+      "empath guild",
+      "empathguild",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "meta:forage-sensed:night:2026-08",
+      "urchin guide empathguild",
+      "urchin-access"
+    ],
+    "uid": [
+      652001
     ]
   }
 }

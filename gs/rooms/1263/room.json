@@ -1,5 +1,4 @@
 {
-  "checksum": "4312a10fdeaafa44980dc9db6698a904",
   "room": {
     "id": 1263,
     "title": [
@@ -18,16 +17,18 @@
       "1262": "north",
       "1264": "go doors",
       "8816": "go booth",
-      "30708": "/rooms/1263/wayto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('wayto/room-1263-to-30708.rb')"
     },
     "timeto": {
       "1262": 0.2,
       "1264": 0.2,
       "8816": 0.2,
-      "30708": "/rooms/1263/timeto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('timeto/room-1263-to-30708.rb')"
     },
     "tags": [
-      "no forageables",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "node",
       "supernode",
       "urchin-access"

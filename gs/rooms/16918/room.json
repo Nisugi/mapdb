@@ -1,5 +1,4 @@
 {
-  "checksum": "e6808954e08492a7dac55c3f6350fb05",
   "room": {
     "id": 16918,
     "title": [
@@ -21,7 +20,7 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "9441": "/rooms/16918/wayto/stringproc-9441.rb"
+      "9441": ";e Cartographer.evaluate_script('wayto/room-16918-to-9441.rb')"
     },
     "timeto": {
       "9441": 3
@@ -34,7 +33,7 @@
       "genkew mushroom",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2023-02",
       "meta:map:multi-uid",
       "meta:maze",

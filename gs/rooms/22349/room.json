@@ -1,5 +1,4 @@
 {
-  "checksum": "ab942b71f596779eb70eccbec5b690f3",
   "room": {
     "id": 22349,
     "title": [
@@ -16,18 +15,19 @@
     "terrain": "hard, flat",
     "wayto": {
       "297": "out",
-      "22444": "/rooms/22349/wayto/stringproc-22444.rb"
+      "22444": ";e Cartographer.evaluate_script('wayto/room-22349-to-22444.rb')"
     },
     "timeto": {
       "297": 0.2,
       "22444": 1
     },
     "tags": [
+      "fire lily",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
-      "meta:forage-sensed:night:2023-01",
+      "meta:forage-sensed:night:2026-08",
       "meta:teleport:fwi",
-      "no forageables"
+      "stalk of bluebells"
     ],
     "uid": [
       7357

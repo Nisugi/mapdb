@@ -1,5 +1,4 @@
 {
-  "checksum": "12e4c5ab9217392829aa488b1bbee491",
   "room": {
     "id": 17170,
     "title": [
@@ -15,16 +14,18 @@
     "wayto": {
       "4696": "east",
       "17171": "go steps",
-      "30717": "/rooms/17170/wayto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('wayto/room-17170-to-30717.rb')"
     },
     "timeto": {
       "4696": 0.2,
       "17171": 0.2,
-      "30717": "/rooms/17170/timeto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('timeto/room-17170-to-30717.rb')"
     },
     "tags": [
       "cobbling",
-      "no forageables",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "urchin guide cobbling",
       "urchin-access"
     ],

@@ -1,5 +1,4 @@
 {
-  "checksum": "991981c505a198a4a70842fc40fcea3f",
   "room": {
     "id": 2955,
     "title": [
@@ -25,20 +24,21 @@
       "2954": 0.2,
       "2956": 0.2
     },
-    "tags": [
-      "nedum vereri",
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4132030
-    ],
     "image": "imt-Abbey_Map-1652211219.png",
     "image_coords": [
       267,
       418,
       321,
       470
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "nedum vereri",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      4132030
     ]
   }
 }

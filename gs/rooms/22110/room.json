@@ -1,5 +1,4 @@
 {
-  "checksum": "fb8d10bd1c3b87316bbb47bfb8b5288a",
   "room": {
     "id": 22110,
     "title": [
@@ -22,19 +21,20 @@
       "22107": 0.2,
       "22111": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      106008
-    ],
     "image": "vo-cairnfang_manor-1657584717.png",
     "image_coords": [
       179,
       366,
       190,
       377
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      106008
     ]
   }
 }

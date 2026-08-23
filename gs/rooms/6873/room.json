@@ -1,5 +1,4 @@
 {
-  "checksum": "8b362a42e5f8f46345f06285641ce014",
   "room": {
     "id": 6873,
     "title": [
@@ -15,16 +14,16 @@
     "wayto": {
       "6870": "south",
       "6874": "east",
-      "22161": "/rooms/6873/wayto/stringproc-22161.rb",
-      "22162": "/rooms/6873/wayto/stringproc-22162.rb",
-      "22163": "/rooms/6873/wayto/stringproc-22163.rb",
-      "22164": "/rooms/6873/wayto/stringproc-22164.rb",
-      "22165": "/rooms/6873/wayto/stringproc-22165.rb",
-      "22166": "/rooms/6873/wayto/stringproc-22166.rb",
-      "22167": "/rooms/6873/wayto/stringproc-22167.rb",
-      "22168": "/rooms/6873/wayto/stringproc-22168.rb",
-      "22169": "/rooms/6873/wayto/stringproc-22169.rb",
-      "22170": "/rooms/6873/wayto/stringproc-22170.rb"
+      "22161": ";e Cartographer.evaluate_script('wayto/room-6873-to-22161.rb')",
+      "22162": ";e Cartographer.evaluate_script('wayto/room-6873-to-22162.rb')",
+      "22163": ";e Cartographer.evaluate_script('wayto/room-6873-to-22163.rb')",
+      "22164": ";e Cartographer.evaluate_script('wayto/room-6873-to-22164.rb')",
+      "22165": ";e Cartographer.evaluate_script('wayto/room-6873-to-22165.rb')",
+      "22166": ";e Cartographer.evaluate_script('wayto/room-6873-to-22166.rb')",
+      "22167": ";e Cartographer.evaluate_script('wayto/room-6873-to-22167.rb')",
+      "22168": ";e Cartographer.evaluate_script('wayto/room-6873-to-22168.rb')",
+      "22169": ";e Cartographer.evaluate_script('wayto/room-6873-to-22169.rb')",
+      "22170": ";e Cartographer.evaluate_script('wayto/room-6873-to-22170.rb')"
     },
     "timeto": {
       "6870": 0.2,
@@ -40,20 +39,21 @@
       "22169": 0.2,
       "22170": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables",
-      "table"
-    ],
-    "uid": [
-      21113
-    ],
     "image": "wl-gates-1264234799.png",
     "image_coords": [
       799,
       967,
       809,
       977
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "table"
+    ],
+    "uid": [
+      21113
     ]
   }
 }

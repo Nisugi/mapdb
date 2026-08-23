@@ -1,5 +1,4 @@
 {
-  "checksum": "3775b73f9f60f397938134eb6a0664ea",
   "room": {
     "id": 1244,
     "title": [
@@ -18,20 +17,22 @@
     "timeto": {
       "233": 0.2
     },
-    "tags": [
-      "clericshop",
-      "meta:teleport:fwi",
-      "no forageables"
-    ],
-    "uid": [
-      2038
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       511,
       882,
       541,
       912
+    ],
+    "tags": [
+      "clericshop",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:teleport:fwi"
+    ],
+    "uid": [
+      2038
     ]
   }
 }

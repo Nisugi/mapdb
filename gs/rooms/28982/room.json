@@ -1,5 +1,4 @@
 {
-  "checksum": "05a8305f9c95538acaaaafbaf6cd48ea",
   "room": {
     "id": 28982,
     "title": [
@@ -16,17 +15,23 @@
       "28981": "northeast",
       "28983": "southwest",
       "28989": "go door",
-      "30716": "/rooms/28982/wayto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('wayto/room-28982-to-30716.rb')"
     },
     "timeto": {
       "28981": 0.2,
       "28983": 0.2,
       "28989": 0.2,
-      "30716": "/rooms/28982/timeto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('timeto/room-28982-to-30716.rb')"
     },
     "tags": [
+      "bright pink protea",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "meta:premium",
-      "urchin-access"
+      "stalk of bluebells",
+      "urchin-access",
+      "wild sage"
     ],
     "uid": [
       7118508

@@ -1,5 +1,4 @@
 {
-  "checksum": "902679f4c805123283dbc595ae1c9d71",
   "room": {
     "id": 30283,
     "title": [
@@ -18,20 +17,22 @@
     "timeto": {
       "30279": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      336660
-    ],
     "image": "wl-docks and tavern-1642366998.jpg",
     "image_coords": [
       973,
       573,
       1002,
       603
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      336660
     ]
   }
 }

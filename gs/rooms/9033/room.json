@@ -1,5 +1,4 @@
 {
-  "checksum": "1ad873f39788b5fde44dd15c694d7b26",
   "room": {
     "id": 9033,
     "title": [
@@ -16,13 +15,20 @@
     "climate": "temperate",
     "terrain": "deciduous forest",
     "wayto": {
-      "5063": "/rooms/9033/wayto/stringproc-5063.rb",
+      "5063": ";e Cartographer.evaluate_script('wayto/room-9033-to-5063.rb')",
       "9034": "north"
     },
     "timeto": {
       "5063": 0.2,
       "9034": 0.2
     },
+    "image": "vo-caravansary-1264234799.png",
+    "image_coords": [
+      613,
+      245,
+      623,
+      255
+    ],
     "tags": [
       "acantha leaf",
       "alder bark",
@@ -36,6 +42,7 @@
       "blueberries",
       "bolmara lichen",
       "bright red teaberry",
+      "bright yellow sunwort",
       "broken twig",
       "brostheras grass",
       "brown-skinned kiwi",
@@ -71,7 +78,7 @@
       "luckbloom blossom",
       "mate leaves",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "murdroot",
       "nightbloom blossom",
       "oak twig",
@@ -128,13 +135,6 @@
     ],
     "uid": [
       4212201
-    ],
-    "image": "vo-caravansary-1264234799.png",
-    "image_coords": [
-      613,
-      245,
-      623,
-      255
     ]
   }
 }

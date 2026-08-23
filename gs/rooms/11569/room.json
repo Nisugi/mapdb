@@ -1,5 +1,4 @@
 {
-  "checksum": "373dfd31a3c5e837f4770bc2cc831db2",
   "room": {
     "id": 11569,
     "title": [
@@ -22,19 +21,20 @@
       "11566": 0.2,
       "11568": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      420536
-    ],
     "image": "rr-maelstrom-1619824696.png",
     "image_coords": [
       194,
       1287,
       204,
       1297
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      420536
     ]
   }
 }

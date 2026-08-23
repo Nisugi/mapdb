@@ -1,5 +1,4 @@
 {
-  "checksum": "effe12d880ef7e5fce8681abbdc71666",
   "room": {
     "id": 10438,
     "title": [
@@ -19,32 +18,36 @@
       "13538": "go gateway",
       "13539": "go door",
       "28335": "go passageway",
-      "30713": "/rooms/10438/wayto/stringproc-30713.rb"
+      "30713": ";e Cartographer.evaluate_script('wayto/room-10438-to-30713.rb')"
     },
     "timeto": {
       "3508": 0.2,
       "10761": 0.2,
       "13538": 0.2,
       "13539": 0.2,
-      "28335": "/rooms/10438/timeto/stringproc-28335.rb",
-      "30713": "/rooms/10438/timeto/stringproc-30713.rb"
+      "28335": ";e Cartographer.evaluate_script('timeto/room-10438-to-28335.rb')",
+      "30713": ";e Cartographer.evaluate_script('timeto/room-10438-to-30713.rb')"
     },
-    "tags": [
-      "bard guild",
-      "bardguild",
-      "no forageables",
-      "urchin guide bardguild",
-      "urchin-access"
-    ],
-    "uid": [
-      287001
-    ],
     "image": "en-vaalor-bard-guild.png",
     "image_coords": [
       269,
       441,
       290,
       459
+    ],
+    "tags": [
+      "bard guild",
+      "bardguild",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells",
+      "urchin guide bardguild",
+      "urchin-access",
+      "wild sage"
+    ],
+    "uid": [
+      287001
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "2d21916a8eaca3bd4640a74d874d06c7",
   "room": {
     "id": 5102,
     "title": [
@@ -22,11 +21,19 @@
       "5101": 0.2,
       "5103": 0.2
     },
+    "image": "vo-north_beach-1264234799.png",
+    "image_coords": [
+      817,
+      842,
+      827,
+      852
+    ],
     "tags": [
       "blades of cordgrass",
       "blue-green marshgrass",
       "blueberries",
       "bright red teaberry",
+      "bright yellow sunwort",
       "broken twig",
       "cactacae spine",
       "elderberries",
@@ -40,7 +47,7 @@
       "ironfern root",
       "long green okra",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "pepperthorn root",
       "pink clover blossom",
       "purple clover blossom",
@@ -52,6 +59,7 @@
       "stalk of chicory",
       "stalk of goldenrod",
       "sunburst blossom",
+      "thistle seeds",
       "white clover blossom",
       "wild chokecherry",
       "wild grapes",
@@ -65,13 +73,6 @@
     ],
     "uid": [
       4213116
-    ],
-    "image": "vo-north_beach-1264234799.png",
-    "image_coords": [
-      817,
-      842,
-      827,
-      852
     ]
   }
 }

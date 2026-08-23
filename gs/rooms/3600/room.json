@@ -1,5 +1,4 @@
 {
-  "checksum": "b433800540bcda3c95609f2d2ba08ca1",
   "room": {
     "id": 3600,
     "title": [
@@ -16,33 +15,40 @@
     "climate": "humid",
     "terrain": "cultivated",
     "wayto": {
-      "1213": "/rooms/3600/wayto/stringproc-1213.rb",
-      "3600": "/rooms/3600/wayto/stringproc-3600.rb",
+      "1213": ";e Cartographer.evaluate_script('wayto/room-3600-to-1213.rb')",
+      "3600": ";e Cartographer.evaluate_script('wayto/room-3600-to-3600.rb')",
       "3601": "west",
       "3629": "go spring",
       "3683": "go gate",
-      "3686": "/rooms/3600/wayto/stringproc-3686.rb",
-      "4141": "/rooms/3600/wayto/stringproc-4141.rb",
-      "6505": "/rooms/3600/wayto/stringproc-6505.rb",
-      "6615": "/rooms/3600/wayto/stringproc-6615.rb",
-      "7673": "/rooms/3600/wayto/stringproc-7673.rb",
-      "14072": "/rooms/3600/wayto/stringproc-14072.rb",
-      "24715": "/rooms/3600/wayto/stringproc-24715.rb"
+      "3686": ";e Cartographer.evaluate_script('wayto/room-3600-to-3686.rb')",
+      "4141": ";e Cartographer.evaluate_script('wayto/room-3600-to-4141.rb')",
+      "6505": ";e Cartographer.evaluate_script('wayto/room-3600-to-6505.rb')",
+      "6615": ";e Cartographer.evaluate_script('wayto/room-3600-to-6615.rb')",
+      "7673": ";e Cartographer.evaluate_script('wayto/room-3600-to-7673.rb')",
+      "14072": ";e Cartographer.evaluate_script('wayto/room-3600-to-14072.rb')",
+      "24715": ";e Cartographer.evaluate_script('wayto/room-3600-to-24715.rb')"
     },
     "timeto": {
-      "1213": "/rooms/3600/timeto/stringproc-1213.rb",
+      "1213": ";e Cartographer.evaluate_script('timeto/room-3600-to-1213.rb')",
       "3600": 0.2,
       "3601": 0.2,
       "3629": 0.2,
       "3683": 0.2,
-      "3686": "/rooms/3600/timeto/stringproc-3686.rb",
-      "4141": "/rooms/3600/timeto/stringproc-4141.rb",
-      "6505": "/rooms/3600/timeto/stringproc-6505.rb",
-      "6615": "/rooms/3600/timeto/stringproc-6615.rb",
-      "7673": "/rooms/3600/timeto/stringproc-7673.rb",
-      "14072": "/rooms/3600/timeto/stringproc-14072.rb",
-      "24715": "/rooms/3600/timeto/stringproc-24715.rb"
+      "3686": ";e Cartographer.evaluate_script('timeto/room-3600-to-3686.rb')",
+      "4141": ";e Cartographer.evaluate_script('timeto/room-3600-to-4141.rb')",
+      "6505": ";e Cartographer.evaluate_script('timeto/room-3600-to-6505.rb')",
+      "6615": ";e Cartographer.evaluate_script('timeto/room-3600-to-6615.rb')",
+      "7673": ";e Cartographer.evaluate_script('timeto/room-3600-to-7673.rb')",
+      "14072": ";e Cartographer.evaluate_script('timeto/room-3600-to-14072.rb')",
+      "24715": ";e Cartographer.evaluate_script('timeto/room-3600-to-24715.rb')"
     },
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      1163,
+      66,
+      1173,
+      76
+    ],
     "tags": [
       "ayana leaf",
       "bay leaf",
@@ -71,7 +77,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2024-01",
+      "meta:forage-sensed:night:2026-08",
       "meta:map:ignore-selfpath",
       "meta:mapcategory:Wehnimer's Landing",
       "meta:mapname:Wehnimer's Landing - Outside Gates",
@@ -122,13 +128,6 @@
     ],
     "uid": [
       312033
-    ],
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      1163,
-      66,
-      1173,
-      76
     ]
   }
 }

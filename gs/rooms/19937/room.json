@@ -1,5 +1,4 @@
 {
-  "checksum": "0ab91ac8bc6cb0b842243a4cae7b0692",
   "room": {
     "id": 19937,
     "title": [
@@ -14,14 +13,16 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "19928": "go archway",
-      "20641": "/rooms/19937/wayto/stringproc-20641.rb"
+      "20641": ";e Cartographer.evaluate_script('wayto/room-19937-to-20641.rb')"
     },
     "timeto": {
       "19928": 0.2,
       "20641": 0.2
     },
     "tags": [
-      "no forageables"
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
     ],
     "uid": [
       336402

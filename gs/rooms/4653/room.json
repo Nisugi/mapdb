@@ -1,5 +1,4 @@
 {
-  "checksum": "755c2ff8c826d258573435c2a043b255",
   "room": {
     "id": 4653,
     "title": [
@@ -19,15 +18,22 @@
       "4651": "southeast",
       "4654": "northwest",
       "4655": "go ramp",
-      "30717": "/rooms/4653/wayto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('wayto/room-4653-to-30717.rb')"
     },
     "timeto": {
       "4650": 0.2,
       "4651": 0.2,
       "4654": 0.2,
       "4655": 0.2,
-      "30717": "/rooms/4653/timeto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('timeto/room-4653-to-30717.rb')"
     },
+    "image": "en-cysaegir-1679641246.png",
+    "image_coords": [
+      565,
+      701,
+      590,
+      725
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -43,13 +49,18 @@
       "brostheras grass",
       "brown potato",
       "chives",
+      "clasping bellflower",
+      "clove pink flower",
       "common",
+      "crimson clover inflorescence",
       "crimson dragonstalk",
       "curly leaf parsley",
       "daggerstalk mushroom",
       "dwarf bilberry",
       "dwarf billberry",
       "ear of corn",
+      "ecru wood sorrel",
+      "feather clover bloom",
       "fennel bulb",
       "fig",
       "fire lily",
@@ -62,6 +73,7 @@
       "golden aster",
       "golden buttercup",
       "green cabbage",
+      "hawksbeard blossom",
       "heath aster",
       "honeysuckle vine",
       "hop flowers",
@@ -74,7 +86,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2022-11",
+      "meta:forage-sensed:night:2026-08",
       "meta:mapcategory:Elven Nations",
       "meta:mapcategory:Towns",
       "meta:mapname:Elven Nations - Cysaegir",
@@ -86,8 +98,10 @@
       "nettle leaf",
       "nightbloom blossom",
       "node",
+      "pale purple spiderwort",
       "pepperthorn root",
       "pink clover blossom",
+      "pink redstem filaree",
       "purple cabbage",
       "purple clover blossom",
       "purple potato",
@@ -127,11 +141,13 @@
       "sweet onion",
       "thin hemp",
       "town",
-      "trollfear mushroom",
+      "trollear mushroom",
       "urchin guide common",
       "urchin-access",
+      "vibrant yellow forsythia",
       "viburnum twig",
       "violet shining rose",
+      "violet-tinged speedwell",
       "wavepetal blossom",
       "wheat grass",
       "white clover blossom",
@@ -156,13 +172,6 @@
     ],
     "uid": [
       14050003
-    ],
-    "image": "en-cysaegir-1679641246.png",
-    "image_coords": [
-      565,
-      701,
-      590,
-      725
     ]
   }
 }

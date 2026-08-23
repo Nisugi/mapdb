@@ -1,5 +1,4 @@
 {
-  "checksum": "c9dc677a83b71b027710fdff7c998aeb",
   "room": {
     "id": 4214,
     "title": [
@@ -24,6 +23,13 @@
       "4215": 0.2,
       "4281": 0.2
     },
+    "image": "wl-mineroad-1264234799.png",
+    "image_coords": [
+      1266,
+      80,
+      1302,
+      116
+    ],
     "tags": [
       "acantha leaf",
       "alder bark",
@@ -65,6 +71,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "murkweed",
       "nightbloom blossom",
@@ -92,7 +99,7 @@
       "tkaro root",
       "torban leaf",
       "tree bark",
-      "trollfear mushroom",
+      "trollear mushroom",
       "twisted twig",
       "walnuts",
       "white baneberry",
@@ -114,13 +121,6 @@
     ],
     "uid": [
       395002
-    ],
-    "image": "wl-mineroad-1264234799.png",
-    "image_coords": [
-      1266,
-      80,
-      1302,
-      116
     ]
   }
 }

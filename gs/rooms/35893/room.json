@@ -1,5 +1,4 @@
 {
-  "checksum": "efc8f24202d2af56ef26f129b943b7e1",
   "room": {
     "id": 35893,
     "title": [
@@ -13,22 +12,34 @@
     ],
     "location": "the River Muagh",
     "wayto": {
-      "35860": "/rooms/35893/wayto/stringproc-35860.rb",
-      "35894": "/rooms/35893/wayto/stringproc-35894.rb"
+      "35860": ";e Cartographer.evaluate_script('wayto/room-35893-to-35860.rb')",
+      "35894": ";e Cartographer.evaluate_script('wayto/room-35893-to-35894.rb')"
     },
     "timeto": {
       "35860": 0.2,
       "35894": 0.2
     },
-    "uid": [
-      3024009
-    ],
     "image": "ti-kragnek_dzu-1761314324.png",
     "image_coords": [
       98,
       870,
       136,
       907
+    ],
+    "tags": [
+      "broken twig",
+      "bur-clover root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:splashy",
+      "mistwood twig",
+      "murdroot",
+      "sticks",
+      "wavepetal blossom",
+      "wild gooseberry"
+    ],
+    "uid": [
+      3024009
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "6b54111d5edf14d7a3beb22348a53c3b",
   "room": {
     "id": 23523,
     "title": [
@@ -18,18 +17,21 @@
     "timeto": {
       "23522": 0.2
     },
-    "tags": [
-      "meta:mho:Faendryl Enclave"
-    ],
-    "uid": [
-      18048006
-    ],
     "image": "wl-faendrylenclave.png",
     "image_coords": [
       281,
       309,
       319,
       349
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:mho:Faendryl Enclave",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      18048006
     ]
   }
 }

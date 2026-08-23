@@ -1,5 +1,4 @@
 {
-  "checksum": "bc22bb70799cb112e2860f7a9322fa60",
   "room": {
     "id": 4605,
     "title": [
@@ -15,13 +14,20 @@
     "climate": "glacial",
     "terrain": "mountainous",
     "wayto": {
-      "4604": "/rooms/4605/wayto/stringproc-4604.rb",
+      "4604": ";e Cartographer.evaluate_script('wayto/room-4605-to-4604.rb')",
       "4606": "northeast"
     },
     "timeto": {
       "4604": 4.2,
       "4606": 0.2
     },
+    "image": "en-skull-1264234799.png",
+    "image_coords": [
+      691,
+      168,
+      701,
+      178
+    ],
     "tags": [
       "angelica root",
       "deep purple shockroot",
@@ -32,19 +38,11 @@
       "pennyroyal stem",
       "sassafras leaf",
       "sprig of holly",
-      "sunburst blossom",
       "sweetfern stalk",
       "valerian root"
     ],
     "uid": [
       13302111
-    ],
-    "image": "en-skull-1264234799.png",
-    "image_coords": [
-      691,
-      168,
-      701,
-      178
     ]
   }
 }

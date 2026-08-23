@@ -1,5 +1,4 @@
 {
-  "checksum": "b39df818e777bb309f0e1918ee32a913",
   "room": {
     "id": 30360,
     "title": [
@@ -14,17 +13,17 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "20588": "north",
-      "30708": "/rooms/30360/wayto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('wayto/room-30360-to-30708.rb')"
     },
     "timeto": {
       "20588": 0.2,
-      "30708": "/rooms/30360/timeto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('timeto/room-30360-to-30708.rb')"
     },
     "tags": [
+      "fire lily",
       "mail",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "no forageables",
+      "meta:forage-sensed:night:2026-08",
       "postoffice",
       "urchin guide postoffice",
       "urchin-access"

@@ -1,5 +1,4 @@
 {
-  "checksum": "fdbb79d99574abe6d2218881a62e8c4a",
   "room": {
     "id": 2677,
     "title": [
@@ -16,29 +15,35 @@
     "climate": "glacial",
     "terrain": "mountainous",
     "wayto": {
-      "2675": "/rooms/2677/wayto/stringproc-2675.rb",
+      "2675": ";e Cartographer.evaluate_script('wayto/room-2677-to-2675.rb')",
       "2678": "northeast"
     },
     "timeto": {
       "2675": 12,
       "2678": 0.2
     },
+    "image": "imt-pinefar-1264234799.png",
+    "image_coords": [
+      747,
+      526,
+      758,
+      537
+    ],
     "tags": [
       "angelica root",
       "arctic moss",
       "daggit root",
-      "feverfern stalk",
+      "feverfew stalk",
       "gok nut",
       "ironfern root",
       "manroot stalk",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:day:2026-08",
       "mount:return",
       "pennyroyal stem",
       "red lichen",
       "red winterberry",
       "sassafras leaf",
-      "some daggit root",
       "sunburst blossom",
       "sweetfern stalk",
       "valerian root",
@@ -46,13 +51,6 @@
     ],
     "uid": [
       4561131
-    ],
-    "image": "imt-pinefar-1264234799.png",
-    "image_coords": [
-      747,
-      526,
-      758,
-      537
     ]
   }
 }

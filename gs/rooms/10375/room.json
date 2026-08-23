@@ -1,5 +1,4 @@
 {
-  "checksum": "60d01b2c08165394fe437fe4b436185d",
   "room": {
     "id": 10375,
     "title": [
@@ -17,14 +16,22 @@
     "terrain": "cultivated",
     "wayto": {
       "10374": "north",
-      "30713": "/rooms/10375/wayto/stringproc-30713.rb"
+      "30713": ";e Cartographer.evaluate_script('wayto/room-10375-to-30713.rb')"
     },
     "timeto": {
       "10374": 0.2,
-      "30713": "/rooms/10375/timeto/stringproc-30713.rb"
+      "30713": ";e Cartographer.evaluate_script('timeto/room-10375-to-30713.rb')"
     },
+    "image": "en-tavaalor-1565907614.png",
+    "image_coords": [
+      1448,
+      703,
+      1484,
+      738
+    ],
     "tags": [
       "angelica root",
+      "arbutus berry",
       "ayana leaf",
       "bay leaf",
       "black peppercorn",
@@ -39,6 +46,7 @@
       "cardamom",
       "cherry peppers",
       "chives",
+      "crystal-like sylthiel",
       "cumin seeds",
       "curly garlic scapes",
       "curly leaf parsley",
@@ -56,11 +64,13 @@
       "fresh cilantro",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green beans",
       "green cabbage",
       "green olive",
       "green pepper",
+      "green soybean pod",
       "haphip root",
       "heath aster",
       "honeysuckle vine",
@@ -76,7 +86,7 @@
       "light blue hydrangea",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "motherwort",
       "mustard seeds",
@@ -104,6 +114,7 @@
       "red pepper",
       "rose-marrow root",
       "round red radish",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small anemone",
@@ -140,6 +151,7 @@
       "sunflower seeds",
       "sweet onion",
       "tendril of vinca",
+      "thistle seeds",
       "thyme",
       "tiger lily",
       "tobacco leaves",
@@ -149,6 +161,7 @@
       "vanilla bean",
       "vert globe artichoke",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "white begonia",
       "white hydrangea",
@@ -156,7 +169,9 @@
       "white peony",
       "white ramie",
       "wild pansy blossom",
+      "wild rice",
       "withered mushroom",
+      "yellow carrot",
       "yellow lemon",
       "yellow pepper",
       "yellow squash",
@@ -165,13 +180,6 @@
     ],
     "uid": [
       14100076
-    ],
-    "image": "en-tavaalor-1565907614.png",
-    "image_coords": [
-      1448,
-      703,
-      1484,
-      738
     ]
   }
 }

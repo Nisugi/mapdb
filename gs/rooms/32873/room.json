@@ -1,5 +1,4 @@
 {
-  "checksum": "32a027121972af8398d35159ef79dda9",
   "room": {
     "id": 32873,
     "title": [
@@ -16,7 +15,7 @@
     "terrain": "hard, flat",
     "wayto": {
       "5749": "out",
-      "13532": "/rooms/32873/wayto/stringproc-13532.rb"
+      "13532": ";e Cartographer.evaluate_script('wayto/room-32873-to-13532.rb')"
     },
     "timeto": {
       "5749": 0.2,
@@ -24,9 +23,10 @@
     },
     "tags": [
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2023-01",
-      "no forageables",
-      "silverwood"
+      "silverwood",
+      "stalk of bluebells"
     ],
     "uid": [
       4384070

@@ -1,5 +1,4 @@
 {
-  "checksum": "fabb4ca3e2aec227a72ae1d67be67f54",
   "room": {
     "id": 6190,
     "title": [
@@ -24,21 +23,21 @@
       "6188": 0.2,
       "6191": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "agave heart",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      2167040
-    ],
     "image": "wl-wehntoph-1310775397.png",
     "image_coords": [
       543,
       459,
       577,
       493
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:forage-sensed:night:2023-01",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      2167040
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "d90b450ff30e7ff080b199e42cd7a813",
   "room": {
     "id": 2208,
     "title": [
@@ -14,29 +13,30 @@
     "location": "the Eye of V'Tull",
     "wayto": {
       "2205": "down",
-      "2209": "/rooms/2208/wayto/stringproc-2209.rb"
+      "2209": ";e Cartographer.evaluate_script('wayto/room-2208-to-2209.rb')"
     },
     "timeto": {
       "2205": 0.2,
       "2209": 0.2
     },
-    "tags": [
-      "cave moss",
-      "daggerstalk mushroom",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
-      "pepperthorn root",
-      "trafel mushroom"
-    ],
-    "uid": [
-      3061015
-    ],
     "image": "ti-vtull-1663120653.png",
     "image_coords": [
       768,
       773,
       778,
       783
+    ],
+    "tags": [
+      "cave moss",
+      "daggerstalk mushroom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
+      "pepperthorn root",
+      "trafel mushroom"
+    ],
+    "uid": [
+      3061015
     ]
   }
 }

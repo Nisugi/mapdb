@@ -1,5 +1,4 @@
 {
-  "checksum": "31681a5e26f3a03d752acfed51a125b5",
   "room": {
     "id": 6212,
     "title": [
@@ -15,15 +14,15 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "6211": "/rooms/6212/wayto/stringproc-6211.rb",
-      "6213": "/rooms/6212/wayto/stringproc-6213.rb",
-      "6214": "/rooms/6212/wayto/stringproc-6214.rb",
-      "6215": "/rooms/6212/wayto/stringproc-6215.rb",
-      "6216": "/rooms/6212/wayto/stringproc-6216.rb",
-      "6217": "/rooms/6212/wayto/stringproc-6217.rb",
-      "6218": "/rooms/6212/wayto/stringproc-6218.rb",
-      "6219": "/rooms/6212/wayto/stringproc-6219.rb",
-      "6220": "/rooms/6212/wayto/stringproc-6220.rb"
+      "6211": ";e Cartographer.evaluate_script('wayto/room-6212-to-6211.rb')",
+      "6213": ";e Cartographer.evaluate_script('wayto/room-6212-to-6213.rb')",
+      "6214": ";e Cartographer.evaluate_script('wayto/room-6212-to-6214.rb')",
+      "6215": ";e Cartographer.evaluate_script('wayto/room-6212-to-6215.rb')",
+      "6216": ";e Cartographer.evaluate_script('wayto/room-6212-to-6216.rb')",
+      "6217": ";e Cartographer.evaluate_script('wayto/room-6212-to-6217.rb')",
+      "6218": ";e Cartographer.evaluate_script('wayto/room-6212-to-6218.rb')",
+      "6219": ";e Cartographer.evaluate_script('wayto/room-6212-to-6219.rb')",
+      "6220": ";e Cartographer.evaluate_script('wayto/room-6212-to-6220.rb')"
     },
     "timeto": {
       "6211": 0.5,
@@ -36,6 +35,13 @@
       "6219": 0.5,
       "6220": 0.5
     },
+    "image": "wl-wehntoph-1310775397.png",
+    "image_coords": [
+      761,
+      602,
+      779,
+      620
+    ],
     "tags": [
       "black mushroom",
       "blue trafel mushroom",
@@ -43,7 +49,7 @@
       "cave moss",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2025-06",
       "murdroot",
       "red mushroom",
@@ -54,13 +60,6 @@
     ],
     "uid": [
       2167091
-    ],
-    "image": "wl-wehntoph-1310775397.png",
-    "image_coords": [
-      761,
-      602,
-      779,
-      620
     ]
   }
 }

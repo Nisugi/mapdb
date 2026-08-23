@@ -1,5 +1,4 @@
 {
-  "checksum": "cdc54d3d060a246969f78c2f0774d0af",
   "room": {
     "id": 1842,
     "title": [
@@ -15,17 +14,19 @@
     "wayto": {
       "1841": "out",
       "12504": "east",
-      "30715": "/rooms/1842/wayto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('wayto/room-1842-to-30715.rb')"
     },
     "timeto": {
       "1841": 0.2,
       "12504": 0.2,
-      "30715": "/rooms/1842/timeto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('timeto/room-1842-to-30715.rb')"
     },
     "tags": [
+      "fire lily",
       "goldenhelm",
       "inn",
-      "no forageables",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "urchin guide goldenhelm",
       "urchin guide inn",
       "urchin-access"

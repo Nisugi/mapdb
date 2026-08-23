@@ -1,5 +1,4 @@
 {
-  "checksum": "d13f17a9b0bfd936d0a42e831e8d6187",
   "room": {
     "id": 3549,
     "title": [
@@ -23,23 +22,25 @@
       "5948": 0.2,
       "5950": 0.2
     },
-    "tags": [
-      "meta:mapname:Elven Nations - Victory Road",
-      "meta:mapshortname:Victory Road",
-      "meta:mapcategory:Elven Nations",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      14100054
-    ],
     "image": "en-victory-1264234799.png",
     "image_coords": [
       1072,
       424,
       1082,
       434
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:forage-sensed:night:2022-09",
+      "meta:mapcategory:Elven Nations",
+      "meta:mapname:Elven Nations - Victory Road",
+      "meta:mapshortname:Victory Road",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      14100054
     ]
   }
 }

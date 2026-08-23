@@ -1,5 +1,4 @@
 {
-  "checksum": "256508df819ba3b2610282cbc0b39cdc",
   "room": {
     "id": 27860,
     "title": [
@@ -14,25 +13,30 @@
     "location": "Keh'nira Fyr'sah",
     "wayto": {
       "4651": "go staircase",
-      "27864": "/rooms/27860/wayto/stringproc-27864.rb"
+      "27864": ";e Cartographer.evaluate_script('wayto/room-27860-to-27864.rb')"
     },
     "timeto": {
       "4651": 0.2,
-      "27864": "/rooms/27860/timeto/stringproc-27864.rb"
+      "27864": ";e Cartographer.evaluate_script('timeto/room-27860-to-27864.rb')"
     },
-    "tags": [
-      "Keh'nira Fyr'sah",
-      "private property"
-    ],
-    "uid": [
-      1303401
-    ],
     "image": "en-cysaegir-1679641246.png",
     "image_coords": [
       613,
       689,
       638,
       712
+    ],
+    "tags": [
+      "fire lily",
+      "Keh'nira Fyr'sah",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "private property",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      1303401
     ]
   }
 }

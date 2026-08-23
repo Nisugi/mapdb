@@ -1,5 +1,4 @@
 {
-  "checksum": "9ecfc472fea1599b008d2815bb576bca",
   "room": {
     "id": 30273,
     "title": [
@@ -16,20 +15,22 @@
     "terrain": "none",
     "wayto": {
       "30274": "go arch",
-      "30714": "/rooms/30273/wayto/stringproc-30714.rb"
+      "30714": ";e Cartographer.evaluate_script('wayto/room-30273-to-30714.rb')"
     },
     "timeto": {
       "30274": 0.2,
-      "30714": "/rooms/30273/timeto/stringproc-30714.rb"
+      "30714": ";e Cartographer.evaluate_script('timeto/room-30273-to-30714.rb')"
     },
     "tags": [
       "mail",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
-      "no forageables",
       "postoffice",
+      "stalk of bluebells",
       "urchin guide postoffice",
-      "urchin-access"
+      "urchin-access",
+      "wild sage"
     ],
     "uid": [
       14118101

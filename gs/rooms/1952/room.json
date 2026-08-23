@@ -1,5 +1,4 @@
 {
-  "checksum": "bc9dea8e758cf9c3b620bf896db8b0a1",
   "room": {
     "id": 1952,
     "title": [
@@ -15,17 +14,19 @@
     "wayto": {
       "1951": "go archway",
       "30667": "go stairway",
-      "30715": "/rooms/1952/wayto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('wayto/room-1952-to-30715.rb')"
     },
     "timeto": {
       "1951": 0.2,
       "30667": 0.2,
-      "30715": "/rooms/1952/timeto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('timeto/room-1952-to-30715.rb')"
     },
     "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "mho hall",
       "mho hall board",
-      "no forageables",
       "townhall",
       "urchin guide townhall",
       "urchin-access"

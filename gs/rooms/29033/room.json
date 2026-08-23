@@ -1,5 +1,4 @@
 {
-  "checksum": "510f163729aa3cd1ef30caa4f900ed1a",
   "room": {
     "id": 29033,
     "title": [
@@ -15,30 +14,39 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "250": "/rooms/29033/wayto/stringproc-250.rb",
-      "1870": "/rooms/29033/wayto/stringproc-1870.rb",
-      "10838": "/rooms/29033/wayto/stringproc-10838.rb",
-      "11756": "/rooms/29033/wayto/stringproc-11756.rb",
+      "250": ";e Cartographer.evaluate_script('wayto/room-29033-to-250.rb')",
+      "1870": ";e Cartographer.evaluate_script('wayto/room-29033-to-1870.rb')",
+      "10838": ";e Cartographer.evaluate_script('wayto/room-29033-to-10838.rb')",
+      "11756": ";e Cartographer.evaluate_script('wayto/room-29033-to-11756.rb')",
       "29034": "northeast",
-      "30716": "/rooms/29033/wayto/stringproc-30716.rb",
-      "31493": "/rooms/29033/wayto/stringproc-31493.rb",
-      "32372": "/rooms/29033/wayto/stringproc-32372.rb",
-      "32928": "/rooms/29033/wayto/stringproc-32928.rb"
+      "30716": ";e Cartographer.evaluate_script('wayto/room-29033-to-30716.rb')",
+      "31493": ";e Cartographer.evaluate_script('wayto/room-29033-to-31493.rb')",
+      "32372": ";e Cartographer.evaluate_script('wayto/room-29033-to-32372.rb')",
+      "32928": ";e Cartographer.evaluate_script('wayto/room-29033-to-32928.rb')"
     },
     "timeto": {
-      "250": "/rooms/29033/timeto/stringproc-250.rb",
-      "1870": "/rooms/29033/timeto/stringproc-1870.rb",
-      "10838": "/rooms/29033/timeto/stringproc-10838.rb",
-      "11756": "/rooms/29033/timeto/stringproc-11756.rb",
+      "250": ";e Cartographer.evaluate_script('timeto/room-29033-to-250.rb')",
+      "1870": ";e Cartographer.evaluate_script('timeto/room-29033-to-1870.rb')",
+      "10838": ";e Cartographer.evaluate_script('timeto/room-29033-to-10838.rb')",
+      "11756": ";e Cartographer.evaluate_script('timeto/room-29033-to-11756.rb')",
       "29034": 0.2,
-      "30716": "/rooms/29033/timeto/stringproc-30716.rb",
-      "31493": "/rooms/29033/timeto/stringproc-31493.rb",
-      "32372": "/rooms/29033/timeto/stringproc-32372.rb",
-      "32928": "/rooms/29033/timeto/stringproc-32928.rb"
+      "30716": ";e Cartographer.evaluate_script('timeto/room-29033-to-30716.rb')",
+      "31493": ";e Cartographer.evaluate_script('timeto/room-29033-to-31493.rb')",
+      "32372": ";e Cartographer.evaluate_script('timeto/room-29033-to-32372.rb')",
+      "32928": ";e Cartographer.evaluate_script('timeto/room-29033-to-32928.rb')"
     },
+    "image": "kf-krakens_fall-1648278406.png",
+    "image_coords": [
+      239,
+      735,
+      255,
+      750
+    ],
     "tags": [
+      "bright pink protea",
+      "fire lily",
       "meta:forage-sensed",
-      "no forageables",
+      "meta:forage-sensed:night:2026-08",
       "portmaster",
       "silver-cost:10838:25000",
       "silver-cost:11756:25000",
@@ -47,19 +55,14 @@
       "silver-cost:31493:35000",
       "silver-cost:32372:25000",
       "silver-cost:32928:25000",
+      "stalk of bluebells",
       "urchin guide docks",
       "urchin guide portmaster",
-      "urchin-access"
+      "urchin-access",
+      "wild sage"
     ],
     "uid": [
       7118259
-    ],
-    "image": "kf-krakens_fall-1648278406.png",
-    "image_coords": [
-      239,
-      735,
-      255,
-      750
     ]
   }
 }

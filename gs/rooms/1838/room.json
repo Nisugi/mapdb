@@ -1,5 +1,4 @@
 {
-  "checksum": "bd0cf5041f02284a7afc095a27a9857f",
   "room": {
     "id": 1838,
     "title": [
@@ -16,17 +15,19 @@
     "wayto": {
       "1837": "out",
       "20787": "south",
-      "30715": "/rooms/1838/wayto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('wayto/room-1838-to-30715.rb')"
     },
     "timeto": {
       "1837": 0.2,
       "20787": 0.2,
-      "30715": "/rooms/1838/timeto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('timeto/room-1838-to-30715.rb')"
     },
     "tags": [
       "bank",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "meta:nomagic",
-      "no forageables",
       "urchin guide bank",
       "urchin-access"
     ],

@@ -1,5 +1,4 @@
 {
-  "checksum": "6b94f72083a1d7adb45df5184907b868",
   "room": {
     "id": 11031,
     "title": [
@@ -19,14 +18,21 @@
       "11030": "north",
       "16123": "go ivy-covered gates",
       "16166": "go small cottage",
-      "30711": "/rooms/11031/wayto/stringproc-30711.rb"
+      "30711": ";e Cartographer.evaluate_script('wayto/room-11031-to-30711.rb')"
     },
     "timeto": {
       "11030": 0.2,
-      "16123": "/rooms/11031/timeto/stringproc-16123.rb",
+      "16123": ";e Cartographer.evaluate_script('timeto/room-11031-to-16123.rb')",
       "16166": 0.2,
-      "30711": "/rooms/11031/timeto/stringproc-30711.rb"
+      "30711": ";e Cartographer.evaluate_script('timeto/room-11031-to-30711.rb')"
     },
+    "image": "rr-wizard_guild.png",
+    "image_coords": [
+      280,
+      523,
+      340,
+      582
+    ],
     "tags": [
       "alligator lily",
       "angelica root",
@@ -75,7 +81,7 @@
       "luckbloom blossom",
       "mate leaves",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:mapcategory:Guilds",
       "meta:mapcategory:River's Rest",
       "meta:mapname:River's Rest - Wizard Guild",
@@ -138,10 +144,12 @@
       "white lily",
       "white petunia",
       "white tea leaves",
+      "wild rice",
       "wild spinach",
       "withered mushroom",
       "wizard guild",
       "wizardguild",
+      "yellow carrot",
       "yellow lemon",
       "yellow papaya",
       "yellow pepper",
@@ -151,13 +159,6 @@
     ],
     "uid": [
       683001
-    ],
-    "image": "rr-wizard_guild.png",
-    "image_coords": [
-      280,
-      523,
-      340,
-      582
     ]
   }
 }

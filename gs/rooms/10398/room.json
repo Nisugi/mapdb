@@ -1,5 +1,4 @@
 {
-  "checksum": "4d74885d0428b0b29ce7efcfc0616e39",
   "room": {
     "id": 10398,
     "title": [
@@ -18,18 +17,27 @@
       "10399": "east",
       "10400": "southwest",
       "10418": "south",
-      "30713": "/rooms/10398/wayto/stringproc-30713.rb"
+      "30713": ";e Cartographer.evaluate_script('wayto/room-10398-to-30713.rb')"
     },
     "timeto": {
       "3514": 0.2,
       "10399": 0.2,
       "10400": 0.2,
       "10418": 0.2,
-      "30713": "/rooms/10398/timeto/stringproc-30713.rb"
+      "30713": ";e Cartographer.evaluate_script('timeto/room-10398-to-30713.rb')"
     },
+    "image": "en-ta_vaalor-dancing_dahcre-1488763271.png",
+    "image_coords": [
+      874,
+      85,
+      1015,
+      144
+    ],
     "tags": [
+      "fire lily",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "meta:mapcategory:CHE",
       "meta:mapcategory:Elven Nations",
       "meta:mapname:Elven Nations - Ta'Vaalor - Dancing Dahcre",
@@ -41,13 +49,6 @@
     ],
     "uid": [
       14109001
-    ],
-    "image": "en-ta_vaalor-dancing_dahcre-1488763271.png",
-    "image_coords": [
-      874,
-      85,
-      1015,
-      144
     ]
   }
 }

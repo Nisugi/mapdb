@@ -1,5 +1,4 @@
 {
-  "checksum": "892c97f5866033b76f4b8bb2f4a41c35",
   "room": {
     "id": 4141,
     "title": [
@@ -15,19 +14,26 @@
     "climate": "cold, damp",
     "terrain": "barren scrub",
     "wayto": {
-      "4140": "/rooms/4141/wayto/stringproc-4140.rb",
+      "4140": ";e Cartographer.evaluate_script('wayto/room-4141-to-4140.rb')",
       "4142": "go crypt",
       "7163": "northeast",
       "7167": "northwest",
       "28746": "up"
     },
     "timeto": {
-      "4140": "/rooms/4141/timeto/stringproc-4140.rb",
+      "4140": ";e Cartographer.evaluate_script('timeto/room-4141-to-4140.rb')",
       "4142": 0.2,
       "7163": 0.2,
       "7167": 0.2,
       "28746": 0.2
     },
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      227,
+      897,
+      237,
+      907
+    ],
     "tags": [
       "blue whortleberry",
       "blueberries",
@@ -36,7 +42,7 @@
       "cothinar flower",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-01",
       "skeleton",
       "sprig of larkspur",
@@ -51,13 +57,6 @@
     ],
     "uid": [
       18003
-    ],
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      227,
-      897,
-      237,
-      907
     ]
   }
 }

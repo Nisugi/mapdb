@@ -1,5 +1,4 @@
 {
-  "checksum": "bda716cb1b55ed09af5bcd0256e93a86",
   "room": {
     "id": 1890,
     "title": [
@@ -15,16 +14,18 @@
     "wayto": {
       "1884": "out",
       "1891": "east",
-      "30715": "/rooms/1890/wayto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('wayto/room-1890-to-30715.rb')"
     },
     "timeto": {
       "1884": 0.2,
       "1891": 0.2,
-      "30715": "/rooms/1890/timeto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('timeto/room-1890-to-30715.rb')"
     },
     "tags": [
+      "fire lily",
       "gemshop",
-      "no forageables",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "urchin guide gemshop",
       "urchin-access"
     ],

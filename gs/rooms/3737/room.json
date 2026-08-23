@@ -1,5 +1,4 @@
 {
-  "checksum": "66a210b76beee777703ad9782dbffaae",
   "room": {
     "id": 3737,
     "title": [
@@ -21,18 +20,20 @@
       "3736": 0.2,
       "15142": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      109007
-    ],
     "image": "wl-silvergate_inn-1487242763.png",
     "image_coords": [
       882,
       432,
       966,
       490
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      109007
     ]
   }
 }

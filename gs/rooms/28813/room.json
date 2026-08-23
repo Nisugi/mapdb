@@ -1,5 +1,4 @@
 {
-  "checksum": "461b3b4925fe32df495c744aa1c6a28a",
   "room": {
     "id": 28813,
     "title": [
@@ -26,7 +25,7 @@
       "28899": "southeast",
       "28907": "east",
       "28908": "northeast",
-      "30716": "/rooms/28813/wayto/stringproc-30716.rb",
+      "30716": ";e Cartographer.evaluate_script('wayto/room-28813-to-30716.rb')",
       "31525": "go driftwood store"
     },
     "timeto": {
@@ -38,30 +37,34 @@
       "28899": 10,
       "28907": 10,
       "28908": 10,
-      "30716": "/rooms/28813/timeto/stringproc-30716.rb",
+      "30716": ";e Cartographer.evaluate_script('timeto/room-28813-to-30716.rb')",
       "31525": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:mapcategory:Kraken's Fall",
-      "meta:mapcategory:Towns",
-      "meta:mapname:Kraken's Fall",
-      "no forageables",
-      "node",
-      "supernode",
-      "town",
-      "urchin guide market",
-      "urchin-access"
-    ],
-    "uid": [
-      7118221
-    ],
     "image": "kf-krakens_fall-1648278406.png",
     "image_coords": [
       406,
       373,
       419,
       388
+    ],
+    "tags": [
+      "bright pink protea",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:mapcategory:Kraken's Fall",
+      "meta:mapcategory:Towns",
+      "meta:mapname:Kraken's Fall",
+      "node",
+      "stalk of bluebells",
+      "supernode",
+      "town",
+      "urchin guide market",
+      "urchin-access",
+      "wild sage"
+    ],
+    "uid": [
+      7118221
     ]
   }
 }

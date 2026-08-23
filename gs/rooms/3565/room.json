@@ -1,5 +1,4 @@
 {
-  "checksum": "10c8d2ce93830b6e34193f8385a85a3f",
   "room": {
     "id": 3565,
     "title": [
@@ -16,12 +15,19 @@
     "terrain": "deciduous forest",
     "wayto": {
       "3564": "northeast",
-      "3566": "/rooms/3565/wayto/stringproc-3566.rb"
+      "3566": ";e Cartographer.evaluate_script('wayto/room-3565-to-3566.rb')"
     },
     "timeto": {
       "3564": 0.2,
       "3566": 0.2
     },
+    "image": "wl-stronghold-1264234799.png",
+    "image_coords": [
+      138,
+      752,
+      148,
+      762
+    ],
     "tags": [
       "acantha leaf",
       "blackberries",
@@ -45,7 +51,7 @@
       "haphip root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2025-01",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "murkweed",
       "nightbloom blossom",
@@ -74,13 +80,6 @@
     ],
     "uid": [
       4291008
-    ],
-    "image": "wl-stronghold-1264234799.png",
-    "image_coords": [
-      138,
-      752,
-      148,
-      762
     ]
   }
 }

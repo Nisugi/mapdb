@@ -1,5 +1,4 @@
 {
-  "checksum": "0c424728d8b14ef56f8fc936d54078ac",
   "room": {
     "id": 31073,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "29860": "/rooms/31073/wayto/stringproc-29860.rb",
+      "29860": ";e Cartographer.evaluate_script('wayto/room-31073-to-29860.rb')",
       "31071": "out",
       "31074": "east"
     },
@@ -26,9 +25,11 @@
     },
     "tags": [
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
-      "no forageables",
-      "silver-cost:29860:3000"
+      "silver-cost:29860:3000",
+      "stalk of bluebells",
+      "wild sage"
     ],
     "uid": [
       13205201

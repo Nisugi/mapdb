@@ -1,5 +1,4 @@
 {
-  "checksum": "da8a185d53d32880d0196532ef6f52a3",
   "room": {
     "id": 1902,
     "title": [
@@ -15,30 +14,32 @@
     "wayto": {
       "1901": "go arch",
       "1903": "southwest",
-      "28704": "/rooms/1902/wayto/stringproc-28704.rb"
+      "28704": ";e Cartographer.evaluate_script('wayto/room-1902-to-28704.rb')"
     },
     "timeto": {
       "1901": 0.2,
       "1903": 0.2,
       "28704": 0.2
     },
-    "tags": [
-      "meta:mapcategory:Neighborhoods",
-      "meta:mapcategory:Premium",
-      "meta:mapcategory:River's Rest",
-      "meta:mapcategory:Teras Isle",
-      "meta:mapname:Neighborhoods of Teras Isle and River's Rest",
-      "no forageables"
-    ],
-    "uid": [
-      703151
-    ],
     "image": "ti-rr-homes-1264234799.png",
     "image_coords": [
       514,
       459,
       534,
       479
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:mapcategory:Neighborhoods",
+      "meta:mapcategory:Premium",
+      "meta:mapcategory:River's Rest",
+      "meta:mapcategory:Teras Isle",
+      "meta:mapname:Neighborhoods of Teras Isle and River's Rest"
+    ],
+    "uid": [
+      703151
     ]
   }
 }

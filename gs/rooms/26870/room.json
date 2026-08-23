@@ -1,12 +1,10 @@
 {
-  "checksum": "22a6f8bc413c0f8e6014bb5d47bd2596",
   "room": {
     "id": 26870,
     "title": [
       "[Gamac's Goods, Back Room]"
     ],
     "description": [
-      "Steel-banded oak kegs are stacked against the far wall, creating a backdrop for a dicing game in progress.  A pair of glass-eyed forms are stationed by the door, their gaze seeming to follow you around the room.  An overturned bin and an opened crate provide makeshift seating in one dark corner.",
       "Steel-banded oak kegs are stacked against the far wall, creating a backdrop for a dicing game in progress.  A pair of glass-eyed mannequins are stationed by the door, their gaze seeming to follow you around the room.  An overturned bin and an opened crate provide makeshift seating in one dark corner."
     ],
     "paths": [
@@ -19,6 +17,9 @@
     "timeto": {
       "26845": 0.2
     },
+    "tags": [
+      "meta:nomagic"
+    ],
     "uid": [
       8212505
     ]

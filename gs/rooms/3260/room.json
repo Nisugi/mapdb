@@ -1,5 +1,4 @@
 {
-  "checksum": "ae07d06a25407bb39757523ea4a94d78",
   "room": {
     "id": 3260,
     "title": [
@@ -15,10 +14,10 @@
     "climate": "cold, damp",
     "terrain": "plain dirt",
     "wayto": {
-      "3250": "/rooms/3260/wayto/stringproc-3250.rb",
-      "3253": "/rooms/3260/wayto/stringproc-3253.rb",
-      "3259": "/rooms/3260/wayto/stringproc-3259.rb",
-      "3261": "/rooms/3260/wayto/stringproc-3261.rb"
+      "3250": ";e Cartographer.evaluate_script('wayto/room-3260-to-3250.rb')",
+      "3253": ";e Cartographer.evaluate_script('wayto/room-3260-to-3253.rb')",
+      "3259": ";e Cartographer.evaluate_script('wayto/room-3260-to-3259.rb')",
+      "3261": ";e Cartographer.evaluate_script('wayto/room-3260-to-3261.rb')"
     },
     "timeto": {
       "3250": 0.2,
@@ -26,6 +25,13 @@
       "3259": 0.2,
       "3261": 4
     },
+    "image": "imt-east_west_north_gates-1668398077.png",
+    "image_coords": [
+      122,
+      352,
+      132,
+      362
+    ],
     "tags": [
       "acantha leaf",
       "aloeas stem",
@@ -41,7 +47,7 @@
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2022-09",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "orange rowanberry",
       "pennyroyal stem",
@@ -60,13 +66,6 @@
     ],
     "uid": [
       7502014
-    ],
-    "image": "imt-east_west_north_gates-1668398077.png",
-    "image_coords": [
-      122,
-      352,
-      132,
-      362
     ]
   }
 }

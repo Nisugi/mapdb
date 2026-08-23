@@ -1,5 +1,4 @@
 {
-  "checksum": "061a107adcef238bd3c6c424d5f2e822",
   "room": {
     "id": 384,
     "title": [
@@ -14,16 +13,17 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "383": "northwest",
-      "23976": "/rooms/384/wayto/stringproc-23976.rb"
+      "23976": ";e Cartographer.evaluate_script('wayto/room-384-to-23976.rb')"
     },
     "timeto": {
       "383": 0.2,
       "23976": 0.2
     },
     "tags": [
+      "fire lily",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-11",
-      "no forageables"
+      "meta:forage-sensed:night:2026-08"
     ],
     "uid": [
       5023

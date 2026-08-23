@@ -1,5 +1,4 @@
 {
-  "checksum": "c955ed1749489a456366728e4cef5bb5",
   "room": {
     "id": 31083,
     "title": [
@@ -14,11 +13,11 @@
     "location": "the Hinterwilds",
     "wayto": {
       "29869": "go greying doors",
-      "34399": "/rooms/31083/wayto/stringproc-34399.rb"
+      "34399": ";e Cartographer.evaluate_script('wayto/room-31083-to-34399.rb')"
     },
     "timeto": {
       "29869": 0.2,
-      "34399": "/rooms/31083/timeto/stringproc-34399.rb"
+      "34399": ";e Cartographer.evaluate_script('timeto/room-31083-to-34399.rb')"
     },
     "tags": [
       "cave moss",
@@ -29,6 +28,7 @@
       "meta:boxpool:table:slanted pinewood table",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "meta:trashcan:ramshackle wicker wastebin",
       "murdroot",
       "urchin guide locksmithpool",

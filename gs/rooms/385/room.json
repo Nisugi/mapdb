@@ -1,5 +1,4 @@
 {
-  "checksum": "c6af775ca50fc4670320076b76005368",
   "room": {
     "id": 385,
     "title": [
@@ -19,20 +18,22 @@
       "230": "out",
       "8684": "go path",
       "30633": "go doors",
-      "30708": "/rooms/385/wayto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('wayto/room-385-to-30708.rb')"
     },
     "timeto": {
       "230": 0.2,
       "8684": 0.2,
       "30633": 0.2,
-      "30708": "/rooms/385/timeto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('timeto/room-385-to-30708.rb')"
     },
     "tags": [
+      "fire lily",
       "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "meta:teleport:fwi",
       "mho hall",
       "mho hall board",
-      "no forageables",
+      "stalk of bluebells",
       "townhall",
       "urchin guide townhall",
       "urchin-access"

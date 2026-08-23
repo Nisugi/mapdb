@@ -1,5 +1,4 @@
 {
-  "checksum": "00f3b73bcfa08fe52f7c93012a86361c",
   "room": {
     "id": 12580,
     "title": [
@@ -17,12 +16,19 @@
     "terrain": "mountainous",
     "wayto": {
       "12579": "southwest",
-      "29048": "/rooms/12580/wayto/stringproc-29048.rb"
+      "29048": ";e Cartographer.evaluate_script('wayto/room-12580-to-29048.rb')"
     },
     "timeto": {
       "12579": 0.2,
       "29048": 2
     },
+    "image": "ti-wilds-1643860469.png",
+    "image_coords": [
+      630,
+      45,
+      640,
+      55
+    ],
     "tags": [
       "black tea leaves",
       "bolmara lichen",
@@ -34,6 +40,7 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "mulberry fronds",
       "pothinir grass",
       "purple tea leaves",
@@ -51,13 +58,6 @@
     ],
     "uid": [
       3023017
-    ],
-    "image": "ti-wilds-1643860469.png",
-    "image_coords": [
-      630,
-      45,
-      640,
-      55
     ]
   }
 }

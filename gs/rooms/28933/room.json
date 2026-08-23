@@ -1,5 +1,4 @@
 {
-  "checksum": "0ebe499f69195901dfce418c8ccc9164",
   "room": {
     "id": 28933,
     "title": [
@@ -16,12 +15,12 @@
     "wayto": {
       "28899": "go flap",
       "28934": "go curtain",
-      "30716": "/rooms/28933/wayto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('wayto/room-28933-to-30716.rb')"
     },
     "timeto": {
       "28899": 0.2,
       "28934": 0.2,
-      "30716": "/rooms/28933/timeto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('timeto/room-28933-to-30716.rb')"
     },
     "tags": [
       "agave heart",
@@ -66,6 +65,7 @@
       "lobster-claw heliconia",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "monstera frond",
       "motherwort",
       "murdroot",

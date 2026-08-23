@@ -1,5 +1,4 @@
 {
-  "checksum": "bc675892bd87990a1a88890c28e85531",
   "room": {
     "id": 23529,
     "title": [
@@ -19,12 +18,14 @@
       "11013": 0.2
     },
     "tags": [
-      "no forageables",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "ranger shack"
     ],
+    "check_location": true,
     "uid": [
       142005
-    ],
-    "check_location": true
+    ]
   }
 }

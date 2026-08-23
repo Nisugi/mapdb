@@ -1,5 +1,4 @@
 {
-  "checksum": "41345259b7e3c931d90f98139de2d436",
   "room": {
     "id": 7497,
     "title": [
@@ -17,13 +16,20 @@
     "wayto": {
       "7496": "northeast",
       "7498": "southeast",
-      "20594": "/rooms/7497/wayto/stringproc-20594.rb"
+      "20594": ";e Cartographer.evaluate_script('wayto/room-7497-to-20594.rb')"
     },
     "timeto": {
       "7496": 0.2,
       "7498": 0.2,
       "20594": 0.4
     },
+    "image": "wl-catacombs-1264234799.png",
+    "image_coords": [
+      714,
+      968,
+      724,
+      978
+    ],
     "tags": [
       "black mushroom",
       "blue trafel mushroom",
@@ -31,7 +37,7 @@
       "cave moss",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "murdroot",
       "red mushroom",
       "soft mushroom",
@@ -41,13 +47,6 @@
     ],
     "uid": [
       46055
-    ],
-    "image": "wl-catacombs-1264234799.png",
-    "image_coords": [
-      714,
-      968,
-      724,
-      978
     ]
   }
 }

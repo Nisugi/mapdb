@@ -1,5 +1,4 @@
 {
-  "checksum": "ca02a03e3205f9d5e07dba0d39b5c3c8",
   "room": {
     "id": 9767,
     "title": [
@@ -14,25 +13,27 @@
     "location": "Ta'Illistim",
     "wayto": {
       "9746": "west",
-      "9804": "/rooms/9767/wayto/stringproc-9804.rb"
+      "9804": ";e Cartographer.evaluate_script('wayto/room-9767-to-9804.rb')"
     },
     "timeto": {
       "9746": 0.2,
       "9804": 1.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      13021022
-    ],
     "image": "en-tower-1264234799.png",
     "image_coords": [
       861,
       464,
       871,
       474
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      13021022
     ]
   }
 }

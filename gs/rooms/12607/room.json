@@ -1,5 +1,4 @@
 {
-  "checksum": "8686434bd285cb657151e5561380a894",
   "room": {
     "id": 12607,
     "title": [
@@ -13,25 +12,29 @@
     ],
     "location": "the Dark Palisade",
     "wayto": {
-      "12608": "/rooms/12607/wayto/stringproc-12608.rb"
+      "12608": ";e Cartographer.evaluate_script('wayto/room-12607-to-12608.rb')"
     },
     "timeto": {
       "12608": 3.4
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-11",
-      "pepperthorn root"
-    ],
-    "uid": [
-      3041005
-    ],
     "image": "ti-wilds-1643860469.png",
     "image_coords": [
       774,
       649,
       784,
       659
+    ],
+    "tags": [
+      "ghost pepper",
+      "horseradish root",
+      "hot pepper",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-11",
+      "meta:forage-sensed:night:2026-08",
+      "pepperthorn root"
+    ],
+    "uid": [
+      3041005
     ]
   }
 }

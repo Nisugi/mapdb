@@ -1,5 +1,4 @@
 {
-  "checksum": "86e7a8e7e9cb8a002adfb153ef8ed3ff",
   "room": {
     "id": 674,
     "title": [
@@ -25,9 +24,17 @@
       "675": 0.2,
       "17527": 0.2
     },
+    "image": "en-sylvarraend-1264234799.png",
+    "image_coords": [
+      609,
+      842,
+      619,
+      852
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
+      "arbutus berry",
       "basal moss",
       "birch bark",
       "bloodwood twig",
@@ -42,6 +49,7 @@
       "calamia fruit",
       "coppery rain lily",
       "creamy white wisteria",
+      "crystal-like sylthiel",
       "curly leaf parsley",
       "daggerstalk mushroom",
       "dark blue honeyberries",
@@ -54,6 +62,7 @@
       "flat-leaf parsley",
       "flathead mushroom",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green pear",
       "haphip root",
@@ -61,9 +70,12 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "murkweed",
+      "nightbloom blossom",
       "oak twig",
+      "oxblood lily",
       "pale rose pink wisteria",
       "pecans",
       "pink oleander",
@@ -88,8 +100,10 @@
       "tkaro root",
       "torban leaf",
       "tree bark",
+      "trollear mushroom",
       "twisted twig",
       "viburnum twig",
+      "violet sel'elun vine",
       "white baneberry",
       "white datura blossom",
       "white lily",
@@ -110,13 +124,6 @@
     ],
     "uid": [
       13050002
-    ],
-    "image": "en-sylvarraend-1264234799.png",
-    "image_coords": [
-      609,
-      842,
-      619,
-      852
     ]
   }
 }

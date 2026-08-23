@@ -1,5 +1,4 @@
 {
-  "checksum": "79458037a742d350552412fdcabbf891",
   "room": {
     "id": 28994,
     "title": [
@@ -14,17 +13,19 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28902": "out",
-      "30716": "/rooms/28994/wayto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('wayto/room-28994-to-30716.rb')"
     },
     "timeto": {
       "28902": 0.2,
-      "30716": "/rooms/28994/timeto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('timeto/room-28994-to-30716.rb')"
     },
     "tags": [
       "boatswain",
       "bright pink protea",
+      "fire lily",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "repair",
       "repairs",
       "stalk of bluebells",

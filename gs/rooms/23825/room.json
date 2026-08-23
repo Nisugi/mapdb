@@ -1,5 +1,4 @@
 {
-  "checksum": "f6dd05c4b007df8b1f0ce59aee0aa722",
   "room": {
     "id": 23825,
     "title": [
@@ -14,27 +13,29 @@
     "location": "Cysaegir",
     "wayto": {
       "4644": "go out",
-      "30717": "/rooms/23825/wayto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('wayto/room-23825-to-30717.rb')"
     },
     "timeto": {
       "4644": 0.2,
-      "30717": "/rooms/23825/timeto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('timeto/room-23825-to-30717.rb')"
     },
-    "tags": [
-      "collectibles",
-      "no forageables",
-      "urchin guide collectibles",
-      "urchin-access"
-    ],
-    "uid": [
-      14051070
-    ],
     "image": "en-cysaegir-1679641246.png",
     "image_coords": [
       469,
       281,
       494,
       304
+    ],
+    "tags": [
+      "collectibles",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "urchin guide collectibles",
+      "urchin-access"
+    ],
+    "uid": [
+      14051070
     ]
   }
 }

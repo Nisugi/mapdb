@@ -1,5 +1,4 @@
 {
-  "checksum": "161a7fe3882fefa6d6a2f630c39a4ff6",
   "room": {
     "id": 1851,
     "title": [
@@ -14,15 +13,17 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "1850": "out",
-      "30715": "/rooms/1851/wayto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('wayto/room-1851-to-30715.rb')"
     },
     "timeto": {
       "1850": 0.2,
-      "30715": "/rooms/1851/timeto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('timeto/room-1851-to-30715.rb')"
     },
     "tags": [
+      "fire lily",
       "herbalist",
-      "no forageables",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "npchealer",
       "urchin guide healer",
       "urchin guide herbalist",

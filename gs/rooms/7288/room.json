@@ -1,5 +1,4 @@
 {
-  "checksum": "dda624e62afcb2e3c6122cf69015ed60",
   "room": {
     "id": 7288,
     "title": [
@@ -22,12 +21,20 @@
       "7287": 0.2,
       "7289": 0.2
     },
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      36,
+      207,
+      46,
+      217
+    ],
     "tags": [
       "aloeas stem",
       "blue water lily",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2024-01",
+      "meta:splashy",
       "murdroot",
       "stalk of cattail",
       "strand of seaweed",
@@ -40,13 +47,6 @@
     ],
     "uid": [
       2156016
-    ],
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      36,
-      207,
-      46,
-      217
     ]
   }
 }

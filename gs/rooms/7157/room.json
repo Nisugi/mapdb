@@ -1,5 +1,4 @@
 {
-  "checksum": "3ee961fe4ac292ba0e0d1355f01d3e5b",
   "room": {
     "id": 7157,
     "title": [
@@ -22,8 +21,15 @@
     "timeto": {
       "7156": 0.2,
       "7161": 0.2,
-      "36342": "/rooms/7157/timeto/stringproc-36342.rb"
+      "36342": ";e Cartographer.evaluate_script('timeto/room-7157-to-36342.rb')"
     },
+    "image": "wl-trollfang-1264234799.png",
+    "image_coords": [
+      1060,
+      402,
+      1070,
+      412
+    ],
     "tags": [
       "acantha leaf",
       "blackberries",
@@ -55,7 +61,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2023-02",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "murkweed",
       "nightbloom blossom",
@@ -77,7 +83,7 @@
       "striped heart mushroom",
       "sun-wilted tea leaves",
       "tree bark",
-      "trollfear mushroom",
+      "trollear mushroom",
       "twisted twig",
       "white datura blossom",
       "white oleander",
@@ -96,13 +102,6 @@
     ],
     "uid": [
       15017
-    ],
-    "image": "wl-trollfang-1264234799.png",
-    "image_coords": [
-      1060,
-      402,
-      1070,
-      412
     ]
   }
 }

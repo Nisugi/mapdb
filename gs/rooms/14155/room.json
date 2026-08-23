@@ -1,5 +1,4 @@
 {
-  "checksum": "a6a449b85fb8c28b57219a72e79628ca",
   "room": {
     "id": 14155,
     "title": [
@@ -15,26 +14,28 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "5313": "/rooms/14155/wayto/stringproc-5313.rb",
-      "5403": "/rooms/14155/wayto/stringproc-5403.rb",
-      "9033": "/rooms/14155/wayto/stringproc-9033.rb",
-      "9347": "/rooms/14155/wayto/stringproc-9347.rb",
+      "5313": ";e Cartographer.evaluate_script('wayto/room-14155-to-5313.rb')",
+      "5403": ";e Cartographer.evaluate_script('wayto/room-14155-to-5403.rb')",
+      "9033": ";e Cartographer.evaluate_script('wayto/room-14155-to-9033.rb')",
+      "9347": ";e Cartographer.evaluate_script('wayto/room-14155-to-9347.rb')",
       "13196": "climb stairwell",
-      "14072": "/rooms/14155/wayto/stringproc-14072.rb"
+      "14072": ";e Cartographer.evaluate_script('wayto/room-14155-to-14072.rb')"
     },
     "timeto": {
-      "5313": "/rooms/14155/timeto/stringproc-5313.rb",
-      "5403": "/rooms/14155/timeto/stringproc-5403.rb",
-      "9033": "/rooms/14155/timeto/stringproc-9033.rb",
-      "9347": "/rooms/14155/timeto/stringproc-9347.rb",
+      "5313": ";e Cartographer.evaluate_script('timeto/room-14155-to-5313.rb')",
+      "5403": ";e Cartographer.evaluate_script('timeto/room-14155-to-5403.rb')",
+      "9033": ";e Cartographer.evaluate_script('timeto/room-14155-to-9033.rb')",
+      "9347": ";e Cartographer.evaluate_script('timeto/room-14155-to-9347.rb')",
       "13196": 0.2,
-      "14072": "/rooms/14155/timeto/stringproc-14072.rb"
+      "14072": ";e Cartographer.evaluate_script('timeto/room-14155-to-14072.rb')"
     },
     "tags": [
+      "fire lily",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:night:2026-08",
       "meta:seeking",
-      "no forageables"
+      "stalk of bluebells"
     ],
     "uid": [
       4749706

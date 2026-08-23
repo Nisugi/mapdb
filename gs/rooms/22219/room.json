@@ -1,5 +1,4 @@
 {
-  "checksum": "2d742028a904d022f0ea6ab8baff4167",
   "room": {
     "id": 22219,
     "title": [
@@ -15,10 +14,10 @@
     "climate": "moist",
     "terrain": "muddy wetlands",
     "wayto": {
-      "11620": "/rooms/22219/wayto/stringproc-11620.rb",
-      "11622": "/rooms/22219/wayto/stringproc-11622.rb",
+      "11620": ";e Cartographer.evaluate_script('wayto/room-22219-to-11620.rb')",
+      "11622": ";e Cartographer.evaluate_script('wayto/room-22219-to-11622.rb')",
       "11652": "north",
-      "11653": "/rooms/22219/wayto/stringproc-11653.rb",
+      "11653": ";e Cartographer.evaluate_script('wayto/room-22219-to-11653.rb')",
       "16124": "southwest"
     },
     "timeto": {
@@ -28,6 +27,13 @@
       "11653": 0.4,
       "16124": 0.2
     },
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      707,
+      448,
+      717,
+      456
+    ],
     "tags": [
       "alligator lily",
       "aloeas stem",
@@ -46,7 +52,7 @@
       "kylan berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2026-01",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "nutmeg",
       "orange heliconia",
@@ -72,16 +78,9 @@
       "withered mushroom",
       "yellow heliconia"
     ],
+    "check_location": false,
     "uid": [
       5004016
-    ],
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      707,
-      448,
-      717,
-      456
-    ],
-    "check_location": false
+    ]
   }
 }

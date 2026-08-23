@@ -1,5 +1,4 @@
 {
-  "checksum": "3da1c71a435e76e14d0884b498ba74de",
   "room": {
     "id": 4651,
     "title": [
@@ -17,25 +16,32 @@
     "climate": "temperate",
     "terrain": "hilly",
     "wayto": {
-      "3668": "/rooms/4651/wayto/stringproc-3668.rb",
+      "3668": ";e Cartographer.evaluate_script('wayto/room-4651-to-3668.rb')",
       "4650": "west",
       "4653": "northwest",
       "4672": "go trail",
       "9686": "southeast",
-      "26905": "/rooms/4651/wayto/stringproc-26905.rb",
+      "26905": ";e Cartographer.evaluate_script('wayto/room-4651-to-26905.rb')",
       "27860": "go staircase",
-      "31558": "/rooms/4651/wayto/stringproc-31558.rb"
+      "31558": ";e Cartographer.evaluate_script('wayto/room-4651-to-31558.rb')"
     },
     "timeto": {
-      "3668": "/rooms/4651/timeto/stringproc-3668.rb",
+      "3668": ";e Cartographer.evaluate_script('timeto/room-4651-to-3668.rb')",
       "4650": 0.2,
       "4653": 0.2,
       "4672": 0.2,
       "9686": 0.2,
       "26905": 2400,
       "27860": 0.2,
-      "31558": "/rooms/4651/timeto/stringproc-31558.rb"
+      "31558": ";e Cartographer.evaluate_script('timeto/room-4651-to-31558.rb')"
     },
+    "image": "en-cysaegir-1679641246.png",
+    "image_coords": [
+      614,
+      749,
+      638,
+      772
+    ],
     "tags": [
       "ambrominas leaf",
       "angelica root",
@@ -68,7 +74,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2022-11",
+      "meta:forage-sensed:night:2026-08",
       "meta:fwi:teleport",
       "meta:teleport",
       "motherwort",
@@ -106,7 +112,7 @@
       "sunburst blossom",
       "tkaro root",
       "tree bark",
-      "trollfear mushroom",
+      "trollear mushroom",
       "twisted twig",
       "white lily",
       "white ramie",
@@ -121,13 +127,6 @@
     ],
     "uid": [
       14050006
-    ],
-    "image": "en-cysaegir-1679641246.png",
-    "image_coords": [
-      614,
-      749,
-      638,
-      772
     ]
   }
 }

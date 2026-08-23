@@ -1,5 +1,4 @@
 {
-  "checksum": "8fa25be11caa14bf78655186210e760c",
   "room": {
     "id": 16719,
     "title": [
@@ -16,15 +15,23 @@
     "terrain": "deciduous forest",
     "wayto": {
       "16718": "north",
-      "16720": "/rooms/16719/wayto/stringproc-16720.rb"
+      "16720": ";e Cartographer.evaluate_script('wayto/room-16719-to-16720.rb')"
     },
     "timeto": {
       "16718": 0.2,
       "16720": 5
     },
+    "image": "en-aradhul-road-1308194332.png",
+    "image_coords": [
+      329,
+      359,
+      350,
+      377
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
+      "arbutus berry",
       "basal moss",
       "birch bark",
       "bloodwood twig",
@@ -39,6 +46,7 @@
       "calamia fruit",
       "coppery rain lily",
       "creamy white wisteria",
+      "crystal-like sylthiel",
       "curly leaf parsley",
       "daggerstalk mushroom",
       "dark blue honeyberries",
@@ -52,13 +60,14 @@
       "flat-leaf parsley",
       "flathead mushroom",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green pear",
       "haphip root",
       "lady slipper blossom",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "murdroot",
       "murkweed",
@@ -92,6 +101,7 @@
       "trollear mushroom",
       "twisted twig",
       "viburnum twig",
+      "violet sel'elun vine",
       "white baneberry",
       "white datura blossom",
       "white lily",
@@ -112,13 +122,6 @@
     ],
     "uid": [
       17005019
-    ],
-    "image": "en-aradhul-road-1308194332.png",
-    "image_coords": [
-      329,
-      359,
-      350,
-      377
     ]
   }
 }

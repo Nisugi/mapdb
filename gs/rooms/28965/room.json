@@ -1,5 +1,4 @@
 {
-  "checksum": "3bb44c51dd57e76013e4ce088de99188",
   "room": {
     "id": 28965,
     "title": [
@@ -15,16 +14,18 @@
     "wayto": {
       "28961": "out",
       "28966": "south",
-      "30716": "/rooms/28965/wayto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('wayto/room-28965-to-30716.rb')"
     },
     "timeto": {
       "28961": 0.2,
       "28966": 0.2,
-      "30716": "/rooms/28965/timeto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('timeto/room-28965-to-30716.rb')"
     },
     "tags": [
       "chronomage",
-      "no forageables",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "urchin guide chronomages",
       "urchin-access"
     ],

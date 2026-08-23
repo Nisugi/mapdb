@@ -1,5 +1,4 @@
 {
-  "checksum": "4c847c20a8ac9434cd92c19f7728eb07",
   "room": {
     "id": 10096,
     "title": [
@@ -22,6 +21,13 @@
       "10095": 0.2,
       "10097": 0.2
     },
+    "image": "en-sylvarraend-1264234799.png",
+    "image_coords": [
+      769,
+      824,
+      779,
+      834
+    ],
     "tags": [
       "ambrominas leaf",
       "angelica root",
@@ -53,10 +59,12 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "mountain dryad",
       "murkweed",
       "nettle leaf",
+      "nightbloom blossom",
       "oak twig",
       "plump black mulberries",
       "rainbow chard",
@@ -87,6 +95,7 @@
       "sunburst blossom",
       "tkaro root",
       "tree bark",
+      "trollear mushroom",
       "twisted twig",
       "white lily",
       "white ramie",
@@ -101,13 +110,6 @@
     ],
     "uid": [
       275007
-    ],
-    "image": "en-sylvarraend-1264234799.png",
-    "image_coords": [
-      769,
-      824,
-      779,
-      834
     ]
   }
 }

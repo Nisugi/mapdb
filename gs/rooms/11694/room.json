@@ -1,5 +1,4 @@
 {
-  "checksum": "202210531629f9a0ff3f06142c42c145",
   "room": {
     "id": 11694,
     "title": [
@@ -15,13 +14,20 @@
     "climate": "moist",
     "terrain": "muddy wetlands",
     "wayto": {
-      "11693": "/rooms/11694/wayto/stringproc-11693.rb",
-      "11695": "/rooms/11694/wayto/stringproc-11695.rb"
+      "11693": ";e Cartographer.evaluate_script('wayto/room-11694-to-11693.rb')",
+      "11695": ";e Cartographer.evaluate_script('wayto/room-11694-to-11695.rb')"
     },
     "timeto": {
       "11693": 3,
       "11695": 3
     },
+    "image": "rr-marsh_keep-1266356986.png",
+    "image_coords": [
+      600,
+      1198,
+      610,
+      1208
+    ],
     "tags": [
       "alligator lily",
       "aloeas stem",
@@ -40,7 +46,7 @@
       "kylan berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2026-01",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "nutmeg",
       "orange heliconia",
@@ -67,13 +73,6 @@
     ],
     "uid": [
       376018
-    ],
-    "image": "rr-marsh_keep-1266356986.png",
-    "image_coords": [
-      600,
-      1198,
-      610,
-      1208
     ]
   }
 }

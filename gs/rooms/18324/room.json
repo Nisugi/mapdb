@@ -1,5 +1,4 @@
 {
-  "checksum": "f97f3af33d6ab1e461dfcfa62e7340f7",
   "room": {
     "id": 18324,
     "title": [
@@ -29,20 +28,21 @@
       "18330": 5,
       "18333": 5
     },
-    "tags": [
-      "murdroot",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2024-05"
-    ],
-    "uid": [
-      3210477
-    ],
     "image": "ifw-saewehna_lagoon-1525325794.png",
     "image_coords": [
       2041,
       900,
       2070,
       929
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2024-05",
+      "meta:splashy",
+      "murdroot"
+    ],
+    "uid": [
+      3210477
     ]
   }
 }

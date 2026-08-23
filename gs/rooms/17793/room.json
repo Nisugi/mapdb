@@ -1,5 +1,4 @@
 {
-  "checksum": "7c185def6073d081a9597b8bf52d6ad7",
   "room": {
     "id": 17793,
     "title": [
@@ -20,22 +19,23 @@
     "timeto": {
       "228": 0.2
     },
-    "tags": [
-      "node",
-      "meta:teleport:fwi",
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      7123
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       276,
       737,
       312,
       772
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:night:2026-08",
+      "meta:teleport:fwi",
+      "node"
+    ],
+    "uid": [
+      7123
     ]
   }
 }

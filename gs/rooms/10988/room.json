@@ -1,5 +1,4 @@
 {
-  "checksum": "83c8bd3b141cd29b9a7e65080ef699e3",
   "room": {
     "id": 10988,
     "title": [
@@ -18,16 +17,23 @@
       "10856": "go gate",
       "10989": "north",
       "17722": "go door",
-      "30711": "/rooms/10988/wayto/stringproc-30711.rb",
+      "30711": ";e Cartographer.evaluate_script('wayto/room-10988-to-30711.rb')",
       "33830": "go shop"
     },
     "timeto": {
       "10856": 0.2,
       "10989": 0.2,
-      "17722": "/rooms/10988/timeto/stringproc-17722.rb",
-      "30711": "/rooms/10988/timeto/stringproc-30711.rb",
+      "17722": ";e Cartographer.evaluate_script('timeto/room-10988-to-17722.rb')",
+      "30711": ";e Cartographer.evaluate_script('timeto/room-10988-to-30711.rb')",
       "33830": 0.2
     },
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      2053,
+      1086,
+      2089,
+      1122
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -76,7 +82,7 @@
       "luckbloom blossom",
       "mate leaves",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2023-01",
       "mistweed",
       "motherwort",
@@ -142,13 +148,6 @@
     ],
     "uid": [
       673012
-    ],
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      2053,
-      1086,
-      2089,
-      1122
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "9d4dc4cfd07aeabac65d4c017617f3da",
   "room": {
     "id": 1242,
     "title": [
@@ -17,12 +16,19 @@
     "terrain": "riparian",
     "wayto": {
       "1193": "east",
-      "1241": "/rooms/1242/wayto/stringproc-1241.rb"
+      "1241": ";e Cartographer.evaluate_script('wayto/room-1242-to-1241.rb')"
     },
     "timeto": {
       "1193": 0.2,
       "1241": 10
     },
+    "image": "en-trail-1264234799.png",
+    "image_coords": [
+      171,
+      546,
+      181,
+      556
+    ],
     "tags": [
       "acantha leaf",
       "banana leaf",
@@ -40,13 +46,14 @@
       "kylan berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2023-02",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "pepperthorn root",
       "pink clover blossom",
       "purple clover blossom",
       "red clover blossom",
       "round yuzu",
+      "safflower seeds",
       "soft mushroom",
       "sprig of jasmine",
       "sprig of wild lilac",
@@ -55,6 +62,7 @@
       "stalk of goldenrod",
       "sunburst blossom",
       "talneo root",
+      "thistle seeds",
       "water chestnut",
       "wavepetal blossom",
       "white clover blossom",
@@ -68,13 +76,6 @@
     ],
     "uid": [
       2190035
-    ],
-    "image": "en-trail-1264234799.png",
-    "image_coords": [
-      171,
-      546,
-      181,
-      556
     ]
   }
 }

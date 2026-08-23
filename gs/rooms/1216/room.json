@@ -1,5 +1,4 @@
 {
-  "checksum": "aa8c2f05e023c1d4cdd5d2e835ec8e8a",
   "room": {
     "id": 1216,
     "title": [
@@ -16,7 +15,7 @@
     "terrain": "deciduous forest",
     "wayto": {
       "1215": "northwest",
-      "1217": "/rooms/1216/wayto/stringproc-1217.rb",
+      "1217": ";e Cartographer.evaluate_script('wayto/room-1216-to-1217.rb')",
       "7890": "east"
     },
     "timeto": {
@@ -24,6 +23,13 @@
       "1217": 20,
       "7890": 0.2
     },
+    "image": "wl-danjirland-1264234799.png",
+    "image_coords": [
+      999,
+      980,
+      1009,
+      990
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -36,7 +42,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2023-02",
+      "meta:forage-sensed:night:2026-08",
       "oak twig",
       "pennyroyal stem",
       "sassafras leaf",
@@ -58,13 +64,6 @@
     ],
     "uid": [
       2123007
-    ],
-    "image": "wl-danjirland-1264234799.png",
-    "image_coords": [
-      999,
-      980,
-      1009,
-      990
     ]
   }
 }

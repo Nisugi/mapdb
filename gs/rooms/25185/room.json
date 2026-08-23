@@ -1,5 +1,4 @@
 {
-  "checksum": "86ac3da20449252364e515d96878f005",
   "room": {
     "id": 25185,
     "title": [
@@ -14,14 +13,17 @@
     "location": "the shadow of the Sanctum",
     "wayto": {
       "5579": "go caravansary",
-      "25145": "/rooms/25185/wayto/stringproc-25145.rb"
+      "25145": ";e Cartographer.evaluate_script('wayto/room-25185-to-25145.rb')"
     },
     "timeto": {
       "5579": 0.2,
-      "25145": "/rooms/25185/timeto/stringproc-25145.rb"
+      "25145": ";e Cartographer.evaluate_script('timeto/room-25185-to-25145.rb')"
     },
     "tags": [
+      "bur-clover root",
       "caravan",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
       "silver-cost:25145:3000"
     ],
     "uid": [

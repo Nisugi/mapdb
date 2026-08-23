@@ -1,5 +1,4 @@
 {
-  "checksum": "6ccf1c10ee4fc3de8ffa865504358a47",
   "room": {
     "id": 13345,
     "title": [
@@ -25,8 +24,16 @@
       "13344": 0.2,
       "13346": 0.2
     },
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      1376,
+      83,
+      1399,
+      105
+    ],
     "tags": [
       "angelica root",
+      "arbutus berry",
       "black peppercorn",
       "blaestonberries",
       "blaestonberry blossom",
@@ -40,6 +47,7 @@
       "cardamom",
       "chives",
       "creamy white wisteria",
+      "crystal-like sylthiel",
       "cumin seeds",
       "curly leaf parsley",
       "daggerstalk mushroom",
@@ -55,6 +63,7 @@
       "fresh broccoli",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green beans",
       "green cabbage",
@@ -74,7 +83,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2022-11",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "mustard seeds",
       "nightbloom blossom",
@@ -104,6 +113,7 @@
       "rhubarb",
       "rose-marrow root",
       "round red radish",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small anemone",
@@ -138,12 +148,14 @@
       "sunflower seeds",
       "sweet onion",
       "tendril of vinca",
+      "thistle seeds",
       "thyme",
       "tiger lily",
-      "trollfear mushroom",
+      "trollear mushroom",
       "vanilla bean",
       "vert globe artichoke",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "white begonia",
       "white datura blossom",
@@ -153,8 +165,10 @@
       "white peony",
       "white ramie",
       "wild pansy blossom",
+      "wild rice",
       "wild spinach",
       "withered mushroom",
+      "yellow carrot",
       "yellow datura blossom",
       "yellow squash",
       "yew twig",
@@ -162,13 +176,6 @@
     ],
     "uid": [
       13100068
-    ],
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      1376,
-      83,
-      1399,
-      105
     ]
   }
 }

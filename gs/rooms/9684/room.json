@@ -1,5 +1,4 @@
 {
-  "checksum": "5fe3ed8372e94881c9b48252e09cc018",
   "room": {
     "id": 9684,
     "title": [
@@ -16,30 +15,30 @@
     "terrain": "none",
     "wayto": {
       "4662": "out",
-      "30717": "/rooms/9684/wayto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('wayto/room-9684-to-30717.rb')"
     },
     "timeto": {
       "4662": 0.2,
-      "30717": "/rooms/9684/timeto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('timeto/room-9684-to-30717.rb')"
     },
-    "tags": [
-      "armor",
-      "armorshop",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "no forageables",
-      "urchin guide armor",
-      "urchin-access"
-    ],
-    "uid": [
-      14051002
-    ],
     "image": "en-cysaegir-1679641246.png",
     "image_coords": [
       701,
       521,
       726,
       544
+    ],
+    "tags": [
+      "armor",
+      "armorshop",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "urchin guide armor",
+      "urchin-access"
+    ],
+    "uid": [
+      14051002
     ]
   }
 }

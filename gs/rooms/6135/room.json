@@ -1,5 +1,4 @@
 {
-  "checksum": "ab8e1fa734032eabc2c850fbb7631956",
   "room": {
     "id": 6135,
     "title": [
@@ -16,12 +15,19 @@
     "terrain": "mountainous",
     "wayto": {
       "6134": "north",
-      "6136": "/rooms/6135/wayto/stringproc-6136.rb"
+      "6136": ";e Cartographer.evaluate_script('wayto/room-6135-to-6136.rb')"
     },
     "timeto": {
       "6134": 0.2,
       "6136": 0.2
     },
+    "image": "wl-wehntoph-1310775397.png",
+    "image_coords": [
+      1243,
+      959,
+      1279,
+      995
+    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -32,7 +38,7 @@
       "ironfern root",
       "marallis berry",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2025-05",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2025-06",
       "pennyroyal stem",
       "sassafras leaf",
@@ -46,13 +52,6 @@
     ],
     "uid": [
       495017
-    ],
-    "image": "wl-wehntoph-1310775397.png",
-    "image_coords": [
-      1243,
-      959,
-      1279,
-      995
     ]
   }
 }

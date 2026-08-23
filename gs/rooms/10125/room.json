@@ -1,5 +1,4 @@
 {
-  "checksum": "74d51b31a5d23058292872f1aebc1c54",
   "room": {
     "id": 10125,
     "title": [
@@ -17,22 +16,30 @@
     "terrain": "cultivated",
     "wayto": {
       "10124": "south",
-      "10578": "/rooms/10125/wayto/stringproc-10578.rb",
-      "10748": "/rooms/10125/wayto/stringproc-10748.rb",
+      "10578": ";e Cartographer.evaluate_script('wayto/room-10125-to-10578.rb')",
+      "10748": ";e Cartographer.evaluate_script('wayto/room-10125-to-10748.rb')",
       "13979": "go stream",
       "21535": "go bridge",
-      "24715": "/rooms/10125/wayto/stringproc-24715.rb"
+      "24715": ";e Cartographer.evaluate_script('wayto/room-10125-to-24715.rb')"
     },
     "timeto": {
       "10124": 0.2,
-      "10578": "/rooms/10125/timeto/stringproc-10578.rb",
-      "10748": "/rooms/10125/timeto/stringproc-10748.rb",
+      "10578": ";e Cartographer.evaluate_script('timeto/room-10125-to-10578.rb')",
+      "10748": ";e Cartographer.evaluate_script('timeto/room-10125-to-10748.rb')",
       "13979": 0.2,
       "21535": 0.2,
-      "24715": "/rooms/10125/timeto/stringproc-24715.rb"
+      "24715": ";e Cartographer.evaluate_script('timeto/room-10125-to-24715.rb')"
     },
+    "image": "en-fearling-1632908688.png",
+    "image_coords": [
+      720,
+      233,
+      730,
+      243
+    ],
     "tags": [
       "angelica root",
+      "arbutus berry",
       "ayana leaf",
       "bay leaf",
       "black peppercorn",
@@ -47,6 +54,7 @@
       "cardamom",
       "cherry peppers",
       "chives",
+      "crystal-like sylthiel",
       "cumin seeds",
       "curly garlic scapes",
       "curly leaf parsley",
@@ -64,11 +72,13 @@
       "fresh cilantro",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green beans",
       "green cabbage",
       "green olive",
       "green pepper",
+      "green soybean pod",
       "haphip root",
       "heath aster",
       "honeysuckle vine",
@@ -85,7 +95,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2024-05",
+      "meta:forage-sensed:night:2026-08",
       "meta:mapcategory:Elven Nations",
       "meta:mapname:Elven Nations - Fearling Pass",
       "meta:mapshortname:Fearling Pass",
@@ -117,6 +127,7 @@
       "red pepper",
       "rose-marrow root",
       "round red radish",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small anemone",
@@ -153,6 +164,7 @@
       "sunflower seeds",
       "sweet onion",
       "tendril of vinca",
+      "thistle seeds",
       "thyme",
       "tiger lily",
       "tobacco leaves",
@@ -160,6 +172,7 @@
       "vanilla bean",
       "vert globe artichoke",
       "viburnum twig",
+      "violet sel'elun vine",
       "voln",
       "wavepetal blossom",
       "white begonia",
@@ -168,7 +181,9 @@
       "white peony",
       "white ramie",
       "wild pansy blossom",
+      "wild rice",
       "withered mushroom",
+      "yellow carrot",
       "yellow lemon",
       "yellow pepper",
       "yellow squash",
@@ -177,13 +192,6 @@
     ],
     "uid": [
       14116002
-    ],
-    "image": "en-fearling-1632908688.png",
-    "image_coords": [
-      720,
-      233,
-      730,
-      243
     ]
   }
 }

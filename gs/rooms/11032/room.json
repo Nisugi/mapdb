@@ -1,5 +1,4 @@
 {
-  "checksum": "6890e924f292e34aa6f3b5c8cc3410ef",
   "room": {
     "id": 11032,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "moist",
     "terrain": "riparian",
     "wayto": {
-      "6274": "/rooms/11032/wayto/stringproc-6274.rb",
+      "6274": ";e Cartographer.evaluate_script('wayto/room-11032-to-6274.rb')",
       "11025": "west",
       "11033": "northeast",
       "16015": "go pathway",
@@ -28,6 +27,13 @@
       "16015": 0.2,
       "16016": 0.2
     },
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      2611,
+      1565,
+      2633,
+      1588
+    ],
     "tags": [
       "acantha leaf",
       "aloeas stem",
@@ -49,7 +55,7 @@
       "grapefruit",
       "kylan berry",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2026-01",
       "murdroot",
       "round yuzu",
@@ -68,13 +74,6 @@
     ],
     "uid": [
       2104014
-    ],
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      2611,
-      1565,
-      2633,
-      1588
     ]
   }
 }

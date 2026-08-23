@@ -1,5 +1,4 @@
 {
-  "checksum": "7d4baa273f479d9615fb3cf288a1718d",
   "room": {
     "id": 26890,
     "title": [
@@ -16,26 +15,28 @@
     "terrain": "none",
     "wayto": {
       "244": "go out",
-      "26901": "/rooms/26890/wayto/stringproc-26901.rb",
-      "26911": "/rooms/26890/wayto/stringproc-26911.rb"
+      "26901": ";e Cartographer.evaluate_script('wayto/room-26890-to-26901.rb')",
+      "26911": ";e Cartographer.evaluate_script('wayto/room-26890-to-26911.rb')"
     },
     "timeto": {
       "244": 0.2,
       "26901": 6,
       "26911": 3
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      18018001
-    ],
     "image": "wl-black_hand-1527320047.png",
     "image_coords": [
       474,
       55,
       626,
       183
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      18018001
     ]
   }
 }

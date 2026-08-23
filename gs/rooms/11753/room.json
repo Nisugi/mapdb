@@ -1,5 +1,4 @@
 {
-  "checksum": "7d3c80aef817d914516e2beb07bf03e8",
   "room": {
     "id": 11753,
     "title": [
@@ -16,25 +15,64 @@
     "terrain": "hard, flat",
     "wayto": {
       "5731": "north",
-      "11749": "/rooms/11753/wayto/stringproc-11749.rb"
+      "11749": ";e Cartographer.evaluate_script('wayto/room-11753-to-11749.rb')"
     },
     "timeto": {
       "5731": 350,
       "11749": 300
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      4744011
-    ],
     "image": "vo-caravansary-1264234799.png",
     "image_coords": [
       838,
       801,
       848,
       811
+    ],
+    "tags": [
+      "black peppercorn",
+      "blades of cordgrass",
+      "blue trafel mushroom",
+      "blue-green marshgrass",
+      "bolmara lichen",
+      "broken twig",
+      "bur-clover root",
+      "calamia fruit",
+      "cardamom",
+      "cumin seeds",
+      "daggerstalk mushroom",
+      "feathery mannagrass",
+      "flathead mushroom",
+      "genkew mushroom",
+      "golden mushroom",
+      "golden yellow shadesbane",
+      "haphip root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "murdroot",
+      "nutmeg",
+      "orange heliconia",
+      "pink heliconia",
+      "pink passionflower",
+      "pink peppercorn",
+      "purple passionflower",
+      "red heliconia",
+      "red passionflower",
+      "saltmeadow cordgrass",
+      "soft mushroom",
+      "stalk of cattail",
+      "star anise",
+      "talneo root",
+      "vanilla bean",
+      "wavepetal blossom",
+      "wild gooseberry",
+      "wild rose",
+      "wingstem root",
+      "withered mushroom",
+      "yellow heliconia",
+      "yellowed salt reedgrass"
+    ],
+    "uid": [
+      4744011
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "3e03734ab8160fd39659db0f2f7de12a",
   "room": {
     "id": 2898,
     "title": [
@@ -15,8 +14,8 @@
     "climate": "snowy, arctic",
     "terrain": "mountainous",
     "wayto": {
-      "2897": "/rooms/2898/wayto/stringproc-2897.rb",
-      "2899": "/rooms/2898/wayto/stringproc-2899.rb",
+      "2897": ";e Cartographer.evaluate_script('wayto/room-2898-to-2897.rb')",
+      "2899": ";e Cartographer.evaluate_script('wayto/room-2898-to-2899.rb')",
       "2901": "go stairway"
     },
     "timeto": {
@@ -24,6 +23,13 @@
       "2899": 7,
       "2901": 0.2
     },
+    "image": "imt-east_west_north_gates-1668398077.png",
+    "image_coords": [
+      1052,
+      313,
+      1062,
+      323
+    ],
     "tags": [
       "angelica root",
       "arctic moss",
@@ -40,7 +46,7 @@
       "ironfern root",
       "lingonberry",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "orange rowanberry",
       "pale thornberry",
       "pennyroyal stem",
@@ -62,13 +68,6 @@
     ],
     "uid": [
       4560032
-    ],
-    "image": "imt-east_west_north_gates-1668398077.png",
-    "image_coords": [
-      1052,
-      313,
-      1062,
-      323
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "a0eb37a2d60c75d77db3c5809faff8e2",
   "room": {
     "id": 9654,
     "title": [
@@ -18,20 +17,21 @@
     "timeto": {
       "9653": 0.2
     },
-    "tags": [
-      "furrier",
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      13003500
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       1195,
       971,
       1205,
       981
+    ],
+    "tags": [
+      "fire lily",
+      "furrier",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      13003500
     ]
   }
 }

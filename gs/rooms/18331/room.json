@@ -1,5 +1,4 @@
 {
-  "checksum": "d09ed0d4870a80015bbeba0889bd0655",
   "room": {
     "id": 18331,
     "title": [
@@ -31,20 +30,21 @@
       "18332": 0.2,
       "18333": 5
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      3210481
-    ],
     "image": "ifw-saewehna_lagoon-1525325794.png",
     "image_coords": [
       1959,
       841,
       1989,
       868
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:splashy",
+      "no forageables"
+    ],
+    "uid": [
+      3210481
     ]
   }
 }

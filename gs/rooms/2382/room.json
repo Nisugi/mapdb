@@ -1,5 +1,4 @@
 {
-  "checksum": "f847d46942f453647dca112bf7c96f4a",
   "room": {
     "id": 2382,
     "title": [
@@ -22,23 +21,27 @@
       "2381": 0.2,
       "2383": 0.2
     },
-    "tags": [
-      "meta:mapname:Icemule Trace - Underground",
-      "meta:mapshortname:Underground",
-      "meta:mapcategory:Icemule Trace",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      4042122
-    ],
     "image": "imt-underground-1264234799.png",
     "image_coords": [
       1229,
       143,
       1239,
       153
+    ],
+    "tags": [
+      "bolmara lichen",
+      "glassfern frond",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:forage-sensed:night:2022-09",
+      "meta:mapcategory:Icemule Trace",
+      "meta:mapname:Icemule Trace - Underground",
+      "meta:mapshortname:Underground",
+      "wingstem root"
+    ],
+    "uid": [
+      4042122
     ]
   }
 }

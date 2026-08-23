@@ -1,5 +1,4 @@
 {
-  "checksum": "a4222be9c6b29cc6f5e2430401f3cf2c",
   "room": {
     "id": 15800,
     "title": [
@@ -19,13 +18,12 @@
       "15696": 0.2
     },
     "tags": [
-      "meta:forage-sensed:???:2022-11",
       "meta:nomagic",
       "no forageables"
     ],
+    "check_location": true,
     "uid": [
       280052
-    ],
-    "check_location": true
+    ]
   }
 }

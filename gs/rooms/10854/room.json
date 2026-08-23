@@ -1,5 +1,4 @@
 {
-  "checksum": "28579cc4cfa5b71e777cf321fa2742bb",
   "room": {
     "id": 10854,
     "title": [
@@ -20,15 +19,22 @@
       "10855": "go pillars",
       "10856": "south",
       "20764": "go pier",
-      "30711": "/rooms/10854/wayto/stringproc-30711.rb"
+      "30711": ";e Cartographer.evaluate_script('wayto/room-10854-to-30711.rb')"
     },
     "timeto": {
       "10853": 0.2,
       "10855": 0.2,
       "10856": 0.2,
-      "20764": "/rooms/10854/timeto/stringproc-20764.rb",
-      "30711": "/rooms/10854/timeto/stringproc-30711.rb"
+      "20764": ";e Cartographer.evaluate_script('timeto/room-10854-to-20764.rb')",
+      "30711": ";e Cartographer.evaluate_script('timeto/room-10854-to-30711.rb')"
     },
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      1888,
+      926,
+      1923,
+      964
+    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -51,7 +57,7 @@
       "juniper berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2026-01",
+      "meta:forage-sensed:night:2026-08",
       "mistweed",
       "motherwort",
       "murdroot",
@@ -82,13 +88,6 @@
     ],
     "uid": [
       2101011
-    ],
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      1888,
-      926,
-      1923,
-      964
     ]
   }
 }

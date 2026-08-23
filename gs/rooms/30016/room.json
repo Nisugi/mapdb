@@ -1,5 +1,4 @@
 {
-  "checksum": "ea59f0f7cca968d3f1dbd89a075bb267",
   "room": {
     "id": 30016,
     "title": [
@@ -22,21 +21,21 @@
       "30015": 0.2,
       "30017": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      7503343
-    ],
     "image": "imt-Hinterwilds-1651886165.jpg",
     "image_coords": [
       1225,
       721,
       1240,
       736
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:forage-sensed:night:2023-01",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      7503343
     ]
   }
 }

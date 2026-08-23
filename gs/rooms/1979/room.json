@@ -1,5 +1,4 @@
 {
-  "checksum": "eb6f60b5a01c70ff406b267c1f2974a7",
   "room": {
     "id": 1979,
     "title": [
@@ -17,16 +16,18 @@
       "1978": "out",
       "1980": "east",
       "1982": "south",
-      "30715": "/rooms/1979/wayto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('wayto/room-1979-to-30715.rb')"
     },
     "timeto": {
       "1978": 0.2,
       "1980": 0.2,
       "1982": 0.2,
-      "30715": "/rooms/1979/timeto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('timeto/room-1979-to-30715.rb')"
     },
     "tags": [
-      "no forageables",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "urchin guide temple",
       "urchin-access"
     ],

@@ -1,5 +1,4 @@
 {
-  "checksum": "7bf5c72e851c8afa67524ea1dff35b3b",
   "room": {
     "id": 4583,
     "title": [
@@ -14,15 +13,17 @@
     "location": "Solhaven",
     "wayto": {
       "1500": "climb wall",
-      "4584": "/rooms/4583/wayto/stringproc-4584.rb"
+      "4584": ";e Cartographer.evaluate_script('wayto/room-4583-to-4584.rb')"
     },
     "timeto": {
       "1500": 0.2,
       "4584": 1.6
     },
     "tags": [
-      "meta:nomagic",
-      "no forageables"
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:nomagic"
     ],
     "uid": [
       4220010

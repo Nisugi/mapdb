@@ -1,5 +1,4 @@
 {
-  "checksum": "31087e5d982e8ef9720706b45554f99a",
   "room": {
     "id": 673,
     "title": [
@@ -18,16 +17,24 @@
     "wayto": {
       "672": "northeast",
       "674": "southwest",
-      "30714": "/rooms/673/wayto/stringproc-30714.rb"
+      "30714": ";e Cartographer.evaluate_script('wayto/room-673-to-30714.rb')"
     },
     "timeto": {
       "672": 0.2,
       "674": 0.2,
-      "30714": "/rooms/673/timeto/stringproc-30714.rb"
+      "30714": ";e Cartographer.evaluate_script('timeto/room-673-to-30714.rb')"
     },
+    "image": "en-sylvarraend-1264234799.png",
+    "image_coords": [
+      626,
+      825,
+      636,
+      835
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
+      "arbutus berry",
       "basal moss",
       "birch bark",
       "bloodwood twig",
@@ -42,6 +49,7 @@
       "calamia fruit",
       "coppery rain lily",
       "creamy white wisteria",
+      "crystal-like sylthiel",
       "curly leaf parsley",
       "daggerstalk mushroom",
       "dark blue honeyberries",
@@ -54,6 +62,7 @@
       "flat-leaf parsley",
       "flathead mushroom",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green pear",
       "haphip root",
@@ -61,9 +70,12 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "murkweed",
+      "nightbloom blossom",
       "oak twig",
+      "oxblood lily",
       "pale rose pink wisteria",
       "pecans",
       "pink oleander",
@@ -88,9 +100,11 @@
       "tkaro root",
       "torban leaf",
       "tree bark",
+      "trollear mushroom",
       "twisted twig",
       "urchin-access",
       "viburnum twig",
+      "violet sel'elun vine",
       "white baneberry",
       "white datura blossom",
       "white lily",
@@ -111,13 +125,6 @@
     ],
     "uid": [
       13050001
-    ],
-    "image": "en-sylvarraend-1264234799.png",
-    "image_coords": [
-      626,
-      825,
-      636,
-      835
     ]
   }
 }

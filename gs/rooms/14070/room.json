@@ -1,5 +1,4 @@
 {
-  "checksum": "b3abd9836028db2cf136f144e44881e1",
   "room": {
     "id": 14070,
     "title": [
@@ -16,26 +15,27 @@
     "terrain": "none",
     "wayto": {
       "14069": "out",
-      "15991": "/rooms/14070/wayto/stringproc-15991.rb"
+      "15991": ";e Cartographer.evaluate_script('wayto/room-14070-to-15991.rb')"
     },
     "timeto": {
       "14069": 0.2,
       "15991": 0.4
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01",
-      "no forageables"
-    ],
-    "uid": [
-      4750040
-    ],
     "image": "vo-trail-1264234799.png",
     "image_coords": [
       585,
       225,
       595,
       235
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      4750040
     ]
   }
 }

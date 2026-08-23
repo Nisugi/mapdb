@@ -1,5 +1,4 @@
 {
-  "checksum": "56a867bde890be0d49a953cab0ae3841",
   "room": {
     "id": 5922,
     "title": [
@@ -16,20 +15,27 @@
     "wayto": {
       "5921": "south",
       "5923": "north",
-      "10476": "/rooms/5922/wayto/stringproc-10476.rb"
+      "10476": ";e Cartographer.evaluate_script('wayto/room-5922-to-10476.rb')"
     },
     "timeto": {
       "5921": 0.2,
       "5923": 0.2,
       "10476": 0.2
     },
+    "image": "en-tavaalor-1565907614.png",
+    "image_coords": [
+      261,
+      960,
+      269,
+      969
+    ],
     "tags": [
       "black mushroom",
       "blue trafel mushroom",
       "bolmara lichen",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2023-01",
       "murdroot",
       "red mushroom",
@@ -40,13 +46,6 @@
     ],
     "uid": [
       14009014
-    ],
-    "image": "en-tavaalor-1565907614.png",
-    "image_coords": [
-      261,
-      960,
-      269,
-      969
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "b4138b95d3905afb8d9882db818b5d48",
   "room": {
     "id": 4172,
     "title": [
@@ -15,9 +14,9 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "4171": "/rooms/4172/wayto/stringproc-4171.rb",
-      "4173": "/rooms/4172/wayto/stringproc-4173.rb",
-      "4174": "/rooms/4172/wayto/stringproc-4174.rb",
+      "4171": ";e Cartographer.evaluate_script('wayto/room-4172-to-4171.rb')",
+      "4173": ";e Cartographer.evaluate_script('wayto/room-4172-to-4173.rb')",
+      "4174": ";e Cartographer.evaluate_script('wayto/room-4172-to-4174.rb')",
       "16806": "north"
     },
     "timeto": {
@@ -26,12 +25,19 @@
       "4174": 0.6,
       "16806": 0.2
     },
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      767,
+      835,
+      777,
+      845
+    ],
     "tags": [
       "cave moss",
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2024-01",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "wingstem root",
       "withered mushroom",
@@ -39,13 +45,6 @@
     ],
     "uid": [
       2138116
-    ],
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      767,
-      835,
-      777,
-      845
     ]
   }
 }

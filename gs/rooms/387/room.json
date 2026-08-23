@@ -1,5 +1,4 @@
 {
-  "checksum": "719f04c1811757b3cfeb7e01162f85e1",
   "room": {
     "id": 387,
     "title": [
@@ -24,7 +23,7 @@
       "7972": "go mahogany door",
       "19275": "south",
       "21367": "north",
-      "30708": "/rooms/387/wayto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('wayto/room-387-to-30708.rb')"
     },
     "timeto": {
       "229": 0.2,
@@ -35,21 +34,8 @@
       "7972": 0.2,
       "19275": 0.2,
       "21367": 0.2,
-      "30708": "/rooms/387/timeto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('timeto/room-387-to-30708.rb')"
     },
-    "tags": [
-      "meta:mapcategory:Wehnimer's Landing",
-      "meta:mapname:Wehnimer's Landing - Moot Hall",
-      "meta:mapshortname:Moot Hall",
-      "meta:teleport:fwi",
-      "moothall",
-      "no forageables",
-      "urchin guide moothall",
-      "urchin-access"
-    ],
-    "uid": [
-      2021
-    ],
     "image": "wl-moot_hall-1486755929.png",
     "image_coords": [
       533,
@@ -57,6 +43,21 @@
       674,
       1179
     ],
-    "check_location": false
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:mapcategory:Wehnimer's Landing",
+      "meta:mapname:Wehnimer's Landing - Moot Hall",
+      "meta:mapshortname:Moot Hall",
+      "meta:teleport:fwi",
+      "moothall",
+      "urchin guide moothall",
+      "urchin-access"
+    ],
+    "check_location": false,
+    "uid": [
+      2021
+    ]
   }
 }

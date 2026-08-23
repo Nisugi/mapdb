@@ -1,5 +1,4 @@
 {
-  "checksum": "fbfbc72e02f3363af60aeb5e3780d0b4",
   "room": {
     "id": 17130,
     "title": [
@@ -18,30 +17,33 @@
     "wayto": {
       "4650": "down",
       "17155": "up",
-      "30717": "/rooms/17130/wayto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('wayto/room-17130-to-30717.rb')"
     },
     "timeto": {
       "4650": 0.2,
       "17155": 0.2,
-      "30717": "/rooms/17130/timeto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('timeto/room-17130-to-30717.rb')"
     },
-    "tags": [
-      "chronomage",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01",
-      "no forageables",
-      "urchin guide chronomages",
-      "urchin-access"
-    ],
-    "uid": [
-      14051038
-    ],
     "image": "en-cysaegir-1679641246.png",
     "image_coords": [
       457,
       809,
       482,
       833
+    ],
+    "tags": [
+      "chronomage",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells",
+      "urchin guide chronomages",
+      "urchin-access",
+      "wild sage"
+    ],
+    "uid": [
+      14051038
     ]
   }
 }

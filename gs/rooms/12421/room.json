@@ -1,5 +1,4 @@
 {
-  "checksum": "ee5e678987a30cc156219dabdc039e6c",
   "room": {
     "id": 12421,
     "title": [
@@ -14,26 +13,28 @@
     "location": "Kharam-Dzu",
     "wayto": {
       "12420": "west",
-      "14089": "/rooms/12421/wayto/stringproc-14089.rb"
+      "14089": ";e Cartographer.evaluate_script('wayto/room-12421-to-14089.rb')"
     },
     "timeto": {
       "12420": 0.2,
-      "14089": "/rooms/12421/timeto/stringproc-14089.rb"
+      "14089": ";e Cartographer.evaluate_script('timeto/room-12421-to-14089.rb')"
     },
-    "tags": [
-      "no forageables",
-      "rogue guild",
-      "rogueguild"
-    ],
-    "uid": [
-      262001
-    ],
     "image": "ti-rogue_guild-1486041266.png",
     "image_coords": [
       294,
       733,
       415,
       817
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "rogue guild",
+      "rogueguild"
+    ],
+    "uid": [
+      262001
     ]
   }
 }

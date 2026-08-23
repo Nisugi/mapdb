@@ -1,5 +1,4 @@
 {
-  "checksum": "7281b21330920e1716b7413ed9a71e43",
   "room": {
     "id": 4668,
     "title": [
@@ -16,16 +15,23 @@
     "terrain": "none",
     "wayto": {
       "4666": "out",
-      "30717": "/rooms/4668/wayto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('wayto/room-4668-to-30717.rb')"
     },
     "timeto": {
       "4666": 0.2,
-      "30717": "/rooms/4668/timeto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('timeto/room-4668-to-30717.rb')"
     },
+    "image": "en-cysaegir-1679641246.png",
+    "image_coords": [
+      661,
+      485,
+      686,
+      509
+    ],
     "tags": [
+      "fire lily",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "no forageables",
+      "meta:forage-sensed:night:2026-08",
       "urchin guide weapons",
       "urchin-access",
       "weapons",
@@ -33,13 +39,6 @@
     ],
     "uid": [
       14051001
-    ],
-    "image": "en-cysaegir-1679641246.png",
-    "image_coords": [
-      661,
-      485,
-      686,
-      509
     ]
   }
 }

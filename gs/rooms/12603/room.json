@@ -1,5 +1,4 @@
 {
-  "checksum": "7f9cd395938c61ae0eb8c5a27a5d4a3f",
   "room": {
     "id": 12603,
     "title": [
@@ -20,21 +19,25 @@
       "12602": 0.2,
       "12604": 0.2
     },
-    "tags": [
-      "wind wraith",
-      "pepperthorn root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-11"
-    ],
-    "uid": [
-      3041001
-    ],
     "image": "ti-wilds-1643860469.png",
     "image_coords": [
       843,
       731,
       853,
       741
+    ],
+    "tags": [
+      "ghost pepper",
+      "horseradish root",
+      "hot pepper",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-11",
+      "meta:forage-sensed:night:2026-08",
+      "pepperthorn root",
+      "wind wraith"
+    ],
+    "uid": [
+      3041001
     ]
   }
 }

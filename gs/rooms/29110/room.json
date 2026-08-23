@@ -1,5 +1,4 @@
 {
-  "checksum": "d78c569adafe513fd21541021d445cba",
   "room": {
     "id": 29110,
     "title": [
@@ -20,6 +19,13 @@
       "29097": 0.2,
       "29113": 0.2
     },
+    "image": "kf-widowmakers_road-1668643957.png",
+    "image_coords": [
+      231,
+      83,
+      246,
+      99
+    ],
     "tags": [
       "blackened moss",
       "blue trafel mushroom",
@@ -30,6 +36,7 @@
       "glowing green lichen",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "pepperthorn root",
       "soft mushroom",
@@ -39,13 +46,6 @@
     ],
     "uid": [
       7131013
-    ],
-    "image": "kf-widowmakers_road-1668643957.png",
-    "image_coords": [
-      231,
-      83,
-      246,
-      99
     ]
   }
 }

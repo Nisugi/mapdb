@@ -1,5 +1,4 @@
 {
-  "checksum": "8fed966af5620980986af3e51ed0a6ae",
   "room": {
     "id": 4675,
     "title": [
@@ -24,25 +23,26 @@
       "4676": 0.2,
       "4677": 0.2
     },
-    "tags": [
-      "meta:mapshortname:Cysaegir - Dyer's Dent",
-      "meta:mapname:Elven Nations - Cysaegir - Dyer's Dent",
-      "meta:mapcategory:Elven Nations",
-      "meta:mapcategory:Dyer's Tents:Cysaegir",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01",
-      "dyers"
-    ],
-    "uid": [
-      34277
-    ],
     "image": "en-cysaegir-dyers_tent-1512163456.png",
     "image_coords": [
       1524,
       956,
       1670,
       1032
+    ],
+    "tags": [
+      "dyers",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "meta:forage-sensed:night:2026-08",
+      "meta:mapcategory:Dyer's Tents:Cysaegir",
+      "meta:mapcategory:Elven Nations",
+      "meta:mapname:Elven Nations - Cysaegir - Dyer's Dent",
+      "meta:mapshortname:Cysaegir - Dyer's Dent"
+    ],
+    "uid": [
+      34277
     ]
   }
 }

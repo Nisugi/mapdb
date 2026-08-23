@@ -1,5 +1,4 @@
 {
-  "checksum": "424b4fc6d59e1320d47f71d1471c8b9c",
   "room": {
     "id": 2883,
     "title": [
@@ -13,30 +12,30 @@
     ],
     "location": "the Sleeping Lady Mountains",
     "wayto": {
-      "2881": "/rooms/2883/wayto/stringproc-2881.rb",
-      "2884": "/rooms/2883/wayto/stringproc-2884.rb"
+      "2881": ";e Cartographer.evaluate_script('wayto/room-2883-to-2881.rb')",
+      "2884": ";e Cartographer.evaluate_script('wayto/room-2883-to-2884.rb')"
     },
     "timeto": {
       "2881": 7,
       "2884": 0.2
     },
-    "tags": [
-      "bolmara lichen",
-      "glassfern frond",
-      "ironfern root",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
-      "wingstem root"
-    ],
-    "uid": [
-      4560047
-    ],
     "image": "imt-east_west_north_gates-1668398077.png",
     "image_coords": [
       1321,
       229,
       1331,
       239
+    ],
+    "tags": [
+      "bolmara lichen",
+      "glassfern frond",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "wingstem root"
+    ],
+    "uid": [
+      4560047
     ]
   }
 }

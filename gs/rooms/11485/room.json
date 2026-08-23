@@ -1,5 +1,4 @@
 {
-  "checksum": "8a660528e7c89428401f2a5bc3ee9070",
   "room": {
     "id": 11485,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "temperate",
     "terrain": "barren scrub",
     "wayto": {
-      "11442": "/rooms/11485/wayto/stringproc-11442.rb",
+      "11442": ";e Cartographer.evaluate_script('wayto/room-11485-to-11442.rb')",
       "11486": "northeast",
       "11487": "northwest"
     },
@@ -24,6 +23,13 @@
       "11486": 0.2,
       "11487": 0.2
     },
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      675,
+      1058,
+      685,
+      1068
+    ],
     "tags": [
       "blueberries",
       "branch of acacia",
@@ -40,7 +46,7 @@
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2026-01",
+      "meta:forage-sensed:night:2026-08",
       "mistweed",
       "murkweed",
       "pepperthorn root",
@@ -66,13 +72,6 @@
     ],
     "uid": [
       305055
-    ],
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      675,
-      1058,
-      685,
-      1068
     ]
   }
 }

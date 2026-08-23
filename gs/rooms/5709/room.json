@@ -1,5 +1,4 @@
 {
-  "checksum": "d8212ff2dd6b4d143927d14abbeed5c8",
   "room": {
     "id": 5709,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "temperate",
     "terrain": "coniferous forest",
     "wayto": {
-      "5698": "/rooms/5709/wayto/stringproc-5698.rb",
+      "5698": ";e Cartographer.evaluate_script('wayto/room-5709-to-5698.rb')",
       "5707": "southwest",
       "5708": "south"
     },
@@ -24,6 +23,13 @@
       "5707": 0.2,
       "5708": 0.2
     },
+    "image": "vo-foggy_valley-1264234799.png",
+    "image_coords": [
+      1352,
+      342,
+      1362,
+      352
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -33,6 +39,7 @@
       "blue trafel mushroom",
       "bolmara lichen",
       "bright red teaberry",
+      "bright yellow sunwort",
       "broken twig",
       "brostheras grass",
       "calamia fruit",
@@ -50,7 +57,7 @@
       "ironfern root",
       "kylan berry",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:nomagic",
       "no-magic",
       "oxblood lily",
@@ -82,13 +89,6 @@
     ],
     "uid": [
       4007037
-    ],
-    "image": "vo-foggy_valley-1264234799.png",
-    "image_coords": [
-      1352,
-      342,
-      1362,
-      352
     ]
   }
 }

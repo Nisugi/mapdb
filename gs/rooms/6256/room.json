@@ -1,5 +1,4 @@
 {
-  "checksum": "f6d87781dfa96dbd56538b62d1e39e05",
   "room": {
     "id": 6256,
     "title": [
@@ -15,19 +14,20 @@
     "wayto": {
       "1249": "west",
       "6257": "east",
-      "30708": "/rooms/6256/wayto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('wayto/room-6256-to-30708.rb')"
     },
     "timeto": {
       "1249": 0.2,
       "6257": 0.2,
-      "30708": "/rooms/6256/timeto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('timeto/room-6256-to-30708.rb')"
     },
     "tags": [
       "alchemy",
       "consignment",
+      "fire lily",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-11",
-      "no forageables",
+      "meta:forage-sensed:night:2026-08",
       "urchin guide alchemy",
       "urchin-access"
     ],

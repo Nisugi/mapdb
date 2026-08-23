@@ -1,5 +1,4 @@
 {
-  "checksum": "f3299a2006eb2baffd06d9f7746d3168",
   "room": {
     "id": 32591,
     "title": [
@@ -16,22 +15,26 @@
     "terrain": "hard, flat",
     "wayto": {
       "28919": "out",
-      "30716": "/rooms/32591/wayto/stringproc-30716.rb",
+      "30716": ";e Cartographer.evaluate_script('wayto/room-32591-to-30716.rb')",
       "32592": "east",
       "32593": "west"
     },
     "timeto": {
       "28919": 0.2,
-      "30716": "/rooms/32591/timeto/stringproc-30716.rb",
+      "30716": ";e Cartographer.evaluate_script('timeto/room-32591-to-30716.rb')",
       "32592": 0.2,
       "32593": 0.2
     },
     "tags": [
+      "bright pink protea",
+      "fire lily",
       "meta:forage-sensed",
-      "no forageables",
+      "meta:forage-sensed:night:2026-08",
       "stable",
+      "stalk of bluebells",
       "urchin guide stable",
-      "urchin-access"
+      "urchin-access",
+      "wild sage"
     ],
     "uid": [
       12014100

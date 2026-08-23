@@ -1,5 +1,4 @@
 {
-  "checksum": "25defef05d071746c588e25b871890aa",
   "room": {
     "id": 2777,
     "title": [
@@ -29,26 +28,27 @@
       "2783": 0.2,
       "2788": 0.2
     },
-    "tags": [
-      "node",
-      "town",
-      "supernode",
-      "meta:mapcategory:Icemule Trace",
-      "meta:mapcategory:Towns",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:mapname:Icemule Trace - Pinefar Trading Post",
-      "meta:mapshortname:Pinefar Trading Post"
-    ],
-    "uid": [
-      4564003
-    ],
     "image": "imt-PinefarTradingPost-1615312810.png",
     "image_coords": [
       227,
       279,
       317,
       333
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:mapcategory:Icemule Trace",
+      "meta:mapcategory:Towns",
+      "meta:mapname:Icemule Trace - Pinefar Trading Post",
+      "meta:mapshortname:Pinefar Trading Post",
+      "node",
+      "stalk of bluebells",
+      "supernode",
+      "town"
+    ],
+    "uid": [
+      4564003
     ]
   }
 }

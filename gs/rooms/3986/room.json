@@ -1,5 +1,4 @@
 {
-  "checksum": "2310241cdddb3d622a8dfb471f5248dc",
   "room": {
     "id": 3986,
     "title": [
@@ -22,29 +21,28 @@
       "3980": 0.2,
       "3987": 0.2
     },
-    "tags": [
-      "sassafras leaf",
-      "sweetfern stalk",
-      "sprig of holly",
-      "angelica root",
-      "valerian root",
-      "pennyroyal stem",
-      "meta:forage-sensed",
-      "ironfern root",
-      "sunburst blossom",
-      "deep purple shockroot",
-      "meta:forage-sensed:day:2023-11",
-      "meta:forage-sensed:night:2024-05"
-    ],
-    "uid": [
-      13302163
-    ],
     "image": "en-skull-1264234799.png",
     "image_coords": [
       528,
       411,
       538,
       421
+    ],
+    "tags": [
+      "angelica root",
+      "deep purple shockroot",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-11",
+      "meta:forage-sensed:night:2024-05",
+      "pennyroyal stem",
+      "sassafras leaf",
+      "sprig of holly",
+      "sweetfern stalk",
+      "valerian root"
+    ],
+    "uid": [
+      13302163
     ]
   }
 }

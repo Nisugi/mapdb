@@ -1,5 +1,4 @@
 {
-  "checksum": "47c30dc07bf89ab8d5f7e6fe594a8948",
   "room": {
     "id": 7324,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "cold, damp",
     "terrain": "barren scrub",
     "wayto": {
-      "4541": "/rooms/7324/wayto/stringproc-4541.rb",
+      "4541": ";e Cartographer.evaluate_script('wayto/room-7324-to-4541.rb')",
       "7322": "southeast",
       "7323": "northeast"
     },
@@ -24,6 +23,13 @@
       "7322": 0.2,
       "7323": 0.2
     },
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      922,
+      334,
+      932,
+      344
+    ],
     "tags": [
       "blue whortleberry",
       "blueberries",
@@ -33,7 +39,7 @@
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2024-01",
+      "meta:forage-sensed:night:2026-08",
       "sprig of larkspur",
       "sprig of wild lilac",
       "stalk of chicory",
@@ -46,13 +52,6 @@
     ],
     "uid": [
       2150007
-    ],
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      922,
-      334,
-      932,
-      344
     ]
   }
 }

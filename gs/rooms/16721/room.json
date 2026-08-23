@@ -1,5 +1,4 @@
 {
-  "checksum": "2344b140acef44a80ab7f8a28a0f8009",
   "room": {
     "id": 16721,
     "title": [
@@ -23,9 +22,17 @@
       "16720": 0.2,
       "16722": 0.2
     },
+    "image": "en-aradhul-road-1308194332.png",
+    "image_coords": [
+      279,
+      456,
+      303,
+      477
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
+      "arbutus berry",
       "basal moss",
       "birch bark",
       "bloodwood twig",
@@ -40,6 +47,7 @@
       "calamia fruit",
       "coppery rain lily",
       "creamy white wisteria",
+      "crystal-like sylthiel",
       "curly leaf parsley",
       "daggerstalk mushroom",
       "dark blue honeyberries",
@@ -53,13 +61,14 @@
       "flat-leaf parsley",
       "flathead mushroom",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green pear",
       "haphip root",
       "lady slipper blossom",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "murdroot",
       "murkweed",
@@ -93,6 +102,7 @@
       "trollear mushroom",
       "twisted twig",
       "viburnum twig",
+      "violet sel'elun vine",
       "white baneberry",
       "white datura blossom",
       "white lily",
@@ -113,13 +123,6 @@
     ],
     "uid": [
       17005017
-    ],
-    "image": "en-aradhul-road-1308194332.png",
-    "image_coords": [
-      279,
-      456,
-      303,
-      477
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "033a244211064da8fc2c65692a3cfafb",
   "room": {
     "id": 2189,
     "title": [
@@ -20,23 +19,24 @@
       "2188": 0.2,
       "2190": 0.2
     },
-    "tags": [
-      "cave moss",
-      "daggerstalk mushroom",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
-      "pepperthorn root",
-      "trafel mushroom"
-    ],
-    "uid": [
-      3060012
-    ],
     "image": "ti-vtull-1663120653.png",
     "image_coords": [
       840,
       520,
       850,
       530
+    ],
+    "tags": [
+      "cave moss",
+      "daggerstalk mushroom",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
+      "pepperthorn root",
+      "trafel mushroom"
+    ],
+    "uid": [
+      3060012
     ]
   }
 }

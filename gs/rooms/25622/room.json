@@ -1,5 +1,4 @@
 {
-  "checksum": "85daf6036dce27e6c40eba1b3356c52e",
   "room": {
     "id": 25622,
     "title": [
@@ -15,24 +14,32 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "25620": "/rooms/25622/wayto/stringproc-25620.rb",
-      "25621": "/rooms/25622/wayto/stringproc-25621.rb",
-      "25623": "/rooms/25622/wayto/stringproc-25623.rb",
+      "25620": ";e Cartographer.evaluate_script('wayto/room-25622-to-25620.rb')",
+      "25621": ";e Cartographer.evaluate_script('wayto/room-25622-to-25621.rb')",
+      "25623": ";e Cartographer.evaluate_script('wayto/room-25622-to-25623.rb')",
       "30500": "swim north",
       "30504": "swim down"
     },
     "timeto": {
-      "25620": "/rooms/25622/timeto/stringproc-25620.rb",
-      "25621": "/rooms/25622/timeto/stringproc-25621.rb",
-      "25623": "/rooms/25622/timeto/stringproc-25623.rb",
-      "30500": "/rooms/25622/timeto/stringproc-30500.rb",
-      "30504": "/rooms/25622/timeto/stringproc-30504.rb"
+      "25620": ";e Cartographer.evaluate_script('timeto/room-25622-to-25620.rb')",
+      "25621": ";e Cartographer.evaluate_script('timeto/room-25622-to-25621.rb')",
+      "25623": ";e Cartographer.evaluate_script('timeto/room-25622-to-25623.rb')",
+      "30500": ";e Cartographer.evaluate_script('timeto/room-25622-to-30500.rb')",
+      "30504": ";e Cartographer.evaluate_script('timeto/room-25622-to-30504.rb')"
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1083,
+      610,
+      1101,
+      630
+    ],
     "tags": [
       "aloeas stem",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2024-05",
+      "meta:splashy",
       "murdroot",
       "orchil lichen",
       "stalk of cattail",
@@ -44,13 +51,6 @@
     ],
     "uid": [
       14117006
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1083,
-      610,
-      1101,
-      630
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "7ce597a9a1a2374badc3dc28399f1cb1",
   "room": {
     "id": 13,
     "title": [
@@ -26,20 +25,22 @@
       "172": 0.2,
       "635": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      13100087
-    ],
     "image": "en-ta_illistim-new.jpg",
     "image_coords": [
       587,
       545,
       611,
       569
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:forage-sensed:night:2022-11",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      13100087
     ]
   }
 }

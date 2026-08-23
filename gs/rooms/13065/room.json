@@ -1,5 +1,4 @@
 {
-  "checksum": "0cfbc32bda509ecacbdb9d99120bbec6",
   "room": {
     "id": 13065,
     "title": [
@@ -16,33 +15,46 @@
     "terrain": "hilly",
     "wayto": {
       "13064": "down",
-      "13066": "/rooms/13065/wayto/stringproc-13066.rb"
+      "13066": ";e Cartographer.evaluate_script('wayto/room-13065-to-13066.rb')"
     },
     "timeto": {
       "13064": 0.2,
       "13066": 0.2
     },
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      400,
+      366,
+      410,
+      376
+    ],
     "tags": [
       "angelica root",
       "blue trafel mushroom",
       "bolmara lichen",
       "bright red teaberry",
+      "brostheras grass",
       "cuctucae berry",
+      "dwarf bilberry",
       "golden aster",
       "ironfern root",
+      "leafy arugula",
       "luckbloom blossom",
       "marallis berry",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
       "oak twig",
       "pennyroyal stem",
+      "rainbow chard",
       "sassafras leaf",
       "slender twig",
-      "soft white mushroom",
+      "soft mushroom",
       "sprig of larkspur",
       "sprig of wild lilac",
       "stalk of bluebells",
       "stalk of chicory",
       "sticks",
+      "sunburst blossom",
       "sweetfern stalk",
       "tkaro root",
       "tree bark",
@@ -52,18 +64,11 @@
       "wild pink geranium",
       "willow twig",
       "wintergreen leaf",
-      "withered black mushroom",
+      "withered mushroom",
       "yew twig"
     ],
     "uid": [
       560002
-    ],
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      400,
-      366,
-      410,
-      376
     ]
   }
 }

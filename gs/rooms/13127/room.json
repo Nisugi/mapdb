@@ -1,5 +1,4 @@
 {
-  "checksum": "f84d637cd4baf758c85ab69d3c17612d",
   "room": {
     "id": 13127,
     "title": [
@@ -18,20 +17,21 @@
     "timeto": {
       "13105": 0.2
     },
-    "tags": [
-      "sunfist",
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      562022
-    ],
     "image": "vo-outlands-1264234799.png",
     "image_coords": [
       550,
       866,
       560,
       876
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells",
+      "sunfist"
+    ],
+    "uid": [
+      562022
     ]
   }
 }

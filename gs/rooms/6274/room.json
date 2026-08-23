@@ -1,5 +1,4 @@
 {
-  "checksum": "ba2b1558ad27fd864995f3a71ccd8a47",
   "room": {
     "id": 6274,
     "title": [
@@ -16,19 +15,26 @@
     "terrain": "none",
     "wayto": {
       "6272": "out",
-      "11032": "/rooms/6274/wayto/stringproc-11032.rb"
+      "11032": ";e Cartographer.evaluate_script('wayto/room-6274-to-11032.rb')"
     },
     "timeto": {
       "6272": 0.2,
       "11032": 100
     },
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      100,
+      400,
+      110,
+      410
+    ],
     "tags": [
       "boot",
       "cave moss",
       "ironfern root",
       "kobold",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "murdroot",
       "wingstem root",
       "withered mushroom",
@@ -36,13 +42,6 @@
     ],
     "uid": [
       373014
-    ],
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      100,
-      400,
-      110,
-      410
     ]
   }
 }

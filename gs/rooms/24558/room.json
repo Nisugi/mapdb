@@ -1,5 +1,4 @@
 {
-  "checksum": "ac66aecb4b3aab54f86f1c3e379eb964",
   "room": {
     "id": 24558,
     "title": [
@@ -18,15 +17,18 @@
     "timeto": {
       "19586": 0.2
     },
-    "uid": [
-      201036
-    ],
     "image": "ebonstone_manor-1485361515.png",
     "image_coords": [
       60,
       259,
       129,
       304
+    ],
+    "tags": [
+      "meta:nomagic"
+    ],
+    "uid": [
+      201036
     ]
   }
 }

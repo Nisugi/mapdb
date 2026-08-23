@@ -1,5 +1,4 @@
 {
-  "checksum": "af50e25b849efac98c95f00dfcde2987",
   "room": {
     "id": 25619,
     "title": [
@@ -15,24 +14,32 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "13966": "/rooms/25619/wayto/stringproc-13966.rb",
-      "18842": "/rooms/25619/wayto/stringproc-18842.rb",
-      "25618": "/rooms/25619/wayto/stringproc-25618.rb",
-      "25620": "/rooms/25619/wayto/stringproc-25620.rb",
+      "13966": ";e Cartographer.evaluate_script('wayto/room-25619-to-13966.rb')",
+      "18842": ";e Cartographer.evaluate_script('wayto/room-25619-to-18842.rb')",
+      "25618": ";e Cartographer.evaluate_script('wayto/room-25619-to-25618.rb')",
+      "25620": ";e Cartographer.evaluate_script('wayto/room-25619-to-25620.rb')",
       "30506": "swim down"
     },
     "timeto": {
-      "13966": "/rooms/25619/timeto/stringproc-13966.rb",
-      "18842": "/rooms/25619/timeto/stringproc-18842.rb",
-      "25618": "/rooms/25619/timeto/stringproc-25618.rb",
-      "25620": "/rooms/25619/timeto/stringproc-25620.rb",
-      "30506": "/rooms/25619/timeto/stringproc-30506.rb"
+      "13966": ";e Cartographer.evaluate_script('timeto/room-25619-to-13966.rb')",
+      "18842": ";e Cartographer.evaluate_script('timeto/room-25619-to-18842.rb')",
+      "25618": ";e Cartographer.evaluate_script('timeto/room-25619-to-25618.rb')",
+      "25620": ";e Cartographer.evaluate_script('timeto/room-25619-to-25620.rb')",
+      "30506": ";e Cartographer.evaluate_script('timeto/room-25619-to-30506.rb')"
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1163,
+      690,
+      1181,
+      711
+    ],
     "tags": [
       "aloeas stem",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2024-05",
+      "meta:splashy",
       "murdroot",
       "orchil lichen",
       "stalk of cattail",
@@ -44,13 +51,6 @@
     ],
     "uid": [
       14117010
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1163,
-      690,
-      1181,
-      711
     ]
   }
 }

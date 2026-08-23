@@ -1,5 +1,4 @@
 {
-  "checksum": "dff17959895a67e805ca11ea0e6ee3b4",
   "room": {
     "id": 28899,
     "title": [
@@ -21,7 +20,7 @@
       "28901": "east",
       "28907": "north",
       "28933": "go slate tent",
-      "30716": "/rooms/28899/wayto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('wayto/room-28899-to-30716.rb')"
     },
     "timeto": {
       "28813": 0.2,
@@ -30,22 +29,26 @@
       "28901": 0.2,
       "28907": 0.2,
       "28933": 0.2,
-      "30716": "/rooms/28899/timeto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('timeto/room-28899-to-30716.rb')"
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables",
-      "urchin-access"
-    ],
-    "uid": [
-      7118232
-    ],
     "image": "kf-krakens_fall-1648278406.png",
     "image_coords": [
       472,
       440,
       485,
       451
+    ],
+    "tags": [
+      "bright pink protea",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells",
+      "urchin-access",
+      "wild sage"
+    ],
+    "uid": [
+      7118232
     ]
   }
 }

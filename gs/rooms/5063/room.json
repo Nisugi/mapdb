@@ -1,5 +1,4 @@
 {
-  "checksum": "6a37f26655420beaa0566feddbd90876",
   "room": {
     "id": 5063,
     "title": [
@@ -17,13 +16,20 @@
     "wayto": {
       "5062": "east",
       "5064": "west",
-      "9033": "/rooms/5063/wayto/stringproc-9033.rb"
+      "9033": ";e Cartographer.evaluate_script('wayto/room-5063-to-9033.rb')"
     },
     "timeto": {
       "5062": 0.2,
       "5064": 0.2,
       "9033": 0.2
     },
+    "image": "vo-caravansary-1264234799.png",
+    "image_coords": [
+      616,
+      334,
+      626,
+      344
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -57,6 +63,7 @@
       "golden buttercup",
       "grapefruit",
       "green cabbage",
+      "green soybean pod",
       "green tea leaves",
       "heath aster",
       "honeymoon melon",
@@ -71,7 +78,7 @@
       "luckbloom blossom",
       "mate leaves",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "motherwort",
       "murdroot",
       "nightbloom blossom",
@@ -110,10 +117,12 @@
       "stalk of goldenrod",
       "sun-wilted tea leaves",
       "sunburst blossom",
+      "sunny yellow sylara'wor",
       "sweet onion",
       "sweet potato",
       "tea leaves",
       "thin hemp",
+      "thistle seeds",
       "tobacco leaves",
       "trollfear mushroom",
       "Vornavian orange",
@@ -136,13 +145,6 @@
     ],
     "uid": [
       4212109
-    ],
-    "image": "vo-caravansary-1264234799.png",
-    "image_coords": [
-      616,
-      334,
-      626,
-      344
     ]
   }
 }

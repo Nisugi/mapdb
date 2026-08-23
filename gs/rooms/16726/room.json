@@ -1,5 +1,4 @@
 {
-  "checksum": "31299843dcf3e5044d107d0d5b6c5f92",
   "room": {
     "id": 16726,
     "title": [
@@ -15,13 +14,20 @@
     "climate": "temperate",
     "terrain": "riparian",
     "wayto": {
-      "16725": "/rooms/16726/wayto/stringproc-16725.rb",
-      "16729": "/rooms/16726/wayto/stringproc-16729.rb"
+      "16725": ";e Cartographer.evaluate_script('wayto/room-16726-to-16725.rb')",
+      "16729": ";e Cartographer.evaluate_script('wayto/room-16726-to-16729.rb')"
     },
     "timeto": {
       "16725": 10,
       "16729": 10
     },
+    "image": "en-aradhul-road-1308194332.png",
+    "image_coords": [
+      329,
+      708,
+      354,
+      729
+    ],
     "tags": [
       "acantha leaf",
       "blue trafel mushroom",
@@ -37,13 +43,14 @@
       "Imaera's Lace",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "murdroot",
       "pepperthorn root",
       "pink clover blossom",
       "purple clover blossom",
       "red clover blossom",
+      "safflower seeds",
       "soft mushroom",
       "sprig of jasmine",
       "sprig of wild lilac",
@@ -52,6 +59,7 @@
       "stalk of goldenrod",
       "sunburst blossom",
       "talneo root",
+      "thistle seeds",
       "vert globe artichoke",
       "wavepetal blossom",
       "white clover blossom",
@@ -66,13 +74,6 @@
     ],
     "uid": [
       17005012
-    ],
-    "image": "en-aradhul-road-1308194332.png",
-    "image_coords": [
-      329,
-      708,
-      354,
-      729
     ]
   }
 }

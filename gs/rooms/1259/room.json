@@ -1,5 +1,4 @@
 {
-  "checksum": "ae4dc5df34742f78a5e3fcdd99c434ce",
   "room": {
     "id": 1259,
     "title": [
@@ -20,16 +19,25 @@
       "1194": "northeast",
       "1195": "east",
       "8722": "go thrak curtain",
-      "30708": "/rooms/1259/wayto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('wayto/room-1259-to-30708.rb')"
     },
     "timeto": {
       "1194": 0.2,
       "1195": 0.2,
       "8722": 0.2,
-      "30708": "/rooms/1259/timeto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('timeto/room-1259-to-30708.rb')"
     },
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      201,
+      354,
+      231,
+      384
+    ],
     "tags": [
-      "no forageables",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "node",
       "sanctuary",
       "supernode",
@@ -37,13 +45,6 @@
     ],
     "uid": [
       1118
-    ],
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      201,
-      354,
-      231,
-      384
     ]
   }
 }

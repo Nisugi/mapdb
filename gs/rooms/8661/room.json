@@ -1,5 +1,4 @@
 {
-  "checksum": "ae2cc61e2af59a421e1dd822c9ddd8ea",
   "room": {
     "id": 8661,
     "title": [
@@ -18,19 +17,21 @@
       "299": "go gate",
       "8662": "go entrance",
       "25659": "go door",
-      "30708": "/rooms/8661/wayto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('wayto/room-8661-to-30708.rb')"
     },
     "timeto": {
       "299": 0.2,
       "8662": 0.2,
       "25659": 0.2,
-      "30708": "/rooms/8661/timeto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('timeto/room-8661-to-30708.rb')"
     },
     "tags": [
       "bard guild",
       "bardguild",
+      "fire lily",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "stalk of bluebells",
       "urchin guide bardguild",
       "urchin-access"

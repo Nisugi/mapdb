@@ -1,5 +1,4 @@
 {
-  "checksum": "97de4220d085b52855f782565463f25b",
   "room": {
     "id": 2502,
     "title": [
@@ -15,13 +14,20 @@
     "climate": "snowy, arctic",
     "terrain": "coniferous forest",
     "wayto": {
-      "2501": "/rooms/2502/wayto/stringproc-2501.rb",
+      "2501": ";e Cartographer.evaluate_script('wayto/room-2502-to-2501.rb')",
       "2503": "climb branch"
     },
     "timeto": {
       "2501": 0.2,
       "2503": 0.2
     },
+    "image": "imt-trail-1264234799.png",
+    "image_coords": [
+      1189,
+      309,
+      1199,
+      319
+    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -35,7 +41,7 @@
       "ironfern root",
       "lingonberry",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "orange rowanberry",
       "pale thornberry",
       "pennyroyal stem",
@@ -67,13 +73,6 @@
     ],
     "uid": [
       4044214
-    ],
-    "image": "imt-trail-1264234799.png",
-    "image_coords": [
-      1189,
-      309,
-      1199,
-      319
     ]
   }
 }

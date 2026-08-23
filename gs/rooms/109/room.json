@@ -1,5 +1,4 @@
 {
-  "checksum": "7cd3ff5b15e6e2701c569a54be23d52e",
   "room": {
     "id": 109,
     "title": [
@@ -16,7 +15,7 @@
     "terrain": "mountainous",
     "wayto": {
       "108": "south",
-      "110": "/rooms/109/wayto/stringproc-110.rb",
+      "110": ";e Cartographer.evaluate_script('wayto/room-109-to-110.rb')",
       "1778": "northeast"
     },
     "timeto": {
@@ -24,6 +23,13 @@
       "110": 3,
       "1778": 0.2
     },
+    "image": "en-skull-1264234799.png",
+    "image_coords": [
+      474,
+      547,
+      484,
+      557
+    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -32,7 +38,7 @@
       "ironfern root",
       "marallis berry",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
       "pennyroyal stem",
       "red thanot berry",
@@ -47,13 +53,6 @@
     ],
     "uid": [
       13301171
-    ],
-    "image": "en-skull-1264234799.png",
-    "image_coords": [
-      474,
-      547,
-      484,
-      557
     ]
   }
 }

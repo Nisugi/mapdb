@@ -1,5 +1,4 @@
 {
-  "checksum": "e6c6b31b61ec8da8f8abdf941213b405",
   "room": {
     "id": 27065,
     "title": [
@@ -26,9 +25,17 @@
       "27067": 0.2,
       "27068": 0.2
     },
+    "image": "en-wildwood.png",
+    "image_coords": [
+      380,
+      1447,
+      431,
+      1495
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
+      "arbutus berry",
       "basal moss",
       "birch bark",
       "bloodwood twig",
@@ -45,6 +52,7 @@
       "ccf:2018",
       "coppery rain lily",
       "creamy white wisteria",
+      "crystal-like sylthiel",
       "curly leaf parsley",
       "daggerstalk mushroom",
       "dark blue honeyberries",
@@ -58,13 +66,14 @@
       "flat-leaf parsley",
       "flathead mushroom",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green pear",
       "haphip root",
       "lady slipper blossom",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "murdroot",
       "murkweed",
@@ -98,6 +107,7 @@
       "trollear mushroom",
       "twisted twig",
       "viburnum twig",
+      "violet sel'elun vine",
       "white baneberry",
       "white datura blossom",
       "white lily",
@@ -118,13 +128,6 @@
     ],
     "uid": [
       13130003
-    ],
-    "image": "en-wildwood.png",
-    "image_coords": [
-      380,
-      1447,
-      431,
-      1495
     ]
   }
 }

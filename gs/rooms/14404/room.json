@@ -1,5 +1,4 @@
 {
-  "checksum": "d8393346776d9574612b2fc5035b0f0b",
   "room": {
     "id": 14404,
     "title": [
@@ -14,16 +13,17 @@
     "location": "the town of Solhaven",
     "wayto": {
       "14403": "go steps",
-      "32712": "/rooms/14404/wayto/stringproc-32712.rb"
+      "32712": ";e Cartographer.evaluate_script('wayto/room-14404-to-32712.rb')"
     },
     "timeto": {
       "14403": 0.2,
       "32712": 0.2
     },
     "tags": [
+      "fire lily",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-11",
-      "no forageables"
+      "meta:forage-sensed:night:2026-08"
     ],
     "uid": [
       4749804

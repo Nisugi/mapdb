@@ -1,5 +1,4 @@
 {
-  "checksum": "1296cecc4844039a0579a124d61e4dce",
   "room": {
     "id": 4280,
     "title": [
@@ -16,12 +15,19 @@
     "terrain": "deciduous forest",
     "wayto": {
       "4279": "west",
-      "8142": "/rooms/4280/wayto/stringproc-8142.rb"
+      "8142": ";e Cartographer.evaluate_script('wayto/room-4280-to-8142.rb')"
     },
     "timeto": {
       "4279": 0.2,
       "8142": 0.2
     },
+    "image": "wl-mineroad-1264234799.png",
+    "image_coords": [
+      1253,
+      139,
+      1263,
+      149
+    ],
     "tags": [
       "acantha leaf",
       "blackberries",
@@ -44,6 +50,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "murkweed",
       "nightbloom blossom",
@@ -57,7 +64,7 @@
       "striped heart mushroom",
       "sun-wilted tea leaves",
       "tree bark",
-      "trollfear mushroom",
+      "trollear mushroom",
       "twisted twig",
       "walnuts",
       "white passionflower",
@@ -71,13 +78,6 @@
     ],
     "uid": [
       386063
-    ],
-    "image": "wl-mineroad-1264234799.png",
-    "image_coords": [
-      1253,
-      139,
-      1263,
-      149
     ]
   }
 }

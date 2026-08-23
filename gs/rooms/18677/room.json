@@ -1,5 +1,4 @@
 {
-  "checksum": "d1379856df38a3f65e88d87880338c88",
   "room": {
     "id": 18677,
     "title": [
@@ -16,16 +15,23 @@
     "terrain": "riparian",
     "wayto": {
       "11006": "go path",
-      "11749": "/rooms/18677/wayto/stringproc-11749.rb",
+      "11749": ";e Cartographer.evaluate_script('wayto/room-18677-to-11749.rb')",
       "18678": "go shack",
-      "30711": "/rooms/18677/wayto/stringproc-30711.rb"
+      "30711": ";e Cartographer.evaluate_script('wayto/room-18677-to-30711.rb')"
     },
     "timeto": {
       "11006": 0.2,
       "11749": 300,
       "18678": 0.2,
-      "30711": "/rooms/18677/timeto/stringproc-30711.rb"
+      "30711": ";e Cartographer.evaluate_script('timeto/room-18677-to-30711.rb')"
     },
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      2216,
+      1564,
+      2240,
+      1586
+    ],
     "tags": [
       "acantha leaf",
       "aloeas stem",
@@ -46,7 +52,7 @@
       "grapefruit",
       "kylan berry",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2026-01",
       "murdroot",
       "round yuzu",
@@ -66,13 +72,6 @@
     ],
     "uid": [
       2101039
-    ],
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      2216,
-      1564,
-      2240,
-      1586
     ]
   }
 }

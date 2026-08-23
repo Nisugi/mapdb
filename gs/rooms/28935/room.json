@@ -1,5 +1,4 @@
 {
-  "checksum": "2aaaf0718edcb18d45586b946bc0ae5b",
   "room": {
     "id": 28935,
     "title": [
@@ -16,17 +15,19 @@
     "wayto": {
       "28908": "out",
       "28936": "east",
-      "30716": "/rooms/28935/wayto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('wayto/room-28935-to-30716.rb')"
     },
     "timeto": {
       "28908": 0.2,
       "28936": 0.2,
-      "30716": "/rooms/28935/timeto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('timeto/room-28935-to-30716.rb')"
     },
     "tags": [
+      "fire lily",
       "locksmith",
       "locksmith shop",
-      "no forageables",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "urchin guide locksmith",
       "urchin-access"
     ],

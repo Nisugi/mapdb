@@ -1,5 +1,4 @@
 {
-  "checksum": "c656e1e13c299a63d1bca3a768a0be31",
   "room": {
     "id": 10781,
     "title": [
@@ -16,12 +15,19 @@
     "terrain": "rough",
     "wayto": {
       "4715": "south",
-      "18150": "/rooms/10781/wayto/stringproc-18150.rb"
+      "18150": ";e Cartographer.evaluate_script('wayto/room-10781-to-18150.rb')"
     },
     "timeto": {
       "4715": 0.2,
-      "18150": "/rooms/10781/timeto/stringproc-18150.rb"
+      "18150": ";e Cartographer.evaluate_script('timeto/room-10781-to-18150.rb')"
     },
+    "image": "en-gyldemar-1264234799.png",
+    "image_coords": [
+      225,
+      869,
+      235,
+      879
+    ],
     "tags": [
       "bright red teaberry",
       "broken twig",
@@ -30,7 +36,7 @@
       "ironfern root",
       "juniper berry",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "moonlight cactus-bloom",
       "sky-blue delphira",
       "sorcerer guild",
@@ -41,13 +47,6 @@
     ],
     "uid": [
       666001
-    ],
-    "image": "en-gyldemar-1264234799.png",
-    "image_coords": [
-      225,
-      869,
-      235,
-      879
     ]
   }
 }

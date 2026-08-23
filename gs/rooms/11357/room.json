@@ -1,5 +1,4 @@
 {
-  "checksum": "6613e8e1b998e530c79e68425a9b3f19",
   "room": {
     "id": 11357,
     "title": [
@@ -15,13 +14,20 @@
     "climate": "arid",
     "terrain": "rough",
     "wayto": {
-      "11355": "/rooms/11357/wayto/stringproc-11355.rb",
-      "11358": "/rooms/11357/wayto/stringproc-11358.rb"
+      "11355": ";e Cartographer.evaluate_script('wayto/room-11357-to-11355.rb')",
+      "11358": ";e Cartographer.evaluate_script('wayto/room-11357-to-11358.rb')"
     },
     "timeto": {
       "11355": 0.2,
       "11358": 3
     },
+    "image": "rr-citadel-1717856937.png",
+    "image_coords": [
+      236,
+      1338,
+      248,
+      1350
+    ],
     "tags": [
       "banana leaf",
       "blue poppy",
@@ -33,7 +39,7 @@
       "horseradish root",
       "hot pepper",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2026-01",
       "moonlight cactus-bloom",
       "pepperthorn root",
@@ -48,13 +54,6 @@
     ],
     "uid": [
       377017
-    ],
-    "image": "rr-citadel-1717856937.png",
-    "image_coords": [
-      236,
-      1338,
-      248,
-      1350
     ]
   }
 }

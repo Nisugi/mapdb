@@ -1,5 +1,4 @@
 {
-  "checksum": "4775292cbda869df87af1ec8d52631ee",
   "room": {
     "id": 30815,
     "title": [
@@ -15,17 +14,25 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "30816": "/rooms/30815/wayto/stringproc-30816.rb",
-      "30817": "/rooms/30815/wayto/stringproc-30817.rb"
+      "30816": ";e Cartographer.evaluate_script('wayto/room-30815-to-30816.rb')",
+      "30817": ";e Cartographer.evaluate_script('wayto/room-30815-to-30817.rb')"
     },
     "timeto": {
       "30816": 0.2,
       "30817": 3
     },
     "tags": [
+      "aloeas stem",
+      "alpine violet",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:nomagic"
+      "meta:forage-sensed:night:2026-08",
+      "meta:nomagic",
+      "murdroot",
+      "stalk of cattail",
+      "strand of seaweed",
+      "wavepetal blossom",
+      "wild gooseberry"
     ],
     "uid": [
       7138304

@@ -1,5 +1,4 @@
 {
-  "checksum": "6e0f20e12670cd457de4f64b25becb10",
   "room": {
     "id": 23528,
     "title": [
@@ -16,24 +15,32 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "18823": "/rooms/23528/wayto/stringproc-18823.rb",
-      "23527": "/rooms/23528/wayto/stringproc-23527.rb",
-      "25543": "/rooms/23528/wayto/stringproc-25543.rb",
-      "25544": "/rooms/23528/wayto/stringproc-25544.rb",
+      "18823": ";e Cartographer.evaluate_script('wayto/room-23528-to-18823.rb')",
+      "23527": ";e Cartographer.evaluate_script('wayto/room-23528-to-23527.rb')",
+      "25543": ";e Cartographer.evaluate_script('wayto/room-23528-to-25543.rb')",
+      "25544": ";e Cartographer.evaluate_script('wayto/room-23528-to-25544.rb')",
       "30512": "swim down"
     },
     "timeto": {
-      "18823": "/rooms/23528/timeto/stringproc-18823.rb",
-      "23527": "/rooms/23528/timeto/stringproc-23527.rb",
-      "25543": "/rooms/23528/timeto/stringproc-25543.rb",
-      "25544": "/rooms/23528/timeto/stringproc-25544.rb",
-      "30512": "/rooms/23528/timeto/stringproc-30512.rb"
+      "18823": ";e Cartographer.evaluate_script('timeto/room-23528-to-18823.rb')",
+      "23527": ";e Cartographer.evaluate_script('timeto/room-23528-to-23527.rb')",
+      "25543": ";e Cartographer.evaluate_script('timeto/room-23528-to-25543.rb')",
+      "25544": ";e Cartographer.evaluate_script('timeto/room-23528-to-25544.rb')",
+      "30512": ";e Cartographer.evaluate_script('timeto/room-23528-to-30512.rb')"
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1278,
+      846,
+      1303,
+      871
+    ],
     "tags": [
       "aloeas stem",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2024-05",
+      "meta:splashy",
       "murdroot",
       "orchil lichen",
       "stalk of cattail",
@@ -45,13 +52,6 @@
     ],
     "uid": [
       14117020
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1278,
-      846,
-      1303,
-      871
     ]
   }
 }

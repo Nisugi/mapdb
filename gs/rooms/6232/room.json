@@ -1,5 +1,4 @@
 {
-  "checksum": "88cdfe28b24e4608a93772014414c36d",
   "room": {
     "id": 6232,
     "title": [
@@ -15,16 +14,16 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "6222": "/rooms/6232/wayto/stringproc-6222.rb",
-      "6223": "/rooms/6232/wayto/stringproc-6223.rb",
-      "6224": "/rooms/6232/wayto/stringproc-6224.rb",
-      "6225": "/rooms/6232/wayto/stringproc-6225.rb",
-      "6229": "/rooms/6232/wayto/stringproc-6229.rb",
-      "6230": "/rooms/6232/wayto/stringproc-6230.rb",
-      "6231": "/rooms/6232/wayto/stringproc-6231.rb",
-      "6233": "/rooms/6232/wayto/stringproc-6233.rb",
-      "6234": "/rooms/6232/wayto/stringproc-6234.rb",
-      "6235": "/rooms/6232/wayto/stringproc-6235.rb"
+      "6222": ";e Cartographer.evaluate_script('wayto/room-6232-to-6222.rb')",
+      "6223": ";e Cartographer.evaluate_script('wayto/room-6232-to-6223.rb')",
+      "6224": ";e Cartographer.evaluate_script('wayto/room-6232-to-6224.rb')",
+      "6225": ";e Cartographer.evaluate_script('wayto/room-6232-to-6225.rb')",
+      "6229": ";e Cartographer.evaluate_script('wayto/room-6232-to-6229.rb')",
+      "6230": ";e Cartographer.evaluate_script('wayto/room-6232-to-6230.rb')",
+      "6231": ";e Cartographer.evaluate_script('wayto/room-6232-to-6231.rb')",
+      "6233": ";e Cartographer.evaluate_script('wayto/room-6232-to-6233.rb')",
+      "6234": ";e Cartographer.evaluate_script('wayto/room-6232-to-6234.rb')",
+      "6235": ";e Cartographer.evaluate_script('wayto/room-6232-to-6235.rb')"
     },
     "timeto": {
       "6222": 0.5,
@@ -38,6 +37,13 @@
       "6234": 0.5,
       "6235": 0.5
     },
+    "image": "wl-wehntoph-1310775397.png",
+    "image_coords": [
+      978,
+      318,
+      996,
+      336
+    ],
     "tags": [
       "black mushroom",
       "blue trafel mushroom",
@@ -45,7 +51,7 @@
       "cave moss",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2025-06",
       "murdroot",
       "red mushroom",
@@ -56,13 +62,6 @@
     ],
     "uid": [
       2167119
-    ],
-    "image": "wl-wehntoph-1310775397.png",
-    "image_coords": [
-      978,
-      318,
-      996,
-      336
     ]
   }
 }

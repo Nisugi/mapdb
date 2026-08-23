@@ -1,5 +1,4 @@
 {
-  "checksum": "0cde94fc1e1813587066705d9b101de0",
   "room": {
     "id": 18175,
     "title": [
@@ -16,7 +15,7 @@
     "terrain": "mountainous",
     "wayto": {
       "18174": "west",
-      "18176": "/rooms/18175/wayto/stringproc-18176.rb"
+      "18176": ";e Cartographer.evaluate_script('wayto/room-18175-to-18176.rb')"
     },
     "timeto": {
       "18174": 0.2,
@@ -32,6 +31,7 @@
       "marallis berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "pennyroyal stem",
       "sassafras leaf",
       "sprig of larkspur",

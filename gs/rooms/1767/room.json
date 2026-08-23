@@ -1,5 +1,4 @@
 {
-  "checksum": "13fb3238617bef1ef946ed080d9497df",
   "room": {
     "id": 1767,
     "title": [
@@ -18,28 +17,31 @@
     "timeto": {
       "13048": 0.2
     },
-    "tags": [
-      "meta:mapname:Adventurer's Guild",
-      "meta:mapcategory:Guilds",
-      "meta:mapcategory:Wehnimer's Landing",
-      "meta:mapcategory:Icemule Trace",
-      "meta:mapcategory:Vornavis",
-      "meta:mapcategory:River's Rest",
-      "meta:mapcategory:Isle of the Four Winds",
-      "meta:mapcategory:Teras Isle",
-      "meta:mapcategory:Zul Logoth",
-      "meta:mapcategory:Elven Nations",
-      "treasuremaster"
-    ],
-    "uid": [
-      15005004
-    ],
     "image": "adventurers_guild-1485358936.png",
     "image_coords": [
       1476,
       2697,
       1542,
       2764
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:mapcategory:Elven Nations",
+      "meta:mapcategory:Guilds",
+      "meta:mapcategory:Icemule Trace",
+      "meta:mapcategory:Isle of the Four Winds",
+      "meta:mapcategory:River's Rest",
+      "meta:mapcategory:Teras Isle",
+      "meta:mapcategory:Vornavis",
+      "meta:mapcategory:Wehnimer's Landing",
+      "meta:mapcategory:Zul Logoth",
+      "meta:mapname:Adventurer's Guild",
+      "treasuremaster"
+    ],
+    "uid": [
+      15005004
     ]
   }
 }

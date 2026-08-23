@@ -1,5 +1,4 @@
 {
-  "checksum": "186751c62df0ff8473b0c7ed6ca693d0",
   "room": {
     "id": 10780,
     "title": [
@@ -25,11 +24,19 @@
     "timeto": {
       "4844": 0.2,
       "4846": 0.2,
-      "27635": "/rooms/10780/timeto/stringproc-27635.rb"
+      "27635": ";e Cartographer.evaluate_script('timeto/room-10780-to-27635.rb')"
     },
+    "image": "en-gyldemar-1264234799.png",
+    "image_coords": [
+      404,
+      201,
+      414,
+      211
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
+      "arbutus berry",
       "basal moss",
       "birch bark",
       "bloodwood twig",
@@ -44,6 +51,7 @@
       "calamia fruit",
       "coppery rain lily",
       "creamy white wisteria",
+      "crystal-like sylthiel",
       "curly leaf parsley",
       "daggerstalk mushroom",
       "dark blue honeyberries",
@@ -57,13 +65,14 @@
       "flat-leaf parsley",
       "flathead mushroom",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green pear",
       "haphip root",
       "lady slipper blossom",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2025-08",
       "murdroot",
       "murkweed",
@@ -97,6 +106,7 @@
       "trollear mushroom",
       "twisted twig",
       "viburnum twig",
+      "violet sel'elun vine",
       "white baneberry",
       "white datura blossom",
       "white lily",
@@ -117,13 +127,6 @@
     ],
     "uid": [
       13028092
-    ],
-    "image": "en-gyldemar-1264234799.png",
-    "image_coords": [
-      404,
-      201,
-      414,
-      211
     ]
   }
 }

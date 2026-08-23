@@ -1,5 +1,4 @@
 {
-  "checksum": "2e5e950cb5b658957d72e1af2f764078",
   "room": {
     "id": 2166,
     "title": [
@@ -23,6 +22,13 @@
       "2164": 0.2,
       "2167": 0.2
     },
+    "image": "ti-vtull-1663120653.png",
+    "image_coords": [
+      1237,
+      294,
+      1247,
+      304
+    ],
     "tags": [
       "blue poppy",
       "broken twig",
@@ -36,6 +42,8 @@
       "hot pepper",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
+      "moonlight cactus-bloom",
       "pepperthorn root",
       "pink poppy",
       "purple poppy",
@@ -49,13 +57,6 @@
     ],
     "uid": [
       3052013
-    ],
-    "image": "ti-vtull-1663120653.png",
-    "image_coords": [
-      1237,
-      294,
-      1247,
-      304
     ]
   }
 }

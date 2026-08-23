@@ -1,5 +1,4 @@
 {
-  "checksum": "d19dc3c3036c569419c0fc4b9b50c9c3",
   "room": {
     "id": 3490,
     "title": [
@@ -24,7 +23,7 @@
       "5827": "go gate",
       "13518": "go building",
       "25588": "go ladder",
-      "30713": "/rooms/3490/wayto/stringproc-30713.rb"
+      "30713": ";e Cartographer.evaluate_script('wayto/room-3490-to-30713.rb')"
     },
     "timeto": {
       "3412": 0.2,
@@ -33,25 +32,27 @@
       "5827": 0.2,
       "13518": 0.2,
       "25588": 0.2,
-      "30713": "/rooms/3490/timeto/stringproc-30713.rb"
+      "30713": ";e Cartographer.evaluate_script('timeto/room-3490-to-30713.rb')"
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01",
-      "no forageables",
-      "urchin guide vermiliongate",
-      "urchin-access",
-      "vermiliongate"
-    ],
-    "uid": [
-      14100010
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       1151,
       253,
       1184,
       290
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells",
+      "urchin guide vermiliongate",
+      "urchin-access",
+      "vermiliongate",
+      "wild sage"
+    ],
+    "uid": [
+      14100010
     ]
   }
 }

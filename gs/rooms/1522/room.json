@@ -1,5 +1,4 @@
 {
-  "checksum": "a876678b7220377349d6aec3ec28c42a",
   "room": {
     "id": 1522,
     "title": [
@@ -21,21 +20,23 @@
     },
     "timeto": {
       "1519": 0.2,
-      "33276": "/rooms/1522/timeto/stringproc-33276.rb"
+      "33276": ";e Cartographer.evaluate_script('timeto/room-1522-to-33276.rb')"
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      4902049
-    ],
     "image": "vo-solhaven-1675635404.png",
     "image_coords": [
       1307,
       1143,
       1331,
       1167
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      4902049
     ]
   }
 }

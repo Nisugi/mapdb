@@ -1,5 +1,4 @@
 {
-  "checksum": "bf6a3d1a224bdd09948126d10bd8fddf",
   "room": {
     "id": 13255,
     "title": [
@@ -19,7 +18,7 @@
       "13259": "go door",
       "13271": "northwest",
       "13275": "northeast",
-      "30714": "/rooms/13255/wayto/stringproc-30714.rb"
+      "30714": ";e Cartographer.evaluate_script('wayto/room-13255-to-30714.rb')"
     },
     "timeto": {
       "193": 0.2,
@@ -28,26 +27,28 @@
       "13259": 0.2,
       "13271": 0.2,
       "13275": 0.2,
-      "30714": "/rooms/13255/timeto/stringproc-30714.rb"
+      "30714": ";e Cartographer.evaluate_script('timeto/room-13255-to-30714.rb')"
     },
-    "tags": [
-      "houselockers",
-      "inn",
-      "losthome",
-      "no forageables",
-      "urchin guide inn",
-      "urchin guide losthome",
-      "urchin-access"
-    ],
-    "uid": [
-      13112001
-    ],
     "image": "en-ta_illistim_buildings.png",
     "image_coords": [
       588,
       576,
       644,
       632
+    ],
+    "tags": [
+      "fire lily",
+      "houselockers",
+      "inn",
+      "losthome",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "urchin guide inn",
+      "urchin guide losthome",
+      "urchin-access"
+    ],
+    "uid": [
+      13112001
     ]
   }
 }

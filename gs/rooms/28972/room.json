@@ -1,5 +1,4 @@
 {
-  "checksum": "3d1026a0976f561352ba2df5cd9386b3",
   "room": {
     "id": 28972,
     "title": [
@@ -14,14 +13,16 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28958": "out",
-      "30716": "/rooms/28972/wayto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('wayto/room-28972-to-30716.rb')"
     },
     "timeto": {
       "28958": 0.2,
-      "30716": "/rooms/28972/timeto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('timeto/room-28972-to-30716.rb')"
     },
     "tags": [
-      "no forageables",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "osaguild",
       "roles",
       "urchin guide osaguild",

@@ -1,5 +1,4 @@
 {
-  "checksum": "28df5d5656108e9752a58babc142ced2",
   "room": {
     "id": 29094,
     "title": [
@@ -20,18 +19,20 @@
     "timeto": {
       "29093": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      7131006
-    ],
     "image": "kf-widowmakers_road-1668643957.png",
     "image_coords": [
       310,
       152,
       323,
       164
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      7131006
     ]
   }
 }

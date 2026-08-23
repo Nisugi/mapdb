@@ -1,5 +1,4 @@
 {
-  "checksum": "23dafbcbfdc26a97f06ff74164c6efbd",
   "room": {
     "id": 11711,
     "title": [
@@ -22,19 +21,20 @@
       "11710": 0.2,
       "11712": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      376040
-    ],
     "image": "rr-marsh_keep-1266356986.png",
     "image_coords": [
       867,
       1085,
       877,
       1095
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      376040
     ]
   }
 }

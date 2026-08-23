@@ -1,5 +1,4 @@
 {
-  "checksum": "2ec2cd4c07178d8f49063d7a8b7bc28f",
   "room": {
     "id": 5612,
     "title": [
@@ -14,18 +13,19 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "4610": "go doorway",
-      "30708": "/rooms/5612/wayto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('wayto/room-5612-to-30708.rb')"
     },
     "timeto": {
       "4610": 0.2,
-      "30708": "/rooms/5612/timeto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('timeto/room-5612-to-30708.rb')"
     },
     "tags": [
+      "fire lily",
       "locksmith",
       "locksmith shop",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-11",
-      "no forageables",
+      "meta:forage-sensed:night:2026-08",
       "urchin guide locksmith",
       "urchin-access"
     ],

@@ -1,5 +1,4 @@
 {
-  "checksum": "251e7f5ade4007453239e7eac6e4137b",
   "room": {
     "id": 7477,
     "title": [
@@ -13,32 +12,34 @@
     ],
     "location": "the Broken Lands",
     "wayto": {
-      "7461": "/rooms/7477/wayto/stringproc-7461.rb",
-      "7476": "/rooms/7477/wayto/stringproc-7476.rb",
-      "7478": "/rooms/7477/wayto/stringproc-7478.rb"
+      "7461": ";e Cartographer.evaluate_script('wayto/room-7477-to-7461.rb')",
+      "7476": ";e Cartographer.evaluate_script('wayto/room-7477-to-7476.rb')",
+      "7478": ";e Cartographer.evaluate_script('wayto/room-7477-to-7478.rb')"
     },
     "timeto": {
       "7461": 0.2,
       "7476": 0.2,
       "7478": 0.2
     },
-    "tags": [
-      "bone mushroom",
-      "magru",
-      "some blackened moss",
-      "some cave moss",
-      "some glowing green lichen",
-      "sponge mushroom"
-    ],
-    "uid": [
-      94019
-    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       862,
       827,
       872,
       837
+    ],
+    "tags": [
+      "blackened moss",
+      "bone mushroom",
+      "cave moss",
+      "glowing green lichen",
+      "magru",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "sponge mushroom"
+    ],
+    "uid": [
+      94019
     ]
   }
 }

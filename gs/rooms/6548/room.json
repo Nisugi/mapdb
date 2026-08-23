@@ -1,5 +1,4 @@
 {
-  "checksum": "6c261d14fc79715020edd5c70022dd0f",
   "room": {
     "id": 6548,
     "title": [
@@ -22,6 +21,13 @@
       "6547": 0.2,
       "6549": 0.2
     },
+    "image": "wl-lysierian-1264234799.png",
+    "image_coords": [
+      958,
+      940,
+      968,
+      950
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -39,6 +45,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "oak twig",
       "pennyroyal stem",
@@ -66,13 +73,6 @@
     ],
     "uid": [
       4286060
-    ],
-    "image": "wl-lysierian-1264234799.png",
-    "image_coords": [
-      958,
-      940,
-      968,
-      950
     ]
   }
 }

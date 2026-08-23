@@ -1,5 +1,4 @@
 {
-  "checksum": "f052767b2f76ef8a4e88a74636b6fe84",
   "room": {
     "id": 10937,
     "title": [
@@ -15,18 +14,19 @@
     "wayto": {
       "10846": "out",
       "10938": "west",
-      "30711": "/rooms/10937/wayto/stringproc-30711.rb"
+      "30711": ";e Cartographer.evaluate_script('wayto/room-10937-to-30711.rb')"
     },
     "timeto": {
       "10846": 0.2,
       "10938": 0.2,
-      "30711": "/rooms/10937/timeto/stringproc-30711.rb"
+      "30711": ";e Cartographer.evaluate_script('timeto/room-10937-to-30711.rb')"
     },
     "tags": [
       "armorshop",
+      "fire lily",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
-      "no forageables",
+      "meta:forage-sensed:night:2026-08",
       "urchin guide weapons",
       "urchin-access",
       "weapons",

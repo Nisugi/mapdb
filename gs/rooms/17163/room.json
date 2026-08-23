@@ -1,5 +1,4 @@
 {
-  "checksum": "624bfcfb84e6545d5b90945149088fe8",
   "room": {
     "id": 17163,
     "title": [
@@ -15,12 +14,12 @@
     "wayto": {
       "4681": "south",
       "17164": "north",
-      "30717": "/rooms/17163/wayto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('wayto/room-17163-to-30717.rb')"
     },
     "timeto": {
       "4681": 0.2,
       "17164": 0.2,
-      "30717": "/rooms/17163/timeto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('timeto/room-17163-to-30717.rb')"
     },
     "tags": [
       "alchemy",
@@ -34,6 +33,7 @@
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "pepperthorn root",
       "soft mushroom",

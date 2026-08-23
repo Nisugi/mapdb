@@ -1,5 +1,4 @@
 {
-  "checksum": "5d668f59b39d39e71e9719d38760f3a2",
   "room": {
     "id": 25618,
     "title": [
@@ -15,24 +14,32 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "18841": "/rooms/25618/wayto/stringproc-18841.rb",
-      "18842": "/rooms/25618/wayto/stringproc-18842.rb",
-      "25617": "/rooms/25618/wayto/stringproc-25617.rb",
-      "25619": "/rooms/25618/wayto/stringproc-25619.rb",
+      "18841": ";e Cartographer.evaluate_script('wayto/room-25618-to-18841.rb')",
+      "18842": ";e Cartographer.evaluate_script('wayto/room-25618-to-18842.rb')",
+      "25617": ";e Cartographer.evaluate_script('wayto/room-25618-to-25617.rb')",
+      "25619": ";e Cartographer.evaluate_script('wayto/room-25618-to-25619.rb')",
       "30507": "swim down"
     },
     "timeto": {
-      "18841": "/rooms/25618/timeto/stringproc-18841.rb",
-      "18842": "/rooms/25618/timeto/stringproc-18842.rb",
-      "25617": "/rooms/25618/timeto/stringproc-25617.rb",
-      "25619": "/rooms/25618/timeto/stringproc-25619.rb",
-      "30507": "/rooms/25618/timeto/stringproc-30507.rb"
+      "18841": ";e Cartographer.evaluate_script('timeto/room-25618-to-18841.rb')",
+      "18842": ";e Cartographer.evaluate_script('timeto/room-25618-to-18842.rb')",
+      "25617": ";e Cartographer.evaluate_script('timeto/room-25618-to-25617.rb')",
+      "25619": ";e Cartographer.evaluate_script('timeto/room-25618-to-25619.rb')",
+      "30507": ";e Cartographer.evaluate_script('timeto/room-25618-to-30507.rb')"
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1204,
+      730,
+      1222,
+      750
+    ],
     "tags": [
       "aloeas stem",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2024-05",
+      "meta:splashy",
       "murdroot",
       "orchil lichen",
       "stalk of cattail",
@@ -44,13 +51,6 @@
     ],
     "uid": [
       14117013
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1204,
-      730,
-      1222,
-      750
     ]
   }
 }

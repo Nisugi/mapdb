@@ -1,5 +1,4 @@
 {
-  "checksum": "a0e94dbff8c613bed55915472acccc50",
   "room": {
     "id": 25614,
     "title": [
@@ -15,18 +14,26 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "23527": "/rooms/25614/wayto/stringproc-23527.rb",
-      "25544": "/rooms/25614/wayto/stringproc-25544.rb"
+      "23527": ";e Cartographer.evaluate_script('wayto/room-25614-to-23527.rb')",
+      "25544": ";e Cartographer.evaluate_script('wayto/room-25614-to-25544.rb')"
     },
     "timeto": {
-      "23527": "/rooms/25614/timeto/stringproc-23527.rb",
-      "25544": "/rooms/25614/timeto/stringproc-25544.rb"
+      "23527": ";e Cartographer.evaluate_script('timeto/room-25614-to-23527.rb')",
+      "25544": ";e Cartographer.evaluate_script('timeto/room-25614-to-25544.rb')"
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1243,
+      930,
+      1261,
+      949
+    ],
     "tags": [
       "aloeas stem",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2024-05",
+      "meta:splashy",
       "murdroot",
       "orchil lichen",
       "stalk of cattail",
@@ -38,13 +45,6 @@
     ],
     "uid": [
       14117023
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1243,
-      930,
-      1261,
-      949
     ]
   }
 }

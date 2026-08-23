@@ -1,5 +1,4 @@
 {
-  "checksum": "52e3f80d3c26374a35ca61c9f6d126f2",
   "room": {
     "id": 10838,
     "title": [
@@ -17,31 +16,38 @@
     "climate": "moist",
     "terrain": "riparian",
     "wayto": {
-      "250": "/rooms/10838/wayto/stringproc-250.rb",
-      "1870": "/rooms/10838/wayto/stringproc-1870.rb",
+      "250": ";e Cartographer.evaluate_script('wayto/room-10838-to-250.rb')",
+      "1870": ";e Cartographer.evaluate_script('wayto/room-10838-to-1870.rb')",
       "10839": "east",
       "10840": "go weeds",
-      "11756": "/rooms/10838/wayto/stringproc-11756.rb",
-      "29033": "/rooms/10838/wayto/stringproc-29033.rb",
+      "11756": ";e Cartographer.evaluate_script('wayto/room-10838-to-11756.rb')",
+      "29033": ";e Cartographer.evaluate_script('wayto/room-10838-to-29033.rb')",
       "29577": "go grasses",
-      "30711": "/rooms/10838/wayto/stringproc-30711.rb",
-      "31493": "/rooms/10838/wayto/stringproc-31493.rb",
-      "32372": "/rooms/10838/wayto/stringproc-32372.rb",
-      "32928": "/rooms/10838/wayto/stringproc-32928.rb"
+      "30711": ";e Cartographer.evaluate_script('wayto/room-10838-to-30711.rb')",
+      "31493": ";e Cartographer.evaluate_script('wayto/room-10838-to-31493.rb')",
+      "32372": ";e Cartographer.evaluate_script('wayto/room-10838-to-32372.rb')",
+      "32928": ";e Cartographer.evaluate_script('wayto/room-10838-to-32928.rb')"
     },
     "timeto": {
-      "250": "/rooms/10838/timeto/stringproc-250.rb",
-      "1870": "/rooms/10838/timeto/stringproc-1870.rb",
+      "250": ";e Cartographer.evaluate_script('timeto/room-10838-to-250.rb')",
+      "1870": ";e Cartographer.evaluate_script('timeto/room-10838-to-1870.rb')",
       "10839": 0.2,
       "10840": 0.2,
-      "11756": "/rooms/10838/timeto/stringproc-11756.rb",
-      "29033": "/rooms/10838/timeto/stringproc-29033.rb",
+      "11756": ";e Cartographer.evaluate_script('timeto/room-10838-to-11756.rb')",
+      "29033": ";e Cartographer.evaluate_script('timeto/room-10838-to-29033.rb')",
       "29577": 0.2,
-      "30711": "/rooms/10838/timeto/stringproc-30711.rb",
-      "31493": "/rooms/10838/timeto/stringproc-31493.rb",
-      "32372": "/rooms/10838/timeto/stringproc-32372.rb",
-      "32928": "/rooms/10838/timeto/stringproc-32928.rb"
+      "30711": ";e Cartographer.evaluate_script('timeto/room-10838-to-30711.rb')",
+      "31493": ";e Cartographer.evaluate_script('timeto/room-10838-to-31493.rb')",
+      "32372": ";e Cartographer.evaluate_script('timeto/room-10838-to-32372.rb')",
+      "32928": ";e Cartographer.evaluate_script('timeto/room-10838-to-32928.rb')"
     },
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      2342,
+      1242,
+      2381,
+      1281
+    ],
     "tags": [
       "acantha leaf",
       "aloeas stem",
@@ -62,8 +68,8 @@
       "grapefruit",
       "kylan berry",
       "meta:forage-sensed",
-      "meta:forage-sensed:???:2026-01",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "portmaster",
       "round yuzu",
@@ -91,13 +97,6 @@
     ],
     "uid": [
       2101030
-    ],
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      2342,
-      1242,
-      2381,
-      1281
     ]
   }
 }

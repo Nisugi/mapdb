@@ -1,5 +1,4 @@
 {
-  "checksum": "e8c8ef18d30402b4a4f4dd030567212e",
   "room": {
     "id": 13330,
     "title": [
@@ -22,8 +21,16 @@
       "13328": 0.2,
       "13331": 0.2
     },
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      1405,
+      357,
+      1423,
+      371
+    ],
     "tags": [
       "angelica root",
+      "arbutus berry",
       "black peppercorn",
       "blaestonberries",
       "blaestonberry blossom",
@@ -37,6 +44,7 @@
       "cardamom",
       "chives",
       "creamy white wisteria",
+      "crystal-like sylthiel",
       "cumin seeds",
       "curly leaf parsley",
       "daggerstalk mushroom",
@@ -52,6 +60,7 @@
       "fresh broccoli",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green beans",
       "green cabbage",
@@ -71,6 +80,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "mustard seeds",
       "nightbloom blossom",
@@ -100,6 +110,7 @@
       "rhubarb",
       "rose-marrow root",
       "round red radish",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small anemone",
@@ -134,12 +145,14 @@
       "sunflower seeds",
       "sweet onion",
       "tendril of vinca",
+      "thistle seeds",
       "thyme",
       "tiger lily",
-      "trollfear mushroom",
+      "trollear mushroom",
       "vanilla bean",
       "vert globe artichoke",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "white begonia",
       "white datura blossom",
@@ -149,8 +162,10 @@
       "white peony",
       "white ramie",
       "wild pansy blossom",
+      "wild rice",
       "wild spinach",
       "withered mushroom",
+      "yellow carrot",
       "yellow datura blossom",
       "yellow squash",
       "yew twig",
@@ -158,13 +173,6 @@
     ],
     "uid": [
       710108
-    ],
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      1405,
-      357,
-      1423,
-      371
     ]
   }
 }

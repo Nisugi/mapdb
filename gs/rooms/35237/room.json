@@ -1,5 +1,4 @@
 {
-  "checksum": "04df27fcfe5262e1889c08b05fdacbe0",
   "room": {
     "id": 35237,
     "title": [
@@ -14,13 +13,11 @@
     "location": "Kraken's Fall",
     "wayto": {
       "35234": "south",
-      "35236": "w",
-      "36724": "go stairs"
+      "35236": "w"
     },
     "timeto": {
       "35234": 0.2,
-      "35236": 0.2,
-      "36724": 0.2
+      "35236": 0.2
     },
     "tags": [
       "angelica root",
@@ -35,6 +32,7 @@
       "date palm fronds",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "nutmeg",
       "phoenix palm frond",

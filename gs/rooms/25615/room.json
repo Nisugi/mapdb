@@ -1,5 +1,4 @@
 {
-  "checksum": "f99c88aa9355a78dcc0f8f24a3e66774",
   "room": {
     "id": 25615,
     "title": [
@@ -15,24 +14,32 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "18823": "/rooms/25615/wayto/stringproc-18823.rb",
-      "25543": "/rooms/25615/wayto/stringproc-25543.rb",
-      "25544": "/rooms/25615/wayto/stringproc-25544.rb",
-      "25616": "/rooms/25615/wayto/stringproc-25616.rb",
+      "18823": ";e Cartographer.evaluate_script('wayto/room-25615-to-18823.rb')",
+      "25543": ";e Cartographer.evaluate_script('wayto/room-25615-to-25543.rb')",
+      "25544": ";e Cartographer.evaluate_script('wayto/room-25615-to-25544.rb')",
+      "25616": ";e Cartographer.evaluate_script('wayto/room-25615-to-25616.rb')",
       "30511": "swim down"
     },
     "timeto": {
-      "18823": "/rooms/25615/timeto/stringproc-18823.rb",
-      "25543": "/rooms/25615/timeto/stringproc-25543.rb",
-      "25544": "/rooms/25615/timeto/stringproc-25544.rb",
-      "25616": "/rooms/25615/timeto/stringproc-25616.rb",
-      "30511": "/rooms/25615/timeto/stringproc-30511.rb"
+      "18823": ";e Cartographer.evaluate_script('timeto/room-25615-to-18823.rb')",
+      "25543": ";e Cartographer.evaluate_script('timeto/room-25615-to-25543.rb')",
+      "25544": ";e Cartographer.evaluate_script('timeto/room-25615-to-25544.rb')",
+      "25616": ";e Cartographer.evaluate_script('timeto/room-25615-to-25616.rb')",
+      "30511": ";e Cartographer.evaluate_script('timeto/room-25615-to-30511.rb')"
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1203,
+      852,
+      1221,
+      870
+    ],
     "tags": [
       "aloeas stem",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2024-05",
+      "meta:splashy",
       "murdroot",
       "orchil lichen",
       "stalk of cattail",
@@ -44,13 +51,6 @@
     ],
     "uid": [
       14117018
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1203,
-      852,
-      1221,
-      870
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "c1a6312e78f8a91d972e8c13b253fee8",
   "room": {
     "id": 2522,
     "title": [
@@ -15,20 +14,27 @@
     "climate": "glacial",
     "terrain": "mountainous",
     "wayto": {
-      "2521": "/rooms/2522/wayto/stringproc-2521.rb",
-      "2523": "/rooms/2522/wayto/stringproc-2523.rb"
+      "2521": ";e Cartographer.evaluate_script('wayto/room-2522-to-2521.rb')",
+      "2523": ";e Cartographer.evaluate_script('wayto/room-2522-to-2523.rb')"
     },
     "timeto": {
       "2521": 0.2,
       "2523": 0.2
     },
+    "image": "imt-trail-1264234799.png",
+    "image_coords": [
+      1066,
+      554,
+      1076,
+      564
+    ],
     "tags": [
       "angelica root",
       "arctic moss",
       "calamintha blossom",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "pale thornberry",
       "pennyroyal stem",
       "red winterberry",
@@ -43,13 +49,6 @@
     ],
     "uid": [
       4044115
-    ],
-    "image": "imt-trail-1264234799.png",
-    "image_coords": [
-      1066,
-      554,
-      1076,
-      564
     ]
   }
 }

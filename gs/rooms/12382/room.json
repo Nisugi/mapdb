@@ -1,5 +1,4 @@
 {
-  "checksum": "c7f87029aa1877bb98f552e32418a33f",
   "room": {
     "id": 12382,
     "title": [
@@ -17,26 +16,27 @@
     "terrain": "hard, flat",
     "wayto": {
       "1988": "go path",
-      "12383": "/rooms/12382/wayto/stringproc-12383.rb"
+      "12383": ";e Cartographer.evaluate_script('wayto/room-12382-to-12383.rb')"
     },
     "timeto": {
       "1988": 0.2,
       "12383": 0.6
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01",
-      "no forageables"
-    ],
-    "uid": [
-      3008010
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       203,
       180,
       239,
       216
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      3008010
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "d9fa19a989635a6ac91c2f47c5ea70bb",
   "room": {
     "id": 16011,
     "title": [
@@ -186,9 +185,9 @@
     ],
     "location": "the Karazja Jungle",
     "wayto": {
-      "11022": "/rooms/16011/wayto/stringproc-11022.rb",
-      "16256": "/rooms/16011/wayto/stringproc-16256.rb",
-      "16270": "/rooms/16011/wayto/stringproc-16270.rb"
+      "11022": ";e Cartographer.evaluate_script('wayto/room-16011-to-11022.rb')",
+      "16256": ";e Cartographer.evaluate_script('wayto/room-16011-to-16256.rb')",
+      "16270": ";e Cartographer.evaluate_script('wayto/room-16011-to-16270.rb')"
     },
     "timeto": {
       "11022": 10,
@@ -227,7 +226,7 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-01",
-      "meta:forage-sensed:night:2026-01",
+      "meta:forage-sensed:night:2026-08",
       "mulberry fronds",
       "murdroot",
       "nutmeg",

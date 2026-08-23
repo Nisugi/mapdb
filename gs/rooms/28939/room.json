@@ -1,5 +1,4 @@
 {
-  "checksum": "299bf8c0a20e2a8fde9a000a9687002c",
   "room": {
     "id": 28939,
     "title": [
@@ -14,15 +13,17 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28938": "east",
-      "30716": "/rooms/28939/wayto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('wayto/room-28939-to-30716.rb')"
     },
     "timeto": {
       "28938": 0.2,
-      "30716": "/rooms/28939/timeto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('timeto/room-28939-to-30716.rb')"
     },
     "tags": [
+      "fire lily",
       "healer",
-      "no forageables",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "npchealer",
       "urchin guide healer",
       "urchin-access"

@@ -1,5 +1,4 @@
 {
-  "checksum": "cb4514e6a2cf00faf0d5f91076064b92",
   "room": {
     "id": 5080,
     "title": [
@@ -22,11 +21,19 @@
       "5078": 0.2,
       "5081": 0.2
     },
+    "image": "vo-caravansary-1264234799.png",
+    "image_coords": [
+      206,
+      388,
+      216,
+      398
+    ],
     "tags": [
       "blades of cordgrass",
       "blue-green marshgrass",
       "blueberries",
       "bright red teaberry",
+      "bright yellow sunwort",
       "broken twig",
       "cactacae spine",
       "elderberries",
@@ -40,7 +47,7 @@
       "ironfern root",
       "long green okra",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "pepperthorn root",
       "pink clover blossom",
       "purple clover blossom",
@@ -52,6 +59,7 @@
       "stalk of chicory",
       "stalk of goldenrod",
       "sunburst blossom",
+      "thistle seeds",
       "white clover blossom",
       "wild chokecherry",
       "wild grapes",
@@ -65,13 +73,6 @@
     ],
     "uid": [
       4212124
-    ],
-    "image": "vo-caravansary-1264234799.png",
-    "image_coords": [
-      206,
-      388,
-      216,
-      398
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "40ba22d476fe5538339b6138c41a9c96",
   "room": {
     "id": 2831,
     "title": [
@@ -17,52 +16,58 @@
     "terrain": "mountainous",
     "wayto": {
       "2830": "down",
-      "2832": "/rooms/2831/wayto/stringproc-2832.rb"
+      "2832": ";e Cartographer.evaluate_script('wayto/room-2831-to-2832.rb')"
     },
     "timeto": {
       "2830": 0.2,
       "2832": 0.6
     },
-    "tags": [
-      "angelica root",
-      "arctic moss",
-      "bolmara lichen",
-      "calamintha blossom",
-      "crowberry",
-      "edelweiss",
-      "golden aster",
-      "handful of snowberries",
-      "iceblossoms",
-      "ironfern root",
-      "lingonberry",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11",
-      "orange rowanberry",
-      "pale thornberry",
-      "pennyroyal stem",
-      "red winterberry",
-      "rockberry",
-      "sassafras leaf",
-      "small loganberry",
-      "snow lily",
-      "snowberries",
-      "sprig of edelweiss",
-      "sunburst blossom",
-      "sweetfern stalk",
-      "tundra grass",
-      "valerian root",
-      "wingstem root",
-      "winter rose"
-    ],
-    "uid": [
-      4563007
-    ],
     "image": "imt-pinefar-1264234799.png",
     "image_coords": [
       564,
       1308,
       576,
       1320
+    ],
+    "tags": [
+      "angelica root",
+      "arctic moss",
+      "bolmara lichen",
+      "calamintha blossom",
+      "crowberry",
+      "dwarf bilberry",
+      "edelweiss",
+      "giant's lace",
+      "glassfern frond",
+      "golden aster",
+      "green glacierberry",
+      "iceblossoms",
+      "ironfern root",
+      "lingonberry",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:night:2026-08",
+      "orange rowanberry",
+      "pale thornberry",
+      "pennyroyal stem",
+      "red winterberry",
+      "resting poppy",
+      "rockberry",
+      "sassafras leaf",
+      "silver iceblossom",
+      "small loganberry",
+      "snow lily",
+      "snowberries",
+      "sunburst blossom",
+      "sweetfern stalk",
+      "tundra grass",
+      "valerian root",
+      "wingstem root",
+      "winter rose",
+      "wintercrisp apple"
+    ],
+    "uid": [
+      4563007
     ]
   }
 }

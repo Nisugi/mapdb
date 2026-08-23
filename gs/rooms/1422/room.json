@@ -1,5 +1,4 @@
 {
-  "checksum": "a3b0519c1eb5b3a83046ff2b381efb07",
   "room": {
     "id": 1422,
     "title": [
@@ -24,6 +23,13 @@
       "1423": 0.2,
       "4618": 0.2
     },
+    "image": "vo-caravansary-1264234799.png",
+    "image_coords": [
+      1042,
+      596,
+      1052,
+      606
+    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -36,12 +42,14 @@
       "cumin seeds",
       "dark blue honeyberries",
       "ghost pepper",
+      "golden yellow shadesbane",
       "heath aster",
       "hot pepper",
       "ironfern root",
       "juniper berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "murdroot",
       "nutmeg",
@@ -67,13 +75,6 @@
     ],
     "uid": [
       2130202
-    ],
-    "image": "vo-caravansary-1264234799.png",
-    "image_coords": [
-      1042,
-      596,
-      1052,
-      606
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "593845e27e3b2798d5e6e09bbc69aa96",
   "room": {
     "id": 2845,
     "title": [
@@ -24,6 +23,13 @@
       "2846": 0.2,
       "2847": 0.2
     },
+    "image": "imt-pinefar-1264234799.png",
+    "image_coords": [
+      301,
+      1084,
+      311,
+      1094
+    ],
     "tags": [
       "angelica root",
       "arctic moss",
@@ -41,6 +47,7 @@
       "lingonberry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "orange rowanberry",
       "pale thornberry",
       "pennyroyal stem",
@@ -62,13 +69,6 @@
     ],
     "uid": [
       4565013
-    ],
-    "image": "imt-pinefar-1264234799.png",
-    "image_coords": [
-      301,
-      1084,
-      311,
-      1094
     ]
   }
 }

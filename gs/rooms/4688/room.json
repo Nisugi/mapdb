@@ -1,5 +1,4 @@
 {
-  "checksum": "dc313067341b57005fa3e1a0bab22461",
   "room": {
     "id": 4688,
     "title": [
@@ -15,13 +14,13 @@
     "location": "Cysaegir",
     "wayto": {
       "4687": "northwest",
-      "26096": "/rooms/4688/wayto/stringproc-26096.rb",
-      "26097": "/rooms/4688/wayto/stringproc-26097.rb",
-      "26105": "/rooms/4688/wayto/stringproc-26105.rb",
-      "26106": "/rooms/4688/wayto/stringproc-26106.rb",
-      "26107": "/rooms/4688/wayto/stringproc-26107.rb",
+      "26096": ";e Cartographer.evaluate_script('wayto/room-4688-to-26096.rb')",
+      "26097": ";e Cartographer.evaluate_script('wayto/room-4688-to-26097.rb')",
+      "26105": ";e Cartographer.evaluate_script('wayto/room-4688-to-26105.rb')",
+      "26106": ";e Cartographer.evaluate_script('wayto/room-4688-to-26106.rb')",
+      "26107": ";e Cartographer.evaluate_script('wayto/room-4688-to-26107.rb')",
       "29540": "go mahogany bar",
-      "30717": "/rooms/4688/wayto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('wayto/room-4688-to-30717.rb')"
     },
     "timeto": {
       "4687": 0.2,
@@ -31,11 +30,12 @@
       "26106": 0.2,
       "26107": 0.2,
       "29540": 0.2,
-      "30717": "/rooms/4688/timeto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('timeto/room-4688-to-30717.rb')"
     },
     "tags": [
+      "fire lily",
       "meta:forage-sensed",
-      "no forageables",
+      "meta:forage-sensed:night:2026-08",
       "table",
       "tables",
       "urchin guide tables",

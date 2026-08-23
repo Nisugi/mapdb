@@ -1,5 +1,4 @@
 {
-  "checksum": "596f9c4fbe65c3be04df9584e9c0f9f6",
   "room": {
     "id": 10000,
     "title": [
@@ -21,6 +20,13 @@
     "timeto": {
       "9999": 0.2
     },
+    "image": "en-sylvarraend-1264234799.png",
+    "image_coords": [
+      1270,
+      691,
+      1280,
+      701
+    ],
     "tags": [
       "blueberries",
       "bright red teaberry",
@@ -37,7 +43,7 @@
       "leafy arugula",
       "leek",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "motherwort",
       "pepperthorn root",
       "pink clover blossom",
@@ -64,13 +70,6 @@
     ],
     "uid": [
       13035324
-    ],
-    "image": "en-sylvarraend-1264234799.png",
-    "image_coords": [
-      1270,
-      691,
-      1280,
-      701
     ]
   }
 }

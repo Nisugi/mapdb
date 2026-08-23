@@ -1,5 +1,4 @@
 {
-  "checksum": "3b77a9646b7419535e0733a3078ee90e",
   "room": {
     "id": 32595,
     "title": [
@@ -15,12 +14,12 @@
     "climate": "temperate",
     "terrain": "grassland",
     "wayto": {
-      "30716": "/rooms/32595/wayto/stringproc-30716.rb",
+      "30716": ";e Cartographer.evaluate_script('wayto/room-32595-to-30716.rb')",
       "30817": "west",
       "32596": "go cobblestone cottage"
     },
     "timeto": {
-      "30716": "/rooms/32595/timeto/stringproc-30716.rb",
+      "30716": ";e Cartographer.evaluate_script('timeto/room-32595-to-30716.rb')",
       "30817": 0.2,
       "32596": 0.2
     },
@@ -70,6 +69,7 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "monkey grass",
       "motherwort",
       "murdroot",

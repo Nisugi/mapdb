@@ -1,5 +1,4 @@
 {
-  "checksum": "813b33019b27a85d1c48619ff88bbf04",
   "room": {
     "id": 8671,
     "title": [
@@ -15,29 +14,31 @@
     "wayto": {
       "1195": "north",
       "8672": "go stairs",
-      "30708": "/rooms/8671/wayto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('wayto/room-8671-to-30708.rb')"
     },
     "timeto": {
       "1195": 0.2,
       "8672": 0.2,
-      "30708": "/rooms/8671/timeto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('timeto/room-8671-to-30708.rb')"
     },
-    "tags": [
-      "inn",
-      "no forageables",
-      "node",
-      "urchin guide inn",
-      "urchin-access"
-    ],
-    "uid": [
-      1019
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       201,
       354,
       231,
       384
+    ],
+    "tags": [
+      "fire lily",
+      "inn",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "node",
+      "urchin guide inn",
+      "urchin-access"
+    ],
+    "uid": [
+      1019
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "b9d2ac68bc519eb1b993a8c67ef9043f",
   "room": {
     "id": 18836,
     "title": [
@@ -24,6 +23,13 @@
       "18835": 0.2,
       "18837": 0.2
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1078,
+      86,
+      1106,
+      113
+    ],
     "tags": [
       "blades of cordgrass",
       "blue-green marshgrass",
@@ -32,7 +38,7 @@
       "feathery mannagrass",
       "golden mushroom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "mistweed",
       "pepperthorn root",
@@ -48,13 +54,6 @@
     ],
     "uid": [
       14202017
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1078,
-      86,
-      1106,
-      113
     ]
   }
 }

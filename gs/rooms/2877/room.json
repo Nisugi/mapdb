@@ -1,5 +1,4 @@
 {
-  "checksum": "5cd4fac8d59022a17ec4b6f7b801e442",
   "room": {
     "id": 2877,
     "title": [
@@ -16,14 +15,21 @@
     "terrain": "mountainous",
     "wayto": {
       "2876": "go mound",
-      "2878": "/rooms/2877/wayto/stringproc-2878.rb",
-      "2881": "/rooms/2877/wayto/stringproc-2881.rb"
+      "2878": ";e Cartographer.evaluate_script('wayto/room-2877-to-2878.rb')",
+      "2881": ";e Cartographer.evaluate_script('wayto/room-2877-to-2881.rb')"
     },
     "timeto": {
       "2876": 0.2,
       "2878": 7,
       "2881": 7
     },
+    "image": "imt-east_west_north_gates-1668398077.png",
+    "image_coords": [
+      1347,
+      229,
+      1357,
+      239
+    ],
     "tags": [
       "angelica root",
       "arctic moss",
@@ -40,7 +46,7 @@
       "ironfern root",
       "lingonberry",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:mapcategory:Icemule Trace",
       "meta:mapname:Icemule Trace - East, West and North Gates",
       "meta:mapshortname:East, West and North Gates",
@@ -65,13 +71,6 @@
     ],
     "uid": [
       4560050
-    ],
-    "image": "imt-east_west_north_gates-1668398077.png",
-    "image_coords": [
-      1347,
-      229,
-      1357,
-      239
     ]
   }
 }

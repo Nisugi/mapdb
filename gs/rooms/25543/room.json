@@ -1,5 +1,4 @@
 {
-  "checksum": "da5190c7f8f9b6b5bb3a64dd82ec945e",
   "room": {
     "id": 25543,
     "title": [
@@ -15,26 +14,34 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "18823": "/rooms/25543/wayto/stringproc-18823.rb",
-      "23527": "/rooms/25543/wayto/stringproc-23527.rb",
-      "23528": "/rooms/25543/wayto/stringproc-23528.rb",
-      "25544": "/rooms/25543/wayto/stringproc-25544.rb",
-      "25615": "/rooms/25543/wayto/stringproc-25615.rb",
+      "18823": ";e Cartographer.evaluate_script('wayto/room-25543-to-18823.rb')",
+      "23527": ";e Cartographer.evaluate_script('wayto/room-25543-to-23527.rb')",
+      "23528": ";e Cartographer.evaluate_script('wayto/room-25543-to-23528.rb')",
+      "25544": ";e Cartographer.evaluate_script('wayto/room-25543-to-25544.rb')",
+      "25615": ";e Cartographer.evaluate_script('wayto/room-25543-to-25615.rb')",
       "30512": "swim down"
     },
     "timeto": {
-      "18823": "/rooms/25543/timeto/stringproc-18823.rb",
-      "23527": "/rooms/25543/timeto/stringproc-23527.rb",
-      "23528": "/rooms/25543/timeto/stringproc-23528.rb",
-      "25544": "/rooms/25543/timeto/stringproc-25544.rb",
-      "25615": "/rooms/25543/timeto/stringproc-25615.rb",
-      "30512": "/rooms/25543/timeto/stringproc-30512.rb"
+      "18823": ";e Cartographer.evaluate_script('timeto/room-25543-to-18823.rb')",
+      "23527": ";e Cartographer.evaluate_script('timeto/room-25543-to-23527.rb')",
+      "23528": ";e Cartographer.evaluate_script('timeto/room-25543-to-23528.rb')",
+      "25544": ";e Cartographer.evaluate_script('timeto/room-25543-to-25544.rb')",
+      "25615": ";e Cartographer.evaluate_script('timeto/room-25543-to-25615.rb')",
+      "30512": ";e Cartographer.evaluate_script('timeto/room-25543-to-30512.rb')"
     },
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1243,
+      850,
+      1262,
+      869
+    ],
     "tags": [
       "aloeas stem",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
       "meta:forage-sensed:night:2024-05",
+      "meta:splashy",
       "murdroot",
       "orchil lichen",
       "stalk of cattail",
@@ -46,13 +53,6 @@
     ],
     "uid": [
       14117019
-    ],
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1243,
-      850,
-      1262,
-      869
     ]
   }
 }

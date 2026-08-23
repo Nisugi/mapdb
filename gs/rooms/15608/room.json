@@ -1,5 +1,4 @@
 {
-  "checksum": "99b7cbf7e53dc322b3359cb0d5f6a3f9",
   "room": {
     "id": 15608,
     "title": [
@@ -14,12 +13,12 @@
     "location": "Ta'Illistim",
     "wayto": {
       "9920": "go door",
-      "26772": "/rooms/15608/wayto/stringproc-26772.rb",
-      "26773": "/rooms/15608/wayto/stringproc-26773.rb",
-      "27050": "/rooms/15608/wayto/stringproc-27050.rb",
-      "27051": "/rooms/15608/wayto/stringproc-27051.rb",
-      "27052": "/rooms/15608/wayto/stringproc-27052.rb",
-      "27053": "/rooms/15608/wayto/stringproc-27053.rb"
+      "26772": ";e Cartographer.evaluate_script('wayto/room-15608-to-26772.rb')",
+      "26773": ";e Cartographer.evaluate_script('wayto/room-15608-to-26773.rb')",
+      "27050": ";e Cartographer.evaluate_script('wayto/room-15608-to-27050.rb')",
+      "27051": ";e Cartographer.evaluate_script('wayto/room-15608-to-27051.rb')",
+      "27052": ";e Cartographer.evaluate_script('wayto/room-15608-to-27052.rb')",
+      "27053": ";e Cartographer.evaluate_script('wayto/room-15608-to-27053.rb')"
     },
     "timeto": {
       "9920": 0.2,
@@ -31,7 +30,9 @@
       "27053": 0.2
     },
     "tags": [
-      "no forageables",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "table"
     ],
     "uid": [

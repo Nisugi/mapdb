@@ -1,5 +1,4 @@
 {
-  "checksum": "4fd5c130ba1f5e2c8b3ca2d9251d3154",
   "room": {
     "id": 14726,
     "title": [
@@ -17,13 +16,20 @@
     "wayto": {
       "451": "go mountain path",
       "14728": "go opening",
-      "18172": "/rooms/14726/wayto/stringproc-18172.rb"
+      "18172": ";e Cartographer.evaluate_script('wayto/room-14726-to-18172.rb')"
     },
     "timeto": {
       "451": 0.1,
       "14728": 0.2,
       "18172": 11
     },
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      730,
+      592,
+      740,
+      601
+    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -34,6 +40,7 @@
       "marallis berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "pennyroyal stem",
       "sassafras leaf",
       "sprig of larkspur",
@@ -46,13 +53,6 @@
     ],
     "uid": [
       52001
-    ],
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      730,
-      592,
-      740,
-      601
     ]
   }
 }

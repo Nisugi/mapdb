@@ -1,5 +1,4 @@
 {
-  "checksum": "e00858b1e1b974b93a58a63233f2a84a",
   "room": {
     "id": 4686,
     "title": [
@@ -15,29 +14,30 @@
     "wayto": {
       "4639": "out",
       "9667": "go arch",
-      "30717": "/rooms/4686/wayto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('wayto/room-4686-to-30717.rb')"
     },
     "timeto": {
       "4639": 0.2,
       "9667": 0.2,
-      "30717": "/rooms/4686/timeto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('timeto/room-4686-to-30717.rb')"
     },
-    "tags": [
-      "bank",
-      "meta:forage-sensed",
-      "no forageables",
-      "urchin guide bank",
-      "urchin-access"
-    ],
-    "uid": [
-      14051015
-    ],
     "image": "en-cysaegir-1679641246.png",
     "image_coords": [
       85,
       449,
       109,
       472
+    ],
+    "tags": [
+      "bank",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "urchin guide bank",
+      "urchin-access"
+    ],
+    "uid": [
+      14051015
     ]
   }
 }

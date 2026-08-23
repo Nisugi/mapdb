@@ -1,5 +1,4 @@
 {
-  "checksum": "4abb814cd0dc9926d7496bfc63970c30",
   "room": {
     "id": 2640,
     "title": [
@@ -13,28 +12,29 @@
     ],
     "location": false,
     "wayto": {
-      "2639": "/rooms/2640/wayto/stringproc-2639.rb",
-      "2641": "/rooms/2640/wayto/stringproc-2641.rb",
-      "2642": "/rooms/2640/wayto/stringproc-2642.rb"
+      "2639": ";e Cartographer.evaluate_script('wayto/room-2640-to-2639.rb')",
+      "2641": ";e Cartographer.evaluate_script('wayto/room-2640-to-2641.rb')",
+      "2642": ";e Cartographer.evaluate_script('wayto/room-2640-to-2642.rb')"
     },
     "timeto": {
       "2639": 5,
       "2641": 5,
       "2642": 5
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:nomagic"
-    ],
-    "uid": [
-      4562039
-    ],
     "image": "imt-pinefar-1264234799.png",
     "image_coords": [
       37,
       246,
       45,
       254
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:nomagic",
+      "meta:underwater"
+    ],
+    "uid": [
+      4562039
     ]
   }
 }

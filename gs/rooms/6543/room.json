@@ -1,5 +1,4 @@
 {
-  "checksum": "e96f47548af74bf63e8fd21816bf0a76",
   "room": {
     "id": 6543,
     "title": [
@@ -22,6 +21,13 @@
       "6542": 0.2,
       "6544": 0.2
     },
+    "image": "wl-lysierian-1264234799.png",
+    "image_coords": [
+      1013,
+      966,
+      1023,
+      976
+    ],
     "tags": [
       "acantha leaf",
       "aloeas stem",
@@ -34,6 +40,7 @@
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "pearly green vine",
       "soft mushroom",
@@ -52,13 +59,6 @@
     ],
     "uid": [
       4286022
-    ],
-    "image": "wl-lysierian-1264234799.png",
-    "image_coords": [
-      1013,
-      966,
-      1023,
-      976
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "6602621e448ef0fbd4fa978d3f864583",
   "room": {
     "id": 21742,
     "title": [
@@ -18,7 +17,7 @@
       "256": "go archway",
       "21743": "up",
       "21744": "go bank",
-      "21771": "/rooms/21742/wayto/stringproc-21771.rb"
+      "21771": ";e Cartographer.evaluate_script('wayto/room-21742-to-21771.rb')"
     },
     "timeto": {
       "256": 0.2,
@@ -26,6 +25,13 @@
       "21744": 0.2,
       "21771": 0.2
     },
+    "image": "wl-house_phoenix-1485115199.png",
+    "image_coords": [
+      547,
+      1471,
+      668,
+      1547
+    ],
     "tags": [
       "angelica root",
       "aubergine hellebore",
@@ -83,7 +89,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2023-01",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "nightbloom blossom",
       "nutmeg",
@@ -111,6 +117,7 @@
       "rose-marrow root",
       "round red radish",
       "round yuzu",
+      "safflower seeds",
       "sanguine blood rose",
       "scallions",
       "shallot",
@@ -143,9 +150,10 @@
       "sunflower seeds",
       "sweet onion",
       "tangerine butterflyweed",
+      "thistle seeds",
       "tiger lily",
       "tobacco leaves",
-      "trollfear mushroom",
+      "trollear mushroom",
       "vanilla bean",
       "wavepetal blossom",
       "white datura blossom",
@@ -154,6 +162,7 @@
       "wild pansy blossom",
       "wild spinach",
       "withered mushroom",
+      "yellow carrot",
       "yellow datura blossom",
       "yellow lemon",
       "yellow squash",
@@ -163,13 +172,6 @@
     ],
     "uid": [
       103501
-    ],
-    "image": "wl-house_phoenix-1485115199.png",
-    "image_coords": [
-      547,
-      1471,
-      668,
-      1547
     ]
   }
 }

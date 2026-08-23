@@ -1,5 +1,4 @@
 {
-  "checksum": "ab9d53ba610338b06b36c89da1d06198",
   "room": {
     "id": 3091,
     "title": [
@@ -19,21 +18,29 @@
       "3092": "go doorway",
       "3100": "southeast",
       "3104": "go barn",
-      "31352": "/rooms/3091/wayto/stringproc-31352.rb"
+      "31352": ";e Cartographer.evaluate_script('wayto/room-3091-to-31352.rb')"
     },
     "timeto": {
       "3070": 0.2,
       "3092": 0.2,
       "3100": 0.2,
       "3104": 0.2,
-      "31352": "/rooms/3091/timeto/stringproc-31352.rb"
+      "31352": ";e Cartographer.evaluate_script('timeto/room-3091-to-31352.rb')"
     },
+    "image": "imt-south_gate-1647231707.png",
+    "image_coords": [
+      673,
+      673,
+      683,
+      683
+    ],
     "tags": [
       "angelica root",
+      "blue snow rose",
       "frostflower",
       "ice tulip",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2025-03",
+      "meta:forage-sensed:day:2026-08",
       "moonflower",
       "pennyroyal stem",
       "resting poppy",
@@ -51,13 +58,6 @@
     ],
     "uid": [
       4124014
-    ],
-    "image": "imt-south_gate-1647231707.png",
-    "image_coords": [
-      673,
-      673,
-      683,
-      683
     ]
   }
 }

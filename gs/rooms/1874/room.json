@@ -1,5 +1,4 @@
 {
-  "checksum": "61d51af70c19fa8d085df8aed6cbc5ee",
   "room": {
     "id": 1874,
     "title": [
@@ -21,7 +20,7 @@
       "1877": "northeast",
       "12397": "go gate",
       "12413": "go tavern",
-      "30715": "/rooms/1874/wayto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('wayto/room-1874-to-30715.rb')"
     },
     "timeto": {
       "1873": 0.2,
@@ -29,25 +28,26 @@
       "1877": 0.2,
       "12397": 0.2,
       "12413": 0.2,
-      "30715": "/rooms/1874/timeto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('timeto/room-1874-to-30715.rb')"
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01",
-      "no forageables",
-      "poorquarter",
-      "urchin guide poorquarter",
-      "urchin-access"
-    ],
-    "uid": [
-      3002026
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       115,
       923,
       151,
       959
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "meta:forage-sensed:night:2026-08",
+      "poorquarter",
+      "urchin guide poorquarter",
+      "urchin-access"
+    ],
+    "uid": [
+      3002026
     ]
   }
 }

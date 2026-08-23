@@ -1,5 +1,4 @@
 {
-  "checksum": "2fb72d1df16c21a6d3642103d77b000b",
   "room": {
     "id": 31427,
     "title": [
@@ -14,14 +13,17 @@
     "location": "Shivergale, outside the glacier-locked town of Icemule Trace",
     "wayto": {
       "31426": "go staircase",
-      "31428": "/rooms/31427/wayto/stringproc-31428.rb"
+      "31428": ";e Cartographer.evaluate_script('wayto/room-31427-to-31428.rb')"
     },
     "timeto": {
       "31426": 0.2,
-      "31428": "/rooms/31427/timeto/stringproc-31428.rb"
+      "31428": ";e Cartographer.evaluate_script('timeto/room-31427-to-31428.rb')"
     },
     "tags": [
-      "private property"
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "private property",
+      "stalk of bluebells"
     ],
     "uid": [
       730126

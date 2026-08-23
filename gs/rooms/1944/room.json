@@ -1,5 +1,4 @@
 {
-  "checksum": "3a76c68c7d523a798592b97695ec323b",
   "room": {
     "id": 1944,
     "title": [
@@ -18,36 +17,37 @@
       "1932": "south",
       "1943": "west",
       "1945": "east",
-      "3668": "/rooms/1944/wayto/stringproc-3668.rb",
+      "3668": ";e Cartographer.evaluate_script('wayto/room-1944-to-3668.rb')",
       "12395": "north",
-      "26905": "/rooms/1944/wayto/stringproc-26905.rb",
-      "31558": "/rooms/1944/wayto/stringproc-31558.rb"
+      "26905": ";e Cartographer.evaluate_script('wayto/room-1944-to-26905.rb')",
+      "31558": ";e Cartographer.evaluate_script('wayto/room-1944-to-31558.rb')"
     },
     "timeto": {
       "1932": 0.2,
       "1943": 0.2,
       "1945": 0.2,
-      "3668": "/rooms/1944/timeto/stringproc-3668.rb",
+      "3668": ";e Cartographer.evaluate_script('timeto/room-1944-to-3668.rb')",
       "12395": 0.2,
       "26905": 2400,
-      "31558": "/rooms/1944/timeto/stringproc-31558.rb"
+      "31558": ";e Cartographer.evaluate_script('timeto/room-1944-to-31558.rb')"
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01",
-      "meta:fwi:teleport",
-      "meta:teleport",
-      "no forageables"
-    ],
-    "uid": [
-      3001031
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       1038,
       435,
       1064,
       461
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "meta:forage-sensed:night:2026-08",
+      "meta:fwi:teleport",
+      "meta:teleport"
+    ],
+    "uid": [
+      3001031
     ]
   }
 }

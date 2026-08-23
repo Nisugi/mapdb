@@ -1,5 +1,4 @@
 {
-  "checksum": "1bed04672d5a83c9653ab6b835bfe25a",
   "room": {
     "id": 7759,
     "title": [
@@ -18,7 +17,7 @@
       "7758": "southeast",
       "7760": "northeast",
       "7765": "northwest",
-      "7776": "/rooms/7759/wayto/stringproc-7776.rb"
+      "7776": ";e Cartographer.evaluate_script('wayto/room-7759-to-7776.rb')"
     },
     "timeto": {
       "7758": 0.2,
@@ -26,6 +25,13 @@
       "7765": 0.2,
       "7776": 0.6
     },
+    "image": "wl-danjirland-1264234799.png",
+    "image_coords": [
+      267,
+      1087,
+      277,
+      1097
+    ],
     "tags": [
       "acantha leaf",
       "alder bark",
@@ -67,7 +73,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2023-02",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "murkweed",
       "nightbloom blossom",
@@ -95,7 +101,7 @@
       "tkaro root",
       "torban leaf",
       "tree bark",
-      "trollfear mushroom",
+      "trollear mushroom",
       "twisted twig",
       "walnuts",
       "war troll",
@@ -118,13 +124,6 @@
     ],
     "uid": [
       17023
-    ],
-    "image": "wl-danjirland-1264234799.png",
-    "image_coords": [
-      267,
-      1087,
-      277,
-      1097
     ]
   }
 }

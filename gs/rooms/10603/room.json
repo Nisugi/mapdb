@@ -1,5 +1,4 @@
 {
-  "checksum": "c9cb3a11bad0c263f6cbbb8ee7b47e7a",
   "room": {
     "id": 10603,
     "title": [
@@ -24,7 +23,15 @@
       "10602": 0.2,
       "10620": 0.2
     },
+    "image": "en-cemetery-1617615116.png",
+    "image_coords": [
+      947,
+      1590,
+      959,
+      1601
+    ],
     "tags": [
+      "arbutus berry",
       "bay leaf",
       "black peppercorn",
       "blackberries",
@@ -34,18 +41,20 @@
       "calamia fruit",
       "cardamom",
       "cherry peppers",
+      "crystal-like sylthiel",
       "cumin seeds",
       "curly garlic scapes",
       "daggerstalk mushroom",
       "flathead mushroom",
       "fresh catnip",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "green olive",
       "haphip root",
       "Imaera's Lace",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2024-05",
       "motherwort",
       "nightbloom blossom",
@@ -71,9 +80,11 @@
       "trollear mushroom",
       "vanilla bean",
       "vert globe artichoke",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "white passionflower",
       "white ramie",
+      "wild rice",
       "withered mushroom",
       "yellow heliconia",
       "yellow lemon",
@@ -83,13 +94,6 @@
     ],
     "uid": [
       14016073
-    ],
-    "image": "en-cemetery-1617615116.png",
-    "image_coords": [
-      947,
-      1590,
-      959,
-      1601
     ]
   }
 }

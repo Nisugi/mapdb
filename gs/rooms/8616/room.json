@@ -1,5 +1,4 @@
 {
-  "checksum": "00f4996a4656384d5174acc45dd47e42",
   "room": {
     "id": 8616,
     "title": [
@@ -15,29 +14,30 @@
     "wayto": {
       "8615": "south",
       "8617": "north",
-      "30708": "/rooms/8616/wayto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('wayto/room-8616-to-30708.rb')"
     },
     "timeto": {
       "8615": 0.2,
       "8617": 0.2,
-      "30708": "/rooms/8616/timeto/stringproc-30708.rb"
+      "30708": ";e Cartographer.evaluate_script('timeto/room-8616-to-30708.rb')"
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11",
-      "no forageables",
-      "urchin guide blacksmith",
-      "urchin-access"
-    ],
-    "uid": [
-      3020
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       505,
       463,
       514,
       473
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:night:2026-08",
+      "urchin guide blacksmith",
+      "urchin-access"
+    ],
+    "uid": [
+      3020
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "7c8876887849d60530130bcfc8e307ee",
   "room": {
     "id": 23208,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "17682": "/rooms/23208/wayto/stringproc-17682.rb",
+      "17682": ";e Cartographer.evaluate_script('wayto/room-23208-to-17682.rb')",
       "23206": "south",
       "23207": "north"
     },
@@ -22,20 +21,20 @@
       "23206": 0.2,
       "23207": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01",
-      "no forageables"
-    ],
-    "uid": [
-      5001058
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       1072,
       1082,
       1111,
       1122
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      5001058
     ]
   }
 }

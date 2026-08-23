@@ -1,5 +1,4 @@
 {
-  "checksum": "b2597177bfc0313a2876ca0082e81015",
   "room": {
     "id": 20695,
     "title": [
@@ -14,27 +13,41 @@
     "location": "Zul Logoth",
     "wayto": {
       "20694": "east",
-      "30712": "/rooms/20695/wayto/stringproc-30712.rb"
+      "30712": ";e Cartographer.evaluate_script('wayto/room-20695-to-30712.rb')"
     },
     "timeto": {
       "20694": 0.2,
-      "30712": "/rooms/20695/timeto/stringproc-30712.rb"
+      "30712": ";e Cartographer.evaluate_script('timeto/room-20695-to-30712.rb')"
     },
-    "tags": [
-      "meta:premium",
-      "premium supernode",
-      "supernode",
-      "urchin-access"
-    ],
-    "uid": [
-      4002407
-    ],
     "image": "premium_halls-1489980086.png",
     "image_coords": [
       2489,
       755,
       2630,
       814
+    ],
+    "tags": [
+      "ayana leaf",
+      "blue trafel mushroom",
+      "bolmara lichen",
+      "daggerstalk mushroom",
+      "flathead mushroom",
+      "genkew mushroom",
+      "ironfern root",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:premium",
+      "murdroot",
+      "pepperthorn root",
+      "premium supernode",
+      "soft mushroom",
+      "supernode",
+      "urchin-access",
+      "wingstem root",
+      "withered mushroom"
+    ],
+    "uid": [
+      4002407
     ]
   }
 }

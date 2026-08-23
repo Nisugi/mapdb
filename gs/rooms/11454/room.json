@@ -1,5 +1,4 @@
 {
-  "checksum": "5260854709ea02a0ae5479a6fcb63d83",
   "room": {
     "id": 11454,
     "title": [
@@ -15,14 +14,14 @@
     "climate": "saltwater",
     "terrain": "",
     "wayto": {
-      "11440": "/rooms/11454/wayto/stringproc-11440.rb",
-      "11441": "/rooms/11454/wayto/stringproc-11441.rb",
-      "11451": "/rooms/11454/wayto/stringproc-11451.rb",
-      "11452": "/rooms/11454/wayto/stringproc-11452.rb",
-      "11453": "/rooms/11454/wayto/stringproc-11453.rb",
-      "11455": "/rooms/11454/wayto/stringproc-11455.rb",
-      "11472": "/rooms/11454/wayto/stringproc-11472.rb",
-      "16041": "/rooms/11454/wayto/stringproc-16041.rb"
+      "11440": ";e Cartographer.evaluate_script('wayto/room-11454-to-11440.rb')",
+      "11441": ";e Cartographer.evaluate_script('wayto/room-11454-to-11441.rb')",
+      "11451": ";e Cartographer.evaluate_script('wayto/room-11454-to-11451.rb')",
+      "11452": ";e Cartographer.evaluate_script('wayto/room-11454-to-11452.rb')",
+      "11453": ";e Cartographer.evaluate_script('wayto/room-11454-to-11453.rb')",
+      "11455": ";e Cartographer.evaluate_script('wayto/room-11454-to-11455.rb')",
+      "11472": ";e Cartographer.evaluate_script('wayto/room-11454-to-11472.rb')",
+      "16041": ";e Cartographer.evaluate_script('wayto/room-11454-to-16041.rb')"
     },
     "timeto": {
       "11440": 2,
@@ -34,19 +33,20 @@
       "11472": 3,
       "16041": 2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      304027
-    ],
     "image": "rr-maelstrom-1619824696.png",
     "image_coords": [
       702,
       1206,
       712,
       1216
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:splashy",
+      "no forageables"
+    ],
+    "uid": [
+      304027
     ]
   }
 }

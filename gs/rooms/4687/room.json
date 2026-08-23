@@ -1,5 +1,4 @@
 {
-  "checksum": "42cce338d536174f943b863f2c378f96",
   "room": {
     "id": 4687,
     "title": [
@@ -18,7 +17,7 @@
       "4689": "south",
       "4690": "southwest",
       "4691": "climb stairway",
-      "30717": "/rooms/4687/wayto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('wayto/room-4687-to-30717.rb')"
     },
     "timeto": {
       "4639": 0.2,
@@ -26,24 +25,25 @@
       "4689": 0.2,
       "4690": 0.2,
       "4691": 0.2,
-      "30717": "/rooms/4687/timeto/stringproc-30717.rb"
+      "30717": ";e Cartographer.evaluate_script('timeto/room-4687-to-30717.rb')"
     },
-    "tags": [
-      "inn",
-      "meta:forage-sensed",
-      "no forageables",
-      "urchin guide inn",
-      "urchin-access"
-    ],
-    "uid": [
-      14051028
-    ],
     "image": "en-cysaegir-1679641246.png",
     "image_coords": [
       85,
       305,
       108,
       328
+    ],
+    "tags": [
+      "fire lily",
+      "inn",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "urchin guide inn",
+      "urchin-access"
+    ],
+    "uid": [
+      14051028
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "3ae71f45411d14568e0a1d9566c5e50d",
   "room": {
     "id": 17665,
     "title": [
@@ -13,12 +12,13 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "11433": "/rooms/17665/wayto/stringproc-11433.rb"
+      "11433": ";e Cartographer.evaluate_script('wayto/room-17665-to-11433.rb')"
     },
     "timeto": {
       "11433": 30
     },
     "tags": [
+      "meta:splashy",
       "no forageables"
     ],
     "uid": [

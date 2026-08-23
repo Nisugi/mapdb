@@ -1,5 +1,4 @@
 {
-  "checksum": "420af0984c4dd9b6a8b1e5b3b0c41ce3",
   "room": {
     "id": 1840,
     "title": [
@@ -20,31 +19,32 @@
       "1843": "southwest",
       "1845": "south",
       "20775": "go path",
-      "30715": "/rooms/1840/wayto/stringproc-30715.rb"
+      "30715": ";e Cartographer.evaluate_script('wayto/room-1840-to-30715.rb')"
     },
     "timeto": {
       "1839": 0.2,
       "1841": 0.2,
       "1843": 0.2,
       "1845": 0.2,
-      "20775": "/rooms/1840/timeto/stringproc-20775.rb",
-      "30715": "/rooms/1840/timeto/stringproc-30715.rb"
+      "20775": ";e Cartographer.evaluate_script('timeto/room-1840-to-20775.rb')",
+      "30715": ";e Cartographer.evaluate_script('timeto/room-1840-to-30715.rb')"
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01",
-      "no forageables",
-      "urchin-access"
-    ],
-    "uid": [
-      3001004
-    ],
     "image": "ti-teras-1264234799.png",
     "image_coords": [
       768,
       657,
       804,
       693
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "meta:forage-sensed:night:2026-08",
+      "urchin-access"
+    ],
+    "uid": [
+      3001004
     ]
   }
 }

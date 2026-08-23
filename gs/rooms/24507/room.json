@@ -1,5 +1,4 @@
 {
-  "checksum": "39810ab269637e07ad064700c2876960",
   "room": {
     "id": 24507,
     "title": [
@@ -14,7 +13,7 @@
     ],
     "location": "the Lost Home",
     "wayto": {
-      "4709": "/rooms/24507/wayto/stringproc-4709.rb",
+      "4709": ";e Cartographer.evaluate_script('wayto/room-24507-to-4709.rb')",
       "24508": "go hemp ladder",
       "24509": "go riverstone lodge"
     },
@@ -23,22 +22,73 @@
       "24508": 0.2,
       "24509": 0.2
     },
-    "tags": [
-      "meta:che:twilight_hall:entrance_annex",
-      "meta:locker annex:Twilight Hall",
-      "meta:mapcategory:CHE:Twilight Hall Annex (Elven Nations)",
-      "meta:mapcategory:Elven Nations:Twilight Hall Annex",
-      "meta:mapname:Elven Nations - Twilight Hall Annex"
-    ],
-    "uid": [
-      13112521
-    ],
     "image": "en-TwilightHallAnnex.png",
     "image_coords": [
       86,
       147,
       226,
       239
+    ],
+    "tags": [
+      "acantha leaf",
+      "angelica root",
+      "arbutus berry",
+      "birch bark",
+      "blue trafel mushroom",
+      "blue whortleberry",
+      "bolmara lichen",
+      "bright red teaberry",
+      "broken twig",
+      "brostheras grass",
+      "calamia fruit",
+      "coppery rain lily",
+      "crystal-like sylthiel",
+      "daggerstalk mushroom",
+      "ebony twig",
+      "fiddlehead fern",
+      "flathead mushroom",
+      "genkew mushroom",
+      "ghostly blue aplixta",
+      "golden buttercup",
+      "handful of pinenuts",
+      "haphip root",
+      "ironfern root",
+      "meta:che:twilight_hall:entrance_annex",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:locker annex:Twilight Hall",
+      "meta:mapcategory:CHE:Twilight Hall Annex (Elven Nations)",
+      "meta:mapcategory:Elven Nations:Twilight Hall Annex",
+      "meta:mapname:Elven Nations - Twilight Hall Annex",
+      "oxblood lily",
+      "pine cone",
+      "pine needles",
+      "pink rain lily",
+      "red thanot berry",
+      "slender twig",
+      "soft mushroom",
+      "stalk of bluebells",
+      "sticks",
+      "tanik twig",
+      "thanot thorn",
+      "tkaro root",
+      "torban leaf",
+      "tree bark",
+      "trollear mushroom",
+      "twisted twig",
+      "viburnum twig",
+      "violet sel'elun vine",
+      "white baneberry",
+      "white lily",
+      "wild chokecherry",
+      "wild gooseberry",
+      "wild pink geranium",
+      "wintergreen leaf",
+      "withered mushroom",
+      "yew twig"
+    ],
+    "uid": [
+      13112521
     ]
   }
 }

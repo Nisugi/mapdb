@@ -1,5 +1,4 @@
 {
-  "checksum": "6f347df71482e3ac16c56041505d97ac",
   "room": {
     "id": 2046,
     "title": [
@@ -23,6 +22,13 @@
       "2045": 0.2,
       "2047": 0.2
     },
+    "image": "ti-wilds-1643860469.png",
+    "image_coords": [
+      231,
+      260,
+      241,
+      270
+    ],
     "tags": [
       "acantha leaf",
       "black peppercorn",
@@ -51,9 +57,11 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "mistwood twig",
       "mulberry fronds",
       "murdroot",
+      "nightbloom blossom",
       "nutmeg",
       "orange heliconia",
       "orange-yellow starfruit",
@@ -96,13 +104,6 @@
     ],
     "uid": [
       3022006
-    ],
-    "image": "ti-wilds-1643860469.png",
-    "image_coords": [
-      231,
-      260,
-      241,
-      270
     ]
   }
 }

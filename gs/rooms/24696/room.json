@@ -1,5 +1,4 @@
 {
-  "checksum": "a8fa393a2d46f1be198c8f10a05e3a2f",
   "room": {
     "id": 24696,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "cold, damp",
     "terrain": "deciduous forest",
     "wayto": {
-      "24695": "/rooms/24696/wayto/stringproc-24695.rb",
+      "24695": ";e Cartographer.evaluate_script('wayto/room-24696-to-24695.rb')",
       "24702": "south",
       "24704": "northeast"
     },
@@ -24,6 +23,13 @@
       "24702": 0.2,
       "24704": 0.2
     },
+    "image": "red_forest-1260914757.png",
+    "image_coords": [
+      467,
+      76,
+      481,
+      90
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -46,7 +52,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2026-07",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "oak twig",
       "pennyroyal stem",
@@ -76,13 +82,6 @@
     "uid": [
       480216,
       17006216
-    ],
-    "image": "red_forest-1260914757.png",
-    "image_coords": [
-      467,
-      76,
-      481,
-      90
     ]
   }
 }

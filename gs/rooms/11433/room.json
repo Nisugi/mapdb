@@ -1,5 +1,4 @@
 {
-  "checksum": "f88696b367a6a15d8fced7419e9fc9c3",
   "room": {
     "id": 11433,
     "title": [
@@ -15,29 +14,30 @@
     "climate": "freshwater",
     "terrain": "",
     "wayto": {
-      "11432": "/rooms/11433/wayto/stringproc-11432.rb",
-      "11435": "/rooms/11433/wayto/stringproc-11435.rb"
+      "11432": ";e Cartographer.evaluate_script('wayto/room-11433-to-11432.rb')",
+      "11435": ";e Cartographer.evaluate_script('wayto/room-11433-to-11435.rb')"
     },
     "timeto": {
       "11432": 0.2,
       "11435": 2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:mapcategory:River's Rest",
-      "meta:mapname:River's Rest - Maelstrom Bay",
-      "meta:mapshortname:Maelstrom Bay",
-      "no forageables"
-    ],
-    "uid": [
-      304010
-    ],
     "image": "rr-maelstrom-1619824696.png",
     "image_coords": [
       837,
       1341,
       847,
       1351
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:mapcategory:River's Rest",
+      "meta:mapname:River's Rest - Maelstrom Bay",
+      "meta:mapshortname:Maelstrom Bay",
+      "meta:splashy",
+      "no forageables"
+    ],
+    "uid": [
+      304010
     ]
   }
 }

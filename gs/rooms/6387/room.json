@@ -1,5 +1,4 @@
 {
-  "checksum": "1e3c0f0e9e3bd7efc7db3d68af4f3cc0",
   "room": {
     "id": 6387,
     "title": [
@@ -18,22 +17,23 @@
     "timeto": {
       "6385": 0.2
     },
-    "tags": [
-      "fire rat",
-      "fire cat",
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      92033
-    ],
     "image": "wl-lysierian-1264234799.png",
     "image_coords": [
       528,
       403,
       538,
       413
+    ],
+    "tags": [
+      "fire cat",
+      "fire lily",
+      "fire rat",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      92033
     ]
   }
 }

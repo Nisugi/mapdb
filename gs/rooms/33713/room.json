@@ -1,5 +1,4 @@
 {
-  "checksum": "fe7082b249da6c49463e552ddf418a47",
   "room": {
     "id": 33713,
     "title": [
@@ -14,14 +13,20 @@
     "location": "Kraken's Fall",
     "wayto": {
       "33712": "down",
-      "33714": "/rooms/33713/wayto/stringproc-33714.rb"
+      "33714": ";e Cartographer.evaluate_script('wayto/room-33713-to-33714.rb')"
     },
     "timeto": {
       "33712": 0.2,
       "33714": 0.2
     },
     "tags": [
-      "private property"
+      "bright pink protea",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "private property",
+      "stalk of bluebells",
+      "wild sage"
     ],
     "uid": [
       2022630

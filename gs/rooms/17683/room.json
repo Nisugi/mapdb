@@ -1,5 +1,4 @@
 {
-  "checksum": "8b2b59481d641bd273ffc871d8b1f567",
   "room": {
     "id": 17683,
     "title": [
@@ -20,6 +19,13 @@
       "17682": 0.2,
       "17685": 0.2
     },
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      1033,
+      1155,
+      1071,
+      1193
+    ],
     "tags": [
       "black mushroom",
       "blue trafel mushroom",
@@ -30,6 +36,7 @@
       "genkew mushroom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "red mushroom",
       "soft mushroom",
@@ -38,13 +45,6 @@
     ],
     "uid": [
       5009014
-    ],
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      1033,
-      1155,
-      1071,
-      1193
     ]
   }
 }

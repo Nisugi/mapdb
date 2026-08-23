@@ -1,5 +1,4 @@
 {
-  "checksum": "0333d4cf5fb14092504e4e4e0114c741",
   "room": {
     "id": 28937,
     "title": [
@@ -16,25 +15,29 @@
     "terrain": "hard, flat",
     "wayto": {
       "28908": "down",
-      "30716": "/rooms/28937/wayto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('wayto/room-28937-to-30716.rb')"
     },
     "timeto": {
       "28908": 0.2,
-      "30716": "/rooms/28937/timeto/stringproc-30716.rb"
+      "30716": ";e Cartographer.evaluate_script('timeto/room-28937-to-30716.rb')"
     },
     "tags": [
+      "bright pink protea",
+      "fire lily",
       "locksmith pool",
       "locksmith-pool",
       "locksmithpool",
       "meta:boxpool:npc:scruffy human worker",
       "meta:boxpool:table:sturdy wooden table",
       "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "meta:trashcan:large wastebasket",
-      "no forageables",
       "node",
+      "stalk of bluebells",
       "supernode",
       "urchin guide locksmithpool",
-      "urchin-access"
+      "urchin-access",
+      "wild sage"
     ],
     "uid": [
       7118379

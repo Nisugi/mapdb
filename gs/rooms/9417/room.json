@@ -1,5 +1,4 @@
 {
-  "checksum": "ce9a2bf8efba2c0f32f721ccf058b948",
   "room": {
     "id": 9417,
     "title": [
@@ -18,14 +17,21 @@
       "9416": "north",
       "9418": "east",
       "19756": "go building",
-      "30712": "/rooms/9417/wayto/stringproc-30712.rb"
+      "30712": ";e Cartographer.evaluate_script('wayto/room-9417-to-30712.rb')"
     },
     "timeto": {
       "9416": 0.2,
       "9418": 0.2,
-      "19756": "/rooms/9417/timeto/stringproc-19756.rb",
-      "30712": "/rooms/9417/timeto/stringproc-30712.rb"
+      "19756": ";e Cartographer.evaluate_script('timeto/room-9417-to-19756.rb')",
+      "30712": ";e Cartographer.evaluate_script('timeto/room-9417-to-30712.rb')"
     },
+    "image": "en-zul_logoth-1639816187.png",
+    "image_coords": [
+      609,
+      847,
+      629,
+      867
+    ],
     "tags": [
       "blue trafel mushroom",
       "bolmara lichen",
@@ -36,7 +42,7 @@
       "genkew mushroom",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-02",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2026-03",
       "murdroot",
       "pepperthorn root",
@@ -48,13 +54,6 @@
     ],
     "uid": [
       13006024
-    ],
-    "image": "en-zul_logoth-1639816187.png",
-    "image_coords": [
-      609,
-      847,
-      629,
-      867
     ]
   }
 }

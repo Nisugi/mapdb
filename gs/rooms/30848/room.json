@@ -1,5 +1,4 @@
 {
-  "checksum": "82407cc7eba005fe9146fd81da3e4a54",
   "room": {
     "id": 30848,
     "title": [
@@ -24,6 +23,13 @@
       "30847": 0.2,
       "34468": 0.2
     },
+    "image": "kf-atoll-1652294074.jpg",
+    "image_coords": [
+      146,
+      190,
+      177,
+      219
+    ],
     "tags": [
       "atoll blue crystal",
       "blackened moss",
@@ -35,6 +41,7 @@
       "glowing green lichen",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "pepperthorn root",
       "soft mushroom",
@@ -44,13 +51,6 @@
     ],
     "uid": [
       7138116
-    ],
-    "image": "kf-atoll-1652294074.jpg",
-    "image_coords": [
-      146,
-      190,
-      177,
-      219
     ]
   }
 }

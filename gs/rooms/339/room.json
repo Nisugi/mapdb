@@ -1,5 +1,4 @@
 {
-  "checksum": "0a8dd435ccaa1b3ed369baa2b7d9148a",
   "room": {
     "id": 339,
     "title": [
@@ -21,7 +20,7 @@
       "15021": "go boutique",
       "15022": "go bejewelled citadel",
       "15024": "go wooden treehouse",
-      "24768": "/rooms/339/wayto/stringproc-24768.rb",
+      "24768": ";e Cartographer.evaluate_script('wayto/room-339-to-24768.rb')",
       "33475": "go rustic store",
       "33478": "go red-brick building"
     },
@@ -36,6 +35,13 @@
       "33475": 0.2,
       "33478": 0.2
     },
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      1344,
+      144,
+      1350,
+      152
+    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -51,13 +57,14 @@
       "dark blue honeyberries",
       "ghost pepper",
       "ginger root",
+      "golden yellow shadesbane",
       "heath aster",
       "hot pepper",
       "ironfern root",
       "juniper berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2022-11",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "murdroot",
       "murkweed",
@@ -87,13 +94,6 @@
     ],
     "uid": [
       731011
-    ],
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      1344,
-      144,
-      1350,
-      152
     ]
   }
 }

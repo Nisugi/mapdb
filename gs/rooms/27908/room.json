@@ -1,5 +1,4 @@
 {
-  "checksum": "efdbd16491a579ea80a0a3d0d02e83ed",
   "room": {
     "id": 27908,
     "title": [
@@ -13,14 +12,18 @@
     ],
     "location": "the Lost Home",
     "wayto": {
-      "19257": "/rooms/27908/wayto/stringproc-19257.rb"
+      "19257": ";e Cartographer.evaluate_script('wayto/room-27908-to-19257.rb')"
     },
     "timeto": {
       "19257": 0.2
     },
     "tags": [
+      "fire lily",
       "meta:che:paupers:locker",
-      "meta:locker"
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:locker",
+      "meta:nomagic"
     ],
     "uid": [
       13112303

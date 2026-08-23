@@ -1,5 +1,4 @@
 {
-  "checksum": "beaa62847fef84e12ce933e9d3484b26",
   "room": {
     "id": 11043,
     "title": [
@@ -16,20 +15,27 @@
     "terrain": "coniferous forest",
     "wayto": {
       "11042": "west",
-      "11166": "/rooms/11043/wayto/stringproc-11166.rb",
-      "11374": "/rooms/11043/wayto/stringproc-11374.rb",
-      "11669": "/rooms/11043/wayto/stringproc-11669.rb",
-      "11711": "/rooms/11043/wayto/stringproc-11711.rb",
+      "11166": ";e Cartographer.evaluate_script('wayto/room-11043-to-11166.rb')",
+      "11374": ";e Cartographer.evaluate_script('wayto/room-11043-to-11374.rb')",
+      "11669": ";e Cartographer.evaluate_script('wayto/room-11043-to-11669.rb')",
+      "11711": ";e Cartographer.evaluate_script('wayto/room-11043-to-11711.rb')",
       "18378": "go pathway"
     },
     "timeto": {
       "11042": 0.2,
-      "11166": "/rooms/11043/timeto/stringproc-11166.rb",
-      "11374": "/rooms/11043/timeto/stringproc-11374.rb",
-      "11669": "/rooms/11043/timeto/stringproc-11669.rb",
-      "11711": "/rooms/11043/timeto/stringproc-11711.rb",
+      "11166": ";e Cartographer.evaluate_script('timeto/room-11043-to-11166.rb')",
+      "11374": ";e Cartographer.evaluate_script('timeto/room-11043-to-11374.rb')",
+      "11669": ";e Cartographer.evaluate_script('timeto/room-11043-to-11669.rb')",
+      "11711": ";e Cartographer.evaluate_script('timeto/room-11043-to-11711.rb')",
       "18378": 0.2
     },
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      3140,
+      1461,
+      3162,
+      1482
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -55,7 +61,7 @@
       "ironfern root",
       "kylan berry",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:seeking",
       "mistweed",
       "pine cone",
@@ -84,13 +90,6 @@
     ],
     "uid": [
       5000108
-    ],
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      3140,
-      1461,
-      3162,
-      1482
     ]
   }
 }
