@@ -1,4 +1,5 @@
 {
+  "checksum": "a0c817233ba1891ff58849051cffd3e5",
   "room": {
     "id": 36438,
     "title": [
@@ -12,22 +13,22 @@
     ],
     "location": "the Upper Trollfang",
     "wayto": {
-      "36437": ";e waitfor 'The nearest disk, with no one on it, swings near the ledge'\nmove 'jump disk'",
+      "36437": "/rooms/36438/wayto/stringproc-36437.rb",
       "36439": "south"
     },
     "timeto": {
       "36437": 0.2,
       "36439": 0.2
     },
+    "uid": [
+      58049
+    ],
     "image": "quest-black_swan_castle.png",
     "image_coords": [
       2240,
       200,
       2280,
       240
-    ],
-    "uid": [
-      58049
     ]
   }
 }

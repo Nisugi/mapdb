@@ -1,4 +1,5 @@
 {
+  "checksum": "3e2fa20b141284410f16a0d86841f19c",
   "room": {
     "id": 32078,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "31701": ";e dothistimeout 'push northeast',5,/you push|you can't push/i;waitrt?",
-      "32079": ";e dothistimeout 'push southwest',5,/you push|you can't push/i;waitrt?"
+      "31701": "/rooms/32078/wayto/stringproc-31701.rb",
+      "32079": "/rooms/32078/wayto/stringproc-32079.rb"
     },
     "timeto": {
       "31701": 0.2,
       "32079": 0.2
     },
-    "image": "fest-naidem-part2-1730328833.png",
-    "image_coords": [
-      943,
-      415,
-      965,
-      435
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-10",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       8083385
+    ],
+    "image": "fest-naidem-part2-1730328833.png",
+    "image_coords": [
+      943,
+      415,
+      965,
+      435
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "61eaf19512b3643e376f9674c2d5f4e6",
   "room": {
     "id": 11445,
     "title": [
@@ -15,32 +16,32 @@
     "climate": "saltwater",
     "terrain": "",
     "wayto": {
-      "11440": ";e if checkspell(112) then move 'northeast' else move 'swim northeast' end; waitrt?",
-      "11444": ";e if checkspell(112) then move 'north' else move 'swim north' end; waitrt?",
-      "11446": ";e if checkspell(112) then move 'southeast' else move 'swim southeast' end; waitrt?",
+      "11440": "/rooms/11445/wayto/stringproc-11440.rb",
+      "11444": "/rooms/11445/wayto/stringproc-11444.rb",
+      "11446": "/rooms/11445/wayto/stringproc-11446.rb",
       "11481": "climb reef",
-      "16041": ";e if checkspell(112) then move 'east' else move 'swim east' end; waitrt?"
+      "16041": "/rooms/11445/wayto/stringproc-16041.rb"
     },
     "timeto": {
-      "11440": 2.0,
-      "11444": ";e checkspell(112) ? 0.2 : 2.0",
-      "11446": 2.0,
+      "11440": 2,
+      "11444": "/rooms/11445/timeto/stringproc-11444.rb",
+      "11446": 2,
       "11481": 0.2,
-      "16041": 2.0
+      "16041": 2
     },
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      648,
-      1234,
-      658,
-      1244
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables"
     ],
     "uid": [
       304024
+    ],
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      648,
+      1234,
+      658,
+      1244
     ]
   }
 }

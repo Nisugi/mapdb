@@ -1,4 +1,5 @@
 {
+  "checksum": "23728ed40c5c65cae085545062bbe3b4",
   "room": {
     "id": 11442,
     "title": [
@@ -15,26 +16,19 @@
     "climate": "saltwater",
     "terrain": "",
     "wayto": {
-      "11441": ";e if checkspell(112) then move 'south' else move 'swim south' end; waitrt?",
-      "11443": ";e if checkspell(112) then move 'southwest' else move 'swim southwest' end; waitrt?",
-      "11453": ";e if checkspell(112) then move 'southeast' else move 'swim southeast' end; waitrt?",
-      "11479": ";e move 'swim down'; waitrt?",
-      "11485": ";e move 'climb pathway'\nfill_hands"
+      "11441": "/rooms/11442/wayto/stringproc-11441.rb",
+      "11443": "/rooms/11442/wayto/stringproc-11443.rb",
+      "11453": "/rooms/11442/wayto/stringproc-11453.rb",
+      "11479": "/rooms/11442/wayto/stringproc-11479.rb",
+      "11485": "/rooms/11442/wayto/stringproc-11485.rb"
     },
     "timeto": {
-      "11441": 2.0,
-      "11443": 2.0,
-      "11453": 2.0,
-      "11479": 3.0,
-      "11485": ";e ((!defined?(Skills) or !defined?(Skills.climbing) or (defined?(Skills) and defined?(Skills.climbing) and Skills.climbing > 14)) ? 0.2 : nil)"
+      "11441": 2,
+      "11443": 2,
+      "11453": 2,
+      "11479": 3,
+      "11485": "/rooms/11442/timeto/stringproc-11485.rb"
     },
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      675,
-      1153,
-      685,
-      1163
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables",
@@ -42,6 +36,13 @@
     ],
     "uid": [
       304034
+    ],
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      675,
+      1153,
+      685,
+      1163
     ]
   }
 }

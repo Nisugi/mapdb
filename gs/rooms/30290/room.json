@@ -1,4 +1,5 @@
 {
+  "checksum": "dcdea5303701d945b6bf358b69a4dd7b",
   "room": {
     "id": 30290,
     "title": [
@@ -13,11 +14,11 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "12538": "go leather curtain",
-      "30715": ";e true"
+      "30715": "/rooms/30290/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "12538": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "30715": "/rooms/30290/timeto/stringproc-30715.rb"
     },
     "tags": [
       "mail",

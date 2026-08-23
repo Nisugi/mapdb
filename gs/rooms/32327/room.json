@@ -1,4 +1,5 @@
 {
+  "checksum": "8092127108f3cb67c48274c2974c7b7c",
   "room": {
     "id": 32327,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "32326": "northeast",
       "32328": "south",
-      "32331": ";e fput 'search'; move 'go glade'"
+      "32331": "/rooms/32327/wayto/stringproc-32331.rb"
     },
     "timeto": {
       "32326": 0.2,
       "32328": 0.2,
       "32331": 0.2
     },
-    "image": "imt-Road_to_Moonsedge-1668377644.png",
-    "image_coords": [
-      913,
-      1056,
-      956,
-      1100
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -72,6 +66,13 @@
     ],
     "uid": [
       4576023
+    ],
+    "image": "imt-Road_to_Moonsedge-1668377644.png",
+    "image_coords": [
+      913,
+      1056,
+      956,
+      1100
     ]
   }
 }

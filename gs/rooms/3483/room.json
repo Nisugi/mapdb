@@ -1,4 +1,5 @@
 {
+  "checksum": "2bc61faf5e45007f70b5c5699a603d5f",
   "room": {
     "id": 3483,
     "title": [
@@ -19,22 +20,15 @@
       "3496": "south",
       "3727": "go gate",
       "25590": "go ladder",
-      "30713": ";e true"
+      "30713": "/rooms/3483/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "3484": 0.2,
       "3496": 0.2,
       "3727": 0.2,
       "25590": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/3483/timeto/stringproc-30713.rb"
     },
-    "image": "en-tavaalor-1565907614.png",
-    "image_coords": [
-      699,
-      255,
-      736,
-      288
-    ],
     "tags": [
       "advpickup",
       "amaranthgate",
@@ -46,6 +40,13 @@
     ],
     "uid": [
       14100004
+    ],
+    "image": "en-tavaalor-1565907614.png",
+    "image_coords": [
+      699,
+      255,
+      736,
+      288
     ]
   }
 }

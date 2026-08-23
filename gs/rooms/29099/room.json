@@ -1,4 +1,5 @@
 {
+  "checksum": "1cb80f884bfc84bfc3dc86b7f8622ed3",
   "room": {
     "id": 29099,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28884": "out",
-      "30716": ";e true"
+      "30716": "/rooms/29099/wayto/stringproc-30716.rb"
     },
     "timeto": {
       "28884": 0.2,
-      "30716": ";e Map[7].timeto['30714'].call;"
+      "30716": "/rooms/29099/timeto/stringproc-30716.rb"
     },
     "tags": [
       "no forageables",

@@ -1,4 +1,5 @@
 {
+  "checksum": "d641d053c0969e24f42fcf63d15ff3e7",
   "room": {
     "id": 117,
     "title": [
@@ -14,26 +15,26 @@
     "wayto": {
       "116": "north",
       "118": "south",
-      "16751": ";e fput 'rub carving'; move 'go passage'"
+      "16751": "/rooms/117/wayto/stringproc-16751.rb"
     },
     "timeto": {
       "116": 0.2,
       "118": 0.2,
       "16751": 0.4
     },
-    "image": "en-skull-1264234799.png",
-    "image_coords": [
-      583,
-      737,
-      593,
-      747
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables"
     ],
     "uid": [
       13300025
+    ],
+    "image": "en-skull-1264234799.png",
+    "image_coords": [
+      583,
+      737,
+      593,
+      747
     ]
   }
 }

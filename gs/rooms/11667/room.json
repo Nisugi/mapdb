@@ -1,4 +1,5 @@
 {
+  "checksum": "ab0388d6c7988facc096a6d365f7a25f",
   "room": {
     "id": 11667,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "the Miasmal Forest",
     "wayto": {
-      "11675": ";e move 'out'; if checkpaths.include?('ne'); move 'northeast'; move 'east'; end"
+      "11675": "/rooms/11667/wayto/stringproc-11675.rb"
     },
     "timeto": {
       "11675": 0.6

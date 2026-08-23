@@ -1,4 +1,5 @@
 {
+  "checksum": "221e1f0054317dd808499731194ba2b1",
   "room": {
     "id": 34282,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "none",
     "wayto": {
       "34281": "out",
-      "34283": ";e move 'go edge'; waitrt?"
+      "34283": "/rooms/34282/wayto/stringproc-34283.rb"
     },
     "timeto": {
       "34281": 0.2,
       "34283": 5.2
     },
-    "image": "en-zul_logoth-storm_peaks-1703220375.png",
-    "image_coords": [
-      382,
-      623,
-      402,
-      643
-    ],
     "tags": [
       "bolmara lichen",
       "ironfern root",
@@ -39,6 +33,13 @@
     ],
     "uid": [
       13150004
+    ],
+    "image": "en-zul_logoth-storm_peaks-1703220375.png",
+    "image_coords": [
+      382,
+      623,
+      402,
+      643
     ]
   }
 }

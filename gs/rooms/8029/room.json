@@ -1,4 +1,5 @@
 {
+  "checksum": "e973ed6bc32bc4085b2e656560f97627",
   "room": {
     "id": 8029,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "4343": "northwest",
       "8030": "east",
-      "8031": ";e fput 'crawl bush'\nwaitrt?\nfput 'stand' unless standing?"
+      "8031": "/rooms/8029/wayto/stringproc-8031.rb"
     },
     "timeto": {
       "4343": 0.2,
       "8030": 0.2,
       "8031": 0.2
     },
-    "image": "wl-mineroad-1264234799.png",
-    "image_coords": [
-      738,
-      1083,
-      748,
-      1093
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -84,6 +78,13 @@
     ],
     "uid": [
       4250007
+    ],
+    "image": "wl-mineroad-1264234799.png",
+    "image_coords": [
+      738,
+      1083,
+      748,
+      1093
     ]
   }
 }

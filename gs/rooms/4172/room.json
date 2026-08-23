@@ -1,4 +1,5 @@
 {
+  "checksum": "b4138b95d3905afb8d9882db818b5d48",
   "room": {
     "id": 4172,
     "title": [
@@ -14,9 +15,9 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "4171": ";e unless checkloot.include?('door'); move 'south'; fput 'search'; move 'go stair'; move 'southwest'; move 'southwest'; move 'southeast'; move 'go crack'; move 'north'; end; move 'go door'",
-      "4173": ";e unless checkloot.include?('door'); move 'south'; fput 'search'; move 'go stair'; move 'southwest'; move 'southwest'; move 'southeast'; move 'go crack'; move 'north'; end; move 'south'",
-      "4174": ";e move 'south' while checkpaths.include?('s')",
+      "4171": "/rooms/4172/wayto/stringproc-4171.rb",
+      "4173": "/rooms/4172/wayto/stringproc-4173.rb",
+      "4174": "/rooms/4172/wayto/stringproc-4174.rb",
       "16806": "north"
     },
     "timeto": {
@@ -25,13 +26,6 @@
       "4174": 0.6,
       "16806": 0.2
     },
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      767,
-      835,
-      777,
-      845
-    ],
     "tags": [
       "cave moss",
       "ironfern root",
@@ -45,6 +39,13 @@
     ],
     "uid": [
       2138116
+    ],
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      767,
+      835,
+      777,
+      845
     ]
   }
 }

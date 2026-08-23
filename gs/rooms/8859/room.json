@@ -1,4 +1,5 @@
 {
+  "checksum": "0c9c69094827af06a16dcdadb93922cf",
   "room": {
     "id": 8859,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "3809": "east",
-      "30708": ";e true"
+      "30708": "/rooms/8859/wayto/stringproc-30708.rb"
     },
     "timeto": {
       "3809": 0.2,
-      "30708": ";e Map[7].timeto['30714'].call;"
+      "30708": "/rooms/8859/timeto/stringproc-30708.rb"
     },
     "tags": [
       "meta:forage-sensed",

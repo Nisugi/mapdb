@@ -1,4 +1,5 @@
 {
+  "checksum": "5c3c4b1e55a577faea213ae055463f77",
   "room": {
     "id": 7036,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "none",
     "wayto": {
       "7035": "down",
-      "7154": ";e unless move 'go door'; fput 'kneel'; fput 'touch statue'; waitfor 'the black mein door has opened'; fput 'stand'; move 'go door'; end"
+      "7154": "/rooms/7036/wayto/stringproc-7154.rb"
     },
     "timeto": {
       "7035": 0.2,
-      "7154": 20.0
+      "7154": 20
     },
-    "image": "wl-darkstone-1717380773.png",
-    "image_coords": [
-      596,
-      456,
-      606,
-      466
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       45134
+    ],
+    "image": "wl-darkstone-1717380773.png",
+    "image_coords": [
+      596,
+      456,
+      606,
+      466
     ]
   }
 }

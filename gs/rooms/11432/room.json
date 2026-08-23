@@ -1,4 +1,5 @@
 {
+  "checksum": "ed1cbd650e80f71738f8a91e23779b0c",
   "room": {
     "id": 11432,
     "title": [
@@ -17,24 +18,24 @@
     "terrain": "hard, flat",
     "wayto": {
       "11431": "up",
-      "11433": ";e empty_hands\nfput 'unhide' if checkspell 'invisibility'\nmove 'go river'"
+      "11433": "/rooms/11432/wayto/stringproc-11433.rb"
     },
     "timeto": {
       "11431": 0.2,
       "11433": 0.2
     },
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      304009
+    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       1933,
       371,
       1957,
       393
-    ],
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      304009
     ]
   }
 }

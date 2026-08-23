@@ -1,4 +1,5 @@
 {
+  "checksum": "5d4e8714186476643ac8a18f41bf4174",
   "room": {
     "id": 28915,
     "title": [
@@ -18,23 +19,16 @@
       "28908": "southwest",
       "28914": "east",
       "28995": "go inn",
-      "30716": ";e true",
+      "30716": "/rooms/28915/wayto/stringproc-30716.rb",
       "36476": "go golden arch"
     },
     "timeto": {
       "28908": 0.2,
       "28914": 0.2,
       "28995": 0.2,
-      "30716": ";e Map[7].timeto['30714'].call;",
+      "30716": "/rooms/28915/timeto/stringproc-30716.rb",
       "36476": 0.2
     },
-    "image": "kf-krakens_fall-1648278406.png",
-    "image_coords": [
-      538,
-      243,
-      551,
-      256
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables",
@@ -42,6 +36,13 @@
     ],
     "uid": [
       7118203
+    ],
+    "image": "kf-krakens_fall-1648278406.png",
+    "image_coords": [
+      538,
+      243,
+      551,
+      256
     ]
   }
 }

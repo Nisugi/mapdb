@@ -1,4 +1,5 @@
 {
+  "checksum": "f16728434cae362c013d7a272eb67220",
   "room": {
     "id": 14663,
     "title": [
@@ -17,13 +18,13 @@
       "9406": "go door",
       "13961": "climb stair",
       "16727": "east",
-      "30712": ";e true"
+      "30712": "/rooms/14663/wayto/stringproc-30712.rb"
     },
     "timeto": {
       "9406": 0.2,
       "13961": 0.2,
       "16727": 0.2,
-      "30712": ";e Map[7].timeto['30714'].call;"
+      "30712": "/rooms/14663/timeto/stringproc-30712.rb"
     },
     "tags": [
       "meta:nomagic",

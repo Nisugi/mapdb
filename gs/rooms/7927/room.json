@@ -1,4 +1,5 @@
 {
+  "checksum": "7d12cb6cdf10c7873fdbb49a9ba5807e",
   "room": {
     "id": 7927,
     "title": [
@@ -16,19 +17,12 @@
     "terrain": "grassland",
     "wayto": {
       "3759": "northeast",
-      "34489": ";e move('go ethereal portal');$go2_restart = true"
+      "34489": "/rooms/7927/wayto/stringproc-34489.rb"
     },
     "timeto": {
       "3759": 0.2,
       "34489": 0.2
     },
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      898,
-      225,
-      908,
-      235
-    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -144,6 +138,13 @@
     ],
     "uid": [
       2148004
+    ],
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      898,
+      225,
+      908,
+      235
     ]
   }
 }

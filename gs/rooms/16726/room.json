@@ -1,4 +1,5 @@
 {
+  "checksum": "31299843dcf3e5044d107d0d5b6c5f92",
   "room": {
     "id": 16726,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "temperate",
     "terrain": "riparian",
     "wayto": {
-      "16725": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'climb ledge'; waitrt?",
-      "16729": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; move 'swim river'; waitrt?"
+      "16725": "/rooms/16726/wayto/stringproc-16725.rb",
+      "16729": "/rooms/16726/wayto/stringproc-16729.rb"
     },
     "timeto": {
-      "16725": 10.0,
-      "16729": 10.0
+      "16725": 10,
+      "16729": 10
     },
-    "image": "en-aradhul-road-1308194332.png",
-    "image_coords": [
-      329,
-      708,
-      354,
-      729
-    ],
     "tags": [
       "acantha leaf",
       "blue trafel mushroom",
@@ -72,6 +66,13 @@
     ],
     "uid": [
       17005012
+    ],
+    "image": "en-aradhul-road-1308194332.png",
+    "image_coords": [
+      329,
+      708,
+      354,
+      729
     ]
   }
 }

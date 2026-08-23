@@ -1,4 +1,5 @@
 {
+  "checksum": "c984b5b02c131e84445c40f73d22e76f",
   "room": {
     "id": 31493,
     "title": [
@@ -15,36 +16,29 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "250": ";e multifput 'ask portmaster about travel 1','ask portmaster about travel 1';waitfor 'A crew member escorts you off the ship.'",
-      "1870": ";e multifput 'ask portmaster about travel 4','ask portmaster about travel 4';waitfor 'A crew member escorts you off the ship.'",
-      "10838": ";e multifput 'ask portmaster about travel 3','ask portmaster about travel 3';waitfor 'A crew member escorts you off the ship.'",
-      "11756": ";e multifput 'ask portmaster about travel 2','ask portmaster about travel 2';waitfor 'A crew member escorts you off the ship.'",
-      "29033": ";e multifput 'ask portmaster about travel 5','ask portmaster about travel 5';waitfor 'A crew member escorts you off the ship.'",
-      "30713": ";e true",
+      "250": "/rooms/31493/wayto/stringproc-250.rb",
+      "1870": "/rooms/31493/wayto/stringproc-1870.rb",
+      "10838": "/rooms/31493/wayto/stringproc-10838.rb",
+      "11756": "/rooms/31493/wayto/stringproc-11756.rb",
+      "29033": "/rooms/31493/wayto/stringproc-29033.rb",
+      "30713": "/rooms/31493/wayto/stringproc-30713.rb",
       "31487": "north",
-      "32372": ";e multifput 'ask portmaster about travel 7','ask portmaster about travel 7';waitfor 'A crew member escorts you off the ship.'",
-      "32928": ";e multifput 'ask portmaster about travel 8','ask portmaster about travel 8';waitfor 'A crew member escorts you off the ship.'",
+      "32372": "/rooms/31493/wayto/stringproc-32372.rb",
+      "32928": "/rooms/31493/wayto/stringproc-32928.rb",
       "33403": "go vaalorn gate"
     },
     "timeto": {
-      "250": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
-      "1870": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
-      "10838": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
-      "11756": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
-      "29033": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
-      "30713": ";e Map[7].timeto['30714'].call;",
+      "250": "/rooms/31493/timeto/stringproc-250.rb",
+      "1870": "/rooms/31493/timeto/stringproc-1870.rb",
+      "10838": "/rooms/31493/timeto/stringproc-10838.rb",
+      "11756": "/rooms/31493/timeto/stringproc-11756.rb",
+      "29033": "/rooms/31493/timeto/stringproc-29033.rb",
+      "30713": "/rooms/31493/timeto/stringproc-30713.rb",
       "31487": 0.2,
-      "32372": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
-      "32928": ";e UserVars.mapdb_use_portmasters == true ? 1200 : nil",
+      "32372": "/rooms/31493/timeto/stringproc-32372.rb",
+      "32928": "/rooms/31493/timeto/stringproc-32928.rb",
       "33403": 0.2
     },
-    "image": "en-ta_vaalor_port-1662946910.png",
-    "image_coords": [
-      807,
-      373,
-      825,
-      389
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables",
@@ -61,6 +55,13 @@
     ],
     "uid": [
       7136032
+    ],
+    "image": "en-ta_vaalor_port-1662946910.png",
+    "image_coords": [
+      807,
+      373,
+      825,
+      389
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "2ace46bad946ece4f12d02efbe45a3a9",
   "room": {
     "id": 36351,
     "title": [
@@ -13,21 +14,21 @@
     "location": "the Upper Trollfang",
     "wayto": {
       "36350": "swim up",
-      "36352": ";e waitfor 'and pull you down even further into the murk'"
+      "36352": "/rooms/36351/wayto/stringproc-36352.rb"
     },
     "timeto": {
       "36350": 0.2,
       "36352": 0.2
     },
+    "uid": [
+      55018
+    ],
     "image": "quest-black_swan_castle.png",
     "image_coords": [
       800,
       600,
       840,
       640
-    ],
-    "uid": [
-      55018
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "adf2956f66cdab72e20dd000dde70585",
   "room": {
     "id": 401,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "289": "out",
       "23831": "go sturdy ladder",
-      "30708": ";e true"
+      "30708": "/rooms/401/wayto/stringproc-30708.rb"
     },
     "timeto": {
       "289": 0.2,
       "23831": 0.2,
-      "30708": ";e Map[7].timeto['30714'].call;"
+      "30708": "/rooms/401/timeto/stringproc-30708.rb"
     },
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      122,
-      879,
-      152,
-      909
-    ],
     "tags": [
       "armor",
       "armorshop",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       2050
+    ],
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      122,
+      879,
+      152,
+      909
     ]
   }
 }

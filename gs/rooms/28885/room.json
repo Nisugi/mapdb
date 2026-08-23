@@ -1,4 +1,5 @@
 {
+  "checksum": "61ac89381e58a711e5866e840d6c121e",
   "room": {
     "id": 28885,
     "title": [
@@ -19,23 +20,16 @@
       "28884": "southeast",
       "28886": "south",
       "28889": "west",
-      "29773": ";e fput 'speak'; language = /You are currently speaking (.*?)\\./.match(get).captures.first until language;; fput('speak wizard') unless language == 'Guildspeak'; fput('unhide') if hidden? or invisible?; move 'say ::portal wizard'; fput('speak ' + language.to_s) unless language == 'Guildspeak'",
-      "30716": ";e true"
+      "29773": "/rooms/28885/wayto/stringproc-29773.rb",
+      "30716": "/rooms/28885/wayto/stringproc-30716.rb"
     },
     "timeto": {
       "28884": 0.2,
       "28886": 0.2,
       "28889": 0.2,
-      "29773": ";e ((!defined?(Stats.prof) or Stats.prof == 'Wizard') ? 0.2 : nil);",
-      "30716": ";e Map[7].timeto['30714'].call;"
+      "29773": "/rooms/28885/timeto/stringproc-29773.rb",
+      "30716": "/rooms/28885/timeto/stringproc-30716.rb"
     },
-    "image": "kf-krakens_fall-1648278406.png",
-    "image_coords": [
-      208,
-      243,
-      221,
-      255
-    ],
     "tags": [
       "angelica root",
       "areca frond",
@@ -200,6 +194,13 @@
     ],
     "uid": [
       7118202
+    ],
+    "image": "kf-krakens_fall-1648278406.png",
+    "image_coords": [
+      208,
+      243,
+      221,
+      255
     ]
   }
 }

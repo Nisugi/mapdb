@@ -1,4 +1,5 @@
 {
+  "checksum": "a936205ff9126d315146705a27b3f834",
   "room": {
     "id": 16193,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "Maelstrom Bay",
     "wayto": {
-      "16192": ";e multifput('search','push block');move 'go opening'",
+      "16192": "/rooms/16193/wayto/stringproc-16192.rb",
       "16194": "go door"
     },
     "timeto": {
       "16192": 0.4,
       "16194": 0.2
     },
-    "image": "rr-beacon_hall-1405076623.png",
-    "image_coords": [
-      509,
-      262,
-      556,
-      307
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -52,6 +46,13 @@
     ],
     "uid": [
       216010
+    ],
+    "image": "rr-beacon_hall-1405076623.png",
+    "image_coords": [
+      509,
+      262,
+      556,
+      307
     ]
   }
 }

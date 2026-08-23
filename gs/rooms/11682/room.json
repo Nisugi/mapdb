@@ -1,4 +1,5 @@
 {
+  "checksum": "c736a64cce96490beffa2191971a5f3c",
   "room": {
     "id": 11682,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "muddy wetlands",
     "wayto": {
       "11681": "southeast",
-      "11683": ";e fput 'search'\nmove 'go path'"
+      "11683": "/rooms/11682/wayto/stringproc-11683.rb"
     },
     "timeto": {
       "11681": 0.2,
       "11683": 0.2
     },
-    "image": "rr-marsh_keep-1266356986.png",
-    "image_coords": [
-      97,
-      1161,
-      107,
-      1171
-    ],
     "tags": [
       "alligator lily",
       "aloeas stem",
@@ -73,6 +67,13 @@
     ],
     "uid": [
       376005
+    ],
+    "image": "rr-marsh_keep-1266356986.png",
+    "image_coords": [
+      97,
+      1161,
+      107,
+      1171
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "6e96793dc34be8ca19b77258430c6fb8",
   "room": {
     "id": 28978,
     "title": [
@@ -17,20 +18,13 @@
     "wayto": {
       "28919": "go gates",
       "29021": "west",
-      "30716": ";e true"
+      "30716": "/rooms/28978/wayto/stringproc-30716.rb"
     },
     "timeto": {
       "28919": 0.2,
       "29021": 0.2,
-      "30716": ";e Map[7].timeto['30714'].call;"
+      "30716": "/rooms/28978/timeto/stringproc-30716.rb"
     },
-    "image": "kf-widowmakers_road-1668643957.png",
-    "image_coords": [
-      759,
-      317,
-      771,
-      329
-    ],
     "tags": [
       "advguard",
       "banana leaf",
@@ -89,6 +83,13 @@
     ],
     "uid": [
       7119101
+    ],
+    "image": "kf-widowmakers_road-1668643957.png",
+    "image_coords": [
+      759,
+      317,
+      771,
+      329
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "973975a9cb8277c3d3a2b333bdcbab4b",
   "room": {
     "id": 9919,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "cold, damp",
     "terrain": "deciduous forest",
     "wayto": {
-      "1787": ";e fput 'search'\nmove 'go opening'",
+      "1787": "/rooms/9919/wayto/stringproc-1787.rb",
       "1791": "south"
     },
     "timeto": {
       "1787": 0.2,
       "1791": 0.2
     },
-    "image": "en-sylvarraend-1264234799.png",
-    "image_coords": [
-      543,
-      122,
-      553,
-      132
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -76,6 +70,13 @@
     ],
     "uid": [
       13027060
+    ],
+    "image": "en-sylvarraend-1264234799.png",
+    "image_coords": [
+      543,
+      122,
+      553,
+      132
     ]
   }
 }

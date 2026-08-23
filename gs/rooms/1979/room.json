@@ -1,4 +1,5 @@
 {
+  "checksum": "eb6f60b5a01c70ff406b267c1f2974a7",
   "room": {
     "id": 1979,
     "title": [
@@ -16,13 +17,13 @@
       "1978": "out",
       "1980": "east",
       "1982": "south",
-      "30715": ";e true"
+      "30715": "/rooms/1979/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "1978": 0.2,
       "1980": 0.2,
       "1982": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "30715": "/rooms/1979/timeto/stringproc-30715.rb"
     },
     "tags": [
       "no forageables",

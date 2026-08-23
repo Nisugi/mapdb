@@ -1,4 +1,5 @@
 {
+  "checksum": "83a24f42ea6572a8c8bfc0ba615422be",
   "room": {
     "id": 27470,
     "title": [
@@ -13,27 +14,27 @@
     ],
     "location": "The Harrows, outside the elven city of Ta'Illistim",
     "wayto": {
-      "1834": ";e if UserVars.Mularos_Lover; UserVars.Mularos_Lover.each{|c| fput \"#{c}\" } end",
+      "1834": "/rooms/27470/wayto/stringproc-1834.rb",
       "27471": "go doors",
       "27472": "go wicket"
     },
     "timeto": {
-      "1834": ";e UserVars.Mularos_Lover.nil? ? nil : 0.2",
+      "1834": "/rooms/27470/timeto/stringproc-1834.rb",
       "27471": 0.2,
       "27472": 0.2
     },
+    "tags": [
+      "private property"
+    ],
+    "uid": [
+      1303801
+    ],
     "image": "pp-eastern-spine-1543903046.png",
     "image_coords": [
       1170,
       920,
       1269,
       1020
-    ],
-    "tags": [
-      "private property"
-    ],
-    "uid": [
-      1303801
     ]
   }
 }

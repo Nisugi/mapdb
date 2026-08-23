@@ -1,4 +1,5 @@
 {
+  "checksum": "3ccdcca63a009318cb5d29a57c8f711c",
   "room": {
     "id": 16165,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "River's Rest",
     "wayto": {
-      "16064": ";e result = String.new; until result =~ /The mirror won't turn any farther to the right/; fput 'turn mirror right'; result = matchwait(\"The mirror won't turn any farther to the right\",\"You turn the oak-framed mirror slightly to the right\"); end; until result =~ /from the base of the statue onto the center of the statue/; fput 'tilt mirror'; result = matchwait('from the base of the statue onto the center of the statue','You tilt the oak-framed mirror up until it flips around','You tilt the oak-framed mirror up slightly'); if result =~ /flips around/; fput 'turn mirror left'; result = matchwait(\"from the base of the statue onto the center of the statue\",\"You turn the oak-framed mirror slightly to the left\",\"The mirror won't turn any farther to the left\");if result =~ /The mirror won't turn any farther to the left/; 4.times{fput 'turn mirror right'}; end; end; end; move 'go shadow'",
+      "16064": "/rooms/16165/wayto/stringproc-16064.rb",
       "16158": "west"
     },
     "timeto": {

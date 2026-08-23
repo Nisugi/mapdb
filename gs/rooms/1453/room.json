@@ -1,4 +1,5 @@
 {
+  "checksum": "9894989e91736ede8693e0d58b774997",
   "room": {
     "id": 1453,
     "title": [
@@ -19,7 +20,7 @@
       "1454": "east",
       "1460": "south",
       "12813": "go entrance",
-      "30710": ";e true"
+      "30710": "/rooms/1453/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "1438": 0.2,
@@ -27,15 +28,8 @@
       "1454": 0.2,
       "1460": 0.2,
       "12813": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/1453/timeto/stringproc-30710.rb"
     },
-    "image": "vo-solhaven-1675635404.png",
-    "image_coords": [
-      1002,
-      576,
-      1026,
-      600
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:trashcan:green and white oak barrel",
@@ -45,6 +39,13 @@
     ],
     "uid": [
       4209031
+    ],
+    "image": "vo-solhaven-1675635404.png",
+    "image_coords": [
+      1002,
+      576,
+      1026,
+      600
     ]
   }
 }

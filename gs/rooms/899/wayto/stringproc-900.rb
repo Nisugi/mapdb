@@ -1,1 +1,1 @@
-move 'go crevasse'; waitrt?
+move 'go crevasse'; waitrt

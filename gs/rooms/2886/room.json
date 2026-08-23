@@ -1,4 +1,5 @@
 {
+  "checksum": "e2718b36a40079d63ca1636436665a3d",
   "room": {
     "id": 2886,
     "title": [
@@ -18,7 +19,7 @@
       "2887": "northeast",
       "2892": "northwest",
       "2893": "north",
-      "2894": ";e move 'climb butte'"
+      "2894": "/rooms/2886/wayto/stringproc-2894.rb"
     },
     "timeto": {
       "2885": 0.2,
@@ -27,13 +28,6 @@
       "2893": 0.2,
       "2894": 0.2
     },
-    "image": "imt-east_west_north_gates-1668398077.png",
-    "image_coords": [
-      1152,
-      235,
-      1162,
-      245
-    ],
     "tags": [
       "angelica root",
       "arctic moss",
@@ -72,6 +66,13 @@
     ],
     "uid": [
       4560037
+    ],
+    "image": "imt-east_west_north_gates-1668398077.png",
+    "image_coords": [
+      1152,
+      235,
+      1162,
+      245
     ]
   }
 }

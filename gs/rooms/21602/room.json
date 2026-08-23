@@ -1,4 +1,5 @@
 {
+  "checksum": "8c7500dd7611044a97f68f24bc6a60f8",
   "room": {
     "id": 21602,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "The Miasmic Verge",
     "wayto": {
-      "20085": ";e fput 'go opening'"
+      "20085": "/rooms/21602/wayto/stringproc-20085.rb"
     },
     "timeto": {
       "20085": 0.2

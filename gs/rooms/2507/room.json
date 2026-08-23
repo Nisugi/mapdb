@@ -1,4 +1,5 @@
 {
+  "checksum": "d49a0e069d533f2486e017e67e46942d",
   "room": {
     "id": 2507,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "barren scrub",
     "wayto": {
       "2506": "go trail",
-      "2508": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'southwest'"
+      "2508": "/rooms/2507/wayto/stringproc-2508.rb"
     },
     "timeto": {
       "2506": 0.2,
       "2508": 0.2
     },
-    "image": "imt-trail-1264234799.png",
-    "image_coords": [
-      1170,
-      327,
-      1180,
-      337
-    ],
     "tags": [
       "arctic moss",
       "broken twig",
@@ -39,6 +33,13 @@
     ],
     "uid": [
       4044209
+    ],
+    "image": "imt-trail-1264234799.png",
+    "image_coords": [
+      1170,
+      327,
+      1180,
+      337
     ]
   }
 }

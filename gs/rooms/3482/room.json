@@ -1,4 +1,5 @@
 {
+  "checksum": "47c86752cfdff54173c342eb6f1d8dde",
   "room": {
     "id": 3482,
     "title": [
@@ -14,18 +15,11 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "3480": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'north'"
+      "3480": "/rooms/3482/wayto/stringproc-3480.rb"
     },
     "timeto": {
       "3480": 0.2
     },
-    "image": "imt-trail-1264234799.png",
-    "image_coords": [
-      889,
-      705,
-      899,
-      715
-    ],
     "tags": [
       "arctic moss",
       "ironfern root",
@@ -34,6 +28,13 @@
     ],
     "uid": [
       4044138
+    ],
+    "image": "imt-trail-1264234799.png",
+    "image_coords": [
+      889,
+      705,
+      899,
+      715
     ]
   }
 }

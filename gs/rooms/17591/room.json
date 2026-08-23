@@ -1,4 +1,5 @@
 {
+  "checksum": "ae66b286e6b8184e0d7360a07d46e31b",
   "room": {
     "id": 17591,
     "title": [
@@ -15,25 +16,25 @@
     "terrain": "hard, flat",
     "wayto": {
       "17590": "climb steps",
-      "17645": ";e multifput 'ask fisherman about boat', 'ask fisherman about boat'"
+      "17645": "/rooms/17591/wayto/stringproc-17645.rb"
     },
     "timeto": {
       "17590": 0.2,
       "17645": 120
     },
-    "image": "ifw-isle_of_four_winds-1310232949.png",
-    "image_coords": [
-      815,
-      206,
-      847,
-      235
-    ],
     "tags": [
       "no forageables",
       "silver-cost:17645:500"
     ],
     "uid": [
       3216020
+    ],
+    "image": "ifw-isle_of_four_winds-1310232949.png",
+    "image_coords": [
+      815,
+      206,
+      847,
+      235
     ]
   }
 }

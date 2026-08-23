@@ -1,4 +1,5 @@
 {
+  "checksum": "e7ebd27dda991cf65aec51cac379434a",
   "room": {
     "id": 3035,
     "title": [
@@ -22,10 +23,10 @@
     "climate": "snowy, arctic",
     "terrain": "coniferous",
     "wayto": {
-      "3034": ";e move 'south' while Room.current.id == 3035"
+      "3034": "/rooms/3035/wayto/stringproc-3034.rb"
     },
     "timeto": {
-      "3034": 1.0
+      "3034": 1
     },
     "tags": [
       "angelica root",

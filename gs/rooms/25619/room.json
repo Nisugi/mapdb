@@ -1,4 +1,5 @@
 {
+  "checksum": "af50e25b849efac98c95f00dfcde2987",
   "room": {
     "id": 25619,
     "title": [
@@ -14,26 +15,19 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "13966": ";e if checksitting;while Room.current.id == 25619;fput('row west');waitrt?;end;else;move('swim west');end;",
-      "18842": ";e if checksitting;while Room.current.id == 25619;fput('row south');waitrt?;end;else;move('swim south');end;",
-      "25618": ";e if checksitting;while Room.current.id == 25619;fput('row southeast');waitrt?;end;else;move('swim southeast');end;",
-      "25620": ";e if checksitting;while Room.current.id == 25619;fput('row northwest');waitrt?;end;else;move('swim northwest');end;",
+      "13966": "/rooms/25619/wayto/stringproc-13966.rb",
+      "18842": "/rooms/25619/wayto/stringproc-18842.rb",
+      "25618": "/rooms/25619/wayto/stringproc-25618.rb",
+      "25620": "/rooms/25619/wayto/stringproc-25620.rb",
       "30506": "swim down"
     },
     "timeto": {
-      "13966": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "18842": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "25618": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "25620": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "30506": ";e checksitting && Room.current.climate == 'freshwater' ? nil : 0.2"
+      "13966": "/rooms/25619/timeto/stringproc-13966.rb",
+      "18842": "/rooms/25619/timeto/stringproc-18842.rb",
+      "25618": "/rooms/25619/timeto/stringproc-25618.rb",
+      "25620": "/rooms/25619/timeto/stringproc-25620.rb",
+      "30506": "/rooms/25619/timeto/stringproc-30506.rb"
     },
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1163,
-      690,
-      1181,
-      711
-    ],
     "tags": [
       "aloeas stem",
       "meta:forage-sensed",
@@ -50,6 +44,13 @@
     ],
     "uid": [
       14117010
+    ],
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1163,
+      690,
+      1181,
+      711
     ]
   }
 }

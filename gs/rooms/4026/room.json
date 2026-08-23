@@ -1,4 +1,5 @@
 {
+  "checksum": "443c381414a664b6dc4cb6b87072b66b",
   "room": {
     "id": 4026,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "618": "out",
       "15538": "go tower",
-      "30714": ";e true"
+      "30714": "/rooms/4026/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "618": 0.2,
-      "15538": ";e ((!defined?(Stats.prof) or Stats.prof == 'Wizard') ? 0.2 : nil);",
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "15538": "/rooms/4026/timeto/stringproc-15538.rb",
+      "30714": "/rooms/4026/timeto/stringproc-30714.rb"
     },
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      875,
-      143,
-      898,
-      165
-    ],
     "tags": [
       "angelica root",
       "black peppercorn",
@@ -171,6 +165,13 @@
     ],
     "uid": [
       685001
+    ],
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      875,
+      143,
+      898,
+      165
     ]
   }
 }

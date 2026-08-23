@@ -1,4 +1,5 @@
 {
+  "checksum": "58cc8cd205e87f1f018a7e2a19cc53f6",
   "room": {
     "id": 15520,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "4077": "south",
-      "30708": ";e true"
+      "30708": "/rooms/15520/wayto/stringproc-30708.rb"
     },
     "timeto": {
       "4077": 0.2,
-      "30708": ";e Map[7].timeto['30714'].call;"
+      "30708": "/rooms/15520/timeto/stringproc-30708.rb"
     },
     "tags": [
       "cobblers",

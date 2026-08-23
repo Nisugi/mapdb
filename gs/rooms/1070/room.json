@@ -1,4 +1,5 @@
 {
+  "checksum": "a46e8966b2301f1f37829cd007008a91",
   "room": {
     "id": 1070,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "grassland",
     "wayto": {
       "1069": "northwest",
-      "1071": ";e $group_members = nil;clear.reverse.each { |line|;  if line =~ /^Obvious (paths|exits)/;    break;  elsif line =~ /^([A-Za-z ,]+) followed\\.$/;    $group_members = $1.split(/, | and /);    $group_members.delete_if { |m| m =~ /^[Yy]our / };    $group_members = nil if $group_members.empty?;    break;  end;};empty_hands;move 'climb ladder';waitrt?"
+      "1071": "/rooms/1070/wayto/stringproc-1071.rb"
     },
     "timeto": {
       "1069": 0.2,
-      "1071": 30.0
+      "1071": 30
     },
-    "image": "en-trail-1264234799.png",
-    "image_coords": [
-      1246,
-      808,
-      1256,
-      818
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -63,6 +57,13 @@
     ],
     "uid": [
       13001042
+    ],
+    "image": "en-trail-1264234799.png",
+    "image_coords": [
+      1246,
+      808,
+      1256,
+      818
     ]
   }
 }

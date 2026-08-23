@@ -1,4 +1,5 @@
 {
+  "checksum": "80d338e74adc6afe89687858b035347b",
   "room": {
     "id": 8817,
     "title": [
@@ -17,13 +18,13 @@
       "242": "out",
       "8818": "southwest",
       "8820": "go black door",
-      "30708": ";e true"
+      "30708": "/rooms/8817/wayto/stringproc-30708.rb"
     },
     "timeto": {
       "242": 0.2,
       "8818": 0.2,
       "8820": 0.2,
-      "30708": ";e Map[7].timeto['30714'].call;"
+      "30708": "/rooms/8817/timeto/stringproc-30708.rb"
     },
     "tags": [
       "beldrins",

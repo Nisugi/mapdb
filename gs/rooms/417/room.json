@@ -1,4 +1,5 @@
 {
+  "checksum": "3aa5bf580a1119a1204286ed4014bd5e",
   "room": {
     "id": 417,
     "title": [
@@ -17,7 +18,7 @@
       "219": "go path",
       "415": "southeast",
       "418": "northwest",
-      "23281": ";e move('go doorframe');UserVars.mapdb_talondown_origin = 417;"
+      "23281": "/rooms/417/wayto/stringproc-23281.rb"
     },
     "timeto": {
       "219": 0.2,
@@ -25,13 +26,6 @@
       "418": 0.2,
       "23281": 0.4
     },
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      546,
-      137,
-      556,
-      147
-    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -83,6 +77,13 @@
     ],
     "uid": [
       9005
+    ],
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      546,
+      137,
+      556,
+      147
     ]
   }
 }

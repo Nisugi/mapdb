@@ -1,4 +1,5 @@
 {
+  "checksum": "e30794067ab4d5ce6ddbf07b48558640",
   "room": {
     "id": 2500,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "snowy, arctic",
     "terrain": "coniferous forest",
     "wayto": {
-      "2499": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'northeast'",
-      "2501": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'south'"
+      "2499": "/rooms/2500/wayto/stringproc-2499.rb",
+      "2501": "/rooms/2500/wayto/stringproc-2501.rb"
     },
     "timeto": {
       "2499": 0.2,
       "2501": 0.2
     },
-    "image": "imt-trail-1264234799.png",
-    "image_coords": [
-      1188,
-      273,
-      1198,
-      283
-    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -73,6 +67,13 @@
     ],
     "uid": [
       4044216
+    ],
+    "image": "imt-trail-1264234799.png",
+    "image_coords": [
+      1188,
+      273,
+      1198,
+      283
     ]
   }
 }

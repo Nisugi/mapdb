@@ -1,4 +1,5 @@
 {
+  "checksum": "eecc148711efdce7e0b5cc05a7c07820",
   "room": {
     "id": 27725,
     "title": [
@@ -12,22 +13,22 @@
     ],
     "location": "Icemule Trace",
     "wayto": {
-      "27724": ";e fput 'pull rope'; move 'go down'",
-      "27726": ";e fput 'push rope'; move 'climb rope'"
+      "27724": "/rooms/27725/wayto/stringproc-27724.rb",
+      "27726": "/rooms/27725/wayto/stringproc-27726.rb"
     },
     "timeto": {
       "27724": 10.2,
       "27726": 5.2
     },
+    "uid": [
+      4050116
+    ],
     "image": "imt-Town_Walls_Map-1707071672.png",
     "image_coords": [
       711,
       572,
       744,
       608
-    ],
-    "uid": [
-      4050116
     ]
   }
 }

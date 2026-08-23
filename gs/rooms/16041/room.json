@@ -1,4 +1,5 @@
 {
+  "checksum": "35ba7e28b376a1c130d23d1fc010625d",
   "room": {
     "id": 16041,
     "title": [
@@ -14,38 +15,38 @@
     "climate": "saltwater",
     "terrain": "",
     "wayto": {
-      "11439": ";e if checkspell(112) then move 'southeast' else move 'swim southeast' end; waitrt?",
-      "11440": ";e if checkspell(112) then move 'north' else move 'swim north' end; waitrt?",
-      "11444": ";e if checkspell(112) then move 'northwest' else move 'swim northwest' end; waitrt?",
-      "11445": ";e if checkspell(112) then move 'west' else move 'swim west' end; waitrt?",
-      "11446": ";e if checkspell(112) then move 'south' else move 'swim south' end; waitrt?",
-      "11454": ";e if checkspell(112) then move 'northeast' else move 'swim northeast' end; waitrt?",
-      "11455": ";e if checkspell(112) then move 'east' else move 'swim east' end; waitrt?",
-      "11465": ";e move 'swim down'; waitrt?"
+      "11439": "/rooms/16041/wayto/stringproc-11439.rb",
+      "11440": "/rooms/16041/wayto/stringproc-11440.rb",
+      "11444": "/rooms/16041/wayto/stringproc-11444.rb",
+      "11445": "/rooms/16041/wayto/stringproc-11445.rb",
+      "11446": "/rooms/16041/wayto/stringproc-11446.rb",
+      "11454": "/rooms/16041/wayto/stringproc-11454.rb",
+      "11455": "/rooms/16041/wayto/stringproc-11455.rb",
+      "11465": "/rooms/16041/wayto/stringproc-11465.rb"
     },
     "timeto": {
-      "11439": 2.0,
-      "11440": 2.0,
-      "11444": 2.0,
-      "11445": ";e checkspell(112) ? 0.2 : 2.0",
-      "11446": 2.0,
-      "11454": 2.0,
-      "11455": 2.0,
-      "11465": 3.0
+      "11439": 2,
+      "11440": 2,
+      "11444": 2,
+      "11445": "/rooms/16041/timeto/stringproc-11445.rb",
+      "11446": 2,
+      "11454": 2,
+      "11455": 2,
+      "11465": 3
     },
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      675,
-      1234,
-      685,
-      1244
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables"
     ],
     "uid": [
       304023
+    ],
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      675,
+      1234,
+      685,
+      1244
     ]
   }
 }

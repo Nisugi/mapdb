@@ -1,4 +1,5 @@
 {
+  "checksum": "bfbdf534caa17b0e55832e4537021438",
   "room": {
     "id": 1957,
     "title": [
@@ -17,20 +18,13 @@
     "wayto": {
       "1956": "south",
       "1991": "go gate",
-      "30715": ";e true"
+      "30715": "/rooms/1957/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "1956": 0.2,
       "1991": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "30715": "/rooms/1957/timeto/stringproc-30715.rb"
     },
-    "image": "ti-teras-1264234799.png",
-    "image_coords": [
-      1033,
-      162,
-      1069,
-      198
-    ],
     "tags": [
       "advguard",
       "guard",
@@ -43,6 +37,13 @@
     ],
     "uid": [
       3001046
+    ],
+    "image": "ti-teras-1264234799.png",
+    "image_coords": [
+      1033,
+      162,
+      1069,
+      198
     ]
   }
 }

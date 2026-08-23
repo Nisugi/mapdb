@@ -1,4 +1,5 @@
 {
+  "checksum": "27e7ac30248fda01af453b8729332776",
   "room": {
     "id": 5267,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "humid",
     "terrain": "coniferous forest",
     "wayto": {
-      "5266": ";e empty_hands; move 'climb rockslide'; waitrt?; fill_hands",
+      "5266": "/rooms/5267/wayto/stringproc-5266.rb",
       "5268": "north"
     },
     "timeto": {
       "5266": 0.2,
       "5268": 0.2
     },
-    "image": "vo-foggy_valley-1264234799.png",
-    "image_coords": [
-      678,
-      554,
-      688,
-      564
-    ],
     "tags": [
       "acantha leaf",
       "blackberries",
@@ -72,6 +66,13 @@
     ],
     "uid": [
       4214301
+    ],
+    "image": "vo-foggy_valley-1264234799.png",
+    "image_coords": [
+      678,
+      554,
+      688,
+      564
     ]
   }
 }

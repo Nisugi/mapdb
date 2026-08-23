@@ -1,4 +1,5 @@
 {
+  "checksum": "b03a0c66fb5d26099f2164a2915cc16c",
   "room": {
     "id": 9553,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "9432": "go arch",
       "9554": "go doors",
-      "30712": ";e true"
+      "30712": "/rooms/9553/wayto/stringproc-30712.rb"
     },
     "timeto": {
       "9432": 0.2,
-      "9554": ";e ((!defined?(Stats.prof) or Stats.prof == 'Wizard') ? 0.2 : nil);",
-      "30712": ";e Map[7].timeto['30714'].call;"
+      "9554": "/rooms/9553/timeto/stringproc-9554.rb",
+      "30712": "/rooms/9553/timeto/stringproc-30712.rb"
     },
-    "image": "en-zul-wizard_guild-1648064027.png",
-    "image_coords": [
-      153,
-      280,
-      217,
-      339
-    ],
     "tags": [
       "no forageables",
       "urchin guide wizardguild",
@@ -39,6 +33,13 @@
     ],
     "uid": [
       688001
+    ],
+    "image": "en-zul-wizard_guild-1648064027.png",
+    "image_coords": [
+      153,
+      280,
+      217,
+      339
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "715f7affaefbe044b2de7d74fad8ea62",
   "room": {
     "id": 11653,
     "title": [
@@ -14,11 +15,11 @@
     "climate": "moist",
     "terrain": "muddy wetlands",
     "wayto": {
-      "11620": ";e if ((bounty? =~ /^You have made contact with the child/)||(Society.task =~ /You have been tasked to find and rescue an official who was captured/)); mynpc = GameObj.npcs.find { |npc| npc.noun =~ /child|official/ }; else;  mynpc = nil; end;  50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'southeast'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'northwest'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'southeast'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc; move 'southwest'; 50.times { break if GameObj.npcs.any? { |npc| npc.id == mynpc.id }; sleep 0.1 } if mynpc;",
-      "11622": ";e move 'southeast';move 'southwest';move 'northeast';move 'southwest'",
+      "11620": "/rooms/11653/wayto/stringproc-11620.rb",
+      "11622": "/rooms/11653/wayto/stringproc-11622.rb",
       "11661": "north",
       "16124": "southwest",
-      "22219": ";e move 'southwest';move 'southeast'"
+      "22219": "/rooms/11653/wayto/stringproc-22219.rb"
     },
     "timeto": {
       "11620": 0.8,
@@ -27,13 +28,6 @@
       "16124": 0.2,
       "22219": 0.4
     },
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      801,
-      447,
-      812,
-      457
-    ],
     "tags": [
       "alligator lily",
       "aloeas stem",
@@ -78,9 +72,16 @@
       "withered mushroom",
       "yellow heliconia"
     ],
-    "check_location": false,
     "uid": [
       5004017
-    ]
+    ],
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      801,
+      447,
+      812,
+      457
+    ],
+    "check_location": false
   }
 }

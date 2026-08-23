@@ -1,4 +1,5 @@
 {
+  "checksum": "a1f4b3f099b777260f3ce193133103cf",
   "room": {
     "id": 11688,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "11687": ";e if checkspell(112); move 'south'; else; empty_hands; move 'swim south'; fill_hands; end; waitrt?",
+      "11687": "/rooms/11688/wayto/stringproc-11687.rb",
       "11689": "go bank"
     },
     "timeto": {
       "11687": 0.2,
       "11689": 0.2
     },
-    "image": "rr-marsh_keep-1266356986.png",
-    "image_coords": [
-      278,
-      967,
-      288,
-      977
-    ],
     "tags": [
       "aloeas stem",
       "blue water lily",
@@ -47,6 +41,13 @@
     ],
     "uid": [
       376012
+    ],
+    "image": "rr-marsh_keep-1266356986.png",
+    "image_coords": [
+      278,
+      967,
+      288,
+      977
     ]
   }
 }

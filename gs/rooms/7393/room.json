@@ -1,4 +1,5 @@
 {
+  "checksum": "7c5c7a52dab40076f29ba8a1acf3f421",
   "room": {
     "id": 7393,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "7328": ";e result = nil;while result.nil? && Room.current.id == 7393;result = dothistimeout \"crawl hole\",3,/^You crawl under the low overhang/;end;wait_while{stunned?};fput \"stand\" until standing?",
+      "7328": "/rooms/7393/wayto/stringproc-7328.rb",
       "7392": "west"
     },
     "timeto": {
       "7328": 0.2,
       "7392": 0.2
     },
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      1438,
-      338,
-      1448,
-      348
-    ],
     "tags": [
       "blackgrove root",
       "blue moss",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       389057
+    ],
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      1438,
+      338,
+      1448,
+      348
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "f99c88aa9355a78dcc0f8f24a3e66774",
   "room": {
     "id": 25615,
     "title": [
@@ -14,26 +15,19 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "18823": ";e if checksitting;while Room.current.id == 25615;fput('row northeast');waitrt?;end;else;move('swim northeast');end;",
-      "25543": ";e if checksitting;while Room.current.id == 25615;fput('row east');waitrt?;end;else;move('swim east');end;",
-      "25544": ";e if checksitting;while Room.current.id == 25615;fput('row southeast');waitrt?;end;else;move('swim southeast');end;",
-      "25616": ";e if checksitting;while Room.current.id == 25615;fput('row northwest');waitrt?;end;else;move('swim northwest');end;",
+      "18823": "/rooms/25615/wayto/stringproc-18823.rb",
+      "25543": "/rooms/25615/wayto/stringproc-25543.rb",
+      "25544": "/rooms/25615/wayto/stringproc-25544.rb",
+      "25616": "/rooms/25615/wayto/stringproc-25616.rb",
       "30511": "swim down"
     },
     "timeto": {
-      "18823": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "25543": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "25544": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "25616": ";e checksitting && Room.current.climate == 'freshwater' ? 10 : 0.2",
-      "30511": ";e checksitting && Room.current.climate == 'freshwater' ? nil : 0.2"
+      "18823": "/rooms/25615/timeto/stringproc-18823.rb",
+      "25543": "/rooms/25615/timeto/stringproc-25543.rb",
+      "25544": "/rooms/25615/timeto/stringproc-25544.rb",
+      "25616": "/rooms/25615/timeto/stringproc-25616.rb",
+      "30511": "/rooms/25615/timeto/stringproc-30511.rb"
     },
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1203,
-      852,
-      1221,
-      870
-    ],
     "tags": [
       "aloeas stem",
       "meta:forage-sensed",
@@ -50,6 +44,13 @@
     ],
     "uid": [
       14117018
+    ],
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1203,
+      852,
+      1221,
+      870
     ]
   }
 }

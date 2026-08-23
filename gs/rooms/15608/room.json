@@ -1,4 +1,5 @@
 {
+  "checksum": "99b7cbf7e53dc322b3359cb0d5f6a3f9",
   "room": {
     "id": 15608,
     "title": [
@@ -13,12 +14,12 @@
     "location": "Ta'Illistim",
     "wayto": {
       "9920": "go door",
-      "26772": ";e table = \"splintered\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "26773": ";e table = \"flimsy\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "27050": ";e table = \"sooty\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "27051": ";e table = \"squalid\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "27052": ";e table = \"trailing\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "27053": ";e table = \"careless\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"
+      "26772": "/rooms/15608/wayto/stringproc-26772.rb",
+      "26773": "/rooms/15608/wayto/stringproc-26773.rb",
+      "27050": "/rooms/15608/wayto/stringproc-27050.rb",
+      "27051": "/rooms/15608/wayto/stringproc-27051.rb",
+      "27052": "/rooms/15608/wayto/stringproc-27052.rb",
+      "27053": "/rooms/15608/wayto/stringproc-27053.rb"
     },
     "timeto": {
       "9920": 0.2,

@@ -1,4 +1,5 @@
 {
+  "checksum": "d4790966b63c759077e6221de3b82ca0",
   "room": {
     "id": 7684,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "7683": "northwest",
       "7685": "east",
-      "7700": ";e fput 'pull sconce'\nmove 'go chute'"
+      "7700": "/rooms/7684/wayto/stringproc-7700.rb"
     },
     "timeto": {
       "7683": 0.2,
       "7685": 0.2,
       "7700": 0.2
     },
-    "image": "wl-coastal_cliffs-1264234799.png",
-    "image_coords": [
-      375,
-      1151,
-      385,
-      1161
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       68009
+    ],
+    "image": "wl-coastal_cliffs-1264234799.png",
+    "image_coords": [
+      375,
+      1151,
+      385,
+      1161
     ]
   }
 }

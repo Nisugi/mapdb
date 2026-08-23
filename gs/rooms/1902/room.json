@@ -1,4 +1,5 @@
 {
+  "checksum": "da8a185d53d32880d0196532ef6f52a3",
   "room": {
     "id": 1902,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "1901": "go arch",
       "1903": "southwest",
-      "28704": ";e fput 'unlock ironwood door'; fput 'open ironwood door'; move 'go ironwood door'"
+      "28704": "/rooms/1902/wayto/stringproc-28704.rb"
     },
     "timeto": {
       "1901": 0.2,
       "1903": 0.2,
       "28704": 0.2
     },
-    "image": "ti-rr-homes-1264234799.png",
-    "image_coords": [
-      514,
-      459,
-      534,
-      479
-    ],
     "tags": [
       "meta:mapcategory:Neighborhoods",
       "meta:mapcategory:Premium",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       703151
+    ],
+    "image": "ti-rr-homes-1264234799.png",
+    "image_coords": [
+      514,
+      459,
+      534,
+      479
     ]
   }
 }

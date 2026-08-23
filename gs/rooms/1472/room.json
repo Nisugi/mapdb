@@ -1,4 +1,5 @@
 {
+  "checksum": "29349f45c2a82c54266865687fb2d301",
   "room": {
     "id": 1472,
     "title": [
@@ -18,22 +19,15 @@
       "1460": "east",
       "1473": "west",
       "13238": "go shop",
-      "30710": ";e true"
+      "30710": "/rooms/1472/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "1438": 0.2,
       "1460": 0.2,
       "1473": 0.2,
       "13238": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/1472/timeto/stringproc-30710.rb"
     },
-    "image": "vo-solhaven-1675635404.png",
-    "image_coords": [
-      941,
-      639,
-      965,
-      663
-    ],
     "tags": [
       "advpickup",
       "meta:forage-sensed",
@@ -44,6 +38,13 @@
     ],
     "uid": [
       4209039
+    ],
+    "image": "vo-solhaven-1675635404.png",
+    "image_coords": [
+      941,
+      639,
+      965,
+      663
     ]
   }
 }

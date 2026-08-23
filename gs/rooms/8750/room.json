@@ -1,4 +1,5 @@
 {
+  "checksum": "937a390a968c69bcab3a098dfd21b9e5",
   "room": {
     "id": 8750,
     "title": [
@@ -12,23 +13,23 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "15995": ";e fput 'jump'"
+      "15995": "/rooms/8750/wayto/stringproc-15995.rb"
     },
     "timeto": {
       "15995": 10.2
     },
+    "tags": [
+      "meta:che:House of Paupers"
+    ],
+    "uid": [
+      104104
+    ],
     "image": "wl-house_paupers.jpg",
     "image_coords": [
       880,
       36,
       964,
       86
-    ],
-    "tags": [
-      "meta:che:House of Paupers"
-    ],
-    "uid": [
-      104104
     ]
   }
 }

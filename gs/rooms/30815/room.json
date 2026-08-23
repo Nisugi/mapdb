@@ -1,4 +1,5 @@
 {
+  "checksum": "4775292cbda869df87af1ec8d52631ee",
   "room": {
     "id": 30815,
     "title": [
@@ -14,8 +15,8 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "30816": ";e fput 'stand' unless standing?;move('jump'); $go2_restart=true",
-      "30817": ";e wait_until{Map.current.id != 30815}"
+      "30816": "/rooms/30815/wayto/stringproc-30816.rb",
+      "30817": "/rooms/30815/wayto/stringproc-30817.rb"
     },
     "timeto": {
       "30816": 0.2,

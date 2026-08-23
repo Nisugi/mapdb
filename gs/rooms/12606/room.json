@@ -1,4 +1,5 @@
 {
+  "checksum": "198e0bc46981ec9c14374a8e53208cf1",
   "room": {
     "id": 12606,
     "title": [
@@ -12,18 +13,11 @@
     ],
     "location": "the Dark Palisade",
     "wayto": {
-      "12607": ";e 10.times { if celerity = Spell[506] and celerity.known? and celerity.affordable? and not celerity.active?; celerity.cast; end; dothistimeout 'search', 3, /^You (?:carefully )?search|^You don't find anything|^You find nothing else/; waitrt?; r = dothistimeout 'get crack', 3, /^I could not find|^You reach out|^Get what?/; break if r =~ /^You reach out/ }; empty_hands; move 'climb face'; waitrt?; fill_hands"
+      "12607": "/rooms/12606/wayto/stringproc-12607.rb"
     },
     "timeto": {
       "12607": 3.4
     },
-    "image": "ti-wilds-1643860469.png",
-    "image_coords": [
-      772,
-      679,
-      782,
-      689
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2023-11",
@@ -31,6 +25,13 @@
     ],
     "uid": [
       3041004
+    ],
+    "image": "ti-wilds-1643860469.png",
+    "image_coords": [
+      772,
+      679,
+      782,
+      689
     ]
   }
 }

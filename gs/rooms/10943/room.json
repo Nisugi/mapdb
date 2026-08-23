@@ -1,4 +1,5 @@
 {
+  "checksum": "dc4eea5a8f97ecc6b2af81025ddb88cf",
   "room": {
     "id": 10943,
     "title": [
@@ -14,11 +15,11 @@
     "location": "the town of River's Rest",
     "wayto": {
       "10848": "out",
-      "30711": ";e true"
+      "30711": "/rooms/10943/wayto/stringproc-30711.rb"
     },
     "timeto": {
       "10848": 0.2,
-      "30711": ";e Map[7].timeto['30714'].call;"
+      "30711": "/rooms/10943/timeto/stringproc-30711.rb"
     },
     "tags": [
       "locksmith",

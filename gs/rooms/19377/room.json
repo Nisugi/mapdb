@@ -1,4 +1,5 @@
 {
+  "checksum": "00349d2d6096165f2dff42b9af95f14d",
   "room": {
     "id": 19377,
     "title": [
@@ -16,21 +17,14 @@
     "terrain": "hard, flat",
     "wayto": {
       "19376": "climb steps",
-      "25691": ";e 2.times{fput 'ask sailor about boat';}",
-      "30718": ";e true"
+      "25691": "/rooms/19377/wayto/stringproc-25691.rb",
+      "30718": "/rooms/19377/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "19376": 0.2,
-      "25691": 2.0,
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "25691": 2,
+      "30718": "/rooms/19377/timeto/stringproc-30718.rb"
     },
-    "image": "ifw-isle_of_four_winds-1310232949.png",
-    "image_coords": [
-      3612,
-      2306,
-      3647,
-      2333
-    ],
     "tags": [
       "no forageables",
       "silver-cost:25691:500",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       3223020
+    ],
+    "image": "ifw-isle_of_four_winds-1310232949.png",
+    "image_coords": [
+      3612,
+      2306,
+      3647,
+      2333
     ]
   }
 }

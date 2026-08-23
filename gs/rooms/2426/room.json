@@ -1,4 +1,5 @@
 {
+  "checksum": "f86f9f56edf6230bbf3a71b3a011d5af",
   "room": {
     "id": 2426,
     "title": [
@@ -20,26 +21,19 @@
       "2423": "south",
       "2427": "east",
       "3370": "go archway",
-      "3668": ";e Map[7].wayto['3668'].call;",
-      "26905": ";e 2.times{fput \"event transport duskruin\"};UserVars.mapdb_duskruin_origin = 2426;",
-      "31558": ";e 2.times{fput \"event transport ebon gate\"};UserVars.mapdb_ebon_gate_origin = 2426;"
+      "3668": "/rooms/2426/wayto/stringproc-3668.rb",
+      "26905": "/rooms/2426/wayto/stringproc-26905.rb",
+      "31558": "/rooms/2426/wayto/stringproc-31558.rb"
     },
     "timeto": {
       "2300": 0.2,
       "2423": 0.2,
       "2427": 0.2,
       "3370": 0.2,
-      "3668": ";e Map[7].timeto['3668'].call;",
+      "3668": "/rooms/2426/timeto/stringproc-3668.rb",
       "26905": 2400,
-      "31558": ";e Time.now.month == 10 ? 2400 : nil"
+      "31558": "/rooms/2426/timeto/stringproc-31558.rb"
     },
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      672,
-      786,
-      708,
-      822
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -51,6 +45,13 @@
     ],
     "uid": [
       4042301
+    ],
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      672,
+      786,
+      708,
+      822
     ]
   }
 }

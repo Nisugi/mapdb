@@ -1,4 +1,5 @@
 {
+  "checksum": "b48a53a21febe23da93c23dca484e79e",
   "room": {
     "id": 28802,
     "title": [
@@ -13,7 +14,7 @@
     "location": false,
     "wayto": {
       "23281": "south",
-      "25509": ";e move('go burnt door');UserVars.mapdb_marksofthebeast_origin = 28802;",
+      "25509": "/rooms/28802/wayto/stringproc-25509.rb",
       "32299": "go wooden gate"
     },
     "timeto": {

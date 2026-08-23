@@ -1,4 +1,5 @@
 {
+  "checksum": "39a0f9b2ac485d2be5443c97141f9db2",
   "room": {
     "id": 17578,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "17577": "northeast",
       "20887": "go fence",
-      "30718": ";e true"
+      "30718": "/rooms/17578/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "17577": 0.2,
       "20887": 0.2,
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "30718": "/rooms/17578/timeto/stringproc-30718.rb"
     },
-    "image": "ifw-isle_of_four_winds-1310232949.png",
-    "image_coords": [
-      2634,
-      2586,
-      2668,
-      2615
-    ],
     "tags": [
       "acantha leaf",
       "black peppercorn",
@@ -71,6 +65,13 @@
     ],
     "uid": [
       3210103
+    ],
+    "image": "ifw-isle_of_four_winds-1310232949.png",
+    "image_coords": [
+      2634,
+      2586,
+      2668,
+      2615
     ]
   }
 }

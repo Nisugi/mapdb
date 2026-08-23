@@ -1,4 +1,5 @@
 {
+  "checksum": "fc841ae527311cb7376ee58625b78f42",
   "room": {
     "id": 5830,
     "title": [
@@ -16,26 +17,26 @@
     "wayto": {
       "5829": "go bridge",
       "5831": "northeast",
-      "23525": ";e 10.times { result = dothistimeout 'search', 5, /don't find anything|discover a rocky trail|Round ?time|...[Ww]ait/; waitrt?; break if result =~ /discover a rocky trail/ };move('go rocky trail')"
+      "23525": "/rooms/5830/wayto/stringproc-23525.rb"
     },
     "timeto": {
       "5829": 0.2,
       "5831": 0.2,
-      "23525": ";e if Skills.perception >= 30; 0.2; else nil; end"
+      "23525": "/rooms/5830/timeto/stringproc-23525.rb"
     },
-    "image": "en-cemetery-1617615116.png",
-    "image_coords": [
-      385,
-      1001,
-      397,
-      1013
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables"
     ],
     "uid": [
       14003001
+    ],
+    "image": "en-cemetery-1617615116.png",
+    "image_coords": [
+      385,
+      1001,
+      397,
+      1013
     ]
   }
 }

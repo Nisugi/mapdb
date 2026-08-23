@@ -1,4 +1,5 @@
 {
+  "checksum": "e3b51b0426ca34e37a32eed31a10550d",
   "room": {
     "id": 20732,
     "title": [
@@ -15,18 +16,11 @@
     "climate": "saltwater",
     "terrain": "riparian",
     "wayto": {
-      "20731": ";e move 'go beach'"
+      "20731": "/rooms/20732/wayto/stringproc-20731.rb"
     },
     "timeto": {
       "20731": 0.2
     },
-    "image": "premium_halls-1489980086.png",
-    "image_coords": [
-      2038,
-      1467,
-      2161,
-      1518
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:premium",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       4002514
+    ],
+    "image": "premium_halls-1489980086.png",
+    "image_coords": [
+      2038,
+      1467,
+      2161,
+      1518
     ]
   }
 }

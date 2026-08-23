@@ -1,4 +1,5 @@
 {
+  "checksum": "76a3dfaf2ac8be845ea94acf14d772c6",
   "room": {
     "id": 7313,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "7312": ";e if (bounty? =~ /^You have made contact with the child/); child = GameObj.npcs.find { |npc| npc.noun == 'child' }; else; child = nil; end; move 'southwest'; if Room.current == Room[7313]; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; move 'southwest'; end",
-      "22426": ";e if (bounty? =~ /^You have made contact with the child/); child = GameObj.npcs.find { |npc| npc.noun == 'child' }; else; child = nil; end; move 'northeast'; if Room.current == Room[7313]; 50.times { break if GameObj.npcs.any? { |npc| npc.id == child.id }; sleep 0.1 } if child; move 'northeast'; end"
+      "7312": "/rooms/7313/wayto/stringproc-7312.rb",
+      "22426": "/rooms/7313/wayto/stringproc-22426.rb"
     },
     "timeto": {
       "7312": 0.2,
       "22426": 0.2
     },
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      888,
-      533,
-      896,
-      540
-    ],
     "tags": [
       "ironfern root",
       "meta:forage-sensed",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       2150011
+    ],
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      888,
+      533,
+      896,
+      540
     ]
   }
 }

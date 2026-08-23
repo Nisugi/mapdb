@@ -1,4 +1,5 @@
 {
+  "checksum": "d7a20ca3528eee5417cd835a04edc63b",
   "room": {
     "id": 11668,
     "title": [
@@ -15,7 +16,7 @@
     "climate": "moist",
     "terrain": "hard, flat",
     "wayto": {
-      "11675": ";e move 'down'; move 'out'; if checkpaths.include?('ne'); move 'northeast'; move 'east'; elsif !checkpaths.include?('e'); move 'west'; end"
+      "11675": "/rooms/11668/wayto/stringproc-11675.rb"
     },
     "timeto": {
       "11675": 0.8

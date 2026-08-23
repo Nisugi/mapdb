@@ -1,4 +1,5 @@
 {
+  "checksum": "522d48d38e0d3104a760b6ae75875328",
   "room": {
     "id": 3590,
     "title": [
@@ -14,7 +15,7 @@
     "wayto": {
       "3587": "west",
       "3591": "go alcove",
-      "3592": ";e unless (move 'go door'); echo 'Waiting for the door to open... '; waitfor 'You hear a soft click from the door and it suddenly flies open.'; move 'go door'; end",
+      "3592": "/rooms/3590/wayto/stringproc-3592.rb",
       "3594": "east"
     },
     "timeto": {
@@ -23,13 +24,6 @@
       "3592": 0.2,
       "3594": 0.2
     },
-    "image": "wl-stronghold-1264234799.png",
-    "image_coords": [
-      543,
-      523,
-      553,
-      533
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       4292013
+    ],
+    "image": "wl-stronghold-1264234799.png",
+    "image_coords": [
+      543,
+      523,
+      553,
+      533
     ]
   }
 }

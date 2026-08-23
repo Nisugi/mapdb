@@ -1,4 +1,5 @@
 {
+  "checksum": "ade311daedca37c5bc298982c4ef752c",
   "room": {
     "id": 3564,
     "title": [
@@ -14,22 +15,15 @@
     "climate": "hot, damp",
     "terrain": "deciduous forest",
     "wayto": {
-      "3563": ";e move 'northwest'; waitrt?",
-      "3565": ";e move 'southwest'; waitrt?",
-      "3826": ";e move 'up'; waitrt?"
+      "3563": "/rooms/3564/wayto/stringproc-3563.rb",
+      "3565": "/rooms/3564/wayto/stringproc-3565.rb",
+      "3826": "/rooms/3564/wayto/stringproc-3826.rb"
     },
     "timeto": {
-      "3563": 3.0,
+      "3563": 3,
       "3565": 0.2,
-      "3826": 3.0
+      "3826": 3
     },
-    "image": "wl-stronghold-1264234799.png",
-    "image_coords": [
-      165,
-      726,
-      175,
-      736
-    ],
     "tags": [
       "acantha leaf",
       "blackberries",
@@ -82,6 +76,13 @@
     ],
     "uid": [
       4291007
+    ],
+    "image": "wl-stronghold-1264234799.png",
+    "image_coords": [
+      165,
+      726,
+      175,
+      736
     ]
   }
 }

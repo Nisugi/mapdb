@@ -1,4 +1,5 @@
 {
+  "checksum": "81458c43727409b4fe503923ded36faf",
   "room": {
     "id": 1955,
     "title": [
@@ -18,8 +19,8 @@
       "1956": "west",
       "1958": "go headquarters",
       "12511": "go building",
-      "23281": ";e move('go doorframe');UserVars.mapdb_talondown_origin = 1955;",
-      "30715": ";e true"
+      "23281": "/rooms/1955/wayto/stringproc-23281.rb",
+      "30715": "/rooms/1955/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "1951": 0.2,
@@ -27,15 +28,8 @@
       "1958": 0.2,
       "12511": 0.2,
       "23281": 0.4,
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "30715": "/rooms/1955/timeto/stringproc-30715.rb"
     },
-    "image": "ti-teras-1264234799.png",
-    "image_coords": [
-      1163,
-      254,
-      1193,
-      284
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2023-01",
@@ -44,6 +38,13 @@
     ],
     "uid": [
       3001043
+    ],
+    "image": "ti-teras-1264234799.png",
+    "image_coords": [
+      1163,
+      254,
+      1193,
+      284
     ]
   }
 }

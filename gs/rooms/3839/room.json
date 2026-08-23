@@ -1,4 +1,5 @@
 {
+  "checksum": "22358b329be48757e8ca9e0231a8c0ae",
   "room": {
     "id": 3839,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "none",
     "wayto": {
       "3838": "out",
-      "8429": ";e empty_hands; move 'swim nook'; waitrt?; fill_hands"
+      "8429": "/rooms/3839/wayto/stringproc-8429.rb"
     },
     "timeto": {
       "3838": 0.2,
       "8429": 0.2
     },
-    "image": "wl-stronghold-1264234799.png",
-    "image_coords": [
-      455,
-      1043,
-      465,
-      1053
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       4291052
+    ],
+    "image": "wl-stronghold-1264234799.png",
+    "image_coords": [
+      455,
+      1043,
+      465,
+      1053
     ]
   }
 }

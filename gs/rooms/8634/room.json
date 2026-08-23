@@ -1,4 +1,5 @@
 {
+  "checksum": "66d2bad8eb84025045cdf09dea6c047f",
   "room": {
     "id": 8634,
     "title": [
@@ -14,12 +15,12 @@
     "wayto": {
       "8633": "up",
       "8635": "north",
-      "30708": ";e true"
+      "30708": "/rooms/8634/wayto/stringproc-30708.rb"
     },
     "timeto": {
       "8633": 0.2,
-      "8635": 5.0,
-      "30708": ";e Map[7].timeto['30714'].call;"
+      "8635": 5,
+      "30708": "/rooms/8634/timeto/stringproc-30708.rb"
     },
     "tags": [
       "chronomage",

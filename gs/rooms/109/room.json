@@ -1,4 +1,5 @@
 {
+  "checksum": "7cd3ff5b15e6e2701c569a54be23d52e",
   "room": {
     "id": 109,
     "title": [
@@ -15,21 +16,14 @@
     "terrain": "mountainous",
     "wayto": {
       "108": "south",
-      "110": ";e multifput 'push jewel carv', 'push skull carv', 'push griff carv', 'push crown carv', 'push trian carv'\nwaitrt?\nfput \"stand\"",
+      "110": "/rooms/109/wayto/stringproc-110.rb",
       "1778": "northeast"
     },
     "timeto": {
       "108": 0.2,
-      "110": 3.0,
+      "110": 3,
       "1778": 0.2
     },
-    "image": "en-skull-1264234799.png",
-    "image_coords": [
-      474,
-      547,
-      484,
-      557
-    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -53,6 +47,13 @@
     ],
     "uid": [
       13301171
+    ],
+    "image": "en-skull-1264234799.png",
+    "image_coords": [
+      474,
+      547,
+      484,
+      557
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "aa54d4d1ed136e669895a399ff256500",
   "room": {
     "id": 27350,
     "title": [
@@ -13,11 +14,11 @@
     "location": "the town of Kharam-Dzu",
     "wayto": {
       "12394": "go out",
-      "30715": ";e true"
+      "30715": "/rooms/27350/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "12394": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "30715": "/rooms/27350/timeto/stringproc-30715.rb"
     },
     "tags": [
       "collectibles",

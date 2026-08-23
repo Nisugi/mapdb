@@ -1,4 +1,5 @@
 {
+  "checksum": "a7f281215a16eaaedc904e69e6fd2f53",
   "room": {
     "id": 5827,
     "title": [
@@ -17,20 +18,13 @@
     "climate": "temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "3490": ";e fput 'unhide' if invisible?;move('go gate')",
+      "3490": "/rooms/5827/wayto/stringproc-3490.rb",
       "5828": "northeast"
     },
     "timeto": {
       "3490": 0.2,
       "5828": 0.2
     },
-    "image": "en-cemetery-1617615116.png",
-    "image_coords": [
-      293,
-      1095,
-      304,
-      1105
-    ],
     "tags": [
       "advguard",
       "advguard2",
@@ -43,6 +37,13 @@
     ],
     "uid": [
       14100015
+    ],
+    "image": "en-cemetery-1617615116.png",
+    "image_coords": [
+      293,
+      1095,
+      304,
+      1105
     ]
   }
 }

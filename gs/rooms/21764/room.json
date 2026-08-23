@@ -1,4 +1,5 @@
 {
+  "checksum": "ae0feface527ac242c528cc1fb33d688",
   "room": {
     "id": 21764,
     "title": [
@@ -12,25 +13,25 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "21750": ";e fput 'go south'",
+      "21750": "/rooms/21764/wayto/stringproc-21750.rb",
       "21765": "go stair"
     },
     "timeto": {
       "21750": 0.2,
       "21765": 0.2
     },
+    "tags": [
+      "meta:che:House of the Rising Phoenix"
+    ],
+    "uid": [
+      103105
+    ],
     "image": "wl-house_phoenix-1485115199.png",
     "image_coords": [
       1674,
       747,
       1794,
       824
-    ],
-    "tags": [
-      "meta:che:House of the Rising Phoenix"
-    ],
-    "uid": [
-      103105
     ]
   }
 }

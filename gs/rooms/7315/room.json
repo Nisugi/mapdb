@@ -1,4 +1,5 @@
 {
+  "checksum": "da6a39a846ddb322f5a73b249103d8df",
   "room": {
     "id": 7315,
     "title": [
@@ -13,19 +14,12 @@
     "location": "the Graveyard",
     "wayto": {
       "7314": "west",
-      "7316": ";e fput 'search'\nmove 'go crevice'"
+      "7316": "/rooms/7315/wayto/stringproc-7316.rb"
     },
     "timeto": {
       "7314": 0.2,
       "7316": 0.2
     },
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      966,
-      482,
-      976,
-      492
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -33,6 +27,13 @@
     ],
     "uid": [
       2150014
+    ],
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      966,
+      482,
+      976,
+      492
     ]
   }
 }

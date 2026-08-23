@@ -1,4 +1,5 @@
 {
+  "checksum": "0cfbc32bda509ecacbdb9d99120bbec6",
   "room": {
     "id": 13065,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "hilly",
     "wayto": {
       "13064": "down",
-      "13066": ";e fput 'search'\nmove 'go cleft'"
+      "13066": "/rooms/13065/wayto/stringproc-13066.rb"
     },
     "timeto": {
       "13064": 0.2,
       "13066": 0.2
     },
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      400,
-      366,
-      410,
-      376
-    ],
     "tags": [
       "angelica root",
       "blue trafel mushroom",
@@ -63,6 +57,13 @@
     ],
     "uid": [
       560002
+    ],
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      400,
+      366,
+      410,
+      376
     ]
   }
 }

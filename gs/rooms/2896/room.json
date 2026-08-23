@@ -1,4 +1,5 @@
 {
+  "checksum": "25a4afdb2f15f6d0b796b2058ae1d084",
   "room": {
     "id": 2896,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "snowy, arctic",
     "terrain": "mountainous",
     "wayto": {
-      "2895": ";e \n\t\tresolve=Spell['Sigil of Resolve']\n\t\thaste=Spell['Haste']\n\t\tif UserVars.mapdb_ice_mode == 'wait' || Skills.survival < 50 || XMLData.encumbrance_value >= 50\n\t\t\techo 'trying not to slip...'; sleep 6\n\t\telsif resolve.known? && resolve.affordable? && !resolve.active?\n\t\t\tresolve.cast\n\t\tend\n\t\tresult = fput 'up'\n\t\tif result =~ /^Rushing heedlessly/\n\t\t\thaste.cast if haste.known? && haste.affordable? && !haste.active?\n\t\t\tfput 'stand'\n\t\t\t$go2_restart = true\n\t\tend\n\t",
-      "2897": ";e \n\t\tresolve=Spell['Sigil of Resolve']\n\t\thaste=Spell['Haste']\n\t\tif UserVars.mapdb_ice_mode == 'wait' || Skills.survival < 50 || XMLData.encumbrance_value >= 50\n\t\t\techo 'trying not to slip...'; sleep 6\n\t\telsif resolve.known? && resolve.affordable? && !resolve.active?\n\t\t\tresolve.cast\n\t\tend\n\t\tresult = fput 'southwest'\n\t\tif result =~ /^Rushing heedlessly/\n\t\t\thaste.cast if haste.known? && haste.affordable? && !haste.active?\n\t\t\tfput 'stand'\n\t\t\t$go2_restart = true\n\t\tend\n\t"
+      "2895": "/rooms/2896/wayto/stringproc-2895.rb",
+      "2897": "/rooms/2896/wayto/stringproc-2897.rb"
     },
     "timeto": {
-      "2895": 7.0,
+      "2895": 7,
       "2897": 0.2
     },
-    "image": "imt-east_west_north_gates-1668398077.png",
-    "image_coords": [
-      1105,
-      288,
-      1115,
-      298
-    ],
     "tags": [
       "angelica root",
       "arctic moss",
@@ -66,6 +60,13 @@
     ],
     "uid": [
       4560034
+    ],
+    "image": "imt-east_west_north_gates-1668398077.png",
+    "image_coords": [
+      1105,
+      288,
+      1115,
+      298
     ]
   }
 }

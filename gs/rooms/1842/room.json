@@ -1,4 +1,5 @@
 {
+  "checksum": "cdc54d3d060a246969f78c2f0774d0af",
   "room": {
     "id": 1842,
     "title": [
@@ -14,12 +15,12 @@
     "wayto": {
       "1841": "out",
       "12504": "east",
-      "30715": ";e true"
+      "30715": "/rooms/1842/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "1841": 0.2,
       "12504": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "30715": "/rooms/1842/timeto/stringproc-30715.rb"
     },
     "tags": [
       "goldenhelm",

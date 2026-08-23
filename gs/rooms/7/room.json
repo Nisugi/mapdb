@@ -1,4 +1,5 @@
 {
+  "checksum": "e29a7b5fe6caccfa5a320d98a4961aee",
   "room": {
     "id": 7,
     "title": [
@@ -21,10 +22,10 @@
       "155": "north",
       "196": "southwest",
       "208": "northwest",
-      "3668": ";e worn = !GameObj[UserVars.mapdb_fwi_trinket].nil?;\nreturn_to_container_id = nil;\nflip_tags = !Script.current.want_downstream_xml;\nstatus_tags if flip_tags;\nunless worn then;\n  refill_hands = (!GameObj.left_hand.id.nil? and !GameObj.right_hand.id.nil?);\n  empty_hand if refill_hands;\n  trinket_pattern = /#{UserVars.mapdb_fwi_trinket.split(' ').join('.*')}/;\n  trinket_get_pattern = /You.*?#{UserVars.mapdb_fwi_trinket.split(' ').join('.*')}/;\n  link_pattern = /<a exist=\"(?<exist>-?\\d+)\" noun=\"(?<noun>[^\"]+)\">(?<name>[^<]+)<\\/a>/;\n  get_result = dothistimeout \"get my #{UserVars.mapdb_fwi_trinket}\", 5, Regexp.union(trinket_get_pattern,/^Get what/);\n  (status_tags if flip_tags;fail \"could not find your fwi trinket: #{UserVars.mapdb_fwi_trinket.inspect}\") if GameObj[UserVars.mapdb_fwi_trinket].nil? or get_result =~ /Get what/;\n  return_to_container_id = get_result.split('</inv>').last.scan(link_pattern).find{|exist,noun,name| !name.match(trinket_pattern)}.first;\nend;\nUserVars.mapdb_fwi_return_room = (Map.current.location =~ /Isle of Four Winds|Mist Harbor/ ? nil : Map.current.id);\nturn_result = dothistimeout \"turn ##{GameObj[UserVars.mapdb_fwi_trinket].id}\", 5, /You get the feeling|<nav rm=/;\nstatus_tags if flip_tags;\nunless worn then;\n  if return_to_container_id.nil?;\n    fput \"stow ##{GameObj[UserVars.mapdb_fwi_trinket].id}\";\n  else;\n    fput \"put ##{GameObj[UserVars.mapdb_fwi_trinket].id} in ##{return_to_container_id}\";\n  end;\n  fill_hands if refill_hands;\nend;\n$go2_restart=true;\n",
-      "26905": ";e 2.times{fput \"event transport duskruin\"};UserVars.mapdb_duskruin_origin = 7;",
-      "30714": ";e true",
-      "31558": ";e 2.times{fput \"event transport ebon gate\"};UserVars.mapdb_ebon_gate_origin = 7;"
+      "3668": "/rooms/7/wayto/stringproc-3668.rb",
+      "26905": "/rooms/7/wayto/stringproc-26905.rb",
+      "30714": "/rooms/7/wayto/stringproc-30714.rb",
+      "31558": "/rooms/7/wayto/stringproc-31558.rb"
     },
     "timeto": {
       "6": 0.2,
@@ -32,18 +33,11 @@
       "155": 0.2,
       "196": 0.2,
       "208": 0.2,
-      "3668": ";e (!UserVars.mapdb_fwi_trinket.nil? and !UserVars.mapdb_fwi_trinket.empty?) ? 15.0 : nil;",
+      "3668": "/rooms/7/timeto/stringproc-3668.rb",
       "26905": 2400,
-      "30714": ";e UserVars.mapdb_use_urchins == true and !UserVars.mapdb_urchins_expire.nil? and Time.now.to_i < UserVars.mapdb_urchins_expire and !hidden? and !invisible? ? 0.1 : nil;",
-      "31558": ";e Time.now.month == 10 ? 2400 : nil"
+      "30714": "/rooms/7/timeto/stringproc-30714.rb",
+      "31558": "/rooms/7/timeto/stringproc-31558.rb"
     },
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      529,
-      450,
-      551,
-      475
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:night:2022-11",
@@ -55,6 +49,13 @@
     ],
     "uid": [
       13101017
+    ],
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      529,
+      450,
+      551,
+      475
     ]
   }
 }

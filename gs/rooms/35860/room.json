@@ -1,4 +1,5 @@
 {
+  "checksum": "160471d9e3dd41c74a50931326bd13b4",
   "room": {
     "id": 35860,
     "title": [
@@ -12,24 +13,24 @@
     ],
     "location": "the River Muagh",
     "wayto": {
-      "35859": ";e move('push southwest')",
-      "35861": ";e move('push east')",
-      "35893": ";e move('push northwest')"
+      "35859": "/rooms/35860/wayto/stringproc-35859.rb",
+      "35861": "/rooms/35860/wayto/stringproc-35861.rb",
+      "35893": "/rooms/35860/wayto/stringproc-35893.rb"
     },
     "timeto": {
       "35859": 0.2,
       "35861": 0.2,
       "35893": 0.2
     },
+    "uid": [
+      3024008
+    ],
     "image": "ti-kragnek_dzu-1761314324.png",
     "image_coords": [
       193,
       954,
       230,
       992
-    ],
-    "uid": [
-      3024008
     ]
   }
 }

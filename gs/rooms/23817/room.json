@@ -1,4 +1,5 @@
 {
+  "checksum": "8bac8b51f32c7d64f7788553c5edc192",
   "room": {
     "id": 23817,
     "title": [
@@ -15,11 +16,11 @@
     "terrain": "none",
     "wayto": {
       "617": "go out",
-      "30714": ";e true"
+      "30714": "/rooms/23817/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "617": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/23817/timeto/stringproc-30714.rb"
     },
     "tags": [
       "collectibles",

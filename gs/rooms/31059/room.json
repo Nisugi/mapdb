@@ -1,4 +1,5 @@
 {
+  "checksum": "eccd9a48f10326af7d02e779e152ecd0",
   "room": {
     "id": 31059,
     "title": [
@@ -13,11 +14,11 @@
     "location": "the Hinterwilds",
     "wayto": {
       "31058": "west",
-      "34399": ";e true"
+      "34399": "/rooms/31059/wayto/stringproc-34399.rb"
     },
     "timeto": {
       "31058": 0.2,
-      "34399": ";e Map[7].timeto['30714'].call;"
+      "34399": "/rooms/31059/timeto/stringproc-34399.rb"
     },
     "tags": [
       "bank",

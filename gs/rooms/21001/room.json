@@ -1,4 +1,5 @@
 {
+  "checksum": "b43da0388d81187382350b0365eb15d5",
   "room": {
     "id": 21001,
     "title": [
@@ -14,24 +15,17 @@
     "climate": "humid",
     "terrain": "tropical",
     "wayto": {
-      "20999": ";e pause 0.2; waitrt?; fput 'climb rock'",
-      "21018": ";e pause 0.2; waitrt?; fput 'push sw'",
-      "21061": ";e pause 0.2; waitrt?; fput 'push n'",
-      "21064": ";e pause 0.2; waitrt?; fput 'push se'"
+      "20999": "/rooms/21001/wayto/stringproc-20999.rb",
+      "21018": "/rooms/21001/wayto/stringproc-21018.rb",
+      "21061": "/rooms/21001/wayto/stringproc-21061.rb",
+      "21064": "/rooms/21001/wayto/stringproc-21064.rb"
     },
     "timeto": {
-      "20999": 2.0,
-      "21018": 2.0,
-      "21061": 2.0,
-      "21064": 2.0
+      "20999": 2,
+      "21018": 2,
+      "21061": 2,
+      "21064": 2
     },
-    "image": "ifw-wilds-1368242816.png",
-    "image_coords": [
-      1061,
-      1240,
-      1080,
-      1258
-    ],
     "tags": [
       "acantha leaf",
       "bamboo cane",
@@ -81,6 +75,13 @@
     ],
     "uid": [
       3210604
+    ],
+    "image": "ifw-wilds-1368242816.png",
+    "image_coords": [
+      1061,
+      1240,
+      1080,
+      1258
     ]
   }
 }

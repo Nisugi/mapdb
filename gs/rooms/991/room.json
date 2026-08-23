@@ -1,4 +1,5 @@
 {
+  "checksum": "a10ecb62a0d84ea6e070626d47c3dd19",
   "room": {
     "id": 991,
     "title": [
@@ -15,20 +16,13 @@
     "climate": "glacial",
     "terrain": "mountainous",
     "wayto": {
-      "990": ";e empty_hands; move 'climb trail'; waitrt?",
+      "990": "/rooms/991/wayto/stringproc-990.rb",
       "992": "go mouth"
     },
     "timeto": {
-      "990": 10.0,
+      "990": 10,
       "992": 0.2
     },
-    "image": "en-zul_logoth-1639816187.png",
-    "image_coords": [
-      1280,
-      710,
-      1288,
-      718
-    ],
     "tags": [
       "angelica root",
       "ironfern root",
@@ -43,6 +37,13 @@
     ],
     "uid": [
       13003019
+    ],
+    "image": "en-zul_logoth-1639816187.png",
+    "image_coords": [
+      1280,
+      710,
+      1288,
+      718
     ]
   }
 }

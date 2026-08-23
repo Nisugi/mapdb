@@ -1,4 +1,5 @@
 {
+  "checksum": "9c961f985bfb8e525a6a88d8428ac285",
   "room": {
     "id": 16790,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "Temple Wyneb",
     "wayto": {
-      "16769": ";e fput 'push eye'; move 'go opening'",
+      "16769": "/rooms/16790/wayto/stringproc-16769.rb",
       "16789": "southwest",
       "16791": "northwest"
     },
@@ -21,19 +22,19 @@
       "16789": 0.2,
       "16791": 0.2
     },
-    "image": "en-skull-1264234799.png",
-    "image_coords": [
-      636,
-      573,
-      646,
-      583
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables"
     ],
     "uid": [
       13300039
+    ],
+    "image": "en-skull-1264234799.png",
+    "image_coords": [
+      636,
+      573,
+      646,
+      583
     ]
   }
 }

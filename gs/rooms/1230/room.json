@@ -1,4 +1,5 @@
 {
+  "checksum": "0047ad2ad3523ff5465729bdda3ea832",
   "room": {
     "id": 1230,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "deciduous forest",
     "wayto": {
       "1229": "southwest",
-      "30523": ";e \nbegin; \n  search_result = dothistimeout 'search', 5, /don't find anything|discover.*?crack|Round ?tim/; \n  waitrt?; \nend until search_result =~ /discover/; \nmove('go crack')\n"
+      "30523": "/rooms/1230/wayto/stringproc-30523.rb"
     },
     "timeto": {
       "1229": 0.2,
-      "30523": 10.0
+      "30523": 10
     },
-    "image": "en-trail-1264234799.png",
-    "image_coords": [
-      120,
-      755,
-      130,
-      765
-    ],
     "tags": [
       "acantha leaf",
       "blackberries",
@@ -80,6 +74,13 @@
     ],
     "uid": [
       2190012
+    ],
+    "image": "en-trail-1264234799.png",
+    "image_coords": [
+      120,
+      755,
+      130,
+      765
     ]
   }
 }

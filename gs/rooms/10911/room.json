@@ -1,4 +1,5 @@
 {
+  "checksum": "d1d009bd1763b3c80447769b19e80af3",
   "room": {
     "id": 10911,
     "title": [
@@ -15,13 +16,13 @@
       "10850": "out",
       "10912": "go door",
       "10915": "go office",
-      "30711": ";e true"
+      "30711": "/rooms/10911/wayto/stringproc-30711.rb"
     },
     "timeto": {
       "10850": 0.2,
       "10912": 0.2,
       "10915": 0.2,
-      "30711": ";e Map[7].timeto['30714'].call;"
+      "30711": "/rooms/10911/timeto/stringproc-30711.rb"
     },
     "tags": [
       "bank",

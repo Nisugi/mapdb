@@ -1,4 +1,5 @@
 {
+  "checksum": "bb820a6e777d5f69a016c5949e0f7c9f",
   "room": {
     "id": 23,
     "title": [
@@ -20,21 +21,14 @@
       "22": "north",
       "24": "southeast",
       "27795": "go hall",
-      "30714": ";e true"
+      "30714": "/rooms/23/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "22": 0.2,
       "24": 0.2,
-      "27795": ";e ((!defined?(Stats.prof) or Stats.prof == 'Bard') ? 0.2 : nil);",
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "27795": "/rooms/23/timeto/stringproc-27795.rb",
+      "30714": "/rooms/23/timeto/stringproc-30714.rb"
     },
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      947,
-      723,
-      969,
-      746
-    ],
     "tags": [
       "bard guild",
       "bardguild",
@@ -46,6 +40,13 @@
     ],
     "uid": [
       13100047
+    ],
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      947,
+      723,
+      969,
+      746
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "cf66f78861b16f4448823965e500c908",
   "room": {
     "id": 24473,
     "title": [
@@ -16,11 +17,11 @@
       "24407": "south",
       "24474": "go open doorway",
       "24475": "go descending staircase",
-      "24482": ";e table = \"Merchants\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "29615": ";e table = \"Enlightenment\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "29616": ";e table = \"Professions\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "29617": ";e table = \"Wanderer's\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "29618": ";e table = \"Contemplation\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "24482": "/rooms/24473/wayto/stringproc-24482.rb",
+      "29615": "/rooms/24473/wayto/stringproc-29615.rb",
+      "29616": "/rooms/24473/wayto/stringproc-29616.rb",
+      "29617": "/rooms/24473/wayto/stringproc-29617.rb",
+      "29618": "/rooms/24473/wayto/stringproc-29618.rb",
       "36081": "pull leather volume"
     },
     "timeto": {
@@ -34,13 +35,6 @@
       "29618": 0.2,
       "36081": 0.2
     },
-    "image": "wl-rone_academy-1619899949.png",
-    "image_coords": [
-      657,
-      211,
-      681,
-      235
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
@@ -52,6 +46,13 @@
     ],
     "uid": [
       217006
+    ],
+    "image": "wl-rone_academy-1619899949.png",
+    "image_coords": [
+      657,
+      211,
+      681,
+      235
     ]
   }
 }

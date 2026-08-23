@@ -1,4 +1,5 @@
 {
+  "checksum": "77f91e5a941033d3ce643c17633722a3",
   "room": {
     "id": 10817,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "muddy wetlands",
     "wayto": {
       "10818": "east",
-      "10821": ";e if resolve = Spell[9704] and resolve.known? and resolve.affordable? and not resolve.active?; resolve.cast; end; empty_hands; move 'go water'; waitrt?"
+      "10821": "/rooms/10817/wayto/stringproc-10821.rb"
     },
     "timeto": {
       "10818": 0.2,
       "10821": 0.2
     },
-    "image": "en-gyldemar-1264234799.png",
-    "image_coords": [
-      861,
-      658,
-      871,
-      668
-    ],
     "tags": [
       "black peppercorn",
       "blue trafel mushroom",
@@ -65,6 +59,13 @@
     ],
     "uid": [
       13032043
+    ],
+    "image": "en-gyldemar-1264234799.png",
+    "image_coords": [
+      861,
+      658,
+      871,
+      668
     ]
   }
 }

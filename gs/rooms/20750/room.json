@@ -1,4 +1,5 @@
 {
+  "checksum": "868b05ba9f73ecefeafbab545bbfb434",
   "room": {
     "id": 20750,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "20748": "southwest",
       "20751": "go gate",
-      "30709": ";e true"
+      "30709": "/rooms/20750/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "20748": 0.2,
       "20751": 0.2,
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "30709": "/rooms/20750/timeto/stringproc-30709.rb"
     },
-    "image": "premium_halls-1489980086.png",
-    "image_coords": [
-      517,
-      2130,
-      644,
-      2185
-    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -70,6 +64,13 @@
     ],
     "uid": [
       4002002
+    ],
+    "image": "premium_halls-1489980086.png",
+    "image_coords": [
+      517,
+      2130,
+      644,
+      2185
     ]
   }
 }

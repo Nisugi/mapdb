@@ -1,4 +1,5 @@
 {
+  "checksum": "857143ed89ea08f9785334e8b855e02a",
   "room": {
     "id": 24532,
     "title": [
@@ -14,7 +15,7 @@
     "climate": "snowy, arctic",
     "terrain": "barren scrub",
     "wayto": {
-      "24519": ";e empty_hands\nmove 'climb hillside'\nwaitrt?\nfill_hands",
+      "24519": "/rooms/24532/wayto/stringproc-24519.rb",
       "24542": "north",
       "24543": "northeast"
     },
@@ -23,13 +24,6 @@
       "24542": 0.2,
       "24543": 0.2
     },
-    "image": "imt-bramble_patch-1307499864.png",
-    "image_coords": [
-      300,
-      257,
-      313,
-      270
-    ],
     "tags": [
       "arctic moss",
       "bright red teaberry",
@@ -47,6 +41,13 @@
     ],
     "uid": [
       4124050
+    ],
+    "image": "imt-bramble_patch-1307499864.png",
+    "image_coords": [
+      300,
+      257,
+      313,
+      270
     ]
   }
 }

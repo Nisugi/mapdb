@@ -1,4 +1,5 @@
 {
+  "checksum": "4970271d6e5c5ca9cd57d1b8bc5b3b7d",
   "room": {
     "id": 28317,
     "title": [
@@ -16,12 +17,12 @@
     "wayto": {
       "751": "out",
       "28318": "go archway",
-      "30714": ";e true"
+      "30714": "/rooms/28317/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "751": 0.2,
       "28318": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/28317/timeto/stringproc-30714.rb"
     },
     "tags": [
       "acantha leaf",

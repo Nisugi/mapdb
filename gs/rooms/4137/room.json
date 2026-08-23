@@ -1,4 +1,5 @@
 {
+  "checksum": "a91111ff316fbe2eca1bc6e24bdefd9f",
   "room": {
     "id": 4137,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "cold, damp",
     "terrain": "deciduous forest",
     "wayto": {
-      "4136": ";e loop { move 'south'; break if Room.current.id != 4137; move 'southwest'; break if Room.current.id != 4137; }",
-      "4138": ";e loop { move 'north'; break if Room.current.id != 4137; move 'northeast'; break if Room.current.id != 4137; }"
+      "4136": "/rooms/4137/wayto/stringproc-4136.rb",
+      "4138": "/rooms/4137/wayto/stringproc-4138.rb"
     },
     "timeto": {
-      "4136": 1.0,
-      "4138": 1.0
+      "4136": 1,
+      "4138": 1
     },
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      350,
-      1076,
-      360,
-      1086
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -74,6 +68,13 @@
     ],
     "uid": [
       9056
+    ],
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      350,
+      1076,
+      360,
+      1086
     ]
   }
 }

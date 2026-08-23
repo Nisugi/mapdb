@@ -1,4 +1,5 @@
 {
+  "checksum": "45592e45acbed57e80340ad11ab4c93f",
   "room": {
     "id": 28718,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Cysaegir",
     "wayto": {
       "4663": "go oak archway",
-      "30717": ";e true"
+      "30717": "/rooms/28718/wayto/stringproc-30717.rb"
     },
     "timeto": {
       "4663": 0.2,
-      "30717": ";e Map[7].timeto['30714'].call;"
+      "30717": "/rooms/28718/timeto/stringproc-30717.rb"
     },
     "tags": [
       "locksmith pool",

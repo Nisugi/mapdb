@@ -1,4 +1,5 @@
 {
+  "checksum": "64ec592d7ef47645d61249be51912c31",
   "room": {
     "id": 234,
     "title": [
@@ -21,7 +22,7 @@
       "4041": "go temple",
       "8689": "go gate",
       "8694": "go pillars",
-      "19949": ";e multifput 'put 1 coin in almsbox', 'go pillar'"
+      "19949": "/rooms/234/wayto/stringproc-19949.rb"
     },
     "timeto": {
       "233": 0.2,
@@ -32,13 +33,6 @@
       "8694": 0.2,
       "19949": 3.2
     },
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      586,
-      876,
-      620,
-      912
-    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -92,6 +86,13 @@
     ],
     "uid": [
       7085
+    ],
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      586,
+      876,
+      620,
+      912
     ]
   }
 }

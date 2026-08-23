@@ -1,4 +1,5 @@
 {
+  "checksum": "0a8a155b51b5becd67258233f6293d79",
   "room": {
     "id": 7892,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "deciduous forest",
     "wayto": {
       "7891": "northwest",
-      "24675": ";e UserVars.mapdb_redforest_location = 'WL';result = nil;until result =~ /Obvious paths: northeast, southeast/;fput \"stand\" until standing?;result = dothistimeout \"go fog\", 5, /You attempt to navigate your way through the fog, but get turned around and come right back out where you started!|Obvious paths: northeast, southeast/;if result =~ /You attempt to navigate your way through the fog, but get turned around and come right back out where you started!/;sleep 0.5;waitrt?;end;end"
+      "24675": "/rooms/7892/wayto/stringproc-24675.rb"
     },
     "timeto": {
       "7891": 0.2,
       "24675": 0.2
     },
-    "image": "wl-danjirland-1264234799.png",
-    "image_coords": [
-      1083,
-      1032,
-      1093,
-      1042
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -62,6 +56,13 @@
     ],
     "uid": [
       2123010
+    ],
+    "image": "wl-danjirland-1264234799.png",
+    "image_coords": [
+      1083,
+      1032,
+      1093,
+      1042
     ]
   }
 }

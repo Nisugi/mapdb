@@ -1,4 +1,5 @@
 {
+  "checksum": "99dd389a89488ef6437cdebd780f8ac2",
   "room": {
     "id": 16901,
     "title": [
@@ -18,14 +19,14 @@
       "16902": "go curtain",
       "16903": "go mithril door",
       "16904": "go iron-framed door",
-      "30712": ";e true"
+      "30712": "/rooms/16901/wayto/stringproc-30712.rb"
     },
     "timeto": {
       "16843": 0.2,
       "16902": 0.2,
       "16903": 0.2,
       "16904": 0.2,
-      "30712": ";e Map[7].timeto['30714'].call;"
+      "30712": "/rooms/16901/timeto/stringproc-30712.rb"
     },
     "tags": [
       "no forageables",

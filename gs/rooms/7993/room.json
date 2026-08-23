@@ -1,4 +1,5 @@
 {
+  "checksum": "15ad5307f8a1245877af5a80f981dece",
   "room": {
     "id": 7993,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "4206": "southeast",
       "7994": "north",
-      "7997": ";e empty_hand; fput 'turn ring'; move 'go hole'; fill_hand"
+      "7997": "/rooms/7993/wayto/stringproc-7997.rb"
     },
     "timeto": {
       "4206": 0.2,
       "7994": 0.2,
       "7997": 0.2
     },
-    "image": "wl-mineroad-1264234799.png",
-    "image_coords": [
-      343,
-      680,
-      353,
-      690
-    ],
     "tags": [
       "banana leaf",
       "blueberries",
@@ -74,6 +68,13 @@
     ],
     "uid": [
       20015
+    ],
+    "image": "wl-mineroad-1264234799.png",
+    "image_coords": [
+      343,
+      680,
+      353,
+      690
     ]
   }
 }

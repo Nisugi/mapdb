@@ -1,4 +1,5 @@
 {
+  "checksum": "07b2bde3fa0bfcc0c5c9509615b979a5",
   "room": {
     "id": 10117,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "hard, flat",
     "wayto": {
       "10115": "go path",
-      "10119": ";e move 'go gangplank'\nif Room.current.id == 10117\necho 'Waiting for ferry... '\nwaitfor 'An elven crewmember scrambles back onto the boat and lowers the gangplank.'\nmove 'go gangplank'\nend\nwaitfor 'An elven crewmember scrambles back onto the boat and lowers the gangplank.'\nmove 'out'"
+      "10119": "/rooms/10117/wayto/stringproc-10119.rb"
     },
     "timeto": {
       "10115": 0.2,
-      "10119": 300.0
+      "10119": 300
     },
-    "image": "en-sylvarraend-1264234799.png",
-    "image_coords": [
-      1028,
-      1124,
-      1038,
-      1134
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       13049050
+    ],
+    "image": "en-sylvarraend-1264234799.png",
+    "image_coords": [
+      1028,
+      1124,
+      1038,
+      1134
     ]
   }
 }

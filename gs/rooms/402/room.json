@@ -1,4 +1,5 @@
 {
+  "checksum": "8cc257d74be66b6e5981c1be3c759041",
   "room": {
     "id": 402,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "276": "out",
       "403": "go door",
-      "30708": ";e true"
+      "30708": "/rooms/402/wayto/stringproc-30708.rb"
     },
     "timeto": {
       "276": 0.2,
       "403": 0.2,
-      "30708": ";e Map[7].timeto['30714'].call;"
+      "30708": "/rooms/402/timeto/stringproc-30708.rb"
     },
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      360,
-      353,
-      390,
-      383
-    ],
     "tags": [
       "meta:noteleport:fwi",
       "no forageables",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       2008
+    ],
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      360,
+      353,
+      390,
+      383
     ]
   }
 }

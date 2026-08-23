@@ -1,4 +1,5 @@
 {
+  "checksum": "8b5bfd6b0fbbda7db455e25b21c49ed5",
   "room": {
     "id": 28927,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Kraken's Fall",
     "wayto": {
       "28925": "south",
-      "30716": ";e true"
+      "30716": "/rooms/28927/wayto/stringproc-30716.rb"
     },
     "timeto": {
       "28925": 0.2,
-      "30716": ";e Map[7].timeto['30714'].call;"
+      "30716": "/rooms/28927/timeto/stringproc-30716.rb"
     },
     "tags": [
       "advguild",

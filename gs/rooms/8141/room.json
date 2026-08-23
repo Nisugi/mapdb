@@ -1,4 +1,5 @@
 {
+  "checksum": "a5338300b0eb580fcafbb58d02b9b54c",
   "room": {
     "id": 8141,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "7905": ";e fput 'kneel' until kneeling?;fput 'crawl crack'\nwaitrt?\nfput 'stand' until standing?",
+      "7905": "/rooms/8141/wayto/stringproc-7905.rb",
       "8140": "north"
     },
     "timeto": {
-      "7905": 5.0,
+      "7905": 5,
       "8140": 0.2
     },
-    "image": "wl-mineroad-1264234799.png",
-    "image_coords": [
-      1440,
-      884,
-      1450,
-      894
-    ],
     "tags": [
       "blue trafel mushroom",
       "bolmara lichen",
@@ -46,6 +40,13 @@
     ],
     "uid": [
       4003010
+    ],
+    "image": "wl-mineroad-1264234799.png",
+    "image_coords": [
+      1440,
+      884,
+      1450,
+      894
     ]
   }
 }

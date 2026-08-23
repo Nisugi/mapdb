@@ -1,4 +1,5 @@
 {
+  "checksum": "337376013b515495b7fc9b806900e44f",
   "room": {
     "id": 2908,
     "title": [
@@ -15,7 +16,7 @@
     "terrain": "deciduous forest",
     "wayto": {
       "2902": "west",
-      "2909": ";e move 'east'",
+      "2909": "/rooms/2908/wayto/stringproc-2909.rb",
       "2918": "up"
     },
     "timeto": {
@@ -23,13 +24,6 @@
       "2909": 0.2,
       "2918": 0.2
     },
-    "image": "imt-east_west_north_gates-1668398077.png",
-    "image_coords": [
-      1105,
-      394,
-      1115,
-      404
-    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -66,6 +60,13 @@
     ],
     "uid": [
       4560022
+    ],
+    "image": "imt-east_west_north_gates-1668398077.png",
+    "image_coords": [
+      1105,
+      394,
+      1115,
+      404
     ]
   }
 }

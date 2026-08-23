@@ -1,4 +1,5 @@
 {
+  "checksum": "d9a439c70f14fdcb4a828e5996fb3fbd",
   "room": {
     "id": 1508,
     "title": [
@@ -20,20 +21,13 @@
     "wayto": {
       "1506": "north",
       "19734": "go portcullis",
-      "30710": ";e true"
+      "30710": "/rooms/1508/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "1506": 0.2,
-      "19734": ";e ((!defined?(Stats.prof) or Stats.prof == 'Empath') ? 0.2 : nil);",
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "19734": "/rooms/1508/timeto/stringproc-19734.rb",
+      "30710": "/rooms/1508/timeto/stringproc-30710.rb"
     },
-    "image": "vo-solhaven-1675635404.png",
-    "image_coords": [
-      1187,
-      828,
-      1207,
-      851
-    ],
     "tags": [
       "empath guild",
       "empathguild",
@@ -43,6 +37,13 @@
     ],
     "uid": [
       654001
+    ],
+    "image": "vo-solhaven-1675635404.png",
+    "image_coords": [
+      1187,
+      828,
+      1207,
+      851
     ]
   }
 }

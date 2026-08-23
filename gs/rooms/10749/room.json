@@ -1,4 +1,5 @@
 {
+  "checksum": "080487679be8c2e1d7859650c5a5cfd5",
   "room": {
     "id": 10749,
     "title": [
@@ -19,15 +20,8 @@
     },
     "timeto": {
       "4803": 0.2,
-      "19836": ";e ((!defined?(Stats.prof) or Stats.prof == 'Cleric') ? 0.2 : nil);"
+      "19836": "/rooms/10749/timeto/stringproc-19836.rb"
     },
-    "image": "en-cleric_guild-1340756524.png",
-    "image_coords": [
-      12,
-      442,
-      50,
-      480
-    ],
     "tags": [
       "angelica root",
       "black peppercorn",
@@ -171,6 +165,13 @@
     ],
     "uid": [
       676002
+    ],
+    "image": "en-cleric_guild-1340756524.png",
+    "image_coords": [
+      12,
+      442,
+      50,
+      480
     ]
   }
 }

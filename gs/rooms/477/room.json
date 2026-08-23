@@ -1,4 +1,5 @@
 {
+  "checksum": "83eec1a8fa335f377f7263f73408e772",
   "room": {
     "id": 477,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "410": "go steps",
       "13500": "go arch",
-      "30708": ";e true"
+      "30708": "/rooms/477/wayto/stringproc-30708.rb"
     },
     "timeto": {
       "410": 0.2,
       "13500": 0.2,
-      "30708": ";e Map[7].timeto['30714'].call;"
+      "30708": "/rooms/477/timeto/stringproc-30708.rb"
     },
-    "image": "wl-Hearthstone_Manor-1439662135.png",
-    "image_coords": [
-      424,
-      679,
-      491,
-      724
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-11",
@@ -44,6 +38,13 @@
     ],
     "uid": [
       397002
+    ],
+    "image": "wl-Hearthstone_Manor-1439662135.png",
+    "image_coords": [
+      424,
+      679,
+      491,
+      724
     ]
   }
 }

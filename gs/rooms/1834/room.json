@@ -1,4 +1,5 @@
 {
+  "checksum": "667fb811e43835755d55b28e256a8f7a",
   "room": {
     "id": 1834,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "1833": "southeast",
       "1835": "southwest",
-      "27470": ";e if UserVars.Mularos_Lover; UserVars.Mularos_Lover.each{|c| fput \"#{c}\" } end"
+      "27470": "/rooms/1834/wayto/stringproc-27470.rb"
     },
     "timeto": {
       "1833": 0.2,
       "1835": 0.2,
-      "27470": ";e UserVars.Mularos_Lover.nil? ? nil : 0.2"
+      "27470": "/rooms/1834/timeto/stringproc-27470.rb"
     },
-    "image": "en-sylvarraend-1264234799.png",
-    "image_coords": [
-      53,
-      369,
-      63,
-      379
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -78,6 +72,13 @@
     ],
     "uid": [
       13027002
+    ],
+    "image": "en-sylvarraend-1264234799.png",
+    "image_coords": [
+      53,
+      369,
+      63,
+      379
     ]
   }
 }

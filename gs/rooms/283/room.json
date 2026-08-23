@@ -1,4 +1,5 @@
 {
+  "checksum": "9377406688d97bd17b263af1c66e5d15",
   "room": {
     "id": 283,
     "title": [
@@ -18,23 +19,16 @@
       "282": "north",
       "299": "south",
       "20588": "go shop",
-      "30708": ";e true",
+      "30708": "/rooms/283/wayto/stringproc-30708.rb",
       "34425": "go heavy doors"
     },
     "timeto": {
       "282": 0.2,
       "299": 0.2,
       "20588": 0.2,
-      "30708": ";e Map[7].timeto['30714'].call;",
+      "30708": "/rooms/283/timeto/stringproc-30708.rb",
       "34425": 0.2
     },
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      356,
-      965,
-      392,
-      1001
-    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -89,6 +83,13 @@
     ],
     "uid": [
       7050
+    ],
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      356,
+      965,
+      392,
+      1001
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "b8531a7f90eefc2b4c29de2362f995e0",
   "room": {
     "id": 23816,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Solhaven",
     "wayto": {
       "1551": "go out",
-      "30710": ";e true"
+      "30710": "/rooms/23816/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "1551": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/23816/timeto/stringproc-30710.rb"
     },
     "tags": [
       "collectibles",

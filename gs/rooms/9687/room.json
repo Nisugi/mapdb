@@ -1,4 +1,5 @@
 {
+  "checksum": "d065b4780cd0373130b8968ccf78a394",
   "room": {
     "id": 9687,
     "title": [
@@ -13,19 +14,12 @@
     "location": "Cysaegir",
     "wayto": {
       "9686": "out",
-      "30717": ";e true"
+      "30717": "/rooms/9687/wayto/stringproc-30717.rb"
     },
     "timeto": {
       "9686": 0.2,
-      "30717": ";e Map[7].timeto['30714'].call;"
+      "30717": "/rooms/9687/timeto/stringproc-30717.rb"
     },
-    "image": "en-cysaegir-1679641246.png",
-    "image_coords": [
-      758,
-      796,
-      782,
-      820
-    ],
     "tags": [
       "furrier",
       "meta:forage-sensed",
@@ -35,6 +29,13 @@
     ],
     "uid": [
       14051026
+    ],
+    "image": "en-cysaegir-1679641246.png",
+    "image_coords": [
+      758,
+      796,
+      782,
+      820
     ]
   }
 }

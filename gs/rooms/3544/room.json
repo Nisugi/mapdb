@@ -1,4 +1,5 @@
 {
+  "checksum": "597315c98741368954d3dcf8fc2b891c",
   "room": {
     "id": 3544,
     "title": [
@@ -21,20 +22,13 @@
     "wayto": {
       "3542": "north",
       "10381": "go dock",
-      "30713": ";e true"
+      "30713": "/rooms/3544/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "3542": 0.2,
       "10381": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/3544/timeto/stringproc-30713.rb"
     },
-    "image": "en-tavaalor-1565907614.png",
-    "image_coords": [
-      926,
-      1001,
-      961,
-      1040
-    ],
     "tags": [
       "locksmith pool",
       "locksmithpool",
@@ -51,6 +45,13 @@
     ],
     "uid": [
       14100045
+    ],
+    "image": "en-tavaalor-1565907614.png",
+    "image_coords": [
+      926,
+      1001,
+      961,
+      1040
     ]
   }
 }

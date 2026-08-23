@@ -1,4 +1,5 @@
 {
+  "checksum": "ad8386d4193b5197ba7ca2fefcb3e64e",
   "room": {
     "id": 223,
     "title": [
@@ -20,22 +21,15 @@
       "224": "south",
       "3807": "go east tower",
       "6929": "go west tower",
-      "30708": ";e true"
+      "30708": "/rooms/223/wayto/stringproc-30708.rb"
     },
     "timeto": {
       "221": 0.2,
       "224": 0.2,
       "3807": 0.2,
       "6929": 0.2,
-      "30708": ";e Map[7].timeto['30714'].call;"
+      "30708": "/rooms/223/timeto/stringproc-30708.rb"
     },
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      277,
-      86,
-      313,
-      123
-    ],
     "tags": [
       "acantha leaf",
       "advpickup",
@@ -93,6 +87,13 @@
     ],
     "uid": [
       7000
+    ],
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      277,
+      86,
+      313,
+      123
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "c75482dc8797dbc6259ba1bb53e0398a",
   "room": {
     "id": 5637,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "5636": "northeast",
       "5638": "south",
-      "5644": ";e empty_hands\nmove 'climb hole'\nwaitrt?\nfill_hands"
+      "5644": "/rooms/5637/wayto/stringproc-5644.rb"
     },
     "timeto": {
       "5636": 0.2,
       "5638": 0.2,
       "5644": 0.2
     },
-    "image": "vo-foggy_valley-1264234799.png",
-    "image_coords": [
-      849,
-      634,
-      859,
-      644
-    ],
     "tags": [
       "blueberries",
       "bright red teaberry",
@@ -73,6 +67,13 @@
     ],
     "uid": [
       4214320
+    ],
+    "image": "vo-foggy_valley-1264234799.png",
+    "image_coords": [
+      849,
+      634,
+      859,
+      644
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "111e4fcc6386bb29fee2e3f9cf339902",
   "room": {
     "id": 5205,
     "title": [
@@ -19,15 +20,8 @@
     },
     "timeto": {
       "5126": 0.2,
-      "24431": ";e (Script.running?('bigshot') || Script.running?('wander'))? nil : 0.2"
+      "24431": "/rooms/5205/timeto/stringproc-24431.rb"
     },
-    "image": "vo-foggy_valley-1264234799.png",
-    "image_coords": [
-      150,
-      502,
-      160,
-      512
-    ],
     "tags": [
       "BRS",
       "meta:forage-sensed",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       4202321
+    ],
+    "image": "vo-foggy_valley-1264234799.png",
+    "image_coords": [
+      150,
+      502,
+      160,
+      512
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "7cd0d1b303d6c7d628d7c9da36bc07ab",
   "room": {
     "id": 32600,
     "title": [
@@ -15,11 +16,11 @@
     "terrain": "none",
     "wayto": {
       "1478": "out",
-      "30710": ";e true"
+      "30710": "/rooms/32600/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "1478": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/32600/timeto/stringproc-30710.rb"
     },
     "tags": [
       "grocer",

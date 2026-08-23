@@ -1,4 +1,5 @@
 {
+  "checksum": "1cdb7b203bdb9dd9d1005500b4382ab8",
   "room": {
     "id": 8574,
     "title": [
@@ -19,7 +20,7 @@
       "8571": "southwest",
       "8572": "south",
       "8573": "southeast",
-      "19651": ";e fput 'search'; sleep 0.5; waitrt?; empty_hands; fput 'get lockpick'; fput 'pick door'; sleep 0.5; waitrt?; fput 'stow lockpick'; fill_hands; move 'go door'"
+      "19651": "/rooms/8574/wayto/stringproc-19651.rb"
     },
     "timeto": {
       "8570": 0.2,
@@ -28,13 +29,6 @@
       "8573": 0.2,
       "19651": 0.6
     },
-    "image": "wl-trollfang-1264234799.png",
-    "image_coords": [
-      1293,
-      923,
-      1303,
-      933
-    ],
     "tags": [
       "angelica root",
       "blue trafel mushroom",
@@ -78,6 +72,13 @@
     ],
     "uid": [
       10007
+    ],
+    "image": "wl-trollfang-1264234799.png",
+    "image_coords": [
+      1293,
+      923,
+      1303,
+      933
     ]
   }
 }

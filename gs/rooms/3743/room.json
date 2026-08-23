@@ -1,4 +1,5 @@
 {
+  "checksum": "fa4574fc11ee5bde90791f6ee41e2dce",
   "room": {
     "id": 3743,
     "title": [
@@ -14,11 +15,11 @@
     "location": "Wehnimer's Landing",
     "wayto": {
       "3740": "west",
-      "3744": ";e table = \"red\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "17371": ";e table = \"blue\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "17372": ";e table = \"green\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "17373": ";e table = \"white\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "17374": ";e table = \"black\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+      "3744": "/rooms/3743/wayto/stringproc-3744.rb",
+      "17371": "/rooms/3743/wayto/stringproc-17371.rb",
+      "17372": "/rooms/3743/wayto/stringproc-17372.rb",
+      "17373": "/rooms/3743/wayto/stringproc-17373.rb",
+      "17374": "/rooms/3743/wayto/stringproc-17374.rb",
       "36008": "east"
     },
     "timeto": {
@@ -30,18 +31,18 @@
       "17374": 0.2,
       "36008": 0.2
     },
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      109599
+    ],
     "image": "wl-silvergate_inn-1487242763.png",
     "image_coords": [
       884,
       152,
       967,
       206
-    ],
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      109599
     ]
   }
 }

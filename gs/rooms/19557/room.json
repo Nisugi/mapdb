@@ -1,4 +1,5 @@
 {
+  "checksum": "1fc7f4f6cbda25a2d2bce07f696374d0",
   "room": {
     "id": 19557,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "19553": "southwest",
       "19558": "go arch",
-      "30718": ";e true"
+      "30718": "/rooms/19557/wayto/stringproc-30718.rb"
     },
     "timeto": {
       "19553": 0.2,
-      "19558": ";e ((!defined?(Stats.prof) or Stats.prof == 'Empath') ? 0.2 : nil);",
-      "30718": ";e Map[7].timeto['30714'].call;"
+      "19558": "/rooms/19557/timeto/stringproc-19558.rb",
+      "30718": "/rooms/19557/timeto/stringproc-30718.rb"
     },
-    "image": "ifw-isle_of_four_winds-1310232949.png",
-    "image_coords": [
-      4030,
-      200,
-      4069,
-      239
-    ],
     "tags": [
       "acantha leaf",
       "bamboo cane",
@@ -82,6 +76,13 @@
     ],
     "uid": [
       659102
+    ],
+    "image": "ifw-isle_of_four_winds-1310232949.png",
+    "image_coords": [
+      4030,
+      200,
+      4069,
+      239
     ]
   }
 }

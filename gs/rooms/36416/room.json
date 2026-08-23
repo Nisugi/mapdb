@@ -1,4 +1,5 @@
 {
+  "checksum": "ed0a2dbf981a435e3975e0f662edba53",
   "room": {
     "id": 36416,
     "title": [
@@ -13,21 +14,21 @@
     "location": "the Upper Trollfang",
     "wayto": {
       "36395": "go portal",
-      "36412": ";e move 'jump pit'; wait_while{checkstunned}"
+      "36412": "/rooms/36416/wayto/stringproc-36412.rb"
     },
     "timeto": {
       "36395": 0.2,
-      "36412": 20.0
+      "36412": 20
     },
+    "uid": [
+      58027
+    ],
     "image": "quest-black_swan_castle.png",
     "image_coords": [
       1720,
       520,
       1760,
       560
-    ],
-    "uid": [
-      58027
     ]
   }
 }

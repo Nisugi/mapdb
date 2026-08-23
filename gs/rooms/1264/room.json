@@ -1,4 +1,5 @@
 {
+  "checksum": "0d8ec01306e55acafe999734a77e00bf",
   "room": {
     "id": 1264,
     "title": [
@@ -17,13 +18,13 @@
       "242": "out",
       "1263": "go doors",
       "8812": "go stairway",
-      "30708": ";e true"
+      "30708": "/rooms/1264/wayto/stringproc-30708.rb"
     },
     "timeto": {
       "242": 0.2,
       "1263": 0.2,
       "8812": 0.2,
-      "30708": ";e Map[7].timeto['30714'].call;"
+      "30708": "/rooms/1264/timeto/stringproc-30708.rb"
     },
     "tags": [
       "friths",

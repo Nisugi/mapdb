@@ -1,4 +1,5 @@
 {
+  "checksum": "8ec4f751e35cdc8981ba4749d227bfb6",
   "room": {
     "id": 19945,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "8683": "go door",
       "19944": "go passageway",
-      "19946": ";e multifput 'search', 'go trapdoor'"
+      "19946": "/rooms/19945/wayto/stringproc-19946.rb"
     },
     "timeto": {
       "8683": 10,
       "19944": 0.2,
       "19946": 0.4
     },
-    "image": "wl-stone_baths-1487292814.png",
-    "image_coords": [
-      1147,
-      405,
-      1288,
-      467
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-11",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       336028
+    ],
+    "image": "wl-stone_baths-1487292814.png",
+    "image_coords": [
+      1147,
+      405,
+      1288,
+      467
     ]
   }
 }

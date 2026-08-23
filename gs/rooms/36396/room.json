@@ -1,4 +1,5 @@
 {
+  "checksum": "465a7091596b69e623df37a25bd7239f",
   "room": {
     "id": 36396,
     "title": [
@@ -15,23 +16,23 @@
       "36395": "go silver arch",
       "36397": "go hole",
       "36398": "south",
-      "36401": ";e fput 'search'; sleep 0.5;waitrt?; move('go mouth')"
+      "36401": "/rooms/36396/wayto/stringproc-36401.rb"
     },
     "timeto": {
       "36395": 0.2,
       "36397": 0.2,
       "36398": 0.2,
-      "36401": 3.0
+      "36401": 3
     },
+    "uid": [
+      58002
+    ],
     "image": "quest-black_swan_castle.png",
     "image_coords": [
       1560,
       520,
       1600,
       560
-    ],
-    "uid": [
-      58002
     ]
   }
 }

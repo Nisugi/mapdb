@@ -1,4 +1,5 @@
 {
+  "checksum": "17431ae7283229384b96c9a7a5e93678",
   "room": {
     "id": 10844,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "riparian",
     "wayto": {
       "10842": "go path",
-      "10845": ";e fput 'unhide' if checkspell 'invisibility'\nmove 'go rope'"
+      "10845": "/rooms/10844/wayto/stringproc-10845.rb"
     },
     "timeto": {
       "10842": 0.2,
       "10845": 0.2
     },
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      1979,
-      1240,
-      2017,
-      1279
-    ],
     "tags": [
       "acantha leaf",
       "banana leaf",
@@ -82,6 +76,13 @@
     ],
     "uid": [
       2101111
+    ],
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      1979,
+      1240,
+      2017,
+      1279
     ]
   }
 }

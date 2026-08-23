@@ -1,4 +1,5 @@
 {
+  "checksum": "2ace75031f7871523facf3016ab5b195",
   "room": {
     "id": 10958,
     "title": [
@@ -13,13 +14,13 @@
     "location": "the town of River's Rest",
     "wayto": {
       "10957": "go doorway",
-      "17070": ";e table = \"Long River\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "17071": ";e table = \"Bent Creek\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "17073": ";e table = \"Wide River\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "17074": ";e table = \"Running Creek\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "17076": ";e table = \"Clear River\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "17082": ";e table = \"Sleepy River\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "30711": ";e true"
+      "17070": "/rooms/10958/wayto/stringproc-17070.rb",
+      "17071": "/rooms/10958/wayto/stringproc-17071.rb",
+      "17073": "/rooms/10958/wayto/stringproc-17073.rb",
+      "17074": "/rooms/10958/wayto/stringproc-17074.rb",
+      "17076": "/rooms/10958/wayto/stringproc-17076.rb",
+      "17082": "/rooms/10958/wayto/stringproc-17082.rb",
+      "30711": "/rooms/10958/wayto/stringproc-30711.rb"
     },
     "timeto": {
       "10957": 0.2,
@@ -29,14 +30,8 @@
       "17074": 0.2,
       "17076": 0.2,
       "17082": 0.2,
-      "30711": ";e Map[7].timeto['30714'].call;"
+      "30711": "/rooms/10958/timeto/stringproc-30711.rb"
     },
-    "image_coords": [
-      762,
-      530,
-      788,
-      556
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -48,6 +43,12 @@
     ],
     "uid": [
       2101966
+    ],
+    "image_coords": [
+      762,
+      530,
+      788,
+      556
     ]
   }
 }

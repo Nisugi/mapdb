@@ -1,4 +1,5 @@
 {
+  "checksum": "43fea52b0c611fd4b7210cf1330f7a70",
   "room": {
     "id": 30500,
     "title": [
@@ -14,9 +15,9 @@
     "climate": "freshwater",
     "terrain": "riparian",
     "wayto": {
-      "13960": ";e move 'go floating dock';fill_hand;",
-      "25622": ";e fput 'swim south'; move 'swim south'",
-      "25623": ";e fput 'swim southwest'; move 'swim southwest'",
+      "13960": "/rooms/30500/wayto/stringproc-13960.rb",
+      "25622": "/rooms/30500/wayto/stringproc-25622.rb",
+      "25623": "/rooms/30500/wayto/stringproc-25623.rb",
       "30501": "swim east",
       "30502": "swim northeast"
     },
@@ -27,13 +28,6 @@
       "30501": 0.2,
       "30502": 0.2
     },
-    "image": "en-ravelin.png",
-    "image_coords": [
-      1083,
-      571,
-      1100,
-      588
-    ],
     "tags": [
       "aloeas stem",
       "meta:forage-sensed",
@@ -50,6 +44,13 @@
     ],
     "uid": [
       14117002
+    ],
+    "image": "en-ravelin.png",
+    "image_coords": [
+      1083,
+      571,
+      1100,
+      588
     ]
   }
 }

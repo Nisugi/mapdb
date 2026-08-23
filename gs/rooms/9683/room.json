@@ -1,4 +1,5 @@
 {
+  "checksum": "ed57354c0343f110e048681f3e036c92",
   "room": {
     "id": 9683,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Cysaegir",
     "wayto": {
       "4670": "west",
-      "30717": ";e true"
+      "30717": "/rooms/9683/wayto/stringproc-30717.rb"
     },
     "timeto": {
       "4670": 0.2,
-      "30717": ";e Map[7].timeto['30714'].call;"
+      "30717": "/rooms/9683/timeto/stringproc-30717.rb"
     },
     "tags": [
       "debts",

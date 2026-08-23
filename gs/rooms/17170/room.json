@@ -1,4 +1,5 @@
 {
+  "checksum": "12e4c5ab9217392829aa488b1bbee491",
   "room": {
     "id": 17170,
     "title": [
@@ -14,12 +15,12 @@
     "wayto": {
       "4696": "east",
       "17171": "go steps",
-      "30717": ";e true"
+      "30717": "/rooms/17170/wayto/stringproc-30717.rb"
     },
     "timeto": {
       "4696": 0.2,
       "17171": 0.2,
-      "30717": ";e Map[7].timeto['30714'].call;"
+      "30717": "/rooms/17170/timeto/stringproc-30717.rb"
     },
     "tags": [
       "cobbling",

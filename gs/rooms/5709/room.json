@@ -1,4 +1,5 @@
 {
+  "checksum": "d8212ff2dd6b4d143927d14abbeed5c8",
   "room": {
     "id": 5709,
     "title": [
@@ -14,7 +15,7 @@
     "climate": "temperate",
     "terrain": "coniferous forest",
     "wayto": {
-      "5698": ";e fput 'search'\nmove 'go window'",
+      "5698": "/rooms/5709/wayto/stringproc-5698.rb",
       "5707": "southwest",
       "5708": "south"
     },
@@ -23,13 +24,6 @@
       "5707": 0.2,
       "5708": 0.2
     },
-    "image": "vo-foggy_valley-1264234799.png",
-    "image_coords": [
-      1352,
-      342,
-      1362,
-      352
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -88,6 +82,13 @@
     ],
     "uid": [
       4007037
+    ],
+    "image": "vo-foggy_valley-1264234799.png",
+    "image_coords": [
+      1352,
+      342,
+      1362,
+      352
     ]
   }
 }

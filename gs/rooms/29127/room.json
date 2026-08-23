@@ -1,4 +1,5 @@
 {
+  "checksum": "257ffb2b40ac2caddf101e4293d4a99c",
   "room": {
     "id": 29127,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Kraken's Fall",
     "wayto": {
       "29009": "go archway",
-      "30716": ";e true"
+      "30716": "/rooms/29127/wayto/stringproc-30716.rb"
     },
     "timeto": {
       "29009": 0.2,
-      "30716": ";e Map[7].timeto['30714'].call;"
+      "30716": "/rooms/29127/timeto/stringproc-30716.rb"
     },
     "tags": [
       "jail",

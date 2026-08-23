@@ -1,4 +1,5 @@
 {
+  "checksum": "efe4019505c99cbea9da7b27694ea3be",
   "room": {
     "id": 3542,
     "title": [
@@ -20,22 +21,15 @@
       "3541": "east",
       "3543": "west",
       "3544": "south",
-      "30713": ";e true"
+      "30713": "/rooms/3542/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "3519": 0.6,
       "3541": 0.2,
       "3543": 0.2,
       "3544": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/3542/timeto/stringproc-30713.rb"
     },
-    "image": "en-tavaalor-1565907614.png",
-    "image_coords": [
-      925,
-      929,
-      960,
-      963
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:night:2023-01",
@@ -46,6 +40,13 @@
     ],
     "uid": [
       14100046
+    ],
+    "image": "en-tavaalor-1565907614.png",
+    "image_coords": [
+      925,
+      929,
+      960,
+      963
     ]
   }
 }

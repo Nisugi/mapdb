@@ -1,4 +1,5 @@
 {
+  "checksum": "9c14ea046ed784cc6c45c7e79bf5cabb",
   "room": {
     "id": 20641,
     "title": [
@@ -15,7 +16,7 @@
     "terrain": "none",
     "wayto": {
       "19937": "go steps",
-      "20627": ";e multifput 'search', 'go crack'",
+      "20627": "/rooms/20641/wayto/stringproc-20627.rb",
       "20642": "go door"
     },
     "timeto": {

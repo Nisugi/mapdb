@@ -1,4 +1,5 @@
 {
+  "checksum": "3c1a8fd18f044fa63fd1e567a0ad6796",
   "room": {
     "id": 6498,
     "title": [
@@ -14,8 +15,8 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "6495": ";e move 'out'; move 'south' unless checkpaths.include?('n')",
-      "6496": ";e move 'out'; move 'north' if checkpaths.include?('n')"
+      "6495": "/rooms/6498/wayto/stringproc-6495.rb",
+      "6496": "/rooms/6498/wayto/stringproc-6496.rb"
     },
     "timeto": {
       "6495": 0.2,

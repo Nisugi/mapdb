@@ -1,4 +1,5 @@
 {
+  "checksum": "42cce338d536174f943b863f2c378f96",
   "room": {
     "id": 4687,
     "title": [
@@ -17,7 +18,7 @@
       "4689": "south",
       "4690": "southwest",
       "4691": "climb stairway",
-      "30717": ";e true"
+      "30717": "/rooms/4687/wayto/stringproc-30717.rb"
     },
     "timeto": {
       "4639": 0.2,
@@ -25,15 +26,8 @@
       "4689": 0.2,
       "4690": 0.2,
       "4691": 0.2,
-      "30717": ";e Map[7].timeto['30714'].call;"
+      "30717": "/rooms/4687/timeto/stringproc-30717.rb"
     },
-    "image": "en-cysaegir-1679641246.png",
-    "image_coords": [
-      85,
-      305,
-      108,
-      328
-    ],
     "tags": [
       "inn",
       "meta:forage-sensed",
@@ -43,6 +37,13 @@
     ],
     "uid": [
       14051028
+    ],
+    "image": "en-cysaegir-1679641246.png",
+    "image_coords": [
+      85,
+      305,
+      108,
+      328
     ]
   }
 }

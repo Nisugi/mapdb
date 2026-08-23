@@ -1,4 +1,5 @@
 {
+  "checksum": "c5780eb63b7e7ea7adb7dc1f1a37b456",
   "room": {
     "id": 6110,
     "title": [
@@ -15,9 +16,9 @@
     "climate": "cold, dry",
     "terrain": "hard, flat",
     "wayto": {
-      "6109": ";e move 'climb ravine'",
+      "6109": "/rooms/6110/wayto/stringproc-6109.rb",
       "6111": "southeast",
-      "6119": ";e move 'climb ridge'",
+      "6119": "/rooms/6110/wayto/stringproc-6119.rb",
       "7921": "southwest",
       "14725": "south"
     },
@@ -28,19 +29,19 @@
       "7921": 0.2,
       "14725": 0.2
     },
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      305,
-      1274,
-      315,
-      1284
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables"
     ],
     "uid": [
       484001
+    ],
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      305,
+      1274,
+      315,
+      1284
     ]
   }
 }

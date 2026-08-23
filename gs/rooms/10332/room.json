@@ -1,4 +1,5 @@
 {
+  "checksum": "655916032cf9ce3df8bb6179a47c60f3",
   "room": {
     "id": 10332,
     "title": [
@@ -14,19 +15,12 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "10331": "west",
-      "30713": ";e true"
+      "30713": "/rooms/10332/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "10331": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/10332/timeto/stringproc-30713.rb"
     },
-    "image": "adventurers_guild-1485358936.png",
-    "image_coords": [
-      1058,
-      2455,
-      1126,
-      2521
-    ],
     "tags": [
       "advguild",
       "bounty",
@@ -38,6 +32,13 @@
     ],
     "uid": [
       14103502
+    ],
+    "image": "adventurers_guild-1485358936.png",
+    "image_coords": [
+      1058,
+      2455,
+      1126,
+      2521
     ]
   }
 }

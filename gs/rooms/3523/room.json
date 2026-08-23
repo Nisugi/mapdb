@@ -1,4 +1,5 @@
 {
+  "checksum": "cf570b2879b34e7122fbafacc68b0c31",
   "room": {
     "id": 3523,
     "title": [
@@ -21,23 +22,16 @@
       "3522": "west",
       "3524": "north",
       "5906": "go gate",
-      "25626": ";e fput 'search';move 'go trapdoor'",
-      "30713": ";e true"
+      "25626": "/rooms/3523/wayto/stringproc-25626.rb",
+      "30713": "/rooms/3523/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "3522": 0.2,
       "3524": 0.2,
       "5906": 0.2,
       "25626": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/3523/timeto/stringproc-30713.rb"
     },
-    "image": "en-tavaalor-1565907614.png",
-    "image_coords": [
-      1147,
-      853,
-      1184,
-      885
-    ],
     "tags": [
       "annattogate",
       "meta:forage-sensed",
@@ -49,6 +43,13 @@
     ],
     "uid": [
       14100038
+    ],
+    "image": "en-tavaalor-1565907614.png",
+    "image_coords": [
+      1147,
+      853,
+      1184,
+      885
     ]
   }
 }

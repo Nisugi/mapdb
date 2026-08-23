@@ -1,1 +1,1 @@
-begin; fput 'search'; search_result = waitfor "discover a", "don't find anything", "Roundtime", "Round time"; waitrt?; end until search_result =~ /discover a/; move 'go path'
+attempts = 0;moved = false;loop do;waitrt?;moved = move('go path');break if moved;fput 'search';attempts += 1;break if attempts >= 5;end;moved

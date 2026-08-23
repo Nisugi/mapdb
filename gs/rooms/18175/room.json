@@ -1,4 +1,5 @@
 {
+  "checksum": "0cde94fc1e1813587066705d9b101de0",
   "room": {
     "id": 18175,
     "title": [
@@ -15,7 +16,7 @@
     "terrain": "mountainous",
     "wayto": {
       "18174": "west",
-      "18176": ";e empty_hands;move 'go slope';fill_hands"
+      "18176": "/rooms/18175/wayto/stringproc-18176.rb"
     },
     "timeto": {
       "18174": 0.2,

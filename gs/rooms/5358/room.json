@@ -1,4 +1,5 @@
 {
+  "checksum": "fd6777d73e4a7761ddf32f7af525761b",
   "room": {
     "id": 5358,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "5356": "northwest",
       "5381": "east",
-      "5390": ";e empty_hands\nmove 'climb hillock'\nwaitrt?\nfill_hands"
+      "5390": "/rooms/5358/wayto/stringproc-5390.rb"
     },
     "timeto": {
       "5356": 0.2,
       "5381": 0.2,
       "5390": 0.2
     },
-    "image": "vo-foggy_valley-1264234799.png",
-    "image_coords": [
-      1332,
-      794,
-      1342,
-      804
-    ],
     "tags": [
       "blades of cordgrass",
       "blue-green marshgrass",
@@ -73,6 +67,13 @@
     ],
     "uid": [
       4218322
+    ],
+    "image": "vo-foggy_valley-1264234799.png",
+    "image_coords": [
+      1332,
+      794,
+      1342,
+      804
     ]
   }
 }

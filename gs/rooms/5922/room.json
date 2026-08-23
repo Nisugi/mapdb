@@ -1,4 +1,5 @@
 {
+  "checksum": "56a867bde890be0d49a953cab0ae3841",
   "room": {
     "id": 5922,
     "title": [
@@ -15,20 +16,13 @@
     "wayto": {
       "5921": "south",
       "5923": "north",
-      "10476": ";e move 'go niche';while Room.current.id == 5922;line = get?;if line.nil?;sleep 0.2;elsif line == 'Your eyes have recovered from the poor light within the niche.';move 'go niche';break;end;end;"
+      "10476": "/rooms/5922/wayto/stringproc-10476.rb"
     },
     "timeto": {
       "5921": 0.2,
       "5923": 0.2,
       "10476": 0.2
     },
-    "image": "en-tavaalor-1565907614.png",
-    "image_coords": [
-      261,
-      960,
-      269,
-      969
-    ],
     "tags": [
       "black mushroom",
       "blue trafel mushroom",
@@ -46,6 +40,13 @@
     ],
     "uid": [
       14009014
+    ],
+    "image": "en-tavaalor-1565907614.png",
+    "image_coords": [
+      261,
+      960,
+      269,
+      969
     ]
   }
 }

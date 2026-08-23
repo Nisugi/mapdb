@@ -1,4 +1,5 @@
 {
+  "checksum": "e00858b1e1b974b93a58a63233f2a84a",
   "room": {
     "id": 4686,
     "title": [
@@ -14,20 +15,13 @@
     "wayto": {
       "4639": "out",
       "9667": "go arch",
-      "30717": ";e true"
+      "30717": "/rooms/4686/wayto/stringproc-30717.rb"
     },
     "timeto": {
       "4639": 0.2,
       "9667": 0.2,
-      "30717": ";e Map[7].timeto['30714'].call;"
+      "30717": "/rooms/4686/timeto/stringproc-30717.rb"
     },
-    "image": "en-cysaegir-1679641246.png",
-    "image_coords": [
-      85,
-      449,
-      109,
-      472
-    ],
     "tags": [
       "bank",
       "meta:forage-sensed",
@@ -37,6 +31,13 @@
     ],
     "uid": [
       14051015
+    ],
+    "image": "en-cysaegir-1679641246.png",
+    "image_coords": [
+      85,
+      449,
+      109,
+      472
     ]
   }
 }

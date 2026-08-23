@@ -1,4 +1,5 @@
 {
+  "checksum": "efd6716481ac06c9bd41ac7274826b5b",
   "room": {
     "id": 23404,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "23403": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'north'",
-      "23405": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'south'"
+      "23403": "/rooms/23404/wayto/stringproc-23403.rb",
+      "23405": "/rooms/23404/wayto/stringproc-23405.rb"
     },
     "timeto": {
       "23403": 0.2,
       "23405": 0.2
     },
-    "image": "en-zul_logoth_liaerion-1703216519.png",
-    "image_coords": [
-      190,
-      551,
-      199,
-      560
-    ],
     "tags": [
       "bolmara lichen",
       "glowing toadstool",
@@ -38,9 +32,16 @@
       "white hook mushroom",
       "wingstem root"
     ],
-    "check_location": true,
     "uid": [
       13018020
-    ]
+    ],
+    "image": "en-zul_logoth_liaerion-1703216519.png",
+    "image_coords": [
+      190,
+      551,
+      199,
+      560
+    ],
+    "check_location": true
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "85562bc0ee2adf17096897fc48307f91",
   "room": {
     "id": 2925,
     "title": [
@@ -15,20 +16,13 @@
     "climate": "snowy, arctic",
     "terrain": "plain dirt",
     "wayto": {
-      "2924": ";e fput 'north'; move 'north' while Room.current.id == 2925",
-      "2926": ";e fput 'south'; move 'south' while Room.current.id == 2925"
+      "2924": "/rooms/2925/wayto/stringproc-2924.rb",
+      "2926": "/rooms/2925/wayto/stringproc-2926.rb"
     },
     "timeto": {
-      "2924": 2.0,
-      "2926": 2.0
+      "2924": 2,
+      "2926": 2
     },
-    "image": "imt-east_west_north_gates-1668398077.png",
-    "image_coords": [
-      1052,
-      765,
-      1062,
-      775
-    ],
     "tags": [
       "angelica root",
       "arctic moss",
@@ -50,6 +44,13 @@
     ],
     "uid": [
       4560007
+    ],
+    "image": "imt-east_west_north_gates-1668398077.png",
+    "image_coords": [
+      1052,
+      765,
+      1062,
+      775
     ]
   }
 }

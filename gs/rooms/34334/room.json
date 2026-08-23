@@ -1,4 +1,5 @@
 {
+  "checksum": "34770d3bb853162cc0a6a7db3557f7a8",
   "room": {
     "id": 34334,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "moist",
     "terrain": "rough",
     "wayto": {
-      "34333": ";e move 'south'; waitrt?",
-      "34335": ";e move 'north'; waitrt?"
+      "34333": "/rooms/34334/wayto/stringproc-34333.rb",
+      "34335": "/rooms/34334/wayto/stringproc-34335.rb"
     },
     "timeto": {
       "34333": 5.2,
       "34335": 5.2
     },
-    "image": "en-zul_logoth-storm_peaks-1703220375.png",
-    "image_coords": [
-      1146,
-      813,
-      1163,
-      829
-    ],
     "tags": [
       "broken twig",
       "cabbage rose",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       13150315
+    ],
+    "image": "en-zul_logoth-storm_peaks-1703220375.png",
+    "image_coords": [
+      1146,
+      813,
+      1163,
+      829
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+  "checksum": "8fc2a7bd88234f34d3794ab6553fe327",
   "room": {
     "id": 3030,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "3007": "up",
       "3031": "down",
-      "16034": ";e move 'go door'; fput 'close door'"
+      "16034": "/rooms/3030/wayto/stringproc-16034.rb"
     },
     "timeto": {
       "3007": 0.2,
       "3031": 0.2,
-      "16034": ";e UserVars.mapdb_annoy_ylandra == 'yes' ? 0.2 : nil"
+      "16034": "/rooms/3030/timeto/stringproc-16034.rb"
     },
-    "image": "imt-east_west_north_gates-1668398077.png",
-    "image_coords": [
-      272,
-      953,
-      282,
-      963
-    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -65,6 +59,13 @@
     ],
     "uid": [
       4129002
+    ],
+    "image": "imt-east_west_north_gates-1668398077.png",
+    "image_coords": [
+      272,
+      953,
+      282,
+      963
     ]
   }
 }

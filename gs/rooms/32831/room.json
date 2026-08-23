@@ -1,4 +1,5 @@
 {
+  "checksum": "da69a6c1a3ac9a83daa1b7fb4a3f344a",
   "room": {
     "id": 32831,
     "title": [
@@ -15,7 +16,7 @@
     "terrain": "none",
     "wayto": {
       "32828": "go arch opening",
-      "32832": ";e fput 'search';move('go panel')"
+      "32832": "/rooms/32831/wayto/stringproc-32832.rb"
     },
     "timeto": {
       "32828": 0.2,

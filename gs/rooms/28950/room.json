@@ -1,4 +1,5 @@
 {
+  "checksum": "7bc672ae70efc1aba3b44165dc81d224",
   "room": {
     "id": 28950,
     "title": [
@@ -14,12 +15,12 @@
     "wayto": {
       "28946": "go doors",
       "28951": "go archway",
-      "28952": ";e table = \"Dancing Hag\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "28953": ";e table = \"Happy Hag\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "28954": ";e table = \"Angry Hag\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "28955": ";e table = \"Sleeping Hag\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "28956": ";e table = \"Kissing Hag\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "30716": ";e true"
+      "28952": "/rooms/28950/wayto/stringproc-28952.rb",
+      "28953": "/rooms/28950/wayto/stringproc-28953.rb",
+      "28954": "/rooms/28950/wayto/stringproc-28954.rb",
+      "28955": "/rooms/28950/wayto/stringproc-28955.rb",
+      "28956": "/rooms/28950/wayto/stringproc-28956.rb",
+      "30716": "/rooms/28950/wayto/stringproc-30716.rb"
     },
     "timeto": {
       "28946": 0.2,
@@ -29,7 +30,7 @@
       "28954": 0.2,
       "28955": 0.2,
       "28956": 0.2,
-      "30716": ";e Map[7].timeto['30714'].call;"
+      "30716": "/rooms/28950/timeto/stringproc-30716.rb"
     },
     "tags": [
       "board",

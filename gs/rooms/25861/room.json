@@ -1,4 +1,5 @@
 {
+  "checksum": "c51b1c9abad5a88b624cadc38e11107a",
   "room": {
     "id": 25861,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "none",
     "wayto": {
       "19930": "out",
-      "25971": ";e fput 'give attendant 2000';move 'go archway'"
+      "25971": "/rooms/25861/wayto/stringproc-25971.rb"
     },
     "timeto": {
       "19930": 0.2,
       "25971": 0.3
     },
-    "image": "wl-stone_baths-1487292814.png",
-    "image_coords": [
-      208,
-      956,
-      350,
-      1018
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-11",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       336010
+    ],
+    "image": "wl-stone_baths-1487292814.png",
+    "image_coords": [
+      208,
+      956,
+      350,
+      1018
     ]
   }
 }

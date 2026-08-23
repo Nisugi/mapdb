@@ -1,4 +1,5 @@
 {
+  "checksum": "85300e6682ed463e419ab103d5a2853d",
   "room": {
     "id": 19965,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "19948": ";e fput \"search\";fput \"go narrow door\"",
+      "19948": "/rooms/19965/wayto/stringproc-19948.rb",
       "19964": "west"
     },
     "timeto": {
       "19948": 0.2,
       "19964": 0.2
     },
-    "image": "wl-museum-1487435869.png",
-    "image_coords": [
-      1804,
-      683,
-      1945,
-      743
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-11",
@@ -34,6 +28,13 @@
     ],
     "uid": [
       28136
+    ],
+    "image": "wl-museum-1487435869.png",
+    "image_coords": [
+      1804,
+      683,
+      1945,
+      743
     ]
   }
 }

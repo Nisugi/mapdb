@@ -1,4 +1,5 @@
 {
+  "checksum": "29346377f588711d3340fd2693997867",
   "room": {
     "id": 10384,
     "title": [
@@ -15,13 +16,13 @@
       "3517": "out",
       "10385": "north",
       "13312": "go stairway",
-      "30713": ";e true"
+      "30713": "/rooms/10384/wayto/stringproc-30713.rb"
     },
     "timeto": {
       "3517": 0.2,
       "10385": 0.2,
       "13312": 0.2,
-      "30713": ";e Map[7].timeto['30714'].call;"
+      "30713": "/rooms/10384/timeto/stringproc-30713.rb"
     },
     "tags": [
       "malwith",

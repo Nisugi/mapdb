@@ -1,4 +1,5 @@
 {
+  "checksum": "8a106715c7e407053544244b77b125c4",
   "room": {
     "id": 785,
     "title": [
@@ -12,20 +13,13 @@
     ],
     "location": "Whistler's Pass",
     "wayto": {
-      "784": ";e while checkpaths.include?('n'); move 'east'; move 'north'; end",
-      "786": ";e while checkpaths.include?('s'); move 'south'; move 'west'; end"
+      "784": "/rooms/785/wayto/stringproc-784.rb",
+      "786": "/rooms/785/wayto/stringproc-786.rb"
     },
     "timeto": {
       "784": 0.4,
       "786": 0.4
     },
-    "image": "en-whistlers_pass-1639036092.png",
-    "image_coords": [
-      1000,
-      205,
-      1010,
-      215
-    ],
     "tags": [
       "bolmara lichen",
       "cave moss",
@@ -42,6 +36,13 @@
       13016089,
       13016090,
       13016091
+    ],
+    "image": "en-whistlers_pass-1639036092.png",
+    "image_coords": [
+      1000,
+      205,
+      1010,
+      215
     ]
   }
 }

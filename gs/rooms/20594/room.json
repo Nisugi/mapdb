@@ -1,4 +1,5 @@
 {
+  "checksum": "b82bc3c580e8dc60aad0b3add07bc1ca",
   "room": {
     "id": 20594,
     "title": [
@@ -15,7 +16,7 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "7497": ";e multifput 'search', 'go fissure'",
+      "7497": "/rooms/20594/wayto/stringproc-7497.rb",
       "20593": "southwest",
       "20598": "northwest",
       "20620": "northeast",
@@ -28,13 +29,6 @@
       "20620": 0.2,
       "20633": 0.2
     },
-    "image": "wl-burrow_way-1616121316.png",
-    "image_coords": [
-      712,
-      256,
-      749,
-      293
-    ],
     "tags": [
       "blue trafel mushroom",
       "bolmara lichen",
@@ -51,9 +45,16 @@
       "wingstem root",
       "withered mushroom"
     ],
-    "check_location": false,
     "uid": [
       336701
-    ]
+    ],
+    "image": "wl-burrow_way-1616121316.png",
+    "image_coords": [
+      712,
+      256,
+      749,
+      293
+    ],
+    "check_location": false
   }
 }

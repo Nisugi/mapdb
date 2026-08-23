@@ -1,4 +1,5 @@
 {
+  "checksum": "913d35982d89cbc59268d3125c14b8cd",
   "room": {
     "id": 34436,
     "title": [
@@ -12,12 +13,12 @@
     ],
     "location": "Wehnimer's Landing",
     "wayto": {
-      "30708": ";e true",
+      "30708": "/rooms/34436/wayto/stringproc-30708.rb",
       "34435": "west",
       "34437": "go off-white door"
     },
     "timeto": {
-      "30708": ";e Map[7].timeto['30714'].call;",
+      "30708": "/rooms/34436/timeto/stringproc-30708.rb",
       "34435": 0.2,
       "34437": 0.2
     },

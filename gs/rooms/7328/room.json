@@ -1,4 +1,5 @@
 {
+  "checksum": "d2d3f8db6ef7fbb6a0ab60b2e73a0918",
   "room": {
     "id": 7328,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "7327": "northwest",
       "7329": "southwest",
-      "7331": ";e move 'go crevice'"
+      "7331": "/rooms/7328/wayto/stringproc-7331.rb"
     },
     "timeto": {
       "7327": 0.2,
       "7329": 0.2,
       "7331": 0.2
     },
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      1390,
-      615,
-      1400,
-      625
-    ],
     "tags": [
       "longgrass",
       "meta:forage-sensed",
@@ -40,6 +34,13 @@
     ],
     "uid": [
       389035
+    ],
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      1390,
+      615,
+      1400,
+      625
     ]
   }
 }

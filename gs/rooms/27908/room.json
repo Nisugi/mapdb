@@ -1,4 +1,5 @@
 {
+  "checksum": "efdbd16491a579ea80a0a3d0d02e83ed",
   "room": {
     "id": 27908,
     "title": [
@@ -12,7 +13,7 @@
     ],
     "location": "the Lost Home",
     "wayto": {
-      "19257": ";e room = Room.current.id;fput 'go opening'; if ( room == Room.current.id ); fput 'close locker';move 'go opening'; end"
+      "19257": "/rooms/27908/wayto/stringproc-19257.rb"
     },
     "timeto": {
       "19257": 0.2

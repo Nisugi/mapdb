@@ -1,4 +1,5 @@
 {
+  "checksum": "870d977704124928efe527d62da623e9",
   "room": {
     "id": 26002,
     "title": [
@@ -14,23 +15,23 @@
     "climate": "arid, temperate",
     "terrain": "hard, flat",
     "wayto": {
-      "26000": ";e move 'go northwest'"
+      "26000": "/rooms/26002/wayto/stringproc-26000.rb"
     },
     "timeto": {
       "26000": 0.2
     },
+    "tags": [
+      "no forageables"
+    ],
+    "uid": [
+      158102
+    ],
     "image": "en-ta_illistim-isharn_enclave-1648064027.png",
     "image_coords": [
       1071,
       703,
       1367,
       959
-    ],
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      158102
     ]
   }
 }

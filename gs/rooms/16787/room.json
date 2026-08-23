@@ -1,4 +1,5 @@
 {
+  "checksum": "5d5d0a17db11c98cff69a45d4fcae5f4",
   "room": {
     "id": 16787,
     "title": [
@@ -15,24 +16,24 @@
     "climate": "cold, damp",
     "terrain": "hard, flat",
     "wayto": {
-      "16788": ";e fput 'lean table'; move 'go portal'"
+      "16788": "/rooms/16787/wayto/stringproc-16788.rb"
     },
     "timeto": {
       "16788": 0.4
     },
-    "image": "en-skull-1264234799.png",
-    "image_coords": [
-      581,
-      572,
-      591,
-      582
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables"
     ],
     "uid": [
       13300073
+    ],
+    "image": "en-skull-1264234799.png",
+    "image_coords": [
+      581,
+      572,
+      591,
+      582
     ]
   }
 }

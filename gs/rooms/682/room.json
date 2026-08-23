@@ -1,4 +1,5 @@
 {
+  "checksum": "8aad0a4cc278fb1d170b924be7539353",
   "room": {
     "id": 682,
     "title": [
@@ -18,7 +19,7 @@
       "681": "north",
       "683": "southeast",
       "10073": "southwest",
-      "23281": ";e move('go arch');UserVars.mapdb_talondown_origin = 682;",
+      "23281": "/rooms/682/wayto/stringproc-23281.rb",
       "30160": "south"
     },
     "timeto": {
@@ -28,6 +29,13 @@
       "23281": 0.4,
       "30160": 0.2
     },
+    "tags": [
+      "meta:forage-sensed",
+      "no forageables"
+    ],
+    "uid": [
+      13050012
+    ],
     "image": "en-sylvarraend-1264234799.png",
     "image_coords": [
       245,
@@ -35,15 +43,8 @@
       281,
       972
     ],
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables"
-    ],
     "unique_loot": [
       "twisted stone arch"
-    ],
-    "uid": [
-      13050012
     ]
   }
 }

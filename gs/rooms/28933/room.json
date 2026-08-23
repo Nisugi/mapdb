@@ -1,4 +1,5 @@
 {
+  "checksum": "0ebe499f69195901dfce418c8ccc9164",
   "room": {
     "id": 28933,
     "title": [
@@ -15,12 +16,12 @@
     "wayto": {
       "28899": "go flap",
       "28934": "go curtain",
-      "30716": ";e true"
+      "30716": "/rooms/28933/wayto/stringproc-30716.rb"
     },
     "timeto": {
       "28899": 0.2,
       "28934": 0.2,
-      "30716": ";e Map[7].timeto['30714'].call;"
+      "30716": "/rooms/28933/timeto/stringproc-30716.rb"
     },
     "tags": [
       "agave heart",

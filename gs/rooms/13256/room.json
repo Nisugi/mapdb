@@ -1,4 +1,5 @@
 {
+  "checksum": "de4ef09090df3682b637d09f0bf7a77c",
   "room": {
     "id": 13256,
     "title": [
@@ -16,12 +17,12 @@
     "wayto": {
       "13255": "south",
       "13257": "go bar",
-      "24551": ";e table = \"jade\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "24552": ";e table = \"fountain\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "24553": ";e table = \"quilt\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "24554": ";e table = \"oak\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "25492": ";e table = \"stars\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
-      "30714": ";e true"
+      "24551": "/rooms/13256/wayto/stringproc-24551.rb",
+      "24552": "/rooms/13256/wayto/stringproc-24552.rb",
+      "24553": "/rooms/13256/wayto/stringproc-24553.rb",
+      "24554": "/rooms/13256/wayto/stringproc-24554.rb",
+      "25492": "/rooms/13256/wayto/stringproc-25492.rb",
+      "30714": "/rooms/13256/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "13255": 0.2,
@@ -31,15 +32,8 @@
       "24553": 0.2,
       "24554": 0.2,
       "25492": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/13256/timeto/stringproc-30714.rb"
     },
-    "image": "en-ta_illistim_buildings.png",
-    "image_coords": [
-      589,
-      373,
-      644,
-      432
-    ],
     "tags": [
       "no forageables",
       "table",
@@ -49,6 +43,13 @@
     ],
     "uid": [
       13112003
+    ],
+    "image": "en-ta_illistim_buildings.png",
+    "image_coords": [
+      589,
+      373,
+      644,
+      432
     ]
   }
 }

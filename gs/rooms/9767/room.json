@@ -1,4 +1,5 @@
 {
+  "checksum": "ca02a03e3205f9d5e07dba0d39b5c3c8",
   "room": {
     "id": 9767,
     "title": [
@@ -13,25 +14,25 @@
     "location": "Ta'Illistim",
     "wayto": {
       "9746": "west",
-      "9804": ";e \ntouch = [\"gold leaf\",\"red leaf\",\"blighted leaf\",\"outstretched hand\"];\nfail_pattern = /^You shouldn't mess with that while (\\w+) is working on it./;\nsuccess_pattern = /^You touch the/;\nretry_pattern = /^The shimmering leaves on the wall begin to fade, blending once again into the mural.|form is quickly lost in a bright shroud of light as/;\npatterns = Regexp.union(success_pattern,fail_pattern);\nresult = nil;\nuntil success_pattern.match(result);\n  result = dothistimeout \"touch green leaf\", 3, patterns;\n  if fail_pattern.match(result);\n    waitforpc = $1;\n    echo \"waiting for #{waitforpc} to finish\";\n    timeout = Time.now + 15;\n    until (!retry_pattern.match(get) or Time.now > timeout);end;\n  else;\n    echo \"unknown result trying to enter the Labyrinth\";\n    break;\n  end;\nend;\ntouch.each {|t| fput \"touch #{t}\"};\nfput \"recite Listen to the wind in the forest,;That which whispers the words of the lady of the tower.;She of old who is called Maaghara.\";\ntimeout = Time.now + 20;\nwait_while { Room.current.id == 9767 and Time.now < timeout}\n"
+      "9804": "/rooms/9767/wayto/stringproc-9804.rb"
     },
     "timeto": {
       "9746": 0.2,
       "9804": 1.2
     },
-    "image": "en-tower-1264234799.png",
-    "image_coords": [
-      861,
-      464,
-      871,
-      474
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables"
     ],
     "uid": [
       13021022
+    ],
+    "image": "en-tower-1264234799.png",
+    "image_coords": [
+      861,
+      464,
+      871,
+      474
     ]
   }
 }

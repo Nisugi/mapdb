@@ -1,4 +1,5 @@
 {
+  "checksum": "bbaa24f118eb9c59964f132d1278dbf6",
   "room": {
     "id": 11459,
     "title": [
@@ -14,30 +15,30 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "11458": ";e move 'swim up'; waitrt?",
-      "11460": ";e move 'swim west'; waitrt?",
-      "11467": ";e move 'swim northwest'; waitrt?",
-      "11468": ";e move 'swim north'; waitrt?"
+      "11458": "/rooms/11459/wayto/stringproc-11458.rb",
+      "11460": "/rooms/11459/wayto/stringproc-11460.rb",
+      "11467": "/rooms/11459/wayto/stringproc-11467.rb",
+      "11468": "/rooms/11459/wayto/stringproc-11468.rb"
     },
     "timeto": {
-      "11458": 3.0,
-      "11460": 2.0,
-      "11467": 2.0,
-      "11468": 2.0
+      "11458": 3,
+      "11460": 2,
+      "11467": 2,
+      "11468": 2
     },
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      976,
-      1260,
-      986,
-      1270
-    ],
     "tags": [
       "meta:underwater",
       "no forageables"
     ],
     "uid": [
       304218
+    ],
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      976,
+      1260,
+      986,
+      1270
     ]
   }
 }

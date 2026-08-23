@@ -1,4 +1,5 @@
 {
+  "checksum": "1fe73ca1fe73f188ed626a643c9bb059",
   "room": {
     "id": 2260,
     "title": [
@@ -15,20 +16,13 @@
     "climate": "arid",
     "terrain": "hard, flat",
     "wayto": {
-      "1965": ";e waitfor 'The boat arrives at the dock with a soft thunk.'; move 'out'",
-      "2261": ";e waitfor 'You arrive at the stone dock with a soft thunk.'; move 'out'"
+      "1965": "/rooms/2260/wayto/stringproc-1965.rb",
+      "2261": "/rooms/2260/wayto/stringproc-2261.rb"
     },
     "timeto": {
-      "1965": 40.0,
-      "2261": 40.0
+      "1965": 40,
+      "2261": 40
     },
-    "image": "ti-teras-1264234799.png",
-    "image_coords": [
-      867,
-      892,
-      883,
-      908
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2023-01",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       3005013
+    ],
+    "image": "ti-teras-1264234799.png",
+    "image_coords": [
+      867,
+      892,
+      883,
+      908
     ]
   }
 }

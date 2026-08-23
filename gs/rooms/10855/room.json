@@ -1,4 +1,5 @@
 {
+  "checksum": "2829d1fdbd98187b53df713c649b528f",
   "room": {
     "id": 10855,
     "title": [
@@ -16,19 +17,12 @@
     "terrain": "hard, flat",
     "wayto": {
       "10856": "southeast",
-      "30711": ";e true"
+      "30711": "/rooms/10855/wayto/stringproc-30711.rb"
     },
     "timeto": {
       "10856": 0.2,
-      "30711": ";e Map[7].timeto['30714'].call;"
+      "30711": "/rooms/10855/timeto/stringproc-30711.rb"
     },
-    "image": "rr-rivers_rest-1618766733.png",
-    "image_coords": [
-      1776,
-      926,
-      1811,
-      963
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
@@ -41,6 +35,13 @@
     ],
     "uid": [
       2101400
+    ],
+    "image": "rr-rivers_rest-1618766733.png",
+    "image_coords": [
+      1776,
+      926,
+      1811,
+      963
     ]
   }
 }

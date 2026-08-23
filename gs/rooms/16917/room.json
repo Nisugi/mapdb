@@ -1,4 +1,5 @@
 {
+  "checksum": "ba7497f21603f42d30bd5996448398c7",
   "room": {
     "id": 16917,
     "title": [
@@ -16,12 +17,12 @@
     "wayto": {
       "9430": "west",
       "20646": "go doors",
-      "30712": ";e true"
+      "30712": "/rooms/16917/wayto/stringproc-30712.rb"
     },
     "timeto": {
       "9430": 0.2,
-      "20646": ";e ((!defined?(Stats.prof) or Stats.prof == 'Warrior') ? 0.2 : nil);",
-      "30712": ";e Map[7].timeto['30714'].call;"
+      "20646": "/rooms/16917/timeto/stringproc-20646.rb",
+      "30712": "/rooms/16917/timeto/stringproc-30712.rb"
     },
     "tags": [
       "blue trafel mushroom",

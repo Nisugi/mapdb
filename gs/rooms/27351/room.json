@@ -1,4 +1,5 @@
 {
+  "checksum": "af8b4a1522c8fc8207e03a5a3d6ee7ab",
   "room": {
     "id": 27351,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Icemule Trace",
     "wayto": {
       "2471": "go out",
-      "30709": ";e true"
+      "30709": "/rooms/27351/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "2471": 0.2,
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "30709": "/rooms/27351/timeto/stringproc-30709.rb"
     },
     "tags": [
       "collectibles",

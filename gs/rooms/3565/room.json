@@ -1,4 +1,5 @@
 {
+  "checksum": "10c8d2ce93830b6e34193f8385a85a3f",
   "room": {
     "id": 3565,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "deciduous forest",
     "wayto": {
       "3564": "northeast",
-      "3566": ";e group_members = nil; clear.reverse.each { |line| if line =~ /^Obvious (paths|exits)/; break; elsif line =~ /^([A-Za-z ,]+) followed\\.$/; group_members = $1.split(/, | and /); group_members.delete_if { |m| m =~ /^[Yy]our / }; group_members = nil if group_members.empty?; break; end }; move 'go pile'; if group_members; echo \"Waiting for your group... \"; begin; if get =~ /^(You reach out and hold )?([A-z][a-z]+)('s hand| joins your group)\\.$/; group_members.delete $2; end; end while group_members.length > 0; end; waitrt?"
+      "3566": "/rooms/3565/wayto/stringproc-3566.rb"
     },
     "timeto": {
       "3564": 0.2,
       "3566": 0.2
     },
-    "image": "wl-stronghold-1264234799.png",
-    "image_coords": [
-      138,
-      752,
-      148,
-      762
-    ],
     "tags": [
       "acantha leaf",
       "blackberries",
@@ -80,6 +74,13 @@
     ],
     "uid": [
       4291008
+    ],
+    "image": "wl-stronghold-1264234799.png",
+    "image_coords": [
+      138,
+      752,
+      148,
+      762
     ]
   }
 }

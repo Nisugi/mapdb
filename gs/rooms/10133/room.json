@@ -1,4 +1,5 @@
 {
+  "checksum": "29824ccd80a6556868ad6e1da5e974f8",
   "room": {
     "id": 10133,
     "title": [
@@ -14,22 +15,15 @@
     "climate": "saltwater",
     "terrain": "muddy wetlands",
     "wayto": {
-      "10130": ";e move 'go mud'; waitrt?",
+      "10130": "/rooms/10133/wayto/stringproc-10130.rb",
       "10134": "east",
       "10135": "southwest"
     },
     "timeto": {
-      "10130": 5.0,
+      "10130": 5,
       "10134": 0.2,
       "10135": 0.2
     },
-    "image": "en-fearling-1632908688.png",
-    "image_coords": [
-      1161,
-      229,
-      1171,
-      239
-    ],
     "tags": [
       "blades of cordgrass",
       "blue-green marshgrass",
@@ -47,6 +41,13 @@
     ],
     "uid": [
       13038006
+    ],
+    "image": "en-fearling-1632908688.png",
+    "image_coords": [
+      1161,
+      229,
+      1171,
+      239
     ]
   }
 }

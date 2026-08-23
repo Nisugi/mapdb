@@ -1,4 +1,5 @@
 {
+  "checksum": "07794767d5e835f534a5ddeeb1149ca9",
   "room": {
     "id": 4602,
     "title": [
@@ -14,7 +15,7 @@
     "climate": "glacial",
     "terrain": "mountainous",
     "wayto": {
-      "4601": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'down'",
+      "4601": "/rooms/4602/wayto/stringproc-4601.rb",
       "4603": "up",
       "17008": "climb crack"
     },
@@ -23,13 +24,6 @@
       "4603": 0.2,
       "17008": 0.2
     },
-    "image": "en-skull-1264234799.png",
-    "image_coords": [
-      691,
-      291,
-      701,
-      301
-    ],
     "tags": [
       "angelica root",
       "deep purple shockroot",
@@ -46,6 +40,13 @@
     ],
     "uid": [
       13302146
+    ],
+    "image": "en-skull-1264234799.png",
+    "image_coords": [
+      691,
+      291,
+      701,
+      301
     ]
   }
 }

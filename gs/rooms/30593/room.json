@@ -1,4 +1,5 @@
 {
+  "checksum": "c898aafa95fe775cf53517fcde632ab2",
   "room": {
     "id": 30593,
     "title": [
@@ -16,12 +17,12 @@
     "wayto": {
       "5578": "out",
       "30594": "go wooden stable",
-      "30710": ";e true"
+      "30710": "/rooms/30593/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "5578": 0.2,
       "30594": 0.2,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "30710": "/rooms/30593/timeto/stringproc-30710.rb"
     },
     "tags": [
       "acantha leaf",

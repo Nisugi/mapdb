@@ -1,4 +1,5 @@
 {
+  "checksum": "6c2bac0ffc834883ec4d2d31f806a94b",
   "room": {
     "id": 1266,
     "title": [
@@ -13,21 +14,14 @@
     "location": "Kharag 'doth Dzulthu",
     "wayto": {
       "1013": "out",
-      "1261": ";e fput \"buy pass\"\nwaitfor \"You hastily exit the cart\"",
-      "1267": ";e fput \"buy ticket\"\nwaitfor \"You hastily exit the cart\""
+      "1261": "/rooms/1266/wayto/stringproc-1261.rb",
+      "1267": "/rooms/1266/wayto/stringproc-1267.rb"
     },
     "timeto": {
       "1013": 0.2,
-      "1261": ";e if Script.running? 'ego2';nil;else;180.0;end",
-      "1267": 180.0
+      "1261": "/rooms/1266/timeto/stringproc-1261.rb",
+      "1267": 180
     },
-    "image": "en-zul_logoth-1639816187.png",
-    "image_coords": [
-      277,
-      487,
-      287,
-      497
-    ],
     "tags": [
       "meta:forage-sensed",
       "no forageables",
@@ -36,6 +30,13 @@
     ],
     "uid": [
       13004002
+    ],
+    "image": "en-zul_logoth-1639816187.png",
+    "image_coords": [
+      277,
+      487,
+      287,
+      497
     ]
   }
 }

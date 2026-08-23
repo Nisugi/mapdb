@@ -1,4 +1,5 @@
 {
+  "checksum": "cd95b0da5d274ab44eabd0cdf5843f90",
   "room": {
     "id": 2795,
     "title": [
@@ -14,20 +15,13 @@
     "climate": "snowy, arctic",
     "terrain": "mountainous",
     "wayto": {
-      "2768": ";e move 'climb rocks'",
+      "2768": "/rooms/2795/wayto/stringproc-2768.rb",
       "2807": "west"
     },
     "timeto": {
       "2768": 0.2,
       "2807": 0.2
     },
-    "image": "imt-pinefar-1264234799.png",
-    "image_coords": [
-      490,
-      1084,
-      500,
-      1094
-    ],
     "tags": [
       "angelica root",
       "arctic moss",
@@ -70,6 +64,13 @@
     ],
     "uid": [
       4563034
+    ],
+    "image": "imt-pinefar-1264234799.png",
+    "image_coords": [
+      490,
+      1084,
+      500,
+      1094
     ]
   }
 }

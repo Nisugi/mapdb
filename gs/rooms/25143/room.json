@@ -1,4 +1,5 @@
 {
+  "checksum": "6d02eb7d49e5017eb1728d6307149b05",
   "room": {
     "id": 25143,
     "title": [
@@ -12,20 +13,20 @@
     ],
     "location": "the Settlement of Reim",
     "wayto": {
-      "24895": ";e multifput 'go vortex', 'go vortex'"
+      "24895": "/rooms/25143/wayto/stringproc-24895.rb"
     },
     "timeto": {
       "24895": 0.2
     },
+    "uid": [
+      -7105189
+    ],
     "image": "imt-Reim-1260914759.png",
     "image_coords": [
       374,
       111,
       386,
       122
-    ],
-    "uid": [
-      -7105189
     ]
   }
 }

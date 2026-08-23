@@ -1,4 +1,5 @@
 {
+  "checksum": "6c35e2a4e3d473cd79d25e040238c8d0",
   "room": {
     "id": 32674,
     "title": [
@@ -13,11 +14,11 @@
     "location": "Ta'Illistim",
     "wayto": {
       "678": "out",
-      "30714": ";e true"
+      "30714": "/rooms/32674/wayto/stringproc-30714.rb"
     },
     "timeto": {
       "678": 0.2,
-      "30714": ";e Map[7].timeto['30714'].call;"
+      "30714": "/rooms/32674/timeto/stringproc-30714.rb"
     },
     "tags": [
       "grocer",

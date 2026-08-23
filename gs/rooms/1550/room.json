@@ -1,4 +1,5 @@
 {
+  "checksum": "9de28826e032940369ae05db01cdaf00",
   "room": {
     "id": 1550,
     "title": [
@@ -19,21 +20,14 @@
       "1546": "east",
       "18928": "go gate",
       "22350": "go portal",
-      "30710": ";e true"
+      "30710": "/rooms/1550/wayto/stringproc-30710.rb"
     },
     "timeto": {
       "1546": 0.2,
-      "18928": ";e Stats.prof == 'Sorcerer' ? 0.2 : nil",
-      "22350": 5.0,
-      "30710": ";e Map[7].timeto['30714'].call;"
+      "18928": "/rooms/1550/timeto/stringproc-18928.rb",
+      "22350": 5,
+      "30710": "/rooms/1550/timeto/stringproc-30710.rb"
     },
-    "image": "vo-solhaven-1675635404.png",
-    "image_coords": [
-      515,
-      1207,
-      537,
-      1229
-    ],
     "tags": [
       "no forageables",
       "sorcerer guild",
@@ -43,6 +37,13 @@
     ],
     "uid": [
       664001
+    ],
+    "image": "vo-solhaven-1675635404.png",
+    "image_coords": [
+      515,
+      1207,
+      537,
+      1229
     ]
   }
 }

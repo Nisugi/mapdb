@@ -1,4 +1,5 @@
 {
+  "checksum": "e985bdb33c9b8670b9a39504a69e7a40",
   "room": {
     "id": 7983,
     "title": [
@@ -17,7 +18,7 @@
     "terrain": "cultivated",
     "wayto": {
       "284": "go cobblestone walkway",
-      "7984": ";e fput 'unhide' if checkspell(916); move 'go gate'",
+      "7984": "/rooms/7983/wayto/stringproc-7984.rb",
       "8752": "go riverstone path"
     },
     "timeto": {
@@ -25,13 +26,6 @@
       "7984": 0.4,
       "8752": 0.2
     },
-    "image": "wl-house_paupers.jpg",
-    "image_coords": [
-      129,
-      185,
-      215,
-      235
-    ],
     "tags": [
       "angelica root",
       "aubergine hellebore",
@@ -172,6 +166,13 @@
     ],
     "uid": [
       104900
+    ],
+    "image": "wl-house_paupers.jpg",
+    "image_coords": [
+      129,
+      185,
+      215,
+      235
     ]
   }
 }

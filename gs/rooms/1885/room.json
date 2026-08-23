@@ -1,4 +1,5 @@
 {
+  "checksum": "7958df2c557a697d74c3cc321d4b475e",
   "room": {
     "id": 1885,
     "title": [
@@ -14,12 +15,12 @@
     "wayto": {
       "1884": "go archway",
       "12983": "go door",
-      "30715": ";e true"
+      "30715": "/rooms/1885/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "1884": 0.2,
       "12983": 0.2,
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "30715": "/rooms/1885/timeto/stringproc-30715.rb"
     },
     "tags": [
       "meta:trashcan:slightly charred wooden barrel",

@@ -1,4 +1,5 @@
 {
+  "checksum": "3ee961fe4ac292ba0e0d1355f01d3e5b",
   "room": {
     "id": 7157,
     "title": [
@@ -21,15 +22,8 @@
     "timeto": {
       "7156": 0.2,
       "7161": 0.2,
-      "36342": ";e if (UserVars.mapdb_black_swan == true) or (UserVars.mapdb_black_swan == 'yes'); 0.2; else; nil; end"
+      "36342": "/rooms/7157/timeto/stringproc-36342.rb"
     },
-    "image": "wl-trollfang-1264234799.png",
-    "image_coords": [
-      1060,
-      402,
-      1070,
-      412
-    ],
     "tags": [
       "acantha leaf",
       "blackberries",
@@ -102,6 +96,13 @@
     ],
     "uid": [
       15017
+    ],
+    "image": "wl-trollfang-1264234799.png",
+    "image_coords": [
+      1060,
+      402,
+      1070,
+      412
     ]
   }
 }

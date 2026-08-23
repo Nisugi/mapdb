@@ -1,4 +1,5 @@
 {
+  "checksum": "d36c61a91e1b1a3e8a97590e9156a1a4",
   "room": {
     "id": 1986,
     "title": [
@@ -17,20 +18,13 @@
     "wayto": {
       "1985": "south",
       "17253": "go doors",
-      "30715": ";e true"
+      "30715": "/rooms/1986/wayto/stringproc-30715.rb"
     },
     "timeto": {
       "1985": 0.2,
-      "17253": ";e Stats.prof == 'Warrior' ? 0.2 : nil",
-      "30715": ";e Map[7].timeto['30714'].call;"
+      "17253": "/rooms/1986/timeto/stringproc-17253.rb",
+      "30715": "/rooms/1986/timeto/stringproc-30715.rb"
     },
-    "image": "ti-teras-1264234799.png",
-    "image_coords": [
-      468,
-      39,
-      504,
-      75
-    ],
     "tags": [
       "meta:forage-sensed",
       "meta:forage-sensed:day:2023-01",
@@ -42,6 +36,13 @@
     ],
     "uid": [
       252001
+    ],
+    "image": "ti-teras-1264234799.png",
+    "image_coords": [
+      468,
+      39,
+      504,
+      75
     ]
   }
 }

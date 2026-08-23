@@ -1,4 +1,5 @@
 {
+  "checksum": "eb4aac11534874729d9a6ccc6fdd7e10",
   "room": {
     "id": 24109,
     "title": [
@@ -15,7 +16,7 @@
       "24108": "go stone stairwell",
       "24110": "southeast",
       "24111": "southwest",
-      "24113": ";e fput \"get my rattlesnake\";fput \"put my rattlesnake in stone door\";move \"go stone door\""
+      "24113": "/rooms/24109/wayto/stringproc-24113.rb"
     },
     "timeto": {
       "24108": 0.2,

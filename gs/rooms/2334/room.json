@@ -1,4 +1,5 @@
 {
+  "checksum": "80c567001ed69dda1283f751adbf05cc",
   "room": {
     "id": 2334,
     "title": [
@@ -15,21 +16,14 @@
       "2332": "out",
       "2335": "east",
       "2355": "down",
-      "30709": ";e true"
+      "30709": "/rooms/2334/wayto/stringproc-30709.rb"
     },
     "timeto": {
       "2332": 0.2,
       "2335": 0.2,
       "2355": 0.2,
-      "30709": ";e Map[7].timeto['30714'].call;"
+      "30709": "/rooms/2334/timeto/stringproc-30709.rb"
     },
-    "image": "imt-temple-1512640476.png",
-    "image_coords": [
-      500,
-      732,
-      627,
-      786
-    ],
     "tags": [
       "meta:mapcategory:Icemule Trace",
       "meta:mapname:Icemule Trace - Temple",
@@ -41,6 +35,13 @@
     ],
     "uid": [
       4047001
+    ],
+    "image": "imt-temple-1512640476.png",
+    "image_coords": [
+      500,
+      732,
+      627,
+      786
     ]
   }
 }

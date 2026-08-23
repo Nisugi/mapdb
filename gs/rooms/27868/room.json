@@ -1,4 +1,5 @@
 {
+  "checksum": "9b1aebc050b2bd1d9cb70493fceaa1e6",
   "room": {
     "id": 27868,
     "title": [
@@ -12,10 +13,10 @@
     ],
     "location": "Keh'nira Fyr'sah",
     "wayto": {
-      "27865": ";e door='heavy door';key=GameObj.inv.find{|k| k.name=='cord-strung delicate brass key';};if !key.nil? then multifput \"remove ##{key.id}\",  \"unlock #{door}\", \"open #{door}\", \"go #{door}\", \"close #{door}\", \"lock #{door}\", \"wear ##{key.id}\"; end;"
+      "27865": "/rooms/27868/wayto/stringproc-27865.rb"
     },
     "timeto": {
-      "27865": ";e key=GameObj.inv.find{|k| k.name=='cord-strung delicate brass key';};if !key.nil? then 5 else nil end;"
+      "27865": "/rooms/27868/timeto/stringproc-27865.rb"
     },
     "tags": [
       "private property"

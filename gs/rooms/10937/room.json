@@ -1,4 +1,5 @@
 {
+  "checksum": "f052767b2f76ef8a4e88a74636b6fe84",
   "room": {
     "id": 10937,
     "title": [
@@ -14,12 +15,12 @@
     "wayto": {
       "10846": "out",
       "10938": "west",
-      "30711": ";e true"
+      "30711": "/rooms/10937/wayto/stringproc-30711.rb"
     },
     "timeto": {
       "10846": 0.2,
       "10938": 0.2,
-      "30711": ";e Map[7].timeto['30714'].call;"
+      "30711": "/rooms/10937/timeto/stringproc-30711.rb"
     },
     "tags": [
       "armorshop",

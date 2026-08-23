@@ -1,4 +1,5 @@
 {
+  "checksum": "a9b962c06d2d2d8dd03bc28666362f8e",
   "room": {
     "id": 24729,
     "title": [
@@ -15,19 +16,12 @@
     "terrain": "deciduous forest",
     "wayto": {
       "24727": "south",
-      "24730": ";e result = nil;until result =~ /Obvious paths: east, southwest/;fput \"stand\" until standing?;result = dothistimeout \"go fog\", 5, /You attempt to navigate your way through the fog, but get turned around and come right back out where you started!|Obvious paths: east, southwest/;if result =~ /You attempt to navigate your way through the fog, but get turned around and come right back out where you started!/;sleep 0.5;waitrt?;end;end"
+      "24730": "/rooms/24729/wayto/stringproc-24730.rb"
     },
     "timeto": {
       "24727": 0.2,
       "24730": 0.2
     },
-    "image": "red_forest-1260914757.png",
-    "image_coords": [
-      269,
-      472,
-      283,
-      485
-    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -77,6 +71,13 @@
     "uid": [
       480245,
       17006245
+    ],
+    "image": "red_forest-1260914757.png",
+    "image_coords": [
+      269,
+      472,
+      283,
+      485
     ]
   }
 }

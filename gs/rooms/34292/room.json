@@ -1,4 +1,5 @@
 {
+  "checksum": "f4b47ee524c79132934d368437338927",
   "room": {
     "id": 34292,
     "title": [
@@ -16,20 +17,13 @@
     "wayto": {
       "34291": "down",
       "34293": "climb ledge",
-      "34313": ";e fput 'search'; waitrt?; move 'go gap'"
+      "34313": "/rooms/34292/wayto/stringproc-34313.rb"
     },
     "timeto": {
       "34291": 0.2,
       "34293": 0.2,
       "34313": 3.2
     },
-    "image": "en-zul_logoth-storm_peaks-1703220375.png",
-    "image_coords": [
-      434,
-      60,
-      451,
-      76
-    ],
     "tags": [
       "acantha leaf",
       "alpine violet",
@@ -67,6 +61,13 @@
     ],
     "uid": [
       13150204
+    ],
+    "image": "en-zul_logoth-storm_peaks-1703220375.png",
+    "image_coords": [
+      434,
+      60,
+      451,
+      76
     ]
   }
 }
