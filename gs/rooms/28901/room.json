@@ -1,5 +1,4 @@
 {
-  "checksum": "ca2ed8714a3b86840beeabc1c793302f",
   "room": {
     "id": 28901,
     "title": [
@@ -28,6 +27,13 @@
       "28906": 0.2,
       "29031": 0.2
     },
+    "image": "kf-krakens_fall-1648278406.png",
+    "image_coords": [
+      537,
+      440,
+      551,
+      452
+    ],
     "tags": [
       "alpine violet",
       "ambrominas leaf",
@@ -74,6 +80,7 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "monkey grass",
       "motherwort",
       "murdroot",
@@ -147,13 +154,6 @@
     ],
     "uid": [
       7118233
-    ],
-    "image": "kf-krakens_fall-1648278406.png",
-    "image_coords": [
-      537,
-      440,
-      551,
-      452
     ]
   }
 }

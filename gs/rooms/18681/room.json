@@ -1,5 +1,4 @@
 {
-  "checksum": "35fd432c4428a067e60dc63e4d8d9885",
   "room": {
     "id": 18681,
     "title": [
@@ -24,19 +23,23 @@
       "17193": 0.2,
       "18720": 0.2
     },
-    "tags": [
-      "meta:premium",
-      "no forageables"
-    ],
-    "uid": [
-      4002702
-    ],
     "image": "premium_halls-1489980086.png",
     "image_coords": [
       2521,
       2250,
       2648,
       2305
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:premium",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      4002702
     ]
   }
 }

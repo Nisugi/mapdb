@@ -1,5 +1,4 @@
 {
-  "checksum": "bdddb3f0859ace1cdc5348d6deba7b0d",
   "room": {
     "id": 20588,
     "title": [
@@ -15,7 +14,7 @@
     "wayto": {
       "283": "out",
       "20589": "north",
-      "20590": "/rooms/20588/wayto/stringproc-20590.rb",
+      "20590": ";e multifput 'search', 'go trapdoor'",
       "30360": "south"
     },
     "timeto": {
@@ -25,10 +24,10 @@
       "30360": 0.2
     },
     "tags": [
+      "fire lily",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "meta:teleport:fwi",
-      "no forageables"
+      "meta:forage-sensed:night:2026-08",
+      "meta:teleport:fwi"
     ],
     "uid": [
       3014

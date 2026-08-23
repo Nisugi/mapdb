@@ -1,5 +1,4 @@
 {
-  "checksum": "15c2dc024f4a20352e94c83268807038",
   "room": {
     "id": 5883,
     "title": [
@@ -16,19 +15,21 @@
     "wayto": {
       "5952": "out",
       "13779": "go staircase",
-      "30713": "/rooms/5883/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "5952": 0.2,
       "13779": 0.2,
-      "30713": "/rooms/5883/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "chronomage",
       "meta:forage-sensed",
-      "no forageables",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells",
       "urchin guide chronomages",
-      "urchin-access"
+      "urchin-access",
+      "wild sage"
     ],
     "uid": [
       14004100

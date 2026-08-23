@@ -1,5 +1,4 @@
 {
-  "checksum": "253aef88cbbd6df1f9f3140fa4c60066",
   "room": {
     "id": 297,
     "title": [
@@ -17,29 +16,30 @@
     "wayto": {
       "288": "north",
       "296": "south",
-      "22349": "/rooms/297/wayto/stringproc-22349.rb"
+      "22349": ";e multifput 'search', 'go alleyway'"
     },
     "timeto": {
       "288": 0.2,
       "296": 0.2,
       "22349": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09",
-      "meta:forage-sensed:night:2023-01",
-      "meta:teleport:fwi",
-      "no forageables"
-    ],
-    "uid": [
-      7356
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       197,
       992,
       234,
       1028
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2026-08",
+      "meta:teleport:fwi",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      7356
     ]
   }
 }

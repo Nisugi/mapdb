@@ -1,5 +1,4 @@
 {
-  "checksum": "da955049e0d4f8805a4e85b6e152dd37",
   "room": {
     "id": 8194,
     "title": [
@@ -23,6 +22,13 @@
       "8192": 0.2,
       "8195": 0.2
     },
+    "image": "wl-mineroad-1264234799.png",
+    "image_coords": [
+      409,
+      79,
+      419,
+      89
+    ],
     "tags": [
       "black mushroom",
       "blue trafel mushroom",
@@ -31,6 +37,7 @@
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "red mushroom",
       "soft mushroom",
@@ -40,13 +47,6 @@
     ],
     "uid": [
       391001
-    ],
-    "image": "wl-mineroad-1264234799.png",
-    "image_coords": [
-      409,
-      79,
-      419,
-      89
     ]
   }
 }

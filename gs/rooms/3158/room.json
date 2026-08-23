@@ -1,5 +1,4 @@
 {
-  "checksum": "75cd42d8f4aa9d58fba94a56599c5274",
   "room": {
     "id": 3158,
     "title": [
@@ -17,13 +16,20 @@
     "wayto": {
       "3157": "east",
       "3159": "northwest",
-      "23281": "/rooms/3158/wayto/stringproc-23281.rb"
+      "23281": ";e move('go portal');UserVars.mapdb_talondown_origin = 3158;"
     },
     "timeto": {
       "3157": 0.2,
       "3159": 0.2,
       "23281": 0.4
     },
+    "image": "imt-south_gate-1647231707.png",
+    "image_coords": [
+      101,
+      655,
+      111,
+      665
+    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -37,43 +43,38 @@
       "ironfern root",
       "lingonberry",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:day:2026-08",
       "orange rowanberry",
       "pale thornberry",
       "pennyroyal stem",
       "pine cone",
       "pine needles",
+      "pine twig",
       "red winterberry",
+      "resting poppy",
       "rockberry",
       "sassafras leaf",
+      "silver iceblossom",
       "slender twig",
       "small loganberry",
       "snow lily",
       "snowberries",
-      "some bolmara lichen",
-      "some frostweed",
-      "some pine needles",
-      "some tree bark",
-      "stick",
+      "spruce twig",
       "sticks",
       "sunburst blossom",
       "sweetfern stalk",
+      "thorny wintersbite",
       "tkaro root",
       "tree bark",
       "twisted twig",
       "valerian root",
+      "white crallisberry",
       "winter rose",
+      "wintercrisp apple",
       "wintergreen leaf"
     ],
     "uid": [
       4160003
-    ],
-    "image": "imt-south_gate-1647231707.png",
-    "image_coords": [
-      101,
-      655,
-      111,
-      665
     ]
   }
 }

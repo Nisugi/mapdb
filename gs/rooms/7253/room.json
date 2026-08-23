@@ -1,5 +1,4 @@
 {
-  "checksum": "67cd59630cdc2509b1d6854887182121",
   "room": {
     "id": 7253,
     "title": [
@@ -22,14 +21,22 @@
       "7251": 0.2,
       "7254": 0.2
     },
+    "image": "wl-graveyard-1264234799.png",
+    "image_coords": [
+      161,
+      586,
+      171,
+      596
+    ],
     "tags": [
       "blue whortleberry",
       "broken twig",
+      "fire lily",
       "golden mushroom",
       "greater spider",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2024-01",
+      "meta:forage-sensed:night:2026-08",
       "murkweed",
       "spotted heart mushroom",
       "sunburst blossom",
@@ -38,13 +45,6 @@
     ],
     "uid": [
       2162017
-    ],
-    "image": "wl-graveyard-1264234799.png",
-    "image_coords": [
-      161,
-      586,
-      171,
-      596
     ]
   }
 }

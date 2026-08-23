@@ -1,5 +1,4 @@
 {
-  "checksum": "aafe3dd2e45a1ed1349efdeff6283e3e",
   "room": {
     "id": 19954,
     "title": [
@@ -20,20 +19,21 @@
       "19952": 0.2,
       "19955": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      28125
-    ],
     "image": "wl-museum-1487435869.png",
     "image_coords": [
       863,
       752,
       1003,
       815
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      28125
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "eaf59835824b5e1cf994a8da89b2cd6e",
   "room": {
     "id": 34496,
     "title": [
@@ -22,29 +21,31 @@
       "34495": 0.2,
       "34497": 0.2
     },
-    "tags": [
-      "stalk of chicory",
-      "broken twig",
-      "heath aster",
-      "yellow primrose",
-      "small wild rose",
-      "cactus flower",
-      "pepperthorn root",
-      "banana leaf",
-      "ghost pepper",
-      "hot pepper",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2025-02"
-    ],
-    "uid": [
-      474220
-    ],
     "image": "wl-darkstone-1717380773.png",
     "image_coords": [
       109,
       198,
       120,
       210
+    ],
+    "tags": [
+      "banana leaf",
+      "broken twig",
+      "cactus flower",
+      "ghost pepper",
+      "heath aster",
+      "hot pepper",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2025-02",
+      "meta:forage-sensed:night:2026-08",
+      "moonlight cactus-bloom",
+      "pepperthorn root",
+      "stalk of chicory",
+      "wild rose",
+      "yellow primrose"
+    ],
+    "uid": [
+      474220
     ]
   }
 }

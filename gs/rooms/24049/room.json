@@ -1,5 +1,4 @@
 {
-  "checksum": "ee7884f017a13a1b2a58eb44d4200fa9",
   "room": {
     "id": 24049,
     "title": [
@@ -20,21 +19,22 @@
     "timeto": {
       "24048": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "meta:mho:Faendryl Enclave"
-    ],
-    "uid": [
-      18048010
-    ],
     "image": "wl-faendrylenclave.png",
     "image_coords": [
       176,
       101,
       215,
       139
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:forage-sensed:night:2022-11",
+      "meta:mho:Faendryl Enclave",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      18048010
     ]
   }
 }

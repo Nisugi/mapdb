@@ -1,5 +1,4 @@
 {
-  "checksum": "532256ebbb29c0d5631f3d8a0e3e6ef9",
   "room": {
     "id": 13072,
     "title": [
@@ -18,20 +17,21 @@
     "timeto": {
       "3616": 0.2
     },
-    "tags": [
-      "sunfist",
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      560009
-    ],
     "image": "wl-gates-1264234799.png",
     "image_coords": [
       400,
       366,
       410,
       376
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells",
+      "sunfist"
+    ],
+    "uid": [
+      560009
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "177c93a2ff553f78741fc7894246f531",
   "room": {
     "id": 6431,
     "title": [
@@ -18,20 +17,21 @@
     "timeto": {
       "6428": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      93065
-    ],
     "image": "wl-lysierian-1264234799.png",
     "image_coords": [
       947,
       136,
       957,
       146
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      93065
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "6c35e2a4e3d473cd79d25e040238c8d0",
   "room": {
     "id": 32674,
     "title": [
@@ -14,15 +13,17 @@
     "location": "Ta'Illistim",
     "wayto": {
       "678": "out",
-      "30714": "/rooms/32674/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "678": 0.2,
-      "30714": "/rooms/32674/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "fire lily",
       "grocer",
-      "no forageables",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "urchin guide grocer",
       "urchin-access"
     ],

@@ -1,5 +1,4 @@
 {
-  "checksum": "ca682828c32bd7ba7fc4795e65e56e7c",
   "room": {
     "id": 11594,
     "title": [
@@ -16,12 +15,19 @@
     "terrain": "grassland",
     "wayto": {
       "11543": "out",
-      "11595": "/rooms/11594/wayto/stringproc-11595.rb"
+      "11595": ";e fput 'search'\nmove 'go doorway'"
     },
     "timeto": {
       "11543": 0.2,
       "11595": 0.2
     },
+    "image": "rr-maelstrom-1619824696.png",
+    "image_coords": [
+      334,
+      761,
+      344,
+      771
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -69,7 +75,7 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2026-01",
+      "meta:forage-sensed:night:2026-08",
       "mistweed",
       "motherwort",
       "murdroot",
@@ -132,13 +138,6 @@
     ],
     "uid": [
       420027
-    ],
-    "image": "rr-maelstrom-1619824696.png",
-    "image_coords": [
-      334,
-      761,
-      344,
-      771
     ]
   }
 }

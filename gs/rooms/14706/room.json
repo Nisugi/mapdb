@@ -1,5 +1,4 @@
 {
-  "checksum": "c689174ce1a2c0fe5a5574bcc565a997",
   "room": {
     "id": 14706,
     "title": [
@@ -25,10 +24,10 @@
     "climate": "hot, damp",
     "terrain": "tropical",
     "wayto": {
-      "12568": "/rooms/14706/wayto/stringproc-12568.rb"
+      "12568": ";e move 'south' until Room.current.id == 12568"
     },
     "timeto": {
-      "12568": 3
+      "12568": 3.0
     },
     "tags": [
       "acantha leaf",
@@ -58,9 +57,11 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "mistwood twig",
       "mulberry fronds",
       "murdroot",
+      "nightbloom blossom",
       "nutmeg",
       "orange heliconia",
       "orange-yellow starfruit",

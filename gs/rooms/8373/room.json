@@ -1,5 +1,4 @@
 {
-  "checksum": "c4cd0aa8074780182f1a161722274bb7",
   "room": {
     "id": 8373,
     "title": [
@@ -16,12 +15,19 @@
     "terrain": "none",
     "wayto": {
       "8372": "down",
-      "8374": "/rooms/8373/wayto/stringproc-8374.rb"
+      "8374": ";e \nwedge_list = { 'northern' => 'a large thick torus surrounded by nine tiny circles', 'eastern' => 'two crossed upside-down hammers circumscribed by a rounded arc', 'western' => 'a jagged triangular arch bisected by a vertical line', 'southern' => 'three pairs of obliquely intersecting parallel lines' }\n\n wedge_list.each_pair { |direction,position|\n\t loop {\n\t\twedge_look = dothis \"look #{direction} wedge\", /^The stone ring's #{direction} wedge is currently pointed at a sigil of (three pairs of obliquely intersecting parallel lines|two crossed upside-down hammers circumscribed by a rounded arc|a jagged triangular arch bisected by a vertical line|a large thick torus surrounded by nine tiny circles)\\./\n\t\tbreak if wedge_look =~ /#{position}/\n\t\tfput 'turn ring'\n\t }\n\t fput \"push #{direction} wedge\"\n }\n "
     },
     "timeto": {
       "8372": 0.2,
       "8374": 0.2
     },
+    "image": "wl-stronghold-1264234799.png",
+    "image_coords": [
+      740,
+      250,
+      750,
+      260
+    ],
     "tags": [
       "ironfern root",
       "meta:forage-sensed",
@@ -29,13 +35,6 @@
     ],
     "uid": [
       4292042
-    ],
-    "image": "wl-stronghold-1264234799.png",
-    "image_coords": [
-      740,
-      250,
-      750,
-      260
     ]
   }
 }

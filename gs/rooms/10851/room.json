@@ -1,5 +1,4 @@
 {
-  "checksum": "a8952ea7374675a628cc2aa2fd7ba209",
   "room": {
     "id": 10851,
     "title": [
@@ -28,20 +27,22 @@
       "10952": 0.2,
       "10955": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      2101015
-    ],
     "image": "rr-rivers_rest-1618766733.png",
     "image_coords": [
       2688,
       1084,
       2725,
       1121
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      2101015
     ]
   }
 }

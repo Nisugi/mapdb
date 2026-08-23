@@ -1,5 +1,4 @@
 {
-  "checksum": "c39d635f4956ff65147e590769086318",
   "room": {
     "id": 9996,
     "title": [
@@ -23,6 +22,13 @@
       "9992": 0.2,
       "9997": 0.2
     },
+    "image": "en-sylvarraend-1264234799.png",
+    "image_coords": [
+      1234,
+      691,
+      1244,
+      701
+    ],
     "tags": [
       "acantha leaf",
       "black peppercorn",
@@ -33,7 +39,7 @@
       "cumin seeds",
       "juniper berry",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
       "motherwort",
       "murdroot",
@@ -53,13 +59,6 @@
     ],
     "uid": [
       13036107
-    ],
-    "image": "en-sylvarraend-1264234799.png",
-    "image_coords": [
-      1234,
-      691,
-      1244,
-      701
     ]
   }
 }

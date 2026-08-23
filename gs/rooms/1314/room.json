@@ -1,5 +1,4 @@
 {
-  "checksum": "2be13323455d25385acd4ee29538718e",
   "room": {
     "id": 1314,
     "title": [
@@ -20,10 +19,17 @@
       "13980": "go grasses"
     },
     "timeto": {
-      "1313": 15,
+      "1313": 15.0,
       "1315": 0.2,
       "13980": 0.2
     },
+    "image": "vo-trail-1264234799.png",
+    "image_coords": [
+      416,
+      530,
+      426,
+      540
+    ],
     "tags": [
       "acantha leaf",
       "bright red cranberry",
@@ -34,7 +40,7 @@
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2024-11",
+      "meta:forage-sensed:night:2026-08",
       "stalk of bluebells",
       "stalk of cattail",
       "sunburst blossom",
@@ -45,13 +51,6 @@
     ],
     "uid": [
       2131014
-    ],
-    "image": "vo-trail-1264234799.png",
-    "image_coords": [
-      416,
-      530,
-      426,
-      540
     ]
   }
 }

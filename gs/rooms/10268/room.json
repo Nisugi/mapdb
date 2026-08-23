@@ -1,5 +1,4 @@
 {
-  "checksum": "43b275db527acd9be97154d382395736",
   "room": {
     "id": 10268,
     "title": [
@@ -18,20 +17,22 @@
     "timeto": {
       "10267": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-09"
-    ],
-    "uid": [
-      14012004
-    ],
     "image": "en-fearling-1632908688.png",
     "image_coords": [
       507,
       1000,
       517,
       1010
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:forage-sensed:night:2022-09",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      14012004
     ]
   }
 }

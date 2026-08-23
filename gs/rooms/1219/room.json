@@ -1,5 +1,4 @@
 {
-  "checksum": "6fd5c8996190d9a0038c180cf9ea65f1",
   "room": {
     "id": 1219,
     "title": [
@@ -17,12 +16,19 @@
     "terrain": "grassland",
     "wayto": {
       "1218": "southwest",
-      "1220": "/rooms/1219/wayto/stringproc-1220.rb"
+      "1220": ";e begin; fput 'search'; search_result = waitfor \"don't find anything\", \"discover a northwest path\", \"Roundtime\", \"Round time\"; waitrt?; end until search_result =~ /discover a northwest path/; move 'go path'"
     },
     "timeto": {
       "1218": 0.2,
       "1220": 0.2
     },
+    "image": "en-trail-1264234799.png",
+    "image_coords": [
+      188,
+      894,
+      198,
+      904
+    ],
     "tags": [
       "acantha leaf",
       "ambrominas leaf",
@@ -63,7 +69,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2023-02",
+      "meta:forage-sensed:night:2026-08",
       "monkey grass",
       "motherwort",
       "murdroot",
@@ -86,6 +92,7 @@
       "rose-marrow root",
       "round grumbleberry",
       "round yuzu",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small apple",
@@ -112,9 +119,10 @@
       "sun-wilted tea leaves",
       "sunburst blossom",
       "sweet onion",
+      "thistle seeds",
       "tobacco leaves",
       "traesharm berry",
-      "trollfear mushroom",
+      "trollear mushroom",
       "wavepetal blossom",
       "wheat grass",
       "white clover blossom",
@@ -138,13 +146,6 @@
     ],
     "uid": [
       2190001
-    ],
-    "image": "en-trail-1264234799.png",
-    "image_coords": [
-      188,
-      894,
-      198,
-      904
     ]
   }
 }

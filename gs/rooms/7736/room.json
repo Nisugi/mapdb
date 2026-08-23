@@ -1,5 +1,4 @@
 {
-  "checksum": "adbf319c32e0e122cdf48123aa926258",
   "room": {
     "id": 7736,
     "title": [
@@ -24,6 +23,13 @@
       "7737": 0.2,
       "7742": 0.2
     },
+    "image": "wl-coastal_cliffs-1264234799.png",
+    "image_coords": [
+      947,
+      1100,
+      957,
+      1110
+    ],
     "tags": [
       "bur-clover root",
       "cave moss",
@@ -31,6 +37,7 @@
       "hot pepper",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "pepperthorn root",
       "pothinir grass",
@@ -40,13 +47,6 @@
     ],
     "uid": [
       4381003
-    ],
-    "image": "wl-coastal_cliffs-1264234799.png",
-    "image_coords": [
-      947,
-      1100,
-      957,
-      1110
     ]
   }
 }

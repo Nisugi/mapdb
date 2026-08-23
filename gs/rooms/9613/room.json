@@ -1,5 +1,4 @@
 {
-  "checksum": "774389930bafd31616682a3bdb323bee",
   "room": {
     "id": 9613,
     "title": [
@@ -22,19 +21,20 @@
       "9614": 0.2,
       "9615": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      13002201
-    ],
     "image": "en-zul_logoth-1639816187.png",
     "image_coords": [
       41,
       460,
       51,
       470
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      13002201
     ]
   }
 }

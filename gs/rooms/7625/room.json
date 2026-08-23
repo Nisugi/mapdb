@@ -1,5 +1,4 @@
 {
-  "checksum": "ea3fd440e9c52056c5804e7eecd8efd7",
   "room": {
     "id": 7625,
     "title": [
@@ -17,7 +16,7 @@
     "wayto": {
       "7623": "east",
       "7626": "west",
-      "20619": "/rooms/7625/wayto/stringproc-20619.rb",
+      "20619": ";e multifput 'search', 'go gap'",
       "32568": "go bay"
     },
     "timeto": {
@@ -26,6 +25,13 @@
       "20619": 0.2,
       "32568": 0.2
     },
+    "image": "wl-coastal_cliffs-1264234799.png",
+    "image_coords": [
+      115,
+      529,
+      125,
+      539
+    ],
     "tags": [
       "greater kappa",
       "meta:forage-sensed",
@@ -37,13 +43,6 @@
     ],
     "uid": [
       85007
-    ],
-    "image": "wl-coastal_cliffs-1264234799.png",
-    "image_coords": [
-      115,
-      529,
-      125,
-      539
     ]
   }
 }

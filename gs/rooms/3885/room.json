@@ -1,5 +1,4 @@
 {
-  "checksum": "a53ec846676e0ac779d2cb82de9900bd",
   "room": {
     "id": 3885,
     "title": [
@@ -22,20 +21,22 @@
       "308": 0.2,
       "3886": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      77001
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       970,
       965,
       1006,
       1001
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      77001
     ]
   }
 }

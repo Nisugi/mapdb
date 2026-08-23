@@ -1,5 +1,4 @@
 {
-  "checksum": "cde69108d269db38827152e3b96a4236",
   "room": {
     "id": 9328,
     "title": [
@@ -22,19 +21,20 @@
       "9327": 0.2,
       "9329": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      4748102
-    ],
     "image": "vo-trail-1264234799.png",
     "image_coords": [
       441,
       765,
       451,
       775
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      4748102
     ]
   }
 }

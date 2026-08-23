@@ -1,5 +1,4 @@
 {
-  "checksum": "d519a8a6658eb79bd828d89a8014a0aa",
   "room": {
     "id": 25865,
     "title": [
@@ -18,15 +17,20 @@
     "timeto": {
       "19586": 0.2
     },
-    "uid": [
-      201035
-    ],
     "image": "ebonstone_manor-1485361515.png",
     "image_coords": [
       303,
       259,
       371,
       304
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      201035
     ]
   }
 }

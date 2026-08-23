@@ -1,5 +1,4 @@
 {
-  "checksum": "1dc8b2cbb800a9e1b6f4e82bb07dc595",
   "room": {
     "id": 1232,
     "title": [
@@ -15,13 +14,20 @@
     "climate": "hot, damp",
     "terrain": "deciduous forest",
     "wayto": {
-      "1231": "/rooms/1232/wayto/stringproc-1231.rb",
+      "1231": ";e \nbegin; \n  search_result = dothistimeout 'search', 5, /don't find anything|discover.*?crack|Round ?tim/; \n  waitrt?; \nend until search_result =~ /discover/; \nmove('go crack')\n",
       "1233": "north"
     },
     "timeto": {
-      "1231": 10,
+      "1231": 10.0,
       "1233": 0.2
     },
+    "image": "en-trail-1264234799.png",
+    "image_coords": [
+      119,
+      720,
+      129,
+      730
+    ],
     "tags": [
       "acantha leaf",
       "blackberries",
@@ -45,7 +51,7 @@
       "haphip root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2023-02",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "murkweed",
       "nightbloom blossom",
@@ -61,7 +67,7 @@
       "sun-wilted tea leaves",
       "trafel mushroom",
       "tree bark",
-      "trollfear mushroom",
+      "trollear mushroom",
       "twisted twig",
       "white passionflower",
       "wild chokecherry",
@@ -74,13 +80,6 @@
     ],
     "uid": [
       2190015
-    ],
-    "image": "en-trail-1264234799.png",
-    "image_coords": [
-      119,
-      720,
-      129,
-      730
     ]
   }
 }

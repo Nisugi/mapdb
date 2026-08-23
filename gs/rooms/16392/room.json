@@ -1,5 +1,4 @@
 {
-  "checksum": "43e20656dcdd3c29d83140ed621aeb77",
   "room": {
     "id": 16392,
     "title": [
@@ -14,11 +13,11 @@
     "location": "the Graveyard",
     "wayto": {
       "4140": "down",
-      "4141": "/rooms/16392/wayto/stringproc-4141.rb"
+      "4141": ";e move 'jump'; waitrt?; fill_hands"
     },
     "timeto": {
       "4140": 0.2,
-      "4141": 3
+      "4141": 3.0
     },
     "tags": [
       "meta:nomagic",

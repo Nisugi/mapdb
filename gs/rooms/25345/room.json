@@ -1,5 +1,4 @@
 {
-  "checksum": "987aac89c193db1cb95835ae42b3c332",
   "room": {
     "id": 25345,
     "title": [
@@ -13,7 +12,7 @@
     ],
     "location": "the Feywrot Mire",
     "wayto": {
-      "22573": "/rooms/25345/wayto/stringproc-22573.rb"
+      "22573": ";e fput 'go curtain'"
     },
     "timeto": {
       "22573": 0.2

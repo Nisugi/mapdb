@@ -1,5 +1,4 @@
 {
-  "checksum": "9a1e2147e0a1843b33b34e752a8be04b",
   "room": {
     "id": 282,
     "title": [
@@ -24,13 +23,20 @@
       "28303": "go black door"
     },
     "timeto": {
-      "228": 1,
+      "228": 1.0,
       "229": 0.2,
       "283": 0.2,
       "284": 0.2,
       "8664": 0.2,
       "28303": 0.2
     },
+    "image": "wl-wehnimers-1264234799.png",
+    "image_coords": [
+      357,
+      878,
+      393,
+      914
+    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -46,13 +52,14 @@
       "dark blue honeyberries",
       "ghost pepper",
       "ginger root",
+      "golden yellow shadesbane",
       "heath aster",
       "hot pepper",
       "ironfern root",
       "juniper berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2022-11",
+      "meta:forage-sensed:night:2026-08",
       "meta:teleport:fwi",
       "motherwort",
       "murdroot",
@@ -84,13 +91,6 @@
     ],
     "uid": [
       7049
-    ],
-    "image": "wl-wehnimers-1264234799.png",
-    "image_coords": [
-      357,
-      878,
-      393,
-      914
     ]
   }
 }

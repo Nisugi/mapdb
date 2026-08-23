@@ -1,5 +1,4 @@
 {
-  "checksum": "d6dba1e2633f8204a3c15da31ea0890a",
   "room": {
     "id": 33406,
     "title": [
@@ -20,6 +19,13 @@
       "28872": 0.2,
       "33407": 0.2
     },
+    "image": "Nereids Cradle.png",
+    "image_coords": [
+      235,
+      345,
+      260,
+      368
+    ],
     "tags": [
       "blackened moss",
       "blue trafel mushroom",
@@ -30,6 +36,7 @@
       "glowing green lichen",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "soft mushroom",
       "sponge mushroom",
@@ -38,13 +45,6 @@
     ],
     "uid": [
       1917001
-    ],
-    "image": "Nereids Cradle.png",
-    "image_coords": [
-      235,
-      345,
-      260,
-      368
     ]
   }
 }

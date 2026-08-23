@@ -1,5 +1,4 @@
 {
-  "checksum": "4f28a07636633e9f003ed23d2d6f0145",
   "room": {
     "id": 2865,
     "title": [
@@ -20,6 +19,13 @@
       "2864": 0.2,
       "2866": 0.2
     },
+    "image": "imt-pinefar-1264234799.png",
+    "image_coords": [
+      194,
+      1244,
+      204,
+      1254
+    ],
     "tags": [
       "black mushroom",
       "blue trafel mushroom",
@@ -27,6 +33,7 @@
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "red mushroom",
       "soft mushroom",
@@ -36,13 +43,6 @@
     ],
     "uid": [
       4565033
-    ],
-    "image": "imt-pinefar-1264234799.png",
-    "image_coords": [
-      194,
-      1244,
-      204,
-      1254
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "b31b8e153ffaa89252c9a37ea5d1697d",
   "room": {
     "id": 9639,
     "title": [
@@ -18,19 +17,20 @@
     "timeto": {
       "9638": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      2191020
-    ],
     "image": "en-trail-1264234799.png",
     "image_coords": [
       587,
       651,
       597,
       661
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:splashy",
+      "no forageables"
+    ],
+    "uid": [
+      2191020
     ]
   }
 }

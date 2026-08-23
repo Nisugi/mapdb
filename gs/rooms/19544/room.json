@@ -1,5 +1,4 @@
 {
-  "checksum": "ea3eb2140e85eea9881b3c5609f3f256",
   "room": {
     "id": 19544,
     "title": [
@@ -16,13 +15,20 @@
     "climate": "cold, dry",
     "terrain": "barren scrub",
     "wayto": {
-      "1084": "/rooms/19544/wayto/stringproc-1084.rb",
-      "19546": "/rooms/19544/wayto/stringproc-19546.rb"
+      "1084": ";e move 'northeast'; move 'east'; move 'southeast'",
+      "19546": ";e move 'northeast'; move 'east'; move 'southwest'"
     },
     "timeto": {
       "1084": 0.6,
       "19546": 0.6
     },
+    "image": "en-trail-1264234799.png",
+    "image_coords": [
+      1333,
+      910,
+      1342,
+      918
+    ],
     "tags": [
       "bright red teaberry",
       "broken twig",
@@ -37,13 +43,6 @@
     ],
     "uid": [
       13001083
-    ],
-    "image": "en-trail-1264234799.png",
-    "image_coords": [
-      1333,
-      910,
-      1342,
-      918
     ]
   }
 }

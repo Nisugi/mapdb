@@ -1,5 +1,4 @@
 {
-  "checksum": "712744adf763ae0140bf5bbf57554e9c",
   "room": {
     "id": 26816,
     "title": [
@@ -28,18 +27,21 @@
       "26822": 0.2,
       "26824": 0.2
     },
-    "tags": [
-      "mho hall clerk"
-    ],
-    "uid": [
-      855005
-    ],
     "image": "imt-pro_hall-1512642391.png",
     "image_coords": [
       423,
       309,
       550,
       367
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "mho hall clerk",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      855005
     ]
   }
 }

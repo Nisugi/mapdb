@@ -1,5 +1,4 @@
 {
-  "checksum": "3201bf30c6946d8c1d71d011865db23c",
   "room": {
     "id": 16131,
     "title": [
@@ -25,17 +24,18 @@
       "32998": 0.2
     },
     "tags": [
-      "meta:mapname:River's Rest - Warrens",
-      "meta:mapshortname:Warrens",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "meta:mapcategory:River's Rest",
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      5001052
+      "meta:mapname:River's Rest - Warrens",
+      "meta:mapshortname:Warrens"
     ],
     "unique_loot": [
       "azure curtain with the sigil of Rising Phoenix"
+    ],
+    "uid": [
+      5001052
     ]
   }
 }

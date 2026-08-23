@@ -1,5 +1,4 @@
 {
-  "checksum": "d27458d5fcf18b5f974f557c08054074",
   "room": {
     "id": 9247,
     "title": [
@@ -26,6 +25,13 @@
       "9256": 0.2,
       "9271": 0.2
     },
+    "image": "vo-trail-1264234799.png",
+    "image_coords": [
+      35,
+      463,
+      45,
+      473
+    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -38,12 +44,14 @@
       "cumin seeds",
       "dark blue honeyberries",
       "ghost pepper",
+      "golden yellow shadesbane",
       "heath aster",
       "hot pepper",
       "ironfern root",
       "juniper berry",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "murdroot",
       "nutmeg",
@@ -69,13 +77,6 @@
     ],
     "uid": [
       4746012
-    ],
-    "image": "vo-trail-1264234799.png",
-    "image_coords": [
-      35,
-      463,
-      45,
-      473
     ]
   }
 }

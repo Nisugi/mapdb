@@ -1,5 +1,4 @@
 {
-  "checksum": "3ffde62d7bb234bae9a3204d5e02c6a6",
   "room": {
     "id": 14683,
     "title": [
@@ -22,20 +21,22 @@
       "14516": 0.2,
       "14692": 0.2
     },
-    "tags": [
-      "node",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      397004
-    ],
     "image": "wl-Hearthstone_Manor-1439662135.png",
     "image_coords": [
       182,
       583,
       248,
       633
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2026-08",
+      "node"
+    ],
+    "uid": [
+      397004
     ]
   }
 }

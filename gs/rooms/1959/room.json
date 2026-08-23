@@ -1,5 +1,4 @@
 {
-  "checksum": "a4ab1e341ac9f3de6f21d939fccabbfe",
   "room": {
     "id": 1959,
     "title": [
@@ -15,18 +14,20 @@
     "wayto": {
       "1958": "down",
       "1960": "up",
-      "30715": "/rooms/1959/wayto/stringproc-30715.rb"
+      "30715": ";e true"
     },
     "timeto": {
       "1958": 0.2,
       "1960": 0.2,
-      "30715": "/rooms/1959/timeto/stringproc-30715.rb"
+      "30715": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "fire lily",
       "jail",
       "justice",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
       "meta:nomagic",
-      "no forageables",
       "urchin guide justice",
       "urchin-access"
     ],

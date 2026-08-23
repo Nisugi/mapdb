@@ -1,5 +1,4 @@
 {
-  "checksum": "6ee483d8fbf0fce39baa19f78081e4a7",
   "room": {
     "id": 12567,
     "title": [
@@ -21,6 +20,13 @@
     "timeto": {
       "12566": 0.2
     },
+    "image": "ti-wilds-1643860469.png",
+    "image_coords": [
+      375,
+      522,
+      385,
+      532
+    ],
     "tags": [
       "alligator lily",
       "angelica root",
@@ -39,6 +45,7 @@
       "cumin seeds",
       "daggerstalk mushroom",
       "dill",
+      "fire lily",
       "flathead mushroom",
       "fresh basil",
       "fresh broccoli",
@@ -67,7 +74,9 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
+      "nightbloom blossom",
       "nutmeg",
       "onion skin",
       "orange pepper",
@@ -96,6 +105,7 @@
       "small violet",
       "soft mushroom",
       "sovyn clove",
+      "spider lily",
       "stalk of celery",
       "stalk of monkeyflower",
       "star anise",
@@ -107,10 +117,12 @@
       "tea leaves",
       "tiger lily",
       "tobacco leaves",
+      "trollear mushroom",
       "vanilla bean",
       "wavepetal blossom",
       "white lily",
       "white tea leaves",
+      "wild rice",
       "withered mushroom",
       "yellow lemon",
       "yellow papaya",
@@ -119,16 +131,9 @@
       "yew twig",
       "zucchini"
     ],
+    "check_location": true,
     "uid": [
       2107001
-    ],
-    "image": "ti-wilds-1643860469.png",
-    "image_coords": [
-      375,
-      522,
-      385,
-      532
-    ],
-    "check_location": true
+    ]
   }
 }

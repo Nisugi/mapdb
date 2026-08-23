@@ -1,5 +1,4 @@
 {
-  "checksum": "b9869a22f8a9ba13008e586604fe9ed2",
   "room": {
     "id": 10081,
     "title": [
@@ -18,20 +17,21 @@
     "timeto": {
       "684": 0.2
     },
-    "tags": [
-      "furrier",
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      13051026
-    ],
     "image": "en-sylvarraend-1264234799.png",
     "image_coords": [
       384,
       1008,
       420,
       1044
+    ],
+    "tags": [
+      "fire lily",
+      "furrier",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      13051026
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "d5569b742f64ee6fe0f000821cf94b92",
   "room": {
     "id": 7960,
     "title": [
@@ -22,11 +21,19 @@
       "7956": 0.2,
       "7962": 0.2
     },
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      736,
+      486,
+      746,
+      496
+    ],
     "tags": [
       "cave moss",
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "wingstem root",
       "withered mushroom",
@@ -34,13 +41,6 @@
     ],
     "uid": [
       2148037
-    ],
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      736,
-      486,
-      746,
-      496
     ]
   }
 }

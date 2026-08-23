@@ -1,5 +1,4 @@
 {
-  "checksum": "2fb173d7a2d6ca2d8f5c288e207e3372",
   "room": {
     "id": 627,
     "title": [
@@ -15,13 +14,20 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "628": "/rooms/627/wayto/stringproc-628.rb",
+      "628": ";e fput 'kneel'; move 'go burrow'; fput 'stand'",
       "11906": "up"
     },
     "timeto": {
       "628": 0.4,
       "11906": 0.2
     },
+    "image": "en-old_ta_faendryl-1716923763.png",
+    "image_coords": [
+      1295,
+      604,
+      1303,
+      612
+    ],
     "tags": [
       "bolmara lichen",
       "cave moss",
@@ -38,13 +44,6 @@
     ],
     "uid": [
       17002236
-    ],
-    "image": "en-old_ta_faendryl-1716923763.png",
-    "image_coords": [
-      1295,
-      604,
-      1303,
-      612
     ]
   }
 }

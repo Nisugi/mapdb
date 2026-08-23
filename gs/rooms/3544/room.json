@@ -1,5 +1,4 @@
 {
-  "checksum": "597315c98741368954d3dcf8fc2b891c",
   "room": {
     "id": 3544,
     "title": [
@@ -22,36 +21,38 @@
     "wayto": {
       "3542": "north",
       "10381": "go dock",
-      "30713": "/rooms/3544/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3542": 0.2,
       "10381": 0.2,
-      "30713": "/rooms/3544/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "locksmith pool",
-      "locksmithpool",
-      "meta:boxpool:npc:well-dressed elven merchant",
-      "meta:boxpool:table:crude table",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-01",
-      "meta:trashcan:wooden barrel",
-      "no forageables",
-      "node",
-      "supernode",
-      "urchin guide locksmithpool",
-      "urchin-access"
-    ],
-    "uid": [
-      14100045
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       926,
       1001,
       961,
       1040
+    ],
+    "tags": [
+      "locksmith pool",
+      "locksmithpool",
+      "meta:boxpool:npc:well-dressed elven merchant",
+      "meta:boxpool:table:crude table",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:forage-sensed:night:2023-01",
+      "meta:trashcan:wooden barrel",
+      "node",
+      "stalk of bluebells",
+      "supernode",
+      "urchin guide locksmithpool",
+      "urchin-access",
+      "wild sage"
+    ],
+    "uid": [
+      14100045
     ]
   }
 }

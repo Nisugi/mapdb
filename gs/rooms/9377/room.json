@@ -1,5 +1,4 @@
 {
-  "checksum": "8282bdd0f63b0e0478dffc29ff21ab96",
   "room": {
     "id": 9377,
     "title": [
@@ -23,6 +22,13 @@
       "1410": 0.2,
       "14614": 0.2
     },
+    "image": "vo-trail-1264234799.png",
+    "image_coords": [
+      970,
+      994,
+      978,
+      1001
+    ],
     "tags": [
       "acantha leaf",
       "alder bark",
@@ -36,6 +42,7 @@
       "blueberries",
       "bolmara lichen",
       "bright red teaberry",
+      "bright yellow sunwort",
       "broken twig",
       "brostheras grass",
       "brown-skinned kiwi",
@@ -72,7 +79,7 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2023-01",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "nightbloom blossom",
       "oak twig",
@@ -109,7 +116,7 @@
       "tkaro root",
       "torban leaf",
       "tree bark",
-      "trollfear mushroom",
+      "trollear mushroom",
       "twisted twig",
       "Vornavian orange",
       "white baneberry",
@@ -131,13 +138,6 @@
     ],
     "uid": [
       274900
-    ],
-    "image": "vo-trail-1264234799.png",
-    "image_coords": [
-      970,
-      994,
-      978,
-      1001
     ]
   }
 }

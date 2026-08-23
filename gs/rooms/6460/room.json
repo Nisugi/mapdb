@@ -1,5 +1,4 @@
 {
-  "checksum": "897d081f7be998ff4af06dde77b27f8d",
   "room": {
     "id": 6460,
     "title": [
@@ -19,20 +18,22 @@
     "timeto": {
       "6459": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-09"
-    ],
-    "uid": [
-      93081
-    ],
     "image": "wl-lysierian-1264234799.png",
     "image_coords": [
       1187,
       346,
       1197,
       356
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      93081
     ]
   }
 }

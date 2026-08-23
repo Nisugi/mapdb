@@ -1,5 +1,4 @@
 {
-  "checksum": "f7d74f72c2a13fb4c6a66d384c222e18",
   "room": {
     "id": 10624,
     "title": [
@@ -22,9 +21,17 @@
       "10623": 0.2,
       "10625": 0.2
     },
+    "image": "en-cemetery-1617615116.png",
+    "image_coords": [
+      487,
+      1273,
+      499,
+      1285
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
+      "arbutus berry",
       "basal moss",
       "bloodwood twig",
       "blue trafel mushroom",
@@ -37,6 +44,7 @@
       "calamia fruit",
       "cherry peppers",
       "coppery rain lily",
+      "crystal-like sylthiel",
       "curly leaf parsley",
       "daggerstalk mushroom",
       "dark blue honeyberries",
@@ -48,13 +56,14 @@
       "fresh catnip",
       "fuzzy peach",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green pear",
       "haphip root",
       "lady slipper blossom",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2025-07",
       "mistweed",
       "murdroot",
@@ -84,6 +93,7 @@
       "trollear mushroom",
       "twisted twig",
       "viburnum twig",
+      "violet sel'elun vine",
       "white baneberry",
       "white lily",
       "wild beechnut",
@@ -102,13 +112,6 @@
     ],
     "uid": [
       14015003
-    ],
-    "image": "en-cemetery-1617615116.png",
-    "image_coords": [
-      487,
-      1273,
-      499,
-      1285
     ]
   }
 }

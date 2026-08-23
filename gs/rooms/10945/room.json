@@ -1,5 +1,4 @@
 {
-  "checksum": "e0575693ec10369f24d25a49314e4f2d",
   "room": {
     "id": 10945,
     "title": [
@@ -21,6 +20,12 @@
     "timeto": {
       "10944": 0.2
     },
+    "image_coords": [
+      826,
+      707,
+      842,
+      723
+    ],
     "tags": [
       "alligator lily",
       "angelica root",
@@ -72,7 +77,7 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2026-01",
+      "meta:forage-sensed:night:2026-08",
       "meta:nomagic",
       "motherwort",
       "nutmeg",
@@ -132,8 +137,10 @@
       "white lily",
       "white petunia",
       "white tea leaves",
+      "wild rice",
       "wild spinach",
       "withered mushroom",
+      "yellow carrot",
       "yellow lemon",
       "yellow papaya",
       "yellow pepper",
@@ -143,12 +150,6 @@
     ],
     "uid": [
       2101036
-    ],
-    "image_coords": [
-      826,
-      707,
-      842,
-      723
     ]
   }
 }

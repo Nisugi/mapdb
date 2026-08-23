@@ -1,5 +1,4 @@
 {
-  "checksum": "e6ad74f95052a1d15daba41579649e15",
   "room": {
     "id": 5552,
     "title": [
@@ -23,20 +22,21 @@
       "5554": 0.2,
       "5555": 0.2
     },
-    "tags": [
-      "dobrem",
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4215139
-    ],
     "image": "vo-outlands-1264234799.png",
     "image_coords": [
       1047,
       655,
       1057,
       665
+    ],
+    "tags": [
+      "dobrem",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      4215139
     ]
   }
 }

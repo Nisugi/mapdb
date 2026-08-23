@@ -1,5 +1,4 @@
 {
-  "checksum": "3ac430c9236617096955e03b63d40773",
   "room": {
     "id": 19936,
     "title": [
@@ -24,15 +23,6 @@
       "19938": 0.2,
       "19944": 0.2
     },
-    "tags": [
-      "meta:teleport:fwi",
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      336003
-    ],
     "image": "wl-stone_baths-1487292814.png",
     "image_coords": [
       939,
@@ -40,6 +30,16 @@
       1083,
       800
     ],
-    "check_location": false
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:night:2026-08",
+      "meta:teleport:fwi"
+    ],
+    "check_location": false,
+    "uid": [
+      336003
+    ]
   }
 }

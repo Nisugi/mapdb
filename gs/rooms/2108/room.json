@@ -1,5 +1,4 @@
 {
-  "checksum": "23043518cbb4caeb5fb489bc9a5e6049",
   "room": {
     "id": 2108,
     "title": [
@@ -26,18 +25,20 @@
       "2111": 0.2,
       "2112": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      3030035
-    ],
     "image": "ti-wilds-1643860469.png",
     "image_coords": [
       965,
       1066,
       975,
       1076
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      3030035
     ]
   }
 }

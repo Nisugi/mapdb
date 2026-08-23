@@ -1,5 +1,4 @@
 {
-  "checksum": "057f490be6db799799c324b6cf324611",
   "room": {
     "id": 2438,
     "title": [
@@ -16,12 +15,19 @@
     "terrain": "none",
     "wayto": {
       "29531": "go door",
-      "30709": "/rooms/2438/wayto/stringproc-30709.rb"
+      "30709": ";e true"
     },
     "timeto": {
       "29531": 0.2,
-      "30709": "/rooms/2438/timeto/stringproc-30709.rb"
+      "30709": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "imt-Clovertooth_Hall-1615305972.png",
+    "image_coords": [
+      392,
+      1180,
+      484,
+      1272
+    ],
     "tags": [
       "debt",
       "debts",
@@ -34,13 +40,6 @@
     ],
     "uid": [
       4043042
-    ],
-    "image": "imt-Clovertooth_Hall-1615305972.png",
-    "image_coords": [
-      392,
-      1180,
-      484,
-      1272
     ]
   }
 }

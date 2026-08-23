@@ -1,5 +1,4 @@
 {
-  "checksum": "700fea82bfc9c2c28739882b2090e5fb",
   "room": {
     "id": 20699,
     "title": [
@@ -14,12 +13,19 @@
     "location": "Ta'Illistim",
     "wayto": {
       "18721": "go petal doorway",
-      "30714": "/rooms/20699/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "18721": 0.2,
-      "30714": "/rooms/20699/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "premium_halls-1489980086.png",
+    "image_coords": [
+      3136,
+      2033,
+      3268,
+      2089
+    ],
     "tags": [
       "meta:premium",
       "node",
@@ -28,13 +34,6 @@
     ],
     "uid": [
       4002718
-    ],
-    "image": "premium_halls-1489980086.png",
-    "image_coords": [
-      3136,
-      2033,
-      3268,
-      2089
     ]
   }
 }

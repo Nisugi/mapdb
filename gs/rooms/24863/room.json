@@ -1,5 +1,4 @@
 {
-  "checksum": "c41a63df7b438aec7820a5915b0c9598",
   "room": {
     "id": 24863,
     "title": [
@@ -13,13 +12,20 @@
     ],
     "location": "Thurfel's Island",
     "wayto": {
-      "9147": "/rooms/24863/wayto/stringproc-9147.rb",
+      "9147": ";e move \"go vortex\"",
       "24864": "up"
     },
     "timeto": {
-      "9147": 2,
+      "9147": 2.0,
       "24864": 0.2
     },
+    "image": "imt-Reim-1260914759.png",
+    "image_coords": [
+      769,
+      1067,
+      782,
+      1080
+    ],
     "tags": [
       "black mushroom",
       "blue trafel mushroom",
@@ -27,6 +33,7 @@
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "meta:mapcategory:Icemule Trace",
       "meta:mapcategory:Quests",
       "meta:mapname:Icemule Trace - The Settlement of Reim",
@@ -35,18 +42,12 @@
       "murdroot",
       "red mushroom",
       "soft mushroom",
+      "white hook mushroom",
       "wingstem root",
       "withered mushroom"
     ],
     "uid": [
       7530033
-    ],
-    "image": "imt-Reim-1260914759.png",
-    "image_coords": [
-      769,
-      1067,
-      782,
-      1080
     ]
   }
 }

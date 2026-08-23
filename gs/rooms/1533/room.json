@@ -1,5 +1,4 @@
 {
-  "checksum": "acc54f7d06a4146e5372c4d52c1d3751",
   "room": {
     "id": 1533,
     "title": [
@@ -26,19 +25,21 @@
       "1534": 0.2,
       "1568": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables"
-    ],
-    "uid": [
-      4902089
-    ],
     "image": "vo-solhaven-1675635404.png",
     "image_coords": [
       1185,
       1332,
       1209,
       1356
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      4902089
     ]
   }
 }

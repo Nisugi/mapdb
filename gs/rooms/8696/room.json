@@ -1,5 +1,4 @@
 {
-  "checksum": "68171798c5bbbe423ed7a4927b9a8d9a",
   "room": {
     "id": 8696,
     "title": [
@@ -19,12 +18,19 @@
     "terrain": "cultivated",
     "wayto": {
       "2369": "out",
-      "13532": "/rooms/8696/wayto/stringproc-13532.rb"
+      "13532": ";e $SILVERWOOD_TOWN=:imt;move 'go door'"
     },
     "timeto": {
       "2369": 0.2,
       "13532": 0.2
     },
+    "image": "imt-icemule-1474811966.png",
+    "image_coords": [
+      494,
+      698,
+      530,
+      734
+    ],
     "tags": [
       "angelica root",
       "arctic brambles",
@@ -37,7 +43,7 @@
       "luckbloom blossom",
       "mentors",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "moonflower",
       "pennyroyal stem",
       "sassafras leaf",
@@ -55,13 +61,6 @@
     ],
     "uid": [
       4384002
-    ],
-    "image": "imt-icemule-1474811966.png",
-    "image_coords": [
-      494,
-      698,
-      530,
-      734
     ]
   }
 }

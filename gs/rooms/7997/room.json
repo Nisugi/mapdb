@@ -1,5 +1,4 @@
 {
-  "checksum": "9c5d3399a23c36391d80ad17d8014d11",
   "room": {
     "id": 7997,
     "title": [
@@ -24,15 +23,24 @@
       "7998": 0.2,
       "7999": 0.2
     },
+    "image": "wl-mineroad-1264234799.png",
+    "image_coords": [
+      203,
+      815,
+      213,
+      825
+    ],
     "tags": [
       "birch bark",
       "bur-clover root",
       "cave moss",
       "ghost pepper",
+      "golden yellow shadesbane",
       "hot pepper",
       "ironfern root",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "off-white parsnip",
       "pepperthorn root",
@@ -42,13 +50,6 @@
     ],
     "uid": [
       401210
-    ],
-    "image": "wl-mineroad-1264234799.png",
-    "image_coords": [
-      203,
-      815,
-      213,
-      825
     ]
   }
 }

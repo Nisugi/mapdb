@@ -1,5 +1,4 @@
 {
-  "checksum": "8fc2a7bd88234f34d3794ab6553fe327",
   "room": {
     "id": 3030,
     "title": [
@@ -17,13 +16,20 @@
     "wayto": {
       "3007": "up",
       "3031": "down",
-      "16034": "/rooms/3030/wayto/stringproc-16034.rb"
+      "16034": ";e move 'go door'; fput 'close door'"
     },
     "timeto": {
       "3007": 0.2,
       "3031": 0.2,
-      "16034": "/rooms/3030/timeto/stringproc-16034.rb"
+      "16034": ";e UserVars.mapdb_annoy_ylandra == 'yes' ? 0.2 : nil"
     },
+    "image": "imt-east_west_north_gates-1668398077.png",
+    "image_coords": [
+      272,
+      953,
+      282,
+      963
+    ],
     "tags": [
       "angelica root",
       "bolmara lichen",
@@ -31,10 +37,13 @@
       "calamintha blossom",
       "crowberry",
       "cuctucae berry",
+      "edelweiss",
+      "glassfern frond",
       "ironfern root",
       "lingonberry",
       "marallis berry",
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
       "orange rowanberry",
       "pale thornberry",
       "pennyroyal stem",
@@ -44,28 +53,18 @@
       "silverback orc",
       "small loganberry",
       "snowberries",
-      "some angelica root",
-      "some bolmara lichen",
-      "some pennyroyal stem",
-      "some tundra grass",
-      "some valerian root",
-      "some wingstem root",
       "sprig of larkspur",
       "stalk of bluebells",
+      "sunburst blossom",
       "sweetfern stalk",
       "tundra grass",
       "valerian root",
-      "winter rose"
+      "wingstem root",
+      "winter rose",
+      "wintercrisp apple"
     ],
     "uid": [
       4129002
-    ],
-    "image": "imt-east_west_north_gates-1668398077.png",
-    "image_coords": [
-      272,
-      953,
-      282,
-      963
     ]
   }
 }

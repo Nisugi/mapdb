@@ -1,5 +1,4 @@
 {
-  "checksum": "54ea4f25ed45088f22b11d4ce57c9b18",
   "room": {
     "id": 29114,
     "title": [
@@ -20,6 +19,13 @@
     "timeto": {
       "29113": 0.2
     },
+    "image": "kf-widowmakers_road-1668643957.png",
+    "image_coords": [
+      310,
+      118,
+      324,
+      131
+    ],
     "tags": [
       "agave heart",
       "black tea leaves",
@@ -33,6 +39,7 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "mulberry fronds",
       "peppermint leaves",
       "pepperthorn root",
@@ -51,13 +58,6 @@
     ],
     "uid": [
       7131015
-    ],
-    "image": "kf-widowmakers_road-1668643957.png",
-    "image_coords": [
-      310,
-      118,
-      324,
-      131
     ]
   }
 }

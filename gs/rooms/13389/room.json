@@ -1,5 +1,4 @@
 {
-  "checksum": "b04e93ff69cef0f2016b69da6e101708",
   "room": {
     "id": 13389,
     "title": [
@@ -22,8 +21,16 @@
       "13370": 0.2,
       "13390": 0.2
     },
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      299,
+      241,
+      316,
+      257
+    ],
     "tags": [
       "angelica root",
+      "arbutus berry",
       "black peppercorn",
       "blaestonberries",
       "blaestonberry blossom",
@@ -37,6 +44,7 @@
       "cardamom",
       "chives",
       "creamy white wisteria",
+      "crystal-like sylthiel",
       "cumin seeds",
       "curly leaf parsley",
       "daggerstalk mushroom",
@@ -52,6 +60,7 @@
       "fresh broccoli",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green beans",
       "green cabbage",
@@ -70,7 +79,7 @@
       "light blue hydrangea",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
       "motherwort",
       "mustard seeds",
@@ -101,6 +110,7 @@
       "rhubarb",
       "rose-marrow root",
       "round red radish",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small anemone",
@@ -135,12 +145,14 @@
       "sunflower seeds",
       "sweet onion",
       "tendril of vinca",
+      "thistle seeds",
       "thyme",
       "tiger lily",
       "trollfear mushroom",
       "vanilla bean",
       "vert globe artichoke",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "white begonia",
       "white datura blossom",
@@ -150,8 +162,10 @@
       "white peony",
       "white ramie",
       "wild pansy blossom",
+      "wild rice",
       "wild spinach",
       "withered mushroom",
+      "yellow carrot",
       "yellow datura blossom",
       "yellow squash",
       "yew twig",
@@ -159,13 +173,6 @@
     ],
     "uid": [
       13111004
-    ],
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      299,
-      241,
-      316,
-      257
     ]
   }
 }

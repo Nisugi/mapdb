@@ -1,5 +1,4 @@
 {
-  "checksum": "82715ec9d97b322196cf5aeb2eeb9279",
   "room": {
     "id": 7476,
     "title": [
@@ -20,22 +19,25 @@
       "7475": 0.2,
       "7477": 0.2
     },
-    "tags": [
-      "some cave moss",
-      "sponge mushroom",
-      "some blackened moss",
-      "magru",
-      "some glowing green lichen"
-    ],
-    "uid": [
-      94018
-    ],
     "image": "wl-broken-1264234799.png",
     "image_coords": [
       887,
       851,
       899,
       863
+    ],
+    "tags": [
+      "blackened moss",
+      "bone mushroom",
+      "cave moss",
+      "glowing green lichen",
+      "magru",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "sponge mushroom"
+    ],
+    "uid": [
+      94018
     ]
   }
 }

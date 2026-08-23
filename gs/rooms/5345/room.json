@@ -1,5 +1,4 @@
 {
-  "checksum": "32fc1099f337be0a24053b42e420753e",
   "room": {
     "id": 5345,
     "title": [
@@ -21,6 +20,13 @@
     "timeto": {
       "5344": 0.2
     },
+    "image": "vo-foggy_valley-1264234799.png",
+    "image_coords": [
+      1411,
+      530,
+      1419,
+      538
+    ],
     "tags": [
       "angelica root",
       "bay leaf",
@@ -65,6 +71,7 @@
       "green cabbage",
       "green olive",
       "green pepper",
+      "green soybean pod",
       "green tea leaves",
       "haphip root",
       "heath aster",
@@ -79,7 +86,7 @@
       "luckbloom blossom",
       "mate leaves",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "mezereon bark",
       "motherwort",
       "nightbloom blossom",
@@ -137,6 +144,7 @@
       "sweet potato",
       "tea leaves",
       "tendril of vinca",
+      "thistle seeds",
       "tiger lily",
       "tobacco leaves",
       "trollfear mushroom",
@@ -159,13 +167,6 @@
     ],
     "uid": [
       4218307
-    ],
-    "image": "vo-foggy_valley-1264234799.png",
-    "image_coords": [
-      1411,
-      530,
-      1419,
-      538
     ]
   }
 }

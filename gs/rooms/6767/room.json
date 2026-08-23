@@ -1,5 +1,4 @@
 {
-  "checksum": "27cb4066e94efc7ecb9914a358388225",
   "room": {
     "id": 6767,
     "title": [
@@ -24,6 +23,13 @@
       "6766": 0.2,
       "6768": 0.2
     },
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      444,
+      837,
+      454,
+      847
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -51,6 +57,7 @@
       "lemon verbena",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "oxblood lily",
       "pine cone",
       "pine needles",
@@ -65,7 +72,7 @@
       "tkaro root",
       "torban leaf",
       "tree bark",
-      "trollfear mushroom",
+      "trollear mushroom",
       "twisted twig",
       "white baneberry",
       "white lily",
@@ -78,13 +85,6 @@
     ],
     "uid": [
       4300004
-    ],
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      444,
-      837,
-      454,
-      847
     ]
   }
 }

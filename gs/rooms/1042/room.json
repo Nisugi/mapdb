@@ -1,5 +1,4 @@
 {
-  "checksum": "ed83aa1aa3ab603d8c0ca1abfb6c8f56",
   "room": {
     "id": 1042,
     "title": [
@@ -15,15 +14,22 @@
     "climate": "cold, damp",
     "terrain": "grassland",
     "wayto": {
-      "1041": "/rooms/1042/wayto/stringproc-1041.rb",
+      "1041": ";e move 'climb boulder'\nfput 'look trail'\ndir = matchfindword \"You peer into the mist and see that the trail heads off to the ?\"\nmove 'down'\nsleep 5 if running?('agoto')\nmove dir",
       "1043": "west",
       "1265": "climb boulder"
     },
     "timeto": {
-      "1041": 3,
+      "1041": 3.0,
       "1043": 0.2,
       "1265": 0.2
     },
+    "image": "en-trail-1264234799.png",
+    "image_coords": [
+      1172,
+      477,
+      1182,
+      487
+    ],
     "tags": [
       "acantha leaf",
       "angelica root",
@@ -32,18 +38,18 @@
       "bright red teaberry",
       "brostheras grass",
       "cuctucae berry",
+      "dwarf bilberry",
       "fairy primrose",
       "golden aster",
       "ironfern root",
       "luckbloom blossom",
       "meta:forage-sensed",
-      "meta:forage-sensed:night:2023-02",
+      "meta:forage-sensed:night:2026-08",
       "murdroot",
       "pennyroyal stem",
       "rainbow chard",
       "sassafras leaf",
-      "small wild rose",
-      "soft white mushroom",
+      "soft mushroom",
       "sprig of larkspur",
       "stalk of chicory",
       "sunburst blossom",
@@ -52,20 +58,14 @@
       "wavepetal blossom",
       "white hook mushroom",
       "wild chokecherry",
+      "wild rose",
       "wild strawberry",
       "wintergreen leaf",
-      "withered black mushroom",
+      "withered mushroom",
       "wolifrew lichen"
     ],
     "uid": [
       13001070
-    ],
-    "image": "en-trail-1264234799.png",
-    "image_coords": [
-      1172,
-      477,
-      1182,
-      487
     ]
   }
 }

@@ -1,5 +1,4 @@
 {
-  "checksum": "0082cddeb8d3eb802ad7425023f369db",
   "room": {
     "id": 10381,
     "title": [
@@ -22,21 +21,23 @@
       "3544": 0.2,
       "13482": 0.2
     },
-    "tags": [
-      "warrior guild crates",
-      "meta:forage-sensed",
-      "no forageables",
-      "meta:forage-sensed:night:2023-01"
-    ],
-    "uid": [
-      14100083
-    ],
     "image": "en-tavaalor-1565907614.png",
     "image_coords": [
       925,
       1097,
       960,
       1132
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "meta:forage-sensed:night:2023-01",
+      "stalk of bluebells",
+      "warrior guild crates",
+      "wild sage"
+    ],
+    "uid": [
+      14100083
     ]
   }
 }

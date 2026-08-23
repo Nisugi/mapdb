@@ -1,5 +1,4 @@
 {
-  "checksum": "1c74e148ae61e79823463b508183a486",
   "room": {
     "id": 10070,
     "title": [
@@ -18,20 +17,21 @@
     "timeto": {
       "10069": 0.2
     },
-    "tags": [
-      "bank",
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      13051012
-    ],
     "image": "en-sylvarraend-1264234799.png",
     "image_coords": [
       242,
       797,
       242,
       797
+    ],
+    "tags": [
+      "bank",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      13051012
     ]
   }
 }

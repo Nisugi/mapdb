@@ -1,5 +1,4 @@
 {
-  "checksum": "a5640efda7c8469c06b207588688a380",
   "room": {
     "id": 27371,
     "title": [
@@ -23,6 +22,13 @@
       "9376": 0.2,
       "27372": 0.2
     },
+    "image": "sunholm.png",
+    "image_coords": [
+      188,
+      350,
+      262,
+      425
+    ],
     "tags": [
       "angelica root",
       "bay leaf",
@@ -67,6 +73,7 @@
       "green cabbage",
       "green olive",
       "green pepper",
+      "green soybean pod",
       "green tea leaves",
       "haphip root",
       "heath aster",
@@ -81,7 +88,7 @@
       "luckbloom blossom",
       "mate leaves",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2023-01",
       "meta:mapcategory:MHO",
       "meta:mapcategory:Vornavis",
@@ -144,6 +151,7 @@
       "sweet potato",
       "tea leaves",
       "tendril of vinca",
+      "thistle seeds",
       "tiger lily",
       "tobacco leaves",
       "trollfear mushroom",
@@ -166,13 +174,6 @@
     ],
     "uid": [
       18028001
-    ],
-    "image": "sunholm.png",
-    "image_coords": [
-      188,
-      350,
-      262,
-      425
     ]
   }
 }

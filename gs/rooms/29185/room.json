@@ -1,5 +1,4 @@
 {
-  "checksum": "41bb4d9a02f6961a5948baeaad58b7d4",
   "room": {
     "id": 29185,
     "title": [
@@ -24,6 +23,13 @@
       "29184": 0.2,
       "29186": 0.2
     },
+    "image": "ti-feyrie-1599500894.png",
+    "image_coords": [
+      100,
+      86,
+      129,
+      113
+    ],
     "tags": [
       "butterfly pea flower",
       "lemon balm",
@@ -31,6 +37,7 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "pepperthorn root",
       "sprig of rooibos",
       "spring onion",
@@ -40,13 +47,6 @@
     ],
     "uid": [
       3023108
-    ],
-    "image": "ti-feyrie-1599500894.png",
-    "image_coords": [
-      100,
-      86,
-      129,
-      113
     ]
   }
 }

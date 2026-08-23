@@ -1,5 +1,4 @@
 {
-  "checksum": "358e69e6fda3cb73df459e4426af1e1f",
   "room": {
     "id": 2003,
     "title": [
@@ -27,6 +26,13 @@
       "2004": 0.2,
       "2006": 0.2
     },
+    "image": "ti-wilds-1643860469.png",
+    "image_coords": [
+      258,
+      366,
+      268,
+      376
+    ],
     "tags": [
       "acantha leaf",
       "black peppercorn",
@@ -53,12 +59,15 @@
       "honeymoon melon",
       "horseradish root",
       "luckbloom blossom",
+      "macadamia nuts",
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "mistwood twig",
       "mulberry fronds",
       "murdroot",
+      "nightbloom blossom",
       "nutmeg",
       "orange heliconia",
       "orange-yellow starfruit",
@@ -75,6 +84,7 @@
       "red lychee",
       "red-green mango",
       "round grumbleberry",
+      "round hazelnuts",
       "round yuzu",
       "slender twig",
       "star anise",
@@ -99,13 +109,6 @@
     ],
     "uid": [
       3021007
-    ],
-    "image": "ti-wilds-1643860469.png",
-    "image_coords": [
-      258,
-      366,
-      268,
-      376
     ]
   }
 }

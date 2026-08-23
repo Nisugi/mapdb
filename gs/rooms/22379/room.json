@@ -1,5 +1,4 @@
 {
-  "checksum": "f5b8533b1a00db211659ab26ea3992e4",
   "room": {
     "id": 22379,
     "title": [
@@ -20,18 +19,20 @@
       "22359": 0.2,
       "22380": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      13125032
-    ],
     "image": "en-ta_illistim-embassies-1405076623.png",
     "image_coords": [
       435,
       802,
       501,
       838
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      13125032
     ]
   }
 }

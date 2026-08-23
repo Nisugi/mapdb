@@ -1,5 +1,4 @@
 {
-  "checksum": "8da10500652f3bf39511b2401811749b",
   "room": {
     "id": 8702,
     "title": [
@@ -22,6 +21,13 @@
       "8701": 0.2,
       "8703": 0.2
     },
+    "image": "wl-homes-1-1264234799.png",
+    "image_coords": [
+      1004,
+      456,
+      1022,
+      474
+    ],
     "tags": [
       "angelica root",
       "aubergine hellebore",
@@ -79,7 +85,7 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2022-11",
+      "meta:forage-sensed:night:2026-08",
       "meta:teleport:fwi",
       "motherwort",
       "nightbloom blossom",
@@ -108,6 +114,7 @@
       "rose-marrow root",
       "round red radish",
       "round yuzu",
+      "safflower seeds",
       "sanguine blood rose",
       "scallions",
       "shallot",
@@ -140,9 +147,10 @@
       "sunflower seeds",
       "sweet onion",
       "tangerine butterflyweed",
+      "thistle seeds",
       "tiger lily",
       "tobacco leaves",
-      "trollfear mushroom",
+      "trollear mushroom",
       "vanilla bean",
       "wavepetal blossom",
       "white datura blossom",
@@ -151,6 +159,7 @@
       "wild pansy blossom",
       "wild spinach",
       "withered mushroom",
+      "yellow carrot",
       "yellow datura blossom",
       "yellow lemon",
       "yellow squash",
@@ -160,13 +169,6 @@
     ],
     "uid": [
       701108
-    ],
-    "image": "wl-homes-1-1264234799.png",
-    "image_coords": [
-      1004,
-      456,
-      1022,
-      474
     ]
   }
 }

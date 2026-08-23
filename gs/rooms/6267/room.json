@@ -1,5 +1,4 @@
 {
-  "checksum": "a40c41bc94ac6bb903ba8e8f5787847c",
   "room": {
     "id": 6267,
     "title": [
@@ -16,12 +15,19 @@
     "terrain": "plain dirt",
     "wayto": {
       "6265": "south",
-      "6284": "/rooms/6267/wayto/stringproc-6284.rb"
+      "6284": ";e move 'climb mound'"
     },
     "timeto": {
       "6265": 0.2,
       "6284": 0.2
     },
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      229,
+      374,
+      239,
+      384
+    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -37,13 +43,14 @@
       "dark blue honeyberries",
       "ghost pepper",
       "ginger root",
+      "golden yellow shadesbane",
       "heath aster",
       "hot pepper",
       "ironfern root",
       "juniper berry",
       "kobold",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
       "motherwort",
       "murdroot",
@@ -74,13 +81,6 @@
     ],
     "uid": [
       372001
-    ],
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      229,
-      374,
-      239,
-      384
     ]
   }
 }

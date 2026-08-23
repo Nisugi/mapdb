@@ -1,5 +1,4 @@
 {
-  "checksum": "944d922ae2861fff12b9c5702cb57505",
   "room": {
     "id": 3747,
     "title": [
@@ -17,32 +16,34 @@
     "wayto": {
       "31": "go gate",
       "28580": "go doors",
-      "30714": "/rooms/3747/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "31": 0.2,
       "28580": 0.2,
-      "30714": "/rooms/3747/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11",
-      "mho hall",
-      "mho hall board",
-      "no forageables",
-      "townhall",
-      "urchin guide townhall",
-      "urchin-access"
-    ],
-    "uid": [
-      851001
-    ],
     "image": "en-ta_illistim-new.jpg",
     "image_coords": [
       1413,
       795,
       1434,
       817
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "mho hall",
+      "mho hall board",
+      "stalk of bluebells",
+      "townhall",
+      "urchin guide townhall",
+      "urchin-access",
+      "wild sage"
+    ],
+    "uid": [
+      851001
     ]
   }
 }

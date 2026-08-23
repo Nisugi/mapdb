@@ -1,5 +1,4 @@
 {
-  "checksum": "2fcaa21eafc1b5e5ae67f13933996b21",
   "room": {
     "id": 390,
     "title": [
@@ -20,24 +19,26 @@
     },
     "timeto": {
       "389": 0.2,
-      "3855": 240,
+      "3855": 240.0,
       "32754": 0.2
     },
-    "tags": [
-      "meta:teleport:fwi",
-      "no forageables",
-      "public locker",
-      "publiclockers"
-    ],
-    "uid": [
-      54003
-    ],
     "image": "wl-moot_hall-1486755929.png",
     "image_coords": [
       1191,
       1120,
       1333,
       1180
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:teleport:fwi",
+      "public locker",
+      "publiclockers"
+    ],
+    "uid": [
+      54003
     ]
   }
 }

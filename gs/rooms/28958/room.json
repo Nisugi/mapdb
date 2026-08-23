@@ -1,5 +1,4 @@
 {
-  "checksum": "700e56010f92d956f80f549b90ce5980",
   "room": {
     "id": 28958,
     "title": [
@@ -24,18 +23,20 @@
       "28971": 0.2,
       "28972": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      7121002
-    ],
     "image": "kf-inking_den-1615857364.png",
     "image_coords": [
       432,
       599,
       462,
       621
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      7121002
     ]
   }
 }

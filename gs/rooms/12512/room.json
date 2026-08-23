@@ -1,5 +1,4 @@
 {
-  "checksum": "46a5edcddcc60705b1e6ab2a10e57b87",
   "room": {
     "id": 12512,
     "title": [
@@ -18,19 +17,22 @@
     "timeto": {
       "12511": 0.2
     },
-    "tags": [
-      "treasuremaster",
-      "meta:nomagic"
-    ],
-    "uid": [
-      15001003
-    ],
     "image": "adventurers_guild-1485358936.png",
     "image_coords": [
       1474,
       1918,
       1533,
       1980
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "meta:nomagic",
+      "treasuremaster"
+    ],
+    "uid": [
+      15001003
     ]
   }
 }

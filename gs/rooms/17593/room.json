@@ -1,5 +1,4 @@
 {
-  "checksum": "c9146762c6ed0bcecf0fdf73fb27adc2",
   "room": {
     "id": 17593,
     "title": [
@@ -24,18 +23,19 @@
       "17607": 0.2,
       "18240": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      3216019
-    ],
     "image": "ifw-isle_of_four_winds-1310232949.png",
     "image_coords": [
       673,
       486,
       705,
       513
+    ],
+    "tags": [
+      "meta:nomagic",
+      "no forageables"
+    ],
+    "uid": [
+      3216019
     ]
   }
 }

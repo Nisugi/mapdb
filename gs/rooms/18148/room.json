@@ -1,5 +1,4 @@
 {
-  "checksum": "1a68d160b38bb96c046cd643d2ef14f1",
   "room": {
     "id": 18148,
     "title": [
@@ -16,12 +15,19 @@
     "terrain": "none",
     "wayto": {
       "18142": "out",
-      "30714": "/rooms/18148/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "18142": 0.2,
-      "30714": "/rooms/18148/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "en-ta_illistim-new.jpg",
+    "image_coords": [
+      543,
+      925,
+      566,
+      947
+    ],
     "tags": [
       "debts",
       "meta:forage-sensed",
@@ -32,13 +38,6 @@
     ],
     "uid": [
       13102004
-    ],
-    "image": "en-ta_illistim-new.jpg",
-    "image_coords": [
-      543,
-      925,
-      566,
-      947
     ]
   }
 }

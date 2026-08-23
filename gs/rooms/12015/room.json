@@ -1,5 +1,4 @@
 {
-  "checksum": "17e201ad25447fa909ed369e43c90a24",
   "room": {
     "id": 12015,
     "title": [
@@ -26,20 +25,20 @@
       "12022": 0.2,
       "12026": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:night:2022-11"
-    ],
-    "uid": [
-      17004055
-    ],
     "image": "en-old_ta_faendryl-1716923763.png",
     "image_coords": [
       863,
       557,
       873,
       567
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "wild sage"
+    ],
+    "uid": [
+      17004055
     ]
   }
 }

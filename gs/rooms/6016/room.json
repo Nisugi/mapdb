@@ -1,5 +1,4 @@
 {
-  "checksum": "d8ce717459c04b4d8208bfba860bc468",
   "room": {
     "id": 6016,
     "title": [
@@ -20,14 +19,21 @@
       "6014": "south",
       "6017": "east",
       "6018": "north",
-      "18748": "/rooms/6016/wayto/stringproc-18748.rb"
+      "18748": ";e phase = Spell[704]; unless phase.affordable?; echo 'waiting for mana...'; wait_until { phase.affordable? }; end; phase.cast('shadow')"
     },
     "timeto": {
       "6014": 0.2,
       "6017": 0.2,
       "6018": 0.2,
-      "18748": "/rooms/6016/timeto/stringproc-18748.rb"
+      "18748": ";e Stats.prof == 'Sorcerer' ? 3.0 : nil"
     },
+    "image": "en-victory-1264234799.png",
+    "image_coords": [
+      752,
+      427,
+      762,
+      437
+    ],
     "tags": [
       "acantha leaf",
       "agave heart",
@@ -44,7 +50,7 @@
       "ironfern root",
       "juniper berry",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-09",
       "mistweed",
       "motherwort",
@@ -77,13 +83,6 @@
     ],
     "uid": [
       14005004
-    ],
-    "image": "en-victory-1264234799.png",
-    "image_coords": [
-      752,
-      427,
-      762,
-      437
     ]
   }
 }

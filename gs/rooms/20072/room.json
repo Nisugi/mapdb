@@ -1,5 +1,4 @@
 {
-  "checksum": "f52b0b1d798b7eaee75c5e24ba5eeab8",
   "room": {
     "id": 20072,
     "title": [
@@ -15,7 +14,7 @@
     "location": "the Feymist Cemetery",
     "wayto": {
       "20071": "go steps",
-      "23120": "/rooms/20072/wayto/stringproc-23120.rb"
+      "23120": ";e fput \"search\";move \"go staircase\""
     },
     "timeto": {
       "20071": 0.2,

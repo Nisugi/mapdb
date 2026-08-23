@@ -1,5 +1,4 @@
 {
-  "checksum": "86e7ed80b10addd64c4215eb45b338a2",
   "room": {
     "id": 26897,
     "title": [
@@ -33,12 +32,6 @@
       "31415": 0.2,
       "31417": 0.2
     },
-    "tags": [
-      "no forageables"
-    ],
-    "uid": [
-      8214510
-    ],
     "image": "fest-duskruin-1660957206.png",
     "image_coords": [
       1223,
@@ -46,6 +39,12 @@
       1253,
       1012
     ],
-    "check_location": false
+    "tags": [
+      "no forageables"
+    ],
+    "check_location": false,
+    "uid": [
+      8214510
+    ]
   }
 }

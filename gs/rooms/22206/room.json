@@ -1,5 +1,4 @@
 {
-  "checksum": "cefd7bd1efd5f0bbeba27bdf4502ccf6",
   "room": {
     "id": 22206,
     "title": [
@@ -22,18 +21,21 @@
       "28257": 0.2,
       "33048": 0.2
     },
-    "tags": [
-      "meta:citizenship:Ta'Vaalor"
-    ],
-    "uid": [
-      14119014
-    ],
     "image": "en-ta_vaalor-1260914757.png",
     "image_coords": [
       1579,
       672,
       1615,
       708
+    ],
+    "tags": [
+      "fire lily",
+      "meta:citizenship:Ta'Vaalor",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      14119014
     ]
   }
 }

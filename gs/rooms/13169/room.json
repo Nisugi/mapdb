@@ -1,5 +1,4 @@
 {
-  "checksum": "283a8738bff60661f259aa41c15a0bfd",
   "room": {
     "id": 13169,
     "title": [
@@ -15,28 +14,30 @@
     "wayto": {
       "1276": "north",
       "10837": "go passageway",
-      "30714": "/rooms/13169/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "1276": 0.2,
       "10837": 0.2,
-      "30714": "/rooms/13169/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
-    "tags": [
-      "chronomage",
-      "no forageables",
-      "urchin guide chronomages",
-      "urchin-access"
-    ],
-    "uid": [
-      13112406
-    ],
     "image": "en-ta_illistim-new.jpg",
     "image_coords": [
       1495,
       855,
       1518,
       876
+    ],
+    "tags": [
+      "chronomage",
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "urchin guide chronomages",
+      "urchin-access"
+    ],
+    "uid": [
+      13112406
     ]
   }
 }

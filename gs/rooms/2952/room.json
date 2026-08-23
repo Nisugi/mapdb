@@ -1,5 +1,4 @@
 {
-  "checksum": "479768dcbf67537da281a5b2fbe0c828",
   "room": {
     "id": 2952,
     "title": [
@@ -24,19 +23,20 @@
       "2953": 0.2,
       "2990": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      4132027
-    ],
     "image": "imt-Abbey_Map-1652211219.png",
     "image_coords": [
       266,
       756,
       320,
       808
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      4132027
     ]
   }
 }

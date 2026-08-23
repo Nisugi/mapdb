@@ -1,5 +1,4 @@
 {
-  "checksum": "d2db246ab8bf90deb0dd40cff21e935e",
   "room": {
     "id": 15991,
     "title": [
@@ -15,7 +14,7 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "14070": "/rooms/15991/wayto/stringproc-14070.rb",
+      "14070": ";e fput 'search'; move 'go passage'",
       "15992": "climb ladder",
       "16807": "go stairs"
     },
@@ -24,20 +23,21 @@
       "15992": 0.2,
       "16807": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01",
-      "no forageables"
-    ],
-    "uid": [
-      4750052
-    ],
     "image": "vo-trail-1264234799.png",
     "image_coords": [
       512,
       225,
       522,
       235
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      4750052
     ]
   }
 }

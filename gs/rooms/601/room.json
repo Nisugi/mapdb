@@ -1,5 +1,4 @@
 {
-  "checksum": "1f175ab039da41a7d89d3aa6f309960c",
   "room": {
     "id": 601,
     "title": [
@@ -14,11 +13,11 @@
     "location": "the Shimmarglin Inn",
     "wayto": {
       "598": "west",
-      "30714": "/rooms/601/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "598": 0.2,
-      "30714": "/rooms/601/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "node",

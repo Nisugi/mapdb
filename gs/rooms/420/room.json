@@ -1,5 +1,4 @@
 {
-  "checksum": "cdb2811586553c07bf8a6651733507a3",
   "room": {
     "id": 420,
     "title": [
@@ -18,14 +17,21 @@
       "291": "go gate",
       "419": "north",
       "435": "south",
-      "30708": "/rooms/420/wayto/stringproc-30708.rb"
+      "30708": ";e true"
     },
     "timeto": {
-      "291": "/rooms/420/timeto/stringproc-291.rb",
+      "291": ";e Char.citizenship == \"Wehnimer's Landing\" ? 0.2 : nil",
       "419": 0.2,
       "435": 0.2,
-      "30708": "/rooms/420/timeto/stringproc-30708.rb"
+      "30708": ";e Map[7].timeto['30714'].call;"
     },
+    "image": "wl-gates-1264234799.png",
+    "image_coords": [
+      630,
+      328,
+      640,
+      338
+    ],
     "tags": [
       "acantha leaf",
       "advguard",
@@ -42,6 +48,7 @@
       "dark blue honeyberries",
       "ghost pepper",
       "ginger root",
+      "golden yellow shadesbane",
       "guard",
       "heath aster",
       "hot pepper",
@@ -50,7 +57,7 @@
       "kobold",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
-      "meta:forage-sensed:night:2022-11",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
       "murdroot",
       "murkweed",
@@ -82,13 +89,6 @@
     ],
     "uid": [
       9010
-    ],
-    "image": "wl-gates-1264234799.png",
-    "image_coords": [
-      630,
-      328,
-      640,
-      338
     ]
   }
 }

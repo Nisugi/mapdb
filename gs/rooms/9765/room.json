@@ -1,5 +1,4 @@
 {
-  "checksum": "5162207c2f5780abd75337cc7d8871b4",
   "room": {
     "id": 9765,
     "title": [
@@ -20,19 +19,21 @@
       "9762": 0.2,
       "9764": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      13021037
-    ],
     "image": "en-tower-1264234799.png",
     "image_coords": [
       780,
       201,
       790,
       211
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells",
+      "wild sage"
+    ],
+    "uid": [
+      13021037
     ]
   }
 }

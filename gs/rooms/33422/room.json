@@ -1,5 +1,4 @@
 {
-  "checksum": "be5da8fd3ed6759baa34e5ad9f999238",
   "room": {
     "id": 33422,
     "title": [
@@ -24,6 +23,13 @@
       "33423": 0.2,
       "33426": 0.2
     },
+    "image": "Nereids Cradle.png",
+    "image_coords": [
+      180,
+      140,
+      208,
+      158
+    ],
     "tags": [
       "banana leaf",
       "blackened moss",
@@ -36,6 +42,7 @@
       "grapefruit",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "pepperthorn root",
       "phoenix palm frond",
       "pristine white plumeria",
@@ -50,13 +57,6 @@
     ],
     "uid": [
       1917014
-    ],
-    "image": "Nereids Cradle.png",
-    "image_coords": [
-      180,
-      140,
-      208,
-      158
     ]
   }
 }

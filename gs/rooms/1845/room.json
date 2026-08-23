@@ -1,5 +1,4 @@
 {
-  "checksum": "8cad99d41352d4adca56542d0abeb2e9",
   "room": {
     "id": 1845,
     "title": [
@@ -24,6 +23,13 @@
       "1841": 0.2,
       "1843": 0.2
     },
+    "image": "ti-teras-1264234799.png",
+    "image_coords": [
+      770,
+      746,
+      806,
+      782
+    ],
     "tags": [
       "alligator lily",
       "angelica root",
@@ -43,6 +49,7 @@
       "cumin seeds",
       "daggerstalk mushroom",
       "dill",
+      "fire lily",
       "flathead mushroom",
       "fresh basil",
       "fresh broccoli",
@@ -71,7 +78,9 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "motherwort",
+      "nightbloom blossom",
       "nutmeg",
       "onion skin",
       "orange pepper",
@@ -100,6 +109,7 @@
       "small violet",
       "soft mushroom",
       "sovyn clove",
+      "spider lily",
       "stalk of celery",
       "stalk of monkeyflower",
       "star anise",
@@ -111,10 +121,12 @@
       "tea leaves",
       "tiger lily",
       "tobacco leaves",
+      "trollear mushroom",
       "vanilla bean",
       "wavepetal blossom",
       "white lily",
       "white tea leaves",
+      "wild rice",
       "withered mushroom",
       "yellow lemon",
       "yellow papaya",
@@ -125,13 +137,6 @@
     ],
     "uid": [
       3001005
-    ],
-    "image": "ti-teras-1264234799.png",
-    "image_coords": [
-      770,
-      746,
-      806,
-      782
     ]
   }
 }

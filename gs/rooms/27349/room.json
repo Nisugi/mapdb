@@ -1,5 +1,4 @@
 {
-  "checksum": "371f5f56d36debda485e612ad1995e2f",
   "room": {
     "id": 27349,
     "title": [
@@ -16,11 +15,11 @@
     "terrain": "none",
     "wayto": {
       "1010": "go out",
-      "30712": "/rooms/27349/wayto/stringproc-30712.rb"
+      "30712": ";e true"
     },
     "timeto": {
       "1010": 0.2,
-      "30712": "/rooms/27349/timeto/stringproc-30712.rb"
+      "30712": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "collectibles",

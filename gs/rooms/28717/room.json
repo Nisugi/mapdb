@@ -1,5 +1,4 @@
 {
-  "checksum": "d27b847f8486e409e86af1f1c4f10a5e",
   "room": {
     "id": 28717,
     "title": [
@@ -14,21 +13,22 @@
     "location": "the town of River's Rest",
     "wayto": {
       "10852": "out",
-      "30711": "/rooms/28717/wayto/stringproc-30711.rb"
+      "30711": ";e true"
     },
     "timeto": {
       "10852": 0.2,
-      "30711": "/rooms/28717/timeto/stringproc-30711.rb"
+      "30711": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
+      "fire lily",
       "locksmith pool",
       "locksmithpool",
       "meta:boxpool:npc:slender half-elven woman",
       "meta:boxpool:table:rough walnut table",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2022-09",
+      "meta:forage-sensed:night:2026-08",
       "meta:trashcan:large wooden crate",
-      "no forageables",
       "node",
       "supernode",
       "urchin guide locksmithpool",

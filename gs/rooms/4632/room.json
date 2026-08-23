@@ -1,5 +1,4 @@
 {
-  "checksum": "1020b64c8e7a26acb597906aef50bb57",
   "room": {
     "id": 4632,
     "title": [
@@ -21,8 +20,16 @@
     "timeto": {
       "4613": 0.2
     },
+    "image": "en-sylvarraend-1264234799.png",
+    "image_coords": [
+      465,
+      940,
+      499,
+      973
+    ],
     "tags": [
       "angelica root",
+      "arbutus berry",
       "ayana leaf",
       "black peppercorn",
       "blaestonberries",
@@ -37,6 +44,7 @@
       "cardamom",
       "chives",
       "creamy white wisteria",
+      "crystal-like sylthiel",
       "cumin seeds",
       "curly leaf parsley",
       "daggerstalk mushroom",
@@ -46,11 +54,13 @@
       "ear of corn",
       "fennel bulb",
       "fig",
+      "fire lily",
       "flat-leaf parsley",
       "flathead mushroom",
       "fresh broccoli",
       "garlic",
       "genkew mushroom",
+      "ghostly blue aplixta",
       "golden buttercup",
       "green beans",
       "green cabbage",
@@ -70,12 +80,14 @@
       "luckbloom blossom",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "meta:mapcategory:Elven Nations",
       "meta:mapcategory:Towns",
       "meta:mapname:Elven Nations - Sylvarraend Road",
       "meta:mapshortname:Sylvarraend Road",
       "motherwort",
       "mustard seeds",
+      "nightbloom blossom",
       "node",
       "nutmeg",
       "onion skin",
@@ -103,6 +115,7 @@
       "rhubarb",
       "rose-marrow root",
       "round red radish",
+      "safflower seeds",
       "scallions",
       "shallot",
       "small anemone",
@@ -137,11 +150,14 @@
       "sunflower seeds",
       "sweet onion",
       "tendril of vinca",
+      "thistle seeds",
       "thyme",
       "tiger lily",
+      "trollear mushroom",
       "vanilla bean",
       "vert globe artichoke",
       "viburnum twig",
+      "violet sel'elun vine",
       "wavepetal blossom",
       "white begonia",
       "white datura blossom",
@@ -151,8 +167,10 @@
       "white peony",
       "white ramie",
       "wild pansy blossom",
+      "wild rice",
       "wild spinach",
       "withered mushroom",
+      "yellow carrot",
       "yellow datura blossom",
       "yellow squash",
       "yew twig",
@@ -160,13 +178,6 @@
     ],
     "uid": [
       13050021
-    ],
-    "image": "en-sylvarraend-1264234799.png",
-    "image_coords": [
-      465,
-      940,
-      499,
-      973
     ]
   }
 }

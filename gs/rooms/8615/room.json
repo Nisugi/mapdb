@@ -1,5 +1,4 @@
 {
-  "checksum": "ff15f1a3a361538f16b1d5feb2d91a29",
   "room": {
     "id": 8615,
     "title": [
@@ -22,21 +21,22 @@
       "8616": 0.2,
       "13898": 0.2
     },
-    "tags": [
-      "warrior guild sheet metal",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      3018
-    ],
     "image": "wl-wehnimers-1264234799.png",
     "image_coords": [
       505,
       490,
       514,
       499
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:night:2026-08",
+      "warrior guild sheet metal"
+    ],
+    "uid": [
+      3018
     ]
   }
 }

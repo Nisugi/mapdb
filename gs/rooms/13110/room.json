@@ -1,5 +1,4 @@
 {
-  "checksum": "3f060623da34a10d9af704e7f4fddd8d",
   "room": {
     "id": 13110,
     "title": [
@@ -23,19 +22,20 @@
       "13109": 0.2,
       "13120": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      562006
-    ],
     "image": "vo-outlands-1264234799.png",
     "image_coords": [
       550,
       866,
       560,
       876
+    ],
+    "tags": [
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
+      "stalk of bluebells"
+    ],
+    "uid": [
+      562006
     ]
   }
 }

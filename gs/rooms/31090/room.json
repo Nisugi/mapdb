@@ -1,5 +1,4 @@
 {
-  "checksum": "55e7df568afefc993635b528d384ee16",
   "room": {
     "id": 31090,
     "title": [
@@ -24,6 +23,13 @@
       "31094": 0.2,
       "31095": 0.2
     },
+    "image": "vo-forgotten_vineyard-1653511567.png",
+    "image_coords": [
+      704,
+      1202,
+      751,
+      1251
+    ],
     "tags": [
       "acantha leaf",
       "alder bark",
@@ -37,6 +43,7 @@
       "blueberries",
       "bolmara lichen",
       "bright red teaberry",
+      "bright yellow sunwort",
       "broken twig",
       "brostheras grass",
       "brown-skinned kiwi",
@@ -72,7 +79,7 @@
       "luckbloom blossom",
       "mate leaves",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2025-08",
       "murdroot",
       "nightbloom blossom",
@@ -130,13 +137,6 @@
     ],
     "uid": [
       4225007
-    ],
-    "image": "vo-forgotten_vineyard-1653511567.png",
-    "image_coords": [
-      704,
-      1202,
-      751,
-      1251
     ]
   }
 }

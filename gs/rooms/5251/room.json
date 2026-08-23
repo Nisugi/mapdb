@@ -1,5 +1,4 @@
 {
-  "checksum": "2435137c684fd21ba92d4ec794539296",
   "room": {
     "id": 5251,
     "title": [
@@ -16,7 +15,7 @@
     "climate": "none",
     "terrain": "none",
     "wayto": {
-      "5250": "/rooms/5251/wayto/stringproc-5250.rb",
+      "5250": ";e move 'climb hole'; waitrt?",
       "5653": "northwest",
       "5655": "northeast"
     },
@@ -25,14 +24,22 @@
       "5653": 0.2,
       "5655": 0.2
     },
+    "image": "vo-foggy_valley-1264234799.png",
+    "image_coords": [
+      682,
+      793,
+      692,
+      803
+    ],
     "tags": [
       "birch bark",
       "bur-clover root",
       "ghost pepper",
+      "golden yellow shadesbane",
       "hot pepper",
       "ironfern root",
       "meta:forage-sensed",
-      "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:day:2026-08",
       "murdroot",
       "pepperthorn root",
       "wingstem root",
@@ -40,13 +47,6 @@
     ],
     "uid": [
       4006007
-    ],
-    "image": "vo-foggy_valley-1264234799.png",
-    "image_coords": [
-      682,
-      793,
-      692,
-      803
     ]
   }
 }

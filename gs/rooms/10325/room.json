@@ -1,5 +1,4 @@
 {
-  "checksum": "112722eda8be5d47567f71521a82c8c7",
   "room": {
     "id": 10325,
     "title": [
@@ -14,11 +13,11 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "10324": "out",
-      "30713": "/rooms/10325/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "10324": 0.2,
-      "30713": "/rooms/10325/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "bank",

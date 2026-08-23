@@ -1,5 +1,4 @@
 {
-  "checksum": "57591aa2fd7df5f8c33cec378beaf5fa",
   "room": {
     "id": 10367,
     "title": [
@@ -14,11 +13,11 @@
     "location": "Ta'Vaalor",
     "wayto": {
       "3526": "out",
-      "30713": "/rooms/10367/wayto/stringproc-30713.rb"
+      "30713": ";e true"
     },
     "timeto": {
       "3526": 0.2,
-      "30713": "/rooms/10367/timeto/stringproc-30713.rb"
+      "30713": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "no forageables",

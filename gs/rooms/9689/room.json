@@ -1,5 +1,4 @@
 {
-  "checksum": "51e5f251a5a6a2c4e215c0ca8921424b",
   "room": {
     "id": 9689,
     "title": [
@@ -20,19 +19,20 @@
       "9688": 0.2,
       "17153": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed"
-    ],
-    "uid": [
-      14051008
-    ],
     "image": "en-cysaegir-1679641246.png",
     "image_coords": [
       565,
       784,
       589,
       809
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      14051008
     ]
   }
 }

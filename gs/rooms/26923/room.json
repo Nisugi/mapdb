@@ -1,5 +1,4 @@
 {
-  "checksum": "25b5ea6129ab0fbb414031a6461e2bd3",
   "room": {
     "id": 26923,
     "title": [
@@ -24,20 +23,21 @@
       "33155": 0.2,
       "36006": 0.2
     },
-    "tags": [
-      "meta:forage-sensed",
-      "no forageables",
-      "peer door =~ /White Haven|Helden Hall/"
-    ],
-    "uid": [
-      7121206
-    ],
     "image": "kf-inking_den-1615857364.png",
     "image_coords": [
       715,
       317,
       743,
       342
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:night:2026-08",
+      "peer door =~ /White Haven|Helden Hall/"
+    ],
+    "uid": [
+      7121206
     ]
   }
 }

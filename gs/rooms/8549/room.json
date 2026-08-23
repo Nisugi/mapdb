@@ -1,5 +1,4 @@
 {
-  "checksum": "7d5ee28f114291a72fcdeae3cf0d0427",
   "room": {
     "id": 8549,
     "title": [
@@ -16,12 +15,19 @@
     "terrain": "rough",
     "wayto": {
       "8546": "northwest",
-      "8550": "/rooms/8549/wayto/stringproc-8550.rb"
+      "8550": ";e move 'climb rubble'"
     },
     "timeto": {
       "8546": 0.2,
       "8550": 5.2
     },
+    "image": "wl-trollfang-1264234799.png",
+    "image_coords": [
+      1235,
+      705,
+      1245,
+      715
+    ],
     "tags": [
       "bright red teaberry",
       "broken twig",
@@ -39,13 +45,6 @@
     ],
     "uid": [
       10101
-    ],
-    "image": "wl-trollfang-1264234799.png",
-    "image_coords": [
-      1235,
-      705,
-      1245,
-      715
     ]
   }
 }

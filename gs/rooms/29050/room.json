@@ -1,5 +1,4 @@
 {
-  "checksum": "e58f631dcbb0f9abb4547e3820576bff",
   "room": {
     "id": 29050,
     "title": [
@@ -24,6 +23,13 @@
       "29051": 0.2,
       "30811": 0.2
     },
+    "image": "kf-widowmakers_road-1668643957.png",
+    "image_coords": [
+      262,
+      318,
+      276,
+      331
+    ],
     "tags": [
       "alpine violet",
       "ambrominas leaf",
@@ -70,6 +76,7 @@
       "mate leaves",
       "meta:forage-sensed",
       "meta:forage-sensed:day:2026-03",
+      "meta:forage-sensed:night:2026-08",
       "monkey grass",
       "motherwort",
       "murdroot",
@@ -143,13 +150,6 @@
     ],
     "uid": [
       7119116
-    ],
-    "image": "kf-widowmakers_road-1668643957.png",
-    "image_coords": [
-      262,
-      318,
-      276,
-      331
     ]
   }
 }

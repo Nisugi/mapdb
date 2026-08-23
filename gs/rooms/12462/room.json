@@ -1,5 +1,4 @@
 {
-  "checksum": "1a2bc8860d7603c0357dbb3b8ca686fd",
   "room": {
     "id": 12462,
     "title": [
@@ -24,20 +23,21 @@
       "12463": 0.2,
       "12468": 0.2
     },
-    "tags": [
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2023-01"
-    ],
-    "uid": [
-      703114
-    ],
     "image": "ti-rr-homes-1264234799.png",
     "image_coords": [
       866,
       473,
       884,
       491
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2023-01",
+      "meta:forage-sensed:night:2026-08"
+    ],
+    "uid": [
+      703114
     ]
   }
 }

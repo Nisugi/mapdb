@@ -1,5 +1,4 @@
 {
-  "checksum": "157aedf2b84bf77bef99e18d9a3b8249",
   "room": {
     "id": 13241,
     "title": [
@@ -17,19 +16,21 @@
     "terrain": "none",
     "wayto": {
       "640": "out",
-      "30714": "/rooms/13241/wayto/stringproc-30714.rb"
+      "30714": ";e true"
     },
     "timeto": {
       "640": 0.2,
-      "30714": "/rooms/13241/timeto/stringproc-30714.rb"
+      "30714": ";e Map[7].timeto['30714'].call;"
     },
     "tags": [
       "meta:forage-sensed",
+      "meta:forage-sensed:day:2026-08",
       "meta:forage-sensed:night:2022-11",
-      "no forageables",
       "npchealer",
+      "stalk of bluebells",
       "urchin guide healer",
-      "urchin-access"
+      "urchin-access",
+      "wild sage"
     ],
     "uid": [
       13104201

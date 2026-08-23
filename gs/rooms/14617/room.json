@@ -1,5 +1,4 @@
 {
-  "checksum": "02ac2ef2ba759a2471c76c1a9e2a747c",
   "room": {
     "id": 14617,
     "title": [
@@ -20,21 +19,22 @@
       "14616": 0.2,
       "20788": 0.2
     },
-    "tags": [
-      "omnishrine",
-      "no forageables",
-      "meta:forage-sensed",
-      "meta:forage-sensed:day:2022-11"
-    ],
-    "uid": [
-      210010
-    ],
     "image": "wl-house_sovyn-11481362649.png",
     "image_coords": [
       288,
       1028,
       455,
       1116
+    ],
+    "tags": [
+      "fire lily",
+      "meta:forage-sensed",
+      "meta:forage-sensed:day:2022-11",
+      "meta:forage-sensed:night:2026-08",
+      "omnishrine"
+    ],
+    "uid": [
+      210010
     ]
   }
 }
