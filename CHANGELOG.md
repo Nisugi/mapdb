@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.5.0](https://github.com/Nisugi/mapdb/compare/v0.4.0...v0.5.0) (2026-08-23)
+
+
+### Features
+
+* **rooms:** update 14292 rooms via cartographer ([0a80bc6](https://github.com/Nisugi/mapdb/commit/0a80bc6b59e5cbdb1ba8f09a9f336980368c20e3))
+* **rooms:** update 14292 rooms via cartographer ([4f87b84](https://github.com/Nisugi/mapdb/commit/4f87b8460ac76971aaa8f542bcfe4a95fda6b298))
+* **rooms:** update 2483 rooms via cartographer ([8c8a164](https://github.com/Nisugi/mapdb/commit/8c8a164ab81da35c8df73b92b91233875cea4131))
+* **rooms:** update 2483 rooms via cartographer ([7333fae](https://github.com/Nisugi/mapdb/commit/7333fae5512cf3145c74e8f409435c98a417395d))
+
 ## [0.4.0](https://github.com/Nisugi/mapdb/compare/v0.3.0...v0.4.0) (2026-07-23)
 
 
